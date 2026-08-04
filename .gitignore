@@ -1,0 +1,60 @@
+# === MikaMike backend — .gitignore ===
+
+# Secrets / env (JAMAIS committer)
+.env
+.env.*
+!.env.example
+*.env
+mika.env
+secrets/
+*.pem
+*.key
+*.crt
+*_secret*
+*token*
+
+# Bases de données locales / données réelles
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+data/
+/data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# venvs
+.venv/
+venv/
+env/
+ENV/
+
+# Tests / couverture
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.mypy_cache/
+.ruff_cache/
+
+# Node (si outillage front ajouté)
+node_modules/
+.next/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs / temporaires
+*.log
+tmp/
