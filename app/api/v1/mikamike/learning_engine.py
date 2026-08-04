@@ -91,11 +91,21 @@ def pseudonymiser_code(code_eleve: str, secret: Optional[str] = None) -> str:
     return hmac.new(secret.encode("utf-8"), code_eleve.encode("utf-8"), hashlib.sha256).hexdigest()[:16]
 
 
+from app.api.v1.parcours.curriculum_dataset import CURRICULA_DATA
+
+def _build_full_graph():
+    g = {}
+    for (level, subject), notions in CURRICULA_DATA.items():
+        if subject == "maths":
+            for n in notions:
+                g[n.notion_id] = n.prerequisite_ids
+    return g
+
 class LearningEngine:
     """Moteur gérant les états de maîtrise, les prérequis et le diagnostic d'escalier."""
 
     def __init__(self, graphe_prerequis: Optional[Dict[str, List[str]]] = None):
-        self.graphe = graphe_prerequis or GRAPHE_MATHS_COLLEGE
+        self.graphe = graphe_prerequis or _build_full_graph()
         # Stockage en mémoire (simulant la persistance base de données)
         self.etats_eleves: Dict[Tuple[str, str], EtatMaitrise] = {}  # (eleve_pseudo, competence) -> EtatMaitrise
         self.historique_events: List[LeEvent] = []

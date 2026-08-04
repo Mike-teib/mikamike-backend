@@ -1,0 +1,16 @@
+{
+  "pseudo_id": "anon-preuve-juste",
+  "statistiques_pedagogiques": {
+    "exercices_tentes": 1,
+    "exercices_reussis": 1,
+    "taux_reussite": 1.0,
+    "competences": {
+      "maths_5e_04": {
+        "tentatives": 1,
+        "reussites": 1,
+        "etat": "EN_COURS"
+      }
+    },
+    "niveau_actuel": "0/1 competences consolidees"
+  }
+}

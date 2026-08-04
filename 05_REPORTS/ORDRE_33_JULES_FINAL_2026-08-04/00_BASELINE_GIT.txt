@@ -1,0 +1,80 @@
+pwd
+/app
+git remote -v
+origin	https://github.com/Mike-teib/mikamike-backend (fetch)
+origin	https://github.com/Mike-teib/mikamike-backend (push)
+git branch --show-current
+jules-8418647428861334336-3d200dea
+git rev-parse HEAD
+232e464de26e223dad06021f2ddd03ebf4e8151c
+git status
+On branch jules-8418647428861334336-3d200dea
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	05_REPORTS/
+	generate_baseline.sh
+
+nothing added to commit but untracked files present (use "git add" to track)
+git log -5 --oneline --decorate
+232e464 (grafted, HEAD -> jules-8418647428861334336-3d200dea, origin/main, origin/HEAD, main) security: remove weak secret fallbacks before Jules handoff
+git ls-files
+.gitignore
+A_CABLER_ESCALIER.md
+A_CABLER_RGPD.md
+A_CABLER_SECU.md
+INVENTAIRE_DEPOT_PREPARE.md
+INVENTAIRE_SOURCE.md
+LISTE_FICHIERS_NON_COPIES.md
+RAPPORT_SECRETS_EXCLUS.md
+RAPPORT_TESTS_AVANT_JULES.md
+README.md
+SHA256_DEPOT_PREPARE.txt
+SHA256_SOURCE.txt
+app/__init__.py
+app/api/__init__.py
+app/api/v1/__init__.py
+app/api/v1/escalier/__init__.py
+app/api/v1/escalier/orchestrator.py
+app/api/v1/escalier/router.py
+app/api/v1/memory/__init__.py
+app/api/v1/memory/router.py
+app/api/v1/memory/spaced_repetition.py
+app/api/v1/mikamike/__init__.py
+app/api/v1/mikamike/catalogue.py
+app/api/v1/mikamike/crud.py
+app/api/v1/mikamike/learning_engine.py
+app/api/v1/mikamike/router.py
+app/api/v1/mikamike/schemas.py
+app/api/v1/mikamike/store.py
+app/api/v1/parcours/curriculum_dataset.py
+app/api/v1/parcours/router.py
+app/api/v1/rgpd/__init__.py
+app/api/v1/rgpd/router.py
+app/api/v1/security/__init__.py
+app/api/v1/security/fail_closed.py
+app/api/v1/session/__init__.py
+app/api/v1/session/router.py
+app/api/v1/session/session_manager.py
+app/core/__init__.py
+app/core/security_config.py
+junit_pre_jules.xml
+main.py
+paiement_comptes/__init__.py
+paiement_comptes/crud_billing.py
+paiement_comptes/database.py
+paiement_comptes/models_billing.py
+paiement_comptes/router_comptes.py
+paiement_comptes/router_paiement.py
+requirements.txt
+tests_mika/conftest.py
+tests_mika/test_escalier_orchestrator.py
+tests_mika/test_learning_engine_graph.py
+tests_mika/test_learning_engine_staging.py
+tests_mika/test_mika_suite.py
+tests_mika/test_rgpd_export.py
+tests_mika/test_security_config.py
+tests_mika/test_security_fail_closed.py
+tests_mika/test_session_robustness.py
+tests_mika/test_spaced_repetition.py
+tests_paiement/conftest.py
+tests_paiement/test_paiement_suite.py

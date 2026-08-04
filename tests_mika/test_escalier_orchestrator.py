@@ -33,14 +33,14 @@ def test_etape1_objectif_demarrage():
     try:
         orch = OrchestrateurEscalier(db, "eleve_test_etape1")
         res = orch.executer_pipeline_8_etapes(
-            competence_objectif="equations_1er_degre",
-            exercice_id="exo-maths-algebre-1"
+            competence_objectif="maths_5e_04",
+            exercice_id="exo-maths_5e_04-0"
         )
         assert res["etape_courante"] == 1
         assert res["nom_etape"] == "OBJECTIF"
-        assert res["competence_objectif"] == "equations_1er_degre"
+        assert res["competence_objectif"] == "maths_5e_04"
         assert res["est_correct"] is None
-        assert res["details_pipeline_8_etapes"]["1_objectif"] == "equations_1er_degre"
+        assert res["details_pipeline_8_etapes"]["1_objectif"] == "maths_5e_04"
     finally:
         db.close()
 
@@ -55,8 +55,8 @@ def test_etapes_2_a_5_erreur_et_remontee_prerequis():
     try:
         orch = OrchestrateurEscalier(db, "eleve_test_erreur")
         res = orch.executer_pipeline_8_etapes(
-            competence_objectif="equations_1er_degre",
-            exercice_id="exo-maths-algebre-1",
+            competence_objectif="maths_5e_04",
+            exercice_id="exo-maths_5e_04-0",
             reponse_eleve="x = 999"  # Faux
         )
 
@@ -77,9 +77,9 @@ def test_etape6_verification_moteur_et_le06_aide():
     try:
         orch = OrchestrateurEscalier(db, "eleve_test_aide")
         res = orch.executer_pipeline_8_etapes(
-            competence_objectif="equations_1er_degre",
-            exercice_id="exo-maths-algebre-1",
-            reponse_eleve="3",  # Correct
+            competence_objectif="maths_5e_04",
+            exercice_id="exo-maths_5e_04-0",
+            reponse_eleve="oui",  # Correct
             avec_aide=True
         )
 
@@ -102,9 +102,9 @@ def test_etape7_et_8_reussite_retour_objectif_et_memoire():
     try:
         orch = OrchestrateurEscalier(db, pseudo_id)
         res = orch.executer_pipeline_8_etapes(
-            competence_objectif="equations_1er_degre",
-            exercice_id="exo-maths-algebre-1",
-            reponse_eleve="3",  # Correct sans aide
+            competence_objectif="maths_5e_04",
+            exercice_id="exo-maths_5e_04-0",
+            reponse_eleve="oui",  # Correct sans aide
             avec_aide=False
         )
 
@@ -119,7 +119,7 @@ def test_etape7_et_8_reussite_retour_objectif_et_memoire():
         assert tentatives[0].est_correct is True
 
         etats = crud.get_etats(db, eleve_hmac)
-        assert "equations_1er_degre" in etats
+        assert "maths_5e_04" in etats
     finally:
         db.close()
 
@@ -128,9 +128,9 @@ def test_endpoint_api_escalier_etape():
     """Test HTTP POST /api/v1/escalier/etape via FastAPI TestClient."""
     payload = {
         "student_pseudo_id": "eleve_api_test",
-        "competence_objectif": "equations_1er_degre",
-        "exercice_id": "exo-maths-algebre-1",
-        "reponse_eleve": "3",
+        "competence_objectif": "maths_5e_04",
+        "exercice_id": "exo-maths_5e_04-0",
+        "reponse_eleve": "oui",
         "avec_aide": False
     }
 

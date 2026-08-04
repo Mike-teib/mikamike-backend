@@ -1,0 +1,826 @@
+{
+  "total_exercices": 164,
+  "remediations": [
+    {
+      "exercice": "exo-maths_prim_01-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_prim_01-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_prim_01-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_prim_01-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_prim_02-0",
+      "prerequis": "exo-maths_prim_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_02-1",
+      "prerequis": "exo-maths_prim_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_02-2",
+      "prerequis": "exo-maths_prim_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_02-3",
+      "prerequis": "exo-maths_prim_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_03-0",
+      "prerequis": "exo-maths_prim_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_03-1",
+      "prerequis": "exo-maths_prim_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_03-2",
+      "prerequis": "exo-maths_prim_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_03-3",
+      "prerequis": "exo-maths_prim_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_04-0",
+      "prerequis": "exo-maths_prim_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_04-1",
+      "prerequis": "exo-maths_prim_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_04-2",
+      "prerequis": "exo-maths_prim_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_04-3",
+      "prerequis": "exo-maths_prim_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_05-0",
+      "prerequis": "exo-maths_prim_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_05-1",
+      "prerequis": "exo-maths_prim_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_05-2",
+      "prerequis": "exo-maths_prim_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_prim_05-3",
+      "prerequis": "exo-maths_prim_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_01-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_6e_01-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_6e_01-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_6e_01-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_6e_02-0",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_02-1",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_02-2",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_02-3",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_03-0",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_03-1",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_03-2",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_03-3",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_04-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_6e_04-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_6e_04-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_6e_04-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_6e_05-0",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_05-1",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_05-2",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_6e_05-3",
+      "prerequis": "exo-maths_6e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_01-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_5e_01-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_5e_01-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_5e_01-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_5e_02-0",
+      "prerequis": "exo-maths_5e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_02-1",
+      "prerequis": "exo-maths_5e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_02-2",
+      "prerequis": "exo-maths_5e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_02-3",
+      "prerequis": "exo-maths_5e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_03-0",
+      "prerequis": "exo-maths_5e_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_03-1",
+      "prerequis": "exo-maths_5e_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_03-2",
+      "prerequis": "exo-maths_5e_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_03-3",
+      "prerequis": "exo-maths_5e_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_04-0",
+      "prerequis": "exo-maths_5e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_04-1",
+      "prerequis": "exo-maths_5e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_04-2",
+      "prerequis": "exo-maths_5e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_04-3",
+      "prerequis": "exo-maths_5e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_05-0",
+      "prerequis": "exo-maths_5e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_05-1",
+      "prerequis": "exo-maths_5e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_05-2",
+      "prerequis": "exo-maths_5e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_05-3",
+      "prerequis": "exo-maths_5e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_5e_06-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_5e_06-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_5e_06-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_5e_06-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_01-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_01-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_01-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_01-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_02-0",
+      "prerequis": "exo-maths_4e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_4e_02-1",
+      "prerequis": "exo-maths_4e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_4e_02-2",
+      "prerequis": "exo-maths_4e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_4e_02-3",
+      "prerequis": "exo-maths_4e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_4e_03-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_03-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_03-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_03-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_04-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_04-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_04-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_04-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_05-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_05-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_05-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_4e_05-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_3e_01-0",
+      "prerequis": "exo-maths_4e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_01-1",
+      "prerequis": "exo-maths_4e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_01-2",
+      "prerequis": "exo-maths_4e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_01-3",
+      "prerequis": "exo-maths_4e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_02-0",
+      "prerequis": "exo-maths_4e_04-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_02-1",
+      "prerequis": "exo-maths_4e_04-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_02-2",
+      "prerequis": "exo-maths_4e_04-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_02-3",
+      "prerequis": "exo-maths_4e_04-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_03-0",
+      "prerequis": "exo-maths_4e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_03-1",
+      "prerequis": "exo-maths_4e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_03-2",
+      "prerequis": "exo-maths_4e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_03-3",
+      "prerequis": "exo-maths_4e_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_04-0",
+      "prerequis": "exo-maths_4e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_04-1",
+      "prerequis": "exo-maths_4e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_04-2",
+      "prerequis": "exo-maths_4e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_04-3",
+      "prerequis": "exo-maths_4e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_3e_05-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_3e_05-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_3e_05-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_3e_05-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_2de_01-0",
+      "prerequis": "exo-maths_3e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_01-1",
+      "prerequis": "exo-maths_3e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_01-2",
+      "prerequis": "exo-maths_3e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_01-3",
+      "prerequis": "exo-maths_3e_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_02-0",
+      "prerequis": "exo-maths_2de_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_02-1",
+      "prerequis": "exo-maths_2de_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_02-2",
+      "prerequis": "exo-maths_2de_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_02-3",
+      "prerequis": "exo-maths_2de_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_03-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_2de_03-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_2de_03-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_2de_03-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_2de_04-0",
+      "prerequis": "exo-maths_2de_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_04-1",
+      "prerequis": "exo-maths_2de_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_04-2",
+      "prerequis": "exo-maths_2de_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_04-3",
+      "prerequis": "exo-maths_2de_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_2de_05-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_2de_05-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_2de_05-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_2de_05-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_1re_01-0",
+      "prerequis": "exo-maths_2de_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_01-1",
+      "prerequis": "exo-maths_2de_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_01-2",
+      "prerequis": "exo-maths_2de_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_01-3",
+      "prerequis": "exo-maths_2de_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_02-0",
+      "prerequis": "exo-maths_2de_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_02-1",
+      "prerequis": "exo-maths_2de_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_02-2",
+      "prerequis": "exo-maths_2de_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_02-3",
+      "prerequis": "exo-maths_2de_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_03-0",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_1re_03-1",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_1re_03-2",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_1re_03-3",
+      "prerequis": null,
+      "status": "AUCUN"
+    },
+    {
+      "exercice": "exo-maths_1re_04-0",
+      "prerequis": "exo-maths_2de_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_04-1",
+      "prerequis": "exo-maths_2de_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_04-2",
+      "prerequis": "exo-maths_2de_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_04-3",
+      "prerequis": "exo-maths_2de_03-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_05-0",
+      "prerequis": "exo-maths_2de_05-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_05-1",
+      "prerequis": "exo-maths_2de_05-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_05-2",
+      "prerequis": "exo-maths_2de_05-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_1re_05-3",
+      "prerequis": "exo-maths_2de_05-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_01-0",
+      "prerequis": "exo-maths_1re_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_01-1",
+      "prerequis": "exo-maths_1re_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_01-2",
+      "prerequis": "exo-maths_1re_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_01-3",
+      "prerequis": "exo-maths_1re_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_02-0",
+      "prerequis": "exo-maths_tle_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_02-1",
+      "prerequis": "exo-maths_tle_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_02-2",
+      "prerequis": "exo-maths_tle_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_02-3",
+      "prerequis": "exo-maths_tle_01-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_03-0",
+      "prerequis": "exo-maths_tle_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_03-1",
+      "prerequis": "exo-maths_tle_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_03-2",
+      "prerequis": "exo-maths_tle_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_03-3",
+      "prerequis": "exo-maths_tle_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_04-0",
+      "prerequis": "exo-maths_tle_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_04-1",
+      "prerequis": "exo-maths_tle_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_04-2",
+      "prerequis": "exo-maths_tle_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_04-3",
+      "prerequis": "exo-maths_tle_02-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_05-0",
+      "prerequis": "exo-maths_1re_04-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_05-1",
+      "prerequis": "exo-maths_1re_04-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_05-2",
+      "prerequis": "exo-maths_1re_04-0",
+      "status": "VALIDE"
+    },
+    {
+      "exercice": "exo-maths_tle_05-3",
+      "prerequis": "exo-maths_1re_04-0",
+      "status": "VALIDE"
+    }
+  ],
+  "cycles_detectes": []
+}

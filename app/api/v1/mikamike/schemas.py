@@ -18,7 +18,7 @@ class SoumissionIn(BaseModel):
 
 class Remediation(BaseModel):
     explication_concept: str
-    exercice_prerequis: str
+    exercice_prerequis: Optional[str] = None
     competence_lacune: Optional[str] = None
 
 
@@ -35,7 +35,9 @@ class DashboardOut(BaseModel):
 
 
 class ProchaineEtapeOut(BaseModel):
-    exercice_id: str
+    student_pseudo_id: str
     niveau: str
-    competence: str
+    notion_id: str
+    exercice_id: str
     consigne: str
+    competence: Optional[str] = None
