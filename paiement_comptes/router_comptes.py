@@ -33,7 +33,10 @@ try:
 except Exception:  # pragma: no cover
     jwt = None  # type: ignore
 
-_JWT_SECRET = os.environ.get("MIKA_JWT_SECRET", "")
+# Fail-closed, aucun repli : refus au chargement si MIKA_JWT_SECRET absent/invalide.
+from app.core.security_config import get_jwt_secret as _get_jwt_secret
+
+_JWT_SECRET = _get_jwt_secret()
 _JWT_ALGO = "HS256"
 _TOKEN_TTL_H = int(os.environ.get("MIKA_TOKEN_TTL_H", "168"))  # 7 jours
 

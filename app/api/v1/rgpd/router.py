@@ -18,7 +18,9 @@ from sqlalchemy.orm import Session
 from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice, get_db
 
-_PSEUDO_SECRET = os.getenv("MIKA_PSEUDO_SECRET", "mikamike_secret_key_2026")
+from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
+
+_PSEUDO_SECRET = _get_pseudo_secret()
 
 
 def _hmac(student_pseudo_id: str) -> str:

@@ -15,7 +15,9 @@ from sqlalchemy import Column, String, Integer, Boolean, DateTime, Float, create
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
 
 # Secret HMAC pour la pseudonymisation
-_PSEUDO_SECRET = os.getenv("MIKA_PSEUDO_SECRET", "mikamike_secret_key_2026")
+from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
+
+_PSEUDO_SECRET = _get_pseudo_secret()
 
 # SQLAlchemy Base dédiée aux tâches de rappel mémoire
 MemoryBase = declarative_base()

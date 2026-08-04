@@ -1,17 +1,19 @@
 # === MikaMike backend — .gitignore ===
 
-# Secrets / env (JAMAIS committer)
+# Secrets / env (exclusions CIBLÉES — pas de motif trop large type *_secret*)
 .env
 .env.*
 !.env.example
-*.env
 mika.env
 secrets/
-*.pem
+*.secret
 *.key
-*.crt
-*_secret*
-*token*
+*.pem
+*.p12
+*.pfx
+credentials.json
+credentials-*.json
+service-account*.json
 
 # Bases de données locales / données réelles
 *.db
@@ -23,6 +25,7 @@ data/
 
 # Python
 __pycache__/
+*.pyc
 *.py[cod]
 *$py.class
 *.egg-info/
@@ -40,6 +43,7 @@ ENV/
 .pytest_cache/
 .coverage
 .coverage.*
+coverage/
 htmlcov/
 coverage.xml
 .mypy_cache/

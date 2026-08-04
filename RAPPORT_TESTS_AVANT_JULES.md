@@ -1,37 +1,43 @@
 # RAPPORT_TESTS_AVANT_JULES — MikaMike backend
 
-- **Date** : 2026-08-04 (UTC)
-- **Emplacement** : `D:\DEV\PROJETS\MIKAMIKE_BACKEND_REPO\`
+- **Date / heure** : 2026-08-04 11:36:58 (heure locale UTC+2)
+- **Répertoire d'exécution** : `D:\DEV\PROJETS\MIKAMIKE_BACKEND_REPO\`
 - **Environnement** : Windows, Python 3.14.5, pytest 9.0.3 ; `PYTHONPATH=<dépôt>`.
-- **Tests NON modifiés** (exécutés tels quels après copie).
+- **Branche** : `fix/pre-jules-security`
+- **Tests NON modifiés / NON affaiblis** ; aucun test supprimé, ignoré ou transformé en xfail.
 
-## Commande exacte
+> **Périmètre** : contrôle exclusivement local. La configuration réelle du VPS,
+> du staging et de la production n'a pas été consultée pendant cette mission.
+
+## Commandes exactes
 ```
-python -m pytest tests_mika/ tests_paiement/ -q
+python -m pytest -vv
+python -m pytest -vv --junitxml=junit_pre_jules.xml
 ```
 
-## Résultat
+## Résultat (rapport JUnit `junit_pre_jules.xml`)
 ```
-54 passed, 29 warnings in 6.46s
+tests=62  failures=0  errors=0  skipped=0  time=6.45s
+62 passed, 29 warnings
 ```
-- **Réussis : 54**
-- **Échecs : 0**
-- **Collectés : 54** (vérifié via `--collect-only`)
-- **Warnings : 29** — dépréciations non bloquantes (`datetime.utcnow()`, `HTTP_413_*`, `TestClient httpx`). Aucun impact fonctionnel.
+- **Réussis : 62** (avant correction : 54 — voir ci-dessous)
+- **Échecs : 0** · **Erreurs : 0** · **Skip/xfail : 0**
+- **Durée : ~6.45 s**
+- **Warnings : 29** — dépréciations non bloquantes (`datetime.utcnow()`, `HTTP_413_*`,
+  `TestClient httpx`). Aucun impact fonctionnel.
 
-## Périmètre des tests
-| Fichier | Couvre |
-|---|---|
-| `tests_mika/test_mika_suite.py` | exercices/soumettre, parents/dashboard (sans PII), parcours |
-| `tests_mika/test_learning_engine_graph.py`, `test_learning_engine_staging.py` | moteur escalier / prérequis |
-| `tests_mika/test_escalier_orchestrator.py` | orchestrateur escalier |
-| `tests_mika/test_spaced_repetition.py` | mémoire / répétition espacée |
-| `tests_mika/test_session_robustness.py` | sessions (timeout, robustesse) |
-| `tests_mika/test_rgpd_export.py` | export RGPD |
-| `tests_mika/test_security_fail_closed.py` | garde-fous sécurité (fail-closed, 413) |
-| `tests_paiement/test_paiement_suite.py` | inscription/connexion (JWT), /moi, paiement/statut, garde checkout |
+## Évolution du nombre de tests
+- Avant correction : **54** tests.
+- Après correction : **62** tests = 54 historiques (tous conservés, non affaiblis)
+  **+ 8 nouveaux tests fail-closed** (`tests_mika/test_security_config.py`).
 
-## Note
-Les tests génèrent des SQLite temporaires + `__pycache__` durant l'exécution ; ils ont été **nettoyés** après coup (dépôt laissé pristine, et de toute façon ignorés par `.gitignore`).
+## Nouveaux tests de sécurité (fail-closed)
+1. secret JWT absent → refusé ; 2. secret pseudo absent → refusé ; 3. valeur vide → refusée ;
+4. valeur faible/générique/littéral historique → refusée ; 5. secrets de test valides → app chargée ;
+6. la valeur du secret n'apparaît pas dans le message d'erreur ; 7. le littéral historique n'existe plus
+dans le code exécutable ; 8. `MIKA_PSEUDO_SECRET` et `MIKA_JWT_SECRET` restent distincts (aucun repli).
 
-**VERDICT TESTS : 54/54 PASS — vert avant remise à Jules.**
+## Preuve
+`junit_pre_jules.xml` (racine du dépôt) — vérifié sans secret ni donnée sensible.
+
+**VERDICT TESTS : 62/62 PASS, 0 failed, 0 skip/xfail ajouté.**

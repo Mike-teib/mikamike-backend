@@ -18,7 +18,9 @@ from fastapi import HTTPException, status
 from sqlalchemy import Column, String, Boolean, DateTime, Text, select
 from sqlalchemy.orm import declarative_base, Session
 
-_PSEUDO_SECRET = os.getenv("MIKA_PSEUDO_SECRET", "mikamike_secret_key_2026")
+from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
+
+_PSEUDO_SECRET = _get_pseudo_secret()
 INACTIVITY_TIMEOUT_SECONDS = 300  # 5 minutes d'inactivité
 
 SessionBase = declarative_base()

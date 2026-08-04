@@ -15,7 +15,8 @@ os.environ.setdefault(
 os.environ.setdefault(
     "BILLING_DB_URL", "sqlite:///" + os.path.join(tempfile.gettempdir(), "billing_backend_test.db")
 )
-os.environ.setdefault("MIKA_JWT_SECRET", "test-jwt-secret-autonome")
+os.environ.setdefault("MIKA_JWT_SECRET", "test-jwt-secret-not-for-prod-0123456789")
+os.environ.setdefault("MIKA_PSEUDO_SECRET", "test-pseudo-secret-not-for-prod-0123456789")
 
 import pytest  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402

@@ -24,8 +24,10 @@ try:
 except ImportError:
     jwt = None
 
-# Secret d'authentification pour JWT
-_JWT_SECRET = os.getenv("MIKA_JWT_SECRET", os.getenv("MIKA_PSEUDO_SECRET", "mikamike_secret_key_2026"))
+# Secret d'authentification pour JWT (fail-closed, aucun repli ; distinct du pseudo-secret)
+from app.core.security_config import get_jwt_secret as _get_jwt_secret
+
+_JWT_SECRET = _get_jwt_secret()
 _JWT_ALGORITHM = "HS256"
 
 # Seuil maximal strict pour payload OCR : 2 Mo (2 * 1024 * 1024 octets)

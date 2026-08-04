@@ -38,8 +38,10 @@ except Exception:  # pragma: no cover
     stripe = None  # type: ignore
 
 
-_STRIPE_SECRET = os.environ.get("STRIPE_SECRET_KEY", "")
-_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET", "")
+# Pas de valeur de secours pour les secrets Stripe (None si non configuré ->
+# garde _exiger_stripe() renvoie 500 explicite ; Stripe reste optionnel).
+_STRIPE_SECRET = os.environ.get("STRIPE_SECRET_KEY")
+_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET")
 _PRICE_ID = os.environ.get("STRIPE_PRICE_ID", "")
 _APP_URL = os.environ.get("MIKA_APP_URL", "http://localhost:3012").rstrip("/")
 

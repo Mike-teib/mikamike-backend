@@ -14,8 +14,9 @@ from enum import Enum
 from typing import Dict, List, Optional, Set, Tuple
 from pydantic import BaseModel, Field
 
-# Secret par défaut pour la pseudonymisation RGPD (LE-01)
-PSEUDO_SECRET_DEFAULT = "mikamike_secret_key_2026"
+# Aucune valeur par défaut de secret dans le code (fail-closed) : le sel de
+# pseudonymisation est fourni par l'appelant, ou lu et validé via
+# app.core.security_config.get_pseudo_secret quand il n'est pas passé.
 
 
 class EtatMaitrise(str, Enum):
@@ -77,11 +78,16 @@ GRAPHE_MATHS_COLLEGE: Dict[str, List[str]] = {
 }
 
 
-def pseudonymiser_code(code_eleve: str, secret: str = PSEUDO_SECRET_DEFAULT) -> str:
+def pseudonymiser_code(code_eleve: str, secret: Optional[str] = None) -> str:
     """
     Génère un pseudonyme sécurisé HMAC_SHA256 (LE-01).
     Jamais le prénom ni le code en clair dans les logs/événements.
+    Si `secret` n'est pas fourni, il est lu et validé (fail-closed) via
+    app.core.security_config.get_pseudo_secret — aucun repli faible.
     """
+    if secret is None:
+        from app.core.security_config import get_pseudo_secret
+        secret = get_pseudo_secret()
     return hmac.new(secret.encode("utf-8"), code_eleve.encode("utf-8"), hashlib.sha256).hexdigest()[:16]
 
 
