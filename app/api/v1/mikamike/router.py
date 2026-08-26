@@ -142,28 +142,29 @@ def dashboard_parent(student_pseudo_id: str, db: Session = Depends(get_db)):
 parcours_router = APIRouter(prefix="/parcours", tags=["mika-parcours"])
 
 
+from app.api.v1.parcours.curriculum_dataset import obtenir_graphe_competences, generer_parcours_personnalise
+
 @parcours_router.get("/prochaine-etape", response_model=ProchaineEtapeOut)
-def prochaine_etape(student_id: str, db: Session = Depends(get_db)):
-    eleve_hmac = _hmac(student_id)
+def prochaine_etape(student_pseudo_id: str, niveau: str = "5e", db: Session = Depends(get_db)):
+    eleve_hmac = _hmac(student_pseudo_id)
     etats = crud.get_etats(db, eleve_hmac)
 
-    # Première compétence du catalogue non encore consolidée.
-    cible = None
-    for comp in catalogue.toutes_les_competences():
-        etat = etats.get(comp, "INCONNU")
-        if EtatMaitrise(etat) not in ETATS_SOLIDES:
-            cible = comp
-            break
+    nodes = obtenir_graphe_competences(niveau, "maths")
+    personalized_path = generer_parcours_personnalise(nodes, etats)
 
-    if cible is None:
-        # Tout est consolidé : on propose une révision de la 1re compétence.
-        cible = catalogue.toutes_les_competences()[0]
+    if personalized_path:
+        cible = personalized_path[0]["notion_id"]
+    else:
+        # Fallback if somehow empty
+        cible = nodes[0].notion_id if nodes else catalogue.toutes_les_competences()[0]
 
     exo_id = catalogue.exercice_pour_competence(cible)
     meta = catalogue.get_exercice(exo_id)
     return ProchaineEtapeOut(
+        student_pseudo_id=student_pseudo_id,
         exercice_id=exo_id,
         niveau=meta["niveau"],
+        notion_id=cible,
         competence=cible,
         consigne=meta["enonce"],
     )

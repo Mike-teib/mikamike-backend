@@ -15,9 +15,9 @@ PII_INTERDITE = ["nom", "prenom", "email", "telephone"]
 # --------------------------------------------------------------------------- #
 def test_soumettre_erreur_declenche_remediation(client):
     payload = {
-        "exercice_id": "exo-maths-algebre-1",
+        "exercice_id": "exo-maths_5e_04-0",
         "student_pseudo_id": "anon-eleve-999",
-        "reponse": "x = 42",  # faux
+        "reponse": "non",  # faux
     }
     r = client.post("/api/v1/exercices/soumettre", json=payload)
     assert r.status_code == 200, r.text
@@ -34,9 +34,9 @@ def test_soumettre_erreur_declenche_remediation(client):
 
 def test_soumettre_succes_pas_de_remediation(client):
     payload = {
-        "exercice_id": "exo-maths-algebre-1",
+        "exercice_id": "exo-maths_5e_04-0",
         "student_pseudo_id": "anon-eleve-777",
-        "reponse": "x = 3",  # correct (normalisation espaces)
+        "reponse": "oui",  # correct (normalisation espaces)
     }
     r = client.post("/api/v1/exercices/soumettre", json=payload)
     assert r.status_code == 200, r.text
@@ -65,11 +65,11 @@ def test_dashboard_agrege_sans_pii(client):
     # Une erreur puis un succès pour peupler l'agrégat.
     client.post(
         "/api/v1/exercices/soumettre",
-        json={"exercice_id": "exo-maths-algebre-1", "student_pseudo_id": pseudo, "reponse": "x = 42"},
+        json={"exercice_id": "exo-maths_5e_04-0", "student_pseudo_id": pseudo, "reponse": "non"},
     )
     client.post(
         "/api/v1/exercices/soumettre",
-        json={"exercice_id": "exo-maths-algebre-1", "student_pseudo_id": pseudo, "reponse": "x = 3"},
+        json={"exercice_id": "exo-maths_5e_04-0", "student_pseudo_id": pseudo, "reponse": "oui"},
     )
 
     r = client.get(f"/api/v1/parents/dashboard/{pseudo}")
@@ -88,7 +88,7 @@ def test_dashboard_agrege_sans_pii(client):
 def test_dashboard_pseudonymisation_isole_les_eleves(client):
     client.post(
         "/api/v1/exercices/soumettre",
-        json={"exercice_id": "exo-maths-algebre-1", "student_pseudo_id": "anon-A", "reponse": "x = 3"},
+        json={"exercice_id": "exo-maths_5e_04-0", "student_pseudo_id": "anon-A", "reponse": "oui"},
     )
     # Élève B n'a rien fait : dashboard vide, indépendant de A (séparation HMAC).
     r = client.get("/api/v1/parents/dashboard/anon-B")
@@ -100,7 +100,7 @@ def test_dashboard_pseudonymisation_isole_les_eleves(client):
 # Parcours (prochaine marche réelle)
 # --------------------------------------------------------------------------- #
 def test_parcours_prochaine_etape_reelle(client):
-    r = client.get("/api/v1/parcours/prochaine-etape", params={"student_id": "anon-eleve-999"})
+    r = client.get("/api/v1/parcours/prochaine-etape", params={"student_pseudo_id": "anon-eleve-999"})
     assert r.status_code == 200, r.text
     data = r.json()
     assert data["exercice_id"], "un exercice réel doit être proposé"

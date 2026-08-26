@@ -1,0 +1,8 @@
+{
+  "chemin_fichier_source": "app/api/v1/mikamike/catalogue.py",
+  "exercice_id": "exo-maths_5e_01-0",
+  "notion_id": "maths_5e_01",
+  "consigne_stockee": "Quelle est la définition ou le calcul direct de base pour : Nombres relatifs et opérations ?",
+  "consigne_renvoyee_api": "Quelle est la définition ou le calcul direct de base pour : Nombres relatifs et opérations ?",
+  "sha256": "f39c9555bfa6dcfec1593db057f26f04713d193b43660e58ca900f55afaf8058"
+}

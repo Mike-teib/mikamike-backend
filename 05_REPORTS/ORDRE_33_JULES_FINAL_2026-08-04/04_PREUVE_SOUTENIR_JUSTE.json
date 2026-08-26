@@ -1,0 +1,46 @@
+{
+  "exercice_reel": {
+    "matiere": "maths",
+    "niveau": "5e",
+    "competence": "maths_5e_04",
+    "typologie": "compréhension directe",
+    "enonce": "Quelle est la définition ou le calcul direct de base pour : Équations du 1er degré ?",
+    "reponses_acceptees": [
+      "oui",
+      "1"
+    ],
+    "explication_concept": "La compréhension directe de Équations du 1er degré implique l'application immédiate de la règle.",
+    "exercice_prerequis": "exo-maths_5e_03-0"
+  },
+  "reponse_attendue_extraite_banque": [
+    "oui",
+    "1"
+  ],
+  "reponse_envoyee": "oui",
+  "reponse_api": {
+    "est_correct": true,
+    "etat_maitrise": "EN_COURS",
+    "message": "Bravo ! Tu montes une marche de l'escalier.",
+    "remediation": null
+  },
+  "etat_pedagogique_avant": {
+    "exercices_tentes": 0,
+    "exercices_reussis": 0,
+    "taux_reussite": 0.0,
+    "competences": {},
+    "niveau_actuel": "demarrage"
+  },
+  "etat_pedagogique_apres": {
+    "exercices_tentes": 1,
+    "exercices_reussis": 1,
+    "taux_reussite": 1.0,
+    "competences": {
+      "maths_5e_04": {
+        "tentatives": 1,
+        "reussites": 1,
+        "etat": "EN_COURS"
+      }
+    },
+    "niveau_actuel": "0/1 competences consolidees"
+  }
+}
