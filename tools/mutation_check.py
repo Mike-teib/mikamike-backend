@@ -486,7 +486,7 @@ MUTANTS: List[Mutant] = [
 ]
 
 
-IGNORES = shutil.ignore_patterns(".git", ".venv", "venv", "__pycache__", "*.db", "reports", "checkpoints")
+IGNORES = shutil.ignore_patterns(".git", ".venv", "venv", "__pycache__", "*.db", "reports", "checkpoints", "node_modules")
 
 
 _RACINE_EXEC: List[Path] = []  # copie jetable en cours de mutation (vide : dépôt réel)
