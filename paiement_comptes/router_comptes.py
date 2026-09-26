@@ -240,17 +240,23 @@ class SuppressionCompteIn(BaseModel):
         return v
 
 
-def _envoyer_verification(db: Session, compte: Compte) -> None:
+def _envoyer_verification(db: Session, compte: Compte) -> bool:
+    """Vrai si le fournisseur a accepté le message. Session 5 : une panne du fournisseur ne
+    fait plus échouer l'inscription (le compte existe, le renvoi reste possible)."""
     from app.core import courriel
     from paiement_comptes import verification_email as ve
 
     if compte.email_verifie:
-        return
+        return True
     jeton = ve.creer_jeton(db, compte)
-    courriel.transport().envoyer(courriel.Message(
-        destinataire=compte.email, sujet="MikaMike — vérifiez votre adresse",
-        corps=f"Pour vérifier votre adresse, utilisez ce code : {jeton}\n(valable {ve.ttl_min() // 60} h, usage unique)",
-        type="VERIFICATION_EMAIL", metadonnees={"jeton": jeton}))
+    try:
+        courriel.transport().envoyer(courriel.Message(
+            destinataire=compte.email, sujet="MikaMike — vérifiez votre adresse",
+            corps=f"Pour vérifier votre adresse, utilisez ce code : {jeton}\n(valable {ve.ttl_min() // 60} h, usage unique)",
+            type="VERIFICATION_EMAIL", metadonnees={"jeton": jeton}))
+    except courriel.EchecEnvoiCourriel:
+        return False
+    return True
 
 
 def _exiger_mot_de_passe(request: Request, compte: Compte, mot_de_passe: str) -> None:
@@ -282,7 +288,8 @@ def demander_verification(compte: Compte = Depends(compte_courant), db: Session 
     quota = [(limitation.VERIF_DEMANDE_COMPTE, f"compte:{compte.id}")]
     limitation.exiger(*quota)
     limitation.compter(quota)
-    _envoyer_verification(db, compte)
+    if not _envoyer_verification(db, compte):
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="courriel_indisponible")
     return {"statut": "VERIFICATION_TOKEN_CREATED"}
 
 

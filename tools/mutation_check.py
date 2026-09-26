@@ -58,6 +58,7 @@ T_SVT = ("tests_cloud/test_svt_raisonnement.py", "tests_cloud/test_verifiers_sci
 T_QZ = ("tests_cloud/test_quiz_types.py", "tests_cloud/test_exercices_quiz.py")
 T_ES = ("tests_cloud/test_es_provenance.py", "tests_cloud/test_technologie_s4.py", "tests_cloud/test_verifiers_sciences.py")
 T_PROG = ("tests_cloud/test_progression.py", "tests_cloud/test_progression_api_s5.py")
+T_MAIL = ("tests_cloud/test_email_provider.py",)
 T_MOTEUR = ("tests_cloud/test_progression_api_s5.py", "tests_cloud/test_api_regressions.py")
 T_S4SEC = ("tests_cloud/test_securite_s4.py", "tests_cloud/test_parent_minimisation.py", "tests_cloud/test_retention.py")
 T_PC = ("tests_cloud/test_physique_etendu.py", "tests_cloud/test_verifiers_sciences.py")
@@ -439,6 +440,17 @@ MUTANTS: List[Mutant] = [
            "    if not brut.isdigit():", T_S4SEC),
     Mutant("angle_unite_ignoree", "app/curriculum/verifiers/maths_etendu.py",
            'return valide("angle_egal") if ur == unite else revue', 'return valide("angle_egal") if True else revue', T_MATH),
+    # Session 5 : fournisseur SMTP.
+    Mutant("smtp_clair_autorise_en_prod", "app/core/courriel.py",
+           '        if securite == "aucune" and _en_production():', "        if False:", T_MAIL),
+    Mutant("smtp_injection_entete", "app/core/courriel.py",
+           '    if "\\r" in v or "\\n" in v:', "    if False:", T_MAIL),
+    Mutant("smtp_starttls_omis", "app/core/courriel.py",
+           '                if c.securite == "starttls":\n                    smtp.starttls(context=ssl.create_default_context())\n', "", T_MAIL),
+    Mutant("smtp_config_non_validee_au_demarrage", "app/core/courriel.py",
+           "        ConfigSMTP.depuis_env()  # configuration incomplète", "        pass  # configuration incomplète", T_MAIL),
+    Mutant("smtp_echec_fait_echouer_inscription", "paiement_comptes/router_comptes.py",
+           "    except courriel.EchecEnvoiCourriel:\n        return False", "    except ZeroDivisionError:\n        return False", T_MAIL),
     Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
            "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
            "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),
