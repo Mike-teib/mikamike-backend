@@ -49,6 +49,7 @@ T_SEC = ("tests_cloud/test_securite_s3.py",)
 T_R19 = ("tests_cloud/test_verification_email.py", "tests_cloud/test_e2e_parent_enfant.py")
 T_OBS = ("tests_cloud/test_observabilite.py",)
 T_PUB = ("tests_cloud/test_publication.py",)
+T_RAP = ("tests_cloud/test_rapport_import.py",)
 T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
          "tests_cloud/test_e2e_parent_enfant.py")
 
@@ -282,6 +283,12 @@ MUTANTS: List[Mutant] = [
            "        if ev.etat != EtatPublication.READY_FOR_PUBLICATION:", "        if False:", T_PUB),
     Mutant("publication_source_fictive", "app/curriculum/publication.py",
            "(source.fictive and not autoriser_fictif) or (", "(", T_PUB),
+    Mutant("rapport_quarantaine_incomplete", "app/curriculum/rapport_import.py",
+           "if st != StatutPreuve.PROVEN.value or nid in touches", "if nid in touches", T_RAP),
+    Mutant("rapport_import_repete_non_signale", "app/curriculum/rapport_import.py",
+           '            if rapport["comparaison"]["identique_au_lot_actif"]:', "            if False:", T_RAP),
+    Mutant("import_publie_sans_confirmation", "tools/import_lot.py",
+           "    if not a.depot or not a.confirmer:", "    if not a.depot:", T_RAP),
     Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
            "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
            "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),

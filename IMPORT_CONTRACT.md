@@ -111,3 +111,18 @@ elles, ni leur chapitre, ni leur programme, ni leurs contenus). Anomalie globale
    anomalies, corriger à la source, recommencer jusqu'à `VALIDATED`.
 5. `DepotContenu(<racine>).publier(<dossier>, <sha>)` ⇒ `python -m tools.rapports --depot <racine>`.
 6. Écrire les adaptateurs typés C02 / Extraction V3 **à partir d'échantillons réels** (R2).
+
+## 8. Import en deux temps (session 4) — prêt pour les artefacts réels
+```
+python -m tools.import_lot simuler --dossier <lot> --sha <sha-épinglé> --depot <racine> --rentree 2026 --sortie <dir>
+   → rapport_import.json / .md : statut, fichiers, métriques (notions par statut de preuve, par
+     matière/niveau, contenus, opaques par rôle, anomalies par code, générables), QUARANTAINE
+     (toute notion non PROVEN ou touchée par une anomalie, avec raisons), COMPARAISON avec le lot
+     actif (notions/contenus ajoutés, retirés, modifiés par empreinte ; changements de preuve),
+     avertissement LOT_IDENTIQUE_AU_LOT_ACTIF (import répété). N'écrit RIEN d'autre.
+python -m tools.import_lot publier ... --confirmer      → n'active que si VALIDATED
+python -m tools.publication etat|publier|retirer ...    → garde READY_FOR_PUBLICATION / PUBLISHED
+```
+État des artefacts réels : **WAITING_FOR_ARTIFACT** (C02, C02-6, C02-6.1, M01, Extraction V3, PDF
+officiels, index, manifests). Tests : `tests_cloud/test_rapport_import.py`, `test_publication.py`,
+`test_import_harnais.py`.
