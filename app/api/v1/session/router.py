@@ -18,11 +18,10 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike.store import engine, get_db
+from app.api.v1.mikamike.store import get_db
 from app.core.validation import ID_PATTERN, MAX_SESSION_STATE_BYTES, Identifiant
 from app.api.v1.session.session_manager import (
-    GestionnaireSession,
-    SessionBase
+    GestionnaireSession
 )
 
 from app.core.pseudonymisation import hmac_eleve as _hmac
@@ -42,9 +41,6 @@ class SessionReconnectIn(BaseModel):
     session_id: Identifiant
     user_id: Identifiant
 
-
-# Tables créées UNE fois au chargement (auparavant : à chaque requête, erreurs avalées).
-SessionBase.metadata.create_all(bind=engine)
 
 session_router = APIRouter(prefix="/session", tags=["session-manager"])
 

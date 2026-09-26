@@ -2,6 +2,5 @@
 Module RGPD — Export et Droit à l'Oubli (MikaMike).
 """
 
-from app.api.v1.rgpd.router import rgpd_router
-
-__all__ = ["rgpd_router"]
+# Aucun import ici : importer le paquet (ex. pour ses modèles lors d'une migration)
+# ne doit ni lire de secret ni charger les routeurs (revue session 2, R2-07/R2-15).

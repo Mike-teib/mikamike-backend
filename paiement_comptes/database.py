@@ -1,7 +1,8 @@
 """
 database.py — Persistance SQLite dédiée au module paiement/comptes.
 
-Fournit la `Base`, l'`engine`, `SessionLocal`, `get_db` et `init_db`.
+Fournit la `Base`, l'`engine`, `SessionLocal` et `get_db`. Le schéma est appliqué par
+les migrations (`python -m tools.db upgrade`), jamais à l'import.
 Base séparée du module MikaMike : ses tables (comptes, abonnements)
 ne collisionnent avec rien.
 """
@@ -32,16 +33,3 @@ def get_db():
         yield db
     finally:
         db.close()
-
-
-def init_db() -> None:
-    """Crée les tables (idempotent).
-
-    À appeler APRÈS que les modèles aient été définis. C'est `models_billing`
-    qui l'invoque à la fin de son propre import : ainsi `Compte`/`Abonnement`
-    sont déjà enregistrés sur `Base.metadata` quand `create_all` s'exécute.
-    On NE l'appelle PAS ici (au chargement de database.py) : ça s'exécuterait
-    pendant l'import de models_billing (déclenché par la ligne `from ... import
-    Base`), donc AVANT la définition des classes -> tables jamais créées.
-    """
-    Base.metadata.create_all(bind=engine)

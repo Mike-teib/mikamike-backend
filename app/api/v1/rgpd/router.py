@@ -19,19 +19,16 @@ from fastapi import APIRouter, Depends, HTTPException, Path, status
 from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
-from app.api.v1.memory.spaced_repetition import MemoryBase, TacheRappelMemoire
-from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice, engine, get_db
-from app.api.v1.session.session_manager import MikaSessionState, SessionBase
+from app.api.v1.memory.spaced_repetition import TacheRappelMemoire
+from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice, get_db
+from app.api.v1.session.session_manager import MikaSessionState
+from app.api.v1.tutorat.store import TutoratRequete, TutoratSession
 from app.core.pseudonymisation import hmac_eleve as _hmac
 from app.core.validation import ID_PATTERN
 
 # Registre exhaustif des tables contenant des données d'un élève.
-TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessionState)
-
-# Les tables mémoire/session sont créées paresseusement par leurs routeurs :
-# on garantit leur existence pour que l'export/effacement ne rate jamais rien.
-MemoryBase.metadata.create_all(bind=engine)
-SessionBase.metadata.create_all(bind=engine)
+TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessionState,
+                TutoratSession, TutoratRequete)
 
 
 def _iso(dt) -> str | None:
@@ -69,7 +66,12 @@ def exporter_donnees_eleve(
         select(MikaSessionState).where(MikaSessionState.eleve_hmac == eleve_hmac)
     ).scalars().all()
 
-    if not (tentatives or etats or rappels or sessions):
+    tutorats = db.execute(
+        select(TutoratSession).where(TutoratSession.eleve_hmac == eleve_hmac)
+        .order_by(TutoratSession.cree_le.asc(), TutoratSession.id.asc())
+    ).scalars().all()
+
+    if not (tentatives or etats or rappels or sessions or tutorats):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="aucune_donnee_trouvee_pour_cet_identifiant"
@@ -113,6 +115,22 @@ def exporter_donnees_eleve(
             "etat_seance": etat,
         })
 
+    export_tutorats: List[Dict[str, Any]] = []
+    for t in tutorats:
+        try:
+            etat_t = json.loads(t.etat_json or "{}")
+        except ValueError:
+            etat_t = {"_brut_illisible": True}
+        export_tutorats.append({
+            "tutorat_id": t.id,
+            "exercice_id": t.exercice_id,
+            "derniere_action": t.derniere_action,
+            "termine": t.termine,
+            "cree_le": _iso(t.cree_le),
+            "maj_le": _iso(t.maj_le),
+            "etat": etat_t,
+        })
+
     return {
         "contexte_rgpd": "Export complet des données d'apprentissage",
         "student_pseudo_id": student_pseudo_id,
@@ -123,6 +141,7 @@ def exporter_donnees_eleve(
         "historique_tentatives": export_tentatives,
         "rappels_memoire": export_rappels,
         "sessions": export_sessions,
+        "tutorats_mika": export_tutorats,
     }
 
 
@@ -159,4 +178,6 @@ def effacer_donnees_eleve(
         "etats_supprimes": compte_par_table[EtatCompetence.__tablename__],
         "rappels_memoire_supprimes": compte_par_table[TacheRappelMemoire.__tablename__],
         "sessions_supprimees": compte_par_table[MikaSessionState.__tablename__],
+        "tutorats_supprimes": compte_par_table[TutoratSession.__tablename__],
+        "requetes_tutorat_supprimees": compte_par_table[TutoratRequete.__tablename__],
     }

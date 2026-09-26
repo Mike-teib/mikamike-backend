@@ -101,11 +101,3 @@ class Abonnement(Base):
     def acces_autorise(self) -> bool:
         """True si l'abonnement ouvre l'accès payant (essai ou actif)."""
         return self.statut in (StatutAbonnement.ESSAI, StatutAbonnement.ACTIF)
-
-
-# Les classes ci-dessus sont maintenant enregistrées sur Base.metadata :
-# on crée les tables MAINTENANT (et pas au chargement de database.py, qui
-# s'exécute trop tôt dans la chaîne d'import — cf. commentaire de init_db()).
-from paiement_comptes.database import init_db as _init_db  # noqa: E402
-
-_init_db()

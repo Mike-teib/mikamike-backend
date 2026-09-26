@@ -11,11 +11,10 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike.store import engine, get_db
+from app.api.v1.mikamike.store import get_db
 from app.core.validation import Identifiant
 from app.api.v1.memory.spaced_repetition import (
-    MoteurCourbeOubliEbbinghaus,
-    MemoryBase
+    MoteurCourbeOubliEbbinghaus
 )
 
 from app.core.pseudonymisation import hmac_eleve as _hmac
@@ -52,9 +51,6 @@ class DetectFragileRequest(BaseModel):
 MemoryScheduleRequest.model_rebuild()
 MemoryScheduleResponse.model_rebuild()
 DetectFragileRequest.model_rebuild()
-
-# Tables créées UNE fois au chargement (auparavant : à chaque requête, erreurs avalées).
-MemoryBase.metadata.create_all(bind=engine)
 
 memory_router = APIRouter(prefix="/memory", tags=["memory-engine"])
 

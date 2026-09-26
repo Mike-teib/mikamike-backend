@@ -8,9 +8,8 @@ import datetime as _dt
 import jwt
 import pytest
 
-from app.api.v1.memory.spaced_repetition import MemoryBase
 from app.api.v1.mikamike import crud
-from app.api.v1.mikamike.store import MikaBase, SessionLocal
+from app.api.v1.mikamike.store import SessionLocal
 from app.api.v1.parcours.curriculum_dataset import (
     NotionNode,
     obtenir_graphe_competences,
@@ -18,7 +17,6 @@ from app.api.v1.parcours.curriculum_dataset import (
     CURRICULA_DATA,
 )
 from app.api.v1.rgpd.router import TABLES_ELEVE, _hmac
-from app.api.v1.session.session_manager import SessionBase
 
 
 # --------------------------------------------------------------------------- #
@@ -77,9 +75,13 @@ def test_b2_effacement_couvre_memoire_et_sessions(client):
 
 def test_b2_registre_couvre_toute_table_eleve():
     """Toute table ayant une colonne eleve_hmac doit être purgée par /rgpd/effacer."""
+    from app.db.registre import metadatas
+
     couvertes = {m.__tablename__ for m in TABLES_ELEVE}
-    for base in (MikaBase, MemoryBase, SessionBase):
-        for table in base.metadata.tables.values():
+    # Revue session 2 : toutes les metadata de la base élève (registre), pas une liste figée
+    # qui laisserait échapper une nouvelle base déclarative.
+    for md in metadatas("mika"):
+        for table in md.tables.values():
             if "eleve_hmac" in table.c:
                 assert table.name in couvertes, f"table élève non couverte par le RGPD : {table.name}"
 
