@@ -12,7 +12,7 @@ from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.learning_engine import pseudonymiser_code
-from app.api.v1.mikamike.store import get_db
+from app.api.v1.mikamike.store import engine, get_db
 from app.core.validation import Identifiant
 from app.api.v1.memory.spaced_repetition import (
     MoteurCourbeOubliEbbinghaus,
@@ -61,6 +61,9 @@ MemoryScheduleRequest.model_rebuild()
 MemoryScheduleResponse.model_rebuild()
 DetectFragileRequest.model_rebuild()
 
+# Tables créées UNE fois au chargement (auparavant : à chaque requête, erreurs avalées).
+MemoryBase.metadata.create_all(bind=engine)
+
 memory_router = APIRouter(prefix="/memory", tags=["memory-engine"])
 
 
@@ -72,12 +75,6 @@ def planifier_rappel_memoire(
     """
     Planifie les rappels de mémorisation espacée (J+1, J+3, J+7, J+14) et calcule la courbe d'oubli d'Ebbinghaus.
     """
-    # Auto-création des tables de mémoire si nécessaire
-    try:
-        MemoryBase.metadata.create_all(bind=db.get_bind())
-    except Exception:
-        pass
-
     if not MoteurCourbeOubliEbbinghaus.evenement_reconnu(payload.mastery_event):
         # Auparavant : tout événement inconnu était traité silencieusement comme un ÉCHEC.
         raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="mastery_event_inconnu")

@@ -35,6 +35,13 @@ jobs:
         run: ruff check .
       - name: Tests (pytest, hors ligne)
         run: python -m pytest -q
+      - name: Garde-fou contenu (fixtures, existant, catalogue)
+        run: python -m tools.content_check
+      - name: Rapports reproductibles (backlog + audit dédup)
+        run: |
+          python -m tools.rapports --sortie /tmp/r1
+          python -m tools.rapports --sortie /tmp/r2
+          diff -r /tmp/r1 /tmp/r2
 
   security:
     name: sécurité (secrets, SAST, dépendances)
