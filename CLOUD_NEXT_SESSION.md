@@ -1,5 +1,18 @@
 # CLOUD_NEXT_SESSION — Checkpoint permanent
 
+## SESSION 4 (en cours) — branche `cloud/mikamike-session4-autonomous`, PR #6 (empilée sur #5)
+LAST_COMPLETED: R19 vérification d'adresse + révocation + cycle de vie du compte ; contrat front
+  exécutable (FRONT_IMPLEMENTATION_PACK.md, contrat_front/) ; observabilité ; garde de publication ;
+  import en deux temps (simulation, rapport, quarantaine, comparaison) ; chapitrage prouvé ;
+  qualité de texte durcie ; S4-01.
+CURRENT: lots pédagogiques (récurrence, math guard, physique-chimie, SVT, techno, ES, quiz, adaptation).
+NEXT: RGPD mineurs (rétention), migrations (double lancement), sécurité (mass assignment, XSS, fuites),
+  performance multi-élèves, RELEASE_CANDIDATE.md, rapports.
+TESTS: 4200/4200 (début de session : 4065). MUTATIONS : +37 ciblés, tous tués.
+MIGRATIONS: billing head = b0004_verif_email_revocation.
+BLOCKERS: WAITING_FOR_ARTIFACT (R1/R2) ; fournisseur de courriel réel (production) ; front + E2E front (D12).
+
+
 > Protocole de reprise : lire ce fichier, puis `CLOUD_REVIEW_SESSION2.md`, `CLOUD_BACKLOG_MIKAMAIKE.md`,
 > `CLOUD_TEST_REPORT.md`, `CLOUD_SECURITY_REPORT.md`, `AUTH_CONTRACT.md`, `FRONT_AUTH_INTEGRATION.md`,
 > `MIKA_API_CONTRACT.md`, `IMPORT_CONTRACT.md`, `IMPORT_TEST_HARNESS_REPORT.md`,
