@@ -95,3 +95,28 @@ l'effacement RGPD.
   Unification des identifiants à faire après import réel.
 - **D7** (session 1) : ce contrat est une proposition backend ; à valider avec le front.
 - Purge des tutorats anciens (rétention) : décision D13.
+
+## 9. Audit du contrat réel (session cloud 3)
+Tests : `tests_cloud/test_mika_api_audit.py` (39 tests) + `test_review_session2.py` (S3-04/05/06).
+
+| Propriété | Vérification | Résultat |
+|---|---|---|
+| Champs exposés | ensemble **exact** des clés (réponse, état, GET) : aucun champ interne (`erreurs`, clé, réponse) | ✅ |
+| Non-divulgation | à chaque étape : ni réponse, ni clé de compréhension, ni correction, ni aucune **aide future** dans le JSON | ✅ |
+| Aide monotone | `niveau_aide`, compteurs d'aide et `avec_aide` jamais décroissants | ✅ |
+| Idempotence | rejeu tardif d'une ancienne requête = réponse d'origine, état inchangé ; `requete_id` réutilisé pour une autre action ⇒ 409 ; rejeu du `start` après la fin | ✅ |
+| Double soumission | séquentielle ⇒ 1 entrée de journal ; **concurrente** ⇒ rejeu (S3-04, corrigé) | ✅ |
+| Concurrence réelle | 6 threads, requêtes différentes, même version ⇒ **1** transition, 5 × 409 ; 6 `start` identiques ⇒ 1 tutorat (1 × 201, 5 × 200) | ✅ |
+| Propriété | autre élève ⇒ 404 `tutorat_inconnu` sur answer/help/comprehension/GET, sans effet | ✅ |
+| Jeton expiré / corps d'un autre élève | 401 `jeton_expire` / 403 | ✅ |
+| Mauvaise notion / plan invalide | notion inconnue, plan qui divulgue, sans aide, aides répétées, question qui donne sa clé, clé absente ⇒ 404 `exercice_indisponible` | ✅ |
+| Prérequis manquant | FRAGILE / EN_COURS / ACQUIS_ASSISTE ⇒ remédiation ; MAITRISE / ACQUIS_AUTONOME ⇒ exercice | ✅ |
+| État corrompu | JSON illisible, clé inconnue, type faux ⇒ 500 `etat_tutorat_illisible` (S3-05, corrigé) | ✅ |
+| Fin de tutorat | answer/help/comprehension ⇒ 409 `tutorat_termine` | ✅ |
+| Compréhension ratée | niveau `FRAGILE`, jamais « Bravo », tentative `est_correct=false` (S3-06, corrigé) | ✅ |
+| Bornes | version 0/10 001, `tutorat_id` mal formé, réponse > 500, `requete_id` vide ⇒ 422 | ✅ |
+
+**Séance expirée** : un tutorat n'a pas de durée de vie propre ; l'accès est borné par le jeton élève
+(2 h, révoqué dès que le lien disparaît — S3-01). Purge des tutorats anciens : décision **D13**.
+Mutants dédiés (tous tués) : `tutorat_termine_modifiable`, `prerequis_assiste_suffit`,
+`vue_publique_fuit_les_erreurs`, `aide_future_divulguee`.

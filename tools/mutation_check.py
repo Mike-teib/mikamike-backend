@@ -39,6 +39,7 @@ T_S3 = ("tests_cloud/test_review_session2.py",)
 T_RL = ("tests_cloud/test_limitation.py",)
 T_EQ = ("tests_cloud/test_equivalence.py",)
 T_MIG = ("tests_cloud/test_migrations_validation.py",)
+T_API2 = ("tests_cloud/test_mika_api_audit.py",)
 
 
 MUTANTS: List[Mutant] = [
@@ -186,6 +187,19 @@ MUTANTS: List[Mutant] = [
     Mutant("cli_db_trace_sur_erreur", "tools/db.py",
            "    except (CommandError, m.SchemaNonAJour, ValueError, KeyError) as exc:",
            "    except ZeroDivisionError as exc:", T_MIG),
+    Mutant("tutorat_termine_modifiable", "app/api/v1/tutorat/service.py",
+           '    if etat.termine:\n        raise _err(status.HTTP_409_CONFLICT, "tutorat_termine")',
+           '    if False:\n        raise _err(status.HTTP_409_CONFLICT, "tutorat_termine")', T_API2),
+    Mutant("prerequis_assiste_suffit", "app/curriculum/pedagogie/tuteur.py",
+           'ETATS_PREREQUIS_SOLIDES = frozenset({"ACQUIS_AUTONOME", "MAITRISE"})',
+           'ETATS_PREREQUIS_SOLIDES = frozenset({"ACQUIS_AUTONOME", "MAITRISE", "ACQUIS_ASSISTE"})', T_API2),
+    Mutant("vue_publique_fuit_les_erreurs", "app/api/v1/tutorat/service.py",
+           '            "messages": list(etat.messages),',
+           '            "messages": list(etat.messages), "erreurs": list(etat.erreurs),', T_API2),
+    Mutant("aide_future_divulguee", "app/curriculum/pedagogie/tuteur.py",
+           '                                 Action.DONNER_INDICE, f"Indice : {ind} Réessaie.")',
+           '                                 Action.DONNER_INDICE, f"Indice : {ind} Réessaie. " + " ".join(self.ex.indices))',
+           T_API2),
 ]
 
 
