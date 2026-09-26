@@ -40,6 +40,7 @@ T_RL = ("tests_cloud/test_limitation.py",)
 T_EQ = ("tests_cloud/test_equivalence.py",)
 T_MIG = ("tests_cloud/test_migrations_validation.py",)
 T_API2 = ("tests_cloud/test_mika_api_audit.py",)
+T_HARN = ("tests_cloud/test_import_harnais.py",)
 
 
 MUTANTS: List[Mutant] = [
@@ -200,6 +201,20 @@ MUTANTS: List[Mutant] = [
            '                                 Action.DONNER_INDICE, f"Indice : {ind} Réessaie.")',
            '                                 Action.DONNER_INDICE, f"Indice : {ind} Réessaie. " + " ".join(self.ex.indices))',
            T_API2),
+    Mutant("source_fictive_publiable", "app/curriculum/integrite.py",
+           "            if s.fictive:\n", "            if False:\n", T_HARN),
+    Mutant("republication_non_idempotente", "app/curriculum/depot.py",
+           '            if precedent and precedent["lot"] == lot:\n                raise DepotInvalide',
+           '            if False:\n                raise DepotInvalide', T_HARN),
+    Mutant("reprise_sans_revalidation", "app/curriculum/depot.py",
+           "            if self._importer(cible, sha256_manifest).statut != \"VALIDATED\":\n"
+           "                raise DepotInvalide(f\"copie_existante_invalide:{lot}\")",
+           "            pass", T_HARN),
+    Mutant("historique_non_borne", "app/curriculum/depot.py",
+           '"precedent": _borner(precedent)}', '"precedent": precedent}', T_HARN),
+    Mutant("import_partiel_accepte", "app/curriculum/importers.py",
+           '    if any(f["etat"] == "FAILED" for f in res.fichiers.values()):\n        res.statut = "FAILED"\n        return res',
+           "    pass", T_HARN),
 ]
 
 

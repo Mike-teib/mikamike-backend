@@ -59,7 +59,7 @@ class DepotContenu:
             return None
         try:
             etat = json.loads(self._actif.read_text(encoding="utf-8"))
-        except ValueError as exc:
+        except (ValueError, RecursionError) as exc:
             raise DepotInvalide("ACTIF.json illisible") from exc
         if not isinstance(etat, dict) or not {"lot", "sha256_manifest", "precedent"} <= set(etat):
             raise DepotInvalide("ACTIF.json invalide")
@@ -72,8 +72,18 @@ class DepotContenu:
             return res
         lot = f"{res.manifest['lot_id']}-{sha256_manifest[:8]}"
         cible = self.racine / "lots" / lot
+        precedent = self.actif()
         if cible.exists():
-            raise DepotInvalide(f"lot_deja_publie:{lot}")
+            # Revue session 3 (S3-16) : une publication coupée entre la copie et l'activation ne
+            # pouvait plus JAMAIS aboutir (« lot_deja_publie »). Lot déjà ACTIF ⇒ refus (contrat
+            # inchangé, rien ne bouge) ; copie présente mais NON active ⇒ reprise : copie
+            # revalidée (jamais écrasée) puis activation.
+            if precedent and precedent["lot"] == lot:
+                raise DepotInvalide(f"lot_deja_publie:{lot}")
+            if self._importer(cible, sha256_manifest).statut != "VALIDATED":
+                raise DepotInvalide(f"copie_existante_invalide:{lot}")
+            self._activer(lot, sha256_manifest, precedent, action="reprendre")
+            return res
         cible.parent.mkdir(parents=True, exist_ok=True)
         tmp = cible.with_name(cible.name + ".tmp")
         if tmp.exists():
@@ -84,11 +94,12 @@ class DepotContenu:
             shutil.rmtree(tmp)
             raise DepotInvalide("copie_du_lot_invalide")
         os.replace(tmp, cible)
-        precedent = self.actif()
-        self._ecrire_actif({"lot": lot, "sha256_manifest": sha256_manifest,
-                            "precedent": precedent if precedent else None})
-        self._journal({"action": "activer", "lot": lot})
+        self._activer(lot, sha256_manifest, precedent, action="activer")
         return res
+
+    def _activer(self, lot: str, sha: str, precedent: Optional[Dict[str, Any]], *, action: str) -> None:
+        self._ecrire_actif({"lot": lot, "sha256_manifest": sha, "precedent": _borner(precedent)})
+        self._journal({"action": action, "lot": lot})
 
     def charger_actif(self) -> Optional[ResultatImport]:
         etat = self.actif()
@@ -111,6 +122,18 @@ class DepotContenu:
         self._ecrire_actif(prec)
         self._journal({"action": "rollback", "depuis": etat["lot"], "vers": prec["lot"]})
         return prec["lot"]
+
+
+PROFONDEUR_HISTORIQUE = 20
+
+
+def _borner(etat: Optional[Dict[str, Any]], profondeur: int = PROFONDEUR_HISTORIQUE) -> Optional[Dict[str, Any]]:
+    """Chaîne `precedent` bornée (S3-16) : elle s'imbriquait à chaque publication, sans limite
+    (ACTIF.json croissant, puis illisible au-delà de la limite de récursion de json)."""
+    if not etat or profondeur <= 0:
+        return None
+    return {"lot": etat["lot"], "sha256_manifest": etat["sha256_manifest"],
+            "precedent": _borner(etat.get("precedent"), profondeur - 1)}
 
 
 def lot_id(dossier: Path, sha256_manifest: str) -> str:

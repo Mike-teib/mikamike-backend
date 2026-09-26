@@ -16,9 +16,12 @@
 | Gravité | Nombre | Corrigés | Documentés (décision / front) |
 |---|---|---|---|
 | P0 | 0 | — | — |
-| P1 | 3 | 3 | 0 |
-| P2 | 11 | 9 | 2 |
-| **Total** | **14** | **12** | **2** |
+| P1 | 4 | 4 | 0 |
+| P2 | 12 | 10 | 2 |
+| **Total** | **16** | **14** | **2** |
+
+S3-15 et S3-16 ont été trouvés pendant la construction du harnais d'import (lot 7) ; les autres
+pendant la revue du code de la PR #4.
 
 Barème identique à CLOUD_REVIEW_SESSION1.md : **P0** contournement d'un verrou de sûreté / DoS
 trivial ; **P1** faille de sécurité ou RGPD, perte d'intégrité, déploiement impossible ; **P2**
@@ -69,7 +72,31 @@ robustesse, contrat, test trompeur.
 - TEST : `test_s3_03_migration_interrompue_atomique_et_reprenable` (+ MIGRATION_VALIDATION_REPORT.md).
   Mutant `ddl_sqlite_non_transactionnel`. **Corrigé.**
 
+### S3-15 — Lot à source FICTIVE validé et publiable hors mode test
+- SEVERITY : P1 (intégrité du contenu servi)
+- FILE : `app/curriculum/integrite.py` · FUNCTION : `verifier_integrite`
+- SCENARIO : lot synthétique (source `fictive=True`) importé avec `autoriser_fictif=False`
+  (production) puis `DepotContenu.publier`.
+- EXPECTED : lot REJECTED, rien d'activé.
+- ACTUAL : `VALIDATED` avec 0 anomalie (les notions étaient seulement QUARANTINED) ⇒ le lot
+  **remplaçait le lot actif réel** ; plus aucun contenu servi.
+- FIX : anomalie **globale** `SOURCE_FICTIVE_HORS_TEST`. 3 tests historiques importaient la fixture
+  fictive sans le mode test : leur **préparation** passe `autoriser_fictif=True` (assertions inchangées).
+- TEST : `test_lot_synthetique_refuse_hors_mode_test`. Mutant `source_fictive_publiable`. **Corrigé.**
+
 ## P2
+
+### S3-16 — Dépôt : publication coupée non reprenable, historique non borné
+- FILE : `app/curriculum/depot.py` · `publier`, `actif`
+- SCENARIOS : (a) coupure entre la copie du lot et l'écriture d'`ACTIF.json` ⇒ toute nouvelle
+  tentative répond `lot_deja_publie` : le lot ne peut plus jamais être activé ; (b) chaque
+  publication imbrique tout l'historique dans `precedent` (croissance sans borne) ; (c) `ACTIF.json`
+  très imbriqué ⇒ `RecursionError` non rattrapée.
+- FIX : reprise (copie revalidée, jamais écrasée, puis activation ; lot déjà actif ⇒ refus
+  inchangé) ; historique borné à 20 niveaux ; `RecursionError` ⇒ `DepotInvalide`.
+- TEST : `test_publication_coupee_puis_reprise`, `test_reprise_refusee_si_copie_alteree`,
+  `test_rollback_multi_niveaux_et_historique_borne`, `test_actif_json_profondement_imbrique_refus_controle`.
+  Mutants `reprise_sans_revalidation`, `historique_non_borne`. **Corrigé.**
 
 ### S3-04 — Double soumission concurrente : 409 au lieu du rejeu idempotent
 - FILE : `app/api/v1/tutorat/service.py` · `transition`

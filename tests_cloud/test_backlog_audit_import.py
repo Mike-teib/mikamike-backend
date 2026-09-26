@@ -134,7 +134,8 @@ def _preparer(tmp_path: Path, avec_opaque=True) -> Path:
 
 def test_import_valide_avec_mapping(tmp_path):
     d = _preparer(tmp_path)
-    res = importer(d, checkpoint=tmp_path / "ck.json")
+    # Session 3 (S3-15) : fixtures FICTIVES ⇒ mode test explicite (sinon SOURCE_FICTIVE_HORS_TEST).
+    res = importer(d, checkpoint=tmp_path / "ck.json", autoriser_fictif=True)
     assert res.statut == "VALIDATED", (res.fichiers, res.anomalies)
     assert all(n.chapitre_id for n in res.referentiel.notions)
     assert res.opaques == [{"chemin": "rapport_C02.txt", "sha256": res.opaques[0]["sha256"],
@@ -145,8 +146,8 @@ def test_import_valide_avec_mapping(tmp_path):
 def test_import_reprise_sans_retraitement(tmp_path):
     d = _preparer(tmp_path)
     ck = tmp_path / "ck.json"
-    importer(d, checkpoint=ck)
-    res2 = importer(d, checkpoint=ck)
+    importer(d, checkpoint=ck, autoriser_fictif=True)
+    res2 = importer(d, checkpoint=ck, autoriser_fictif=True)
     assert all(f["reprise"] == "true" for f in res2.fichiers.values())
     assert res2.statut == "VALIDATED"
 
@@ -156,12 +157,12 @@ def test_import_fichier_altere_failed_puis_reprise(tmp_path):
     ck = tmp_path / "ck.json"
     original = (d / "mapping.jsonl").read_text("utf-8")
     (d / "mapping.jsonl").write_text(original + "\n", "utf-8")  # altération
-    res = importer(d, checkpoint=ck)
+    res = importer(d, checkpoint=ck, autoriser_fictif=True)
     assert res.statut == "FAILED"
     assert res.fichiers["mapping.jsonl"] == {"etat": "FAILED", "raison": "empreinte_differente"}
     assert json.loads(ck.read_text())["registre.jsonl"]["etat"] == "DONE"
     (d / "mapping.jsonl").write_text(original, "utf-8")  # correction
-    res2 = importer(d, checkpoint=ck)
+    res2 = importer(d, checkpoint=ck, autoriser_fictif=True)
     assert res2.statut == "VALIDATED"
     assert res2.fichiers["registre.jsonl"]["reprise"] == "true"
     assert res2.fichiers["mapping.jsonl"]["reprise"] == "false"
