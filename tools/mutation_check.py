@@ -47,6 +47,7 @@ T_API2 = ("tests_cloud/test_mika_api_audit.py",)
 T_HARN = ("tests_cloud/test_import_harnais.py",)
 T_SEC = ("tests_cloud/test_securite_s3.py",)
 T_R19 = ("tests_cloud/test_verification_email.py", "tests_cloud/test_e2e_parent_enfant.py")
+T_OBS = ("tests_cloud/test_observabilite.py",)
 T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
          "tests_cloud/test_e2e_parent_enfant.py")
 
@@ -265,6 +266,13 @@ MUTANTS: List[Mutant] = [
     Mutant("suppression_sans_mot_de_passe", "paiement_comptes/router_comptes.py",
            "    _exiger_mot_de_passe(request, compte, data.mot_de_passe)\n    ab = compte.abonnement",
            "    ab = compte.abonnement", T_R19),
+    Mutant("journal_chemin_brut", "app/core/observabilite.py",
+           '            route = getattr(scope.get("route"), "path", None) or "(non_routee)"',
+           '            route = scope.get("path") or "(non_routee)"', T_OBS),
+    Mutant("journal_request_id_non_filtre", "app/core/observabilite.py",
+           "rid = entrant if _RID.fullmatch(entrant) else uuid.uuid4().hex", "rid = entrant or uuid.uuid4().hex", T_OBS),
+    Mutant("journal_message_d_exception", "app/core/observabilite.py",
+           "            exception = type(exc).__name__", "            exception = str(exc)", T_OBS),
     Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
            "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
            "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),

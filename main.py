@@ -70,6 +70,11 @@ def create_app() -> FastAPI:
     from app.core.limites import LimiteTailleCorps
 
     app.add_middleware(LimiteTailleCorps)
+    # Journalisation structurée sans données sensibles (ajoutée en dernier = la plus externe :
+    # elle voit aussi les 413 et les exceptions non rattrapées).
+    from app.core.observabilite import Observabilite
+
+    app.add_middleware(Observabilite)
 
     origins = [o for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()]
     if origins:
