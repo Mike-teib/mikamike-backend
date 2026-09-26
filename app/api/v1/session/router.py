@@ -20,11 +20,10 @@ from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.store import get_db
 from app.core.validation import ID_PATTERN, MAX_SESSION_STATE_BYTES, Identifiant
-from app.api.v1.session.session_manager import (
-    GestionnaireSession
-)
+from app.api.v1.session.session_manager import GestionnaireSession, MikaSessionState
 
 from app.core.pseudonymisation import hmac_eleve as _hmac
+from app.core.auth import Action, Garde, garde as _garde
 
 class SessionHeartbeatIn(BaseModel):
     session_id: Identifiant = Field(description="Identifiant de la session")
@@ -48,12 +47,14 @@ session_router = APIRouter(prefix="/session", tags=["session-manager"])
 @session_router.post("/heartbeat")
 def heartbeat_session(
     payload: SessionHeartbeatIn,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Heartbeat de session : rafraîchit le minuteur d'activité.
     Renvoie 401 si la session dépasse 5 minutes (300 s) d'inactivité.
     """
+    g.exiger(payload.user_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(payload.user_id)
     return GestionnaireSession.heartbeat(db, payload.session_id, eleve_hmac)
 
@@ -61,11 +62,13 @@ def heartbeat_session(
 @session_router.post("/save-state")
 def sauvegarder_etat_session(
     payload: SessionSaveStateIn,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Sauvegarde partielle de la mémoire de séance (brouillon d'ardoise, exercice, étape).
     """
+    g.exiger(payload.user_id, Action.APPRENTISSAGE)
     if len(json.dumps(payload.state_data)) > MAX_SESSION_STATE_BYTES:
         raise HTTPException(status_code=status.HTTP_413_CONTENT_TOO_LARGE, detail="etat_session_trop_volumineux")
 
@@ -78,23 +81,35 @@ def sauvegarder_etat_session(
 @session_router.post("/reconnect")
 def reconnecter_session(
     payload: SessionReconnectIn,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Reconnexion gracieuse < 2.0 secondes et restauration partielle d'état.
     """
+    g.exiger(payload.user_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(payload.user_id)
     return GestionnaireSession.reconnecter_et_restaurer(db, payload.session_id, eleve_hmac)
 
 
 @session_router.get("/stream")
-async def stream_notifications_sse(
+def stream_notifications_sse(
     session_id: str = Query(default="default_session", max_length=128, pattern=ID_PATTERN),
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ):
     """
     Flux Server-Sent Events (SSE) fallback pour ping/pong et notifications temps réel.
     Garantit la traversée des pare-feux scolaires et la reconnexion automatique.
     """
+    if g.qui is not None:
+        # Mode enforce : seul un jeton ÉLÈVE, propriétaire de la séance si elle existe.
+        if g.qui.pseudo_id is None:
+            raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="acces_refuse")
+        seance = db.get(MikaSessionState, session_id)
+        if seance is not None and seance.eleve_hmac != _hmac(g.qui.pseudo_id):
+            raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="acces_refuse")
+
     async def sse_generator():
         for i in range(3):
             event_data = {

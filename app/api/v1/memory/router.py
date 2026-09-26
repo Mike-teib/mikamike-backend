@@ -18,6 +18,7 @@ from app.api.v1.memory.spaced_repetition import (
 )
 
 from app.core.pseudonymisation import hmac_eleve as _hmac
+from app.core.auth import Action, Garde, garde as _garde
 
 class MemoryScheduleRequest(BaseModel):
     user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")
@@ -58,11 +59,13 @@ memory_router = APIRouter(prefix="/memory", tags=["memory-engine"])
 @memory_router.post("/schedule", response_model=MemoryScheduleResponse)
 def planifier_rappel_memoire(
     payload: MemoryScheduleRequest,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Planifie les rappels de mémorisation espacée (J+1, J+3, J+7, J+14) et calcule la courbe d'oubli d'Ebbinghaus.
     """
+    g.exiger(payload.user_id, Action.APPRENTISSAGE)
     if not MoteurCourbeOubliEbbinghaus.evenement_reconnu(payload.mastery_event):
         # Auparavant : tout événement inconnu était traité silencieusement comme un ÉCHEC.
         raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="mastery_event_inconnu")
@@ -88,10 +91,12 @@ def planifier_rappel_memoire(
 
 
 @memory_router.post("/detect-fragile")
-def dectecter_fragilite_scores(payload: DetectFragileRequest) -> Dict[str, Any]:
+def dectecter_fragilite_scores(payload: DetectFragileRequest, g: Garde = Depends(_garde)) -> Dict[str, Any]:
     """
     Détecte la fragilité d'une notion basée sur la moyenne ou la pente des derniers scores d'exercices.
     """
+    if g.qui is not None:  # mode enforce : l'identifiant renvoyé doit être celui du porteur
+        g.exiger(payload.user_id or "", Action.APPRENTISSAGE)
     if not payload.scores:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="liste_scores_vide")
 

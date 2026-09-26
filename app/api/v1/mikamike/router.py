@@ -32,6 +32,7 @@ from app.api.v1.mikamike.schemas import (
 )
 from app.api.v1.mikamike.store import get_db
 from app.core.validation import ID_PATTERN
+from app.core.auth import Action, Garde, garde as _garde
 
 from app.core.pseudonymisation import hmac_eleve as _hmac
 
@@ -53,7 +54,8 @@ exercices_router = APIRouter(prefix="/exercices", tags=["mika-exercices"])
 
 
 @exercices_router.post("/soumettre", response_model=SoumissionOut)
-def soumettre_exercice(payload: SoumissionIn, db: Session = Depends(get_db)):
+def soumettre_exercice(payload: SoumissionIn, db: Session = Depends(get_db), g: Garde = Depends(_garde)):
+    g.exiger(payload.student_pseudo_id, Action.APPRENTISSAGE)
     meta = catalogue.get_exercice(payload.exercice_id)
     if meta is None:
         raise HTTPException(status_code=404, detail="exercice_inconnu")
@@ -124,7 +126,8 @@ parents_router = APIRouter(prefix="/parents", tags=["mika-parents"])
 @parents_router.get("/dashboard/{student_pseudo_id}", response_model=DashboardOut)
 def dashboard_parent(
     student_pseudo_id: str = Path(max_length=128, pattern=ID_PATTERN),
-    db: Session = Depends(get_db)):
+    db: Session = Depends(get_db), g: Garde = Depends(_garde)):
+    g.exiger(student_pseudo_id, Action.LECTURE)
     eleve_hmac = _hmac(student_pseudo_id)
     stats = crud.agreger_dashboard(db, eleve_hmac)
     # On renvoie l'identifiant anonyme fourni (jamais de nom/prénom/email).
@@ -140,7 +143,8 @@ parcours_router = APIRouter(prefix="/parcours", tags=["mika-parcours"])
 @parcours_router.get("/prochaine-etape", response_model=ProchaineEtapeOut)
 def prochaine_etape(
     student_id: str = Query(max_length=128, pattern=ID_PATTERN),
-    db: Session = Depends(get_db)):
+    db: Session = Depends(get_db), g: Garde = Depends(_garde)):
+    g.exiger(student_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(student_id)
     etats = crud.get_etats(db, eleve_hmac)
 

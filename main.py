@@ -28,6 +28,7 @@ from app.api.v1.parcours.router import parcours_graph_router
 from app.api.v1.memory.router import memory_router
 from app.api.v1.rgpd.router import rgpd_router
 from app.api.v1.session.router import session_router
+from app.api.v1.auth.router import auth_router
 
 API_V1_PREFIX = "/api/v1"
 
@@ -37,8 +38,10 @@ async def _cycle_de_vie(_app: FastAPI):
     # Schéma : jamais de create_all implicite (revue session 2, R2-07). Par défaut
     # (MIKA_DB_INIT=check) l'application REFUSE de démarrer si une base n'est pas à la
     # révision head ; `migrate` applique les migrations ; `none` pour les bases de test.
+    from app.core.auth import mode_auth
     from app.db.migrations import initialiser_au_demarrage
 
+    mode_auth()  # configuration d'authentification invalide ⇒ refus de démarrer
     initialiser_au_demarrage()
     yield
 
@@ -76,6 +79,7 @@ def create_app() -> FastAPI:
     app.include_router(memory_router, prefix=API_V1_PREFIX)
     app.include_router(rgpd_router, prefix=API_V1_PREFIX)
     app.include_router(session_router, prefix=API_V1_PREFIX)
+    app.include_router(auth_router, prefix=API_V1_PREFIX)
     return app
 
 

@@ -24,6 +24,7 @@ from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice, get_db
 from app.api.v1.session.session_manager import MikaSessionState
 from app.api.v1.tutorat.store import TutoratRequete, TutoratSession
 from app.core.pseudonymisation import hmac_eleve as _hmac
+from app.core.auth import Action, Garde, garde as _garde
 from app.core.validation import ID_PATTERN
 
 # Registre exhaustif des tables contenant des données d'un élève.
@@ -43,12 +44,14 @@ rgpd_router = APIRouter(prefix="/rgpd", tags=["rgpd"])
 @rgpd_router.get("/export/{student_pseudo_id}")
 def exporter_donnees_eleve(
     student_pseudo_id: str = PseudoPath,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Droit d'accès RGPD : Exporte l'intégralité des données d'apprentissage associées
     à un identifiant pseudonymisé, SANS aucune PII (donnée nominative).
     """
+    g.exiger(student_pseudo_id, Action.LECTURE)
     eleve_hmac = _hmac(student_pseudo_id)
 
     tentatives = db.execute(
@@ -148,12 +151,14 @@ def exporter_donnees_eleve(
 @rgpd_router.delete("/effacer/{student_pseudo_id}")
 def effacer_donnees_eleve(
     student_pseudo_id: str = PseudoPath,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Droit à l'oubli RGPD : Efface définitivement toutes les données d'apprentissage
     associées à un identifiant élève pseudonymisé, dans TOUTES les tables élève.
     """
+    g.exiger(student_pseudo_id, Action.EFFACEMENT)
     eleve_hmac = _hmac(student_pseudo_id)
 
     compte_par_table: Dict[str, int] = {}
@@ -163,6 +168,10 @@ def effacer_donnees_eleve(
         ).rowcount or 0
         compte_par_table[modele.__tablename__] = n
     db.commit()
+    # Liens compte ↔ élève (base billing) : donnée relative à l'élève, effacée aussi.
+    from paiement_comptes.liens import supprimer_liens_eleve
+
+    compte_par_table["liens_compte_eleve"] = supprimer_liens_eleve(g.db, eleve_hmac)
 
     if not any(compte_par_table.values()):
         raise HTTPException(
@@ -180,4 +189,5 @@ def effacer_donnees_eleve(
         "sessions_supprimees": compte_par_table[MikaSessionState.__tablename__],
         "tutorats_supprimes": compte_par_table[TutoratSession.__tablename__],
         "requetes_tutorat_supprimees": compte_par_table[TutoratRequete.__tablename__],
+        "liens_compte_supprimes": compte_par_table["liens_compte_eleve"],
     }
