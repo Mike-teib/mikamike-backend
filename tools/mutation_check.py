@@ -52,6 +52,7 @@ T_PUB = ("tests_cloud/test_publication.py",)
 T_RAP = ("tests_cloud/test_rapport_import.py",)
 T_CHAP = ("tests_cloud/test_chapitrage.py", "tests_cloud/test_import_harnais.py", "tests_cloud/test_publication.py",
           "tests_cloud/test_text_quality_s4.py")
+T_REC = ("tests_cloud/test_recurrence_s4.py", "tests_cloud/test_pedagogie_mika.py")
 T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
          "tests_cloud/test_e2e_parent_enfant.py")
 
@@ -308,6 +309,14 @@ MUTANTS: List[Mutant] = [
            "    if _titre_absorbe(t):", "    if False:", T_CHAP),
     Mutant("texte_unicode_anormal_ignore", "app/curriculum/text_quality.py",
            "    if _unicode_anormal(brut):", "    if False:", T_CHAP),
+    Mutant("recurrence_implication_inversee", "app/curriculum/pedagogie/recurrence.py",
+           '            out.append("HER_IMPLICATION_INVERSEE")', "            pass", T_REC),
+    Mutant("recurrence_hypothese_sans_rang", "app/curriculum/pedagogie/recurrence.py",
+           '        out.append("HYP_SANS_RANG")', "        pass", T_REC),
+    Mutant("recurrence_etape_hors_ordre", "app/curriculum/pedagogie/recurrence.py",
+           "    conf = sorted(conf, key=lambda c: ordre[ETAPE_DE[c]])", "    conf = sorted(conf)", T_REC),
+    Mutant("recurrence_fonction_auxiliaire_acceptee", "app/curriculum/pedagogie/recurrence.py",
+           "    if diff == 0:\n        return valide", "    if True:\n        return valide", T_REC),
     Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
            "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
            "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),
