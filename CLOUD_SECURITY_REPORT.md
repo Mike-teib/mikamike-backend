@@ -128,3 +128,66 @@ aucune API payante. Scan de secrets (arbre) : **0 détection** à chaque commit.
 D1 rotation des secrets si un environnement a tourné sans eux · D3 e-mail dans le jeton de compte ·
 D3bis rate-limiting · D8 création des liens compte ↔ élève · D9 effacement par l'élève lui-même ·
 D11 révocation des jetons élève · D12 date de passage du front en `enforce`.
+
+---
+
+# Session cloud 3 (2026-09-26) — mise à jour
+
+Aucun secret réel, aucune donnée d'élève réelle, aucune base réelle, aucune API payante.
+Revue contradictoire de la PR #4 : CLOUD_REVIEW_SESSION2.md (16 findings : 0 P0, 4 P1, 12 P2).
+
+## Failles traitées
+| # | Gravité | Faille | Statut |
+|---|---|---|---|
+| S3-01 | P1 | Jeton élève encore valide après effacement RGPD / retrait du lien / désactivation du compte (réécriture de données d'un élève effacé) | **corrigé** (claim `cid` revérifié à chaque requête) |
+| S3-15 | P1 | Lot de contenu à source fictive VALIDATED et publiable hors mode test | **corrigé** (`SOURCE_FICTIVE_HORS_TEST`, anomalie globale) |
+| S3-02 / S3-03 | P1 | Migrations : URL avec `%` ; migration interrompue non reprenable | **corrigé** |
+| S3-07 | P2 | Oracle de timing à la connexion (5 ms vs 295 ms : énumération des comptes) | **corrigé** (hash leurre) |
+| S3-09 | P2 | Export RGPD incomplet (journal du tuteur, liens) | **corrigé** |
+| S3-10 | P2 | Identifiants 128 car. dans des colonnes 64 (500 sur PostgreSQL) | **corrigé** |
+| S3-13 | P2 | Squat d'un `session_id` prévisible (DoS ciblé) | **documenté** (D15 ; front : UUID v4) |
+| S3-14 | P2 | bcrypt tronque à 72 octets | **documenté** |
+| S3 / R7 | — | Absence de limitation de débit (S3 historique, D3bis) | **livré** |
+| — | P2 | `sub` d'un jeton élève hors alphabet des identifiants (ex. vide) accepté au décodage | **corrigé** (401) |
+
+## R7 — Limitation des tentatives (paramètres par défaut)
+| Limiteur | Clé | Seuil | Fenêtre d'inactivité | Backoff (base → plafond) |
+|---|---|---|---|---|
+| connexion | (IP, e-mail) | 5 échecs | 15 min | 30 s → 15 min |
+| connexion | IP | 30 échecs | 15 min | 60 s → 1 h |
+| connexion | e-mail seul | 100 échecs (**désactivé** par défaut, `MIKA_RL_EMAIL_GLOBAL=1`) | 1 h | 60 s → 1 h |
+| inscription | IP | 20 demandes | 1 h | 60 s → 1 h |
+| jeton élève | compte | 30 émissions | 10 min | 60 s → 30 min |
+| jeton élève | IP | 60 émissions | 10 min | 60 s → 30 min |
+| jetons invalides | IP | 50 | 5 min | 30 s → 15 min |
+
+Propriétés testées (`tests_cloud/test_limitation.py`, 31 tests, 7 mutants) : refus **avant**
+bcrypt ; succès ⇒ reset (sauf compteur IP) ; blocage identique e-mail existant/inexistant ;
+**pas de DoS** contre la victime (attaquant sur une IP, ou botnet de 150 IP) ; `X-Forwarded-For`
+ignoré sans `MIKA_PROXY_HOPS`, entrées forgées à gauche ignorées ; mémoire bornée (100 000
+clés, historique borné), clés hachées (aucun e-mail en mémoire) ; `off` interdit en production.
+Limites : état **par processus** (N workers ⇒ N × la limite ; redémarrage ⇒ remise à zéro) ;
+pour plusieurs instances, compléter par une limitation au reverse proxy.
+
+## Tests de sécurité ajoutés (session 3)
+`test_securite_s3.py` (52) : en-têtes JWT hostiles (`kid`, `jku`, `x5u`, `crit`), HS384/HS512,
+confusion RS256/HS256 (jeton signé à la main), `iat`/`nbf` futurs, types de claims hostiles, jeton
+géant refusé **avant** décodage, schémas d'authentification hostiles, IDOR croisé (4 comptes × 2
+élèves × 2 routes), rôle forgé dans un jeton de compte (la base fait foi), inscription `admin`
+impossible, jeton élève lié à un compte non lié, rejeu après suppression/expiration, **aucun
+cookie** (CSRF sans objet), jeton en cookie ignoré, CORS fermé par défaut et limité aux origines
+listées, homoglyphes / RTL / zero-width / pleine chasse refusés, traversée encodée, fixation de
+séance sans prise de contrôle. Plus `test_review_session2.py`, `test_mika_api_audit.py`
+(concurrence par threads), `test_import_harnais.py` (manifest régénéré après falsification).
+
+## Contrôles (session 3)
+| Contrôle | Résultat |
+|---|---|
+| bandit (≥ moyenne, désormais `migrations/` inclus) | 0 |
+| pip-audit (runtime + dev) | 0 vulnérabilité connue |
+| scan de secrets arbre | 0 à chaque commit |
+| Incident évité | le scanner a détecté un exemple d'URL avec identifiants **factices** dans un brouillon de CLOUD_REVIEW_SESSION2.md ; reformulé et commit amendé avant toute revue (le commit remplacé n'est plus référencé par aucune branche) |
+
+## Décisions restant à Mike (ajouts session 3)
+D14 (compréhension ratée ⇒ réussite non comptée : choix fail-closed appliqué, à confirmer) ·
+D15 (`session_id` : clé composite ou identifiant généré par le serveur).

@@ -27,8 +27,12 @@ class Mutant(NamedTuple):
     fichier: str
     avant: str
     apres: str
-    # Suite(s) exécutée(s) pour ce mutant (défaut : tests_cloud entier).
-    cibles: Tuple[str, ...] = ("tests_cloud",)
+    # Suite(s) exécutée(s) pour ce mutant (défaut : tests_cloud hors fichiers LENTS — perf et
+    # migrations en sous-processus — qui ne couvrent aucun mutant par défaut ; ils ont leurs
+    # propres mutants ciblés. Sans cela le job CI dépassait son délai, session 3).
+    cibles: Tuple[str, ...] = ("tests_cloud", "--ignore=tests_cloud/test_import_perf.py",
+                               "--ignore=tests_cloud/test_migrations.py",
+                               "--ignore=tests_cloud/test_migrations_validation.py")
 
 
 T_AUTH = ("tests_cloud/test_auth.py", "tests_cloud/test_review_session1.py")

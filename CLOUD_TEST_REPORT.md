@@ -110,3 +110,50 @@ erreurs de collecte non comptées comme « tuées ».
 | content_check | OK |
 | rapports ×2 + diff | identiques |
 | migrations (CI) | upgrade → status → downgrade base → upgrade |
+
+---
+
+# Session cloud 3 (2026-09-26) — branche `cloud/mikamike-session3-20260926` (PR #5)
+
+```
+TESTS_TOTAL = 4017   (session 2 : 3767 ; +250)
+TESTS_PASS  = 4017
+TESTS_FAIL  = 0
+TESTS_ERROR = 0
+```
+
+## Nouveaux tests
+| Fichier | Tests | Objet |
+|---|---|---|
+| test_review_session2.py | 26 | un test par finding de la revue de la PR #4 (21 échouent sur db03ff4, 2 témoins passent) |
+| test_limitation.py | 31 | R7 : fenêtre, seuil, backoff, reset, mémoire bornée, anti-DoS (IP unique et botnet), X-Forwarded-For, jetons |
+| test_equivalence.py | 44 | R6 : équations, fractions, puissances, expressions, unités, forme vs fond, ambigu ⇒ revue, catalogue en lecture seule |
+| test_migrations_validation.py | 12 | base neuve/historique, stamp, pas à pas, downgrade, version incorrecte, interruption (×3), downgrade interrompu |
+| test_mika_api_audit.py | 39 | contrat exact, non-divulgation des aides futures, concurrence par threads, rejeu, plans invalides, prérequis, état corrompu |
+| test_import_harnais.py | 40 | pipeline synthétique complet, 12 défauts injectés (étape exacte, jamais publiés), partiel, reprise, idempotence, dépôt |
+| test_import_perf.py | 6 | croissance linéaire temps/mémoire, flux, checkpoint O(fichiers), reprise sur 6 000 notions |
+| test_securite_s3.py | 52 | JWT hostiles, IDOR croisé, CSRF/CORS, rôles, Unicode, rejeu, fixation de séance |
+
+## Tests existants modifiés (préparation uniquement, justifiée)
+- `test_mika_api.py::test_ownership_en_mode_enforce` : les jetons élève sont émis pour un compte lié
+  (S3-01 exige `cid`). Assertions inchangées.
+- `test_auth.py::_eleve_claims` : `cid` ajouté au jeu de claims de base (sinon les tests négatifs
+  échouaient pour une autre raison — S3-12) ; `test_jeton_emis_ne_contient_aucune_pii` : ensemble de
+  claims attendu complété par `cid` (évolution de contrat documentée, pas un affaiblissement).
+- `test_backlog_audit_import.py` (3 appels) : `autoriser_fictif=True`, la fixture étant fictive (S3-15).
+- conftests : remise à zéro des compteurs R7 entre tests.
+
+## Mutation
+Voir la synthèse de fin de session dans CLOUD_NEXT_SESSION.md (exécution complète locale + CI).
+34 mutants ajoutés en session 3 (+ 3 réécrits car devenus inapplicables), chacun vérifié tué
+individuellement lors de son ajout ; `mutation_check` mute désormais une **copie jetable** (S3-11)
+et accepte `--seulement`.
+
+## Contrôles qualité (session 3)
+| Contrôle | Résultat |
+|---|---|
+| ruff | 0 |
+| bandit (≥ moyenne, `migrations/` inclus) | 0 |
+| pip-audit | 0 vulnérabilité connue |
+| scan de secrets arbre | 0 |
+| audit R6 (catalogue historique) | 0 faux positif historique |

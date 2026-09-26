@@ -23,11 +23,11 @@ dans leur conftest ; `test_auth.py` repasse explicitement en `enforce`.
 | | Jeton de COMPTE | Jeton de SÉANCE ÉLÈVE |
 |---|---|---|
 | Émis par | `POST /api/v1/comptes/connexion` / `inscription` | `POST /api/v1/auth/eleve/jeton` |
-| Claims | `sub`=id compte, `typ=compte`, `role`, `email`*, `iat`, `exp` | `iss=mikamike-backend`, `aud=mikamike-api`, `typ=mika-eleve`, `role=eleve`, `sub`=pseudo-id, `iat`, `exp`, `jti` |
+| Claims | `sub`=id compte, `typ=compte`, `role`, `email`*, `iat`, `exp` | `iss=mikamike-backend`, `aud=mikamike-api`, `typ=mika-eleve`, `role=eleve`, `sub`=pseudo-id, `cid`=id du compte émetteur (session 3), `iat`, `exp`, `jti` |
 | Clé | `MIKA_JWT_SECRET` | clé **dérivée** `HMAC-SHA256(MIKA_JWT_SECRET, "mikamike/jeton-eleve/v1")` |
 | Durée | `MIKA_TOKEN_TTL_H` (168 h) | `MIKA_ELEVE_TOKEN_TTL_MIN` (120 min, borné [1, 720]) |
 | Algorithme | HS256 uniquement (`alg` vérifié, `none` refusé) | idem |
-| Claims obligatoires | `exp`, `sub` | `exp`, `iat`, `sub`, `aud`, `iss`, `typ` |
+| Claims obligatoires | `exp`, `sub` | `exp`, `iat`, `sub` (alphabet des identifiants), `aud`, `iss`, `typ`, `cid` |
 
 \* e-mail dans le jeton de compte : décision D3 inchangée (à retirer).
 
@@ -69,5 +69,16 @@ effacement, le parent n'a plus accès.
 | D12 | Date de passage du front en `enforce` (fin du mode `off`) | `off` interdit en production dès maintenant |
 
 ## 8. Hors périmètre / limites connues
-- Pas de rate-limiting (S3/R7, décision infra).
+- ~~Pas de rate-limiting~~ : **R7 livré en session 3** (§9).
 - Le mode `off` reste un contrat **non authentifié** : il ne doit jamais être exposé sur Internet.
+
+## 9. Session cloud 3 — évolutions
+- **Révocation effective (S3-01)** : à chaque requête portant un jeton élève, le compte `cid` doit
+  être actif ET encore lié à l'élève (relation = rôle du compte). Sinon 401 `jeton_revoque`.
+  Conséquence : un effacement RGPD, la suppression d'un lien ou la désactivation du compte
+  coupent immédiatement les jetons élève émis (D11 reste ouverte pour la révocation par `jti`).
+- **Limitation R7** (`app/core/limitation.py`) : connexion par (IP, e-mail) et par IP ; inscriptions
+  par IP ; émission de jetons élève par compte et par IP ; jetons invalides répétés par IP.
+  Réponse 429 `trop_de_tentatives` + `Retry-After`. Jamais de blocage par l'e-mail seul (anti-DoS).
+- **Connexion à temps constant** (S3-07) ; **inscription concurrente** ⇒ 400 (S3-08).
+- Intégration front : FRONT_AUTH_INTEGRATION.md.
