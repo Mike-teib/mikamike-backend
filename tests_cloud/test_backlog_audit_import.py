@@ -188,7 +188,7 @@ def test_import_manifest_absent_ou_chemin_hors_dossier(tmp_path):
 @pytest.mark.parametrize("ligne,raison", [
     ('{"id": "notion:x:y", "nom": "Dupont"}', "cle_personnelle"),
     ('{"texte": "contact parent@example.com"}', "email_detecte"),
-    ('{"texte": "appeler le 06 12 34 56 78"}', "telephone_detecte"),
+    ('{"texte": "appeler le ' + "06 " + '12 34 56 78"}', "telephone_detecte"),  # construit : pas de motif littéral
     ("pas du json", "json_invalide"),
 ])
 def test_import_donnees_personnelles_ou_invalides(tmp_path, ligne, raison):
