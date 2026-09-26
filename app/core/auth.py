@@ -27,6 +27,7 @@ import datetime as _dt
 import hashlib
 import hmac
 import os
+import re
 import uuid
 from dataclasses import dataclass
 from enum import Enum
@@ -37,6 +38,7 @@ from fastapi import Depends, Header, HTTPException, Request, status
 from sqlalchemy.orm import Session
 
 from app.core.security_config import get_jwt_secret
+from app.core.validation import ID_PATTERN
 
 ALGO = "HS256"
 ISSUER = "mikamike-backend"
@@ -145,6 +147,7 @@ def decoder(jeton: str) -> Principal:
                        options={"require": ["exp", "iat", "sub", "aud", "iss", "typ", "cid"]})
         cid = c.get("cid")
         if (c.get("typ") != TYP_ELEVE or c.get("role") != "eleve" or not isinstance(c.get("sub"), str)
+                or not re.fullmatch(ID_PATTERN, c["sub"])
                 or isinstance(cid, bool) or not isinstance(cid, int) or cid < 1):
             raise _refus("jeton_invalide")
         return Principal(typ=TYP_ELEVE, role="eleve", pseudo_id=c["sub"], compte_id=cid)

@@ -41,6 +41,7 @@ T_EQ = ("tests_cloud/test_equivalence.py",)
 T_MIG = ("tests_cloud/test_migrations_validation.py",)
 T_API2 = ("tests_cloud/test_mika_api_audit.py",)
 T_HARN = ("tests_cloud/test_import_harnais.py",)
+T_SEC = ("tests_cloud/test_securite_s3.py",)
 
 
 MUTANTS: List[Mutant] = [
@@ -113,8 +114,8 @@ MUTANTS: List[Mutant] = [
            '    if mode == "off" and os.getenv("MIKA_ENV", "").strip().lower() in ("production", "prod"):',
            "    if False:", T_AUTH),
     Mutant("jeton_compte_accepte_comme_eleve", "app/core/auth.py",
-           '        if (c.get("typ") != TYP_ELEVE or c.get("role") != "eleve" or not isinstance(c.get("sub"), str)',
-           '        if (not isinstance(c.get("sub"), str)', T_AUTH),
+           '        if (c.get("typ") != TYP_ELEVE or c.get("role") != "eleve" or not isinstance(c.get("sub"), str)\n',
+           '        if (not isinstance(c.get("sub"), str)\n', T_AUTH),
     Mutant("route_sans_garde", "app/api/v1/rgpd/router.py",
            "    g.exiger(student_pseudo_id, Action.EFFACEMENT)", "    pass", T_AUTH),
     Mutant("tutorat_d_un_autre_eleve", "app/api/v1/tutorat/service.py",
@@ -215,6 +216,10 @@ MUTANTS: List[Mutant] = [
     Mutant("import_partiel_accepte", "app/curriculum/importers.py",
            '    if any(f["etat"] == "FAILED" for f in res.fichiers.values()):\n        res.statut = "FAILED"\n        return res',
            "    pass", T_HARN),
+    Mutant("sub_eleve_non_valide", "app/core/auth.py",
+           '                or not re.fullmatch(ID_PATTERN, c["sub"])\n', "", T_SEC),
+    Mutant("jeton_geant_decode", "app/core/auth.py",
+           ' or len(jeton) > 4096:', ':', T_SEC),
 ]
 
 
