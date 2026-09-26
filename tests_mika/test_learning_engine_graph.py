@@ -11,8 +11,7 @@ from fastapi.testclient import TestClient
 from app.api.v1.parcours.router import parcours_graph_router
 from app.api.v1.parcours.curriculum_dataset import (
     obtenir_graphe_competences,
-    valider_graphe_sans_cycles,
-    generer_parcours_personnalise
+    valider_graphe_sans_cycles
 )
 from app.api.v1.mikamike.store import MikaBase, engine
 

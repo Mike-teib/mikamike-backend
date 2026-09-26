@@ -6,18 +6,17 @@ Expose POST /api/v1/memory/schedule
 
 from __future__ import annotations
 
-import os
-from typing import Dict, Any, List, Optional
+from typing import Annotated, Dict, Any, List, Optional
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.learning_engine import pseudonymiser_code
-from app.api.v1.mikamike.store import get_db
+from app.api.v1.mikamike.store import engine, get_db
+from app.core.validation import Identifiant
 from app.api.v1.memory.spaced_repetition import (
     MoteurCourbeOubliEbbinghaus,
-    MemoryBase,
-    TacheRappelMemoire
+    MemoryBase
 )
 
 from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
@@ -30,9 +29,13 @@ def _hmac(student_pseudo_id: str) -> str:
 
 
 class MemoryScheduleRequest(BaseModel):
-    user_id: str = Field(description="Identifiant élève (pseudo_id)")
-    notion_id: str = Field(description="Identifiant de la compétence/notion")
-    mastery_event: str = Field(default="SUCCESS", description="Événement : SUCCESS ou FAILURE")
+    user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")
+    notion_id: Identifiant = Field(description="Identifiant de la compétence/notion")
+    mastery_event: str = Field(
+        default="SUCCESS",
+        max_length=32,
+        description="Événement : SUCCESS/REUSSITE/CORRECT/MAITRISE ou FAILURE/ECHEC/FAUX",
+    )
 
 
 class MemoryScheduleResponse(BaseModel):
@@ -47,14 +50,19 @@ class MemoryScheduleResponse(BaseModel):
 
 
 class DetectFragileRequest(BaseModel):
-    user_id: Optional[str] = Field(default="eleve_test", description="Identifiant élève")
-    scores: List[float] = Field(description="Historique récent des scores de réussite (0.0 à 1.0)")
-    seuil_fragilite: float = Field(default=0.70, description="Seuil sous lequel la notion est jugée fragile")
+    user_id: Optional[Identifiant] = Field(default="eleve_test", description="Identifiant élève")
+    scores: List[Annotated[float, Field(ge=0.0, le=1.0)]] = Field(
+        max_length=1000, description="Historique récent des scores de réussite (0.0 à 1.0)"
+    )
+    seuil_fragilite: float = Field(default=0.70, ge=0.0, le=1.0, description="Seuil sous lequel la notion est jugée fragile")
 
 
 MemoryScheduleRequest.model_rebuild()
 MemoryScheduleResponse.model_rebuild()
 DetectFragileRequest.model_rebuild()
+
+# Tables créées UNE fois au chargement (auparavant : à chaque requête, erreurs avalées).
+MemoryBase.metadata.create_all(bind=engine)
 
 memory_router = APIRouter(prefix="/memory", tags=["memory-engine"])
 
@@ -67,11 +75,9 @@ def planifier_rappel_memoire(
     """
     Planifie les rappels de mémorisation espacée (J+1, J+3, J+7, J+14) et calcule la courbe d'oubli d'Ebbinghaus.
     """
-    # Auto-création des tables de mémoire si nécessaire
-    try:
-        MemoryBase.metadata.create_all(bind=db.get_bind())
-    except Exception:
-        pass
+    if not MoteurCourbeOubliEbbinghaus.evenement_reconnu(payload.mastery_event):
+        # Auparavant : tout événement inconnu était traité silencieusement comme un ÉCHEC.
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="mastery_event_inconnu")
 
     eleve_hmac = _hmac(payload.user_id)
     res = MoteurCourbeOubliEbbinghaus.traiter_evenement_apprentissage(

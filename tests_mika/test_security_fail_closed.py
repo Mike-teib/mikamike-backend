@@ -5,10 +5,9 @@ Conforme au Cahier des Charges §8.
 
 import base64
 import datetime as _dt
-import pytest
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends
 from fastapi.testclient import TestClient
-from jose import jwt
+import jwt  # PyJWT (remplace python-jose)
 
 from app.api.v1.security.fail_closed import (
     exiger_session_active,

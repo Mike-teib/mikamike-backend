@@ -13,14 +13,15 @@ from sqlalchemy.orm import Session
 
 from app.api.v1.escalier.orchestrator import OrchestrateurEscalier
 from app.api.v1.mikamike.store import get_db
+from app.core.validation import Identifiant, ReponseEleve
 
 
 class EscalierEtapeIn(BaseModel):
     """Payload d'entrée pour l'exécution d'une étape d'escalier."""
-    student_pseudo_id: str = Field(description="Identifiant élève pseudonymisé (RGPD)")
-    competence_objectif: str = Field(description="Compétence visée (ex: equations_1er_degre)")
-    exercice_id: str = Field(description="Identifiant de l'exercice soumis")
-    reponse_eleve: Optional[str] = Field(default=None, description="Réponse saisie par l'élève (None pour le démarrage)")
+    student_pseudo_id: Identifiant = Field(description="Identifiant élève pseudonymisé (RGPD)")
+    competence_objectif: Identifiant = Field(description="Compétence visée (ex: equations_1er_degre)")
+    exercice_id: Identifiant = Field(description="Identifiant de l'exercice soumis")
+    reponse_eleve: Optional[ReponseEleve] = Field(default=None, description="Réponse saisie par l'élève (None pour le démarrage)")
     avec_aide: bool = Field(default=False, description="Vrai si l'élève a utilisé un indice/aide")
 
 

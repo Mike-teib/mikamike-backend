@@ -9,15 +9,19 @@ from __future__ import annotations
 
 import datetime as _dt
 import math
-import os
-from typing import Dict, Any, Tuple, Optional
-from sqlalchemy import Column, String, Integer, Boolean, DateTime, Float, create_engine, select
-from sqlalchemy.orm import declarative_base, sessionmaker, Session
+from typing import Dict, Any
+from sqlalchemy import Column, String, Integer, Boolean, DateTime, Float, select
+from sqlalchemy.orm import declarative_base, Session
 
 # Secret HMAC pour la pseudonymisation
 from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
 
 _PSEUDO_SECRET = _get_pseudo_secret()
+
+def _utcnow_naive() -> _dt.datetime:
+    """UTC naïf (SQLite ne stocke pas le fuseau) — remplace datetime.utcnow déprécié."""
+    return _dt.datetime.now(_dt.timezone.utc).replace(tzinfo=None)
+
 
 # SQLAlchemy Base dédiée aux tâches de rappel mémoire
 MemoryBase = declarative_base()
@@ -36,11 +40,21 @@ class TacheRappelMemoire(MemoryBase):
     force_memoire_s = Column(Float, default=1.0, nullable=False)  # S (Strength) dans e^(-t/S)
     derniers_succes_consecutifs = Column(Integer, default=0, nullable=False)
     prochain_rappel_date = Column(DateTime, nullable=False)
-    derniere_mise_a_jour = Column(DateTime, default=_dt.datetime.utcnow, onupdate=_dt.datetime.utcnow)
+    derniere_mise_a_jour = Column(DateTime, default=_utcnow_naive, onupdate=_utcnow_naive)
+
+
+EVENEMENTS_SUCCES = frozenset({"SUCCESS", "REUSSITE", "CORRECT", "MAITRISE"})
+EVENEMENTS_ECHEC = frozenset({"FAILURE", "ECHEC", "FAUX", "INCORRECT"})
 
 
 class MoteurCourbeOubliEbbinghaus:
     """Moteur algorithmique calculant la rétention et planifiant les révisions."""
+
+    @staticmethod
+    def evenement_reconnu(mastery_event: str) -> bool:
+        """Vrai si l'événement est explicitement un succès ou un échec connu."""
+        ev = (mastery_event or "").strip().upper()
+        return ev in EVENEMENTS_SUCCES or ev in EVENEMENTS_ECHEC
 
     INTERVALLES_LEITNER = {
         1: 1,   # Repetition 1 -> J+1
@@ -76,7 +90,7 @@ class MoteurCourbeOubliEbbinghaus:
         """
         now = _dt.datetime.now(_dt.timezone.utc)
         event_upper = (mastery_event or "SUCCESS").strip().upper()
-        is_success = event_upper in ("SUCCESS", "REUSSITE", "CORRECT", "MAITRISE")
+        is_success = event_upper in EVENEMENTS_SUCCES
 
         # Recherche ou création de la tâche de rappel
         tache = db.execute(

@@ -1,20 +1,24 @@
 # --- API
-fastapi==0.115.0
-uvicorn[standard]==0.32.0
-pydantic==2.9.2
-email-validator==2.2.0
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+pydantic==2.13.5
+email-validator==2.3.0
 
 # --- Base de données
 sqlalchemy==2.0.35
 
 # --- Sécurité / Auth
-# JWT via python-jose ; bcrypt utilisé directement (passlib bugue avec bcrypt >= 4.1).
-python-jose[cryptography]==3.3.0
+# JWT via PyJWT (python-jose retiré : CVE PYSEC-2024-232/233, PYSEC-2025-185 sans correctif).
+# bcrypt utilisé directement (passlib bugue avec bcrypt >= 4.1).
+PyJWT==2.15.0
 bcrypt==4.2.0
 
 # --- Paiement
 stripe==10.10.0
 
+# --- Filet mathématique (vérification symbolique déterministe, hors ligne)
+sympy==1.14.0
+
 # --- Dev / Tests
-httpx==0.27.2
-pytest==8.3.3
+httpx==0.28.1
+pytest==9.1.1

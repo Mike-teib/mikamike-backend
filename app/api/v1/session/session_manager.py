@@ -10,9 +10,8 @@ from __future__ import annotations
 
 import datetime as _dt
 import json
-import os
 import time
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 
 from fastapi import HTTPException, status
 from sqlalchemy import Column, String, Boolean, DateTime, Text, select
@@ -26,6 +25,21 @@ INACTIVITY_TIMEOUT_SECONDS = 300  # 5 minutes d'inactivité
 SessionBase = declarative_base()
 
 
+def _utcnow_naive() -> _dt.datetime:
+    """UTC naïf (SQLite ne stocke pas le fuseau) — remplace datetime.utcnow déprécié."""
+    return _dt.datetime.now(_dt.timezone.utc).replace(tzinfo=None)
+
+
+def _verifier_proprietaire(session_obj: "MikaSessionState", eleve_hmac: str) -> None:
+    """
+    Une session n'est accessible qu'à l'élève qui l'a créée (anti-IDOR, RGPD).
+    Sans ce contrôle, connaître un session_id suffisait pour lire (reconnect) ou
+    écrire (save-state) la mémoire de séance d'un autre élève.
+    """
+    if session_obj.eleve_hmac != eleve_hmac:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="session_non_autorisee")
+
+
 class MikaSessionState(SessionBase):
     """Table de suivi des sessions actives et mémoire de séance."""
     __tablename__ = "mika_session_states"
@@ -33,8 +47,8 @@ class MikaSessionState(SessionBase):
     session_id = Column(String(64), primary_key=True)
     eleve_hmac = Column(String(32), index=True, nullable=False)
     is_active = Column(Boolean, default=True, nullable=False)
-    last_activity_ts = Column(DateTime, nullable=False, default=_dt.datetime.utcnow)
-    created_at = Column(DateTime, nullable=False, default=_dt.datetime.utcnow)
+    last_activity_ts = Column(DateTime, nullable=False, default=_utcnow_naive)
+    created_at = Column(DateTime, nullable=False, default=_utcnow_naive)
     state_json = Column(Text, nullable=True, default="{}")
 
 
@@ -75,6 +89,7 @@ class GestionnaireSession:
                 detail="session_inactivite_5min"
             )
 
+        _verifier_proprietaire(session_obj, eleve_hmac)
         session_obj.last_activity_ts = now
         session_obj.is_active = True
         db.commit()
@@ -104,6 +119,7 @@ class GestionnaireSession:
             )
             db.add(session_obj)
         else:
+            _verifier_proprietaire(session_obj, eleve_hmac)
             # Fusion de l'état existant avec les nouvelles données
             existing_state = json.loads(session_obj.state_json or "{}")
             existing_state.update(state_data)
@@ -143,6 +159,8 @@ class GestionnaireSession:
             )
             db.add(session_obj)
             db.commit()
+
+        _verifier_proprietaire(session_obj, eleve_hmac)
 
         # Restauration d'état
         state_data = json.loads(session_obj.state_json or "{}")

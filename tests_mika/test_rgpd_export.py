@@ -8,7 +8,6 @@ from fastapi.testclient import TestClient
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike import crud
-from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import MikaBase, engine, get_db
 from app.api.v1.rgpd.router import rgpd_router, _hmac
 

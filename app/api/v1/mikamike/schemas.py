@@ -6,13 +6,15 @@ from typing import Any, Dict, Optional
 
 from pydantic import BaseModel, Field
 
+from app.core.validation import Identifiant, ReponseEleve
+
 
 class SoumissionIn(BaseModel):
     """Contrat aligné sur test_mika_suite (champ `reponse`)."""
 
-    exercice_id: str
-    student_pseudo_id: str = Field(description="Identifiant déjà pseudonymisé (RGPD)")
-    reponse: str
+    exercice_id: Identifiant
+    student_pseudo_id: Identifiant = Field(description="Identifiant déjà pseudonymisé (RGPD)")
+    reponse: ReponseEleve
     avec_aide: bool = False
 
 

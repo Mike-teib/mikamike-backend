@@ -7,7 +7,6 @@ Doctrine (Cahier §4) :
 
 from __future__ import annotations
 
-import os
 from typing import Dict, Any, Optional
 from sqlalchemy.orm import Session
 
@@ -15,7 +14,6 @@ from app.api.v1.mikamike import catalogue, crud
 from app.api.v1.mikamike.learning_engine import (
     LearningEngine,
     EtatMaitrise,
-    ETATS_SOLIDES,
     pseudonymiser_code
 )
 
@@ -98,12 +96,18 @@ class OrchestrateurEscalier:
         # ---------------------------------------------------------------------
         # ÉTAPE 6 : VÉRIFICATION PAR LE MOTEUR (Strictement synchrone / Pas de LLM seul)
         # ---------------------------------------------------------------------
+        # La transition porte sur la compétence RÉELLEMENT évaluée (celle de l'exercice),
+        # jamais sur la lacune prérequis identifiée mais non testée (bug B9).
         nouvel_etat = EtatMaitrise.INCONNU
         if est_correct is not None:
-            succes_consec = crud.compter_succes_consecutifs(self.db, self.eleve_hmac, competence_active)
+            # Série antérieure (autonome) + tentative courante si réussie sans aide :
+            # même sémantique que /exercices/soumettre (tentative déjà journalisée).
+            succes_consec = crud.compter_succes_consecutifs(
+                self.db, self.eleve_hmac, competence_exo, autonomes_seulement=True
+            ) + (1 if (est_correct and not avec_aide) else 0)
             nouvel_etat = self.engine.evaluer_transition(
                 eleve_pseudo=self.eleve_hmac,
-                competence=competence_active,
+                competence=competence_exo,
                 est_correct=est_correct,
                 avec_aide=avec_aide,
                 nombre_succes_consecutifs=succes_consec
@@ -129,11 +133,11 @@ class OrchestrateurEscalier:
                 exercice_id=exercice_id,
                 matiere=meta_exercice["matiere"] if meta_exercice else "maths",
                 niveau=meta_exercice["niveau"] if meta_exercice else "5e",
-                competence=competence_active,
+                competence=competence_exo,
                 est_correct=est_correct,
                 avec_aide=avec_aide
             )
-            crud.upsert_etat(self.db, self.eleve_hmac, competence_active, nouvel_etat.value)
+            crud.upsert_etat(self.db, self.eleve_hmac, competence_exo, nouvel_etat.value)
 
         # Numéro d'étape dans le pipeline (1 à 8)
         if est_correct is None:

@@ -11,17 +11,16 @@ from __future__ import annotations
 
 import base64
 import datetime as _dt
-import os
 from typing import Dict, Any, Optional
 
-from fastapi import Depends, Header, HTTPException, status
+from fastapi import Header, HTTPException, status
 from pydantic import BaseModel, Field
-from sqlalchemy.orm import Session
 
-# Importation conditionnelle de python-jose pour le décodage du jeton
+# PyJWT (remplace python-jose : CVE sans correctif, cf. CLOUD_SECURITY_REPORT.md)
 try:
-    from jose import jwt, JWTError
-except ImportError:
+    import jwt
+    from jwt import PyJWTError as JWTError
+except ImportError:  # pragma: no cover
     jwt = None
 
 # Secret d'authentification pour JWT (fail-closed, aucun repli ; distinct du pseudo-secret)
@@ -120,7 +119,7 @@ def valider_payload_ocr(payload: OcrPayload) -> OcrPayload:
     payload_size = len(image_raw.encode("utf-8"))
     if payload_size > MAX_OCR_PAYLOAD_BYTES:
         raise HTTPException(
-            status_code=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+            status_code=status.HTTP_413_CONTENT_TOO_LARGE,
             detail=f"payload_ocr_trop_volumineux: {payload_size} octets (max {MAX_OCR_PAYLOAD_BYTES} octets)"
         )
 

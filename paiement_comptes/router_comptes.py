@@ -27,9 +27,9 @@ from paiement_comptes import crud_billing
 from paiement_comptes.database import get_db
 from paiement_comptes.models_billing import Compte
 
-# --- JWT (python-jose : dépendance déjà présente dans le repo) ---------------- #
+# --- JWT (PyJWT ; remplace python-jose, cf. CLOUD_SECURITY_REPORT.md) -------- #
 try:
-    from jose import jwt  # python-jose
+    import jwt  # PyJWT
 except Exception:  # pragma: no cover
     jwt = None  # type: ignore
 
@@ -55,7 +55,7 @@ def creer_token(compte: Compte) -> str:
         "sub": str(compte.id),
         "email": compte.email,
         "role": compte.role,
-        # python-jose sérialise en JSON : timestamps entiers (pas de datetime).
+        # PyJWT sérialise en JSON : timestamps entiers (pas de datetime).
         "iat": int(now.timestamp()),
         "exp": int((now + _dt.timedelta(hours=_TOKEN_TTL_H)).timestamp()),
     }
@@ -121,7 +121,15 @@ def compte_courant(
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED, detail="token_invalide"
         )
-    compte = crud_billing.get_compte(db, int(payload.get("sub", 0)))
+    # `sub` doit être l'id entier d'un compte : un jeton d'une autre nature (ex. jeton
+    # de session élève dont `sub` est un pseudo-id) donnait auparavant une 500.
+    try:
+        compte_id = int(payload.get("sub", ""))
+    except (TypeError, ValueError):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED, detail="token_invalide"
+        )
+    compte = crud_billing.get_compte(db, compte_id)
     if compte is None or not compte.actif:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED, detail="compte_inconnu"
