@@ -124,6 +124,7 @@ def test_ordre_de_grandeur(att, rep, verdict):
     ("72 km/h", "m/s", "20", V.INVALID),
     ("72 km/h", "m/s", "72 km/h", V.INVALID),              # équivalent mais pas dans l'unité cible
     ("72 km/h", "m/s", "0,02 km/s", V.INVALID),
+    ("72 km/h", "m/s", "20 km/s", V.INVALID),              # bon nombre, mauvaise unité (même dimension)
     ("72 km/h", "m/s", "25 m/s", V.INVALID),
     ("1,5 L", "mL", "1500 mL", V.VALID),
     ("1,5 L", "m3", "1,5e-3 m3", V.VALID),

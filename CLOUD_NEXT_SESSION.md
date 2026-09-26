@@ -1,16 +1,22 @@
 # CLOUD_NEXT_SESSION — Checkpoint permanent
 
-## SESSION 4 (en cours) — branche `cloud/mikamike-session4-autonomous`, PR #6 (empilée sur #5)
-LAST_COMPLETED: R19 vérification d'adresse + révocation + cycle de vie du compte ; contrat front
-  exécutable (FRONT_IMPLEMENTATION_PACK.md, contrat_front/) ; observabilité ; garde de publication ;
-  import en deux temps (simulation, rapport, quarantaine, comparaison) ; chapitrage prouvé ;
-  qualité de texte durcie ; S4-01.
-CURRENT: lots pédagogiques (récurrence, math guard, physique-chimie, SVT, techno, ES, quiz, adaptation).
-NEXT: RGPD mineurs (rétention), migrations (double lancement), sécurité (mass assignment, XSS, fuites),
-  performance multi-élèves, RELEASE_CANDIDATE.md, rapports.
-TESTS: 4200/4200 (début de session : 4065). MUTATIONS : +37 ciblés, tous tués.
-MIGRATIONS: billing head = b0004_verif_email_revocation.
-BLOCKERS: WAITING_FOR_ARTIFACT (R1/R2) ; fournisseur de courriel réel (production) ; front + E2E front (D12).
+## SESSION 4 — branche `cloud/mikamike-session4-autonomous`, PR #6 (draft, empilée sur #5)
+LAST_COMPLETED: R19 + révocation + cycle de vie du compte ; contrat front exécutable ; observabilité ;
+  garde de publication ; import en deux temps ; chapitrage prouvé ; qualité de texte ; récurrence ;
+  math guard ; physique-chimie ; SVT (raisonnement structuré) ; techno (S4-02) ; provenance ES ;
+  quiz (4 types) ; progression sur historique ; dashboard parent fermé ; rétention RGPD ;
+  sécurité (S4-03..06) ; migrations double/concurrentes ; perf multi-élèves ; RELEASE_CANDIDATE.md.
+CURRENT: aucune — PR #6 en revue (CI surveillée).
+NEXT: artefacts réels (R1/R2, R21) ; décisions DPO (R24) ; front (R20, R22, R25) ; fusion par Mike.
+TESTS: 4065 → 4531 (0 échec). MUTATIONS: tous les mutants ciblés tués.
+SECURITY: P0 0 · P1 0 · P2 infra (R17, R18). MIGRATIONS: mika m0003_tutorat ; billing b0004_verif_email_revocation.
+BLOCKERS: WAITING_FOR_ARTIFACT (C02, C02-6, C02-6.1, M01, Extraction V3, PDF) ; fournisseur de courriel réel ;
+  front + E2E front (D12) ; validation DPO des durées de rétention.
+DECISIONS (conservatrices, réversibles) : rétention en simulation par défaut ; LE historique inchangé
+  (nouveau modèle à part) ; cycles 2 / techno 4 non modélisés ; ordre de grandeur ambigu ⇒ revue ;
+  négation ⇒ revue (jamais VALID) ; 422 sans écho ; champs inconnus refusés.
+PR: https://github.com/Mike-teib/mikamike-backend/pull/6 — NE PAS MERGER sans Mike.
+CI_STATUS: vert jusqu'à 81e83b3 ; têtes suivantes : voir la PR.
 
 
 > Protocole de reprise : lire ce fichier, puis `CLOUD_REVIEW_SESSION2.md`, `CLOUD_BACKLOG_MIKAMAIKE.md`,

@@ -81,11 +81,21 @@ Existant du dépôt : **42 notions**, **0 PROVEN**, 42 WAITING_SOURCE, 0 exercic
 | R10 | Rédiger les `PlanGuidage` (humain) des notions PROVEN, avec clé de compréhension | ⛔ | après R1 |
 | R11 | ~~Index SQL (eleve_hmac, competence, ts)~~ | ✅ S2 | migration m0002 |
 | R12 | Supprimer / régénérer `junit_pre_jules.xml` | ⬜ | décision Mike |
-| R13 | Révocation des jetons élève (D11), rétention des tutorats (D13), reconnect d'une séance expirée (D10) | ⬜ | décisions produit |
+| R13 | Révocation des jetons élève (D11), rétention des tutorats (D13), reconnect d'une séance expirée (D10) | 🟡 S4 : révocation par version (compte ⇒ jetons élève émis) ; purge de rétention outillée (simulation par défaut) | D13 : durées à valider (DPO) ; D10 ouvert |
 | R14 | Retirer la compatibilité des jetons de compte sans `typ` (7 jours après déploiement) | ⬜ | déploiement |
 | R15 | Séances : identifiant serveur (S3-13) | ✅ D15 : `POST /session/nouvelle`, 192 bits ; pas de création implicite en enforce | — |
-| R19 | Vérification de l'e-mail du compte parent avant acceptation d'une invitation (renforcement D8) | ⬜ | aucun flux de vérification d'e-mail aujourd'hui (`email_verifie` jamais positionné) |
+| R19 | Vérification de l'e-mail du compte parent avant acceptation d'une invitation (renforcement D8) | ✅ S4 (transport factice) | fournisseur de courriel réel pour la production |
 | R20 | Tests E2E du FRONT (condition D12) | ⬜ | dépôt front |
 | R16 | Migration de hash bcrypt → pré-hachage (S3-14) | ⬜ | décision + migration au fil des connexions |
 | R17 | Limitation R7 partagée entre instances (Redis ou proxy) | ⬜ | choix infra (seulement si > 1 instance) |
 | R18 | Verrou applicatif sur `tools.db upgrade` (plusieurs réplicas) | ⬜ | déploiement : une seule tâche de migration |
+
+## Ajouts session 4
+
+| ID | Sujet | État | Blocage |
+|---|---|---|---|
+| R21 | Relevé `preuve.disciplines_indiquees` dans l'extraction V3 (Enseignement scientifique) | ⛔ | artefact Extraction V3 |
+| R22 | Remplacer, côté API, le diagnostic du Learning Engine historique (FRAGILE dès 1 erreur) par `pedagogie/progression.py` | ⬜ | contrat front (états exposés) |
+| R23 | Programmes cycle 2 / technologie cycle 4 : non modélisés | ⛔ | source officielle |
+| R24 | Durées de rétention (`MIKA_RETENTION_*`) et tâche planifiée de purge | ⛔ | validation DPO |
+| R25 | Exposer les nouveaux types de quiz (vrai/faux, réponse courte, classement, association) dans l'API | ⬜ | contrat front |
