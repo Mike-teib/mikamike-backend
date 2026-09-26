@@ -13,18 +13,10 @@ from sqlalchemy.orm import Session
 from app.api.v1.mikamike import catalogue, crud
 from app.api.v1.mikamike.learning_engine import (
     LearningEngine,
-    EtatMaitrise,
-    pseudonymiser_code
+    EtatMaitrise
 )
 
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
-
-_PSEUDO_SECRET = _get_pseudo_secret()
-
-
-def _hmac(student_pseudo_id: str) -> str:
-    return pseudonymiser_code(student_pseudo_id, _PSEUDO_SECRET)
-
+from app.core.pseudonymisation import hmac_eleve as _hmac
 
 class OrchestrateurEscalier:
     """Moteur d'orchestration en 8 étapes pour le tuteur Mika."""

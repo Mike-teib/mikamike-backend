@@ -72,16 +72,23 @@ MUTANTS: List[Mutant] = [
 ]
 
 
-def lancer_tests() -> bool:
+def executer_suite() -> int:
+    """Code retour pytest : 0 vert, 1 au moins un test ÉCHOUE, autre = suite non exécutée."""
     r = subprocess.run(
         [sys.executable, "-m", "pytest", "-q", "-x", "tests_cloud", "-p", "no:cacheprovider"],
         cwd=RACINE, capture_output=True, text=True,
     )
-    return r.returncode == 0
+    return r.returncode
 
 
 def main() -> int:
-    survivants, inapplicables = [], []
+    # Revue session 2 (R2-12) : sans suite verte AVANT mutation, tout mutant paraissait
+    # « tué » ; et un mutant qui casse l'import (erreur de collecte, code 2) était compté
+    # tué alors qu'aucune assertion ne l'avait détecté.
+    if executer_suite() != 0:
+        print("BASELINE ROUGE : la suite échoue sans mutation, résultat non significatif")
+        return 2
+    survivants, inapplicables, non_executes = [], [], []
     for m in MUTANTS:
         f = RACINE / m.fichier
         original = f.read_text(encoding="utf-8")
@@ -91,14 +98,18 @@ def main() -> int:
             continue
         try:
             f.write_text(original.replace(m.avant, m.apres), encoding="utf-8")
-            passe = lancer_tests()
+            code = executer_suite()
         finally:
             f.write_text(original, encoding="utf-8")
-        print(f"{'SURVIVANT' if passe else 'TUÉ':10} {m.nom}")
-        if passe:
+        etiquette = {0: "SURVIVANT", 1: "TUÉ"}.get(code, f"NON_EXÉCUTÉ({code})")
+        print(f"{etiquette:10} {m.nom}")
+        if code == 0:
             survivants.append(m.nom)
-    print(f"\n{len(MUTANTS) - len(survivants) - len(inapplicables)}/{len(MUTANTS)} mutants tués")
-    return 1 if survivants or inapplicables else 0
+        elif code != 1:
+            non_executes.append(m.nom)
+    tues = len(MUTANTS) - len(survivants) - len(inapplicables) - len(non_executes)
+    print(f"\n{tues}/{len(MUTANTS)} mutants tués")
+    return 1 if survivants or inapplicables or non_executes else 0
 
 
 if __name__ == "__main__":

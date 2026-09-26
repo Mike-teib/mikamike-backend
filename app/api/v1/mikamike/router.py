@@ -22,7 +22,6 @@ from app.api.v1.mikamike.learning_engine import (
     ETATS_SOLIDES,
     EtatMaitrise,
     LearningEngine,
-    pseudonymiser_code,
 )
 from app.api.v1.mikamike.schemas import (
     DashboardOut,
@@ -34,15 +33,7 @@ from app.api.v1.mikamike.schemas import (
 from app.api.v1.mikamike.store import get_db
 from app.core.validation import ID_PATTERN
 
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
-
-_PSEUDO_SECRET = _get_pseudo_secret()
-
-
-def _hmac(student_pseudo_id: str) -> str:
-    """HMAC-SHA256 tronqué de l'identifiant (déjà anonyme) -> clé interne."""
-    return pseudonymiser_code(student_pseudo_id, _PSEUDO_SECRET)
-
+from app.core.pseudonymisation import hmac_eleve as _hmac
 
 def _engine_charge(db: Session, eleve_hmac: str) -> LearningEngine:
     """Instancie le moteur et précharge les états connus de l'élève depuis la DB."""

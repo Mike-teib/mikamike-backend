@@ -11,7 +11,6 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import engine, get_db
 from app.core.validation import Identifiant
 from app.api.v1.memory.spaced_repetition import (
@@ -19,14 +18,7 @@ from app.api.v1.memory.spaced_repetition import (
     MemoryBase
 )
 
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
-
-_PSEUDO_SECRET = _get_pseudo_secret()
-
-
-def _hmac(student_pseudo_id: str) -> str:
-    return pseudonymiser_code(student_pseudo_id, _PSEUDO_SECRET)
-
+from app.core.pseudonymisation import hmac_eleve as _hmac
 
 class MemoryScheduleRequest(BaseModel):
     user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")

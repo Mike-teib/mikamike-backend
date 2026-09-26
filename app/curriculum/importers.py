@@ -21,8 +21,10 @@ Garanties :
     fichier non listé, manquant ou chemin sortant du dossier ⇒ rejet ;
   - lecture JSONL en flux (ligne à ligne) : pas de chargement complet en mémoire ;
   - tout-ou-rien PAR FICHIER, état FAILED explicite avec ligne et raison ;
-  - checkpoint : un fichier DONE (même empreinte) n'est jamais retraité ;
-    une reprise après interruption repart du premier fichier non terminé ;
+  - checkpoint : l'état DONE/FAILED de chaque fichier est consigné atomiquement ; à la
+    reprise, un fichier DONE à empreinte identique est marqué `reprise=true` (il est
+    RELU pour reconstruire le référentiel en mémoire — l'import est pur, sans cache) ;
+    un checkpoint illisible est réinitialisé (jamais source de vérité) ;
   - dépistage de données personnelles (clés nominatives, e-mails, téléphones) ⇒ FAILED ;
   - validation structurelle finale : statut VALIDATED seulement si 0 anomalie.
 Aucune écriture hors du fichier de checkpoint fourni par l'appelant.
@@ -46,12 +48,16 @@ from app.curriculum.structure import Anomalie, valider_referentiel
 
 NOM_MANIFEST = "IMPORT_MANIFEST.json"
 TYPES = ("referentiel", "registre_notions", "mapping_notion_chapitre", "index_contenus", "opaque")
-MAX_LIGNE = 1_000_000  # octets par ligne JSONL
+MAX_LIGNE = 1_000_000  # caractères par ligne JSONL (lecture bornée : jamais de ligne géante en RAM)
+MAX_JSON_OCTETS = 50 * 1024 * 1024  # fichier `referentiel` (JSON monolithique)
+# Erreurs de contenu hostile converties en FAILED (jamais d'exception non gérée) :
+# JSON trop imbriqué (RecursionError), valeurs hors bornes, encodage invalide.
+_ERREURS_CONTENU = (RecursionError, ValueError, TypeError, UnicodeDecodeError)
 
 _CLES_PERSONNELLES = {"nom", "prenom", "email", "mail", "telephone", "tel", "adresse", "date_naissance",
                       "eleve_nom", "nom_eleve", "prenom_eleve", "ip", "photo"}
 _EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
-_TEL = re.compile(r"(?<![\w.])(?:\+33\s?|0)[67](?:[\s.\-]?\d{2}){4}(?![\w.])")
+_TEL = re.compile(r"(?<![\w.])(?:\+33\s?|0)[1-9](?:[\s.\-]?\d{2}){4}(?![\w.])")
 
 
 class ErreurImport(ValueError):
@@ -67,13 +73,16 @@ def sha256_fichier(chemin: Path) -> str:
 
 
 def _cles_recursives(obj: Any) -> Iterator[str]:
-    if isinstance(obj, dict):
-        for k, v in obj.items():
-            yield str(k).lower()
-            yield from _cles_recursives(v)
-    elif isinstance(obj, list):
-        for v in obj:
-            yield from _cles_recursives(v)
+    """Parcours ITÉRATIF (pas de récursion Python sur un JSON profondément imbriqué)."""
+    pile = [obj]
+    while pile:
+        o = pile.pop()
+        if isinstance(o, dict):
+            for k, v in o.items():
+                yield str(k).lower()
+                pile.append(v)
+        elif isinstance(o, list):
+            pile.extend(o)
 
 
 def _depister_pii(obj: Any, texte: str) -> Optional[str]:
@@ -89,7 +98,12 @@ def _depister_pii(obj: Any, texte: str) -> Optional[str]:
 
 def _lignes_jsonl(chemin: Path) -> Iterator[Tuple[int, Any]]:
     with chemin.open("r", encoding="utf-8") as f:
-        for num, ligne in enumerate(f, start=1):
+        num = 0
+        while True:
+            ligne = f.readline(MAX_LIGNE + 1)  # lecture BORNÉE
+            if not ligne:
+                break
+            num += 1
             if len(ligne) > MAX_LIGNE:
                 raise ErreurImport(f"ligne_{num}_trop_longue")
             if not ligne.strip():
@@ -117,7 +131,12 @@ class ResultatImport:
 
 def _charger_checkpoint(chemin: Optional[Path]) -> Dict[str, Dict[str, str]]:
     if chemin and chemin.exists():
-        return json.loads(chemin.read_text(encoding="utf-8"))
+        try:
+            data = json.loads(chemin.read_text(encoding="utf-8"))
+        except (ValueError, UnicodeDecodeError, RecursionError):
+            return {}
+        if isinstance(data, dict) and all(isinstance(v, dict) for v in data.values()):
+            return data
     return {}
 
 
@@ -135,12 +154,13 @@ def lire_manifest(dossier: Path) -> List[Dict[str, str]]:
     if not m.is_file():
         raise ErreurImport("manifest_absent")
     data = json.loads(m.read_text(encoding="utf-8"))
-    if data.get("version") != 1 or not isinstance(data.get("fichiers"), list):
+    if not isinstance(data, dict) or data.get("version") != 1 or not isinstance(data.get("fichiers"), list):
         raise ErreurImport("manifest_version_ou_format_invalide")
     racine = dossier.resolve()
     vus = set()
     for f in data["fichiers"]:
-        if set(f) != {"chemin", "sha256", "type"}:
+        if not isinstance(f, dict) or set(f) != {"chemin", "sha256", "type"} \
+                or not all(isinstance(v, str) for v in f.values()):
             raise ErreurImport("entree_manifest_invalide")
         if f["type"] not in TYPES:
             raise ErreurImport(f"type_inconnu:{f['type']}")
@@ -163,7 +183,7 @@ def importer(dossier: Path, *, checkpoint: Optional[Path] = None) -> ResultatImp
     res = ResultatImport()
     try:
         entrees = lire_manifest(dossier)
-    except (ErreurImport, json.JSONDecodeError) as exc:
+    except (ErreurImport, *_ERREURS_CONTENU) as exc:
         res.statut = "FAILED"
         res.fichiers[NOM_MANIFEST] = {"etat": "FAILED", "raison": str(exc)}
         return res
@@ -186,6 +206,8 @@ def importer(dossier: Path, *, checkpoint: Optional[Path] = None) -> ResultatImp
             reprise = deja.get("etat") == "DONE" and deja.get("sha256") == reel
 
             if type_ == "referentiel":
+                if chemin.stat().st_size > MAX_JSON_OCTETS:
+                    raise ErreurImport("referentiel_trop_volumineux")
                 texte = chemin.read_text(encoding="utf-8")
                 obj = json.loads(texte)
                 pii = _depister_pii(obj, texte)
@@ -224,9 +246,13 @@ def importer(dossier: Path, *, checkpoint: Optional[Path] = None) -> ResultatImp
 
             res.fichiers[cle] = {"etat": "DONE", "sha256": reel, "reprise": str(reprise).lower()}
             etat[cle] = {"etat": "DONE", "sha256": reel}
-        except (ErreurImport, ValidationError, json.JSONDecodeError, UnicodeDecodeError) as exc:
-            raison = str(exc).splitlines()[0] if not isinstance(exc, ValidationError) else \
-                f"schema_invalide:{exc.error_count()}_erreur(s)"
+        except (ErreurImport, ValidationError, *_ERREURS_CONTENU) as exc:
+            if isinstance(exc, ValidationError):
+                raison = f"schema_invalide:{exc.error_count()}_erreur(s)"
+            elif isinstance(exc, RecursionError):
+                raison = "json_trop_imbrique"
+            else:
+                raison = (str(exc).splitlines() or [type(exc).__name__])[0][:200]
             res.fichiers[cle] = {"etat": "FAILED", "raison": raison}
             etat[cle] = {"etat": "FAILED", "raison": raison}
         _ecrire_checkpoint(checkpoint, etat)
@@ -243,6 +269,11 @@ def importer(dossier: Path, *, checkpoint: Optional[Path] = None) -> ResultatImp
             res.anomalies.append(Anomalie("IMPORT_NOTION_EN_CONFLIT", nid))
         toutes[nid] = n
     chap_ids = {c.id for c in base.chapitres}
+    cibles: Dict[str, str] = {}
+    for nid, cid in mappings:
+        if nid in cibles and cibles[nid] != cid:
+            res.anomalies.append(Anomalie("MAPPING_CONTRADICTOIRE", nid, f"{cibles[nid]} / {cid}"))
+        cibles.setdefault(nid, cid)
     for nid, cid in mappings:
         if nid not in toutes:
             res.anomalies.append(Anomalie("MAPPING_NOTION_INCONNUE", nid, cid))

@@ -18,7 +18,6 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import engine, get_db
 from app.core.validation import ID_PATTERN, MAX_SESSION_STATE_BYTES, Identifiant
 from app.api.v1.session.session_manager import (
@@ -26,14 +25,7 @@ from app.api.v1.session.session_manager import (
     SessionBase
 )
 
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
-
-_PSEUDO_SECRET = _get_pseudo_secret()
-
-
-def _hmac(student_pseudo_id: str) -> str:
-    return pseudonymiser_code(student_pseudo_id, _PSEUDO_SECRET)
-
+from app.core.pseudonymisation import hmac_eleve as _hmac
 
 class SessionHeartbeatIn(BaseModel):
     session_id: Identifiant = Field(description="Identifiant de la session")

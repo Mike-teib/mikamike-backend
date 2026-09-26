@@ -20,13 +20,10 @@ from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from app.api.v1.memory.spaced_repetition import MemoryBase, TacheRappelMemoire
-from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice, engine, get_db
 from app.api.v1.session.session_manager import MikaSessionState, SessionBase
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
+from app.core.pseudonymisation import hmac_eleve as _hmac
 from app.core.validation import ID_PATTERN
-
-_PSEUDO_SECRET = _get_pseudo_secret()
 
 # Registre exhaustif des tables contenant des données d'un élève.
 TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessionState)
@@ -35,11 +32,6 @@ TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessi
 # on garantit leur existence pour que l'export/effacement ne rate jamais rien.
 MemoryBase.metadata.create_all(bind=engine)
 SessionBase.metadata.create_all(bind=engine)
-
-
-def _hmac(student_pseudo_id: str) -> str:
-    """Calcul du hash HMAC déterministe pour la clé interne."""
-    return pseudonymiser_code(student_pseudo_id, _PSEUDO_SECRET)
 
 
 def _iso(dt) -> str | None:

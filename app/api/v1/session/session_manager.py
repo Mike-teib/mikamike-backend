@@ -17,9 +17,8 @@ from fastapi import HTTPException, status
 from sqlalchemy import Column, String, Boolean, DateTime, Text, select
 from sqlalchemy.orm import declarative_base, Session
 
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
+from app.core.validation import MAX_SESSION_STATE_BYTES
 
-_PSEUDO_SECRET = _get_pseudo_secret()
 INACTIVITY_TIMEOUT_SECONDS = 300  # 5 minutes d'inactivité
 
 SessionBase = declarative_base()
@@ -79,6 +78,11 @@ class GestionnaireSession:
             db.refresh(session_obj)
             return {"statut": "session_creee", "session_id": session_id, "is_active": True}
 
+        # Propriété AVANT tout effet de bord (revue session 2, finding R2-05 : un tiers
+        # connaissant le session_id pouvait désactiver la séance expirée d'un élève
+        # et distinguer « expirée » (401) de « pas à toi » (403)).
+        _verifier_proprietaire(session_obj, eleve_hmac)
+
         # Vérification du timeout d'inactivité de 5 minutes (300 s)
         elapsed_seconds = (now.replace(tzinfo=None) - session_obj.last_activity_ts).total_seconds()
         if elapsed_seconds > INACTIVITY_TIMEOUT_SECONDS:
@@ -89,7 +93,6 @@ class GestionnaireSession:
                 detail="session_inactivite_5min"
             )
 
-        _verifier_proprietaire(session_obj, eleve_hmac)
         session_obj.last_activity_ts = now
         session_obj.is_active = True
         db.commit()
@@ -123,7 +126,13 @@ class GestionnaireSession:
             # Fusion de l'état existant avec les nouvelles données
             existing_state = json.loads(session_obj.state_json or "{}")
             existing_state.update(state_data)
-            session_obj.state_json = json.dumps(existing_state)
+            fusion = json.dumps(existing_state)
+            # Borne sur l'état FUSIONNÉ (finding R2-06 : des sauvegardes successives de
+            # clés différentes faisaient croître l'état au-delà de la limite).
+            if len(fusion) > MAX_SESSION_STATE_BYTES:
+                raise HTTPException(status_code=status.HTTP_413_CONTENT_TOO_LARGE,
+                                    detail="etat_session_trop_volumineux")
+            session_obj.state_json = fusion
             session_obj.last_activity_ts = now
             session_obj.is_active = True
 

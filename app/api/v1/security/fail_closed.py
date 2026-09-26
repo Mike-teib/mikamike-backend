@@ -67,10 +67,21 @@ def exiger_session_active(authorization: str = Header(default="")) -> Dict[str, 
         )
 
     try:
-        payload = jwt.decode(token, _JWT_SECRET, algorithms=[_JWT_ALGORITHM])
-        pseudo_id: str = payload.get("sub") or payload.get("pseudo_id")
-        
-        if not pseudo_id:
+        # `exp` OBLIGATOIRE (revue session 2, R2-10 : un jeton sans `exp` était valable à vie).
+        payload = jwt.decode(token, _JWT_SECRET, algorithms=[_JWT_ALGORITHM],
+                             options={"require": ["exp", "sub"]})
+        pseudo_id = payload.get("sub")
+        role = payload.get("role")
+        # Confusion de jetons : un jeton de COMPTE (typ=compte, sub = id numérique) n'est
+        # pas un jeton de séance élève ; un rôle absent n'est plus « eleve » par défaut.
+        if payload.get("typ") == "compte" or "email" in payload or role not in ("eleve", "parent"):
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="payload_token_invalide",
+                headers={"WWW-Authenticate": "Bearer"}
+            )
+
+        if not isinstance(pseudo_id, str) or not pseudo_id:
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
                 detail="payload_token_invalide",
@@ -90,7 +101,7 @@ def exiger_session_active(authorization: str = Header(default="")) -> Dict[str, 
 
         return {
             "pseudo_id": pseudo_id,
-            "role": payload.get("role", "eleve"),
+            "role": role,
             "exp": exp
         }
 

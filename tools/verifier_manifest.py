@@ -8,6 +8,8 @@ Statuts par fichier :
   MATCH_CRLF   identique une fois les fins de ligne converties en CRLF (checkout Windows)
   CHANGED      contenu modifié depuis le manifeste
   MISSING      fichier absent
+  OUTSIDE      chemin hors du dépôt (refusé)
+Code retour : 0 si tout correspond, 1 sinon.
 Usage : python -m tools.verifier_manifest SHA256_DEPOT_PREPARE.txt
 """
 
@@ -35,8 +37,13 @@ def lire(manifest: Path) -> List[Tuple[str, str]]:
 
 def verifier(manifest: Path) -> Dict[str, str]:
     res = {}
+    racine = RACINE.resolve()
     for h, chemin in lire(manifest):
-        f = RACINE / chemin
+        f = (RACINE / chemin).resolve()
+        # Revue session 2 (R2-13) : « ../ » ou chemin absolu lisaient hors du dépôt.
+        if racine not in f.parents:
+            res[chemin] = "OUTSIDE"
+            continue
         if not f.is_file():
             res[chemin] = "MISSING"
             continue
@@ -59,7 +66,8 @@ def main(argv=None) -> int:
     for chemin, statut in sorted(res.items()):
         print(f"{statut:10} {chemin}")
     print(dict(Counter(res.values())))
-    return 0
+    # Code retour non nul si une empreinte ne correspond pas (utilisable en CI).
+    return 0 if all(v in ("MATCH", "MATCH_CRLF") for v in res.values()) else 1
 
 
 if __name__ == "__main__":

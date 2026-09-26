@@ -16,12 +16,11 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
 from pathlib import Path
 
-os.environ.setdefault("MIKA_PSEUDO_SECRET", "rapports-only-not-a-secret-000000")
-
+# Revue session 2 (R2-21) : plus de secret littéral de repli posé ici ; la chaîne de
+# contenu (app.curriculum) n'importe aucun module qui lit les secrets applicatifs.
 from app.curriculum.audit import auditer  # noqa: E402
 from app.curriculum.backlog import calculer_backlog, en_markdown  # noqa: E402
 from app.curriculum.importers import importer  # noqa: E402

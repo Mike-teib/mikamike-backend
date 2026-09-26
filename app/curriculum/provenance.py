@@ -14,6 +14,7 @@ from __future__ import annotations
 from typing import List, NamedTuple, Optional
 
 from app.curriculum.ids import normaliser_pour_empreinte
+from app.curriculum.text_quality import analyser_texte
 from app.curriculum.model import (
     STATUTS_TEXTE_UTILISABLES,
     Chapitre,
@@ -122,6 +123,16 @@ def autorisation_generation(
 
     if notion.statut_texte not in STATUTS_TEXTE_UTILISABLES:
         raisons.append(f"texte_{notion.statut_texte.value.lower()}")
+    else:
+        # Le statut de texte DÉCLARÉ n'est pas cru sur parole (revue session 2, finding R2-01) :
+        # il est recalculé ; un texte tronqué déclaré TEXT_EXACT est refusé.
+        recalcule = analyser_texte(notion.texte).statut
+        if recalcule not in STATUTS_TEXTE_UTILISABLES:
+            raisons.append(f"texte_recalcule_{recalcule.value.lower()}")
+
+    # La preuve doit provenir de la source du programme de la notion (finding R2-02).
+    if prog is not None and notion.preuve is not None and notion.preuve.source_id != prog.source_id:
+        raisons.append("preuve_hors_source_du_programme")
 
     chap: Optional[Chapitre] = idx.chapitres.get(notion.chapitre_id) if notion.chapitre_id else None
     if notion.chapitre_id is None:

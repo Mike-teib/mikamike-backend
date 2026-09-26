@@ -22,14 +22,19 @@ import pytest  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402
 
 from main import app  # noqa: E402
+from app.api.v1.memory.spaced_repetition import MemoryBase  # noqa: E402
 from app.api.v1.mikamike.store import MikaBase, engine as mika_engine  # noqa: E402
+from app.api.v1.session.session_manager import SessionBase  # noqa: E402
 from paiement_comptes.database import Base as BillingBase, engine as billing_engine  # noqa: E402
 
 
 @pytest.fixture()
 def client():
     # Isolation stricte : bases neuves à chaque test.
-    for base, eng in ((MikaBase, mika_engine), (BillingBase, billing_engine)):
+    # Revue session 2 (R2-14) : les tables mémoire/session n'étaient pas réinitialisées
+    # entre tests (fuite d'état d'un test à l'autre).
+    for base, eng in ((MikaBase, mika_engine), (MemoryBase, mika_engine),
+                      (SessionBase, mika_engine), (BillingBase, billing_engine)):
         base.metadata.drop_all(bind=eng)
         base.metadata.create_all(bind=eng)
     with TestClient(app) as c:

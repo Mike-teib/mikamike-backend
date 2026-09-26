@@ -53,6 +53,8 @@ def creer_token(compte: Compte) -> str:
     now = _utcnow()
     payload = {
         "sub": str(compte.id),
+        # Type de jeton explicite (anti-confusion avec les jetons de séance élève).
+        "typ": "compte",
         "email": compte.email,
         "role": compte.role,
         # PyJWT sérialise en JSON : timestamps entiers (pas de datetime).
@@ -116,13 +118,19 @@ def compte_courant(
         )
     token = authorization.split(" ", 1)[1].strip()
     try:
-        payload = jwt.decode(token, _JWT_SECRET, algorithms=[_JWT_ALGO])
+        payload = jwt.decode(token, _JWT_SECRET, algorithms=[_JWT_ALGO],
+                             options={"require": ["exp", "sub"]})
     except Exception:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED, detail="token_invalide"
         )
     # `sub` doit être l'id entier d'un compte : un jeton d'une autre nature (ex. jeton
     # de session élève dont `sub` est un pseudo-id) donnait auparavant une 500.
+    # Jetons d'un autre type (séance élève « mika-eleve »…) refusés même si `sub` est numérique.
+    if payload.get("typ", "compte") != "compte":
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED, detail="token_invalide"
+        )
     try:
         compte_id = int(payload.get("sub", ""))
     except (TypeError, ValueError):
