@@ -18,6 +18,11 @@ ID_PATTERN = r"^[A-Za-z0-9][A-Za-z0-9_.:\-]{0,127}$"
 
 Identifiant = Annotated[str, Field(min_length=1, max_length=128, pattern=ID_PATTERN)]
 
+# Identifiants PERSISTÉS dans une colonne String(64) (séance, notion de la mémoire espacée,
+# compétence/exercice de l'escalier) : au-delà, PostgreSQL lève une erreur (500) et SQLite
+# stocke sans contrôle (revue session 3, S3-10).
+Identifiant64 = Annotated[str, Field(min_length=1, max_length=64, pattern=ID_PATTERN)]
+
 # Réponse libre d'élève (texte court ; les images passent par le canal OCR borné).
 ReponseEleve = Annotated[str, Field(max_length=500)]
 

@@ -58,7 +58,7 @@ class Principal:
     typ: str                          # TYP_ELEVE | TYP_COMPTE
     role: str                         # eleve | parent | admin
     pseudo_id: Optional[str] = None   # jeton élève
-    compte_id: Optional[int] = None   # jeton de compte
+    compte_id: Optional[int] = None   # jeton de compte ; jeton élève : compte émetteur (claim cid)
 
 
 class ConfigAuthInvalide(RuntimeError):
@@ -96,11 +96,18 @@ def _cle_eleve() -> bytes:
 # --------------------------------------------------------------------------- #
 # Jetons
 # --------------------------------------------------------------------------- #
-def emettre_jeton_eleve(pseudo_id: str, *, maintenant: Optional[_dt.datetime] = None) -> tuple[str, int]:
+def emettre_jeton_eleve(pseudo_id: str, *, compte_id: int,
+                        maintenant: Optional[_dt.datetime] = None) -> tuple[str, int]:
+    """`compte_id` = compte (lié) qui a demandé le jeton : claim `cid`, revérifié à CHAQUE requête
+    (revue session 3, S3-01 : sans lui, le jeton survivait à l'effacement RGPD, à la suppression
+    du lien et à la désactivation du compte pendant toute sa durée de vie)."""
+    if isinstance(compte_id, bool) or not isinstance(compte_id, int) or compte_id < 1:
+        raise ValueError("compte_id invalide")
     now = maintenant or _dt.datetime.now(_dt.timezone.utc)
     ttl_s = _ttl_eleve_min() * 60
     claims = {
         "iss": ISSUER, "aud": AUDIENCE, "typ": TYP_ELEVE, "role": "eleve", "sub": pseudo_id,
+        "cid": compte_id,
         "iat": int(now.timestamp()), "exp": int(now.timestamp()) + ttl_s, "jti": uuid.uuid4().hex,
     }
     return jwt.encode(claims, _cle_eleve(), algorithm=ALGO), ttl_s
@@ -135,10 +142,12 @@ def decoder(jeton: str) -> Principal:
         raise _refus("jeton_invalide")
     try:
         c = jwt.decode(jeton, _cle_eleve(), algorithms=[ALGO], audience=AUDIENCE, issuer=ISSUER,
-                       options={"require": ["exp", "iat", "sub", "aud", "iss", "typ"]})
-        if c.get("typ") != TYP_ELEVE or c.get("role") != "eleve" or not isinstance(c.get("sub"), str):
+                       options={"require": ["exp", "iat", "sub", "aud", "iss", "typ", "cid"]})
+        cid = c.get("cid")
+        if (c.get("typ") != TYP_ELEVE or c.get("role") != "eleve" or not isinstance(c.get("sub"), str)
+                or isinstance(cid, bool) or not isinstance(cid, int) or cid < 1):
             raise _refus("jeton_invalide")
-        return Principal(typ=TYP_ELEVE, role="eleve", pseudo_id=c["sub"])
+        return Principal(typ=TYP_ELEVE, role="eleve", pseudo_id=c["sub"], compte_id=cid)
     except jwt.ExpiredSignatureError:
         raise _refus("jeton_expire")
     except jwt.PyJWTError:
@@ -200,13 +209,20 @@ def garde(qui: Optional[Principal] = Depends(principal), db: Session = Depends(_
 
 
 def autoriser(qui: Principal, pseudo_id: str, action: Action, db: Session) -> None:
+    from app.core.pseudonymisation import hmac_eleve
+    from paiement_comptes import crud_billing, liens
+
     if qui.typ == TYP_ELEVE:
         if not hmac.compare_digest(qui.pseudo_id or "", pseudo_id) or action == Action.EFFACEMENT:
             raise interdit()
+        # Le compte émetteur doit être encore actif ET encore lié à l'élève (S3-01).
+        emetteur = crud_billing.get_compte(db, qui.compte_id)
+        if emetteur is None or not emetteur.actif:
+            raise _refus("jeton_revoque")
+        if liens.relation(db, emetteur.id, hmac_eleve(pseudo_id)) != emetteur.role:
+            raise _refus("jeton_revoque")
         return
     # Jeton de compte : droits dérivés du lien compte ↔ élève (jamais du rôle seul).
-    from app.core.pseudonymisation import hmac_eleve
-    from paiement_comptes import crud_billing, liens
 
     compte = crud_billing.get_compte(db, qui.compte_id)
     if compte is None or not compte.actif:

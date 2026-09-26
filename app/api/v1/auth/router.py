@@ -39,5 +39,5 @@ def emettre_jeton_eleve(
     jeton = auth._extraire(authorization)
     qui = auth.decoder(jeton) if jeton else None
     auth.compte_lie(qui, data.student_pseudo_id, db)
-    token, ttl = auth.emettre_jeton_eleve(data.student_pseudo_id)
+    token, ttl = auth.emettre_jeton_eleve(data.student_pseudo_id, compte_id=qui.compte_id)
     return JetonEleveOut(token=token, expires_in=ttl)

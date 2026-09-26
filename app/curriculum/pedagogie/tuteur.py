@@ -227,6 +227,9 @@ class TuteurMika:
         if etat.termine or not etat.attend_comprehension:
             raise TransitionInvalide("comprehension_non_demandee")
         etat = replace(etat, comprehension_verifiee=correcte, attend_comprehension=False)
+        if not correcte:
+            # Compréhension infirmée : la réussite (aidée) ne prouve pas l'acquisition (S3-06).
+            etat = replace(etat, niveau_estime="FRAGILE")
         if correcte:
             return self._consolider(etat)
         if etat.methodes_donnees < len(self.plan.methodes_alternatives):
@@ -243,8 +246,10 @@ class TuteurMika:
 
     # -------------------------------------------------------------- interne
     def _succes(self, etat: EtatTutorat) -> Tuple[EtatTutorat, Reponse]:
-        etat = replace(etat, resolu=True,
-                       niveau_estime="ACQUIS_ASSISTE" if etat.avec_aide else "ACQUIS_AUTONOME")
+        niveau = "ACQUIS_ASSISTE" if etat.avec_aide else "ACQUIS_AUTONOME"
+        if etat.comprehension_verifiee is False:
+            niveau = "FRAGILE"  # une compréhension déjà infirmée n'est pas effacée par un 2e succès
+        etat = replace(etat, resolu=True, niveau_estime=niveau)
         if etat.avec_aide and self.plan.question_comprehension:
             return self._emettre(replace(etat, attend_comprehension=True),
                                  Action.VERIFIER_COMPREHENSION, self.plan.question_comprehension)
@@ -252,7 +257,8 @@ class TuteurMika:
 
     def _consolider(self, etat: EtatTutorat) -> Tuple[EtatTutorat, Reponse]:
         etat = replace(etat, termine=True)
-        msg = "Bravo ! Un exercice de consolidation pour ancrer la méthode." if etat.resolu else \
+        reussi = etat.resolu and etat.comprehension_verifiee is not False
+        msg = "Bravo ! Un exercice de consolidation pour ancrer la méthode." if reussi else \
             "On consolide avec un exercice proche, un peu plus guidé."
         return self._emettre(etat, Action.CONSOLIDATION, msg,
                              exercice_id=self.plan.exercice_consolidation_id)

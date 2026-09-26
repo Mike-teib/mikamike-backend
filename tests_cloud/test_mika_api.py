@@ -282,10 +282,23 @@ def test_tutorat_d_un_autre_eleve_invisible(api):
 
 def test_ownership_en_mode_enforce(api, monkeypatch):
     from app.core.auth import emettre_jeton_eleve
+    from paiement_comptes import liens
+    from paiement_comptes.database import SessionLocal as BillingSession
+    from paiement_comptes.models_billing import Compte
 
     monkeypatch.setenv("MIKA_AUTH_MODE", "enforce")
-    ja, _ = emettre_jeton_eleve(A)
-    jb, _ = emettre_jeton_eleve(B)
+    # Préparation (session 3, S3-01) : un jeton élève est désormais adossé à un compte lié.
+    bdb = BillingSession()
+    ids = {}
+    for eleve in (A, B):
+        c = Compte(email=f"parent-{eleve}@example.com", mot_de_passe_hash="x", role="parent")
+        bdb.add(c)
+        bdb.commit()
+        liens.lier(bdb, c.id, hmac_eleve(eleve), "parent")
+        ids[eleve] = c.id
+    bdb.close()
+    ja, _ = emettre_jeton_eleve(A, compte_id=ids[A])
+    jb, _ = emettre_jeton_eleve(B, compte_id=ids[B])
     h = {"Authorization": f"Bearer {ja}"}
     r = api.post(f"{URL}/start", json={"student_pseudo_id": A, "requete_id": "e1", "exercice_id": EXO}, headers=h)
     assert r.status_code == 201

@@ -12,7 +12,7 @@ from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.store import get_db
-from app.core.validation import Identifiant
+from app.core.validation import Identifiant, Identifiant64
 from app.api.v1.memory.spaced_repetition import (
     MoteurCourbeOubliEbbinghaus
 )
@@ -22,7 +22,7 @@ from app.core.auth import Action, Garde, garde as _garde
 
 class MemoryScheduleRequest(BaseModel):
     user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")
-    notion_id: Identifiant = Field(description="Identifiant de la compétence/notion")
+    notion_id: Identifiant64 = Field(description="Identifiant de la compétence/notion")
     mastery_event: str = Field(
         default="SUCCESS",
         max_length=32,

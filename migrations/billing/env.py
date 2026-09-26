@@ -3,6 +3,7 @@
 from alembic import context
 from sqlalchemy import engine_from_config, pool
 
+from app.db.migrations import ddl_transactionnel_sqlite
 from app.db.registre import metadatas
 
 config = context.config
@@ -21,6 +22,9 @@ def run_migrations_online() -> None:
     if connectable is None:
         connectable = engine_from_config(config.get_section(config.config_ini_section, {}),
                                          prefix="sqlalchemy.", poolclass=pool.NullPool)
+        # SQLite : DDL réellement transactionnel (revue session 3, S3-03 — une migration
+        # interrompue laissait des tables créées sans version, reprise impossible).
+        ddl_transactionnel_sqlite(connectable)
         with connectable.connect() as connection:
             _executer(connection)
     else:

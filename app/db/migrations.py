@@ -18,7 +18,8 @@ from alembic import command
 from alembic.config import Config
 from alembic.runtime.migration import MigrationContext
 from alembic.script import ScriptDirectory
-from sqlalchemy import inspect
+from sqlalchemy import event, inspect
+from sqlalchemy.engine import Engine
 
 from app.db.registre import CIBLES, engines
 
@@ -36,8 +37,27 @@ def config(cible: str) -> Config:
     cfg = Config()
     cfg.set_main_option("script_location", str(RACINE / "migrations" / cible))
     cfg.set_main_option("version_table", "alembic_version")
-    cfg.set_main_option("sqlalchemy.url", engines()[cible].url.render_as_string(hide_password=False))
+    # `%` doublé : ConfigParser interpole les valeurs ; une URL dont le mot de passe est
+    # encodé (`p%40ss`) faisait planter toutes les commandes (revue session 3, S3-02).
+    url = engines()[cible].url.render_as_string(hide_password=False)
+    cfg.set_main_option("sqlalchemy.url", url.replace("%", "%%"))
     return cfg
+
+
+def ddl_transactionnel_sqlite(engine: Engine) -> None:
+    """pysqlite valide implicitement avant chaque DDL : une migration interrompue laissait des
+    tables sans version. On passe le pilote en mode autocommit et on émet BEGIN nous-mêmes :
+    la révision entière (DDL + mise à jour d'alembic_version) devient atomique."""
+    if engine.dialect.name != "sqlite":
+        return
+
+    @event.listens_for(engine, "connect")
+    def _connect(dbapi_connection, _record):  # pragma: no cover - trivial
+        dbapi_connection.isolation_level = None
+
+    @event.listens_for(engine, "begin")
+    def _begin(conn):  # pragma: no cover - trivial
+        conn.exec_driver_sql("BEGIN")
 
 
 def head(cible: str) -> str:

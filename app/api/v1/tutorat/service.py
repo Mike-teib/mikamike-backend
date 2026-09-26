@@ -50,6 +50,24 @@ def tutorat_id_pour(eleve_hmac: str, requete_id: str) -> str:
 # Sérialisation de l'état
 # --------------------------------------------------------------------------- #
 _CHAMPS_TUPLE = {"erreurs", "erreurs_frequentes_vues", "messages"}
+_CHAMPS_ENTIERS = {"tentatives", "indices_donnes", "questions_posees", "methodes_donnees", "reformulations"}
+_CHAMPS_BOOLEENS = {"avec_aide", "resolu", "termine", "attend_comprehension"}
+
+
+def _type_valide(nom: str, v: Any) -> bool:
+    """Types stricts de l'état persisté (revue session 3, S3-05 : un état corrompu était servi
+    tel quel par GET et provoquait une 500 non maîtrisée au premier calcul)."""
+    if nom in _CHAMPS_ENTIERS:
+        return isinstance(v, int) and not isinstance(v, bool) and 0 <= v <= 10_000
+    if nom in _CHAMPS_BOOLEENS:
+        return isinstance(v, bool)
+    if nom in _CHAMPS_TUPLE:
+        return isinstance(v, list) and all(isinstance(x, str) for x in v)
+    if nom == "comprehension_verifiee":
+        return v is None or isinstance(v, bool)
+    if nom == "prerequis_manquant":
+        return v is None or isinstance(v, str)
+    return isinstance(v, str)  # exercice_id, niveau_estime
 
 
 def etat_vers_json(etat: EtatTutorat) -> str:
@@ -60,7 +78,9 @@ def etat_depuis_json(brut: str) -> EtatTutorat:
     try:
         d = json.loads(brut)
         noms = {f.name for f in dataclasses.fields(EtatTutorat)}
-        if not isinstance(d, dict) or set(d) - noms:
+        if not isinstance(d, dict) or set(d) - noms or "exercice_id" not in d:
+            raise ValueError
+        if not all(_type_valide(k, v) for k, v in d.items()):
             raise ValueError
         return EtatTutorat(**{k: tuple(v) if k in _CHAMPS_TUPLE else v for k, v in d.items()})
     except (ValueError, TypeError):
@@ -192,6 +212,11 @@ def transition(
     )
     if res.rowcount != 1:
         db.rollback()
+        # Double soumission concurrente de la MÊME requête : l'autre exécution a déjà validé
+        # la transition ⇒ on rejoue sa réponse (revue session 3, S3-04 ; avant : 409).
+        rejeu = _rejouer(db, tutorat_id, requete_id, empreinte)
+        if rejeu is not None:
+            return rejeu
         raise _err(status.HTTP_409_CONFLICT, "version_perimee")
     db.expire(t)
     t = db.get(TutoratSession, tutorat_id)
@@ -210,13 +235,19 @@ def transition(
     return out
 
 
+def _reussi(etat: EtatTutorat) -> bool:
+    """Résolu ET compréhension non infirmée (revue session 3, S3-06 : une compréhension
+    vérifiée FAUSSE comptait comme une réussite)."""
+    return etat.resolu and etat.comprehension_verifiee is not False
+
+
 def _verser_au_learning_engine(db: Session, eleve_hmac: str, ex, etat: EtatTutorat) -> None:
     """Fin de tutorat ⇒ une tentative journalisée + transition LE-06 (sans commit ici)."""
     from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice
 
     db.add(TentativeExercice(eleve_hmac=eleve_hmac, exercice_id=ex.id[:64], matiere=ex.matiere.value,
                              niveau=ex.niveau.value, competence=ex.notion_id[:64],
-                             est_correct=etat.resolu, avec_aide=etat.avec_aide))
+                             est_correct=_reussi(etat), avec_aide=etat.avec_aide))
     eng = LearningEngine()
     courant = db.execute(select(EtatCompetence.etat).where(
         EtatCompetence.eleve_hmac == eleve_hmac, EtatCompetence.competence == ex.notion_id[:64])).scalar()
@@ -224,7 +255,7 @@ def _verser_au_learning_engine(db: Session, eleve_hmac: str, ex, etat: EtatTutor
         eng.etats_eleves[(eleve_hmac, ex.notion_id[:64])] = EtatMaitrise(courant or "INCONNU")
     except ValueError:
         pass
-    nouvel = eng.evaluer_transition(eleve_hmac, ex.notion_id[:64], est_correct=etat.resolu,
+    nouvel = eng.evaluer_transition(eleve_hmac, ex.notion_id[:64], est_correct=_reussi(etat),
                                     avec_aide=etat.avec_aide, nombre_succes_consecutifs=0)
     obj = db.get(EtatCompetence, (eleve_hmac, ex.notion_id[:64]))
     if obj is None:

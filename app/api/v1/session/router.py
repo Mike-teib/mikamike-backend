@@ -19,25 +19,25 @@ from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.store import get_db
-from app.core.validation import ID_PATTERN, MAX_SESSION_STATE_BYTES, Identifiant
+from app.core.validation import ID_PATTERN, MAX_SESSION_STATE_BYTES, Identifiant, Identifiant64
 from app.api.v1.session.session_manager import GestionnaireSession, MikaSessionState
 
 from app.core.pseudonymisation import hmac_eleve as _hmac
 from app.core.auth import Action, Garde, garde as _garde
 
 class SessionHeartbeatIn(BaseModel):
-    session_id: Identifiant = Field(description="Identifiant de la session")
+    session_id: Identifiant64 = Field(description="Identifiant de la session")
     user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")
 
 
 class SessionSaveStateIn(BaseModel):
-    session_id: Identifiant
+    session_id: Identifiant64
     user_id: Identifiant
     state_data: Dict[str, Any] = Field(description="Mémoire de séance (ardoise, exercice, étape)")
 
 
 class SessionReconnectIn(BaseModel):
-    session_id: Identifiant
+    session_id: Identifiant64
     user_id: Identifiant
 
 
@@ -94,7 +94,7 @@ def reconnecter_session(
 
 @session_router.get("/stream")
 def stream_notifications_sse(
-    session_id: str = Query(default="default_session", max_length=128, pattern=ID_PATTERN),
+    session_id: str = Query(default="default_session", max_length=64, pattern=ID_PATTERN),
     db: Session = Depends(get_db),
     g: Garde = Depends(_garde),
 ):
@@ -106,6 +106,7 @@ def stream_notifications_sse(
         # Mode enforce : seul un jeton ÉLÈVE, propriétaire de la séance si elle existe.
         if g.qui.pseudo_id is None:
             raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="acces_refuse")
+        g.exiger(g.qui.pseudo_id, Action.APPRENTISSAGE)  # compte émetteur encore actif et lié (S3-01)
         seance = db.get(MikaSessionState, session_id)
         if seance is not None and seance.eleve_hmac != _hmac(g.qui.pseudo_id):
             raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="acces_refuse")

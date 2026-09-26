@@ -43,6 +43,9 @@ class CatalogueTutorat:
             raise ContenuIndisponible(["exercice_inconnu"])
         autres = [e for e in self.exercices.values() if e.id != ex.id]
         raisons = valider_exercice(ex, self.idx, autres, autoriser_fictif=self.autoriser_fictif)
+        # Colonnes du learning engine en String(64) : jamais de troncature silencieuse (S3-10).
+        if len(ex.id) > 64 or len(ex.notion_id) > 64:
+            raisons.append("identifiant_trop_long")
         raisons += valider_plan(plan, ex, exiger_cle_comprehension=True)
         if raisons:
             raise ContenuIndisponible(raisons)

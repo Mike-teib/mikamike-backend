@@ -12,8 +12,10 @@ Sortie 1 si un mutant survit ou si un remplacement ne s'applique plus.
 
 from __future__ import annotations
 
+import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import List, NamedTuple, Tuple
 
@@ -33,6 +35,7 @@ T_AUTH = ("tests_cloud/test_auth.py", "tests_cloud/test_review_session1.py")
 T_API = ("tests_cloud/test_mika_api.py",)
 T_IMPORT = ("tests_cloud/test_import_v2_integrite.py", "tests_cloud/test_review_session1.py")
 T_ATT = ("tests_cloud/test_attaques.py", "tests_cloud/test_review_session1.py")
+T_S3 = ("tests_cloud/test_review_session2.py",)
 
 
 MUTANTS: List[Mutant] = [
@@ -64,8 +67,8 @@ MUTANTS: List[Mutant] = [
     Mutant("valid_par_defaut", "app/curriculum/verifiers/dispatch.py",
            'return revue(f"type_verification_inconnu:{type_verification}")', 'return valide("defaut")'),
     Mutant("aide_compte_pour_maitrise", "app/curriculum/pedagogie/tuteur.py",
-           'niveau_estime="ACQUIS_ASSISTE" if etat.avec_aide else "ACQUIS_AUTONOME"',
-           'niveau_estime="ACQUIS_AUTONOME"'),
+           'niveau = "ACQUIS_ASSISTE" if etat.avec_aide else "ACQUIS_AUTONOME"',
+           'niveau = "ACQUIS_AUTONOME"'),
     Mutant("solution_donnee_immediatement", "app/curriculum/pedagogie/tuteur.py",
            "if etat.questions_posees < len(self.plan.questions_intermediaires):",
            "if False:\n            pass\n        if True:\n            return self._emettre(etat, Action.CORRECTION_COMMENTEE, self.plan.correction_commentee)\n        if False:"),
@@ -105,8 +108,8 @@ MUTANTS: List[Mutant] = [
            '    if mode == "off" and os.getenv("MIKA_ENV", "").strip().lower() in ("production", "prod"):',
            "    if False:", T_AUTH),
     Mutant("jeton_compte_accepte_comme_eleve", "app/core/auth.py",
-           '        if c.get("typ") != TYP_ELEVE or c.get("role") != "eleve" or not isinstance(c.get("sub"), str):',
-           '        if not isinstance(c.get("sub"), str):', T_AUTH),
+           '        if (c.get("typ") != TYP_ELEVE or c.get("role") != "eleve" or not isinstance(c.get("sub"), str)',
+           '        if (not isinstance(c.get("sub"), str)', T_AUTH),
     Mutant("route_sans_garde", "app/api/v1/rgpd/router.py",
            "    g.exiger(student_pseudo_id, Action.EFFACEMENT)", "    pass", T_AUTH),
     Mutant("tutorat_d_un_autre_eleve", "app/api/v1/tutorat/service.py",
@@ -127,19 +130,59 @@ MUTANTS: List[Mutant] = [
     Mutant("corps_non_borne", "app/core/limites.py",
            "                if not valeur.isdigit() or int(valeur) > self.max_octets:",
            "                if False:", T_ATT),
+    # ---------------------------------------------------------------- session 3
+    Mutant("jeton_eleve_lien_non_reverifie", "app/core/auth.py",
+           "        if liens.relation(db, emetteur.id, hmac_eleve(pseudo_id)) != emetteur.role:",
+           "        if False:", T_S3),
+    Mutant("jeton_eleve_compte_desactive", "app/core/auth.py",
+           "        if emetteur is None or not emetteur.actif:", "        if emetteur is None:", T_S3),
+    Mutant("url_alembic_non_echappee", "app/db/migrations.py",
+           'url.replace("%", "%%")', "url", T_S3),
+    Mutant("ddl_sqlite_non_transactionnel", "app/db/migrations.py",
+           '    if engine.dialect.name != "sqlite":\n        return', "    return", T_S3),
+    Mutant("double_soumission_409", "app/api/v1/tutorat/service.py",
+           "        if rejeu is not None:\n            return rejeu\n        raise _err(status.HTTP_409_CONFLICT, \"version_perimee\")",
+           "        raise _err(status.HTTP_409_CONFLICT, \"version_perimee\")", T_S3),
+    Mutant("etat_corrompu_accepte", "app/api/v1/tutorat/service.py",
+           "        if not all(_type_valide(k, v) for k, v in d.items()):", "        if False:", T_S3),
+    Mutant("comprehension_ratee_comptee_reussie", "app/api/v1/tutorat/service.py",
+           "    return etat.resolu and etat.comprehension_verifiee is not False", "    return etat.resolu", T_S3),
+    Mutant("connexion_sans_leurre", "paiement_comptes/crud_billing.py",
+           "compte.mot_de_passe_hash if compte else _hash_leurre()", "compte.mot_de_passe_hash if compte else 'x'",
+           T_S3),
+    Mutant("export_rgpd_sans_journal", "app/api/v1/rgpd/router.py",
+           '        "requetes_tutorat_mika": export_requetes,\n', "", T_S3),
+    Mutant("identifiant_64_elargi", "app/core/validation.py",
+           "Identifiant64 = Annotated[str, Field(min_length=1, max_length=64,",
+           "Identifiant64 = Annotated[str, Field(min_length=1, max_length=128,", T_S3),
 ]
+
+
+IGNORES = shutil.ignore_patterns(".git", ".venv", "venv", "__pycache__", "*.db", "reports", "checkpoints")
+
+
+_RACINE_EXEC: List[Path] = []  # copie jetable en cours de mutation (vide : dépôt réel)
 
 
 def executer_suite(*cibles: str) -> int:
     """Code retour pytest : 0 vert, 1 au moins un test ÉCHOUE, autre = suite non exécutée."""
     r = subprocess.run(
         [sys.executable, "-m", "pytest", "-q", "-x", *(cibles or ("tests_cloud",)), "-p", "no:cacheprovider"],
-        cwd=RACINE, capture_output=True, text=True,
+        cwd=_RACINE_EXEC[0] if _RACINE_EXEC else RACINE, capture_output=True, text=True,
     )
     return r.returncode
 
 
-def main() -> int:
+def main(argv=None) -> int:
+    """`--seulement a,b` : ne rejoue que ces mutants (vérification ciblée d'un correctif)."""
+    argv = list(sys.argv[1:] if argv is None else argv)
+    if argv[:1] == ["--seulement"] and len(argv) == 2:
+        noms = set(argv[1].split(","))
+        inconnus = noms - {m.nom for m in MUTANTS}
+        if inconnus:
+            print(f"mutants inconnus : {sorted(inconnus)}")
+            return 2
+        MUTANTS[:] = [m for m in MUTANTS if m.nom in noms]
     # Revue session 2 (R2-12) : sans suite verte AVANT mutation, tout mutant paraissait
     # « tué » ; et un mutant qui casse l'import (erreur de collecte, code 2) était compté
     # tué alors qu'aucune assertion ne l'avait détecté.
@@ -147,8 +190,22 @@ def main() -> int:
         print("BASELINE ROUGE : la suite échoue sans mutation, résultat non significatif")
         return 2
     survivants, inapplicables, non_executes = [], [], []
+    # Revue session 3 (S3-11) : les mutants étaient écrits dans l'ARBRE DE TRAVAIL ; un arrêt
+    # brutal (SIGKILL, timeout CI) y laissait un bug injecté, et un pytest lancé en parallèle
+    # testait du code muté. On mute désormais une COPIE jetable du dépôt.
+    with tempfile.TemporaryDirectory(prefix="mutation-") as tmp:
+        copie = Path(tmp) / "depot"
+        shutil.copytree(RACINE, copie, ignore=IGNORES)
+        _RACINE_EXEC[:] = [copie]
+        try:
+            return _muter(copie, survivants, inapplicables, non_executes)
+        finally:
+            _RACINE_EXEC.clear()
+
+
+def _muter(copie: Path, survivants, inapplicables, non_executes) -> int:
     for m in MUTANTS:
-        f = RACINE / m.fichier
+        f = copie / m.fichier
         original = f.read_text(encoding="utf-8")
         if original.count(m.avant) != 1:
             inapplicables.append(m.nom)
