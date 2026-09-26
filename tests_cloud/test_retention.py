@@ -110,3 +110,178 @@ def test_outil_politique_invalide(monkeypatch, capsys):
 
     monkeypatch.setenv("MIKA_RETENTION_SESSIONS_JOURS", "0")
     assert purge_retention.main([]) == 2
+
+
+# --------------------------------------------------------------------------- #
+# Session 5 — rapport scellé, lots, reprise, idempotence, audit chaîné
+# --------------------------------------------------------------------------- #
+def _rapport(t=T):
+    with MikaSession() as m, BillingSession() as b:
+        return retention.rapport(m, b, maintenant=t)
+
+
+def _appliquer(r, t=T + dt.timedelta(hours=1), lot=500):
+    with MikaSession() as m, BillingSession() as b:
+        return retention.appliquer_rapport(m, b, r, lot=lot, maintenant=t)
+
+
+def test_s5_toutes_les_durees_configurables(bases, monkeypatch):
+    assert set(retention.politique()) == {"SESSIONS", "TUTORAT_REQUETES", "TUTORAT_SESSIONS",
+                                          "VERIFICATIONS_EMAIL", "INVITATIONS_EXPIREES"}
+    monkeypatch.setenv("MIKA_RETENTION_INVITATIONS_EXPIREES_JOURS", "5")
+    with BillingSession() as b:
+        assert retention.purger_billing(b, maintenant=T)["invitations_lien"] == 0
+    monkeypatch.setenv("MIKA_RETENTION_INVITATIONS_EXPIREES_JOURS", "0")
+    with BillingSession() as b:
+        assert retention.purger_billing(b, maintenant=T)["invitations_lien"] == 1
+    monkeypatch.setenv("MIKA_RETENTION_INVITATIONS_EXPIREES_JOURS", "-1")
+    with pytest.raises(retention.PolitiqueInvalide):
+        retention.politique()
+
+
+def test_s5_rapport_scelle_et_sans_donnee_personnelle(bases):
+    r = _rapport()
+    assert r["format"] == retention.FORMAT_RAPPORT and len(r["empreinte"]) == 64
+    assert r["mika"]["mika_session_states"] == 1 and r["billing"]["invitations_lien"] == 1
+    texte = json.dumps(r)
+    assert "fictif@example.com" not in texte and "h" * 16 not in texte
+
+
+@pytest.mark.parametrize("alteration,motif", [
+    (lambda r: r["mika"].__setitem__("mika_session_states", 99), "empreinte"),
+    (lambda r: r.__setitem__("format", "autre"), "format"),
+])
+def test_s5_rapport_altere_refuse(bases, alteration, motif):
+    r = _rapport()
+    alteration(r)
+    with pytest.raises(retention.RapportInvalide, match=motif):
+        _appliquer(r)
+
+
+def test_s5_rapport_perime_ou_futur_refuse(bases):
+    r = _rapport()
+    with pytest.raises(retention.RapportInvalide, match="perime"):
+        _appliquer(r, t=T + dt.timedelta(hours=25))
+    with pytest.raises(retention.RapportInvalide, match="perime"):
+        _appliquer(r, t=T - dt.timedelta(hours=1))
+
+
+def test_s5_politique_modifiee_depuis_le_rapport_refusee(bases, monkeypatch):
+    r = _rapport()
+    monkeypatch.setenv("MIKA_RETENTION_SESSIONS_JOURS", "1")
+    with pytest.raises(retention.RapportInvalide, match="politique_modifiee"):
+        _appliquer(r)
+
+
+def test_s5_application_a_la_date_de_reference(bases):
+    r = _rapport()
+    with MikaSession() as m:  # devient éligible APRÈS la référence : conservée
+        m.add(MikaSessionState(session_id="s-limite", eleve_hmac="h" * 16,
+                               last_activity_ts=_j(30) + dt.timedelta(minutes=10), created_at=_j(31)))
+        m.commit()
+    res = _appliquer(r, t=T + dt.timedelta(hours=2))
+    assert res["supprimes"]["mika"]["mika_session_states"] == 1
+    with MikaSession() as m:
+        assert {s.session_id for s in m.query(MikaSessionState)} == {"s0", "s-limite"}
+
+
+def test_s5_perimetre_elargi_refuse(bases):
+    r = _rapport()
+    with MikaSession() as m:  # import de données anciennes après le rapport
+        m.add(MikaSessionState(session_id="s-vieux", eleve_hmac="h" * 16, last_activity_ts=_j(400), created_at=_j(400)))
+        m.commit()
+    with pytest.raises(retention.RapportInvalide, match="perimetre_elargi:mika_session_states"):
+        _appliquer(r)
+    assert _compter(MikaSessionState, MikaSession) == 3  # rien supprimé
+
+
+def test_s5_lots_metriques_et_idempotence(bases):
+    with MikaSession() as m:
+        for i in range(7):
+            m.add(MikaSessionState(session_id=f"v{i}", eleve_hmac="h" * 16, last_activity_ts=_j(90), created_at=_j(90)))
+        m.commit()
+    res = _appliquer(_rapport(), lot=3)
+    met = res["metriques"]["mika_session_states"]
+    assert met["lignes"] == 8 and met["lots"] == 3 and met["duree_ms"] >= 0
+    assert res["metriques"]["mika_tutorat_requetes"]["lignes"] == 1  # clé primaire composite
+    res2 = _appliquer(_rapport(T + dt.timedelta(minutes=5)), t=T + dt.timedelta(hours=1))
+    assert all(n == 0 for base in res2["supprimes"].values() for n in base.values())
+
+
+def test_s5_reprise_apres_interruption(bases, monkeypatch):
+    with MikaSession() as m:
+        for i in range(6):
+            m.add(MikaSessionState(session_id=f"v{i}", eleve_hmac="h" * 16, last_activity_ts=_j(90), created_at=_j(90)))
+        m.commit()
+    r = _rapport()
+    vrai_delete, appels = retention.delete, {"n": 0}
+
+    def delete_fragile(modele):
+        appels["n"] += 1
+        if appels["n"] == 3:
+            raise RuntimeError("coupure simulée")
+        return vrai_delete(modele)
+
+    monkeypatch.setattr(retention, "delete", delete_fragile)
+    with pytest.raises(RuntimeError):
+        _appliquer(r, lot=2)
+    assert 0 < _compter(MikaSessionState, MikaSession) < 8  # lots validés conservés, base cohérente
+    monkeypatch.setattr(retention, "delete", vrai_delete)
+    _appliquer(r, lot=2)  # même rapport : reprise jusqu'au bout
+    with MikaSession() as m:
+        assert [s.session_id for s in m.query(MikaSessionState)] == ["s0"]
+
+
+def test_s5_lot_invalide(bases):
+    with pytest.raises(retention.PolitiqueInvalide):
+        _appliquer(_rapport(), lot=0)
+
+
+def test_s5_outil_flux_complet_et_audit(bases, tmp_path, monkeypatch, capsys):
+    from tools import purge_retention as pr
+
+    audit = tmp_path / "audit.jsonl"
+    monkeypatch.setenv("MIKA_RETENTION_AUDIT", str(audit))
+    fichier = tmp_path / "rapport.json"
+    monkeypatch.setenv("MIKA_OPERATEUR", "op-test")
+    assert pr.main(["--appliquer"]) == 2                        # jamais sans rapport
+    assert pr.main(["--appliquer", "--lot", "3"]) == 2
+    assert pr.main(["--sortie", str(fichier)]) == 0
+    capsys.readouterr()
+    monkeypatch.delenv("MIKA_OPERATEUR", raising=False)
+    assert pr.main(["--appliquer", "--rapport", str(fichier)]) == 2  # opérateur requis
+    monkeypatch.setenv("MIKA_OPERATEUR", "op-test")
+    assert pr.main(["--appliquer", "--rapport", str(fichier), "--lot", "2"]) == 0
+    sortie = json.loads(capsys.readouterr().out)
+    assert sortie["mode"] == "APPLIQUE" and sortie["supprimes"]["mika"]["mika_session_states"] >= 0
+    entrees = [json.loads(x) for x in audit.read_text().splitlines()]
+    assert [e["etape"] for e in entrees] == ["DEBUT", "FIN"]
+    assert entrees[0]["precedent"] == "0" * 64 and entrees[1]["operateur"] == "op-test"
+    assert "fictif@example.com" not in audit.read_text() and "h" * 16 not in audit.read_text()
+    assert pr.verifier_audit(audit) == []
+    assert pr.main(["--verifier-audit"]) == 0
+
+
+def test_s5_audit_detecte_alteration_et_interruption(tmp_path):
+    from tools import purge_retention as pr
+
+    p = tmp_path / "a.jsonl"
+    pr.ecrire_audit({"execution": "x1", "etape": "DEBUT"}, p)
+    pr.ecrire_audit({"execution": "x1", "etape": "FIN"}, p)
+    pr.ecrire_audit({"execution": "x2", "etape": "DEBUT"}, p)
+    assert pr.verifier_audit(p) == ["ligne 3 : exécution x2 sans FIN (interrompue : relancer pour reprendre)"]
+    lignes = p.read_text().splitlines()
+    lignes[1] = lignes[1].replace('"FIN"', '"ECHEC"')
+    p.write_text("\n".join(lignes) + "\n")
+    assert any("chaîne rompue" in a for a in pr.verifier_audit(p))
+
+
+def test_s5_outil_rapport_refuse_code_3(bases, tmp_path, monkeypatch):
+    from tools import purge_retention as pr
+
+    monkeypatch.setenv("MIKA_RETENTION_AUDIT", str(tmp_path / "audit.jsonl"))
+    monkeypatch.setenv("MIKA_OPERATEUR", "op-test")
+    f = tmp_path / "r.json"
+    f.write_text(json.dumps({"format": "x"}))
+    assert pr.main(["--appliquer", "--rapport", str(f)]) == 3
+    assert pr.main(["--lot", "5"]) == 2
