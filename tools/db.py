@@ -21,6 +21,18 @@ from app.db import migrations as m
 
 
 def main(argv=None) -> int:
+    """Erreurs attendues (révision inconnue, base non conforme, cible inconnue) : message clair
+    et code 1, jamais de trace (revue session 3 : une version incorrecte donnait une trace)."""
+    from alembic.util import CommandError
+
+    try:
+        return _main(argv)
+    except (CommandError, m.SchemaNonAJour, ValueError, KeyError) as exc:
+        print(f"erreur: {exc}", file=sys.stderr)
+        return 1
+
+
+def _main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if not argv:
         print(__doc__)

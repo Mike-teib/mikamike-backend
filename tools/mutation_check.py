@@ -38,6 +38,7 @@ T_ATT = ("tests_cloud/test_attaques.py", "tests_cloud/test_review_session1.py")
 T_S3 = ("tests_cloud/test_review_session2.py",)
 T_RL = ("tests_cloud/test_limitation.py",)
 T_EQ = ("tests_cloud/test_equivalence.py",)
+T_MIG = ("tests_cloud/test_migrations_validation.py",)
 
 
 MUTANTS: List[Mutant] = [
@@ -180,6 +181,11 @@ MUTANTS: List[Mutant] = [
            "    if vars_att and vars_rep - vars_att:", "    if False:", T_EQ),
     Mutant("equivalence_conversion_auto", "app/curriculum/equivalence.py",
            "    if ua != ur:", "    if False:", T_EQ),
+    Mutant("migration_non_atomique_validation", "app/db/migrations.py",
+           '    if engine.dialect.name != "sqlite":\n        return', "    return", T_MIG),
+    Mutant("cli_db_trace_sur_erreur", "tools/db.py",
+           "    except (CommandError, m.SchemaNonAJour, ValueError, KeyError) as exc:",
+           "    except ZeroDivisionError as exc:", T_MIG),
 ]
 
 
