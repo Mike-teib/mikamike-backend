@@ -16,7 +16,12 @@ Conditions (toutes obligatoires) :
   CHAPITRE_PROUVE     rattachée à un chapitre existant, non ambigu, du même programme ;
   STRUCTURE_VALIDE    aucune anomalie de structure sur la notion, son chapitre, son programme ;
   VALIDATION_OK       réponse vérifiable (exercice) / question valide (quiz) ;
+  TESTS_VERTS         (session 5) auto-tests du contenu REJOUÉS à la publication : la référence
+                      est acceptée ET chaque erreur fréquente déclarée est refusée ;
   PLAN_VALIDE         exercice : plan de guidage présent et valide (servi par le tuteur).
+
+Session 5 : la validation d'un QUIZ (« question valide ») n'était pas rejouée à la publication
+(seule une anomalie d'import la couvrait) : elle l'est désormais, comme pour les exercices.
 
 Journal append-only : `<depot>/PUBLICATIONS.jsonl` (publier / retirer, opérateur, date, empreinte).
 """
@@ -97,8 +102,18 @@ def _raisons(res: ResultatImport, contenu, *, est_exercice: bool, autoriser_fict
                      contenu.parametres_verification)
         if v.verdict != Verdict.VALID:
             r.append("VALIDATION_ECHOUEE")
+        for fausse in contenu.erreurs_frequentes:  # TESTS_VERTS
+            if verifier(contenu.type_verification, contenu.reponse_attendue, fausse,
+                        contenu.parametres_verification).verdict == Verdict.VALID:
+                r.append("TESTS_ROUGES")
+                break
         if contenu.id not in res.plans:
             r.append("PLAN_MANQUANT")
+    else:
+        from app.curriculum.quiz import valider_question
+
+        if valider_question(contenu, idx, autoriser_fictif=autoriser_fictif):
+            r.append("VALIDATION_ECHOUEE")
     return r
 
 
