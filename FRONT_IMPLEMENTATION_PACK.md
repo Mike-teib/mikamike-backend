@@ -142,3 +142,28 @@ interne si nécessaire), boutons ≥ 44 × 44 px, quiz, messages de Mika, tablea
 Stocker un code d'invitation ou un jeton de vérification ; afficher un JWT ; journaliser un
 corps de requête contenant un mot de passe ; générer un `session_id` ; réessayer en boucle sur
 401/403 ; envoyer `confirmation: true` sans action explicite de l'utilisateur.
+
+## Session 5 — package consommable `frontend-contract/` et écarts connus
+
+Le pack est désormais **exécutable** : `frontend-contract/` (types TypeScript exacts, client `fetch`
+de référence, validateur runtime, machines d'état pures auth / vérification d'adresse / séance Mika /
+rattachement parent, exemples par parcours, tests contractuels `node:test`). Voir son `README.md`.
+CI : `tsc --noEmit`, `node --test`, intégration contre un serveur réel (`tests_cloud/test_frontend_contract_pkg.py`).
+
+Nouveautés de contrat RC1 : champ optionnel `progression` sur `/exercices/soumettre` et
+`/escalier/etape` (`niveau` ∈ NON_EVALUEE | NON_ACQUISE | FRAGILE | EN_COURS | MAITRISEE) ;
+`POST /comptes/verification-email` peut répondre **503 `courriel_indisponible`** (réessayer plus tard).
+
+Écarts relevés en construisant le client (NON corrigés en RC1 : chacun changerait le contrat ;
+décision Mike) — le client de référence les gère tous :
+
+| # | écart | effet front | proposition |
+|---|---|---|---|
+| 1 | deux familles de 401 : `/comptes/*` ⇒ `token_absent` / `token_invalide` ; autres routes ⇒ `jeton_requis` / `jeton_invalide` | traiter les quatre codes comme « se reconnecter » | unifier sur `jeton_*` (version d'API suivante) |
+| 2 | jeton de compte **expiré** sur `/comptes/*` ⇒ `token_invalide` (jamais `jeton_expire`) | même traitement que l'invalidité | renvoyer `jeton_expire` |
+| 3 | échec d'envoi du courriel à l'inscription / au changement d'adresse : 201/200 et `GET /verification-email` ⇒ `VERIFICATION_TOKEN_CREATED` | proposer « renvoyer le courriel » systématiquement | exposer `courriel_envoye: bool` |
+| 4 | réponses plus riches que la doc : `/liens/invitations` (+ `relation`, `expire_le`), `/session/nouvelle` (+ `statut`, `is_active`) ; 409 `deja_lie` sans pseudo | ignorer les champs en plus | mettre FRONT_AUTH_INTEGRATION.md à jour |
+| 5 | `contrat.json` enregistre les énumérations comme `"string"` | types stricts pris dans le code (`types.ts`) | enregistrer les énumérations dans l'outil |
+| 6 | `etat` du dashboard = chaîne libre lue en base | le validateur client refuse une valeur hors des 7 états | valider côté serveur (schéma fermé) |
+| 7 | `POST /comptes/email`, `DELETE /comptes/moi` absents de `contrat.json` | couverts par le client et l'intégration réelle | les enregistrer |
+| 8 | export RGPD après effacement ⇒ 403 (lien supprimé), pas 404 | afficher « données effacées » sur 403 après effacement | documenter |
