@@ -144,7 +144,7 @@ TESTS_ERROR = 0
 - conftests : remise à zéro des compteurs R7 entre tests.
 
 ## Mutation
-Voir la synthèse de fin de session dans CLOUD_NEXT_SESSION.md (exécution complète locale + CI).
+**Exécution complète locale : 73/73 mutants tués** (15,5 min ; 0 survivant, 0 inapplicable).
 34 mutants ajoutés en session 3 (+ 3 réécrits car devenus inapplicables), chacun vérifié tué
 individuellement lors de son ajout ; `mutation_check` mute désormais une **copie jetable** (S3-11)
 et accepte `--seulement`.

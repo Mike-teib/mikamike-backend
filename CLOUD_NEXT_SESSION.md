@@ -22,7 +22,7 @@ CURRENT_TASK: aucune — PR #5 en revue
 NEXT_TASK: R1/R2 dès que Mike fournit les artefacts : remplacer `generer_lot` par le lot réel et exiger
            `executer_pipeline(<lot réel>, <sha épinglé>, autoriser_fictif=False).statut == "VALIDATED"`
            (IMPORT_TEST_HARNESS_REPORT.md §6). Sinon : D8 (création des liens) puis passage front en enforce.
-TEST_STATUS: 4017/4017 PASS ; ruff 0 ; bandit 0 ; pip-audit 0 ; secrets arbre 0 ; MUTATION_STATUS
+TEST_STATUS: 4017/4017 PASS ; ruff 0 ; bandit 0 ; pip-audit 0 ; secrets arbre 0 ; mutation 73/73 (local, 15,5 min)
 LAST_COMMIT: voir `git log -1`
 
 KNOWN_BLOCKERS:
@@ -55,8 +55,8 @@ REMAINING_BACKLOG: CLOUD_BACKLOG_MIKAMAIKE.md (R1, R2, R3b, R5, R6-application, 
 ## Rapport final session 3
 ```
 BRANCH: cloud/mikamike-session3-20260926
-COMMITS: COMMITS_COUNT (depuis db03ff4)
-FILES_CHANGED: FILES_COUNT
+COMMITS: 10 (depuis db03ff4)
+FILES_CHANGED: 52
 
 REVIEW_FINDINGS_TOTAL: 16   (CLOUD_REVIEW_SESSION2.md ; 14 corrigés, 2 documentés)
 P0: 0
@@ -68,8 +68,8 @@ TESTS_PASS: 4017
 TESTS_FAIL: 0
 TESTS_ERROR: 0
 
-MUTATIONS_TOTAL: MUT_TOTAL
-MUTATIONS_KILLED: MUT_KILLED
+MUTATIONS_TOTAL: 73 (39 sessions 1–2 + 34 session 3)
+MUTATIONS_KILLED: 73 (0 survivant, 0 inapplicable)
 
 AUTH_STATUS: enforce par défaut ; jeton élève révoqué dès perte du lien/compte (cid) ; sub validé ; 52 tests sécurité en plus
 RATE_LIMIT_STATUS: R7 livré (connexion, inscription, jetons élève, jetons invalides) ; anti-DoS victime prouvé ; par processus
