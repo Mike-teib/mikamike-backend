@@ -15,7 +15,7 @@ import json
 from typing import Dict, Any
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.store import get_db
@@ -26,22 +26,26 @@ from app.core.pseudonymisation import hmac_eleve as _hmac
 from app.core.auth import Action, Garde, garde as _garde
 
 class SessionHeartbeatIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     session_id: Identifiant64 = Field(description="Identifiant de la session")
     user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")
 
 
 class SessionSaveStateIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     session_id: Identifiant64
     user_id: Identifiant
     state_data: Dict[str, Any] = Field(description="Mémoire de séance (ardoise, exercice, étape)")
 
 
 class SessionReconnectIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     session_id: Identifiant64
     user_id: Identifiant
 
 
 class SessionNouvelleIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     user_id: Identifiant
 
 

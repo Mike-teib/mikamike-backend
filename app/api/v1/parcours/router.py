@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Dict, List, Any
 from fastapi import APIRouter, Depends, HTTPException, Path, status
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike import crud
@@ -40,6 +40,7 @@ def _resoudre_referentiel(level: str, subject: str):
 
 
 class ParcoursRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")
     level: str = Field(default="5e", max_length=32, description="Niveau d'études (primaire, 6e, 5e, 4e, 3e, 2de, 1re, tle)")
     subject: str = Field(default="Maths", max_length=32, description="Matière (Maths, Physique, Chimie, SVT)")

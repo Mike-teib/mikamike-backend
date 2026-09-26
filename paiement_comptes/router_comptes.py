@@ -72,6 +72,7 @@ router = APIRouter(prefix="/comptes", tags=["comptes"])
 
 # --- Schémas ----------------------------------------------------------------- #
 class InscriptionIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     email: EmailStr
     mot_de_passe: str = Field(min_length=8, max_length=200)
     prenom: Optional[str] = Field(default=None, max_length=120)
@@ -79,6 +80,7 @@ class InscriptionIn(BaseModel):
 
 
 class ConnexionIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     email: EmailStr
     mot_de_passe: str
 

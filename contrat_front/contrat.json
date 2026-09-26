@@ -50,10 +50,6 @@
       "reponse": {
         "detail": [
           {
-            "ctx": {
-              "reason": "string"
-            },
-            "input": "string",
             "loc": [
               "string"
             ],
@@ -201,10 +197,6 @@
       "reponse": {
         "detail": [
           {
-            "ctx": {
-              "error": {}
-            },
-            "input": "boolean",
             "loc": [
               "string"
             ],

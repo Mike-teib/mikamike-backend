@@ -123,6 +123,16 @@ def valider_referentiel(ref: Referentiel, *, analyser_textes: bool = True) -> Li
 
         if n.disciplines_mobilisees and n.matiere != Matiere.ENSEIGNEMENT_SCIENTIFIQUE:
             out.append(Anomalie("PLURIDISCIPLINAIRE_INVALIDE", n.id, n.matiere.value))
+        # Lot 17 (S4) : provenance des disciplines. ES : disciplines déclarées = disciplines
+        # indiquées par la source (relevé obligatoire). Hors ES : une source pluridisciplinaire
+        # ne peut pas être forcée dans une seule matière.
+        indiquees = n.preuve.disciplines_indiquees if n.preuve else None
+        if n.matiere == Matiere.ENSEIGNEMENT_SCIENTIFIQUE or indiquees is not None:
+            from app.curriculum.verifiers.enseignement_scientifique import verifier_notion_es
+
+            v = verifier_notion_es(n, indiquees)
+            if v.verdict.value != "VALID":
+                out.append(Anomalie("DISCIPLINES_NON_PROUVEES", n.id, ",".join(v.raisons)))
 
         if analyser_textes:
             rap = analyser_texte(n.texte, extrait_source=n.preuve.extrait if n.preuve else None)

@@ -75,6 +75,13 @@ def create_app() -> FastAPI:
     from app.core.observabilite import Observabilite
 
     app.add_middleware(Observabilite)
+    # En-têtes de sécurité et 422 sans écho des valeurs saisies (lot 21, S4-03).
+    from fastapi.exceptions import RequestValidationError
+
+    from app.core.entetes_securite import EntetesSecurite, erreur_validation
+
+    app.add_middleware(EntetesSecurite)
+    app.add_exception_handler(RequestValidationError, erreur_validation)
 
     origins = [o for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()]
     if origins:

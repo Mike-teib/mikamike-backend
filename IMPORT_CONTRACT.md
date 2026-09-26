@@ -146,3 +146,23 @@ DECLARE (aucune preuve fournie : accepté à l'import mais **jamais publiable**)
 prérequis, titre de colonne (ligne 0), autre document, hors zone ou à cheval sur deux colonnes.
 Une structure dont le document n'est pas dans le lot ⇒ `STRUCTURE_SANS_DOCUMENT`.
 Toute anomalie relevée par l'importeur retire sa notion des générables (S4-01).
+
+## 10. Provenance pluridisciplinaire (session 4, lot 17)
+
+Champ OPTIONNEL `preuve.disciplines_indiquees` (liste de matières, ex. `["physique-chimie", "svt"]`) :
+disciplines que la SOURCE indique explicitement pour l'extrait (relevé humain ou extraction V3).
+
+- Notion d'**Enseignement scientifique** : relevé OBLIGATOIRE ; `disciplines_mobilisees` doit être
+  exactement égal aux disciplines indiquées (hors « enseignement-scientifique »). Sinon anomalie
+  `DISCIPLINES_NON_PROUVEES` ⇒ notion non générable, contenus BLOQUÉS à la publication.
+- Notion d'une autre matière : si le relevé est présent et pluridisciplinaire, la notion ne peut
+  pas être forcée dans une matière unique (même anomalie). Relevé absent : comportement inchangé.
+- Aucune discipline n'est déduite automatiquement du texte : WAITING_FOR_ARTIFACT tant que
+  l'extraction V3 ne fournit pas ce champ.
+
+## 11. Types de vérification ajoutés (session 4, lots 14–15)
+
+`physique_incertitude`, `physique_ordre_de_grandeur` (params `valeur`), `svt_definition`
+(params `terme_defini`, `elements_essentiels`, `confusions`), et `unite_imposee` pour
+`physique_grandeur`. La publication exige toujours que la réponse de référence se valide
+elle-même : une convention ambiguë (ordre de grandeur entre √10 et 5) bloque la publication.

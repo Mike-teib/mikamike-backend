@@ -64,7 +64,7 @@ _PREFIXES = {
     "G": 1e9, "M": 1e6, "k": 1e3, "h": 1e2, "da": 1e1, "d": 1e-1, "c": 1e-2,
     "m": 1e-3, "µ": 1e-6, "μ": 1e-6, "u": 1e-6, "n": 1e-9, "p": 1e-12,
 }
-_SANS_PREFIXE = {"min", "h", "°C", "bar", "L", "l"}  # évite « mh », « kbar »… improbables
+_SANS_PREFIXE = {"min", "h", "°C", "bar"}  # évite « mh », « kbar »… improbables (mL, cL, dL admis)
 _EXPOSANTS = str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺", "0123456789-+")
 
 
@@ -147,6 +147,12 @@ def chiffres_significatifs(mantisse: str) -> int:
     return max(len(chiffres.lstrip("0")), 1)
 
 
+def chiffres_significatifs_ambigus(mantisse: str) -> bool:
+    """« 1200 » : 2, 3 ou 4 chiffres significatifs selon l'intention ⇒ ambigu (zéros finaux d'un entier)."""
+    m = mantisse.lstrip("+-−")
+    return "," not in m and "." not in m and len(m.lstrip("0")) > 1 and m.endswith("0")
+
+
 def _vers_si(g: Grandeur) -> float:
     if g.unite_texte == "°C":
         return g.valeur + 273.15
@@ -161,7 +167,15 @@ def verifier_grandeur(
     tolerance_relative: float = 0.01,
     chiffres_significatifs_requis: Optional[int] = None,
     notation_scientifique: bool = False,
+    unite_imposee: bool = False,
 ) -> Resultat:
+    """
+    Une valeur numérique seule ne valide JAMAIS une grandeur dimensionnée : la dimension est
+    comparée même si `unite_requise=False`. `unite_imposee` : la réponse doit être exprimée
+    dans l'unité de l'attendu (« exprimer en m/s »), pas seulement dans une unité équivalente.
+    """
+    if not (0 < tolerance_relative <= 0.1):
+        return revue("tolerance_hors_bornes")
     try:
         ga = analyser_grandeur(attendue)
     except GrandeurInvalide as exc:
@@ -177,6 +191,8 @@ def verifier_grandeur(
         return invalide("unite_manquante")
     if ga.unite.dim != gr.unite.dim:
         return invalide("dimension_incorrecte")
+    if unite_imposee and (ga.unite.facteur != gr.unite.facteur or (ga.unite_texte == "°C") != (gr.unite_texte == "°C")):
+        return invalide("unite_imposee_non_respectee")
 
     va, vr = _vers_si(ga), _vers_si(gr)
     if va == 0:
@@ -187,6 +203,10 @@ def verifier_grandeur(
 
     if chiffres_significatifs_requis is not None and \
             chiffres_significatifs(gr.mantisse) != chiffres_significatifs_requis:
+        if chiffres_significatifs_ambigus(gr.mantisse) and \
+                chiffres_significatifs(gr.mantisse.rstrip("0") or "0") <= chiffres_significatifs_requis \
+                < chiffres_significatifs(gr.mantisse):
+            return revue("chiffres_significatifs_ambigus")
         return invalide("chiffres_significatifs")
     if notation_scientifique:
         a = abs(float(gr.mantisse.replace(",", ".")))

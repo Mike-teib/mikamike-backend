@@ -2,15 +2,16 @@
 
 from __future__ import annotations
 
-from typing import Any, Dict, Optional
+from typing import Dict, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from app.core.validation import Identifiant, ReponseEleve
 
 
 class SoumissionIn(BaseModel):
     """Contrat aligné sur test_mika_suite (champ `reponse`)."""
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
 
     exercice_id: Identifiant
     student_pseudo_id: Identifiant = Field(description="Identifiant déjà pseudonymisé (RGPD)")
@@ -31,9 +32,30 @@ class SoumissionOut(BaseModel):
     remediation: Optional[Remediation] = None
 
 
-class DashboardOut(BaseModel):
+class _Ferme(BaseModel):
+    # Lot 19 (S4) : minimisation — schéma FERMÉ. Un champ ajouté côté agrégation (réponse
+    # d'élève, horodatage, échange avec le tuteur…) fait échouer la réponse (fail-closed)
+    # au lieu d'être transmis au parent.
+    model_config = ConfigDict(extra="forbid")
+
+
+class StatCompetence(_Ferme):
+    tentatives: int
+    reussites: int
+    etat: str
+
+
+class StatistiquesParent(_Ferme):
+    exercices_tentes: int
+    exercices_reussis: int
+    taux_reussite: float
+    competences: Dict[str, StatCompetence]
+    niveau_actuel: str
+
+
+class DashboardOut(_Ferme):
     pseudo_id: str
-    statistiques_pedagogiques: Dict[str, Any]
+    statistiques_pedagogiques: StatistiquesParent
 
 
 class ProchaineEtapeOut(BaseModel):

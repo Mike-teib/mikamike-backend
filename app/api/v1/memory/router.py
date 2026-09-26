@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Annotated, Dict, Any, List, Optional
 from fastapi import APIRouter, Depends, HTTPException, status
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.store import get_db
@@ -21,6 +21,7 @@ from app.core.pseudonymisation import hmac_eleve as _hmac
 from app.core.auth import Action, Garde, garde as _garde
 
 class MemoryScheduleRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")
     notion_id: Identifiant64 = Field(description="Identifiant de la compétence/notion")
     mastery_event: str = Field(
@@ -42,6 +43,7 @@ class MemoryScheduleResponse(BaseModel):
 
 
 class DetectFragileRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     user_id: Optional[Identifiant] = Field(default="eleve_test", description="Identifiant élève")
     scores: List[Annotated[float, Field(ge=0.0, le=1.0)]] = Field(
         max_length=1000, description="Historique récent des scores de réussite (0.0 à 1.0)"
