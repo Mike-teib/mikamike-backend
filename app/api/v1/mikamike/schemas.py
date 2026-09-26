@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -25,11 +25,23 @@ class Remediation(BaseModel):
     competence_lacune: Optional[str] = None
 
 
+class Progression(BaseModel):
+    """Diagnostic du moteur sur historique (session 5). Absent en mode `legacy`."""
+    model_config = ConfigDict(extra="forbid")
+
+    moteur: str
+    niveau: str
+    prochaine_action: str
+    observations: int
+    raisons: List[str]
+
+
 class SoumissionOut(BaseModel):
     est_correct: bool
     etat_maitrise: str
     message: Optional[str] = None
     remediation: Optional[Remediation] = None
+    progression: Optional[Progression] = None
 
 
 class _Ferme(BaseModel):

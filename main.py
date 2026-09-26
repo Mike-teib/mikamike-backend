@@ -52,6 +52,9 @@ async def _cycle_de_vie(_app: FastAPI):
 
     verification_requise()  # MIKA_EMAIL_VERIFICATION invalide, ou « off » en production ⇒ refus
     nom_transport()  # aucun fournisseur de courriel réel en production ⇒ refus de démarrer (R19)
+    from app.api.v1.mikamike.moteur import moteur_actif
+
+    moteur_actif()  # MIKA_PROGRESSION_MOTEUR invalide ⇒ refus de démarrer (session 5)
     initialiser_au_demarrage()
     yield
 

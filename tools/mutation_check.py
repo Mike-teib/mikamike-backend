@@ -57,7 +57,8 @@ T_MATH = ("tests_cloud/test_maths_etendu.py",)
 T_SVT = ("tests_cloud/test_svt_raisonnement.py", "tests_cloud/test_verifiers_sciences.py")
 T_QZ = ("tests_cloud/test_quiz_types.py", "tests_cloud/test_exercices_quiz.py")
 T_ES = ("tests_cloud/test_es_provenance.py", "tests_cloud/test_technologie_s4.py", "tests_cloud/test_verifiers_sciences.py")
-T_PROG = ("tests_cloud/test_progression.py",)
+T_PROG = ("tests_cloud/test_progression.py", "tests_cloud/test_progression_api_s5.py")
+T_MOTEUR = ("tests_cloud/test_progression_api_s5.py", "tests_cloud/test_api_regressions.py")
 T_S4SEC = ("tests_cloud/test_securite_s4.py", "tests_cloud/test_parent_minimisation.py", "tests_cloud/test_retention.py")
 T_PC = ("tests_cloud/test_physique_etendu.py", "tests_cloud/test_verifiers_sciences.py")
 T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
@@ -390,11 +391,34 @@ MUTANTS: List[Mutant] = [
     Mutant("prog_diagnostic_une_reponse", "app/curriculum/pedagogie/progression.py",
            "    if len(h) < MIN_OBSERVATIONS:", "    if len(h) < 1:", T_PROG),
     Mutant("prog_aide_comptee_autonome", "app/curriculum/pedagogie/progression.py",
-           "    autonomes = [t for t in h if not t.avec_aide][-4:]", "    autonomes = list(h)[-4:]", T_PROG),
+           "    preuves = [t for t in h if not (t.avec_aide and _reussie(t))]", "    preuves = list(h)", T_PROG),
+    Mutant("prog_echec_aide_ignore", "app/curriculum/pedagogie/progression.py",
+           "    preuves = [t for t in h if not (t.avec_aide and _reussie(t))]",
+           "    preuves = [t for t in h if not t.avec_aide]", T_PROG),
     Mutant("prog_d14_ignore", "app/curriculum/pedagogie/progression.py",
            "    return t.correcte and t.comprehension_finale  # R3", "    return t.correcte  # R3", T_PROG),
     Mutant("prog_retest_non_espace", "app/curriculum/pedagogie/progression.py",
-           "            and len({_jour(t) for t in auto_ok}) >= 2:", "            and True:", T_PROG),
+           "    if len(auto_ok) >= 3 and _reussie(autonomes[-1]) and len(jours_ok) >= 2:",
+           "    if len(auto_ok) >= 3 and _reussie(autonomes[-1]):", T_PROG),
+    Mutant("prog_espacement_sur_fenetre", "app/curriculum/pedagogie/progression.py",
+           "    jours_ok = {_jour(t) for t in preuves if _reussie(t)}",
+           "    jours_ok = {_jour(t) for t in auto_ok}", T_PROG),
+    # Session 5 : pont API ↔ moteur sur historique.
+    Mutant("moteur_legacy_par_defaut", "app/api/v1/mikamike/moteur.py",
+           'MOTEUR_DEFAUT = "historique"', 'MOTEUR_DEFAUT = "legacy"', T_MOTEUR),
+    Mutant("moteur_config_repli_silencieux", "app/api/v1/mikamike/moteur.py",
+           "    if brut not in MOTEURS:", "    if False:", T_MOTEUR),
+    Mutant("moteur_une_reponse_solide", "app/api/v1/mikamike/moteur.py",
+           "    if autonomes:\n        return EtatMaitrise.EN_COURS",
+           "    if autonomes:\n        return EtatMaitrise.ACQUIS_AUTONOME", T_MOTEUR),
+    Mutant("moteur_retest_ignore", "app/api/v1/mikamike/moteur.py",
+           '        if "R4_retest_espace_requis" in diag.raisons:', "        if True:", T_MOTEUR),
+    Mutant("moteur_courante_ignoree", "app/api/v1/mikamike/moteur.py",
+           "        h = (h + [courante])[-HISTORIQUE_MAX:]", "        h = h", T_MOTEUR),
+    Mutant("moteur_historique_non_borne", "app/api/v1/mikamike/moteur.py",
+           "        .limit(HISTORIQUE_MAX)\n", "", T_MOTEUR),
+    Mutant("moteur_non_acquise_favorable", "app/api/v1/mikamike/moteur.py",
+           "        return EtatMaitrise.A_REVOIR", "        return EtatMaitrise.EN_COURS", T_MOTEUR),
     Mutant("prog_variation_non_bornee", "app/curriculum/pedagogie/progression.py",
            "        if abs(ib - ia) > 1:", "        if False:", T_PROG),
     Mutant("sec_422_echo_saisie", "app/core/entetes_securite.py",

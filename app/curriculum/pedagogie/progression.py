@@ -14,7 +14,9 @@ observations sont insuffisantes. Règles (toutes déterministes, documentées) :
   R6  FRAGILE : moins de la moitié de réussites récentes, ou les 2 dernières tentatives
       autonomes échouées ;
   R7  une seule nouvelle réponse ne fait jamais passer de MAITRISEE à NON_ACQUISE, ni de
-      NON_ACQUISE à MAITRISEE (au plus un cran de variation) — propriété testée.
+      NON_ACQUISE à MAITRISEE (au plus un cran de variation) — propriété testée ;
+  R8  monotonie de l'aide (session 5) : marquer une tentative « avec aide » ne fait JAMAIS
+      monter le niveau (un échec aidé reste un échec) — propriété vérifiée exhaustivement.
 
 Données manipulées : booléens et horodatages seulement (aucune donnée personnelle).
 """
@@ -72,11 +74,16 @@ def _jour(t: Tentative) -> _dt.date:
 
 def _brut(h: List[Tentative]) -> Tuple[Niveau, Tuple[str, ...]]:
     recentes = h[-FENETRE:]
-    autonomes = [t for t in h if not t.avec_aide][-4:]
+    # R8 (session 5) : fenêtre de PREUVE autonome = tout sauf les réussites aidées. Un échec
+    # aidé reste un échec (auparavant exclu : déclarer l'aide pouvait faire MONTER le niveau).
+    preuves = [t for t in h if not (t.avec_aide and _reussie(t))]
+    autonomes = preuves[-4:]
     reussites = [t for t in recentes if _reussie(t)]
     auto_ok = [t for t in autonomes if _reussie(t)]
-    if len(autonomes) >= 3 and len(auto_ok) >= 3 and _reussie(autonomes[-1]) \
-            and len({_jour(t) for t in auto_ok}) >= 2:
+    # Espacement mesuré sur toutes les réussites autonomes de l'historique borné (auparavant
+    # sur la seule fenêtre de 4 : 1 réussite J0 + 4 réussites J1 ne donnaient pas MAITRISEE).
+    jours_ok = {_jour(t) for t in preuves if _reussie(t)}
+    if len(auto_ok) >= 3 and _reussie(autonomes[-1]) and len(jours_ok) >= 2:
         return Niveau.MAITRISEE, ("R4_reussites_autonomes_espacees",)
     if not reussites:
         return Niveau.NON_ACQUISE, ("R5_aucune_reussite_recente",)
@@ -87,7 +94,7 @@ def _brut(h: List[Tentative]) -> Tuple[Niveau, Tuple[str, ...]]:
     raisons = ["progression_en_cours"]
     if any(t.avec_aide and _reussie(t) for t in recentes):
         raisons.append("R2_reussites_aidees_non_comptees_comme_autonomes")
-    if len({_jour(t) for t in auto_ok}) < 2 and len(auto_ok) >= 3:
+    if len(jours_ok) < 2 and len(auto_ok) >= 3:
         raisons.append("R4_retest_espace_requis")
     return Niveau.EN_COURS, tuple(raisons)
 
