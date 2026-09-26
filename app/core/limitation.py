@@ -164,7 +164,14 @@ INVITATION_ACCEPTATION_COMPTE = Limiteur("invitation_acceptation_compte", max_ec
 INVITATION_ACCEPTATION_IP = Limiteur("invitation_acceptation_ip", max_echecs=20, fenetre_s=900,
                                      backoff_base_s=60, backoff_max_s=3600)
 
-TOUS = (CONNEXION_IP_EMAIL, CONNEXION_IP, CONNEXION_EMAIL, JETON_COMPTE, JETON_IP, JETON_INVALIDE_IP,
+# Session 4 : vérification d'adresse et actions sensibles du compte.
+VERIF_DEMANDE_COMPTE = Limiteur("verif_email_demande", max_echecs=5, fenetre_s=3600, backoff_base_s=60,
+                                backoff_max_s=3600)
+VERIF_CONFIRMATION_IP = Limiteur("verif_email_confirmation_ip", max_echecs=20, fenetre_s=900, backoff_base_s=60,
+                                 backoff_max_s=3600)
+MDP_COMPTE = Limiteur("mot_de_passe_compte", max_echecs=5, fenetre_s=900, backoff_base_s=60, backoff_max_s=3600)
+
+TOUS = (VERIF_DEMANDE_COMPTE, VERIF_CONFIRMATION_IP, MDP_COMPTE, CONNEXION_IP_EMAIL, CONNEXION_IP, CONNEXION_EMAIL, JETON_COMPTE, JETON_IP, JETON_INVALIDE_IP,
         INSCRIPTION_IP, INVITATION_EMISSION, INVITATION_ACCEPTATION_COMPTE, INVITATION_ACCEPTATION_IP)
 
 

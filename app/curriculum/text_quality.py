@@ -62,6 +62,50 @@ _OPERATEURS_FIN = ("+", "-", "×", "*", "/", "=", "÷", "^", "<", ">", "≤", "�
 # Caractères de police symbole non convertis (zone d'usage privé) / remplacement.
 _CAR_CORROMPUS = re.compile("[�-]")
 
+# --- Session 4 : détecteurs complémentaires (heuristiques : ils ne font que BLOQUER) ---- #
+# Fraction verticale aplatie par l'extraction : « 1\n10 », ou « 3 4 » près d'un mot de fraction.
+_FRACTION_VERTICALE = re.compile(r"\d[ \t]*\n[ \t]*\d")
+_FRACTION_EN_LIGNE = re.compile(r"(fraction|quotient|dixi[èe]mes?|centi[èe]mes?)\b[^.]{0,20}\b\d{1,3} \d{1,3}\b", re.I)
+# OCR : chiffre coincé ENTRE des minuscules d'un même mot (« prob1ème », « l0gique ») ; les
+# formules chimiques (« Na2SO4 », « H2O », « CO2 ») ne sont pas concernées (majuscules).
+_OCR = re.compile(r"\b[a-zàâçéèêëîïôûùüÿœ]+[0-9]+[a-zàâçéèêëîïôûùüÿœ]{2,}\b")
+_MAJ = re.compile(r"^[A-ZÀÂÇÉÈÊËÎÏÔÛÙÜŸŒ'’\-]{2,}[,:]?$")
+
+
+def _titre_absorbe(t: str) -> bool:
+    """Titre de section EN CAPITALES absorbé en tête du texte (« NOMBRES ET CALCULS Comparer… ») :
+    une suite d'au moins 2 mots en capitales totalisant ≥ 10 lettres, suivie de texte ordinaire.
+    Les sigles courts (« PGCD PPCM ») ne déclenchent pas."""
+    mots = t.split()
+    n = 0
+    while n < len(mots) and _MAJ.fullmatch(mots[n]):
+        n += 1
+    lettres = sum(len(re.sub(r"[^A-ZÀ-Ÿ]", "", m)) for m in mots[:n])
+    return n >= 2 and lettres >= 10 and n < len(mots) and bool(re.search(r"[a-zà-ÿ]", mots[n]))
+# Cellules de tableau fusionnées : séparateurs de colonnes conservés.
+_CELLULES = re.compile(r"[|\t]|\u2502")
+# Ligne ne contenant qu'un numéro de page (« 12 », « - 12 - », « — 12 — »).
+_NUMERO_PAGE = re.compile(r"^\s*[-–—]?\s*\d{1,4}\s*[-–—]?\s*$", re.M)
+# Unicode anormal : contrôles, marques bidirectionnelles, lettres non latines dans un mot latin.
+_CONTROLES = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f\u202a-\u202e\u2066-\u2069]")
+_LATIN = re.compile(r"[a-zàâçéèêëîïôûùüÿœ]", re.I)
+_NON_LATIN_LETTRE = re.compile(r"[\u0370-\u03ff\u0400-\u04ff]")  # grec / cyrillique (homoglyphes)
+
+
+def _unicode_anormal(t: str) -> bool:
+    if _CONTROLES.search(t):
+        return True
+    for mot in t.split():
+        if _LATIN.search(mot) and _NON_LATIN_LETTRE.search(mot):
+            return True  # « ехercice » : e/х cyrilliques mêlés à du latin
+    return False
+
+
+def _phrase_dupliquee(t: str) -> bool:
+    phrases = [p.strip().casefold() for p in re.split(r"(?<=[.!?;])\s+", t) if len(p.strip()) >= 20]
+    return len(phrases) != len(set(phrases))
+
+
 MIN_CARACTERES = 4
 MIN_MOTS = 1
 
@@ -119,6 +163,16 @@ def analyser_texte(texte: str, *, extrait_source: Optional[str] = None) -> Rappo
             anomalies.append("colonnes_melangees_espacement")
             break
 
+    if _FRACTION_VERTICALE.search(brut) or _FRACTION_EN_LIGNE.search(brut):
+        anomalies.append("fraction_aplatie")
+    lignes_brutes = [x for x in brut.splitlines() if x.strip()]
+    if len(lignes_brutes) > 1 and _NUMERO_PAGE.search(brut):
+        anomalies.append("numero_de_page_parasite")
+    if _CELLULES.search(brut):
+        anomalies.append("cellules_tableau_fusionnees")
+    if _unicode_anormal(brut):
+        anomalies.append("unicode_anormal")
+
     t = reparer_sans_perte(brut)
     repare = t != " ".join(unicodedata.normalize("NFC", brut).split())
     bas = t.casefold()
@@ -157,6 +211,12 @@ def analyser_texte(texte: str, *, extrait_source: Optional[str] = None) -> Rappo
         anomalies.append("ponctuation_anormale")
     if _repetition(mots):
         anomalies.append("repetition")
+    if _phrase_dupliquee(t):
+        anomalies.append("phrase_dupliquee")
+    if _titre_absorbe(t):
+        anomalies.append("titre_absorbe")
+    if _OCR.search(t):
+        anomalies.append("ocr_incoherent")
 
     if extrait_source is not None:
         if reparer_sans_perte(extrait_source).casefold().find(bas) < 0:
@@ -168,10 +228,11 @@ def analyser_texte(texte: str, *, extrait_source: Optional[str] = None) -> Rappo
 
 def _statut(anomalies: List[str], repare: bool) -> StatutTexte:
     a = set(anomalies)
-    if a & {"caractere_corrompu", "parentheses_desequilibrees", "operateur_orphelin"}:
+    if a & {"caractere_corrompu", "parentheses_desequilibrees", "operateur_orphelin", "fraction_aplatie",
+            "unicode_anormal", "ocr_incoherent"}:
         return StatutTexte.FORMULA_CORRUPTED
-    if a & {"colonnes_melangees_espacement", "entete_colonne_dans_texte",
-            "entete_pied_de_page_parasite", "concatenation_suspecte"}:
+    if a & {"colonnes_melangees_espacement", "entete_colonne_dans_texte", "entete_pied_de_page_parasite",
+            "concatenation_suspecte", "titre_absorbe", "cellules_tableau_fusionnees", "numero_de_page_parasite"}:
         return StatutTexte.COLUMN_CONTAMINATION
     if "absent_de_la_source" in a:
         return StatutTexte.SOURCE_NOT_EVIDENCED
@@ -179,6 +240,6 @@ def _statut(anomalies: List[str], repare: bool) -> StatutTexte:
         return StatutTexte.TEXT_TRUNCATED
     if a & {"debut_fragment", "texte_trop_court"}:
         return StatutTexte.TEXT_FRAGMENTED
-    if a & {"ponctuation_anormale", "repetition"}:
+    if a & {"ponctuation_anormale", "repetition", "phrase_dupliquee"}:
         return StatutTexte.AMBIGUOUS
     return StatutTexte.TEXT_RECOVERED if repare else StatutTexte.TEXT_EXACT

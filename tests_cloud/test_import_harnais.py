@@ -76,6 +76,8 @@ ATTENDU = {
     "provenance_falsifiee": ("REJECTED", "provenance", "HASH_EXTRAIT_INCOHERENT"),
     "mapping_contradictoire": ("REJECTED", "mapping", "MAPPING_CONTRADICTOIRE"),
     "mapping_notion_inconnue": ("REJECTED", "mapping", "MAPPING_NOTION_INCONNUE"),
+    "chapitrage_lexical": ("REJECTED", "mapping", "RATTACHEMENT_NON_PROUVE"),
+    "chapitrage_contradictoire": ("REJECTED", "mapping", "RATTACHEMENT_CONTRADICTOIRE"),
 }
 
 
@@ -241,3 +243,13 @@ def test_rollback_vers_lot_altere_refuse(tmp_path):
     with pytest.raises(DepotInvalide, match="lot_precedent_invalide"):
         depot.rollback()
     assert depot.actif()["lot"].startswith("lot-synthetique-b")  # rien n'a bougé
+
+
+@pytest.mark.parametrize("defaut", ["mapping_contradictoire", "mapping_notion_inconnue", "chapitrage_contradictoire"])
+def test_s4_01_notion_touchee_par_anomalie_d_import_non_generable(tmp_path, defaut):
+    """S4-01 : une anomalie relevée par l'IMPORTEUR (mapping, chapitrage) doit retirer sa notion
+    des générables (avant : seules les anomalies de verifier_integrite étaient déduites)."""
+    lot = generer_lot(tmp_path / defaut, defauts=[defaut])
+    res = importers.importer(lot.dossier, sha256_manifest=lot.sha_manifest, autoriser_fictif=True)
+    touchees = {a.objet_id for a in res.anomalies}
+    assert touchees and not (touchees & res.integrite.generables)

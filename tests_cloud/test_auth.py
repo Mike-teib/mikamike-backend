@@ -77,7 +77,7 @@ def _cle_eleve():
 
 def _eleve_claims(**kw):
     c = {"iss": auth.ISSUER, "aud": auth.AUDIENCE, "typ": auth.TYP_ELEVE, "role": "eleve",
-         "sub": A, "cid": 1, "iat": _now(), "exp": _now() + 600}
+         "sub": A, "cid": 1, "cv": 0, "iat": _now(), "exp": _now() + 600}
     c.update(kw)
     return c
 
@@ -282,8 +282,8 @@ def test_emission_meme_en_mode_off(client, monkeypatch):
 def test_jeton_emis_ne_contient_aucune_pii(monde):
     _, j = monde
     claims = jwt.decode(j["A"], options={"verify_signature": False})
-    # Session 3 (S3-01) : + `cid` (id numérique interne du compte émetteur, pas une PII).
-    assert set(claims) == {"iss", "aud", "typ", "role", "sub", "cid", "iat", "exp", "jti"}
+    # Session 3 (S3-01) : + `cid` ; session 4 : + `cv` (version de révocation). Aucune PII.
+    assert set(claims) == {"iss", "aud", "typ", "role", "sub", "cid", "cv", "iat", "exp", "jti"}
     assert isinstance(claims["cid"], int)
     assert "@" not in str(claims)
 

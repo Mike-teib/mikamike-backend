@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Dict, Any, Optional
 from fastapi import APIRouter, Depends
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.escalier.orchestrator import OrchestrateurEscalier
@@ -19,6 +19,7 @@ from app.core.validation import Identifiant, Identifiant64, ReponseEleve
 
 class EscalierEtapeIn(BaseModel):
     """Payload d'entrée pour l'exécution d'une étape d'escalier."""
+    model_config = ConfigDict(extra="forbid")  # lot 21 : pas d'affectation de masse
     student_pseudo_id: Identifiant = Field(description="Identifiant élève pseudonymisé (RGPD)")
     competence_objectif: Identifiant64 = Field(description="Compétence visée (ex: equations_1er_degre)")
     exercice_id: Identifiant64 = Field(description="Identifiant de l'exercice soumis")

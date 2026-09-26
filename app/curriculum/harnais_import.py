@@ -46,11 +46,12 @@ PROG_ID = "prog:synthetique:mathematiques:cycle3:2025"
 DEFAUTS = frozenset({
     "sha_incorrect", "fichier_manquant", "fichier_non_liste", "doublon_notion", "doublon_manifest",
     "doublon_contenu", "mauvais_role", "document_altere", "provenance_falsifiee", "mapping_contradictoire",
-    "mapping_notion_inconnue", "json_invalide",
+    "mapping_notion_inconnue", "json_invalide", "chapitrage_lexical", "chapitrage_contradictoire",
 })
 # Ordre du pipeline (= ordre des entrées du manifest).
-ETAPES = ("c02", "c02_6", "c02_6_1", "m01_maths_cycle3", "extraction_v3", "source_pdf", "referentiel",
-          "mapping_chapitre_notion", "manifest_sha256")
+ETAPES = ("c02", "c02_6", "c02_6_1", "m01_maths_cycle3", "extraction_v3", "source_pdf", "structure_pdf",
+          "referentiel", "mapping_chapitre_notion", "manifest_sha256")
+PAGES_PAR_CHAPITRE = 3
 
 _VERBES = ("Comparer", "Ranger", "Encadrer", "Additionner", "Soustraire", "Multiplier", "Diviser", "Estimer",
            "Représenter", "Décomposer")
@@ -155,9 +156,26 @@ def generer_lot(dossier: Path, *, n_notions: int = 12, n_chapitres: int = 3, def
             yield notion_synthetique(0).model_dump_json()
     _ecrire_jsonl(dossier / "M01_notions.jsonl", notions())
 
+    # Structure du document : le chapitre k occupe les pages 2 + 3k … 4 + 3k (page 1 = sommaire).
+    sha_pdf = sha256_octets(pdf)
+    (dossier / "structure.json").write_text(json.dumps({
+        "sha256_document": sha_pdf, "sommaire_pages": [1],
+        "chapitres": [{"chapitre_id": f"chap:synthetique:c{k}", "page_debut": 2 + PAGES_PAR_CHAPITRE * k,
+                       "page_fin": 1 + PAGES_PAR_CHAPITRE * (k + 1)} for k in range(n_chapitres)]}), "utf-8")
+
+    def preuve(i):
+        k = i % n_chapitres
+        if "chapitrage_lexical" in defauts and i == 0:
+            return [{"type": "proximite_lexicale", "sha256_document": sha_pdf, "page": 2}]
+        if "chapitrage_contradictoire" in defauts and i == 0 and n_chapitres > 1:
+            k = 1  # la preuve est dans la zone d'un AUTRE chapitre que celui déclaré
+        return [{"type": "section_pdf", "sha256_document": sha_pdf, "page": 2 + PAGES_PAR_CHAPITRE * k,
+                 "bbox": [50, 100 + i % 20, 500, 120 + i % 20]}]
+
     def mappings():
         for i in range(n_notions):
-            yield json.dumps({"notion_id": f"notion:synthetique:n{i}", "chapitre_id": f"chap:synthetique:c{i % n_chapitres}"})
+            yield json.dumps({"notion_id": f"notion:synthetique:n{i}", "chapitre_id": f"chap:synthetique:c{i % n_chapitres}",
+                              "preuves": preuve(i)})
         if "mapping_contradictoire" in defauts:
             yield json.dumps({"notion_id": "notion:synthetique:n0", "chapitre_id": f"chap:synthetique:c{1 % n_chapitres}"
                               if n_chapitres > 1 else "chap:synthetique:autre"})
@@ -174,6 +192,7 @@ def generer_lot(dossier: Path, *, n_notions: int = 12, n_chapitres: int = 3, def
         "M01_notions.jsonl": ("registre_notions", "m01_maths_cycle3"),
         "ExtractionV3/rapport.json": ("referentiel" if "json_invalide" in defauts else "opaque", "extraction_v3"),
         "sources/bo_synthetique.pdf": ("source_document", "source_pdf"),
+        "structure.json": ("structure_document", "structure_pdf"),
         "referentiel.json": ("referentiel", "referentiel"),
         "mapping.jsonl": ("mapping_notion_chapitre", "mapping_chapitre_notion"),
         "SHA256_SOURCE.txt": ("manifest_sha256", "manifest_sha256"),
@@ -218,7 +237,7 @@ class RapportPipeline:
 
 _CODES_PROVENANCE = ("HASH_EXTRAIT_INCOHERENT", "PREUVE_SOURCE_AUTRE_PROGRAMME", "SOURCE_DOCUMENT_ABSENT",
                      "TEXTE_DECLARE_INCOHERENT", "PREUVE")
-_CODES_MAPPING = ("MAPPING_", "IMPORT_NOTION_EN_CONFLIT", "NOTION_SANS_CHAPITRE")
+_CODES_MAPPING = ("MAPPING_", "IMPORT_NOTION_EN_CONFLIT", "NOTION_SANS_CHAPITRE", "RATTACHEMENT_", "STRUCTURE_")
 
 
 def executer_pipeline(dossier: Path, sha_manifest: str, *, checkpoint: Optional[Path] = None,

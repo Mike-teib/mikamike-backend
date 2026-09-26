@@ -104,6 +104,8 @@ def accepter_invitation(data: AcceptationIn, request: Request,
         raise auth._refus("compte_inconnu")
     try:
         pseudo, rel = liens.accepter_invitation(db, data.code, compte)
+    except PermissionError:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="email_non_verifie")
     except liens.InvitationInvalide:
         limitation.enregistrer(paires, reussi=False)
         # Même réponse pour inconnu, utilisé, expiré, rôle incompatible (pas d'oracle).

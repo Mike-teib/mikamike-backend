@@ -45,12 +45,17 @@ from app.db.registre import engines
 def tables(c):
     return sorted(t for t in inspect(engines()[c]).get_table_names() if t != "alembic_version")
 
+# Colonnes du schéma HISTORIQUE (b0001) : une colonne ajoutée plus tard (ex. comptes.jeton_version,
+# b0004) ne doit pas fausser la comparaison avant/après un downgrade.
+COLONNES = {"comptes": "id, email, mot_de_passe_hash, prenom, role, actif, email_verifie, cree_le, derniere_connexion"}
+
+
 def empreinte(c, noms):
-    # Empreinte du CONTENU (toutes colonnes, ordre stable) : prouve la préservation des données.
+    # Empreinte du CONTENU (colonnes historiques, ordre stable) : prouve la préservation des données.
     h = hashlib.sha256()
     with engines()[c].connect() as conn:
         for t in noms:
-            for row in conn.execute(text(f"SELECT * FROM {t} ORDER BY 1, 2")).fetchall():
+            for row in conn.execute(text(f"SELECT {COLONNES.get(t, '*')} FROM {t} ORDER BY 1, 2")).fetchall():
                 h.update(repr(tuple(row)).encode())
     return h.hexdigest()
 
@@ -83,7 +88,7 @@ HIST_MIKA = ["mika_etats", "mika_memory_schedules", "mika_session_states", "mika
 def test_base_neuve_cli_upgrade_status(tmp_path):
     assert _cli(tmp_path, "status")[0] == 1  # aucune révision : en retard
     code, out, _ = _cli(tmp_path, "upgrade")
-    assert code == 0 and "mika: m0003_tutorat" in out and "billing: b0003_invitations_lien" in out
+    assert code == 0 and "mika: m0003_tutorat" in out and "billing: b0004_verif_email_revocation" in out
     code, out, _ = _cli(tmp_path, "status")
     assert code == 0 and out.count(" OK") == 2
     assert _cli(tmp_path, "upgrade")[0] == 0  # idempotent : relancer ne change rien
@@ -109,12 +114,13 @@ def test_base_historique_adoptee_donnees_preservees(tmp_path):
         from app.api.v1.mikamike.store import MikaBase
         from app.api.v1.memory.spaced_repetition import MemoryBase
         from app.api.v1.session.session_manager import SessionBase
-        import paiement_comptes.models_billing
-        from paiement_comptes.database import Base
         for md in (MikaBase.metadata, MemoryBase.metadata, SessionBase.metadata):
             md.create_all(bind=engines()["mika"])
-        Base.metadata.tables["comptes"].create(bind=engines()["billing"])
-        Base.metadata.tables["abonnements"].create(bind=engines()["billing"])
+        # Schéma billing HISTORIQUE exact (b0001), puis « oubli » de la version : base créée
+        # par l'ancien code (le modèle courant a des colonnes plus récentes, ex. jeton_version).
+        m.upgrade("billing", "b0001_baseline")
+        with engines()["billing"].begin() as conn:
+            conn.execute(text("DROP TABLE alembic_version"))
         remplir_mika(); remplir_billing()
         avant = (empreinte("mika", HIST_MIKA), empreinte("billing", ["comptes", "abonnements"]))
         print(json.dumps({"avant": avant}))

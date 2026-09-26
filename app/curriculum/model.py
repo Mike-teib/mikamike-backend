@@ -198,6 +198,9 @@ class Preuve(_Canon):
     sha256_extrait: str = Field(pattern=r"^[0-9a-f]{64}$")
     statut: StatutPreuve = StatutPreuve.NOT_EVIDENCED
     date_verification: str = Field(default="", max_length=10)
+    # Lot 17 (S4) : disciplines que la SOURCE indique explicitement pour cet extrait
+    # (Enseignement scientifique). None = non relevé ⇒ une notion d'ES n'est pas générable.
+    disciplines_indiquees: Optional[Tuple[Matiere, ...]] = None
 
     def empreinte_coherente(self) -> bool:
         return sha256_texte(self.extrait) == self.sha256_extrait

@@ -24,6 +24,8 @@ CHAINE_ENERGIE_DEFAUT: Tuple[str, ...] = ("alimenter", "distribuer", "convertir"
 CYCLE_DE_VIE_DEFAUT: Tuple[str, ...] = (
     "extraction", "fabrication", "distribution", "utilisation", "fin de vie",
 )
+DIM_ENERGIE = (2, 1, -2, 0, 0, 0, 0)
+DIM_PUISSANCE = (2, 1, -3, 0, 0, 0, 0)
 VUES_NORMALISEES = frozenset({"face", "dessus", "gauche", "droite", "dessous", "arriere", "perspective"})
 
 
@@ -83,6 +85,9 @@ def verifier_bilan_energetique(
         return invalide("unite_manquante")
     if ga.unite.dim != gu.unite.dim:
         return invalide("dimension_incorrecte")
+    # S4-02 : deux longueurs (« 100 m », « 80 m ») passaient le bilan. Énergie ou puissance seulement.
+    if ga.unite.dim not in (DIM_ENERGIE, DIM_PUISSANCE):
+        return invalide("grandeur_non_energetique")
     ea, eu = ga.valeur * ga.unite.facteur, gu.valeur * gu.unite.facteur
     if ea <= 0 or eu < 0:
         return invalide("energie_non_positive")

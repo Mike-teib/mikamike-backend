@@ -76,7 +76,10 @@ def test_checkpoint_ecrit_une_fois_par_fichier(corpus, tmp_path, monkeypatch):
     lot = corpus[GRAND]
     importers.importer(lot.dossier, sha256_manifest=lot.sha_manifest, autoriser_fictif=True,
                        checkpoint=tmp_path / "ck.json")
-    assert len(appels) == 9  # 9 fichiers dans le lot
+    import json
+
+    n_fichiers = len(json.loads((lot.dossier / "IMPORT_MANIFEST.json").read_text("utf-8"))["fichiers"])
+    assert len(appels) == n_fichiers  # une écriture par fichier du lot, pas par ligne
 
 
 def test_reprise_sur_gros_corpus(corpus, tmp_path, monkeypatch):

@@ -56,6 +56,9 @@ class Compte(Base):
     role = Column(String(20), nullable=False, default="parent")  # parent | eleve | admin
     actif = Column(Boolean, nullable=False, default=True)
     email_verifie = Column(Boolean, nullable=False, default=False)
+    # Révocation (session 4) : incrémentée à la déconnexion, au changement de mot de passe ou
+    # d'adresse ; tout jeton (compte ou élève émis par ce compte) d'une version antérieure est refusé.
+    jeton_version = Column(Integer, nullable=False, default=0, server_default="0")
 
     cree_le = Column(DateTime(timezone=True), nullable=False, default=_utcnow)
     derniere_connexion = Column(DateTime(timezone=True), nullable=True)

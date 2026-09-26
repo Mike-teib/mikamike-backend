@@ -56,7 +56,8 @@ def _est_numerique(t: str) -> bool:
     return bool(_NUMERIQUE.match(t.strip()))
 
 
-def valider_question(q: QuestionQuiz, idx: IndexReferentiel, *, autoriser_fictif: bool = False) -> List[str]:
+def verrous_notion(q, idx: IndexReferentiel, *, autoriser_fictif: bool = False) -> List[str]:
+    """Verrous communs à tous les types de question (notion prouvée, niveau, matière)."""
     raisons: List[str] = []
     notion = idx.notions.get(q.notion_id)
     if notion is None:
@@ -68,6 +69,13 @@ def valider_question(q: QuestionQuiz, idx: IndexReferentiel, *, autoriser_fictif
         raisons.append("NIVEAU_INCOHERENT")
     if q.matiere != notion.matiere:
         raisons.append("MATIERE_INCOHERENTE")
+    return raisons
+
+
+def valider_question(q: QuestionQuiz, idx: IndexReferentiel, *, autoriser_fictif: bool = False) -> List[str]:
+    raisons = verrous_notion(q, idx, autoriser_fictif=autoriser_fictif)
+    if raisons == ["NOTION_INCONNUE"]:
+        return raisons
 
     if not 0 <= q.index_correct < len(q.choix):
         return raisons + ["INDEX_CORRECT_HORS_BORNES"]

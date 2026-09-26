@@ -37,6 +37,11 @@ jobs:
         run: python -m pytest -q
       - name: Migrations — tests de validation (neuve, historique, stamp, downgrade, version incorrecte, interruption)
         run: python -m pytest -q tests_cloud/test_migrations.py tests_cloud/test_migrations_validation.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Contrat front (dérive de l'API + vérificateur Node contre un serveur réel)
+        run: python -m pytest -q tests_cloud/test_contrat_front.py
       - name: Import — harnais synthétique et performance (aucun artefact réel)
         run: python -m pytest -q tests_cloud/test_import_harnais.py tests_cloud/test_import_perf.py
       - name: Garde-fou contenu (fixtures, existant, catalogue)

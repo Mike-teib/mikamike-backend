@@ -174,3 +174,25 @@ Préparations de tests adaptées (assertions de comportement inchangées) : `tes
 (séance créée par `POST /session/nouvelle`), nombre de tables billing (3 → 4, b0003) et nom de
 la révision head billing dans les tests de migration.
 Mutants des décisions : 9/9 tués (`d8_*` ×6, `d5_ambigu_accepte`, `d15_*` ×2).
+
+# Session cloud 4 (2026-09-26)
+
+Début de session : 4065 tests. **Fin de session : 4531 passed, 0 fail, 0 error.** Fichiers ajoutés (sélection) :
+
+| Fichier | Objet |
+|---|---|
+| test_verification_email.py | R19, révocation, cycle de vie du compte |
+| test_contrat_front.py | contrat exécutable (Python + Node) sans dérive |
+| test_observabilite.py, test_publication.py, test_rapport_import.py, test_chapitrage.py | lots 4–8, 30 |
+| test_text_quality_s4.py, test_recurrence_s4.py, test_maths_etendu.py | qualité texte, récurrence, math guard |
+| test_physique_etendu.py | incertitudes, ordre de grandeur, conversions, constantes, unité imposée, CS ambigus |
+| test_svt_raisonnement.py | graphiques, protocole, conclusion, corrélation/causalité, documents, définitions, négation |
+| test_technologie_s4.py, test_es_provenance.py | S4-02, provenance des disciplines |
+| test_quiz_types.py | vrai/faux, réponse courte, classement, association |
+| test_progression.py | niveau sur historique (propriété : ≤ 1 cran par réponse) |
+| test_parent_minimisation.py, test_retention.py, test_securite_s4.py | lots 19–21 |
+| test_migrations_double.py, test_perf_multi_eleves.py | lots 26 et 22 |
+
+Mutation : 37 mutants ajoutés pour les lots 10, 14–21 (+ 1 existant réécrit), rejoués avec 3 mutants
+voisins existants : **40/40 tués** après ajout d'un cas de test (« 20 km/s » pour 20 m/s) ; les mutants précédents de la session étaient déjà tués.
+Contrat front régénéré (422 sans `input`) — évolution documentée dans RELEASE_CANDIDATE.md §10.

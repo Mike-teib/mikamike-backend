@@ -196,3 +196,31 @@ séance sans prise de contrôle. Plus `test_review_session2.py`, `test_mika_api_
 | D12 enforce seulement si front + flux + E2E verts | règle documentée (FRONT_AUTH_INTEGRATION.md §7) ; E2E backend `test_e2e_parent_enfant.py` ; config production vérifiée | 2 tests |
 | D14 compréhension ratée ⇒ non réussi | déjà appliqué (S3-06), confirmé | test_review_session2.py |
 | D15 session_id cryptographiquement aléatoire | `POST /session/nouvelle` (192 bits) ; plus de création implicite en enforce | test_securite_s3.py, 2 mutants |
+
+# Session cloud 4 (2026-09-26) — mise à jour
+
+## Failles traitées
+| ID | Gravité | Constat | Correction |
+|---|---|---|---|
+| S4-01 | P1 | Notion touchée par une anomalie d'import restant « générable » | retirée des générables (import) |
+| S4-02 | P2 | Bilan énergétique validé pour deux grandeurs quelconques de même dimension (« 100 m » / « 80 m ») | énergie ou puissance exigées |
+| S4-03 | P2 | Réponses 422 renvoyant la valeur saisie (`input`), mot de passe compris | gestionnaire 422 : `type`, `loc`, `msg` seulement |
+| S4-04 | P2 | 11 schémas d'entrée ignorant les champs inconnus (affectation de masse latente) | `extra="forbid"` partout ; test OpenAPI : tout corps refuse les champs inconnus |
+| S4-05 | P2 | Aucun en-tête HTTP de sécurité | nosniff, X-Frame-Options DENY, Referrer-Policy ; CSP + no-store sur JSON |
+| S4-06 | P2 | Dashboard parent `Dict[str, Any]` : tout champ ajouté serait transmis | schéma fermé (fail-closed) |
+
+Auparavant en session 4 : R19 (vérification d'adresse, transport factice), révocation des jetons par
+version (déconnexion, changement de mot de passe/adresse, suppression), observabilité sans données
+sensibles, garde de publication.
+
+## RGPD mineurs
+- Minimisation parent : agrégats par compétence uniquement (aucune réponse, horodatage, échange tuteur).
+- Rétention : `app/core/retention.py` + `tools/purge_retention.py` (simulation par défaut) ; durées
+  proposées (sessions 30 j, requêtes tuteur 30 j, tutorats 180 j, jetons de vérification 7 j) —
+  DECISION_REQUIRED (DPO). Historique pédagogique : droit à l'oubli, pas de purge automatique.
+- Jetons : vérification d'adresse stockée hachée, usage unique ; invitations : code HMAC, pseudo-id
+  effacé à l'acceptation ; journaux : allowlist de champs, aucun e-mail/jeton/réponse.
+
+## Bilan
+P0 ouverts : 0 · P1 ouverts : 0 · P2 ouverts : R17 (limitation multi-instances), R18 (verrou migrations
+multi-réplicas) — infrastructure.

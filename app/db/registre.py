@@ -31,6 +31,7 @@ def metadatas(cible: str) -> List[MetaData]:
         return [MikaBase.metadata, MemoryBase.metadata, SessionBase.metadata, TutoratBase.metadata]
     if cible == "billing":
         import paiement_comptes.liens  # noqa: F401  (enregistre la table des liens)
+        import paiement_comptes.verification_email  # noqa: F401  (vérification d'adresse, R19)
         import paiement_comptes.models_billing  # noqa: F401
         from paiement_comptes.database import Base
 

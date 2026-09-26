@@ -69,6 +69,15 @@ def verifier_vocabulaire(
         return invalide(*(f"terme_errone:{x}" for x in errones))
     if manquants:
         return invalide(*(f"terme_manquant:{x}" for x in manquants))
+    # Lot 15 (S4) : un terme requis présent UNIQUEMENT dans des propositions négatives
+    # (« ce n'est pas la mitose ») n'est pas une preuve de maîtrise ⇒ revue, jamais VALID.
+    from app.curriculum.verifiers.svt_raisonnement import _NEGATIONS, propositions
+
+    props = [" ".join(p) for p in propositions(reponse)]
+    nies = [x for x in termes_requis
+            if not any(_contient(p, x) and not (_NEGATIONS & set(p.split())) for p in props)]
+    if nies:
+        return revue(*(f"terme_en_contexte_negatif:{x}" for x in nies))
     hors = [x for x in termes_hors_niveau if _contient(t, x)]
     if hors:
         return ambigu(*(f"terme_hors_niveau:{x}" for x in hors))

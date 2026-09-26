@@ -111,3 +111,58 @@ elles, ni leur chapitre, ni leur programme, ni leurs contenus). Anomalie globale
    anomalies, corriger à la source, recommencer jusqu'à `VALIDATED`.
 5. `DepotContenu(<racine>).publier(<dossier>, <sha>)` ⇒ `python -m tools.rapports --depot <racine>`.
 6. Écrire les adaptateurs typés C02 / Extraction V3 **à partir d'échantillons réels** (R2).
+
+## 8. Import en deux temps (session 4) — prêt pour les artefacts réels
+```
+python -m tools.import_lot simuler --dossier <lot> --sha <sha-épinglé> --depot <racine> --rentree 2026 --sortie <dir>
+   → rapport_import.json / .md : statut, fichiers, métriques (notions par statut de preuve, par
+     matière/niveau, contenus, opaques par rôle, anomalies par code, générables), QUARANTAINE
+     (toute notion non PROVEN ou touchée par une anomalie, avec raisons), COMPARAISON avec le lot
+     actif (notions/contenus ajoutés, retirés, modifiés par empreinte ; changements de preuve),
+     avertissement LOT_IDENTIQUE_AU_LOT_ACTIF (import répété). N'écrit RIEN d'autre.
+python -m tools.import_lot publier ... --confirmer      → n'active que si VALIDATED
+python -m tools.publication etat|publier|retirer ...    → garde READY_FOR_PUBLICATION / PUBLISHED
+```
+État des artefacts réels : **WAITING_FOR_ARTIFACT** (C02, C02-6, C02-6.1, M01, Extraction V3, PDF
+officiels, index, manifests). Tests : `tests_cloud/test_rapport_import.py`, `test_publication.py`,
+`test_import_harnais.py`.
+
+## 9. Chapitrage prouvé (session 4, lot 8)
+Nouveau type `structure_document` (rôle `structure_pdf`) : pour UN document source (empreinte),
+pages du sommaire, annexes, zones de prérequis, chapitres (plage de pages, colonnes par page) :
+```json
+{"sha256_document": "<sha du PDF du lot>", "sommaire_pages": [2],
+ "annexes": [{"page_debut": 40, "page_fin": 45}], "zones_prerequis": [{"page": 4, "y0": 50, "y1": 150}],
+ "chapitres": [{"chapitre_id": "chap:…", "page_debut": 3, "page_fin": 5,
+                "colonnes": [{"page": 5, "x0": 0, "x1": 300}]}]}
+```
+Les lignes de `mapping_notion_chapitre` acceptent `preuves` (1–20) :
+`{"type": "section_pdf"|"tableau_officiel"|"sommaire"|"proximite_lexicale", "sha256_document", "page",
+"bbox": [x0, y0, x1, y1], "cellule": {"ligne", "colonne"}}`.
+Verdicts (`ResultatImport.rattachements`) : **PROUVE** (toutes les preuves retenues désignent le
+chapitre déclaré), CONTRADICTOIRE, AMBIGU, NON_PROUVE (⇒ anomalies `RATTACHEMENT_*`, lot REJECTED),
+DECLARE (aucune preuve fournie : accepté à l'import mais **jamais publiable**).
+Écartées : proximité lexicale (jamais une preuve), sommaire seul, page du sommaire, annexe, zone de
+prérequis, titre de colonne (ligne 0), autre document, hors zone ou à cheval sur deux colonnes.
+Une structure dont le document n'est pas dans le lot ⇒ `STRUCTURE_SANS_DOCUMENT`.
+Toute anomalie relevée par l'importeur retire sa notion des générables (S4-01).
+
+## 10. Provenance pluridisciplinaire (session 4, lot 17)
+
+Champ OPTIONNEL `preuve.disciplines_indiquees` (liste de matières, ex. `["physique-chimie", "svt"]`) :
+disciplines que la SOURCE indique explicitement pour l'extrait (relevé humain ou extraction V3).
+
+- Notion d'**Enseignement scientifique** : relevé OBLIGATOIRE ; `disciplines_mobilisees` doit être
+  exactement égal aux disciplines indiquées (hors « enseignement-scientifique »). Sinon anomalie
+  `DISCIPLINES_NON_PROUVEES` ⇒ notion non générable, contenus BLOQUÉS à la publication.
+- Notion d'une autre matière : si le relevé est présent et pluridisciplinaire, la notion ne peut
+  pas être forcée dans une matière unique (même anomalie). Relevé absent : comportement inchangé.
+- Aucune discipline n'est déduite automatiquement du texte : WAITING_FOR_ARTIFACT tant que
+  l'extraction V3 ne fournit pas ce champ.
+
+## 11. Types de vérification ajoutés (session 4, lots 14–15)
+
+`physique_incertitude`, `physique_ordre_de_grandeur` (params `valeur`), `svt_definition`
+(params `terme_defini`, `elements_essentiels`, `confusions`), et `unite_imposee` pour
+`physique_grandeur`. La publication exige toujours que la réponse de référence se valide
+elle-même : une convention ambiguë (ordre de grandeur entre √10 et 5) bloque la publication.

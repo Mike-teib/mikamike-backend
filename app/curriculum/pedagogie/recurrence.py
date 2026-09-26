@@ -42,6 +42,25 @@ QUESTIONS_GUIDAGE: Dict[str, str] = {
     "CONCL_ABSENTE": "Qu'as-tu finalement démontré, et pour quels entiers ?",
     "CONCL_P_N_PLUS_1_SEULEMENT": "Ta conclusion porte-t-elle sur un seul rang, ou sur tous les rangs à partir du premier ?",
     "CONCL_SANS_RANG": "À partir de quel rang la propriété est-elle vraie ?",
+    # Session 4 (lot 12)
+    "PROP_NON_DEFINIE": "Quelle est exactement la propriété P(n) que tu veux démontrer ?",
+    "HYP_ABSENTE": "Qu'est-ce que tu supposes vrai avant de démontrer l'hérédité ?",
+    "HYP_SANS_RANG": "Pour quels entiers n ton hypothèse est-elle posée : un entier quelconque, ou à partir d'un certain rang ?",
+    "HER_IMPLICATION_INVERSEE": "Dans l'hérédité, dans quel sens va l'implication : de P(n) vers P(n+1), ou l'inverse ?",
+    "CONCL_QUANTIFICATEUR_EXISTENTIEL": "As-tu montré la propriété pour UN entier, ou pour TOUS les entiers à partir du premier rang ?",
+}
+
+# Étape de la démonstration à laquelle appartient chaque confusion (ordre de la démonstration).
+ETAPES = ("propriete", "initialisation", "hypothese", "heredite", "conclusion")
+ETAPE_DE = {
+    "PROP_NON_DEFINIE": "propriete",
+    "INIT_ABSENTE": "initialisation", "INIT_MAUVAIS_RANG": "initialisation", "INIT_SUPPOSEE": "initialisation",
+    "HYP_ABSENTE": "hypothese", "HYP_POUR_TOUT_N": "hypothese", "HYP_SUR_P_N_PLUS_1": "hypothese",
+    "HYP_SANS_RANG": "hypothese",
+    "HER_OBJECTIF_P_N": "heredite", "HER_UTILISE_P_N_PLUS_1": "heredite", "HER_SANS_HYPOTHESE": "heredite",
+    "HER_IMPLICATION_INVERSEE": "heredite",
+    "CONCL_ABSENTE": "conclusion", "CONCL_P_N_PLUS_1_SEULEMENT": "conclusion", "CONCL_SANS_RANG": "conclusion",
+    "CONCL_QUANTIFICATEUR_EXISTENTIEL": "conclusion",
 }
 
 SECTIONS = ("initialisation", "hypothese", "heredite", "conclusion")
@@ -57,10 +76,20 @@ def _norm(t: str) -> str:
     return t.strip()
 
 
-def diagnostiquer_redaction(parties: Mapping[str, str], rang_initial: int) -> List[str]:
-    """Renvoie la liste ordonnée des confusions détectées (vide = rédaction correcte)."""
+_DEFINITION = re.compile(r"(soit|notons|on note|appelons)\s+p\(n\)|p\(n\)\s*(:|designe|la propriete|est la propriete)")
+
+
+def diagnostiquer_redaction(parties: Mapping[str, str], rang_initial: int, *,
+                            exiger_propriete: bool = False) -> List[str]:
+    """Renvoie la liste ordonnée des confusions détectées (vide = rédaction correcte).
+    `exiger_propriete` : la propriété P(n) doit être énoncée (section « propriete » ou définition
+    explicite « Soit P(n) : … » dans la rédaction)."""
     p = {k: _norm(parties.get(k, "")) for k in SECTIONS}
     out: List[str] = []
+    if exiger_propriete:
+        tout = " ".join([_norm(parties.get("propriete", "")), *p.values()])
+        if not (_norm(parties.get("propriete", "")) and "p(n)" in tout) and not _DEFINITION.search(tout):
+            out.append("PROP_NON_DEFINIE")
 
     init = p["initialisation"]
     if not init:
@@ -76,10 +105,14 @@ def diagnostiquer_redaction(parties: Mapping[str, str], rang_initial: int) -> Li
             out.append("INIT_ABSENTE")
 
     hyp = p["hypothese"]
-    if re.search(r"pour tout (entier )?n\b", hyp) and not re.search(r"(un certain|fixe|donne)", hyp):
+    if not hyp:
+        out.append("HYP_ABSENTE")
+    elif re.search(r"pour tout (entier )?n\b", hyp) and not re.search(r"(un certain|fixe|donne)", hyp):
         out.append("HYP_POUR_TOUT_N")
-    if "p(n+1)" in hyp and "p(n)" not in hyp:
+    elif "p(n+1)" in hyp and "p(n)" not in hyp:
         out.append("HYP_SUR_P_N_PLUS_1")
+    elif not re.search(r"(un certain|fixe|donne|quelconque|>=|a partir)", hyp):
+        out.append("HYP_SANS_RANG")
 
     her = p["heredite"]
     if her:
@@ -91,12 +124,16 @@ def diagnostiquer_redaction(parties: Mapping[str, str], rang_initial: int) -> Li
             out.append("HER_UTILISE_P_N_PLUS_1")
         if not re.search(r"(hypothese de recurrence|\bhr\b|d'apres p\(n\)|par p\(n\)|grace a p\(n\))", her):
             out.append("HER_SANS_HYPOTHESE")
+        if re.search(r"p\(n\+1\)\s*(=>|⇒|implique|entraine)\s*p\(n\)(?!\+)|si p\(n\+1\)( est vraie)?,? alors p\(n\)(?!\+)", her):
+            out.append("HER_IMPLICATION_INVERSEE")
     else:
         out.append("HER_OBJECTIF_P_N")
 
     concl = p["conclusion"]
     if not concl:
         out.append("CONCL_ABSENTE")
+    elif re.search(r"il existe (un )?(entier )?n\b", concl):
+        out.append("CONCL_QUANTIFICATEUR_EXISTENTIEL")
     else:
         if "p(n+1)" in concl and not re.search(r"pour tout", concl):
             out.append("CONCL_P_N_PLUS_1_SEULEMENT")
@@ -108,6 +145,23 @@ def diagnostiquer_redaction(parties: Mapping[str, str], rang_initial: int) -> Li
 def prochaine_question(confusions: List[str]) -> Optional[str]:
     """Une seule question à la fois, dans l'ordre de la démonstration."""
     return QUESTIONS_GUIDAGE[confusions[0]] if confusions else None
+
+
+def analyser_redaction(parties: Mapping[str, str], rang_initial: int, *, exiger_propriete: bool = False) -> dict:
+    """Ce dont Mika a besoin : l'ÉTAPE qui bloque (la première dans l'ordre de la démonstration),
+    les étapes déjà valides, et UNE question de guidage qui ne donne pas la réponse."""
+    conf = diagnostiquer_redaction(parties, rang_initial, exiger_propriete=exiger_propriete)
+    ordre = {e: i for i, e in enumerate(ETAPES)}
+    conf = sorted(conf, key=lambda c: ordre[ETAPE_DE[c]])  # tri STABLE : ordre interne conservé
+    bloquees = {ETAPE_DE[c] for c in conf}
+    etapes = [e for e in ETAPES if e != "propriete" or exiger_propriete]
+    return {
+        "etape_bloquante": ETAPE_DE[conf[0]] if conf else None,
+        "confusions": conf,
+        "etapes_valides": [e for e in etapes if e not in bloquees],
+        "question": prochaine_question(conf),
+        "complete": not conf,
+    }
 
 
 # --------------------------------------------------------------------------- #
@@ -140,6 +194,24 @@ def verifier_formule_explicite(f_recurrence: str, u0: str, rang_initial: int, fo
     if sympy.simplify(f.subs(_x, g) - g.subs(_n, _n + 1)) != 0:
         return invalide("heredite_fausse")
     return valide("formule_demontree")
+
+
+def verifier_fonction_auxiliaire(f_recurrence: str, f_eleve: str) -> Resultat:
+    """La fonction auxiliaire proposée par l'élève est-elle bien celle de la relation
+    u(n+1) = f(u(n)) ? (équivalence symbolique démontrée ; sinon INVALID ou revue)."""
+    try:
+        f = _fonction(f_recurrence, "x")
+        g = _fonction(f_eleve, "x")
+    except EntreeRefusee as exc:
+        return revue(str(exc))
+    diff = sympy.simplify(f - g)
+    if diff == 0:
+        return valide("fonction_auxiliaire_correcte")
+    if diff.is_number:
+        return invalide("fonction_auxiliaire_incorrecte")
+    return invalide("fonction_auxiliaire_incorrecte") if any(
+        sympy.simplify(diff.subs(_x, v)) != 0 for v in (sympy.Rational(1, 3), 2, -sympy.Rational(5, 7))
+    ) else revue("equivalence_indecidable")
 
 
 def verifier_heredite_fonction_auxiliaire(f_texte: str, a: str, b: str) -> Resultat:

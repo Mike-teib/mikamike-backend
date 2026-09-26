@@ -47,6 +47,11 @@ async def _cycle_de_vie(_app: FastAPI):
 
     mode_auth()  # configuration d'authentification invalide ⇒ refus de démarrer
     limitation_active()  # MIKA_RATE_LIMIT invalide, ou « off » en production ⇒ refus de démarrer
+    from app.core.courriel import nom_transport
+    from paiement_comptes.verification_email import verification_requise
+
+    verification_requise()  # MIKA_EMAIL_VERIFICATION invalide, ou « off » en production ⇒ refus
+    nom_transport()  # aucun fournisseur de courriel réel en production ⇒ refus de démarrer (R19)
     initialiser_au_demarrage()
     yield
 
@@ -65,6 +70,18 @@ def create_app() -> FastAPI:
     from app.core.limites import LimiteTailleCorps
 
     app.add_middleware(LimiteTailleCorps)
+    # Journalisation structurée sans données sensibles (ajoutée en dernier = la plus externe :
+    # elle voit aussi les 413 et les exceptions non rattrapées).
+    from app.core.observabilite import Observabilite
+
+    app.add_middleware(Observabilite)
+    # En-têtes de sécurité et 422 sans écho des valeurs saisies (lot 21, S4-03).
+    from fastapi.exceptions import RequestValidationError
+
+    from app.core.entetes_securite import EntetesSecurite, erreur_validation
+
+    app.add_middleware(EntetesSecurite)
+    app.add_exception_handler(RequestValidationError, erreur_validation)
 
     origins = [o for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()]
     if origins:

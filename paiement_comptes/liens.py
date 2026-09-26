@@ -165,9 +165,15 @@ def creer_invitation(db: Session, pseudo_id: str, eleve_hmac: str, *, relation: 
 def accepter_invitation(db: Session, code: str, compte) -> tuple[str, str]:
     """Validation par le compte connecté. Renvoie (pseudo_id, relation). Lève InvitationInvalide
     (message unique) ou ValueError("deja_lie") — un lien existant ne consomme pas le code."""
+    from paiement_comptes.verification_email import verification_ok_pour_invitation
+
     norm = normaliser_code(code)
     if norm is None or compte is None or not compte.actif:
         raise InvitationInvalide("invitation_invalide")
+    # R19 : rattachement sensible ⇒ adresse e-mail du compte VÉRIFIÉE (contrôle AVANT toute
+    # lecture de l'invitation : le code n'est ni consommé ni révélé valide).
+    if verification_ok_pour_invitation(compte):
+        raise PermissionError("email_non_verifie")
     inv = db.execute(select(InvitationLien).where(InvitationLien.code_hash == _empreinte(norm))).scalar_one_or_none()
     now = _maintenant()
     if inv is None or inv.utilise_le is not None or inv.expire_le <= now or compte.role != inv.relation:
