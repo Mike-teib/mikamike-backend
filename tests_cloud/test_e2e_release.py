@@ -8,9 +8,7 @@ progression → tableau parent → export RGPD → révocation → suppression �
 Routes publiques uniquement (sauf l'outil opérateur du premier rattachement et la lecture de la
 boîte factice). Acteurs, contenus et réponses FICTIFS. Aucun courriel réel.
 
-Quiz : aucune route HTTP de quiz n'existe dans l'API (le module `quiz_types` est prêt mais n'est
-exposé nulle part) ; l'étape « quiz » est donc vérifiée EN PROCESSUS, sur une question liée à la
-même notion que le tutorat. Voir RELEASE_CANDIDATE.md (manques front/API).
+Quiz : joué par HTTP (/api/v1/quiz, session 6), avec un contenu fictif du catalogue de quiz.
 """
 
 import datetime as _dt
@@ -119,16 +117,27 @@ def test_e2e_release_candidate_complet_en_enforce(rc):
     troisieme = soumettre("3")
     assert troisieme["progression"]["observations"] == 3 and troisieme["progression"]["niveau"] != "MAITRISEE"
 
-    # 8. Quiz (en processus : aucune route HTTP n'existe) — correction EXACTE uniquement.
-    from app.curriculum.quiz_types import QuestionVraiFaux, corriger, valider
-    from app.curriculum.verifiers.base import Verdict
+    # 8. Quiz par HTTP (session 6) : aucune clé avant soumission, résultat + progression après.
+    from app.api.v1.quiz import contenu as contenu_quiz
+    from app.curriculum.quiz_types import QuestionVraiFaux
 
     idx = referentiel_fictif().index()
     n = idx.notions["notion:fictif:fractions-decimales"]
     q = QuestionVraiFaux(id="quiz:fictif:rc1", notion_id=n.id, matiere=n.matiere, niveau=n.niveau,
                          enonce="7/10 est égal à 0,7.", explication="Sept dixièmes : 0,7.", affirmation_vraie=True)
-    assert valider(q, idx, autoriser_fictif=True) == []
-    assert corriger(q, True).verdict == Verdict.VALID and corriger(q, False).verdict == Verdict.INVALID
+    contenu_quiz.definir_catalogue(contenu_quiz.CatalogueQuiz(referentiel_fictif(), [q], autoriser_fictif=True))
+    try:
+        r = c.post("/api/v1/quiz/tentatives", headers=_h(je), json={
+            "student_pseudo_id": ENFANT, "requete_id": "rc1-quiz", "notion_id": n.id})
+        assert r.status_code == 201 and "affirmation_vraie" not in r.text and "explication" not in r.text
+        tq = r.json()
+        r = c.post("/api/v1/quiz/repondre", headers=_h(je), json={
+            "student_pseudo_id": ENFANT, "requete_id": "rc1-quiz-r", "tentative_id": tq["tentative_id"],
+            "version": tq["version"], "reponse": True})
+        assert r.status_code == 200 and r.json()["resultat"]["verdict"] == "CORRECT"
+        assert r.json()["progression"]["moteur"] == "historique"
+    finally:
+        contenu_quiz.definir_catalogue(None)
 
     # 9. Tuteur Mika : prérequis consolidé, réponse juste en autonomie.
     from app.api.v1.mikamike import crud
@@ -157,14 +166,14 @@ def test_e2e_release_candidate_complet_en_enforce(rc):
     r = c.get(f"/api/v1/parents/dashboard/{ENFANT}", headers=_h(t_parent))
     assert r.status_code == 200
     stats = r.json()["statistiques_pedagogiques"]
-    assert stats["exercices_tentes"] == 4 and stats["exercices_reussis"] == 3
+    assert stats["exercices_tentes"] == 5 and stats["exercices_reussis"] == 4
     assert EMAIL not in r.text and "0,7" not in r.text and "x = 999" not in r.text
     # L'élève lit ses propres agrégats (Action.LECTURE sur son pseudo-id) : même schéma fermé.
     assert c.get(f"/api/v1/parents/dashboard/{ENFANT}", headers=_h(je)).status_code == 200
 
     # 12. Export RGPD : données de l'élève (parent lié) et du compte (titulaire).
     exp = c.get(f"/api/v1/rgpd/export/{ENFANT}", headers=_h(t_parent))
-    assert exp.status_code == 200 and exp.json()["total_tentatives"] == 4
+    assert exp.status_code == 200 and exp.json()["total_tentatives"] == 5
     assert code not in exp.text
     moi = c.get("/api/v1/comptes/moi/export", headers=_h(t_parent)).json()
     assert moi["compte"]["email"] == EMAIL and len(moi["liens_eleves"]) == 1
@@ -201,7 +210,7 @@ def test_e2e_release_candidate_complet_en_enforce(rc):
     assert c.get(f"/api/v1/parents/dashboard/{ENFANT}", headers=_h(t_neuf)).status_code == 401
     # Les données d'apprentissage appartiennent à l'élève : intactes jusqu'à /rgpd/effacer (D9).
     db = SessionLocal()
-    assert len(crud.get_tentatives(db, hmac_eleve(ENFANT))) == 4
+    assert len(crud.get_tentatives(db, hmac_eleve(ENFANT))) == 5
     db.close()
 
 

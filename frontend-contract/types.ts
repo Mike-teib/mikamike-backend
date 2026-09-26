@@ -489,6 +489,26 @@ export interface InvitationExport {
   readonly utilisee: boolean;
 }
 
+/** Tentative de quiz exportée (session 6) : jamais la réponse saisie, seulement le verdict. */
+export interface QuizTentativeExport {
+  readonly tentative_id: string;
+  readonly question_id: string;
+  readonly notion_id: string;
+  readonly etat: "EN_COURS" | "TERMINEE";
+  readonly avec_aide: boolean;
+  readonly aides: number;
+  readonly verdict: "CORRECT" | "INCORRECT" | "A_REVOIR" | null;
+  readonly cree_le: string | null;
+  readonly maj_le: string | null;
+}
+
+export interface RequeteQuizExport {
+  readonly tentative_id: string;
+  readonly requete_id: string;
+  readonly cree_le: string | null;
+  readonly reponse: Readonly<Record<string, unknown>>;
+}
+
 export interface ExportRgpdEleve {
   readonly contexte_rgpd: string;
   readonly student_pseudo_id: string;
@@ -501,6 +521,8 @@ export interface ExportRgpdEleve {
   readonly sessions: readonly SeanceExport[];
   readonly tutorats_mika: readonly TutoratExport[];
   readonly requetes_tutorat_mika: readonly RequeteTutoratExport[];
+  readonly quiz_tentatives: readonly QuizTentativeExport[];
+  readonly requetes_quiz: readonly RequeteQuizExport[];
   readonly liens_comptes: readonly LienExport[];
   readonly invitations_liens: readonly InvitationExport[];
 }
@@ -515,6 +537,8 @@ export interface ReponseEffacementRgpd {
   readonly sessions_supprimees: number;
   readonly tutorats_supprimes: number;
   readonly requetes_tutorat_supprimees: number;
+  readonly quiz_tentatives_supprimees: number;
+  readonly requetes_quiz_supprimees: number;
   readonly liens_compte_supprimes: number;
   readonly invitations_supprimees: number;
 }

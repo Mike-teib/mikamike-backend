@@ -817,7 +817,9 @@
             "relation": "parent"
           }
         ],
+        "quiz_tentatives": [],
         "rappels_memoire": [],
+        "requetes_quiz": [],
         "requetes_tutorat_mika": [
           {
             "cree_le": "string",
@@ -960,7 +962,9 @@
         "invitations_supprimees": "integer",
         "liens_compte_supprimes": "integer",
         "message": "string",
+        "quiz_tentatives_supprimees": "integer",
         "rappels_memoire_supprimes": "integer",
+        "requetes_quiz_supprimees": "integer",
         "requetes_tutorat_supprimees": "integer",
         "sessions_supprimees": "integer",
         "statut": "effacement_effectue",

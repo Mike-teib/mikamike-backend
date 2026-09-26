@@ -216,7 +216,7 @@ def test_migration_sur_grosse_base(tmp_path, n_lignes):
         duree = time.perf_counter() - t
         print(json.dumps({{"stmts": n["stmts"], "duree": duree, "rev": m.courante("mika")}}))
     """)
-    assert out["rev"] == "m0003_tutorat" and out["duree"] < 30
+    assert out["rev"] == "m0004_quiz" and out["duree"] < 30
     _STMTS[n_lignes] = out["stmts"]
     if len(_STMTS) == 2:
         assert _STMTS[1_000] == _STMTS[100_000], _STMTS

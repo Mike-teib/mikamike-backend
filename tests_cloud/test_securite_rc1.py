@@ -24,6 +24,7 @@ from tests_cloud.test_auth import A, B, _h, enforce, monde  # noqa: F401
 from tests_cloud.test_mika_api import EXO, PLAN, PREREQ, _exercice
 
 EX = "exo-maths-algebre-1"
+QUIZ_NOTION = "notion:fictif:comparer-fractions"
 
 
 def _seance(c, jeton, eleve):
@@ -83,6 +84,30 @@ def _tut_get(c, j, cible, prop):
     return {"url": f"/api/v1/mika/session/{t['tutorat_id']}", "params": {"student_id": cible}}
 
 
+_NQ = {"k": 0}
+
+
+def _quiz_tentative(c, cible, prop):
+    _NQ["k"] += 1
+    r = c.post("/api/v1/quiz/tentatives", headers=_h(prop), json={
+        "student_pseudo_id": cible, "requete_id": f"bola-quiz-{_NQ['k']}", "notion_id": QUIZ_NOTION})
+    assert r.status_code == 201, r.text
+    return r.json()
+
+
+def _quiz_op(chemin, **kw):
+    def f(c, j, cible, prop):
+        t = _quiz_tentative(c, cible, prop)
+        return {"json": {"student_pseudo_id": cible, "requete_id": f"op-{_NQ['k']}",
+                         "tentative_id": t["tentative_id"], "version": t["version"], **kw}}
+    return f
+
+
+def _quiz_get(c, j, cible, prop):
+    t = _quiz_tentative(c, cible, prop)
+    return {"url": f"/api/v1/quiz/tentatives/{t['tentative_id']}", "params": {"student_id": cible}}
+
+
 def _stream(c, j, cible, prop):
     return {"params": {"session_id": _seance(c, prop, cible)}}
 
@@ -110,6 +135,10 @@ MATRICE = [
     ("POST", "/api/v1/mika/session/help", _tut("help")),
     ("POST", "/api/v1/mika/session/comprehension", _tut_comprehension),
     ("GET", "/api/v1/mika/session/{tutorat_id}", _tut_get),
+    ("POST", "/api/v1/quiz/tentatives", _corps(student_pseudo_id="@", requete_id="bola-q", notion_id=QUIZ_NOTION)),
+    ("POST", "/api/v1/quiz/aide", _quiz_op("aide")),
+    ("POST", "/api/v1/quiz/repondre", _quiz_op("repondre", reponse=0)),
+    ("GET", "/api/v1/quiz/tentatives/{tentative_id}", _quiz_get),
     ("POST", "/api/v1/liens/invitations", _corps(student_pseudo_id="@")),
     ("POST", "/api/v1/auth/eleve/jeton", _corps(student_pseudo_id="@")),
     # Destructif : en dernier dans chaque scénario (fixture neuve à chaque paramètre).
@@ -134,12 +163,17 @@ def mondeb(monde):
     c, jetons = monde
     contenu.definir_catalogue(contenu.CatalogueTutorat(referentiel_fictif(), [_exercice()], {EXO: PLAN},
                                                        autoriser_fictif=True))
+    from app.api.v1.quiz import contenu as contenu_quiz
+    from tests_cloud.test_import_v2_integrite import _quiz
+
+    contenu_quiz.definir_catalogue(contenu_quiz.CatalogueQuiz(referentiel_fictif(), [_quiz()], autoriser_fictif=True))
     db = SessionLocal()
     for e in (A, B):
         crud.upsert_etat(db, hmac_eleve(e), PREREQ, "ACQUIS_AUTONOME")
     db.close()
     yield c, jetons
     contenu.definir_catalogue(None)
+    contenu_quiz.definir_catalogue(None)
 
 
 def _jouer(c, methode, gabarit, kwargs, jeton):

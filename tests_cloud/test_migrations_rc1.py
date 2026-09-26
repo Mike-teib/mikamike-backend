@@ -17,7 +17,7 @@ import pytest
 
 from tests_cloud.test_migrations_validation import _cli, _py
 
-MIKA = ["base", "m0001_baseline", "m0002_index_tentatives", "m0003_tutorat"]
+MIKA = ["base", "m0001_baseline", "m0002_index_tentatives", "m0003_tutorat", "m0004_quiz"]
 BILLING = ["base", "b0001_baseline", "b0002_liens_compte_eleve", "b0003_invitations_lien",
            "b0004_verif_email_revocation"]
 

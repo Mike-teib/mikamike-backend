@@ -21,6 +21,7 @@ from sqlalchemy.orm import Session
 
 from app.api.v1.memory.spaced_repetition import TacheRappelMemoire
 from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice, get_db
+from app.api.v1.quiz.store import QuizRequete, QuizTentative
 from app.api.v1.session.session_manager import MikaSessionState
 from app.api.v1.tutorat.store import TutoratRequete, TutoratSession
 from app.core.pseudonymisation import hmac_eleve as _hmac
@@ -29,7 +30,7 @@ from app.core.validation import ID_PATTERN
 
 # Registre exhaustif des tables contenant des données d'un élève.
 TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessionState,
-                TutoratSession, TutoratRequete)
+                TutoratSession, TutoratRequete, QuizTentative, QuizRequete)
 
 
 def _iso(dt) -> str | None:
@@ -79,6 +80,11 @@ def exporter_donnees_eleve(
         .order_by(TutoratRequete.cree_le.asc(), TutoratRequete.tutorat_id.asc(),
                   TutoratRequete.requete_id.asc())
     ).scalars().all()
+    quiz_t = db.execute(select(QuizTentative).where(QuizTentative.eleve_hmac == eleve_hmac)
+                        .order_by(QuizTentative.cree_le.asc(), QuizTentative.id.asc())).scalars().all()
+    quiz_r = db.execute(select(QuizRequete).where(QuizRequete.eleve_hmac == eleve_hmac)
+                        .order_by(QuizRequete.cree_le.asc(), QuizRequete.tentative_id.asc(),
+                                  QuizRequete.requete_id.asc())).scalars().all()
     # Liens compte ↔ élève (base billing) : relation et date, jamais l'e-mail du compte.
     from paiement_comptes.liens import LienCompteEleve
 
@@ -87,7 +93,7 @@ def exporter_donnees_eleve(
         .order_by(LienCompteEleve.id.asc())
     ).scalars().all()
 
-    if not (tentatives or etats or rappels or sessions or tutorats or requetes):
+    if not (tentatives or etats or rappels or sessions or tutorats or requetes or quiz_t or quiz_r):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="aucune_donnee_trouvee_pour_cet_identifiant"
@@ -177,6 +183,11 @@ def exporter_donnees_eleve(
         "sessions": export_sessions,
         "tutorats_mika": export_tutorats,
         "requetes_tutorat_mika": export_requetes,
+        "quiz_tentatives": [{"tentative_id": t.id, "question_id": t.question_id, "notion_id": t.notion_id,
+                             "etat": t.etat, "avec_aide": t.avec_aide, "aides": t.aides, "verdict": t.verdict,
+                             "cree_le": _iso(t.cree_le), "maj_le": _iso(t.maj_le)} for t in quiz_t],
+        "requetes_quiz": [{"tentative_id": r.tentative_id, "requete_id": r.requete_id, "cree_le": _iso(r.cree_le),
+                           "reponse": json.loads(r.reponse_json or "{}")} for r in quiz_r],
         "liens_comptes": export_liens,
         "invitations_liens": export_invitations,
     }
@@ -190,6 +201,8 @@ CLES_EXPORT = {
     "mika_session_states": "sessions",
     "mika_tutorat_sessions": "tutorats_mika",
     "mika_tutorat_requetes": "requetes_tutorat_mika",
+    "mika_quiz_tentatives": "quiz_tentatives",
+    "mika_quiz_requetes": "requetes_quiz",
 }
 
 
@@ -235,6 +248,8 @@ def effacer_donnees_eleve(
         "sessions_supprimees": compte_par_table[MikaSessionState.__tablename__],
         "tutorats_supprimes": compte_par_table[TutoratSession.__tablename__],
         "requetes_tutorat_supprimees": compte_par_table[TutoratRequete.__tablename__],
+        "quiz_tentatives_supprimees": compte_par_table[QuizTentative.__tablename__],
+        "requetes_quiz_supprimees": compte_par_table[QuizRequete.__tablename__],
         "liens_compte_supprimes": compte_par_table["liens_compte_eleve"],
         "invitations_supprimees": compte_par_table["invitations_lien"],
     }
