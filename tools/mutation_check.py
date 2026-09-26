@@ -59,6 +59,7 @@ T_QZ = ("tests_cloud/test_quiz_types.py", "tests_cloud/test_exercices_quiz.py")
 T_ES = ("tests_cloud/test_es_provenance.py", "tests_cloud/test_technologie_s4.py", "tests_cloud/test_verifiers_sciences.py")
 T_PROG = ("tests_cloud/test_progression.py", "tests_cloud/test_progression_api_s5.py")
 T_MAIL = ("tests_cloud/test_email_provider.py",)
+T_SECRC1 = ("tests_cloud/test_securite_rc1.py",)
 T_MOTEUR = ("tests_cloud/test_progression_api_s5.py", "tests_cloud/test_api_regressions.py")
 T_S4SEC = ("tests_cloud/test_securite_s4.py", "tests_cloud/test_parent_minimisation.py", "tests_cloud/test_retention.py")
 T_PC = ("tests_cloud/test_physique_etendu.py", "tests_cloud/test_verifiers_sciences.py")
@@ -456,6 +457,11 @@ MUTANTS: List[Mutant] = [
            '        if e.get("precedent") != precedent:', "        if False:", T_S4SEC),
     Mutant("retention_appliquer_sans_rapport", "tools/purge_retention.py",
            '    if opts["appliquer"] != bool(opts["rapport"]) or', '    if False or', T_S4SEC),
+    # Session 5 : audit sécurité (S5-01, course à la première soumission).
+    Mutant("s5_01_upsert_sans_reprise", "app/api/v1/mikamike/crud.py",
+           "        except IntegrityError:\n            db.rollback()\n            obj = db.get(EtatCompetence, (eleve_hmac, competence))",
+           "        except ZeroDivisionError:\n            db.rollback()\n            obj = db.get(EtatCompetence, (eleve_hmac, competence))",
+           T_SECRC1),
     # Session 5 : fournisseur SMTP.
     Mutant("smtp_clair_autorise_en_prod", "app/core/courriel.py",
            '        if securite == "aucune" and _en_production():', "        if False:", T_MAIL),

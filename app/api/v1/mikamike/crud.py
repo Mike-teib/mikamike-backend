@@ -11,6 +11,7 @@ from __future__ import annotations
 from typing import Dict, List
 
 from sqlalchemy import case, func, select
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice
@@ -74,14 +75,25 @@ def compter_succes_consecutifs(
 def upsert_etat(
     db: Session, eleve_hmac: str, competence: str, etat: str
 ) -> EtatCompetence:
+    """Session 5 (S5-01) : deux premières soumissions SIMULTANÉES insèrent la même clé ; la
+    seconde échouait en IntegrityError (500). Elle reprend désormais la ligne créée par l'autre
+    requête et la met à jour (dernier écrivain gagnant ; le moteur sur historique recalcule
+    l'état depuis les tentatives à chaque réponse, donc aucun état n'est durablement faussé)."""
     obj = db.get(EtatCompetence, (eleve_hmac, competence))
     if obj is None:
         obj = EtatCompetence(
             eleve_hmac=eleve_hmac, competence=competence, etat=etat
         )
         db.add(obj)
-    else:
-        obj.etat = etat
+        try:
+            db.commit()
+            return obj
+        except IntegrityError:
+            db.rollback()
+            obj = db.get(EtatCompetence, (eleve_hmac, competence))
+            if obj is None:  # pragma: no cover - conflit sans ligne visible : on laisse remonter
+                raise
+    obj.etat = etat
     db.commit()
     return obj
 
