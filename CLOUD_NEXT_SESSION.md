@@ -21,27 +21,32 @@ LAST_COMPLETED_TASK: lots 1–11 (revue PR #4, R6, R7, front auth, migrations, A
 CURRENT_TASK: aucune — PR #5 en revue
 NEXT_TASK: R1/R2 dès que Mike fournit les artefacts : remplacer `generer_lot` par le lot réel et exiger
            `executer_pipeline(<lot réel>, <sha épinglé>, autoriser_fictif=False).statut == "VALIDATED"`
-           (IMPORT_TEST_HARNESS_REPORT.md §6). Sinon : D8 (création des liens) puis passage front en enforce.
-TEST_STATUS: 4017/4017 PASS ; ruff 0 ; bandit 0 ; pip-audit 0 ; secrets arbre 0 ; mutation 73/73 (local, 15,5 min)
+           (IMPORT_TEST_HARNESS_REPORT.md §6). Côté front : écrans D8 (inviter / saisir le code),
+           `POST /session/nouvelle`, puis tests E2E front (condition D12).
+TEST_STATUS: 4065/4065 PASS ; ruff 0 ; bandit 0 ; pip-audit 0 ; secrets arbre 0 ; mutation 73/73 complète (local) + 9/9 mutants des décisions
 LAST_COMMIT: voir `git log -1`
 
 KNOWN_BLOCKERS:
   - R1/R2 : artefacts réels (BO/Éduscol, C02, C02-6, C02-6.1, M01, Extraction V3, manifests) ABSENTS ⇒
     0 notion PROVEN réelle, catalogue du tuteur vide (start ⇒ 404) — voulu. Le pipeline est prêt et
     éprouvé sur lots synthétiques.
-  - Passage en `enforce` : bloqué par D8 (aucune route de création de liens compte ↔ élève).
+  - Passage en `enforce` (D12) : backend prêt (D8 livré, E2E backend vert) ; attend le front conforme
+    et ses tests E2E verts. Aucun déploiement de production avant.
 
 FILES_IN_PROGRESS: aucun
 
+DECISIONS_PRISES (Mike, session 3) — toutes mises en œuvre :
+  - D8  lien parent ↔ élève par invitation à code unique, expirable, non devinable, validée par le parent
+  - D5  correction symbolique : équivalences démontrées seulement ; ambigu ⇒ NEEDS_HUMAN_REVIEW
+  - D12 enforce seulement quand front + flux parent/enfant + tests E2E sont verts
+  - D14 compréhension finale ratée ⇒ exercice non compté réussi
+  - D15 session_id généré par le serveur, cryptographiquement aléatoire
+
 DECISIONS_REQUIRED (Mike) :
   - D1 Rotation des secrets si un env a tourné sans eux · D3 e-mail dans le jeton de compte, `prenom` élève
-  - D5 Appliquer (ou non) les constats R6 au catalogue historique (« 0.5 » accepté pour « Simplifie 4/8 »,
-    « 5*x » et « 3 = x » refusés) — outil prêt : `python -m tools.audit_equivalence`
   - D6 NIVEAUX_PAR_MATIERE · D7 contrat `mika-tutorat/1` avec le front
-  - D8 Création des liens compte ↔ élève (BLOQUANT pour enforce) · D9 effacement par l'élève
-  - D10 reconnect d'une séance expirée · D11 révocation par `jti` · D12 date de fin du mode `off`
-  - D13 rétention des tutorats · D14 compréhension ratée ⇒ réussite non comptée (appliqué, à confirmer)
-  - D15 `session_id` : clé composite ou identifiant serveur (S3-13)
+  - D9 effacement par l'élève · D10 reconnect d'une séance expirée · D11 révocation par `jti`
+  - D13 rétention des tutorats · R19 vérification de l'e-mail parent avant acceptation d'invitation
 
 DEPLOIEMENT (quand autorisé, rien n'a été déployé) :
   1. sauvegarde des bases ; 2. `python -m tools.db stamp-existant mika|billing` (bases historiques)
@@ -50,7 +55,7 @@ DEPLOIEMENT (quand autorisé, rien n'a été déployé) :
   `MIKA_PROXY_HOPS=<nb de proxys>` ; 4. rotation des secrets si D1 ; 5. front conforme à
   FRONT_AUTH_INTEGRATION.md.
 
-REMAINING_BACKLOG: CLOUD_BACKLOG_MIKAMAIKE.md (R1, R2, R3b, R5, R6-application, R8–R10, R12–R18)
+REMAINING_BACKLOG: CLOUD_BACKLOG_MIKAMAIKE.md (R1, R2, R5, R8–R10, R12–R14, R16–R20)
 
 ## Rapport final session 3
 ```
@@ -63,17 +68,17 @@ P0: 0
 P1: 4   (S3-01 jeton élève après effacement RGPD, S3-02 URL Alembic %, S3-03 migration interrompue, S3-15 lot fictif publiable)
 P2: 12
 
-TESTS_TOTAL: 4017
-TESTS_PASS: 4017
+TESTS_TOTAL: 4065
+TESTS_PASS: 4065
 TESTS_FAIL: 0
 TESTS_ERROR: 0
 
-MUTATIONS_TOTAL: 73 (39 sessions 1–2 + 34 session 3)
-MUTATIONS_KILLED: 73 (0 survivant, 0 inapplicable)
+MUTATIONS_TOTAL: 82 (39 sessions 1–2 + 34 session 3 + 9 décisions D5/D8/D15)
+MUTATIONS_KILLED: 82 (73 en exécution complète + 9 vérifiés individuellement)
 
 AUTH_STATUS: enforce par défaut ; jeton élève révoqué dès perte du lien/compte (cid) ; sub validé ; 52 tests sécurité en plus
 RATE_LIMIT_STATUS: R7 livré (connexion, inscription, jetons élève, jetons invalides) ; anti-DoS victime prouvé ; par processus
-FRONT_AUTH_PREP: FRONT_AUTH_INTEGRATION.md prêt ; passage enforce bloqué par D8 (création des liens)
+FRONT_AUTH_PREP: FRONT_AUTH_INTEGRATION.md prêt (invitations D8, session serveur D15) ; passage enforce selon D12 (création des liens)
 MIKA_API_STATUS: contrat audité (39 tests, concurrence par threads) ; 3 défauts corrigés (S3-04/05/06) ; contenu réel absent (R1)
 MIGRATION_STATUS: 23 tests (neuve, historique, stamp, downgrade, version incorrecte, interruption) ; 2 P1 corrigés
 IMPORT_HARNESS_STATUS: pipeline synthétique complet, 12 défauts injectés, reprise, rollback, perf linéaire ; aucun artefact réel
@@ -84,5 +89,5 @@ PAID_API_CALLS: 0
 
 READY_FOR_REVIEW: YES (revue humaine de la PR #5 ; merge après #3 et #4)
 
-REMAINING_BLOCKERS: artefacts réels (R1/R2), D8 (liens compte ↔ élève) pour enforce, D5 (application R6), D12 (date enforce)
+REMAINING_BLOCKERS: artefacts réels (R1/R2) ; front conforme + tests E2E front (condition D12)
 ```

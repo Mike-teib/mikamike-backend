@@ -188,6 +188,11 @@ séance sans prise de contrôle. Plus `test_review_session2.py`, `test_mika_api_
 | scan de secrets arbre | 0 à chaque commit |
 | Incident évité | le scanner a détecté un exemple d'URL avec identifiants **factices** dans un brouillon de CLOUD_REVIEW_SESSION2.md ; reformulé et commit amendé avant toute revue (le commit remplacé n'est plus référencé par aucune branche) |
 
-## Décisions restant à Mike (ajouts session 3)
-D14 (compréhension ratée ⇒ réussite non comptée : choix fail-closed appliqué, à confirmer) ·
-D15 (`session_id` : clé composite ou identifiant généré par le serveur).
+## Décisions de Mike (session 3) et mise en œuvre
+| Décision | Mise en œuvre | Tests |
+|---|---|---|
+| D8 lien par invitation à code unique, expirable, non devinable, validée par le parent | `/liens/invitations`, `/liens/accepter`, `tools.liens`, migration b0003 ; code 120 bits, empreinte HMAC seule stockée, consommation atomique, 400 uniforme, force brute limitée | test_invitations.py (30), 6 mutants |
+| D5 équivalences démontrées seulement | `catalogue.est_correct` : chaîne OU décision ACCEPTER ; ambigu ⇒ refus automatique ; `MIKA_CORRECTION_SYMBOLIQUE=off` pour revenir en arrière | test_equivalence.py (+15), 1 mutant |
+| D12 enforce seulement si front + flux + E2E verts | règle documentée (FRONT_AUTH_INTEGRATION.md §7) ; E2E backend `test_e2e_parent_enfant.py` ; config production vérifiée | 2 tests |
+| D14 compréhension ratée ⇒ non réussi | déjà appliqué (S3-06), confirmé | test_review_session2.py |
+| D15 session_id cryptographiquement aléatoire | `POST /session/nouvelle` (192 bits) ; plus de création implicite en enforce | test_securite_s3.py, 2 mutants |

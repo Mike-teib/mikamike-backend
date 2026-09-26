@@ -89,7 +89,8 @@ for c in ("mika", "billing"):
 print(json.dumps({"vide": vide, "plein": tables()}))
 """)
     assert out["vide"] == {"mika": [], "billing": []}
-    assert len(out["plein"]["mika"]) == 6 and len(out["plein"]["billing"]) == 3
+    # billing : + invitations_lien (b0003, décision D8, session 3).
+    assert len(out["plein"]["mika"]) == 6 and len(out["plein"]["billing"]) == 4
 
 
 def test_demarrage_refuse_si_schema_absent(tmp_path):

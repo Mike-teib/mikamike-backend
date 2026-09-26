@@ -100,7 +100,7 @@ def test_forme_de_la_consigne(enonce, forme):
 
 def test_audit_catalogue_historique_lecture_seule_et_constats():
     avant = copy.deepcopy(catalogue.EXERCICES)
-    rapports = auditer_catalogue(catalogue.EXERCICES, catalogue.est_correct)
+    rapports = auditer_catalogue(catalogue.EXERCICES, catalogue.est_correct_chaine)
     assert catalogue.EXERCICES == avant  # aucune donnée officielle modifiée
     s = synthese(rapports)
     assert s["exercices"] == len(catalogue.EXERCICES)
@@ -126,3 +126,43 @@ def test_outil_rapport_deterministe(tmp_path):
         assert (tmp_path / "a" / f).read_bytes() == (tmp_path / "b" / f).read_bytes()
     data = json.loads((tmp_path / "a" / "equivalence.json").read_text("utf-8"))
     assert data["synthese"]["exercices"] == 4
+
+
+# --------------------------------------------------------------------------- #
+# Décision D5 : correction appliquée — équivalences DÉMONTRÉES seulement
+# --------------------------------------------------------------------------- #
+@pytest.mark.parametrize("exo,reponse,attendu", [
+    ("exo-maths-calcul-litteral-1", "5*x", True),       # équivalent démontré (FAUX_NEGATIF historique)
+    ("exo-maths-algebre-1", "3 = x", True),             # équation retournée
+    ("exo-maths-algebre-1", "x = 3", True),             # déjà accepté
+    ("exo-maths-fractions-1", "0.5", True),             # déjà accepté : jamais retiré
+    ("exo-maths-fractions-1", "2/4", False),            # forme non irréductible : revue humaine
+    ("exo-maths-algebre-1", "6/2", False),              # non réduit : revue humaine
+    ("exo-maths-priorites-1", "14,0", False),           # zéro superflu : revue humaine
+    ("exo-maths-priorites-1", "20", False),
+    ("exo-maths-algebre-1", "y = 3", False),
+    ("exo-maths-algebre-1", "9^(9^9)", False),          # hostile : jamais « correct »
+    ("exo-maths-algebre-1", "", False),
+    ("exo-inconnu", "3", False),
+])
+def test_d5_correction_appliquee(exo, reponse, attendu):
+    assert catalogue.est_correct(exo, reponse) is attendu
+
+
+def test_d5_desactivable(monkeypatch):
+    monkeypatch.setenv("MIKA_CORRECTION_SYMBOLIQUE", "off")
+    assert catalogue.est_correct("exo-maths-calcul-litteral-1", "5*x") is False
+    assert catalogue.est_correct("exo-maths-calcul-litteral-1", "5x") is True
+
+
+def test_d5_via_l_api(client):
+    r = client.post("/api/v1/exercices/soumettre",
+                    json={"exercice_id": "exo-maths-calcul-litteral-1", "student_pseudo_id": "e-d5", "reponse": "5*x"})
+    assert r.status_code == 200 and r.json()["est_correct"] is True
+
+
+def test_d5_jamais_d_exception(monkeypatch):
+    import app.curriculum.equivalence as eq
+
+    monkeypatch.setattr(eq, "classer", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("panne")))
+    assert catalogue.est_correct("exo-maths-calcul-litteral-1", "5*x") is False

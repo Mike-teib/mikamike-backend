@@ -46,6 +46,8 @@ T_MIG = ("tests_cloud/test_migrations_validation.py",)
 T_API2 = ("tests_cloud/test_mika_api_audit.py",)
 T_HARN = ("tests_cloud/test_import_harnais.py",)
 T_SEC = ("tests_cloud/test_securite_s3.py",)
+T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
+         "tests_cloud/test_e2e_parent_enfant.py")
 
 
 MUTANTS: List[Mutant] = [
@@ -224,6 +226,27 @@ MUTANTS: List[Mutant] = [
            '                or not re.fullmatch(ID_PATTERN, c["sub"])\n', "", T_SEC),
     Mutant("jeton_geant_decode", "app/core/auth.py",
            ' or len(jeton) > 4096:', ':', T_SEC),
+    # ---------------------------------------------------------------- décisions D5 / D8 / D15
+    Mutant("d8_role_ignore", "paiement_comptes/liens.py",
+           " or compte.role != inv.relation:", ":", T_DEC),
+    Mutant("d8_sans_expiration", "paiement_comptes/liens.py",
+           "expire_le=now + _dt.timedelta(minutes=ttl_invitation_min())",
+           "expire_le=now + _dt.timedelta(days=3650)", T_DEC),
+    Mutant("d8_code_devinable", "paiement_comptes/liens.py",
+           "_secrets.token_bytes(15)", "bytes(15)", T_DEC),
+    Mutant("d8_confirmation_facultative", "app/api/v1/liens/router.py",
+           "        if v is not True:", "        if False:", T_DEC),
+    Mutant("d8_emission_sans_lien", "app/api/v1/liens/router.py",
+           "    auth.autoriser(qui, data.student_pseudo_id,", "    (lambda *a: None)(qui, data.student_pseudo_id,", T_DEC),
+    Mutant("d8_force_brute_non_comptee", "app/api/v1/liens/router.py",
+           "        limitation.enregistrer(paires, reussi=False)\n", "", T_DEC),
+    Mutant("d5_ambigu_accepte", "app/api/v1/mikamike/catalogue.py",
+           "    return ligne.decision == Decision.ACCEPTER", "    return ligne.decision != Decision.REFUSER", T_DEC),
+    Mutant("d15_session_id_previsible", "app/api/v1/session/session_manager.py",
+           '"s" + secrets.token_hex(24)', '"s" + "0" * 48', T_DEC),
+    Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
+           "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
+           "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),
 ]
 
 

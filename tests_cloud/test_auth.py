@@ -323,10 +323,11 @@ def test_ttl_invalide(monkeypatch, ttl):
 
 def test_session_stream_proprietaire(monde):
     client, j = monde
-    client.post("/api/v1/session/heartbeat", json={"session_id": "sa", "user_id": A}, headers=_h(j["A"]))
-    assert client.get("/api/v1/session/stream?session_id=sa", headers=_h(j["B"])).status_code == 403
-    assert client.get("/api/v1/session/stream?session_id=sa", headers=_h(j["pa"])).status_code == 403
-    assert client.get("/api/v1/session/stream?session_id=sa", headers=_h(j["A"])).status_code == 200
+    # Préparation (D15, session 3) : la séance est créée par le serveur (identifiant aléatoire).
+    sa = client.post("/api/v1/session/nouvelle", json={"user_id": A}, headers=_h(j["A"])).json()["session_id"]
+    assert client.get(f"/api/v1/session/stream?session_id={sa}", headers=_h(j["B"])).status_code == 403
+    assert client.get(f"/api/v1/session/stream?session_id={sa}", headers=_h(j["pa"])).status_code == 403
+    assert client.get(f"/api/v1/session/stream?session_id={sa}", headers=_h(j["A"])).status_code == 200
 
 
 def test_detect_fragile_identifiant_du_porteur(monde):

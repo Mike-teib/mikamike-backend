@@ -41,7 +41,27 @@ class SessionReconnectIn(BaseModel):
     user_id: Identifiant
 
 
+class SessionNouvelleIn(BaseModel):
+    user_id: Identifiant
+
+
 session_router = APIRouter(prefix="/session", tags=["session-manager"])
+
+
+def _seance_existante_si_enforce(g: Garde, db: Session, session_id: str) -> None:
+    # Décision D15 : en mode enforce, une séance n'existe que si le SERVEUR l'a créée
+    # (POST /session/nouvelle, identifiant aléatoire de 192 bits). Le mode « off » garde la
+    # création implicite du contrat historique (interdit en production).
+    if g.qui is not None:
+        GestionnaireSession.exiger_existante(db, session_id)
+
+
+@session_router.post("/nouvelle", status_code=status.HTTP_201_CREATED)
+def nouvelle_session(payload: SessionNouvelleIn, db: Session = Depends(get_db),
+                     g: Garde = Depends(_garde)) -> Dict[str, Any]:
+    """Crée une séance avec un identifiant généré par le serveur (non prévisible)."""
+    g.exiger(payload.user_id, Action.APPRENTISSAGE)
+    return GestionnaireSession.nouvelle(db, _hmac(payload.user_id))
 
 
 @session_router.post("/heartbeat")
@@ -56,6 +76,7 @@ def heartbeat_session(
     """
     g.exiger(payload.user_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(payload.user_id)
+    _seance_existante_si_enforce(g, db, payload.session_id)
     return GestionnaireSession.heartbeat(db, payload.session_id, eleve_hmac)
 
 
@@ -73,6 +94,7 @@ def sauvegarder_etat_session(
         raise HTTPException(status_code=status.HTTP_413_CONTENT_TOO_LARGE, detail="etat_session_trop_volumineux")
 
     eleve_hmac = _hmac(payload.user_id)
+    _seance_existante_si_enforce(g, db, payload.session_id)
     return GestionnaireSession.sauvegarder_etat_partiel(
         db, payload.session_id, eleve_hmac, payload.state_data
     )
@@ -89,6 +111,7 @@ def reconnecter_session(
     """
     g.exiger(payload.user_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(payload.user_id)
+    _seance_existante_si_enforce(g, db, payload.session_id)
     return GestionnaireSession.reconnecter_et_restaurer(db, payload.session_id, eleve_hmac)
 
 
@@ -108,7 +131,9 @@ def stream_notifications_sse(
             raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="acces_refuse")
         g.exiger(g.qui.pseudo_id, Action.APPRENTISSAGE)  # compte émetteur encore actif et lié (S3-01)
         seance = db.get(MikaSessionState, session_id)
-        if seance is not None and seance.eleve_hmac != _hmac(g.qui.pseudo_id):
+        if seance is None:  # D15 : pas de flux sur une séance que le serveur n'a pas créée
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="session_inconnue")
+        if seance.eleve_hmac != _hmac(g.qui.pseudo_id):
             raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="acces_refuse")
 
     async def sse_generator():

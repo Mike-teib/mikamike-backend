@@ -9,6 +9,7 @@ correspondent au graphe de prérequis du learning_engine.
 
 from __future__ import annotations
 
+import os
 from typing import Dict, List, Optional
 
 
@@ -69,12 +70,37 @@ def get_exercice(exercice_id: str) -> Optional[dict]:
     return EXERCICES.get(exercice_id)
 
 
-def est_correct(exercice_id: str, reponse: str) -> bool:
+def est_correct_chaine(exercice_id: str, reponse: str) -> bool:
+    """Correcteur HISTORIQUE (comparaison de chaînes normalisées). Sert de référence à l'audit R6."""
     meta = EXERCICES.get(exercice_id)
     if not meta:
         return False
     cible = {normaliser_reponse(r) for r in meta["reponses_acceptees"]}
     return normaliser_reponse(reponse) in cible
+
+
+def correction_symbolique_active() -> bool:
+    """MIKA_CORRECTION_SYMBOLIQUE = on (défaut, décision D5) | off (retour au correcteur historique)."""
+    return (os.getenv("MIKA_CORRECTION_SYMBOLIQUE") or "on").strip().lower() != "off"
+
+
+def est_correct(exercice_id: str, reponse: str) -> bool:
+    """Décision D5 : les réponses déjà acceptées le restent (aucune donnée officielle modifiée) ;
+    on accepte EN PLUS les seules équivalences symboliques DÉMONTRÉES (fond ET forme certains,
+    décision ACCEPTER de `app.curriculum.equivalence`). Tout cas ambigu (NEEDS_HUMAN_REVIEW)
+    reste refusé automatiquement : il relève d'une revue humaine."""
+    if est_correct_chaine(exercice_id, reponse):
+        return True
+    meta = EXERCICES.get(exercice_id)
+    if not meta or not correction_symbolique_active() or not (reponse or "").strip():
+        return False
+    from app.curriculum.equivalence import Decision, classer
+
+    try:
+        ligne = classer(meta.get("enonce", ""), list(meta["reponses_acceptees"]), reponse, False)
+    except Exception:  # fail-closed : aucune erreur du vérificateur ne vaut « correct »
+        return False
+    return ligne.decision == Decision.ACCEPTER
 
 
 def exercice_pour_competence(competence: str) -> Optional[str]:

@@ -83,7 +83,7 @@ HIST_MIKA = ["mika_etats", "mika_memory_schedules", "mika_session_states", "mika
 def test_base_neuve_cli_upgrade_status(tmp_path):
     assert _cli(tmp_path, "status")[0] == 1  # aucune révision : en retard
     code, out, _ = _cli(tmp_path, "upgrade")
-    assert code == 0 and "mika: m0003_tutorat" in out and "billing: b0002_liens_compte_eleve" in out
+    assert code == 0 and "mika: m0003_tutorat" in out and "billing: b0003_invitations_lien" in out
     code, out, _ = _cli(tmp_path, "status")
     assert code == 0 and out.count(" OK") == 2
     assert _cli(tmp_path, "upgrade")[0] == 0  # idempotent : relancer ne change rien

@@ -9,7 +9,7 @@
 |---|---|
 | `MIKA_ENV=production` **interdit** `MIKA_AUTH_MODE=off` (refus de démarrer) | le front doit être prêt **avant** tout déploiement de production |
 | En mode `off`, l'en-tête `Authorization` est **ignoré** | le front peut l'envoyer dès maintenant, sans risque (migration progressive) |
-| Aucune route publique ne crée de lien compte ↔ élève (décision **D8**) | **bloquant** pour `enforce` : sans lien, un parent ne peut obtenir aucun jeton élève |
+| Les liens compte ↔ élève se créent **uniquement par invitation** (décision **D8**, §2 bis) | écran « saisir le code d'invitation » côté parent ; écran « inviter un parent » côté enfant |
 | Aucun cookie : authentification par **en-tête** uniquement | pas de CSRF classique ; ne pas mettre les jetons en cookie |
 | Pas de route `refresh` | renouvellement = nouvelle émission (§3) |
 
@@ -35,6 +35,18 @@ Le front ne lit **jamais** le contenu des jetons (claims susceptibles d'évoluer
    401 (jeton de compte absent/invalide/expiré)   403 acces_refuse (élève non lié)   429
 4. Routes d'apprentissage : Authorization: Bearer <élève>
 ```
+
+## 2 bis. Rattacher un parent à un enfant (D8)
+```
+Enfant (jeton élève) : POST /liens/invitations {student_pseudo_id}
+   201 → {code: "ABCD-EFGH-…", expires_in: 172800, usage_unique: true}   ← afficher UNE fois
+   (premier rattachement d'un enfant sans aucun parent : code remis par l'établissement / le support)
+Parent (jeton de compte) : POST /liens/accepter {code, confirmation: true}
+   201 → {statut: "lien_cree", relation: "parent", student_pseudo_id}   ← mémoriser le pseudo-id
+   400 invitation_invalide (inconnu/utilisé/expiré)  409 deja_lie  429 (trop d'essais)
+```
+Le code est tolérant à la casse et aux tirets. `confirmation` doit être le booléen JSON `true`
+(case à cocher « je suis le parent de cet enfant » explicitement cochée). Ne jamais stocker le code.
 
 ## 3. Stockage, expiration, renouvellement, reconnexion
 - **Jeton de compte** : en mémoire ; `sessionStorage` toléré pour survivre au rechargement
@@ -89,9 +101,9 @@ purger le jeton élève et retirer l'élève de la liste. L'export contient dés
 
 ## 6. Séances et tuteur Mika
 - **Séance** (`/session/heartbeat|save-state|reconnect`, `GET /session/stream`) : `session_id`
-  **généré par le front en UUID v4** (36 caractères, ≤ 64 exigés, 422 au-delà). Jamais un
-  identifiant prévisible ni `default_session` : une séance créée par un autre élève sous le même
-  identifiant répond 403 (S3-13, décision D15).
+  **obtenu du serveur** par `POST /session/nouvelle {user_id}` (201, 192 bits aléatoires,
+  décision D15). En `enforce`, tout autre identifiant ⇒ 404 `session_inconnue` (plus de
+  `default_session`, plus d'identifiant généré par le front).
 - **Tuteur** (`/mika/session/start|answer|help|comprehension`, `GET /mika/session/{id}`) :
   jeton élève du même `student_pseudo_id`.
   - `requete_id` : **UUID v4 par action**, conservé pour les réessais (même corps ⇒ même
@@ -108,9 +120,15 @@ purger le jeton élève et retirer l'élève de la liste. L'export contient dés
 | 0 | `off` (dev/staging) | inchangé | — |
 | 1 | `off` | envoie **déjà** `Authorization` (compte + élève) partout ; gère 401/403/429 | tests e2e verts en `off` |
 | 2 | staging `enforce` | idem | parcours complets verts : connexion → jeton élève → exercices → tuteur → dashboard → export → effacement |
-| 3 | **D8 livré** (création des liens) | écran de rattachement parent ↔ élève | un parent réel obtient un jeton élève |
+| 3 | D8 livré côté backend (invitations) | écrans « inviter » / « saisir le code » (§2 bis), `POST /session/nouvelle` | un parent réel obtient un jeton élève via un code |
 | 4 | production `enforce` (`MIKA_ENV=production`, `MIKA_RATE_LIMIT=on`, `MIKA_PROXY_HOPS` réglé) | idem | supervision des 401/403/429 |
 | 5 | +7 jours : retrait des jetons de compte sans `typ` (R14) | — | — |
+
+**Règle de passage (décision D12)** : `MIKA_AUTH_MODE=enforce` en production **uniquement quand**
+(1) le front est conforme à ce document, (2) le flux parent/enfant complet fonctionne, (3) les
+tests E2E sont verts — côté backend `tests_cloud/test_e2e_parent_enfant.py` (vert en CI) ET les
+tests E2E du front (à fournir). Tant que ces trois conditions ne sont pas réunies : **aucun
+déploiement de production** (le mode `off` y est refusé au démarrage).
 
 ## 8. Checklist de recette front
 - [ ] aucune requête d'apprentissage sans `Authorization` (vérifier dans l'onglet réseau)
@@ -118,6 +136,7 @@ purger le jeton élève et retirer l'élève de la liste. L'export contient dés
 - [ ] 401 `jeton_expire` élève ⇒ ré-émission unique puis écran de connexion
 - [ ] 401 `jeton_revoque` ⇒ retour au choix d'élève
 - [ ] 429 ⇒ attente `Retry-After`, bouton désactivé
-- [ ] `session_id` et `requete_id` en UUID v4 ; réessai = même `requete_id`
+- [ ] `session_id` obtenu par `POST /session/nouvelle` ; `requete_id` en UUID v4 ; réessai = même `requete_id`
+- [ ] rattachement parent par code d'invitation (§2 bis), confirmation cochée explicitement
 - [ ] effacement RGPD ⇒ l'élève disparaît, ses jetons sont purgés
 - [ ] élève (compte `eleve`) : pas de bouton « effacer » (403)

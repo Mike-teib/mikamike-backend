@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import datetime as _dt
 import json
+import secrets
 import time
 from typing import Dict, Any
 
@@ -51,8 +52,34 @@ class MikaSessionState(SessionBase):
     state_json = Column(Text, nullable=True, default="{}")
 
 
+def generer_session_id() -> str:
+    """Identifiant de séance CRYPTOGRAPHIQUEMENT aléatoire (192 bits), généré par le SERVEUR
+    (décision D15 : jamais un identifiant prévisible choisi par le client — S3-13)."""
+    return "s" + secrets.token_hex(24)
+
+
 class GestionnaireSession:
     """Moteur de gestion des sessions et de reconnexion < 2s."""
+
+    @classmethod
+    def nouvelle(cls, db: Session, eleve_hmac: str) -> Dict[str, Any]:
+        now = _utcnow_naive()
+        for _ in range(3):  # collision : probabilité négligeable (2^-192), on retente par principe
+            sid = generer_session_id()
+            if db.get(MikaSessionState, sid) is None:
+                break
+        else:  # pragma: no cover
+            raise HTTPException(status_code=500, detail="generation_session_impossible")
+        db.add(MikaSessionState(session_id=sid, eleve_hmac=eleve_hmac, is_active=True, last_activity_ts=now,
+                                created_at=now, state_json=json.dumps({})))
+        db.commit()
+        return {"statut": "session_creee", "session_id": sid, "is_active": True}
+
+    @classmethod
+    def exiger_existante(cls, db: Session, session_id: str) -> None:
+        """Mode enforce (D15) : plus aucune création implicite sous un identifiant client."""
+        if db.get(MikaSessionState, session_id) is None:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="session_inconnue")
 
     @classmethod
     def heartbeat(cls, db: Session, session_id: str, eleve_hmac: str) -> Dict[str, Any]:

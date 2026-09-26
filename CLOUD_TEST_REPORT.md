@@ -157,3 +157,20 @@ et accepte `--seulement`.
 | pip-audit | 0 vulnérabilité connue |
 | scan de secrets arbre | 0 |
 | audit R6 (catalogue historique) | 0 faux positif historique |
+
+## Décisions de Mike appliquées (fin de session 3)
+```
+TESTS_TOTAL = 4065   (+48 : invitations D8 30, D5 15, E2E parent/enfant 2, séances D15 +1 net)
+TESTS_PASS  = 4065 · FAIL 0 · ERROR 0
+```
+| Fichier | Tests | Objet |
+|---|---|---|
+| test_invitations.py | 30 | D8 : code 120 bits unique, jamais en clair, usage unique, expiration, confirmation stricte, rôle, déjà lié, force brute, quota, concurrence, RGPD, outil opérateur, aucune autre création de lien |
+| test_equivalence.py (+15) | 59 | D5 : équivalences démontrées acceptées, ambigus refusés, désactivable, jamais d'exception |
+| test_e2e_parent_enfant.py | 2 | D12 : flux complet en enforce (inscription → invitation → validation → jeton → séance → exercice → tuteur → second parent → dashboard → export → effacement → révocation → R7) ; configuration production |
+| test_securite_s3.py | 53 | D15 : fixation impossible en enforce, identifiants serveur uniques 192 bits |
+
+Préparations de tests adaptées (assertions de comportement inchangées) : `test_session_stream_proprietaire`
+(séance créée par `POST /session/nouvelle`), nombre de tables billing (3 → 4, b0003) et nom de
+la révision head billing dans les tests de migration.
+Mutants des décisions : 9/9 tués (`d8_*` ×6, `d5_ambigu_accepte`, `d15_*` ×2).

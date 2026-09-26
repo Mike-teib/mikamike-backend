@@ -246,19 +246,37 @@ def test_reponse_avec_caracteres_de_controle(client):
 # --------------------------------------------------------------------------- #
 # Fixation de séance (S3-13) : une séance d'autrui n'est jamais reprise ni lue
 # --------------------------------------------------------------------------- #
-def test_fixation_de_seance_sans_prise_de_controle(monde):
+def test_fixation_de_seance_impossible_en_enforce(monde):
+    """D15 : un identifiant choisi par le client ne crée plus de séance ; on ne peut donc plus
+    « réserver » l'identifiant prévisible d'autrui."""
     client, j = monde
-    # B crée d'abord la séance « partagee » (identifiant prévisible choisi par l'attaquant).
+    for route, corps in (("heartbeat", {}), ("reconnect", {}), ("save-state", {"state_data": {"piege": 1}})):
+        r = client.post(f"/api/v1/session/{route}", headers=_h(j["B"]),
+                        json={"session_id": "partagee", "user_id": B, **corps})
+        assert (r.status_code, r.json()["detail"]) == (404, "session_inconnue"), route
+    assert client.get("/api/v1/session/stream?session_id=default_session", headers=_h(j["A"])).status_code == 404
+
+
+def test_seance_generee_par_le_serveur_sans_prise_de_controle(monde):
+    client, j = monde
+    ids = set()
+    for _ in range(20):
+        r = client.post("/api/v1/session/nouvelle", json={"user_id": B}, headers=_h(j["B"]))
+        assert r.status_code == 201
+        ids.add(r.json()["session_id"])
+    assert len(ids) == 20 and all(len(s) == 49 and s[0] == "s" and int(s[1:], 16) >= 0 for s in ids)
+    sb = ids.pop()
     assert client.post("/api/v1/session/save-state", headers=_h(j["B"]),
-                       json={"session_id": "partagee", "user_id": B, "state_data": {"piege": 1}}).status_code == 200
+                       json={"session_id": sb, "user_id": B, "state_data": {"piege": 1}}).status_code == 200
     for route, corps in (("heartbeat", {}), ("reconnect", {}), ("save-state", {"state_data": {"x": 1}})):
         r = client.post(f"/api/v1/session/{route}", headers=_h(j["A"]),
-                        json={"session_id": "partagee", "user_id": A, **corps})
+                        json={"session_id": sb, "user_id": A, **corps})
         assert r.status_code == 403, route
         assert "piege" not in r.text
-    # L'état de B n'a pas été modifié par A.
-    r = client.post("/api/v1/session/reconnect", headers=_h(j["B"]), json={"session_id": "partagee", "user_id": B})
+    r = client.post("/api/v1/session/reconnect", headers=_h(j["B"]), json={"session_id": sb, "user_id": B})
     assert r.json()["session_state"] == {"piege": 1}
+    # Création pour un autre élève refusée.
+    assert client.post("/api/v1/session/nouvelle", json={"user_id": A}, headers=_h(j["B"])).status_code == 403
 
 
 # --------------------------------------------------------------------------- #

@@ -122,7 +122,7 @@ robustesse, contrat, test trompeur.
 - EXPECTED : niveau `FRAGILE`, pas de « Bravo », tentative versée `est_correct=False`.
 - ACTUAL : `niveau_estime=ACQUIS_ASSISTE`, message « Bravo ! », tentative `est_correct=True`.
 - FIX : compréhension infirmée ⇒ `FRAGILE` (non effacé par un 2e succès) ; réussite = résolu ET
-  compréhension non infirmée. Choix pédagogique **fail-closed** (à confirmer par Mike, cf. D14).
+  compréhension non infirmée. Choix pédagogique **fail-closed**, **confirmé par Mike (D14)**.
 - TEST : `test_s3_06_*` (+ témoin : compréhension réussie ⇒ « Bravo »). Mutant
   `comprehension_ratee_comptee_reussie`. **Corrigé.**
 
@@ -183,8 +183,10 @@ robustesse, contrat, test trompeur.
 - EXPECTED : isolation par élève. Pourquoi non corrigé ici : la correction propre (clé primaire
   composite `(eleve_hmac, session_id)`, migration m0004) change le comportement verrouillé par les
   tests historiques B1 (403 attendu) et dépend de la façon dont le front génère l'identifiant.
-- MITIGATION immédiate (front) : `session_id` = UUID v4 aléatoire (FRONT_AUTH_INTEGRATION.md §6).
-  Décision **D15** (Mike) : clé composite ou identifiant généré par le serveur.
+- **Décision D15 (Mike) appliquée** : identifiant généré par le serveur (`POST /session/nouvelle`,
+  192 bits) ; en `enforce`, plus de création implicite sous un identifiant client (404
+  `session_inconnue`). Tests `test_fixation_de_seance_impossible_en_enforce`,
+  `test_seance_generee_par_le_serveur_sans_prise_de_controle`. **Corrigé.**
 
 ### S3-14 — Troncature bcrypt à 72 octets — DOCUMENTÉ
 - FILE : `crud_billing.py` · `hacher_mot_de_passe`

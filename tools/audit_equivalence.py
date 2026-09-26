@@ -25,7 +25,8 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sortie", default="reports/equivalence")
     args = ap.parse_args(argv)
-    rapports = auditer_catalogue(catalogue.EXERCICES, catalogue.est_correct)
+    # Référence = correcteur HISTORIQUE par chaînes (la correction symbolique D5 s'y ajoute).
+    rapports = auditer_catalogue(catalogue.EXERCICES, catalogue.est_correct_chaine)
     out = Path(args.sortie)
     out.mkdir(parents=True, exist_ok=True)
     detail = [{**{k: v for k, v in dataclasses.asdict(r).items() if k != "lignes"},

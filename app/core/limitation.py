@@ -155,8 +155,17 @@ JETON_INVALIDE_IP = Limiteur("jeton_invalide_ip", max_echecs=50, fenetre_s=300, 
 # Inscriptions (bcrypt coûteux + oracle d'existence d'e-mail) : toutes les demandes, par IP.
 INSCRIPTION_IP = Limiteur("inscription_ip", max_echecs=20, fenetre_s=3600, backoff_base_s=60, backoff_max_s=3600)
 
+# Invitations (D8) : émission par élève et par IP ; ÉCHECS d'acceptation par compte et par IP
+# (le code fait 120 bits : ces limites rendent la force brute vaine même à grande échelle).
+INVITATION_EMISSION = Limiteur("invitation_emission", max_echecs=10, fenetre_s=3600, backoff_base_s=60,
+                               backoff_max_s=3600)
+INVITATION_ACCEPTATION_COMPTE = Limiteur("invitation_acceptation_compte", max_echecs=5, fenetre_s=900,
+                                         backoff_base_s=60, backoff_max_s=3600)
+INVITATION_ACCEPTATION_IP = Limiteur("invitation_acceptation_ip", max_echecs=20, fenetre_s=900,
+                                     backoff_base_s=60, backoff_max_s=3600)
+
 TOUS = (CONNEXION_IP_EMAIL, CONNEXION_IP, CONNEXION_EMAIL, JETON_COMPTE, JETON_IP, JETON_INVALIDE_IP,
-        INSCRIPTION_IP)
+        INSCRIPTION_IP, INVITATION_EMISSION, INVITATION_ACCEPTATION_COMPTE, INVITATION_ACCEPTATION_IP)
 
 
 def reinitialiser_tout() -> None:

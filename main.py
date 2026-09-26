@@ -30,6 +30,7 @@ from app.api.v1.rgpd.router import rgpd_router
 from app.api.v1.session.router import session_router
 from app.api.v1.auth.router import auth_router
 from app.api.v1.tutorat.router import mika_tutorat_router
+from app.api.v1.liens.router import liens_router
 
 API_V1_PREFIX = "/api/v1"
 
@@ -90,6 +91,7 @@ def create_app() -> FastAPI:
     app.include_router(session_router, prefix=API_V1_PREFIX)
     app.include_router(auth_router, prefix=API_V1_PREFIX)
     app.include_router(mika_tutorat_router, prefix=API_V1_PREFIX)
+    app.include_router(liens_router, prefix=API_V1_PREFIX)
     return app
 
 
