@@ -18,7 +18,8 @@ LAST_COMPLETED_TASK: Lot F — performance, tests d'attaque, CI (mutation + migr
 CURRENT_TASK: aucune — PR #4 en revue
 NEXT_TASK: R1/R2 dès que Mike fournit les artefacts (procédure : IMPORT_CONTRACT.md §7) ;
            sinon D8/D12 (liens compte↔élève + passage du front en `enforce`) avec le front.
-TEST_STATUS: voir CLOUD_TEST_REPORT.md (suite complète verte, mutants tous tués)
+TEST_STATUS: 3767/3767 PASS ; ruff 0 ; bandit 0 ; pip-audit 0 ; secrets arbre 0 ; mutation 39/39 (CI run 21 sur 53794c4)
+LAST_COMMIT: voir `git log -1` (checkpoint final session 2)
 
 KNOWN_BLOCKERS:
   - R1/R2 : artefacts du chantier local (BO/Éduscol, registre, mappings, C02, C02-6, C02-6.1, M01,

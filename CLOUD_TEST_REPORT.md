@@ -97,8 +97,8 @@ erreurs de collecte non comptées comme « tuées ».
 - Le nouveau job CI a révélé que **2 mutants de la session 1 survivaient déjà** sur fb77fb8 (le
   « 18/18 » publié était faux) et qu'un 3e était devenu inapplicable : corrigés (R2-29).
 - 1 mutant de la session 2 (`generation_malgre_anomalie`) survivait : test ajouté.
-- Les 4 correctifs sont vérifiés individuellement (mutant rejoué ⇒ TUÉ) ; résultat de l'exécution
-  complète : cf. job CI « mutation » sur le dernier commit.
+- Les 4 correctifs sont vérifiés individuellement (mutant rejoué ⇒ TUÉ).
+- **Exécution complète en CI sur 53794c4 : 39/39 mutants tués** (run CI n° 21, tous jobs verts).
 
 ## Contrôles qualité (session 2)
 | Contrôle | Résultat |
