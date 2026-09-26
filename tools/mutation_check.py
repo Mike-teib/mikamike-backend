@@ -37,6 +37,7 @@ T_IMPORT = ("tests_cloud/test_import_v2_integrite.py", "tests_cloud/test_review_
 T_ATT = ("tests_cloud/test_attaques.py", "tests_cloud/test_review_session1.py")
 T_S3 = ("tests_cloud/test_review_session2.py",)
 T_RL = ("tests_cloud/test_limitation.py",)
+T_EQ = ("tests_cloud/test_equivalence.py",)
 
 
 MUTANTS: List[Mutant] = [
@@ -171,6 +172,14 @@ MUTANTS: List[Mutant] = [
            "    except HTTPException:\n        raise", T_RL),
     Mutant("historique_oublie_pendant_blocage", "app/core/limitation.py",
            "max(e.echecs[-1], e.bloque_jusqua) <= maintenant", "e.echecs[0] <= maintenant", T_RL),
+    Mutant("equivalence_ambigu_accepte", "app/curriculum/equivalence.py",
+           "    if sym == Verdict.NEEDS_HUMAN_REVIEW or sym == Verdict.AMBIGUOUS:", "    if False:", T_EQ),
+    Mutant("equivalence_forme_ignoree", "app/curriculum/equivalence.py",
+           "    if not ok:\n", "    if False:\n", T_EQ),
+    Mutant("equivalence_autre_variable", "app/curriculum/equivalence.py",
+           "    if vars_att and vars_rep - vars_att:", "    if False:", T_EQ),
+    Mutant("equivalence_conversion_auto", "app/curriculum/equivalence.py",
+           "    if ua != ur:", "    if False:", T_EQ),
 ]
 
 

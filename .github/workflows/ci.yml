@@ -37,6 +37,8 @@ jobs:
         run: python -m pytest -q
       - name: Garde-fou contenu (fixtures, existant, catalogue)
         run: python -m tools.content_check
+      - name: R6 — audit symbolique du catalogue historique (lecture seule, échoue sur faux positif)
+        run: python -m tools.audit_equivalence --sortie /tmp/equivalence
       - name: Rapports reproductibles (backlog + audit dédup)
         run: |
           python -m tools.rapports --sortie /tmp/r1
