@@ -14,7 +14,7 @@
 | `app/core/security_config.py` | 1 | 66 | Lecture fail-closed de `MIKA_PSEUDO_SECRET` / `MIKA_JWT_SECRET` |
 | `app/api/v1/mikamike/` | 7 | ~560 | Catalogue (4 exercices maths en dur), learning engine (7 états, graphe de prérequis démo), CRUD SQLite, routes exercices/parents/parcours |
 | `app/api/v1/escalier/` | 3 | ~230 | Orchestrateur « 8 étapes » (déterministe, sans LLM) |
-| `app/api/v1/parcours/` | 2 | ~365 | `curriculum_dataset.py` : ~57 notions codées en dur (maths primaire→Tle, 2 physique 5e, 2 chimie 4e, 2 SVT 3e), DAG |
+| `app/api/v1/parcours/` | 2 | ~365 | `curriculum_dataset.py` : 47 notions codées en dur (maths primaire→Tle, 2 physique 5e, 2 chimie 4e, 2 SVT 3e), DAG |
 | `app/api/v1/memory/` | 3 | ~270 | Répétition espacée J+1/3/7/14, Ebbinghaus |
 | `app/api/v1/session/` | 3 | ~300 | Heartbeat 5 min, sauvegarde/restauration d'état, SSE |
 | `app/api/v1/rgpd/` | 2 | ~145 | Export / effacement par pseudo-id |
