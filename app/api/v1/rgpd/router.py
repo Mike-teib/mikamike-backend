@@ -19,27 +19,17 @@ from fastapi import APIRouter, Depends, HTTPException, Path, status
 from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
-from app.api.v1.memory.spaced_repetition import MemoryBase, TacheRappelMemoire
-from app.api.v1.mikamike.learning_engine import pseudonymiser_code
-from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice, engine, get_db
-from app.api.v1.session.session_manager import MikaSessionState, SessionBase
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
+from app.api.v1.memory.spaced_repetition import TacheRappelMemoire
+from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice, get_db
+from app.api.v1.session.session_manager import MikaSessionState
+from app.api.v1.tutorat.store import TutoratRequete, TutoratSession
+from app.core.pseudonymisation import hmac_eleve as _hmac
+from app.core.auth import Action, Garde, garde as _garde
 from app.core.validation import ID_PATTERN
 
-_PSEUDO_SECRET = _get_pseudo_secret()
-
 # Registre exhaustif des tables contenant des données d'un élève.
-TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessionState)
-
-# Les tables mémoire/session sont créées paresseusement par leurs routeurs :
-# on garantit leur existence pour que l'export/effacement ne rate jamais rien.
-MemoryBase.metadata.create_all(bind=engine)
-SessionBase.metadata.create_all(bind=engine)
-
-
-def _hmac(student_pseudo_id: str) -> str:
-    """Calcul du hash HMAC déterministe pour la clé interne."""
-    return pseudonymiser_code(student_pseudo_id, _PSEUDO_SECRET)
+TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessionState,
+                TutoratSession, TutoratRequete)
 
 
 def _iso(dt) -> str | None:
@@ -54,12 +44,14 @@ rgpd_router = APIRouter(prefix="/rgpd", tags=["rgpd"])
 @rgpd_router.get("/export/{student_pseudo_id}")
 def exporter_donnees_eleve(
     student_pseudo_id: str = PseudoPath,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Droit d'accès RGPD : Exporte l'intégralité des données d'apprentissage associées
     à un identifiant pseudonymisé, SANS aucune PII (donnée nominative).
     """
+    g.exiger(student_pseudo_id, Action.LECTURE)
     eleve_hmac = _hmac(student_pseudo_id)
 
     tentatives = db.execute(
@@ -77,7 +69,12 @@ def exporter_donnees_eleve(
         select(MikaSessionState).where(MikaSessionState.eleve_hmac == eleve_hmac)
     ).scalars().all()
 
-    if not (tentatives or etats or rappels or sessions):
+    tutorats = db.execute(
+        select(TutoratSession).where(TutoratSession.eleve_hmac == eleve_hmac)
+        .order_by(TutoratSession.cree_le.asc(), TutoratSession.id.asc())
+    ).scalars().all()
+
+    if not (tentatives or etats or rappels or sessions or tutorats):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="aucune_donnee_trouvee_pour_cet_identifiant"
@@ -121,6 +118,22 @@ def exporter_donnees_eleve(
             "etat_seance": etat,
         })
 
+    export_tutorats: List[Dict[str, Any]] = []
+    for t in tutorats:
+        try:
+            etat_t = json.loads(t.etat_json or "{}")
+        except ValueError:
+            etat_t = {"_brut_illisible": True}
+        export_tutorats.append({
+            "tutorat_id": t.id,
+            "exercice_id": t.exercice_id,
+            "derniere_action": t.derniere_action,
+            "termine": t.termine,
+            "cree_le": _iso(t.cree_le),
+            "maj_le": _iso(t.maj_le),
+            "etat": etat_t,
+        })
+
     return {
         "contexte_rgpd": "Export complet des données d'apprentissage",
         "student_pseudo_id": student_pseudo_id,
@@ -131,18 +144,21 @@ def exporter_donnees_eleve(
         "historique_tentatives": export_tentatives,
         "rappels_memoire": export_rappels,
         "sessions": export_sessions,
+        "tutorats_mika": export_tutorats,
     }
 
 
 @rgpd_router.delete("/effacer/{student_pseudo_id}")
 def effacer_donnees_eleve(
     student_pseudo_id: str = PseudoPath,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Droit à l'oubli RGPD : Efface définitivement toutes les données d'apprentissage
     associées à un identifiant élève pseudonymisé, dans TOUTES les tables élève.
     """
+    g.exiger(student_pseudo_id, Action.EFFACEMENT)
     eleve_hmac = _hmac(student_pseudo_id)
 
     compte_par_table: Dict[str, int] = {}
@@ -152,6 +168,10 @@ def effacer_donnees_eleve(
         ).rowcount or 0
         compte_par_table[modele.__tablename__] = n
     db.commit()
+    # Liens compte ↔ élève (base billing) : donnée relative à l'élève, effacée aussi.
+    from paiement_comptes.liens import supprimer_liens_eleve
+
+    compte_par_table["liens_compte_eleve"] = supprimer_liens_eleve(g.db, eleve_hmac)
 
     if not any(compte_par_table.values()):
         raise HTTPException(
@@ -167,4 +187,7 @@ def effacer_donnees_eleve(
         "etats_supprimes": compte_par_table[EtatCompetence.__tablename__],
         "rappels_memoire_supprimes": compte_par_table[TacheRappelMemoire.__tablename__],
         "sessions_supprimees": compte_par_table[MikaSessionState.__tablename__],
+        "tutorats_supprimes": compte_par_table[TutoratSession.__tablename__],
+        "requetes_tutorat_supprimees": compte_par_table[TutoratRequete.__tablename__],
+        "liens_compte_supprimes": compte_par_table["liens_compte_eleve"],
     }

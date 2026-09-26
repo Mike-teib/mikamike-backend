@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from typing import Dict, List
 
-from sqlalchemy import select
+from sqlalchemy import case, func, select
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.store import EtatCompetence, TentativeExercice
@@ -97,25 +97,35 @@ def get_tentatives(db: Session, eleve_hmac: str) -> List[TentativeExercice]:
     return db.execute(
         select(TentativeExercice)
         .where(TentativeExercice.eleve_hmac == eleve_hmac)
-        .order_by(TentativeExercice.ts.desc())
+        .order_by(TentativeExercice.ts.desc(), TentativeExercice.id.desc())
     ).scalars().all()
 
 
 def agreger_dashboard(db: Session, eleve_hmac: str) -> dict:
-    """Statistiques pédagogiques agrégées, SANS aucune PII."""
-    tentatives = get_tentatives(db, eleve_hmac)
-    total = len(tentatives)
-    reussis = sum(1 for t in tentatives if t.est_correct)
+    """
+    Statistiques pédagogiques agrégées, SANS aucune PII.
+
+    Agrégation par GROUP BY en base (revue session 2, R2-16 : tout l'historique des
+    tentatives était auparavant chargé en mémoire à chaque affichage).
+    """
+    lignes = db.execute(
+        select(
+            TentativeExercice.competence,
+            func.count(),
+            func.sum(case((TentativeExercice.est_correct.is_(True), 1), else_=0)),
+        )
+        .where(TentativeExercice.eleve_hmac == eleve_hmac)
+        .group_by(TentativeExercice.competence)
+        .order_by(TentativeExercice.competence)
+    ).all()
     etats = get_etats(db, eleve_hmac)
 
-    par_competence: Dict[str, dict] = {}
-    for t in tentatives:
-        c = par_competence.setdefault(
-            t.competence, {"tentatives": 0, "reussites": 0, "etat": etats.get(t.competence, "INCONNU")}
-        )
-        c["tentatives"] += 1
-        if t.est_correct:
-            c["reussites"] += 1
+    par_competence: Dict[str, dict] = {
+        comp: {"tentatives": int(n), "reussites": int(ok or 0), "etat": etats.get(comp, "INCONNU")}
+        for comp, n, ok in lignes
+    }
+    total = sum(c["tentatives"] for c in par_competence.values())
+    reussis = sum(c["reussites"] for c in par_competence.values())
 
     return {
         "exercices_tentes": total,

@@ -80,3 +80,51 @@ générées des outils d'audit) et `checkpoints/` (états de reprise des traitem
 - les fixtures pédagogiques sont **fictives et marquées** `FIXTURE_FICTIVE` ;
 - effacement RGPD couvrant toutes les tables élève (lot 2), avec test de non-régression qui échoue si une
   nouvelle table indexée par `eleve_hmac` n'est pas couverte.
+
+---
+
+# Session cloud 2 (2026-09-26) — mise à jour
+
+Aucun secret réel utilisé ni créé ; aucune donnée d'élève réelle ; aucune base réelle touchée ;
+aucune API payante. Scan de secrets (arbre) : **0 détection** à chaque commit.
+
+## Failles traitées (détail : CLOUD_REVIEW_SESSION1.md)
+| # | Gravité | Faille | Statut |
+|---|---|---|---|
+| S1 / R2-18 | HAUTE | Routes élève/RGPD sans authentification (pseudo-id = preuve d'identité) | **corrigé** : `app/core/auth.py`, 14 routes + API tuteur gardées, mode `enforce` par défaut (AUTH_CONTRACT.md) |
+| R2-03 | HAUTE | DoS SymPy (> 20 s) et `OverflowError` non rattrapée | **corrigé** : garde de complexité sur arbre non évalué |
+| R2-05 | MOYENNE | Heartbeat : tiers désactivant la séance expirée d'un élève + oracle 401/403 | **corrigé** |
+| R2-06 | MOYENNE | État de séance fusionné non borné (5,7 Mo stockés pour une limite de 2 Mo) | **corrigé** |
+| R2-10 | MOYENNE | Garde JWT : jeton sans `exp` valable à vie, rôle `eleve` par défaut, jeton de compte accepté | **corrigé** |
+| R2-11 | MOYENNE | `/comptes/moi` acceptait tout jeton signé à `sub` numérique, sans `exp` | **corrigé** (`typ=compte`, `exp` exigé) |
+| R2-20 | MOYENNE | Aucune borne de taille de corps HTTP | **corrigé** : 413 avant lecture (4 Mio, configurable) |
+| R2-04 | MOYENNE | Importeur : crash sur JSON hostile, lecture non bornée | **corrigé** |
+| R2-13 | FAIBLE | `verifier_manifest` : traversée de chemin, code retour 0 en cas d'écart | **corrigé** |
+| R2-21 | FAIBLE | `tools/rapports.py` posait un secret littéral de repli | **supprimé** |
+
+## Modèle d'authentification (résumé)
+- Jetons de **compte** (`typ=compte`, clé `MIKA_JWT_SECRET`) et de **séance élève** (`typ=mika-eleve`,
+  `aud`, `iss`, `jti`, TTL 2 h, clé **dérivée** HMAC) : jamais interchangeables, HS256 uniquement,
+  `alg=none` refusé, claims obligatoires.
+- Droits dérivés des **liens compte ↔ élève** (HMAC), jamais du rôle seul ; 403 uniforme (pas d'oracle).
+- `MIKA_AUTH_MODE=off` (contrat historique) **refusé si `MIKA_ENV=production`** ; valeur invalide ⇒
+  refus de démarrer.
+
+## Privacy by design (ajouts)
+- Jeton élève sans PII (claims fixés, testé) ; l'e-mail reste dans le jeton de COMPTE (D3 ouverte).
+- RGPD : l'export et l'effacement couvrent les tables de tutorat et les liens compte ↔ élève ; le test
+  du registre parcourt désormais **toutes** les metadata de la base élève.
+- Réponses d'erreur sans trace ni secret (testé).
+
+## Contrôles (session 2)
+| Contrôle | Résultat |
+|---|---|
+| bandit (≥ moyenne) | 0 |
+| pip-audit (runtime + dev, dont alembic 1.20.0 ajouté) | 0 vulnérabilité connue |
+| scan de secrets arbre | 0 |
+| tests d'attaque | `tests_cloud/test_attaques.py` + `test_auth.py` + `test_review_session1.py` |
+
+## Décisions restant à Mike
+D1 rotation des secrets si un environnement a tourné sans eux · D3 e-mail dans le jeton de compte ·
+D3bis rate-limiting · D8 création des liens compte ↔ élève · D9 effacement par l'élève lui-même ·
+D11 révocation des jetons élève · D12 date de passage du front en `enforce`.

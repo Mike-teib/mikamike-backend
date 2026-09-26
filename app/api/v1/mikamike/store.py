@@ -14,7 +14,7 @@ from __future__ import annotations
 import datetime as _dt
 import os
 
-from sqlalchemy import Boolean, Column, DateTime, Integer, String, create_engine
+from sqlalchemy import Boolean, Column, DateTime, Index, Integer, String, create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 MikaBase = declarative_base()
@@ -38,6 +38,8 @@ class TentativeExercice(MikaBase):
     """Journal des tentatives (pseudonymisé HMAC, aucune PII)."""
 
     __tablename__ = "mika_tentatives"
+    # R11 : série de succès / tableau de bord filtrent par (élève, compétence) triés par date.
+    __table_args__ = (Index("ix_mika_tentatives_eleve_competence_ts", "eleve_hmac", "competence", "ts"),)
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     eleve_hmac = Column(String(32), index=True, nullable=False)  # HMAC-SHA256[:16]
@@ -61,11 +63,6 @@ class EtatCompetence(MikaBase):
     maj = Column(DateTime, nullable=False, default=_utcnow, onupdate=_utcnow)
 
 
-def init_db() -> None:
-    """Crée les tables MikaMike si absentes (idempotent)."""
-    MikaBase.metadata.create_all(bind=engine)
-
-
 def get_db():
     """Dépendance FastAPI : session synchrone par requête."""
     db = SessionLocal()
@@ -74,6 +71,3 @@ def get_db():
     finally:
         db.close()
 
-
-# Création des tables au chargement (fichier SQLite local, effet de bord bénin).
-init_db()

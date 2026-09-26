@@ -33,6 +33,13 @@ from app.curriculum.verifiers.base import Resultat, ambigu, invalide, revue, val
 
 MAX_LONGUEUR = 200
 MAX_EXPOSANT = 60
+# Garde de complexité sur l'ARBRE (revue session 2, finding R2-03 : « 9^(59*59*59*59) »,
+# « 10^(59)^(59) », « (x+y+z+1)^60 », « exp(exp(exp(59))) » bloquaient ou faisaient planter).
+MAX_NOEUDS = 120
+MAX_TERMES_DEVELOPPES = 2000
+MAX_PROFONDEUR_FONCTIONS = 2
+MAX_EXPOSANT_TRANSCENDANT = 8
+MAX_OPS_SIMPLIFY = 60
 _CARACTERES = re.compile(r"^[0-9a-zA-Z+\-*/^().,=\s²³√π×÷·−]*$")
 _FONCTIONS: Dict[str, object] = {
     "sqrt": sympy.sqrt, "sin": sympy.sin, "cos": sympy.cos, "tan": sympy.tan,
@@ -100,15 +107,88 @@ def _espace_noms(texte: str) -> Tuple[Dict[str, object], Dict[str, object]]:
     return glob, loc
 
 
+_FONCTIONS_TRANSCENDANTES = (sympy.sin, sympy.cos, sympy.tan, sympy.exp, sympy.log)
+
+
+def _valeur_exposant(e: sympy.Basic) -> float:
+    """Valeur d'un exposant CONSTANT et simple ; toute puissance imbriquée est refusée."""
+    if isinstance(e, (sympy.Integer, sympy.Rational, sympy.Float)):
+        v = float(e)
+        if abs(v) > MAX_EXPOSANT:
+            raise EntreeRefusee("exposant_trop_grand")
+        return v
+    if isinstance(e, sympy.Pow) and e.exp == -1:  # division a/b écrite a*b^-1
+        b = _valeur_exposant(e.base)
+        if b == 0:
+            raise ExpressionNonDefinie("expression_non_definie")
+        return 1.0 / b
+    if isinstance(e, sympy.Symbol):
+        # Exposant symbolique (suites : 2^n, q^(n+1)) : aucun développement n'est déclenché.
+        return 1.0
+    if isinstance(e, (sympy.Mul, sympy.Add)) and len(e.args) <= 3:
+        vals = [_valeur_exposant(a) for a in e.args]
+        v = 1.0
+        if isinstance(e, sympy.Mul):
+            for x in vals:
+                v *= x
+        else:
+            v = sum(vals)
+        if abs(v) > MAX_EXPOSANT:
+            raise EntreeRefusee("exposant_trop_grand")
+        return v
+    raise EntreeRefusee("exposant_non_litteral")
+
+
+def _controler_complexite(expr: sympy.Basic) -> None:
+    """Refuse AVANT toute évaluation les arbres dont le calcul peut exploser."""
+    noeuds = 0
+    pile = [(expr, 1.0, 0)]  # (nœud, exposant cumulé, profondeur de fonctions)
+    while pile:
+        e, cumul, prof = pile.pop()
+        noeuds += 1
+        if noeuds > MAX_NOEUDS:
+            raise EntreeRefusee("expression_trop_complexe")
+        if isinstance(e, sympy.Pow):
+            v = _valeur_exposant(e.exp) if not (e.exp == -1) else -1.0
+            cumul *= max(1.0, abs(v))
+            if cumul > MAX_EXPOSANT:
+                raise EntreeRefusee("exposant_trop_grand")
+            if isinstance(e.base, sympy.Add) and abs(v) > 1:
+                k, n = len(e.base.args), int(abs(v))
+                if math.comb(n + k - 1, k - 1) > MAX_TERMES_DEVELOPPES:
+                    raise EntreeRefusee("developpement_trop_grand")
+            if abs(v) > MAX_EXPOSANT_TRANSCENDANT and e.base.has(*_FONCTIONS_TRANSCENDANTES):
+                raise EntreeRefusee("puissance_transcendante_trop_grande")
+            pile.append((e.base, cumul, prof))
+            continue
+        if isinstance(e, sympy.Function):
+            prof += 1
+            if prof > MAX_PROFONDEUR_FONCTIONS:
+                raise EntreeRefusee("fonctions_trop_imbriquees")
+        for a in e.args:
+            pile.append((a, cumul, prof))
+
+
 def analyser(texte: str, *, evaluer: bool = True) -> sympy.Expr:
     t = normaliser(texte)
     if "=" in t:
         raise EntreeRefusee("egalite_non_attendue")
     glob, loc = _espace_noms(t)
     try:
+        # 1) arbre NON évalué → contrôle de complexité ; 2) évaluation seulement si sûr.
+        brut = parse_expr(t, local_dict=dict(loc), global_dict=dict(glob),
+                          transformations=_TRANSFORMATIONS, evaluate=False)
+    except Exception as exc:  # syntaxe invalide, TokenError…
+        raise EntreeRefusee("syntaxe_invalide") from exc
+    if not isinstance(brut, sympy.Basic):
+        raise EntreeRefusee("expression_invalide")
+    _controler_complexite(brut)
+    try:
         expr = parse_expr(t, local_dict=loc, global_dict=glob,
                           transformations=_TRANSFORMATIONS, evaluate=evaluer)
-    except Exception as exc:  # syntaxe invalide, TokenError…
+    except (OverflowError, RecursionError, MemoryError) as exc:
+        raise EntreeRefusee("calcul_trop_lourd") from exc
+    except Exception as exc:
         raise EntreeRefusee("syntaxe_invalide") from exc
     if not isinstance(expr, sympy.Basic):
         raise EntreeRefusee("expression_invalide")
@@ -118,21 +198,37 @@ def analyser(texte: str, *, evaluer: bool = True) -> sympy.Expr:
 
 
 def _difference_nulle(a: sympy.Expr, b: sympy.Expr) -> Optional[bool]:
-    """True : égales ; False : différentes ; None : indécidable."""
-    d = sympy.simplify(a - b)
+    """True : égales ; False : différentes ; None : indécidable (jamais d'exception)."""
+    try:
+        return _difference_nulle_brute(a, b)
+    except (OverflowError, RecursionError, MemoryError, ZeroDivisionError, TypeError, ValueError):
+        return None
+
+
+def _difference_nulle_brute(a: sympy.Expr, b: sympy.Expr) -> Optional[bool]:
+    d = a - b
     if d == 0:
         return True
     if not d.free_symbols:
         val = complex(sympy.N(d, 30))
-        return abs(val) < 1e-12 if not math.isnan(val.real) else None
-    syms = sorted(d.free_symbols, key=str)
-    for pt in _POINTS_TEST:
-        try:
-            v = complex(sympy.N(d.subs({s: pt + i for i, s in enumerate(syms)}), 30))
-        except (TypeError, ValueError):
+        if math.isnan(val.real) or math.isnan(val.imag):
             return None
-        if abs(v) > 1e-9:
+        if abs(val) >= 1e-12:
             return False
+    else:
+        # Test NUMÉRIQUE d'abord (rapide) : une seule valeur non nulle prouve la différence.
+        syms = sorted(d.free_symbols, key=str)
+        for pt in _POINTS_TEST:
+            v = complex(sympy.N(d.subs({s: pt + i for i, s in enumerate(syms)}), 30))
+            if abs(v) > 1e-9:
+                return False
+    # Candidats égaux : preuve symbolique seulement si l'expression reste petite.
+    if sympy.count_ops(d) > MAX_OPS_SIMPLIFY:
+        return None
+    if sympy.simplify(d) == 0:
+        return True
+    if not d.free_symbols:
+        return True  # |d| < 1e-12 à 30 chiffres significatifs
     return None  # nul en tous les points testés sans preuve symbolique
 
 

@@ -17,6 +17,7 @@ from sqlalchemy import delete
 from main import app
 from app.api.v1.mikamike.store import engine, SessionLocal
 from app.api.v1.session.session_manager import SessionBase, MikaSessionState
+from app.core.pseudonymisation import hmac_eleve
 
 client = TestClient(app)
 
@@ -54,7 +55,10 @@ def test_timeout_5min_inactivite_expiration():
         past_ts = _dt.datetime.utcnow() - _dt.timedelta(seconds=360)
         session_obj = MikaSessionState(
             session_id=session_id,
-            eleve_hmac="hmac_timeout",
+            # Revue session 2 (R2-05) : la séance doit appartenir à l'élève qui l'interroge.
+            # Avant, `"hmac_timeout"` ≠ HMAC("eleve_timeout") : le test validait qu'un TIERS
+            # obtenait 401 (et désactivait la séance) au lieu de 403 — faux positif.
+            eleve_hmac=hmac_eleve("eleve_timeout"),
             is_active=True,
             last_activity_ts=past_ts
         )

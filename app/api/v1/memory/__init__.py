@@ -3,7 +3,5 @@ Module Spaced Repetition Memory Engine — MikaMike (Tâche #28).
 Conforme au Cahier des Charges & Courbe d'oubli d'Ebbinghaus.
 """
 
-from app.api.v1.memory.router import memory_router
-from app.api.v1.memory.spaced_repetition import MoteurCourbeOubliEbbinghaus
-
-__all__ = ["memory_router", "MoteurCourbeOubliEbbinghaus"]
+# Aucun import ici : importer le paquet (ex. pour ses modèles lors d'une migration)
+# ne doit ni lire de secret ni charger les routeurs (revue session 2, R2-07/R2-15).

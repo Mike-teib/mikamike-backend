@@ -42,6 +42,39 @@ jobs:
           python -m tools.rapports --sortie /tmp/r1
           python -m tools.rapports --sortie /tmp/r2
           diff -r /tmp/r1 /tmp/r2
+      - name: Migrations (bases SQLite jetables) — upgrade, status, downgrade, re-upgrade
+        env:
+          MIKA_DB_URL: sqlite:////tmp/mika_migr.db
+          BILLING_DB_URL: sqlite:////tmp/billing_migr.db
+        run: |
+          python -m tools.db upgrade
+          python -m tools.db status
+          python -m tools.db downgrade mika base
+          python -m tools.db downgrade billing base
+          python -m tools.db upgrade
+          python -m tools.db status
+
+  mutation:
+    name: mutation (bugs injectés, tous doivent être tués)
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      MIKA_JWT_SECRET: test-jwt-secret-not-for-prod-0123456789
+      MIKA_PSEUDO_SECRET: test-pseudo-secret-not-for-prod-0123456789
+      MIKA_DB_URL: sqlite:////tmp/mika_mut.db
+      BILLING_DB_URL: sqlite:////tmp/billing_mut.db
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Installer
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r requirements-dev.txt
+      - name: Mutation check (baseline verte exigée, erreurs de collecte non comptées)
+        run: python -m tools.mutation_check
 
   security:
     name: sécurité (secrets, SAST, dépendances)

@@ -16,27 +16,25 @@ os.environ.setdefault(
 )
 os.environ.setdefault("MIKA_JWT_SECRET", "test-jwt-secret-not-for-prod-0123456789")
 os.environ.setdefault("MIKA_PSEUDO_SECRET", "test-pseudo-secret-not-for-prod-0123456789")
+# Bases JETABLES : schéma créé explicitement ci-dessous (pas de migration au démarrage).
+os.environ.setdefault("MIKA_DB_INIT", "none")
+# Anciens tests : contrat historique sans jeton (la couche d'autorisation est testée
+# séparément en mode « enforce », cf. tests_cloud/test_auth.py).
+os.environ.setdefault("MIKA_AUTH_MODE", "off")
 
 import pytest  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402
 
-from app.api.v1.memory.spaced_repetition import MemoryBase  # noqa: E402
-from app.api.v1.mikamike.store import MikaBase, engine as mika_engine  # noqa: E402
-from app.api.v1.session.session_manager import SessionBase  # noqa: E402
 from main import app  # noqa: E402
-from paiement_comptes.database import Base as BillingBase, engine as billing_engine  # noqa: E402
+from app.db.registre import creer_tables_pour_tests  # noqa: E402
+
+
+creer_tables_pour_tests()
 
 
 @pytest.fixture()
 def client():
-    # Isolation stricte : TOUTES les bases élève et billing neuves à chaque test.
-    for base, eng in (
-        (MikaBase, mika_engine),
-        (MemoryBase, mika_engine),
-        (SessionBase, mika_engine),
-        (BillingBase, billing_engine),
-    ):
-        base.metadata.drop_all(bind=eng)
-        base.metadata.create_all(bind=eng)
+    # Isolation stricte : TOUTES les bases (mika + billing) neuves à chaque test.
+    creer_tables_pour_tests(reinitialiser=True)
     with TestClient(app) as c:
         yield c

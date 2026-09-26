@@ -302,3 +302,16 @@ def test_migration_existant_honnete():
     assert all(n.chapitre_id is None for n in m.notions)
     ids = {n.id for n in m.notions}
     assert all(p in ids for n in m.notions for p in n.prerequis)
+
+
+def test_mauvais_niveau_notion_hors_programme_meme_si_chapitre_coherent(ref):
+    # Revue session 2 (R2-29) : le test précédent était aussi satisfait par le contrôle
+    # notion/chapitre ; ici notion ET chapitre sont en 5e, hors du programme cycle 3 :
+    # seule la règle « niveau hors programme » peut produire l'anomalie SUR LA NOTION.
+    from app.curriculum.structure import valider_referentiel
+
+    chap = ref.chapitres[0].model_copy(update={"niveau": Niveau.CINQUIEME})
+    n = _notion(ref, "notion:fictif:sans-preuve").model_copy(update={"niveau": Niveau.CINQUIEME})
+    ref2 = _remplacer(_remplacer(ref, "chapitres", chap.id, chap), "notions", n.id, n)
+    assert any(a.code == "MAUVAIS_NIVEAU" and a.objet_id == n.id and "hors" in a.detail
+               for a in valider_referentiel(ref2))

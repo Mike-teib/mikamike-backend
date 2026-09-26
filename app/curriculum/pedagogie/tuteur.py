@@ -63,16 +63,27 @@ class PlanGuidage(BaseModel):
     question_comprehension: str = ""
     correction_commentee: str = Field(min_length=1)
     exercice_consolidation_id: Optional[str] = None
+    # Clé de correction de la question de compréhension (vérifiée CÔTÉ SERVEUR : on ne
+    # croit jamais un « j'ai compris » déclaré par le client). Vide = non vérifiable.
+    reponse_comprehension: str = Field(default="", max_length=500)
+    type_verification_comprehension: Optional[str] = None
 
 
-def valider_plan(plan: PlanGuidage, ex: Exercice) -> List[str]:
+class TransitionInvalide(ValueError):
+    """Action demandée incompatible avec l'état du tutorat (ex. compréhension non demandée)."""
+
+
+def valider_plan(plan: PlanGuidage, ex: Exercice, *, exiger_cle_comprehension: bool = False) -> List[str]:
     """Le plan ne doit ni divulguer la réponse avant la correction, ni se répéter."""
     raisons: List[str] = []
     rep = dedup.normaliser(ex.reponse_attendue)
     aides = list(ex.indices) + list(plan.questions_intermediaires) + list(plan.methodes_alternatives)
     if plan.question_comprehension:
         aides.append(plan.question_comprehension)
-    for texte in aides:
+    # Les diagnostics d'erreurs fréquentes sont affichés AVANT la correction : ils ne
+    # doivent pas non plus divulguer la réponse (revue session 2, finding R2-09).
+    diagnostics = list(ex.erreurs_frequentes.values())
+    for texte in aides + diagnostics:
         if len(rep) >= 1 and _contient_reponse(texte, rep):
             raisons.append("aide_divulgue_la_reponse")
             break
@@ -81,6 +92,12 @@ def valider_plan(plan: PlanGuidage, ex: Exercice) -> List[str]:
         raisons.append("aides_repetees")
     if not ex.indices and not plan.questions_intermediaires and not plan.methodes_alternatives:
         raisons.append("aucune_aide_disponible")
+    if plan.question_comprehension and plan.reponse_comprehension:
+        cle = dedup.normaliser(plan.reponse_comprehension)
+        if cle and _contient_reponse(plan.question_comprehension, cle):
+            raisons.append("question_comprehension_divulgue_sa_reponse")
+    if exiger_cle_comprehension and plan.question_comprehension and not plan.reponse_comprehension:
+        raisons.append("comprehension_non_verifiable")
     return raisons
 
 
@@ -119,6 +136,7 @@ class EtatTutorat:
     niveau_estime: str = "INCONNU"
     messages: Tuple[str, ...] = ()
     termine: bool = False
+    attend_comprehension: bool = False
 
     @property
     def niveau_aide(self) -> int:
@@ -199,22 +217,37 @@ class TuteurMika:
         return self._erreur(etat, reponse)
 
     def demander_aide(self, etat: EtatTutorat) -> Tuple[EtatTutorat, Reponse]:
+        if etat.termine:
+            return etat, Reponse(Action.REVUE_HUMAINE, "Séance déjà terminée.", self._difficulte(etat))
         return self._escalader(replace(etat, avec_aide=True))
 
     def repondre_comprehension(self, etat: EtatTutorat, correcte: bool) -> Tuple[EtatTutorat, Reponse]:
-        etat = replace(etat, comprehension_verifiee=correcte)
+        # Seulement en réponse à VERIFIER_COMPREHENSION : sinon « j'ai compris » permettait
+        # de clore un exercice jamais résolu (revue session 2, finding R2-08).
+        if etat.termine or not etat.attend_comprehension:
+            raise TransitionInvalide("comprehension_non_demandee")
+        etat = replace(etat, comprehension_verifiee=correcte, attend_comprehension=False)
         if correcte:
             return self._consolider(etat)
         if etat.methodes_donnees < len(self.plan.methodes_alternatives):
             return self._autre_methode(etat)
         return self._consolider(etat)
 
+    def repondre_comprehension_texte(self, etat: EtatTutorat, reponse: str) -> Tuple[EtatTutorat, Reponse]:
+        """Vérifie la réponse à la question de compréhension avec la clé du plan."""
+        if not self.plan.reponse_comprehension:
+            raise TransitionInvalide("comprehension_non_verifiable")
+        type_v = self.plan.type_verification_comprehension or self.ex.type_verification
+        res = verifier(type_v, self.plan.reponse_comprehension, reponse, self.ex.parametres_verification)
+        return self.repondre_comprehension(etat, res.verdict == Verdict.VALID)
+
     # -------------------------------------------------------------- interne
     def _succes(self, etat: EtatTutorat) -> Tuple[EtatTutorat, Reponse]:
         etat = replace(etat, resolu=True,
                        niveau_estime="ACQUIS_ASSISTE" if etat.avec_aide else "ACQUIS_AUTONOME")
         if etat.avec_aide and self.plan.question_comprehension:
-            return self._emettre(etat, Action.VERIFIER_COMPREHENSION, self.plan.question_comprehension)
+            return self._emettre(replace(etat, attend_comprehension=True),
+                                 Action.VERIFIER_COMPREHENSION, self.plan.question_comprehension)
         return self._consolider(etat)
 
     def _consolider(self, etat: EtatTutorat) -> Tuple[EtatTutorat, Reponse]:

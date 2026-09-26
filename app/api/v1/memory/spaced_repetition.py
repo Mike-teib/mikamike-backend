@@ -13,11 +13,6 @@ from typing import Dict, Any
 from sqlalchemy import Column, String, Integer, Boolean, DateTime, Float, select
 from sqlalchemy.orm import declarative_base, Session
 
-# Secret HMAC pour la pseudonymisation
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
-
-_PSEUDO_SECRET = _get_pseudo_secret()
-
 def _utcnow_naive() -> _dt.datetime:
     """UTC naïf (SQLite ne stocke pas le fuseau) — remplace datetime.utcnow déprécié."""
     return _dt.datetime.now(_dt.timezone.utc).replace(tzinfo=None)

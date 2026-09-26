@@ -44,8 +44,15 @@ def _shingles(texte: str, n: int = 3) -> FrozenSet[str]:
     return frozenset(" ".join(mots[i:i + n]) for i in range(len(mots) - n + 1))
 
 
-def similarite(a: str, b: str) -> float:
-    sa, sb = _shingles(a), _shingles(b)
+def shingles(texte: str) -> FrozenSet[str]:
+    return _shingles(texte)
+
+
+def jaccard(sa: FrozenSet[str], sb: FrozenSet[str]) -> float:
     if not sa and not sb:
         return 1.0
     return len(sa & sb) / len(sa | sb)
+
+
+def similarite(a: str, b: str) -> float:
+    return jaccard(_shingles(a), _shingles(b))

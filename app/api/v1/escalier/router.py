@@ -13,6 +13,7 @@ from sqlalchemy.orm import Session
 
 from app.api.v1.escalier.orchestrator import OrchestrateurEscalier
 from app.api.v1.mikamike.store import get_db
+from app.core.auth import Action, Garde, garde as _garde
 from app.core.validation import Identifiant, ReponseEleve
 
 
@@ -31,12 +32,14 @@ escalier_router = APIRouter(prefix="/escalier", tags=["escalier-mika"])
 @escalier_router.post("/etape")
 def executer_etape_escalier(
     payload: EscalierEtapeIn,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Déroule l'orchestrateur de l'Escalier Mika en 8 étapes :
     Objectif -> Analyse Erreur -> Prérequis -> Explication -> Micro-remédiation -> Vérification Moteur -> Retour Objectif -> Mémoire
     """
+    g.exiger(payload.student_pseudo_id, Action.APPRENTISSAGE)
     orchestrateur = OrchestrateurEscalier(db, payload.student_pseudo_id)
     return orchestrateur.executer_pipeline_8_etapes(
         competence_objectif=payload.competence_objectif,

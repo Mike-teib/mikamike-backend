@@ -15,6 +15,7 @@ préfixe public /api/v1, aux chemins exacts attendus par le frontend :
 from __future__ import annotations
 
 import os
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -27,18 +28,39 @@ from app.api.v1.parcours.router import parcours_graph_router
 from app.api.v1.memory.router import memory_router
 from app.api.v1.rgpd.router import rgpd_router
 from app.api.v1.session.router import session_router
+from app.api.v1.auth.router import auth_router
+from app.api.v1.tutorat.router import mika_tutorat_router
 
 API_V1_PREFIX = "/api/v1"
 
 
+@asynccontextmanager
+async def _cycle_de_vie(_app: FastAPI):
+    # Schéma : jamais de create_all implicite (revue session 2, R2-07). Par défaut
+    # (MIKA_DB_INIT=check) l'application REFUSE de démarrer si une base n'est pas à la
+    # révision head ; `migrate` applique les migrations ; `none` pour les bases de test.
+    from app.core.auth import mode_auth
+    from app.db.migrations import initialiser_au_demarrage
+
+    mode_auth()  # configuration d'authentification invalide ⇒ refus de démarrer
+    initialiser_au_demarrage()
+    yield
+
+
 def create_app() -> FastAPI:
     app = FastAPI(
+        lifespan=_cycle_de_vie,
         title="MikaMike Backend",
         version="1.0.0",
         openapi_url=f"{API_V1_PREFIX}/openapi.json",
         docs_url=f"{API_V1_PREFIX}/docs",
         redoc_url=f"{API_V1_PREFIX}/redoc",
     )
+
+    # Taille maximale du corps des requêtes (413 avant lecture/parsing, R2-20).
+    from app.core.limites import LimiteTailleCorps
+
+    app.add_middleware(LimiteTailleCorps)
 
     origins = [o for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()]
     if origins:
@@ -63,6 +85,8 @@ def create_app() -> FastAPI:
     app.include_router(memory_router, prefix=API_V1_PREFIX)
     app.include_router(rgpd_router, prefix=API_V1_PREFIX)
     app.include_router(session_router, prefix=API_V1_PREFIX)
+    app.include_router(auth_router, prefix=API_V1_PREFIX)
+    app.include_router(mika_tutorat_router, prefix=API_V1_PREFIX)
     return app
 
 

@@ -12,7 +12,6 @@ from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike import crud
-from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import get_db
 from app.api.v1.parcours.curriculum_dataset import (
     ReferentielInconnu,
@@ -23,15 +22,9 @@ from app.api.v1.parcours.curriculum_dataset import (
     normaliser_matiere,
 )
 
-from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
+from app.core.pseudonymisation import hmac_eleve as _hmac
+from app.core.auth import Action, Garde, garde as _garde
 from app.core.validation import ID_PATTERN, Identifiant
-
-_PSEUDO_SECRET = _get_pseudo_secret()
-
-
-def _hmac(student_pseudo_id: str) -> str:
-    return pseudonymiser_code(student_pseudo_id, _PSEUDO_SECRET)
-
 
 def _resoudre_referentiel(level: str, subject: str):
     """Normalise niveau/matière et charge le graphe ; 422 si inconnu, 404 si absent."""
@@ -69,11 +62,13 @@ parcours_graph_router = APIRouter(prefix="/parcours", tags=["parcours-graph"])
 @parcours_graph_router.post("/", response_model=ParcoursResponse, include_in_schema=False)
 def charger_parcours_competences(
     payload: ParcoursRequest,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Génère le graphe de compétences complet et le parcours personnalisé (3 premières notions).
     """
+    g.exiger(payload.user_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(payload.user_id)
     etats_db = crud.get_etats(db, eleve_hmac)
 
@@ -104,11 +99,13 @@ def obtenir_parcours_seul(
     user_id: str = Path(max_length=128, pattern=ID_PATTERN),
     level: str = Path(max_length=32),
     subject: str = Path(max_length=32),
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    g: Garde = Depends(_garde),
 ) -> Dict[str, Any]:
     """
     Retourne uniquement le parcours personnalisé (learning path) pour un élève, niveau et matière.
     """
+    g.exiger(user_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(user_id)
     etats_db = crud.get_etats(db, eleve_hmac)
 
