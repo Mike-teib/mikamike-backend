@@ -10,7 +10,7 @@ from __future__ import annotations
 from typing import Dict, Any, Optional
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike import catalogue, crud
+from app.api.v1.mikamike import catalogue, crud, moteur
 from app.api.v1.mikamike.learning_engine import (
     LearningEngine,
     EtatMaitrise
@@ -91,7 +91,15 @@ class OrchestrateurEscalier:
         # La transition porte sur la compétence RÉELLEMENT évaluée (celle de l'exercice),
         # jamais sur la lacune prérequis identifiée mais non testée (bug B9).
         nouvel_etat = EtatMaitrise.INCONNU
-        if est_correct is not None:
+        progression = None
+        if est_correct is not None and moteur.moteur_actif() == "historique":
+            # Session 5 : moteur sur historique ; la tentative n'est journalisée qu'à l'étape 8.
+            nouvel_etat, diag = moteur.evaluer(
+                self.db, self.eleve_hmac, competence_exo,
+                courante=moteur.tentative_courante(est_correct, avec_aide))
+            self.engine.etats_eleves[(self.eleve_hmac, competence_exo)] = nouvel_etat
+            progression = moteur.progression_json(diag)
+        elif est_correct is not None:
             # Série antérieure (autonome) + tentative courante si réussie sans aide :
             # même sémantique que /exercices/soumettre (tentative déjà journalisée).
             succes_consec = crud.compter_succes_consecutifs(
@@ -149,6 +157,7 @@ class OrchestrateurEscalier:
             "competence_active": competence_active,
             "est_correct": est_correct,
             "etat_maitrise": nouvel_etat.value if est_correct is not None else "INCONNU",
+            "progression": progression,
             "exercice_courant_id": prochain_exo_id,
             "consigne": meta_active["enonce"] if meta_active else "Résolvez l'équation.",
             "message_tuteur": message_tuteur,

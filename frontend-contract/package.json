@@ -1,0 +1,24 @@
+{
+  "name": "@mikamike/frontend-contract",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Contrat front MikaMike : types, client fetch de référence, machines d'état pures et tests contractuels (sans framework, sans dépendance d'exécution).",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "exports": {
+    "./types": "./types.ts",
+    "./client": "./client.ts",
+    "./validators": "./validators.ts",
+    "./auth-state": "./auth-state.ts",
+    "./parent-link-state": "./parent-link-state.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"contract-tests/*.test.ts\""
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

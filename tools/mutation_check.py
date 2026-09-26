@@ -57,7 +57,11 @@ T_MATH = ("tests_cloud/test_maths_etendu.py",)
 T_SVT = ("tests_cloud/test_svt_raisonnement.py", "tests_cloud/test_verifiers_sciences.py")
 T_QZ = ("tests_cloud/test_quiz_types.py", "tests_cloud/test_exercices_quiz.py")
 T_ES = ("tests_cloud/test_es_provenance.py", "tests_cloud/test_technologie_s4.py", "tests_cloud/test_verifiers_sciences.py")
-T_PROG = ("tests_cloud/test_progression.py",)
+T_PROG = ("tests_cloud/test_progression.py", "tests_cloud/test_progression_api_s5.py")
+T_MAIL = ("tests_cloud/test_email_provider.py",)
+T_SECRC1 = ("tests_cloud/test_securite_rc1.py",)
+T_PUB5 = ("tests_cloud/test_publication_rc1.py", "tests_cloud/test_publication.py")
+T_MOTEUR = ("tests_cloud/test_progression_api_s5.py", "tests_cloud/test_api_regressions.py")
 T_S4SEC = ("tests_cloud/test_securite_s4.py", "tests_cloud/test_parent_minimisation.py", "tests_cloud/test_retention.py")
 T_PC = ("tests_cloud/test_physique_etendu.py", "tests_cloud/test_verifiers_sciences.py")
 T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
@@ -390,11 +394,34 @@ MUTANTS: List[Mutant] = [
     Mutant("prog_diagnostic_une_reponse", "app/curriculum/pedagogie/progression.py",
            "    if len(h) < MIN_OBSERVATIONS:", "    if len(h) < 1:", T_PROG),
     Mutant("prog_aide_comptee_autonome", "app/curriculum/pedagogie/progression.py",
-           "    autonomes = [t for t in h if not t.avec_aide][-4:]", "    autonomes = list(h)[-4:]", T_PROG),
+           "    preuves = [t for t in h if not (t.avec_aide and _reussie(t))]", "    preuves = list(h)", T_PROG),
+    Mutant("prog_echec_aide_ignore", "app/curriculum/pedagogie/progression.py",
+           "    preuves = [t for t in h if not (t.avec_aide and _reussie(t))]",
+           "    preuves = [t for t in h if not t.avec_aide]", T_PROG),
     Mutant("prog_d14_ignore", "app/curriculum/pedagogie/progression.py",
            "    return t.correcte and t.comprehension_finale  # R3", "    return t.correcte  # R3", T_PROG),
     Mutant("prog_retest_non_espace", "app/curriculum/pedagogie/progression.py",
-           "            and len({_jour(t) for t in auto_ok}) >= 2:", "            and True:", T_PROG),
+           "    if len(auto_ok) >= 3 and _reussie(autonomes[-1]) and len(jours_ok) >= 2:",
+           "    if len(auto_ok) >= 3 and _reussie(autonomes[-1]):", T_PROG),
+    Mutant("prog_espacement_sur_fenetre", "app/curriculum/pedagogie/progression.py",
+           "    jours_ok = {_jour(t) for t in preuves if _reussie(t)}",
+           "    jours_ok = {_jour(t) for t in auto_ok}", T_PROG),
+    # Session 5 : pont API ↔ moteur sur historique.
+    Mutant("moteur_legacy_par_defaut", "app/api/v1/mikamike/moteur.py",
+           'MOTEUR_DEFAUT = "historique"', 'MOTEUR_DEFAUT = "legacy"', T_MOTEUR),
+    Mutant("moteur_config_repli_silencieux", "app/api/v1/mikamike/moteur.py",
+           "    if brut not in MOTEURS:", "    if False:", T_MOTEUR),
+    Mutant("moteur_une_reponse_solide", "app/api/v1/mikamike/moteur.py",
+           "    if autonomes:\n        return EtatMaitrise.EN_COURS",
+           "    if autonomes:\n        return EtatMaitrise.ACQUIS_AUTONOME", T_MOTEUR),
+    Mutant("moteur_retest_ignore", "app/api/v1/mikamike/moteur.py",
+           '        if "R4_retest_espace_requis" in diag.raisons:', "        if True:", T_MOTEUR),
+    Mutant("moteur_courante_ignoree", "app/api/v1/mikamike/moteur.py",
+           "        h = (h + [courante])[-HISTORIQUE_MAX:]", "        h = h", T_MOTEUR),
+    Mutant("moteur_historique_non_borne", "app/api/v1/mikamike/moteur.py",
+           "        .limit(HISTORIQUE_MAX)\n", "", T_MOTEUR),
+    Mutant("moteur_non_acquise_favorable", "app/api/v1/mikamike/moteur.py",
+           "        return EtatMaitrise.A_REVOIR", "        return EtatMaitrise.EN_COURS", T_MOTEUR),
     Mutant("prog_variation_non_bornee", "app/curriculum/pedagogie/progression.py",
            "        if abs(ib - ia) > 1:", "        if False:", T_PROG),
     Mutant("sec_422_echo_saisie", "app/core/entetes_securite.py",
@@ -408,20 +435,58 @@ MUTANTS: List[Mutant] = [
            '    model_config = ConfigDict(extra="forbid")\n\n\nclass StatCompetence',
            '    model_config = ConfigDict(extra="allow")\n\n\nclass StatCompetence', T_S4SEC),
     Mutant("retention_invitations_utilisees_purgees", "app/core/retention.py",
-           "InvitationLien.utilise_le.is_(None) & (InvitationLien.expire_le <= t)",
-           "(InvitationLien.expire_le <= t)", T_S4SEC),
+           '"invitations_lien": (InvitationLien, InvitationLien.utilise_le.is_(None) & (',
+           '"invitations_lien": (InvitationLien, (', T_S4SEC),
     Mutant("retention_bornes_ignorees", "app/core/retention.py",
-           "    if not brut.isdigit() or not (BORNES[0] <= int(brut) <= BORNES[1]):",
+           "    if not brut.isdigit() or not (bas <= int(brut) <= haut):",
            "    if not brut.isdigit():", T_S4SEC),
     Mutant("angle_unite_ignoree", "app/curriculum/verifiers/maths_etendu.py",
            'return valide("angle_egal") if ur == unite else revue', 'return valide("angle_egal") if True else revue', T_MATH),
+    # Session 5 : rétention (rapport scellé, lots, audit).
+    Mutant("retention_reference_ignoree", "app/core/retention.py",
+           '    supprimes = {"mika": purger_mika(db_mika, appliquer=True, maintenant=ref,',
+           '    supprimes = {"mika": purger_mika(db_mika, appliquer=True, maintenant=None,', T_S4SEC),
+    Mutant("retention_perimetre_elargi_accepte", "app/core/retention.py",
+           "            if n > int(r[base].get(table, 0)):", "            if False:", T_S4SEC),
+    Mutant("retention_empreinte_non_verifiee", "app/core/retention.py",
+           '    if r.get("empreinte") != _empreinte(corps):', "    if False:", T_S4SEC),
+    Mutant("retention_rapport_perime_accepte", "app/core/retention.py",
+           "    if not (_dt.timedelta(0) <= t - ref <= _dt.timedelta(hours=AGE_MAX_RAPPORT_H)):", "    if False:", T_S4SEC),
+    Mutant("retention_commit_final_seulement", "app/core/retention.py",
+           "            db.commit()\n            lots += 1", "            lots += 1", T_S4SEC),
+    Mutant("retention_audit_non_chaine", "tools/purge_retention.py",
+           '        if e.get("precedent") != precedent:', "        if False:", T_S4SEC),
+    Mutant("retention_appliquer_sans_rapport", "tools/purge_retention.py",
+           '    if opts["appliquer"] != bool(opts["rapport"]) or', '    if False or', T_S4SEC),
+    # Session 5 : audit sécurité (S5-01, course à la première soumission).
+    Mutant("s5_01_upsert_sans_reprise", "app/api/v1/mikamike/crud.py",
+           "        except IntegrityError:\n            db.rollback()\n            obj = db.get(EtatCompetence, (eleve_hmac, competence))",
+           "        except ZeroDivisionError:\n            db.rollback()\n            obj = db.get(EtatCompetence, (eleve_hmac, competence))",
+           T_SECRC1),
+    # Session 5 : garde de publication (quiz revalidé, auto-tests rejoués).
+    Mutant("pub_quiz_non_revalide", "app/curriculum/publication.py",
+           "        if valider_question(contenu, idx, autoriser_fictif=autoriser_fictif):",
+           "        if False:", T_PUB5),
+    Mutant("pub_tests_rouges_ignores", "app/curriculum/publication.py",
+           '                r.append("TESTS_ROUGES")', "                pass", T_PUB5),
+    # Session 5 : fournisseur SMTP.
+    Mutant("smtp_clair_autorise_en_prod", "app/core/courriel.py",
+           '        if securite == "aucune" and _en_production():', "        if False:", T_MAIL),
+    Mutant("smtp_injection_entete", "app/core/courriel.py",
+           '    if "\\r" in v or "\\n" in v:', "    if False:", T_MAIL),
+    Mutant("smtp_starttls_omis", "app/core/courriel.py",
+           '                if c.securite == "starttls":\n                    smtp.starttls(context=ssl.create_default_context())\n', "", T_MAIL),
+    Mutant("smtp_config_non_validee_au_demarrage", "app/core/courriel.py",
+           "        ConfigSMTP.depuis_env()  # configuration incomplète", "        pass  # configuration incomplète", T_MAIL),
+    Mutant("smtp_echec_fait_echouer_inscription", "paiement_comptes/router_comptes.py",
+           "    except courriel.EchecEnvoiCourriel:\n        return False", "    except ZeroDivisionError:\n        return False", T_MAIL),
     Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
            "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
            "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),
 ]
 
 
-IGNORES = shutil.ignore_patterns(".git", ".venv", "venv", "__pycache__", "*.db", "reports", "checkpoints")
+IGNORES = shutil.ignore_patterns(".git", ".venv", "venv", "__pycache__", "*.db", "reports", "checkpoints", "node_modules")
 
 
 _RACINE_EXEC: List[Path] = []  # copie jetable en cours de mutation (vide : dépôt réel)

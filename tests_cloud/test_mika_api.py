@@ -183,7 +183,9 @@ def test_aide_graduee_dans_l_ordre_sans_solution_immediate(api):
     assert t["etat"]["niveau_estime"] == "FRAGILE" and t["etat"]["termine"]
     db = SessionLocal()
     try:
-        assert crud.get_etats(db, hmac_eleve(A))["notion:fictif:fractions-decimales"] == "FRAGILE"
+        # Session 5 (moteur sur historique) : un seul tutorat échoué n'est pas un diagnostic
+        # (R1) ; l'ancien moteur donnait FRAGILE (conservé sous MIKA_PROGRESSION_MOTEUR=legacy).
+        assert crud.get_etats(db, hmac_eleve(A))["notion:fictif:fractions-decimales"] == "INCONNU"
     finally:
         db.close()
 

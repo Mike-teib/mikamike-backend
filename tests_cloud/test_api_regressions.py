@@ -176,7 +176,14 @@ def test_b7_scores_hors_bornes_422(client, scores, seuil):
 # --------------------------------------------------------------------------- #
 # B8 — Un succès AVEC aide ne compte pas dans la série vers MAITRISE
 # --------------------------------------------------------------------------- #
-def test_b8_succes_aide_casse_la_serie(client):
+@pytest.fixture
+def legacy(monkeypatch):
+    """Session 5 : l'ancien moteur reste disponible (MIKA_PROGRESSION_MOTEUR=legacy, retour
+    arrière) ; ses assertions d'origine sont conservées telles quelles sous ce mode."""
+    monkeypatch.setenv("MIKA_PROGRESSION_MOTEUR", "legacy")
+
+
+def test_b8_succes_aide_casse_la_serie(client, legacy):
     def soumettre(aide):
         return client.post("/api/v1/exercices/soumettre", json={
             "exercice_id": "exo-maths-algebre-1", "student_pseudo_id": "eleve-serie",
@@ -191,10 +198,28 @@ def test_b8_succes_aide_casse_la_serie(client):
     assert soumettre(False) == "MAITRISE"
 
 
+def test_b8_moteur_historique_serie_meme_jour_sans_maitrise(client):
+    """Moteur sur historique (défaut, session 5) : même séquence, mais pas de diagnostic
+    avant 3 réponses (R1), succès aidé non autonome (R2), et MAITRISE refusée tant que les
+    réussites autonomes tiennent sur un seul jour (R4)."""
+    def soumettre(aide):
+        return client.post("/api/v1/exercices/soumettre", json={
+            "exercice_id": "exo-maths-algebre-1", "student_pseudo_id": "eleve-serie-h",
+            "reponse": "3", "avec_aide": aide,
+        }).json()
+
+    etats = [soumettre(a) for a in (False, False, True, False, False)]
+    assert [e["etat_maitrise"] for e in etats] == [
+        "EN_COURS", "EN_COURS", "EN_COURS", "ACQUIS_AUTONOME", "ACQUIS_AUTONOME"]
+    assert [e["progression"]["niveau"] for e in etats] == [
+        "NON_EVALUEE", "NON_EVALUEE", "EN_COURS", "EN_COURS", "EN_COURS"]
+    assert "R4_retest_espace_requis" in etats[-1]["progression"]["raisons"]
+
+
 # --------------------------------------------------------------------------- #
 # B9 — L'échec est imputé à la compétence réellement tentée
 # --------------------------------------------------------------------------- #
-def test_b9_escalier_echec_impute_a_la_competence_tentee(client):
+def test_b9_escalier_echec_impute_a_la_competence_tentee(client, legacy):
     r = client.post("/api/v1/escalier/etape", json={
         "student_pseudo_id": "eleve-b9", "competence_objectif": "equations_1er_degre",
         "exercice_id": "exo-maths-algebre-1", "reponse_eleve": "x = 999",
@@ -210,7 +235,25 @@ def test_b9_escalier_echec_impute_a_la_competence_tentee(client):
     assert lacune not in etats
 
 
-def test_b9_escalier_meme_semantique_que_soumettre(client):
+def test_b9_moteur_historique_echec_impute_sans_diagnostic_sur_une_reponse(client):
+    r = client.post("/api/v1/escalier/etape", json={
+        "student_pseudo_id": "eleve-b9h", "competence_objectif": "equations_1er_degre",
+        "exercice_id": "exo-maths-algebre-1", "reponse_eleve": "x = 999",
+    })
+    assert r.status_code == 200
+    lacune = r.json()["remediation"]["competence_lacune"]
+    assert r.json()["progression"]["niveau"] == "NON_EVALUEE"
+    db = SessionLocal()
+    try:
+        etats = crud.get_etats(db, _hmac("eleve-b9h"))
+    finally:
+        db.close()
+    # Imputé à la compétence tentée, mais aucun diagnostic (ni FRAGILE) sur une seule réponse.
+    assert etats == {"equations_1er_degre": "INCONNU"}
+    assert lacune not in etats
+
+
+def test_b9_escalier_meme_semantique_que_soumettre(client, legacy):
     def etape():
         return client.post("/api/v1/escalier/etape", json={
             "student_pseudo_id": "eleve-b9s", "competence_objectif": "equations_1er_degre",
@@ -218,6 +261,22 @@ def test_b9_escalier_meme_semantique_que_soumettre(client):
         }).json()["etat_maitrise"]
 
     assert [etape(), etape(), etape()] == ["EN_COURS", "ACQUIS_AUTONOME", "MAITRISE"]
+
+
+def test_b9_moteur_historique_escalier_meme_semantique_que_soumettre(client):
+    def etape(eleve):
+        return client.post("/api/v1/escalier/etape", json={
+            "student_pseudo_id": eleve, "competence_objectif": "equations_1er_degre",
+            "exercice_id": "exo-maths-algebre-1", "reponse_eleve": "3",
+        }).json()["etat_maitrise"]
+
+    def soumettre(eleve):
+        return client.post("/api/v1/exercices/soumettre", json={
+            "exercice_id": "exo-maths-algebre-1", "student_pseudo_id": eleve, "reponse": "3",
+        }).json()["etat_maitrise"]
+
+    assert [etape("eleve-b9e") for _ in range(4)] == [soumettre("eleve-b9t") for _ in range(4)] == [
+        "EN_COURS", "EN_COURS", "ACQUIS_AUTONOME", "ACQUIS_AUTONOME"]
 
 
 # --------------------------------------------------------------------------- #

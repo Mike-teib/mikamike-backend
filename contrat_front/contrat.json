@@ -364,6 +364,15 @@
         "est_correct": "boolean",
         "etat_maitrise": "string",
         "message": "string",
+        "progression": {
+          "moteur": "string",
+          "niveau": "string",
+          "observations": "integer",
+          "prochaine_action": "string",
+          "raisons": [
+            "string"
+          ]
+        },
         "remediation": "null"
       },
       "statut_http": 200

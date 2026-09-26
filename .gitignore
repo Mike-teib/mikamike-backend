@@ -66,3 +66,6 @@ tmp/
 # Sorties générées des outils cloud (audit, backlog, checkpoints)
 reports/
 checkpoints/
+
+# Journal d audit de retention (session 5) : hors depot
+var/

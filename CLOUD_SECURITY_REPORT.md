@@ -224,3 +224,29 @@ sensibles, garde de publication.
 ## Bilan
 P0 ouverts : 0 · P1 ouverts : 0 · P2 ouverts : R17 (limitation multi-instances), R18 (verrou migrations
 multi-réplicas) — infrastructure.
+
+## Session 5 — release candidate 1 (audit ciblé)
+
+Outils rejoués sur la branche RC : bandit 0 (sévérité moyenne+), pip-audit 0, scanner de secrets
+arbre 0 (historique : les 12 détections connues, dont le repli faible de `c01d9ba` ⇒ décision D1).
+
+| id | gravité | constat | correction | preuve |
+|---|---|---|---|---|
+| S5-01 | P2 | deux premières soumissions **simultanées** (même élève, même compétence) ⇒ `IntegrityError` ⇒ **500** (`upsert_etat` lit puis insère sans reprise) — antérieur à la session | reprise sur conflit (rollback, relecture, mise à jour) ; le moteur sur historique rend l'état auto-réparant | `test_s5_01_premieres_soumissions_simultanees_sans_500`, mutant `s5_01_upsert_sans_reprise` tué |
+| S5-02 | P2 (intégrité pédagogique) | moteur sur historique : déclarer l'aide sur un **échec** pouvait faire **monter** le niveau (1 782 cas sur 25 984 historiques) | R8 : un échec aidé reste un échec ; espacement mesuré sur l'historique borné | `test_r8_*` (exhaustif), mutants `prog_echec_aide_ignore`, `prog_espacement_sur_fenetre` |
+| S5-03 | P3 | SMTP : injection d'en-têtes, identifiants en clair, SMTP non chiffré en production | refus explicites, TLS vérifié, validation au démarrage | `test_email_provider.py`, mutants `smtp_*` |
+
+Audit manuel ciblé (résultat : aucun autre défaut) :
+
+- **IDOR / BOLA** : matrice des 22 routes portant une identité d'élève (`test_securite_rc1.py`) —
+  3 attaquants (parent d'un autre élève, jeton de séance d'un autre élève, compte élève d'un autre
+  élève) ⇒ jamais de 2xx ; témoin positif du propriétaire à chaque fois ; **inventaire** : toute
+  nouvelle route non classée fait échouer la suite.
+- **JWT** : en-têtes hostiles, algorithmes, clé élève dérivée, `ver`/`cv` (sessions 3–4) ; jeton
+  expiré refusé sans fuite (`test_e2e_release.py`).
+- **Fixation de séance** : identifiant serveur (D15) ; identifiant inventé ⇒ 404 (E2E RC).
+- **Courses** : invitation, vérification, tutorat, inscription (sessions 3–4) ; première soumission (S5-01).
+- **Affectation de masse / 422** : inventaire `extra=forbid` et 422 sans écho (session 4) ; le nouveau
+  schéma `Progression` est fermé.
+- **RGPD / parent-enfant / invitation / vérification d'adresse** : E2E complet en enforce (déconnexion
+  globale, suppression du compte : tous les anciens jetons, compte et élève, refusés).

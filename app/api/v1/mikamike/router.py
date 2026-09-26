@@ -17,7 +17,7 @@ from __future__ import annotations
 from fastapi import APIRouter, Depends, HTTPException, Path, Query
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike import catalogue, crud
+from app.api.v1.mikamike import catalogue, crud, moteur
 from app.api.v1.mikamike.learning_engine import (
     ETATS_SOLIDES,
     EtatMaitrise,
@@ -76,18 +76,26 @@ def soumettre_exercice(payload: SoumissionIn, db: Session = Depends(get_db), g: 
         avec_aide=payload.avec_aide,
     )
 
-    # 2) Transition d'état via le moteur (préchargé avec l'historique réel)
+    # 2) Transition d'état. Session 5 : décision par le moteur sur HISTORIQUE (moteur.py) ;
+    #    `MIKA_PROGRESSION_MOTEUR=legacy` rétablit l'ancien calcul (retour arrière).
     eng = _engine_charge(db, eleve_hmac)
-    succes_consec = crud.compter_succes_consecutifs(
-        db, eleve_hmac, competence, autonomes_seulement=True
-    )
-    nouvel_etat = eng.evaluer_transition(
-        eleve_hmac,
-        competence,
-        est_correct=correct,
-        avec_aide=payload.avec_aide,
-        nombre_succes_consecutifs=succes_consec,
-    )
+    progression = None
+    if moteur.moteur_actif() == "legacy":
+        succes_consec = crud.compter_succes_consecutifs(
+            db, eleve_hmac, competence, autonomes_seulement=True
+        )
+        nouvel_etat = eng.evaluer_transition(
+            eleve_hmac,
+            competence,
+            est_correct=correct,
+            avec_aide=payload.avec_aide,
+            nombre_succes_consecutifs=succes_consec,
+        )
+    else:
+        # La tentative vient d'être validée en base : elle fait partie de l'historique lu.
+        nouvel_etat, diag = moteur.evaluer(db, eleve_hmac, competence)
+        eng.etats_eleves[(eleve_hmac, competence)] = nouvel_etat
+        progression = moteur.progression_json(diag)
     crud.upsert_etat(db, eleve_hmac, competence, nouvel_etat.value)
 
     if correct:
@@ -96,6 +104,7 @@ def soumettre_exercice(payload: SoumissionIn, db: Session = Depends(get_db), g: 
             etat_maitrise=nouvel_etat.value,
             message="Bravo ! Tu montes une marche de l'escalier.",
             remediation=None,
+            progression=progression,
         )
 
     # 3) Erreur -> diagnostic de la marche manquante (remontée des prérequis)
@@ -114,6 +123,7 @@ def soumettre_exercice(payload: SoumissionIn, db: Session = Depends(get_db), g: 
             exercice_prerequis=exo_prerequis,
             competence_lacune=competence_cible_remed,
         ),
+        progression=progression,
     )
 
 

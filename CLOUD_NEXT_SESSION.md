@@ -1,5 +1,25 @@
 # CLOUD_NEXT_SESSION — Checkpoint permanent
 
+## SESSION 5 — branche `cloud/mikamike-release-candidate-1`, PR #7 (draft, base = PR #6)
+LAST_COMPLETED: lots 1, 3–16 (pile auditée ; moteur sur historique branché ; frontend-contract/ ;
+  E2E complet enforce ; SMTP ; rétention exploitable ; manifeste des artefacts ; dataset synthétique ;
+  matrice de migrations ; perf ; audit BOLA + S5-01 ; garde de publication ; CI rc-gate ; runbooks).
+CURRENT: aucune — PR #7 en revue (CI surveillée).
+NEXT: Mike — (1) déployer le staging selon STAGING_DEPLOYMENT_RUNBOOK.md ; (2) fournir les artefacts
+  (ARTIFACTS_REQUIRED_MANIFEST.json) ; (3) trancher les 8 écarts d'API (FRONT_IMPLEMENTATION_PACK.md) ;
+  (4) choisir le fournisseur de courriel ; (5) DPO_RETENTION_DECISION.md ; (6) fusionner #3→#7.
+VERDICTS: READY_FOR_STAGING = YES (sous réserve CI rc-gate verte + secrets/hôte staging) ;
+  READY_FOR_PRODUCTION = NO (RELEASE_CANDIDATE.md §14).
+TESTS: 4593 (base #6) → 4806 passed + 1 (S5-01 déterministe), 0 échec (local) ; ruff 0.
+MUTATIONS: 178/178 tués en local ; CI e4bd36b : 177/178 (s5_01 dépendant du minutage) ⇒ test
+  déterministe ajouté, mutant tué seul.
+SECURITY: bandit 0 · pip-audit 0 · secrets arbre 0 · P0 0 · P1 0.
+MIGRATIONS: inchangées (mika m0003_tutorat ; billing b0004_verif_email_revocation).
+DECISIONS (conservatrices, réversibles) : moteur historique par défaut, `legacy` en retour arrière ;
+  aucune route de quiz inventée ; écarts d'API documentés, non corrigés (changement de contrat) ;
+  données utilisateurs synthétiques séparées du lot de contenu ; SQLite / une instance.
+PR: https://github.com/Mike-teib/mikamike-backend/pull/7 — NE PAS MERGER sans Mike.
+
 ## SESSION 4 — branche `cloud/mikamike-session4-autonomous`, PR #6 (draft, empilée sur #5)
 LAST_COMPLETED: R19 + révocation + cycle de vie du compte ; contrat front exécutable ; observabilité ;
   garde de publication ; import en deux temps ; chapitrage prouvé ; qualité de texte ; récurrence ;

@@ -23,7 +23,7 @@ from sqlalchemy import select, update
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike import crud
+from app.api.v1.mikamike import crud, moteur
 from app.api.v1.mikamike.learning_engine import EtatMaitrise, LearningEngine
 from app.api.v1.tutorat.contenu import ContenuIndisponible, catalogue
 from app.api.v1.tutorat.store import TutoratRequete, TutoratSession
@@ -248,15 +248,21 @@ def _verser_au_learning_engine(db: Session, eleve_hmac: str, ex, etat: EtatTutor
     db.add(TentativeExercice(eleve_hmac=eleve_hmac, exercice_id=ex.id[:64], matiere=ex.matiere.value,
                              niveau=ex.niveau.value, competence=ex.notion_id[:64],
                              est_correct=_reussi(etat), avec_aide=etat.avec_aide))
-    eng = LearningEngine()
-    courant = db.execute(select(EtatCompetence.etat).where(
-        EtatCompetence.eleve_hmac == eleve_hmac, EtatCompetence.competence == ex.notion_id[:64])).scalar()
-    try:
-        eng.etats_eleves[(eleve_hmac, ex.notion_id[:64])] = EtatMaitrise(courant or "INCONNU")
-    except ValueError:
-        pass
-    nouvel = eng.evaluer_transition(eleve_hmac, ex.notion_id[:64], est_correct=_reussi(etat),
-                                    avec_aide=etat.avec_aide, nombre_succes_consecutifs=0)
+    if moteur.moteur_actif() == "historique":
+        # Session 5 : moteur sur historique. La tentative ci-dessus n'est pas encore validée
+        # (autoflush désactivé) : elle est passée explicitement. D14 : compréhension infirmée.
+        nouvel, _diag = moteur.evaluer(db, eleve_hmac, ex.notion_id[:64], courante=moteur.tentative_courante(
+            etat.resolu, etat.avec_aide, comprehension_finale=etat.comprehension_verifiee is not False))
+    else:
+        eng = LearningEngine()
+        courant = db.execute(select(EtatCompetence.etat).where(
+            EtatCompetence.eleve_hmac == eleve_hmac, EtatCompetence.competence == ex.notion_id[:64])).scalar()
+        try:
+            eng.etats_eleves[(eleve_hmac, ex.notion_id[:64])] = EtatMaitrise(courant or "INCONNU")
+        except ValueError:
+            pass
+        nouvel = eng.evaluer_transition(eleve_hmac, ex.notion_id[:64], est_correct=_reussi(etat),
+                                        avec_aide=etat.avec_aide, nombre_succes_consecutifs=0)
     obj = db.get(EtatCompetence, (eleve_hmac, ex.notion_id[:64]))
     if obj is None:
         db.add(EtatCompetence(eleve_hmac=eleve_hmac, competence=ex.notion_id[:64], etat=nouvel.value))

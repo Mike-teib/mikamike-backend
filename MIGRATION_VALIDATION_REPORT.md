@@ -40,3 +40,15 @@ Mutants dédiés (tous tués) : `url_alembic_non_echappee`, `ddl_sqlite_non_tran
 - Plusieurs processus appliquant `upgrade` en même temps : non protégé (verrou applicatif absent) ;
   en production, appliquer les migrations par une seule tâche de déploiement, jamais `MIKA_DB_INIT=migrate`
   sur plusieurs réplicas.
+
+## Session 5 — release candidate 1 (`tests_cloud/test_migrations_rc1.py`)
+
+| scénario | résultat |
+|---|---|
+| **matrice de toutes les têtes** : 4 départs mika × 5 départs billing (de `base` à head), montés ensemble à head, puis démarrage `MIKA_DB_INIT=check` et parcours réel (inscription, vérification, soumission, dashboard) | 20/20 : schéma = modèles, données de départ conservées, parcours 201/200/200/200 |
+| rollback du runbook : base remplie **par l'API** à head → `downgrade billing b0003_invitations_lien` → `upgrade` | comptes, abonnements, tentatives identiques (empreintes) ; perte documentée : `verifications_email`, `jeton_version` remis à 0 |
+| coupure dans b0004 en partant de b0002 | atomicité **par révision** : b0003 reste validée, b0004 annulée sans table partielle, données intactes ; relance ⇒ head |
+
+Conséquence runbook : après un rollback vers b0003, les jetons émis avant restent valables jusqu'à
+expiration (la révocation par version est perdue) ; si une révocation était en cours, faire tourner
+`MIKA_JWT_SECRET` (ROLLBACK_RUNBOOK.md).

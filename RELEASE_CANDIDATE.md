@@ -1,101 +1,136 @@
-# RELEASE_CANDIDATE — MikaMike backend (session cloud 4, 2026-09-26)
+# RELEASE_CANDIDATE — MikaMike backend, RC1 (session cloud 5, 2026-09-26)
 
-**Verdict : RELEASE_CANDIDATE = NON pour la production ; candidat pour un STAGING (préproduction).**
-Le backend est complet, testé et durci, mais la production exige des éléments hors de ce dépôt :
-artefacts officiels (programmes), front conforme + E2E front (D12), fournisseur de courriel réel,
-décisions DPO (rétention). Rien n'a été fusionné ni déployé depuis la session cloud.
+| verdict | valeur | condition |
+|---|---|---|
+| **READY_FOR_STAGING** | **YES** | code, migrations, runbook, smoke et rollback prêts et testés ; CI `rc-gate` verte sur le SHA déployé ; secrets et hôte staging fournis par Mike (hors dépôt) |
+| **READY_FOR_PRODUCTION** | **NO** | artefacts officiels absents, front + E2E front absents (D12), fournisseur de courriel réel non choisi, durées DPO non validées, pile non fusionnée |
+
+Rien n'a été fusionné ni déployé. Aucune production touchée, aucun secret réel, aucune API payante,
+aucun courriel réel, aucune donnée réelle de mineur.
 
 ## 1. Identification
 
 | élément | valeur |
 |---|---|
-| branche | `cloud/mikamike-session4-autonomous` (miroir `claude/elegant-cray-y17l2b`) |
-| PR | https://github.com/Mike-teib/mikamike-backend/pull/6 (draft, empilée sur #5 ← #4 ← #3) |
-| SHA candidat | tête de la branche au moment du déploiement staging (`git rev-parse HEAD`) ; dernier SHA vert en CI noté dans CLOUD_NEXT_SESSION.md |
-| ordre de fusion | #3 → #4 → #5 → #6, **uniquement par Mike** |
+| branche | `cloud/mikamike-release-candidate-1` (miroir `claude/loving-hamilton-e1ksf3`) |
+| PR | https://github.com/Mike-teib/mikamike-backend/pull/7 (draft, base = PR #6) |
+| SHA final | voir `CLOUD_NEXT_SESSION.md` (dernier SHA vert en CI) ; déployer uniquement un SHA dont `rc-gate` est vert |
+| pile | main ← [#3](https://github.com/Mike-teib/mikamike-backend/pull/3) ← [#4](https://github.com/Mike-teib/mikamike-backend/pull/4) ← [#5](https://github.com/Mike-teib/mikamike-backend/pull/5) ← [#6](https://github.com/Mike-teib/mikamike-backend/pull/6) ← [#7](https://github.com/Mike-teib/mikamike-backend/pull/7) : linéaire, 0 conflit (STACK_INTEGRATION_REPORT.md) |
+| ordre de fusion | #3 → #4 → #5 → #6 → #7, **uniquement par Mike** (avances rapides) |
 
-## 2. Migrations
+## 2. Contenu de la RC1 (au-dessus de la PR #6)
 
-| base | head | révisions |
+| lot | livrable |
+|---|---|
+| 1 | STACK_INTEGRATION_REPORT.md (historique, dépendances, migrations, compatibilité API/schéma) |
+| 3 | API branchée sur le moteur de progression sur historique (`app/api/v1/mikamike/moteur.py`) ; R8 corrigé ; `MIKA_PROGRESSION_MOTEUR=legacy` en retour arrière |
+| 4 | `frontend-contract/` : types, client, validateurs, machines d'état, exemples, tests contractuels |
+| 5 | E2E backend complet en enforce (`tests_cloud/test_e2e_release.py`) |
+| 6 | fournisseur SMTP générique (EMAIL_PROVIDER_SETUP.md), aucune clé |
+| 7 | rétention : rapport scellé, lots, reprise, idempotence, audit chaîné ; DPO_RETENTION_DECISION.md |
+| 8 | ARTIFACTS_REQUIRED_MANIFEST.json + `tools.artefacts verifier` |
+| 9 | dataset synthétique de staging (STAGING_DATASET.md) |
+| 10 | migrations : matrice de toutes les têtes, rollback runbook, reprise |
+| 11 | performance : requêtes constantes par appel (aucun N+1 trouvé), migration 100 000 lignes |
+| 12 | audit sécurité : matrice BOLA + inventaire des routes, S5-01 corrigé |
+| 13 | garde de publication : quiz revalidé, auto-tests rejoués (TESTS_ROUGES) |
+| 15 | CI : Node 22 avant pytest, job `frontend-contract`, étapes RC1, verrou `rc-gate` |
+| 16 | runbooks staging / production / rollback ; `tools.smoke`, `tools.sauvegarde` |
+
+## 3. Migrations
+
+| base | head | chaîne |
 |---|---|---|
-| mika | `m0003_tutorat` | m0001_baseline, m0002_index_tentatives, m0003_tutorat |
-| billing | `b0004_verif_email_revocation` | b0001_baseline, b0002_liens_compte_eleve, b0003_invitations_lien, b0004 (colonne `comptes.jeton_version`, table `verifications_email`) |
+| mika | `m0003_tutorat` | m0001_baseline → m0002_index_tentatives → m0003_tutorat |
+| billing | `b0004_verif_email_revocation` | b0001 → b0002_liens_compte_eleve → b0003_invitations_lien → b0004 |
 
-Validé par tests : base neuve, base historique adoptée, upgrade pas à pas, downgrade/re-upgrade
-(données préservées), version inconnue refusée, migration interrompue ⇒ rollback, **double upgrade
-sans effet sur schéma/données/révision, deux upgrades concurrents ⇒ base cohérente** (session 4).
-Procédure : `python -m tools.db status` → sauvegarde → `python -m tools.db upgrade` → `status`.
+La RC1 n'ajoute **aucune** migration. Validé : base neuve, base historique adoptée, pas à pas,
+double et concurrent, interrompu (atomicité par révision) puis reprise, downgrade/upgrade avec
+données, **matrice des 20 couples de départ** montés ensemble puis application démarrée en `check`,
+rollback du runbook vers b0003 avec données créées par l'API.
 
-## 3. Variables d'environnement
+## 4. Variables d'environnement
 
-Obligatoires en production (démarrage refusé sinon) : `MIKA_JWT_SECRET`, `MIKA_PSEUDO_SECRET`
-(≥ 32 caractères, non-test), `MIKA_DB_URL`, `BILLING_DB_URL`, `MIKA_ENV=production`,
-`MIKA_EMAIL_TRANSPORT` = fournisseur réel **enregistré** (`faux`/`journal` refusés en production).
+Obligatoires en production (démarrage refusé sinon) : `MIKA_ENV=production`, `MIKA_JWT_SECRET`,
+`MIKA_PSEUDO_SECRET`, `MIKA_DB_URL`, `BILLING_DB_URL`, `MIKA_EMAIL_TRANSPORT=smtp` + `MIKA_SMTP_HOST`,
+`MIKA_SMTP_FROM`, `MIKA_SMTP_USER`, `MIKA_SMTP_PASSWORD` (chiffré : `MIKA_SMTP_SECURITE=starttls|ssl`).
+Nouveaux en RC1 : `MIKA_SMTP_*`, `MIKA_PROGRESSION_MOTEUR` (historique|legacy),
+`MIKA_RETENTION_INVITATIONS_EXPIREES_JOURS`, `MIKA_RETENTION_AUDIT`, `MIKA_OPERATEUR` (outil de purge),
+`MIKA_ARTEFACTS_DIR`. Référence : `.env.example`.
 
-Réglages : `MIKA_AUTH_MODE` (off|observe|enforce — enforce seulement après D12), `MIKA_TOKEN_TTL_H`,
-`MIKA_ELEVE_TOKEN_TTL_MIN`, `MIKA_DB_INIT` (none|check|migrate), `MIKA_MAX_BODY_BYTES`,
-`MIKA_RATE_LIMIT`, `MIKA_PROXY_HOPS`, `MIKA_RL_EMAIL_GLOBAL`, `MIKA_CORRECTION_SYMBOLIQUE`,
-`MIKA_INVITATION_TTL_MIN`, `MIKA_EMAIL_VERIFICATION` (requise ; `off` refusé en production),
-`MIKA_EMAIL_VERIF_TTL_MIN`, `MIKA_RETENTION_*_JOURS`, `CORS_ORIGINS`, `MIKA_APP_URL`,
-`STRIPE_*`. Référence : `.env.example`.
+## 5. Dépendances
 
-## 4. Dépendances
+Python : `requirements.txt` inchangé (fastapi 0.141.1, pydantic 2.13.5, SQLAlchemy 2.0.35, alembic
+1.20.0, PyJWT 2.15.0, bcrypt 4.2.0, sympy 1.14.0, stripe 10.10.0…) ; le SMTP utilise la bibliothèque
+standard. Node ≥ 22.18 pour le package front et le vérificateur de contrat ; `typescript` 5.9.3
+(devDependency unique, lockfile). pip-audit : 0 vulnérabilité connue. **SQLite uniquement**
+(aucun pilote PostgreSQL) : une seule instance applicative (`--workers 1`).
 
-`requirements.txt` épinglé (fastapi 0.141.1, pydantic 2.13.5, SQLAlchemy 2.0.35, alembic 1.20.0,
-PyJWT 2.15.0, bcrypt 4.2.0, sympy 1.14.0, stripe 10.10.0…). pip-audit : 0 vulnérabilité connue
-(CI « sécurité »). Node 22 uniquement pour le vérificateur de contrat front (CI).
+## 6. Tests
 
-## 5. Tests et qualité
+Voir le rapport final de session (`CLOUD_NEXT_SESSION.md`) pour les chiffres exacts de la tête ;
+base de la pile (#6, 470e89e) : 4593 passed. Suites ajoutées en RC1 : moteur/API (30), SMTP (22),
+rétention (+14), artefacts (16), E2E RC (3), migrations RC (22), perf RC (10), sécurité RC (24),
+publication RC (35), dataset (27), package front (5 pytest + 293 Node), smoke (3), sauvegarde (3).
 
-- Suite `tests_cloud` : 4065 au début de la session 4 → **4531 passed, 0 échec**.
-- Mutation : tous les mutants ciblés de la session tués (dont 40 des lots 10, 14–21, 26).
-- ruff 0, bandit 0, scanner de secrets 0, contrat front sans dérive (46 appels).
+## 7. Mutations
 
-## 6. Sécurité (résumé, détail CLOUD_SECURITY_REPORT.md)
+`python -m tools.mutation_check` (CI, job `mutation`) : tous les mutants doivent être tués.
+Mutants ajoutés en RC1 : progression/moteur (9 + 2 réalignés), SMTP (5), rétention (7 + 2
+réalignés), S5-01 (1), publication (2).
 
-Corrigés en session 4 : S4-01 (notion anomale générable), S4-02 (bilan énergétique toute
-dimension), S4-03 (422 renvoyant le mot de passe saisi), affectation de masse (11 schémas
-d'entrée ouverts), en-têtes HTTP de sécurité, schéma parent fermé. P0 ouverts : 0. P1 ouverts : 0.
+## 8. Sécurité
 
-## 7. Procédure staging
+bandit 0, pip-audit 0, secrets arbre 0 (historique : 12 connues, D1). Corrigés en RC1 : S5-01 (P2,
+course à la première soumission ⇒ 500), S5-02 (P2 pédagogique, R8), S5-03 (P3, durcissement SMTP),
+deux écarts de la garde de publication. P0 ouverts : 0. P1 ouverts : 0. Détail :
+CLOUD_SECURITY_REPORT.md.
 
-1. Base staging vide ou copie anonymisée (jamais de données réelles d'élèves en staging).
-2. Secrets staging dédiés (coffre), `MIKA_ENV=staging`, `MIKA_AUTH_MODE=observe`.
-3. `python -m tools.db upgrade` puis `status` (2× OK).
-4. Démarrage `uvicorn main:app` avec `MIKA_DB_INIT=check`.
-5. Smoke tests (§8), puis vérificateur de contrat : `node contrat_front/verifier_contrat.mjs <url>`.
-6. Observer 48 h les journaux JSON (`event=http_request`, codes 5xx, `jeton_revoque`, 429).
+## 9. Artefacts manquants — WAITING_FOR_ARTIFACT
 
-## 8. Smoke tests
+C02, C02-6, C02-6.1, M01, Extraction V3, PDF officiels (+ structure des PDF, SHA256_SOURCE, plans de
+guidage) : ARTIFACTS_REQUIRED_MANIFEST.json. Conséquence : catalogue du tuteur vide en réel
+(`start` ⇒ 404), 42 notions historiques NOT_EVIDENCED, aucune publication possible hors mode test.
 
-`GET /healthz` = 200 ; `POST /api/v1/comptes/inscription` (adresse de test) = 201 et courriel de
-vérification émis par le transport configuré ; `POST /comptes/connexion` = 200 ; accepter une
-invitation sans adresse vérifiée = 403 `email_non_verifie` ; `POST /session/nouvelle` = 201 ;
-`GET /parents/dashboard/<id non lié>` en enforce = 403 ; corps JSON avec champ inconnu = 422 ;
-en-têtes `x-content-type-options: nosniff` présents ; `python -m tools.purge_retention` (simulation).
+## 10. Front manquant
 
-## 9. Retour arrière
+Le front n'est pas dans ce dépôt. Livré : `frontend-contract/` (à intégrer par l'équipe front) et
+FRONT_IMPLEMENTATION_PACK.md, dont **8 écarts d'API** à trancher (codes 401 hétérogènes, `jeton_expire`
+absent sur `/comptes/*`, échec d'envoi masqué à l'inscription…). Aucune route HTTP de **quiz**
+n'existe (module prêt, non exposé). E2E front : à écrire (condition D12).
 
-Code : redéployer le SHA précédent. Schéma : `python -m tools.db downgrade billing b0003_invitations_lien`
-(perte documentée : `verifications_email`, `jeton_version`) ; mika inchangé en session 4.
-Toujours sauvegarder avant upgrade ; le downgrade est testé et atomique.
+## 11. Fournisseur de courriel
 
-## 10. Incompatibilités (contrat API)
+Code prêt (SMTP générique, EMAIL_PROVIDER_SETUP.md) ; prestataire, DPA, domaine (SPF/DKIM/DMARC)
+et identifiants : décision et action de Mike.
 
-- 422 : le corps ne contient plus `input` ni `ctx` (seulement `type`, `loc`, `msg`).
-- Champs inconnus dans un corps JSON ⇒ 422 `extra_forbidden` (auparavant ignorés).
-- Jetons de compte : claim `ver` (révocation) ; jetons élève : claims `cid`, `cv` obligatoires.
-- Invitation acceptée seulement si l'adresse du compte est vérifiée (R19).
-- Dashboard parent : schéma fermé (champ imprévu ⇒ 500, jamais transmis).
+## 12. DPO
 
-## 11. Tâches front
+DPO_RETENTION_DECISION.md : 5 durées configurables + 6 questions ouvertes ; rien n'est présenté
+comme conforme sans signature.
 
-Voir FRONT_IMPLEMENTATION_PACK.md et FRONT_AUTH_INTEGRATION.md : écrans vérification d'adresse,
-invitation (émettre / saisir le code), `POST /session/nouvelle`, gestion `jeton_revoque`,
-suppression/export du compte, tuteur Mika, puis E2E front (condition D12 du passage en enforce).
+## 13. Staging, smoke, rollback
 
-## 12. Artefacts manquants (WAITING_FOR_ARTIFACT)
+- Procédure : STAGING_DEPLOYMENT_RUNBOOK.md (sauvegarde → migration → activation → healthcheck →
+  smoke → observation 48 h → enforce après D12).
+- Smoke : `python -m tools.smoke --url <hôte> [--ecriture --email <boîte de test>]`, vérificateur
+  Node du contrat, purge en simulation, état des artefacts.
+- Rollback : ROLLBACK_RUNBOOK.md (bascule `legacy`, retrait de publication, rollback de lot, retour
+  de code, downgrade b0003 documenté, restauration `tools.sauvegarde`).
 
-C02, C02-6, C02-6.1, M01, Extraction V3, PDF officiels ; relevé `disciplines_indiquees` pour
-l'Enseignement scientifique ; programmes cycle 2 et technologie cycle 4 (non modélisés, rien
-d'inventé) ; fournisseur de courriel ; validation DPO des durées de rétention.
+## 14. Verdicts
+
+**READY_FOR_STAGING = YES** — sous réserve de : CI `rc-gate` verte sur le SHA déployé, secrets
+staging dédiés, hôte staging (une instance), `MIKA_AUTH_MODE=observe` jusqu'à D12.
+
+**READY_FOR_PRODUCTION = NO** — bloquants : P1 artefacts officiels, P2 front + E2E front (D12),
+P3 fournisseur de courriel réel, P4 validation DPO, P5 rotation des secrets (D1), P6 staging
+observé en enforce, P8 fusion de la pile par Mike (PRODUCTION_DEPLOYMENT_RUNBOOK.md §0).
+
+## 15. Incompatibilités de contrat introduites par la RC1
+
+- `etat_maitrise` décidé par le moteur sur historique : plus de `MAITRISE` sans réussites
+  autonomes sur ≥ 2 jours, plus de `FRAGILE`/`A_REVOIR` après une seule réponse (NON_EVALUEE ⇒
+  libellé provisoire) ; `NON_ACQUISE` ⇒ `A_REVOIR`. Retour : `MIKA_PROGRESSION_MOTEUR=legacy`.
+- Ajout (non cassant) : `progression` dans `/exercices/soumettre` et `/escalier/etape`.
+- `POST /comptes/verification-email` peut répondre 503 `courriel_indisponible`.
