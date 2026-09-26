@@ -7,7 +7,7 @@ Aucune valeur sensible n'est reproduite dans ce rapport.
 
 Motifs recherchés (arbre + `git log --all -p`) : clés Stripe `sk_live/sk_test/whsec_`, jetons GitHub
 `ghp_/github_pat_`, AWS `AKIA…`, Google `AIza…`, Slack `xox*`, Anthropic/OpenAI `sk-…`, clés privées
-PEM, chaînes de connexion `postgres://user:pass@`, `mysql://`, e-mails, numéros de téléphone FR.
+PEM, URL de base de données avec identifiants intégrés (postgres, mysql, mongodb), e-mails, numéros de téléphone FR.
 
 | Constat | Résultat |
 |---|---|

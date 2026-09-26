@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main, "cloud/**", "claude/**"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: lint + tests (hors ligne)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # Secrets de TEST factices : aucune clé réelle n'est nécessaire à la CI.
+      MIKA_JWT_SECRET: test-jwt-secret-not-for-prod-0123456789
+      MIKA_PSEUDO_SECRET: test-pseudo-secret-not-for-prod-0123456789
+      MIKA_DB_URL: sqlite:////tmp/mika_ci.db
+      BILLING_DB_URL: sqlite:////tmp/billing_ci.db
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Installer
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r requirements-dev.txt
+      - name: Lint (ruff)
+        run: ruff check .
+      - name: Tests (pytest, hors ligne)
+        run: python -m pytest -q
+
+  security:
+    name: sécurité (secrets, SAST, dépendances)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Outils
+        run: pip install -r requirements-dev.txt
+      - name: Scan de secrets (arbre + historique, valeurs masquées)
+        run: python tools/secret_scan.py --history
+      - name: SAST (bandit, sévérité moyenne+)
+        run: bandit -q -r app paiement_comptes main.py tools -ll
+      - name: Audit des dépendances (pip-audit)
+        run: pip-audit -r requirements.txt -r requirements-dev.txt
