@@ -53,6 +53,7 @@ T_RAP = ("tests_cloud/test_rapport_import.py",)
 T_CHAP = ("tests_cloud/test_chapitrage.py", "tests_cloud/test_import_harnais.py", "tests_cloud/test_publication.py",
           "tests_cloud/test_text_quality_s4.py")
 T_REC = ("tests_cloud/test_recurrence_s4.py", "tests_cloud/test_pedagogie_mika.py")
+T_MATH = ("tests_cloud/test_maths_etendu.py",)
 T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
          "tests_cloud/test_e2e_parent_enfant.py")
 
@@ -317,6 +318,16 @@ MUTANTS: List[Mutant] = [
            "    conf = sorted(conf, key=lambda c: ordre[ETAPE_DE[c]])", "    conf = sorted(conf)", T_REC),
     Mutant("recurrence_fonction_auxiliaire_acceptee", "app/curriculum/pedagogie/recurrence.py",
            "    if diff == 0:\n        return valide", "    if True:\n        return valide", T_REC),
+    Mutant("limite_unilaterale", "app/curriculum/verifiers/maths_etendu.py",
+           'sympy.limit(f, _X, p, dir="+-")', "sympy.limit(f, _X, p)", T_MATH),
+    Mutant("arrondi_nombre_de_decimales_ignore", "app/curriculum/verifiers/maths_etendu.py",
+           "    if nb != decimales:", "    if False:", T_MATH),
+    Mutant("probabilite_hors_intervalle", "app/curriculum/verifiers/maths_etendu.py",
+           "    if not (0 <= v <= 1):", "    if False:", T_MATH),
+    Mutant("ensemble_bornes_fermees", "app/curriculum/verifiers/maths_etendu.py",
+           'left_open=(g == "]" or va == -sympy.oo)', "left_open=False", T_MATH),
+    Mutant("angle_unite_ignoree", "app/curriculum/verifiers/maths_etendu.py",
+           'return valide("angle_egal") if ur == unite else revue', 'return valide("angle_egal") if True else revue', T_MATH),
     Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
            "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
            "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),
