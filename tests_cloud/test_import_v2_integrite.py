@@ -407,3 +407,14 @@ def test_copie_immuable_independante_de_la_source(tmp_path):
     depot.publier(tmp_path / "l1", sha)
     shutil.rmtree(tmp_path / "l1")  # la source disparaît : le lot publié reste servi
     assert depot.charger_actif().statut == "VALIDATED"
+
+
+def test_notion_autorisee_mais_touchee_par_une_anomalie_non_generable():
+    # Mutant « generation_malgre_anomalie » : N2 franchit le verrou de génération (prouvée,
+    # texte sain) mais son exercice est incohérent ⇒ N2 exclue ; N1 (intacte) reste générable.
+    from app.curriculum.provenance import autorisation_generation
+
+    ref = referentiel_fictif()
+    assert autorisation_generation(ref.index().notions[N2], ref.index(), autoriser_fictif=True).autorise
+    rap = verifier_integrite(ref, [_exo(chapitre_id="chap:fictif:autre")], autoriser_fictif=True)
+    assert N2 not in rap.generables and N1 in rap.generables
