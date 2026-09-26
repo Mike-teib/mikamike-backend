@@ -1,5 +1,5 @@
 [tool.pytest.ini_options]
-testpaths = ["tests_mika", "tests_paiement"]
+testpaths = ["tests_mika", "tests_paiement", "tests_cloud"]
 addopts = "-p no:cacheprovider"
 
 [tool.ruff]

@@ -14,7 +14,7 @@ pour l'indexation interne. Le dashboard ne renvoie jamais nom/prénom/email.
 from __future__ import annotations
 
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Path, Query
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike import catalogue, crud
@@ -32,6 +32,7 @@ from app.api.v1.mikamike.schemas import (
     SoumissionOut,
 )
 from app.api.v1.mikamike.store import get_db
+from app.core.validation import ID_PATTERN
 
 from app.core.security_config import get_pseudo_secret as _get_pseudo_secret
 
@@ -84,7 +85,9 @@ def soumettre_exercice(payload: SoumissionIn, db: Session = Depends(get_db)):
 
     # 2) Transition d'état via le moteur (préchargé avec l'historique réel)
     eng = _engine_charge(db, eleve_hmac)
-    succes_consec = crud.compter_succes_consecutifs(db, eleve_hmac, competence)
+    succes_consec = crud.compter_succes_consecutifs(
+        db, eleve_hmac, competence, autonomes_seulement=True
+    )
     nouvel_etat = eng.evaluer_transition(
         eleve_hmac,
         competence,
@@ -128,7 +131,9 @@ parents_router = APIRouter(prefix="/parents", tags=["mika-parents"])
 
 
 @parents_router.get("/dashboard/{student_pseudo_id}", response_model=DashboardOut)
-def dashboard_parent(student_pseudo_id: str, db: Session = Depends(get_db)):
+def dashboard_parent(
+    student_pseudo_id: str = Path(max_length=128, pattern=ID_PATTERN),
+    db: Session = Depends(get_db)):
     eleve_hmac = _hmac(student_pseudo_id)
     stats = crud.agreger_dashboard(db, eleve_hmac)
     # On renvoie l'identifiant anonyme fourni (jamais de nom/prénom/email).
@@ -142,15 +147,21 @@ parcours_router = APIRouter(prefix="/parcours", tags=["mika-parcours"])
 
 
 @parcours_router.get("/prochaine-etape", response_model=ProchaineEtapeOut)
-def prochaine_etape(student_id: str, db: Session = Depends(get_db)):
+def prochaine_etape(
+    student_id: str = Query(max_length=128, pattern=ID_PATTERN),
+    db: Session = Depends(get_db)):
     eleve_hmac = _hmac(student_id)
     etats = crud.get_etats(db, eleve_hmac)
 
     # Première compétence du catalogue non encore consolidée.
     cible = None
     for comp in catalogue.toutes_les_competences():
-        etat = etats.get(comp, "INCONNU")
-        if EtatMaitrise(etat) not in ETATS_SOLIDES:
+        try:
+            etat = EtatMaitrise(etats.get(comp, "INCONNU"))
+        except ValueError:
+            # État corrompu/inconnu en base : on le traite comme non consolidé (pas de 500).
+            etat = EtatMaitrise.INCONNU
+        if etat not in ETATS_SOLIDES:
             cible = comp
             break
 

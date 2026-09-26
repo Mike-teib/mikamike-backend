@@ -21,6 +21,7 @@ Variables d'environnement attendues (aucun secret en dur) :
 from __future__ import annotations
 
 import datetime as _dt
+import logging
 import os
 
 from fastapi import APIRouter, Depends, HTTPException, Request
@@ -48,6 +49,8 @@ _APP_URL = os.environ.get("MIKA_APP_URL", "http://localhost:3012").rstrip("/")
 if stripe is not None and _STRIPE_SECRET:
     stripe.api_key = _STRIPE_SECRET
 
+
+_log = logging.getLogger("mikamike.paiement")
 
 router = APIRouter(prefix="/paiement", tags=["paiement"])
 
@@ -120,8 +123,11 @@ def creer_checkout(
 
     try:
         session = stripe.checkout.Session.create(**kwargs)
-    except Exception as exc:  # pragma: no cover - erreurs réseau/API Stripe
-        raise HTTPException(status_code=502, detail=f"stripe_checkout: {exc}")
+    except Exception:  # pragma: no cover - erreurs réseau/API Stripe
+        # Jamais le message brut de l'exception au client (peut contenir des
+        # détails de configuration / identifiants Stripe). Journalisation côté serveur.
+        _log.exception("stripe_checkout_echec compte_id=%s", compte.id)
+        raise HTTPException(status_code=502, detail="stripe_checkout_indisponible")
 
     return CheckoutOut(url=session.url)
 

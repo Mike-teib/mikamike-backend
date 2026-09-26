@@ -13,13 +13,14 @@ from __future__ import annotations
 import asyncio
 import json
 from typing import Dict, Any
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import get_db
+from app.core.validation import ID_PATTERN, MAX_SESSION_STATE_BYTES, Identifiant
 from app.api.v1.session.session_manager import (
     GestionnaireSession,
     SessionBase
@@ -35,19 +36,19 @@ def _hmac(student_pseudo_id: str) -> str:
 
 
 class SessionHeartbeatIn(BaseModel):
-    session_id: str = Field(description="Identifiant de la session")
-    user_id: str = Field(description="Identifiant élève (pseudo_id)")
+    session_id: Identifiant = Field(description="Identifiant de la session")
+    user_id: Identifiant = Field(description="Identifiant élève (pseudo_id)")
 
 
 class SessionSaveStateIn(BaseModel):
-    session_id: str
-    user_id: str
+    session_id: Identifiant
+    user_id: Identifiant
     state_data: Dict[str, Any] = Field(description="Mémoire de séance (ardoise, exercice, étape)")
 
 
 class SessionReconnectIn(BaseModel):
-    session_id: str
-    user_id: str
+    session_id: Identifiant
+    user_id: Identifiant
 
 
 session_router = APIRouter(prefix="/session", tags=["session-manager"])
@@ -84,6 +85,9 @@ def sauvegarder_etat_session(
     except Exception:
         pass
 
+    if len(json.dumps(payload.state_data)) > MAX_SESSION_STATE_BYTES:
+        raise HTTPException(status_code=status.HTTP_413_CONTENT_TOO_LARGE, detail="etat_session_trop_volumineux")
+
     eleve_hmac = _hmac(payload.user_id)
     return GestionnaireSession.sauvegarder_etat_partiel(
         db, payload.session_id, eleve_hmac, payload.state_data
@@ -108,7 +112,9 @@ def reconnecter_session(
 
 
 @session_router.get("/stream")
-async def stream_notifications_sse(session_id: str = "default_session"):
+async def stream_notifications_sse(
+    session_id: str = Query(default="default_session", max_length=128, pattern=ID_PATTERN),
+):
     """
     Flux Server-Sent Events (SSE) fallback pour ping/pong et notifications temps réel.
     Garantit la traversée des pare-feux scolaires et la reconnexion automatique.

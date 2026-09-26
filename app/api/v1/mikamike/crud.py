@@ -43,9 +43,14 @@ def enregistrer_tentative(
 
 
 def compter_succes_consecutifs(
-    db: Session, eleve_hmac: str, competence: str
+    db: Session, eleve_hmac: str, competence: str, *, autonomes_seulement: bool = False
 ) -> int:
-    """Nombre de tentatives correctes consécutives (les plus récentes)."""
+    """
+    Nombre de tentatives correctes consécutives (les plus récentes).
+
+    `autonomes_seulement=True` : un succès obtenu AVEC aide interrompt la série
+    (règle LE-06 : l'aide ne doit jamais contribuer à atteindre MAITRISE).
+    """
     lignes = db.execute(
         select(TentativeExercice)
         .where(
@@ -56,7 +61,7 @@ def compter_succes_consecutifs(
     ).scalars().all()
     n = 0
     for t in lignes:
-        if t.est_correct:
+        if t.est_correct and not (autonomes_seulement and t.avec_aide):
             n += 1
         else:
             break

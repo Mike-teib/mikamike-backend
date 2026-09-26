@@ -118,8 +118,15 @@ CURRICULA_DATA: Dict[Tuple[str, str], List[NotionNode]] = {
 }
 
 
+class ReferentielInconnu(ValueError):
+    """Niveau ou matière non reconnu : on refuse au lieu de deviner."""
+
+
 def normaliser_niveau(level: str) -> str:
-    """Normalise la chaîne de niveau."""
+    """
+    Normalise la chaîne de niveau. Un niveau inconnu lève ReferentielInconnu
+    (auparavant : repli silencieux vers « 5e » = mauvais niveau accepté).
+    """
     lvl = (level or "5e").strip().lower()
     mapping = {
         "prim": "primaire", "primaire": "primaire",
@@ -131,7 +138,9 @@ def normaliser_niveau(level: str) -> str:
         "1re": "1re", "premiere": "1re",
         "tle": "tle", "terminale": "tle"
     }
-    return mapping.get(lvl, "5e")
+    if lvl not in mapping:
+        raise ReferentielInconnu("niveau_inconnu")
+    return mapping[lvl]
 
 
 def normaliser_matiere(subject: str) -> str:
@@ -143,9 +152,11 @@ def normaliser_matiere(subject: str) -> str:
         return "physique"
     if sub in ("chimie", "chem"):
         return "chimie"
-    if sub in ("svt", "sciences"):
+    # NB : « sciences » n'est PAS un alias de SVT (Sciences et technologie, Enseignement
+    # scientifique sont des matières distinctes) : on refuse plutôt que de contaminer.
+    if sub in ("svt",):
         return "svt"
-    return "maths"
+    raise ReferentielInconnu("matiere_inconnue")
 
 
 def valider_graphe_sans_cycles(notions: List[NotionNode]) -> bool:
@@ -182,9 +193,21 @@ def valider_graphe_sans_cycles(notions: List[NotionNode]) -> bool:
     return True
 
 
+def prerequis_non_resolus(notions: List[NotionNode]) -> List[Tuple[str, str]]:
+    """Liste (notion_id, prerequis_id) dont le prérequis n'existe dans AUCUN référentiel."""
+    connus = {n.notion_id for groupe in CURRICULA_DATA.values() for n in groupe}
+    connus.update(n.notion_id for n in notions)
+    return [
+        (n.notion_id, pre)
+        for n in notions
+        for pre in n.prerequisite_ids
+        if pre not in connus
+    ]
+
+
 def valider_prerequis_resolus(notions: List[NotionNode]) -> bool:
-    """Vérifie que les prérequis existent ou sont définis."""
-    return True
+    """Vérifie que chaque prérequis référencé existe (dans ce graphe ou un autre niveau)."""
+    return not prerequis_non_resolus(notions)
 
 
 def obtenir_graphe_competences(level: str, subject: str) -> List[NotionNode]:
@@ -192,13 +215,9 @@ def obtenir_graphe_competences(level: str, subject: str) -> List[NotionNode]:
     lvl = normaliser_niveau(level)
     sub = normaliser_matiere(subject)
 
-    # Récupération exacte ou fallback
-    graphe = CURRICULA_DATA.get((lvl, sub))
-    if not graphe:
-        # Fallback générique Maths si indisponible
-        graphe = CURRICULA_DATA.get((lvl, "maths")) or CURRICULA_DATA[("5e", "maths")]
-
-    return graphe
+    # Récupération EXACTE uniquement : plus de repli vers Maths (qui renvoyait un
+    # graphe de mathématiques étiqueté « SVT » ou « Physique »). Absent => liste vide.
+    return list(CURRICULA_DATA.get((lvl, sub), []))
 
 
 def generer_parcours_personnalise(
