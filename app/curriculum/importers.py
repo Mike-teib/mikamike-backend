@@ -51,7 +51,7 @@ from app.curriculum.structure import Anomalie
 NOM_MANIFEST = "IMPORT_MANIFEST.json"
 TYPES = ("referentiel", "registre_notions", "mapping_notion_chapitre", "index_contenus", "opaque")
 # Manifest v2 (IMPORT_CONTRACT.md) : types supplémentaires.
-TYPES_V2 = TYPES + ("plans_guidage", "source_document", "manifest_sha256")
+TYPES_V2 = TYPES + ("plans_guidage", "source_document", "manifest_sha256", "structure_document")
 # Rôle = provenance de l'artefact dans le chantier local ; il restreint les types admis.
 _CANONIQUES = frozenset({"referentiel", "registre_notions", "mapping_notion_chapitre", "index_contenus"})
 ROLES: Dict[str, FrozenSet[str]] = {
@@ -64,6 +64,8 @@ ROLES: Dict[str, FrozenSet[str]] = {
     "index_quiz": frozenset({"index_contenus"}),
     "plans_guidage": frozenset({"plans_guidage"}),
     "manifest_sha256": frozenset({"manifest_sha256"}),
+    # Structure d'un document source (pages, chapitres, colonnes, annexes) : preuve du chapitrage.
+    "structure_pdf": frozenset({"structure_document"}),
     "rapport": frozenset({"opaque"}),
     # Artefacts du chantier local : OPAQUES tant qu'aucun adaptateur n'est écrit à partir
     # d'échantillons réels, ou déjà CONVERTIS par le producteur vers un type canonique.
@@ -153,6 +155,8 @@ class ResultatImport:
     documents: Dict[str, str] = field(default_factory=dict)  # chemin -> sha256 (source_document)
     manifest: Dict[str, Any] = field(default_factory=dict)   # en-tête v2 (lot_id, producteur, date)
     integrite: Optional[RapportIntegrite] = None
+    # Rattachement notion → chapitre (chapitrage.Verdict) : PROUVE, DECLARE, CONTRADICTOIRE…
+    rattachements: Dict[str, str] = field(default_factory=dict)
 
 
 def _charger_checkpoint(chemin: Optional[Path]) -> Dict[str, Dict[str, str]]:
@@ -263,6 +267,8 @@ def importer(
     ref_base: Optional[Referentiel] = None
     notions: Dict[str, Notion] = {}
     mappings: List[Tuple[str, str]] = []
+    preuves_chap: Dict[str, list] = {}
+    structures: list = []
 
     for e in entrees:
         chemin, attendu, type_ = dossier / e["chemin"], e["sha256"], e["type"]
@@ -296,12 +302,32 @@ def importer(
                     lot[n.id] = n
                 notions.update(lot)
             elif type_ == "mapping_notion_chapitre":
-                lot_m = []
+                from app.curriculum.chapitrage import PreuveChapitre
+
+                lot_m, lot_p = [], {}
                 for num, obj in _lignes_jsonl(chemin):
-                    if not isinstance(obj, dict) or set(obj) != {"notion_id", "chapitre_id"}:
+                    if not isinstance(obj, dict) or not ({"notion_id", "chapitre_id"} <= set(obj)
+                                                         <= {"notion_id", "chapitre_id", "preuves"}):
                         raise ErreurImport(f"ligne_{num}_mapping_invalide")
                     lot_m.append((obj["notion_id"], obj["chapitre_id"]))
+                    if "preuves" in obj:
+                        if not isinstance(obj["preuves"], list) or not 1 <= len(obj["preuves"]) <= 20:
+                            raise ErreurImport(f"ligne_{num}_preuves_invalides")
+                        lot_p.setdefault(obj["notion_id"], []).extend(
+                            PreuveChapitre.model_validate(x) for x in obj["preuves"])
                 mappings.extend(lot_m)
+                for k, v in lot_p.items():
+                    preuves_chap.setdefault(k, []).extend(v)
+            elif type_ == "structure_document":
+                from app.curriculum.chapitrage import StructureDocument, verifier_structure
+
+                if chemin.stat().st_size > MAX_JSON_OCTETS:
+                    raise ErreurImport("structure_trop_volumineuse")
+                st = StructureDocument.model_validate(json.loads(chemin.read_text(encoding="utf-8")))
+                probleme = verifier_structure(st)
+                if probleme:
+                    raise ErreurImport("structure_invalide:" + ",".join(probleme))
+                structures.append(st)
             elif type_ == "index_contenus":
                 ex_lot, q_lot = [], []
                 for num, obj in _lignes_jsonl(chemin):
@@ -374,6 +400,26 @@ def importer(
         else:
             toutes[nid] = toutes[nid].model_copy(update={"chapitre_id": cid})
 
+    # Chapitrage (lot 8) : un rattachement n'est PROUVÉ que par la structure du document source.
+    from app.curriculum.chapitrage import Verdict as VC, evaluer as evaluer_chapitrage, index_structures
+
+    docs = set(res.documents.values())
+    for st in structures:
+        if st.sha256_document not in docs:
+            res.anomalies.append(Anomalie("STRUCTURE_SANS_DOCUMENT", st.sha256_document[:12]))
+    par_doc = {k: v for k, v in index_structures(structures).items() if k in docs}
+    cibles_finales = {nid: cid for nid, cid in mappings}
+    for nid, n in toutes.items():
+        cid = cibles_finales.get(nid, n.chapitre_id)
+        pr = preuves_chap.get(nid, [])
+        if cid is None:
+            res.rattachements[nid] = VC.NON_PROUVE.value
+            continue
+        verdict = evaluer_chapitrage(cid, pr, par_doc.get(pr[0].sha256_document) if pr else None).verdict
+        res.rattachements[nid] = verdict.value
+        if verdict in (VC.CONTRADICTOIRE, VC.AMBIGU) or (pr and verdict == VC.NON_PROUVE):
+            res.anomalies.append(Anomalie(f"RATTACHEMENT_{verdict.value}", nid, cid))
+
     ref = base.model_copy(update={"notions": tuple(toutes[k] for k in sorted(toutes))})
     res.referentiel = ref
     # Intégrité CROISÉE (structure + preuves + textes + contenus + plans + documents sources).
@@ -382,6 +428,11 @@ def importer(
         documents_sha256=set(res.documents.values()) if v2 else None,
         rentree=rentree, autoriser_fictif=autoriser_fictif,
     )
+    # Les anomalies relevées par l'IMPORTEUR (mappings, chapitrage, structure) rendent aussi leurs
+    # notions non générables : avant, seules celles de verifier_integrite étaient déduites
+    # (revue session 4, S4-01 — une notion au rattachement contradictoire restait « générable »).
+    touchees = {a.objet_id for a in res.anomalies}
+    res.integrite = res.integrite._replace(generables=frozenset(res.integrite.generables - touchees))
     res.anomalies = sorted(set(res.anomalies) | set(res.integrite.anomalies))
     res.statut = "VALIDATED" if not res.anomalies else "REJECTED"
     return res

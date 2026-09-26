@@ -126,3 +126,23 @@ python -m tools.publication etat|publier|retirer ...    → garde READY_FOR_PUBL
 État des artefacts réels : **WAITING_FOR_ARTIFACT** (C02, C02-6, C02-6.1, M01, Extraction V3, PDF
 officiels, index, manifests). Tests : `tests_cloud/test_rapport_import.py`, `test_publication.py`,
 `test_import_harnais.py`.
+
+## 9. Chapitrage prouvé (session 4, lot 8)
+Nouveau type `structure_document` (rôle `structure_pdf`) : pour UN document source (empreinte),
+pages du sommaire, annexes, zones de prérequis, chapitres (plage de pages, colonnes par page) :
+```json
+{"sha256_document": "<sha du PDF du lot>", "sommaire_pages": [2],
+ "annexes": [{"page_debut": 40, "page_fin": 45}], "zones_prerequis": [{"page": 4, "y0": 50, "y1": 150}],
+ "chapitres": [{"chapitre_id": "chap:…", "page_debut": 3, "page_fin": 5,
+                "colonnes": [{"page": 5, "x0": 0, "x1": 300}]}]}
+```
+Les lignes de `mapping_notion_chapitre` acceptent `preuves` (1–20) :
+`{"type": "section_pdf"|"tableau_officiel"|"sommaire"|"proximite_lexicale", "sha256_document", "page",
+"bbox": [x0, y0, x1, y1], "cellule": {"ligne", "colonne"}}`.
+Verdicts (`ResultatImport.rattachements`) : **PROUVE** (toutes les preuves retenues désignent le
+chapitre déclaré), CONTRADICTOIRE, AMBIGU, NON_PROUVE (⇒ anomalies `RATTACHEMENT_*`, lot REJECTED),
+DECLARE (aucune preuve fournie : accepté à l'import mais **jamais publiable**).
+Écartées : proximité lexicale (jamais une preuve), sommaire seul, page du sommaire, annexe, zone de
+prérequis, titre de colonne (ligne 0), autre document, hors zone ou à cheval sur deux colonnes.
+Une structure dont le document n'est pas dans le lot ⇒ `STRUCTURE_SANS_DOCUMENT`.
+Toute anomalie relevée par l'importeur retire sa notion des générables (S4-01).

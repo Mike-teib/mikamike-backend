@@ -23,6 +23,25 @@ from app.curriculum.structure import Anomalie
 from tests_cloud.test_import_v2_integrite import PDF, _exo, _lot
 
 EXO, QUIZ = "exo:fictif:v2-1", "quiz:fictif:v2-1"
+CHAP = "chap:fictif:fractions-6e"
+
+
+def _lot_prouve(dossier, **kw):
+    """Lot + structure du document source + mapping AVEC preuves structurelles (lot 8)."""
+    import json
+
+    dossier.mkdir(parents=True, exist_ok=True)
+    sha = sha256_octets(PDF)
+    (dossier / "structure.json").write_text(json.dumps({
+        "sha256_document": sha, "sommaire_pages": [1],
+        "chapitres": [{"chapitre_id": CHAP, "page_debut": 2, "page_fin": 10}]}), "utf-8")
+    (dossier / "chapitrage.jsonl").write_text("".join(json.dumps({
+        "notion_id": nid, "chapitre_id": CHAP,
+        "preuves": [{"type": "section_pdf", "sha256_document": sha, "page": 3, "bbox": [50, 100, 500, 140]}]}) + "\n"
+        for nid in ("notion:fictif:comparer-fractions", "notion:fictif:fractions-decimales")), "utf-8")
+    extra = {"structure.json": ("structure_document", "structure_pdf"),
+             "chapitrage.jsonl": ("mapping_notion_chapitre", "mapping_chapitre_notion")}
+    return _lot(dossier, extra=extra, **kw)
 
 
 def _ref_non_fictif():
@@ -33,7 +52,7 @@ def _ref_non_fictif():
 
 @pytest.fixture()
 def res_prod(tmp_path):
-    sha = _lot(tmp_path / "lot", ref=_ref_non_fictif())
+    sha = _lot_prouve(tmp_path / "lot", ref=_ref_non_fictif())
     res = importer(tmp_path / "lot", sha256_manifest=sha)
     assert res.statut == "VALIDATED", res.anomalies
     return res
@@ -96,6 +115,7 @@ def _ref_modifiee(res, notion_update=None, chapitre_update=None):
     ("anomalie_structure", "STRUCTURE_INVALIDE"),
     ("reponse_invérifiable", "VALIDATION_ECHOUEE"),
     ("plan_manquant", "PLAN_MANQUANT"),
+    ("rattachement_declare", "CHAPITRE_NON_PROUVE"),
 ])
 def test_chaque_condition_bloque(res_prod, cas, raison, tmp_path):
     r = res_prod
@@ -122,6 +142,8 @@ def test_chaque_condition_bloque(res_prod, cas, raison, tmp_path):
         r = _variante(r, exercices=[r.exercices[0].model_copy(update={"type_verification": "inconnu"})])
     elif cas == "plan_manquant":
         r = _variante(r, plans={})
+    elif cas == "rattachement_declare":  # chapitre déclaré par le producteur, sans preuve structurelle
+        r = _variante(r, rattachements={**r.rattachements, r.exercices[0].notion_id: "DECLARE"})
     ev = evaluer(r)[EXO]
     assert ev.etat == E.BLOQUE and raison in ev.raisons, ev
     with pytest.raises(PublicationRefusee, match="contenu_non_pret"):
@@ -129,7 +151,7 @@ def test_chaque_condition_bloque(res_prod, cas, raison, tmp_path):
 
 
 def test_fixture_fictive_bloquee_hors_mode_test(tmp_path):
-    sha = _lot(tmp_path / "lot")
+    sha = _lot_prouve(tmp_path / "lot")
     res = importer(tmp_path / "lot", sha256_manifest=sha, autoriser_fictif=True)
     assert evaluer(res)[EXO].etat == E.BLOQUE  # sans autoriser_fictif : jamais publiable
     assert evaluer(res, autoriser_fictif=True)[EXO].etat == E.READY_FOR_PUBLICATION
@@ -151,7 +173,7 @@ def test_journal_corrompu_refuse(res_prod, tmp_path):
 
 
 def test_depot_puis_publication_de_bout_en_bout(tmp_path):
-    sha = _lot(tmp_path / "lot", ref=_ref_non_fictif(), exos=[_exo()])
+    sha = _lot_prouve(tmp_path / "lot", ref=_ref_non_fictif(), exos=[_exo()])
     depot = DepotContenu(tmp_path / "depot")
     assert depot.publier(tmp_path / "lot", sha).statut == "VALIDATED"
     res = depot.charger_actif()
@@ -163,7 +185,7 @@ def test_depot_puis_publication_de_bout_en_bout(tmp_path):
 def test_outil_operateur(tmp_path, capsys):
     from tools.publication import main
 
-    sha = _lot(tmp_path / "lot", ref=_ref_non_fictif())
+    sha = _lot_prouve(tmp_path / "lot", ref=_ref_non_fictif())
     DepotContenu(tmp_path / "depot").publier(tmp_path / "lot", sha)
     d = str(tmp_path / "depot")
     assert main(["etat", "--depot", d]) == 0 and "READY_FOR_PUBLICATION" in capsys.readouterr().out

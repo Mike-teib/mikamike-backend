@@ -50,6 +50,8 @@ T_R19 = ("tests_cloud/test_verification_email.py", "tests_cloud/test_e2e_parent_
 T_OBS = ("tests_cloud/test_observabilite.py",)
 T_PUB = ("tests_cloud/test_publication.py",)
 T_RAP = ("tests_cloud/test_rapport_import.py",)
+T_CHAP = ("tests_cloud/test_chapitrage.py", "tests_cloud/test_import_harnais.py", "tests_cloud/test_publication.py",
+          "tests_cloud/test_text_quality_s4.py")
 T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
          "tests_cloud/test_e2e_parent_enfant.py")
 
@@ -289,6 +291,23 @@ MUTANTS: List[Mutant] = [
            '            if rapport["comparaison"]["identique_au_lot_actif"]:', "            if False:", T_RAP),
     Mutant("import_publie_sans_confirmation", "tools/import_lot.py",
            "    if not a.depot or not a.confirmer:", "    if not a.depot:", T_RAP),
+    Mutant("s4_01_generables_ignorent_import", "app/curriculum/importers.py",
+           "    res.integrite = res.integrite._replace(generables=frozenset(res.integrite.generables - touchees))\n", "",
+           T_CHAP),
+    Mutant("chapitrage_lexical_accepte", "app/curriculum/chapitrage.py",
+           '    if p.type == "proximite_lexicale":\n        return None, "preuve_lexicale_insuffisante"\n', "", T_CHAP),
+    Mutant("chapitrage_annexe_acceptee", "app/curriculum/chapitrage.py",
+           "    if any(a.page_debut <= p.page <= a.page_fin for a in s.annexes):", "    if False:", T_CHAP),
+    Mutant("chapitrage_titre_de_colonne", "app/curriculum/chapitrage.py",
+           "        if p.cellule.ligne == 0:", "        if False:", T_CHAP),
+    Mutant("chapitrage_colonnes_ignorees", "app/curriculum/chapitrage.py",
+           "    if avec_colonnes:", "    if False:", T_CHAP),
+    Mutant("publication_rattachement_declare", "app/curriculum/publication.py",
+           '    elif res.rattachements.get(n.id) != "PROUVE":', "    elif False:", T_CHAP),
+    Mutant("texte_titre_absorbe_ignore", "app/curriculum/text_quality.py",
+           "    if _titre_absorbe(t):", "    if False:", T_CHAP),
+    Mutant("texte_unicode_anormal_ignore", "app/curriculum/text_quality.py",
+           "    if _unicode_anormal(brut):", "    if False:", T_CHAP),
     Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
            "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
            "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),

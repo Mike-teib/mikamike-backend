@@ -87,6 +87,8 @@ def _raisons(res: ResultatImport, contenu, *, est_exercice: bool, autoriser_fict
     chap = idx.chapitres.get(n.chapitre_id) if n.chapitre_id else None
     if chap is None or chap.ambigu or chap.programme_id != n.programme_id:
         r.append("CHAPITRE_NON_PROUVE")
+    elif res.rattachements.get(n.id) != "PROUVE":  # lot 8 : rattachement prouvé par la structure
+        r.append("CHAPITRE_NON_PROUVE")
     touches = {a.objet_id for a in res.anomalies}
     if {n.id, n.chapitre_id, n.programme_id, contenu.id} & touches:
         r.append("STRUCTURE_INVALIDE")
