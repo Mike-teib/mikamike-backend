@@ -189,3 +189,10 @@ def test_dispatch_type_inconnu_et_parametres_invalides():
     assert verifier("texte_exact", "Mitose", " mitose ").verdict == V
     assert verifier("texte_exact", "Mitose", "Méiose").verdict == I
     assert verifier("texte_exact", "Mitose", "").verdict == I
+
+
+def test_unite_requise_absente_raison_explicite():
+    # Revue session 2 (R2-29) : le verdict INVALID était aussi produit par le contrôle de
+    # dimension ; on vérifie la RAISON pour que la règle « unité manquante » soit testée.
+    r = verifier_grandeur("2,5 kg", "2,5", unite_requise=True)
+    assert r.verdict == Verdict.INVALID and r.raisons == ("unite_manquante",)

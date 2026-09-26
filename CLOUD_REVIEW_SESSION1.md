@@ -14,9 +14,9 @@
 | Gravité | Nombre | Corrigés dans cette branche |
 |---|---|---|
 | P0 | 2 | 2 |
-| P1 | 13 | 13 (dont 2 via lots dédiés : migrations, authentification) |
+| P1 | 14 | 14 (dont 2 via lots dédiés : migrations, authentification) |
 | P2 | 13 | 10 corrigés, 3 documentés (décision / design) |
-| **Total** | **28** | |
+| **Total** | **29** | |
 
 Barème : **P0** = contournement d'un verrou de sûreté ou déni de service trivial ; **P1** = faille
 de sécurité/RGPD, perte d'intégrité ou crash sur entrée hostile ; **P2** = dette, robustesse,
@@ -157,6 +157,21 @@ performance, test trompeur.
   sans qu'aucune assertion ne l'ait détecté.
 - MINIMAL_FIX : baseline verte obligatoire (sinon code 2) ; seul le code pytest 1 vaut « tué ».
 - TEST_REQUIRED : `test_r2_12_*`. **Corrigé.**
+
+### R2-29 — Le « 18/18 mutants tués » de la session 1 était faux (2 survivants masqués)
+- FILE : `tests_cloud/test_curriculum_model.py`, `tests_cloud/test_verifiers_sciences.py`, `tools/mutation_check.py`
+- SCENARIO : rejouer `resultat_sans_unite_accepte` et `niveau_incoherent_accepte` sur fb77fb8
+  (worktree jetable) : `3400 passed`, code 0 ⇒ **survivants**. Détecté par le nouveau job CI « mutation ».
+- CAUSE : les tests vérifiaient un code d'anomalie / un verdict que **deux règles** produisaient
+  (dimension incorrecte ⇒ INVALID de toute façon ; notion/chapitre de niveaux différents ⇒
+  MAUVAIS_NIVEAU de toute façon) : la règle ciblée n'était jamais isolée.
+- EXPECTED : chaque mutant tué. ACTUAL : 2 survivants, et le mutant RGPD devenu `INAPPLICABLE`
+  après l'ajout des tables de tutorat.
+- MINIMAL_FIX : tests qui isolent la règle (raison `unite_manquante` exacte ; notion ET chapitre en
+  5e, hors programme cycle 3, anomalie attendue SUR la notion) ; texte du mutant RGPD mis à jour.
+- TEST_REQUIRED : `test_unite_requise_absente_raison_explicite`,
+  `test_mauvais_niveau_notion_hors_programme_meme_si_chapitre_coherent` ; les 3 mutants vérifiés TUÉS.
+- STATUT : **corrigé**.
 
 ### R2-18 — Routes élève / RGPD non authentifiées (S1, connu session 1)
 - FILES : routeurs `exercices`, `parents`, `parcours`, `escalier`, `memory`, `session`, `rgpd`.

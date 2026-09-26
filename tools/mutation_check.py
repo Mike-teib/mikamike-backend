@@ -72,7 +72,8 @@ MUTANTS: List[Mutant] = [
     Mutant("idor_session", "app/api/v1/session/session_manager.py",
            "    if session_obj.eleve_hmac != eleve_hmac:", "    if False:"),
     Mutant("rgpd_effacement_incomplet", "app/api/v1/rgpd/router.py",
-           "TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessionState)",
+           "TABLES_ELEVE = (TentativeExercice, EtatCompetence, TacheRappelMemoire, MikaSessionState,\n"
+           "                TutoratSession, TutoratRequete)",
            "TABLES_ELEVE = (TentativeExercice, EtatCompetence)"),
     Mutant("repli_matiere_silencieux", "app/api/v1/parcours/curriculum_dataset.py",
            "    return list(CURRICULA_DATA.get((lvl, sub), []))",
