@@ -33,7 +33,7 @@ from enum import Enum
 from typing import Optional
 
 import jwt
-from fastapi import Depends, Header, HTTPException, status
+from fastapi import Depends, Header, HTTPException, Request, status
 from sqlalchemy.orm import Session
 
 from app.core.security_config import get_jwt_secret
@@ -177,18 +177,26 @@ def _billing_db():
     yield from get_db()
 
 
-def principal(authorization: str = Header(default="")) -> Optional[Principal]:
+def principal(request: Request, authorization: str = Header(default="")) -> Optional[Principal]:
     """None en mode « off » ; sinon jeton obligatoire et valide."""
+    from app.core import limitation
+
     try:
         mode = mode_auth()
     except ConfigAuthInvalide:
         raise HTTPException(status_code=500, detail="auth_mal_configuree")
     if mode == "off":
         return None
-    jeton = _extraire(authorization)
-    if jeton is None:
-        raise _refus("jeton_requis")
-    return decoder(jeton)
+    # R7 : une source qui présente des jetons invalides en rafale est freinée (429).
+    limitation.exiger_jeton_non_sonde(request)
+    try:
+        jeton = _extraire(authorization)
+        if jeton is None:
+            raise _refus("jeton_requis")
+        return decoder(jeton)
+    except HTTPException:
+        limitation.jeton_invalide(request)
+        raise
 
 
 @dataclass(frozen=True)

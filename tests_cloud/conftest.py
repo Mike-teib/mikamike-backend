@@ -36,5 +36,8 @@ creer_tables_pour_tests()
 def client():
     # Isolation stricte : TOUTES les bases (mika + billing) neuves à chaque test.
     creer_tables_pour_tests(reinitialiser=True)
+    from app.core.limitation import reinitialiser_tout
+
+    reinitialiser_tout()  # compteurs de limitation (R7) remis à zéro entre tests
     with TestClient(app) as c:
         yield c

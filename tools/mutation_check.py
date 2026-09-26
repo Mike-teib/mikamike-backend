@@ -36,6 +36,7 @@ T_API = ("tests_cloud/test_mika_api.py",)
 T_IMPORT = ("tests_cloud/test_import_v2_integrite.py", "tests_cloud/test_review_session1.py")
 T_ATT = ("tests_cloud/test_attaques.py", "tests_cloud/test_review_session1.py")
 T_S3 = ("tests_cloud/test_review_session2.py",)
+T_RL = ("tests_cloud/test_limitation.py",)
 
 
 MUTANTS: List[Mutant] = [
@@ -155,6 +156,21 @@ MUTANTS: List[Mutant] = [
     Mutant("identifiant_64_elargi", "app/core/validation.py",
            "Identifiant64 = Annotated[str, Field(min_length=1, max_length=64,",
            "Identifiant64 = Annotated[str, Field(min_length=1, max_length=128,", T_S3),
+    Mutant("connexion_non_limitee", "paiement_comptes/router_comptes.py",
+           "    limitation.exiger(*paires)\n", "", T_RL),
+    Mutant("connexion_bloquee_par_email_seul", "app/core/limitation.py",
+           "    if email_global_actif():", "    if True:", T_RL),
+    Mutant("backoff_constant", "app/core/limitation.py",
+           "self.backoff_base_s * (2 ** (n - self.max_echecs))", "self.backoff_base_s", T_RL),
+    Mutant("pas_de_reset_sur_succes", "app/core/limitation.py",
+           "                lim.succes(cle)", "                pass", T_RL),
+    Mutant("x_forwarded_for_cru", "app/core/limitation.py",
+           "    if hops > 0:", "    if True:", T_RL),
+    Mutant("jetons_invalides_non_comptes", "app/core/auth.py",
+           "    except HTTPException:\n        limitation.jeton_invalide(request)\n        raise",
+           "    except HTTPException:\n        raise", T_RL),
+    Mutant("historique_oublie_pendant_blocage", "app/core/limitation.py",
+           "max(e.echecs[-1], e.bloque_jusqua) <= maintenant", "e.echecs[0] <= maintenant", T_RL),
 ]
 
 

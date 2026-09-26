@@ -42,7 +42,10 @@ async def _cycle_de_vie(_app: FastAPI):
     from app.core.auth import mode_auth
     from app.db.migrations import initialiser_au_demarrage
 
+    from app.core.limitation import actif as limitation_active
+
     mode_auth()  # configuration d'authentification invalide ⇒ refus de démarrer
+    limitation_active()  # MIKA_RATE_LIMIT invalide, ou « off » en production ⇒ refus de démarrer
     initialiser_au_demarrage()
     yield
 
