@@ -10,6 +10,10 @@ NEXT: Mike — (1) déployer le staging selon STAGING_DEPLOYMENT_RUNBOOK.md ; (2
   (4) choisir le fournisseur de courriel ; (5) DPO_RETENTION_DECISION.md ; (6) fusionner #3→#7.
 VERDICTS: READY_FOR_STAGING = YES (sous réserve CI rc-gate verte + secrets/hôte staging) ;
   READY_FOR_PRODUCTION = NO (RELEASE_CANDIDATE.md §14).
+TESTS: 4593 (base #6) → 4806 passed + 1 (S5-01 déterministe), 0 échec (local) ; ruff 0.
+MUTATIONS: 178/178 tués en local ; CI e4bd36b : 177/178 (s5_01 dépendant du minutage) ⇒ test
+  déterministe ajouté, mutant tué seul.
+SECURITY: bandit 0 · pip-audit 0 · secrets arbre 0 · P0 0 · P1 0.
 MIGRATIONS: inchangées (mika m0003_tutorat ; billing b0004_verif_email_revocation).
 DECISIONS (conservatrices, réversibles) : moteur historique par défaut, `legacy` en retour arrière ;
   aucune route de quiz inventée ; écarts d'API documentés, non corrigés (changement de contrat) ;

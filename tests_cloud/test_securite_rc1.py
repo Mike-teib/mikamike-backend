@@ -204,3 +204,31 @@ def test_s5_01_premieres_soumissions_simultanees_sans_500(client, monkeypatch):
         assert len(crud.get_tentatives(db, hmac_eleve("course-1"))) == 2
     finally:
         db.close()
+
+
+def test_s5_01_reprise_deterministe_apres_lecture_perimee(client):
+    """Même scénario sans dépendre du minutage : la lecture de cette requête ne voit pas la
+    ligne (périmée) alors qu'une autre requête l'a déjà validée ⇒ l'insertion échoue en
+    IntegrityError ; la reprise doit mettre la ligne à jour, jamais lever (500)."""
+    h = hmac_eleve("course-det")
+    autre = SessionLocal()
+    crud.upsert_etat(autre, h, "equations_1er_degre", "EN_COURS")  # requête concurrente, validée
+    autre.close()
+    db = SessionLocal()
+    vrai_get, appels = db.get, {"n": 0}
+
+    def get_perime(modele, cle, *a, **k):
+        appels["n"] += 1
+        return None if appels["n"] == 1 else vrai_get(modele, cle, *a, **k)
+
+    db.get = get_perime
+    try:
+        obj = crud.upsert_etat(db, h, "equations_1er_degre", "ACQUIS_ASSISTE")
+        assert obj.etat == "ACQUIS_ASSISTE" and appels["n"] == 2
+    finally:
+        db.close()
+    db = SessionLocal()
+    try:
+        assert crud.get_etats(db, h) == {"equations_1er_degre": "ACQUIS_ASSISTE"}
+    finally:
+        db.close()
