@@ -35,6 +35,9 @@ def acteurs(client, monkeypatch):
     db = BillingSession()
     c = {n: crud_billing.creer_compte(db, email=f"{n}@example.com", mot_de_passe=MDP, role=r)
          for n, r in (("p1", "parent"), ("p2", "parent"), ("p3", "parent"), ("ce", "eleve"))}
+    for x in c.values():  # R19 (session 4) : adresses vérifiées (la vérification a ses propres tests)
+        x.email_verifie = True
+    db.commit()
     liens.lier(db, c["p1"].id, hmac_eleve(ELEVE), "parent")
     jetons = {n: creer_token(x) for n, x in c.items()}
     ids = {n: x.id for n, x in c.items()}

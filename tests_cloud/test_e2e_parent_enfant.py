@@ -23,6 +23,15 @@ def _h(t):
     return {"Authorization": f"Bearer {t}"}
 
 
+def _verifier_email(c, email):
+    """Transport FAUX (aucun envoi réel) : le jeton est lu dans la boîte de test."""
+    from app.core.courriel import boite_de_test
+
+    jeton = boite_de_test().derniers(email)[-1].metadonnees["jeton"]
+    r = c.post("/api/v1/comptes/verification-email/confirmer", json={"jeton": jeton})
+    assert r.json() == {"statut": "EMAIL_VERIFIED"}
+
+
 @pytest.fixture()
 def e2e(client, monkeypatch, capsys):
     import bcrypt
@@ -44,6 +53,12 @@ def test_flux_parent_enfant_complet_en_enforce(e2e):
     r = c.post("/api/v1/comptes/connexion", json={"email": "parent1@example.com", "mot_de_passe": MDP})
     assert r.status_code == 200 and "set-cookie" not in r.headers
     p1 = r.json()["token"]
+    assert r.json()["compte"]["email_verifie"] is False
+    # R19 : sans adresse vérifiée, aucun rattachement possible.
+    code_test = c.post("/api/v1/liens/accepter", json={"code": "AAAA-AAAA-AAAA-AAAA-AAAA-AAAA", "confirmation": True},
+                       headers=_h(p1))
+    assert (code_test.status_code, code_test.json()["detail"]) == (403, "email_non_verifie")
+    _verifier_email(c, "parent1@example.com")
     # Sans lien : AUCUN accès à l'enfant, même en connaissant son pseudo-id (D8).
     assert c.post("/api/v1/auth/eleve/jeton", json={"student_pseudo_id": ENFANT}, headers=_h(p1)).status_code == 403
     assert c.post("/api/v1/liens/invitations", json={"student_pseudo_id": ENFANT}, headers=_h(p1)).status_code == 403
@@ -101,6 +116,7 @@ def test_flux_parent_enfant_complet_en_enforce(e2e):
     code2 = c.post("/api/v1/liens/invitations", json={"student_pseudo_id": ENFANT}, headers=_h(je)).json()["code"]
     c.post("/api/v1/comptes/inscription", json={"email": "parent2@example.com", "mot_de_passe": MDP})
     p2 = c.post("/api/v1/comptes/connexion", json={"email": "parent2@example.com", "mot_de_passe": MDP}).json()["token"]
+    _verifier_email(c, "parent2@example.com")
     assert c.post("/api/v1/liens/accepter", json={"code": code2, "confirmation": True}, headers=_h(p2)).status_code == 201
 
     # 8. Tableau de bord et export RGPD par les parents liés.
@@ -130,15 +146,23 @@ def test_configuration_de_production_demarre(monkeypatch, client):
 
     import main
 
+    from app.core import courriel
+
     monkeypatch.setenv("MIKA_ENV", "production")
     monkeypatch.setenv("MIKA_AUTH_MODE", "enforce")
     monkeypatch.setenv("MIKA_RATE_LIMIT", "on")
+    # Production : un fournisseur de courriel RÉEL est exigé ; on en simule l'enregistrement.
+    monkeypatch.setitem(courriel._FABRIQUES, "fournisseur-simule", courriel.TransportFaux)
+    monkeypatch.setenv("MIKA_EMAIL_TRANSPORT", "fournisseur-simule")
     with TestClient(main.create_app()) as c:
         assert c.get("/health").status_code == 200
         assert c.post("/api/v1/exercices/soumettre", json={}).status_code == 401
-    for var, val in (("MIKA_AUTH_MODE", "off"), ("MIKA_RATE_LIMIT", "off")):
+    for var, val in (("MIKA_AUTH_MODE", "off"), ("MIKA_RATE_LIMIT", "off"), ("MIKA_EMAIL_TRANSPORT", "faux"),
+                     ("MIKA_EMAIL_VERIFICATION", "off")):
         monkeypatch.setenv(var, val)
         with pytest.raises(Exception):
             with TestClient(main.create_app()):
                 pass
-        monkeypatch.setenv(var, "enforce" if var == "MIKA_AUTH_MODE" else "on")
+        monkeypatch.setenv(var, {"MIKA_AUTH_MODE": "enforce", "MIKA_RATE_LIMIT": "on",
+                                 "MIKA_EMAIL_TRANSPORT": "fournisseur-simule",
+                                 "MIKA_EMAIL_VERIFICATION": "requise"}[var])

@@ -52,5 +52,6 @@ def emettre_jeton_eleve(
         limitation.exiger(*quota)
         limitation.compter(quota)
     auth.compte_lie(qui, data.student_pseudo_id, db)
-    token, ttl = auth.emettre_jeton_eleve(data.student_pseudo_id, compte_id=qui.compte_id)
+    token, ttl = auth.emettre_jeton_eleve(data.student_pseudo_id, compte_id=qui.compte_id,
+                                          compte_version=qui.version)
     return JetonEleveOut(token=token, expires_in=ttl)

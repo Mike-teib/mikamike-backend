@@ -47,6 +47,11 @@ async def _cycle_de_vie(_app: FastAPI):
 
     mode_auth()  # configuration d'authentification invalide ⇒ refus de démarrer
     limitation_active()  # MIKA_RATE_LIMIT invalide, ou « off » en production ⇒ refus de démarrer
+    from app.core.courriel import nom_transport
+    from paiement_comptes.verification_email import verification_requise
+
+    verification_requise()  # MIKA_EMAIL_VERIFICATION invalide, ou « off » en production ⇒ refus
+    nom_transport()  # aucun fournisseur de courriel réel en production ⇒ refus de démarrer (R19)
     initialiser_au_demarrage()
     yield
 

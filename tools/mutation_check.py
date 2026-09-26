@@ -46,6 +46,7 @@ T_MIG = ("tests_cloud/test_migrations_validation.py",)
 T_API2 = ("tests_cloud/test_mika_api_audit.py",)
 T_HARN = ("tests_cloud/test_import_harnais.py",)
 T_SEC = ("tests_cloud/test_securite_s3.py",)
+T_R19 = ("tests_cloud/test_verification_email.py", "tests_cloud/test_e2e_parent_enfant.py")
 T_DEC = ("tests_cloud/test_invitations.py", "tests_cloud/test_equivalence.py", "tests_cloud/test_securite_s3.py",
          "tests_cloud/test_e2e_parent_enfant.py")
 
@@ -147,7 +148,7 @@ MUTANTS: List[Mutant] = [
            "        if liens.relation(db, emetteur.id, hmac_eleve(pseudo_id)) != emetteur.role:",
            "        if False:", T_S3),
     Mutant("jeton_eleve_compte_desactive", "app/core/auth.py",
-           "        if emetteur is None or not emetteur.actif:", "        if emetteur is None:", T_S3),
+           "        if emetteur is None or not emetteur.actif or", "        if emetteur is None or", T_S3),
     Mutant("url_alembic_non_echappee", "app/db/migrations.py",
            'url.replace("%", "%%")', "url", T_S3),
     Mutant("ddl_sqlite_non_transactionnel", "app/db/migrations.py",
@@ -168,7 +169,8 @@ MUTANTS: List[Mutant] = [
            "Identifiant64 = Annotated[str, Field(min_length=1, max_length=64,",
            "Identifiant64 = Annotated[str, Field(min_length=1, max_length=128,", T_S3),
     Mutant("connexion_non_limitee", "paiement_comptes/router_comptes.py",
-           "    limitation.exiger(*paires)\n", "", T_RL),
+           "    paires = limitation.cles_connexion(request, data.email)\n    limitation.exiger(*paires)\n",
+           "    paires = limitation.cles_connexion(request, data.email)\n", T_RL),
     Mutant("connexion_bloquee_par_email_seul", "app/core/limitation.py",
            "    if email_global_actif():", "    if True:", T_RL),
     Mutant("backoff_constant", "app/core/limitation.py",
@@ -244,6 +246,25 @@ MUTANTS: List[Mutant] = [
            "    return ligne.decision == Decision.ACCEPTER", "    return ligne.decision != Decision.REFUSER", T_DEC),
     Mutant("d15_session_id_previsible", "app/api/v1/session/session_manager.py",
            '"s" + secrets.token_hex(24)', '"s" + "0" * 48', T_DEC),
+    # ---------------------------------------------------------------- session 4 : R19 / révocation
+    Mutant("r19_acceptation_sans_verification", "paiement_comptes/liens.py",
+           "    if verification_ok_pour_invitation(compte):", "    if False:", T_R19),
+    Mutant("r19_jeton_non_lie_a_l_adresse", "paiement_comptes/verification_email.py",
+           " or compte.email != v.email_cible:", ":", T_R19),
+    Mutant("r19_sans_expiration", "paiement_comptes/verification_email.py",
+           "expire_le=now + _dt.timedelta(minutes=ttl_min())", "expire_le=now + _dt.timedelta(days=3650)", T_R19),
+    Mutant("revocation_compte_ignoree_moi", "paiement_comptes/router_comptes.py",
+           "    if isinstance(ver, bool) or not isinstance(ver, int) or ver != (compte.jeton_version or 0):",
+           "    if False:", T_R19),
+    Mutant("revocation_compte_ignoree_garde", "app/core/auth.py",
+           "    if (compte.jeton_version or 0) != qui.version:", "    if False:", T_R19),
+    Mutant("revocation_eleve_ignoree", "app/core/auth.py",
+           " or (emetteur.jeton_version or 0) != qui.version:", ":", T_R19),
+    Mutant("mot_de_passe_sans_revocation", "paiement_comptes/router_comptes.py",
+           "    _revoquer(compte)  # un jeton volé", "    pass  # un jeton volé", T_R19),
+    Mutant("suppression_sans_mot_de_passe", "paiement_comptes/router_comptes.py",
+           "    _exiger_mot_de_passe(request, compte, data.mot_de_passe)\n    ab = compte.abonnement",
+           "    ab = compte.abonnement", T_R19),
     Mutant("d15_creation_implicite_en_enforce", "app/api/v1/session/router.py",
            "    if g.qui is not None:\n        GestionnaireSession.exiger_existante",
            "    if False:\n        GestionnaireSession.exiger_existante", T_DEC),

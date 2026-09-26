@@ -28,6 +28,7 @@ n'ajoute ni colonne ni index à une table déjà présente).
 | billing | `b0001_baseline` | `comptes`, `abonnements` |
 | billing | `b0002_liens_compte_eleve` | autorisation compte ↔ élève (AUTH_CONTRACT.md) |
 | billing | `b0003_invitations_lien` | invitations à usage unique (décision D8) : empreinte HMAC du code, expiration, consommation |
+| billing | `b0004_verif_email_revocation` | `verifications_email` (R19) + `comptes.jeton_version` (révocation ; `server_default 0` : comptes existants préservés) |
 
 ## 4. Commandes (`tools/db.py`)
 ```

@@ -104,3 +104,32 @@ serveur**, 192 bits aléatoires (`s` + 48 hex). En mode `enforce`, heartbeat / s
 reconnect / stream sur un identifiant que le serveur n'a pas créé ⇒ 404 `session_inconnue` (plus
 de création implicite sous un identifiant choisi par le client). Le mode `off` (contrat
 historique, interdit en production) conserve la création implicite.
+
+## 12. Cycle de vie du compte et vérification d'adresse (session 4, R19)
+| Route | Auth | Effet |
+|---|---|---|
+| `POST /comptes/inscription` | — | compte créé NON vérifié ; courriel de vérification émis (transport) |
+| `GET /comptes/verification-email` | compte | `{statut: EMAIL_UNVERIFIED \| VERIFICATION_TOKEN_CREATED \| EMAIL_VERIFIED, email_verifie}` |
+| `POST /comptes/verification-email` | compte | 202 ; renvoie un courriel (5/h) ; le jeton n'est JAMAIS dans la réponse |
+| `POST /comptes/verification-email/confirmer` `{jeton}` | — (le jeton est la preuve) | 200 `EMAIL_VERIFIED` ; 400 `jeton_invalide_ou_expire` (réponse unique) ; 20 échecs/15 min/IP ⇒ 429 |
+| `POST /comptes/deconnexion` | compte | 204 ; **révoque tous** les jetons du compte ET les jetons élève qu'il a émis |
+| `POST /comptes/mot-de-passe` `{ancien, nouveau}` | compte + mot de passe | nouveau jeton ; anciens révoqués ; 5 échecs/15 min ⇒ 429 |
+| `POST /comptes/email` `{nouvel_email, mot_de_passe}` | compte + mot de passe | adresse NON vérifiée, jetons de vérification invalidés, jetons révoqués, nouveau courriel |
+| `GET /comptes/moi/export` | compte | droit d'accès du titulaire (sans hash, jeton ni code) |
+| `DELETE /comptes/moi` `{mot_de_passe, confirmation: true}` | compte + mot de passe | compte, liens, jetons de vérification, invitations émises non utilisées supprimés ; 409 si abonnement en cours ; les données d'apprentissage de l'élève sont conservées (elles lui appartiennent : `/rgpd/effacer`) |
+
+- **Vérification exigée** pour valider une invitation (D8) : 403 `email_non_verifie`, code non
+  consommé. `MIKA_EMAIL_VERIFICATION=off` possible hors production uniquement.
+- **Jeton de vérification** : 256 bits, empreinte HMAC seule stockée, 24 h (`MIKA_EMAIL_VERIF_TTL_MIN`),
+  usage unique (consommation atomique), lié à l'adresse ciblée, tous invalidés après un succès,
+  au plus 3 actifs par compte.
+- **Révocation** : claim `ver` (jeton de compte) et `cv` (jeton élève) = `comptes.jeton_version`,
+  incrémentée à la déconnexion et aux changements de mot de passe / d'adresse ⇒ 401 `jeton_revoque`.
+  Jetons de compte historiques sans `ver` : valables tant que la version vaut 0.
+- **Courriels** : `app/core/courriel.py`, transports `faux` (mémoire, tests/CI) et `journal` ;
+  **aucun envoi réel**. En production un fournisseur doit être enregistré
+  (`enregistrer_transport`), sinon l'application refuse de démarrer.
+- **Pas de refresh token** (choix conservateur) : jeton de compte 168 h, jeton élève 2 h,
+  renouvellement par ré-émission (FRONT_AUTH_INTEGRATION.md §3).
+- **Rôles** : `eleve`, `parent` ; `admin` existe dans le modèle mais **aucune route ne l'honore**
+  (testé) ; l'opérateur n'agit que par outil en ligne de commande (`tools.liens`).
