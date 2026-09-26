@@ -2,7 +2,7 @@
 Suite de tests paiement/comptes — sur l'app assemblée.
 
 Chemins publics :
-  - POST /api/v1/comptes/inscription | /connexion, GET /moi (JWT via python-jose)
+  - POST /api/v1/comptes/inscription | /connexion, GET /moi (JWT via PyJWT)
   - GET  /api/v1/paiement/statut, POST /api/v1/paiement/checkout (garde Stripe)
 
 Couvre succès + erreur par endpoint. Stripe n'est PAS requis (checkout est testé
