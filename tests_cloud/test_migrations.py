@@ -90,7 +90,7 @@ print(json.dumps({"vide": vide, "plein": tables()}))
 """)
     assert out["vide"] == {"mika": [], "billing": []}
     # billing : + invitations_lien (b0003, D8) + verifications_email (b0004, R19).
-    assert len(out["plein"]["mika"]) == 6 and len(out["plein"]["billing"]) == 5
+    assert len(out["plein"]["mika"]) == 8 and len(out["plein"]["billing"]) == 5
 
 
 def test_demarrage_refuse_si_schema_absent(tmp_path):

@@ -26,9 +26,11 @@ def metadatas(cible: str) -> List[MetaData]:
         from app.api.v1.memory.spaced_repetition import MemoryBase
         from app.api.v1.mikamike.store import MikaBase
         from app.api.v1.session.session_manager import SessionBase
+        from app.api.v1.quiz.store import QuizBase
         from app.api.v1.tutorat.store import TutoratBase
 
-        return [MikaBase.metadata, MemoryBase.metadata, SessionBase.metadata, TutoratBase.metadata]
+        return [MikaBase.metadata, MemoryBase.metadata, SessionBase.metadata, TutoratBase.metadata,
+                QuizBase.metadata]
     if cible == "billing":
         import paiement_comptes.liens  # noqa: F401  (enregistre la table des liens)
         import paiement_comptes.verification_email  # noqa: F401  (vérification d'adresse, R19)

@@ -15,7 +15,7 @@ import type {
   Remediation, ReponseAcceptation, ReponseConfirmationEmail, ReponseDemandeVerification, ReponseEffacementRgpd,
   ReponseHeartbeat, ReponseInvitation, ReponseJetonCompte, ReponseJetonEleve, ReponseMika, ReponseNouvelleSeance,
   ReponseReconnexion, ReponseSauvegardeEtat, ReponseSoumission, ReponseSuppressionCompte, ReponseTutorat,
-  RequeteTutoratExport, SeanceExport, StatCompetence, StatistiquesParent, TentativeExport, TutoratExport, VueTutorat,
+  QuizTentativeExport, RequeteQuizExport, RequeteTutoratExport, SeanceExport, StatCompetence, StatistiquesParent, TentativeExport, TutoratExport, VueTutorat,
 } from "./types.ts";
 
 export class ErreurContrat extends Error {
@@ -258,6 +258,14 @@ export const vExportRgpdEleve = objet<ExportRgpdEleve>({
   requetes_tutorat_mika: tableau(objet<RequeteTutoratExport>({
     tutorat_id: chaine, requete_id: chaine, cree_le: date, reponse: objetLibre,
   })),
+  quiz_tentatives: tableau(objet<QuizTentativeExport>({
+    tentative_id: chaine, question_id: chaine, notion_id: chaine, etat: parmi(["EN_COURS", "TERMINEE"] as const),
+    avec_aide: booleen, aides: entier, verdict: nullable(parmi(["CORRECT", "INCORRECT", "A_REVOIR"] as const)),
+    cree_le: date, maj_le: date,
+  })),
+  requetes_quiz: tableau(objet<RequeteQuizExport>({
+    tentative_id: chaine, requete_id: chaine, cree_le: date, reponse: objetLibre,
+  })),
   liens_comptes: tableau(objet<LienExport>({ relation: parmi(RELATIONS), cree_le: date })),
   invitations_liens: tableau(objet<InvitationExport>({
     relation: parmi(RELATIONS), emis_par: chaine, cree_le: date, expire_le: date, utilisee: booleen,
@@ -267,6 +275,7 @@ export const vReponseEffacementRgpd = objet<ReponseEffacementRgpd>({
   statut: litteral("effacement_effectue"), message: chaine, student_pseudo_id: chaine,
   tentatives_supprimees: entier, etats_supprimes: entier, rappels_memoire_supprimes: entier,
   sessions_supprimees: entier, tutorats_supprimes: entier, requetes_tutorat_supprimees: entier,
+  quiz_tentatives_supprimees: entier, requetes_quiz_supprimees: entier,
   liens_compte_supprimes: entier, invitations_supprimees: entier,
 });
 

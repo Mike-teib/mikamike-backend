@@ -88,7 +88,7 @@ HIST_MIKA = ["mika_etats", "mika_memory_schedules", "mika_session_states", "mika
 def test_base_neuve_cli_upgrade_status(tmp_path):
     assert _cli(tmp_path, "status")[0] == 1  # aucune révision : en retard
     code, out, _ = _cli(tmp_path, "upgrade")
-    assert code == 0 and "mika: m0003_tutorat" in out and "billing: b0004_verif_email_revocation" in out
+    assert code == 0 and "mika: m0004_quiz" in out and "billing: b0004_verif_email_revocation" in out
     code, out, _ = _cli(tmp_path, "status")
     assert code == 0 and out.count(" OK") == 2
     assert _cli(tmp_path, "upgrade")[0] == 0  # idempotent : relancer ne change rien
@@ -97,12 +97,12 @@ def test_base_neuve_cli_upgrade_status(tmp_path):
 def test_upgrade_pas_a_pas_chaque_revision(tmp_path):
     out = _py(tmp_path, """
         vus = []
-        for rev in ("m0001_baseline", "m0002_index_tentatives", "m0003_tutorat"):
+        for rev in ("m0001_baseline", "m0002_index_tentatives", "m0003_tutorat", "m0004_quiz"):
             m.upgrade("mika", rev)
             vus.append([m.courante("mika"), tables("mika")])
         print(json.dumps(vus))
     """)
-    assert [v[0] for v in out] == ["m0001_baseline", "m0002_index_tentatives", "m0003_tutorat"]
+    assert [v[0] for v in out] == ["m0001_baseline", "m0002_index_tentatives", "m0003_tutorat", "m0004_quiz"]
     assert "mika_tutorat_sessions" not in out[1][1] and "mika_tutorat_sessions" in out[2][1]
 
 

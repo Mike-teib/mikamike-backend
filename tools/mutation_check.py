@@ -60,6 +60,7 @@ T_ES = ("tests_cloud/test_es_provenance.py", "tests_cloud/test_technologie_s4.py
 T_PROG = ("tests_cloud/test_progression.py", "tests_cloud/test_progression_api_s5.py")
 T_MAIL = ("tests_cloud/test_email_provider.py",)
 T_SECRC1 = ("tests_cloud/test_securite_rc1.py",)
+T_QUIZ = ("tests_cloud/test_quiz_api.py",)
 T_PUB5 = ("tests_cloud/test_publication_rc1.py", "tests_cloud/test_publication.py")
 T_MOTEUR = ("tests_cloud/test_progression_api_s5.py", "tests_cloud/test_api_regressions.py")
 T_S4SEC = ("tests_cloud/test_securite_s4.py", "tests_cloud/test_parent_minimisation.py", "tests_cloud/test_retention.py")
@@ -469,6 +470,25 @@ MUTANTS: List[Mutant] = [
            "        if False:", T_PUB5),
     Mutant("pub_tests_rouges_ignores", "app/curriculum/publication.py",
            '                r.append("TESTS_ROUGES")', "                pass", T_PUB5),
+    # Session 6 : API HTTP des quiz.
+    Mutant("quiz_cle_avant_soumission", "app/api/v1/quiz/service.py",
+           '    if t.etat == "TERMINEE":\n        out["resultat"]', '    if True:\n        out["resultat"]', T_QUIZ),
+    Mutant("quiz_soumission_multiple", "app/api/v1/quiz/service.py",
+           '    if t.etat != "EN_COURS":\n        raise _err(status.HTTP_409_CONFLICT, "tentative_terminee")\n    if version != t.version:\n        raise _err(status.HTTP_409_CONFLICT, "version_perimee")\n    q = _question(t.question_id)\n    verdict',
+           '    if False:\n        raise _err(status.HTTP_409_CONFLICT, "tentative_terminee")\n    if version != t.version:\n        raise _err(status.HTTP_409_CONFLICT, "version_perimee")\n    q = _question(t.question_id)\n    verdict', T_QUIZ),
+    Mutant("quiz_aide_non_monotone", "app/api/v1/quiz/service.py",
+           '{"avec_aide": True, "aides": t.aides + 1}', '{"avec_aide": False, "aides": t.aides + 1}', T_QUIZ),
+    Mutant("quiz_aide_non_versee", "app/api/v1/quiz/service.py",
+           'est_correct=verdict == "CORRECT", avec_aide=t.avec_aide))',
+           'est_correct=verdict == "CORRECT", avec_aide=False))', T_QUIZ),
+    Mutant("quiz_revue_versee", "app/api/v1/quiz/service.py",
+           '    if verdict != "A_REVOIR":  # une réponse indécidable', '    if True:  # une réponse indécidable', T_QUIZ),
+    Mutant("quiz_ownership", "app/api/v1/quiz/service.py",
+           "    if t is None or t.eleve_hmac != eleve_hmac:", "    if t is None:", T_QUIZ),
+    Mutant("quiz_catalogue_non_valide", "app/api/v1/quiz/contenu.py",
+           "        return len(q.id) <= 128", "        return True or len(q.id) <= 128", T_QUIZ),
+    Mutant("quiz_limitation_absente", "app/api/v1/quiz/router.py",
+           "    limitation.exiger(*paires)", "    pass", T_QUIZ),
     # Session 5 : fournisseur SMTP.
     Mutant("smtp_clair_autorise_en_prod", "app/core/courriel.py",
            '        if securite == "aucune" and _en_production():', "        if False:", T_MAIL),
@@ -514,7 +534,17 @@ def main(argv=None) -> int:
     # Revue session 2 (R2-12) : sans suite verte AVANT mutation, tout mutant paraissait
     # « tué » ; et un mutant qui casse l'import (erreur de collecte, code 2) était compté
     # tué alors qu'aucune assertion ne l'avait détecté.
-    if executer_suite() != 0:
+    # Session 6 : en `--seulement`, la baseline porte sur les suites CIBLÉES des mutants choisis
+    # (ce qui suffit à rendre chaque verdict significatif) ; en mode complet, sur tests_cloud.
+    cibles_baseline: Tuple[str, ...] = ()
+    if argv[:1] == ["--seulement"]:
+        vues: List[str] = []
+        for m in MUTANTS:
+            for c in m.cibles:
+                if c not in vues:
+                    vues.append(c)
+        cibles_baseline = tuple(vues)
+    if executer_suite(*cibles_baseline) != 0:
         print("BASELINE ROUGE : la suite échoue sans mutation, résultat non significatif")
         return 2
     survivants, inapplicables, non_executes = [], [], []

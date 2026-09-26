@@ -43,7 +43,7 @@ def test_sauvegarde_verification_restauration(bases):
     assert code == 0, err
     meta = json.loads(out)
     assert meta["bases"]["billing"]["revision"] == "b0004_verif_email_revocation"
-    assert meta["bases"]["mika"]["revision"] == "m0003_tutorat"
+    assert meta["bases"]["mika"]["revision"] == "m0004_quiz"
     assert _outil(bases, "verifier", "--source", str(bases / "sv"))[0] == 0
     # Incident : la base billing est vidée après la sauvegarde.
     con = sqlite3.connect(bases / "billing.db")
