@@ -35,8 +35,14 @@ jobs:
         run: ruff check .
       - name: Tests (pytest, hors ligne)
         run: python -m pytest -q
+      - name: Migrations — tests de validation (neuve, historique, stamp, downgrade, version incorrecte, interruption)
+        run: python -m pytest -q tests_cloud/test_migrations.py tests_cloud/test_migrations_validation.py
+      - name: Import — harnais synthétique et performance (aucun artefact réel)
+        run: python -m pytest -q tests_cloud/test_import_harnais.py tests_cloud/test_import_perf.py
       - name: Garde-fou contenu (fixtures, existant, catalogue)
         run: python -m tools.content_check
+      - name: R6 — audit symbolique du catalogue historique (lecture seule, échoue sur faux positif)
+        run: python -m tools.audit_equivalence --sortie /tmp/equivalence
       - name: Rapports reproductibles (backlog + audit dédup)
         run: |
           python -m tools.rapports --sortie /tmp/r1
@@ -49,6 +55,7 @@ jobs:
         run: |
           python -m tools.db upgrade
           python -m tools.db status
+          python -m tools.db stamp-existant mika && exit 1 || echo "stamp sur base versionnée : refusé (attendu)"
           python -m tools.db downgrade mika base
           python -m tools.db downgrade billing base
           python -m tools.db upgrade
@@ -57,7 +64,8 @@ jobs:
   mutation:
     name: mutation (bugs injectés, tous doivent être tués)
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    # ~80 mutants (session 3) : suites ciblées, sur une COPIE jetable du dépôt.
+    timeout-minutes: 60
     env:
       MIKA_JWT_SECRET: test-jwt-secret-not-for-prod-0123456789
       MIKA_PSEUDO_SECRET: test-pseudo-secret-not-for-prod-0123456789
@@ -92,6 +100,6 @@ jobs:
       - name: Scan de secrets (arbre + historique, valeurs masquées)
         run: python tools/secret_scan.py --history
       - name: SAST (bandit, sévérité moyenne+)
-        run: bandit -q -r app paiement_comptes main.py tools -ll
+        run: bandit -q -r app paiement_comptes main.py tools migrations -ll
       - name: Audit des dépendances (pip-audit)
         run: pip-audit -r requirements.txt -r requirements-dev.txt

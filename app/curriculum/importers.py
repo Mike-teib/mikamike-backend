@@ -417,15 +417,16 @@ def ecrire_manifest(dossier: Path, types: Dict[str, str]) -> Path:
 
 
 def ecrire_manifest_v2(dossier: Path, fichiers: Dict[str, Tuple[str, str]], *, lot_id: str,
-                       producteur: str, date: str) -> str:
+                       producteur: str, date: str, trier: bool = True) -> str:
     """
     Côté producteur : `fichiers` = {chemin: (type, role)}. Écrit le manifest v2 et renvoie son
     SHA-256, à transmettre HORS BANDE (canal distinct du lot) à la personne qui importe.
+    `trier=False` conserve l'ordre fourni (= ordre de traitement, séquentiel, à l'import).
     """
     entrees = [
         {"chemin": c, "sha256": sha256_fichier(dossier / c), "taille": (dossier / c).stat().st_size,
          "type": t, "role": r}
-        for c, (t, r) in sorted(fichiers.items())
+        for c, (t, r) in (sorted(fichiers.items()) if trier else fichiers.items())
     ]
     m = dossier / NOM_MANIFEST
     m.write_text(json.dumps({"version": 2, "lot_id": lot_id, "producteur": producteur, "date": date,

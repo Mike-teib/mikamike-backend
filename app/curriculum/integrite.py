@@ -35,7 +35,7 @@ from app.curriculum.structure import Anomalie, valider_referentiel
 from app.curriculum.text_quality import analyser_texte
 
 # Anomalies qui invalident TOUT le lot (pas seulement un objet).
-CODES_GLOBAUX = frozenset({"ID_DUPLIQUE", "CONTENU_ID_DUPLIQUE", "SOURCE_DOCUMENT_ABSENT",
+CODES_GLOBAUX = frozenset({"ID_DUPLIQUE", "CONTENU_ID_DUPLIQUE", "SOURCE_DOCUMENT_ABSENT", "SOURCE_FICTIVE_HORS_TEST",
                            "PROGRAMME_SANS_SOURCE", "PROGRAMMES_CHEVAUCHANTS", "PROGRAMME_INCOHERENT"})
 
 
@@ -72,6 +72,14 @@ def verifier_integrite(
         for s in ref.sources:
             if not s.fictive and s.sha256_document not in docs:
                 out.append(Anomalie("SOURCE_DOCUMENT_ABSENT", s.id, s.sha256_document[:12]))
+
+    # Source FICTIVE (fixtures, harnais synthétique) hors mode test : le lot entier est refusé.
+    # Sans ce contrôle, un lot synthétique était VALIDATED et PUBLIABLE en production (il aurait
+    # remplacé le lot actif réel ; revue session 3, S3-15).
+    if not autoriser_fictif:
+        for s in ref.sources:
+            if s.fictive:
+                out.append(Anomalie("SOURCE_FICTIVE_HORS_TEST", s.id))
 
     # --- notions : preuve, hash, texte, rentrée -------------------------------------
     for n in ref.notions:

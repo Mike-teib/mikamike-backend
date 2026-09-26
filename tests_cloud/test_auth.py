@@ -77,7 +77,7 @@ def _cle_eleve():
 
 def _eleve_claims(**kw):
     c = {"iss": auth.ISSUER, "aud": auth.AUDIENCE, "typ": auth.TYP_ELEVE, "role": "eleve",
-         "sub": A, "iat": _now(), "exp": _now() + 600}
+         "sub": A, "cid": 1, "iat": _now(), "exp": _now() + 600}
     c.update(kw)
     return c
 
@@ -282,7 +282,9 @@ def test_emission_meme_en_mode_off(client, monkeypatch):
 def test_jeton_emis_ne_contient_aucune_pii(monde):
     _, j = monde
     claims = jwt.decode(j["A"], options={"verify_signature": False})
-    assert set(claims) == {"iss", "aud", "typ", "role", "sub", "iat", "exp", "jti"}
+    # Session 3 (S3-01) : + `cid` (id numérique interne du compte émetteur, pas une PII).
+    assert set(claims) == {"iss", "aud", "typ", "role", "sub", "cid", "iat", "exp", "jti"}
+    assert isinstance(claims["cid"], int)
     assert "@" not in str(claims)
 
 
@@ -316,15 +318,16 @@ def test_mode_off_contrat_historique(client, monkeypatch):
 def test_ttl_invalide(monkeypatch, ttl):
     monkeypatch.setenv("MIKA_ELEVE_TOKEN_TTL_MIN", ttl)
     with pytest.raises(auth.ConfigAuthInvalide):
-        auth.emettre_jeton_eleve(A)
+        auth.emettre_jeton_eleve(A, compte_id=1)
 
 
 def test_session_stream_proprietaire(monde):
     client, j = monde
-    client.post("/api/v1/session/heartbeat", json={"session_id": "sa", "user_id": A}, headers=_h(j["A"]))
-    assert client.get("/api/v1/session/stream?session_id=sa", headers=_h(j["B"])).status_code == 403
-    assert client.get("/api/v1/session/stream?session_id=sa", headers=_h(j["pa"])).status_code == 403
-    assert client.get("/api/v1/session/stream?session_id=sa", headers=_h(j["A"])).status_code == 200
+    # Préparation (D15, session 3) : la séance est créée par le serveur (identifiant aléatoire).
+    sa = client.post("/api/v1/session/nouvelle", json={"user_id": A}, headers=_h(j["A"])).json()["session_id"]
+    assert client.get(f"/api/v1/session/stream?session_id={sa}", headers=_h(j["B"])).status_code == 403
+    assert client.get(f"/api/v1/session/stream?session_id={sa}", headers=_h(j["pa"])).status_code == 403
+    assert client.get(f"/api/v1/session/stream?session_id={sa}", headers=_h(j["A"])).status_code == 200
 
 
 def test_detect_fragile_identifiant_du_porteur(monde):

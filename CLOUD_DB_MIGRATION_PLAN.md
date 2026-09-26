@@ -27,6 +27,7 @@ n'ajoute ni colonne ni index à une table déjà présente).
 | mika | `m0003_tutorat` | `mika_tutorat_sessions`, `mika_tutorat_requetes` (API tuteur, idempotence) |
 | billing | `b0001_baseline` | `comptes`, `abonnements` |
 | billing | `b0002_liens_compte_eleve` | autorisation compte ↔ élève (AUTH_CONTRACT.md) |
+| billing | `b0003_invitations_lien` | invitations à usage unique (décision D8) : empreinte HMAC du code, expiration, consommation |
 
 ## 4. Commandes (`tools/db.py`)
 ```

@@ -74,7 +74,20 @@ def exporter_donnees_eleve(
         .order_by(TutoratSession.cree_le.asc(), TutoratSession.id.asc())
     ).scalars().all()
 
-    if not (tentatives or etats or rappels or sessions or tutorats):
+    requetes = db.execute(
+        select(TutoratRequete).where(TutoratRequete.eleve_hmac == eleve_hmac)
+        .order_by(TutoratRequete.cree_le.asc(), TutoratRequete.tutorat_id.asc(),
+                  TutoratRequete.requete_id.asc())
+    ).scalars().all()
+    # Liens compte ↔ élève (base billing) : relation et date, jamais l'e-mail du compte.
+    from paiement_comptes.liens import LienCompteEleve
+
+    liens = g.db.execute(
+        select(LienCompteEleve).where(LienCompteEleve.eleve_hmac == eleve_hmac)
+        .order_by(LienCompteEleve.id.asc())
+    ).scalars().all()
+
+    if not (tentatives or etats or rappels or sessions or tutorats or requetes):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="aucune_donnee_trouvee_pour_cet_identifiant"
@@ -134,6 +147,24 @@ def exporter_donnees_eleve(
             "etat": etat_t,
         })
 
+    # Journal d'idempotence du tuteur : il figure dans TABLES_ELEVE (effacé) mais n'était
+    # pas exporté (revue session 3, S3-09 : droit d'accès incomplet).
+    export_requetes: List[Dict[str, Any]] = []
+    for q in requetes:
+        try:
+            rep = json.loads(q.reponse_json or "{}")
+        except ValueError:
+            rep = {"_brut_illisible": True}
+        export_requetes.append({"tutorat_id": q.tutorat_id, "requete_id": q.requete_id,
+                                "cree_le": _iso(q.cree_le), "reponse": rep})
+    export_liens = [{"relation": lien.relation, "cree_le": _iso(lien.cree_le)} for lien in liens]
+    # Invitations (D8) : ni code (seule son empreinte existe) ni compte, seulement l'historique.
+    from paiement_comptes.liens import invitations_eleve
+
+    export_invitations = [{"relation": i.relation, "emis_par": i.emis_par.split(":")[0], "cree_le": _iso(i.cree_le),
+                           "expire_le": _iso(i.expire_le), "utilisee": i.utilise_le is not None}
+                          for i in invitations_eleve(g.db, eleve_hmac)]
+
     return {
         "contexte_rgpd": "Export complet des données d'apprentissage",
         "student_pseudo_id": student_pseudo_id,
@@ -145,7 +176,21 @@ def exporter_donnees_eleve(
         "rappels_memoire": export_rappels,
         "sessions": export_sessions,
         "tutorats_mika": export_tutorats,
+        "requetes_tutorat_mika": export_requetes,
+        "liens_comptes": export_liens,
+        "invitations_liens": export_invitations,
     }
+
+
+# Table élève → clé de l'export (un test exige que TOUTE table de TABLES_ELEVE soit exportée).
+CLES_EXPORT = {
+    "mika_tentatives": "historique_tentatives",
+    "mika_etats": "etats_maitrise",
+    "mika_memory_schedules": "rappels_memoire",
+    "mika_session_states": "sessions",
+    "mika_tutorat_sessions": "tutorats_mika",
+    "mika_tutorat_requetes": "requetes_tutorat_mika",
+}
 
 
 @rgpd_router.delete("/effacer/{student_pseudo_id}")
@@ -169,9 +214,10 @@ def effacer_donnees_eleve(
         compte_par_table[modele.__tablename__] = n
     db.commit()
     # Liens compte ↔ élève (base billing) : donnée relative à l'élève, effacée aussi.
-    from paiement_comptes.liens import supprimer_liens_eleve
+    from paiement_comptes.liens import supprimer_invitations_eleve, supprimer_liens_eleve
 
     compte_par_table["liens_compte_eleve"] = supprimer_liens_eleve(g.db, eleve_hmac)
+    compte_par_table["invitations_lien"] = supprimer_invitations_eleve(g.db, eleve_hmac)
 
     if not any(compte_par_table.values()):
         raise HTTPException(
@@ -190,4 +236,5 @@ def effacer_donnees_eleve(
         "tutorats_supprimes": compte_par_table[TutoratSession.__tablename__],
         "requetes_tutorat_supprimees": compte_par_table[TutoratRequete.__tablename__],
         "liens_compte_supprimes": compte_par_table["liens_compte_eleve"],
+        "invitations_supprimees": compte_par_table["invitations_lien"],
     }

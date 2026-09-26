@@ -23,11 +23,11 @@ dans leur conftest ; `test_auth.py` repasse explicitement en `enforce`.
 | | Jeton de COMPTE | Jeton de SÉANCE ÉLÈVE |
 |---|---|---|
 | Émis par | `POST /api/v1/comptes/connexion` / `inscription` | `POST /api/v1/auth/eleve/jeton` |
-| Claims | `sub`=id compte, `typ=compte`, `role`, `email`*, `iat`, `exp` | `iss=mikamike-backend`, `aud=mikamike-api`, `typ=mika-eleve`, `role=eleve`, `sub`=pseudo-id, `iat`, `exp`, `jti` |
+| Claims | `sub`=id compte, `typ=compte`, `role`, `email`*, `iat`, `exp` | `iss=mikamike-backend`, `aud=mikamike-api`, `typ=mika-eleve`, `role=eleve`, `sub`=pseudo-id, `cid`=id du compte émetteur (session 3), `iat`, `exp`, `jti` |
 | Clé | `MIKA_JWT_SECRET` | clé **dérivée** `HMAC-SHA256(MIKA_JWT_SECRET, "mikamike/jeton-eleve/v1")` |
 | Durée | `MIKA_TOKEN_TTL_H` (168 h) | `MIKA_ELEVE_TOKEN_TTL_MIN` (120 min, borné [1, 720]) |
 | Algorithme | HS256 uniquement (`alg` vérifié, `none` refusé) | idem |
-| Claims obligatoires | `exp`, `sub` | `exp`, `iat`, `sub`, `aud`, `iss`, `typ` |
+| Claims obligatoires | `exp`, `sub` | `exp`, `iat`, `sub` (alphabet des identifiants), `aud`, `iss`, `typ`, `cid` |
 
 \* e-mail dans le jeton de compte : décision D3 inchangée (à retirer).
 
@@ -63,11 +63,44 @@ effacement, le parent n'a plus accès.
 ## 7. Décisions produit ouvertes
 | # | Décision | Défaut appliqué |
 |---|---|---|
-| D8 | Parcours de **création des liens** compte ↔ élève (invitation, vérification parentale, rattachement du pseudo-id) | aucune route publique ; fonction `paiement_comptes.liens.lier` seulement |
+| D8 | Parcours de **création des liens** compte ↔ élève | **DÉCIDÉ (Mike) et livré** : invitation à code unique, expirable, non devinable, validée par le parent (§10) |
 | D9 | Un élève (mineur) peut-il demander lui-même l'effacement ? (âge du consentement numérique : 15 ans en France) | non : parent lié uniquement |
 | D11 | Révocation des jetons élève avant expiration (liste de `jti` révoqués) | non implémentée ; TTL court (2 h) |
-| D12 | Date de passage du front en `enforce` (fin du mode `off`) | `off` interdit en production dès maintenant |
+| D12 | Date de passage du front en `enforce` (fin du mode `off`) | **DÉCIDÉ** : seulement quand front + flux parent/enfant + tests E2E sont verts (FRONT_AUTH_INTEGRATION.md §7) ; `off` interdit en production |
 
 ## 8. Hors périmètre / limites connues
-- Pas de rate-limiting (S3/R7, décision infra).
+- ~~Pas de rate-limiting~~ : **R7 livré en session 3** (§9).
 - Le mode `off` reste un contrat **non authentifié** : il ne doit jamais être exposé sur Internet.
+
+## 9. Session cloud 3 — évolutions
+- **Révocation effective (S3-01)** : à chaque requête portant un jeton élève, le compte `cid` doit
+  être actif ET encore lié à l'élève (relation = rôle du compte). Sinon 401 `jeton_revoque`.
+  Conséquence : un effacement RGPD, la suppression d'un lien ou la désactivation du compte
+  coupent immédiatement les jetons élève émis (D11 reste ouverte pour la révocation par `jti`).
+- **Limitation R7** (`app/core/limitation.py`) : connexion par (IP, e-mail) et par IP ; inscriptions
+  par IP ; émission de jetons élève par compte et par IP ; jetons invalides répétés par IP.
+  Réponse 429 `trop_de_tentatives` + `Retry-After`. Jamais de blocage par l'e-mail seul (anti-DoS).
+- **Connexion à temps constant** (S3-07) ; **inscription concurrente** ⇒ 400 (S3-08).
+- Intégration front : FRONT_AUTH_INTEGRATION.md.
+
+## 10. Liens parent ↔ élève par invitation (décision D8, session 3)
+**Jamais de lien par simple pseudo-id ou identifiant connu.** Seul chemin public :
+
+| Étape | Route | Qui | Règles |
+|---|---|---|---|
+| Émettre | `POST /liens/invitations` `{student_pseudo_id, relation="parent"}` | l'élève (jeton élève) ou un compte **déjà lié** ; premier rattachement : `python -m tools.liens inviter <pseudo>` (opérateur) | 201 `{code, relation, expires_in, expire_le, usage_unique}` ; ≤ 5 invitations actives par élève (409) ; 10 émissions/h (429) |
+| Valider | `POST /liens/accepter` `{code, confirmation: true}` | **compte connecté** dont le rôle = relation | 201 `{statut: "lien_cree", relation, student_pseudo_id}` ; 400 `invitation_invalide` (inconnu, utilisé, expiré, rôle incompatible — une seule réponse) ; 409 `deja_lie` (code non consommé) ; 5 échecs / 15 min par compte ⇒ 429 |
+
+Code : 120 bits aléatoires (`secrets`), 24 caractères base32 (`XXXX-XXXX-…`), **usage unique**,
+**expiration** 48 h (`MIKA_INVITATION_TTL_MIN`, 10 min–7 j). Seule une empreinte HMAC (clé
+dérivée du secret JWT) est stockée ; le pseudo-id est effacé de l'invitation dès l'acceptation.
+Consommation atomique (deux acceptations simultanées : une seule gagne). Ces routes exigent un
+jeton quel que soit `MIKA_AUTH_MODE`. RGPD : invitations exportées (sans code) et effacées avec
+l'élève. Tests : `tests_cloud/test_invitations.py` (30), `test_e2e_parent_enfant.py`.
+
+## 11. Séances (décision D15)
+`POST /session/nouvelle {user_id}` (jeton élève) ⇒ 201 `{session_id}` : identifiant **généré par le
+serveur**, 192 bits aléatoires (`s` + 48 hex). En mode `enforce`, heartbeat / save-state /
+reconnect / stream sur un identifiant que le serveur n'a pas créé ⇒ 404 `session_inconnue` (plus
+de création implicite sous un identifiant choisi par le client). Le mode `off` (contrat
+historique, interdit en production) conserve la création implicite.

@@ -17,6 +17,7 @@ import hmac
 import os
 from typing import Optional
 
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from paiement_comptes.models_billing import Abonnement, Compte, StatutAbonnement
@@ -101,21 +102,38 @@ def creer_compte(
         prenom=(prenom or None),
         role=role,
     )
-    db.add(compte)
-    db.flush()  # obtient l'id sans committer (l'appelant gère la transaction)
-
-    # Abonnement vierge rattaché d'office
-    db.add(Abonnement(compte_id=compte.id, statut=StatutAbonnement.AUCUN))
-    db.commit()
+    try:
+        db.add(compte)
+        db.flush()  # obtient l'id sans committer (l'appelant gère la transaction)
+        # Abonnement vierge rattaché d'office
+        db.add(Abonnement(compte_id=compte.id, statut=StatutAbonnement.AUCUN))
+        db.commit()
+    except IntegrityError:
+        # Deux inscriptions simultanées du même e-mail : la contrainte UNIQUE tranche
+        # (revue session 3, S3-08 : avant, 500 non rattrapée).
+        db.rollback()
+        raise ValueError("email_deja_utilise")
     db.refresh(compte)
     return compte
 
 
+_LEURRE: list = []
+
+
+def _hash_leurre() -> str:
+    """Hash d'un secret aléatoire jetable, calculé une fois : sert à dépenser le même temps
+    de vérification quand l'e-mail est inconnu."""
+    if not _LEURRE:
+        _LEURRE.append(hacher_mot_de_passe(os.urandom(24).hex()))
+    return _LEURRE[0]
+
+
 def authentifier(db: Session, email: str, mot_de_passe: str) -> Optional[Compte]:
     compte = get_compte_par_email(db, email)
-    if compte is None or not compte.actif:
-        return None
-    if not verifier_mot_de_passe(mot_de_passe, compte.mot_de_passe_hash):
+    # Temps constant (revue session 3, S3-07) : e-mail inconnu 5 ms contre 300 ms pour un
+    # e-mail existant ⇒ énumération des comptes. On vérifie TOUJOURS un hash.
+    ok = verifier_mot_de_passe(mot_de_passe, compte.mot_de_passe_hash if compte else _hash_leurre())
+    if compte is None or not compte.actif or not ok:
         return None
     compte.derniere_connexion = _utcnow()
     db.commit()

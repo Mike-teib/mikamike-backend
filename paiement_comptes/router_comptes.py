@@ -19,10 +19,11 @@ import datetime as _dt
 import os
 from typing import Optional
 
-from fastapi import APIRouter, Depends, Header, HTTPException, status
+from fastapi import APIRouter, Depends, Header, HTTPException, Request, status
 from pydantic import BaseModel, EmailStr, Field
 from sqlalchemy.orm import Session
 
+from app.core import limitation
 from paiement_comptes import crud_billing
 from paiement_comptes.database import get_db
 from paiement_comptes.models_billing import Compte
@@ -107,9 +108,20 @@ class TokenOut(BaseModel):
 
 # --- Dépendance : compte courant depuis le Bearer token ---------------------- #
 def compte_courant(
+    request: Request,
     authorization: str = Header(default=""),
     db: Session = Depends(get_db),
 ) -> Compte:
+    limitation.exiger_jeton_non_sonde(request)
+    try:
+        return _compte_courant(authorization, db)
+    except HTTPException as exc:
+        if exc.status_code == status.HTTP_401_UNAUTHORIZED:
+            limitation.jeton_invalide(request)
+        raise
+
+
+def _compte_courant(authorization: str, db: Session) -> Compte:
     if jwt is None or not _JWT_SECRET:
         raise HTTPException(status_code=500, detail="auth_non_configuree")
     if not authorization.lower().startswith("bearer "):
@@ -147,7 +159,10 @@ def compte_courant(
 
 # --- Endpoints --------------------------------------------------------------- #
 @router.post("/inscription", response_model=TokenOut, status_code=201)
-def inscription(data: InscriptionIn, db: Session = Depends(get_db)):
+def inscription(data: InscriptionIn, request: Request, db: Session = Depends(get_db)):
+    quota = [(limitation.INSCRIPTION_IP, limitation.ip_client(request))]
+    limitation.exiger(*quota)
+    limitation.compter(quota)
     role = data.role if data.role in ("parent", "eleve") else "parent"
     try:
         compte = crud_billing.creer_compte(
@@ -163,8 +178,12 @@ def inscription(data: InscriptionIn, db: Session = Depends(get_db)):
 
 
 @router.post("/connexion", response_model=TokenOut)
-def connexion(data: ConnexionIn, db: Session = Depends(get_db)):
+def connexion(data: ConnexionIn, request: Request, db: Session = Depends(get_db)):
+    # R7 : refus AVANT bcrypt (le blocage ne coûte rien) ; jamais par l'e-mail seul (anti-DoS).
+    paires = limitation.cles_connexion(request, data.email)
+    limitation.exiger(*paires)
     compte = crud_billing.authentifier(db, data.email, data.mot_de_passe)
+    limitation.enregistrer(paires, reussi=compte is not None)
     if compte is None:
         raise HTTPException(status_code=401, detail="identifiants_invalides")
     return TokenOut(token=creer_token(compte), compte=CompteOut.depuis(compte))
