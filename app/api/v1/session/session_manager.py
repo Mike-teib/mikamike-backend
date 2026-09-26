@@ -10,9 +10,8 @@ from __future__ import annotations
 
 import datetime as _dt
 import json
-import os
 import time
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 
 from fastapi import HTTPException, status
 from sqlalchemy import Column, String, Boolean, DateTime, Text, select

@@ -11,12 +11,10 @@ from __future__ import annotations
 
 import base64
 import datetime as _dt
-import os
 from typing import Dict, Any, Optional
 
-from fastapi import Depends, Header, HTTPException, status
+from fastapi import Header, HTTPException, status
 from pydantic import BaseModel, Field
-from sqlalchemy.orm import Session
 
 # Importation conditionnelle de python-jose pour le décodage du jeton
 try:

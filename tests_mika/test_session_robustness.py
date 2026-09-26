@@ -16,7 +16,7 @@ from sqlalchemy import delete
 
 from main import app
 from app.api.v1.mikamike.store import engine, SessionLocal
-from app.api.v1.session.session_manager import SessionBase, MikaSessionState, INACTIVITY_TIMEOUT_SECONDS
+from app.api.v1.session.session_manager import SessionBase, MikaSessionState
 
 client = TestClient(app)
 

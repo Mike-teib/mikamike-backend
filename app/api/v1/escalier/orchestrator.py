@@ -7,7 +7,6 @@ Doctrine (Cahier §4) :
 
 from __future__ import annotations
 
-import os
 from typing import Dict, Any, Optional
 from sqlalchemy.orm import Session
 
@@ -15,7 +14,6 @@ from app.api.v1.mikamike import catalogue, crud
 from app.api.v1.mikamike.learning_engine import (
     LearningEngine,
     EtatMaitrise,
-    ETATS_SOLIDES,
     pseudonymiser_code
 )
 

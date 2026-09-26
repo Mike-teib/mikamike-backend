@@ -9,8 +9,7 @@ Endpoints :
 
 from __future__ import annotations
 
-import os
-from typing import Dict, List, Any
+from typing import Dict, Any
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy import select, delete
 from sqlalchemy.orm import Session

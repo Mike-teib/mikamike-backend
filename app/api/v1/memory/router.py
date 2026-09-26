@@ -6,7 +6,6 @@ Expose POST /api/v1/memory/schedule
 
 from __future__ import annotations
 
-import os
 from typing import Dict, Any, List, Optional
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, Field
@@ -16,8 +15,7 @@ from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import get_db
 from app.api.v1.memory.spaced_repetition import (
     MoteurCourbeOubliEbbinghaus,
-    MemoryBase,
-    TacheRappelMemoire
+    MemoryBase
 )
 
 from app.core.security_config import get_pseudo_secret as _get_pseudo_secret

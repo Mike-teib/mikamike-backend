@@ -9,10 +9,9 @@ from __future__ import annotations
 
 import datetime as _dt
 import math
-import os
-from typing import Dict, Any, Tuple, Optional
-from sqlalchemy import Column, String, Integer, Boolean, DateTime, Float, create_engine, select
-from sqlalchemy.orm import declarative_base, sessionmaker, Session
+from typing import Dict, Any
+from sqlalchemy import Column, String, Integer, Boolean, DateTime, Float, select
+from sqlalchemy.orm import declarative_base, Session
 
 # Secret HMAC pour la pseudonymisation
 from app.core.security_config import get_pseudo_secret as _get_pseudo_secret

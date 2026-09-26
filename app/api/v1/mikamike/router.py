@@ -13,7 +13,6 @@ pour l'indexation interne. Le dashboard ne renvoie jamais nom/prénom/email.
 
 from __future__ import annotations
 
-import os
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session

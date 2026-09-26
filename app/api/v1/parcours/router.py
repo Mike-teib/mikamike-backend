@@ -6,8 +6,7 @@ Expose POST /api/v1/parcours
 
 from __future__ import annotations
 
-import os
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session

@@ -1,0 +1,4 @@
+# --- Outillage dev / CI (hors runtime) ---
+ruff==0.13.3
+bandit==1.8.6
+pip-audit==2.9.0

@@ -12,9 +12,8 @@ from __future__ import annotations
 
 import asyncio
 import json
-import os
-from typing import Dict, Any, Optional
-from fastapi import APIRouter, Depends, HTTPException, status
+from typing import Dict, Any
+from fastapi import APIRouter, Depends
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
@@ -23,8 +22,7 @@ from app.api.v1.mikamike.learning_engine import pseudonymiser_code
 from app.api.v1.mikamike.store import get_db
 from app.api.v1.session.session_manager import (
     GestionnaireSession,
-    SessionBase,
-    MikaSessionState
+    SessionBase
 )
 
 from app.core.security_config import get_pseudo_secret as _get_pseudo_secret

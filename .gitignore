@@ -62,3 +62,7 @@ Thumbs.db
 # Logs / temporaires
 *.log
 tmp/
+
+# Sorties générées des outils cloud (audit, backlog, checkpoints)
+reports/
+checkpoints/
