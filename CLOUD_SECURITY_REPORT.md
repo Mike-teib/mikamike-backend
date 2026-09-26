@@ -32,6 +32,10 @@ Autres hits (non sensibles) : le texte du rapport `RAPPORT_SECRETS_EXCLUS.md` (n
 l'adresse e-mail d'auteur des commits (métadonnée Git du propriétaire, pas une donnée élève),
 le nom d'hôte de la machine de build dans `junit_pre_jules.xml` (information mineure).
 
+Hit historique supplémentaire (non sensible) : `34031bd:CLOUD_SECURITY_REPORT.md` — la 1re version de
+ce rapport citait le motif générique d'URL de base avec identifiants (texte d'exemple, aucune valeur
+réelle) ; reformulé depuis. `python tools/secret_scan.py --history` liste ces hits, valeurs masquées.
+
 Réécriture d'historique : **non effectuée** (irréversible, hors périmètre sans accord Mike).
 
 ## 2. Données personnelles / élèves

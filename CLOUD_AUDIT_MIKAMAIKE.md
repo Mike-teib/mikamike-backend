@@ -86,6 +86,10 @@
 
 TODO/FIXME dans le code : **0**. Code mort : `valider_prerequis_resolus` (stub), `OcrPayload`/`exiger_session_active` non câblés sur des routes (utilisés seulement en test).
 
+### Statut des corrections (mission cloud)
+B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, D1, D2 : **corrigés** (tests de non-régression dans
+`tests_cloud/test_api_regressions.py`). B12, B13 : documentés (backlog R1/R5).
+
 ## 5. Points non testés (initial)
 Webhook Stripe (signature), CORS, `prochaine_etape` avec état corrompu, propriété de session,
 effacement RGPD des tables mémoire/session, validation des entrées bornées, chemins d'erreur du JWT `sub`.

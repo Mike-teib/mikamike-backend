@@ -48,7 +48,7 @@ backend/
 ```
 MIKA_DB_URL=sqlite:///./mikamike_backend.db
 BILLING_DB_URL=sqlite:///./billing.db
-MIKA_JWT_SECRET=<secret HMAC/JWT — à définir en prod>
+MIKA_JWT_SECRET=<secret JWT (PyJWT) — obligatoire, distinct du suivant>
 MIKA_PSEUDO_SECRET=<secret HMAC pseudonymisation — à définir en prod>
 STRIPE_SECRET_KEY=sk_...
 STRIPE_WEBHOOK_SECRET=whsec_...
@@ -57,10 +57,31 @@ MIKA_APP_URL=https://app.mikamike.fr
 CORS_ORIGINS=https://app.mikamike.fr   # liste séparée par des virgules
 ```
 
-## Tests
+## Développement (environnement reproductible, hors ligne)
 
 ```bash
-python -m pytest tests_mika/ tests_paiement/ -v
+./setup.sh              # venv isolé + dépendances + ruff + tests (secrets de TEST factices)
+source .venv/bin/activate
+python -m pytest -q     # 3 462 tests (tests_mika/, tests_paiement/, tests_cloud/)
 ```
-13 tests (aucune app tierce n'est démarrée). RGPD : aucune donnée nominative
-n'entre ni ne sort ; les identifiants sont re-hachés en HMAC pour l'indexation.
+
+Aucune clé réelle, aucune API payante, aucune base réelle : Stripe reste non configuré
+(les routes renvoient une erreur explicite). Voir `.env.example` pour les NOMS de variables.
+
+### Outils (`tools/`)
+| Commande | Rôle |
+|---|---|
+| `python -m tools.content_check` | garde-fou contenu (fixtures, existant, catalogue) — exécuté en CI |
+| `python -m tools.rapports [--artefacts DIR]` | backlog canonique + audit de déduplication (reproductibles) |
+| `python tools/secret_scan.py --history` | scan de secrets arbre + historique, valeurs jamais affichées |
+| `python -m tools.verifier_manifest SHA256_DEPOT_PREPARE.txt` | dérive d'un manifeste SHA-256 |
+| `python -m tools.mutation_check` | 18 bugs injectés : la suite doit tous les détecter |
+
+### Chaîne de contenu pédagogique (`app/curriculum/`)
+Modèle canonique des programmes, provenance vérifiable, validateurs (structure, texte,
+formules), vérificateurs par matière (SymPy, unités…), exercices/quiz, tuteur Mika.
+Documentation : `CLOUD_ARCHITECTURE.md`, `CLOUD_DATA_MODEL.md`, `CLOUD_PEDAGOGY_MIKA.md`.
+État et reprise : `CLOUD_NEXT_SESSION.md`.
+
+RGPD : aucune donnée nominative n'entre ni ne sort ; les identifiants sont re-hachés en HMAC
+pour l'indexation ; l'effacement couvre toutes les tables élève.
