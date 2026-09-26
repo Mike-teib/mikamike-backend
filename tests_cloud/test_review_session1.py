@@ -324,7 +324,7 @@ def test_r2_11_compte_refuse_jeton_sans_exp(client):
 def test_r2_12_mutation_check_exige_une_baseline_verte(monkeypatch):
     from tools import mutation_check
 
-    monkeypatch.setattr(mutation_check, "executer_suite", lambda: 1)
+    monkeypatch.setattr(mutation_check, "executer_suite", lambda *a: 1)
     assert mutation_check.main() == 2
 
 
@@ -336,7 +336,7 @@ def test_r2_12_mutant_non_execute_n_est_pas_tue(monkeypatch, tmp_path):
     codes = iter([0, 2])  # baseline verte, puis erreur de collecte
     monkeypatch.setattr(mutation_check, "RACINE", tmp_path)
     monkeypatch.setattr(mutation_check, "MUTANTS", [mutation_check.Mutant("m", "m.py", "A = 1", "A = (")])
-    monkeypatch.setattr(mutation_check, "executer_suite", lambda: next(codes))
+    monkeypatch.setattr(mutation_check, "executer_suite", lambda *a: next(codes))
     assert mutation_check.main() == 1
     assert f.read_text("utf-8") == "A = 1\n"  # restauré
 

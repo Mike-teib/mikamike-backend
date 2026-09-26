@@ -15,7 +15,7 @@ from __future__ import annotations
 import subprocess
 import sys
 from pathlib import Path
-from typing import List, NamedTuple
+from typing import List, NamedTuple, Tuple
 
 RACINE = Path(__file__).resolve().parent.parent
 
@@ -25,6 +25,14 @@ class Mutant(NamedTuple):
     fichier: str
     avant: str
     apres: str
+    # Suite(s) exécutée(s) pour ce mutant (défaut : tests_cloud entier).
+    cibles: Tuple[str, ...] = ("tests_cloud",)
+
+
+T_AUTH = ("tests_cloud/test_auth.py", "tests_cloud/test_review_session1.py")
+T_API = ("tests_cloud/test_mika_api.py",)
+T_IMPORT = ("tests_cloud/test_import_v2_integrite.py", "tests_cloud/test_review_session1.py")
+T_ATT = ("tests_cloud/test_attaques.py", "tests_cloud/test_review_session1.py")
 
 
 MUTANTS: List[Mutant] = [
@@ -69,13 +77,62 @@ MUTANTS: List[Mutant] = [
     Mutant("repli_matiere_silencieux", "app/api/v1/parcours/curriculum_dataset.py",
            "    return list(CURRICULA_DATA.get((lvl, sub), []))",
            '    return list(CURRICULA_DATA.get((lvl, sub)) or CURRICULA_DATA[("5e", "maths")])'),
+    # ---------------------------------------------------------------- session 2
+    Mutant("texte_declare_cru_sur_parole", "app/curriculum/provenance.py",
+           "        if recalcule not in STATUTS_TEXTE_UTILISABLES:", "        if False:"),
+    Mutant("preuve_d_un_autre_programme", "app/curriculum/provenance.py",
+           "notion.preuve.source_id != prog.source_id:", "False:"),
+    Mutant("sympy_sans_garde_de_complexite", "app/curriculum/verifiers/maths.py",
+           "    _controler_complexite(brut)\n", "\n", ("tests_cloud/test_review_session1.py",)),
+    Mutant("heartbeat_proprietaire_apres_effet", "app/api/v1/session/session_manager.py",
+           "        _verifier_proprietaire(session_obj, eleve_hmac)\n\n        # Vérification du timeout",
+           "        # Vérification du timeout", T_ATT),
+    Mutant("etat_fusionne_non_borne", "app/api/v1/session/session_manager.py",
+           "            if len(fusion) > MAX_SESSION_STATE_BYTES:", "            if False:", T_ATT),
+    Mutant("comprehension_non_demandee_acceptee", "app/curriculum/pedagogie/tuteur.py",
+           "        if etat.termine or not etat.attend_comprehension:", "        if etat.termine:"),
+    Mutant("diagnostic_non_controle", "app/curriculum/pedagogie/tuteur.py",
+           "    for texte in aides + diagnostics:", "    for texte in aides:"),
+    Mutant("jeton_eleve_autre_proprietaire", "app/core/auth.py",
+           'if not hmac.compare_digest(qui.pseudo_id or "", pseudo_id) or action == Action.EFFACEMENT:',
+           "if action == Action.EFFACEMENT:", T_AUTH),
+    Mutant("parent_non_lie_autorise", "app/core/auth.py",
+           "    if action not in permis or compte.role != rel:", "    if False:", T_AUTH),
+    Mutant("eleve_peut_s_effacer", "app/core/auth.py",
+           ' or action == Action.EFFACEMENT:', ':', T_AUTH),
+    Mutant("mode_off_en_production", "app/core/auth.py",
+           '    if mode == "off" and os.getenv("MIKA_ENV", "").strip().lower() in ("production", "prod"):',
+           "    if False:", T_AUTH),
+    Mutant("jeton_compte_accepte_comme_eleve", "app/core/auth.py",
+           '        if c.get("typ") != TYP_ELEVE or c.get("role") != "eleve" or not isinstance(c.get("sub"), str):',
+           '        if not isinstance(c.get("sub"), str):', T_AUTH),
+    Mutant("route_sans_garde", "app/api/v1/rgpd/router.py",
+           "    g.exiger(student_pseudo_id, Action.EFFACEMENT)", "    pass", T_AUTH),
+    Mutant("tutorat_d_un_autre_eleve", "app/api/v1/tutorat/service.py",
+           "    if t is None or t.eleve_hmac != eleve_hmac:", "    if t is None:", T_API),
+    Mutant("idempotence_sans_empreinte", "app/api/v1/tutorat/service.py",
+           "    if deja.empreinte != empreinte:", "    if False:", T_API),
+    Mutant("version_non_verifiee", "app/api/v1/tutorat/service.py",
+           "    if version != t.version:", "    if False:", T_API),
+    Mutant("manifest_non_epingle_accepte", "app/curriculum/importers.py",
+           '            raise ErreurImport("empreinte_manifest_non_epinglee")', "            pass", T_IMPORT),
+    Mutant("document_source_non_verifie", "app/curriculum/integrite.py",
+           "            if not s.fictive and s.sha256_document not in docs:", "            if False:", T_IMPORT),
+    Mutant("generation_malgre_anomalie", "app/curriculum/integrite.py",
+           "        if n.optionnelle or {n.id, n.chapitre_id, n.programme_id} & touches:",
+           "        if n.optionnelle:", T_IMPORT),
+    Mutant("lot_actif_altere_servi", "app/curriculum/depot.py",
+           '            raise DepotInvalide(f"lot_actif_invalide:{etat[\'lot\']}")', "            pass", T_IMPORT),
+    Mutant("corps_non_borne", "app/core/limites.py",
+           "                if not valeur.isdigit() or int(valeur) > self.max_octets:",
+           "                if False:", T_ATT),
 ]
 
 
-def executer_suite() -> int:
+def executer_suite(*cibles: str) -> int:
     """Code retour pytest : 0 vert, 1 au moins un test ÉCHOUE, autre = suite non exécutée."""
     r = subprocess.run(
-        [sys.executable, "-m", "pytest", "-q", "-x", "tests_cloud", "-p", "no:cacheprovider"],
+        [sys.executable, "-m", "pytest", "-q", "-x", *(cibles or ("tests_cloud",)), "-p", "no:cacheprovider"],
         cwd=RACINE, capture_output=True, text=True,
     )
     return r.returncode
@@ -98,7 +155,7 @@ def main() -> int:
             continue
         try:
             f.write_text(original.replace(m.avant, m.apres), encoding="utf-8")
-            code = executer_suite()
+            code = executer_suite(*m.cibles)
         finally:
             f.write_text(original, encoding="utf-8")
         etiquette = {0: "SURVIVANT", 1: "TUÉ"}.get(code, f"NON_EXÉCUTÉ({code})")

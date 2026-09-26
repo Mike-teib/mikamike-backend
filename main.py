@@ -57,6 +57,11 @@ def create_app() -> FastAPI:
         redoc_url=f"{API_V1_PREFIX}/redoc",
     )
 
+    # Taille maximale du corps des requêtes (413 avant lecture/parsing, R2-20).
+    from app.core.limites import LimiteTailleCorps
+
+    app.add_middleware(LimiteTailleCorps)
+
     origins = [o for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()]
     if origins:
         app.add_middleware(

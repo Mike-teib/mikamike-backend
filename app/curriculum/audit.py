@@ -15,7 +15,7 @@ from __future__ import annotations
 import re
 from collections import defaultdict
 from itertools import combinations
-from typing import Dict, Iterable, List, Sequence, Tuple
+from typing import Dict, FrozenSet, Iterable, List, Sequence, Tuple
 
 from app.curriculum import dedup
 from app.curriculum.exercices import Exercice
@@ -60,13 +60,15 @@ def auditer(
 
     proches: List[Tuple[str, str, float]] = []
     # Comparaison par paires restreinte à une même notion (évite O(N²) global).
-    par_notion: Dict[str, List[Tuple[str, str]]] = defaultdict(list)
+    par_notion: Dict[str, List[Tuple[str, FrozenSet[str], str]]] = defaultdict(list)
+    # 3-grammes et empreintes calculés UNE fois par item (R2-22 : auparavant recalculés à
+    # chaque paire, soit O(k²) normalisations par notion).
     for i, n, e, _ in items:
-        par_notion[n].append((i, e))
+        par_notion[n].append((i, dedup.shingles(e), dedup.empreinte_exacte(e)))
     for groupe in par_notion.values():
-        for (ia, ea), (ib, eb) in combinations(groupe, 2):
-            s = dedup.similarite(ea, eb)
-            if s >= seuil and dedup.empreinte_exacte(ea) != dedup.empreinte_exacte(eb):
+        for (ia, sa, ha), (ib, sb, hb) in combinations(groupe, 2):
+            s = dedup.jaccard(sa, sb)
+            if s >= seuil and ha != hb:
                 proches.append((ia, ib, round(s, 3)))
 
     orphelins: List[Dict[str, str]] = []
