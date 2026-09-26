@@ -13,16 +13,22 @@ Définitions :
   - WAITING_SOURCE : notion non PROVEN (preuve absente, ambiguë ou en quarantaine) ;
   - WAITING_ORACLE : notion PROVEN dont aucun exercice n'a de vérificateur
     automatique qui valide sa propre réponse (vérification humaine requise) ;
-  - les notions optionnelles sont exclues des totaux (comptées à part : OPTIONAL).
+  - les notions optionnelles sont exclues des totaux (comptées à part : OPTIONAL) ;
+  - VERROU D'INTÉGRITÉ (session 2) : NEED_EXERCISE / NEED_QUIZ ne comptent que les notions
+    « générables » du rapport `integrite.verifier_integrite` — si l'intégrité croisée du lot
+    n'est pas démontrée, aucune notion n'est à générer ;
+  - ventilations : par matière, programme, niveau, chapitre, et HIÉRARCHIQUE
+    `matière / niveau / programme / chapitre` (`par_hierarchie`).
 Sortie triée ⇒ deux exécutions sur les mêmes données donnent un résultat identique.
 """
 
 from __future__ import annotations
 
 from collections import defaultdict
-from typing import Dict, Iterable, List, Sequence
+from typing import Dict, Iterable, List, Optional, Sequence
 
 from app.curriculum.exercices import Exercice
+from app.curriculum.integrite import RapportIntegrite, verifier_integrite
 from app.curriculum.model import Referentiel, StatutPreuve
 from app.curriculum.provenance import autorisation_generation, evaluer_preuve
 from app.curriculum.quiz import QuestionQuiz
@@ -46,14 +52,17 @@ def calculer_backlog(
     quiz: Sequence[QuestionQuiz] = (),
     *,
     autoriser_fictif: bool = False,
+    integrite: Optional[RapportIntegrite] = None,
 ) -> Dict[str, object]:
     idx = ref.index()
+    if integrite is None:
+        integrite = verifier_integrite(ref, exercices, quiz, autoriser_fictif=autoriser_fictif)
     exo_par_notion: Dict[str, List[Exercice]] = defaultdict(list)
     for e in exercices:
         exo_par_notion[e.notion_id].append(e)
     quiz_notions = {q.notion_id for q in quiz}
 
-    axes = ("matiere", "programme", "niveau", "chapitre")
+    axes = ("matiere", "programme", "niveau", "chapitre", "hierarchie")
     par: Dict[str, Dict[str, Dict[str, int]]] = {a: defaultdict(_vide) for a in axes}
     total = _vide()
     detail_notions: List[Dict[str, str]] = []
@@ -65,6 +74,7 @@ def calculer_backlog(
             "niveau": n.niveau.value,
             "chapitre": n.chapitre_id or "(sans chapitre)",
         }
+        cles["hierarchie"] = " / ".join((cles["matiere"], cles["niveau"], cles["programme"], cles["chapitre"]))
         buckets = [total] + [par[a][cles[a]] for a in axes]
         if n.optionnelle:
             for b in buckets:
@@ -73,7 +83,8 @@ def calculer_backlog(
 
         source = idx.sources.get(n.preuve.source_id) if n.preuve else None
         statut = evaluer_preuve(n, source, autoriser_fictif=autoriser_fictif).statut
-        autorise = autorisation_generation(n, idx, autoriser_fictif=autoriser_fictif).autorise
+        autorise = autorisation_generation(n, idx, autoriser_fictif=autoriser_fictif).autorise \
+            and n.id in integrite.generables
         a_exo, a_quiz = bool(exo_par_notion.get(n.id)), n.id in quiz_notions
         oracle_ok = any(
             verifier(e.type_verification, e.reponse_attendue, e.reponse_attendue,
@@ -100,7 +111,12 @@ def calculer_backlog(
         detail_notions.append({"notion_id": n.id, "statut_preuve": statut.value,
                                "generation_autorisee": str(autorise).lower()})
 
+    codes: Dict[str, int] = defaultdict(int)
+    for a in integrite.anomalies:
+        codes[a.code] += 1
     return {
+        "integrite": {"demontree": integrite.demontree, "anomalies": len(integrite.anomalies),
+                      "codes": dict(sorted(codes.items()))},
         "total": total,
         **{f"par_{a}": {k: par[a][k] for k in sorted(par[a])} for a in axes},
         "notions": detail_notions,
@@ -108,8 +124,20 @@ def calculer_backlog(
 
 
 def en_markdown(backlog: Dict[str, object], titre: str = "Backlog canonique") -> str:
-    lignes = [f"# {titre}", "", "| Indicateur | Valeur |", "|---|---|"]
+    integ = backlog.get("integrite", {})  # type: ignore[union-attr]
+    lignes = [f"# {titre}", "",
+              f"Intégrité démontrée : **{'OUI' if integ.get('demontree') else 'NON'}** "
+              f"({integ.get('anomalies', 0)} anomalie(s)) — sans intégrité, aucune génération.", "",
+              "| Indicateur | Valeur |", "|---|---|"]
     lignes += [f"| {k} | {v} |" for k, v in backlog["total"].items()]  # type: ignore[union-attr]
+    if backlog.get("par_hierarchie"):
+        cols_h = ("NOTIONS_TOTAL", "PROVEN", "NOT_EVIDENCED", "QUARANTINED", "WITH_EXERCISE", "WITH_QUIZ",
+                  "WITH_BOTH", "NEED_EXERCISE", "NEED_QUIZ", "WAITING_SOURCE", "WAITING_ORACLE")
+        lignes += ["", "## Par matière / niveau / programme / chapitre", "",
+                   "| Matière / niveau / programme / chapitre | " + " | ".join(cols_h) + " |",
+                   "|---|" + "---|" * len(cols_h)]
+        for cle, vals in backlog["par_hierarchie"].items():  # type: ignore[union-attr]
+            lignes.append(f"| `{cle}` | " + " | ".join(str(vals[c]) for c in cols_h) + " |")
     for axe in ("par_matiere", "par_niveau", "par_programme", "par_chapitre"):
         groupes = backlog[axe]  # type: ignore[index]
         if not groupes:

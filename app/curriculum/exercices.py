@@ -52,6 +52,43 @@ class Exercice(BaseModel):
         return dedup.empreinte_exacte(self.enonce, self.reponse_attendue)
 
 
+class BanqueExercices:
+    """
+    Banque indexée (id, empreinte exacte, (notion, gabarit)) : la recherche de doublons ne
+    parcourt que les candidats pertinents. Itérable comme une liste.
+    """
+
+    def __init__(self, exercices: Iterable["Exercice"] = ()):
+        self._liste: List[Exercice] = []
+        self._par_id: Dict[str, List[Exercice]] = {}
+        self._par_empreinte: Dict[str, List[Exercice]] = {}
+        self._par_gabarit: Dict[Tuple[str, str], List[Exercice]] = {}
+        for e in exercices:
+            self.ajouter(e)
+
+    def ajouter(self, e: "Exercice") -> None:
+        self._liste.append(e)
+        self._par_id.setdefault(e.id, []).append(e)
+        self._par_empreinte.setdefault(e.empreinte(), []).append(e)
+        self._par_gabarit.setdefault((e.notion_id, dedup.empreinte_gabarit(e.enonce)), []).append(e)
+
+    def candidats(self, ex: "Exercice") -> List["Exercice"]:
+        vus, out = set(), []
+        for groupe in (self._par_id.get(ex.id, ()), self._par_empreinte.get(ex.empreinte(), ()),
+                       self._par_gabarit.get((ex.notion_id, dedup.empreinte_gabarit(ex.enonce)), ())):
+            for e in groupe:
+                if id(e) not in vus:
+                    vus.add(id(e))
+                    out.append(e)
+        return out
+
+    def __iter__(self):
+        return iter(self._liste)
+
+    def __len__(self) -> int:
+        return len(self._liste)
+
+
 class RefusCreation(ValueError):
     def __init__(self, raisons: List[str]):
         super().__init__(";".join(raisons))
@@ -111,7 +148,11 @@ def valider_exercice(
             if r.verdict == Verdict.VALID:
                 raisons.append("erreur_frequente_en_fait_correcte")
 
-    for autre in banque:
+    if isinstance(banque, BanqueExercices):
+        candidats = banque.candidats(ex)  # index : O(1) au lieu d'un parcours complet (R2-23)
+    else:
+        candidats = banque
+    for autre in candidats:
         if autre.id == ex.id:
             raisons.append("id_deja_utilise")
         elif autre.empreinte() == ex.empreinte():
