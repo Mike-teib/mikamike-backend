@@ -90,3 +90,19 @@ input:focus,textarea:focus{border-color:var(--teal);box-shadow:0 0 0 4px rgba(15
 }
 
 [hidden]{display:none!important}
+
+.media-card{margin:0;border-radius:22px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(23,50,77,.10)}
+.media-card img{display:block;width:100%;height:100%;object-fit:cover}
+.login-illustration{aspect-ratio:16/9;margin-bottom:22px}
+.dashboard-illustration{width:min(390px,42%);aspect-ratio:16/9;flex:0 0 auto}
+.panel-illustration{aspect-ratio:16/9;margin:8px 0 24px}
+.chat-illustration{aspect-ratio:16/9;margin-bottom:18px}
+.parent-hero-illustration{aspect-ratio:16/9}
+@media(max-width:900px){
+  .dashboard-illustration{width:100%;max-width:520px}
+}
+@media(max-width:640px){
+  .dashboard-hero{align-items:flex-start;flex-direction:column}
+  .dashboard-illustration{width:100%}
+  .panel-illustration{margin-top:0}
+}
