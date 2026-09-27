@@ -24,8 +24,8 @@ export default function ExamMode({ curriculum }) {
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
           <Award size={28} color="#fbbf24" />
           <div>
-            <h2 style={{ fontSize: '1.25rem', fontWeight: '700' }}>Mode Examen — Annales Officielles (Brevet & Bac)</h2>
-            <p style={{ fontSize: '0.85rem', color: '#94a3b8' }}>Entraînement guidé sur sujets réels d'examens nationaux avec corrigés détaillés et barème.</p>
+            <h2 style={{ fontSize: '1.25rem', fontWeight: '700' }}>Mode Examen — Démonstration d’annales (Brevet & Bac)</h2>
+            <p style={{ fontSize: '0.85rem', color: '#94a3b8' }}>Prévisualisation de l’interface d’entraînement. Les sujets affichés ici sont des données de démonstration tant que les annales officielles validées ne sont pas chargées.</p>
           </div>
         </div>
 
@@ -125,7 +125,7 @@ export default function ExamMode({ curriculum }) {
                 <div style={{ padding: '1.5rem', textAlign: 'center', background: 'rgba(244, 63, 94, 0.1)', borderRadius: '8px', border: '1px solid rgba(244, 63, 94, 0.3)' }}>
                   <AlertCircle size={24} color="#fda4af" style={{ margin: '0 auto 0.5rem' }} />
                   <p style={{ fontSize: '0.9rem', color: '#fda4af', fontWeight: '600' }}>Épreuve en préparation</p>
-                  <p style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Les exercices et corrigés officiels pour ce sujet sont en cours d'intégration.</p>
+                  <p style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Les exercices de démonstration sont en préparation. Aucun sujet officiel n’est publié depuis cette préversion.</p>
                 </div>
               ) : (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
