@@ -222,7 +222,7 @@
         exercices_tentes: 32,
         exercices_reussis: 24,
         taux_reussite: 0.75,
-        niveau_actuel: "3/6 compétences consolidées",
+        niveau_actuel: "2/5 compétences consolidées",
         competences: {
           "Fractions": { tentatives: 8, reussites: 7, etat: "MAITRISE" },
           "Proportionnalité": { tentatives: 7, reussites: 5, etat: "EN_COURS" },
@@ -335,6 +335,7 @@
     const form = event.currentTarget;
     const errorEl = $("#parentLoginError");
     setMessage(errorEl, "");
+    setMessage($("#parentAuthMessage"), "");
     const email = $("#parentEmail").value.trim();
     const password = $("#parentPassword").value;
     const button = form.querySelector('button[type="submit"]');
@@ -596,7 +597,9 @@
       showAuth("login");
       $("#parentDeletePassword").value = "";
       $("#parentDeleteAccountConfirmation").checked = false;
-      globalMessage("Votre compte parent a été supprimé.", "success");
+      const authMessage = $("#parentAuthMessage");
+      if (authMessage) authMessage.dataset.tone = "success";
+      setMessage(authMessage, "Votre compte parent a été supprimé.");
     } catch (error) {
       globalMessage(error.message, "error");
     } finally {
