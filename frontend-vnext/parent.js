@@ -4,7 +4,9 @@
   const API = "/api/v1";
   const TOKEN_KEY = "mikamike_parent_token";
   const CHILDREN_KEY = "mikamike_parent_children";
-  const demo = new URLSearchParams(location.search).get("demo") === "1" || location.hostname.endsWith(".github.io");
+  const params = new URLSearchParams(location.search);
+  const demo = params.get("demo") === "1" || location.hostname.endsWith(".github.io");
+  const demoUnverified = demo && params.get("unverified") === "1";
   const $ = (s) => document.querySelector(s);
 
   function readChildren() {
@@ -52,6 +54,11 @@
       compte_inconnu: "Ce compte n’est plus disponible.",
       trop_de_tentatives: "Trop de tentatives. Réessayez un peu plus tard.",
       courriel_indisponible: "Le message de vérification ne peut pas être envoyé pour le moment.",
+      jeton_invalide_ou_expire: "Ce code de vérification est invalide ou a expiré.",
+      aucune_donnee_trouvee_pour_cet_identifiant: "Aucune donnée d’apprentissage n’est disponible pour cet élève.",
+      aucune_donnee_a_effacer: "Aucune donnée d’apprentissage n’est disponible à effacer.",
+      mot_de_passe_incorrect: "Le mot de passe saisi est incorrect.",
+      abonnement_en_cours: "Le compte ne peut pas être supprimé tant qu’un abonnement est en cours.",
     };
     if (code && messages[code]) return messages[code];
     if (status >= 500) return "MikaMike rencontre un problème temporaire. Réessayez dans un instant.";
@@ -80,6 +87,57 @@
       throw err;
     }
     return payload;
+  }
+
+  function downloadJson(filename, payload) {
+    const blob = new Blob([JSON.stringify(payload, null, 2) + "\n"], { type: "application/json;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 0);
+  }
+
+  function updatePrivacyControls() {
+    const hasChild = Boolean(state.selected);
+    const exportButton = $("#exportSelectedChild");
+    const eraseButton = $("#eraseSelectedChild");
+    if (exportButton) exportButton.disabled = !hasChild;
+    if (eraseButton) {
+      const phraseOk = ($("#parentErasePhrase")?.value || "").trim().toUpperCase() === "EFFACER";
+      const confirmed = Boolean($("#parentEraseConfirmation")?.checked);
+      eraseButton.disabled = !hasChild || !phraseOk || !confirmed;
+    }
+    const deleteButton = $("#deleteParentAccount");
+    if (deleteButton) {
+      const passwordOk = Boolean(($("#parentDeletePassword")?.value || "").length);
+      const confirmed = Boolean($("#parentDeleteAccountConfirmation")?.checked);
+      deleteButton.disabled = !passwordOk || !confirmed;
+    }
+  }
+
+  function demoAccountExport() {
+    return {
+      contexte_rgpd: "Export des données du compte — démonstration",
+      compte: { email: "camille.parent@example.test", prenom: "Camille", role: "parent", actif: true },
+      verification_email: { statut: "EMAIL_VERIFIED", email_verifie: true },
+      abonnement: { statut: "aucun" },
+      liens_eleves: [{ relation: "parent" }],
+    };
+  }
+
+  function demoChildExport() {
+    return {
+      contexte_rgpd: "Export complet des données d’apprentissage — démonstration",
+      student_pseudo_id: "demo-eleve",
+      anonymisation: "Données fictives",
+      total_tentatives: 32,
+      total_competences_suivies: 5,
+      etats_maitrise: { Fractions: "MAITRISE", Proportionnalité: "EN_COURS" },
+    };
   }
 
   function saveToken(token) {
@@ -154,6 +212,7 @@
       button.addEventListener("click", () => loadDashboard(pseudo));
       wrap.appendChild(button);
     });
+    updatePrivacyControls();
   }
 
   function demoDashboard() {
@@ -249,7 +308,7 @@
 
   async function restoreSession() {
     if (demo) {
-      state.account = { prenom: "Camille", email_verifie: true, role: "parent" };
+      state.account = { prenom: "Camille", email_verifie: !demoUnverified, role: "parent" };
       state.children = ["demo-eleve"];
       showDashboard();
       await loadDashboard("demo-eleve");
@@ -386,6 +445,7 @@
       state.selected = pseudo;
       renderChildren();
       renderDashboard(data);
+      updatePrivacyControls();
       $("#existingStudentCode").value = "";
       globalMessage("Enfant retrouvé et ajouté à cet onglet.", "success");
     } catch (error) {
@@ -393,16 +453,153 @@
     }
   });
 
+  $("#emailVerificationForm")?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const input = $("#emailVerificationCode");
+    const errorEl = $("#emailVerificationError");
+    const button = $("#confirmVerification");
+    const code = (input?.value || "").trim();
+    setMessage(errorEl, "");
+    if (!code) {
+      setMessage(errorEl, "Saisissez le code reçu par e-mail.");
+      return;
+    }
+    button.disabled = true;
+    button.textContent = "Vérification…";
+    try {
+      if (demo) {
+        state.account.email_verifie = true;
+      } else {
+        await api("/comptes/verification-email/confirmer", {
+          method: "POST",
+          body: JSON.stringify({ jeton: code }),
+        });
+        state.account = await api("/comptes/moi");
+      }
+      input.value = "";
+      showDashboard();
+      globalMessage("Adresse e-mail vérifiée. Vous pouvez maintenant rattacher un enfant.", "success");
+    } catch (error) {
+      setMessage(errorEl, error.message);
+    } finally {
+      button.disabled = false;
+      button.textContent = "Confirmer";
+    }
+  });
+
   $("#resendVerification")?.addEventListener("click", async () => {
     const button = $("#resendVerification");
     button.disabled = true;
     try {
-      await api("/comptes/verification-email", { method: "POST" });
-      globalMessage("Message de vérification envoyé. Consultez votre boîte e-mail.", "success");
+      if (demo) {
+        globalMessage("Mode démonstration : aucun e-mail réel n’a été envoyé.", "demo");
+      } else {
+        await api("/comptes/verification-email", { method: "POST" });
+        globalMessage("Message de vérification envoyé. Consultez votre boîte e-mail.", "success");
+      }
     } catch (error) {
       globalMessage(error.message, "error");
     } finally {
       button.disabled = false;
+    }
+  });
+
+  $("#exportParentAccount")?.addEventListener("click", async () => {
+    const button = $("#exportParentAccount");
+    button.disabled = true;
+    try {
+      const data = demo ? demoAccountExport() : await api("/comptes/moi/export");
+      downloadJson("mikamike-donnees-compte.json", data);
+      globalMessage("Export du compte préparé.", "success");
+    } catch (error) {
+      globalMessage(error.message, "error");
+    } finally {
+      button.disabled = false;
+    }
+  });
+
+  $("#exportSelectedChild")?.addEventListener("click", async () => {
+    if (!state.selected) {
+      globalMessage("Choisissez d’abord un enfant.", "error");
+      return;
+    }
+    const button = $("#exportSelectedChild");
+    button.disabled = true;
+    try {
+      const data = demo ? demoChildExport() : await api("/rgpd/export/" + encodeURIComponent(state.selected));
+      downloadJson("mikamike-donnees-eleve.json", data);
+      globalMessage("Export des données de l’enfant préparé.", "success");
+    } catch (error) {
+      globalMessage(error.message, "error");
+    } finally {
+      updatePrivacyControls();
+    }
+  });
+
+  ["input", "change"].forEach((eventName) => {
+    $("#parentErasePhrase")?.addEventListener(eventName, updatePrivacyControls);
+    $("#parentEraseConfirmation")?.addEventListener(eventName, updatePrivacyControls);
+    $("#parentDeletePassword")?.addEventListener(eventName, updatePrivacyControls);
+    $("#parentDeleteAccountConfirmation")?.addEventListener(eventName, updatePrivacyControls);
+  });
+
+  $("#eraseSelectedChild")?.addEventListener("click", async () => {
+    if (!state.selected) return;
+    if (demo) {
+      globalMessage("Mode démonstration : l’effacement réel est désactivé.", "demo");
+      return;
+    }
+    const pseudo = state.selected;
+    const phraseOk = ($("#parentErasePhrase")?.value || "").trim().toUpperCase() === "EFFACER";
+    const confirmed = Boolean($("#parentEraseConfirmation")?.checked);
+    if (!phraseOk || !confirmed) return;
+    if (!window.confirm("Confirmer l’effacement définitif de toutes les données d’apprentissage de cet enfant ?")) return;
+
+    const button = $("#eraseSelectedChild");
+    button.disabled = true;
+    try {
+      await api("/rgpd/effacer/" + encodeURIComponent(pseudo), { method: "DELETE" });
+      state.children = state.children.filter((value) => value !== pseudo);
+      state.selected = "";
+      writeChildren();
+      renderChildren();
+      $("#parentProgressSection").hidden = true;
+      $("#parentErasePhrase").value = "";
+      $("#parentEraseConfirmation").checked = false;
+      globalMessage("Les données d’apprentissage de l’enfant ont été effacées.", "success");
+    } catch (error) {
+      globalMessage(error.message, "error");
+    } finally {
+      updatePrivacyControls();
+    }
+  });
+
+  $("#deleteParentAccount")?.addEventListener("click", async () => {
+    if (demo) {
+      globalMessage("Mode démonstration : la suppression réelle du compte est désactivée.", "demo");
+      return;
+    }
+    const password = $("#parentDeletePassword")?.value || "";
+    const confirmed = Boolean($("#parentDeleteAccountConfirmation")?.checked);
+    if (!password || !confirmed) return;
+    if (!window.confirm("Confirmer la suppression définitive de votre compte parent MikaMike ?")) return;
+
+    const button = $("#deleteParentAccount");
+    button.disabled = true;
+    try {
+      await api("/comptes/moi", {
+        method: "DELETE",
+        body: JSON.stringify({ mot_de_passe: password, confirmation: true }),
+      });
+      clearSession();
+      showAuth("login");
+      $("#parentDeletePassword").value = "";
+      $("#parentDeleteAccountConfirmation").checked = false;
+      globalMessage("Votre compte parent a été supprimé.", "success");
+    } catch (error) {
+      globalMessage(error.message, "error");
+    } finally {
+      updatePrivacyControls();
     }
   });
 
@@ -428,5 +625,6 @@
   window.addEventListener("online", setNetworkStatus);
   window.addEventListener("offline", setNetworkStatus);
   setNetworkStatus();
+  updatePrivacyControls();
   restoreSession();
 })();
