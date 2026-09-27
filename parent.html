@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0F9B8E">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Espace parent sécurisé MikaMike : progression, points à renforcer et suivi synthétique de l’apprentissage.">
+  <title>Espace parent — MikaMike</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">🐱</span><span class="brand-copy"><strong>MikaMike</strong><small>Espace parent</small></span></a>
+      <div class="top-actions">
+        <span id="parentNetworkStatus" class="status-chip" aria-live="polite">En ligne</span>
+        <button id="parentLogout" class="ghost-button" type="button" hidden>Se déconnecter</button>
+        <a class="ghost-button" href="./">Espace élève</a>
+      </div>
+    </header>
+
+    <main id="main" class="parent-page">
+      <section class="parent-intro parent-intro-v2">
+        <div>
+          <span class="eyebrow">ESPACE PARENT</span>
+          <h1>Suivre les progrès sans transformer l’apprentissage en surveillance.</h1>
+          <p class="lead">Retrouvez l’essentiel : ce qui progresse, ce qui reste fragile et les prochaines priorités. Les réponses détaillées de l’enfant ne sont pas exposées.</p>
+          <div class="parent-trust-row" aria-label="Principes de l’espace parent">
+            <span>🔒 Accès lié à l’enfant</span><span>🧩 Données minimisées</span><span>📈 Progression synthétique</span>
+          </div>
+        </div>
+        <figure class="media-card parent-hero-illustration">
+          <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_14-6-1024x576.png" alt="Mika accompagne deux élèves dans leur progression scolaire" width="1024" height="576" loading="eager" decoding="async">
+        </figure>
+      </section>
+
+      <section id="parentAuthView" class="parent-auth-layout" aria-labelledby="parentAuthTitle">
+        <div class="parent-login-card">
+          <span class="eyebrow">CONNEXION SÉCURISÉE</span>
+          <h2 id="parentAuthTitle">Accéder à mon espace parent</h2>
+          <p class="parent-muted">Utilisez le compte parent MikaMike. Le jeton de session reste limité à cet onglet de navigateur.</p>
+          <form id="parentLoginForm" novalidate>
+            <label for="parentEmail">Adresse e-mail</label>
+            <input id="parentEmail" type="email" inputmode="email" autocomplete="email" required maxlength="254" placeholder="parent@exemple.fr">
+            <label for="parentPassword">Mot de passe</label>
+            <input id="parentPassword" type="password" autocomplete="current-password" required minlength="8" maxlength="200" placeholder="Votre mot de passe">
+            <p id="parentLoginError" class="form-error" role="alert" hidden></p>
+            <button class="primary-button full-button" type="submit">Se connecter</button>
+          </form>
+          <button id="showParentSignup" class="parent-link-button" type="button">Créer un compte parent</button>
+        </div>
+
+        <div class="parent-login-aside">
+          <figure class="media-card panel-illustration">
+            <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_16-7-1024x576.png" alt="Mika et deux élèves étudient ensemble dans une classe" width="1024" height="576" loading="lazy" decoding="async">
+          </figure>
+          <div class="parent-mini-grid">
+            <article><strong>Progression</strong><span>Vue synthétique des acquis.</span></article>
+            <article><strong>Fragilités</strong><span>Priorités à consolider.</span></article>
+            <article><strong>Respect de l’enfant</strong><span>Pas de surveillance réponse par réponse.</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="parentSignupView" class="parent-auth-layout" hidden aria-labelledby="parentSignupTitle">
+        <div class="parent-login-card">
+          <span class="eyebrow">NOUVEAU COMPTE</span>
+          <h2 id="parentSignupTitle">Créer mon compte parent</h2>
+          <form id="parentSignupForm" novalidate>
+            <label for="parentFirstName">Prénom <span class="parent-optional">(facultatif)</span></label>
+            <input id="parentFirstName" type="text" autocomplete="given-name" maxlength="120">
+            <label for="parentSignupEmail">Adresse e-mail</label>
+            <input id="parentSignupEmail" type="email" inputmode="email" autocomplete="email" required maxlength="254">
+            <label for="parentSignupPassword">Mot de passe</label>
+            <input id="parentSignupPassword" type="password" autocomplete="new-password" required minlength="8" maxlength="200">
+            <p class="privacy-note">Après l’inscription, l’adresse e-mail doit être vérifiée avant le rattachement d’un enfant.</p>
+            <p id="parentSignupError" class="form-error" role="alert" hidden></p>
+            <button class="primary-button full-button" type="submit">Créer mon compte</button>
+          </form>
+          <button id="showParentLogin" class="parent-link-button" type="button">J’ai déjà un compte</button>
+        </div>
+        <aside class="parent-info-panel">
+          <span class="metric-icon" aria-hidden="true">🛡️</span>
+          <h3>Un rattachement explicite</h3>
+          <p>Un compte parent n’accède à aucun élève par défaut. Le lien est créé avec un code d’invitation à usage unique.</p>
+        </aside>
+      </section>
+
+      <section id="parentDashboardView" hidden>
+        <div class="parent-welcome-row">
+          <div><span class="eyebrow">TABLEAU DE BORD</span><h2 id="parentWelcome">Bonjour 👋</h2><p class="parent-muted">Les indicateurs restent volontairement synthétiques.</p></div>
+          <button id="parentRefresh" class="ghost-button" type="button">Actualiser</button>
+        </div>
+
+        <div id="emailVerificationBanner" class="parent-verification-banner" hidden>
+          <div><strong>Vérifiez votre adresse e-mail</strong><p>La vérification est nécessaire avant de rattacher un enfant.</p></div>
+          <button id="resendVerification" class="primary-button" type="button">Renvoyer le message</button>
+        </div>
+        <p id="parentGlobalMessage" class="parent-global-message" role="status" aria-live="polite" hidden></p>
+
+        <section class="parent-control-grid">
+          <article class="parent-control-card">
+            <span class="eyebrow">RATTACHER UN ENFANT</span>
+            <h3>J’ai un code d’invitation</h3>
+            <p>Le code est à usage unique. Il n’est jamais conservé après validation.</p>
+            <form id="parentLinkForm" novalidate>
+              <label for="parentInviteCode">Code d’invitation</label>
+              <input id="parentInviteCode" type="text" autocomplete="off" autocapitalize="characters" maxlength="64" placeholder="XXXX-XXXX-XXXX">
+              <label class="parent-check"><input id="parentConfirmation" type="checkbox"> <span>Je confirme être le parent ou responsable autorisé de cet enfant.</span></label>
+              <p id="parentLinkError" class="form-error" role="alert" hidden></p>
+              <button id="parentLinkButton" class="primary-button full-button" type="submit" disabled>Rattacher l’enfant</button>
+            </form>
+          </article>
+
+          <article class="parent-control-card">
+            <span class="eyebrow">ENFANT DÉJÀ LIÉ</span>
+            <h3>Retrouver son tableau de bord</h3>
+            <p>Si le lien existait avant cet appareil, utilisez le code élève connu de la famille. Le serveur vérifie le droit d’accès.</p>
+            <form id="parentExistingChildForm" novalidate>
+              <label for="existingStudentCode">Code élève</label>
+              <input id="existingStudentCode" type="text" autocomplete="off" maxlength="120" placeholder="Code élève">
+              <p id="parentExistingError" class="form-error" role="alert" hidden></p>
+              <button class="ghost-button full-button" type="submit">Ajouter à cet onglet</button>
+            </form>
+          </article>
+        </section>
+
+        <section id="parentChildrenSection" class="parent-children-section" hidden>
+          <div class="section-heading">
+            <div><span class="eyebrow">MES ENFANTS</span><h2>Choisir un tableau de bord</h2></div>
+            <p>Les identifiants restent pseudonymisés et ne sont conservés que dans cet onglet.</p>
+          </div>
+          <div id="parentChildren" class="parent-child-tabs" role="tablist" aria-label="Enfants liés"></div>
+        </section>
+
+        <section id="parentProgressSection" class="parent-progress-section" hidden aria-live="polite">
+          <div class="parent-dashboard-head">
+            <div><span class="eyebrow">PROGRESSION</span><h2 id="parentStudentLabel">Élève</h2><p id="parentLevelLabel" class="parent-muted"></p></div>
+            <span class="parent-privacy-badge">🔒 Vue parent minimisée</span>
+          </div>
+          <div id="parentMetrics" class="parent-grid parent-grid-v2"></div>
+          <div class="parent-competence-panel">
+            <div class="section-heading"><div><span class="eyebrow">COMPÉTENCES</span><h2>Ce qui mérite votre attention</h2></div><p>Aucune réponse détaillée n’est affichée ici.</p></div>
+            <div id="parentCompetences" class="parent-competence-list"></div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+  <script src="./parent.js" defer></script>
+</body>
+</html>
