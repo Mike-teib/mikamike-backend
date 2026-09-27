@@ -4,7 +4,7 @@
   const API = "/api/v1";
   const TOKEN_KEY = "mikamike_parent_token";
   const CHILDREN_KEY = "mikamike_parent_children";
-  const demo = new URLSearchParams(location.search).get("demo") === "1";
+  const demo = new URLSearchParams(location.search).get("demo") === "1" || location.hostname.endsWith(".github.io");
   const $ = (s) => document.querySelector(s);
 
   function readChildren() {
