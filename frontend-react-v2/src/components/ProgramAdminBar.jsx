@@ -14,7 +14,7 @@ export default function ProgramAdminBar({ meta }) {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#94a3b8' }}>
           <CheckCircle2 size={14} color="#34d399" />
-          <span>Programme actif : <strong>{meta.school_year}</strong> ({meta.bo_version})</span>
+          <span>Préversion UI — données de démonstration : <strong>{meta.school_year}</strong></span>
         </div>
 
         <button
@@ -34,7 +34,7 @@ export default function ProgramAdminBar({ meta }) {
         <div className="glass-card" style={{ marginTop: '0.5rem', padding: '0.75rem 1rem', background: '#1e293b', borderColor: '#3b82f6' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem', color: '#60a5fa', fontWeight: '600' }}>
             <ShieldCheck size={16} />
-            <span>UI Admin Local / Métadonnées du Programme Canonique</span>
+            <span>UI Admin Local / Métadonnées de démonstration</span>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.75rem', fontSize: '0.8rem' }}>
@@ -48,7 +48,7 @@ export default function ProgramAdminBar({ meta }) {
               <span style={{ color: '#94a3b8' }}>Année Scolaire:</span> <strong style={{ color: '#f8fafc' }}>{meta.school_year}</strong>
             </div>
             <div>
-              <span style={{ color: '#94a3b8' }}>Statut Source:</span> <span className="badge-disponible">{meta.source_status}</span>
+              <span style={{ color: '#94a3b8' }}>Statut maquette:</span> <span className="badge-disponible">{meta.source_status}</span>
             </div>
           </div>
         </div>
