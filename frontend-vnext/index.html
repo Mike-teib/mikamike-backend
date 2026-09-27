@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
+  <meta name="theme-color" content="#0F9B8E">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="MikaMike">
+  <meta name="format-detection" content="telephone=no">
+  <title>MikaMike — Espace élève</title>
+  <meta name="description" content="MikaMike accompagne les élèves du primaire au lycée avec une progression claire et un professeur numérique rassurant.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <div id="app" class="app-shell">
+    <header class="topbar" aria-label="En-tête MikaMike">
+      <a class="brand" href="./" aria-label="MikaMike, accueil">
+        <span class="brand-mark" aria-hidden="true">🐱</span>
+        <span class="brand-copy"><strong>MikaMike</strong><small>Apprendre à son rythme</small></span>
+      </a>
+      <div class="top-actions">
+        <span class="status-chip" id="networkStatus">En ligne</span>
+        <a class="ghost-button" href="./parent.html">Espace parent</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="loginView" class="login-layout" aria-labelledby="loginTitle">
+        <div class="login-copy">
+          <span class="eyebrow">ESPACE ÉLÈVE</span>
+          <h1 id="loginTitle">Prêt à avancer avec Mika ?</h1>
+          <p class="lead">Entre ton code élève. Mika retrouve ta progression et te propose la prochaine étape, sans te juger et sans faire l’exercice à ta place.</p>
+
+          <div class="promise-grid" aria-label="Les points forts de MikaMike">
+            <article><span>🎯</span><div><strong>Un objectif clair</strong><small>Une notion à la fois.</small></div></article>
+            <article><span>🧩</span><div><strong>Des indices progressifs</strong><small>Juste assez d’aide pour avancer.</small></div></article>
+            <article><span>📈</span><div><strong>Des progrès visibles</strong><small>Pas seulement une note.</small></div></article>
+          </div>
+        </div>
+
+        <div class="login-card">
+          <figure class="media-card login-illustration">
+            <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_03-1-1024x576.png" alt="Illustration MikaMike : Mika accompagne un élève dans son apprentissage" width="1024" height="576" loading="eager" decoding="async">
+          </figure>
+
+          <form id="studentLoginForm" novalidate>
+            <label for="studentCode">Code élève</label>
+            <input id="studentCode" name="studentCode" type="text" inputmode="text" autocomplete="off"
+                   autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. MIKA-1234" required>
+            <p id="loginError" class="form-error" role="alert" hidden></p>
+            <button class="primary-button full-button" type="submit">Commencer avec Mika</button>
+          </form>
+          <p class="privacy-note">Ton code sert uniquement à ouvrir ton espace. Ne le partage pas publiquement.</p>
+        </div>
+      </section>
+
+      <section id="dashboardView" class="dashboard" hidden>
+        <div class="dashboard-hero">
+          <div>
+            <span class="eyebrow">AUJOURD’HUI</span>
+            <h1>Bonjour <span id="studentName">👋</span></h1>
+            <p id="heroMessage">On reprend là où tu t’es arrêté.</p>
+          </div>
+          <figure class="media-card dashboard-illustration">
+            <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_05-2-1024x576.png" alt="Illustration MikaMike : progression et accompagnement d’un élève" width="1024" height="576" loading="lazy" decoding="async">
+          </figure>
+        </div>
+
+        <nav class="quick-nav" aria-label="Navigation élève">
+          <button class="nav-card active" data-panel="home"><span>🏠</span><strong>Accueil</strong></button>
+          <button class="nav-card" data-panel="subjects"><span>📚</span><strong>Matières</strong></button>
+          <button class="nav-card" data-panel="mika"><span>💬</span><strong>Mika</strong></button>
+          <button class="nav-card" data-panel="progress"><span>📈</span><strong>Progrès</strong></button>
+        </nav>
+
+        <div id="panel-home" class="panel active-panel">
+          <section class="continue-card">
+            <div>
+              <span class="eyebrow">PROCHAINE ÉTAPE</span>
+              <h2>Une petite marche suffit.</h2>
+              <p>Choisis une matière. Mika te guidera vers une notion disponible pour ton niveau.</p>
+            </div>
+            <button class="primary-button" data-go="subjects">Choisir une matière</button>
+          </section>
+
+          <section>
+            <div class="section-heading">
+              <div><span class="eyebrow">RACCOURCIS</span><h2>Que veux-tu travailler ?</h2></div>
+            </div>
+            <div class="subject-grid compact">
+              <button class="subject-card maths" data-subject="Mathématiques"><span class="subject-icon">∑</span><strong>Mathématiques</strong><small>Calcul, géométrie, fonctions…</small></button>
+              <button class="subject-card physics" data-subject="Physique-chimie"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>Unités, modèles, expériences…</small></button>
+              <button class="subject-card svt" data-subject="SVT"><span class="subject-icon">🌱</span><strong>SVT</strong><small>Vivant, santé, Terre…</small></button>
+              <button class="subject-card science" data-subject="Sciences"><span class="subject-icon">🔬</span><strong>Sciences</strong><small>Observer, comprendre, tester.</small></button>
+            </div>
+          </section>
+        </div>
+
+        <div id="panel-subjects" class="panel">
+          <div class="section-heading">
+            <div><span class="eyebrow">MATIÈRES</span><h2>Choisis ton terrain de jeu.</h2></div>
+            <p>Les contenus affichés comme disponibles doivent venir du catalogue validé par le serveur.</p>
+          </div>
+          <figure class="media-card panel-illustration">
+            <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_07-3-1024x576.png" alt="Illustration MikaMike des matières scientifiques" width="1024" height="576" loading="lazy" decoding="async">
+          </figure>
+          <div class="subject-grid">
+            <button class="subject-card maths" data-subject="Mathématiques"><span class="subject-icon">∑</span><strong>Mathématiques</strong><small>Raisonner, calculer, résoudre.</small></button>
+            <button class="subject-card physics" data-subject="Physique-chimie"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>Comprendre les phénomènes.</small></button>
+            <button class="subject-card svt" data-subject="SVT"><span class="subject-icon">🌱</span><strong>SVT</strong><small>Explorer le vivant et la Terre.</small></button>
+            <button class="subject-card science" data-subject="Sciences"><span class="subject-icon">🔬</span><strong>Sciences</strong><small>Observer et expérimenter.</small></button>
+          </div>
+          <div id="catalogNotice" class="info-banner" hidden></div>
+        </div>
+
+        <div id="panel-mika" class="panel">
+          <div class="chat-layout">
+            <aside class="chat-side">
+              <figure class="media-card chat-illustration">
+                <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_09-4-1024x576.png" alt="Illustration de Mika, professeur numérique" width="1024" height="576" loading="lazy" decoding="async">
+              </figure>
+              <h2>Mika</h2>
+              <p>Je peux t’aider à comprendre, te donner un indice ou te poser une question intermédiaire.</p>
+              <div class="rule-chip">Je ne donne pas la réponse toute faite.</div>
+            </aside>
+            <section class="chat-main" aria-label="Conversation avec Mika">
+              <div id="chatMessages" class="messages" aria-live="polite">
+                <div class="message mika-message"><span>🐱</span><p>Choisis d’abord un exercice ou une notion disponible. Ensuite, on travaille ensemble étape par étape.</p></div>
+              </div>
+              <form id="chatForm" class="composer">
+                <label class="sr-only" for="chatInput">Ta réponse</label>
+                <textarea id="chatInput" rows="2" maxlength="500" placeholder="Écris ta réponse ou explique ce qui te bloque…" disabled></textarea>
+                <button class="primary-button" type="submit" disabled>Envoyer</button>
+              </form>
+            </section>
+          </div>
+        </div>
+
+        <div id="panel-progress" class="panel">
+          <div class="section-heading">
+            <div><span class="eyebrow">PROGRESSION</span><h2>Ce qui devient solide.</h2></div>
+            <p>MikaMike suit les réussites dans le temps. Une seule bonne réponse ne suffit pas à déclarer une notion maîtrisée.</p>
+          </div>
+          <figure class="media-card panel-illustration">
+            <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_11-5-1024x576.png" alt="Illustration MikaMike représentant la progression scolaire" width="1024" height="576" loading="lazy" decoding="async">
+          </figure>
+          <div class="progress-grid" id="progressGrid">
+            <article class="metric-card"><span class="metric-icon">🌱</span><strong>À découvrir</strong><p>Les premières notions apparaîtront ici.</p></article>
+            <article class="metric-card"><span class="metric-icon">🧠</span><strong>En cours</strong><p>Les notions que tu consolides.</p></article>
+            <article class="metric-card"><span class="metric-icon">🏆</span><strong>Maîtrisées</strong><p>Les notions solides dans le temps.</p></article>
+          </div>
+        </div>
+
+        <footer class="app-footer">
+          <button id="logoutButton" class="text-button">Se déconnecter</button>
+          <span>© 2026 MikaMike</span>
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
