@@ -1,5 +1,5 @@
-const CACHE = "mikamike-ui-v1";
-const ASSETS = ["./", "./index.html", "./parent.html", "./styles.css", "./app.js", "./manifest.webmanifest"];
+const CACHE = "mikamike-ui-v2-parent";
+const ASSETS = ["./", "./index.html", "./parent.html", "./styles.css", "./app.js", "./parent.js", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
