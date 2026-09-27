@@ -299,6 +299,7 @@
       $("#parentProgressSection").hidden = true;
       if (error.status === 403) {
         state.children = state.children.filter((value) => value !== pseudo);
+        state.selected = "";
         writeChildren();
         renderChildren();
       }
