@@ -131,7 +131,7 @@ export default function StudentHomeView({ onNavigateSection, onSelectLevel, onSe
               <h3 style={{ fontSize: '1.1rem', fontWeight: '700', color: '#f8fafc' }}>
                 Choisis ton Niveau Scolaire
               </h3>
-              <p style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Programmes officiels du CP au Lycée</p>
+              <p style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Parcours du CP au Lycée — contenus affichés selon validation</p>
             </div>
           </div>
 
