@@ -96,8 +96,19 @@
         </div>
 
         <div id="emailVerificationBanner" class="parent-verification-banner" hidden>
-          <div><strong>Vérifiez votre adresse e-mail</strong><p>La vérification est nécessaire avant de rattacher un enfant.</p></div>
-          <button id="resendVerification" class="primary-button" type="button">Renvoyer le message</button>
+          <div class="parent-verification-copy">
+            <strong>Vérifiez votre adresse e-mail</strong>
+            <p>La vérification est nécessaire avant de rattacher un enfant. Saisissez le code reçu par e-mail ou demandez un nouveau message.</p>
+            <form id="emailVerificationForm" class="parent-verification-form" novalidate>
+              <label for="emailVerificationCode">Code reçu par e-mail</label>
+              <div class="parent-inline-form">
+                <input id="emailVerificationCode" type="text" autocomplete="one-time-code" autocapitalize="off" maxlength="128" placeholder="Code de vérification">
+                <button id="confirmVerification" class="primary-button" type="submit">Confirmer</button>
+              </div>
+              <p id="emailVerificationError" class="form-error" role="alert" hidden></p>
+            </form>
+          </div>
+          <button id="resendVerification" class="ghost-button" type="button">Renvoyer le message</button>
         </div>
         <p id="parentGlobalMessage" class="parent-global-message" role="status" aria-live="polite" hidden></p>
 
@@ -146,6 +157,52 @@
             <div class="section-heading"><div><span class="eyebrow">COMPÉTENCES</span><h2>Ce qui mérite votre attention</h2></div><p>Aucune réponse détaillée n’est affichée ici.</p></div>
             <div id="parentCompetences" class="parent-competence-list"></div>
           </div>
+        </section>
+
+        <section id="parentPrivacySection" class="parent-privacy-section" aria-labelledby="parentPrivacyTitle">
+          <div class="section-heading">
+            <div><span class="eyebrow">MES DONNÉES & CONFIDENTIALITÉ</span><h2 id="parentPrivacyTitle">Garder la maîtrise de vos données</h2></div>
+            <p>Les exports sont générés à la demande. Les actions d’effacement sont séparées et demandent une confirmation explicite.</p>
+          </div>
+
+          <div class="parent-privacy-grid">
+            <article class="parent-control-card">
+              <span class="metric-icon" aria-hidden="true">📦</span>
+              <h3>Exporter mes données</h3>
+              <p>Téléchargez les informations liées à votre compte parent. Aucun mot de passe, jeton ou code d’invitation n’est inclus.</p>
+              <button id="exportParentAccount" class="ghost-button full-button" type="button">Télécharger mes données de compte</button>
+            </article>
+
+            <article class="parent-control-card">
+              <span class="metric-icon" aria-hidden="true">🎓</span>
+              <h3>Données de l’enfant sélectionné</h3>
+              <p>Exportez les données d’apprentissage auxquelles votre compte parent est autorisé à accéder.</p>
+              <button id="exportSelectedChild" class="ghost-button full-button" type="button" disabled>Télécharger les données de l’enfant</button>
+            </article>
+          </div>
+
+          <details class="parent-danger-zone">
+            <summary>Actions sensibles</summary>
+            <div class="parent-danger-grid">
+              <article>
+                <h3>Effacer les données d’apprentissage de l’enfant sélectionné</h3>
+                <p>Cette action supprime définitivement les données d’apprentissage, sessions, rappels et liens associés à cet élève. Elle ne peut pas être annulée.</p>
+                <label for="parentErasePhrase">Tapez <strong>EFFACER</strong> pour confirmer</label>
+                <input id="parentErasePhrase" type="text" autocomplete="off" maxlength="16" placeholder="EFFACER">
+                <label class="parent-check"><input id="parentEraseConfirmation" type="checkbox"> <span>Je comprends que cet effacement est définitif.</span></label>
+                <button id="eraseSelectedChild" class="parent-danger-button full-button" type="button" disabled>Effacer définitivement les données de l’enfant</button>
+              </article>
+
+              <article>
+                <h3>Supprimer mon compte parent</h3>
+                <p>Le compte, ses liens et ses données de compte seront supprimés. Les données d’apprentissage de l’enfant ne sont pas supprimées par cette action.</p>
+                <label for="parentDeletePassword">Mot de passe actuel</label>
+                <input id="parentDeletePassword" type="password" autocomplete="current-password" maxlength="200">
+                <label class="parent-check"><input id="parentDeleteAccountConfirmation" type="checkbox"> <span>Je confirme vouloir supprimer définitivement mon compte parent.</span></label>
+                <button id="deleteParentAccount" class="parent-danger-button full-button" type="button" disabled>Supprimer définitivement mon compte</button>
+              </article>
+            </div>
+          </details>
         </section>
       </section>
     </main>
