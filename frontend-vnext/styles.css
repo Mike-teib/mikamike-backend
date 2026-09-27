@@ -132,3 +132,45 @@ input:focus,textarea:focus{border-color:var(--teal);box-shadow:0 0 0 4px rgba(15
 .parent-empty-state{padding:22px;border-radius:14px;background:var(--sky);color:var(--muted);text-align:center}
 @media(max-width:900px){.parent-auth-layout{grid-template-columns:1fr}.parent-mini-grid{grid-template-columns:repeat(3,1fr)}.parent-control-grid{grid-template-columns:1fr}.parent-grid-v2{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.parent-intro-v2{margin-bottom:16px}.parent-auth-layout{margin-top:16px}.parent-login-card,.parent-info-panel,.parent-control-card,.parent-competence-panel{padding:22px}.parent-mini-grid{grid-template-columns:1fr}.parent-welcome-row,.parent-dashboard-head,.parent-verification-banner{align-items:flex-start;flex-direction:column}.parent-grid-v2{grid-template-columns:1fr}.parent-competence-row{align-items:flex-start;flex-direction:column;gap:10px}.parent-privacy-badge{align-self:flex-start}.top-actions{gap:6px}.top-actions .ghost-button{font-size:12px}}
+
+
+/* Parent V1.1 — verification e-mail, privacy controls, mobile 375 */
+.parent-verification-copy{flex:1;min-width:0}
+.parent-verification-form{margin-top:14px}
+.parent-verification-form label{margin-bottom:7px}
+.parent-inline-form{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:end}
+.parent-inline-form .primary-button{min-height:50px}
+.parent-privacy-section{margin-top:42px;padding-top:8px}
+.parent-privacy-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.parent-danger-zone{margin-top:20px;border:1px solid #F0C9C4;border-radius:18px;background:#FFF8F7;overflow:hidden}
+.parent-danger-zone summary{cursor:pointer;padding:18px 20px;font-weight:900;color:#8A2F25;list-style-position:inside}
+.parent-danger-zone[open] summary{border-bottom:1px solid #F0C9C4}
+.parent-danger-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:20px}
+.parent-danger-grid article{background:#fff;border:1px solid #F3D8D4;border-radius:16px;padding:20px}
+.parent-danger-grid article p{color:var(--muted);line-height:1.55}
+.parent-danger-grid article>label:not(.parent-check){display:block;font-weight:850;margin:14px 0 8px}
+.parent-danger-button{border:0;border-radius:14px;background:#B42318;color:#fff;padding:14px 18px;font-weight:900}
+.parent-danger-button:disabled{opacity:.5;cursor:not-allowed}
+.parent-danger-button:not(:disabled):hover{background:#8F1D14}
+
+@media(max-width:900px){
+  .parent-privacy-grid,.parent-danger-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .parent-verification-banner{gap:14px}
+  .parent-inline-form{grid-template-columns:1fr}
+  .parent-inline-form .primary-button{width:100%}
+  .parent-privacy-section{margin-top:30px}
+  .parent-danger-grid{padding:14px}
+}
+@media(max-width:380px){
+  .app-shell{padding-left:10px;padding-right:10px}
+  .parent-intro{padding:24px 18px}
+  .parent-intro h1{font-size:36px}
+  .parent-login-card,.parent-info-panel,.parent-control-card,.parent-competence-panel{padding:18px}
+  .parent-verification-banner{padding:17px}
+  .parent-danger-zone summary{padding:16px}
+  .parent-danger-grid{padding:10px}
+  .parent-danger-grid article{padding:16px}
+  .ghost-button,.primary-button,.parent-danger-button{min-height:46px}
+}
