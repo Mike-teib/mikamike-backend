@@ -1,97 +1,61 @@
-# MikaMike Backend (autonome)
+# MikaMike — interface responsive V1
 
-Backend FastAPI du tuteur scientifique adaptatif **MikaMike**. Totalement
-autonome : aucune dépendance à une autre plateforme. Bases **SQLite dédiées**, dont le
-schéma est appliqué par **migrations versionnées** (`python -m tools.db upgrade`) — jamais
-créé implicitement à l'import (cf. `CLOUD_DB_MIGRATION_PLAN.md`).
+Branche isolée créée pendant l'indisponibilité de Claude Code. Ce dossier ne modifie pas le backend et n'est pas déployé automatiquement en production.
 
-## Lancer
+## Objectif
 
-```bash
-pip install -r requirements.txt
-python -m tools.db upgrade        # schéma des deux bases (MIKA_DB_URL, BILLING_DB_URL)
-uvicorn main:app --reload         # refuse de démarrer si le schéma n'est pas à jour
-```
+Une seule interface web responsive/PWA pour :
+- PC / Mac ;
+- iPhone / iPad ;
+- Android / tablettes ;
+- installation possible depuis le navigateur quand la plateforme le permet.
 
-- Docs interactives : http://127.0.0.1:8000/api/v1/docs
-- Santé : http://127.0.0.1:8000/health
+Palette : vert, turquoise, bleu, orange, blanc. **Aucun violet.**
 
-## Endpoints (préfixe `/api/v1`)
+## Ce qui est implémenté
 
-| Méthode | Chemin | Rôle |
-|---|---|---|
-| POST | `/api/v1/exercices/soumettre` | évalue la réponse (learning engine) et renvoie une remédiation en cas d'erreur |
-| GET  | `/api/v1/parcours/prochaine-etape` | prochaine marche réelle de l'escalier |
-| GET  | `/api/v1/parents/dashboard/{student_pseudo_id}` | stats agrégées **sans PII** (indexation HMAC) |
-| POST | `/api/v1/comptes/inscription` · `/connexion` | comptes self-service (JWT) |
-| GET  | `/api/v1/comptes/moi` | profil du compte courant (Bearer) |
-| POST | `/api/v1/paiement/checkout` · `/webhook` | abonnement Stripe |
-| GET  | `/api/v1/paiement/statut` | statut d'abonnement |
-| POST | `/api/v1/auth/eleve/jeton` | jeton de séance élève pour un compte lié (AUTH_CONTRACT.md) |
-| POST | `/api/v1/mika/session/start` · `/answer` · `/help` · `/comprehension` | tuteur Mika (MIKA_API_CONTRACT.md) |
-| GET  | `/api/v1/mika/session/{tutorat_id}` | état public du tutorat |
+- écran de connexion élève par code ;
+- appel réel prévu vers `POST /api/v1/auth/eleve/jeton` ;
+- shell élève : Accueil, Matières, Mika, Progrès ;
+- navigation mobile type app ;
+- écran parent de prévisualisation ;
+- mode démonstration local `?demo=1` avec données fictives clairement marquées ;
+- PWA : manifest + service worker ;
+- accessibilité de base : skip-link, focus, labels, reduced-motion ;
+- aucune API payante et aucune donnée réelle intégrée.
 
-Les routes élève / parent / RGPD exigent un jeton (`MIKA_AUTH_MODE=enforce`, défaut) :
-voir `AUTH_CONTRACT.md` (matrice d'autorisation, mode `off` de transition interdit en production).
+## Source de vérité backend
 
-## Structure
+Créé à partir de la branche distante :
+`cloud/mikamike-session6-production-hardening` (PR #8, SHA 894fa382...)
 
-```
-backend/
-├── main.py                     # app FastAPI (uvicorn main:app)
-├── requirements.txt
-├── app/api/v1/mikamike/        # moteur pédagogique + endpoints exercices/parents/parcours
-│   ├── learning_engine.py      # escalier pédagogique
-│   ├── store.py                # SQLite dédiée (MIKA_DB_URL)
-│   ├── catalogue.py, crud.py, schemas.py, router.py
-├── paiement_comptes/           # comptes self-service + abonnement Stripe
-│   ├── database.py             # SQLite dédiée (BILLING_DB_URL)
-│   ├── models_billing.py, crud_billing.py, router_comptes.py, router_paiement.py
-├── tests_mika/                 # 6 tests (succès + erreur->remédiation)
-└── tests_paiement/             # 7 tests (comptes + abonnement)
-```
+Contrats consultés :
+- `frontend-contract/types.ts`
+- `frontend-contract/validators.ts`
+- `contrat_front/contrat.json`
+- `QUIZ_API_CONTRACT.md`
 
-## Variables d'environnement (défauts sûrs)
+## Limite volontaire importante
 
-```
-MIKA_DB_URL=sqlite:///./mikamike_backend.db
-BILLING_DB_URL=sqlite:///./billing.db
-MIKA_JWT_SECRET=<secret JWT (PyJWT) — obligatoire, distinct du suivant>
-MIKA_PSEUDO_SECRET=<secret HMAC pseudonymisation — à définir en prod>
-STRIPE_SECRET_KEY=sk_...
-STRIPE_WEBHOOK_SECRET=whsec_...
-STRIPE_PRICE_ID=price_...
-MIKA_APP_URL=https://app.mikamike.fr
-CORS_ORIGINS=https://app.mikamike.fr   # liste séparée par des virgules
-```
+Le contrat visible ne fournit pas encore, dans les fichiers consultés, un endpoint clair permettant au front de parcourir :
+`niveau → matière → chapitre → notion → exercice`.
 
-## Développement (environnement reproductible, hors ligne)
+L'interface n'invente donc pas ce catalogue. Les cartes matières sont prêtes visuellement mais le branchement réel reste en attente du contrat de navigation pédagogique.
 
-```bash
-./setup.sh              # venv isolé + dépendances + ruff + tests (secrets de TEST factices)
-source .venv/bin/activate
-python -m pytest -q     # suite hors ligne (tests_mika/, tests_paiement/, tests_cloud/) — cf. CLOUD_TEST_REPORT.md
-```
+De même, le dashboard parent accepte un `student_pseudo_id`, mais il faut confirmer le parcours de récupération durable des identifiants des enfants liés après reconnexion d'un parent. Ne pas bricoler ce point côté client.
 
-Aucune clé réelle, aucune API payante, aucune base réelle : Stripe reste non configuré
-(les routes renvoient une erreur explicite). Voir `.env.example` pour les NOMS de variables.
+## Test local
 
-### Outils (`tools/`)
-| Commande | Rôle |
-|---|---|
-| `python -m tools.content_check` | garde-fou contenu (fixtures, existant, catalogue) — exécuté en CI |
-| `python -m tools.rapports [--artefacts DIR --sha-manifest SHA] [--depot DIR]` | backlog canonique (par matière / niveau / programme / chapitre) + audit de déduplication (reproductibles) |
-| `python -m tools.db status\|upgrade\|downgrade\|stamp-existant\|sql` | migrations des bases (CLOUD_DB_MIGRATION_PLAN.md) |
-| `python tools/secret_scan.py --history` | scan de secrets arbre + historique, valeurs jamais affichées |
-| `python -m tools.verifier_manifest SHA256_DEPOT_PREPARE.txt` | dérive d'un manifeste SHA-256 |
-| `python -m tools.mutation_check` | bugs injectés (sessions 1 et 2) : la suite doit tous les détecter |
+Servir ce dossier avec n'importe quel serveur statique.
 
-### Chaîne de contenu pédagogique (`app/curriculum/`)
-Modèle canonique des programmes, provenance vérifiable, validateurs (structure, texte,
-formules), vérificateurs par matière (SymPy, unités…), exercices/quiz, tuteur Mika.
-Documentation : `CLOUD_ARCHITECTURE.md`, `CLOUD_DATA_MODEL.md`, `CLOUD_PEDAGOGY_MIKA.md`.
-Import des artefacts réels : `IMPORT_CONTRACT.md`. Revue de la session 1 : `CLOUD_REVIEW_SESSION1.md`.
-État et reprise : `CLOUD_NEXT_SESSION.md`.
+- `/` : connexion réelle si le proxy `/api/v1` est disponible.
+- `/?demo=1` : démonstration avec données fictives, sans appel au backend.
+- `/parent.html` : aperçu de l'espace parent.
 
-RGPD : aucune donnée nominative n'entre ni ne sort ; les identifiants sont re-hachés en HMAC
-pour l'indexation ; l'effacement couvre toutes les tables élève.
+## Déploiement
+
+Ne pas remplacer `app.mikamike.fr` tant que :
+1. la revue n'est pas faite ;
+2. le contrat de navigation pédagogique n'est pas confirmé ;
+3. les tests responsive et accessibilité ne sont pas passés ;
+4. le déploiement VPS et son rollback ne sont pas documentés.
