@@ -20,6 +20,7 @@ from pedagogy.graph import (
 from pedagogy.issues import Severity
 from pedagogy.models import (
     CYCLE_OF_LEVEL,
+    LEVEL_RANK,
     Level,
     Notion,
     NotionFile,
@@ -134,7 +135,7 @@ def test_edges_types_and_direction():
     node = {n["id"]: n for n in g["nodes"]}[A4]
     assert set(node) == {"id", "subject", "level", "level_rank", "domain_code", "chapter", "title",
                          "proof_status", "course"}
-    assert node["level_rank"] == 2
+    assert node["level_rank"] == LEVEL_RANK[Level.QUATRIEME]
     json.dumps(g)  # sérialisable
 
 

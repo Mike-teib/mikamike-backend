@@ -4,9 +4,7 @@
   "disclaimer": "Correspondance indicative : les notions historiques n'ont aucune source ; aucune n'est une preuve. Aucun ancien contenu n'est modifié.",
   "counts": {
     "LEVEL_AMBIGUOUS": 5,
-    "MATCHED_EXACT": 11,
-    "MATCHED_SIMILAR": 8,
-    "UNMATCHED": 23
+    "UNMATCHED": 42
   },
   "entries": [
     {
@@ -14,11 +12,9 @@
       "legacy_title": "Second degré et discriminant",
       "legacy_level": "1re",
       "legacy_subject": "maths",
-      "status": "MATCHED_SIMILAR",
-      "candidates": [
-        "MATHS.1RE.ALG.equations-du-second-degre-et-discriminant"
-      ],
-      "score": 0.75
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_1re_02",
@@ -27,51 +23,43 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.5
+      "score": 0.0
     },
     {
       "legacy_id": "maths_1re_03",
       "legacy_title": "Suites arithmétiques et géométriques",
       "legacy_level": "1re",
       "legacy_subject": "maths",
-      "status": "MATCHED_SIMILAR",
-      "candidates": [
-        "MATHS.1RE.AN.suites-arithmetiques"
-      ],
-      "score": 0.67
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_1re_04",
       "legacy_title": "Produit scalaire",
       "legacy_level": "1re",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.1RE.GEO.produit-scalaire"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_1re_05",
       "legacy_title": "Probabilités conditionnelles",
       "legacy_level": "1re",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.1RE.PROBA.probabilites-conditionnelles"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_2de_01",
       "legacy_title": "Généralités sur les fonctions",
       "legacy_level": "2de",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.2NDE.FON.generalites-sur-les-fonctions"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_2de_02",
@@ -80,29 +68,25 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.2
+      "score": 0.0
     },
     {
       "legacy_id": "maths_2de_03",
       "legacy_title": "Vecteurs et colinéarité",
       "legacy_level": "2de",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.2NDE.GEO.colinearite-de-vecteurs"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_2de_04",
       "legacy_title": "Équations de droites",
       "legacy_level": "2de",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.2NDE.GEO.equations-de-droites"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_2de_05",
@@ -111,7 +95,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.33
+      "score": 0.0
     },
     {
       "legacy_id": "maths_3e_01",
@@ -127,33 +111,27 @@
       "legacy_title": "Réciproque du théorème de Thalès",
       "legacy_level": "3e",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.3E.EG.reciproque-du-theoreme-de-thales"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_3e_03",
       "legacy_title": "Fonctions affines et linéaires",
       "legacy_level": "3e",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_3e_04",
       "legacy_title": "Trigonométrie dans le triangle rectangle",
       "legacy_level": "3e",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_3e_05",
@@ -162,7 +140,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.17
+      "score": 0.0
     },
     {
       "legacy_id": "svt_3e_01",
@@ -171,7 +149,7 @@
       "legacy_subject": "svt",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.2
+      "score": 0.0
     },
     {
       "legacy_id": "svt_3e_02",
@@ -180,18 +158,16 @@
       "legacy_subject": "svt",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.2
+      "score": 0.0
     },
     {
       "legacy_id": "chim_4e_01",
       "legacy_title": "Atomes et molécules",
       "legacy_level": "4e",
       "legacy_subject": "chimie",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "PC.4E.MAT.atomes-et-molecules"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "chim_4e_02",
@@ -200,51 +176,43 @@
       "legacy_subject": "chimie",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.17
+      "score": 0.0
     },
     {
       "legacy_id": "maths_4e_01",
       "legacy_title": "Calcul littéral et développements",
       "legacy_level": "4e",
       "legacy_subject": "maths",
-      "status": "MATCHED_SIMILAR",
-      "candidates": [
-        "MATHS.4E.NC.calcul-litteral"
-      ],
-      "score": 0.67
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_4e_02",
       "legacy_title": "Équations du 1er degré avancées",
       "legacy_level": "4e",
       "legacy_subject": "maths",
-      "status": "MATCHED_SIMILAR",
-      "candidates": [
-        "MATHS.4E.NC.equations-du-premier-degre"
-      ],
-      "score": 0.75
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_4e_03",
       "legacy_title": "Théorème de Pythagore direct",
       "legacy_level": "4e",
       "legacy_subject": "maths",
-      "status": "MATCHED_SIMILAR",
-      "candidates": [
-        "MATHS.4E.EG.theoreme-de-pythagore"
-      ],
-      "score": 0.67
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_4e_04",
       "legacy_title": "Théorème de Thalès direct",
       "legacy_level": "4e",
       "legacy_subject": "maths",
-      "status": "MATCHED_SIMILAR",
-      "candidates": [
-        "MATHS.4E.EG.theoreme-de-thales"
-      ],
-      "score": 0.67
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_4e_05",
@@ -253,29 +221,25 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.5
+      "score": 0.0
     },
     {
       "legacy_id": "maths_5e_01",
       "legacy_title": "Nombres relatifs et opérations",
       "legacy_level": "5e",
       "legacy_subject": "maths",
-      "status": "MATCHED_SIMILAR",
-      "candidates": [
-        "MATHS.5E.NC.nombres-relatifs"
-      ],
-      "score": 0.67
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_5e_02",
       "legacy_title": "Priorités opératoires complètes",
       "legacy_level": "5e",
       "legacy_subject": "maths",
-      "status": "MATCHED_SIMILAR",
-      "candidates": [
-        "MATHS.5E.NC.priorites-operatoires"
-      ],
-      "score": 0.67
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_5e_03",
@@ -302,7 +266,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.5
+      "score": 0.0
     },
     {
       "legacy_id": "maths_5e_06",
@@ -320,7 +284,7 @@
       "legacy_subject": "physique",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.2
+      "score": 0.0
     },
     {
       "legacy_id": "phys_5e_02",
@@ -336,11 +300,9 @@
       "legacy_title": "Nombres décimaux",
       "legacy_level": "6e",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.6E.NC.nombres-decimaux"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_6e_02",
@@ -358,7 +320,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.5
+      "score": 0.0
     },
     {
       "legacy_id": "maths_6e_04",
@@ -367,7 +329,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.5
+      "score": 0.0
     },
     {
       "legacy_id": "maths_6e_05",
@@ -376,7 +338,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.5
+      "score": 0.0
     },
     {
       "legacy_id": "maths_prim_01",
@@ -425,7 +387,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.5
+      "score": 0.0
     },
     {
       "legacy_id": "maths_tle_02",
@@ -434,18 +396,16 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.25
+      "score": 0.0
     },
     {
       "legacy_id": "maths_tle_03",
       "legacy_title": "Fonction logarithme népérien",
       "legacy_level": "tle",
       "legacy_subject": "maths",
-      "status": "MATCHED_EXACT",
-      "candidates": [
-        "MATHS.TLE.AN.fonction-logarithme-neperien"
-      ],
-      "score": 1.0
+      "status": "UNMATCHED",
+      "candidates": [],
+      "score": 0.0
     },
     {
       "legacy_id": "maths_tle_04",
@@ -454,7 +414,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.33
+      "score": 0.0
     },
     {
       "legacy_id": "maths_tle_05",
@@ -463,7 +423,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.4
+      "score": 0.0
     }
   ]
 }

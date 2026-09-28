@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.CE1.parties-tout.q01",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Léo a 23 billes rouges et 15 billes bleues. Combien a-t-il de billes en tout ?",
+      "choices": [
+        "38",
+        "8",
+        "28",
+        "48"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "38",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On réunit les deux parties pour trouver le tout : 23 + 15 = 38.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la différence 23 − 15 : on a soustrait au lieu d'ajouter.",
+        "2": "Erreur de calcul sur les dizaines.",
+        "3": "Erreur de calcul sur les dizaines (retenue inventée)."
+      },
+      "common_error_target": {
+        "1": "soustraction au lieu d'addition"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

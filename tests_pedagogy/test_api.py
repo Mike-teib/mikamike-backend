@@ -77,8 +77,8 @@ def client():
 def test_subjects_levels(client):
     c, _, _, _ = client
     subs = {s["subject"]: s["levels"] for s in c.get("/pedagogy/subjects").json()["items"]}
-    assert "6E" not in subs["PHYSIQUE_CHIMIE"] and subs["SCIENCES_TECHNOLOGIE"] == ["6E"]
-    assert c.get("/pedagogy/levels").json()["items"] == ["6E", "5E", "4E", "3E", "2NDE", "1RE", "TLE"]
+    assert "6E" not in subs["PHYSIQUE_CHIMIE"] and subs["SCIENCES_TECHNOLOGIE"] == ["CP", "CE1", "CE2", "CM1", "CM2", "6E"]
+    assert c.get("/pedagogy/levels").json()["items"] == ["CP", "CE1", "CE2", "CM1", "CM2", "6E", "5E", "4E", "3E", "2NDE", "1RE", "TLE"]
 
 
 def test_notions_prouvees_par_defaut(client):

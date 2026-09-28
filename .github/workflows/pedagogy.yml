@@ -26,6 +26,8 @@ jobs:
         run: python -m pedagogy.sources_cli verify
       - name: Propositions de promotion (diagnostic)
         run: python -m pedagogy.sources_cli propose
+      - name: Brouillons d'exercices et de quiz (validation stricte, jamais servis)
+        run: python -m pedagogy.drafts check --out "$RUNNER_TEMP/drafts.json"
       - name: Graphe de prérequis
         run: python prerequisite_graph_validator.py --check-only
       - name: QA (échoue sur BLOCKER/ERROR)

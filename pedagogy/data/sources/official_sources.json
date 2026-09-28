@@ -1,18 +1,263 @@
 {
   "schema_version": "1.0",
-  "disclaimer": "Liste des documents officiels attendus. La référence du nouveau programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025, NOR MENE2504620A) est confirmée ; les PDF restent non déposés localement (retrieval=EXPECTED), donc aucune notion ne peut être PROVEN_OFFICIAL tant que le document n'est pas enregistré avec son SHA-256.",
+  "disclaimer": "Registre des documents officiels, tous RETRIEVED : PDF officiels versionnés dans pedagogy/sources_local/official avec SHA-256 identique aux registres Drive du projet (maths : REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001 ; sciences : R5_SCIENCES_REAL_SOURCES_REPORT). reference_verified=false tant que la référence BO n'a pas été confirmée par un humain.",
   "sources": [
     {
-      "source_id": "SRC-C3-2020",
+      "source_id": "SRC-1RE-ES-2023",
       "source_type": "OFFICIAL_BO",
-      "title": "Programme du cycle 3 — sciences et technologie (version consolidée 2020 ; référence à confirmer)",
+      "title": "Programme d'enseignement scientifique de première générale",
       "publisher": "Ministère de l'Éducation nationale",
-      "reference": "BO n°31 du 30 juillet 2020 (à confirmer)",
-      "url": "",
+      "reference": "BO n°25 du 22 juin 2023 — NOR MENE2312806A",
+      "url": "https://www.education.gouv.fr/",
+      "subjects": [
+        "ENSEIGNEMENT_SCIENTIFIQUE"
+      ],
+      "levels": [
+        "1RE"
+      ],
+      "courses": [
+        "ENSEIGNEMENT_SCIENTIFIQUE"
+      ],
+      "school_year_start": "2023-2024",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2023_premiere_generale_enseignement_scientifique.pdf",
+      "sha256": "93c1cec42600166c14634b3714f4298dbd6f5805f1fee1753f33e6631cfa616a",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). "
+    },
+    {
+      "source_id": "SRC-1RE-MATHS-ES-2026",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de mathématiques intégré à l'enseignement scientifique en classe de première générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO n°14 de 2026 — annexe",
+      "url": "https://www.education.gouv.fr/bo/2026/Hebdo14",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "1RE"
+      ],
+      "courses": [
+        "MATHS_SPECIFIQUES_1RE"
+      ],
+      "school_year_start": "2026-2027",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2026_premiere_generale_maths_enseignement_scientifique.pdf",
+      "sha256": "7e48c40413ca57a5dcf66230648ea69eaef55d40e620736f0c7eff7bbc82069f",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). En application à partir de la rentrée 2026-2027."
+    },
+    {
+      "source_id": "SRC-1RE-MATHS-SPE-2026",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme d'enseignement de spécialité de mathématiques de la classe de première de la voie générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO n°14 de 2026 — annexe",
+      "url": "https://www.education.gouv.fr/bo/2026/Hebdo14",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "1RE"
+      ],
+      "courses": [
+        "SPECIALITE"
+      ],
+      "school_year_start": "2026-2027",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2026_premiere_generale_specialite.pdf",
+      "sha256": "5303df0fcf6335f06d00c969a61dcd82cc3fdfd105271ae5c2ef580ff49b6c08",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). En application à partir de la rentrée 2026-2027."
+    },
+    {
+      "source_id": "SRC-1RE-PC-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de l'enseignement de spécialité de physique-chimie de première générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°1 du 22 janvier 2019 — NOR MENE1901635A",
+      "url": "https://eduscol.education.fr/",
+      "subjects": [
+        "PHYSIQUE_CHIMIE"
+      ],
+      "levels": [
+        "1RE"
+      ],
+      "courses": [
+        "SPECIALITE"
+      ],
+      "school_year_start": "2019-2020",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_premiere_generale_pc_specialite.pdf",
+      "sha256": "db43d342edf55e162d0153028b43287e4ece0ce81b4dc75f0730bf368b98c0f0",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). "
+    },
+    {
+      "source_id": "SRC-1RE-SVT-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de l'enseignement de spécialité de SVT de première générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°1 du 22 janvier 2019 — NOR MENE1901648A",
+      "url": "https://eduscol.education.fr/",
+      "subjects": [
+        "SVT"
+      ],
+      "levels": [
+        "1RE"
+      ],
+      "courses": [
+        "SPECIALITE"
+      ],
+      "school_year_start": "2019-2020",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_premiere_generale_svt_specialite.pdf",
+      "sha256": "8eb0e41f95bf4aca37e6231c06109579faf6bf410d6bd2bc210574e66e2762fa",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). "
+    },
+    {
+      "source_id": "SRC-2NDE-MATHS-2026",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme d'enseignement de mathématiques de la classe de seconde générale et technologique",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO n°14 de 2026 — annexe",
+      "url": "https://www.education.gouv.fr/bo/2026/Hebdo14",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "2NDE"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2026-2027",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2026_seconde_gt.pdf",
+      "sha256": "05c5403d45bfc3631fa13b5c334822de09bcd68d850d0611044045cddba270de",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). En application à partir de la rentrée 2026-2027."
+    },
+    {
+      "source_id": "SRC-2NDE-PC-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de physique-chimie de seconde générale et technologique",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°1 du 22 janvier 2019 — NOR MENE1901634A",
+      "url": "https://eduscol.education.fr/",
+      "subjects": [
+        "PHYSIQUE_CHIMIE"
+      ],
+      "levels": [
+        "2NDE"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2019-2020",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_seconde_gt_physique_chimie.pdf",
+      "sha256": "ce6d1618110659c87b3ea33d4915295856b5724ced7997f69e34ac88f58f9e0c",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). "
+    },
+    {
+      "source_id": "SRC-2NDE-SVT-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de sciences de la vie et de la Terre de seconde générale et technologique",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°1 du 22 janvier 2019 — NOR MENE1901647A",
+      "url": "https://www.education.gouv.fr/",
+      "subjects": [
+        "SVT"
+      ],
+      "levels": [
+        "2NDE"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2019-2020",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_seconde_gt_svt.pdf",
+      "sha256": "a403b555ff9064fca231844b3a61bb9e336c4b9b893da74c5ea03a7c52c6568f",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). "
+    },
+    {
+      "source_id": "SRC-C2-MATHS-2025",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de mathématiques du cycle 2",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO n°41 du 31 octobre 2024 — annexe 4 — NOR MENE2415135A",
+      "url": "https://www.education.gouv.fr/bo/2024/Hebdo41/MENE2415135A",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "CP",
+        "CE1",
+        "CE2"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2025-2026",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/cycle2_nouveau_2025_bo41_annexe4.pdf",
+      "sha256": "0fe8dfba39f78215e4d44f0dc871df80d7c9530267d6de40b49d205d3506caed",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). En vigueur au CP, CE1 et CE2 depuis la rentrée 2025-2026 (remplace l'annexe 1 du BO n°31 de 2020 pour les mathématiques)."
+    },
+    {
+      "source_id": "SRC-C2-ST-2026",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de sciences et technologie du cycle 2",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO 2026 — annexe 1 — NOR MENE2611650A",
+      "url": "https://www.education.gouv.fr/",
       "subjects": [
         "SCIENCES_TECHNOLOGIE"
       ],
       "levels": [
+        "CP",
+        "CE1",
+        "CE2"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2026-2027",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/cycle2_nouveau_2026_sciences_technologie_annexe1.pdf",
+      "sha256": "185733129faac109eda69646e4393c29e929183c16dfb8ea7e5a474cda623de8",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). Remplace « Questionner le monde » (partie sciences). Calendrier d'application exact à confirmer humainement."
+    },
+    {
+      "source_id": "SRC-C3-2020",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme du cycle 3 (version consolidée 2020) — sciences et technologie",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO n°31 du 30 juillet 2020 — annexe 2 — NOR MENE2018714A",
+      "url": "https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm",
+      "subjects": [
+        "SCIENCES_TECHNOLOGIE"
+      ],
+      "levels": [
+        "CM2",
         "6E"
       ],
       "courses": [
@@ -20,11 +265,11 @@
       ],
       "school_year_start": "2020-2021",
       "school_year_end": null,
-      "retrieval": "EXPECTED",
-      "local_path": "",
-      "sha256": "",
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/cycle3_ancien_2020_bo31_annexe2.pdf",
+      "sha256": "c6d88055f924c65d5d2efcdaff2a3c65b4bfaa4d885b00f6c34bf6d8c3ed32a3",
       "reference_verified": false,
-      "notes": "Référence 2020 encore à vérifier pour Sciences et technologie. Pour les mathématiques de 6e, ne pas utiliser cette source à partir de 2025-2026 : le nouveau programme du cycle 3 publié au BO n°16 du 17 avril 2025 s'applique à la 6e dès cette rentrée."
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). Utilisé pour « Sciences et technologie » (CM1, CM2, 6e). Les mathématiques du cycle 3 relèvent du programme 2025. En 2026-2027 : CM2 et 6e (le CM1 bascule sur SRC-C3-ST-2026)."
     },
     {
       "source_id": "SRC-C3-MATHS-NOUVEAU",
@@ -37,6 +282,8 @@
         "MATHS"
       ],
       "levels": [
+        "CM1",
+        "CM2",
         "6E"
       ],
       "courses": [
@@ -48,15 +295,41 @@
       "local_path": "pedagogy/sources_local/official/programme-mathematiques-cycle3-2025.pdf",
       "sha256": "f3f79a75ca8be7f54409b8b7cee3eafd769c23d12e6c822a253454e2c703b508",
       "reference_verified": false,
-      "notes": "PDF officiel récupéré depuis l'URL education.gouv.fr déclarée et empreinte SHA-256 enregistrée. Référence/NOR/calendrier recoupés par audit automatisé, mais reference_verified reste false jusqu'à confirmation humaine. Aucune notion n'est promue automatiquement."
+      "notes": "PDF officiel récupéré depuis l'URL education.gouv.fr déclarée et empreinte SHA-256 enregistrée. Référence/NOR/calendrier recoupés par audit automatisé, mais reference_verified reste false jusqu'à confirmation humaine. Aucune notion n'est promue automatiquement. SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). CM1 et 6e depuis 2025-2026, CM2 depuis 2026-2027."
+    },
+    {
+      "source_id": "SRC-C3-ST-2026",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de sciences et technologie du cycle 3",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO 2026 — annexe 2 — NOR MENE2611650A",
+      "url": "https://www.education.gouv.fr/",
+      "subjects": [
+        "SCIENCES_TECHNOLOGIE"
+      ],
+      "levels": [
+        "CM1",
+        "CM2",
+        "6E"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2026-2027",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/cycle3_nouveau_2026_sciences_technologie_annexe2.pdf",
+      "sha256": "1aff166de213f84ef963d1ae478d8deeb119440c2ec9dd52be55774be71152cc",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). CM1 en 2026-2027 ; CM2 et 6e en 2027-2028 (restent sur SRC-C3-2020 en 2026-2027)."
     },
     {
       "source_id": "SRC-C4-2020",
       "source_type": "OFFICIAL_BO",
-      "title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "title": "Programme du cycle 4 (version consolidée 2020) — mathématiques, physique-chimie, SVT",
       "publisher": "Ministère de l'Éducation nationale",
-      "reference": "BO n°31 du 30 juillet 2020 (à confirmer)",
-      "url": "",
+      "reference": "BO n°31 du 30 juillet 2020 — annexe 3 — NOR MENE2018714A",
+      "url": "https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm",
       "subjects": [
         "MATHS",
         "PHYSIQUE_CHIMIE",
@@ -72,119 +345,207 @@
       ],
       "school_year_start": "2020-2021",
       "school_year_end": null,
-      "retrieval": "EXPECTED",
-      "local_path": "",
-      "sha256": "",
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/cycle4_ancien_2020_bo31_annexe3.pdf",
+      "sha256": "16efa795f59f25f726e3f443934198e22c01fad04e1ba78a01ed10a11a3a14eb",
       "reference_verified": false,
-      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path. Vérifier l'existence d'une version plus récente applicable à la rentrée visée."
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). En 2026-2027 : mathématiques de 4e et 3e (la 5e bascule sur SRC-C4-MATHS-2026) ; physique-chimie et SVT de 5e, 4e, 3e."
     },
     {
-      "source_id": "SRC-2NDE-2019",
+      "source_id": "SRC-C4-MATHS-2026",
       "source_type": "OFFICIAL_BO",
-      "title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "title": "Programme de mathématiques pour le cycle 4",
       "publisher": "Ministère de l'Éducation nationale",
-      "reference": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
-      "url": "",
+      "reference": "BO n°10 de 2026 — annexe 2 — NOR MENE2602912A",
+      "url": "https://www.education.gouv.fr/bo/2026/Hebdo10/MENE2602912A",
       "subjects": [
-        "MATHS",
-        "PHYSIQUE_CHIMIE",
-        "SVT"
+        "MATHS"
       ],
       "levels": [
-        "2NDE"
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2026-2027",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/cycle4_nouveau_2026_bo10_annexe2.pdf",
+      "sha256": "e20a05da6c68a08c4487fc63a3345c902f5249b4bf6e950765bfb9c2da0aadb9",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). Application : 5e à la rentrée 2026-2027, 4e en 2027-2028, 3e en 2028-2029. En 2026-2027, seule la 5e suit ce programme."
+    },
+    {
+      "source_id": "SRC-C4-REPERES-MATHS-2019",
+      "source_type": "OFFICIAL_EDUSCOL",
+      "title": "Repères annuels de progression — mathématiques cycle 4",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "Éduscol — repères annuels de progression (2019)",
+      "url": "https://eduscol.education.fr/",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "5E",
+        "4E",
+        "3E"
       ],
       "courses": [
         "COMMON"
       ],
       "school_year_start": "2019-2020",
       "school_year_end": null,
-      "retrieval": "EXPECTED",
-      "local_path": "",
-      "sha256": "",
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/eduscol_2019_reperes_annuels_maths_cycle4.pdf",
+      "sha256": "643a239fb6cbe7f69d96e206da0d9aae06321b49789062fd84c770713f5b3426",
       "reference_verified": false,
-      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path."
+      "notes": "Répartition annuelle officielle (Éduscol) du programme 2020 du cycle 4 ; sert au découpage 4e/3e."
     },
     {
-      "source_id": "SRC-1RE-2019",
+      "source_id": "SRC-TLE-ES-2023",
       "source_type": "OFFICIAL_BO",
-      "title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "title": "Programme d'enseignement scientifique de terminale générale",
       "publisher": "Ministère de l'Éducation nationale",
-      "reference": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
-      "url": "",
+      "reference": "BO n°25 du 22 juin 2023 — NOR MENE2312807A",
+      "url": "https://www.education.gouv.fr/",
       "subjects": [
-        "MATHS",
-        "PHYSIQUE_CHIMIE",
-        "SVT",
-        "ENSEIGNEMENT_SCIENTIFIQUE"
-      ],
-      "levels": [
-        "1RE"
-      ],
-      "courses": [
-        "SPECIALITE",
-        "ENSEIGNEMENT_SCIENTIFIQUE"
-      ],
-      "school_year_start": "2019-2020",
-      "school_year_end": null,
-      "retrieval": "EXPECTED",
-      "local_path": "",
-      "sha256": "",
-      "reference_verified": false,
-      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path."
-    },
-    {
-      "source_id": "SRC-1RE-MATHS-TC",
-      "source_type": "OFFICIAL_BO",
-      "title": "Programme de l'enseignement de mathématiques du tronc commun de première générale (existence, référence et calendrier à confirmer)",
-      "publisher": "Ministère de l'Éducation nationale",
-      "reference": "à confirmer",
-      "url": "",
-      "subjects": [
-        "MATHS"
-      ],
-      "levels": [
-        "1RE"
-      ],
-      "courses": [
-        "MATHS_SPECIFIQUES_1RE"
-      ],
-      "school_year_start": "2023-2024",
-      "school_year_end": null,
-      "retrieval": "EXPECTED",
-      "local_path": "",
-      "sha256": "",
-      "reference_verified": false,
-      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path."
-    },
-    {
-      "source_id": "SRC-TLE-2019",
-      "source_type": "OFFICIAL_BO",
-      "title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
-      "publisher": "Ministère de l'Éducation nationale",
-      "reference": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
-      "url": "",
-      "subjects": [
-        "MATHS",
-        "PHYSIQUE_CHIMIE",
-        "SVT",
         "ENSEIGNEMENT_SCIENTIFIQUE"
       ],
       "levels": [
         "TLE"
       ],
       "courses": [
-        "SPECIALITE",
-        "MATHS_COMPLEMENTAIRES",
-        "MATHS_EXPERTES",
         "ENSEIGNEMENT_SCIENTIFIQUE"
+      ],
+      "school_year_start": "2023-2024",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2023_terminale_generale_enseignement_scientifique.pdf",
+      "sha256": "b303a250dc79f4bf858be342487f0aaa347e93460ea21334ca24acf2712c49e9",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). "
+    },
+    {
+      "source_id": "SRC-TLE-MATHS-COMP-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de l'option mathématiques complémentaires de terminale générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°8 du 25 juillet 2019",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/spe265annexe1159134pdf-84162.pdf",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "TLE"
+      ],
+      "courses": [
+        "MATHS_COMPLEMENTAIRES"
+      ],
+      "school_year_start": "2020-2021",
+      "school_year_end": "2026-2027",
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_terminale_generale_complementaires.pdf",
+      "sha256": "f9ea141d0d5dd692a1d870f5d7370734803625f1eef9ffb8b22e2179d859437b",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). En vigueur jusqu'en 2026-2027 inclus."
+    },
+    {
+      "source_id": "SRC-TLE-MATHS-EXP-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de l'option mathématiques expertes de terminale générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°8 du 25 juillet 2019",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/spe264annexe1158825pdf-84165.pdf",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "TLE"
+      ],
+      "courses": [
+        "MATHS_EXPERTES"
       ],
       "school_year_start": "2020-2021",
       "school_year_end": null,
-      "retrieval": "EXPECTED",
-      "local_path": "",
-      "sha256": "",
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_terminale_generale_expertes.pdf",
+      "sha256": "c491ac1ccb63dbce86f59767d6826f4d13afb3efa782ed1176621aa691329ebd",
       "reference_verified": false,
-      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path."
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). Aucun nouveau programme distinct listé au 2026-07-30."
+    },
+    {
+      "source_id": "SRC-TLE-MATHS-SPE-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme d'enseignement de spécialité de mathématiques de terminale générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°8 du 25 juillet 2019",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/spe246annexe1158907pdf-84159.pdf",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "TLE"
+      ],
+      "courses": [
+        "SPECIALITE"
+      ],
+      "school_year_start": "2020-2021",
+      "school_year_end": "2026-2027",
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_terminale_generale_specialite.pdf",
+      "sha256": "eb8369e7c1611e90f51491fecc5a7c2081a9c57f9c7fbb08d0414677b56ce16f",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au registre Drive REGISTRE_SOURCES_MATH_FRANCE_CYCLES_GT_V001.csv (2026-07-30). En vigueur jusqu'en 2026-2027 inclus (nouveau programme à la rentrée 2027-2028)."
+    },
+    {
+      "source_id": "SRC-TLE-PC-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de l'enseignement de spécialité de physique-chimie de terminale générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°8 du 25 juillet 2019 — NOR MENE1921249A",
+      "url": "https://eduscol.education.fr/",
+      "subjects": [
+        "PHYSIQUE_CHIMIE"
+      ],
+      "levels": [
+        "TLE"
+      ],
+      "courses": [
+        "SPECIALITE"
+      ],
+      "school_year_start": "2020-2021",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_terminale_generale_pc_specialite.pdf",
+      "sha256": "c07f8b2db9d22a6c2b9ab8386cf7ba323bc2c56abacb3f560dd97d02b383de18",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). "
+    },
+    {
+      "source_id": "SRC-TLE-SVT-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de l'enseignement de spécialité de SVT de terminale générale",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°8 du 25 juillet 2019 — NOR MENE1921252A",
+      "url": "https://eduscol.education.fr/",
+      "subjects": [
+        "SVT"
+      ],
+      "levels": [
+        "TLE"
+      ],
+      "courses": [
+        "SPECIALITE"
+      ],
+      "school_year_start": "2020-2021",
+      "school_year_end": null,
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/lycee_2019_terminale_generale_svt_specialite.pdf",
+      "sha256": "d2cbd06f2e8099d9080f17f3abb5b0fc90460b86b3c11f808b99daa01f77f897",
+      "reference_verified": false,
+      "notes": "SHA-256 identique au rapport Drive R5_SCIENCES_REAL_SOURCES_REPORT (verdict PASS). "
     }
   ]
 }

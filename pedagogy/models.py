@@ -40,6 +40,11 @@ class Subject(str, Enum):
 
 
 class Level(str, Enum):
+    CP = "CP"
+    CE1 = "CE1"
+    CE2 = "CE2"
+    CM1 = "CM1"
+    CM2 = "CM2"
     SIXIEME = "6E"
     CINQUIEME = "5E"
     QUATRIEME = "4E"
@@ -54,12 +59,18 @@ LEVEL_RANK: Dict[Level, int] = {lv: i for i, lv in enumerate(LEVEL_ORDER)}
 
 
 class Cycle(str, Enum):
+    CYCLE_2 = "CYCLE_2"
     CYCLE_3 = "CYCLE_3"
     CYCLE_4 = "CYCLE_4"
     LYCEE_GT = "LYCEE_GT"
 
 
 CYCLE_OF_LEVEL: Dict[Level, Cycle] = {
+    Level.CP: Cycle.CYCLE_2,
+    Level.CE1: Cycle.CYCLE_2,
+    Level.CE2: Cycle.CYCLE_2,
+    Level.CM1: Cycle.CYCLE_3,
+    Level.CM2: Cycle.CYCLE_3,
     Level.SIXIEME: Cycle.CYCLE_3,
     Level.CINQUIEME: Cycle.CYCLE_4,
     Level.QUATRIEME: Cycle.CYCLE_4,
@@ -73,9 +84,12 @@ CYCLE_OF_LEVEL: Dict[Level, Cycle] = {
 # les textes officiels lors de l'ingestion (cf. PEDAGOGY_ARCHITECTURE.md, décision D-ORG).
 SUBJECT_LEVELS: Dict[Subject, frozenset] = {
     Subject.MATHS: frozenset(Level),
-    Subject.PHYSIQUE_CHIMIE: frozenset(LEVEL_ORDER[1:]),
-    Subject.SVT: frozenset(LEVEL_ORDER[1:]),
-    Subject.SCIENCES_TECHNOLOGIE: frozenset({Level.SIXIEME}),
+    # Physique-chimie et SVT : disciplines propres à partir de la 5e (cycle 4).
+    Subject.PHYSIQUE_CHIMIE: frozenset(LEVEL_ORDER[LEVEL_ORDER.index(Level.CINQUIEME):]),
+    Subject.SVT: frozenset(LEVEL_ORDER[LEVEL_ORDER.index(Level.CINQUIEME):]),
+    # École et 6e : enseignement « Sciences et technologie » (programmes 2026 des cycles 2 et 3,
+    # qui remplacent « Questionner le monde » au cycle 2).
+    Subject.SCIENCES_TECHNOLOGIE: frozenset(LEVEL_ORDER[:LEVEL_ORDER.index(Level.SIXIEME) + 1]),
     Subject.ENSEIGNEMENT_SCIENTIFIQUE: frozenset({Level.PREMIERE, Level.TERMINALE}),
 }
 
@@ -126,7 +140,7 @@ class SourceType(str, Enum):
 OFFICIAL_SOURCE_TYPES = frozenset({SourceType.OFFICIAL_BO, SourceType.OFFICIAL_EDUSCOL, SourceType.OFFICIAL_OTHER})
 
 SHA256_RE = r"^[0-9a-f]{64}$"
-NOTION_ID_RE = r"^(MATHS|PC|SVT|ST|ES)\.(6E|5E|4E|3E|2NDE|1RE|TLE)\.[A-Z0-9]{2,12}\.[a-z0-9][a-z0-9\-]{1,80}$"
+NOTION_ID_RE = r"^(MATHS|PC|SVT|ST|ES)\.(CP|CE1|CE2|CM1|CM2|6E|5E|4E|3E|2NDE|1RE|TLE)\.[A-Z0-9]{2,12}\.[a-z0-9][a-z0-9\-]{1,80}$"
 SCHOOL_YEAR_RE = r"^(19|20)\d{2}-(19|20)\d{2}$"
 
 SUBJECT_CODE: Dict[Subject, str] = {
