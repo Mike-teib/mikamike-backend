@@ -4,7 +4,7 @@ on:
   push:
     paths: ["pedagogy/**", "tests_pedagogy/**", "prerequisite_graph_validator.py", "prerequisite_graph.json", "M01_346_COMPARISON_TOOL.py", "requirements-pedagogy.txt", "PEDAGOGY_COVERAGE_MATRIX.csv", "PEDAGOGY_COVERAGE_REPORT.md", "PEDAGOGY_QA_REPORT.json", "PEDAGOGY_QA_REPORT.md", ".github/workflows/pedagogy.yml"]
   pull_request:
-    paths: ["pedagogy/**", "tests_pedagogy/**", "prerequisite_graph_validator.py", "M01_346_COMPARISON_TOOL.py", "requirements-pedagogy.txt", ".github/workflows/pedagogy.yml"]
+    paths: ["pedagogy/**", "tests_pedagogy/**", "prerequisite_graph_validator.py", "prerequisite_graph.json", "M01_346_COMPARISON_TOOL.py", "requirements-pedagogy.txt", "PEDAGOGY_COVERAGE_MATRIX.csv", "PEDAGOGY_COVERAGE_REPORT.md", "PEDAGOGY_QA_REPORT.json", "PEDAGOGY_QA_REPORT.md", ".github/workflows/pedagogy.yml"]
 
 permissions:
   contents: read

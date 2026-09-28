@@ -11,7 +11,7 @@ citations.
 
 | Fichier | Source attendue | Doute |
 |---|---|---|
-| 6E.json | SRC-C3-MATHS-NOUVEAU | **Source confirmée** : programme de mathématiques du cycle 3, BO n°16 du 17 avril 2025, NOR MENE2504620A, applicable en 6e à la rentrée 2025-2026. Les 48 notions restent UNPROVEN tant que leur placement et leur libellé ne sont pas vérifiés verbatim dans le PDF local. |
+| 6E.json | SRC-C3-MATHS-NOUVEAU | **Source confirmée** : programme de mathématiques du cycle 3, BO n°16 du 17 avril 2025, NOR MENE2504620A, applicable en 6e à la rentrée 2025-2026. Les 23 notions restent UNPROVEN tant que leur placement et leur libellé ne sont pas vérifiés verbatim dans le PDF local. |
 | 5E/4E/3E.json | SRC-C4-2020 | Version consolidée 2020 du cycle 4 supposée. Il faut vérifier qu'aucune version plus récente (nouveaux programmes collège annoncés 2024-2026) ne s'applique en 2025-2026. |
 | 2NDE.json | SRC-2NDE-2019 | Programme 2019 supposé. Il faut vérifier les ajustements éventuels (automatismes, arithmétique, vocabulaire ensembliste). |
 | 1RE_SPECIALITE.json | SRC-1RE-2019 | Programme 2019 supposé. |
@@ -56,5 +56,5 @@ Les champs `learning_objectives`, `expected_skills`, `common_mistakes`, `difficu
 1. Déposer les PDF officiels (BO), en priorité le programme de mathématiques cycle 3 de 2025 déjà identifié (SRC-C3-MATHS-NOUVEAU), puis SRC-C3-2020 pour Sciences et technologie, SRC-C4-2020, SRC-2NDE-2019, SRC-1RE-2019, SRC-1RE-MATHS-TC et SRC-TLE-2019. Enregistrer ensuite le sha256.
 2. Pour chaque notion, rechercher un libellé verbatim dans le PDF (`pedagogy.sources.verify_notion_against_source`). Seulement alors, renseigner `official_wording`, `source_page_or_section` et `source_sha256`, et passer en PROVEN_OFFICIAL.
 3. Confirmer la répartition annuelle du cycle 4 avec les repères annuels de progression (Éduscol, mathématiques cycle 4).
-4. Revoir les 48 candidats de 6E.json contre le programme 2025 désormais confirmé : domaines, placement, titres et objectifs. Ne promouvoir une notion qu'après vérification verbatim dans le PDF local.
+4. Revoir les 23 candidats de 6E.json contre le programme 2025 désormais confirmé : domaines, placement, titres et objectifs. Ne promouvoir une notion qu'après vérification verbatim dans le PDF local.
 5. Décider s'il faut créer 1RE_MATHS_SPECIFIQUES_1RE.json après lecture de SRC-1RE-MATHS-TC.
