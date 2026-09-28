@@ -41,14 +41,14 @@ await page.route("**/api/v1/**", async (route) => {
     assert.equal(auth, "Bearer student-token");
     assert.equal(url.searchParams.get("student_id"), "Test26Mika");
     assert.equal(url.searchParams.get("level"), "5e");
-    if (url.searchParams.get("subject") === "physique") {
+    if (url.searchParams.get("subject") === "physique-chimie") {
       return route.fulfill({
         status: 404,
         contentType: "application/json",
         body: JSON.stringify({ detail: "contenu_indisponible" }),
       });
     }
-    assert.equal(url.searchParams.get("subject"), "maths");
+    assert.equal(url.searchParams.get("subject"), "mathematiques");
     return route.fulfill({
       status: 200,
       contentType: "application/json",
@@ -109,10 +109,10 @@ assert.equal(storage.level, "5e");
 await page.locator('button[data-panel="subjects"]').click();
 await page.locator('#panel-subjects .subject-card[data-subject="Mathématiques"]').click();
 await page.waitForFunction(() => document.querySelector("#panel-mika")?.classList.contains("active-panel"));
-assert.ok(calls.filter(x => x.path === "/parcours/prochaine-etape" && x.query.subject === "maths").length >= 2);
+assert.ok(calls.filter(x => x.path === "/parcours/prochaine-etape" && x.query.subject === "mathematiques").length >= 2);
 
 await page.locator('button[data-panel="subjects"]').click();
-await page.locator('#panel-subjects .subject-card[data-subject="Physique"]').click();
+await page.locator('#panel-subjects .subject-card[data-subject="Physique-chimie"]').click();
 await page.waitForFunction(() => document.querySelector("#catalogNotice")?.textContent.includes("aucun exercice validé"));
 assert.match(await page.locator("#catalogNotice").innerText(), /aucun exercice validé/i);
 
