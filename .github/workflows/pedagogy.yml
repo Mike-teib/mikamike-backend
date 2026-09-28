@@ -2,7 +2,7 @@ name: pedagogy
 
 on:
   push:
-    paths: ["pedagogy/**", "tests_pedagogy/**", "prerequisite_graph_validator.py", "prerequisite_graph.json", "M01_346_COMPARISON_TOOL.py", "requirements-pedagogy.txt", "PEDAGOGY_COVERAGE_MATRIX.csv", "PEDAGOGY_COVERAGE_REPORT.md", "PEDAGOGY_QA_REPORT.json", "PEDAGOGY_QA_REPORT.md", ".github/workflows/pedagogy.yml"]
+    paths: ["pedagogy/**", "tests_pedagogy/**", "prerequisite_graph_validator.py", "prerequisite_graph.json", "M01_346_COMPARISON_TOOL.py", "requirements-pedagogy.txt", "PEDAGOGY_COVERAGE_MATRIX.csv", "PEDAGOGY_COVERAGE_REPORT.md", "PEDAGOGY_QA_REPORT.json", "PEDAGOGY_QA_REPORT.md", "PEDAGOGY_HUMAN_REVIEW_MASTER.md", ".github/workflows/pedagogy.yml"]
   pull_request:
     paths: ["pedagogy/**", "tests_pedagogy/**", "prerequisite_graph_validator.py", "prerequisite_graph.json", "M01_346_COMPARISON_TOOL.py", "requirements-pedagogy.txt", "PEDAGOGY_COVERAGE_MATRIX.csv", "PEDAGOGY_COVERAGE_REPORT.md", "PEDAGOGY_QA_REPORT.json", "PEDAGOGY_QA_REPORT.md", ".github/workflows/pedagogy.yml"]
 
@@ -28,6 +28,13 @@ jobs:
         run: python -m pedagogy.sources_cli propose
       - name: Brouillons d'exercices et de quiz (validation stricte, jamais servis)
         run: python -m pedagogy.drafts check --out "$RUNNER_TEMP/drafts.json"
+      - name: File de relecture humaine (lecture seule)
+        run: python -m pedagogy.drafts review-plan --out "$RUNNER_TEMP/review-plan.json"
+      - name: Artefact file de relecture
+        uses: actions/upload-artifact@v4
+        with:
+          name: pedagogy-human-review-plan
+          path: ${{ runner.temp }}/review-plan.json
       - name: Graphe de prérequis
         run: python prerequisite_graph_validator.py --check-only
       - name: QA (échoue sur BLOCKER/ERROR)
