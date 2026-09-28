@@ -162,9 +162,9 @@
   function subjectApiName(label) {
     const map = {
       "Mathématiques": "maths",
-      "Physique-chimie": "physique",
+      "Physique": "physique",
       "SVT": "svt",
-      "Sciences": "sciences",
+      "Chimie": "chimie",
     };
     return map[label] || label?.toLowerCase() || "maths";
   }
