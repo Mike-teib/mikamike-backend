@@ -50,7 +50,7 @@
         <div class="login-copy">
           <span class="eyebrow">ESPACE ÉLÈVE</span>
           <h1 id="loginTitle">Prêt à avancer avec Mika ?</h1>
-          <p class="lead">Entre ton code élève. Mika retrouve ta progression et te propose la prochaine étape, sans te juger et sans faire l’exercice à ta place.</p>
+          <p class="lead">Connecte ton compte puis indique le code élève lié. Mika retrouve la progression et propose la prochaine étape, sans te juger et sans faire l’exercice à ta place.</p>
 
           <div class="promise-grid" aria-label="Les points forts de MikaMike">
             <article><span>🎯</span><div><strong>Un objectif clair</strong><small>Une notion à la fois.</small></div></article>
@@ -65,13 +65,45 @@
           </figure>
 
           <form id="studentLoginForm" novalidate>
-            <label for="studentCode">Code élève</label>
-            <input id="studentCode" name="studentCode" type="text" inputmode="text" autocomplete="off"
-                   autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. MIKA-1234" required>
+            <div class="login-fields">
+              <div>
+                <label for="accountEmail">E-mail du compte MikaMike</label>
+                <input id="accountEmail" name="accountEmail" type="email" inputmode="email" autocomplete="username"
+                       maxlength="254" placeholder="parent@exemple.fr" required>
+              </div>
+              <div>
+                <label for="accountPassword">Mot de passe</label>
+                <input id="accountPassword" name="accountPassword" type="password" autocomplete="current-password"
+                       maxlength="200" placeholder="Ton mot de passe" required>
+              </div>
+              <div>
+                <label for="studentCode">Code élève</label>
+                <input id="studentCode" name="studentCode" type="text" inputmode="text" autocomplete="off"
+                       autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. Test26Mika" required>
+              </div>
+              <div>
+                <label for="studentLevel">Niveau</label>
+                <select id="studentLevel" name="studentLevel" required>
+                  <option value="cp">CP</option>
+                  <option value="ce1">CE1</option>
+                  <option value="ce2">CE2</option>
+                  <option value="cm1">CM1</option>
+                  <option value="cm2">CM2</option>
+                  <option value="6e">6e</option>
+                  <option value="5e" selected>5e</option>
+                  <option value="4e">4e</option>
+                  <option value="3e">3e</option>
+                  <option value="2de">2de</option>
+                  <option value="1re">1re</option>
+                  <option value="tle">Terminale</option>
+                </select>
+              </div>
+            </div>
+            <p class="privacy-note login-contract-note">Connexion sécurisée : le compte doit être lié à ce code élève. Le mot de passe n'est jamais conservé.</p>
             <p id="loginError" class="form-error" role="alert" hidden></p>
-            <button class="primary-button full-button" type="submit">Commencer avec Mika</button>
+            <button class="primary-button full-button" type="submit">Se connecter et commencer</button>
           </form>
-          <p class="privacy-note">Ton code sert uniquement à ouvrir ton espace. Ne le partage pas publiquement.</p>
+          <p class="privacy-note">Le jeton élève reste en mémoire uniquement pendant cette page. Le compte reste actif dans cet onglet pour permettre une reconnexion sûre.</p>
         </div>
       </section>
 
@@ -110,9 +142,9 @@
             </div>
             <div class="subject-grid compact">
               <button class="subject-card maths" data-subject="Mathématiques"><span class="subject-icon">∑</span><strong>Mathématiques</strong><small>Calcul, géométrie, fonctions…</small></button>
-              <button class="subject-card physics" data-subject="Physique-chimie"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>Unités, modèles, expériences…</small></button>
+              <button class="subject-card physics" data-subject="Physique-chimie"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>Matière, mouvement, énergie…</small></button>
               <button class="subject-card svt" data-subject="SVT"><span class="subject-icon">🌱</span><strong>SVT</strong><small>Vivant, santé, Terre…</small></button>
-              <button class="subject-card science" data-subject="Sciences"><span class="subject-icon">🔬</span><strong>Sciences</strong><small>Observer, comprendre, tester.</small></button>
+              <button class="subject-card science" data-subject="Sciences et technologie"><span class="subject-icon">🔬</span><strong>Sciences et technologie</strong><small>Observer, expérimenter, concevoir.</small></button>
             </div>
           </section>
         </div>
@@ -127,9 +159,9 @@
           </figure>
           <div class="subject-grid">
             <button class="subject-card maths" data-subject="Mathématiques"><span class="subject-icon">∑</span><strong>Mathématiques</strong><small>Raisonner, calculer, résoudre.</small></button>
-            <button class="subject-card physics" data-subject="Physique-chimie"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>Comprendre les phénomènes.</small></button>
+            <button class="subject-card physics" data-subject="Physique-chimie"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>Comprendre les phénomènes physiques.</small></button>
             <button class="subject-card svt" data-subject="SVT"><span class="subject-icon">🌱</span><strong>SVT</strong><small>Explorer le vivant et la Terre.</small></button>
-            <button class="subject-card science" data-subject="Sciences"><span class="subject-icon">🔬</span><strong>Sciences</strong><small>Observer et expérimenter.</small></button>
+            <button class="subject-card science" data-subject="Sciences et technologie"><span class="subject-icon">🔬</span><strong>Sciences et technologie</strong><small>Comprendre les transformations chimiques.</small></button>
           </div>
           <div id="catalogNotice" class="info-banner" hidden></div>
         </div>

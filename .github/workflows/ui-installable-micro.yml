@@ -1,7 +1,7 @@
 name: MikaMike installable + micro
 on:
   push:
-    branches: ["ui/mikamike-installable-micro-v1-20260928", "ui/mikamike-installable-improvements-20260928"]
+    branches: ["ui/mikamike-installable-micro-v1-20260928", "ui/mikamike-installable-improvements-20260928", "fix/mikamike-functional-auth-20260928"]
     paths: ["frontend-vnext/**","mobile-app/**",".github/workflows/ui-installable-micro.yml"]
   pull_request:
     paths: ["frontend-vnext/**","mobile-app/**"]
@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: {node-version: "22"}
       - run: node --check frontend-vnext/app.js
+      - run: node --check frontend-vnext/parent.js
       - run: node frontend-vnext/tests/check-installable-ui.mjs
   browser-375:
     runs-on: ubuntu-latest
@@ -26,10 +27,12 @@ jobs:
         with: {node-version: "22"}
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
-      - name: Recette micro + PWA 375px
+      - name: Recette fonctionnelle navigateur
         run: |
           python3 -m http.server 4173 --directory frontend-vnext >/tmp/mikamike-http.log 2>&1 &
           node frontend-vnext/tests/ui-installable-browser.mjs
+          node frontend-vnext/tests/ui-functional-auth-browser.mjs
+          node frontend-vnext/tests/ui-parent-auth-browser.mjs
 
   android-debug:
     runs-on: ubuntu-latest

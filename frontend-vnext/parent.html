@@ -28,38 +28,61 @@
         </figure>
       </section>
 
-      <section class="parent-status-card">
-        <div>
+      <section class="parent-status-card parent-login-card">
+        <div class="parent-login-copy">
           <span class="status-dot"></span>
-          <strong>Interface parent préparée</strong>
-          <p>Le backend possède déjà les contrats de compte, de liaison parent–élève et de tableau de bord. L’ouverture publique reste désactivée tant que le parcours complet n’est pas validé.</p>
+          <strong>Connexion parent sécurisée</strong>
+          <p>Connecte ton compte puis indique le code élève auquel il est lié.</p>
         </div>
-        <span class="badge-soon">Bientôt disponible</span>
+        <form id="parentLoginForm" class="parent-login-form" novalidate>
+          <div id="parentAccountFields" class="parent-account-fields">
+            <label for="parentEmail">E-mail du compte</label>
+            <input id="parentEmail" type="email" autocomplete="username" maxlength="254" placeholder="parent@exemple.fr">
+            <label for="parentPassword">Mot de passe</label>
+            <input id="parentPassword" type="password" autocomplete="current-password" maxlength="200" placeholder="Mot de passe">
+          </div>
+          <label for="parentStudentCode">Code élève lié</label>
+          <input id="parentStudentCode" type="text" autocomplete="off" maxlength="120" placeholder="Ex. Test26Mika" required>
+          <label for="parentStudentLevel">Niveau de l’élève</label>
+          <select id="parentStudentLevel" required>
+            <option value="primaire">Primaire (CP à CM2)</option>
+            <option value="6e">6e</option>
+            <option value="5e" selected>5e</option>
+            <option value="4e">4e</option>
+            <option value="3e">3e</option>
+            <option value="2de">2de</option>
+            <option value="1re">1re</option>
+            <option value="tle">Terminale</option>
+          </select>
+          <p id="parentLoginError" class="form-error" role="alert" hidden></p>
+          <button class="primary-button full-button" type="submit">Afficher le suivi</button>
+        </form>
       </section>
 
       <section class="parent-preview">
         <div class="section-heading">
-          <div><span class="eyebrow">APERÇU</span><h2>Ce que les parents verront.</h2></div>
+          <div><span class="eyebrow">SUIVI</span><h2 id="parentDashboardTitle">Le suivi apparaîtra après connexion.</h2></div>
         </div>
         <figure class="media-card panel-illustration">
           <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_16-7-1024x576.png" alt="Illustration MikaMike de l’espace parent et du suivi de progression" width="1024" height="576" loading="lazy" decoding="async">
         </figure>
         <div class="parent-grid">
-          <article class="metric-card accent-green"><span class="metric-icon">📈</span><strong>Progression</strong><p>Une vue claire des notions en cours et consolidées.</p></article>
-          <article class="metric-card accent-blue"><span class="metric-icon">🧩</span><strong>Points à renforcer</strong><p>Les prérequis fragiles remontent sans exposer chaque réponse.</p></article>
-          <article class="metric-card accent-orange"><span class="metric-icon">🗓️</span><strong>Rythme</strong><p>Des repères utiles dans le temps, sans pression quotidienne.</p></article>
-          <article class="metric-card accent-teal"><span class="metric-icon">🔒</span><strong>Vie privée</strong><p>Les données sont minimisées et l’accès doit être lié explicitement à l’élève.</p></article>
+          <article class="metric-card accent-green"><span class="metric-icon">📈</span><strong>Exercices réussis</strong><p id="parentSuccess">—</p></article>
+          <article class="metric-card accent-blue"><span class="metric-icon">🧩</span><strong>Exercices tentés</strong><p id="parentAttempts">—</p></article>
+          <article class="metric-card accent-orange"><span class="metric-icon">🎯</span><strong>Taux de réussite</strong><p id="parentRate">—</p></article>
+          <article class="metric-card accent-teal"><span class="metric-icon">📚</span><strong>Niveau actuel</strong><p id="parentLevel">—</p></article>
         </div>
       </section>
 
       <section class="parent-actions">
         <div>
-          <h2>Déjà un code élève ?</h2>
-          <p>L’application élève reste accessible normalement pendant la préparation de l’espace parent.</p>
+          <h2>Passer à l’espace élève</h2>
+          <p>Le même compte peut ensuite ouvrir une session élève liée, sans partager le mot de passe avec l’enfant.</p>
         </div>
         <a class="primary-button button-link" href="./">Ouvrir l’espace élève</a>
       </section>
     </main>
   </div>
+  <script src="./parent.js" defer></script>
 </body>
 </html>

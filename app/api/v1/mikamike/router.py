@@ -17,7 +17,8 @@ from __future__ import annotations
 from fastapi import APIRouter, Depends, HTTPException, Path, Query
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike import catalogue, crud, moteur
+from app.api.v1.mikamike import catalogue, crud
+from app.api.v1.tutorat import contenu as contenu_tutorat, moteur
 from app.api.v1.mikamike.learning_engine import (
     ETATS_SOLIDES,
     EtatMaitrise,
@@ -153,28 +154,74 @@ parcours_router = APIRouter(prefix="/parcours", tags=["mika-parcours"])
 @parcours_router.get("/prochaine-etape", response_model=ProchaineEtapeOut)
 def prochaine_etape(
     student_id: str = Query(max_length=128, pattern=ID_PATTERN),
+    level: str | None = Query(default=None, max_length=32),
+    subject: str | None = Query(default=None, max_length=32),
     db: Session = Depends(get_db), g: Garde = Depends(_garde)):
     g.exiger(student_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(student_id)
     etats = crud.get_etats(db, eleve_hmac)
 
-    # Première compétence du catalogue non encore consolidée.
+    # Avec niveau/matière, le parcours utilise EXACTEMENT le même catalogue
+    # canonique que le tuteur Mika. Cela empêche de proposer un exercice legacy
+    # que /mika/session/start ne saurait pas ouvrir.
+    filtres_actifs = bool((level or "").strip() or (subject or "").strip())
+    if filtres_actifs:
+        niveau_norm = (level or "").strip().lower()
+        matiere_norm = (subject or "").strip().lower()
+        exercices = [
+            ex for ex in contenu_tutorat.catalogue().exercices.values()
+            if (not niveau_norm or ex.niveau.value == niveau_norm)
+            and (not matiere_norm or ex.matiere.value == matiere_norm)
+        ]
+        if not exercices:
+            raise HTTPException(status_code=404, detail="contenu_indisponible")
+
+        exo = None
+        cible = None
+        for candidat in exercices:
+            comp = candidat.notion_id
+            try:
+                etat = EtatMaitrise(etats.get(comp, "INCONNU"))
+            except ValueError:
+                etat = EtatMaitrise.INCONNU
+            if etat not in ETATS_SOLIDES:
+                exo = candidat
+                cible = comp
+                break
+        if exo is None:
+            exo = exercices[0]
+            cible = exo.notion_id
+        return {
+            "student_id": student_id,
+            "exercice_id": exo.id,
+            "competence": cible,
+            "niveau": exo.niveau.value,
+            "consigne": exo.enonce,
+        }
+
+    # Appels historiques sans filtre : comportement legacy conservé pour compatibilité.
+    candidats = list(catalogue.EXERCICES)
     cible = None
-    for comp in catalogue.toutes_les_competences():
+    exo_id = None
+    for candidat_id in candidats:
+        candidat = catalogue.get_exercice(candidat_id)
+        if candidat is None:
+            continue
+        comp = candidat["competence"]
         try:
             etat = EtatMaitrise(etats.get(comp, "INCONNU"))
         except ValueError:
-            # État corrompu/inconnu en base : on le traite comme non consolidé (pas de 500).
             etat = EtatMaitrise.INCONNU
         if etat not in ETATS_SOLIDES:
             cible = comp
+            exo_id = candidat_id
             break
 
-    if cible is None:
-        # Tout est consolidé : on propose une révision de la 1re compétence.
-        cible = catalogue.toutes_les_competences()[0]
+    if exo_id is None:
+        exo_id = candidats[0]
+        meta_revision = catalogue.get_exercice(exo_id)
+        cible = meta_revision["competence"]
 
-    exo_id = catalogue.exercice_pour_competence(cible)
     meta = catalogue.get_exercice(exo_id)
     return ProchaineEtapeOut(
         exercice_id=exo_id,

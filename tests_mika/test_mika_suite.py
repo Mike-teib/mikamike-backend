@@ -107,3 +107,23 @@ def test_parcours_prochaine_etape_reelle(client):
     assert data["competence"], "la compétence visée doit être précisée"
     assert data["niveau"]
     assert data["consigne"]
+
+
+def test_parcours_prochaine_etape_respecte_niveau_et_matiere(client):
+    r = client.get(
+        "/api/v1/parcours/prochaine-etape",
+        params={"student_id": "anon-eleve-999", "level": "5e", "subject": "mathematiques"},
+    )
+    assert r.status_code == 200, r.text
+    data = r.json()
+    assert data["niveau"] == "5e"
+    assert data["exercice_id"] == "exo:maths:5e:priorites-01"
+
+
+def test_parcours_prochaine_etape_refuse_contenu_absent(client):
+    r = client.get(
+        "/api/v1/parcours/prochaine-etape",
+        params={"student_id": "anon-eleve-999", "level": "5e", "subject": "physique-chimie"},
+    )
+    assert r.status_code == 404
+    assert r.json()["detail"] == "contenu_indisponible"
