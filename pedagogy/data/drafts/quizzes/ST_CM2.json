@@ -1,0 +1,814 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q01",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Laquelle est renouvelable ?",
+      "choices": [
+        "l'énergie du Soleil",
+        "le pétrole",
+        "le gaz naturel"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'énergie du Soleil",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le Soleil éclaire la Terre chaque jour : c'est une ressource renouvelable.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le pétrole met des millions d'années à se former.",
+        "2": "Le gaz naturel met des millions d'années à se former."
+      },
+      "common_error_target": {
+        "1": "ne pas connaître l'origine du pétrole"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q02",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Laquelle est non renouvelable ?",
+      "choices": [
+        "le pétrole",
+        "le vent",
+        "l'eau des rivières"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le pétrole",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le pétrole se forme en millions d'années : il est non renouvelable.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le vent se renouvelle sans cesse.",
+        "2": "L'eau des rivières est renouvelée par les pluies."
+      },
+      "common_error_target": {
+        "1": "ne pas lire « non »"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q03",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Une ressource non renouvelable…",
+      "choices": [
+        "finit par s'épuiser",
+        "se reconstitue en quelques jours",
+        "se reconstitue en quelques mois"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "finit par s'épuiser",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ses stocks se reconstituent beaucoup trop lentement : elle finit par s'épuiser.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Se reconstituer vite, c'est être renouvelable.",
+        "2": "Se reconstituer vite, c'est être renouvelable."
+      },
+      "common_error_target": {
+        "1": "inverser les deux catégories"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q04",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Le charbon s'est formé…",
+      "choices": [
+        "en millions d'années",
+        "en quelques mois",
+        "en une nuit"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "en millions d'années",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le charbon vient de végétaux enfouis il y a des millions d'années.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Quelques mois ne suffisent pas : c'est beaucoup plus long.",
+        "2": "Une nuit, c'est bien trop court."
+      },
+      "common_error_target": {
+        "1": "sous-estimer les temps géologiques"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q05",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Un panneau solaire utilise…",
+      "choices": [
+        "la lumière du Soleil",
+        "le charbon",
+        "le vent"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la lumière du Soleil",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le panneau solaire transforme la lumière du Soleil en électricité.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le charbon est utilisé dans des centrales thermiques.",
+        "2": "Le vent fait tourner les éoliennes."
+      },
+      "common_error_target": {
+        "2": "confondre les installations"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q06",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "L'uranium est une ressource…",
+      "choices": [
+        "non renouvelable",
+        "renouvelable",
+        "inépuisable"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "non renouvelable",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les réserves d'uranium sont limitées : c'est une ressource non renouvelable.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'uranium ne se reconstitue pas à l'échelle humaine.",
+        "2": "Ses réserves sont limitées."
+      },
+      "common_error_target": {
+        "1": "croire que le nucléaire est renouvelable"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q07",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Le bois est renouvelable si…",
+      "choices": [
+        "on replante les arbres",
+        "on le coupe vite",
+        "on le transporte loin"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "on replante les arbres",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le bois se renouvelle si l'on replante autant d'arbres qu'on en coupe.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Couper vite épuise la forêt.",
+        "2": "Le transport ne change rien au renouvellement."
+      },
+      "common_error_target": {
+        "1": "ne pas relier renouvellement et gestion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q08",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Lequel est un combustible fossile ?",
+      "choices": [
+        "le gaz naturel",
+        "le vent",
+        "l'uranium"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le gaz naturel",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le gaz naturel vient de restes d'êtres vivants très anciens : c'est un combustible fossile.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le vent n'est pas un combustible.",
+        "2": "L'uranium est un minerai, pas un combustible fossile."
+      },
+      "common_error_target": {
+        "2": "croire que l'uranium est fossile"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q09",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Un barrage hydraulique utilise…",
+      "choices": [
+        "l'eau des rivières",
+        "le pétrole",
+        "l'uranium"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'eau des rivières",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le barrage retient l'eau d'une rivière ; en s'écoulant, elle fait tourner des turbines.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Un barrage n'utilise pas de pétrole.",
+        "2": "C'est la centrale nucléaire qui utilise l'uranium."
+      },
+      "common_error_target": {
+        "2": "confondre les installations"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.ressources-energie.q10",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Quel est un inconvénient du vent comme ressource ?",
+      "choices": [
+        "il ne souffle pas tout le temps",
+        "il va bientôt s'épuiser",
+        "il vient de fossiles"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "il ne souffle pas tout le temps",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le vent est renouvelable, mais il est irrégulier : il ne souffle pas tout le temps.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Le vent ne s'épuise pas.",
+        "2": "Le vent n'est pas une ressource fossile."
+      },
+      "common_error_target": {
+        "1": "confondre renouvelable et inépuisable à chaque instant"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q01",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Le pain est…",
+      "choices": [
+        "un féculent",
+        "un produit laitier",
+        "un fruit"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un féculent",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le pain est fait de farine de céréales : c'est un féculent.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le pain n'est pas fait avec du lait.",
+        "2": "Le pain n'est pas un fruit."
+      },
+      "common_error_target": {
+        "1": "ne pas connaître les groupes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q02",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Le fromage appartient au groupe…",
+      "choices": [
+        "produits laitiers",
+        "féculents",
+        "des fruits et légumes"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "produits laitiers",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le fromage est fabriqué avec du lait : c'est un produit laitier.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le fromage n'est pas fait de céréales.",
+        "2": "Le fromage n'est ni un fruit ni un légume."
+      },
+      "common_error_target": {
+        "1": "ne pas connaître les groupes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q03",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "La pomme de terre est…",
+      "choices": [
+        "un féculent",
+        "un légume vert",
+        "un fruit"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un féculent",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Riche en amidon, la pomme de terre est classée avec les féculents.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Elle pousse dans la terre, mais on la classe avec les féculents.",
+        "2": "Ce n'est pas un fruit."
+      },
+      "common_error_target": {
+        "1": "ranger la pomme de terre avec les légumes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q04",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Le calcium sert surtout…",
+      "choices": [
+        "aux os et aux dents",
+        "aux cheveux",
+        "à la vue"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "aux os et aux dents",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le calcium construit et renforce les os et les dents.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Les cheveux ne sont pas faits de calcium.",
+        "2": "Le calcium n'est pas le nutriment principal de la vue."
+      },
+      "common_error_target": {
+        "1": "ne pas connaître le rôle du calcium"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q05",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "La seule boisson indispensable est…",
+      "choices": [
+        "l'eau",
+        "le soda",
+        "le jus de fruits"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'eau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Seule l'eau est indispensable ; les autres boissons sont facultatives.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le soda est très sucré et n'est pas nécessaire.",
+        "2": "Le jus de fruits contient du sucre ; il n'est pas indispensable."
+      },
+      "common_error_target": {
+        "2": "croire que le jus remplace l'eau"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q06",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Au minimum, combien de portions de fruits et légumes par jour conseille-t-on ?",
+      "choices": [
+        "5",
+        "1",
+        "2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "La recommandation est d'en manger au moins 5 portions par jour.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Une seule portion ne suffit pas.",
+        "2": "Deux portions, c'est trop peu."
+      },
+      "common_error_target": {
+        "1": "sous-estimer la recommandation"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q07",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Les féculents apportent surtout…",
+      "choices": [
+        "de l'énergie",
+        "du calcium",
+        "des vitamines"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de l'énergie",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les féculents (pain, pâtes, riz) apportent de l'énergie durable.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le calcium vient surtout des produits laitiers.",
+        "2": "Les vitamines viennent surtout des fruits et légumes."
+      },
+      "common_error_target": {
+        "1": "confondre les rôles des groupes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q08",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "L'œuf appartient au groupe…",
+      "choices": [
+        "viandes, poissons, œufs",
+        "produits laitiers",
+        "matières grasses"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "viandes, poissons, œufs",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'œuf est rangé avec les viandes et les poissons : il apporte des protéines.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'œuf n'est pas fabriqué avec du lait.",
+        "2": "L'œuf n'est pas une matière grasse."
+      },
+      "common_error_target": {
+        "1": "ranger l'œuf avec les produits laitiers"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q09",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Quand on fait beaucoup de sport, les besoins en énergie…",
+      "choices": [
+        "augmentent",
+        "diminuent",
+        "disparaissent"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "augmentent",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'activité physique consomme de l'énergie : les besoins augmentent.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Faire du sport ne diminue pas les besoins.",
+        "2": "Le corps a toujours besoin d'énergie."
+      },
+      "common_error_target": {
+        "1": "ne pas relier activité et besoins"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.apports-alimentaires.q10",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Quel repas est le plus équilibré ?",
+      "choices": [
+        "poulet, riz, courgettes, poire",
+        "chips, bonbons, soda",
+        "pâtes, pain, riz"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "poulet, riz, courgettes, poire",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ce repas associe viande, féculent, légume et fruit : plusieurs groupes.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Trop de gras et de sucre.",
+        "2": "Trois féculents : il manque d'autres groupes."
+      },
+      "common_error_target": {
+        "2": "croire qu'un repas copieux est équilibré"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q01",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "La Terre fait un tour sur elle-même en environ…",
+      "choices": [
+        "24 heures",
+        "365 jours",
+        "1 heure"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "24 heures",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un tour de la Terre sur elle-même dure environ 24 heures.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "365 jours, c'est un tour autour du Soleil.",
+        "2": "Une heure est bien trop courte."
+      },
+      "common_error_target": {
+        "1": "confondre rotation et révolution"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q02",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "La Terre fait un tour autour du Soleil en environ…",
+      "choices": [
+        "365 jours",
+        "24 heures",
+        "30 jours"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "365 jours",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un tour autour du Soleil dure environ 365 jours : une année.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "24 heures, c'est un tour sur elle-même.",
+        "2": "30 jours, c'est environ un mois."
+      },
+      "common_error_target": {
+        "1": "confondre rotation et révolution"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q03",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Le jour et la nuit sont dus…",
+      "choices": [
+        "à la rotation de la Terre sur elle-même",
+        "au Soleil qui tourne autour de la Terre",
+        "aux nuages"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "à la rotation de la Terre sur elle-même",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "En tournant sur elle-même, la Terre fait passer chaque lieu du côté éclairé au côté sombre.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le Soleil ne tourne pas autour de la Terre.",
+        "2": "Les nuages cachent le Soleil, mais ne créent pas la nuit."
+      },
+      "common_error_target": {
+        "1": "géocentrisme"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q04",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Le Soleil se lève…",
+      "choices": [
+        "à l'est",
+        "à l'ouest",
+        "au sud"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "à l'est",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le Soleil semble se lever à l'est car la Terre tourne d'ouest en est.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est à l'ouest que le Soleil se couche.",
+        "2": "À midi, en France, le Soleil est au sud."
+      },
+      "common_error_target": {
+        "1": "inverser est et ouest"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q05",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Le Soleil se couche…",
+      "choices": [
+        "à l'ouest",
+        "à l'est",
+        "au nord"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "à l'ouest",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le Soleil semble se coucher à l'ouest.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est à l'est que le Soleil se lève.",
+        "2": "En France, le Soleil n'est jamais au nord."
+      },
+      "common_error_target": {
+        "1": "inverser est et ouest"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q06",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Les saisons sont dues surtout…",
+      "choices": [
+        "à l'inclinaison de l'axe de la Terre",
+        "à la distance entre la Terre et le Soleil",
+        "à la Lune"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "à l'inclinaison de l'axe de la Terre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'axe incliné fait varier la hauteur du Soleil et la durée du jour au cours de l'année.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La Terre est même un peu plus proche du Soleil en janvier.",
+        "2": "La Lune n'est pas la cause des saisons."
+      },
+      "common_error_target": {
+        "1": "expliquer les saisons par la distance"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q07",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "À chaque instant, la partie de la Terre éclairée par le Soleil est…",
+      "choices": [
+        "une moitié",
+        "toute la Terre",
+        "un quart"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une moitié",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La Terre est une boule : le Soleil en éclaire une moitié.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'autre moitié est dans la nuit.",
+        "2": "Le Soleil éclaire la moitié tournée vers lui, pas seulement un quart."
+      },
+      "common_error_target": {
+        "1": "croire que toute la Terre est éclairée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q08",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "Qui tourne autour de qui ?",
+      "choices": [
+        "la Terre autour du Soleil",
+        "le Soleil autour de la Terre",
+        "la Terre autour de la Lune"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la Terre autour du Soleil",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La Terre tourne autour du Soleil en environ 365 jours.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est un mouvement apparent, pas réel.",
+        "2": "C'est la Lune qui tourne autour de la Terre."
+      },
+      "common_error_target": {
+        "1": "géocentrisme"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q09",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "La Terre tourne sur elle-même…",
+      "choices": [
+        "d'ouest en est",
+        "d'est en ouest",
+        "du nord au sud"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "d'ouest en est",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La Terre tourne d'ouest en est : le Soleil semble donc se lever à l'est.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est le sens du mouvement apparent du Soleil.",
+        "2": "La Terre tourne autour d'un axe nord-sud, pas du nord au sud."
+      },
+      "common_error_target": {
+        "1": "confondre mouvement réel et apparent"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM2.mouvements-terre.q10",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "question": "C'est l'été en France. En Argentine, dans l'hémisphère sud, c'est…",
+      "choices": [
+        "l'hiver",
+        "l'été",
+        "l'automne"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'hiver",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les saisons sont inversées entre les deux hémisphères.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Les saisons ne sont pas les mêmes dans les deux hémisphères.",
+        "2": "L'automne en France correspond au printemps en Argentine."
+      },
+      "common_error_target": {
+        "1": "croire que les saisons sont les mêmes partout"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

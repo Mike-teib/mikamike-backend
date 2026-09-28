@@ -1,0 +1,2211 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.d01",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la quantité de matière d'ions permanganate contenue dans un volume VE = 12,0 mL d'une solution de concentration C = 2,00 × 10^-2 mol/L. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,40 × 10^-4",
+        "unit": "mol",
+        "significant_figures": 3
+      },
+      "solution": "n = C × V, avec V = 12,0 mL = 12,0 × 10^-3 L. n = 2,00 × 10^-2 × 12,0 × 10^-3 = 2,40 × 10^-4 mol.",
+      "step_by_step_solution": [
+        "n = C × V, avec V = 12,0 mL = 12,0 × 10^-3 L.",
+        "n = 2,00 × 10^-2 × 12,0 × 10^-3 = 2,40 × 10^-4 mol."
+      ],
+      "hints": [
+        "Convertis le volume en litres."
+      ],
+      "common_errors": {
+        "0,240 mol": "L'élève n'a pas converti les millilitres en litres."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.d02",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Que signifie « atteindre l'équivalence » lors d'un titrage ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "À l'équivalence, il y a changement de réactif limitant. Les deux réactifs ont été introduits dans les proportions de l'équation. La bonne réponse est : « Les réactifs titré et titrant ont été introduits dans les proportions stœchiométriques. »",
+      "step_by_step_solution": [
+        "À l'équivalence, il y a changement de réactif limitant.",
+        "Les deux réactifs ont été introduits dans les proportions de l'équation.",
+        "La bonne réponse est : « Les réactifs titré et titrant ont été introduits dans les proportions stœchiométriques. »"
+      ],
+      "hints": [
+        "Que reste-t-il des deux réactifs à l'équivalence ?"
+      ],
+      "common_errors": {
+        "1": "C'est la situation avant l'équivalence.",
+        "2": "Les volumes n'ont aucune raison d'être égaux.",
+        "3": "Les concentrations n'ont aucune raison d'être égales."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "choices": [
+        "Les réactifs titré et titrant ont été introduits dans les proportions stœchiométriques.",
+        "Le réactif titrant est entièrement consommé et il reste du réactif titré.",
+        "Le volume versé est égal au volume de solution titrée.",
+        "Les concentrations des deux solutions sont égales."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.d03",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On titre des ions Fe²⁺ par des ions Ce⁴⁺ selon la réaction Ce⁴⁺(aq) + Fe²⁺(aq) → Ce³⁺(aq) + Fe³⁺(aq). À l'équivalence, on a versé 15,0 mL de solution d'ions Ce⁴⁺ à 1,00 × 10^-2 mol/L. Quelle quantité d'ions Fe²⁺ contenait la solution titrée ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,50 × 10^-4",
+        "unit": "mol",
+        "significant_figures": 3
+      },
+      "solution": "Les coefficients sont égaux à 1 : n(Fe²⁺)initial = n(Ce⁴⁺)versé. n(Ce⁴⁺) = 1,00 × 10^-2 × 15,0 × 10^-3 = 1,50 × 10^-4 mol. Donc n(Fe²⁺) = 1,50 × 10^-4 mol.",
+      "step_by_step_solution": [
+        "Les coefficients sont égaux à 1 : n(Fe²⁺)initial = n(Ce⁴⁺)versé.",
+        "n(Ce⁴⁺) = 1,00 × 10^-2 × 15,0 × 10^-3 = 1,50 × 10^-4 mol.",
+        "Donc n(Fe²⁺) = 1,50 × 10^-4 mol."
+      ],
+      "hints": [
+        "Écris la relation à l'équivalence avec les coefficients.",
+        "Calcule n(Ce⁴⁺) versé."
+      ],
+      "common_errors": {
+        "0,150 mol": "L'élève n'a pas converti les millilitres en litres."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.d04",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "On titre des ions Fe²⁺ par des ions permanganate selon : MnO4⁻(aq) + 5 Fe²⁺(aq) + 8 H⁺(aq) → Mn²⁺(aq) + 5 Fe³⁺(aq) + 4 H2O(l). Quelle relation est vérifiée à l'équivalence ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "n(Fe²⁺)initial / 5 = n(MnO4⁻)versé / 1. Donc : n(Fe²⁺) = 5 × n(MnO4⁻)",
+      "step_by_step_solution": [
+        "n(Fe²⁺)initial / 5 = n(MnO4⁻)versé / 1.",
+        "Donc : n(Fe²⁺) = 5 × n(MnO4⁻)"
+      ],
+      "hints": [
+        "Divise chaque quantité de matière par son coefficient stœchiométrique."
+      ],
+      "common_errors": {
+        "1": "Relation inversée.",
+        "2": "Les coefficients ont été ignorés.",
+        "3": "Le coefficient de H⁺ n'intervient pas."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "choices": [
+        "n(Fe²⁺) = 5 × n(MnO4⁻)",
+        "n(Fe²⁺) = n(MnO4⁻) / 5",
+        "n(Fe²⁺) = n(MnO4⁻)",
+        "n(Fe²⁺) = 8 × n(MnO4⁻)"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.d05",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Au cours d'un titrage, avant l'équivalence, quel est le réactif limitant ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Avant l'équivalence, chaque goutte de réactif titrant versée est entièrement consommée. Le réactif limitant est donc le réactif titrant.",
+      "step_by_step_solution": [
+        "Avant l'équivalence, chaque goutte de réactif titrant versée est entièrement consommée.",
+        "Le réactif limitant est donc le réactif titrant."
+      ],
+      "hints": [
+        "Que devient chaque goutte de solution titrante versée avant l'équivalence ?"
+      ],
+      "common_errors": {
+        "1": "C'est le cas après l'équivalence.",
+        "2": "Les ions spectateurs ne réagissent pas."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "choices": [
+        "le réactif titrant.",
+        "le réactif titré.",
+        "l'ion spectateur."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.a01",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On titre 20,0 mL d'une solution d'ions Fe²⁺ par une solution de permanganate de potassium à 2,00 × 10^-2 mol/L ; VE = 12,4 mL. Réaction : MnO4⁻(aq) + 5 Fe²⁺(aq) + 8 H⁺(aq) → Mn²⁺(aq) + 5 Fe³⁺(aq) + 4 H2O(l). Calculer la quantité de matière initiale d'ions Fe²⁺. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,00124",
+        "unit": "mol",
+        "significant_figures": 3
+      },
+      "solution": "n(MnO4⁻)versé = 2,00 × 10^-2 × 12,4 × 10^-3 = 2,48 × 10^-4 mol. À l'équivalence : n(Fe²⁺) = 5 × n(MnO4⁻) = 0,00124 mol.",
+      "step_by_step_solution": [
+        "n(MnO4⁻)versé = 2,00 × 10^-2 × 12,4 × 10^-3 = 2,48 × 10^-4 mol.",
+        "À l'équivalence : n(Fe²⁺) = 5 × n(MnO4⁻) = 0,00124 mol."
+      ],
+      "hints": [
+        "Calcule d'abord n(MnO4⁻) versé.",
+        "Utilise les coefficients stœchiométriques."
+      ],
+      "common_errors": {
+        "2,48 × 10^-4 mol": "L'élève a oublié le coefficient 5.",
+        "4,96 × 10^-5 mol": "L'élève a divisé par 5 au lieu de multiplier."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.a02",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On titre 20,0 mL d'une solution d'ions Fe²⁺ par une solution de permanganate de potassium à 2,00 × 10^-2 mol/L ; VE = 12,4 mL. Réaction : MnO4⁻(aq) + 5 Fe²⁺(aq) + 8 H⁺(aq) → Mn²⁺(aq) + 5 Fe³⁺(aq) + 4 H2O(l). Calculer la concentration en ions Fe²⁺ de la solution titrée. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,0620",
+        "unit": "mol/L",
+        "significant_figures": 3
+      },
+      "solution": "n(Fe²⁺) = 5 × 2,00 × 10^-2 × 12,4 × 10^-3 = 1,24 × 10^-3 mol. C(Fe²⁺) = n / V = 1,24 × 10^-3 ÷ 20,0 × 10^-3 = 0,0620 mol/L.",
+      "step_by_step_solution": [
+        "n(Fe²⁺) = 5 × 2,00 × 10^-2 × 12,4 × 10^-3 = 1,24 × 10^-3 mol.",
+        "C(Fe²⁺) = n / V = 1,24 × 10^-3 ÷ 20,0 × 10^-3 = 0,0620 mol/L."
+      ],
+      "hints": [
+        "Commence par n(Fe²⁺), puis divise par le volume titré (en L)."
+      ],
+      "common_errors": {
+        "1,24 × 10^-2 mol/L": "L'élève a oublié le coefficient 5."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.a03",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On titre 10,0 mL d'une solution de diiode par une solution de thiosulfate de sodium à 1,00 × 10^-1 mol/L ; VE = 8,0 mL. Réaction : I2(aq) + 2 S2O3²⁻(aq) → 2 I⁻(aq) + S4O6²⁻(aq). Calculer la quantité de matière de diiode titrée. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "4,0 × 10^-4",
+        "unit": "mol",
+        "significant_figures": 2
+      },
+      "solution": "n(S2O3²⁻)versé = 1,00 × 10^-1 × 8,0 × 10^-3 = 8,0 × 10^-4 mol. À l'équivalence : n(I2) = n(S2O3²⁻) / 2 = 4,0 × 10^-4 mol.",
+      "step_by_step_solution": [
+        "n(S2O3²⁻)versé = 1,00 × 10^-1 × 8,0 × 10^-3 = 8,0 × 10^-4 mol.",
+        "À l'équivalence : n(I2) = n(S2O3²⁻) / 2 = 4,0 × 10^-4 mol."
+      ],
+      "hints": [
+        "Quel est le coefficient des ions thiosulfate ?"
+      ],
+      "common_errors": {
+        "8,0 × 10^-4 mol": "L'élève a oublié le coefficient 2.",
+        "1,6 × 10^-3 mol": "L'élève a multiplié par 2 au lieu de diviser."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.a04",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On titre 10,0 mL d'une solution de diiode par une solution de thiosulfate de sodium à 1,00 × 10^-1 mol/L ; VE = 8,0 mL. Réaction : I2(aq) + 2 S2O3²⁻(aq) → 2 I⁻(aq) + S4O6²⁻(aq). Calculer la concentration en diiode de la solution titrée. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,040",
+        "unit": "mol/L",
+        "significant_figures": 2
+      },
+      "solution": "n(I2) = (1,00 × 10^-1 × 8,0 × 10^-3) / 2 = 4,0 × 10^-4 mol. C(I2) = 4,0 × 10^-4 ÷ 10,0 × 10^-3 = 0,040 mol/L.",
+      "step_by_step_solution": [
+        "n(I2) = (1,00 × 10^-1 × 8,0 × 10^-3) / 2 = 4,0 × 10^-4 mol.",
+        "C(I2) = 4,0 × 10^-4 ÷ 10,0 × 10^-3 = 0,040 mol/L."
+      ],
+      "hints": [
+        "Calcule n(I2), puis divise par le volume titré en litres."
+      ],
+      "common_errors": {
+        "8,0 × 10^-2 mol/L": "L'élève a oublié le coefficient 2."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.a05",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "On titre une solution d'ions Fe²⁺ (quasi incolore) par une solution d'ions permanganate MnO4⁻ (violette). Les autres espèces sont incolores ou très peu colorées. Comment repère-t-on l'équivalence ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Avant l'équivalence, les ions MnO4⁻ versés sont consommés : la couleur violette disparaît. Après l'équivalence, ils s'accumulent : la teinte violette persiste. La bonne réponse est : « Une teinte violette persiste dans le mélange. »",
+      "step_by_step_solution": [
+        "Avant l'équivalence, les ions MnO4⁻ versés sont consommés : la couleur violette disparaît.",
+        "Après l'équivalence, ils s'accumulent : la teinte violette persiste.",
+        "La bonne réponse est : « Une teinte violette persiste dans le mélange. »"
+      ],
+      "hints": [
+        "Que devient l'ion permanganate versé avant, puis après l'équivalence ?"
+      ],
+      "common_errors": {
+        "1": "C'est ce qui se produit avant l'équivalence, goutte après goutte.",
+        "2": "Aucun précipité ne se forme.",
+        "3": "Aucune espèce bleue n'intervient."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "choices": [
+        "Une teinte violette persiste dans le mélange.",
+        "Le mélange se décolore définitivement.",
+        "Un précipité apparaît.",
+        "Le mélange devient bleu."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.c01",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On titre 10,0 mL d'eau oxygénée par une solution de permanganate de potassium à 2,00 × 10^-2 mol/L ; VE = 16,0 mL. Réaction : 2 MnO4⁻(aq) + 5 H2O2(aq) + 6 H⁺(aq) → 2 Mn²⁺(aq) + 5 O2(g) + 8 H2O(l). Calculer la concentration en H2O2 de la solution titrée. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,0800",
+        "unit": "mol/L",
+        "significant_figures": 3
+      },
+      "solution": "n(MnO4⁻)versé = 2,00 × 10^-2 × 16,0 × 10^-3 = 3,20 × 10^-4 mol. Équivalence : n(H2O2) / 5 = n(MnO4⁻) / 2, donc n(H2O2) = 5/2 × 3,20 × 10^-4 = 8,00 × 10^-4 mol. C(H2O2) = 8,00 × 10^-4 ÷ 10,0 × 10^-3 = 0,0800 mol/L.",
+      "step_by_step_solution": [
+        "n(MnO4⁻)versé = 2,00 × 10^-2 × 16,0 × 10^-3 = 3,20 × 10^-4 mol.",
+        "Équivalence : n(H2O2) / 5 = n(MnO4⁻) / 2, donc n(H2O2) = 5/2 × 3,20 × 10^-4 = 8,00 × 10^-4 mol.",
+        "C(H2O2) = 8,00 × 10^-4 ÷ 10,0 × 10^-3 = 0,0800 mol/L."
+      ],
+      "hints": [
+        "Écris n(H2O2)/5 = n(MnO4⁻)/2.",
+        "Convertis les volumes en litres."
+      ],
+      "common_errors": {
+        "3,20 × 10^-2 mol/L": "L'élève a ignoré les coefficients stœchiométriques.",
+        "1,28 × 10^-2 mol/L": "L'élève a inversé le rapport des coefficients (2/5 au lieu de 5/2)."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.c02",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On veut titrer 25,0 mL d'une solution d'ions Fe²⁺ de concentration 4,00 × 10^-2 mol/L par une solution de permanganate de potassium à 1,00 × 10^-2 mol/L. Réaction : MnO4⁻(aq) + 5 Fe²⁺(aq) + 8 H⁺(aq) → Mn²⁺(aq) + 5 Fe³⁺(aq) + 4 H2O(l). Quel volume équivalent doit-on attendre ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "20,0",
+        "unit": "mL",
+        "significant_figures": 3
+      },
+      "solution": "n(Fe²⁺) = 4,00 × 10^-2 × 25,0 × 10^-3 = 1,00 × 10^-3 mol. n(MnO4⁻) nécessaire = n(Fe²⁺) / 5 = 2,00 × 10^-4 mol. VE = 2,00 × 10^-4 ÷ 1,00 × 10^-2 = 2,00 × 10^-2 L = 20,0 mL.",
+      "step_by_step_solution": [
+        "n(Fe²⁺) = 4,00 × 10^-2 × 25,0 × 10^-3 = 1,00 × 10^-3 mol.",
+        "n(MnO4⁻) nécessaire = n(Fe²⁺) / 5 = 2,00 × 10^-4 mol.",
+        "VE = 2,00 × 10^-4 ÷ 1,00 × 10^-2 = 2,00 × 10^-2 L = 20,0 mL."
+      ],
+      "hints": [
+        "Calcule n(Fe²⁺), puis la quantité de permanganate nécessaire.",
+        "V = n / C."
+      ],
+      "common_errors": {
+        "100 mL": "L'élève a oublié de diviser par le coefficient 5.",
+        "500 mL": "L'élève a multiplié par 5 au lieu de diviser."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.c03",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Au cours d'un titrage, on a versé un volume de solution titrante supérieur au volume équivalent. Que peut-on dire du mélange ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Après l'équivalence, le réactif titré a été entièrement consommé. Le réactif titrant versé ne réagit plus : il est en excès. La bonne réponse est : « Le réactif titrant est en excès. »",
+      "step_by_step_solution": [
+        "Après l'équivalence, le réactif titré a été entièrement consommé.",
+        "Le réactif titrant versé ne réagit plus : il est en excès.",
+        "La bonne réponse est : « Le réactif titrant est en excès. »"
+      ],
+      "hints": [
+        "Quel réactif est limitant après l'équivalence ?"
+      ],
+      "common_errors": {
+        "1": "Le réactif titré est épuisé après l'équivalence.",
+        "2": "Le réactif titrant continue d'être ajouté."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "choices": [
+        "Le réactif titrant est en excès.",
+        "Le réactif titré est en excès.",
+        "Les deux réactifs sont épuisés."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.c04",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On titre 20,0 mL d'une solution de diiode par une solution de thiosulfate de sodium à 5,00 × 10^-2 mol/L ; VE = 11,6 mL. Réaction : I2(aq) + 2 S2O3²⁻(aq) → 2 I⁻(aq) + S4O6²⁻(aq). Calculer la concentration en diiode. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,0145",
+        "unit": "mol/L",
+        "significant_figures": 3
+      },
+      "solution": "n(S2O3²⁻) = 5,00 × 10^-2 × 11,6 × 10^-3 = 5,80 × 10^-4 mol. n(I2) = 5,80 × 10^-4 / 2 = 2,90 × 10^-4 mol. C(I2) = 2,90 × 10^-4 ÷ 20,0 × 10^-3 = 0,0145 mol/L.",
+      "step_by_step_solution": [
+        "n(S2O3²⁻) = 5,00 × 10^-2 × 11,6 × 10^-3 = 5,80 × 10^-4 mol.",
+        "n(I2) = 5,80 × 10^-4 / 2 = 2,90 × 10^-4 mol.",
+        "C(I2) = 2,90 × 10^-4 ÷ 20,0 × 10^-3 = 0,0145 mol/L."
+      ],
+      "hints": [
+        "Tiens compte du coefficient 2 devant S2O3²⁻."
+      ],
+      "common_errors": {
+        "2,90 × 10^-2 mol/L": "L'élève a oublié le coefficient 2."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.c05",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un titrage a montré qu'une prise d'essai contient 1,24 × 10^-3 mol d'ions Fe²⁺. Donnée : M(Fe) = 55,8 g/mol. Calculer la masse de fer correspondante, en mg. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "69,2",
+        "unit": "mg",
+        "significant_figures": 3
+      },
+      "solution": "m = n × M = 1,24 × 10^-3 × 55,8 = 6,92 × 10^-2 g. m = 69,2 mg.",
+      "step_by_step_solution": [
+        "m = n × M = 1,24 × 10^-3 × 55,8 = 6,92 × 10^-2 g.",
+        "m = 69,2 mg."
+      ],
+      "hints": [
+        "m = n × M, puis convertis en milligrammes."
+      ],
+      "common_errors": {
+        "0,0692 mg": "L'élève a obtenu des grammes et les a notés en milligrammes."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.x01",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un comprimé contenant du fer(II) est dissous dans de l'eau pour obtenir 100,0 mL de solution. On titre 10,0 mL de cette solution par du permanganate de potassium à 1,00 × 10^-2 mol/L ; VE = 9,6 mL. Réaction : MnO4⁻(aq) + 5 Fe²⁺(aq) + 8 H⁺(aq) → Mn²⁺(aq) + 5 Fe³⁺(aq) + 4 H2O(l). Quelle quantité d'ions Fe²⁺ contenait le comprimé ? Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,0048",
+        "unit": "mol",
+        "significant_figures": 2
+      },
+      "solution": "Dans la prise d'essai : n = 5 × 1,00 × 10^-2 × 9,6 × 10^-3 = 4,8 × 10^-4 mol. La prise d'essai représente 10,0 mL sur 100,0 mL : on multiplie par 10. n(Fe²⁺) dans le comprimé = 0,0048 mol.",
+      "step_by_step_solution": [
+        "Dans la prise d'essai : n = 5 × 1,00 × 10^-2 × 9,6 × 10^-3 = 4,8 × 10^-4 mol.",
+        "La prise d'essai représente 10,0 mL sur 100,0 mL : on multiplie par 10.",
+        "n(Fe²⁺) dans le comprimé = 0,0048 mol."
+      ],
+      "hints": [
+        "On n'a titré qu'une partie de la solution.",
+        "Quelle fraction de la solution a été titrée ?"
+      ],
+      "common_errors": {
+        "4,8 × 10^-4 mol": "L'élève a oublié que seule une prise d'essai de 10,0 mL a été titrée."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 12,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.x02",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une eau oxygénée commerciale est diluée 10 fois. On titre 10,0 mL de la solution diluée par du permanganate de potassium à 2,00 × 10^-2 mol/L ; VE = 17,6 mL. Réaction : 2 MnO4⁻(aq) + 5 H2O2(aq) + 6 H⁺(aq) → 2 Mn²⁺(aq) + 5 O2(g) + 8 H2O(l). Calculer la concentration en H2O2 de l'eau oxygénée commerciale. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,880",
+        "unit": "mol/L",
+        "significant_figures": 3
+      },
+      "solution": "n(MnO4⁻) = 2,00 × 10^-2 × 17,6 × 10^-3 = 3,52 × 10^-4 mol ; n(H2O2) = 5/2 × 3,52 × 10^-4 = 8,80 × 10^-4 mol. Solution diluée : C = 8,80 × 10^-4 ÷ 10,0 × 10^-3 = 8,80 × 10^-2 mol/L. Solution commerciale : C0 = 10 × C = 0,880 mol/L.",
+      "step_by_step_solution": [
+        "n(MnO4⁻) = 2,00 × 10^-2 × 17,6 × 10^-3 = 3,52 × 10^-4 mol ; n(H2O2) = 5/2 × 3,52 × 10^-4 = 8,80 × 10^-4 mol.",
+        "Solution diluée : C = 8,80 × 10^-4 ÷ 10,0 × 10^-3 = 8,80 × 10^-2 mol/L.",
+        "Solution commerciale : C0 = 10 × C = 0,880 mol/L."
+      ],
+      "hints": [
+        "Calcule d'abord la concentration de la solution diluée.",
+        "Tiens compte du facteur de dilution."
+      ],
+      "common_errors": {
+        "8,80 × 10^-2 mol/L": "L'élève a oublié le facteur de dilution."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 12,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.titrage-equivalence.x03",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Lors du titrage d'ions Fe²⁺ par des ions permanganate, un élève dépasse l'équivalence de 2 mL sans s'en apercevoir et utilise ce volume dans ses calculs. La concentration en ions Fe²⁺ qu'il obtient est :",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "C(Fe²⁺) = 5 × C(MnO4⁻) × VE / V(Fe²⁺) est proportionnelle au volume équivalent utilisé. Un volume trop grand donne une concentration trop grande : elle est surestimée.",
+      "step_by_step_solution": [
+        "C(Fe²⁺) = 5 × C(MnO4⁻) × VE / V(Fe²⁺) est proportionnelle au volume équivalent utilisé.",
+        "Un volume trop grand donne une concentration trop grande : elle est surestimée."
+      ],
+      "hints": [
+        "Comment la concentration calculée dépend-elle de VE ?"
+      ],
+      "common_errors": {
+        "1": "Le résultat augmente avec le volume utilisé.",
+        "2": "Le volume utilisé est faux, le résultat aussi."
+      },
+      "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire la relation à l'équivalence à partir de l'équation de réaction",
+        "Calculer une quantité de matière n = C × V",
+        "Déterminer une concentration inconnue par titrage"
+      ],
+      "source_notions": [
+        "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu"
+      ],
+      "choices": [
+        "surestimée.",
+        "sous-estimée.",
+        "exacte."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.d01",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer l'énergie potentielle de pesanteur d'un objet de 2,00 kg situé à l'altitude z = 5,00 m (origine au sol ; g = 9,81 N/kg). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "98,1",
+        "unit": "J",
+        "significant_figures": 3
+      },
+      "solution": "Epp = m × g × z. Epp = 2,00 × 9,81 × 5,00 = 98,1 J.",
+      "step_by_step_solution": [
+        "Epp = m × g × z.",
+        "Epp = 2,00 × 9,81 × 5,00 = 98,1 J."
+      ],
+      "hints": [
+        "Utilise Epp = m g z."
+      ],
+      "common_errors": {
+        "10 J": "L'élève a oublié l'intensité de la pesanteur g."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.d02",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une balle de 0,500 kg se déplace à 4,00 m/s à l'altitude z = 2,00 m (origine au sol ; g = 9,81 N/kg). Calculer son énergie mécanique. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "13,8",
+        "unit": "J",
+        "significant_figures": 3
+      },
+      "solution": "Ec = ½ × 0,500 × 4,00² = 4,00 J. Epp = 0,500 × 9,81 × 2,00 = 9,81 J. Em = Ec + Epp = 13,8 J.",
+      "step_by_step_solution": [
+        "Ec = ½ × 0,500 × 4,00² = 4,00 J.",
+        "Epp = 0,500 × 9,81 × 2,00 = 9,81 J.",
+        "Em = Ec + Epp = 13,8 J."
+      ],
+      "hints": [
+        "Calcule séparément Ec et Epp.",
+        "Em = Ec + Epp."
+      ],
+      "common_errors": {
+        "4 J": "L'élève a oublié l'énergie potentielle.",
+        "9,81 J": "L'élève a oublié l'énergie cinétique."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.d03",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "En l'absence de frottements, que devient l'énergie mécanique d'un objet en chute libre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Sans frottement, seul le poids travaille : l'énergie mécanique se conserve. La bonne réponse est : « Elle se conserve. »",
+      "step_by_step_solution": [
+        "Sans frottement, seul le poids travaille : l'énergie mécanique se conserve.",
+        "La bonne réponse est : « Elle se conserve. »"
+      ],
+      "hints": [
+        "Y a-t-il une force qui dissipe de l'énergie ?"
+      ],
+      "common_errors": {
+        "1": "Aucune énergie n'est fournie au système.",
+        "2": "Aucune énergie n'est dissipée sans frottement.",
+        "3": "Em n'est pas nulle en général."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "choices": [
+        "Elle se conserve.",
+        "Elle augmente.",
+        "Elle diminue.",
+        "Elle est nulle."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.d04",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pendant la chute libre d'un objet, sans frottement, l'altitude diminue. Que deviennent Epp et Ec ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "z diminue, donc Epp = m g z diminue. Em se conserve, donc Ec augmente d'autant. La bonne réponse est : « Epp diminue et Ec augmente. »",
+      "step_by_step_solution": [
+        "z diminue, donc Epp = m g z diminue.",
+        "Em se conserve, donc Ec augmente d'autant.",
+        "La bonne réponse est : « Epp diminue et Ec augmente. »"
+      ],
+      "hints": [
+        "Em = Ec + Epp reste constante."
+      ],
+      "common_errors": {
+        "1": "Em augmenterait.",
+        "2": "Sens inversé.",
+        "3": "Em diminuerait."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "choices": [
+        "Epp diminue et Ec augmente.",
+        "Epp et Ec augmentent.",
+        "Epp augmente et Ec diminue.",
+        "Epp et Ec diminuent."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.d05",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "L'énergie mécanique d'un système, qui se conserve, vaut 30,0 J. En un point de sa trajectoire, son énergie potentielle de pesanteur vaut 12,5 J. Calculer son énergie cinétique en ce point. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "17,5",
+        "unit": "J",
+        "significant_figures": 3
+      },
+      "solution": "Em = Ec + Epp, donc Ec = Em − Epp. Ec = 30,0 − 12,5 = 17,5 J.",
+      "step_by_step_solution": [
+        "Em = Ec + Epp, donc Ec = Em − Epp.",
+        "Ec = 30,0 − 12,5 = 17,5 J."
+      ],
+      "hints": [
+        "Isole Ec dans Em = Ec + Epp."
+      ],
+      "common_errors": {
+        "42,5 J": "L'élève a additionné au lieu de soustraire."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.a01",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une bille est lâchée sans vitesse initiale d'une hauteur de 1,80 m. En négligeant les frottements, calculer sa vitesse en arrivant au sol (g = 9,81 N/kg). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "5,94",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Conservation de Em : m g h = ½ m v². v = √(2 g h) = √(2 × 9,81 × 1,80) ≈ 5,94 m/s.",
+      "step_by_step_solution": [
+        "Conservation de Em : m g h = ½ m v².",
+        "v = √(2 g h) = √(2 × 9,81 × 1,80) ≈ 5,94 m/s."
+      ],
+      "hints": [
+        "Écris Em au départ et à l'arrivée.",
+        "La masse se simplifie."
+      ],
+      "common_errors": {
+        "35,3 m/s": "L'élève a oublié la racine carrée."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.a02",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une balle est lancée verticalement vers le haut à 8,00 m/s. En négligeant les frottements, calculer la hauteur maximale atteinte au-dessus du point de lancement (g = 9,81 N/kg). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,26",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "Au sommet, la vitesse est nulle : ½ m v0² = m g h. h = v0² / (2 g) = 64,0 ÷ 19,62 ≈ 3,26 m.",
+      "step_by_step_solution": [
+        "Au sommet, la vitesse est nulle : ½ m v0² = m g h.",
+        "h = v0² / (2 g) = 64,0 ÷ 19,62 ≈ 3,26 m."
+      ],
+      "hints": [
+        "Que vaut la vitesse au point le plus haut ?"
+      ],
+      "common_errors": {
+        "0,408 m": "L'élève a oublié d'élever la vitesse au carré."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.a03",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La masse d'un pendule est lâchée sans vitesse d'une hauteur de 0,200 m au-dessus de sa position la plus basse. En négligeant les frottements, calculer sa vitesse au point le plus bas (g = 9,81 N/kg). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,98",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Conservation de Em entre le point de lâcher et le point le plus bas : m g h = ½ m v². v = √(2 × 9,81 × 0,200) ≈ 1,98 m/s.",
+      "step_by_step_solution": [
+        "Conservation de Em entre le point de lâcher et le point le plus bas : m g h = ½ m v².",
+        "v = √(2 × 9,81 × 0,200) ≈ 1,98 m/s."
+      ],
+      "hints": [
+        "Seule la différence d'altitude compte."
+      ],
+      "common_errors": {
+        "3,92 m/s": "L'élève a oublié la racine carrée."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.a04",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Un pendule oscille sans frottement. En quelle position son énergie cinétique est-elle maximale ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Em se conserve ; Ec est maximale quand Epp est minimale. Epp est minimale au point le plus bas : au point le plus bas.",
+      "step_by_step_solution": [
+        "Em se conserve ; Ec est maximale quand Epp est minimale.",
+        "Epp est minimale au point le plus bas : au point le plus bas."
+      ],
+      "hints": [
+        "Où l'altitude du pendule est-elle la plus faible ?"
+      ],
+      "common_errors": {
+        "1": "Aux positions extrêmes, la vitesse est nulle.",
+        "2": "Ec n'y est pas maximale.",
+        "3": "Ec varie au cours du mouvement."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "choices": [
+        "au point le plus bas.",
+        "aux positions extrêmes.",
+        "à mi-hauteur.",
+        "identique en tout point."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.a05",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un skieur de 70,0 kg part sans vitesse et descend sans frottement une pente de dénivelé 20,0 m (g = 9,81 N/kg). Calculer son énergie cinétique en bas de la pente. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,37 × 10^4",
+        "unit": "J",
+        "significant_figures": 3
+      },
+      "solution": "Conservation de Em : Ec(bas) = m g h. Ec = 70,0 × 9,81 × 20,0 ≈ 1,37 × 10^4 J.",
+      "step_by_step_solution": [
+        "Conservation de Em : Ec(bas) = m g h.",
+        "Ec = 70,0 × 9,81 × 20,0 ≈ 1,37 × 10^4 J."
+      ],
+      "hints": [
+        "L'énergie potentielle perdue devient énergie cinétique."
+      ],
+      "common_errors": {
+        "1400 J": "L'élève a oublié l'intensité de la pesanteur g."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.c01",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une balle est lancée verticalement vers le haut à 5,00 m/s depuis une altitude de 1,50 m. En négligeant les frottements, calculer sa vitesse lorsqu'elle arrive au sol (g = 9,81 N/kg). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "7,38",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Em(départ) = Em(sol) : ½ m v0² + m g z0 = ½ m v². v = √(v0² + 2 g z0) = √(25,0 + 29,4) ≈ 7,38 m/s.",
+      "step_by_step_solution": [
+        "Em(départ) = Em(sol) : ½ m v0² + m g z0 = ½ m v².",
+        "v = √(v0² + 2 g z0) = √(25,0 + 29,4) ≈ 7,38 m/s."
+      ],
+      "hints": [
+        "La balle monte puis redescend : seuls les états initial et final comptent.",
+        "La masse se simplifie."
+      ],
+      "common_errors": {
+        "5 m/s": "L'élève a oublié l'énergie potentielle initiale.",
+        "5,42 m/s": "L'élève a oublié l'énergie cinétique initiale."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.c02",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Sur des montagnes russes, un wagon passe au point 1 (z1 = 25,0 m) à 6,00 m/s, puis au point 2 (z2 = 5,00 m). En négligeant les frottements, calculer sa vitesse au point 2 (g = 9,81 N/kg). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "20,7",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Em(1) = Em(2) : ½ v1² + g z1 = ½ v2² + g z2. v2 = √(v1² + 2 g (z1 − z2)) = √(36,0 + 392,4) ≈ 20,7 m/s.",
+      "step_by_step_solution": [
+        "Em(1) = Em(2) : ½ v1² + g z1 = ½ v2² + g z2.",
+        "v2 = √(v1² + 2 g (z1 − z2)) = √(36,0 + 392,4) ≈ 20,7 m/s."
+      ],
+      "hints": [
+        "Utilise la différence d'altitude entre les points 1 et 2."
+      ],
+      "common_errors": {
+        "19,8 m/s": "L'élève a oublié la vitesse au point 1."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.c03",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un palet glisse sur un plan horizontal et ralentit à cause des frottements. Que devient son énergie mécanique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les frottements sont des forces non conservatives : ils dissipent de l'énergie. Em diminue : elle diminue.",
+      "step_by_step_solution": [
+        "Les frottements sont des forces non conservatives : ils dissipent de l'énergie.",
+        "Em diminue : elle diminue."
+      ],
+      "hints": [
+        "Le palet ralentit à altitude constante : que devient Ec ? et Epp ?"
+      ],
+      "common_errors": {
+        "1": "Em ne se conserve pas avec des frottements.",
+        "2": "Aucune énergie n'est fournie."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "choices": [
+        "elle diminue.",
+        "elle se conserve.",
+        "elle augmente."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.c04",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un plongeur de 60,0 kg se laisse tomber sans vitesse initiale d'un plongeoir situé 10,0 m au-dessus de l'eau. En négligeant les frottements, calculer son énergie cinétique à l'entrée dans l'eau (g = 9,81 N/kg). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "5,89 × 10^3",
+        "unit": "J",
+        "significant_figures": 3
+      },
+      "solution": "Ec = m g h (conservation de Em). Ec = 60,0 × 9,81 × 10,0 ≈ 5,89 × 10^3 J.",
+      "step_by_step_solution": [
+        "Ec = m g h (conservation de Em).",
+        "Ec = 60,0 × 9,81 × 10,0 ≈ 5,89 × 10^3 J."
+      ],
+      "hints": [
+        "Toute l'énergie potentielle perdue est convertie en énergie cinétique."
+      ],
+      "common_errors": {
+        "600 J": "L'élève a oublié g."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.c05",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La masse d'un pendule passe par son point le plus bas à 1,50 m/s. En négligeant les frottements, de quelle hauteur, en cm, remonte-t-elle au-dessus de ce point (g = 9,81 N/kg) ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "11,5",
+        "unit": "cm",
+        "significant_figures": 3
+      },
+      "solution": "Au point le plus haut, v = 0 : ½ m v² = m g h. h = v² / (2 g) = 2,25 ÷ 19,62 ≈ 0,115 m = 11,5 cm.",
+      "step_by_step_solution": [
+        "Au point le plus haut, v = 0 : ½ m v² = m g h.",
+        "h = v² / (2 g) = 2,25 ÷ 19,62 ≈ 0,115 m = 11,5 cm."
+      ],
+      "hints": [
+        "Que vaut la vitesse au point le plus haut ?",
+        "Convertis en centimètres."
+      ],
+      "common_errors": {
+        "0,115 cm": "L'élève a obtenu des mètres et les a notés en centimètres."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.x01",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une bille de 0,200 kg est lâchée sans vitesse d'une hauteur de 5,00 m ; elle arrive au sol à 9,00 m/s (g = 9,81 N/kg). Calculer l'énergie dissipée par les frottements de l'air. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,71",
+        "unit": "J",
+        "significant_figures": 3
+      },
+      "solution": "Em(départ) = m g h = 0,200 × 9,81 × 5,00 = 9,81 J. Em(arrivée) = ½ × 0,200 × 9,00² = 8,10 J. Énergie dissipée : 9,81 − 8,10 = 1,71 J.",
+      "step_by_step_solution": [
+        "Em(départ) = m g h = 0,200 × 9,81 × 5,00 = 9,81 J.",
+        "Em(arrivée) = ½ × 0,200 × 9,00² = 8,10 J.",
+        "Énergie dissipée : 9,81 − 8,10 = 1,71 J."
+      ],
+      "hints": [
+        "Compare l'énergie mécanique au départ et à l'arrivée."
+      ],
+      "common_errors": {
+        "8,1 J": "L'élève a donné l'énergie mécanique finale.",
+        "17,9 J": "L'élève a additionné les deux énergies."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 12,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.x02",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un skieur part sans vitesse d'un point A d'altitude 50,0 m et glisse sans frottement jusqu'à un point B d'altitude 30,0 m (g = 9,81 N/kg). Calculer sa vitesse en B. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "19,8",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Em(A) = Em(B) : m g zA = ½ m vB² + m g zB. vB = √(2 g (zA − zB)) = √(2 × 9,81 × 20,0) ≈ 19,8 m/s.",
+      "step_by_step_solution": [
+        "Em(A) = Em(B) : m g zA = ½ m vB² + m g zB.",
+        "vB = √(2 g (zA − zB)) = √(2 × 9,81 × 20,0) ≈ 19,8 m/s."
+      ],
+      "hints": [
+        "Seule la différence d'altitude compte.",
+        "La masse n'est pas nécessaire."
+      ],
+      "common_errors": {
+        "31,3 m/s": "L'élève a utilisé l'altitude de A au lieu de la dénivellation."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.energie-mecanique.x03",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une balle lancée verticalement depuis le sol monte jusqu'à 12,0 m de hauteur. En négligeant les frottements, calculer sa vitesse de lancement (g = 9,81 N/kg). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "15,3",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Au sommet, v = 0 : ½ m v0² = m g h. v0 = √(2 g h) = √(2 × 9,81 × 12,0) ≈ 15,3 m/s.",
+      "step_by_step_solution": [
+        "Au sommet, v = 0 : ½ m v0² = m g h.",
+        "v0 = √(2 g h) = √(2 × 9,81 × 12,0) ≈ 15,3 m/s."
+      ],
+      "hints": [
+        "Écris la conservation de Em entre le sol et le sommet."
+      ],
+      "common_errors": {
+        "235 m/s": "L'élève a oublié la racine carrée."
+      },
+      "remediation": "L'énergie mécanique d'un système est la somme de son énergie cinétique et de son énergie potentielle de pesanteur : Em = ½ m v² + m g z (axe vertical orienté vers le haut, origine des altitudes choisie). En l'absence de frottements, Em se conserve : une diminution de Epp est compensée par une augmentation de Ec et inversement. On écrit Em(A) = Em(B) puis on isole l'inconnue. Avec des frottements, Em diminue. Unités : m en kg, v en m/s, z en m, énergies en J.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer Ec, Epp et Em",
+        "Exploiter la conservation de l'énergie mécanique",
+        "Identifier une situation de non-conservation"
+      ],
+      "source_notions": [
+        "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.d01",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un son de fréquence 680 Hz se propage dans l'air à 340 m/s. Calculer sa longueur d'onde.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,5",
+        "unit": "m"
+      },
+      "solution": "λ = v / f. λ = 340 ÷ 680 = 0,5 m.",
+      "step_by_step_solution": [
+        "λ = v / f.",
+        "λ = 340 ÷ 680 = 0,5 m."
+      ],
+      "hints": [
+        "Utilise λ = v / f."
+      ],
+      "common_errors": {
+        "2 m": "L'élève a calculé f / v.",
+        "231200 m": "L'élève a multiplié v par f."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.d02",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle relation lie la longueur d'onde λ, la célérité v et la période T d'une onde périodique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Pendant une période, l'onde parcourt une longueur d'onde. Donc : λ = v × T",
+      "step_by_step_solution": [
+        "Pendant une période, l'onde parcourt une longueur d'onde.",
+        "Donc : λ = v × T"
+      ],
+      "hints": [
+        "Distance = vitesse × durée."
+      ],
+      "common_errors": {
+        "1": "Quotient au lieu d'un produit.",
+        "2": "Relation inversée.",
+        "3": "Il faudrait diviser par f."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "choices": [
+        "λ = v × T",
+        "λ = v / T",
+        "λ = T / v",
+        "λ = v × f"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.d03",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Des vagues ont une période de 4,0 s et se propagent à 2,5 m/s. Calculer leur longueur d'onde.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "10",
+        "unit": "m"
+      },
+      "solution": "λ = v × T. λ = 2,5 × 4,0 = 10 m.",
+      "step_by_step_solution": [
+        "λ = v × T.",
+        "λ = 2,5 × 4,0 = 10 m."
+      ],
+      "hints": [
+        "Utilise λ = v × T."
+      ],
+      "common_errors": {
+        "0,625 m": "L'élève a divisé v par T."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.d04",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Qu'est-ce que la longueur d'onde d'une onde périodique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La longueur d'onde est la période spatiale de l'onde. La bonne réponse est : « La plus petite distance entre deux points du milieu qui vibrent en phase »",
+      "step_by_step_solution": [
+        "La longueur d'onde est la période spatiale de l'onde.",
+        "La bonne réponse est : « La plus petite distance entre deux points du milieu qui vibrent en phase »"
+      ],
+      "hints": [
+        "C'est une distance, pas une durée."
+      ],
+      "common_errors": {
+        "1": "C'est la période (périodicité temporelle).",
+        "2": "C'est la valeur de la célérité.",
+        "3": "L'amplitude n'est pas une périodicité."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "choices": [
+        "La plus petite distance entre deux points du milieu qui vibrent en phase",
+        "La durée d'une oscillation",
+        "La distance parcourue par l'onde en une seconde",
+        "L'amplitude de la perturbation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.d05",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un ultrason de fréquence 40 kHz se propage dans l'air à 340 m/s. Calculer sa longueur d'onde en mm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "8,5",
+        "unit": "mm"
+      },
+      "solution": "λ = v / f = 340 ÷ 40 000 = 8,5 × 10^-3 m. λ = 8,5 mm.",
+      "step_by_step_solution": [
+        "λ = v / f = 340 ÷ 40 000 = 8,5 × 10^-3 m.",
+        "λ = 8,5 mm."
+      ],
+      "hints": [
+        "Convertis la fréquence en hertz."
+      ],
+      "common_errors": {
+        "8500 mm": "L'élève n'a pas converti les kilohertz en hertz."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.a01",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une onde progresse le long d'une corde avec une longueur d'onde de 0,80 m et une fréquence de 5,0 Hz. Calculer sa célérité.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "4",
+        "unit": "m/s"
+      },
+      "solution": "v = λ × f. v = 0,80 × 5,0 = 4 m/s.",
+      "step_by_step_solution": [
+        "v = λ × f.",
+        "v = 0,80 × 5,0 = 4 m/s."
+      ],
+      "hints": [
+        "Isole v dans λ = v / f."
+      ],
+      "common_errors": {
+        "0,16 m/s": "L'élève a divisé λ par f."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.a02",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le sonar d'un bateau émet des ultrasons de fréquence 50 kHz dans l'eau de mer, où leur célérité vaut 1 500 m/s. Calculer leur longueur d'onde en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3",
+        "unit": "cm"
+      },
+      "solution": "λ = v / f = 1 500 ÷ 50 000 = 0,030 m. λ = 3 cm.",
+      "step_by_step_solution": [
+        "λ = v / f = 1 500 ÷ 50 000 = 0,030 m.",
+        "λ = 3 cm."
+      ],
+      "hints": [
+        "Convertis la fréquence en hertz."
+      ],
+      "common_errors": {
+        "3000 cm": "L'élève n'a pas converti les kilohertz en hertz."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.a03",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Sur le schéma d'une corde à un instant donné, 5 longueurs d'onde occupent 2,0 m. La fréquence de l'onde vaut 85 Hz. Calculer la célérité de l'onde.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "34",
+        "unit": "m/s"
+      },
+      "solution": "λ = 2,0 ÷ 5 = 0,40 m. v = λ × f = 0,40 × 85 = 34 m/s.",
+      "step_by_step_solution": [
+        "λ = 2,0 ÷ 5 = 0,40 m.",
+        "v = λ × f = 0,40 × 85 = 34 m/s."
+      ],
+      "hints": [
+        "Détermine d'abord une seule longueur d'onde."
+      ],
+      "common_errors": {
+        "170 m/s": "L'élève a pris 2,0 m comme longueur d'onde."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.a04",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "La fréquence d'un son qui se propage dans l'air double (la célérité ne change pas). Que devient sa longueur d'onde ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "λ = v / f avec v constante. Si f double, λ est divisée par 2. La bonne réponse est : « Elle est divisée par 2. »",
+      "step_by_step_solution": [
+        "λ = v / f avec v constante.",
+        "Si f double, λ est divisée par 2.",
+        "La bonne réponse est : « Elle est divisée par 2. »"
+      ],
+      "hints": [
+        "λ et f sont-elles proportionnelles ou inversement proportionnelles ?"
+      ],
+      "common_errors": {
+        "1": "λ et f varient en sens inverse.",
+        "2": "λ dépend de f."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "choices": [
+        "Elle est divisée par 2.",
+        "Elle double.",
+        "Elle ne change pas."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.a05",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une onde à la surface de l'eau a une période de 0,25 s et une longueur d'onde de 6,0 cm. Calculer sa célérité en m/s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,24",
+        "unit": "m/s"
+      },
+      "solution": "λ = 6,0 cm = 0,060 m. v = λ / T = 0,060 ÷ 0,25 = 0,24 m/s.",
+      "step_by_step_solution": [
+        "λ = 6,0 cm = 0,060 m.",
+        "v = λ / T = 0,060 ÷ 0,25 = 0,24 m/s."
+      ],
+      "hints": [
+        "Convertis la longueur d'onde en mètres."
+      ],
+      "common_errors": {
+        "24 m/s": "L'élève n'a pas converti les centimètres en mètres."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.c01",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La note do3 a une fréquence de 262 Hz. Dans l'air à 20 °C, la célérité du son vaut 343 m/s. Calculer la longueur d'onde de cette note. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,31",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "λ = v / f. λ = 343 ÷ 262 ≈ 1,31 m.",
+      "step_by_step_solution": [
+        "λ = v / f.",
+        "λ = 343 ÷ 262 ≈ 1,31 m."
+      ],
+      "hints": [
+        "Utilise λ = v / f."
+      ],
+      "common_errors": {
+        "0,764 m": "L'élève a calculé f / v."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.c02",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un son de fréquence 1,00 kHz passe de l'air (célérité 340 m/s) à l'eau (célérité 1 480 m/s). Calculer sa longueur d'onde dans l'eau. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,48",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "La fréquence ne change pas en changeant de milieu : f = 1 000 Hz. λ(eau) = 1 480 ÷ 1 000 = 1,48 m.",
+      "step_by_step_solution": [
+        "La fréquence ne change pas en changeant de milieu : f = 1 000 Hz.",
+        "λ(eau) = 1 480 ÷ 1 000 = 1,48 m."
+      ],
+      "hints": [
+        "Quelle grandeur se conserve lors du changement de milieu ?"
+      ],
+      "common_errors": {
+        "0,340 m": "L'élève a gardé la célérité dans l'air."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.c03",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Une onde sonore passe de l'air dans l'eau. Quelle grandeur ne change pas ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La fréquence est imposée par la source. La célérité dépend du milieu, donc λ = v / f aussi. La grandeur conservée est la fréquence.",
+      "step_by_step_solution": [
+        "La fréquence est imposée par la source.",
+        "La célérité dépend du milieu, donc λ = v / f aussi.",
+        "La grandeur conservée est la fréquence."
+      ],
+      "hints": [
+        "Qu'est-ce qui impose la fréquence d'une onde ?"
+      ],
+      "common_errors": {
+        "1": "La célérité dépend du milieu.",
+        "2": "λ = v / f change avec v."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "choices": [
+        "la fréquence.",
+        "la célérité.",
+        "la longueur d'onde."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.c04",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Deux points d'une corde, distants de 1,20 m, vibrent en phase ; entre eux, on compte exactement 3 longueurs d'onde. La célérité de l'onde vaut 6,0 m/s. Calculer la fréquence de l'onde.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "15",
+        "unit": "Hz"
+      },
+      "solution": "λ = 1,20 ÷ 3 = 0,40 m. f = v / λ = 6,0 ÷ 0,40 = 15 Hz.",
+      "step_by_step_solution": [
+        "λ = 1,20 ÷ 3 = 0,40 m.",
+        "f = v / λ = 6,0 ÷ 0,40 = 15 Hz."
+      ],
+      "hints": [
+        "Détermine d'abord λ."
+      ],
+      "common_errors": {
+        "5 Hz": "L'élève a pris 1,20 m comme longueur d'onde."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.c05",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "En échographie, une onde ultrasonore de fréquence 3,50 MHz se propage dans les tissus à 1 540 m/s. Calculer sa longueur d'onde en mm. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,440",
+        "unit": "mm",
+        "significant_figures": 3
+      },
+      "solution": "λ = v / f = 1 540 ÷ 3,50 × 10^6 = 4,40 × 10^-4 m. λ = 0,440 mm.",
+      "step_by_step_solution": [
+        "λ = v / f = 1 540 ÷ 3,50 × 10^6 = 4,40 × 10^-4 m.",
+        "λ = 0,440 mm."
+      ],
+      "hints": [
+        "1 MHz = 10^6 Hz."
+      ],
+      "common_errors": {
+        "440 mm": "L'élève a mal converti les mégahertz."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.x01",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Deux microphones reçoivent un son de fréquence 4,00 kHz et leurs signaux sont en phase. On éloigne l'un d'eux de la source : les signaux se retrouvent en phase 10 fois, et la distance entre les microphones a alors augmenté de 85,0 cm. Calculer la célérité du son. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "340",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "10 retours en phase correspondent à 10 longueurs d'onde : λ = 85,0 ÷ 10 = 8,50 cm = 0,0850 m. v = λ × f = 0,0850 × 4 000 = 340 m/s.",
+      "step_by_step_solution": [
+        "10 retours en phase correspondent à 10 longueurs d'onde : λ = 85,0 ÷ 10 = 8,50 cm = 0,0850 m.",
+        "v = λ × f = 0,0850 × 4 000 = 340 m/s."
+      ],
+      "hints": [
+        "À quelle distance correspond un retour en phase ?",
+        "Convertis en mètres et en hertz."
+      ],
+      "common_errors": {
+        "3400 m/s": "L'élève a pris 85,0 cm pour la longueur d'onde sans diviser par 10.",
+        "0,34 m/s": "L'élève n'a pas converti les kilohertz."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 12,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.x02",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une houle a une période de 8,0 s ; ses crêtes sont séparées de 100 m. Quelle durée faut-il à cette houle pour parcourir 3,0 km ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "240",
+        "unit": "s"
+      },
+      "solution": "v = λ / T = 100 ÷ 8,0 = 12,5 m/s. t = d / v = 3 000 ÷ 12,5 = 240 s.",
+      "step_by_step_solution": [
+        "v = λ / T = 100 ÷ 8,0 = 12,5 m/s.",
+        "t = d / v = 3 000 ÷ 12,5 = 240 s."
+      ],
+      "hints": [
+        "Calcule d'abord la célérité de la houle.",
+        "Convertis 3,0 km en mètres."
+      ],
+      "common_errors": {
+        "30 s": "L'élève a divisé la distance par λ puis multiplié par… une mauvaise valeur (3 000 ÷ 100).",
+        "0,24 s": "L'élève n'a pas converti les kilomètres en mètres."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.1RE.ondes-periodiques.x03",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un vibreur impose une fréquence de 50 Hz à une corde ; la longueur d'onde vaut 20,0 cm. On modifie la tension de la corde : la célérité de l'onde est multipliée par √2, la fréquence restant la même. Calculer la nouvelle longueur d'onde, en cm. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "28,3",
+        "unit": "cm",
+        "significant_figures": 3
+      },
+      "solution": "λ = v / f : f ne change pas, donc λ est multipliée par √2 comme v. λ' = 20,0 × √2 ≈ 28,3 cm.",
+      "step_by_step_solution": [
+        "λ = v / f : f ne change pas, donc λ est multipliée par √2 comme v.",
+        "λ' = 20,0 × √2 ≈ 28,3 cm."
+      ],
+      "hints": [
+        "La fréquence est imposée par le vibreur."
+      ],
+      "common_errors": {
+        "40,0 cm": "L'élève a multiplié par 2 au lieu de √2.",
+        "14,1 cm": "L'élève a divisé par √2."
+      },
+      "remediation": "Une onde périodique présente une double périodicité : temporelle (période T, en s) et spatiale (longueur d'onde λ, en m). Pendant une période, l'onde progresse d'une longueur d'onde : λ = v × T, soit λ = v / f (v, célérité en m/s ; f = 1 / T en Hz). Pour mesurer λ sur un schéma, mesurer la distance couvrant plusieurs longueurs d'onde puis diviser. Quand une onde change de milieu, sa fréquence ne change pas mais sa célérité et sa longueur d'onde changent. Conversions : 1 kHz = 10^3 Hz ; 1 MHz = 10^6 Hz ; 1 ms = 10^-3 s.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Utiliser la relation λ = v × T = v / f",
+        "Distinguer périodicité temporelle et périodicité spatiale",
+        "Convertir des unités (ms, kHz, MHz, cm, mm)"
+      ],
+      "source_notions": [
+        "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}
