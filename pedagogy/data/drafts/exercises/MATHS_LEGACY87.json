@@ -1,0 +1,3352 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.19",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : 8 + 3 × 2",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "14"
+      },
+      "solution": "La multiplication est prioritaire : 3 × 2 = 6. 8 + 6 = 14. La réponse est 14.",
+      "step_by_step_solution": [
+        "La multiplication est prioritaire : 3 × 2 = 6.",
+        "8 + 6 = 14.",
+        "La réponse est 14."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "22": "Calcul de gauche à droite sans priorité : (8 + 3) × 2."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.20",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : 15 - 4 × 3",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "La multiplication est prioritaire : 4 × 3 = 12. 15 − 12 = 3. La réponse est 3.",
+      "step_by_step_solution": [
+        "La multiplication est prioritaire : 4 × 3 = 12.",
+        "15 − 12 = 3.",
+        "La réponse est 3."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "33": "Calcul de gauche à droite sans priorité : (15 − 4) × 3."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.22",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : (12 - 5) × 3 + 8 ÷ 2",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "25"
+      },
+      "solution": "Parenthèses : 12 − 5 = 7. Produit et quotient : 7 × 3 = 21 et 8 ÷ 2 = 4. Somme : 21 + 4 = 25. La réponse est 25.",
+      "step_by_step_solution": [
+        "Parenthèses : 12 − 5 = 7.",
+        "Produit et quotient : 7 × 3 = 21 et 8 ÷ 2 = 4.",
+        "Somme : 21 + 4 = 25.",
+        "La réponse est 25."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "14.5": "Calcul de gauche à droite après les parenthèses : (7 × 3 + 8) ÷ 2."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.23",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : 10 + 6 × (4 - 2) - 15 ÷ 3",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "17"
+      },
+      "solution": "Parenthèses : 4 − 2 = 2. Produit et quotient : 6 × 2 = 12 et 15 ÷ 3 = 5. De gauche à droite : 10 + 12 = 22, puis 22 − 5 = 17. La réponse est 17.",
+      "step_by_step_solution": [
+        "Parenthèses : 4 − 2 = 2.",
+        "Produit et quotient : 6 × 2 = 12 et 15 ÷ 3 = 5.",
+        "De gauche à droite : 10 + 12 = 22, puis 22 − 5 = 17.",
+        "La réponse est 17."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "27": "Signe du dernier terme mal lu : 10 + 12 + 5 au lieu de 10 + 12 − 5.",
+        "32": "Addition effectuée avant le produit ((10 + 6) × 2 = 32) et terme − 15 ÷ 3 oublié."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.24",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : 3 + 4 × 2",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11"
+      },
+      "solution": "La multiplication est prioritaire : 4 × 2 = 8. 3 + 8 = 11. La réponse est 11.",
+      "step_by_step_solution": [
+        "La multiplication est prioritaire : 4 × 2 = 8.",
+        "3 + 8 = 11.",
+        "La réponse est 11."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "14": "Calcul de gauche à droite sans priorité : (3 + 4) × 2."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.25",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : (5 + 2) × 3",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "21"
+      },
+      "solution": "Parenthèses d'abord : 5 + 2 = 7. 7 × 3 = 21. La réponse est 21.",
+      "step_by_step_solution": [
+        "Parenthèses d'abord : 5 + 2 = 7.",
+        "7 × 3 = 21.",
+        "La réponse est 21."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "11": "Parenthèses ignorées : 5 + 2 × 3."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.26",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : 8 - 3 × (4 + 1)",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-7"
+      },
+      "solution": "Parenthèses : 4 + 1 = 5. Produit : 3 × 5 = 15. 8 − 15 = −7 (le résultat est un nombre négatif). La réponse est -7.",
+      "step_by_step_solution": [
+        "Parenthèses : 4 + 1 = 5.",
+        "Produit : 3 × 5 = 15.",
+        "8 − 15 = −7 (le résultat est un nombre négatif).",
+        "La réponse est -7."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "25": "Calcul de gauche à droite : (8 − 3) × 5.",
+        "7": "Erreur de signe : 15 − 8 au lieu de 8 − 15."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires",
+        "Soustraire deux nombres relatifs"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.27",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : (7 - 2) × (6 + 3) - 5",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "40"
+      },
+      "solution": "Parenthèses : 7 − 2 = 5 et 6 + 3 = 9. Produit : 5 × 9 = 45. 45 − 5 = 40. La réponse est 40.",
+      "step_by_step_solution": [
+        "Parenthèses : 7 − 2 = 5 et 6 + 3 = 9.",
+        "Produit : 5 × 9 = 45.",
+        "45 − 5 = 40.",
+        "La réponse est 40."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "45": "Oubli de la soustraction finale : seul le produit (7 − 2) × (6 + 3) est calculé.",
+        "28": "Parenthèses du second facteur ignorées : (7 − 2) × 6 + 3 − 5 = 30 + 3 − 5."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.29",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : 3 + 2 × 4",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11"
+      },
+      "solution": "La multiplication est prioritaire : 2 × 4 = 8. 3 + 8 = 11. La réponse est 11.",
+      "step_by_step_solution": [
+        "La multiplication est prioritaire : 2 × 4 = 8.",
+        "3 + 8 = 11.",
+        "La réponse est 11."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "20": "Calcul de gauche à droite sans priorité : (3 + 2) × 4."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.30",
+      "notion_id": "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : (5 + 3) × 2",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "16"
+      },
+      "solution": "Parenthèses d'abord : 5 + 3 = 8. 8 × 2 = 16. La réponse est 16.",
+      "step_by_step_solution": [
+        "Parenthèses d'abord : 5 + 3 = 8.",
+        "8 × 2 = 16.",
+        "La réponse est 16."
+      ],
+      "hints": [
+        "On effectue d'abord les calculs entre parenthèses, puis les multiplications et divisions, puis les additions et soustractions de gauche à droite."
+      ],
+      "common_errors": {
+        "11": "Parenthèses ignorées : 5 + 3 × 2."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.connaitre-et-utiliser-les-priorites-operatoires"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.31",
+      "notion_id": "MATHS.5E.NC.calculer-la-valeur-numerique-dexpressions-contenant-des-puissances-sim",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : 2 × 3²",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "18"
+      },
+      "solution": "La puissance est prioritaire : 3² = 3 × 3 = 9. 2 × 9 = 18. La réponse est 18.",
+      "step_by_step_solution": [
+        "La puissance est prioritaire : 3² = 3 × 3 = 9.",
+        "2 × 9 = 18.",
+        "La réponse est 18."
+      ],
+      "hints": [
+        "Une puissance se calcule avant la multiplication.",
+        "3² signifie 3 × 3."
+      ],
+      "common_errors": {
+        "36": "Carré appliqué au produit : (2 × 3)².",
+        "12": "Confusion carré / double : 3² lu comme 3 × 2."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires",
+        "Calculer un carré"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.calculer-la-valeur-numerique-dexpressions-contenant-des-puissances-sim"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.32",
+      "notion_id": "MATHS.5E.NC.calculer-la-valeur-numerique-dexpressions-contenant-des-puissances-sim",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : (4 + 1) × 2²",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "20"
+      },
+      "solution": "Parenthèses : 4 + 1 = 5. Puissance : 2² = 4. 5 × 4 = 20. La réponse est 20.",
+      "step_by_step_solution": [
+        "Parenthèses : 4 + 1 = 5.",
+        "Puissance : 2² = 4.",
+        "5 × 4 = 20.",
+        "La réponse est 20."
+      ],
+      "hints": [
+        "Ordre : parenthèses, puis puissances, puis multiplications.",
+        "2² signifie 2 × 2."
+      ],
+      "common_errors": {
+        "100": "Carré appliqué à tout le produit : (5 × 2)².",
+        "10": "Exposant ignoré : 5 × 2."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires",
+        "Calculer un carré"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.calculer-la-valeur-numerique-dexpressions-contenant-des-puissances-sim"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.33",
+      "notion_id": "MATHS.5E.NC.calculer-la-valeur-numerique-dexpressions-contenant-des-puissances-sim",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule : 3 × (2 + 5)² - 4",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "143"
+      },
+      "solution": "Parenthèses : 2 + 5 = 7. Puissance : 7² = 49. Produit : 3 × 49 = 147. Soustraction : 147 − 4 = 143. La réponse est 143.",
+      "step_by_step_solution": [
+        "Parenthèses : 2 + 5 = 7.",
+        "Puissance : 7² = 49.",
+        "Produit : 3 × 49 = 147.",
+        "Soustraction : 147 − 4 = 143.",
+        "La réponse est 143."
+      ],
+      "hints": [
+        "Ordre : parenthèses, puis puissances, puis multiplications, puis soustractions.",
+        "(2 + 5)² est le carré du résultat de la parenthèse."
+      ],
+      "common_errors": {
+        "437": "Carré appliqué au produit : (3 × 7)² − 4 = 441 − 4.",
+        "38": "Confusion carré / double : 7² lu comme 7 × 2 = 14, puis 3 × 14 − 4."
+      },
+      "remediation": "Souligner d'abord les produits et quotients de l'expression, les calculer, réécrire l'expression puis finir de gauche à droite ; comparer avec un calcul à la calculatrice scientifique.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaître et utiliser les priorités opératoires",
+        "Calculer un carré"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.calculer-la-valeur-numerique-dexpressions-contenant-des-puissances-sim"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.legacy87.43",
+      "notion_id": "MATHS.4E.OGDF.le-calcul-dune-quatrieme-proportionnelle-est-systematise-et-les-points",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Sur une carte routière à l'échelle 1/250 000, la distance entre deux villes est représentée par un segment de 8,4 cm. Quelle est la distance réelle, en kilomètres, entre ces deux villes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "21"
+      },
+      "solution": "Échelle 1/250 000 : 1 cm sur la carte représente 250 000 cm en réalité (situation de proportionnalité). Distance réelle : 8,4 × 250 000 = 2 100 000 cm. Conversion : 2 100 000 cm = 21 000 m = 21 km. La distance réelle est 21 km.",
+      "step_by_step_solution": [
+        "Échelle 1/250 000 : 1 cm sur la carte représente 250 000 cm en réalité (situation de proportionnalité).",
+        "Distance réelle : 8,4 × 250 000 = 2 100 000 cm.",
+        "Conversion : 2 100 000 cm = 21 000 m = 21 km.",
+        "La distance réelle est 21 km."
+      ],
+      "hints": [
+        "Que représente 1 cm sur la carte avec une échelle 1/250 000 ?",
+        "Attention à la conversion finale des centimètres en kilomètres (1 km = 100 000 cm)."
+      ],
+      "common_errors": {
+        "2.1": "Erreur de conversion : division par 1 000 000 au lieu de 100 000.",
+        "210": "Erreur de conversion : division par 10 000 au lieu de 100 000."
+      },
+      "remediation": "Construire un tableau de proportionnalité (carte en cm / réalité en cm), calculer la quatrième proportionnelle, puis convertir avec un tableau de conversion km-hm-dam-m-dm-cm.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une quatrième proportionnelle",
+        "Utiliser une échelle",
+        "Convertir des longueurs"
+      ],
+      "source_notions": [
+        "MATHS.4E.OGDF.le-calcul-dune-quatrieme-proportionnelle-est-systematise-et-les-points"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.legacy87.44",
+      "notion_id": "MATHS.3E.OGDF.le-lien-est-fait-entre-taux-devolution-et-coefficient-multiplicateur-a",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un magasin augmente le prix d'un article de 20% puis applique une réduction de 10% sur le nouveau prix. Si le prix initial était de 120 €, quel est le prix final en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "129.6"
+      },
+      "solution": "Augmenter de 20 % revient à multiplier par 1,2 : 120 × 1,2 = 144. Diminuer de 10 % revient à multiplier par 0,9 : 144 × 0,9 = 129,6. (Coefficient global : 1,2 × 0,9 = 1,08.) Le prix final est 129,6 euros.",
+      "step_by_step_solution": [
+        "Augmenter de 20 % revient à multiplier par 1,2 : 120 × 1,2 = 144.",
+        "Diminuer de 10 % revient à multiplier par 0,9 : 144 × 0,9 = 129,6.",
+        "(Coefficient global : 1,2 × 0,9 = 1,08.) Le prix final est 129,6 euros."
+      ],
+      "hints": [
+        "Associe à chaque évolution un coefficient multiplicateur.",
+        "La réduction de 10 % s'applique au nouveau prix, pas au prix initial."
+      ],
+      "common_errors": {
+        "132": "Les pourcentages ont été additionnés (+20 % − 10 % = +10 %) : 120 × 1,1.",
+        "144": "La réduction de 10 % a été oubliée (seule la hausse est appliquée).",
+        "108": "La réduction de 10 % a été appliquée au prix initial (120 × 0,9), la hausse oubliée."
+      },
+      "remediation": "Revoir le lien taux d'évolution / coefficient multiplicateur (1 + t/100) et montrer sur un exemple que des évolutions successives se composent en multipliant les coefficients.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Appliquer un taux d'évolution",
+        "Utiliser un coefficient multiplicateur",
+        "Enchaîner des évolutions successives"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.le-lien-est-fait-entre-taux-devolution-et-coefficient-multiplicateur-a"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.legacy87.47",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Une urne contient 5 boules rouges, 3 boules bleues et 2 boules vertes, toutes indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité d'obtenir une boule bleue ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/10"
+      },
+      "solution": "Il y a 5 + 3 + 2 = 10 boules, toutes ont la même chance d'être tirées (équiprobabilité). 3 issues sont favorables (les boules bleues). La probabilité d'obtenir une boule bleue est 3/10.",
+      "step_by_step_solution": [
+        "Il y a 5 + 3 + 2 = 10 boules, toutes ont la même chance d'être tirées (équiprobabilité).",
+        "3 issues sont favorables (les boules bleues).",
+        "La probabilité d'obtenir une boule bleue est 3/10."
+      ],
+      "hints": [
+        "Compte d'abord le nombre total de boules.",
+        "Probabilité = nombre d'issues favorables / nombre total d'issues."
+      ],
+      "common_errors": {
+        "3/7": "L'élève a divisé par le nombre de boules non bleues au lieu du nombre total.",
+        "1/3": "L'élève a considéré les trois couleurs comme équiprobables."
+      },
+      "remediation": "Lister les 10 issues possibles, entourer les issues favorables, puis écrire le quotient favorables / total.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une probabilité par dénombrement",
+        "Reconnaître une situation d'équiprobabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.legacy87.49",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un jeu de 32 cartes est mélangé. On tire une carte au hasard. Quelle est la probabilité de tirer un roi ou un cœur (en comptant le roi de cœur une seule fois) ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11/32"
+      },
+      "solution": "Un jeu de 32 cartes contient 4 rois et 8 cœurs. Le roi de cœur est compté dans les deux groupes : on ne le compte qu'une fois, soit 4 + 8 − 1 = 11 cartes favorables. Les 32 cartes sont équiprobables : la probabilité est 11/32.",
+      "step_by_step_solution": [
+        "Un jeu de 32 cartes contient 4 rois et 8 cœurs.",
+        "Le roi de cœur est compté dans les deux groupes : on ne le compte qu'une fois, soit 4 + 8 − 1 = 11 cartes favorables.",
+        "Les 32 cartes sont équiprobables : la probabilité est 11/32."
+      ],
+      "hints": [
+        "Combien y a-t-il de rois et de cœurs dans un jeu de 32 cartes ?",
+        "Une carte est à la fois roi et cœur : ne la compte pas deux fois."
+      ],
+      "common_errors": {
+        "12/32": "Le roi de cœur a été compté deux fois (4 + 8).",
+        "1/32": "Seul le roi de cœur a été compté (confusion « ou » / « et »)."
+      },
+      "remediation": "Représenter le jeu de 32 cartes dans un tableau (valeurs × couleurs), colorier les rois et les cœurs, puis compter les cases coloriées.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une probabilité par dénombrement",
+        "Dénombrer une réunion d'évènements sans double compte"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.51",
+      "notion_id": "MATHS.5E.OGDP.calculer-et-interpreter-la-moyenne-simple-dune-serie-de-donnees",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Lors d'un contrôle de maths, les notes obtenues par les 12 élèves d'une classe sont : 12 ; 8 ; 15 ; 10 ; 14 ; 9 ; 11 ; 13 ; 7 ; 10 ; 12 ; 14. Quelle est la note moyenne de cette classe ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11.25"
+      },
+      "solution": "Somme des notes : 12 + 8 + 15 + 10 + 14 + 9 + 11 + 13 + 7 + 10 + 12 + 14 = 135. Il y a 12 notes : moyenne = 135 ÷ 12. 135 ÷ 12 = 11,25. La note moyenne est 11,25.",
+      "step_by_step_solution": [
+        "Somme des notes : 12 + 8 + 15 + 10 + 14 + 9 + 11 + 13 + 7 + 10 + 12 + 14 = 135.",
+        "Il y a 12 notes : moyenne = 135 ÷ 12.",
+        "135 ÷ 12 = 11,25. La note moyenne est 11,25."
+      ],
+      "hints": [
+        "La moyenne est la somme des valeurs divisée par le nombre de valeurs.",
+        "Vérifie que tu as bien additionné les 12 notes."
+      ],
+      "common_errors": {
+        "11": "Résultat tronqué à l'unité au lieu de la valeur exacte 11,25.",
+        "13.5": "La somme a été divisée par 10 au lieu du nombre de notes (12)."
+      },
+      "remediation": "Faire calculer la somme par regroupements (paires de notes), puis diviser par l'effectif total ; contrôler que la moyenne est comprise entre la plus petite et la plus grande note.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une moyenne simple",
+        "Additionner une série de nombres"
+      ],
+      "source_notions": [
+        "MATHS.5E.OGDP.calculer-et-interpreter-la-moyenne-simple-dune-serie-de-donnees"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.legacy87.52",
+      "notion_id": "MATHS.4E.OGDF.un-nouvel-indicateur-de-position-est-introduit-la-mediane",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un magasin enregistre le nombre de clients par jour pendant une semaine : 45 ; 38 ; 52 ; 41 ; 49 ; 35 ; 47. Quelle est la médiane de cette série de données ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "45"
+      },
+      "solution": "On range les 7 valeurs dans l'ordre croissant : 35 ; 38 ; 41 ; 45 ; 47 ; 49 ; 52. L'effectif est 7 (impair) : la médiane est la 4e valeur. La médiane de cette série est 45.",
+      "step_by_step_solution": [
+        "On range les 7 valeurs dans l'ordre croissant : 35 ; 38 ; 41 ; 45 ; 47 ; 49 ; 52.",
+        "L'effectif est 7 (impair) : la médiane est la 4e valeur.",
+        "La médiane de cette série est 45."
+      ],
+      "hints": [
+        "Commence par ranger les valeurs dans l'ordre croissant.",
+        "Avec 7 valeurs, la médiane est la valeur du milieu."
+      ],
+      "common_errors": {
+        "41": "Valeurs non rangées : l'élève a pris la valeur du milieu de la liste non triée.",
+        "43.857": "Confusion médiane / moyenne (307 ÷ 7 ≈ 43,857)."
+      },
+      "remediation": "Écrire les valeurs sur des étiquettes, les ranger, puis barrer alternativement la plus petite et la plus grande jusqu'à ce qu'il en reste une.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer une médiane",
+        "Ranger une série de données"
+      ],
+      "source_notions": [
+        "MATHS.4E.OGDF.un-nouvel-indicateur-de-position-est-introduit-la-mediane"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.legacy87.53",
+      "notion_id": "MATHS.3E.OGDF.un-indicateur-de-dispersion-est-introduit-letendue",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Un professeur relève les tailles (en cm) de 8 élèves : 158 ; 162 ; 155 ; 160 ; 157 ; 163 ; 159 ; 161. Calculer l'étendue de cette série.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "La plus grande taille est 163 cm et la plus petite 155 cm. Étendue = plus grande valeur − plus petite valeur = 163 − 155. 163 − 155 = 8. L'étendue est 8 cm.",
+      "step_by_step_solution": [
+        "La plus grande taille est 163 cm et la plus petite 155 cm.",
+        "Étendue = plus grande valeur − plus petite valeur = 163 − 155.",
+        "163 − 155 = 8. L'étendue est 8 cm."
+      ],
+      "hints": [
+        "L'étendue est l'écart entre la plus grande et la plus petite valeur.",
+        "Repère d'abord la valeur maximale et la valeur minimale."
+      ],
+      "common_errors": {
+        "4": "L'élève a soustrait les deux premières valeurs de la liste (162 − 158).",
+        "3": "Erreur de repérage du maximum ou du minimum (par exemple 161 − 158)."
+      },
+      "remediation": "Ranger la série, entourer la plus petite et la plus grande valeur, puis calculer leur différence.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une étendue",
+        "Repérer le minimum et le maximum d'une série"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.un-indicateur-de-dispersion-est-introduit-letendue"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.55",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule la somme des fractions 3/5 et 7/10.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "13/10"
+      },
+      "solution": "On met au même dénominateur 10 : 3/5 = 6/10. 6/10 + 7/10 = 13/10. La somme est 13/10.",
+      "step_by_step_solution": [
+        "On met au même dénominateur 10 : 3/5 = 6/10.",
+        "6/10 + 7/10 = 13/10.",
+        "La somme est 13/10."
+      ],
+      "hints": [
+        "Les dénominateurs sont différents : cherche un dénominateur commun.",
+        "10 est un multiple de 5."
+      ],
+      "common_errors": {
+        "10/15": "Numérateurs et dénominateurs additionnés entre eux : (3 + 7)/(5 + 10).",
+        "10/10": "Numérateurs additionnés sans mise au même dénominateur."
+      },
+      "remediation": "Illustrer avec une bande partagée en 10 : 3/5 correspond à 6 dixièmes ; ne jamais additionner les dénominateurs.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Additionner des fractions de dénominateurs différents",
+        "Écrire des fractions égales"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.legacy87.56",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quelle est la différence entre 11/12 et 5/8 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7/24"
+      },
+      "solution": "Dénominateur commun 24 : 11/12 = 22/24 et 5/8 = 15/24. 22/24 − 15/24 = 7/24. La différence est 7/24.",
+      "step_by_step_solution": [
+        "Dénominateur commun 24 : 11/12 = 22/24 et 5/8 = 15/24.",
+        "22/24 − 15/24 = 7/24.",
+        "La différence est 7/24."
+      ],
+      "hints": [
+        "Cherche le plus petit multiple commun de 12 et 8.",
+        "12 × 2 = 24 et 8 × 3 = 24."
+      ],
+      "common_errors": {
+        "6/4": "Numérateurs et dénominateurs soustraits entre eux : (11 − 5)/(12 − 8).",
+        "6/12": "Numérateurs soustraits sans mise au même dénominateur."
+      },
+      "remediation": "Lister les multiples de 12 et de 8 pour trouver 24, réécrire chaque fraction sur 24, puis soustraire les numérateurs uniquement.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Soustraire des fractions de dénominateurs quelconques",
+        "Trouver un dénominateur commun"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.legacy87.59",
+      "notion_id": "MATHS.4E.NC.la-notion-dinverse-est-introduite-les-operations-entre-fractions-sont",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule le produit de 4/9 par 3/8.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/6"
+      },
+      "solution": "On multiplie numérateurs et dénominateurs : (4 × 3)/(9 × 8) = 12/72. On simplifie par 12 : 12/72 = 1/6. Le produit est 1/6.",
+      "step_by_step_solution": [
+        "On multiplie numérateurs et dénominateurs : (4 × 3)/(9 × 8) = 12/72.",
+        "On simplifie par 12 : 12/72 = 1/6.",
+        "Le produit est 1/6."
+      ],
+      "hints": [
+        "Pour multiplier deux fractions, on multiplie les numérateurs entre eux et les dénominateurs entre eux.",
+        "Pense à simplifier le résultat."
+      ],
+      "common_errors": {
+        "32/27": "Produit en croix effectué (4 × 8)/(9 × 3) : confusion avec la division.",
+        "7/17": "Numérateurs et dénominateurs additionnés au lieu d'être multipliés."
+      },
+      "remediation": "Illustrer 3/8 de 4/9 d'un rectangle (quadrillage 9 × 8), puis institutionnaliser la règle et la simplification avant ou après calcul.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Multiplier deux fractions",
+        "Simplifier une fraction"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.la-notion-dinverse-est-introduite-les-operations-entre-fractions-sont"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.legacy87.60",
+      "notion_id": "MATHS.4E.NC.la-notion-dinverse-est-introduite-les-operations-entre-fractions-sont",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Divise 7/12 par 14.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/24"
+      },
+      "solution": "Diviser par 14 revient à multiplier par l'inverse 1/14 : 7/12 × 1/14 = 7/168. On simplifie par 7 : 7/168 = 1/24. Le résultat est 1/24.",
+      "step_by_step_solution": [
+        "Diviser par 14 revient à multiplier par l'inverse 1/14 : 7/12 × 1/14 = 7/168.",
+        "On simplifie par 7 : 7/168 = 1/24.",
+        "Le résultat est 1/24."
+      ],
+      "hints": [
+        "Diviser par un nombre revient à multiplier par son inverse.",
+        "Quel est l'inverse de 14 ?"
+      ],
+      "common_errors": {
+        "98/12": "Multiplication par 14 au lieu d'une division.",
+        "24": "La fraction a été inversée au lieu du diviseur : 12/7 × 14 = 24."
+      },
+      "remediation": "Revoir la notion d'inverse, puis écrire systématiquement « ÷ b = × 1/b » avant de calculer ; vérifier en multipliant le résultat par 14.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Diviser une fraction par un entier",
+        "Utiliser l'inverse d'un nombre",
+        "Simplifier une fraction"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.la-notion-dinverse-est-introduite-les-operations-entre-fractions-sont"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.legacy87.63",
+      "notion_id": "MATHS.3E.NC.la-notion-de-fraction-irreductible-est-introduite",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Simplifie la fraction 18/24 pour obtenir sa forme irréductible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/4",
+        "required_form": "fraction_irreductible"
+      },
+      "solution": "18 et 24 sont divisibles par 6 (leur plus grand diviseur commun). 18/24 = (18 ÷ 6)/(24 ÷ 6) = 3/4. 3 et 4 n'ont plus de diviseur commun autre que 1 : la fraction irréductible est 3/4.",
+      "step_by_step_solution": [
+        "18 et 24 sont divisibles par 6 (leur plus grand diviseur commun).",
+        "18/24 = (18 ÷ 6)/(24 ÷ 6) = 3/4.",
+        "3 et 4 n'ont plus de diviseur commun autre que 1 : la fraction irréductible est 3/4."
+      ],
+      "hints": [
+        "Cherche un diviseur commun à 18 et 24.",
+        "Continue à simplifier tant que numérateur et dénominateur ont un diviseur commun."
+      ],
+      "common_errors": {
+        "9/12": "Simplification incomplète (division par 2 seulement) : la fraction n'est pas irréductible.",
+        "6/8": "Simplification incomplète (division par 3 seulement)."
+      },
+      "remediation": "Décomposer numérateur et dénominateur en produits de facteurs premiers, puis barrer les facteurs communs ; vérifier que le résultat n'est plus simplifiable.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Simplifier une fraction",
+        "Rendre une fraction irréductible",
+        "Utiliser les diviseurs communs"
+      ],
+      "source_notions": [
+        "MATHS.3E.NC.la-notion-de-fraction-irreductible-est-introduite"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.legacy87.64",
+      "notion_id": "MATHS.3E.NC.la-notion-de-fraction-irreductible-est-introduite",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quelle fraction irréductible est égale à 45/60 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/4",
+        "required_form": "fraction_irreductible"
+      },
+      "solution": "45 et 60 sont divisibles par 15 (leur plus grand diviseur commun). 45/60 = (45 ÷ 15)/(60 ÷ 15) = 3/4. 3 et 4 n'ont plus de diviseur commun autre que 1 : la fraction irréductible est 3/4.",
+      "step_by_step_solution": [
+        "45 et 60 sont divisibles par 15 (leur plus grand diviseur commun).",
+        "45/60 = (45 ÷ 15)/(60 ÷ 15) = 3/4.",
+        "3 et 4 n'ont plus de diviseur commun autre que 1 : la fraction irréductible est 3/4."
+      ],
+      "hints": [
+        "Cherche un diviseur commun à 45 et 60.",
+        "Continue à simplifier tant que numérateur et dénominateur ont un diviseur commun."
+      ],
+      "common_errors": {
+        "9/12": "Simplification incomplète (division par 5 seulement).",
+        "15/20": "Simplification incomplète (division par 3 seulement)."
+      },
+      "remediation": "Décomposer numérateur et dénominateur en produits de facteurs premiers, puis barrer les facteurs communs ; vérifier que le résultat n'est plus simplifiable.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Simplifier une fraction",
+        "Rendre une fraction irréductible",
+        "Utiliser les diviseurs communs"
+      ],
+      "source_notions": [
+        "MATHS.3E.NC.la-notion-de-fraction-irreductible-est-introduite"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.legacy87.65",
+      "notion_id": "MATHS.3E.NC.la-notion-de-fraction-irreductible-est-introduite",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Trouve la forme simplifiée de 56/84.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2/3",
+        "required_form": "fraction_irreductible"
+      },
+      "solution": "56 et 84 sont divisibles par 28 (leur plus grand diviseur commun). 56/84 = (56 ÷ 28)/(84 ÷ 28) = 2/3. 2 et 3 n'ont plus de diviseur commun autre que 1 : la fraction irréductible est 2/3.",
+      "step_by_step_solution": [
+        "56 et 84 sont divisibles par 28 (leur plus grand diviseur commun).",
+        "56/84 = (56 ÷ 28)/(84 ÷ 28) = 2/3.",
+        "2 et 3 n'ont plus de diviseur commun autre que 1 : la fraction irréductible est 2/3."
+      ],
+      "hints": [
+        "Cherche un diviseur commun à 56 et 84.",
+        "Continue à simplifier tant que numérateur et dénominateur ont un diviseur commun."
+      ],
+      "common_errors": {
+        "14/21": "Simplification incomplète (division par 4 seulement).",
+        "8/12": "Simplification incomplète (division par 7 seulement)."
+      },
+      "remediation": "Décomposer numérateur et dénominateur en produits de facteurs premiers, puis barrer les facteurs communs ; vérifier que le résultat n'est plus simplifiable.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Simplifier une fraction",
+        "Rendre une fraction irréductible",
+        "Utiliser les diviseurs communs"
+      ],
+      "source_notions": [
+        "MATHS.3E.NC.la-notion-de-fraction-irreductible-est-introduite"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.legacy87.66",
+      "notion_id": "MATHS.3E.NC.la-notion-de-fraction-irreductible-est-introduite",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Simplifie au maximum la fraction 120/180.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2/3",
+        "required_form": "fraction_irreductible"
+      },
+      "solution": "120 et 180 sont divisibles par 60 (leur plus grand diviseur commun). 120/180 = (120 ÷ 60)/(180 ÷ 60) = 2/3. 2 et 3 n'ont plus de diviseur commun autre que 1 : la fraction irréductible est 2/3.",
+      "step_by_step_solution": [
+        "120 et 180 sont divisibles par 60 (leur plus grand diviseur commun).",
+        "120/180 = (120 ÷ 60)/(180 ÷ 60) = 2/3.",
+        "2 et 3 n'ont plus de diviseur commun autre que 1 : la fraction irréductible est 2/3."
+      ],
+      "hints": [
+        "Cherche un diviseur commun à 120 et 180.",
+        "Continue à simplifier tant que numérateur et dénominateur ont un diviseur commun."
+      ],
+      "common_errors": {
+        "12/18": "Simplification incomplète (division par 10 seulement).",
+        "4/6": "Simplification incomplète (division par 30 seulement)."
+      },
+      "remediation": "Décomposer numérateur et dénominateur en produits de facteurs premiers, puis barrer les facteurs communs ; vérifier que le résultat n'est plus simplifiable.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Simplifier une fraction",
+        "Rendre une fraction irréductible",
+        "Utiliser les diviseurs communs"
+      ],
+      "source_notions": [
+        "MATHS.3E.NC.la-notion-de-fraction-irreductible-est-introduite"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.legacy87.70",
+      "notion_id": "MATHS.4E.NC.la-notion-dinverse-est-introduite-les-operations-entre-fractions-sont",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un cycliste parcourt 3/5 d'un trajet en 2 heures. Il roule ensuite à la même vitesse pendant 45 minutes. Quelle fraction du trajet total a-t-il parcourue en 45 minutes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9/40"
+      },
+      "solution": "2 heures = 120 minutes. La vitesse est constante : la fraction parcourue est proportionnelle à la durée. 45 minutes représentent 45/120 = 3/8 de la durée de 2 heures. Fraction parcourue en 45 minutes : 3/8 × 3/5 = 9/40. Le cycliste parcourt 9/40 du trajet total en 45 minutes.",
+      "step_by_step_solution": [
+        "2 heures = 120 minutes. La vitesse est constante : la fraction parcourue est proportionnelle à la durée.",
+        "45 minutes représentent 45/120 = 3/8 de la durée de 2 heures.",
+        "Fraction parcourue en 45 minutes : 3/8 × 3/5 = 9/40.",
+        "Le cycliste parcourt 9/40 du trajet total en 45 minutes."
+      ],
+      "hints": [
+        "Exprime 45 minutes comme une fraction de 2 heures (pense à convertir en minutes).",
+        "Il faut alors prendre cette fraction de 3/5."
+      ],
+      "common_errors": {
+        "3/8": "Seule la fraction de durée (45/120) a été calculée, sans l'appliquer à 3/5.",
+        "27/200": "Durée mal convertie : 2 h comptées comme 200 minutes."
+      },
+      "remediation": "Faire un tableau de proportionnalité durée (min) / fraction du trajet : 120 ↔ 3/5, 15 ↔ 3/40, 45 ↔ 9/40 ; puis relier au produit de fractions.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Multiplier deux fractions",
+        "Raisonner en proportionnalité",
+        "Convertir des durées"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.la-notion-dinverse-est-introduite-les-operations-entre-fractions-sont"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.75",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léa a 24 billes. Son frère lui donne 18 billes. Combien Léa a-t-elle de billes maintenant ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "42"
+      },
+      "solution": "On connaît les deux parties (24 et 18) et on cherche le tout. On ajoute les deux parties : 24 + 18. 24 + 18 = 42. La réponse est 42.",
+      "step_by_step_solution": [
+        "On connaît les deux parties (24 et 18) et on cherche le tout.",
+        "On ajoute les deux parties : 24 + 18.",
+        "24 + 18 = 42. La réponse est 42."
+      ],
+      "hints": [
+        "Cherche-t-on une partie ou le tout ?",
+        "Pour trouver le tout, on réunit les deux parties."
+      ],
+      "common_errors": {
+        "6": "L'élève a soustrait les deux nombres au lieu de réunir les deux parties.",
+        "32": "Oubli de la retenue dans l'addition des unités."
+      },
+      "remediation": "Représenter chaque partie avec des barres de dix et des cubes, réunir le tout puis dénombrer ; faire un schéma en barre partie / partie / tout.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Calculer une somme"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.76",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un panier, il y a 37 pommes. On ajoute 25 pommes. Combien y a-t-il de pommes dans le panier ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "62"
+      },
+      "solution": "On connaît les deux parties (37 et 25) et on cherche le tout. On ajoute les deux parties : 37 + 25. 37 + 25 = 62. La réponse est 62.",
+      "step_by_step_solution": [
+        "On connaît les deux parties (37 et 25) et on cherche le tout.",
+        "On ajoute les deux parties : 37 + 25.",
+        "37 + 25 = 62. La réponse est 62."
+      ],
+      "hints": [
+        "Cherche-t-on une partie ou le tout ?",
+        "Pour trouver le tout, on réunit les deux parties."
+      ],
+      "common_errors": {
+        "12": "L'élève a soustrait les deux nombres au lieu de réunir les deux parties.",
+        "52": "Oubli de la retenue dans l'addition des unités."
+      },
+      "remediation": "Représenter chaque partie avec des barres de dix et des cubes, réunir le tout puis dénombrer ; faire un schéma en barre partie / partie / tout.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Calculer une somme"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.77",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Un gâteau coûte 12 €. Pour un anniversaire, on achète 3 gâteaux. Combien paie-t-on en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "36"
+      },
+      "solution": "Il y a 3 groupes identiques de 12 (ou 12 groupes de 3) : on cherche le tout. On calcule le produit : 3 × 12. 3 × 12 = 36. La réponse est 36.",
+      "step_by_step_solution": [
+        "Il y a 3 groupes identiques de 12 (ou 12 groupes de 3) : on cherche le tout.",
+        "On calcule le produit : 3 × 12.",
+        "3 × 12 = 36. La réponse est 36."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "15": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.78",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Emma a 45 images. Elle en achète 27 de plus et son ami lui en offre 15. Combien Emma a-t-elle d'images maintenant ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "87"
+      },
+      "solution": "Première étape : 45 + 27 = 72. Deuxième étape : on ajoute la dernière quantité : 72 + 15 = 87. La réponse est 87.",
+      "step_by_step_solution": [
+        "Première étape : 45 + 27 = 72.",
+        "Deuxième étape : on ajoute la dernière quantité : 72 + 15 = 87.",
+        "La réponse est 87."
+      ],
+      "hints": [
+        "Il y a deux ajouts successifs : traite-les l'un après l'autre.",
+        "Commence par ajouter les deux premiers nombres."
+      ],
+      "common_errors": {
+        "72": "L'élève s'est arrêté après la première étape et a oublié le deuxième ajout.",
+        "60": "L'élève n'a pris en compte qu'un seul des deux ajouts."
+      },
+      "remediation": "Faire un schéma en barre pour chaque étape ; écrire le résultat intermédiaire avant de faire la deuxième opération.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer une somme de trois nombres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.79",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un livre a 128 pages. On en lit 35 pages le matin et 42 pages le soir. Combien de pages reste-t-il à lire ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "51"
+      },
+      "solution": "Première étape : on retire la première quantité : 128 − 35 = 93. Deuxième étape : on retire la deuxième quantité : 93 − 42 = 51. (Vérification : 35 + 42 = 77 et 128 − 77 = 51.) La réponse est 51.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 128 − 35 = 93.",
+        "Deuxième étape : on retire la deuxième quantité : 93 − 42 = 51.",
+        "(Vérification : 35 + 42 = 77 et 128 − 77 = 51.) La réponse est 51."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "93": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "77": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.80",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léo a 15 bonbons. Sa maman lui en donne encore 9. Combien Léo a-t-il de bonbons maintenant ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "24"
+      },
+      "solution": "On connaît les deux parties (15 et 9) et on cherche le tout. On ajoute les deux parties : 15 + 9. 15 + 9 = 24. La réponse est 24.",
+      "step_by_step_solution": [
+        "On connaît les deux parties (15 et 9) et on cherche le tout.",
+        "On ajoute les deux parties : 15 + 9.",
+        "15 + 9 = 24. La réponse est 24."
+      ],
+      "hints": [
+        "Cherche-t-on une partie ou le tout ?",
+        "Pour trouver le tout, on réunit les deux parties."
+      ],
+      "common_errors": {
+        "6": "L'élève a soustrait les deux nombres au lieu de réunir les deux parties.",
+        "14": "Oubli de la retenue dans l'addition des unités."
+      },
+      "remediation": "Représenter chaque partie avec des barres de dix et des cubes, réunir le tout puis dénombrer ; faire un schéma en barre partie / partie / tout.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Calculer une somme"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.81",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une boîte, il y a 22 crayons bleus et 17 crayons rouges. Combien y a-t-il de crayons en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "39"
+      },
+      "solution": "On connaît les deux parties (22 et 17) et on cherche le tout. On ajoute les deux parties : 22 + 17. 22 + 17 = 39. La réponse est 39.",
+      "step_by_step_solution": [
+        "On connaît les deux parties (22 et 17) et on cherche le tout.",
+        "On ajoute les deux parties : 22 + 17.",
+        "22 + 17 = 39. La réponse est 39."
+      ],
+      "hints": [
+        "Cherche-t-on une partie ou le tout ?",
+        "Pour trouver le tout, on réunit les deux parties."
+      ],
+      "common_errors": {
+        "5": "L'élève a soustrait les deux nombres au lieu de réunir les deux parties.",
+        "29": "Oubli de la retenue dans l'addition des unités."
+      },
+      "remediation": "Représenter chaque partie avec des barres de dix et des cubes, réunir le tout puis dénombrer ; faire un schéma en barre partie / partie / tout.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Calculer une somme"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.82",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Milo a 38 billes. Il en gagne 12 à la récréation et 15 chez lui. Combien a-t-il de billes en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "65"
+      },
+      "solution": "Première étape : 38 + 12 = 50. Deuxième étape : on ajoute la dernière quantité : 50 + 15 = 65. La réponse est 65.",
+      "step_by_step_solution": [
+        "Première étape : 38 + 12 = 50.",
+        "Deuxième étape : on ajoute la dernière quantité : 50 + 15 = 65.",
+        "La réponse est 65."
+      ],
+      "hints": [
+        "Il y a deux ajouts successifs : traite-les l'un après l'autre.",
+        "Commence par ajouter les deux premiers nombres."
+      ],
+      "common_errors": {
+        "50": "L'élève s'est arrêté après la première étape et a oublié le deuxième ajout.",
+        "53": "L'élève n'a pris en compte qu'un seul des deux ajouts."
+      },
+      "remediation": "Faire un schéma en barre pour chaque étape ; écrire le résultat intermédiaire avant de faire la deuxième opération.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer une somme de trois nombres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.83",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une école reçoit 45 livres pour la classe de CP et 36 livres pour la classe de CE1. Combien de livres l'école reçoit-elle en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "81"
+      },
+      "solution": "On connaît les deux parties (45 et 36) et on cherche le tout. On ajoute les deux parties : 45 + 36. 45 + 36 = 81. La réponse est 81.",
+      "step_by_step_solution": [
+        "On connaît les deux parties (45 et 36) et on cherche le tout.",
+        "On ajoute les deux parties : 45 + 36.",
+        "45 + 36 = 81. La réponse est 81."
+      ],
+      "hints": [
+        "Cherche-t-on une partie ou le tout ?",
+        "Pour trouver le tout, on réunit les deux parties."
+      ],
+      "common_errors": {
+        "9": "L'élève a soustrait les deux nombres au lieu de réunir les deux parties.",
+        "71": "Oubli de la retenue dans l'addition des unités."
+      },
+      "remediation": "Représenter chaque partie avec des barres de dix et des cubes, réunir le tout puis dénombrer ; faire un schéma en barre partie / partie / tout.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Calculer une somme"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.84",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un magasin, il y a 123 paquets de pâtes. On en vend 37 le matin et 45 l'après-midi. Combien de paquets reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "41"
+      },
+      "solution": "Première étape : on retire la première quantité : 123 − 37 = 86. Deuxième étape : on retire la deuxième quantité : 86 − 45 = 41. (Vérification : 37 + 45 = 82 et 123 − 82 = 41.) La réponse est 41.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 123 − 37 = 86.",
+        "Deuxième étape : on retire la deuxième quantité : 86 − 45 = 41.",
+        "(Vérification : 37 + 45 = 82 et 123 − 82 = 41.) La réponse est 41."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "86": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "82": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.85",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léo a 42 images. Il en donne 17 à son ami. Combien d'images lui reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "25"
+      },
+      "solution": "On connaît le tout (42) et une partie (17) ; on cherche l'autre partie. On retire la partie connue du tout : 42 − 17. 42 − 17 = 25. La réponse est 25.",
+      "step_by_step_solution": [
+        "On connaît le tout (42) et une partie (17) ; on cherche l'autre partie.",
+        "On retire la partie connue du tout : 42 − 17.",
+        "42 − 17 = 25. La réponse est 25."
+      ],
+      "hints": [
+        "Le nombre du début augmente-t-il ou diminue-t-il ?",
+        "On cherche ce qui reste : on retire la quantité enlevée."
+      ],
+      "common_errors": {
+        "59": "L'élève a additionné les deux nombres au lieu de retirer la quantité enlevée.",
+        "35": "Erreur de retenue dans la soustraction (dizaine non « cassée »)."
+      },
+      "remediation": "Représenter la quantité de départ avec des barres de dix et des cubes, casser une dizaine si besoin, retirer la quantité enlevée puis compter ce qui reste.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout (retrait)",
+        "Calculer une différence"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.86",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un sac, il y a 56 bonbons. On en mange 23. Combien de bonbons reste-t-il dans le sac ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "33"
+      },
+      "solution": "On connaît le tout (56) et une partie (23) ; on cherche l'autre partie. On retire la partie connue du tout : 56 − 23. 56 − 23 = 33. La réponse est 33.",
+      "step_by_step_solution": [
+        "On connaît le tout (56) et une partie (23) ; on cherche l'autre partie.",
+        "On retire la partie connue du tout : 56 − 23.",
+        "56 − 23 = 33. La réponse est 33."
+      ],
+      "hints": [
+        "Le nombre du début augmente-t-il ou diminue-t-il ?",
+        "On cherche ce qui reste : on retire la quantité enlevée."
+      ],
+      "common_errors": {
+        "79": "L'élève a additionné les deux nombres au lieu de retirer la quantité enlevée.",
+        "43": "Erreur de retenue dans la soustraction (dizaine non « cassée »)."
+      },
+      "remediation": "Représenter la quantité de départ avec des barres de dix et des cubes, casser une dizaine si besoin, retirer la quantité enlevée puis compter ce qui reste.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout (retrait)",
+        "Calculer une différence"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.87",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un dessin a 84 carreaux. On en colorie 37. Combien de carreaux ne sont pas encore coloriés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "47"
+      },
+      "solution": "On connaît le tout (84) et une partie (37) ; on cherche l'autre partie. On retire la partie connue du tout : 84 − 37. 84 − 37 = 47. La réponse est 47.",
+      "step_by_step_solution": [
+        "On connaît le tout (84) et une partie (37) ; on cherche l'autre partie.",
+        "On retire la partie connue du tout : 84 − 37.",
+        "84 − 37 = 47. La réponse est 47."
+      ],
+      "hints": [
+        "Le nombre du début augmente-t-il ou diminue-t-il ?",
+        "On cherche ce qui reste : on retire la quantité enlevée."
+      ],
+      "common_errors": {
+        "121": "L'élève a additionné les deux nombres au lieu de retirer la quantité enlevée.",
+        "57": "Erreur de retenue dans la soustraction (dizaine non « cassée »)."
+      },
+      "remediation": "Représenter la quantité de départ avec des barres de dix et des cubes, casser une dizaine si besoin, retirer la quantité enlevée puis compter ce qui reste.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout (retrait)",
+        "Calculer une différence"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.88",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Maman prépare 95 cookies. Elle en donne 28 à l'école et 36 à ses voisins. Combien de cookies reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "31"
+      },
+      "solution": "Première étape : on retire la première quantité : 95 − 28 = 67. Deuxième étape : on retire la deuxième quantité : 67 − 36 = 31. (Vérification : 28 + 36 = 64 et 95 − 64 = 31.) La réponse est 31.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 95 − 28 = 67.",
+        "Deuxième étape : on retire la deuxième quantité : 67 − 36 = 31.",
+        "(Vérification : 28 + 36 = 64 et 95 − 64 = 31.) La réponse est 31."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "67": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "64": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.89",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un livre a 132 pages. On en lit 45 le lundi et 38 le mardi. Combien de pages reste-t-il à lire ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "49"
+      },
+      "solution": "Première étape : on retire la première quantité : 132 − 45 = 87. Deuxième étape : on retire la deuxième quantité : 87 − 38 = 49. (Vérification : 45 + 38 = 83 et 132 − 83 = 49.) La réponse est 49.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 132 − 45 = 87.",
+        "Deuxième étape : on retire la deuxième quantité : 87 − 38 = 49.",
+        "(Vérification : 45 + 38 = 83 et 132 − 83 = 49.) La réponse est 49."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "87": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "83": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.90",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léo a 32 billes au début de la récréation. Pendant la pause, il en perd 7 en jouant. Combien de billes a-t-il maintenant ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "25"
+      },
+      "solution": "On connaît le tout (32) et une partie (7) ; on cherche l'autre partie. On retire la partie connue du tout : 32 − 7. 32 − 7 = 25. La réponse est 25.",
+      "step_by_step_solution": [
+        "On connaît le tout (32) et une partie (7) ; on cherche l'autre partie.",
+        "On retire la partie connue du tout : 32 − 7.",
+        "32 − 7 = 25. La réponse est 25."
+      ],
+      "hints": [
+        "Le nombre du début augmente-t-il ou diminue-t-il ?",
+        "On cherche ce qui reste : on retire la quantité enlevée."
+      ],
+      "common_errors": {
+        "39": "L'élève a additionné les deux nombres au lieu de retirer la quantité enlevée.",
+        "35": "Erreur de retenue dans la soustraction (dizaine non « cassée »)."
+      },
+      "remediation": "Représenter la quantité de départ avec des barres de dix et des cubes, casser une dizaine si besoin, retirer la quantité enlevée puis compter ce qui reste.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout (retrait)",
+        "Calculer une différence"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.91",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Maman a acheté 45 bonbons pour les enfants. Elle en donne 12 à Emma et 9 à Lucas. Combien de bonbons reste-t-il dans le sachet ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "24"
+      },
+      "solution": "Première étape : on retire la première quantité : 45 − 12 = 33. Deuxième étape : on retire la deuxième quantité : 33 − 9 = 24. (Vérification : 12 + 9 = 21 et 45 − 21 = 24.) La réponse est 24.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 45 − 12 = 33.",
+        "Deuxième étape : on retire la deuxième quantité : 33 − 9 = 24.",
+        "(Vérification : 12 + 9 = 21 et 45 − 21 = 24.) La réponse est 24."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "33": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "21": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.92",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un album photo a 64 photos. On en retire 18 photos pour les mettre dans un autre album. Combien de photos reste-t-il dans le premier album ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "46"
+      },
+      "solution": "On connaît le tout (64) et une partie (18) ; on cherche l'autre partie. On retire la partie connue du tout : 64 − 18. 64 − 18 = 46. La réponse est 46.",
+      "step_by_step_solution": [
+        "On connaît le tout (64) et une partie (18) ; on cherche l'autre partie.",
+        "On retire la partie connue du tout : 64 − 18.",
+        "64 − 18 = 46. La réponse est 46."
+      ],
+      "hints": [
+        "Le nombre du début augmente-t-il ou diminue-t-il ?",
+        "On cherche ce qui reste : on retire la quantité enlevée."
+      ],
+      "common_errors": {
+        "82": "L'élève a additionné les deux nombres au lieu de retirer la quantité enlevée.",
+        "56": "Erreur de retenue dans la soustraction (dizaine non « cassée »)."
+      },
+      "remediation": "Représenter la quantité de départ avec des barres de dix et des cubes, casser une dizaine si besoin, retirer la quantité enlevée puis compter ce qui reste.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout (retrait)",
+        "Calculer une différence"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.93",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour un goûter, on prépare 75 parts de gâteau. Les enfants en mangent 23 à 16h et 19 à 18h. Combien de parts reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "33"
+      },
+      "solution": "Première étape : on retire la première quantité : 75 − 23 = 52. Deuxième étape : on retire la deuxième quantité : 52 − 19 = 33. (Vérification : 23 + 19 = 42 et 75 − 42 = 33.) La réponse est 33.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 75 − 23 = 52.",
+        "Deuxième étape : on retire la deuxième quantité : 52 − 19 = 33.",
+        "(Vérification : 23 + 19 = 42 et 75 − 42 = 33.) La réponse est 33."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "52": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "42": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.94",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un magasin a 120 crayons dans un tiroir. On en vend 34 le matin et 28 l'après-midi. Combien de crayons reste-t-il dans le tiroir ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "58"
+      },
+      "solution": "Première étape : on retire la première quantité : 120 − 34 = 86. Deuxième étape : on retire la deuxième quantité : 86 − 28 = 58. (Vérification : 34 + 28 = 62 et 120 − 62 = 58.) La réponse est 58.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 120 − 34 = 86.",
+        "Deuxième étape : on retire la deuxième quantité : 86 − 28 = 58.",
+        "(Vérification : 34 + 28 = 62 et 120 − 62 = 58.) La réponse est 58."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "86": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "62": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.95",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léa a 6 sachets de bonbons. Dans chaque sachet, il y a 7 bonbons. Combien Léa a-t-elle de bonbons en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "42"
+      },
+      "solution": "Il y a 6 groupes identiques de 7 (ou 7 groupes de 6) : on cherche le tout. On calcule le produit : 6 × 7. 6 × 7 = 42. La réponse est 42.",
+      "step_by_step_solution": [
+        "Il y a 6 groupes identiques de 7 (ou 7 groupes de 6) : on cherche le tout.",
+        "On calcule le produit : 6 × 7.",
+        "6 × 7 = 42. La réponse est 42."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "13": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.96",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Un jardinier plante 5 rangées de fleurs. Chaque rangée a 8 fleurs. Combien de fleurs y a-t-il dans le jardin ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "40"
+      },
+      "solution": "Il y a 5 groupes identiques de 8 (ou 8 groupes de 5) : on cherche le tout. On calcule le produit : 5 × 8. 5 × 8 = 40. La réponse est 40.",
+      "step_by_step_solution": [
+        "Il y a 5 groupes identiques de 8 (ou 8 groupes de 5) : on cherche le tout.",
+        "On calcule le produit : 5 × 8.",
+        "5 × 8 = 40. La réponse est 40."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "13": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.97",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Un boulanger prépare 4 plateaux de petits pains. Sur chaque plateau, il y a 12 petits pains. Combien de petits pains a-t-il préparés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "48"
+      },
+      "solution": "Il y a 4 groupes identiques de 12 (ou 12 groupes de 4) : on cherche le tout. On calcule le produit : 4 × 12. 4 × 12 = 48. La réponse est 48.",
+      "step_by_step_solution": [
+        "Il y a 4 groupes identiques de 12 (ou 12 groupes de 4) : on cherche le tout.",
+        "On calcule le produit : 4 × 12.",
+        "4 × 12 = 48. La réponse est 48."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "16": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.98",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour une fête, on achète 7 boîtes de ballons. Chaque boîte contient 15 ballons. Combien de ballons y a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "105"
+      },
+      "solution": "Il y a 7 groupes identiques de 15 (ou 15 groupes de 7) : on cherche le tout. On calcule le produit : 7 × 15. 7 × 15 = 105. La réponse est 105.",
+      "step_by_step_solution": [
+        "Il y a 7 groupes identiques de 15 (ou 15 groupes de 7) : on cherche le tout.",
+        "On calcule le produit : 7 × 15.",
+        "7 × 15 = 105. La réponse est 105."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "22": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.99",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un libraire reçoit 8 cartons de livres. Chaque carton contient 25 livres. Combien de livres le libraire a-t-il reçus ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "200"
+      },
+      "solution": "Il y a 8 groupes identiques de 25 (ou 25 groupes de 8) : on cherche le tout. On calcule le produit : 8 × 25. 8 × 25 = 200. La réponse est 200.",
+      "step_by_step_solution": [
+        "Il y a 8 groupes identiques de 25 (ou 25 groupes de 8) : on cherche le tout.",
+        "On calcule le produit : 8 × 25.",
+        "8 × 25 = 200. La réponse est 200."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "33": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.100",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léa a 6 paquets de crayons. Dans chaque paquet, il y a 9 crayons. Combien Léa a-t-elle de crayons en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "54"
+      },
+      "solution": "Il y a 6 groupes identiques de 9 (ou 9 groupes de 6) : on cherche le tout. On calcule le produit : 6 × 9. 6 × 9 = 54. La réponse est 54.",
+      "step_by_step_solution": [
+        "Il y a 6 groupes identiques de 9 (ou 9 groupes de 6) : on cherche le tout.",
+        "On calcule le produit : 6 × 9.",
+        "6 × 9 = 54. La réponse est 54."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "15": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.101",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Un fermier range 5 cageots de pommes. Chaque cageot contient 12 pommes. Combien de pommes y a-t-il dans les cageots ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "60"
+      },
+      "solution": "Il y a 5 groupes identiques de 12 (ou 12 groupes de 5) : on cherche le tout. On calcule le produit : 5 × 12. 5 × 12 = 60. La réponse est 60.",
+      "step_by_step_solution": [
+        "Il y a 5 groupes identiques de 12 (ou 12 groupes de 5) : on cherche le tout.",
+        "On calcule le produit : 5 × 12.",
+        "5 × 12 = 60. La réponse est 60."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "17": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.103",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un marchand de légumes a 7 plateaux de fraises. Sur chaque plateau, il y a 15 fraises. Combien de fraises y a-t-il sur tous les plateaux ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "105"
+      },
+      "solution": "Il y a 7 groupes identiques de 15 (ou 15 groupes de 7) : on cherche le tout. On calcule le produit : 7 × 15. 7 × 15 = 105. La réponse est 105.",
+      "step_by_step_solution": [
+        "Il y a 7 groupes identiques de 15 (ou 15 groupes de 7) : on cherche le tout.",
+        "On calcule le produit : 7 × 15.",
+        "7 × 15 = 105. La réponse est 105."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "22": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.104",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une école commande 9 packs de gommettes. Chaque pack contient 20 gommettes. Combien de gommettes l'école reçoit-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "180"
+      },
+      "solution": "Il y a 9 groupes identiques de 20 (ou 20 groupes de 9) : on cherche le tout. On calcule le produit : 9 × 20. 9 × 20 = 180. La réponse est 180.",
+      "step_by_step_solution": [
+        "Il y a 9 groupes identiques de 20 (ou 20 groupes de 9) : on cherche le tout.",
+        "On calcule le produit : 9 × 20.",
+        "9 × 20 = 180. La réponse est 180."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "29": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.105",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une boîte, il y a 36 crayons. La maîtresse veut les partager équitablement entre 4 élèves. Combien de crayons chaque élève aura-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "On partage équitablement 36 en 4 parts égales : on cherche la valeur d'une part. On cherche le nombre qui, multiplié par 4, donne 36 : 4 × 9 = 36. Donc 36 ÷ 4 = 9. La réponse est 9.",
+      "step_by_step_solution": [
+        "On partage équitablement 36 en 4 parts égales : on cherche la valeur d'une part.",
+        "On cherche le nombre qui, multiplié par 4, donne 36 : 4 × 9 = 36.",
+        "Donc 36 ÷ 4 = 9. La réponse est 9."
+      ],
+      "hints": [
+        "Distribue les objets un par un dans les 4 parts jusqu'à épuisement.",
+        "Cherche dans la table de 4 : 4 × ? = 36."
+      ],
+      "common_errors": {
+        "32": "L'élève a soustrait le nombre de parts au lieu de partager.",
+        "144": "L'élève a multiplié au lieu de partager."
+      },
+      "remediation": "Manipuler des jetons et les distribuer un à un dans les parts ; puis relier le partage à la table de multiplication (schéma en barre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage équitable (valeur d'une part)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.106",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un pâtissier a 48 fraises. Il veut les répartir dans 6 petits bols pour une dégustation. Combien de fraises met-il dans chaque bol ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "On partage équitablement 48 en 6 parts égales : on cherche la valeur d'une part. On cherche le nombre qui, multiplié par 6, donne 48 : 6 × 8 = 48. Donc 48 ÷ 6 = 8. La réponse est 8.",
+      "step_by_step_solution": [
+        "On partage équitablement 48 en 6 parts égales : on cherche la valeur d'une part.",
+        "On cherche le nombre qui, multiplié par 6, donne 48 : 6 × 8 = 48.",
+        "Donc 48 ÷ 6 = 8. La réponse est 8."
+      ],
+      "hints": [
+        "Distribue les objets un par un dans les 6 parts jusqu'à épuisement.",
+        "Cherche dans la table de 6 : 6 × ? = 48."
+      ],
+      "common_errors": {
+        "42": "L'élève a soustrait le nombre de parts au lieu de partager.",
+        "288": "L'élève a multiplié au lieu de partager."
+      },
+      "remediation": "Manipuler des jetons et les distribuer un à un dans les parts ; puis relier le partage à la table de multiplication (schéma en barre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage équitable (valeur d'une part)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.107",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour un jeu, on a 63 jetons à distribuer à 7 joueurs. Combien de jetons chaque joueur recevra-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "On partage équitablement 63 en 7 parts égales : on cherche la valeur d'une part. On cherche le nombre qui, multiplié par 7, donne 63 : 7 × 9 = 63. Donc 63 ÷ 7 = 9. La réponse est 9.",
+      "step_by_step_solution": [
+        "On partage équitablement 63 en 7 parts égales : on cherche la valeur d'une part.",
+        "On cherche le nombre qui, multiplié par 7, donne 63 : 7 × 9 = 63.",
+        "Donc 63 ÷ 7 = 9. La réponse est 9."
+      ],
+      "hints": [
+        "Distribue les objets un par un dans les 7 parts jusqu'à épuisement.",
+        "Cherche dans la table de 7 : 7 × ? = 63."
+      ],
+      "common_errors": {
+        "56": "L'élève a soustrait le nombre de parts au lieu de partager.",
+        "441": "L'élève a multiplié au lieu de partager."
+      },
+      "remediation": "Manipuler des jetons et les distribuer un à un dans les parts ; puis relier le partage à la table de multiplication (schéma en barre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage équitable (valeur d'une part)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.108",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un fermier a ramassé 72 pommes. Il les range dans des sacs de 8 pommes chacun. Combien de sacs remplira-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "On fait des groupes de 8 avec 72 : on cherche le nombre de groupes. On cherche combien de fois 8 est contenu dans 72 : 9 × 8 = 72. Donc 72 ÷ 8 = 9. La réponse est 9.",
+      "step_by_step_solution": [
+        "On fait des groupes de 8 avec 72 : on cherche le nombre de groupes.",
+        "On cherche combien de fois 8 est contenu dans 72 : 9 × 8 = 72.",
+        "Donc 72 ÷ 8 = 9. La réponse est 9."
+      ],
+      "hints": [
+        "Fais des paquets de 8 et compte les paquets.",
+        "Combien de fois faut-il ajouter 8 pour arriver à 72 ?"
+      ],
+      "common_errors": {
+        "64": "L'élève a soustrait la taille d'un groupe au lieu de chercher le nombre de groupes.",
+        "576": "L'élève a multiplié au lieu de chercher combien de groupes on peut faire."
+      },
+      "remediation": "Représenter la collection par des croix et entourer des groupes de la taille demandée, puis compter les groupes ; relier au calcul « combien de fois ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage (recherche du nombre de parts)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.109",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une école a 108 élèves. Les professeurs veulent former des équipes de 9 élèves pour un tournoi. Combien d'équipes pourront-ils former ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "On fait des groupes de 9 avec 108 : on cherche le nombre de groupes. On cherche combien de fois 9 est contenu dans 108 : 12 × 9 = 108. Donc 108 ÷ 9 = 12. La réponse est 12.",
+      "step_by_step_solution": [
+        "On fait des groupes de 9 avec 108 : on cherche le nombre de groupes.",
+        "On cherche combien de fois 9 est contenu dans 108 : 12 × 9 = 108.",
+        "Donc 108 ÷ 9 = 12. La réponse est 12."
+      ],
+      "hints": [
+        "Fais des paquets de 9 et compte les paquets.",
+        "Combien de fois faut-il ajouter 9 pour arriver à 108 ?"
+      ],
+      "common_errors": {
+        "99": "L'élève a soustrait la taille d'un groupe au lieu de chercher le nombre de groupes.",
+        "972": "L'élève a multiplié au lieu de chercher combien de groupes on peut faire."
+      },
+      "remediation": "Représenter la collection par des croix et entourer des groupes de la taille demandée, puis compter les groupes ; relier au calcul « combien de fois ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de partage (recherche du nombre de parts)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.110",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Maman a 18 bonbons à partager équitablement entre ses 3 enfants. Combien chaque enfant recevra-t-il de bonbons ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "On partage équitablement 18 en 3 parts égales : on cherche la valeur d'une part. On cherche le nombre qui, multiplié par 3, donne 18 : 3 × 6 = 18. Donc 18 ÷ 3 = 6. La réponse est 6.",
+      "step_by_step_solution": [
+        "On partage équitablement 18 en 3 parts égales : on cherche la valeur d'une part.",
+        "On cherche le nombre qui, multiplié par 3, donne 18 : 3 × 6 = 18.",
+        "Donc 18 ÷ 3 = 6. La réponse est 6."
+      ],
+      "hints": [
+        "Distribue les objets un par un dans les 3 parts jusqu'à épuisement.",
+        "Cherche dans la table de 3 : 3 × ? = 18."
+      ],
+      "common_errors": {
+        "15": "L'élève a soustrait le nombre de parts au lieu de partager.",
+        "54": "L'élève a multiplié au lieu de partager."
+      },
+      "remediation": "Manipuler des jetons et les distribuer un à un dans les parts ; puis relier le partage à la table de multiplication (schéma en barre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage équitable (valeur d'une part)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.111",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une classe, il y a 24 élèves. Le maître veut les mettre en groupes de 4 pour un jeu. Combien de groupes pourront être formés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "On fait des groupes de 4 avec 24 : on cherche le nombre de groupes. On cherche combien de fois 4 est contenu dans 24 : 6 × 4 = 24. Donc 24 ÷ 4 = 6. La réponse est 6.",
+      "step_by_step_solution": [
+        "On fait des groupes de 4 avec 24 : on cherche le nombre de groupes.",
+        "On cherche combien de fois 4 est contenu dans 24 : 6 × 4 = 24.",
+        "Donc 24 ÷ 4 = 6. La réponse est 6."
+      ],
+      "hints": [
+        "Fais des paquets de 4 et compte les paquets.",
+        "Combien de fois faut-il ajouter 4 pour arriver à 24 ?"
+      ],
+      "common_errors": {
+        "20": "L'élève a soustrait la taille d'un groupe au lieu de chercher le nombre de groupes.",
+        "96": "L'élève a multiplié au lieu de chercher combien de groupes on peut faire."
+      },
+      "remediation": "Représenter la collection par des croix et entourer des groupes de la taille demandée, puis compter les groupes ; relier au calcul « combien de fois ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage (recherche du nombre de parts)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.112",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un boulanger a 35 petits pains à ranger dans des sachets. Il veut mettre 5 petits pains dans chaque sachet. Combien de sachets pourra-t-il remplir ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "On fait des groupes de 5 avec 35 : on cherche le nombre de groupes. On cherche combien de fois 5 est contenu dans 35 : 7 × 5 = 35. Donc 35 ÷ 5 = 7. La réponse est 7.",
+      "step_by_step_solution": [
+        "On fait des groupes de 5 avec 35 : on cherche le nombre de groupes.",
+        "On cherche combien de fois 5 est contenu dans 35 : 7 × 5 = 35.",
+        "Donc 35 ÷ 5 = 7. La réponse est 7."
+      ],
+      "hints": [
+        "Fais des paquets de 5 et compte les paquets.",
+        "Combien de fois faut-il ajouter 5 pour arriver à 35 ?"
+      ],
+      "common_errors": {
+        "30": "L'élève a soustrait la taille d'un groupe au lieu de chercher le nombre de groupes.",
+        "175": "L'élève a multiplié au lieu de chercher combien de groupes on peut faire."
+      },
+      "remediation": "Représenter la collection par des croix et entourer des groupes de la taille demandée, puis compter les groupes ; relier au calcul « combien de fois ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage (recherche du nombre de parts)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.113",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Léa a 42 images à coller dans son album. Chaque page de l'album peut contenir 6 images. Combien de pages complètes pourra-t-elle remplir ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "On fait des groupes de 6 avec 42 : on cherche le nombre de groupes. On cherche combien de fois 6 est contenu dans 42 : 7 × 6 = 42. Donc 42 ÷ 6 = 7. La réponse est 7.",
+      "step_by_step_solution": [
+        "On fait des groupes de 6 avec 42 : on cherche le nombre de groupes.",
+        "On cherche combien de fois 6 est contenu dans 42 : 7 × 6 = 42.",
+        "Donc 42 ÷ 6 = 7. La réponse est 7."
+      ],
+      "hints": [
+        "Fais des paquets de 6 et compte les paquets.",
+        "Combien de fois faut-il ajouter 6 pour arriver à 42 ?"
+      ],
+      "common_errors": {
+        "36": "L'élève a soustrait la taille d'un groupe au lieu de chercher le nombre de groupes.",
+        "252": "L'élève a multiplié au lieu de chercher combien de groupes on peut faire."
+      },
+      "remediation": "Représenter la collection par des croix et entourer des groupes de la taille demandée, puis compter les groupes ; relier au calcul « combien de fois ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage (recherche du nombre de parts)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.114",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un fermier a récolté 56 œufs dans son poulailler. Il les range dans des boîtes qui contiennent chacune 8 œufs. Combien de boîtes remplira-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "On fait des groupes de 8 avec 56 : on cherche le nombre de groupes. On cherche combien de fois 8 est contenu dans 56 : 7 × 8 = 56. Donc 56 ÷ 8 = 7. La réponse est 7.",
+      "step_by_step_solution": [
+        "On fait des groupes de 8 avec 56 : on cherche le nombre de groupes.",
+        "On cherche combien de fois 8 est contenu dans 56 : 7 × 8 = 56.",
+        "Donc 56 ÷ 8 = 7. La réponse est 7."
+      ],
+      "hints": [
+        "Fais des paquets de 8 et compte les paquets.",
+        "Combien de fois faut-il ajouter 8 pour arriver à 56 ?"
+      ],
+      "common_errors": {
+        "48": "L'élève a soustrait la taille d'un groupe au lieu de chercher le nombre de groupes.",
+        "448": "L'élève a multiplié au lieu de chercher combien de groupes on peut faire."
+      },
+      "remediation": "Représenter la collection par des croix et entourer des groupes de la taille demandée, puis compter les groupes ; relier au calcul « combien de fois ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage (recherche du nombre de parts)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.116",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour une fête, on achète 3 paquets de ballons. Chaque paquet contient 10 ballons rouges et 8 ballons bleus. Combien de ballons y a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "54"
+      },
+      "solution": "Étape additive : dans chaque paquet, il y a 10 + 8 = 18 objets. Étape multiplicative : il y a 3 paquets de 18 : 3 × 18. 3 × 18 = 54 (on peut vérifier : 3 × 10 + 3 × 8 = 30 + 24 = 54). La réponse est 54.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque paquet, il y a 10 + 8 = 18 objets.",
+        "Étape multiplicative : il y a 3 paquets de 18 : 3 × 18.",
+        "3 × 18 = 54 (on peut vérifier : 3 × 10 + 3 × 8 = 30 + 24 = 54). La réponse est 54."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul paquet ?",
+        "Il y a 3 paquets identiques."
+      ],
+      "common_errors": {
+        "38": "L'élève a multiplié seulement la première quantité par 3 et oublié de multiplier la seconde.",
+        "21": "L'élève a additionné tous les nombres de l'énoncé.",
+        "18": "L'élève a calculé le contenu d'un seul paquet sans multiplier par 3."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.117",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un jardinier plante 6 rangées de fleurs. Dans chaque rangée, il y a 8 fleurs jaunes et 5 fleurs rouges. Combien de fleurs a-t-il plantées au total ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "78"
+      },
+      "solution": "Étape additive : dans chaque rangée, il y a 8 + 5 = 13 objets. Étape multiplicative : il y a 6 rangées de 13 : 6 × 13. 6 × 13 = 78 (on peut vérifier : 6 × 8 + 6 × 5 = 48 + 30 = 78). La réponse est 78.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque rangée, il y a 8 + 5 = 13 objets.",
+        "Étape multiplicative : il y a 6 rangées de 13 : 6 × 13.",
+        "6 × 13 = 78 (on peut vérifier : 6 × 8 + 6 × 5 = 48 + 30 = 78). La réponse est 78."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul rangée ?",
+        "Il y a 6 rangées identiques."
+      ],
+      "common_errors": {
+        "53": "L'élève a multiplié seulement la première quantité par 6 et oublié de multiplier la seconde.",
+        "19": "L'élève a additionné tous les nombres de l'énoncé.",
+        "13": "L'élève a calculé le contenu d'un seul rangée sans multiplier par 6."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.118",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour un goûter, on prépare 4 plateaux. Sur chaque plateau, il y a 9 gâteaux au chocolat et 7 gâteaux aux fraises. Combien de gâteaux y a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "64"
+      },
+      "solution": "Étape additive : dans chaque plateau, il y a 9 + 7 = 16 objets. Étape multiplicative : il y a 4 plateaus de 16 : 4 × 16. 4 × 16 = 64 (on peut vérifier : 4 × 9 + 4 × 7 = 36 + 28 = 64). La réponse est 64.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque plateau, il y a 9 + 7 = 16 objets.",
+        "Étape multiplicative : il y a 4 plateaus de 16 : 4 × 16.",
+        "4 × 16 = 64 (on peut vérifier : 4 × 9 + 4 × 7 = 36 + 28 = 64). La réponse est 64."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul plateau ?",
+        "Il y a 4 plateaus identiques."
+      ],
+      "common_errors": {
+        "43": "L'élève a multiplié seulement la première quantité par 4 et oublié de multiplier la seconde.",
+        "20": "L'élève a additionné tous les nombres de l'énoncé.",
+        "16": "L'élève a calculé le contenu d'un seul plateau sans multiplier par 4."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.119",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un libraire a 8 boîtes de livres. Dans chaque boîte, il y a 12 livres de contes et 6 livres d'aventures. Combien de livres y a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "144"
+      },
+      "solution": "Étape additive : dans chaque boîte, il y a 12 + 6 = 18 objets. Étape multiplicative : il y a 8 boîtes de 18 : 8 × 18. 8 × 18 = 144 (on peut vérifier : 8 × 12 + 8 × 6 = 96 + 48 = 144). La réponse est 144.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque boîte, il y a 12 + 6 = 18 objets.",
+        "Étape multiplicative : il y a 8 boîtes de 18 : 8 × 18.",
+        "8 × 18 = 144 (on peut vérifier : 8 × 12 + 8 × 6 = 96 + 48 = 144). La réponse est 144."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul boîte ?",
+        "Il y a 8 boîtes identiques."
+      ],
+      "common_errors": {
+        "102": "L'élève a multiplié seulement la première quantité par 8 et oublié de multiplier la seconde.",
+        "26": "L'élève a additionné tous les nombres de l'énoncé.",
+        "18": "L'élève a calculé le contenu d'un seul boîte sans multiplier par 8."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.120",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une boîte, il y a 8 paquets de crayons. Chaque paquet contient 5 crayons rouges et 3 crayons bleus. Combien y a-t-il de crayons en tout dans la boîte ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "64"
+      },
+      "solution": "Étape additive : dans chaque paquet, il y a 5 + 3 = 8 objets. Étape multiplicative : il y a 8 paquets de 8 : 8 × 8. 8 × 8 = 64 (on peut vérifier : 8 × 5 + 8 × 3 = 40 + 24 = 64). La réponse est 64.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque paquet, il y a 5 + 3 = 8 objets.",
+        "Étape multiplicative : il y a 8 paquets de 8 : 8 × 8.",
+        "8 × 8 = 64 (on peut vérifier : 8 × 5 + 8 × 3 = 40 + 24 = 64). La réponse est 64."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul paquet ?",
+        "Il y a 8 paquets identiques."
+      ],
+      "common_errors": {
+        "43": "L'élève a multiplié seulement la première quantité par 8 et oublié de multiplier la seconde.",
+        "16": "L'élève a additionné tous les nombres de l'énoncé.",
+        "8": "L'élève a calculé le contenu d'un seul paquet sans multiplier par 8."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.121",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour décorer la classe, on accroche 3 guirlandes. Chaque guirlande a 7 étoiles jaunes et 4 étoiles rouges. Combien d'étoiles y a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "33"
+      },
+      "solution": "Étape additive : dans chaque guirlande, il y a 7 + 4 = 11 objets. Étape multiplicative : il y a 3 guirlandes de 11 : 3 × 11. 3 × 11 = 33 (on peut vérifier : 3 × 7 + 3 × 4 = 21 + 12 = 33). La réponse est 33.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque guirlande, il y a 7 + 4 = 11 objets.",
+        "Étape multiplicative : il y a 3 guirlandes de 11 : 3 × 11.",
+        "3 × 11 = 33 (on peut vérifier : 3 × 7 + 3 × 4 = 21 + 12 = 33). La réponse est 33."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul guirlande ?",
+        "Il y a 3 guirlandes identiques."
+      ],
+      "common_errors": {
+        "25": "L'élève a multiplié seulement la première quantité par 3 et oublié de multiplier la seconde.",
+        "14": "L'élève a additionné tous les nombres de l'énoncé.",
+        "11": "L'élève a calculé le contenu d'un seul guirlande sans multiplier par 3."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.122",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un boulanger prépare 5 plateaux de gâteaux. Sur chaque plateau, il y a 6 tartelettes aux pommes et 4 tartelettes aux fraises. Combien de tartelettes y a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "50"
+      },
+      "solution": "Étape additive : dans chaque plateau, il y a 6 + 4 = 10 objets. Étape multiplicative : il y a 5 plateaus de 10 : 5 × 10. 5 × 10 = 50 (on peut vérifier : 5 × 6 + 5 × 4 = 30 + 20 = 50). La réponse est 50.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque plateau, il y a 6 + 4 = 10 objets.",
+        "Étape multiplicative : il y a 5 plateaus de 10 : 5 × 10.",
+        "5 × 10 = 50 (on peut vérifier : 5 × 6 + 5 × 4 = 30 + 20 = 50). La réponse est 50."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul plateau ?",
+        "Il y a 5 plateaus identiques."
+      ],
+      "common_errors": {
+        "34": "L'élève a multiplié seulement la première quantité par 5 et oublié de multiplier la seconde.",
+        "15": "L'élève a additionné tous les nombres de l'énoncé.",
+        "10": "L'élève a calculé le contenu d'un seul plateau sans multiplier par 5."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.123",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Léa a 4 boîtes de bonbons. Dans chaque boîte, il y a 12 bonbons à la fraise et 8 bonbons au citron. Combien de bonbons Léa a-t-elle en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "80"
+      },
+      "solution": "Étape additive : dans chaque boîte, il y a 12 + 8 = 20 objets. Étape multiplicative : il y a 4 boîtes de 20 : 4 × 20. 4 × 20 = 80 (on peut vérifier : 4 × 12 + 4 × 8 = 48 + 32 = 80). La réponse est 80.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque boîte, il y a 12 + 8 = 20 objets.",
+        "Étape multiplicative : il y a 4 boîtes de 20 : 4 × 20.",
+        "4 × 20 = 80 (on peut vérifier : 4 × 12 + 4 × 8 = 48 + 32 = 80). La réponse est 80."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul boîte ?",
+        "Il y a 4 boîtes identiques."
+      ],
+      "common_errors": {
+        "56": "L'élève a multiplié seulement la première quantité par 4 et oublié de multiplier la seconde.",
+        "24": "L'élève a additionné tous les nombres de l'énoncé.",
+        "20": "L'élève a calculé le contenu d'un seul boîte sans multiplier par 4."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.124",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un magasin a 6 étagères. Sur chaque étagère, on place 9 boîtes de céréales et 5 boîtes de biscuits. Combien de boîtes y a-t-il en tout sur les étagères ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "84"
+      },
+      "solution": "Étape additive : dans chaque étagère, il y a 9 + 5 = 14 objets. Étape multiplicative : il y a 6 étagères de 14 : 6 × 14. 6 × 14 = 84 (on peut vérifier : 6 × 9 + 6 × 5 = 54 + 30 = 84). La réponse est 84.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque étagère, il y a 9 + 5 = 14 objets.",
+        "Étape multiplicative : il y a 6 étagères de 14 : 6 × 14.",
+        "6 × 14 = 84 (on peut vérifier : 6 × 9 + 6 × 5 = 54 + 30 = 84). La réponse est 84."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul étagère ?",
+        "Il y a 6 étagères identiques."
+      ],
+      "common_errors": {
+        "59": "L'élève a multiplié seulement la première quantité par 6 et oublié de multiplier la seconde.",
+        "20": "L'élève a additionné tous les nombres de l'énoncé.",
+        "14": "L'élève a calculé le contenu d'un seul étagère sans multiplier par 6."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.125",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un magasin a reçu 256 crayons. On en vend 78 le premier jour et 94 le deuxième jour. Combien de crayons reste-t-il dans le magasin ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "84"
+      },
+      "solution": "Première étape : on retire la première quantité : 256 − 78 = 178. Deuxième étape : on retire la deuxième quantité : 178 − 94 = 84. (Vérification : 78 + 94 = 172 et 256 − 172 = 84.) La réponse est 84.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 256 − 78 = 178.",
+        "Deuxième étape : on retire la deuxième quantité : 178 − 94 = 84.",
+        "(Vérification : 78 + 94 = 172 et 256 − 172 = 84.) La réponse est 84."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "178": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "172": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.126",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour une fête, on prépare 56 gâteaux. On en mange 18 à midi et 24 le soir. Combien de gâteaux reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "14"
+      },
+      "solution": "Première étape : on retire la première quantité : 56 − 18 = 38. Deuxième étape : on retire la deuxième quantité : 38 − 24 = 14. (Vérification : 18 + 24 = 42 et 56 − 42 = 14.) La réponse est 14.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 56 − 18 = 38.",
+        "Deuxième étape : on retire la deuxième quantité : 38 − 24 = 14.",
+        "(Vérification : 18 + 24 = 42 et 56 − 42 = 14.) La réponse est 14."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "38": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "42": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.127",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un bocal, il y a 250 perles. On en utilise 76 pour faire un collier et 93 pour un bracelet. Combien de perles reste-t-il dans le bocal ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "81"
+      },
+      "solution": "Première étape : on retire la première quantité : 250 − 76 = 174. Deuxième étape : on retire la deuxième quantité : 174 − 93 = 81. (Vérification : 76 + 93 = 169 et 250 − 169 = 81.) La réponse est 81.",
+      "step_by_step_solution": [
+        "Première étape : on retire la première quantité : 250 − 76 = 174.",
+        "Deuxième étape : on retire la deuxième quantité : 174 − 93 = 81.",
+        "(Vérification : 76 + 93 = 169 et 250 − 169 = 81.) La réponse est 81."
+      ],
+      "hints": [
+        "Deux quantités sont enlevées : il faut les retirer toutes les deux.",
+        "Tu peux d'abord calculer tout ce qui est enlevé, puis le retirer du total."
+      ],
+      "common_errors": {
+        "174": "L'élève s'est arrêté après la première étape et a oublié le deuxième retrait.",
+        "169": "L'élève a calculé la quantité totale enlevée mais a oublié de la retirer du total de départ."
+      },
+      "remediation": "Schéma en barre : le tout de départ découpé en trois parties (deux parties enlevées et le reste) ; calculer étape par étape en écrivant le résultat intermédiaire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes",
+        "Calculer des différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.128",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un parc, il y a 250 oiseaux ce matin. À midi, 42 oiseaux s'envolent et 37 nouveaux arrivent. Combien d'oiseaux y a-t-il dans le parc cet après-midi ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "245"
+      },
+      "solution": "Première étape : 42 oiseaux s'envolent : 250 − 42 = 208. Deuxième étape : 37 oiseaux arrivent : 208 + 37 = 245. Il y a 245 oiseaux dans le parc cet après-midi. La réponse est 245.",
+      "step_by_step_solution": [
+        "Première étape : 42 oiseaux s'envolent : 250 − 42 = 208.",
+        "Deuxième étape : 37 oiseaux arrivent : 208 + 37 = 245.",
+        "Il y a 245 oiseaux dans le parc cet après-midi. La réponse est 245."
+      ],
+      "hints": [
+        "Des oiseaux partent (le nombre diminue), puis d'autres arrivent (le nombre augmente).",
+        "Traite les deux changements dans l'ordre de l'énoncé."
+      ],
+      "common_errors": {
+        "329": "L'élève a additionné tous les nombres sans tenir compte des oiseaux qui s'envolent.",
+        "208": "L'élève a oublié les oiseaux qui arrivent (deuxième étape)."
+      },
+      "remediation": "Représenter la situation sur une droite numérique : un bond en arrière (départs) puis un bond en avant (arrivées).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème additif en deux étapes (transformations successives)",
+        "Calculer mentalement sommes et différences"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-deux-etapes"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.129",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une marchande vend des œufs par boîtes de 10. Elle vend 9 boîtes. Combien d’œufs a-t-elle vendus ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "90"
+      },
+      "solution": "Il y a 9 groupes identiques de 10 (ou 10 groupes de 9) : on cherche le tout. On calcule le produit : 9 × 10. 9 × 10 = 90. La réponse est 90.",
+      "step_by_step_solution": [
+        "Il y a 9 groupes identiques de 10 (ou 10 groupes de 9) : on cherche le tout.",
+        "On calcule le produit : 9 × 10.",
+        "9 × 10 = 90. La réponse est 90."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "19": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.130",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un pâtissier prépare 12 boîtes de macarons. Dans chaque boîte, il met 25 macarons. Combien de macarons y a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "300"
+      },
+      "solution": "Il y a 12 groupes identiques de 25 (ou 25 groupes de 12) : on cherche le tout. On calcule le produit : 12 × 25. 12 × 25 = 300. La réponse est 300.",
+      "step_by_step_solution": [
+        "Il y a 12 groupes identiques de 25 (ou 25 groupes de 12) : on cherche le tout.",
+        "On calcule le produit : 12 × 25.",
+        "12 × 25 = 300. La réponse est 300."
+      ],
+      "hints": [
+        "Toutes les parts ont-elles la même valeur ?",
+        "Quand on répète plusieurs fois la même quantité, on peut multiplier."
+      ],
+      "common_errors": {
+        "37": "L'élève a additionné les deux nombres au lieu de multiplier (confusion addition / multiplication)."
+      },
+      "remediation": "Représenter les groupes par des croix ou des jetons, puis passer de l'addition itérée à la multiplication ; schéma en barre avec des parts égales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème multiplicatif (recherche du tout)",
+        "Calculer un produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.131",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un libraire a 144 livres à ranger sur des étagères. Chaque étagère peut contenir 12 livres. Combien d'étagères complètes pourra-t-il remplir ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "On fait des groupes de 12 avec 144 : on cherche le nombre de groupes. On cherche combien de fois 12 est contenu dans 144 : 12 × 12 = 144. Donc 144 ÷ 12 = 12. La réponse est 12.",
+      "step_by_step_solution": [
+        "On fait des groupes de 12 avec 144 : on cherche le nombre de groupes.",
+        "On cherche combien de fois 12 est contenu dans 144 : 12 × 12 = 144.",
+        "Donc 144 ÷ 12 = 12. La réponse est 12."
+      ],
+      "hints": [
+        "Fais des paquets de 12 et compte les paquets.",
+        "Combien de fois faut-il ajouter 12 pour arriver à 144 ?"
+      ],
+      "common_errors": {
+        "132": "L'élève a soustrait la taille d'un groupe au lieu de chercher le nombre de groupes.",
+        "1728": "L'élève a multiplié au lieu de chercher combien de groupes on peut faire."
+      },
+      "remediation": "Représenter la collection par des croix et entourer des groupes de la taille demandée, puis compter les groupes ; relier au calcul « combien de fois ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de partage (recherche du nombre de parts)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.132",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour une fête d'anniversaire, on a préparé 72 ballons à accrocher. On veut les répartir en 9 paquets identiques. Combien de ballons y aura-t-il dans chaque paquet ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "On partage équitablement 72 en 9 parts égales : on cherche la valeur d'une part. On cherche le nombre qui, multiplié par 9, donne 72 : 9 × 8 = 72. Donc 72 ÷ 9 = 8. La réponse est 8.",
+      "step_by_step_solution": [
+        "On partage équitablement 72 en 9 parts égales : on cherche la valeur d'une part.",
+        "On cherche le nombre qui, multiplié par 9, donne 72 : 9 × 8 = 72.",
+        "Donc 72 ÷ 9 = 8. La réponse est 8."
+      ],
+      "hints": [
+        "Distribue les objets un par un dans les 9 parts jusqu'à épuisement.",
+        "Cherche dans la table de 9 : 9 × ? = 72."
+      ],
+      "common_errors": {
+        "63": "L'élève a soustrait le nombre de parts au lieu de partager.",
+        "648": "L'élève a multiplié au lieu de partager."
+      },
+      "remediation": "Manipuler des jetons et les distribuer un à un dans les parts ; puis relier le partage à la table de multiplication (schéma en barre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de partage équitable (valeur d'une part)",
+        "Utiliser les tables de multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.legacy87.134",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour un spectacle, on prépare 7 caisses de décorations. Dans chaque caisse, il y a 15 rubans rouges et 9 rubans bleus. Combien de rubans y a-t-il en tout dans les caisses ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "168"
+      },
+      "solution": "Étape additive : dans chaque caisse, il y a 15 + 9 = 24 objets. Étape multiplicative : il y a 7 caisses de 24 : 7 × 24. 7 × 24 = 168 (on peut vérifier : 7 × 15 + 7 × 9 = 105 + 63 = 168). La réponse est 168.",
+      "step_by_step_solution": [
+        "Étape additive : dans chaque caisse, il y a 15 + 9 = 24 objets.",
+        "Étape multiplicative : il y a 7 caisses de 24 : 7 × 24.",
+        "7 × 24 = 168 (on peut vérifier : 7 × 15 + 7 × 9 = 105 + 63 = 168). La réponse est 168."
+      ],
+      "hints": [
+        "Combien d'objets y a-t-il dans un seul caisse ?",
+        "Il y a 7 caisses identiques."
+      ],
+      "common_errors": {
+        "114": "L'élève a multiplié seulement la première quantité par 7 et oublié de multiplier la seconde.",
+        "31": "L'élève a additionné tous les nombres de l'énoncé.",
+        "24": "L'élève a calculé le contenu d'un seul caisse sans multiplier par 7."
+      },
+      "remediation": "Dessiner un seul contenant avec ses deux sortes d'objets, calculer son contenu, puis dessiner les contenants identiques (addition itérée → multiplication).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en deux étapes (additive puis multiplicative)",
+        "Calculer somme et produit"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-mixtes-en-deux-etapes-une-etape-additive-et-une"
+      ],
+      "generation_origin": "IMPORTED_LEGACY",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

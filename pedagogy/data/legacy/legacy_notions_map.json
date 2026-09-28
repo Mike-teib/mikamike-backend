@@ -4,8 +4,8 @@
   "disclaimer": "Correspondance indicative : les notions historiques n'ont aucune source ; aucune n'est une preuve. Aucun ancien contenu n'est modifié.",
   "counts": {
     "LEVEL_AMBIGUOUS": 5,
-    "MATCHED_SIMILAR": 1,
-    "UNMATCHED": 41
+    "MATCHED_SIMILAR": 2,
+    "UNMATCHED": 40
   },
   "entries": [
     {
@@ -15,7 +15,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.4
     },
     {
       "legacy_id": "maths_1re_02",
@@ -24,7 +24,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.29
     },
     {
       "legacy_id": "maths_1re_03",
@@ -33,7 +33,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.17
     },
     {
       "legacy_id": "maths_1re_04",
@@ -42,7 +42,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.29
     },
     {
       "legacy_id": "maths_1re_05",
@@ -51,7 +51,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.2
     },
     {
       "legacy_id": "maths_2de_01",
@@ -60,7 +60,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.2
     },
     {
       "legacy_id": "maths_2de_02",
@@ -69,7 +69,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.18
     },
     {
       "legacy_id": "maths_2de_03",
@@ -78,7 +78,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.33
     },
     {
       "legacy_id": "maths_2de_04",
@@ -87,7 +87,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.11
     },
     {
       "legacy_id": "maths_2de_05",
@@ -96,7 +96,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.2
     },
     {
       "legacy_id": "maths_3e_01",
@@ -150,7 +150,7 @@
       "legacy_subject": "svt",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.14
     },
     {
       "legacy_id": "svt_3e_02",
@@ -159,7 +159,7 @@
       "legacy_subject": "svt",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.12
     },
     {
       "legacy_id": "chim_4e_01",
@@ -177,7 +177,7 @@
       "legacy_subject": "chimie",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.2
     },
     {
       "legacy_id": "maths_4e_01",
@@ -285,7 +285,7 @@
       "legacy_subject": "physique",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.19
     },
     {
       "legacy_id": "phys_5e_02",
@@ -390,16 +390,18 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.33
     },
     {
       "legacy_id": "maths_tle_02",
       "legacy_title": "Fonction exponentielle",
       "legacy_level": "tle",
       "legacy_subject": "maths",
-      "status": "UNMATCHED",
-      "candidates": [],
-      "score": 0.0
+      "status": "MATCHED_SIMILAR",
+      "candidates": [
+        "MATHS.TLE.AN.limite-en-et-en-de-la-fonction-exponentielle"
+      ],
+      "score": 0.67
     },
     {
       "legacy_id": "maths_tle_03",
@@ -408,7 +410,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.4
     },
     {
       "legacy_id": "maths_tle_04",
@@ -417,7 +419,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.25
     },
     {
       "legacy_id": "maths_tle_05",
@@ -426,7 +428,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.2
     }
   ]
 }

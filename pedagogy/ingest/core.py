@@ -34,8 +34,12 @@ from pedagogy.models import (
 from pedagogy.registry import DATA_DIR, REPO_ROOT, load_registry
 from pedagogy.sources import SourceText, load_source_text, normalize_for_match, promote_notion
 
-BULLET_RE = re.compile(r"^\s*(?:[-−–•]|)\s+")
+# Puces : tiret, moins, demi-cadratin, point médian, et glyphes privés des PDF (U+F02D, U+F0B7).
+BULLET_RE = re.compile("^\\s*(?:[-\u2212\u2013\u2022\uf02d\uf0b7])\\s+")
 TITLE_MAX = 160
+
+
+_LINES_CACHE: Dict[Tuple[str, str], Dict[int, List[str]]] = {}
 
 
 def raw_pages(source_id: str, root: Path = REPO_ROOT) -> Tuple[SourceText, Dict[int, List[str]]]:
@@ -43,9 +47,12 @@ def raw_pages(source_id: str, root: Path = REPO_ROOT) -> Tuple[SourceText, Dict[
     reg = load_registry()
     src = reg.sources[source_id]
     st = load_source_text(src, root)
-    reader = PdfReader(str(root / src.local_path))
-    lines = {i + 1: (p.extract_text() or "").splitlines() for i, p in enumerate(reader.pages)}
-    return st, lines
+    path = root / src.local_path
+    key = (str(path.resolve()), src.sha256)
+    if key not in _LINES_CACHE:
+        reader = PdfReader(str(path))
+        _LINES_CACHE[key] = {i + 1: (p.extract_text() or "").splitlines() for i, p in enumerate(reader.pages)}
+    return st, {k: list(v) for k, v in _LINES_CACHE[key].items()}
 
 
 def clean_line(s: str) -> str:

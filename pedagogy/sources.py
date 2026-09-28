@@ -20,7 +20,7 @@ import re
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Iterable, List, NamedTuple, Optional, Sequence
+from typing import Dict, Iterable, List, NamedTuple, Optional, Sequence, Tuple
 
 from pedagogy.models import (
     OFFICIAL_SOURCE_TYPES,
@@ -70,7 +70,20 @@ class ExtractionError(RuntimeError):
     pass
 
 
+_PDF_CACHE: Dict[Tuple[str, int, int], Dict[int, str]] = {}
+
+
 def extract_pdf_pages(path: Path) -> Dict[int, str]:
+    """Texte normalisé par page. Mis en cache par (chemin, taille, date) : l'empreinte SHA-256
+    est de toute façon revérifiée par load_source_text avant chaque usage."""
+    st = path.stat()
+    key = (str(path.resolve()), st.st_size, st.st_mtime_ns)
+    if key not in _PDF_CACHE:
+        _PDF_CACHE[key] = _extract_pdf_pages(path)
+    return dict(_PDF_CACHE[key])
+
+
+def _extract_pdf_pages(path: Path) -> Dict[int, str]:
     try:
         from pypdf import PdfReader
     except ImportError as exc:  # pragma: no cover
