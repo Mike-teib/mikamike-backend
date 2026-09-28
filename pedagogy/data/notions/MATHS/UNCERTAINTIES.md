@@ -3,7 +3,7 @@
 Statut global : **toutes les notions MATHS sont des candidats** (`proof_status=UNPROVEN`,
 `source_type=CANDIDATE_UNVERIFIED`, `official_wording=null`, `review_status=NOT_REVIEWED`,
 `publication_status=DRAFT`). Elles ont été reconstituées de mémoire (connaissance générale des
-programmes). Aucune source officielle n'a été consultée : BO et Éduscol ne sont pas accessibles depuis cet environnement.
+programmes). À l'origine, BO et Éduscol étaient inaccessibles dans l'environnement de génération. La référence du nouveau programme de mathématiques du cycle 3 a depuis été vérifiée sur le site officiel du ministère ; les PDF ne sont toutefois pas encore déposés localement dans le dépôt, et aucune notion n'est encore prouvée verbatim.
 Aucun libellé n'est donné comme officiel. Les titres sont des noms de notions courants, pas des
 citations.
 
@@ -11,7 +11,7 @@ citations.
 
 | Fichier | Source attendue | Doute |
 |---|---|---|
-| 6E.json | SRC-C3-2020 (+ SRC-C3-MATHS-NOUVEAU) | Il se peut qu'un **nouveau programme de mathématiques du cycle 3** s'applique en 6e depuis la rentrée 2025. Si c'est le cas, SRC-C3-MATHS-NOUVEAU remplace SRC-C3-2020 pour la 6e : il faudra revoir les notions, les domaines, les titres et le placement, et passer les anciennes notions en DEPRECATED. Il faut vérifier que ce texte existe, sa référence au BO et son calendrier. |
+| 6E.json | SRC-C3-MATHS-NOUVEAU | **Source confirmée** : programme de mathématiques du cycle 3, BO n°16 du 17 avril 2025, NOR MENE2504620A, applicable en 6e à la rentrée 2025-2026. Les 48 notions restent UNPROVEN tant que leur placement et leur libellé ne sont pas vérifiés verbatim dans le PDF local. |
 | 5E/4E/3E.json | SRC-C4-2020 | Version consolidée 2020 du cycle 4 supposée. Il faut vérifier qu'aucune version plus récente (nouveaux programmes collège annoncés 2024-2026) ne s'applique en 2025-2026. |
 | 2NDE.json | SRC-2NDE-2019 | Programme 2019 supposé. Il faut vérifier les ajustements éventuels (automatismes, arithmétique, vocabulaire ensembliste). |
 | 1RE_SPECIALITE.json | SRC-1RE-2019 | Programme 2019 supposé. |
@@ -35,7 +35,7 @@ Le cycle 4 fixe des attendus **de fin de cycle**. La répartition entre 5e, 4e e
 
 ## 3. Noms et codes de domaines
 
-- Collège : NC, OGD, GM, EG, AP (intitulés du cycle 4). **En 6e (cycle 3)**, les domaines supposés du programme 2020 sont « Nombres et calculs », « Grandeurs et mesures » et « Espace et géométrie ». La proportionnalité y relève de NC (6E NC « Proportionnalité »). Les domaines OGD (« Tableaux et diagrammes ») et AP (« Programmation de déplacements ») utilisés en 6e sont **des choix de modélisation**. Dans le programme de 2020, l'algorithmique du cycle 3 relevait d'« Espace et géométrie ». Un éventuel nouveau programme du cycle 3 pourrait avoir un domaine « Organisation et gestion de données ».
+- Collège : NC, OGD, GM, EG, AP (intitulés internes / hérités). **En 6e**, le programme 2025 est désormais la référence à vérifier notion par notion. Son sommaire officiel comporte notamment « Nombres, calcul et résolution de problèmes », « Grandeurs et mesures », « Espace et géométrie », « Organisation et gestion de données et probabilités », « La proportionnalité » et « Initiation à la pensée informatique ». Les codes actuels restent des choix de modélisation jusqu'à la revue détaillée.
 - Seconde : NC, GEO, FON, SP, AP. On suppose aussi une rubrique officielle « Vocabulaire ensembliste et logique », qui n'est pas modélisée.
 - 1re spécialité : **les suites sont placées sous AN (Analyse)** parce que le contrat d'ancres l'impose (`MATHS.1RE.AN.suites-numeriques`). L'organisation officielle supposée les range dans « Algèbre ». De même, en Tle, « Raisonnement par récurrence » est en AN (ancre). Le programme de terminale le rattache peut-être à « Algèbre et géométrie » ou aux suites.
 - 1re/Tle : ALG (second degré ; combinatoire en Tle), GEO, PROBA, AP. Il faut vérifier les intitulés exacts des parties du programme.
@@ -53,8 +53,8 @@ Les champs `learning_objectives`, `expected_skills`, `common_mistakes`, `difficu
 
 ## 6. Ce qu'il faut vérifier, et où
 
-1. Déposer les PDF officiels (BO) : SRC-C3-2020 / SRC-C3-MATHS-NOUVEAU, SRC-C4-2020, SRC-2NDE-2019, SRC-1RE-2019, SRC-1RE-MATHS-TC, SRC-TLE-2019. Enregistrer ensuite le sha256.
+1. Déposer les PDF officiels (BO), en priorité le programme de mathématiques cycle 3 de 2025 déjà identifié (SRC-C3-MATHS-NOUVEAU), puis SRC-C3-2020 pour Sciences et technologie, SRC-C4-2020, SRC-2NDE-2019, SRC-1RE-2019, SRC-1RE-MATHS-TC et SRC-TLE-2019. Enregistrer ensuite le sha256.
 2. Pour chaque notion, rechercher un libellé verbatim dans le PDF (`pedagogy.sources.verify_notion_against_source`). Seulement alors, renseigner `official_wording`, `source_page_or_section` et `source_sha256`, et passer en PROVEN_OFFICIAL.
 3. Confirmer la répartition annuelle du cycle 4 avec les repères annuels de progression (Éduscol, mathématiques cycle 4).
-4. Trancher la question du nouveau programme de 6e (rentrée 2025) et, le cas échéant, régénérer 6E.json.
+4. Revoir les 48 candidats de 6E.json contre le programme 2025 désormais confirmé : domaines, placement, titres et objectifs. Ne promouvoir une notion qu'après vérification verbatim dans le PDF local.
 5. Décider s'il faut créer 1RE_MATHS_SPECIFIQUES_1RE.json après lecture de SRC-1RE-MATHS-TC.

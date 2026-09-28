@@ -1,16 +1,15 @@
 {
   "schema_version": "1.0",
-  "disclaimer": "Liste des documents officiels ATTENDUS. Aucun n'est récupéré : retrieval=EXPECTED, reference_verified=false. Aucune notion ne peut être PROVEN_OFFICIAL tant que le PDF n'est pas déposé et enregistré (sha256).",
+  "disclaimer": "Liste des documents officiels attendus. La référence du nouveau programme de mathématiques du cycle 3 (BO n°16 du 17 avril 2025, NOR MENE2504620A) est confirmée ; les PDF restent non déposés localement (retrieval=EXPECTED), donc aucune notion ne peut être PROVEN_OFFICIAL tant que le document n'est pas enregistré avec son SHA-256.",
   "sources": [
     {
       "source_id": "SRC-C3-2020",
       "source_type": "OFFICIAL_BO",
-      "title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "title": "Programme du cycle 3 — sciences et technologie (version consolidée 2020 ; référence à confirmer)",
       "publisher": "Ministère de l'Éducation nationale",
       "reference": "BO n°31 du 30 juillet 2020 (à confirmer)",
       "url": "",
       "subjects": [
-        "MATHS",
         "SCIENCES_TECHNOLOGIE"
       ],
       "levels": [
@@ -25,15 +24,15 @@
       "local_path": "",
       "sha256": "",
       "reference_verified": false,
-      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path. Vérifier aussi si un nouveau programme de mathématiques du cycle 3 s'applique en 6e à la rentrée visée (voir SRC-C3-MATHS-NOUVEAU)."
+      "notes": "Référence 2020 encore à vérifier pour Sciences et technologie. Pour les mathématiques de 6e, ne pas utiliser cette source à partir de 2025-2026 : le nouveau programme du cycle 3 publié au BO n°16 du 17 avril 2025 s'applique à la 6e dès cette rentrée."
     },
     {
       "source_id": "SRC-C3-MATHS-NOUVEAU",
       "source_type": "OFFICIAL_BO",
-      "title": "Programme de mathématiques du cycle 3 — nouvelle version éventuelle (existence, référence et calendrier à confirmer)",
+      "title": "Programme de mathématiques pour le cycle 3",
       "publisher": "Ministère de l'Éducation nationale",
-      "reference": "à confirmer",
-      "url": "",
+      "reference": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "url": "https://www.education.gouv.fr/sites/default/files/programme-de-math-matiques-pour-le-cycle-3-439827.pdf",
       "subjects": [
         "MATHS"
       ],
@@ -49,7 +48,7 @@
       "local_path": "",
       "sha256": "",
       "reference_verified": false,
-      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path. Si cette version existe et s'applique, elle remplace SRC-C3-2020 pour les maths de 6e : les notions de l'ancienne version passeront DEPRECATED."
+      "notes": "Existence, référence et calendrier confirmés sur le Bulletin officiel : application à la classe de 6e à la rentrée 2025-2026. Le PDF officiel n'est pas encore déposé dans pedagogy/sources_local/official, donc retrieval reste EXPECTED et aucune notion n'est PROVEN_OFFICIAL."
     },
     {
       "source_id": "SRC-C4-2020",
