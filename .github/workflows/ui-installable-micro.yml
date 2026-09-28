@@ -1,7 +1,7 @@
 name: MikaMike installable + micro
 on:
   push:
-    branches: ["ui/mikamike-installable-micro-v1-20260928"]
+    branches: ["ui/mikamike-installable-micro-v1-20260928", "ui/mikamike-installable-improvements-20260928"]
     paths: ["frontend-vnext/**","mobile-app/**",".github/workflows/ui-installable-micro.yml"]
   pull_request:
     paths: ["frontend-vnext/**","mobile-app/**"]
