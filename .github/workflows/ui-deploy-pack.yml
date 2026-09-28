@@ -7,11 +7,13 @@ on:
       - "ops/deploy_frontend_micro_pwa.sh"
       - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
       - "ops/deploy_frontend_micro_pwa_windows.ps1"
+      - "ops/run_frontend_release.ps1"
       - ".github/workflows/ui-deploy-pack.yml"
   pull_request:
     paths:
       - "ops/deploy_frontend_micro_pwa.sh"
       - "ops/deploy_frontend_micro_pwa_windows.ps1"
+      - "ops/run_frontend_release.ps1"
       - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
       - ".github/workflows/ui-deploy-pack.yml"
 
@@ -36,6 +38,8 @@ jobs:
           [scriptblock]::Create((Get-Content -Raw "ops/deploy_frontend_micro_pwa_windows.ps1")) | Out-Null
           $script = Get-Content -Raw "ops/deploy_frontend_micro_pwa_windows.ps1"
           [scriptblock]::Create($script) | Out-Null
+          [scriptblock]::Create((Get-Content -Raw "ops/run_frontend_release.ps1")) | Out-Null
+          if (-not (Get-Content -Raw "ops/run_frontend_release.ps1").Contains("ExpectedReleaseSha")) { throw "Lanceur neutre incomplet" }
           foreach ($needle in @(
             "79.137.79.200",
             "2222",
