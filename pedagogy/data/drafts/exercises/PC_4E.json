@@ -1,0 +1,2137 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.d01",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un échantillon de 20 cm³ d'un liquide a une masse de 25,2 g. Calculer sa masse volumique en g/cm³.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,26",
+        "unit": "g/cm³"
+      },
+      "solution": "ρ = m / V. ρ = 25,2 g ÷ 20 cm³ = 1,26 g/cm³.",
+      "step_by_step_solution": [
+        "ρ = m / V.",
+        "ρ = 25,2 g ÷ 20 cm³ = 1,26 g/cm³."
+      ],
+      "hints": [
+        "Quelle grandeur divise-t-on par l'autre ?"
+      ],
+      "common_errors": {
+        "0,79 g/cm³": "L'élève a divisé le volume par la masse.",
+        "504 g/cm³": "L'élève a multiplié la masse par le volume."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.d02",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle relation définit la masse volumique ρ d'un échantillon de masse m et de volume V ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La masse volumique est la masse d'une unité de volume. On divise donc la masse par le volume : ρ = m / V",
+      "step_by_step_solution": [
+        "La masse volumique est la masse d'une unité de volume.",
+        "On divise donc la masse par le volume : ρ = m / V"
+      ],
+      "hints": [
+        "L'unité g/cm³ se lit « grammes par centimètre cube »."
+      ],
+      "common_errors": {
+        "1": "Quotient inversé.",
+        "2": "Un produit n'est pas une masse par unité de volume.",
+        "3": "On ne soustrait pas des grandeurs différentes."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "choices": [
+        "ρ = m / V",
+        "ρ = V / m",
+        "ρ = m × V",
+        "ρ = m − V"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.d03",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une bille d'acier a une masse de 31,6 g et un volume de 4,0 cm³. Quelle est sa masse volumique ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "7,9",
+        "unit": "g/cm³"
+      },
+      "solution": "ρ = m / V. ρ = 31,6 g ÷ 4,0 cm³ = 7,9 g/cm³.",
+      "step_by_step_solution": [
+        "ρ = m / V.",
+        "ρ = 31,6 g ÷ 4,0 cm³ = 7,9 g/cm³."
+      ],
+      "hints": [
+        "Divise la masse par le volume."
+      ],
+      "common_errors": {
+        "0,13 g/cm³": "L'élève a divisé le volume par la masse.",
+        "126,4 g/cm³": "L'élève a multiplié."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.d04",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "1,0 L d'huile a une masse de 920 g. Quelle est la masse volumique de l'huile en kg/L ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,92",
+        "unit": "kg/L"
+      },
+      "solution": "On convertit la masse : 920 g = 0,92 kg. ρ = 0,92 kg ÷ 1,0 L = 0,92 kg/L.",
+      "step_by_step_solution": [
+        "On convertit la masse : 920 g = 0,92 kg.",
+        "ρ = 0,92 kg ÷ 1,0 L = 0,92 kg/L."
+      ],
+      "hints": [
+        "Commence par convertir la masse en kilogrammes."
+      ],
+      "common_errors": {
+        "920 kg/L": "L'élève n'a pas converti les grammes en kilogrammes."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.d05",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Un gros bloc de fer et un clou en fer n'ont pas la même masse. Que peut-on dire de leurs masses volumiques ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La masse volumique caractérise l'espèce chimique, pas la taille de l'objet. Les deux objets sont en fer : leurs masses volumiques sont égales. La bonne réponse est : « Elles sont égales. »",
+      "step_by_step_solution": [
+        "La masse volumique caractérise l'espèce chimique, pas la taille de l'objet.",
+        "Les deux objets sont en fer : leurs masses volumiques sont égales.",
+        "La bonne réponse est : « Elles sont égales. »"
+      ],
+      "hints": [
+        "Si le volume double, que devient la masse ? Et leur quotient ?"
+      ],
+      "common_errors": {
+        "1": "Confusion entre masse et masse volumique.",
+        "2": "Confusion entre masse et masse volumique.",
+        "3": "C'est justement l'intérêt de la masse volumique."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "choices": [
+        "Elles sont égales.",
+        "Celle du bloc est plus grande.",
+        "Celle du clou est plus grande.",
+        "On ne peut pas comparer des objets de tailles différentes."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.a01",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une éprouvette graduée vide pèse 52,0 g. On y verse 50,0 mL d'éthanol ; l'ensemble pèse 91,5 g. Calculer la masse volumique de l'éthanol en g/mL.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,79",
+        "unit": "g/mL"
+      },
+      "solution": "Masse d'éthanol : 91,5 − 52,0 = 39,5 g. ρ = 39,5 g ÷ 50,0 mL = 0,79 g/mL.",
+      "step_by_step_solution": [
+        "Masse d'éthanol : 91,5 − 52,0 = 39,5 g.",
+        "ρ = 39,5 g ÷ 50,0 mL = 0,79 g/mL."
+      ],
+      "hints": [
+        "Calcule d'abord la masse de l'éthanol seul."
+      ],
+      "common_errors": {
+        "1,83 g/mL": "L'élève a oublié de retirer la masse de l'éprouvette vide."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.a02",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Un métal inconnu a une masse de 54 g pour un volume de 20 cm³. Valeurs de référence : aluminium 2,7 g/cm³ ; fer 7,9 g/cm³ ; cuivre 8,9 g/cm³ ; plomb 11,3 g/cm³. De quel métal s'agit-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "ρ = 54 g ÷ 20 cm³ = 2,7 g/cm³. Cette valeur correspond, dans le tableau, au métal : Aluminium",
+      "step_by_step_solution": [
+        "ρ = 54 g ÷ 20 cm³ = 2,7 g/cm³.",
+        "Cette valeur correspond, dans le tableau, au métal : Aluminium"
+      ],
+      "hints": [
+        "Calcule la masse volumique puis compare au tableau."
+      ],
+      "common_errors": {
+        "1": "Valeur de ρ mal calculée.",
+        "2": "Valeur de ρ mal calculée.",
+        "3": "Valeur de ρ mal calculée."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "choices": [
+        "Aluminium",
+        "Fer",
+        "Cuivre",
+        "Plomb"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.a03",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quelle est la masse de 200 mL d'éthanol ? On donne ρ(éthanol) = 0,79 g/mL.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "158",
+        "unit": "g"
+      },
+      "solution": "m = ρ × V. m = 0,79 g/mL × 200 mL = 158 g.",
+      "step_by_step_solution": [
+        "m = ρ × V.",
+        "m = 0,79 g/mL × 200 mL = 158 g."
+      ],
+      "hints": [
+        "Isole m dans la relation ρ = m / V."
+      ],
+      "common_errors": {
+        "253 g": "L'élève a divisé le volume par la masse volumique."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.a04",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Convertir la masse volumique de l'aluminium, 2,7 g/cm³, en kg/m³.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2700",
+        "unit": "kg/m³",
+        "required_form": "unite_imposee"
+      },
+      "solution": "1 g/cm³ = 1 000 kg/m³ (1 g = 0,001 kg et 1 cm³ = 0,000 001 m³). 2,7 g/cm³ = 2,7 × 1 000 = 2700 kg/m³.",
+      "step_by_step_solution": [
+        "1 g/cm³ = 1 000 kg/m³ (1 g = 0,001 kg et 1 cm³ = 0,000 001 m³).",
+        "2,7 g/cm³ = 2,7 × 1 000 = 2700 kg/m³."
+      ],
+      "hints": [
+        "Combien de cm³ y a-t-il dans 1 m³ ?"
+      ],
+      "common_errors": {
+        "2,7 kg/m³": "L'élève n'a pas converti.",
+        "0,0027 kg/m³": "L'élève a divisé par 1 000 au lieu de multiplier."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.a05",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quel volume occupent 395 g d'éthanol ? On donne ρ(éthanol) = 0,79 g/cm³.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "500",
+        "unit": "cm³"
+      },
+      "solution": "V = m / ρ. V = 395 g ÷ 0,79 g/cm³ = 500 cm³.",
+      "step_by_step_solution": [
+        "V = m / ρ.",
+        "V = 395 g ÷ 0,79 g/cm³ = 500 cm³."
+      ],
+      "hints": [
+        "Isole V dans la relation ρ = m / V."
+      ],
+      "common_errors": {
+        "312,05 cm³": "L'élève a multiplié la masse par la masse volumique."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.c01",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On verse dans un tube de l'huile (ρ = 0,92 g/mL) et de l'eau (ρ = 1,00 g/mL), deux liquides non miscibles. Quel liquide se trouve au-dessus ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le liquide de plus faible masse volumique se place au-dessus. 0,92 g/mL < 1,00 g/mL. La bonne réponse est : « L'huile »",
+      "step_by_step_solution": [
+        "Le liquide de plus faible masse volumique se place au-dessus.",
+        "0,92 g/mL < 1,00 g/mL.",
+        "La bonne réponse est : « L'huile »"
+      ],
+      "hints": [
+        "Compare les deux masses volumiques."
+      ],
+      "common_errors": {
+        "1": "Inversion : le liquide le plus dense va au fond.",
+        "2": "L'ordre de versement n'a pas d'influence."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "choices": [
+        "L'huile",
+        "L'eau",
+        "Celui qui a été versé en dernier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.c02",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Une bague a une masse de 11,6 g et un volume de 0,60 cm³. Valeurs de référence : argent 10,5 g/cm³ ; or 19,3 g/cm³ ; cuivre 8,9 g/cm³. En quel métal est-elle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "ρ = 11,6 g ÷ 0,60 cm³ ≈ 19,3 g/cm³. La bague est donc en métal : Or",
+      "step_by_step_solution": [
+        "ρ = 11,6 g ÷ 0,60 cm³ ≈ 19,3 g/cm³.",
+        "La bague est donc en métal : Or"
+      ],
+      "hints": [
+        "Calcule ρ, puis compare aux valeurs de référence."
+      ],
+      "common_errors": {
+        "1": "Calcul de ρ erroné.",
+        "2": "Calcul de ρ erroné."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "choices": [
+        "Or",
+        "Argent",
+        "Cuivre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.c03",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un bloc de glace de 2,0 m³ a une masse de 1 840 kg. Calculer sa masse volumique en kg/m³.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "920",
+        "unit": "kg/m³"
+      },
+      "solution": "ρ = m / V. ρ = 1 840 kg ÷ 2,0 m³ = 920 kg/m³.",
+      "step_by_step_solution": [
+        "ρ = m / V.",
+        "ρ = 1 840 kg ÷ 2,0 m³ = 920 kg/m³."
+      ],
+      "hints": [
+        "Divise la masse par le volume."
+      ],
+      "common_errors": {
+        "3680 kg/m³": "L'élève a multiplié au lieu de diviser."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.c04",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un objet plein, de masse volumique 0,60 g/cm³, est déposé sur de l'eau (ρ = 1,00 g/cm³). Que se passe-t-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un objet plein moins dense que l'eau flotte. 0,60 g/cm³ < 1,00 g/cm³. La bonne réponse est : « Il flotte. »",
+      "step_by_step_solution": [
+        "Un objet plein moins dense que l'eau flotte.",
+        "0,60 g/cm³ < 1,00 g/cm³.",
+        "La bonne réponse est : « Il flotte. »"
+      ],
+      "hints": [
+        "Compare la masse volumique de l'objet à celle de l'eau."
+      ],
+      "common_errors": {
+        "1": "Il faudrait ρ(objet) > ρ(eau).",
+        "2": "Il faudrait ρ(objet) = ρ(eau)."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "choices": [
+        "Il flotte.",
+        "Il coule.",
+        "Il reste immobile entre deux eaux."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.c05",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour identifier un liquide incolore, on mesure une masse de 15,6 g pour un volume de 20,0 mL. Calculer sa masse volumique en kg/m³.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "780",
+        "unit": "kg/m³",
+        "required_form": "unite_imposee"
+      },
+      "solution": "ρ = 15,6 g ÷ 20,0 mL = 0,78 g/mL. 1 g/mL = 1 000 kg/m³, donc ρ = 780 kg/m³.",
+      "step_by_step_solution": [
+        "ρ = 15,6 g ÷ 20,0 mL = 0,78 g/mL.",
+        "1 g/mL = 1 000 kg/m³, donc ρ = 780 kg/m³."
+      ],
+      "hints": [
+        "Calcule d'abord ρ en g/mL.",
+        "1 mL = 1 cm³."
+      ],
+      "common_errors": {
+        "0,78 kg/m³": "L'élève n'a pas converti les g/mL en kg/m³."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.x01",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Quelle est la masse d'un cube de fer plein de 3,0 cm d'arête ? On donne ρ(fer) = 7,9 g/cm³.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "213,3",
+        "unit": "g"
+      },
+      "solution": "Volume du cube : V = 3,0 × 3,0 × 3,0 = 27 cm³. m = ρ × V = 7,9 × 27 = 213,3 g.",
+      "step_by_step_solution": [
+        "Volume du cube : V = 3,0 × 3,0 × 3,0 = 27 cm³.",
+        "m = ρ × V = 7,9 × 27 = 213,3 g."
+      ],
+      "hints": [
+        "Commence par calculer le volume du cube.",
+        "Puis utilise m = ρ × V."
+      ],
+      "common_errors": {
+        "23,7 g": "L'élève a pris le volume égal à l'arête (3,0 cm³).",
+        "71,1 g": "L'élève a calculé une aire (3,0 × 3,0) au lieu d'un volume."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.x02",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une éprouvette contient 60,0 mL d'eau. On y plonge entièrement un caillou de masse 37,5 g : le niveau monte à 75,0 mL. Calculer la masse volumique du caillou en g/cm³.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,5",
+        "unit": "g/cm³"
+      },
+      "solution": "Volume du caillou = volume d'eau déplacé : 75,0 − 60,0 = 15,0 mL = 15,0 cm³. ρ = 37,5 g ÷ 15,0 cm³ = 2,5 g/cm³.",
+      "step_by_step_solution": [
+        "Volume du caillou = volume d'eau déplacé : 75,0 − 60,0 = 15,0 mL = 15,0 cm³.",
+        "ρ = 37,5 g ÷ 15,0 cm³ = 2,5 g/cm³."
+      ],
+      "hints": [
+        "Quel est le volume du caillou ?",
+        "1 mL = 1 cm³."
+      ],
+      "common_errors": {
+        "0,5 g/cm³": "L'élève a divisé par le volume final (75,0 mL) au lieu du volume déplacé.",
+        "0,625 g/cm³": "L'élève a divisé par le volume initial d'eau."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.masse-volumique.x03",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Une bouteille vide pèse 40 g. Remplie de 1,50 L d'un liquide inconnu, elle pèse 1 225 g. Valeurs de référence : eau 1,00 g/mL ; éthanol 0,79 g/mL ; glycérol 1,26 g/mL. Quel est ce liquide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Masse du liquide : 1 225 − 40 = 1 185 g. Volume : 1,50 L = 1 500 mL. ρ = 1 185 ÷ 1 500 = 0,79 g/mL : le liquide est L'éthanol",
+      "step_by_step_solution": [
+        "Masse du liquide : 1 225 − 40 = 1 185 g.",
+        "Volume : 1,50 L = 1 500 mL.",
+        "ρ = 1 185 ÷ 1 500 = 0,79 g/mL : le liquide est L'éthanol"
+      ],
+      "hints": [
+        "Retire la masse de la bouteille.",
+        "Convertis le volume en mL."
+      ],
+      "common_errors": {
+        "1": "Oubli de la masse de la bouteille ou erreur de conversion.",
+        "2": "Masse et volume inversés."
+      },
+      "remediation": "La masse volumique est le quotient de la masse par le volume : ρ = m / V. Elle se calcule avec la masse et le volume du même échantillon, dans des unités cohérentes (g et cm³ → g/cm³ ; kg et m³ → kg/m³). Rappels : 1 mL = 1 cm³ et 1 g/cm³ = 1 000 kg/m³. Pour identifier une espèce chimique, on compare la valeur calculée à un tableau de valeurs de référence. La masse volumique ne dépend pas de la taille de l'échantillon.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer une masse volumique ρ = m / V",
+        "Identifier une espèce chimique à partir de sa masse volumique",
+        "Convertir des unités de masse et de volume"
+      ],
+      "source_notions": [
+        "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes"
+      ],
+      "choices": [
+        "L'éthanol",
+        "L'eau",
+        "Le glycérol"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.d01",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un cycliste parcourt 30 km en 2 h à vitesse constante. Quelle est sa vitesse en km/h ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "15",
+        "unit": "km/h"
+      },
+      "solution": "v = d / t. v = 30 km ÷ 2 h = 15 km/h.",
+      "step_by_step_solution": [
+        "v = d / t.",
+        "v = 30 km ÷ 2 h = 15 km/h."
+      ],
+      "hints": [
+        "Divise la distance par la durée."
+      ],
+      "common_errors": {
+        "60 km/h": "L'élève a multiplié la distance par la durée."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.d02",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un piéton marche à vitesse constante et parcourt 150 m en 100 s. Quelle est sa vitesse en m/s ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,5",
+        "unit": "m/s"
+      },
+      "solution": "v = d / t. v = 150 m ÷ 100 s = 1,5 m/s.",
+      "step_by_step_solution": [
+        "v = d / t.",
+        "v = 150 m ÷ 100 s = 1,5 m/s."
+      ],
+      "hints": [
+        "Divise la distance par la durée."
+      ],
+      "common_errors": {
+        "0,67 m/s": "L'élève a divisé la durée par la distance."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.d03",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle relation lie la vitesse v, la distance parcourue d et la durée t d'un mouvement uniforme ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La vitesse est la distance parcourue par unité de temps. On a donc : v = d / t",
+      "step_by_step_solution": [
+        "La vitesse est la distance parcourue par unité de temps.",
+        "On a donc : v = d / t"
+      ],
+      "hints": [
+        "L'unité km/h se lit « kilomètres par heure »."
+      ],
+      "common_errors": {
+        "1": "Quotient inversé.",
+        "2": "Produit au lieu d'un quotient.",
+        "3": "Différence sans signification."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "choices": [
+        "v = d / t",
+        "v = t / d",
+        "v = d × t",
+        "v = d − t"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.d04",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une voiture roule à la vitesse constante de 90 km/h pendant 2 h. Quelle distance parcourt-elle ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "180",
+        "unit": "km"
+      },
+      "solution": "d = v × t. d = 90 km/h × 2 h = 180 km.",
+      "step_by_step_solution": [
+        "d = v × t.",
+        "d = 90 km/h × 2 h = 180 km."
+      ],
+      "hints": [
+        "Isole d dans la relation v = d / t."
+      ],
+      "common_errors": {
+        "45 km": "L'élève a divisé la vitesse par la durée."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.d05",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un train parcourt 240 km à la vitesse constante de 120 km/h. Quelle est la durée du trajet ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2",
+        "unit": "h"
+      },
+      "solution": "t = d / v. t = 240 km ÷ 120 km/h = 2 h.",
+      "step_by_step_solution": [
+        "t = d / v.",
+        "t = 240 km ÷ 120 km/h = 2 h."
+      ],
+      "hints": [
+        "Isole t dans la relation v = d / t."
+      ],
+      "common_errors": {
+        "0,5 h": "L'élève a divisé la vitesse par la distance."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.a01",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Convertir 72 km/h en m/s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "20",
+        "unit": "m/s",
+        "required_form": "unite_imposee"
+      },
+      "solution": "72 km/h = 72 000 m en 3 600 s. 72 000 ÷ 3 600 = 20 m/s.",
+      "step_by_step_solution": [
+        "72 km/h = 72 000 m en 3 600 s.",
+        "72 000 ÷ 3 600 = 20 m/s."
+      ],
+      "hints": [
+        "1 km = 1 000 m et 1 h = 3 600 s."
+      ],
+      "common_errors": {
+        "259,2 m/s": "L'élève a multiplié par 3,6 au lieu de diviser.",
+        "72 m/s": "L'élève n'a pas converti."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.a02",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un coureur parcourt 100 m en 12,5 s. En supposant son mouvement uniforme, quelle est sa vitesse en m/s ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "8",
+        "unit": "m/s"
+      },
+      "solution": "v = d / t. v = 100 m ÷ 12,5 s = 8 m/s.",
+      "step_by_step_solution": [
+        "v = d / t.",
+        "v = 100 m ÷ 12,5 s = 8 m/s."
+      ],
+      "hints": [
+        "Divise la distance par la durée."
+      ],
+      "common_errors": {
+        "1250 m/s": "L'élève a multiplié."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.a03",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le son se propage dans l'air à 340 m/s. Quelle distance parcourt-il en 3,0 s ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1020",
+        "unit": "m"
+      },
+      "solution": "d = v × t. d = 340 m/s × 3,0 s = 1020 m.",
+      "step_by_step_solution": [
+        "d = v × t.",
+        "d = 340 m/s × 3,0 s = 1020 m."
+      ],
+      "hints": [
+        "Isole d dans la relation v = d / t."
+      ],
+      "common_errors": {
+        "113 m": "L'élève a divisé la vitesse par la durée."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.a04",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Combien de temps met un escargot avançant à 1,5 mm/s pour parcourir 45 cm ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "300",
+        "unit": "s"
+      },
+      "solution": "On convertit : 45 cm = 450 mm. t = d / v = 450 mm ÷ 1,5 mm/s = 300 s.",
+      "step_by_step_solution": [
+        "On convertit : 45 cm = 450 mm.",
+        "t = d / v = 450 mm ÷ 1,5 mm/s = 300 s."
+      ],
+      "hints": [
+        "Exprime la distance en millimètres.",
+        "Isole t dans la relation v = d / t."
+      ],
+      "common_errors": {
+        "30 s": "L'élève n'a pas converti 45 cm en millimètres."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.a05",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Convertir 15 m/s en km/h.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "54",
+        "unit": "km/h",
+        "required_form": "unite_imposee"
+      },
+      "solution": "En 1 h = 3 600 s, l'objet parcourt 15 × 3 600 = 54 000 m = 54 km. 15 m/s = 15 × 3,6 = 54 km/h.",
+      "step_by_step_solution": [
+        "En 1 h = 3 600 s, l'objet parcourt 15 × 3 600 = 54 000 m = 54 km.",
+        "15 m/s = 15 × 3,6 = 54 km/h."
+      ],
+      "hints": [
+        "Combien de mètres sont parcourus en une heure ?"
+      ],
+      "common_errors": {
+        "4,17 km/h": "L'élève a divisé par 3,6 au lieu de multiplier.",
+        "15 km/h": "L'élève n'a pas converti."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.c01",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un avion vole à la vitesse constante de 900 km/h. Quelle distance parcourt-il en 20 min ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "300",
+        "unit": "km"
+      },
+      "solution": "On convertit : 20 min = 20 ÷ 60 h ≈ 0,333 h. d = v × t = 900 × 20 ÷ 60 = 300 km.",
+      "step_by_step_solution": [
+        "On convertit : 20 min = 20 ÷ 60 h ≈ 0,333 h.",
+        "d = v × t = 900 × 20 ÷ 60 = 300 km."
+      ],
+      "hints": [
+        "Exprime la durée en heures.",
+        "20 min, c'est quelle fraction d'heure ?"
+      ],
+      "common_errors": {
+        "18000 km": "L'élève n'a pas converti les minutes en heures."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.c02",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La lumière du Soleil met environ 500 s pour atteindre la Terre. Elle se propage à 3,0 × 10^5 km/s. Quelle est la distance entre le Soleil et la Terre ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,5 × 10^8",
+        "unit": "km"
+      },
+      "solution": "d = v × t. d = 3,0 × 10^5 km/s × 500 s = 1,5 × 10^8 km.",
+      "step_by_step_solution": [
+        "d = v × t.",
+        "d = 3,0 × 10^5 km/s × 500 s = 1,5 × 10^8 km."
+      ],
+      "hints": [
+        "Isole d dans v = d / t.",
+        "Multiplie 3,0 par 500, puis gère la puissance de 10."
+      ],
+      "common_errors": {
+        "600 km": "L'élève a divisé la vitesse par la durée."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.c03",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Deux villes sont distantes de 150 km. Un automobiliste part à 8 h 00 et arrive à 9 h 40 en roulant à vitesse constante. Quelle est sa vitesse en km/h ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "90",
+        "unit": "km/h"
+      },
+      "solution": "Durée : 1 h 40 min = 1 h + 40/60 h ≈ 1,667 h. v = 150 ÷ 1,667 = 90 km/h.",
+      "step_by_step_solution": [
+        "Durée : 1 h 40 min = 1 h + 40/60 h ≈ 1,667 h.",
+        "v = 150 ÷ 1,667 = 90 km/h."
+      ],
+      "hints": [
+        "Calcule la durée du trajet.",
+        "40 min ne font pas 0,40 h."
+      ],
+      "common_errors": {
+        "107,1 km/h": "L'élève a écrit 1 h 40 min = 1,40 h."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.c04",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un TGV roule à 300 km/h et une voiture à 30 m/s. Lequel va le plus vite ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "On convertit : 30 m/s = 30 × 3,6 = 108 km/h. 300 km/h > 108 km/h. La bonne réponse est : « Le TGV »",
+      "step_by_step_solution": [
+        "On convertit : 30 m/s = 30 × 3,6 = 108 km/h.",
+        "300 km/h > 108 km/h.",
+        "La bonne réponse est : « Le TGV »"
+      ],
+      "hints": [
+        "Exprime les deux vitesses dans la même unité."
+      ],
+      "common_errors": {
+        "1": "L'élève a comparé des nombres exprimés dans des unités différentes.",
+        "2": "Les deux vitesses ne sont pas égales une fois converties."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "choices": [
+        "Le TGV",
+        "La voiture",
+        "Ils vont à la même vitesse"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.c05",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un marathonien parcourt 42,195 km en 2 h 30 min. En supposant sa vitesse constante, calculer cette vitesse en km/h, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "16,9",
+        "unit": "km/h"
+      },
+      "solution": "Durée : 2 h 30 min = 2,5 h. v = 42,195 ÷ 2,5 ≈ 16,88, soit 16,9 km/h.",
+      "step_by_step_solution": [
+        "Durée : 2 h 30 min = 2,5 h.",
+        "v = 42,195 ÷ 2,5 ≈ 16,88, soit 16,9 km/h."
+      ],
+      "hints": [
+        "30 min, c'est quelle fraction d'heure ?"
+      ],
+      "common_errors": {
+        "18,3 km/h": "L'élève a écrit 2 h 30 min = 2,3 h."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.x01",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Lors d'un orage, on voit l'éclair puis on entend le tonnerre 6,0 s plus tard. La lumière arrive quasi instantanément ; le son se propage dans l'air à 340 m/s. À quelle distance la foudre est-elle tombée ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2040",
+        "unit": "m"
+      },
+      "solution": "Le retard du son sur la lumière correspond à la durée de propagation du son. d = v × t = 340 × 6,0 = 2040 m.",
+      "step_by_step_solution": [
+        "Le retard du son sur la lumière correspond à la durée de propagation du son.",
+        "d = v × t = 340 × 6,0 = 2040 m."
+      ],
+      "hints": [
+        "Pourquoi peut-on négliger la durée de propagation de la lumière ?",
+        "Utilise la vitesse du son."
+      ],
+      "common_errors": {
+        "56,7 m": "L'élève a divisé la vitesse par la durée."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.x02",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un cycliste roule 20 min à la vitesse constante de 18 km/h, puis 40 min à la vitesse constante de 24 km/h. Quelle distance totale a-t-il parcourue ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "22",
+        "unit": "km"
+      },
+      "solution": "Première étape : d1 = 18 × 20/60 = 6 km. Deuxième étape : d2 = 24 × 40/60 = 16 km. Distance totale : 6 + 16 = 22 km.",
+      "step_by_step_solution": [
+        "Première étape : d1 = 18 × 20/60 = 6 km.",
+        "Deuxième étape : d2 = 24 × 40/60 = 16 km.",
+        "Distance totale : 6 + 16 = 22 km."
+      ],
+      "hints": [
+        "Calcule séparément la distance de chaque étape.",
+        "Convertis les minutes en heures."
+      ],
+      "common_errors": {
+        "21 km": "L'élève a fait la moyenne des vitesses sur 1 h.",
+        "1320 km": "L'élève n'a pas converti les minutes."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.vitesse.x03",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un conducteur roule à 90 km/h. Son temps de réaction avant de freiner est de 1,0 s. Quelle distance la voiture parcourt-elle pendant ce temps de réaction ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "25",
+        "unit": "m"
+      },
+      "solution": "On convertit : 90 km/h = 90 ÷ 3,6 = 25 m/s. d = v × t = 25 m/s × 1,0 s = 25 m.",
+      "step_by_step_solution": [
+        "On convertit : 90 km/h = 90 ÷ 3,6 = 25 m/s.",
+        "d = v × t = 25 m/s × 1,0 s = 25 m."
+      ],
+      "hints": [
+        "Convertis la vitesse en m/s.",
+        "Utilise d = v × t."
+      ],
+      "common_errors": {
+        "90 m": "L'élève n'a pas converti les km/h en m/s.",
+        "324 m": "L'élève a multiplié par 3,6 au lieu de diviser."
+      },
+      "remediation": "Pour un mouvement uniforme, la vitesse est le quotient de la distance parcourue par la durée du parcours : v = d / t, d'où d = v × t et t = d / v. Avant de calculer, exprimer les grandeurs dans des unités cohérentes (m et s → m/s ; km et h → km/h). Conversions utiles : 1 h = 60 min = 3 600 s ; 1 km = 1 000 m ; pour passer des km/h aux m/s, on divise par 3,6 (et on multiplie par 3,6 dans l'autre sens).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation v = d / t",
+        "Convertir des unités de vitesse et de durée"
+      ],
+      "source_notions": [
+        "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.d01",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une résistance R = 100 Ω est traversée par un courant d'intensité I = 0,05 A. Calculer la tension U à ses bornes.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "5",
+        "unit": "V"
+      },
+      "solution": "Loi d'Ohm : U = R × I. U = 100 Ω × 0,05 A = 5 V.",
+      "step_by_step_solution": [
+        "Loi d'Ohm : U = R × I.",
+        "U = 100 Ω × 0,05 A = 5 V."
+      ],
+      "hints": [
+        "Multiplie la résistance par l'intensité."
+      ],
+      "common_errors": {
+        "2000 V": "L'élève a divisé R par I."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.d02",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle est l'expression de la loi d'Ohm pour un conducteur ohmique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La tension est proportionnelle à l'intensité, le coefficient étant la résistance. La loi s'écrit : U = R × I",
+      "step_by_step_solution": [
+        "La tension est proportionnelle à l'intensité, le coefficient étant la résistance.",
+        "La loi s'écrit : U = R × I"
+      ],
+      "hints": [
+        "Plus la résistance est grande, plus la tension est grande pour une même intensité."
+      ],
+      "common_errors": {
+        "1": "Relation inversée.",
+        "2": "Relation inversée.",
+        "3": "Somme sans signification."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "choices": [
+        "U = R × I",
+        "U = R / I",
+        "U = I / R",
+        "U = R + I"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.d03",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "La tension aux bornes d'une résistance vaut U = 6 V et l'intensité qui la traverse vaut I = 0,02 A. Calculer R.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "300",
+        "unit": "Ω"
+      },
+      "solution": "R = U / I. R = 6 V ÷ 0,02 A = 300 Ω.",
+      "step_by_step_solution": [
+        "R = U / I.",
+        "R = 6 V ÷ 0,02 A = 300 Ω."
+      ],
+      "hints": [
+        "Isole R dans U = R × I."
+      ],
+      "common_errors": {
+        "0,12 Ω": "L'élève a multiplié U par I."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.d04",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel est le nom de l'unité de résistance électrique (symbole Ω) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "ohm",
+          "l'ohm",
+          "ohms"
+        ]
+      },
+      "solution": "La résistance électrique s'exprime en ohms. Le nom de l'unité est l'ohm.",
+      "step_by_step_solution": [
+        "La résistance électrique s'exprime en ohms.",
+        "Le nom de l'unité est l'ohm."
+      ],
+      "hints": [
+        "Cette unité porte le nom d'un physicien allemand, comme la loi étudiée."
+      ],
+      "common_errors": {
+        "volt": "Le volt est l'unité de tension.",
+        "ampère": "L'ampère est l'unité d'intensité."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.d05",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une résistance R = 60 Ω est soumise à une tension U = 12 V. Calculer l'intensité I du courant qui la traverse.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,2",
+        "unit": "A"
+      },
+      "solution": "I = U / R. I = 12 V ÷ 60 Ω = 0,2 A.",
+      "step_by_step_solution": [
+        "I = U / R.",
+        "I = 12 V ÷ 60 Ω = 0,2 A."
+      ],
+      "hints": [
+        "Isole I dans U = R × I."
+      ],
+      "common_errors": {
+        "5 A": "L'élève a divisé R par U.",
+        "720 A": "L'élève a multiplié."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.a01",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une résistance de 220 Ω est traversée par un courant de 50 mA. Calculer la tension à ses bornes.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "11",
+        "unit": "V"
+      },
+      "solution": "On convertit : 50 mA = 0,050 A. U = R × I = 220 × 0,050 = 11 V.",
+      "step_by_step_solution": [
+        "On convertit : 50 mA = 0,050 A.",
+        "U = R × I = 220 × 0,050 = 11 V."
+      ],
+      "hints": [
+        "Convertis l'intensité en ampères."
+      ],
+      "common_errors": {
+        "11000 V": "L'élève n'a pas converti les milliampères en ampères."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.a02",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Aux bornes d'une résistance, on mesure U = 4,5 V et I = 30 mA. Calculer R.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "150",
+        "unit": "Ω"
+      },
+      "solution": "On convertit : 30 mA = 0,030 A. R = U / I = 4,5 ÷ 0,030 = 150 Ω.",
+      "step_by_step_solution": [
+        "On convertit : 30 mA = 0,030 A.",
+        "R = U / I = 4,5 ÷ 0,030 = 150 Ω."
+      ],
+      "hints": [
+        "Convertis l'intensité en ampères avant de diviser."
+      ],
+      "common_errors": {
+        "0,15 Ω": "L'élève n'a pas converti les milliampères en ampères."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.a03",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une résistance de 1,0 kΩ est soumise à une tension de 9,0 V. Calculer l'intensité du courant en mA.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9",
+        "unit": "mA"
+      },
+      "solution": "On convertit : 1,0 kΩ = 1 000 Ω. I = U / R = 9,0 ÷ 1 000 = 0,0090 A = 9 mA.",
+      "step_by_step_solution": [
+        "On convertit : 1,0 kΩ = 1 000 Ω.",
+        "I = U / R = 9,0 ÷ 1 000 = 0,0090 A = 9 mA."
+      ],
+      "hints": [
+        "Convertis la résistance en ohms.",
+        "Puis convertis le résultat en milliampères."
+      ],
+      "common_errors": {
+        "9000 mA": "L'élève n'a pas converti les kiloohms en ohms."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.a04",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle est l'allure de la caractéristique U = f(I) d'un conducteur ohmique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "U = R × I : U est proportionnelle à I. La représentation graphique est donc une droite passant par l'origine.",
+      "step_by_step_solution": [
+        "U = R × I : U est proportionnelle à I.",
+        "La représentation graphique est donc une droite passant par l'origine."
+      ],
+      "hints": [
+        "À quoi ressemble le graphique d'une situation de proportionnalité ?"
+      ],
+      "common_errors": {
+        "1": "U varierait sans que I change.",
+        "2": "Ce n'est pas une situation de proportionnalité.",
+        "3": "Une droite ne passant pas par l'origine n'est pas une proportionnalité."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "choices": [
+        "une droite passant par l'origine.",
+        "une droite horizontale.",
+        "une courbe qui monte de plus en plus vite.",
+        "une droite qui ne passe pas par l'origine."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.a05",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Mesures sur un conducteur ohmique : pour I = 0,010 A, U = 0,47 V ; pour I = 0,020 A, U = 0,94 V ; pour I = 0,030 A, U = 1,41 V. Déterminer sa résistance R.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "47",
+        "unit": "Ω"
+      },
+      "solution": "Pour chaque mesure, U / I est constant. R = 0,47 ÷ 0,010 = 47 Ω.",
+      "step_by_step_solution": [
+        "Pour chaque mesure, U / I est constant.",
+        "R = 0,47 ÷ 0,010 = 47 Ω."
+      ],
+      "hints": [
+        "Calcule le quotient U / I pour une des mesures."
+      ],
+      "common_errors": {
+        "0,021 Ω": "L'élève a calculé I / U."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.c01",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une résistance de 470 Ω ne doit pas être traversée par un courant de plus de 25 mA. Quelle tension maximale peut-on appliquer à ses bornes ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "11,75",
+        "unit": "V"
+      },
+      "solution": "On convertit : 25 mA = 0,025 A. U = R × I = 470 × 0,025 = 11,75 V.",
+      "step_by_step_solution": [
+        "On convertit : 25 mA = 0,025 A.",
+        "U = R × I = 470 × 0,025 = 11,75 V."
+      ],
+      "hints": [
+        "Utilise U = R × I avec l'intensité maximale."
+      ],
+      "common_errors": {
+        "11750 V": "L'élève n'a pas converti les milliampères en ampères."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.c02",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On double la tension aux bornes d'un conducteur ohmique. Que devient l'intensité du courant qui le traverse ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "I = U / R et R ne change pas. Si U double, I double aussi. La bonne réponse est : « Elle double. »",
+      "step_by_step_solution": [
+        "I = U / R et R ne change pas.",
+        "Si U double, I double aussi.",
+        "La bonne réponse est : « Elle double. »"
+      ],
+      "hints": [
+        "U et I sont-elles proportionnelles ?"
+      ],
+      "common_errors": {
+        "1": "Relation inversée.",
+        "2": "I dépend de U.",
+        "3": "La relation n'est pas quadratique."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "choices": [
+        "Elle double.",
+        "Elle est divisée par deux.",
+        "Elle ne change pas.",
+        "Elle quadruple."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.c03",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un conducteur ohmique soumis à 3,0 V est traversé par 12 mA. Quelle intensité le traverse, en mA, s'il est soumis à 7,5 V ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "30",
+        "unit": "mA"
+      },
+      "solution": "R = U / I = 3,0 ÷ 0,012 = 250 Ω. I = 7,5 ÷ 250 = 0,030 A = 30 mA.",
+      "step_by_step_solution": [
+        "R = U / I = 3,0 ÷ 0,012 = 250 Ω.",
+        "I = 7,5 ÷ 250 = 0,030 A = 30 mA."
+      ],
+      "hints": [
+        "Calcule d'abord R.",
+        "Tu peux aussi utiliser la proportionnalité : 7,5 = 2,5 × 3,0."
+      ],
+      "common_errors": {
+        "4,8 mA": "L'élève a utilisé une proportionnalité inverse."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.c04",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour protéger une DEL, on place une résistance en série : la tension à ses bornes doit être de 4,0 V quand elle est traversée par 20 mA. Quelle valeur de résistance faut-il choisir ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "200",
+        "unit": "Ω"
+      },
+      "solution": "On convertit : 20 mA = 0,020 A. R = U / I = 4,0 ÷ 0,020 = 200 Ω.",
+      "step_by_step_solution": [
+        "On convertit : 20 mA = 0,020 A.",
+        "R = U / I = 4,0 ÷ 0,020 = 200 Ω."
+      ],
+      "hints": [
+        "Convertis l'intensité en ampères."
+      ],
+      "common_errors": {
+        "0,2 Ω": "L'élève n'a pas converti les milliampères en ampères."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.c05",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On mesure une tension de 1,65 V aux bornes d'une résistance de 330 Ω. Calculer l'intensité du courant en mA.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "5",
+        "unit": "mA"
+      },
+      "solution": "I = U / R = 1,65 ÷ 330 = 0,005 A. 0,005 A = 5 mA.",
+      "step_by_step_solution": [
+        "I = U / R = 1,65 ÷ 330 = 0,005 A.",
+        "0,005 A = 5 mA."
+      ],
+      "hints": [
+        "Calcule I en ampères, puis convertis."
+      ],
+      "common_errors": {
+        "0,005 mA": "L'élève a calculé I en ampères mais l'a écrit en milliampères.",
+        "544,5 mA": "L'élève a multiplié U par R."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.x01",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Deux résistances R1 = 100 Ω et R2 = 200 Ω sont branchées en série et traversées par un courant de 0,040 A. Quelle est la tension aux bornes de l'ensemble des deux résistances ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "12",
+        "unit": "V"
+      },
+      "solution": "U1 = R1 × I = 100 × 0,040 = 4,0 V. U2 = R2 × I = 200 × 0,040 = 8,0 V. Loi d'additivité des tensions : U = U1 + U2 = 12 V.",
+      "step_by_step_solution": [
+        "U1 = R1 × I = 100 × 0,040 = 4,0 V.",
+        "U2 = R2 × I = 200 × 0,040 = 8,0 V.",
+        "Loi d'additivité des tensions : U = U1 + U2 = 12 V."
+      ],
+      "hints": [
+        "Dans un circuit série, l'intensité est la même partout.",
+        "Additionne les deux tensions."
+      ],
+      "common_errors": {
+        "8 V": "L'élève n'a calculé que la tension aux bornes de R2.",
+        "4 V": "L'élève n'a calculé que la tension aux bornes de R1."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.x02",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Sur la caractéristique d'un conducteur ohmique, on lit le point I = 0,15 A ; U = 6,0 V. Quelle tension faut-il appliquer pour que l'intensité soit de 0,25 A ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "10",
+        "unit": "V"
+      },
+      "solution": "R = U / I = 6,0 ÷ 0,15 = 40 Ω. U = R × I = 40 × 0,25 = 10 V.",
+      "step_by_step_solution": [
+        "R = U / I = 6,0 ÷ 0,15 = 40 Ω.",
+        "U = R × I = 40 × 0,25 = 10 V."
+      ],
+      "hints": [
+        "Détermine d'abord la résistance à partir du point lu."
+      ],
+      "common_errors": {
+        "3,6 V": "L'élève a utilisé une proportionnalité inverse (6,0 × 0,15 ÷ 0,25)."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.4E.loi-ohm.x03",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Le fil chauffant d'un grille-pain se comporte comme un conducteur ohmique de résistance 24 Ω. Il est alimenté sous 230 V. Quelle est l'intensité du courant qui le traverse (arrondie au dixième) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9,6",
+        "unit": "A"
+      },
+      "solution": "I = U / R. I = 230 ÷ 24 ≈ 9,58, soit 9,6 A.",
+      "step_by_step_solution": [
+        "I = U / R.",
+        "I = 230 ÷ 24 ≈ 9,58, soit 9,6 A."
+      ],
+      "hints": [
+        "Isole I dans U = R × I."
+      ],
+      "common_errors": {
+        "5520 A": "L'élève a multiplié U par R.",
+        "0,1 A": "L'élève a divisé R par U."
+      },
+      "remediation": "Pour un conducteur ohmique (une résistance), la tension U à ses bornes est proportionnelle à l'intensité I du courant qui le traverse : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A). On en déduit R = U / I et I = U / R. Attention aux intensités en milliampères (1 mA = 0,001 A) et aux résistances en kiloohms (1 kΩ = 1 000 Ω). La caractéristique U = f(I) d'un conducteur ohmique est une droite passant par l'origine.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la loi d'Ohm U = R × I",
+        "Convertir des intensités et des résistances (mA, kΩ)"
+      ],
+      "source_notions": [
+        "PC.4E.NRJ.relation-tension-courant-loi-dohm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

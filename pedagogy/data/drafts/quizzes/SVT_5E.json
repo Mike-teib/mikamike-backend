@@ -675,10 +675,10 @@
       "level": "5E",
       "question": "Qu'appelle-t-on la récupération après un effort ?",
       "choices": [
-        "La fabrication de muscles",
+        "La fabrication rapide de nouveaux muscles",
         "Le retour progressif des rythmes à leurs valeurs de repos",
-        "L'arrêt immédiat du cœur",
-        "La digestion du repas"
+        "L'arrêt immédiat des battements du cœur",
+        "La digestion du repas pris avant l'effort"
       ],
       "correct_answer": 1,
       "reference_answer": "Le retour progressif des rythmes à leurs valeurs de repos",
@@ -710,7 +710,7 @@
       "correct_answer": 1,
       "reference_answer": "8 L",
       "answer_kind": "EXACT_TEXT",
-      "explanation": "16 × 0,5 = 8 L par minute.",
+      "explanation": "Volume par minute = 16 × 0,5 = 8 L par minute.",
       "difficulty": "APPLICATION",
       "distractor_rationale": {
         "0": "C'est le volume d'un seul mouvement.",

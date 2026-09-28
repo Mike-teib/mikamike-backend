@@ -1,0 +1,2246 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.SVT.3E.genetique.d01",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Combien de chromosomes contient le noyau d'une cellule de la peau chez l'être humain ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "46"
+      },
+      "solution": "Une cellule humaine (hors gamètes) contient 46 chromosomes, soit 23 paires.",
+      "step_by_step_solution": [
+        "Les chromosomes vont par paires dans les cellules du corps.",
+        "L'être humain en possède 23 paires.",
+        "23 × 2 = 46."
+      ],
+      "hints": [
+        "Les chromosomes sont groupés par paires, il y en a 23 paires."
+      ],
+      "common_errors": {
+        "23": "L'élève donne le nombre de paires (ou le nombre d'un gamète) au lieu du nombre total."
+      },
+      "remediation": "Observer un caryotype humain et compter les paires puis les chromosomes.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître le caryotype humain"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.d02",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on une portion d'ADN qui détermine un caractère héréditaire ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "gène",
+          "un gène",
+          "gene"
+        ]
+      },
+      "solution": "Un gène est une portion d'ADN située à un endroit précis d'un chromosome ; il détermine un caractère.",
+      "step_by_step_solution": [
+        "L'ADN forme les chromosomes.",
+        "Une portion d'ADN porte l'information d'un caractère.",
+        "Cette portion est un gène."
+      ],
+      "hints": [
+        "Ce mot a donné « génétique »."
+      ],
+      "common_errors": {
+        "allèle": "Un allèle est une version d'un gène, pas la portion d'ADN elle-même."
+      },
+      "remediation": "Schématiser un chromosome avec plusieurs gènes positionnés dessus.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.d03",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Les chromosomes sont principalement constitués d'ADN. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Chaque chromosome est formé d'une longue molécule d'ADN (associée à des protéines).",
+      "step_by_step_solution": [
+        "Les chromosomes se trouvent dans le noyau.",
+        "Ils sont constitués d'une molécule d'ADN très longue et repliée.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Que contient un chromosome ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que l'ADN et les chromosomes sont deux structures indépendantes."
+      },
+      "remediation": "Extraire l'ADN de cellules de kiwi ou de banane et observer les filaments obtenus.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.d04",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on les différentes versions d'un même gène (par exemple, groupe sanguin A, B ou O) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "allèles",
+          "des allèles",
+          "allèle",
+          "les allèles"
+        ]
+      },
+      "solution": "Les versions d'un même gène sont des allèles ; ils diffèrent par leur séquence d'ADN.",
+      "step_by_step_solution": [
+        "Un même gène peut exister sous plusieurs versions.",
+        "Ces versions sont appelées allèles."
+      ],
+      "hints": [
+        "Ce mot commence par « all- »."
+      ],
+      "common_errors": {
+        "chromosomes": "L'élève confond les versions d'un gène et les chromosomes qui les portent."
+      },
+      "remediation": "Relier sur un schéma de paire de chromosomes : même gène, allèles différents.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.d05",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Combien de chromosomes contient un gamète humain (spermatozoïde ou ovule) ?\nA. 92\nB. 12\nC. 23\nD. 46",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Un gamète humain contient 23 chromosomes, un seul chromosome de chaque paire.",
+      "step_by_step_solution": [
+        "La méiose sépare les chromosomes de chaque paire.",
+        "Chaque gamète reçoit un chromosome par paire.",
+        "Il contient donc 23 chromosomes."
+      ],
+      "hints": [
+        "À la fécondation, deux gamètes s'unissent pour redonner 46 chromosomes."
+      ],
+      "common_errors": {
+        "D": "L'élève pense que le gamète contient 46 chromosomes comme les autres cellules."
+      },
+      "remediation": "Construire un schéma : cellule à 46 → gamètes à 23 → cellule-œuf à 46.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [
+        "92",
+        "12",
+        "23",
+        "46"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.a01",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre, du plus grand au plus petit, les éléments suivants.\nÉléments (dans le désordre) : chromosome / cellule / gène / noyau\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "cellule",
+          "noyau",
+          "chromosome",
+          "gène"
+        ]
+      },
+      "solution": "La cellule contient un noyau, qui contient les chromosomes, formés d'ADN qui porte des gènes. Ordre attendu : cellule ; noyau ; chromosome ; gène.",
+      "step_by_step_solution": [
+        "La cellule contient le noyau.",
+        "Le noyau contient les chromosomes.",
+        "Un chromosome porte de nombreux gènes."
+      ],
+      "hints": [
+        "Chaque élément contient le suivant."
+      ],
+      "common_errors": {
+        "cellule ; noyau ; gène ; chromosome": "L'élève pense qu'un gène contient des chromosomes."
+      },
+      "remediation": "Utiliser l'analogie bibliothèque / livre / chapitre pour situer noyau, chromosome et gène.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.a02",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Une mutation est une modification de la séquence de l'ADN. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Une mutation modifie la séquence de l'ADN ; elle peut créer un nouvel allèle.",
+      "step_by_step_solution": [
+        "L'ADN est une succession d'éléments dans un ordre précis.",
+        "Une mutation change cette séquence.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Qu'est-ce qui distingue deux allèles d'un même gène ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense qu'une mutation est toujours visible ou toujours néfaste."
+      },
+      "remediation": "Comparer deux séquences d'ADN simplifiées et repérer la différence.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.a03",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quelle division cellulaire produit les gamètes ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "méiose",
+          "la méiose",
+          "meiose"
+        ]
+      },
+      "solution": "La méiose produit les gamètes, qui ne contiennent qu'un chromosome de chaque paire.",
+      "step_by_step_solution": [
+        "Les gamètes ont deux fois moins de chromosomes que les autres cellules.",
+        "Ils sont produits par une division particulière.",
+        "Cette division est la méiose."
+      ],
+      "hints": [
+        "Ce n'est pas la mitose, qui conserve le nombre de chromosomes."
+      ],
+      "common_errors": {
+        "mitose": "La mitose conserve le nombre de chromosomes et ne produit pas de gamètes."
+      },
+      "remediation": "Construire un tableau comparatif mitose / méiose (nombre de chromosomes avant / après).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.a04",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque événement à sa conséquence sur le nombre de chromosomes chez l'être humain.\nÀ gauche : méiose / fécondation / mitose\nÀ droite : passage de 46 à 23 chromosomes / conservation de 46 chromosomes / passage de 23 à 46 chromosomes\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "méiose": "passage de 46 à 23 chromosomes",
+          "fécondation": "passage de 23 à 46 chromosomes",
+          "mitose": "conservation de 46 chromosomes"
+        }
+      },
+      "solution": "La méiose divise par deux le nombre de chromosomes, la fécondation le rétablit, la mitose le conserve. Associations : méiose → passage de 46 à 23 chromosomes ; fécondation → passage de 23 à 46 chromosomes ; mitose → conservation de 46 chromosomes.",
+      "step_by_step_solution": [
+        "Méiose : 46 → 23.",
+        "Fécondation : 23 + 23 = 46.",
+        "Mitose : 46 → 46 dans chaque cellule fille."
+      ],
+      "hints": [
+        "Pense à ce qui se passe avant et après la formation des gamètes."
+      ],
+      "common_errors": {
+        "méiose → passage de 23 à 46 chromosomes ; fécondation → passage de 46 à 23 chromosomes ; mitose → conservation de 46 chromosomes": "Inversion méiose / fécondation."
+      },
+      "remediation": "Réaliser une frise du cycle de vie avec le nombre de chromosomes à chaque étape.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.a05",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi deux frères et sœurs (hors vrais jumeaux) ne sont-ils pas génétiquement identiques ?\nA. Uniquement à cause de leur alimentation\nB. Parce que les parents changent d'ADN entre deux grossesses\nC. Parce que les gamètes contiennent 46 chromosomes\nD. À cause du brassage des chromosomes lors de la méiose et de la fécondation",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Chaque gamète reçoit au hasard un chromosome de chaque paire (méiose), et la fécondation réunit au hasard deux gamètes : chaque enfant reçoit une combinaison unique d'allèles. Bonne réponse : D. À cause du brassage des chromosomes lors de la méiose et de la fécondation",
+      "step_by_step_solution": [
+        "La méiose répartit au hasard les chromosomes de chaque paire.",
+        "Chaque gamète est différent.",
+        "La fécondation associe au hasard deux gamètes : la combinaison est unique."
+      ],
+      "hints": [
+        "Deux spermatozoïdes d'un même père contiennent-ils les mêmes chromosomes ?"
+      ],
+      "common_errors": {
+        "A": "L'élève pense que les différences viennent uniquement de l'environnement."
+      },
+      "remediation": "Simuler le brassage avec des cartes représentant des paires de chromosomes tirées au hasard.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [
+        "Uniquement à cause de leur alimentation",
+        "Parce que les parents changent d'ADN entre deux grossesses",
+        "Parce que les gamètes contiennent 46 chromosomes",
+        "À cause du brassage des chromosomes lors de la méiose et de la fécondation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.c01",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Chez une espèce, les cellules du corps contiennent 8 chromosomes (4 paires). Combien de chromosomes contient chacun de ses gamètes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Un gamète contient un chromosome de chaque paire : 8 / 2 = 4 chromosomes.",
+      "step_by_step_solution": [
+        "Les cellules du corps ont 4 paires.",
+        "La méiose place un chromosome de chaque paire dans un gamète.",
+        "8 / 2 = 4."
+      ],
+      "hints": [
+        "Un gamète reçoit un chromosome par paire."
+      ],
+      "common_errors": {
+        "16": "L'élève double au lieu de diviser par deux."
+      },
+      "remediation": "Refaire le schéma de la méiose avec des chromosomes colorés par paire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.c02",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Chez une espèce qui possède 2 paires de chromosomes, combien de combinaisons différentes de chromosomes peut-on obtenir dans les gamètes (en ne tenant compte que de la répartition des chromosomes entiers) ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Pour chaque paire, 2 possibilités ; pour 2 paires : 2 × 2 = 4 combinaisons.",
+      "step_by_step_solution": [
+        "Chaque paire donne 2 possibilités (chromosome paternel ou maternel).",
+        "Les paires se répartissent indépendamment.",
+        "2 × 2 = 4."
+      ],
+      "hints": [
+        "Fais un tableau des possibilités pour chaque paire."
+      ],
+      "common_errors": {
+        "2": "L'élève ne considère qu'une seule paire."
+      },
+      "remediation": "Représenter les gamètes possibles avec des bâtonnets colorés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Dénombrer les gamètes possibles"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.c03",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Chez l'être humain, un enfant reçoit la moitié de ses chromosomes de sa mère et l'autre moitié de son père. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : La moitié vient de chaque parent : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La cellule-œuf résulte de la fusion d'un ovule (23 chromosomes) et d'un spermatozoïde (23 chromosomes).",
+      "step_by_step_solution": [
+        "Chaque gamète apporte 23 chromosomes.",
+        "La cellule-œuf en contient 46.",
+        "La moitié vient de chaque parent : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Combien de chromosomes apporte chaque gamète ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que l'enfant hérite majoritairement d'un des deux parents."
+      },
+      "remediation": "Schématiser la fécondation avec des chromosomes de deux couleurs.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.c04",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un allèle muté apparaît dans une cellule de la peau d'une personne. Sera-t-il transmis à ses enfants ?\nA. Oui, mais seulement aux garçons\nB. Oui, si la personne bronze\nC. Non, car elle n'est pas présente dans les gamètes\nD. Oui, toujours",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Seules les mutations présentes dans les cellules à l'origine des gamètes peuvent être transmises à la descendance. Bonne réponse : C. Non, car elle n'est pas présente dans les gamètes",
+      "step_by_step_solution": [
+        "Les enfants proviennent des gamètes.",
+        "Une mutation d'une cellule de la peau n'est pas présente dans les gamètes.",
+        "Elle ne peut pas être transmise."
+      ],
+      "hints": [
+        "D'où proviennent les cellules des enfants ?"
+      ],
+      "common_errors": {
+        "D": "L'élève pense que toute mutation de l'individu est héréditaire."
+      },
+      "remediation": "Distinguer sur un schéma lignée des cellules du corps et lignée des cellules reproductrices.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier ADN, gènes, allèles et chromosomes",
+        "Expliquer la stabilité et la diversité génétiques (méiose, fécondation)"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [
+        "Oui, mais seulement aux garçons",
+        "Oui, si la personne bronze",
+        "Non, car elle n'est pas présente dans les gamètes",
+        "Oui, toujours"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.c05",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Chez l'humain, le chromosome de la 23e paire présent chez tous les individus, qu'ils soient XX ou XY, est :",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "X",
+          "chromosome X",
+          "le chromosome X"
+        ]
+      },
+      "solution": "Les individus XX et XY possèdent tous au moins un chromosome X.",
+      "step_by_step_solution": [
+        "Une personne XX possède deux chromosomes X.",
+        "Une personne XY possède un X et un Y.",
+        "Le chromosome commun est X."
+      ],
+      "hints": [
+        "Compare les deux combinaisons de la 23e paire."
+      ],
+      "common_errors": {
+        "Y": "Le chromosome Y n'est présent que chez les individus XY."
+      },
+      "remediation": "Observer deux caryotypes et comparer la 23e paire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un caryotype"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.x01",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Une espèce possède 5 paires de chromosomes. En ne tenant compte que de la répartition au hasard des chromosomes entiers (un chromosome de chaque paire, paires indépendantes), combien de combinaisons différentes de chromosomes peut-on obtenir dans ses gamètes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "32"
+      },
+      "solution": "Chaque paire offre 2 possibilités : 2 × 2 × 2 × 2 × 2 = 2^5 = 32 combinaisons. Chez l'être humain (23 paires), on obtient 2^23, soit environ 8 millions de combinaisons.",
+      "step_by_step_solution": [
+        "Pour chaque paire, le gamète reçoit l'un ou l'autre chromosome : 2 possibilités.",
+        "Les 5 paires se répartissent indépendamment.",
+        "Nombre de combinaisons = 2^5 = 32."
+      ],
+      "hints": [
+        "Commence avec 1 paire (2 cas), puis 2 paires (4 cas), puis 3 paires…"
+      ],
+      "common_errors": {
+        "10": "L'élève additionne les possibilités (2 × 5) au lieu de les multiplier (2^5)."
+      },
+      "remediation": "Représenter les gamètes possibles par un arbre pour 2 puis 3 paires, puis généraliser.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Dénombrer les gamètes possibles",
+        "Relier méiose et diversité génétique"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.x02",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes qui aboutissent à la cellule-œuf, à partir de cellules à 46 chromosomes chez les parents.\nÉléments (dans le désordre) : fécondation / cellules à 46 chromosomes dans les organes reproducteurs / gamètes à 23 chromosomes / méiose / cellule-œuf à 46 chromosomes\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "cellules à 46 chromosomes dans les organes reproducteurs",
+          "méiose",
+          "gamètes à 23 chromosomes",
+          "fécondation",
+          "cellule-œuf à 46 chromosomes"
+        ]
+      },
+      "solution": "La méiose produit des gamètes à 23 chromosomes ; la fécondation réunit deux gamètes et rétablit 46 chromosomes dans la cellule-œuf. Ordre attendu : cellules à 46 chromosomes dans les organes reproducteurs ; méiose ; gamètes à 23 chromosomes ; fécondation ; cellule-œuf à 46 chromosomes.",
+      "step_by_step_solution": [
+        "Les cellules reproductrices initiales ont 46 chromosomes.",
+        "La méiose produit des gamètes à 23 chromosomes.",
+        "La fécondation réunit deux gamètes.",
+        "La cellule-œuf contient 46 chromosomes."
+      ],
+      "hints": [
+        "La méiose précède la fécondation."
+      ],
+      "common_errors": {
+        "cellules à 46 chromosomes dans les organes reproducteurs ; gamètes à 23 chromosomes ; méiose ; fécondation ; cellule-œuf à 46 chromosomes": "L'élève place la méiose après la formation des gamètes."
+      },
+      "remediation": "Construire le cycle de vie humain en indiquant à chaque étape le nombre de chromosomes.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier méiose, fécondation et stabilité du caryotype"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.genetique.x03",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Une mutation a modifié la séquence d'un gène dans un ovule. L'enfant issu de cet ovule possède l'allèle muté dans toutes ses cellules. Pourquoi ?\nA. Car toutes ses cellules proviennent de la cellule-œuf par mitoses\nB. Car la mutation se propage d'une cellule à l'autre comme un virus\nC. Car la méiose a lieu dans chaque cellule du corps\nD. Car l'enfant fabrique la mutation en grandissant",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La cellule-œuf contient l'allèle muté ; toutes les cellules de l'enfant en proviennent par mitoses, qui copient fidèlement l'ADN. Bonne réponse : A. Car toutes ses cellules proviennent de la cellule-œuf par mitoses",
+      "step_by_step_solution": [
+        "L'allèle muté est présent dans la cellule-œuf.",
+        "Toutes les cellules de l'enfant proviennent de la cellule-œuf par mitoses.",
+        "Les mitoses conservent l'information génétique : toutes les cellules portent l'allèle muté."
+      ],
+      "hints": [
+        "D'où proviennent toutes les cellules d'un individu ?"
+      ],
+      "common_errors": {
+        "B": "L'élève pense que la mutation se répand d'une cellule à l'autre comme une infection."
+      },
+      "remediation": "Schématiser les premières divisions de la cellule-œuf en suivant un chromosome marqué.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier mitose et stabilité de l'information génétique"
+      ],
+      "source_notions": [
+        "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation"
+      ],
+      "choices": [
+        "Car toutes ses cellules proviennent de la cellule-œuf par mitoses",
+        "Car la mutation se propage d'une cellule à l'autre comme un virus",
+        "Car la méiose a lieu dans chaque cellule du corps",
+        "Car l'enfant fabrique la mutation en grandissant"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.d01",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les organes du tube digestif traversés par les aliments.\nÉléments (dans le désordre) : gros intestin / estomac / œsophage / intestin grêle / bouche\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "bouche",
+          "œsophage",
+          "estomac",
+          "intestin grêle",
+          "gros intestin"
+        ]
+      },
+      "solution": "Les aliments passent par la bouche, l'œsophage, l'estomac, l'intestin grêle puis le gros intestin. Ordre attendu : bouche ; œsophage ; estomac ; intestin grêle ; gros intestin.",
+      "step_by_step_solution": [
+        "Les aliments entrent par la bouche.",
+        "Ils descendent par l'œsophage jusqu'à l'estomac.",
+        "Ils passent ensuite dans l'intestin grêle, puis dans le gros intestin."
+      ],
+      "hints": [
+        "L'intestin grêle est plus long mais plus étroit que le gros intestin."
+      ],
+      "common_errors": {
+        "bouche ; œsophage ; estomac ; gros intestin ; intestin grêle": "L'élève place le gros intestin avant l'intestin grêle."
+      },
+      "remediation": "Colorier le trajet des aliments sur un schéma du tube digestif.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.d02",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on les petites molécules issues de la digestion, qui peuvent passer dans le sang ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "nutriments",
+          "les nutriments",
+          "nutriment",
+          "des nutriments"
+        ]
+      },
+      "solution": "La digestion transforme les aliments en nutriments, assez petits pour traverser la paroi de l'intestin.",
+      "step_by_step_solution": [
+        "Les aliments sont formés de grosses molécules.",
+        "La digestion les découpe en petites molécules.",
+        "Ce sont les nutriments."
+      ],
+      "hints": [
+        "Ce mot a la même racine que « nutrition »."
+      ],
+      "common_errors": {
+        "aliments": "L'élève confond l'aliment consommé et les molécules qui passent dans le sang."
+      },
+      "remediation": "Faire un tableau aliment → molécules de l'aliment → nutriments obtenus.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.d03",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le foie et le pancréas font partie du tube digestif, car les aliments les traversent. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Ils produisent des sucs mais ne sont pas traversés : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Le foie et le pancréas sont des glandes annexes : ils déversent des sucs digestifs mais les aliments ne les traversent pas.",
+      "step_by_step_solution": [
+        "Le tube digestif est le trajet suivi par les aliments.",
+        "Le foie et le pancréas sont à côté de ce trajet.",
+        "Ils produisent des sucs mais ne sont pas traversés : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Distingue les organes traversés et les glandes qui déversent des sucs."
+      ],
+      "common_errors": {
+        "vrai": "L'élève confond tube digestif et appareil digestif (qui comprend aussi les glandes annexes)."
+      },
+      "remediation": "Légender un schéma avec deux couleurs : tube digestif / glandes annexes.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.d04",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quelles molécules, contenues dans les sucs digestifs, découpent les grosses molécules des aliments ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "enzymes digestives",
+          "les enzymes digestives",
+          "enzymes",
+          "des enzymes"
+        ]
+      },
+      "solution": "Les enzymes digestives des sucs digestifs découpent les grosses molécules des aliments en nutriments.",
+      "step_by_step_solution": [
+        "Les sucs digestifs contiennent des molécules actives.",
+        "Elles découpent les grosses molécules.",
+        "Ce sont les enzymes digestives."
+      ],
+      "hints": [
+        "Exemple : l'amylase de la salive."
+      ],
+      "common_errors": {
+        "acides": "L'acidité de l'estomac aide mais ce sont les enzymes qui réalisent la découpe des molécules."
+      },
+      "remediation": "Réaliser (ou analyser) l'expérience amidon + salive à 37 °C.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.d05",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans quel organe se fait l'essentiel du passage des nutriments dans le sang ?\nA. L'œsophage\nB. La bouche\nC. L'intestin grêle\nD. L'estomac",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "L'absorption des nutriments se fait principalement dans l'intestin grêle, dont la paroi présente de nombreux replis (villosités). Bonne réponse : C. L'intestin grêle",
+      "step_by_step_solution": [
+        "La digestion se termine dans l'intestin grêle.",
+        "Sa paroi est très repliée et richement irriguée.",
+        "C'est là que se fait l'essentiel de l'absorption."
+      ],
+      "hints": [
+        "Cet organe a une paroi couverte de villosités."
+      ],
+      "common_errors": {
+        "D": "L'élève pense que l'absorption se fait dans l'estomac."
+      },
+      "remediation": "Observer une coupe de paroi intestinale (villosités, capillaires).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [
+        "L'œsophage",
+        "La bouche",
+        "L'intestin grêle",
+        "L'estomac"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.a01",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "EXPERIMENT_PROTOCOL",
+      "statement": "Expérience : dans un tube, on mélange de l'empois d'amidon et de la salive à 37 °C. Après 20 minutes, le test à l'eau iodée est négatif et le test à la liqueur de Fehling est positif (précipité rouge brique). Quel nutriment est apparu ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "glucose",
+          "le glucose",
+          "sucre simple",
+          "sucres simples",
+          "sucres réducteurs"
+        ]
+      },
+      "solution": "L'amidon a disparu (eau iodée négative) et un sucre simple, le glucose, est apparu (Fehling positif) : l'amylase salivaire a digéré l'amidon.",
+      "step_by_step_solution": [
+        "Eau iodée négative : l'amidon a disparu.",
+        "Fehling positif : un sucre simple est présent.",
+        "L'amidon a été transformé en glucose."
+      ],
+      "hints": [
+        "Le précipité rouge brique à la liqueur de Fehling signale un type de sucre particulier."
+      ],
+      "common_errors": {
+        "amidon": "L'élève ne sait pas interpréter le test à l'eau iodée négatif."
+      },
+      "remediation": "Revoir les tests : eau iodée → amidon ; liqueur de Fehling à chaud → sucres réducteurs.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Interpréter une expérience",
+        "Relier enzymes et digestion"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.a02",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque constituant des aliments au nutriment qu'il donne après digestion.\nÀ gauche : amidon / protéines / lipides\nÀ droite : acides aminés / glucose / acides gras et glycérol\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "amidon": "glucose",
+          "protéines": "acides aminés",
+          "lipides": "acides gras et glycérol"
+        }
+      },
+      "solution": "L'amidon donne du glucose, les protéines des acides aminés, les lipides des acides gras et du glycérol. Associations : amidon → glucose ; protéines → acides aminés ; lipides → acides gras et glycérol.",
+      "step_by_step_solution": [
+        "L'amidon est une chaîne de glucose.",
+        "Les protéines sont des chaînes d'acides aminés.",
+        "Les lipides sont découpés en acides gras et glycérol."
+      ],
+      "hints": [
+        "Chaque grosse molécule est découpée en ses « briques »."
+      ],
+      "common_errors": {
+        "amidon → acides aminés ; protéines → glucose ; lipides → acides gras et glycérol": "Confusion entre les briques de l'amidon et celles des protéines."
+      },
+      "remediation": "Utiliser des modèles (perles, briques) pour représenter la découpe des molécules.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.a03",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? La digestion est uniquement mécanique : les aliments sont seulement broyés en petits morceaux. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : La digestion n'est pas seulement mécanique : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. La digestion est aussi chimique : les enzymes transforment les grosses molécules en nutriments.",
+      "step_by_step_solution": [
+        "Les dents et l'estomac broient les aliments (digestion mécanique).",
+        "Les enzymes découpent les molécules (digestion chimique).",
+        "La digestion n'est pas seulement mécanique : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Un morceau de pain très finement broyé contient-il du glucose libre ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève réduit la digestion à la mastication."
+      },
+      "remediation": "Comparer amidon + eau et amidon + salive, tous deux agités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.a04",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "EXPERIMENT_PROTOCOL",
+      "statement": "Expérience : amidon + salive à 0 °C : après 20 minutes, le test à l'eau iodée est positif. Pourquoi l'amidon n'a-t-il pas été digéré ?\nA. L'enzyme de la salive est très peu active à basse température\nB. L'eau iodée ne fonctionne pas à 0 °C\nC. L'amidon est un nutriment\nD. La salive ne contient aucune enzyme",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "À 0 °C, l'enzyme de la salive (amylase) est très peu active : l'amidon n'a pas été transformé. Bonne réponse : A. L'enzyme de la salive est très peu active à basse température",
+      "step_by_step_solution": [
+        "À 37 °C, l'amidon est digéré.",
+        "À 0 °C, il ne l'est pas.",
+        "L'activité de l'enzyme dépend de la température."
+      ],
+      "hints": [
+        "Compare avec le tube à 37 °C."
+      ],
+      "common_errors": {
+        "B": "L'élève pense que la salive est « détruite » par le froid alors que l'activité reprend au réchauffement."
+      },
+      "remediation": "Analyser une série d'expériences à 0 °C, 37 °C et 90 °C.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [
+        "L'enzyme de la salive est très peu active à basse température",
+        "L'eau iodée ne fonctionne pas à 0 °C",
+        "L'amidon est un nutriment",
+        "La salive ne contient aucune enzyme"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.a05",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on les replis de la paroi de l'intestin grêle qui augmentent sa surface d'échange ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "villosités",
+          "les villosités",
+          "villosités intestinales",
+          "villosite"
+        ]
+      },
+      "solution": "Les villosités intestinales augmentent considérablement la surface d'absorption de l'intestin grêle.",
+      "step_by_step_solution": [
+        "La paroi de l'intestin grêle n'est pas lisse.",
+        "Elle présente de nombreux replis en doigts de gant.",
+        "Ce sont les villosités."
+      ],
+      "hints": [
+        "Ces replis ressemblent à des doigts de gant."
+      ],
+      "common_errors": {
+        "alvéoles": "Les alvéoles sont dans les poumons."
+      },
+      "remediation": "Observer une photographie de villosités au microscope.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.c01",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : un repas apporte 60 g de glucides, dont 95 % sont absorbés. Quelle masse de glucides est absorbée ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 57,
+        "unit": "g"
+      },
+      "solution": "0,95 × 60 = 57 g de glucides absorbés.",
+      "step_by_step_solution": [
+        "95 % de 60 g = 0,95 × 60.",
+        "0,95 × 60 = 57."
+      ],
+      "hints": [
+        "Calculer 95 % revient à multiplier par 0,95."
+      ],
+      "common_errors": {
+        "3 g": "L'élève a calculé la part non absorbée (5 %)."
+      },
+      "remediation": "Revoir le calcul d'un pourcentage.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un document chiffré"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.c02",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes du devenir d'un morceau de pain dans l'organisme.\nÉléments (dans le désordre) : transport par le sang / obtention de glucose / mastication dans la bouche / action des enzymes sur l'amidon / absorption dans l'intestin grêle\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "mastication dans la bouche",
+          "action des enzymes sur l'amidon",
+          "obtention de glucose",
+          "absorption dans l'intestin grêle",
+          "transport par le sang"
+        ]
+      },
+      "solution": "Le pain est mâché, l'amidon est découpé par des enzymes en glucose, absorbé dans l'intestin grêle puis transporté par le sang. Ordre attendu : mastication dans la bouche ; action des enzymes sur l'amidon ; obtention de glucose ; absorption dans l'intestin grêle ; transport par le sang.",
+      "step_by_step_solution": [
+        "Le pain est broyé et imprégné de salive.",
+        "Les enzymes découpent l'amidon.",
+        "On obtient du glucose.",
+        "Il est absorbé dans l'intestin grêle.",
+        "Le sang le transporte aux organes."
+      ],
+      "hints": [
+        "L'absorption concerne des nutriments déjà obtenus."
+      ],
+      "common_errors": {
+        "mastication dans la bouche ; action des enzymes sur l'amidon ; absorption dans l'intestin grêle ; obtention de glucose ; transport par le sang": "L'élève place l'absorption avant l'obtention du nutriment : il pense que l'amidon passe tel quel dans le sang."
+      },
+      "remediation": "Construire un schéma fléché bilan de la digestion à l'absorption.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.c03",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi l'amidon ne peut-il pas passer directement dans le sang ?\nA. C'est une molécule trop petite\nB. Il est détruit par la lumière\nC. Il est toxique pour le sang\nD. C'est une molécule trop grosse pour traverser la paroi intestinale",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "L'amidon est une molécule trop grosse pour traverser la paroi intestinale ; seules les petites molécules (nutriments) passent. Bonne réponse : D. C'est une molécule trop grosse pour traverser la paroi intestinale",
+      "step_by_step_solution": [
+        "L'amidon est une très grosse molécule.",
+        "La paroi intestinale ne laisse passer que de petites molécules.",
+        "Il doit d'abord être découpé en glucose."
+      ],
+      "hints": [
+        "Compare la taille de l'amidon et celle du glucose."
+      ],
+      "common_errors": {
+        "A": "L'élève pense que l'amidon est un nutriment."
+      },
+      "remediation": "Réaliser l'expérience du boudin de dialyse (amidon + glucose) : seul le glucose traverse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [
+        "C'est une molécule trop petite",
+        "Il est détruit par la lumière",
+        "Il est toxique pour le sang",
+        "C'est une molécule trop grosse pour traverser la paroi intestinale"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.c04",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Des milliards de bactéries vivent dans notre intestin et participent à la digestion de certains aliments comme les fibres. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Ils dégradent notamment certaines fibres : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Le microbiote intestinal dégrade certaines fibres alimentaires que nos enzymes ne digèrent pas.",
+      "step_by_step_solution": [
+        "L'intestin abrite un très grand nombre de micro-organismes.",
+        "Ils forment le microbiote intestinal.",
+        "Ils dégradent notamment certaines fibres : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Toutes les bactéries sont-elles pathogènes ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que toutes les bactéries sont dangereuses."
+      },
+      "remediation": "Lire un document sur le microbiote intestinal et ses rôles.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.c05",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel suc digestif, produit par le pancréas, est déversé dans l'intestin grêle ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "suc pancréatique",
+          "le suc pancréatique",
+          "suc pancreatique"
+        ]
+      },
+      "solution": "Le pancréas produit le suc pancréatique, riche en enzymes, déversé dans l'intestin grêle.",
+      "step_by_step_solution": [
+        "Chaque glande digestive produit un suc.",
+        "Le suc produit par le pancréas porte son nom."
+      ],
+      "hints": [
+        "Son nom est formé à partir du nom de l'organe qui le produit."
+      ],
+      "common_errors": {
+        "bile": "La bile est produite par le foie et ne contient pas d'enzymes digestives."
+      },
+      "remediation": "Faire un tableau glande / suc / lieu de déversement.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer la transformation des aliments en nutriments",
+        "Relier digestion et absorption"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.x01",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "EXPERIMENT_PROTOCOL",
+      "statement": "Document : tube 1 : amidon + eau à 37 °C ; tube 2 : amidon + salive à 37 °C ; tube 3 : amidon + salive bouillie puis refroidie à 37 °C. Après 20 min, l'eau iodée ne colore plus que les tubes 1 et 3 en bleu-violet. Quel tube montre que l'amidon a été digéré ?\nA. Le tube 3\nB. Aucun tube\nC. Le tube 2\nD. Le tube 1",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Seul le tube 2 n'est plus coloré : l'amidon y a été digéré ; l'ébullition a rendu l'enzyme inactive dans le tube 3, et le tube 1 est un témoin sans enzyme. Bonne réponse : C. Le tube 2",
+      "step_by_step_solution": [
+        "Le tube 1 est le témoin : pas d'enzyme, l'amidon reste.",
+        "Dans le tube 2, l'amidon a disparu.",
+        "Dans le tube 3, la salive bouillie n'agit plus : l'enzyme a été dénaturée par la chaleur."
+      ],
+      "hints": [
+        "L'eau iodée révèle la présence d'amidon."
+      ],
+      "common_errors": {
+        "A": "L'élève ne comprend pas que l'ébullition inactive l'enzyme."
+      },
+      "remediation": "Rappeler que les enzymes sont des protéines qu'une forte chaleur rend définitivement inactives.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Interpréter une expérience avec témoin"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [
+        "Le tube 3",
+        "Aucun tube",
+        "Le tube 2",
+        "Le tube 1"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.x02",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : concentration en glucose du sang : à l'entrée de l'intestin grêle 1,0 g/L ; à la sortie après un repas 1,6 g/L. Le débit sanguin est de 1 L par minute. Quelle masse de glucose le sang reçoit-il en une minute ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 0.6,
+        "unit": "g"
+      },
+      "solution": "Gain = (1,6 − 1,0) g/L × 1 L = 0,6 g de glucose par minute.",
+      "step_by_step_solution": [
+        "Chaque litre de sang gagne 1,6 − 1,0 = 0,6 g de glucose.",
+        "1 L de sang passe en une minute.",
+        "Le sang reçoit 0,6 g de glucose par minute."
+      ],
+      "hints": [
+        "Calcule d'abord le gain par litre."
+      ],
+      "common_errors": {
+        "2,6 g": "L'élève additionne les concentrations au lieu de les soustraire."
+      },
+      "remediation": "Revoir le lien concentration × volume = masse.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document",
+        "Relier absorption et enrichissement du sang"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.digestion.x03",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque enzyme à la molécule qu'elle digère.\nÀ gauche : amylase / protéase / lipase\nÀ droite : lipides / amidon / protéines\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "amylase": "amidon",
+          "protéase": "protéines",
+          "lipase": "lipides"
+        }
+      },
+      "solution": "Chaque enzyme est spécifique : l'amylase digère l'amidon, la protéase les protéines, la lipase les lipides. Associations : amylase → amidon ; protéase → protéines ; lipase → lipides.",
+      "step_by_step_solution": [
+        "Le nom de l'enzyme évoque la molécule digérée.",
+        "Amyl- : amidon ; proté- : protéines ; lip- : lipides."
+      ],
+      "hints": [
+        "Observe le début du nom de chaque enzyme."
+      ],
+      "common_errors": {
+        "amylase → lipides ; protéase → protéines ; lipase → amidon": "L'élève ne relie pas la spécificité de l'enzyme à son nom."
+      },
+      "remediation": "Réaliser une expérience de spécificité : amylase + blanc d'œuf (protéines) → pas de digestion.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Connaître la spécificité des enzymes"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.d01",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment s'appelle le mécanisme par lequel certains globules blancs englobent et digèrent des microorganismes ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "phagocytose",
+          "la phagocytose"
+        ]
+      },
+      "solution": "La phagocytose est réalisée par des phagocytes qui englobent et digèrent les microorganismes.",
+      "step_by_step_solution": [
+        "Certains globules blancs capturent des microbes.",
+        "Ils les englobent puis les digèrent.",
+        "C'est la phagocytose."
+      ],
+      "hints": [
+        "Le mot contient le grec « phagein », manger."
+      ],
+      "common_errors": {
+        "vaccination": "La vaccination est une pratique médicale, pas un mécanisme cellulaire de défense immédiate."
+      },
+      "remediation": "Observer une séquence d'images de phagocytose et légender chaque étape.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.d02",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? La peau intacte est une barrière qui empêche la plupart des microorganismes de pénétrer dans l'organisme. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La peau intacte et les muqueuses forment des barrières naturelles efficaces contre la plupart des microorganismes.",
+      "step_by_step_solution": [
+        "La peau est formée de couches de cellules serrées.",
+        "Les microorganismes la traversent difficilement si elle est intacte.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Pourquoi désinfecte-t-on une plaie ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève ne relie pas la blessure à l'entrée des microorganismes."
+      },
+      "remediation": "Analyser un document sur la contamination par une plaie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.d03",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelles cellules sanguines assurent la défense de l'organisme ?\nA. Les plaquettes\nB. Les neurones\nC. Les globules blancs\nD. Les globules rouges",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Les globules blancs (leucocytes) assurent la défense de l'organisme.",
+      "step_by_step_solution": [
+        "Le sang contient plusieurs types de cellules.",
+        "Les globules rouges transportent le dioxygène.",
+        "Les globules blancs défendent l'organisme."
+      ],
+      "hints": [
+        "Ce ne sont pas celles qui transportent le dioxygène."
+      ],
+      "common_errors": {
+        "D": "Confusion entre les rôles des cellules sanguines."
+      },
+      "remediation": "Observer un frottis sanguin et comparer le nombre et l'aspect des cellules.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [
+        "Les plaquettes",
+        "Les neurones",
+        "Les globules blancs",
+        "Les globules rouges"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.d04",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quelles molécules, produites par certains lymphocytes, se fixent spécifiquement sur un antigène ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "anticorps",
+          "les anticorps",
+          "des anticorps",
+          "anticorps spécifiques"
+        ]
+      },
+      "solution": "Les lymphocytes B produisent des anticorps qui se fixent spécifiquement sur un antigène et favorisent son élimination.",
+      "step_by_step_solution": [
+        "Certains lymphocytes produisent des molécules de défense.",
+        "Elles se fixent sur un antigène précis.",
+        "Ce sont les anticorps."
+      ],
+      "hints": [
+        "Ces molécules sont dirigées « contre » un « corps » étranger."
+      ],
+      "common_errors": {
+        "antibiotiques": "Les antibiotiques sont des médicaments, pas des molécules produites par l'organisme."
+      },
+      "remediation": "Construire un schéma : antigène + anticorps → complexe neutralisé puis phagocyté.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.d05",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Les antibiotiques sont efficaces contre les virus. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Les antibiotiques ne sont pas efficaces contre les virus : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Les antibiotiques agissent sur les bactéries ; ils sont sans effet sur les virus.",
+      "step_by_step_solution": [
+        "Les antibiotiques bloquent des mécanismes propres aux bactéries.",
+        "Les virus ne possèdent pas ces mécanismes.",
+        "Les antibiotiques ne sont pas efficaces contre les virus : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Un rhume est dû à un virus : un antibiotique le guérit-il ?"
+      ],
+      "common_errors": {
+        "vrai": "Confusion fréquente entre bactéries et virus."
+      },
+      "remediation": "Comparer dans un tableau bactéries et virus (taille, cellule ou non, sensibilité aux antibiotiques).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.a01",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes de la phagocytose.\nÉléments (dans le désordre) : digestion / ingestion (englobement) / adhésion du microorganisme au phagocyte / rejet des déchets\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "adhésion du microorganisme au phagocyte",
+          "ingestion (englobement)",
+          "digestion",
+          "rejet des déchets"
+        ]
+      },
+      "solution": "Le phagocyte adhère au microorganisme, l'englobe, le digère puis rejette les débris. Ordre attendu : adhésion du microorganisme au phagocyte ; ingestion (englobement) ; digestion ; rejet des déchets.",
+      "step_by_step_solution": [
+        "Le phagocyte se colle au microorganisme.",
+        "Il l'englobe dans une vésicule.",
+        "Il le digère.",
+        "Il rejette les débris."
+      ],
+      "hints": [
+        "La digestion suit l'englobement."
+      ],
+      "common_errors": {
+        "adhésion du microorganisme au phagocyte ; digestion ; ingestion (englobement) ; rejet des déchets": "L'élève place la digestion avant l'ingestion."
+      },
+      "remediation": "Mimer la phagocytose avec un ballon de baudruche (phagocyte) et une balle (microbe).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.a02",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque acteur de l'immunité à son action.\nÀ gauche : phagocyte / lymphocyte B / lymphocyte T\nÀ droite : produit des anticorps / détruit les cellules infectées / englobe et digère les microorganismes\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "phagocyte": "englobe et digère les microorganismes",
+          "lymphocyte B": "produit des anticorps",
+          "lymphocyte T": "détruit les cellules infectées"
+        }
+      },
+      "solution": "Les phagocytes phagocytent, les lymphocytes B produisent des anticorps, certains lymphocytes T détruisent les cellules infectées. Associations : phagocyte → englobe et digère les microorganismes ; lymphocyte B → produit des anticorps ; lymphocyte T → détruit les cellules infectées.",
+      "step_by_step_solution": [
+        "Les phagocytes agissent rapidement.",
+        "Les lymphocytes B produisent les anticorps.",
+        "Des lymphocytes T éliminent les cellules infectées."
+      ],
+      "hints": [
+        "Les anticorps sont produits par des lymphocytes."
+      ],
+      "common_errors": {
+        "phagocyte → englobe et digère les microorganismes ; lymphocyte B → détruit les cellules infectées ; lymphocyte T → produit des anticorps": "Inversion des rôles des deux types de lymphocytes."
+      },
+      "remediation": "Construire un tableau bilan des acteurs de l'immunité.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.a03",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Au bout de combien de jours environ apparaissent en quantité les anticorps lors d'un premier contact avec un antigène ?\nA. Plusieurs années\nB. Jamais\nC. Une à deux semaines\nD. Quelques minutes",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Lors d'un premier contact, la production d'anticorps est lente : ils apparaissent en quantité après une à deux semaines environ. Bonne réponse : C. Une à deux semaines",
+      "step_by_step_solution": [
+        "La réaction faisant intervenir les lymphocytes nécessite leur multiplication.",
+        "Elle prend plusieurs jours.",
+        "Les anticorps apparaissent en quantité après une à deux semaines."
+      ],
+      "hints": [
+        "La réaction des lymphocytes est plus lente que la phagocytose."
+      ],
+      "common_errors": {
+        "D": "L'élève pense que les anticorps sont présents immédiatement."
+      },
+      "remediation": "Lire un graphique de concentration d'anticorps en fonction du temps après un premier contact.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [
+        "Plusieurs années",
+        "Jamais",
+        "Une à deux semaines",
+        "Quelques minutes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.a04",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on une substance reconnue comme étrangère par le système immunitaire et qui déclenche la production d'anticorps ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "antigène",
+          "un antigène",
+          "antigene",
+          "antigènes"
+        ]
+      },
+      "solution": "Un antigène est une molécule reconnue comme étrangère, qui déclenche une réaction immunitaire spécifique.",
+      "step_by_step_solution": [
+        "Le système immunitaire reconnaît certaines molécules étrangères.",
+        "Ces molécules déclenchent la production d'anticorps.",
+        "Ce sont des antigènes."
+      ],
+      "hints": [
+        "Le mot signifie « qui génère des anticorps »."
+      ],
+      "common_errors": {
+        "anticorps": "Confusion entre la molécule étrangère (antigène) et la molécule de défense (anticorps)."
+      },
+      "remediation": "Utiliser le modèle clé / serrure pour représenter antigène et anticorps.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.a05",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Un anticorps dirigé contre le virus de la grippe peut aussi neutraliser le virus de la rougeole. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : L'anticorps anti-grippe ne neutralise pas la rougeole : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Chaque anticorps est spécifique d'un antigène : il ne reconnaît pas un autre virus.",
+      "step_by_step_solution": [
+        "Un anticorps se fixe sur un antigène précis.",
+        "Les antigènes des deux virus sont différents.",
+        "L'anticorps anti-grippe ne neutralise pas la rougeole : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Un anticorps reconnaît-il n'importe quel microbe ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève ignore la spécificité des anticorps."
+      },
+      "remediation": "Réaliser (ou analyser) un test d'Ouchterlony montrant la spécificité anticorps / antigène.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.c01",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "GRAPH_INTERPRETATION",
+      "statement": "Document : lors d'un premier contact avec un antigène, la concentration maximale d'anticorps est de 10 unités ; lors d'un second contact, elle atteint 100 unités. Par combien la concentration maximale a-t-elle été multipliée ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "100 / 10 = 10 : la réponse secondaire est dix fois plus intense.",
+      "step_by_step_solution": [
+        "On cherche un facteur multiplicatif.",
+        "100 / 10 = 10."
+      ],
+      "hints": [
+        "Divise la valeur du second contact par celle du premier."
+      ],
+      "common_errors": {
+        "90": "L'élève calcule une différence au lieu d'un facteur."
+      },
+      "remediation": "Comparer les courbes de réponses primaire et secondaire (délai, intensité).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un graphique"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.c02",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi la réponse immunitaire est-elle plus rapide et plus intense lors d'un second contact avec le même antigène ?\nA. Grâce aux lymphocytes mémoire formés lors du premier contact\nB. Car les anticorps du premier contact restent en quantité maximale pour toujours\nC. Car l'antigène est devenu plus faible\nD. Grâce aux globules rouges",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Des lymphocytes mémoire, formés lors du premier contact, reconnaissent rapidement l'antigène et déclenchent une réponse plus rapide et plus forte. Bonne réponse : A. Grâce aux lymphocytes mémoire formés lors du premier contact",
+      "step_by_step_solution": [
+        "Le premier contact a produit des lymphocytes mémoire.",
+        "Ils persistent longtemps dans l'organisme.",
+        "Au second contact, ils réagissent plus vite et plus fort."
+      ],
+      "hints": [
+        "Que reste-t-il dans l'organisme après la première infection ?"
+      ],
+      "common_errors": {
+        "B": "L'élève pense que les anticorps du premier contact restent en quantité indéfiniment."
+      },
+      "remediation": "Relier la mémoire immunitaire au principe de la vaccination.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [
+        "Grâce aux lymphocytes mémoire formés lors du premier contact",
+        "Car les anticorps du premier contact restent en quantité maximale pour toujours",
+        "Car l'antigène est devenu plus faible",
+        "Grâce aux globules rouges"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.c03",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Un vaccin contient des antigènes rendus inoffensifs (ou l'information permettant de les produire), qui déclenchent une réponse immunitaire et la formation de cellules mémoire. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La vaccination provoque une réponse immunitaire sans provoquer la maladie et entraîne la formation de lymphocytes mémoire.",
+      "step_by_step_solution": [
+        "Le vaccin contient des éléments reconnus comme antigènes mais non pathogènes.",
+        "L'organisme fabrique des anticorps et des cellules mémoire.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "À quoi sert un rappel de vaccin ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que le vaccin contient des anticorps ou des médicaments."
+      },
+      "remediation": "Comparer vaccination (préventive, mémoire) et sérothérapie (injection d'anticorps).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.c04",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel type de lymphocyte est la cible principale du VIH (virus de l'immunodéficience humaine) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "lymphocytes T4",
+          "lymphocyte T4",
+          "les lymphocytes T4",
+          "T4",
+          "lymphocytes T CD4",
+          "lymphocytes CD4"
+        ]
+      },
+      "solution": "Le VIH infecte et détruit progressivement les lymphocytes T4 (CD4), ce qui affaiblit tout le système immunitaire.",
+      "step_by_step_solution": [
+        "Le VIH infecte des cellules du système immunitaire.",
+        "Il s'agit de lymphocytes T particuliers, dits T4 (ou CD4)."
+      ],
+      "hints": [
+        "Ce sont des lymphocytes T, désignés par un chiffre."
+      ],
+      "common_errors": {
+        "globules rouges": "Le VIH n'infecte pas les globules rouges."
+      },
+      "remediation": "Analyser l'évolution du nombre de lymphocytes T4 au cours de l'infection par le VIH.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire les réactions immunitaires",
+        "Relier mémoire immunitaire et vaccination"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.c05",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : sang d'un patient — 1er jour de l'infection : 0 anticorps ; 7e jour : 20 unités ; 14e jour : 60 unités. Quelle a été l'augmentation d'anticorps entre le 7e et le 14e jour (en unités) ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "40"
+      },
+      "solution": "60 − 20 = 40 unités.",
+      "step_by_step_solution": [
+        "On compare le 14e et le 7e jour.",
+        "60 − 20 = 40."
+      ],
+      "hints": [
+        "Soustrais les deux valeurs."
+      ],
+      "common_errors": {
+        "80": "L'élève additionne les deux valeurs."
+      },
+      "remediation": "Reprendre la lecture de tableaux et le calcul d'une variation.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un document"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.x01",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : dans une population, le virus de la rougeole cesse de circuler durablement lorsque plus de 95 % des personnes sont immunisées. Dans une ville de 20 000 habitants, combien de personnes au minimum doivent être immunisées pour atteindre ce seuil ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "19000"
+      },
+      "solution": "0,95 × 20 000 = 19 000 personnes.",
+      "step_by_step_solution": [
+        "95 % de 20 000 = 0,95 × 20 000.",
+        "0,95 × 20 000 = 19 000."
+      ],
+      "hints": [
+        "Calculer 95 % revient à multiplier par 0,95."
+      ],
+      "common_errors": {
+        "1000": "L'élève a calculé les 5 % non immunisés."
+      },
+      "remediation": "Discuter de l'intérêt collectif de la vaccination (protection des personnes qui ne peuvent pas être vaccinées).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un pourcentage",
+        "Relier vaccination et protection collective"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.x02",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes de la réaction immunitaire lors d'une première infection par une bactérie.\nÉléments (dans le désordre) : élimination de la bactérie et formation de cellules mémoire / réaction inflammatoire et phagocytose / franchissement de la peau par la bactérie / multiplication des lymphocytes spécifiques / production d'anticorps\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "franchissement de la peau par la bactérie",
+          "réaction inflammatoire et phagocytose",
+          "multiplication des lymphocytes spécifiques",
+          "production d'anticorps",
+          "élimination de la bactérie et formation de cellules mémoire"
+        ]
+      },
+      "solution": "Après l'entrée de la bactérie, la réaction rapide (inflammation, phagocytose) précède la réaction plus lente des lymphocytes, qui produit des anticorps et des cellules mémoire. Ordre attendu : franchissement de la peau par la bactérie ; réaction inflammatoire et phagocytose ; multiplication des lymphocytes spécifiques ; production d'anticorps ; élimination de la bactérie et formation de cellules mémoire.",
+      "step_by_step_solution": [
+        "La bactérie franchit la barrière de la peau.",
+        "La réaction rapide commence : inflammation et phagocytose.",
+        "Les lymphocytes spécifiques se multiplient.",
+        "Des anticorps sont produits.",
+        "La bactérie est éliminée et des cellules mémoire persistent."
+      ],
+      "hints": [
+        "La réaction rapide précède la réaction des lymphocytes."
+      ],
+      "common_errors": {
+        "franchissement de la peau par la bactérie ; multiplication des lymphocytes spécifiques ; réaction inflammatoire et phagocytose ; production d'anticorps ; élimination de la bactérie et formation de cellules mémoire": "L'élève place la réaction des lymphocytes avant la réaction rapide."
+      },
+      "remediation": "Construire une frise temporelle de la réponse immunitaire.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Ordonner les étapes d'une réaction immunitaire"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.3E.immunite.x03",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Une personne a été vaccinée contre le tétanos il y a longtemps. Après une blessure, sa concentration d'anticorps anti-tétanos augmente très vite en quelques jours. Quelle est l'explication ?\nA. La blessure a été soignée avec un antibiotique\nB. Le tétanos est un virus sans antigène\nC. Des lymphocytes mémoire formés grâce au vaccin sont réactivés\nD. Le vaccin contenait des anticorps qui restent pour toujours",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "La vaccination a laissé des lymphocytes mémoire spécifiques : leur réactivation provoque une réponse secondaire rapide et intense. Bonne réponse : C. Des lymphocytes mémoire formés grâce au vaccin sont réactivés",
+      "step_by_step_solution": [
+        "La vaccination a provoqué une réponse primaire.",
+        "Elle a laissé des lymphocytes mémoire.",
+        "Au nouveau contact, la réponse secondaire est rapide et intense."
+      ],
+      "hints": [
+        "Compare avec une personne non vaccinée."
+      ],
+      "common_errors": {
+        "D": "L'élève pense que le vaccin contient des anticorps injectés qui restent indéfiniment."
+      },
+      "remediation": "Comparer les courbes de réponse d'une personne vaccinée et d'une personne non vaccinée.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier vaccination et mémoire immunitaire"
+      ],
+      "source_notions": [
+        "SVT.3E.CORPS.reactions-immunitaires"
+      ],
+      "choices": [
+        "La blessure a été soignée avec un antibiotique",
+        "Le tétanos est un virus sans antigène",
+        "Des lymphocytes mémoire formés grâce au vaccin sont réactivés",
+        "Le vaccin contenait des anticorps qui restent pour toujours"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

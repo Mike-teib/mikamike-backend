@@ -1,0 +1,2189 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.d01",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un ballon de masse 0,40 kg se déplace à 10 m/s. Calculer son énergie cinétique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "20",
+        "unit": "J"
+      },
+      "solution": "Ec = ½ × m × v². Ec = 0,5 × 0,40 × 10² = 0,5 × 0,40 × 100 = 20 J.",
+      "step_by_step_solution": [
+        "Ec = ½ × m × v².",
+        "Ec = 0,5 × 0,40 × 10² = 0,5 × 0,40 × 100 = 20 J."
+      ],
+      "hints": [
+        "Commence par élever la vitesse au carré."
+      ],
+      "common_errors": {
+        "2 J": "L'élève a oublié d'élever la vitesse au carré.",
+        "40 J": "L'élève a oublié le facteur ½."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.d02",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle est l'expression de l'énergie cinétique d'un objet de masse m et de vitesse v ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'énergie cinétique dépend de la masse et du carré de la vitesse. Elle s'écrit : Ec = ½ × m × v²",
+      "step_by_step_solution": [
+        "L'énergie cinétique dépend de la masse et du carré de la vitesse.",
+        "Elle s'écrit : Ec = ½ × m × v²"
+      ],
+      "hints": [
+        "Seule l'une des deux grandeurs est élevée au carré."
+      ],
+      "common_errors": {
+        "1": "Il manque le ½ et le carré.",
+        "2": "La vitesse doit être au carré.",
+        "3": "Expression sans rapport avec la vitesse."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "choices": [
+        "Ec = ½ × m × v²",
+        "Ec = m × v",
+        "Ec = ½ × m × v",
+        "Ec = m × g"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.d03",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel est le nom de l'unité d'énergie du Système international ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "joule",
+          "le joule",
+          "joules"
+        ]
+      },
+      "solution": "Toutes les formes d'énergie s'expriment dans la même unité. Cette unité est le joule (J).",
+      "step_by_step_solution": [
+        "Toutes les formes d'énergie s'expriment dans la même unité.",
+        "Cette unité est le joule (J)."
+      ],
+      "hints": [
+        "Son symbole est la lettre J."
+      ],
+      "common_errors": {
+        "watt": "Le watt est l'unité de puissance.",
+        "newton": "Le newton est l'unité de force."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.d04",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une voiture de masse 1 000 kg roule à 20 m/s. Calculer son énergie cinétique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "200000",
+        "unit": "J"
+      },
+      "solution": "Ec = ½ × m × v². Ec = 0,5 × 1 000 × 20² = 0,5 × 1 000 × 400 = 200000 J.",
+      "step_by_step_solution": [
+        "Ec = ½ × m × v².",
+        "Ec = 0,5 × 1 000 × 20² = 0,5 × 1 000 × 400 = 200000 J."
+      ],
+      "hints": [
+        "Élève la vitesse au carré avant de multiplier."
+      ],
+      "common_errors": {
+        "10000 J": "L'élève a oublié d'élever la vitesse au carré.",
+        "400000 J": "L'élève a oublié le facteur ½."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.d05",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans le référentiel de la salle, lequel de ces objets a une énergie cinétique nulle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'énergie cinétique est liée au mouvement : elle est nulle si la vitesse est nulle. La bonne réponse est : « Un livre posé sur une table »",
+      "step_by_step_solution": [
+        "L'énergie cinétique est liée au mouvement : elle est nulle si la vitesse est nulle.",
+        "La bonne réponse est : « Un livre posé sur une table »"
+      ],
+      "hints": [
+        "Lequel de ces objets est immobile ?"
+      ],
+      "common_errors": {
+        "1": "Un ballon qui roule a une vitesse.",
+        "2": "Une voiture qui roule a une vitesse.",
+        "3": "Une feuille qui tombe a une vitesse."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "choices": [
+        "Un livre posé sur une table",
+        "Un ballon qui roule",
+        "Une voiture qui roule",
+        "Une feuille qui tombe"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.a01",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un cycliste et son vélo (masse totale 80 kg) roulent à 36 km/h. Calculer leur énergie cinétique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "4000",
+        "unit": "J"
+      },
+      "solution": "On convertit : 36 km/h = 36 ÷ 3,6 = 10 m/s. Ec = 0,5 × 80 × 10² = 4000 J.",
+      "step_by_step_solution": [
+        "On convertit : 36 km/h = 36 ÷ 3,6 = 10 m/s.",
+        "Ec = 0,5 × 80 × 10² = 4000 J."
+      ],
+      "hints": [
+        "La vitesse doit être en m/s.",
+        "36 km/h = ? m/s"
+      ],
+      "common_errors": {
+        "51840 J": "L'élève n'a pas converti les km/h en m/s."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.a02",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une balle de tennis de 58 g est servie à 50 m/s. Calculer son énergie cinétique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "72,5",
+        "unit": "J"
+      },
+      "solution": "On convertit : 58 g = 0,058 kg. Ec = 0,5 × 0,058 × 50² = 0,5 × 0,058 × 2 500 = 72,5 J.",
+      "step_by_step_solution": [
+        "On convertit : 58 g = 0,058 kg.",
+        "Ec = 0,5 × 0,058 × 50² = 0,5 × 0,058 × 2 500 = 72,5 J."
+      ],
+      "hints": [
+        "La masse doit être en kilogrammes."
+      ],
+      "common_errors": {
+        "72500 J": "L'élève n'a pas converti les grammes en kilogrammes."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.a03",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Si la vitesse d'un objet double, que devient son énergie cinétique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Ec est proportionnelle à v². Si v est multipliée par 2, v² est multipliée par 2² = 4. La bonne réponse est : « Elle est multipliée par 4. »",
+      "step_by_step_solution": [
+        "Ec est proportionnelle à v².",
+        "Si v est multipliée par 2, v² est multipliée par 2² = 4.",
+        "La bonne réponse est : « Elle est multipliée par 4. »"
+      ],
+      "hints": [
+        "Que devient v² si v est multipliée par 2 ?"
+      ],
+      "common_errors": {
+        "1": "L'élève oublie que la vitesse est au carré.",
+        "2": "Ec dépend de la vitesse.",
+        "3": "Ec augmente avec la vitesse."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "choices": [
+        "Elle est multipliée par 4.",
+        "Elle est multipliée par 2.",
+        "Elle ne change pas.",
+        "Elle est divisée par 2."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.a04",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un camion de 12 t roule à 90 km/h. Calculer son énergie cinétique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3750000",
+        "unit": "J"
+      },
+      "solution": "On convertit : 12 t = 12 000 kg ; 90 km/h = 25 m/s. Ec = 0,5 × 12 000 × 25² = 3750000 J (soit 3,75 MJ).",
+      "step_by_step_solution": [
+        "On convertit : 12 t = 12 000 kg ; 90 km/h = 25 m/s.",
+        "Ec = 0,5 × 12 000 × 25² = 3750000 J (soit 3,75 MJ)."
+      ],
+      "hints": [
+        "1 t = 1 000 kg.",
+        "Convertis aussi la vitesse."
+      ],
+      "common_errors": {
+        "48600000 J": "L'élève n'a pas converti les km/h en m/s.",
+        "3750 J": "L'élève n'a pas converti les tonnes en kilogrammes."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.a05",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un objet de 2,0 kg possède une énergie cinétique de 100 J. Quelle est sa vitesse ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "10",
+        "unit": "m/s"
+      },
+      "solution": "v² = 2 × Ec / m = 2 × 100 ÷ 2,0 = 100. v = √100 = 10 m/s.",
+      "step_by_step_solution": [
+        "v² = 2 × Ec / m = 2 × 100 ÷ 2,0 = 100.",
+        "v = √100 = 10 m/s."
+      ],
+      "hints": [
+        "Isole v² dans Ec = ½ × m × v².",
+        "N'oublie pas la racine carrée."
+      ],
+      "common_errors": {
+        "100 m/s": "L'élève a oublié la racine carrée.",
+        "50 m/s": "L'élève a divisé Ec par m sans multiplier par 2 ni prendre la racine."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.c01",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un skieur de 70 kg descend une piste à 54 km/h. Calculer son énergie cinétique en kJ.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "7,875",
+        "unit": "kJ"
+      },
+      "solution": "54 km/h = 54 ÷ 3,6 = 15 m/s. Ec = 0,5 × 70 × 15² = 7 875 J. Ec = 7,875 kJ.",
+      "step_by_step_solution": [
+        "54 km/h = 54 ÷ 3,6 = 15 m/s.",
+        "Ec = 0,5 × 70 × 15² = 7 875 J.",
+        "Ec = 7,875 kJ."
+      ],
+      "hints": [
+        "Convertis la vitesse en m/s.",
+        "1 kJ = 1 000 J."
+      ],
+      "common_errors": {
+        "102,06 kJ": "L'élève n'a pas converti les km/h en m/s.",
+        "7875 kJ": "L'élève n'a pas converti les joules en kilojoules."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.c02",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quelle est la masse d'un objet qui, lancé à 4,0 m/s, possède une énergie cinétique de 12 J ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,5",
+        "unit": "kg"
+      },
+      "solution": "m = 2 × Ec / v². m = 2 × 12 ÷ 4,0² = 24 ÷ 16 = 1,5 kg.",
+      "step_by_step_solution": [
+        "m = 2 × Ec / v².",
+        "m = 2 × 12 ÷ 4,0² = 24 ÷ 16 = 1,5 kg."
+      ],
+      "hints": [
+        "Isole m dans Ec = ½ × m × v²."
+      ],
+      "common_errors": {
+        "6 kg": "L'élève a oublié d'élever la vitesse au carré.",
+        "0,75 kg": "L'élève a oublié le facteur 2."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.c03",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Deux voitures identiques roulent, l'une à 50 km/h, l'autre à 100 km/h. Comparer leurs énergies cinétiques.",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Même masse ; la vitesse est multipliée par 2. L'énergie cinétique est donc multipliée par 2² = 4. La bonne réponse est : « Celle de la voiture à 100 km/h est 4 fois plus grande. »",
+      "step_by_step_solution": [
+        "Même masse ; la vitesse est multipliée par 2.",
+        "L'énergie cinétique est donc multipliée par 2² = 4.",
+        "La bonne réponse est : « Celle de la voiture à 100 km/h est 4 fois plus grande. »"
+      ],
+      "hints": [
+        "Par combien la vitesse est-elle multipliée ?"
+      ],
+      "common_errors": {
+        "1": "L'élève oublie que la vitesse est au carré.",
+        "2": "Les vitesses sont différentes.",
+        "3": "Comparaison inversée."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "choices": [
+        "Celle de la voiture à 100 km/h est 4 fois plus grande.",
+        "Celle de la voiture à 100 km/h est 2 fois plus grande.",
+        "Elles sont égales.",
+        "Celle de la voiture à 50 km/h est 4 fois plus grande."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.c04",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une moto et son pilote (masse totale 200 kg) roulent à 72 km/h. Calculer leur énergie cinétique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "40000",
+        "unit": "J"
+      },
+      "solution": "72 km/h = 72 ÷ 3,6 = 20 m/s. Ec = 0,5 × 200 × 20² = 40000 J.",
+      "step_by_step_solution": [
+        "72 km/h = 72 ÷ 3,6 = 20 m/s.",
+        "Ec = 0,5 × 200 × 20² = 40000 J."
+      ],
+      "hints": [
+        "Convertis d'abord la vitesse."
+      ],
+      "common_errors": {
+        "518400 J": "L'élève n'a pas converti les km/h en m/s.",
+        "80000 J": "L'élève a oublié le facteur ½."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.c05",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Lors du freinage d'un vélo, son énergie cinétique diminue. En quelle forme d'énergie est-elle principalement convertie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les freins frottent sur la roue : ils s'échauffent. L'énergie cinétique est convertie principalement en énergie thermique.",
+      "step_by_step_solution": [
+        "Les freins frottent sur la roue : ils s'échauffent.",
+        "L'énergie cinétique est convertie principalement en énergie thermique."
+      ],
+      "hints": [
+        "Touche des patins de frein après un long freinage : que ressens-tu ?"
+      ],
+      "common_errors": {
+        "1": "Aucune réaction nucléaire n'intervient.",
+        "2": "Les freins n'émettent pas de lumière.",
+        "3": "Aucune réaction chimique n'est en jeu."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "choices": [
+        "énergie thermique.",
+        "énergie nucléaire.",
+        "énergie lumineuse.",
+        "énergie chimique."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.x01",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une voiture de 1 200 kg passe de 50 km/h à 90 km/h. De combien son énergie cinétique a-t-elle augmenté ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,6 × 10^5",
+        "unit": "J",
+        "tolerance_relative": 0.02
+      },
+      "solution": "v1 = 50 ÷ 3,6 ≈ 13,9 m/s ; v2 = 90 ÷ 3,6 = 25 m/s. Ec1 = 0,5 × 1 200 × 13,9² ≈ 1,16 × 10^5 J ; Ec2 = 0,5 × 1 200 × 25² = 3,75 × 10^5 J. Augmentation : Ec2 − Ec1 ≈ 2,6 × 10^5 J.",
+      "step_by_step_solution": [
+        "v1 = 50 ÷ 3,6 ≈ 13,9 m/s ; v2 = 90 ÷ 3,6 = 25 m/s.",
+        "Ec1 = 0,5 × 1 200 × 13,9² ≈ 1,16 × 10^5 J ; Ec2 = 0,5 × 1 200 × 25² = 3,75 × 10^5 J.",
+        "Augmentation : Ec2 − Ec1 ≈ 2,6 × 10^5 J."
+      ],
+      "hints": [
+        "Calcule séparément les deux énergies cinétiques.",
+        "On ne peut pas utiliser directement la différence des vitesses."
+      ],
+      "common_errors": {
+        "74074 J": "L'élève a calculé ½ × m × (v2 − v1)² au lieu de la différence des énergies."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.x02",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Sur route sèche, une voiture roulant à 50 km/h s'arrête après 14 m de freinage. On admet que la distance de freinage est proportionnelle à l'énergie cinétique. Quelle serait cette distance à 100 km/h ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "56",
+        "unit": "m"
+      },
+      "solution": "La vitesse est multipliée par 2, donc Ec est multipliée par 4. Distance de freinage : 14 × 4 = 56 m.",
+      "step_by_step_solution": [
+        "La vitesse est multipliée par 2, donc Ec est multipliée par 4.",
+        "Distance de freinage : 14 × 4 = 56 m."
+      ],
+      "hints": [
+        "Par combien l'énergie cinétique est-elle multipliée ?"
+      ],
+      "common_errors": {
+        "28 m": "L'élève a considéré la distance proportionnelle à la vitesse."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.energie-cinetique.x03",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une balle de 0,50 kg atteint le sol avec une énergie cinétique de 10 J. Quelle est sa vitesse (arrondie au dixième) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "6,3",
+        "unit": "m/s"
+      },
+      "solution": "v² = 2 × Ec / m = 2 × 10 ÷ 0,50 = 40. v = √40 ≈ 6,32, soit 6,3 m/s.",
+      "step_by_step_solution": [
+        "v² = 2 × Ec / m = 2 × 10 ÷ 0,50 = 40.",
+        "v = √40 ≈ 6,32, soit 6,3 m/s."
+      ],
+      "hints": [
+        "Isole v² dans Ec = ½ × m × v².",
+        "Termine par une racine carrée."
+      ],
+      "common_errors": {
+        "40 m/s": "L'élève a oublié la racine carrée.",
+        "4,5 m/s": "L'élève a oublié le facteur 2."
+      },
+      "remediation": "L'énergie cinétique d'un objet de masse m (en kg) qui se déplace à la vitesse v (en m/s) vaut Ec = ½ × m × v², en joules (J). Convertir d'abord : g → kg (÷ 1 000), km/h → m/s (÷ 3,6). Attention : seule la vitesse est au carré. Si la vitesse double, l'énergie cinétique est multipliée par 4. L'énergie cinétique est une forme d'énergie parmi d'autres (potentielle, thermique, électrique, chimique, nucléaire, lumineuse).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation Ec = ½ × m × v²",
+        "Convertir une vitesse en m/s et une masse en kg",
+        "Identifier des formes d'énergie"
+      ],
+      "source_notions": [
+        "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.d01",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer le poids sur Terre d'un sac de masse 5,0 kg. On donne g = 9,8 N/kg.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "49",
+        "unit": "N"
+      },
+      "solution": "P = m × g. P = 5,0 kg × 9,8 N/kg = 49 N.",
+      "step_by_step_solution": [
+        "P = m × g.",
+        "P = 5,0 kg × 9,8 N/kg = 49 N."
+      ],
+      "hints": [
+        "Multiplie la masse par l'intensité de la pesanteur."
+      ],
+      "common_errors": {
+        "5 N": "L'élève confond masse et poids.",
+        "0,51 N": "L'élève a divisé la masse par g."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.d02",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "En quelle unité s'exprime le poids d'un objet ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le poids est une force. Une force s'exprime en newtons : Le newton (N)",
+      "step_by_step_solution": [
+        "Le poids est une force.",
+        "Une force s'exprime en newtons : Le newton (N)"
+      ],
+      "hints": [
+        "Le poids est-il une masse ou une force ?"
+      ],
+      "common_errors": {
+        "1": "Le kilogramme est l'unité de masse.",
+        "2": "Le joule est l'unité d'énergie.",
+        "3": "C'est l'unité de g."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "choices": [
+        "Le newton (N)",
+        "Le kilogramme (kg)",
+        "Le joule (J)",
+        "Le newton par kilogramme (N/kg)"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.d03",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelles sont la direction et le sens du poids d'un objet sur Terre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le poids est dirigé vers le centre de la Terre. Il est donc vertical et orienté vers le bas : vertical, vers le bas",
+      "step_by_step_solution": [
+        "Le poids est dirigé vers le centre de la Terre.",
+        "Il est donc vertical et orienté vers le bas : vertical, vers le bas"
+      ],
+      "hints": [
+        "Dans quel sens tombe un objet qu'on lâche ?"
+      ],
+      "common_errors": {
+        "1": "Sens inversé.",
+        "2": "Le poids n'est pas horizontal.",
+        "3": "Le poids ne dépend pas du mouvement."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "choices": [
+        "vertical, vers le bas",
+        "vertical, vers le haut",
+        "horizontal",
+        "dépendant du mouvement de l'objet"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.d04",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un astronaute a une masse de 80 kg sur Terre. Quelle est sa masse sur la Lune ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "80",
+        "unit": "kg"
+      },
+      "solution": "La masse est la quantité de matière : elle ne dépend pas du lieu. Sur la Lune, sa masse vaut toujours 80 kg.",
+      "step_by_step_solution": [
+        "La masse est la quantité de matière : elle ne dépend pas du lieu.",
+        "Sur la Lune, sa masse vaut toujours 80 kg."
+      ],
+      "hints": [
+        "La quantité de matière de l'astronaute change-t-elle pendant le voyage ?"
+      ],
+      "common_errors": {
+        "13,3 kg": "L'élève pense que la masse est divisée par 6 sur la Lune (c'est le poids qui l'est à peu près).",
+        "128 N": "L'élève a calculé un poids au lieu d'une masse."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.d05",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Sur la Lune, g = 1,6 N/kg. Calculer le poids d'un rocher de 10 kg sur la Lune.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "16",
+        "unit": "N"
+      },
+      "solution": "P = m × g. P = 10 × 1,6 = 16 N.",
+      "step_by_step_solution": [
+        "P = m × g.",
+        "P = 10 × 1,6 = 16 N."
+      ],
+      "hints": [
+        "Utilise la valeur de g sur la Lune."
+      ],
+      "common_errors": {
+        "98 N": "L'élève a utilisé g terrestre.",
+        "6,25 N": "L'élève a divisé m par g."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.a01",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer le poids d'une pomme de 150 g sur Terre. On donne g = 9,8 N/kg.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,47",
+        "unit": "N"
+      },
+      "solution": "On convertit : 150 g = 0,150 kg. P = 0,150 × 9,8 = 1,47 N.",
+      "step_by_step_solution": [
+        "On convertit : 150 g = 0,150 kg.",
+        "P = 0,150 × 9,8 = 1,47 N."
+      ],
+      "hints": [
+        "La masse doit être en kilogrammes."
+      ],
+      "common_errors": {
+        "1470 N": "L'élève n'a pas converti les grammes en kilogrammes."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.a02",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le poids d'un objet sur Terre vaut 294 N. Quelle est sa masse ? On donne g = 9,8 N/kg.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "30",
+        "unit": "kg"
+      },
+      "solution": "m = P / g. m = 294 ÷ 9,8 = 30 kg.",
+      "step_by_step_solution": [
+        "m = P / g.",
+        "m = 294 ÷ 9,8 = 30 kg."
+      ],
+      "hints": [
+        "Isole m dans P = m × g."
+      ],
+      "common_errors": {
+        "2881,2 kg": "L'élève a multiplié au lieu de diviser."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.a03",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Sur Mars, un robot de 900 kg a un poids de 3 330 N. Calculer l'intensité de la pesanteur sur Mars.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,7",
+        "unit": "N/kg"
+      },
+      "solution": "g = P / m. g = 3 330 ÷ 900 = 3,7 N/kg.",
+      "step_by_step_solution": [
+        "g = P / m.",
+        "g = 3 330 ÷ 900 = 3,7 N/kg."
+      ],
+      "hints": [
+        "Isole g dans P = m × g."
+      ],
+      "common_errors": {
+        "0,27 N/kg": "L'élève a divisé la masse par le poids."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.a04",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer le poids sur Terre d'un élève de 45 kg. On donne g = 9,8 N/kg.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "441",
+        "unit": "N"
+      },
+      "solution": "P = m × g. P = 45 × 9,8 = 441 N.",
+      "step_by_step_solution": [
+        "P = m × g.",
+        "P = 45 × 9,8 = 441 N."
+      ],
+      "hints": [
+        "Multiplie la masse par g."
+      ],
+      "common_errors": {
+        "45 N": "L'élève confond masse et poids."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.a05",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Un objet est transporté de la Terre à la Lune. Que deviennent sa masse et son poids ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La masse ne dépend pas du lieu. Le poids dépend de g, plus faible sur la Lune. La bonne réponse est : « Sa masse est inchangée, son poids diminue. »",
+      "step_by_step_solution": [
+        "La masse ne dépend pas du lieu.",
+        "Le poids dépend de g, plus faible sur la Lune.",
+        "La bonne réponse est : « Sa masse est inchangée, son poids diminue. »"
+      ],
+      "hints": [
+        "Quelle grandeur dépend de l'astre : la masse ou le poids ?"
+      ],
+      "common_errors": {
+        "1": "La masse ne change pas.",
+        "2": "Inversion masse / poids.",
+        "3": "g est différent sur la Lune."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "choices": [
+        "Sa masse est inchangée, son poids diminue.",
+        "Sa masse et son poids diminuent.",
+        "Sa masse diminue, son poids est inchangé.",
+        "Sa masse et son poids sont inchangés."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.c01",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un objet a un poids de 49 N sur Terre (g = 9,8 N/kg). Quel est son poids sur la Lune (g = 1,6 N/kg) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "8",
+        "unit": "N"
+      },
+      "solution": "Masse de l'objet : m = 49 ÷ 9,8 = 5,0 kg. Poids sur la Lune : P = 5,0 × 1,6 = 8 N.",
+      "step_by_step_solution": [
+        "Masse de l'objet : m = 49 ÷ 9,8 = 5,0 kg.",
+        "Poids sur la Lune : P = 5,0 × 1,6 = 8 N."
+      ],
+      "hints": [
+        "Calcule d'abord la masse, qui ne change pas."
+      ],
+      "common_errors": {
+        "78,4 N": "L'élève a multiplié le poids terrestre par g lunaire."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.c02",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un dynamomètre indique 24,5 N pour un objet suspendu (g = 9,8 N/kg). Quelle est la masse de l'objet en g ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2500",
+        "unit": "g"
+      },
+      "solution": "m = P / g = 24,5 ÷ 9,8 = 2,5 kg. 2,5 kg = 2500 g.",
+      "step_by_step_solution": [
+        "m = P / g = 24,5 ÷ 9,8 = 2,5 kg.",
+        "2,5 kg = 2500 g."
+      ],
+      "hints": [
+        "Calcule m en kg puis convertis."
+      ],
+      "common_errors": {
+        "2,5 g": "L'élève n'a pas converti les kilogrammes en grammes."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.c03",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un élève dit : « Je pèse 50 kilos. » Comment corriger sa phrase en physique (g = 9,8 N/kg) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le kilogramme est l'unité de masse. Son poids se calcule : P = 50 × 9,8 = 490 N. La bonne réponse est : « Sa masse est de 50 kg ; son poids vaut environ 490 N. »",
+      "step_by_step_solution": [
+        "Le kilogramme est l'unité de masse.",
+        "Son poids se calcule : P = 50 × 9,8 = 490 N.",
+        "La bonne réponse est : « Sa masse est de 50 kg ; son poids vaut environ 490 N. »"
+      ],
+      "hints": [
+        "En quelle unité s'exprime une masse ? Et un poids ?"
+      ],
+      "common_errors": {
+        "1": "Un poids ne s'exprime pas en kg.",
+        "2": "Une masse ne s'exprime pas en N.",
+        "3": "La masse ne change pas."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "choices": [
+        "Sa masse est de 50 kg ; son poids vaut environ 490 N.",
+        "Son poids est de 50 kg.",
+        "Sa masse est de 490 N.",
+        "Sa masse est de 490 kg."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.c04",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un objet a un poids de 98 N sur Terre (g = 9,8 N/kg). Sur Jupiter, g = 24,8 N/kg. Quel serait son poids sur Jupiter ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "248",
+        "unit": "N"
+      },
+      "solution": "m = 98 ÷ 9,8 = 10 kg. Sur Jupiter : P = 10 × 24,8 = 248 N.",
+      "step_by_step_solution": [
+        "m = 98 ÷ 9,8 = 10 kg.",
+        "Sur Jupiter : P = 10 × 24,8 = 248 N."
+      ],
+      "hints": [
+        "La masse est la même partout."
+      ],
+      "common_errors": {
+        "2430,4 N": "L'élève a multiplié le poids terrestre par g de Jupiter."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.c05",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On représente le poids d'un objet de 2,0 kg (g = 9,8 N/kg) par une flèche, avec l'échelle 1 cm pour 5 N. Quelle longueur doit avoir la flèche ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,9",
+        "unit": "cm",
+        "tolerance_relative": 0.02
+      },
+      "solution": "P = 2,0 × 9,8 = 19,6 N. Longueur : 19,6 ÷ 5 ≈ 3,9 cm.",
+      "step_by_step_solution": [
+        "P = 2,0 × 9,8 = 19,6 N.",
+        "Longueur : 19,6 ÷ 5 ≈ 3,9 cm."
+      ],
+      "hints": [
+        "Calcule d'abord la valeur du poids.",
+        "Combien de fois 5 N y a-t-il dans le poids ?"
+      ],
+      "common_errors": {
+        "0,4 cm": "L'élève a divisé la masse par 5 au lieu du poids."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.x01",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Le câble d'une grue supporte au maximum une force de 5 000 N. Quelle masse maximale peut-elle soulever sur Terre (g = 9,8 N/kg), arrondie au kilogramme près ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "510",
+        "unit": "kg"
+      },
+      "solution": "Le câble doit supporter le poids de la charge : P = m × g ≤ 5 000 N. m ≤ 5 000 ÷ 9,8 ≈ 510,2, soit 510 kg.",
+      "step_by_step_solution": [
+        "Le câble doit supporter le poids de la charge : P = m × g ≤ 5 000 N.",
+        "m ≤ 5 000 ÷ 9,8 ≈ 510,2, soit 510 kg."
+      ],
+      "hints": [
+        "À quelle force correspond le poids maximal ?",
+        "Isole m dans P = m × g."
+      ],
+      "common_errors": {
+        "49000 kg": "L'élève a multiplié au lieu de diviser."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.x02",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un astronaute et son équipement ont un poids de 1 960 N sur Terre (g = 9,8 N/kg). Sur la Lune, g = 1,6 N/kg. Quel est leur poids sur la Lune ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "320",
+        "unit": "N"
+      },
+      "solution": "Masse : m = 1 960 ÷ 9,8 = 200 kg. Poids lunaire : P = 200 × 1,6 = 320 N.",
+      "step_by_step_solution": [
+        "Masse : m = 1 960 ÷ 9,8 = 200 kg.",
+        "Poids lunaire : P = 200 × 1,6 = 320 N."
+      ],
+      "hints": [
+        "La masse ne change pas entre la Terre et la Lune."
+      ],
+      "common_errors": {
+        "3136 N": "L'élève a multiplié le poids terrestre par g lunaire.",
+        "200 kg": "L'élève a donné la masse au lieu du poids."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.poids.x03",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Mesures de la masse m et du poids P de trois objets : m = 0,10 kg et P = 0,98 N ; m = 0,20 kg et P = 1,96 N ; m = 0,50 kg et P = 4,90 N. Déterminer l'intensité de la pesanteur g du lieu.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9,8",
+        "unit": "N/kg"
+      },
+      "solution": "Le quotient P / m est le même pour chaque mesure. g = 0,98 ÷ 0,10 = 9,8 N/kg.",
+      "step_by_step_solution": [
+        "Le quotient P / m est le même pour chaque mesure.",
+        "g = 0,98 ÷ 0,10 = 9,8 N/kg."
+      ],
+      "hints": [
+        "Calcule P / m pour une des mesures."
+      ],
+      "common_errors": {
+        "0,1 N/kg": "L'élève a calculé m / P."
+      },
+      "remediation": "Le poids P d'un objet est la force d'attraction exercée par un astre (la Terre, la Lune…) sur cet objet. Il se calcule par P = m × g, avec P en newtons (N), m en kilogrammes (kg) et g, l'intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg sur Terre, 1,6 N/kg sur la Lune). La masse ne dépend pas du lieu ; le poids en dépend. Le poids est vertical et orienté vers le bas (vers le centre de l'astre).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation P = m × g",
+        "Distinguer masse et poids",
+        "Caractériser le poids d'un objet"
+      ],
+      "source_notions": [
+        "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.d01",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on les particules chargées négativement qui se déplacent autour du noyau d'un atome ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "électrons",
+          "électron",
+          "les électrons"
+        ]
+      },
+      "solution": "Autour du noyau se déplacent des particules chargées négativement. Ce sont les électrons.",
+      "step_by_step_solution": [
+        "Autour du noyau se déplacent des particules chargées négativement.",
+        "Ce sont les électrons."
+      ],
+      "hints": [
+        "Leur nom commence par « élec »."
+      ],
+      "common_errors": {
+        "protons": "Les protons sont dans le noyau et chargés positivement.",
+        "neutrons": "Les neutrons sont dans le noyau et neutres."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.d02",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "De quoi le noyau d'un atome est-il constitué ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le noyau contient les nucléons. Les nucléons sont les protons et les neutrons : De protons et de neutrons",
+      "step_by_step_solution": [
+        "Le noyau contient les nucléons.",
+        "Les nucléons sont les protons et les neutrons : De protons et de neutrons"
+      ],
+      "hints": [
+        "Les électrons sont-ils dans le noyau ?"
+      ],
+      "common_errors": {
+        "1": "Les électrons ne sont pas dans le noyau.",
+        "2": "Les électrons sont autour du noyau.",
+        "3": "Les molécules sont faites d'atomes."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "choices": [
+        "De protons et de neutrons",
+        "D'électrons et de protons",
+        "D'électrons seulement",
+        "De molécules"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.d03",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le noyau d'un atome de carbone contient 6 protons. Combien d'électrons cet atome possède-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "Un atome est électriquement neutre. Il a autant d'électrons que de protons : 6 électrons.",
+      "step_by_step_solution": [
+        "Un atome est électriquement neutre.",
+        "Il a autant d'électrons que de protons : 6 électrons."
+      ],
+      "hints": [
+        "Un atome porte-t-il une charge électrique globale ?"
+      ],
+      "common_errors": {
+        "12": "L'élève a ajouté protons et neutrons.",
+        "0": "L'élève pense que les électrons sont comptés dans le noyau."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.d04",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel nom commun désigne à la fois les protons et les neutrons du noyau ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "nucléons",
+          "nucléon",
+          "les nucléons"
+        ]
+      },
+      "solution": "Protons et neutrons sont les particules du noyau. On les appelle les nucléons.",
+      "step_by_step_solution": [
+        "Protons et neutrons sont les particules du noyau.",
+        "On les appelle les nucléons."
+      ],
+      "hints": [
+        "Le mot est formé à partir de « noyau » en latin (nucleus)."
+      ],
+      "common_errors": {
+        "électrons": "Les électrons ne sont pas dans le noyau."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.d05",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle est la charge électrique d'un neutron ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le neutron est une particule électriquement neutre. Sa charge est : Nulle",
+      "step_by_step_solution": [
+        "Le neutron est une particule électriquement neutre.",
+        "Sa charge est : Nulle"
+      ],
+      "hints": [
+        "Son nom donne un indice."
+      ],
+      "common_errors": {
+        "1": "C'est la charge du proton.",
+        "2": "C'est la charge de l'électron."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "choices": [
+        "Nulle",
+        "Positive",
+        "Négative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.a01",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le noyau d'un atome de sodium contient 11 protons et 12 neutrons. Combien de nucléons contient-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "23"
+      },
+      "solution": "Nucléons = protons + neutrons. Nucléons = 11 + 12 = 23.",
+      "step_by_step_solution": [
+        "Nucléons = protons + neutrons.",
+        "Nucléons = 11 + 12 = 23."
+      ],
+      "hints": [
+        "Quelles particules sont des nucléons ?"
+      ],
+      "common_errors": {
+        "12": "L'élève n'a compté que les neutrons.",
+        "34": "L'élève a aussi compté les électrons."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.a02",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le noyau d'un atome d'aluminium contient 27 nucléons, dont 13 protons. Combien de neutrons contient-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "14"
+      },
+      "solution": "Neutrons = nucléons − protons. Neutrons = 27 − 13 = 14.",
+      "step_by_step_solution": [
+        "Neutrons = nucléons − protons.",
+        "Neutrons = 27 − 13 = 14."
+      ],
+      "hints": [
+        "Les nucléons sont les protons plus les neutrons."
+      ],
+      "common_errors": {
+        "40": "L'élève a additionné au lieu de soustraire.",
+        "27": "L'élève a confondu nucléons et neutrons."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.a03",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un atome possède 17 électrons et son noyau contient 18 neutrons. Combien de nucléons son noyau contient-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "35"
+      },
+      "solution": "L'atome est neutre : il a 17 protons. Nucléons = 17 + 18 = 35.",
+      "step_by_step_solution": [
+        "L'atome est neutre : il a 17 protons.",
+        "Nucléons = 17 + 18 = 35."
+      ],
+      "hints": [
+        "Combien de protons possède cet atome ?"
+      ],
+      "common_errors": {
+        "18": "L'élève n'a compté que les neutrons.",
+        "52": "L'élève a compté électrons, protons et neutrons."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.a04",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi un atome est-il électriquement neutre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Chaque proton porte une charge positive, chaque électron une charge négative opposée. La bonne réponse est : « Il contient autant d'électrons que de protons. »",
+      "step_by_step_solution": [
+        "Chaque proton porte une charge positive, chaque électron une charge négative opposée.",
+        "La bonne réponse est : « Il contient autant d'électrons que de protons. »"
+      ],
+      "hints": [
+        "Quelles particules portent des charges opposées ?"
+      ],
+      "common_errors": {
+        "1": "Les neutrons ne sont pas chargés.",
+        "2": "Les électrons sont chargés négativement.",
+        "3": "Le noyau est chargé positivement."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "choices": [
+        "Il contient autant d'électrons que de protons.",
+        "Il contient autant de neutrons que de protons.",
+        "Ses électrons ne sont pas chargés.",
+        "Son noyau n'est pas chargé."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.a05",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Le numéro atomique d'un élément chimique est égal au nombre de :",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le numéro atomique Z caractérise l'élément. Il est égal au nombre de protons du noyau.",
+      "step_by_step_solution": [
+        "Le numéro atomique Z caractérise l'élément.",
+        "Il est égal au nombre de protons du noyau."
+      ],
+      "hints": [
+        "Quelle particule définit l'identité de l'élément ?"
+      ],
+      "common_errors": {
+        "1": "Le nombre de neutrons peut varier pour un même élément.",
+        "2": "C'est le nombre de nucléons.",
+        "3": "Confusion atome / particule."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "choices": [
+        "protons du noyau.",
+        "neutrons du noyau.",
+        "nucléons du noyau.",
+        "atomes de l'élément."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.c01",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le noyau d'un atome de fer contient 56 nucléons, dont 30 neutrons. Combien d'électrons possède cet atome ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "26"
+      },
+      "solution": "Protons = nucléons − neutrons = 56 − 30 = 26. L'atome est neutre : électrons = protons = 26.",
+      "step_by_step_solution": [
+        "Protons = nucléons − neutrons = 56 − 30 = 26.",
+        "L'atome est neutre : électrons = protons = 26."
+      ],
+      "hints": [
+        "Calcule d'abord le nombre de protons."
+      ],
+      "common_errors": {
+        "30": "L'élève a confondu électrons et neutrons.",
+        "56": "L'élève a confondu électrons et nucléons."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.c02",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Deux atomes ont chacun 17 protons ; l'un a 18 neutrons, l'autre 20. Que peut-on dire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'élément chimique est défini par le nombre de protons. Même nombre de protons : même élément. La bonne réponse est : « Ils appartiennent au même élément chimique. »",
+      "step_by_step_solution": [
+        "L'élément chimique est défini par le nombre de protons.",
+        "Même nombre de protons : même élément.",
+        "La bonne réponse est : « Ils appartiennent au même élément chimique. »"
+      ],
+      "hints": [
+        "Qu'est-ce qui caractérise un élément chimique ?"
+      ],
+      "common_errors": {
+        "1": "Le nombre de neutrons ne définit pas l'élément.",
+        "2": "Un atome n'est pas un ion.",
+        "3": "Même nombre de protons, donc même nombre d'électrons."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "choices": [
+        "Ils appartiennent au même élément chimique.",
+        "Ce sont deux éléments différents.",
+        "L'un des deux est un ion.",
+        "Ils ont des nombres d'électrons différents."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.c03",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un atome possède 20 électrons et son noyau contient 40 nucléons. Combien de neutrons contient son noyau ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "20"
+      },
+      "solution": "Protons = électrons = 20 (atome neutre). Neutrons = 40 − 20 = 20.",
+      "step_by_step_solution": [
+        "Protons = électrons = 20 (atome neutre).",
+        "Neutrons = 40 − 20 = 20."
+      ],
+      "hints": [
+        "Combien de protons a cet atome ?"
+      ],
+      "common_errors": {
+        "40": "L'élève a confondu neutrons et nucléons.",
+        "60": "L'élève a additionné."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.c04",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Où se trouve presque toute la masse d'un atome ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Protons et neutrons ont des masses voisines, environ 2 000 fois plus grandes que celle d'un électron. La masse de l'atome est donc concentrée dans le noyau.",
+      "step_by_step_solution": [
+        "Protons et neutrons ont des masses voisines, environ 2 000 fois plus grandes que celle d'un électron.",
+        "La masse de l'atome est donc concentrée dans le noyau."
+      ],
+      "hints": [
+        "Compare la masse d'un électron à celle d'un nucléon."
+      ],
+      "common_errors": {
+        "1": "Les électrons sont très légers.",
+        "2": "Le vide n'a pas de masse.",
+        "3": "Le noyau est beaucoup plus massif."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "choices": [
+        "dans le noyau.",
+        "dans les électrons.",
+        "dans le vide entre le noyau et les électrons.",
+        "également entre le noyau et les électrons."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.c05",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le noyau d'un atome de cuivre contient 29 protons et 34 neutrons. Combien de particules (protons, neutrons et électrons) cet atome contient-il au total ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "92"
+      },
+      "solution": "L'atome est neutre : il a 29 électrons. Total : 29 + 34 + 29 = 92 particules.",
+      "step_by_step_solution": [
+        "L'atome est neutre : il a 29 électrons.",
+        "Total : 29 + 34 + 29 = 92 particules."
+      ],
+      "hints": [
+        "N'oublie pas les électrons."
+      ],
+      "common_errors": {
+        "63": "L'élève a oublié les électrons."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.x01",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Le noyau d'un atome d'uranium contient 238 nucléons, dont 92 protons. Combien de neutrons contient-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "146"
+      },
+      "solution": "Neutrons = nucléons − protons. Neutrons = 238 − 92 = 146.",
+      "step_by_step_solution": [
+        "Neutrons = nucléons − protons.",
+        "Neutrons = 238 − 92 = 146."
+      ],
+      "hints": [
+        "Soustrais le nombre de protons."
+      ],
+      "common_errors": {
+        "330": "L'élève a additionné.",
+        "92": "L'élève a confondu neutrons et protons."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.x02",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un atome d'hydrogène a un diamètre d'environ 10^-10 m ; son noyau a un diamètre d'environ 10^-15 m. Combien de fois le diamètre de l'atome est-il plus grand que celui de son noyau ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "100000"
+      },
+      "solution": "Rapport : 10^-10 ÷ 10^-15 = 10^(−10 + 15) = 10^5. Le diamètre de l'atome est 100000 fois plus grand.",
+      "step_by_step_solution": [
+        "Rapport : 10^-10 ÷ 10^-15 = 10^(−10 + 15) = 10^5.",
+        "Le diamètre de l'atome est 100000 fois plus grand."
+      ],
+      "hints": [
+        "Divise le diamètre de l'atome par celui du noyau.",
+        "Pour diviser deux puissances de 10, on soustrait les exposants."
+      ],
+      "common_errors": {
+        "10^-5": "L'élève a divisé dans le mauvais sens.",
+        "10^-25": "L'élève a additionné les exposants."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.3E.atome.x03",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "On compare un atome de lithium (3 protons, 4 neutrons) et un atome de béryllium (4 protons, 5 neutrons). Quelle affirmation est exacte ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Chaque atome a autant d'électrons que de protons : 3 pour le lithium, 4 pour le béryllium. La bonne réponse est : « Le béryllium a un électron de plus que le lithium. »",
+      "step_by_step_solution": [
+        "Chaque atome a autant d'électrons que de protons : 3 pour le lithium, 4 pour le béryllium.",
+        "La bonne réponse est : « Le béryllium a un électron de plus que le lithium. »"
+      ],
+      "hints": [
+        "Combien d'électrons possède chaque atome ?",
+        "Calcule le nombre de nucléons de chacun."
+      ],
+      "common_errors": {
+        "1": "Les nombres de protons diffèrent, donc aussi ceux d'électrons.",
+        "2": "Lithium : 7 nucléons ; béryllium : 9.",
+        "3": "Nombres de protons différents : éléments différents."
+      },
+      "remediation": "Un atome est constitué d'un noyau central, très petit, et d'électrons en mouvement autour de ce noyau. Le noyau contient des nucléons : des protons (chargés positivement) et des neutrons (électriquement neutres). Le nombre de protons (numéro atomique Z) caractérise l'élément chimique. Un atome est électriquement neutre : il a autant d'électrons que de protons. Nombre de neutrons = nombre de nucléons − nombre de protons. Presque toute la masse de l'atome est dans son noyau.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Décrire la constitution d'un atome",
+        "Dénombrer protons, neutrons et électrons"
+      ],
+      "source_notions": [
+        "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p"
+      ],
+      "choices": [
+        "Le béryllium a un électron de plus que le lithium.",
+        "Ils ont le même nombre d'électrons.",
+        "Le lithium a plus de nucléons que le béryllium.",
+        "Ils appartiennent au même élément chimique."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

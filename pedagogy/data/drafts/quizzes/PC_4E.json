@@ -1,0 +1,793 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q01",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "La masse volumique ρ d'un échantillon de masse m et de volume V se calcule par :",
+      "choices": [
+        "ρ = m / V",
+        "ρ = V / m",
+        "ρ = m × V",
+        "ρ = m + V"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ρ = m / V",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La masse volumique est la masse par unité de volume : on divise la masse par le volume.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Quotient inversé.",
+        "2": "Produit au lieu d'un quotient.",
+        "3": "Somme sans signification."
+      },
+      "common_error_target": {
+        "1": "quotient inversé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q02",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "La masse volumique de l'eau liquide vaut environ :",
+      "choices": [
+        "1,0 g/mL",
+        "1,0 kg/mL",
+        "10 g/mL",
+        "0,1 g/mL"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,0 g/mL",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 mL d'eau a une masse d'environ 1 g : ρ(eau) ≈ 1,0 g/mL, soit 1 000 kg/m³.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "1 kg pour 1 mL : mille fois trop.",
+        "2": "Dix fois trop.",
+        "3": "Dix fois trop peu."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q03",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Un volume de 1 mL correspond à :",
+      "choices": [
+        "1 cm³",
+        "1 dm³",
+        "1 m³",
+        "10 cm³"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1 cm³",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 L = 1 dm³ = 1 000 cm³, donc 1 mL = 1 cm³.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "1 dm³ = 1 L.",
+        "2": "1 m³ = 1 000 L.",
+        "3": "Erreur de facteur 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q04",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Un échantillon de 10 cm³ a une masse de 27 g. Sa masse volumique vaut :",
+      "choices": [
+        "2,7 g/cm³",
+        "0,37 g/cm³",
+        "270 g/cm³",
+        "37 g/cm³"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2,7 g/cm³",
+      "answer_kind": "QUANTITY",
+      "explanation": "ρ = m / V = 27 g ÷ 10 cm³ = 2,7 g/cm³.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Volume divisé par la masse.",
+        "2": "Produit au lieu d'un quotient.",
+        "3": "Somme des deux nombres."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q05",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Un liquide a une masse volumique de 0,79 g/mL. La masse de 100 mL de ce liquide vaut :",
+      "choices": [
+        "79 g",
+        "127 g",
+        "0,79 g",
+        "790 g"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "79 g",
+      "answer_kind": "QUANTITY",
+      "explanation": "m = ρ × V = 0,79 g/mL × 100 mL = 79 g.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Volume divisé par la masse volumique.",
+        "2": "Masse de 1 mL seulement.",
+        "3": "Erreur de facteur 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q06",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une masse volumique de 1,0 g/cm³ correspond à :",
+      "choices": [
+        "1000 kg/m³",
+        "1,0 kg/m³",
+        "100 kg/m³",
+        "10 kg/m³"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1000 kg/m³",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 g = 10⁻³ kg et 1 cm³ = 10⁻⁶ m³ : 1 g/cm³ = 10⁻³ ÷ 10⁻⁶ = 1 000 kg/m³.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Oubli de la conversion.",
+        "2": "Mauvaise conversion des volumes.",
+        "3": "Mauvaise conversion des volumes."
+      },
+      "common_error_target": {
+        "1": "oubli de conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q07",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Un solide plein de masse volumique 0,50 g/cm³ est posé sur l'eau. Il :",
+      "choices": [
+        "flotte",
+        "coule",
+        "se dissout"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "flotte",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un objet plein moins dense que l'eau (1,0 g/cm³) flotte.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Il faudrait une masse volumique supérieure à celle de l'eau.",
+        "2": "La masse volumique ne renseigne pas sur la dissolution."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q08",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Deux cubes pleins de même volume : l'un en aluminium (2,7 g/cm³), l'autre en fer (7,9 g/cm³). Le plus lourd est :",
+      "choices": [
+        "le cube en fer",
+        "le cube en aluminium",
+        "ils ont la même masse"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le cube en fer",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "À volume égal, m = ρ × V est la plus grande pour la plus grande masse volumique : le fer.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Masse volumique plus faible, donc masse plus faible.",
+        "2": "Même volume ne signifie pas même masse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q09",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "On mesure ρ = 1,26 g/mL pour un liquide. D'après le tableau (eau 1,00 g/mL ; éthanol 0,79 g/mL ; glycérol 1,26 g/mL), ce liquide est :",
+      "choices": [
+        "le glycérol",
+        "l'eau",
+        "l'éthanol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0",
+      "answer_kind": "CHOICE",
+      "explanation": "La valeur mesurée coïncide avec celle du glycérol dans le tableau de référence.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'eau a une masse volumique de 1,00 g/mL.",
+        "2": "L'éthanol a une masse volumique de 0,79 g/mL."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.masse-volumique.q10",
+      "notion_id": "PC.4E.MAT.exploiter-des-mesures-de-masse-volumique-pour-differencier-des-especes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une éprouvette contient 40,0 mL d'eau. Un objet de 26,0 g y est immergé ; le niveau monte à 50,0 mL. La masse volumique de l'objet vaut :",
+      "choices": [
+        "2,6 g/mL",
+        "0,52 g/mL",
+        "0,65 g/mL",
+        "26 g/mL"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2,6 g/mL",
+      "answer_kind": "QUANTITY",
+      "explanation": "Volume de l'objet : 50,0 − 40,0 = 10,0 mL ; ρ = 26,0 ÷ 10,0 = 2,6 g/mL.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Division par le volume final.",
+        "2": "Division par le volume initial.",
+        "3": "Division par 1 mL."
+      },
+      "common_error_target": {
+        "1": "volume final au lieu du volume déplacé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q01",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Un objet parcourt 100 m en 20 s d'un mouvement uniforme. Sa vitesse est :",
+      "choices": [
+        "5 m/s",
+        "2000 m/s",
+        "0,2 m/s",
+        "120 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "v = d / t = 100 m ÷ 20 s = 5 m/s.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Produit au lieu du quotient.",
+        "2": "Quotient inversé.",
+        "3": "Somme."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q02",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Pour calculer une distance d à partir de la vitesse v et de la durée t :",
+      "choices": [
+        "d = v × t",
+        "d = v / t",
+        "d = t / v",
+        "d = v + t"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "d = v × t",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "De v = d / t, on tire d = v × t.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est une vitesse divisée par une durée.",
+        "2": "Relation inversée.",
+        "3": "Somme sans signification."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q03",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une durée de 1 h correspond à :",
+      "choices": [
+        "3600 s",
+        "60 s",
+        "100 s",
+        "360 s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3600 s",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 h = 60 min et 1 min = 60 s, donc 1 h = 60 × 60 = 3 600 s.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est une minute.",
+        "2": "L'heure n'est pas décimale.",
+        "3": "Erreur de facteur 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q04",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une vitesse de 36 km/h correspond à :",
+      "choices": [
+        "10 m/s",
+        "129,6 m/s",
+        "36 m/s",
+        "3,6 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "Pour passer des km/h aux m/s, on divise par 3,6 : 36 ÷ 3,6 = 10 m/s.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Multiplication par 3,6 au lieu de division.",
+        "2": "Pas de conversion.",
+        "3": "Division par 10."
+      },
+      "common_error_target": {
+        "1": "sens de la conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q05",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Un train roule à 150 km/h pendant 2 h. Il parcourt :",
+      "choices": [
+        "300 km",
+        "75 km",
+        "152 km",
+        "30 km"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "300 km",
+      "answer_kind": "QUANTITY",
+      "explanation": "d = v × t = 150 km/h × 2 h = 300 km.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Division au lieu de multiplication.",
+        "2": "Somme.",
+        "3": "Erreur de calcul."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q06",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Pour parcourir 1,2 km à la vitesse constante de 4 m/s, il faut :",
+      "choices": [
+        "300 s",
+        "0,3 s",
+        "4,8 s",
+        "3 s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "300 s",
+      "answer_kind": "QUANTITY",
+      "explanation": "1,2 km = 1 200 m ; t = d / v = 1 200 ÷ 4 = 300 s.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La distance n'a pas été convertie en mètres.",
+        "2": "Produit au lieu du quotient.",
+        "3": "Erreur de conversion."
+      },
+      "common_error_target": {
+        "1": "oubli de conversion km → m"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q07",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une vitesse de 25 m/s correspond à :",
+      "choices": [
+        "90 km/h",
+        "6,9 km/h",
+        "25 km/h",
+        "250 km/h"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "90 km/h",
+      "answer_kind": "QUANTITY",
+      "explanation": "Pour passer des m/s aux km/h, on multiplie par 3,6 : 25 × 3,6 = 90 km/h.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Division par 3,6 au lieu de multiplication.",
+        "2": "Pas de conversion.",
+        "3": "Multiplication par 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q08",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Un cycliste parcourt 12 km en 30 min. Sa vitesse est :",
+      "choices": [
+        "24 km/h",
+        "0,4 km/h",
+        "6 km/h",
+        "360 km/h"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "24 km/h",
+      "answer_kind": "QUANTITY",
+      "explanation": "30 min = 0,5 h ; v = 12 ÷ 0,5 = 24 km/h.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Division par 30 sans convertir les minutes.",
+        "2": "Division par 2 au lieu de 0,5.",
+        "3": "Produit 12 × 30."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q09",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Le mouvement d'un objet dont la vitesse garde la même valeur est dit :",
+      "choices": [
+        "uniforme",
+        "accéléré",
+        "ralenti"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "uniforme",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un mouvement dont la valeur de la vitesse reste constante est uniforme.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La vitesse augmenterait.",
+        "2": "La vitesse diminuerait."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.vitesse.q10",
+      "notion_id": "PC.4E.MVT.utiliser-la-relation-liant-vitesse-distance-et-duree-dans-le-cas-dun-m",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "On voit un éclair et on entend le tonnerre 3,0 s plus tard (vitesse du son : 340 m/s). La foudre est tombée à :",
+      "choices": [
+        "1020 m",
+        "113 m",
+        "343 m",
+        "10,2 km"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1020 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "d = v × t = 340 × 3,0 = 1 020 m (la lumière arrive quasi instantanément).",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Division de la vitesse par la durée.",
+        "2": "Somme de 340 et de 3.",
+        "3": "Erreur de facteur 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q01",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "La loi d'Ohm s'écrit :",
+      "choices": [
+        "U = R × I",
+        "U = R / I",
+        "I = R × U",
+        "R = U × I"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "U = R × I",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Pour un conducteur ohmique, U = R × I (U en V, R en Ω, I en A).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Relation inversée.",
+        "2": "Relation inversée.",
+        "3": "R = U / I, pas U × I."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q02",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "L'unité de la résistance électrique est :",
+      "choices": [
+        "l'ohm",
+        "le volt",
+        "l'ampère",
+        "le watt"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'ohm",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La résistance s'exprime en ohms (symbole Ω).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Unité de tension.",
+        "2": "Unité d'intensité.",
+        "3": "Unité de puissance."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q03",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une résistance R = 50 Ω est traversée par I = 0,1 A. La tension à ses bornes est :",
+      "choices": [
+        "5 V",
+        "500 V",
+        "0,002 V",
+        "50,1 V"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5 V",
+      "answer_kind": "QUANTITY",
+      "explanation": "U = R × I = 50 × 0,1 = 5 V.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Division R / I.",
+        "2": "Division I / R.",
+        "3": "Somme."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q04",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une résistance de 200 Ω est soumise à 10 V. L'intensité qui la traverse vaut :",
+      "choices": [
+        "0,05 A",
+        "2000 A",
+        "20 A",
+        "0,5 A"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,05 A",
+      "answer_kind": "QUANTITY",
+      "explanation": "I = U / R = 10 ÷ 200 = 0,05 A.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Produit U × R.",
+        "2": "Division R / U.",
+        "3": "Erreur de virgule."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q05",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une intensité de 150 mA correspond à :",
+      "choices": [
+        "0,15 A",
+        "150 A",
+        "1,5 A",
+        "15 A"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,15 A",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 mA = 0,001 A, donc 150 mA = 0,150 A.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Pas de conversion.",
+        "2": "Division par 100.",
+        "3": "Division par 10."
+      },
+      "common_error_target": {
+        "1": "oubli de conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q06",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "U = 6 V et I = 20 mA pour une résistance. Sa valeur est :",
+      "choices": [
+        "300 Ω",
+        "0,3 Ω",
+        "120 Ω",
+        "3 Ω"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "300 Ω",
+      "answer_kind": "QUANTITY",
+      "explanation": "I = 20 mA = 0,020 A ; R = U / I = 6 ÷ 0,020 = 300 Ω.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Intensité non convertie.",
+        "2": "Produit U × I.",
+        "3": "Erreur de conversion."
+      },
+      "common_error_target": {
+        "1": "mA non convertis"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q07",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "La caractéristique U = f(I) d'un conducteur ohmique est :",
+      "choices": [
+        "une droite passant par l'origine",
+        "une droite horizontale",
+        "une courbe en forme de U"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une droite passant par l'origine",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "U = R × I : la tension est proportionnelle à l'intensité, d'où une droite passant par l'origine.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "U ne dépendrait pas de I.",
+        "2": "Ce n'est pas une proportionnalité."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q08",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Si l'on triple la tension aux bornes d'un conducteur ohmique, l'intensité :",
+      "choices": [
+        "est multipliée par 3",
+        "est divisée par 3",
+        "ne change pas"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "est multipliée par 3",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "I = U / R avec R constante : I est proportionnelle à U.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Proportionnalité inversée.",
+        "2": "I dépend de U."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q09",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Une résistance de 2,2 kΩ est soumise à 11 V. L'intensité vaut :",
+      "choices": [
+        "5 mA",
+        "5 A",
+        "24,2 mA",
+        "0,2 mA"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5 mA",
+      "answer_kind": "QUANTITY",
+      "explanation": "R = 2 200 Ω ; I = 11 ÷ 2 200 = 0,005 A = 5 mA.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Oubli de la conversion des kΩ.",
+        "2": "Produit au lieu d'un quotient.",
+        "3": "Quotient inversé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.4E.loi-ohm.q10",
+      "notion_id": "PC.4E.NRJ.relation-tension-courant-loi-dohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "4E",
+      "question": "Deux points de la caractéristique d'un conducteur ohmique : (0,10 A ; 3,3 V) et (0,20 A ; 6,6 V). Sa résistance vaut :",
+      "choices": [
+        "33 Ω",
+        "0,03 Ω",
+        "3,3 Ω",
+        "66 Ω"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "33 Ω",
+      "answer_kind": "QUANTITY",
+      "explanation": "R = U / I = 3,3 ÷ 0,10 = 33 Ω (même résultat avec le second point).",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Quotient I / U.",
+        "2": "Valeur de U lue directement.",
+        "3": "Mauvais couple de valeurs."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

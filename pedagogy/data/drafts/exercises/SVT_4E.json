@@ -1,0 +1,2244 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.d01",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on les grands morceaux rigides qui forment la couche externe de la Terre et qui se déplacent lentement ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "plaques lithosphériques",
+          "plaques tectoniques",
+          "plaques",
+          "les plaques lithosphériques",
+          "les plaques tectoniques"
+        ]
+      },
+      "solution": "La lithosphère est découpée en plaques lithosphériques (ou plaques tectoniques) qui se déplacent de quelques centimètres par an.",
+      "step_by_step_solution": [
+        "La couche externe rigide de la Terre est la lithosphère.",
+        "Elle est découpée en grands morceaux.",
+        "Ces morceaux sont les plaques lithosphériques."
+      ],
+      "hints": [
+        "Il y en a une douzaine de grandes à la surface du globe."
+      ],
+      "common_errors": {
+        "continents": "L'élève confond continents et plaques : une plaque peut porter un continent et un fond océanique."
+      },
+      "remediation": "Observer une carte des plaques et repérer qu'une même plaque porte continent et océan.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître l'organisation de la lithosphère"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.d02",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Les plaques lithosphériques se déplacent de quelques centimètres par an. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les mesures GPS montrent des déplacements de l'ordre de 1 à 10 cm par an.",
+      "step_by_step_solution": [
+        "Des balises GPS mesurent la position de points à la surface.",
+        "Ces positions changent de quelques centimètres chaque année.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Compare avec la vitesse de pousse d'un ongle."
+      ],
+      "common_errors": {
+        "faux": "L'élève imagine des déplacements rapides (plusieurs mètres par an) ou nuls."
+      },
+      "remediation": "Exploiter des données GPS de stations situées sur différentes plaques.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.d03",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "ORDERING",
+      "statement": "Quel est l'ordre des enveloppes de la Terre, de la surface vers le centre ?\nÉléments (dans le désordre) : croûte / noyau / manteau\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "croûte",
+          "manteau",
+          "noyau"
+        ]
+      },
+      "solution": "Sous la croûte se trouve le manteau, puis le noyau au centre. Ordre attendu : croûte ; manteau ; noyau.",
+      "step_by_step_solution": [
+        "La croûte est l'enveloppe la plus externe.",
+        "Le manteau est situé sous la croûte.",
+        "Le noyau occupe le centre."
+      ],
+      "hints": [
+        "L'enveloppe la plus profonde est aussi la plus chaude."
+      ],
+      "common_errors": {
+        "croûte ; noyau ; manteau": "L'élève place le noyau avant le manteau."
+      },
+      "remediation": "Construire un modèle en coupe de la Terre (type « œuf dur » : coquille, blanc, jaune) en en discutant les limites.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.d04",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Lors d'un séisme, comment s'appelle le point en profondeur où la rupture des roches se produit ?\nA. Le foyer\nB. L'épicentre\nC. Le cratère\nD. La dorsale",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le foyer est le lieu en profondeur où se produit la rupture ; l'épicentre est le point de la surface situé à sa verticale.",
+      "step_by_step_solution": [
+        "La rupture des roches a lieu en profondeur.",
+        "Ce lieu s'appelle le foyer.",
+        "L'épicentre est seulement le point de surface à la verticale."
+      ],
+      "hints": [
+        "Ne confonds pas le point en profondeur et le point en surface."
+      ],
+      "common_errors": {
+        "B": "Confusion classique entre foyer (profondeur) et épicentre (surface)."
+      },
+      "remediation": "Réaliser un schéma en coupe annoté : foyer, épicentre, ondes sismiques, faille.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [
+        "Le foyer",
+        "L'épicentre",
+        "Le cratère",
+        "La dorsale"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.d05",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle est la place de la Terre parmi les planètes du système solaire, en partant du Soleil ?\nA. La troisième\nB. La deuxième\nC. La quatrième\nD. La première",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Terre est la troisième planète en partant du Soleil, après Mercure et Vénus. Bonne réponse : A. La troisième",
+      "step_by_step_solution": [
+        "Les planètes les plus proches du Soleil sont Mercure puis Vénus.",
+        "Vient ensuite la Terre."
+      ],
+      "hints": [
+        "Mercure et Vénus sont plus proches du Soleil."
+      ],
+      "common_errors": {
+        "B": "L'élève oublie Mercure ou Vénus."
+      },
+      "remediation": "Construire une frise des planètes à l'échelle des distances.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [
+        "La troisième",
+        "La deuxième",
+        "La quatrième",
+        "La première"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.a01",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une plaque se déplace de 2 cm par an. De combien de kilomètres se sera-t-elle déplacée en 1 million d'années ? Réponds en km.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 20,
+        "unit": "km"
+      },
+      "solution": "2 cm × 1 000 000 = 2 000 000 cm = 20 000 m = 20 km.",
+      "step_by_step_solution": [
+        "Déplacement = vitesse × durée = 2 × 1 000 000 = 2 000 000 cm.",
+        "2 000 000 cm = 20 000 m.",
+        "20 000 m = 20 km."
+      ],
+      "hints": [
+        "Calcule d'abord en cm, puis convertis.",
+        "1 km = 100 000 cm."
+      ],
+      "common_errors": {
+        "2000 km": "Erreur de conversion : l'élève divise par 1 000 au lieu de 100 000."
+      },
+      "remediation": "Revoir le tableau de conversion des longueurs (cm → m → km).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une distance à partir d'une vitesse",
+        "Convertir des unités"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.a02",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque type de frontière de plaques au mouvement correspondant.\nÀ gauche : dorsale / fosse de subduction / chaîne de collision\nÀ droite : plongée d'une plaque sous une autre / affrontement de deux continents / écartement des plaques\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "dorsale": "écartement des plaques",
+          "fosse de subduction": "plongée d'une plaque sous une autre",
+          "chaîne de collision": "affrontement de deux continents"
+        }
+      },
+      "solution": "Aux dorsales les plaques s'écartent ; aux fosses une plaque océanique plonge ; en collision deux continents s'affrontent. Associations : dorsale → écartement des plaques ; fosse de subduction → plongée d'une plaque sous une autre ; chaîne de collision → affrontement de deux continents.",
+      "step_by_step_solution": [
+        "Une dorsale est une zone d'écartement.",
+        "Une fosse marque la plongée d'une plaque (subduction).",
+        "Une chaîne de collision résulte de l'affrontement de deux continents."
+      ],
+      "hints": [
+        "L'Himalaya est une chaîne de collision."
+      ],
+      "common_errors": {
+        "dorsale → plongée d'une plaque sous une autre ; fosse de subduction → écartement des plaques ; chaîne de collision → affrontement de deux continents": "Confusion entre zones d'écartement et de rapprochement."
+      },
+      "remediation": "Placer sur une carte les dorsales, fosses et chaînes de montagnes avec des flèches de mouvement.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.a03",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Un volcan émet des coulées de lave fluide qui s'écoulent sur de longues distances, sans explosion violente. De quel type d'éruption s'agit-il ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "effusive",
+          "éruption effusive",
+          "une éruption effusive",
+          "effusif"
+        ]
+      },
+      "solution": "Une lave fluide qui s'écoule en coulées caractérise une éruption effusive.",
+      "step_by_step_solution": [
+        "La lave est fluide et s'écoule.",
+        "Il n'y a pas d'explosion violente.",
+        "C'est une éruption effusive."
+      ],
+      "hints": [
+        "L'autre type est dit explosif."
+      ],
+      "common_errors": {
+        "explosive": "Confusion des deux types : l'explosion est liée à une lave visqueuse riche en gaz."
+      },
+      "remediation": "Comparer des photos du Piton de la Fournaise (effusif) et du mont Saint-Helens (explosif).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.a04",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Les séismes et les volcans sont répartis au hasard à la surface de la Terre. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Leur répartition n'est donc pas due au hasard : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Séismes et volcans se concentrent surtout le long des frontières de plaques.",
+      "step_by_step_solution": [
+        "Sur une carte mondiale, séismes et volcans forment des alignements.",
+        "Ces alignements correspondent aux frontières de plaques.",
+        "Leur répartition n'est donc pas due au hasard : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Superpose une carte des séismes et une carte des plaques."
+      ],
+      "common_errors": {
+        "vrai": "L'élève ne relie pas la répartition des phénomènes aux limites de plaques."
+      },
+      "remediation": "Superposer (calques ou SIG) la carte des séismes, des volcans et des limites de plaques.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.a05",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel est le nom du point de la surface situé juste à la verticale du foyer d'un séisme ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "épicentre",
+          "l'épicentre",
+          "epicentre"
+        ]
+      },
+      "solution": "Le point de surface situé à la verticale du foyer est l'épicentre ; c'est souvent là que les dégâts sont les plus importants.",
+      "step_by_step_solution": [
+        "Le foyer est en profondeur.",
+        "À sa verticale, en surface, se trouve un point particulier.",
+        "Ce point est l'épicentre."
+      ],
+      "hints": [
+        "Le préfixe « épi- » signifie « sur »."
+      ],
+      "common_errors": {
+        "foyer": "Confusion foyer / épicentre."
+      },
+      "remediation": "Refaire le schéma en coupe avec légende foyer / épicentre / ondes.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.c01",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une onde sismique parcourt 300 km à la vitesse de 6 km/s. Combien de temps met-elle pour atteindre la station ? Réponds en s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 50,
+        "unit": "s"
+      },
+      "solution": "Durée = distance / vitesse = 300 / 6 = 50 s.",
+      "step_by_step_solution": [
+        "On utilise durée = distance / vitesse.",
+        "300 / 6 = 50.",
+        "L'onde met 50 s."
+      ],
+      "hints": [
+        "Distance, vitesse et durée sont liées par d = v × t."
+      ],
+      "common_errors": {
+        "1800 s": "L'élève multiplie la distance par la vitesse au lieu de diviser."
+      },
+      "remediation": "Revoir la relation d = v × t et la façon d'isoler t.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une durée de propagation"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.c02",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Classe dans l'ordre les étapes d'un séisme.\nÉléments (dans le désordre) : rupture des roches au foyer / accumulation de contraintes dans les roches / vibrations ressenties en surface / propagation des ondes sismiques\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "accumulation de contraintes dans les roches",
+          "rupture des roches au foyer",
+          "propagation des ondes sismiques",
+          "vibrations ressenties en surface"
+        ]
+      },
+      "solution": "Les roches accumulent des contraintes, se rompent au foyer, puis les ondes se propagent et font vibrer la surface. Ordre attendu : accumulation de contraintes dans les roches ; rupture des roches au foyer ; propagation des ondes sismiques ; vibrations ressenties en surface.",
+      "step_by_step_solution": [
+        "Les mouvements des plaques déforment les roches.",
+        "Au-delà d'un seuil, elles cassent au foyer.",
+        "Des ondes partent du foyer.",
+        "Elles font vibrer le sol en surface."
+      ],
+      "hints": [
+        "La rupture est la cause des ondes."
+      ],
+      "common_errors": {
+        "rupture des roches au foyer ; accumulation de contraintes dans les roches ; propagation des ondes sismiques ; vibrations ressenties en surface": "L'élève place la rupture avant l'accumulation de contraintes : il ne voit pas que la rupture est brutale après une longue déformation."
+      },
+      "remediation": "Modéliser avec une règle en plastique ou une plaque de polystyrène qu'on plie jusqu'à la rupture.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.c03",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi certaines éruptions sont-elles explosives ?\nA. Car le volcan est sous l'eau\nB. Car le volcan est éteint\nC. Car la lave est visqueuse et riche en gaz\nD. Car la lave est très fluide et pauvre en gaz",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Une lave visqueuse, riche en gaz, retient les gaz qui s'échappent brutalement : l'éruption est explosive. Bonne réponse : C. Car la lave est visqueuse et riche en gaz",
+      "step_by_step_solution": [
+        "La viscosité de la lave empêche les gaz de s'échapper facilement.",
+        "La pression des gaz augmente.",
+        "Les gaz s'échappent brutalement : c'est l'explosion."
+      ],
+      "hints": [
+        "Compare une boisson gazeuse qu'on secoue et l'eau plate."
+      ],
+      "common_errors": {
+        "D": "L'élève attribue l'explosion à une lave très fluide."
+      },
+      "remediation": "Modéliser avec de la purée plus ou moins épaisse dans laquelle on souffle de l'air.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [
+        "Car le volcan est sous l'eau",
+        "Car le volcan est éteint",
+        "Car la lave est visqueuse et riche en gaz",
+        "Car la lave est très fluide et pauvre en gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.c04",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Une même plaque lithosphérique peut porter à la fois un continent et une partie d'océan. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Elle porte donc un continent et de l'océan : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Exemple : la plaque africaine porte le continent africain et une partie de l'océan Atlantique.",
+      "step_by_step_solution": [
+        "Les limites de plaques ne suivent pas les côtes.",
+        "La plaque africaine s'étend jusqu'à la dorsale médio-atlantique.",
+        "Elle porte donc un continent et de l'océan : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Regarde où se situe la limite ouest de la plaque africaine."
+      ],
+      "common_errors": {
+        "faux": "L'élève confond plaque et continent."
+      },
+      "remediation": "Colorier chaque plaque sur une carte et repérer les parties continentales et océaniques.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.c05",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque élément à son enveloppe terrestre.\nÀ gauche : plaques lithosphériques / roches chaudes en mouvement lent sous les plaques / centre de la Terre, surtout métallique\nÀ droite : asthénosphère / lithosphère / noyau\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "plaques lithosphériques": "lithosphère",
+          "roches chaudes en mouvement lent sous les plaques": "asthénosphère",
+          "centre de la Terre, surtout métallique": "noyau"
+        }
+      },
+      "solution": "Les plaques forment la lithosphère, rigide, qui repose sur l'asthénosphère, plus ductile ; le noyau est au centre. Associations : plaques lithosphériques → lithosphère ; roches chaudes en mouvement lent sous les plaques → asthénosphère ; centre de la Terre, surtout métallique → noyau.",
+      "step_by_step_solution": [
+        "La lithosphère est rigide et découpée en plaques.",
+        "Dessous, l'asthénosphère se déforme lentement.",
+        "Le noyau, surtout composé de fer, est au centre."
+      ],
+      "hints": [
+        "« Litho » évoque la roche rigide."
+      ],
+      "common_errors": {
+        "plaques lithosphériques → asthénosphère ; roches chaudes en mouvement lent sous les plaques → lithosphère ; centre de la Terre, surtout métallique → noyau": "Confusion lithosphère / asthénosphère."
+      },
+      "remediation": "Construire une coupe schématique légendée du globe.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer séismes et éruptions volcaniques par la tectonique des plaques"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.x01",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Deux balises GPS situées de part et d'autre d'une dorsale s'éloignent de 5 cm par an. Combien de temps faut-il pour qu'elles s'éloignent de 1 km ? Donne le résultat en milliers d'années (nombre seul).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "20"
+      },
+      "solution": "1 km = 100 000 cm ; 100 000 / 5 = 20 000 ans, soit 20 milliers d'années.",
+      "step_by_step_solution": [
+        "1 km = 100 000 cm.",
+        "Durée = 100 000 / 5 = 20 000 ans.",
+        "20 000 ans = 20 milliers d'années."
+      ],
+      "hints": [
+        "Convertis 1 km en cm.",
+        "Durée = distance / vitesse."
+      ],
+      "common_errors": {
+        "200": "Erreur de conversion : l'élève prend 1 km = 1 000 cm."
+      },
+      "remediation": "Revoir les conversions et la relation durée = distance / vitesse.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une durée à partir d'une vitesse",
+        "Convertir des unités"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.x02",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : une station sismique reçoit les ondes P 20 s avant les ondes S. On sait que, pour ce type de séisme, cet écart augmente de 1 s tous les 8 km. À quelle distance de l'épicentre se trouve la station ? Réponds en km.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 160,
+        "unit": "km"
+      },
+      "solution": "20 s × 8 km par seconde d'écart = 160 km.",
+      "step_by_step_solution": [
+        "Chaque seconde d'écart correspond à 8 km.",
+        "20 × 8 = 160.",
+        "La station est à 160 km."
+      ],
+      "hints": [
+        "Utilise la proportionnalité : 1 s ↔ 8 km."
+      ],
+      "common_errors": {
+        "2,5 km": "L'élève divise 20 par 8 au lieu de multiplier."
+      },
+      "remediation": "Revoir la proportionnalité et l'exploitation des sismogrammes.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document",
+        "Raisonner par proportionnalité"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.tectonique.x03",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : au Japon, une plaque océanique plonge sous une autre plaque ; on y observe des séismes de plus en plus profonds en s'éloignant de la fosse et des volcans explosifs. Quel est le nom de ce type de frontière ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "subduction",
+          "zone de subduction",
+          "une zone de subduction"
+        ]
+      },
+      "solution": "La plongée d'une plaque océanique sous une autre plaque définit une zone de subduction, marquée par des séismes profonds et un volcanisme explosif.",
+      "step_by_step_solution": [
+        "Une plaque plonge sous une autre.",
+        "Les séismes jalonnent le plan de plongée.",
+        "C'est une zone de subduction."
+      ],
+      "hints": [
+        "Le mot vient du latin « conduire dessous »."
+      ],
+      "common_errors": {
+        "collision": "Confusion : la collision concerne deux continents, pas une plaque océanique qui plonge."
+      },
+      "remediation": "Construire une coupe du Japon avec la répartition des foyers sismiques en profondeur.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier phénomènes géologiques et contexte géodynamique"
+      ],
+      "source_notions": [
+        "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.d01",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel caractère partagent tous les vertébrés ?\nA. Des poils\nB. Des plumes\nC. Des nageoires\nD. Une colonne vertébrale",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Tous les vertébrés possèdent une colonne vertébrale (un squelette interne avec des vertèbres). Bonne réponse : D. Une colonne vertébrale",
+      "step_by_step_solution": [
+        "Le nom du groupe donne un indice.",
+        "Tous ses membres ont des vertèbres.",
+        "Ils ont une colonne vertébrale."
+      ],
+      "hints": [
+        "Le nom du groupe contient déjà la réponse."
+      ],
+      "common_errors": {
+        "A": "L'élève choisit les poils, caractère partagé seulement par les mammifères."
+      },
+      "remediation": "Classer quelques animaux (truite, grenouille, chat, escargot) selon la présence de vertèbres.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [
+        "Des poils",
+        "Des plumes",
+        "Des nageoires",
+        "Une colonne vertébrale"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.d02",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel caractère partagé permet de reconnaître un oiseau ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "plumes",
+          "des plumes",
+          "la présence de plumes",
+          "plume"
+        ]
+      },
+      "solution": "Les oiseaux sont les seuls êtres vivants actuels à posséder des plumes.",
+      "step_by_step_solution": [
+        "Voler n'est pas propre aux oiseaux (chauves-souris, insectes).",
+        "Le caractère propre aux oiseaux actuels couvre leur corps."
+      ],
+      "hints": [
+        "Ce caractère recouvre le corps et sert aussi à l'isolation thermique."
+      ],
+      "common_errors": {
+        "des ailes": "Les ailes existent aussi chez les chauves-souris et les insectes : ce n'est pas un caractère propre aux oiseaux."
+      },
+      "remediation": "Comparer ailes d'oiseau, de chauve-souris et d'insecte.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.d03",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Pour classer les êtres vivants, on se base sur les caractères qu'ils partagent, et non sur ce qui leur manque. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La classification scientifique regroupe les êtres vivants selon les attributs qu'ils possèdent en commun.",
+      "step_by_step_solution": [
+        "Une absence ne permet pas de définir un groupe.",
+        "On regroupe les espèces selon des caractères présents en commun.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Peut-on regrouper l'escargot et la méduse sous prétexte qu'ils n'ont pas de vertèbres ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève utilise des groupes fondés sur une absence (« invertébrés »)."
+      },
+      "remediation": "Construire des groupes emboîtés à partir d'un tableau de caractères présents.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.d04",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel caractère partagent tous les mammifères, qu'ils soient terrestres ou marins ?\nA. Quatre pattes\nB. Des nageoires\nC. Des écailles\nD. Des mamelles",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Tous les mammifères ont des mamelles (et des poils, parfois très réduits comme chez la baleine). Bonne réponse : D. Des mamelles",
+      "step_by_step_solution": [
+        "La baleine et le chat sont tous deux des mammifères.",
+        "Ils partagent un attribut lié à l'allaitement des petits."
+      ],
+      "hints": [
+        "Pense à la façon dont les petits sont nourris."
+      ],
+      "common_errors": {
+        "A": "L'élève pense que tous les mammifères ont quatre pattes."
+      },
+      "remediation": "Comparer la baleine, la chauve-souris et le chien et chercher leurs points communs.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [
+        "Quatre pattes",
+        "Des nageoires",
+        "Des écailles",
+        "Des mamelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.d05",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la représentation en ensembles inclus les uns dans les autres utilisée pour classer les êtres vivants ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "groupes emboîtés",
+          "des groupes emboîtés",
+          "classification en groupes emboîtés",
+          "ensembles emboîtés"
+        ]
+      },
+      "solution": "On représente la classification sous forme de groupes emboîtés : chaque groupe est défini par un caractère partagé.",
+      "step_by_step_solution": [
+        "Chaque groupe est défini par un caractère.",
+        "Un groupe peut contenir des groupes plus petits.",
+        "C'est une représentation en groupes emboîtés."
+      ],
+      "hints": [
+        "Pense aux poupées russes."
+      ],
+      "common_errors": {
+        "tableau": "Le tableau de caractères sert à construire la classification mais n'en est pas la représentation emboîtée."
+      },
+      "remediation": "Réaliser des groupes emboîtés avec des cerceaux au sol et des cartes d'animaux.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.a01",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque animal au plus petit groupe qui le contient parmi ceux proposés.\nÀ gauche : chat / aigle / grenouille / requin\nÀ droite : tétrapodes / mammifères / vertébrés / oiseaux\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "chat": "mammifères",
+          "aigle": "oiseaux",
+          "grenouille": "tétrapodes",
+          "requin": "vertébrés"
+        }
+      },
+      "solution": "Le chat a des poils et des mamelles (mammifères) ; l'aigle a des plumes (oiseaux) ; la grenouille a quatre membres (tétrapodes) ; le requin a une colonne vertébrale (vertébrés). Associations : chat → mammifères ; aigle → oiseaux ; grenouille → tétrapodes ; requin → vertébrés.",
+      "step_by_step_solution": [
+        "Le chat a des mamelles : mammifères.",
+        "L'aigle a des plumes : oiseaux.",
+        "La grenouille a quatre membres mais ni poils ni plumes : tétrapodes.",
+        "Le requin a des vertèbres mais pas quatre membres : vertébrés."
+      ],
+      "hints": [
+        "Cherche le caractère le plus précis que possède chaque animal."
+      ],
+      "common_errors": {
+        "chat → mammifères ; aigle → oiseaux ; grenouille → vertébrés ; requin → tétrapodes": "L'élève pense que la grenouille, aquatique, se classe comme le requin, confondant milieu de vie et caractères."
+      },
+      "remediation": "Partir d'un tableau de caractères (vertèbres, 4 membres, poils, plumes) et cocher pour chaque animal.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.a02",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? La chauve-souris est plus proche de l'humain que du pigeon. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Elle est plus proche de l'humain : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La chauve-souris partage avec l'humain les poils et les mamelles (mammifères) ; les ailes de la chauve-souris et celles du pigeon se sont formées indépendamment et ne traduisent pas une parenté étroite.",
+      "step_by_step_solution": [
+        "La chauve-souris a des poils et des mamelles comme l'humain.",
+        "Elle partage donc plus de caractères avec l'humain.",
+        "Elle est plus proche de l'humain : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Compte les caractères partagés, pas le mode de déplacement."
+      ],
+      "common_errors": {
+        "faux": "L'élève se fonde sur la capacité de voler, qui n'est pas un critère de parenté ici."
+      },
+      "remediation": "Comparer la structure osseuse des ailes de chauve-souris et d'oiseau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.a03",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel caractère partagent la grenouille, le lézard, le chat et l'aigle, mais pas le requin ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "quatre membres",
+          "4 membres",
+          "quatre membres (tétrapodes)",
+          "4 pattes",
+          "quatre pattes"
+        ]
+      },
+      "solution": "Ils possèdent tous quatre membres : ce sont des tétrapodes (les ailes de l'aigle sont des membres).",
+      "step_by_step_solution": [
+        "Tous ont une colonne vertébrale, requin compris.",
+        "Seuls les quatre premiers ont des membres (bras, pattes, ailes).",
+        "Ils partagent donc quatre membres."
+      ],
+      "hints": [
+        "Pense aux bras, aux pattes… et aux ailes de l'aigle."
+      ],
+      "common_errors": {
+        "colonne vertébrale": "Le requin a aussi une colonne vertébrale : ce caractère ne le sépare pas des autres."
+      },
+      "remediation": "Chercher sur des squelettes l'humérus dans l'aile de l'aigle et dans la patte du lézard.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.a04",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Avec quel animal le dauphin partage-t-il le plus de caractères ?\nA. Le thon\nB. Le chien\nC. Le requin\nD. La méduse",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Le dauphin a des mamelles, des poils à la naissance et respire avec des poumons : il partage plus de caractères avec le chien, un mammifère. Bonne réponse : B. Le chien",
+      "step_by_step_solution": [
+        "Le dauphin allaite ses petits.",
+        "Il partage ce caractère avec les mammifères.",
+        "Malgré sa forme, il est plus proche du chien que du requin."
+      ],
+      "hints": [
+        "Ne te laisse pas tromper par la forme ou le milieu de vie."
+      ],
+      "common_errors": {
+        "C": "L'élève se fonde sur le milieu de vie et la forme du corps."
+      },
+      "remediation": "Comparer un tableau de caractères du dauphin, du requin et du chien.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [
+        "Le thon",
+        "Le chien",
+        "Le requin",
+        "La méduse"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.a05",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les groupes du plus grand (le plus inclusif) au plus petit.\nÉléments (dans le désordre) : mammifères / primates / vertébrés / tétrapodes\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "vertébrés",
+          "tétrapodes",
+          "mammifères",
+          "primates"
+        ]
+      },
+      "solution": "Les vertébrés incluent les tétrapodes, qui incluent les mammifères, qui incluent les primates. Ordre attendu : vertébrés ; tétrapodes ; mammifères ; primates.",
+      "step_by_step_solution": [
+        "Les vertébrés ont une colonne vertébrale.",
+        "Parmi eux, les tétrapodes ont quatre membres.",
+        "Parmi eux, les mammifères ont des mamelles.",
+        "Parmi eux, les primates ont notamment un pouce opposable."
+      ],
+      "hints": [
+        "Chaque groupe est inclus dans le précédent."
+      ],
+      "common_errors": {
+        "vertébrés ; mammifères ; tétrapodes ; primates": "L'élève place les mammifères avant les tétrapodes et ignore que tous les mammifères ont quatre membres."
+      },
+      "remediation": "Dessiner les groupes emboîtés et vérifier qu'un chimpanzé est bien dans tous les ensembles.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.c01",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Tableau de caractères — truite : vertèbres ; grenouille : vertèbres, 4 membres ; lapin : vertèbres, 4 membres, poils. Combien de caractères la grenouille partage-t-elle avec le lapin ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "La grenouille et le lapin partagent les vertèbres et les 4 membres, soit 2 caractères.",
+      "step_by_step_solution": [
+        "On compare les caractères de la grenouille et du lapin.",
+        "Communs : vertèbres, 4 membres.",
+        "Cela fait 2 caractères partagés."
+      ],
+      "hints": [
+        "Compte seulement les caractères présents chez les deux."
+      ],
+      "common_errors": {
+        "3": "L'élève compte aussi les poils que la grenouille ne possède pas."
+      },
+      "remediation": "Surligner dans le tableau, ligne par ligne, les caractères communs aux deux espèces.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un tableau de caractères"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.c02",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Avec le tableau (truite : vertèbres ; grenouille : vertèbres, 4 membres ; lapin : vertèbres, 4 membres, poils), quel animal est le plus proche parent du lapin ?\nA. Ils sont tous aussi proches\nB. La grenouille\nC. La truite\nD. Aucun des deux",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "La grenouille partage deux caractères avec le lapin, la truite un seul : la grenouille est son plus proche parent parmi les trois.",
+      "step_by_step_solution": [
+        "Le lapin partage 1 caractère avec la truite.",
+        "Il en partage 2 avec la grenouille.",
+        "Plus on partage de caractères, plus on est proches parents."
+      ],
+      "hints": [
+        "Compare le nombre de caractères partagés."
+      ],
+      "common_errors": {
+        "C": "L'élève pense que la truite est plus proche car c'est aussi un « animal commun »."
+      },
+      "remediation": "Reprendre le principe : parenté = partage de caractères hérités d'un ancêtre commun.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [
+        "Ils sont tous aussi proches",
+        "La grenouille",
+        "La truite",
+        "Aucun des deux"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.c03",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le groupe des « poissons » défini par la vie dans l'eau est un groupe valide de la classification scientifique. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Un groupe défini par le milieu de vie n'est pas valide : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Vivre dans l'eau est un mode de vie, pas un caractère partagé hérité ; le dauphin vit dans l'eau mais c'est un mammifère.",
+      "step_by_step_solution": [
+        "Le milieu de vie n'est pas un caractère anatomique hérité.",
+        "Le dauphin et la baleine vivent dans l'eau mais sont des mammifères.",
+        "Un groupe défini par le milieu de vie n'est pas valide : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Le dauphin vit dans l'eau : est-il un poisson ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève confond classification scientifique et regroupement selon le milieu de vie."
+      },
+      "remediation": "Comparer une classification par milieu de vie et une classification par caractères partagés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.c04",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel est le nom du groupe défini par la présence de quatre membres ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "tétrapodes",
+          "les tétrapodes",
+          "tetrapodes",
+          "tétrapode"
+        ]
+      },
+      "solution": "Les tétrapodes sont les vertébrés à quatre membres (amphibiens, reptiles, oiseaux, mammifères).",
+      "step_by_step_solution": [
+        "« Tétra » signifie quatre et « pode » signifie pied."
+      ],
+      "hints": [
+        "Le nom vient du grec « quatre pieds »."
+      ],
+      "common_errors": {
+        "quadrupèdes": "« Quadrupède » décrit un mode de déplacement, pas le groupe de la classification."
+      },
+      "remediation": "Construire une carte des groupes : vertébrés ⊃ tétrapodes ⊃ mammifères.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.c05",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque caractère au groupe qu'il définit.\nÀ gauche : colonne vertébrale / quatre membres / poils et mamelles / plumes\nÀ droite : vertébrés / oiseaux / tétrapodes / mammifères\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "colonne vertébrale": "vertébrés",
+          "quatre membres": "tétrapodes",
+          "poils et mamelles": "mammifères",
+          "plumes": "oiseaux"
+        }
+      },
+      "solution": "Chaque groupe est défini par un caractère partagé par tous ses membres. Associations : colonne vertébrale → vertébrés ; quatre membres → tétrapodes ; poils et mamelles → mammifères ; plumes → oiseaux.",
+      "step_by_step_solution": [
+        "Vertèbres → vertébrés.",
+        "Quatre membres → tétrapodes.",
+        "Poils et mamelles → mammifères.",
+        "Plumes → oiseaux."
+      ],
+      "hints": [
+        "Le nom du groupe évoque souvent le caractère."
+      ],
+      "common_errors": {
+        "colonne vertébrale → tétrapodes ; quatre membres → vertébrés ; poils et mamelles → mammifères ; plumes → oiseaux": "Inversion des deux groupes les plus larges."
+      },
+      "remediation": "Réaliser des cartes « caractère » / « groupe » à apparier.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les êtres vivants selon les caractères qu'ils partagent",
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.x01",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? L'humain, le chimpanzé et le gorille partagent de nombreux caractères. L'humain et le chimpanzé en partagent encore davantage entre eux. Vrai ou faux ? Cela signifie que l'humain descend du chimpanzé. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : L'humain ne descend pas du chimpanzé : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. L'humain et le chimpanzé partagent un ancêtre commun ; aucune espèce actuelle ne descend d'une autre espèce actuelle.",
+      "step_by_step_solution": [
+        "Partager des caractères signifie les avoir hérités d'un ancêtre commun.",
+        "Le chimpanzé et l'humain sont deux espèces actuelles cousines.",
+        "L'humain ne descend pas du chimpanzé : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Deux cousins descendent-ils l'un de l'autre ?"
+      ],
+      "common_errors": {
+        "vrai": "Idée fausse fréquente : confondre parenté (ancêtre commun) et descendance directe entre espèces actuelles."
+      },
+      "remediation": "Utiliser l'analogie des cousins et des grands-parents pour distinguer ancêtre commun et descendance.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier parenté et ancêtre commun"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.x02",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Tableau — lézard : vertèbres, 4 membres, amnios ; grenouille : vertèbres, 4 membres ; souris : vertèbres, 4 membres, amnios, poils ; truite : vertèbres. Classe ces animaux du plus proche au plus éloigné de la souris.\nÉléments (dans le désordre) : lézard / truite / grenouille\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "lézard",
+          "grenouille",
+          "truite"
+        ]
+      },
+      "solution": "La souris partage 3 caractères avec le lézard, 2 avec la grenouille et 1 avec la truite. Ordre attendu : lézard ; grenouille ; truite.",
+      "step_by_step_solution": [
+        "Lézard / souris : vertèbres, 4 membres, amnios = 3.",
+        "Grenouille / souris : vertèbres, 4 membres = 2.",
+        "Truite / souris : vertèbres = 1."
+      ],
+      "hints": [
+        "Compte pour chaque animal le nombre de caractères partagés avec la souris."
+      ],
+      "common_errors": {
+        "grenouille ; lézard ; truite": "L'élève place la grenouille avant le lézard sans tenir compte de l'amnios."
+      },
+      "remediation": "Refaire le décompte colonne par colonne en surlignant les caractères communs.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un tableau de caractères",
+        "Établir des liens de parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.classification.x03",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Le crocodile et l'oiseau partagent un caractère que le lézard ne possède pas (un gésier et un cœur à quatre cavités, par exemple). Avec quel animal le crocodile est-il le plus étroitement apparenté ?\nA. Le lézard\nB. La grenouille\nC. La truite\nD. Les oiseaux",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Le crocodile partage avec les oiseaux des caractères absents chez le lézard : il est plus proche parent des oiseaux que du lézard, malgré son apparence. Bonne réponse : D. Les oiseaux",
+      "step_by_step_solution": [
+        "On raisonne sur les caractères partagés, pas sur l'apparence.",
+        "Crocodile et oiseau partagent des caractères que le lézard n'a pas.",
+        "Le crocodile est donc plus proche des oiseaux."
+      ],
+      "hints": [
+        "L'apparence « reptilienne » peut tromper."
+      ],
+      "common_errors": {
+        "A": "L'élève se fie à la ressemblance extérieure (écailles, allure)."
+      },
+      "remediation": "Présenter la classification actuelle des archosaures (crocodiles + oiseaux) et discuter la notion de « reptiles ».",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier caractères partagés et parenté"
+      ],
+      "source_notions": [
+        "SVT.4E.VIV.caracteres-partages-et-classification"
+      ],
+      "choices": [
+        "Le lézard",
+        "La grenouille",
+        "La truite",
+        "Les oiseaux"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.d01",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on les cellules du système nerveux qui transmettent les messages nerveux ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "neurones",
+          "les neurones",
+          "neurone",
+          "cellules nerveuses"
+        ]
+      },
+      "solution": "Les neurones (cellules nerveuses) produisent et transmettent les messages nerveux.",
+      "step_by_step_solution": [
+        "Le système nerveux est formé de cellules spécialisées.",
+        "Ces cellules sont les neurones."
+      ],
+      "hints": [
+        "Elles possèdent un long prolongement."
+      ],
+      "common_errors": {
+        "nerfs": "Un nerf est un ensemble de prolongements de neurones, pas une cellule."
+      },
+      "remediation": "Observer une image de neurone et en légender le corps cellulaire et les prolongements.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.d02",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le cerveau et la moelle épinière sont des centres nerveux. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Le cerveau et la moelle épinière reçoivent et élaborent des messages nerveux : ce sont des centres nerveux.",
+      "step_by_step_solution": [
+        "Un centre nerveux reçoit des messages et en élabore d'autres.",
+        "C'est le cas du cerveau et de la moelle épinière.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Où sont interprétées les informations et élaborées les commandes ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que seul le cerveau est un centre nerveux."
+      },
+      "remediation": "Légender un schéma du système nerveux : centres nerveux et nerfs.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.d03",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel organe des sens capte les stimulus lumineux ?\nA. La langue\nB. Le nez\nC. L'œil\nD. L'oreille",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "L'œil contient des récepteurs sensibles à la lumière (dans la rétine).",
+      "step_by_step_solution": [
+        "Chaque organe des sens capte un type de stimulus.",
+        "La lumière est captée par l'œil."
+      ],
+      "hints": [
+        "Pense à ce qui permet de voir."
+      ],
+      "common_errors": {
+        "D": "Confusion entre organes des sens."
+      },
+      "remediation": "Associer chaque sens à son organe et à son stimulus dans un tableau.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [
+        "La langue",
+        "Le nez",
+        "L'œil",
+        "L'oreille"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.d04",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre le trajet du message nerveux quand on retire la main d'un objet brûlant après l'avoir senti.\nÉléments (dans le désordre) : nerf moteur / nerf sensitif / centre nerveux / muscle / récepteur de la peau\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "récepteur de la peau",
+          "nerf sensitif",
+          "centre nerveux",
+          "nerf moteur",
+          "muscle"
+        ]
+      },
+      "solution": "Le récepteur de la peau émet un message transmis par un nerf sensitif au centre nerveux, qui élabore un message moteur conduit par un nerf moteur jusqu'au muscle. Ordre attendu : récepteur de la peau ; nerf sensitif ; centre nerveux ; nerf moteur ; muscle.",
+      "step_by_step_solution": [
+        "Le récepteur capte la chaleur.",
+        "Le nerf sensitif conduit le message vers le centre nerveux.",
+        "Le centre nerveux élabore une commande.",
+        "Le nerf moteur la conduit au muscle qui se contracte."
+      ],
+      "hints": [
+        "Le message va d'abord vers le centre, puis en repart."
+      ],
+      "common_errors": {
+        "récepteur de la peau ; nerf sensitif ; nerf moteur ; centre nerveux ; muscle": "L'élève inverse nerf moteur et centre nerveux : il ne voit pas que la commande est élaborée par le centre."
+      },
+      "remediation": "Construire un schéma fléché récepteur → nerf sensitif → centre → nerf moteur → muscle.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.d05",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel type de nerf conduit le message nerveux d'un centre nerveux vers un muscle ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "nerf moteur",
+          "un nerf moteur",
+          "moteur"
+        ]
+      },
+      "solution": "Le nerf moteur conduit le message nerveux du centre nerveux vers le muscle (organe effecteur).",
+      "step_by_step_solution": [
+        "Le message part du centre nerveux.",
+        "Il va vers le muscle qui effectue le mouvement.",
+        "C'est un nerf moteur."
+      ],
+      "hints": [
+        "Ce nerf commande le mouvement."
+      ],
+      "common_errors": {
+        "nerf sensitif": "Confusion des deux sens de conduction : le nerf sensitif va du récepteur vers le centre."
+      },
+      "remediation": "Refaire le schéma fléché en coloriant en bleu la partie sensitive et en rouge la partie motrice.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.a01",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque élément du système nerveux à son rôle.\nÀ gauche : récepteur sensoriel / nerf sensitif / centre nerveux / nerf moteur\nÀ droite : conduit le message vers le centre / capte un stimulus / conduit la commande au muscle / élabore une commande\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "récepteur sensoriel": "capte un stimulus",
+          "nerf sensitif": "conduit le message vers le centre",
+          "centre nerveux": "élabore une commande",
+          "nerf moteur": "conduit la commande au muscle"
+        }
+      },
+      "solution": "Chaque élément a un rôle dans la chaîne : capter, conduire, élaborer, conduire la commande. Associations : récepteur sensoriel → capte un stimulus ; nerf sensitif → conduit le message vers le centre ; centre nerveux → élabore une commande ; nerf moteur → conduit la commande au muscle.",
+      "step_by_step_solution": [
+        "Le récepteur capte.",
+        "Le nerf sensitif conduit vers le centre.",
+        "Le centre élabore la réponse.",
+        "Le nerf moteur conduit vers le muscle."
+      ],
+      "hints": [
+        "Suis le trajet du message dans l'ordre."
+      ],
+      "common_errors": {
+        "récepteur sensoriel → capte un stimulus ; nerf sensitif → conduit la commande au muscle ; centre nerveux → élabore une commande ; nerf moteur → conduit le message vers le centre": "Confusion des sens de conduction des deux types de nerfs."
+      },
+      "remediation": "Jouer la chaîne nerveuse en classe, chaque élève représentant un élément.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.a02",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un message nerveux parcourt 1 m à la vitesse de 50 m/s. Combien de temps met-il ? Réponds en s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 0.02,
+        "unit": "s"
+      },
+      "solution": "Durée = distance / vitesse = 1 / 50 = 0,02 s.",
+      "step_by_step_solution": [
+        "On utilise t = d / v.",
+        "1 / 50 = 0,02.",
+        "Le message met 0,02 s."
+      ],
+      "hints": [
+        "Distance, vitesse et durée : d = v × t."
+      ],
+      "common_errors": {
+        "50 s": "L'élève multiplie au lieu de diviser."
+      },
+      "remediation": "Revoir la relation d = v × t et un ordre de grandeur de la vitesse du message nerveux.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une durée de propagation"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.a03",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le message nerveux est de nature électrique. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Le long des neurones, le message nerveux est un signal électrique qu'on peut enregistrer.",
+      "step_by_step_solution": [
+        "On peut enregistrer l'activité d'un nerf avec des électrodes.",
+        "On observe des signaux électriques.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Comment enregistre-t-on l'activité d'un nerf ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que le message est une substance qui circule dans le nerf comme dans un tuyau."
+      },
+      "remediation": "Observer un enregistrement de l'activité électrique d'un nerf.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.a04",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Chez un blessé, la moelle épinière est sectionnée au niveau du dos. Il ne sent plus ses jambes et ne peut plus les bouger. Quel élément du trajet nerveux est interrompu ?\nA. Les récepteurs de la peau uniquement\nB. L'œil\nC. La conduction dans la moelle épinière entre les jambes et le cerveau\nD. Les muscles des jambes eux-mêmes",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "La section de la moelle épinière interrompt la conduction des messages entre les jambes et le cerveau, dans les deux sens. Bonne réponse : C. La conduction dans la moelle épinière entre les jambes et le cerveau",
+      "step_by_step_solution": [
+        "Les messages sensitifs des jambes montent vers le cerveau par la moelle épinière.",
+        "Les commandes motrices descendent du cerveau par la moelle.",
+        "La section interrompt les deux trajets."
+      ],
+      "hints": [
+        "La sensibilité et la motricité sont toutes deux touchées."
+      ],
+      "common_errors": {
+        "D": "L'élève pense que les muscles des jambes sont lésés alors qu'ils sont intacts."
+      },
+      "remediation": "Analyser des cas cliniques en repérant où se situe la lésion sur un schéma du système nerveux.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [
+        "Les récepteurs de la peau uniquement",
+        "L'œil",
+        "La conduction dans la moelle épinière entre les jambes et le cerveau",
+        "Les muscles des jambes eux-mêmes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.a05",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment s'appelle ce qui est capté par un récepteur sensoriel (la lumière, un son, la chaleur…) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "stimulus",
+          "un stimulus",
+          "stimuli",
+          "des stimulus"
+        ]
+      },
+      "solution": "Ce qui est capté par un récepteur sensoriel s'appelle un stimulus.",
+      "step_by_step_solution": [
+        "La lumière, le son ou la chaleur agissent sur des récepteurs.",
+        "Ce qui agit sur un récepteur est un stimulus."
+      ],
+      "hints": [
+        "Le mot est latin ; il signifie « aiguillon »."
+      ],
+      "common_errors": {
+        "message nerveux": "Le message nerveux est produit par le récepteur ; ce n'est pas ce qu'il capte."
+      },
+      "remediation": "Remplir un tableau stimulus / récepteur / organe des sens.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.c01",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : temps de réaction d'un élève à un signal lumineux : 0,25 s ; après une nuit trop courte : 0,35 s. De combien le temps de réaction a-t-il augmenté ? Réponds en s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 0.1,
+        "unit": "s"
+      },
+      "solution": "0,35 − 0,25 = 0,10 s : le manque de sommeil ralentit la réaction.",
+      "step_by_step_solution": [
+        "On calcule la différence.",
+        "0,35 − 0,25 = 0,10 s."
+      ],
+      "hints": [
+        "Soustrais les deux durées."
+      ],
+      "common_errors": {
+        "0,6 s": "L'élève additionne les deux durées au lieu de les comparer."
+      },
+      "remediation": "Relier hygiène de vie (sommeil) et fonctionnement du système nerveux en analysant des mesures.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter des mesures",
+        "Relier comportement et fonctionnement nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.c02",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Un élève attrape une règle qu'on lâche sans prévenir. Classe dans l'ordre les éléments impliqués.\nÉléments (dans le désordre) : nerf optique / cerveau / œil / moelle épinière / muscles de la main / nerf moteur\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "œil",
+          "nerf optique",
+          "cerveau",
+          "moelle épinière",
+          "nerf moteur",
+          "muscles de la main"
+        ]
+      },
+      "solution": "L'œil capte la chute, le nerf optique conduit le message au cerveau, qui élabore une commande descendant par la moelle épinière puis par un nerf moteur jusqu'aux muscles de la main. Ordre attendu : œil ; nerf optique ; cerveau ; moelle épinière ; nerf moteur ; muscles de la main.",
+      "step_by_step_solution": [
+        "L'œil capte le stimulus lumineux.",
+        "Le nerf optique conduit le message au cerveau.",
+        "Le cerveau élabore la commande, qui descend par la moelle épinière.",
+        "Un nerf moteur la conduit aux muscles de la main."
+      ],
+      "hints": [
+        "La commande volontaire vient du cerveau et passe par la moelle épinière."
+      ],
+      "common_errors": {
+        "œil ; nerf optique ; moelle épinière ; cerveau ; nerf moteur ; muscles de la main": "L'élève fait passer le message par la moelle épinière avant le cerveau."
+      },
+      "remediation": "Refaire l'expérience de la règle et schématiser le trajet complet.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.c03",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi un nerf peut-il conduire des messages dans les deux sens (vers le centre et vers les muscles) ?\nA. Chaque fibre change de sens toutes les secondes\nB. Le message rebondit sur le muscle\nC. Le nerf est creux comme un tuyau\nD. Il contient à la fois des fibres sensitives et des fibres motrices",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Un nerf contient des fibres sensitives et des fibres motrices (prolongements de neurones différents), chacune conduisant le message dans un seul sens. Bonne réponse : D. Il contient à la fois des fibres sensitives et des fibres motrices",
+      "step_by_step_solution": [
+        "Un nerf est un ensemble de fibres nerveuses.",
+        "Certaines fibres sont sensitives, d'autres motrices.",
+        "Chaque fibre conduit dans un seul sens, mais le nerf contient les deux types."
+      ],
+      "hints": [
+        "Un nerf est comparable à un câble contenant de nombreux fils."
+      ],
+      "common_errors": {
+        "A": "L'élève croit qu'une même fibre conduit dans les deux sens."
+      },
+      "remediation": "Observer une coupe transversale de nerf montrant de nombreuses fibres.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [
+        "Chaque fibre change de sens toutes les secondes",
+        "Le message rebondit sur le muscle",
+        "Le nerf est creux comme un tuyau",
+        "Il contient à la fois des fibres sensitives et des fibres motrices"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.c04",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? La consommation d'alcool peut allonger le temps de réaction. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Le temps de réaction augmente : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. L'alcool perturbe le fonctionnement du système nerveux ; il ralentit la transmission et l'intégration des messages, ce qui allonge le temps de réaction.",
+      "step_by_step_solution": [
+        "L'alcool agit sur le système nerveux.",
+        "Il perturbe la communication entre neurones.",
+        "Le temps de réaction augmente : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Pense aux messages de prévention routière."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que l'alcool n'agit qu'à forte dose ou seulement sur l'humeur."
+      },
+      "remediation": "Analyser des données de temps de réaction selon l'alcoolémie (document de prévention).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.c05",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment s'appelle la zone de contact entre deux neurones, où le message est transmis de l'un à l'autre ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "synapse",
+          "la synapse",
+          "une synapse",
+          "synapses"
+        ]
+      },
+      "solution": "Deux neurones communiquent au niveau d'une synapse, par l'intermédiaire de substances chimiques.",
+      "step_by_step_solution": [
+        "Les neurones ne sont pas soudés entre eux.",
+        "Il existe une zone de contact où le message passe.",
+        "Cette zone s'appelle la synapse."
+      ],
+      "hints": [
+        "Le mot vient du grec « liaison »."
+      ],
+      "common_errors": {
+        "nerf": "Le nerf est un ensemble de fibres, pas la zone de contact entre deux neurones."
+      },
+      "remediation": "Observer un schéma de synapse et localiser la zone où certaines drogues agissent.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire le trajet du message nerveux",
+        "Identifier les éléments du système nerveux"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.x01",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Un message nerveux met 0,015 s pour parcourir un nerf de 0,9 m. Quelle est sa vitesse ? Réponds en m/s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 60,
+        "unit": "m/s"
+      },
+      "solution": "v = d / t = 0,9 / 0,015 = 60 m/s.",
+      "step_by_step_solution": [
+        "v = d / t.",
+        "0,9 / 0,015 = 60.",
+        "La vitesse est de 60 m/s."
+      ],
+      "hints": [
+        "Divise la distance par la durée."
+      ],
+      "common_errors": {
+        "0,0135 m/s": "L'élève multiplie la distance par la durée."
+      },
+      "remediation": "Revoir la formule de la vitesse et l'ordre de grandeur de la vitesse du message nerveux.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une vitesse"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.x02",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : pour un temps de réaction de 1 s, une voiture à 90 km/h (25 m/s) parcourt 25 m avant que le conducteur ne commence à freiner. Sous l'effet de l'alcool, le temps de réaction passe à 1,5 s. Quelle distance la voiture parcourt-elle alors avant le début du freinage ? Réponds en m.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 37.5,
+        "unit": "m"
+      },
+      "solution": "d = v × t = 25 × 1,5 = 37,5 m (au lieu de 25 m).",
+      "step_by_step_solution": [
+        "La voiture roule à 25 m/s.",
+        "Pendant 1,5 s elle parcourt 25 × 1,5 = 37,5 m.",
+        "Soit 12,5 m de plus qu'avec un temps de réaction normal."
+      ],
+      "hints": [
+        "d = v × t avec v en m/s et t en s."
+      ],
+      "common_errors": {
+        "135 m": "L'élève a utilisé 90 au lieu de 25 m/s (vitesse non convertie)."
+      },
+      "remediation": "Relier temps de réaction et sécurité routière ; revoir la conversion km/h → m/s.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier comportements et fonctionnement du système nerveux",
+        "Calculer une distance"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.4E.nerveux.x03",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un patient a une lésion du nerf reliant un muscle de la jambe à la moelle épinière : il ne peut plus contracter ce muscle mais sent encore qu'on touche la peau de sa jambe. Quelles fibres du nerf sont lésées ?\nA. Les récepteurs de la peau\nB. Le cerveau\nC. Les fibres motrices\nD. Les fibres sensitives",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "La motricité est perdue mais la sensibilité conservée : ce sont les fibres motrices qui sont lésées. Bonne réponse : C. Les fibres motrices",
+      "step_by_step_solution": [
+        "La contraction du muscle est impossible : la commande n'arrive plus.",
+        "La sensibilité est conservée : les fibres sensitives fonctionnent.",
+        "Seules les fibres motrices sont lésées."
+      ],
+      "hints": [
+        "Sépare ce qui fonctionne encore de ce qui ne fonctionne plus."
+      ],
+      "common_errors": {
+        "D": "L'élève confond perte de sensibilité et perte de motricité."
+      },
+      "remediation": "Construire un tableau « fonction perdue / fonction conservée / élément lésé » à partir de plusieurs cas.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Raisonner sur un cas clinique"
+      ],
+      "source_notions": [
+        "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses"
+      ],
+      "choices": [
+        "Les récepteurs de la peau",
+        "Le cerveau",
+        "Les fibres motrices",
+        "Les fibres sensitives"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,2229 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.d01",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la modification aléatoire de la fréquence des allèles d'une population au fil des générations ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "dérive génétique",
+          "la dérive génétique",
+          "derive genetique"
+        ]
+      },
+      "solution": "La dérive génétique est une variation aléatoire des fréquences alléliques d'une génération à l'autre.",
+      "step_by_step_solution": [
+        "La variation se fait au hasard, sans lien avec un avantage.",
+        "Elle concerne les fréquences des allèles.",
+        "C'est la dérive génétique."
+      ],
+      "hints": [
+        "Le mot évoque un bateau qui se déplace sans direction imposée."
+      ],
+      "common_errors": {
+        "sélection naturelle": "La sélection naturelle n'est pas aléatoire : elle favorise les porteurs d'allèles avantageux dans un milieu donné."
+      },
+      "remediation": "Comparer dans un tableau dérive génétique (hasard) et sélection naturelle (pression du milieu).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.d02",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? La dérive génétique est plus rapide dans les petites populations. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Les fréquences varient donc plus fortement : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Dans une petite population, le hasard de la transmission des allèles modifie fortement et rapidement leurs fréquences.",
+      "step_by_step_solution": [
+        "À chaque génération, seuls certains allèles sont transmis, au hasard.",
+        "Dans une petite population, ce tirage au hasard porte sur peu d'individus.",
+        "Les fréquences varient donc plus fortement : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Pense à un tirage à pile ou face répété 10 fois ou 10 000 fois."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que l'effectif n'a pas d'influence sur le hasard."
+      },
+      "remediation": "Simuler la dérive avec un logiciel pour des effectifs de 10, 100 et 1 000 individus.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.d03",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une population, on compte 100 allèles d'un gène, dont 30 allèles A. Quelle est la fréquence de l'allèle A ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,3"
+      },
+      "solution": "Fréquence = 30 / 100 = 0,3.",
+      "step_by_step_solution": [
+        "Fréquence d'un allèle = nombre de cet allèle / nombre total d'allèles.",
+        "30 / 100 = 0,3."
+      ],
+      "hints": [
+        "Une fréquence est comprise entre 0 et 1."
+      ],
+      "common_errors": {
+        "30": "L'élève donne l'effectif au lieu de la fréquence."
+      },
+      "remediation": "Revoir la définition d'une fréquence (effectif partiel / effectif total).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.d04",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Le hasard de la dérive génétique peut conduire à la disparition complète d'un allèle dans une population. Que devient alors la fréquence de l'autre allèle (gène à deux allèles) ?\nA. Elle devient égale à 0,5\nB. Elle devient égale à 0\nC. Elle devient supérieure à 1\nD. Elle devient égale à 1 (allèle fixé)",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Si un allèle disparaît, l'autre atteint la fréquence 1 : on dit qu'il est fixé. Bonne réponse : D. Elle devient égale à 1 (allèle fixé)",
+      "step_by_step_solution": [
+        "Pour un gène à deux allèles, la somme des fréquences vaut 1.",
+        "Si l'un a une fréquence de 0, l'autre a une fréquence de 1.",
+        "L'allèle restant est fixé."
+      ],
+      "hints": [
+        "La somme des fréquences des deux allèles est toujours la même."
+      ],
+      "common_errors": {
+        "A": "L'élève pense que la fréquence restante vaut 0,5."
+      },
+      "remediation": "Observer des simulations où un allèle se fixe et un autre disparaît.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [
+        "Elle devient égale à 0,5",
+        "Elle devient égale à 0",
+        "Elle devient supérieure à 1",
+        "Elle devient égale à 1 (allèle fixé)"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.d05",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? La dérive génétique favorise toujours les allèles les plus avantageux. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Elle ne favorise pas systématiquement les allèles avantageux : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. La dérive est aléatoire : elle peut faire augmenter ou disparaître un allèle quel que soit son effet.",
+      "step_by_step_solution": [
+        "La dérive résulte du hasard de la transmission des allèles.",
+        "Elle ne tient pas compte de l'avantage que procure un allèle.",
+        "Elle ne favorise pas systématiquement les allèles avantageux : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Le hasard « choisit »-il ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève confond dérive génétique et sélection naturelle."
+      },
+      "remediation": "Classer des situations selon qu'elles relèvent du hasard ou d'un avantage sélectif.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.a01",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une population compte 50 individus diploïdes. Combien d'allèles d'un gène donné porte-t-elle au total ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "100"
+      },
+      "solution": "Chaque individu diploïde porte 2 allèles de chaque gène : 50 × 2 = 100.",
+      "step_by_step_solution": [
+        "Un individu diploïde possède deux exemplaires de chaque chromosome.",
+        "Il porte donc 2 allèles de chaque gène.",
+        "50 × 2 = 100."
+      ],
+      "hints": [
+        "Chaque individu porte deux exemplaires de chaque gène."
+      ],
+      "common_errors": {
+        "50": "L'élève oublie que chaque individu porte deux allèles."
+      },
+      "remediation": "Rappeler la notion de diploïdie avec un schéma de paire de chromosomes.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Dénombrer les allèles d'une population"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.a02",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une population de 20 individus diploïdes, on compte 8 allèles b. Quelle est la fréquence de l'allèle b ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,2"
+      },
+      "solution": "40 allèles au total (20 × 2) ; fréquence de b = 8 / 40 = 0,2.",
+      "step_by_step_solution": [
+        "Nombre total d'allèles = 20 × 2 = 40.",
+        "Fréquence de b = 8 / 40 = 0,2."
+      ],
+      "hints": [
+        "Calcule d'abord le nombre total d'allèles."
+      ],
+      "common_errors": {
+        "0,4": "L'élève divise par le nombre d'individus (8 / 20) au lieu du nombre d'allèles."
+      },
+      "remediation": "Revoir le calcul : on rapporte au nombre d'allèles, pas au nombre d'individus.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.a03",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quelques individus quittent une grande population et fondent une nouvelle population sur une île. Les fréquences alléliques de la nouvelle population diffèrent par hasard de celles de la population d'origine. Comment appelle-t-on ce phénomène ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "effet fondateur",
+          "l'effet fondateur",
+          "un effet fondateur"
+        ]
+      },
+      "solution": "Un petit groupe fondateur ne porte, par hasard, qu'un échantillon des allèles de la population d'origine : c'est l'effet fondateur, un cas de dérive génétique.",
+      "step_by_step_solution": [
+        "Le groupe de départ est petit.",
+        "Par hasard, ses fréquences alléliques ne sont pas représentatives.",
+        "C'est l'effet fondateur."
+      ],
+      "hints": [
+        "Le nom évoque la « fondation » d'une nouvelle population."
+      ],
+      "common_errors": {
+        "sélection naturelle": "Les différences ne viennent pas d'un avantage mais du hasard de l'échantillonnage."
+      },
+      "remediation": "Étudier l'exemple de populations insulaires ou de communautés isolées.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.a04",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi la dérive génétique a-t-elle peu d'effet sur une très grande population ?\nA. Car les individus y sont tous identiques\nB. Car les écarts dus au hasard se compensent sur un grand nombre d'individus\nC. Car il n'y a jamais de hasard dans une grande population\nD. Car toutes les mutations y sont avantageuses",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Dans une grande population, les écarts dus au hasard se compensent : les fréquences varient peu d'une génération à l'autre. Bonne réponse : B. Car les écarts dus au hasard se compensent sur un grand nombre d'individus",
+      "step_by_step_solution": [
+        "Le hasard agit sur un très grand nombre de transmissions.",
+        "Les écarts se compensent statistiquement.",
+        "Les fréquences restent presque stables."
+      ],
+      "hints": [
+        "Compare 10 lancers de pièce et 10 000 lancers."
+      ],
+      "common_errors": {
+        "C": "L'élève pense que la dérive est absente dans les grandes populations alors qu'elle y est seulement faible."
+      },
+      "remediation": "Réaliser des simulations avec différents effectifs et comparer les courbes obtenues.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [
+        "Car les individus y sont tous identiques",
+        "Car les écarts dus au hasard se compensent sur un grand nombre d'individus",
+        "Car il n'y a jamais de hasard dans une grande population",
+        "Car toutes les mutations y sont avantageuses"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.a05",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "EXPERIMENT_PROTOCOL",
+      "statement": "Remets dans l'ordre les étapes d'une simulation de dérive génétique avec des billes (billes rouges = allèle A, billes blanches = allèle a).\nÉléments (dans le désordre) : placer les billes de la génération parentale dans un sac / calculer les nouvelles fréquences alléliques / recommencer à partir des billes tirées / tirer au hasard les billes de la génération suivante\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "placer les billes de la génération parentale dans un sac",
+          "tirer au hasard les billes de la génération suivante",
+          "calculer les nouvelles fréquences alléliques",
+          "recommencer à partir des billes tirées"
+        ]
+      },
+      "solution": "On tire au hasard les allèles transmis, on calcule les fréquences, puis on recommence génération après génération. Ordre attendu : placer les billes de la génération parentale dans un sac ; tirer au hasard les billes de la génération suivante ; calculer les nouvelles fréquences alléliques ; recommencer à partir des billes tirées.",
+      "step_by_step_solution": [
+        "On part de la génération parentale.",
+        "On tire au hasard les allèles transmis.",
+        "On calcule les fréquences obtenues.",
+        "On recommence avec la nouvelle génération."
+      ],
+      "hints": [
+        "Chaque génération est tirée à partir de la précédente."
+      ],
+      "common_errors": {
+        "placer les billes de la génération parentale dans un sac ; calculer les nouvelles fréquences alléliques ; tirer au hasard les billes de la génération suivante ; recommencer à partir des billes tirées": "L'élève calcule les fréquences avant le tirage : il ne comprend pas que le tirage produit la nouvelle génération."
+      },
+      "remediation": "Réaliser la simulation en classe et tracer l'évolution des fréquences.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.c01",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une population de 10 individus diploïdes, un allèle a une fréquence de 0,1. Combien d'exemplaires de cet allèle y a-t-il dans la population ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "20 allèles au total ; 0,1 × 20 = 2 exemplaires.",
+      "step_by_step_solution": [
+        "Nombre total d'allèles = 10 × 2 = 20.",
+        "Nombre d'exemplaires = 0,1 × 20 = 2."
+      ],
+      "hints": [
+        "Multiplie la fréquence par le nombre total d'allèles."
+      ],
+      "common_errors": {
+        "1": "L'élève multiplie la fréquence par le nombre d'individus."
+      },
+      "remediation": "Discuter : un allèle présent en 2 exemplaires peut facilement disparaître par hasard en une génération.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un effectif à partir d'une fréquence"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.c02",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Vrai ou faux ? Document : dans une simulation, un allèle de fréquence initiale 0,5 est fixé (fréquence 1) en 12 générations dans une population de 10 individus, alors que sa fréquence reste entre 0,45 et 0,55 pendant 100 générations dans une population de 1 000 individus. Vrai ou faux ? Ce document montre que la dérive génétique est plus rapide dans les petites populations. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : La dérive est donc plus rapide dans la petite population : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Dans la petite population, l'allèle est fixé en 12 générations ; dans la grande, sa fréquence reste proche de 0,5 pendant 100 générations.",
+      "step_by_step_solution": [
+        "Petite population : fixation en 12 générations.",
+        "Grande population : fréquence quasi stable pendant 100 générations.",
+        "La dérive est donc plus rapide dans la petite population : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Compare la vitesse d'évolution des fréquences dans les deux populations."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que l'allèle fixé était avantageux."
+      },
+      "remediation": "Relever pour chaque effectif le nombre de générations avant fixation ou disparition.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.c03",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque situation au mécanisme qui l'explique principalement.\nÀ gauche : un allèle neutre disparaît par hasard dans une petite population / un allèle conférant une résistance à un insecticide augmente là où l'on traite / un nouvel allèle apparaît\nÀ droite : sélection naturelle / mutation / dérive génétique\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "un allèle neutre disparaît par hasard dans une petite population": "dérive génétique",
+          "un allèle conférant une résistance à un insecticide augmente là où l'on traite": "sélection naturelle",
+          "un nouvel allèle apparaît": "mutation"
+        }
+      },
+      "solution": "Le hasard dans une petite population relève de la dérive ; l'avantage dans un milieu relève de la sélection ; l'apparition d'un allèle relève de la mutation. Associations : un allèle neutre disparaît par hasard dans une petite population → dérive génétique ; un allèle conférant une résistance à un insecticide augmente là où l'on traite → sélection naturelle ; un nouvel allèle apparaît → mutation.",
+      "step_by_step_solution": [
+        "Disparition au hasard d'un allèle neutre : dérive.",
+        "Augmentation d'un allèle avantageux dans un milieu : sélection naturelle.",
+        "Apparition d'un nouvel allèle : mutation."
+      ],
+      "hints": [
+        "Cherche si le changement dépend d'un avantage, du hasard ou d'une modification de l'ADN."
+      ],
+      "common_errors": {
+        "un allèle neutre disparaît par hasard dans une petite population → sélection naturelle ; un allèle conférant une résistance à un insecticide augmente là où l'on traite → dérive génétique ; un nouvel allèle apparaît → mutation": "Confusion dérive / sélection naturelle."
+      },
+      "remediation": "Construire un tableau comparant mutation, dérive et sélection naturelle.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.c04",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un goulot d'étranglement correspond à une forte réduction brutale de l'effectif d'une population (catastrophe, chasse…). Quelle est sa conséquence principale sur la diversité génétique ?\nA. L'apparition obligatoire de nouvelles espèces\nB. Une diminution de la diversité génétique\nC. Une augmentation de la diversité génétique\nD. Aucune conséquence",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Après un goulot d'étranglement, la population est petite : la dérive accélérée entraîne en général une perte de diversité allélique. Bonne réponse : B. Une diminution de la diversité génétique",
+      "step_by_step_solution": [
+        "L'effectif devient très faible.",
+        "Certains allèles sont perdus par hasard.",
+        "La diversité génétique diminue."
+      ],
+      "hints": [
+        "Dans une petite population, certains allèles rares disparaissent facilement."
+      ],
+      "common_errors": {
+        "C": "L'élève pense que la diversité augmente car les survivants seraient « les meilleurs »."
+      },
+      "remediation": "Étudier le cas du guépard ou de l'éléphant de mer du Nord.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Définir la dérive génétique",
+        "Relier effectif de la population et vitesse de la dérive",
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [
+        "L'apparition obligatoire de nouvelles espèces",
+        "Une diminution de la diversité génétique",
+        "Une augmentation de la diversité génétique",
+        "Aucune conséquence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.c05",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une population de 25 individus diploïdes comprend 9 individus AA, 12 individus Aa et 4 individus aa. Calcule la fréquence de l'allèle A.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,6"
+      },
+      "solution": "Allèles A = 2 × 9 + 12 = 30 ; total = 50 ; fréquence de A = 30 / 50 = 0,6.",
+      "step_by_step_solution": [
+        "Les AA portent 2 allèles A, les Aa en portent 1.",
+        "Nombre d'allèles A = 18 + 12 = 30.",
+        "Total = 25 × 2 = 50 ; fréquence = 30 / 50 = 0,6."
+      ],
+      "hints": [
+        "Compte les allèles A portés par chaque génotype."
+      ],
+      "common_errors": {
+        "0,36": "L'élève calcule la fréquence du génotype AA (9 / 25) au lieu de celle de l'allèle."
+      },
+      "remediation": "Distinguer fréquence d'un génotype et fréquence d'un allèle.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une fréquence allélique"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.x01",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une petite population, la fréquence d'un allèle passe de 0,5 à 0,3 en une génération, sans avantage ni désavantage connu. De combien la fréquence a-t-elle diminué, en pourcentage de sa valeur initiale ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 40,
+        "unit": "%"
+      },
+      "solution": "Diminution = 0,5 − 0,3 = 0,2 ; rapportée à 0,5 : 0,2 / 0,5 = 0,4, soit 40 %.",
+      "step_by_step_solution": [
+        "Variation absolue : 0,5 − 0,3 = 0,2.",
+        "Variation relative : 0,2 / 0,5 = 0,4.",
+        "Soit une diminution de 40 %."
+      ],
+      "hints": [
+        "Distingue variation absolue et variation relative."
+      ],
+      "common_errors": {
+        "20 %": "L'élève donne la variation absolue (0,2) exprimée en pourcentage."
+      },
+      "remediation": "Revoir le calcul d'une variation relative (écart / valeur initiale).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une variation relative",
+        "Interpréter l'effet du hasard"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.x02",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : trois populations isolées d'une même espèce, de 15 individus chacune, partent d'une même fréquence 0,5 pour un allèle neutre. Après 30 générations, cet allèle a une fréquence de 1 dans la première, 0 dans la deuxième et 0,6 dans la troisième. Quel mécanisme explique le mieux ces résultats ?\nA. La sélection naturelle\nB. Une mutation identique dans les trois populations\nC. La migration entre les populations\nD. La dérive génétique",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "L'allèle est neutre et les résultats divergent dans des sens opposés : c'est la marque de la dérive génétique, aléatoire et forte dans de petites populations. Bonne réponse : D. La dérive génétique",
+      "step_by_step_solution": [
+        "Les trois populations partent de la même fréquence.",
+        "Elles évoluent dans des sens différents alors que l'allèle est neutre.",
+        "Ce caractère imprévisible et divergent est typique de la dérive génétique."
+      ],
+      "hints": [
+        "Une sélection naturelle identique dans les trois populations donnerait-elle des résultats opposés ?"
+      ],
+      "common_errors": {
+        "A": "L'élève attribue les différences à la sélection naturelle sans pression de milieu identifiée."
+      },
+      "remediation": "Relier divergence des populations isolées et dérive génétique, première étape possible vers la spéciation.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Interpréter des résultats de simulation"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [
+        "La sélection naturelle",
+        "Une mutation identique dans les trois populations",
+        "La migration entre les populations",
+        "La dérive génétique"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.derive-genetique.x03",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre, de la plus rapide à la plus lente, la vitesse attendue de la dérive génétique pour des populations de 10, 100 et 10 000 individus.\nÉléments (dans le désordre) : 10 000 individus / 10 individus / 100 individus\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "10 individus",
+          "100 individus",
+          "10 000 individus"
+        ]
+      },
+      "solution": "Plus l'effectif est faible, plus la dérive est rapide : 10 > 100 > 10 000. Ordre attendu : 10 individus ; 100 individus ; 10 000 individus.",
+      "step_by_step_solution": [
+        "La dérive est d'autant plus rapide que l'effectif est petit.",
+        "Classement : 10, puis 100, puis 10 000 individus."
+      ],
+      "hints": [
+        "Relis la relation entre effectif et vitesse de la dérive."
+      ],
+      "common_errors": {
+        "100 individus ; 10 individus ; 10 000 individus": "L'élève inverse la relation entre effectif et vitesse de la dérive."
+      },
+      "remediation": "Tracer, à l'aide d'un logiciel de simulation, plusieurs courbes pour chaque effectif et comparer.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier effectif et vitesse de la dérive"
+      ],
+      "source_notions": [
+        "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.d01",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la modification physique et chimique des roches en surface ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "altération",
+          "l'altération",
+          "alteration"
+        ]
+      },
+      "solution": "L'altération est la modification physique et chimique des roches à la surface de la Terre.",
+      "step_by_step_solution": [
+        "Les roches exposées à l'eau et à l'air se modifient.",
+        "Cette modification est physique et chimique.",
+        "C'est l'altération."
+      ],
+      "hints": [
+        "Ce mot signifie « rendre autre »."
+      ],
+      "common_errors": {
+        "érosion": "L'érosion correspond à l'ablation et au transport ; l'altération est la modification de la roche sur place."
+      },
+      "remediation": "Construire un schéma altération (sur place) → érosion (ablation, transport) → sédimentation.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.d02",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? L'eau est le principal facteur de l'altération et de l'érosion des roches. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Elle transporte les débris : c'est le principal agent, l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. L'eau agit chimiquement (dissolution, hydrolyse), physiquement (gel) et assure l'essentiel du transport des produits d'altération.",
+      "step_by_step_solution": [
+        "L'eau réagit avec les minéraux (action chimique).",
+        "Elle fait éclater les roches en gelant (action physique).",
+        "Elle transporte les débris : c'est le principal agent, l'affirmation est vraie."
+      ],
+      "hints": [
+        "Pense à la pluie, au gel et aux rivières."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que le vent est le principal agent de l'érosion partout."
+      },
+      "remediation": "Recenser, sur des photos de paysages, les indices de l'action de l'eau.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.d03",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "L'eau qui gèle dans les fissures d'une roche augmente de volume et la fait éclater. De quel type d'altération s'agit-il ?\nA. Une altération physique\nB. Une altération chimique\nC. Une sédimentation\nD. Une fusion",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le gel-dégel est une altération physique (mécanique) : la roche est fragmentée sans modification de sa composition chimique. Bonne réponse : A. Une altération physique",
+      "step_by_step_solution": [
+        "La roche est fracturée.",
+        "Sa composition chimique ne change pas.",
+        "C'est une altération physique."
+      ],
+      "hints": [
+        "La composition des minéraux est-elle modifiée ?"
+      ],
+      "common_errors": {
+        "B": "L'élève confond altération physique et chimique."
+      },
+      "remediation": "Placer un morceau de craie imbibé d'eau au congélateur plusieurs cycles et observer.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [
+        "Une altération physique",
+        "Une altération chimique",
+        "Une sédimentation",
+        "Une fusion"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.d04",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes allant de la roche en place jusqu'à la roche sédimentaire.\nÉléments (dans le désordre) : transformation en roche (compaction, cimentation) / altération / érosion (ablation et transport) / sédimentation\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "altération",
+          "érosion (ablation et transport)",
+          "sédimentation",
+          "transformation en roche (compaction, cimentation)"
+        ]
+      },
+      "solution": "La roche est altérée, les produits sont arrachés et transportés, déposés, puis transformés en roche sédimentaire. Ordre attendu : altération ; érosion (ablation et transport) ; sédimentation ; transformation en roche (compaction, cimentation).",
+      "step_by_step_solution": [
+        "La roche est altérée sur place.",
+        "Les produits sont enlevés et transportés.",
+        "Ils se déposent.",
+        "Ils deviennent une roche par compaction et cimentation."
+      ],
+      "hints": [
+        "Le dépôt a lieu après le transport."
+      ],
+      "common_errors": {
+        "altération ; sédimentation ; érosion (ablation et transport) ; transformation en roche (compaction, cimentation)": "L'élève place le dépôt avant le transport."
+      },
+      "remediation": "Réaliser un modèle en bac (pente de sable, arrosage) et décrire chaque étape.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.d05",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel est le nom du dépôt de particules transportées, par exemple au fond d'un lac ou dans un delta ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "sédimentation",
+          "la sédimentation",
+          "sédiments",
+          "des sédiments"
+        ]
+      },
+      "solution": "Le dépôt des particules transportées est la sédimentation ; les particules déposées sont des sédiments.",
+      "step_by_step_solution": [
+        "Les particules transportées finissent par se déposer.",
+        "Ce dépôt s'appelle la sédimentation."
+      ],
+      "hints": [
+        "C'est le point de départ des roches dites sédimentaires."
+      ],
+      "common_errors": {
+        "altération": "L'altération précède le transport ; elle ne correspond pas au dépôt."
+      },
+      "remediation": "Observer la décantation d'eau boueuse dans une éprouvette.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.a01",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans l'arène granitique (granite altéré), quel minéral du granite, très résistant, se retrouve presque intact sous forme de grains ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "quartz",
+          "le quartz"
+        ]
+      },
+      "solution": "Le quartz résiste très bien à l'altération ; les feldspaths, eux, sont transformés en argiles.",
+      "step_by_step_solution": [
+        "Le granite contient du quartz, des feldspaths et des micas.",
+        "Les feldspaths s'altèrent en argiles.",
+        "Le quartz reste intact sous forme de grains."
+      ],
+      "hints": [
+        "C'est le minéral transparent et très dur du granite."
+      ],
+      "common_errors": {
+        "feldspath": "Les feldspaths sont justement les minéraux altérés en argiles."
+      },
+      "remediation": "Observer à la loupe un granite sain et une arène granitique.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.a02",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque roche ou minéral à son comportement principal face à l'eau.\nÀ gauche : calcaire / feldspath / quartz\nÀ droite : transformation en argiles / très résistant / dissolution\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "calcaire": "dissolution",
+          "feldspath": "transformation en argiles",
+          "quartz": "très résistant"
+        }
+      },
+      "solution": "Le calcaire se dissout dans l'eau chargée de CO2, les feldspaths sont hydrolysés en argiles, le quartz résiste. Associations : calcaire → dissolution ; feldspath → transformation en argiles ; quartz → très résistant.",
+      "step_by_step_solution": [
+        "Le calcaire se dissout (grottes, lapiaz).",
+        "Les feldspaths se transforment en argiles.",
+        "Le quartz est peu altérable."
+      ],
+      "hints": [
+        "Pense aux grottes creusées dans le calcaire."
+      ],
+      "common_errors": {
+        "calcaire → transformation en argiles ; feldspath → dissolution ; quartz → très résistant": "Confusion entre dissolution du calcaire et hydrolyse des feldspaths."
+      },
+      "remediation": "Tester l'action d'une eau acidifiée sur du calcaire et du granite.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.a03",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Plus un cours d'eau est rapide, plus il peut transporter de grosses particules. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La capacité de transport d'un cours d'eau augmente avec sa vitesse (et son débit) : un torrent rapide peut déplacer des galets.",
+      "step_by_step_solution": [
+        "Une eau rapide possède plus d'énergie.",
+        "Elle peut mettre en mouvement des particules plus grosses.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Compare un torrent de montagne et une rivière de plaine."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que toutes les particules sont transportées de la même façon."
+      },
+      "remediation": "Exploiter un diagramme de Hjulström simplifié (vitesse / taille des particules).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.a04",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi observe-t-on des galets en montagne et des argiles dans les plaines et les deltas ?\nA. Car la vitesse de l'eau diminue vers l'aval et les particules se déposent selon leur taille\nB. Car les galets se transforment en argiles pendant le trajet\nC. Car les argiles sont produites dans les plaines\nD. Car les montagnes ne contiennent pas d'argile",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Quand la vitesse de l'eau diminue vers l'aval, les particules les plus grosses se déposent d'abord ; seules les plus fines sont transportées loin. Bonne réponse : A. Car la vitesse de l'eau diminue vers l'aval et les particules se déposent selon leur taille",
+      "step_by_step_solution": [
+        "En montagne, l'eau est rapide et transporte de grosses particules.",
+        "Vers l'aval, la vitesse diminue.",
+        "Les grosses particules se déposent d'abord, les fines vont plus loin."
+      ],
+      "hints": [
+        "Relie la vitesse de l'eau et la taille des particules déposées."
+      ],
+      "common_errors": {
+        "B": "L'élève pense que les galets se transforment en argile pendant le transport."
+      },
+      "remediation": "Observer le tri des particules dans une gouttière à pente variable.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [
+        "Car la vitesse de l'eau diminue vers l'aval et les particules se déposent selon leur taille",
+        "Car les galets se transforment en argiles pendant le trajet",
+        "Car les argiles sont produites dans les plaines",
+        "Car les montagnes ne contiennent pas d'argile"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.a05",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "L'eau de pluie, légèrement acide, dissout le calcaire et forme des grottes. Quel type d'altération est-ce ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "altération chimique",
+          "chimique",
+          "une altération chimique",
+          "dissolution"
+        ]
+      },
+      "solution": "La dissolution du calcaire est une altération chimique : la composition de la roche est modifiée et des ions passent en solution.",
+      "step_by_step_solution": [
+        "Le calcaire réagit avec l'eau acide.",
+        "Des ions passent en solution : la matière change de nature.",
+        "C'est une altération chimique."
+      ],
+      "hints": [
+        "La roche est-elle simplement fragmentée ?"
+      ],
+      "common_errors": {
+        "physique": "Il ne s'agit pas d'une fragmentation mais d'une réaction entre l'eau et la roche."
+      },
+      "remediation": "Verser de l'acide dilué sur du calcaire et observer l'effervescence.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.c01",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : une rivière transporte chaque année 2 000 tonnes de particules solides et 500 tonnes de matières dissoutes. Quelle est la masse totale transportée par an ? Réponds en t.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 2500,
+        "unit": "t"
+      },
+      "solution": "2 000 + 500 = 2 500 tonnes par an.",
+      "step_by_step_solution": [
+        "On additionne charge solide et charge dissoute.",
+        "2 000 + 500 = 2 500 t."
+      ],
+      "hints": [
+        "La charge totale regroupe le solide et le dissous."
+      ],
+      "common_errors": {
+        "2000 t": "L'élève oublie les matières dissoutes, qui font pourtant partie du transport."
+      },
+      "remediation": "Distinguer charge solide et charge dissoute d'un cours d'eau.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un document chiffré"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.c02",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : sur un versant nu, l'érosion enlève 1,5 mm de sol par an. Quelle épaisseur de sol sera enlevée en 200 ans ? Réponds en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 30,
+        "unit": "cm"
+      },
+      "solution": "1,5 × 200 = 300 mm = 30 cm.",
+      "step_by_step_solution": [
+        "1,5 mm × 200 = 300 mm.",
+        "300 mm = 30 cm."
+      ],
+      "hints": [
+        "Calcule en mm puis convertis."
+      ],
+      "common_errors": {
+        "300 cm": "L'élève oublie de convertir les mm en cm."
+      },
+      "remediation": "Discuter de la lenteur de formation des sols comparée à la vitesse de leur érosion.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer et convertir"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.c03",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Une couverture végétale limite l'érosion des sols par l'eau. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'érosion est donc limitée : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les racines retiennent le sol et le couvert végétal freine le ruissellement : l'érosion est réduite.",
+      "step_by_step_solution": [
+        "Les racines maintiennent les particules du sol.",
+        "Les végétaux freinent l'impact et l'écoulement de l'eau.",
+        "L'érosion est donc limitée : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Compare un champ labouré nu et une prairie après un orage."
+      ],
+      "common_errors": {
+        "faux": "L'élève ne relie pas couverture végétale et protection des sols."
+      },
+      "remediation": "Comparer deux bacs (sol nu / sol enherbé) arrosés de la même façon et mesurer la terre emportée.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.c04",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi l'altération chimique est-elle généralement plus intense sous un climat chaud et humide ?\nA. Car il n'y a pas de végétation\nB. Car les roches y sont toutes en quartz\nC. Car la chaleur accélère les réactions et l'eau y est abondante\nD. Car il y gèle souvent",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Les réactions chimiques sont plus rapides à température élevée et l'eau, abondante, est le réactif principal de l'altération. Bonne réponse : C. Car la chaleur accélère les réactions et l'eau y est abondante",
+      "step_by_step_solution": [
+        "L'eau est le principal agent de l'altération chimique.",
+        "Les réactions sont plus rapides quand il fait chaud.",
+        "Climat chaud et humide = altération chimique intense."
+      ],
+      "hints": [
+        "Quels sont les deux facteurs du climat qui interviennent ?"
+      ],
+      "common_errors": {
+        "D": "L'élève pense que le gel est le facteur principal partout."
+      },
+      "remediation": "Comparer l'épaisseur des sols et des altérites sous climat tropical et sous climat froid.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [
+        "Car il n'y a pas de végétation",
+        "Car les roches y sont toutes en quartz",
+        "Car la chaleur accélère les réactions et l'eau y est abondante",
+        "Car il y gèle souvent"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.c05",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre, de la plus grosse à la plus fine, ces particules transportées par les rivières.\nÉléments (dans le désordre) : galets / graviers / argiles / limons / sables\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "galets",
+          "graviers",
+          "sables",
+          "limons",
+          "argiles"
+        ]
+      },
+      "solution": "Classement granulométrique : galets > graviers > sables > limons > argiles. Ordre attendu : galets ; graviers ; sables ; limons ; argiles.",
+      "step_by_step_solution": [
+        "Les galets sont les plus gros.",
+        "Viennent ensuite graviers, sables, limons.",
+        "Les argiles sont les plus fines."
+      ],
+      "hints": [
+        "Les argiles sont microscopiques."
+      ],
+      "common_errors": {
+        "galets ; graviers ; limons ; sables ; argiles": "L'élève inverse sables et limons."
+      },
+      "remediation": "Tamiser un échantillon de sédiments avec des tamis de mailles différentes.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer altération et érosion",
+        "Relier l'eau aux mécanismes d'altération, de transport et de dépôt"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.x01",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : un bassin versant de 100 km² perd chaque année 50 000 t de roches par érosion. Quelle masse est perdue par km² et par an ? Réponds en t.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 500,
+        "unit": "t"
+      },
+      "solution": "50 000 / 100 = 500 t par km² et par an.",
+      "step_by_step_solution": [
+        "On rapporte la perte à la surface.",
+        "50 000 / 100 = 500."
+      ],
+      "hints": [
+        "Divise la masse par la surface."
+      ],
+      "common_errors": {
+        "5000000 t": "L'élève multiplie au lieu de diviser."
+      },
+      "remediation": "Revoir la notion de grandeur rapportée à une surface (taux d'érosion).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document chiffré",
+        "Quantifier l'érosion"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.x02",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "GRAPH_INTERPRETATION",
+      "statement": "Document : diagramme simplifié — une particule de sable (0,5 mm) est arrachée à partir de 0,2 m/s et se dépose en dessous de 0,05 m/s. Une rivière ralentit de 0,3 m/s à 0,1 m/s en entrant dans une plaine. Que devient le sable qu'elle transportait ?\nA. Il est à nouveau arraché au lit\nB. Il continue d'être transporté sans se déposer\nC. Il se dépose immédiatement\nD. Il est dissous",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "À 0,1 m/s, la vitesse est inférieure au seuil d'arrachement (0,2 m/s) mais supérieure au seuil de dépôt (0,05 m/s) : le sable reste transporté mais n'est plus arraché au lit. Bonne réponse : B. Il continue d'être transporté sans se déposer",
+      "step_by_step_solution": [
+        "Seuil d'arrachement : 0,2 m/s ; seuil de dépôt : 0,05 m/s.",
+        "0,1 m/s est entre les deux seuils.",
+        "Le sable déjà en mouvement continue d'être transporté ; il ne se dépose pas encore."
+      ],
+      "hints": [
+        "Situe 0,1 m/s par rapport aux deux seuils."
+      ],
+      "common_errors": {
+        "C": "L'élève pense qu'en dessous du seuil d'arrachement, tout se dépose immédiatement."
+      },
+      "remediation": "Lire un diagramme de Hjulström en distinguant les trois domaines : érosion, transport, sédimentation.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un diagramme",
+        "Relier vitesse de l'eau et transport"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [
+        "Il est à nouveau arraché au lit",
+        "Il continue d'être transporté sans se déposer",
+        "Il se dépose immédiatement",
+        "Il est dissous"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.erosion.x03",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Un granite contient 30 % de quartz, 60 % de feldspaths et 10 % de micas. Après une altération complète des feldspaths en argiles, quel pourcentage de la roche initiale reste sous forme de grains de quartz ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 30,
+        "unit": "%"
+      },
+      "solution": "Le quartz n'est presque pas altéré : les 30 % de quartz restent sous forme de grains.",
+      "step_by_step_solution": [
+        "Le quartz résiste à l'altération.",
+        "Sa proportion dans la roche initiale est de 30 %.",
+        "Il reste 30 % de la roche sous forme de grains de quartz."
+      ],
+      "hints": [
+        "Quel minéral résiste le mieux à l'altération ?"
+      ],
+      "common_errors": {
+        "60 %": "L'élève confond le minéral résistant (quartz) et le minéral altéré (feldspath)."
+      },
+      "remediation": "Relier composition minéralogique et résistance à l'altération (quartz > micas > feldspaths).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier nature de la roche et résistance à l'altération"
+      ],
+      "source_notions": [
+        "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.d01",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on l'organisme aux dépens duquel vit un agent pathogène ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "hôte",
+          "l'hôte",
+          "un hôte",
+          "hote"
+        ]
+      },
+      "solution": "L'organisme aux dépens duquel vit un agent pathogène est son hôte ; il devient le milieu de vie du pathogène.",
+      "step_by_step_solution": [
+        "L'agent pathogène vit dans un autre organisme.",
+        "Cet organisme est appelé l'hôte."
+      ],
+      "hints": [
+        "Le mot désigne aussi celui qui reçoit des invités."
+      ],
+      "common_errors": {
+        "vecteur": "Le vecteur transmet le pathogène d'un hôte à un autre ; ce n'est pas l'organisme aux dépens duquel il vit."
+      },
+      "remediation": "Construire un schéma : pathogène → hôte → symptômes, avec éventuellement un vecteur.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.d02",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Tous les agents pathogènes sont des bactéries. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Tous ne sont donc pas des bactéries : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Les agents pathogènes peuvent être des virus, certaines bactéries ou certains eucaryotes (par exemple le Plasmodium du paludisme).",
+      "step_by_step_solution": [
+        "Il existe des virus pathogènes (grippe, VIH).",
+        "Certains eucaryotes sont pathogènes (Plasmodium).",
+        "Tous ne sont donc pas des bactéries : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Le paludisme est-il dû à une bactérie ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève assimile « microbe » et « bactérie »."
+      },
+      "remediation": "Construire un tableau virus / bactérie / eucaryote pathogène avec un exemple chacun.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.d03",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel type d'agent pathogène n'est pas une cellule et ne peut se multiplier qu'à l'intérieur des cellules d'un hôte ?\nA. Un protozoaire\nB. Un virus\nC. Une bactérie\nD. Un champignon microscopique",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Un virus n'est pas une cellule ; il utilise la machinerie des cellules de l'hôte pour se multiplier.",
+      "step_by_step_solution": [
+        "Les bactéries et les eucaryotes sont des cellules.",
+        "Les virus ne sont pas des cellules.",
+        "Ils se multiplient uniquement dans les cellules d'un hôte."
+      ],
+      "hints": [
+        "Il est beaucoup plus petit qu'une bactérie."
+      ],
+      "common_errors": {
+        "C": "Confusion virus / bactérie."
+      },
+      "remediation": "Comparer des images à la même échelle d'une cellule, d'une bactérie et d'un virus.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [
+        "Un protozoaire",
+        "Un virus",
+        "Une bactérie",
+        "Un champignon microscopique"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.d04",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Le paludisme est transmis d'un humain à l'autre par la piqûre d'un moustique. Comment appelle-t-on un organisme qui transporte un pathogène d'un hôte à un autre ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "vecteur",
+          "un vecteur",
+          "vecteur biologique",
+          "le vecteur"
+        ]
+      },
+      "solution": "Le moustique est un vecteur biologique : il transmet le pathogène d'un hôte à un autre.",
+      "step_by_step_solution": [
+        "Le moustique n'est pas la cause du paludisme.",
+        "Il transporte le pathogène d'un humain à l'autre.",
+        "C'est un vecteur."
+      ],
+      "hints": [
+        "Ce mot est aussi utilisé en mathématiques pour une flèche."
+      ],
+      "common_errors": {
+        "hôte": "L'élève confond l'organisme qui transporte et celui aux dépens duquel vit le pathogène."
+      },
+      "remediation": "Réaliser un schéma de la transmission du paludisme (humain → moustique → humain).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.d05",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque maladie au type d'agent pathogène qui la provoque.\nÀ gauche : grippe / tuberculose / paludisme\nÀ droite : bactérie / virus / eucaryote unicellulaire\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "grippe": "virus",
+          "tuberculose": "bactérie",
+          "paludisme": "eucaryote unicellulaire"
+        }
+      },
+      "solution": "La grippe est due à un virus, la tuberculose à une bactérie, le paludisme à un eucaryote unicellulaire (Plasmodium). Associations : grippe → virus ; tuberculose → bactérie ; paludisme → eucaryote unicellulaire.",
+      "step_by_step_solution": [
+        "Grippe : virus influenza.",
+        "Tuberculose : bacille de Koch (bactérie).",
+        "Paludisme : Plasmodium (eucaryote unicellulaire)."
+      ],
+      "hints": [
+        "Le paludisme n'est pas dû à une bactérie."
+      ],
+      "common_errors": {
+        "grippe → virus ; tuberculose → eucaryote unicellulaire ; paludisme → bactérie": "Confusion des types d'agents pathogènes."
+      },
+      "remediation": "Construire une fiche par maladie : agent, transmission, prévention.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.a01",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes de la transmission du paludisme.\nÉléments (dans le désordre) : le Plasmodium se développe dans le moustique / le moustique pique une personne saine / un moustique pique une personne infectée / le Plasmodium se multiplie dans le foie puis dans les globules rouges\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "un moustique pique une personne infectée",
+          "le Plasmodium se développe dans le moustique",
+          "le moustique pique une personne saine",
+          "le Plasmodium se multiplie dans le foie puis dans les globules rouges"
+        ]
+      },
+      "solution": "Le moustique s'infecte en piquant une personne malade, le parasite s'y développe, puis il est transmis à une nouvelle personne où il se multiplie. Ordre attendu : un moustique pique une personne infectée ; le Plasmodium se développe dans le moustique ; le moustique pique une personne saine ; le Plasmodium se multiplie dans le foie puis dans les globules rouges.",
+      "step_by_step_solution": [
+        "Le moustique prélève le parasite en piquant une personne infectée.",
+        "Le parasite se développe dans le moustique.",
+        "Le moustique le transmet en piquant une autre personne.",
+        "Le parasite se multiplie dans le foie puis dans les globules rouges."
+      ],
+      "hints": [
+        "Le moustique doit d'abord être infecté."
+      ],
+      "common_errors": {
+        "un moustique pique une personne infectée ; le moustique pique une personne saine ; le Plasmodium se développe dans le moustique ; le Plasmodium se multiplie dans le foie puis dans les globules rouges": "L'élève pense que le parasite est transmis immédiatement sans développement dans le moustique."
+      },
+      "remediation": "Schématiser le cycle en deux hôtes (humain et moustique).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.a02",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Un réservoir de pathogènes peut être un animal qui n'est pas malade. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Le réservoir peut être humain ou animal, malade ou non : certains animaux hébergent un pathogène sans symptôme.",
+      "step_by_step_solution": [
+        "Le réservoir est l'organisme où le pathogène se maintient.",
+        "Il peut ne présenter aucun symptôme.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Un porteur sain peut-il transmettre un pathogène ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense qu'un réservoir est forcément malade."
+      },
+      "remediation": "Analyser un document sur un réservoir animal (chauves-souris, rongeurs).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.a03",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : dans une ville de 50 000 habitants, 1 500 personnes sont infectées. Quelle est la prévalence de l'infection, en % ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 3,
+        "unit": "%"
+      },
+      "solution": "1 500 / 50 000 = 0,03, soit 3 %.",
+      "step_by_step_solution": [
+        "Prévalence = nombre de personnes infectées / population.",
+        "1 500 / 50 000 = 0,03.",
+        "Soit 3 %."
+      ],
+      "hints": [
+        "Rapporte le nombre de cas à la population totale."
+      ],
+      "common_errors": {
+        "30 %": "Erreur d'un facteur 10 dans le calcul du pourcentage."
+      },
+      "remediation": "Revoir le calcul d'un pourcentage et la définition de la prévalence.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une prévalence"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.a04",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle mesure agit directement sur le vecteur pour limiter la transmission du paludisme ?\nA. Se laver les mains\nB. Porter un masque\nC. Prendre un antibiotique\nD. Dormir sous une moustiquaire imprégnée",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "La moustiquaire (surtout imprégnée d'insecticide) empêche les piqûres du moustique vecteur. Bonne réponse : D. Dormir sous une moustiquaire imprégnée",
+      "step_by_step_solution": [
+        "Le paludisme est transmis par un moustique.",
+        "Agir sur le vecteur, c'est empêcher les piqûres ou réduire les moustiques.",
+        "La moustiquaire empêche les piqûres."
+      ],
+      "hints": [
+        "Le moustique pique surtout la nuit."
+      ],
+      "common_errors": {
+        "A": "L'élève pense que se laver les mains protège d'une maladie vectorielle."
+      },
+      "remediation": "Classer les moyens de lutte selon leur cible : pathogène, vecteur, hôte.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [
+        "Se laver les mains",
+        "Porter un masque",
+        "Prendre un antibiotique",
+        "Dormir sous une moustiquaire imprégnée"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.a05",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la propagation rapide d'une maladie infectieuse à un grand nombre de personnes dans une région donnée ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "épidémie",
+          "une épidémie",
+          "epidemie"
+        ]
+      },
+      "solution": "Une épidémie est la propagation rapide d'une maladie à un grand nombre de personnes dans une région.",
+      "step_by_step_solution": [
+        "La maladie se propage rapidement.",
+        "Elle touche beaucoup de personnes dans une région.",
+        "C'est une épidémie."
+      ],
+      "hints": [
+        "Si elle touche plusieurs continents, on parle de pandémie."
+      ],
+      "common_errors": {
+        "pandémie": "La pandémie est une épidémie étendue à plusieurs continents."
+      },
+      "remediation": "Comparer épidémie, pandémie et endémie à partir de cartes.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.c01",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque mode de transmission à un exemple de maladie.\nÀ gauche : par un vecteur / par voie aérienne (gouttelettes) / par voie sexuelle ou sanguine\nÀ droite : grippe / infection par le VIH / paludisme\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "par un vecteur": "paludisme",
+          "par voie aérienne (gouttelettes)": "grippe",
+          "par voie sexuelle ou sanguine": "infection par le VIH"
+        }
+      },
+      "solution": "Le paludisme est vectoriel, la grippe se transmet par gouttelettes, le VIH par voie sexuelle, sanguine ou de la mère à l'enfant. Associations : par un vecteur → paludisme ; par voie aérienne (gouttelettes) → grippe ; par voie sexuelle ou sanguine → infection par le VIH.",
+      "step_by_step_solution": [
+        "Paludisme : piqûre de moustique.",
+        "Grippe : gouttelettes respiratoires.",
+        "VIH : rapports sexuels non protégés, sang, mère-enfant."
+      ],
+      "hints": [
+        "Seule une de ces maladies nécessite un moustique."
+      ],
+      "common_errors": {
+        "par un vecteur → paludisme ; par voie aérienne (gouttelettes) → infection par le VIH ; par voie sexuelle ou sanguine → grippe": "Confusion des modes de transmission de la grippe et du VIH."
+      },
+      "remediation": "Relier chaque mode de transmission aux gestes de prévention adaptés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.c02",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi le préservatif est-il un moyen de limiter la transmission du VIH ?\nA. Il détruit le virus dans le sang\nB. Il vaccine contre le VIH\nC. Il tue les moustiques\nD. Il forme une barrière aux liquides biologiques contenant le virus",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Le VIH se transmet notamment lors de rapports sexuels ; le préservatif empêche le contact avec les liquides biologiques contenant le virus. Bonne réponse : D. Il forme une barrière aux liquides biologiques contenant le virus",
+      "step_by_step_solution": [
+        "Le VIH se transmet par voie sexuelle.",
+        "Le préservatif forme une barrière.",
+        "Il empêche le contact avec les liquides contenant le virus."
+      ],
+      "hints": [
+        "Relie le moyen de prévention au mode de transmission."
+      ],
+      "common_errors": {
+        "A": "L'élève pense que le préservatif détruit le virus."
+      },
+      "remediation": "Relier systématiquement mode de transmission et moyen de prévention.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [
+        "Il détruit le virus dans le sang",
+        "Il vaccine contre le VIH",
+        "Il tue les moustiques",
+        "Il forme une barrière aux liquides biologiques contenant le virus"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.c03",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le changement climatique peut étendre la zone de transmission de certaines maladies vectorielles. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : La transmission peut s'étendre : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. En modifiant les températures, il permet à certains vecteurs (moustiques) de s'installer dans de nouvelles régions.",
+      "step_by_step_solution": [
+        "Les vecteurs, comme les moustiques, ont des besoins en température.",
+        "Le réchauffement ouvre de nouvelles zones favorables.",
+        "La transmission peut s'étendre : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Le moustique tigre s'installe-t-il en France métropolitaine ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que les maladies vectorielles tropicales ne peuvent pas atteindre les régions tempérées."
+      },
+      "remediation": "Exploiter une carte de l'extension du moustique tigre en France.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.c04",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : une épidémie compte 200 cas la semaine 1 et 600 cas la semaine 2. Par combien le nombre de cas a-t-il été multiplié ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "600 / 200 = 3.",
+      "step_by_step_solution": [
+        "On cherche un facteur multiplicatif.",
+        "600 / 200 = 3."
+      ],
+      "hints": [
+        "Divise le nombre de cas de la semaine 2 par celui de la semaine 1."
+      ],
+      "common_errors": {
+        "400": "L'élève calcule une différence au lieu d'un facteur."
+      },
+      "remediation": "Distinguer augmentation absolue et facteur multiplicatif.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un document"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.c05",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on les manifestations visibles d'une maladie causées par le préjudice que le pathogène porte à l'hôte (fièvre, toux…) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "symptômes",
+          "les symptômes",
+          "symptôme",
+          "symptomes"
+        ]
+      },
+      "solution": "Le préjudice subi par l'hôte se manifeste par des symptômes.",
+      "step_by_step_solution": [
+        "Le pathogène porte préjudice à son hôte.",
+        "Ce préjudice se voit par des signes : ce sont les symptômes."
+      ],
+      "hints": [
+        "Le médecin les recherche lors d'un examen."
+      ],
+      "common_errors": {
+        "anticorps": "Les anticorps sont des molécules de défense, pas des manifestations visibles de la maladie."
+      },
+      "remediation": "Distinguer symptômes, agent pathogène et réponse de l'organisme sur un exemple.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Caractériser les agents pathogènes et leurs relations avec l'hôte",
+        "Relier modes de transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.x01",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : sans moustiquaire, on compte 40 cas de paludisme pour 1 000 enfants par an ; avec moustiquaire imprégnée, 24 cas pour 1 000. De quel pourcentage le nombre de cas diminue-t-il ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 40,
+        "unit": "%"
+      },
+      "solution": "Diminution = 40 − 24 = 16 cas ; 16 / 40 = 0,4, soit 40 %.",
+      "step_by_step_solution": [
+        "Diminution absolue : 40 − 24 = 16 cas pour 1 000.",
+        "Diminution relative : 16 / 40 = 0,4.",
+        "Soit une baisse de 40 %."
+      ],
+      "hints": [
+        "Rapporte la diminution au nombre initial de cas."
+      ],
+      "common_errors": {
+        "16 %": "L'élève donne la diminution absolue comme un pourcentage."
+      },
+      "remediation": "Revoir le calcul d'une variation relative.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une variation relative",
+        "Évaluer un moyen de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.x02",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Une maladie est transmise par des gouttelettes respiratoires émises par des personnes infectées, parfois sans symptôme. Remets dans l'ordre la chaîne de transmission.\nÉléments (dans le désordre) : infection d'un nouvel hôte / contact avec une personne non protégée / personne infectée (réservoir) / émission de gouttelettes\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "personne infectée (réservoir)",
+          "émission de gouttelettes",
+          "contact avec une personne non protégée",
+          "infection d'un nouvel hôte"
+        ]
+      },
+      "solution": "Le pathogène quitte le réservoir dans des gouttelettes, atteint une personne non protégée et l'infecte. Ordre attendu : personne infectée (réservoir) ; émission de gouttelettes ; contact avec une personne non protégée ; infection d'un nouvel hôte.",
+      "step_by_step_solution": [
+        "Le réservoir est une personne infectée.",
+        "Elle émet des gouttelettes contenant le pathogène.",
+        "Une personne non protégée est exposée.",
+        "Elle devient un nouvel hôte."
+      ],
+      "hints": [
+        "Chaque maillon peut être la cible d'une mesure de prévention."
+      ],
+      "common_errors": {
+        "personne infectée (réservoir) ; contact avec une personne non protégée ; émission de gouttelettes ; infection d'un nouvel hôte": "L'élève place le contact avant l'émission du pathogène."
+      },
+      "remediation": "Associer chaque maillon à un geste de protection (isolement, masque, aération, vaccination).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier chaîne de transmission et prévention"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.2NDE.pathogenes.x03",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi connaître le vecteur d'une maladie est-il essentiel pour organiser la lutte collective ?\nA. Parce que le vecteur est toujours un humain\nB. Pour interrompre la chaîne de transmission en agissant sur le vecteur\nC. Parce que le vecteur est toujours l'agent pathogène lui-même\nD. Parce qu'un antibiotique tue tous les vecteurs",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Connaître le vecteur permet de cibler la lutte : réduire ses populations et empêcher le contact avec les humains, ce qui coupe la transmission. Bonne réponse : B. Pour interrompre la chaîne de transmission en agissant sur le vecteur",
+      "step_by_step_solution": [
+        "La transmission passe obligatoirement par le vecteur.",
+        "Agir sur le vecteur interrompt la chaîne de transmission.",
+        "On peut alors organiser la lutte (gîtes larvaires, moustiquaires)."
+      ],
+      "hints": [
+        "Que se passe-t-il si le vecteur ne peut plus piquer ?"
+      ],
+      "common_errors": {
+        "C": "L'élève pense qu'un traitement antibiotique suffit à stopper toute maladie vectorielle."
+      },
+      "remediation": "Étudier un plan de lutte contre le moustique tigre (suppression des eaux stagnantes).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier connaissance de la transmission et moyens de lutte"
+      ],
+      "source_notions": [
+        "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes"
+      ],
+      "choices": [
+        "Parce que le vecteur est toujours un humain",
+        "Pour interrompre la chaîne de transmission en agissant sur le vecteur",
+        "Parce que le vecteur est toujours l'agent pathogène lui-même",
+        "Parce qu'un antibiotique tue tous les vecteurs"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

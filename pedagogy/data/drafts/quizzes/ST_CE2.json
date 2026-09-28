@@ -1,0 +1,814 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q01",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Lequel est un liquide ?",
+      "choices": [
+        "l'huile",
+        "le sel",
+        "la pierre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'huile",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'huile coule et prend la forme du récipient : c'est un liquide.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le sel est un solide en grains.",
+        "2": "La pierre garde sa forme : solide."
+      },
+      "common_error_target": {
+        "1": "confondre poudre et liquide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q02",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Lequel est un solide ?",
+      "choices": [
+        "le bois",
+        "le lait",
+        "le jus d'orange"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le bois",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le bois garde sa forme : c'est un solide.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le lait coule : liquide.",
+        "2": "Le jus d'orange coule : liquide."
+      },
+      "common_error_target": {
+        "1": "inverser solide et liquide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q03",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Un solide a…",
+      "choices": [
+        "une forme propre",
+        "la forme du récipient",
+        "une surface toujours horizontale"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une forme propre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un solide garde sa forme : il a une forme propre.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Prendre la forme du récipient, c'est le liquide.",
+        "2": "La surface horizontale est une propriété des liquides."
+      },
+      "common_error_target": {
+        "1": "inverser les propriétés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q04",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Un liquide prend…",
+      "choices": [
+        "la forme du récipient",
+        "toujours la forme d'une boule",
+        "une forme propre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la forme du récipient",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un liquide n'a pas de forme propre : il prend la forme du récipient.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Un liquide dans un verre ne forme pas une boule.",
+        "2": "La forme propre est une propriété des solides."
+      },
+      "common_error_target": {
+        "2": "inverser les propriétés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q05",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Au repos, la surface libre d'un liquide est…",
+      "choices": [
+        "horizontale",
+        "verticale",
+        "bosselée"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "horizontale",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La surface libre d'un liquide au repos est horizontale.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Elle n'est jamais verticale au repos.",
+        "2": "Au repos, elle est plane et horizontale."
+      },
+      "common_error_target": {
+        "1": "croire que la surface suit le récipient"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q06",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Le sable est…",
+      "choices": [
+        "un solide en grains",
+        "un liquide épais",
+        "un liquide transparent"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un solide en grains",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque grain de sable garde sa forme : c'est un solide en grains.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le sable s'écoule, mais ses grains ont une forme propre.",
+        "2": "Le sable n'est pas un liquide."
+      },
+      "common_error_target": {
+        "1": "croire que tout ce qui s'écoule est liquide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q07",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Le sirop est…",
+      "choices": [
+        "un liquide",
+        "un solide",
+        "un solide en grains"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un liquide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le sirop coule et prend la forme du récipient : c'est un liquide.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le sirop n'a pas de forme propre.",
+        "2": "Le sirop n'est pas fait de grains."
+      },
+      "common_error_target": {
+        "1": "croire qu'un liquide épais est solide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q08",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "On transvase de l'eau dans un récipient plus large. Son volume…",
+      "choices": [
+        "ne change pas",
+        "augmente",
+        "diminue"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ne change pas",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un liquide a un volume propre : transvaser ne change pas son volume.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On n'a pas ajouté d'eau.",
+        "2": "L'eau est moins haute, mais son volume est le même."
+      },
+      "common_error_target": {
+        "2": "juger le volume à la hauteur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q09",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Qu'ont en commun un solide et un liquide ?",
+      "choices": [
+        "un volume propre",
+        "une forme propre",
+        "une surface horizontale"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un volume propre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Solides et liquides ont un volume propre ; seul le solide a une forme propre.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le liquide n'a pas de forme propre.",
+        "2": "Seuls les liquides ont une surface libre horizontale."
+      },
+      "common_error_target": {
+        "1": "croire qu'un liquide a une forme propre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.solide-liquide.q10",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "On penche une bouteille d'eau. La surface de l'eau…",
+      "choices": [
+        "reste horizontale",
+        "se penche avec la bouteille",
+        "devient verticale"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "reste horizontale",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Même si la bouteille est penchée, la surface libre de l'eau au repos reste horizontale.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "C'est la bouteille qui penche, pas la surface.",
+        "2": "La surface de l'eau au repos n'est jamais verticale."
+      },
+      "common_error_target": {
+        "1": "croire que la surface suit le récipient"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q01",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "« herbe → vache » veut dire…",
+      "choices": [
+        "l'herbe est mangée par la vache",
+        "la vache est mangée par l'herbe",
+        "la vache dort dans l'herbe"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'herbe est mangée par la vache",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La flèche se lit « est mangé par » : l'herbe est mangée par la vache.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est lire la flèche à l'envers.",
+        "2": "La flèche parle de nourriture, pas d'endroit."
+      },
+      "common_error_target": {
+        "1": "lire la flèche à l'envers"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q02",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Une chaîne alimentaire commence par…",
+      "choices": [
+        "un végétal",
+        "un carnivore",
+        "un omnivore"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un végétal",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le premier maillon est toujours un végétal.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Un carnivore mange des animaux : il ne peut pas être au début.",
+        "2": "Un omnivore mange aussi des animaux."
+      },
+      "common_error_target": {
+        "1": "commencer par le plus gros animal"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q03",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Quelle chaîne est juste ?",
+      "choices": [
+        "salade → escargot → hérisson",
+        "hérisson → escargot → salade",
+        "escargot → salade → hérisson"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "salade → escargot → hérisson",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On commence par le végétal (salade), mangé par l'escargot, lui-même mangé par le hérisson.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Cette chaîne est écrite à l'envers.",
+        "2": "La salade ne mange pas l'escargot."
+      },
+      "common_error_target": {
+        "1": "écrire la chaîne à l'envers"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q04",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Complète : herbe → lapin → …",
+      "choices": [
+        "renard",
+        "carotte",
+        "herbe"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "renard",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le lapin est mangé par le renard.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La carotte est un végétal : elle ne mange pas le lapin.",
+        "2": "L'herbe est déjà au début de la chaîne."
+      },
+      "common_error_target": {
+        "1": "mettre un aliment du lapin après lui"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q05",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Dans « feuille → chenille → mésange », la mésange mange…",
+      "choices": [
+        "la chenille",
+        "la feuille",
+        "le renard"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la chenille",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La mésange est juste après la chenille : elle mange la chenille.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est la chenille qui mange la feuille.",
+        "2": "Le renard n'est pas dans cette chaîne."
+      },
+      "common_error_target": {
+        "1": "sauter un maillon"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q06",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Dans « algues → petit poisson → brochet », que mange le petit poisson ?",
+      "choices": [
+        "les algues",
+        "le brochet",
+        "rien du tout"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "les algues",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le petit poisson est juste après les algues : il mange les algues.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est le brochet qui mange le petit poisson.",
+        "2": "Tout animal a besoin de se nourrir."
+      },
+      "common_error_target": {
+        "1": "lire la flèche à l'envers"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q07",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Quel être vivant peut commencer une chaîne alimentaire ?",
+      "choices": [
+        "un chêne",
+        "un loup",
+        "une chouette"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un chêne",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le chêne est un végétal : il peut être le premier maillon.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le loup mange d'autres animaux.",
+        "2": "La chouette mange d'autres animaux."
+      },
+      "common_error_target": {
+        "1": "commencer par un animal"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q08",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Que veut dire la flèche dans une chaîne alimentaire ?",
+      "choices": [
+        "est mangé par",
+        "mange",
+        "habite chez"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "est mangé par",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La flèche va de l'aliment vers celui qui le mange : elle veut dire « est mangé par ».",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est le sens inverse de la flèche.",
+        "2": "La flèche parle de nourriture."
+      },
+      "common_error_target": {
+        "1": "lire la flèche à l'envers"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q09",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Combien de maillons a la chaîne « herbe → criquet → grenouille → héron » ?",
+      "choices": [
+        "4",
+        "3",
+        "5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Il y a quatre êtres vivants, donc quatre maillons : herbe, criquet, grenouille, héron.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Il y a 3 flèches, mais 4 maillons.",
+        "2": "Il n'y a pas 5 êtres vivants dans cette chaîne."
+      },
+      "common_error_target": {
+        "1": "compter les flèches au lieu des maillons"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.chaine-alimentaire.q10",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Quelle chaîne est dans le bon sens ?",
+      "choices": [
+        "herbe → sauterelle → lézard",
+        "lézard → sauterelle → herbe",
+        "sauterelle → lézard → herbe"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "herbe → sauterelle → lézard",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Elle commence par le végétal et chaque flèche se lit « est mangé par ».",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Écrite à l'envers.",
+        "2": "Le lézard n'est pas mangé par l'herbe."
+      },
+      "common_error_target": {
+        "1": "écrire la chaîne à l'envers"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q01",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Le clavier sert à…",
+      "choices": [
+        "saisir des informations",
+        "restituer des informations",
+        "traiter des informations"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "saisir des informations",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On tape au clavier pour faire entrer des informations : c'est de la saisie.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Restituer, c'est faire sortir (écran, imprimante).",
+        "2": "Le traitement est fait par le processeur."
+      },
+      "common_error_target": {
+        "1": "confondre saisie et restitution"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q02",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Un écran d'ordinateur non tactile sert à…",
+      "choices": [
+        "restituer des informations",
+        "saisir des informations",
+        "traiter des informations"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "restituer des informations",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'écran affiche les informations : c'est de la restitution.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Un écran non tactile ne permet pas d'entrer des informations.",
+        "2": "Le traitement est fait par le processeur."
+      },
+      "common_error_target": {
+        "1": "confondre saisie et restitution"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q03",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Quel composant traite les informations ?",
+      "choices": [
+        "le processeur",
+        "la souris",
+        "l'écran"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le processeur",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le processeur, à l'intérieur de l'ordinateur, traite les informations.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La souris sert à la saisie.",
+        "2": "L'écran sert à la restitution."
+      },
+      "common_error_target": {
+        "2": "croire que l'écran calcule"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q04",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Quel appareil est un appareil de saisie ?",
+      "choices": [
+        "la souris",
+        "l'imprimante",
+        "le haut-parleur"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la souris",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La souris permet de pointer et cliquer : elle fait entrer des informations.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'imprimante fait sortir les informations.",
+        "2": "Le haut-parleur fait sortir le son."
+      },
+      "common_error_target": {
+        "1": "confondre saisie et restitution"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q05",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Quel appareil est un appareil de restitution ?",
+      "choices": [
+        "l'imprimante",
+        "le clavier",
+        "le micro"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'imprimante",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'imprimante fait sortir les informations sur papier : restitution.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le clavier sert à la saisie.",
+        "2": "Le micro sert à la saisie du son."
+      },
+      "common_error_target": {
+        "2": "confondre micro et haut-parleur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q06",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Pour entendre un son de l'ordinateur, on utilise…",
+      "choices": [
+        "un casque",
+        "un clavier",
+        "une souris"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un casque",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le casque fait entendre le son : il restitue l'information.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le clavier sert à taper.",
+        "2": "La souris sert à pointer."
+      },
+      "common_error_target": {
+        "1": "ne pas relier l'appareil à l'information"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q07",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Pour enregistrer un son, on utilise…",
+      "choices": [
+        "un micro",
+        "un haut-parleur",
+        "un écran"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un micro",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le micro capte le son : c'est un appareil de saisie.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le haut-parleur fait entendre le son, il ne l'enregistre pas.",
+        "2": "L'écran affiche des images."
+      },
+      "common_error_target": {
+        "1": "confondre micro et haut-parleur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q08",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Dans quel ordre l'information circule-t-elle ?",
+      "choices": [
+        "saisie, traitement, restitution",
+        "restitution, traitement, saisie",
+        "traitement, saisie, restitution"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "saisie, traitement, restitution",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'information entre (saisie), est traitée (processeur), puis sort (restitution).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est l'ordre inverse.",
+        "2": "On ne peut pas traiter une information avant de l'avoir saisie."
+      },
+      "common_error_target": {
+        "1": "inverser l'ordre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q09",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Le scanner est un appareil de…",
+      "choices": [
+        "saisie",
+        "restitution",
+        "traitement"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "saisie",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le scanner fait entrer une image de papier dans l'ordinateur : c'est de la saisie.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est l'imprimante qui restitue sur papier.",
+        "2": "Le traitement est fait par le processeur."
+      },
+      "common_error_target": {
+        "1": "confondre scanner et imprimante"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE2.saisie-traitement.q10",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "question": "Quel appareil fait à la fois saisie et restitution ?",
+      "choices": [
+        "un écran tactile",
+        "un clavier",
+        "une imprimante"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un écran tactile",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On touche l'écran tactile pour entrer des informations et il les affiche.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Le clavier sert seulement à la saisie.",
+        "2": "L'imprimante sert seulement à la restitution."
+      },
+      "common_error_target": {
+        "1": "ne pas voir le double rôle de l'écran tactile"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

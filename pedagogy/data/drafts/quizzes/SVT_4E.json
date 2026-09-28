@@ -1,0 +1,838 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q01",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Comment s'appelle l'enveloppe rigide découpée en plaques ?",
+      "choices": [
+        "Le noyau",
+        "L'hydrosphère",
+        "La lithosphère",
+        "L'atmosphère"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "La lithosphère",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La lithosphère, rigide, est découpée en plaques qui se déplacent.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Le noyau est au centre de la Terre.",
+        "1": "C'est l'ensemble des eaux.",
+        "3": "C'est l'enveloppe gazeuse."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q02",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Quel est le point de surface situé à la verticale du foyer d'un séisme ?",
+      "choices": [
+        "Le cratère",
+        "La faille",
+        "L'épicentre",
+        "Le foyer"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "L'épicentre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'épicentre est le point de surface à la verticale du foyer.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Le cratère concerne les volcans.",
+        "1": "La faille est la cassure entre deux blocs.",
+        "3": "Le foyer est en profondeur."
+      },
+      "common_error_target": {
+        "3": "confusion foyer / épicentre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q03",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "À quelle vitesse se déplacent en général les plaques ?",
+      "choices": [
+        "Quelques kilomètres par an",
+        "Elles sont immobiles",
+        "Quelques centimètres par an",
+        "Quelques mètres par jour"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Quelques centimètres par an",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les mesures GPS montrent des vitesses de l'ordre de quelques cm par an.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Beaucoup trop rapide.",
+        "1": "Les plaques bougent, les GPS le mesurent.",
+        "3": "Beaucoup trop rapide."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q04",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Une lave fluide qui s'écoule en coulées caractérise une éruption :",
+      "choices": [
+        "sismique",
+        "glaciaire",
+        "effusive",
+        "explosive"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "effusive",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une lave fluide laisse s'échapper les gaz facilement : l'éruption est effusive.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ce n'est pas un type d'éruption.",
+        "1": "Ce n'est pas un type d'éruption.",
+        "3": "Une éruption explosive est liée à une lave visqueuse."
+      },
+      "common_error_target": {
+        "3": "confusion effusive / explosive"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q05",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Où se concentrent la plupart des séismes ?",
+      "choices": [
+        "Uniquement au pôle Nord",
+        "Au hasard",
+        "Le long des frontières de plaques",
+        "Au centre des plaques"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Le long des frontières de plaques",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La carte mondiale des séismes dessine les limites des plaques.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ce n'est pas le cas.",
+        "1": "Leur répartition n'est pas aléatoire.",
+        "3": "Les séismes y sont rares."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q06",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Que se passe-t-il au niveau d'une dorsale océanique ?",
+      "choices": [
+        "Une plaque plonge sous une autre",
+        "Rien, c'est une zone stable",
+        "Deux plaques s'écartent",
+        "Deux continents se heurtent"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Deux plaques s'écartent",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Au niveau d'une dorsale, les plaques s'écartent et du magma forme un nouveau plancher océanique.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est une subduction.",
+        "1": "Les dorsales sont actives (séismes, volcanisme).",
+        "3": "C'est une collision."
+      },
+      "common_error_target": {
+        "0": "confusion dorsale / subduction"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q07",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Quelle est la troisième planète du système solaire en partant du Soleil ?",
+      "choices": [
+        "Vénus",
+        "Jupiter",
+        "La Terre",
+        "Mars"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "La Terre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'ordre est Mercure, Vénus, la Terre, Mars…",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Vénus est la deuxième.",
+        "1": "Jupiter est la cinquième.",
+        "3": "Mars est la quatrième."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q08",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Une onde sismique parcourt 240 km à 8 km/s. Quelle est la durée du trajet ?",
+      "choices": [
+        "32 s",
+        "248 s",
+        "30 s",
+        "1 920 s"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "30 s",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Durée = distance / vitesse = 240 / 8 = 30 s.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Erreur de calcul.",
+        "1": "Addition de la distance et de la vitesse.",
+        "3": "Multiplication au lieu de division."
+      },
+      "common_error_target": {
+        "3": "multiplication au lieu de division"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q09",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Pourquoi une éruption est-elle explosive ?",
+      "choices": [
+        "Il pleut sur le volcan",
+        "Le volcan est éteint",
+        "La lave est visqueuse et riche en gaz",
+        "La lave est fluide et pauvre en gaz"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "La lave est visqueuse et riche en gaz",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Dans une lave visqueuse, les gaz s'accumulent puis s'échappent violemment.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "La pluie n'est pas la cause.",
+        "1": "Un volcan éteint n'entre pas en éruption.",
+        "3": "Cela caractérise une éruption effusive."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.tectonique.q10",
+      "notion_id": "SVT.4E.TER.la-terre-dans-le-systeme-solaire-le-globe-terrestre-dynamique-interne",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "La chaîne de l'Himalaya résulte :",
+      "choices": [
+        "de l'érosion seule",
+        "de la collision de deux continents",
+        "de l'écartement de deux plaques",
+        "d'un volcan"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "de la collision de deux continents",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'Himalaya s'est formé par la collision entre l'Inde et l'Asie.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "L'érosion use les reliefs, elle ne les crée pas.",
+        "2": "L'écartement se fait aux dorsales.",
+        "3": "L'Himalaya n'est pas un volcan."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q01",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Quel caractère partagent tous les oiseaux actuels ?",
+      "choices": [
+        "Les poils",
+        "Les plumes",
+        "Le vol",
+        "Les écailles"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Les plumes",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les plumes sont un caractère propre aux oiseaux actuels.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Les poils caractérisent les mammifères.",
+        "2": "Certains oiseaux ne volent pas (autruche, manchot) et d'autres animaux volent.",
+        "3": "Les écailles existent chez d'autres groupes."
+      },
+      "common_error_target": {
+        "2": "capacité et caractère anatomique confondus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q02",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Le dauphin est :",
+      "choices": [
+        "un oiseau",
+        "un mammifère",
+        "un poisson",
+        "un amphibien"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "un mammifère",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le dauphin a des mamelles et respire avec des poumons : c'est un mammifère.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Il n'a pas de plumes.",
+        "2": "Il vit dans l'eau mais n'est pas classé comme les poissons.",
+        "3": "Il ne partage pas les caractères propres aux amphibiens."
+      },
+      "common_error_target": {
+        "2": "milieu de vie pris pour un caractère"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q03",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Quel caractère définit le groupe des vertébrés ?",
+      "choices": [
+        "Les nageoires",
+        "La colonne vertébrale",
+        "Les quatre membres",
+        "Les poils"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "La colonne vertébrale",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Tous les vertébrés possèdent une colonne vertébrale.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Tous les vertébrés n'en ont pas.",
+        "2": "Ce caractère définit les tétrapodes.",
+        "3": "Ce caractère concerne les mammifères."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q04",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Deux espèces qui partagent beaucoup de caractères sont :",
+      "choices": [
+        "forcément dans le même milieu",
+        "étroitement apparentées",
+        "sans lien de parenté",
+        "forcément de la même taille"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "étroitement apparentées",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Partager de nombreux caractères signifie les avoir hérités d'un ancêtre commun récent.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Le milieu de vie n'est pas un critère de parenté.",
+        "2": "C'est l'inverse.",
+        "3": "La taille n'est pas un critère de parenté."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q05",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Les tétrapodes sont les vertébrés qui possèdent :",
+      "choices": [
+        "des nageoires",
+        "quatre membres",
+        "des plumes",
+        "des mamelles"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "quatre membres",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "« Tétrapode » signifie « quatre pieds » : quatre membres (ailes et bras compris).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Les nageoires ne définissent pas les tétrapodes.",
+        "2": "Les plumes définissent les oiseaux.",
+        "3": "Les mamelles définissent les mammifères."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q06",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Pourquoi le groupe des « invertébrés » n'est-il pas utilisé en classification scientifique ?",
+      "choices": [
+        "Il ne contient que des insectes",
+        "Il est défini par l'absence d'un caractère",
+        "Il contient trop d'espèces",
+        "Il n'existe pas d'animal sans vertèbres"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Il est défini par l'absence d'un caractère",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un groupe scientifique est défini par un caractère partagé présent, pas par une absence.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Il contient aussi des mollusques, des vers…",
+        "2": "Le nombre d'espèces n'est pas le problème.",
+        "3": "De nombreux animaux n'ont pas de vertèbres."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q07",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "La chauve-souris est plus proche parente :",
+      "choices": [
+        "du requin",
+        "de la souris",
+        "du pigeon",
+        "du papillon"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "de la souris",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La chauve-souris et la souris sont des mammifères (poils, mamelles).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Le requin ne partage que les vertèbres.",
+        "2": "Le vol n'est pas un caractère de parenté ici.",
+        "3": "Le papillon n'est même pas un vertébré."
+      },
+      "common_error_target": {
+        "2": "capacité à voler prise pour un caractère de parenté"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q08",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Dans des groupes emboîtés, le groupe des mammifères est inclus dans :",
+      "choices": [
+        "aucun groupe",
+        "le groupe des tétrapodes",
+        "le groupe des oiseaux",
+        "le groupe des primates"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "le groupe des tétrapodes",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Tous les mammifères ont quatre membres : ils sont inclus dans les tétrapodes.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Les mammifères sont inclus dans les tétrapodes et les vertébrés.",
+        "2": "Les oiseaux forment un groupe distinct.",
+        "3": "C'est l'inverse : les primates sont inclus dans les mammifères."
+      },
+      "common_error_target": {
+        "3": "inversion de l'emboîtement"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q09",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "L'humain et le chimpanzé :",
+      "choices": [
+        "appartiennent à des groupes sans lien",
+        "partagent un ancêtre commun",
+        "descendent l'un de l'autre",
+        "n'ont aucun caractère commun"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "partagent un ancêtre commun",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ce sont deux espèces actuelles cousines, issues d'un ancêtre commun.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Ils sont tous deux primates.",
+        "2": "Aucune espèce actuelle ne descend d'une autre espèce actuelle.",
+        "3": "Ils partagent de très nombreux caractères."
+      },
+      "common_error_target": {
+        "2": "descendance directe entre espèces actuelles"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.classification.q10",
+      "notion_id": "SVT.4E.VIV.caracteres-partages-et-classification",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "La baleine a des poils (très réduits) et des mamelles. Elle est donc :",
+      "choices": [
+        "plus proche du chien que du requin",
+        "plus proche du requin que du chien",
+        "un poisson",
+        "sans parenté avec les mammifères"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "plus proche du chien que du requin",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Poils et mamelles sont des caractères de mammifères : la baleine est plus proche du chien.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "La forme du corps ne reflète pas la parenté.",
+        "2": "La baleine n'est pas un poisson.",
+        "3": "La baleine est un mammifère."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q01",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Quel est le rôle d'un récepteur sensoriel ?",
+      "choices": [
+        "Contracter un muscle",
+        "Élaborer une commande",
+        "Transporter le sang",
+        "Capter un stimulus"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "Capter un stimulus",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le récepteur capte un stimulus et le traduit en message nerveux.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est le rôle de l'effecteur (le muscle lui-même).",
+        "1": "C'est le rôle d'un centre nerveux.",
+        "2": "C'est le rôle du système circulatoire."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q02",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Quel nerf conduit le message du récepteur vers le centre nerveux ?",
+      "choices": [
+        "Le nerf sensitif",
+        "Le nerf moteur",
+        "Le tendon",
+        "La veine"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Le nerf sensitif",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le nerf sensitif conduit le message du récepteur vers le centre nerveux.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Il conduit du centre vers le muscle.",
+        "2": "Le tendon relie le muscle à l'os.",
+        "3": "La veine transporte le sang."
+      },
+      "common_error_target": {
+        "1": "confusion sensitif / moteur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q03",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Parmi ces organes, lequel est un centre nerveux ?",
+      "choices": [
+        "L'estomac",
+        "La moelle épinière",
+        "Le cœur",
+        "Le biceps"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "La moelle épinière",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La moelle épinière, comme le cerveau, est un centre nerveux.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'estomac est un organe digestif.",
+        "2": "Le cœur est un muscle.",
+        "3": "Le biceps est un muscle effecteur."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q04",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Quelle est la nature du message nerveux le long d'un neurone ?",
+      "choices": [
+        "Sonore",
+        "Mécanique",
+        "Électrique",
+        "Lumineuse"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Électrique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le message nerveux est un signal électrique enregistrable.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ce n'est pas un son.",
+        "1": "Ce n'est pas un mouvement mécanique.",
+        "3": "Ce n'est pas de la lumière."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q05",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Comment appelle-t-on la zone de communication entre deux neurones ?",
+      "choices": [
+        "Le nerf",
+        "Le tendon",
+        "La rétine",
+        "La synapse"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "La synapse",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les neurones communiquent au niveau des synapses.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Un nerf est un ensemble de fibres.",
+        "1": "Le tendon relie muscle et os.",
+        "2": "La rétine est la partie sensible de l'œil."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q06",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Un message nerveux parcourt 2 m à 100 m/s. Combien de temps met-il ?",
+      "choices": [
+        "0,02 s",
+        "200 s",
+        "50 s",
+        "0,2 s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,02 s",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Durée = distance / vitesse : t = 2 / 100 = 0,02 s.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Multiplication au lieu de division.",
+        "2": "Inversion du rapport (100 / 2).",
+        "3": "Erreur de virgule."
+      },
+      "common_error_target": {
+        "1": "multiplication au lieu de division"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q07",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Quel organe est l'effecteur quand on retire la main d'une flamme ?",
+      "choices": [
+        "La moelle épinière",
+        "Le muscle du bras",
+        "La peau",
+        "Le nerf sensitif"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Le muscle du bras",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le muscle est l'organe effecteur qui réalise le mouvement.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est un centre nerveux.",
+        "2": "La peau contient les récepteurs.",
+        "3": "Il conduit le message vers le centre."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q08",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Le manque de sommeil a tendance à :",
+      "choices": [
+        "supprimer les réflexes",
+        "augmenter la vitesse du son",
+        "allonger le temps de réaction",
+        "raccourcir le temps de réaction"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "allonger le temps de réaction",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La fatigue perturbe le fonctionnement du système nerveux et allonge le temps de réaction.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Les réflexes persistent.",
+        "1": "Sans rapport avec le système nerveux.",
+        "3": "C'est l'inverse de ce qui est mesuré."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q09",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Un nerf est :",
+      "choices": [
+        "une seule cellule",
+        "un vaisseau sanguin",
+        "un muscle",
+        "un ensemble de fibres nerveuses"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "un ensemble de fibres nerveuses",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un nerf regroupe de nombreuses fibres nerveuses (prolongements de neurones).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Un neurone est une cellule ; le nerf en regroupe les prolongements.",
+        "1": "Un vaisseau transporte le sang.",
+        "2": "Un muscle est un effecteur."
+      },
+      "common_error_target": {
+        "0": "confusion nerf / neurone"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.4E.nerveux.q10",
+      "notion_id": "SVT.4E.CORPS.message-nerveux-centres-nerveux-nerfs-cellules-nerveuses",
+      "subject": "SVT",
+      "level": "4E",
+      "question": "Une personne ne peut plus bouger la main mais la sent toujours. Quel élément est probablement atteint ?",
+      "choices": [
+        "Les récepteurs de la peau",
+        "L'œil",
+        "Les fibres motrices",
+        "Les fibres sensitives"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Les fibres motrices",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La commande motrice n'arrive plus mais la sensibilité persiste : les fibres motrices sont atteintes.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "La sensibilité serait perdue.",
+        "1": "Sans rapport avec le mouvement de la main.",
+        "3": "La sensibilité serait perdue."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

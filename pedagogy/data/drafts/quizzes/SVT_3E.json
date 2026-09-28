@@ -1,0 +1,838 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q01",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Où se trouve l'ADN dans une cellule animale ?",
+      "choices": [
+        "Dans la membrane uniquement",
+        "Dans le sang",
+        "Hors de la cellule",
+        "Principalement dans le noyau"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "Principalement dans le noyau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'ADN, constituant des chromosomes, se trouve principalement dans le noyau.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "La membrane entoure la cellule, elle ne contient pas les chromosomes.",
+        "1": "Le sang est un tissu, pas une partie de la cellule.",
+        "2": "L'ADN est à l'intérieur de la cellule."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q02",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Combien de paires de chromosomes possède l'être humain ?",
+      "choices": [
+        "22",
+        "92",
+        "23",
+        "46"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "23",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'être humain possède 23 paires de chromosomes, soit 46 chromosomes.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "22 paires sont communes aux deux sexes, mais il y a 23 paires en tout.",
+        "1": "C'est le double du nombre total.",
+        "3": "46 est le nombre total de chromosomes, pas de paires."
+      },
+      "common_error_target": {
+        "3": "confusion paires / chromosomes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q03",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Un allèle est :",
+      "choices": [
+        "un organe",
+        "une version d'un gène",
+        "un chromosome entier",
+        "une cellule reproductrice"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "une version d'un gène",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les allèles sont les différentes versions d'un même gène.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Ce n'est pas un organe.",
+        "2": "Un chromosome porte de nombreux gènes.",
+        "3": "C'est un gamète."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q04",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "La fécondation permet :",
+      "choices": [
+        "de rétablir le nombre de chromosomes de l'espèce",
+        "de diviser par deux le nombre de chromosomes",
+        "de produire des gamètes",
+        "de supprimer les mutations"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de rétablir le nombre de chromosomes de l'espèce",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La fusion de deux gamètes à 23 chromosomes rétablit 46 chromosomes.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est le rôle de la méiose.",
+        "2": "Les gamètes sont produits par méiose.",
+        "3": "La fécondation ne supprime pas les mutations."
+      },
+      "common_error_target": {
+        "1": "confusion méiose / fécondation"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q05",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Quel est le rôle de la méiose ?",
+      "choices": [
+        "Réparer les blessures",
+        "Doubler le nombre de chromosomes",
+        "Digérer les aliments",
+        "Produire des gamètes avec un chromosome de chaque paire"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "Produire des gamètes avec un chromosome de chaque paire",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La méiose produit les gamètes, avec un seul chromosome de chaque paire.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "La réparation des tissus fait intervenir la mitose.",
+        "1": "La méiose divise par deux le nombre de chromosomes.",
+        "2": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q06",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Une mutation est :",
+      "choices": [
+        "une maladie contagieuse",
+        "un type de gamète",
+        "une modification de la séquence de l'ADN",
+        "un changement de couleur des yeux après la naissance"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "une modification de la séquence de l'ADN",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une mutation modifie la séquence de l'ADN et peut créer un nouvel allèle.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Une mutation n'est pas contagieuse.",
+        "1": "Ce n'est pas un gamète.",
+        "3": "Ce n'est pas une modification de l'ADN."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q07",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Chez une espèce à 10 chromosomes dans ses cellules, un gamète en contient :",
+      "choices": [
+        "2",
+        "5",
+        "10",
+        "20"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "5",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un gamète contient un chromosome de chaque paire : 10 / 2 = 5.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Confusion avec le nombre de chromosomes sexuels.",
+        "2": "C'est le nombre des cellules du corps.",
+        "3": "C'est le double."
+      },
+      "common_error_target": {
+        "2": "oubli de la réduction du nombre de chromosomes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q08",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Chez une espèce à 3 paires de chromosomes, combien de combinaisons de chromosomes sont possibles dans les gamètes ?",
+      "choices": [
+        "8",
+        "6",
+        "3",
+        "9"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "8",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "2 × 2 × 2 = 8 combinaisons, car chaque paire donne 2 possibilités indépendantes.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est 2 × 3, il faut multiplier les possibilités de chaque paire.",
+        "2": "C'est le nombre de paires.",
+        "3": "C'est 3 × 3."
+      },
+      "common_error_target": {
+        "1": "addition au lieu de produit des possibilités"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q09",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Une mutation dans une cellule du foie :",
+      "choices": [
+        "est toujours transmise aux enfants",
+        "est transmise seulement aux filles",
+        "modifie tous les gamètes",
+        "n'est pas transmise aux enfants"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "n'est pas transmise aux enfants",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Seules les mutations des cellules à l'origine des gamètes sont transmissibles.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Une cellule du foie ne donne pas de gamètes.",
+        "1": "Le sexe de l'enfant n'intervient pas.",
+        "2": "Les gamètes ne proviennent pas du foie."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.genetique.q10",
+      "notion_id": "SVT.3E.VIV.adn-mutations-brassage-gene-meiose-et-fecondation",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Pourquoi chaque individu (sauf vrais jumeaux) est-il génétiquement unique ?",
+      "choices": [
+        "Parce qu'il n'a pas d'ADN",
+        "Parce qu'il a 92 chromosomes",
+        "À cause du brassage lors de la méiose et de la fécondation",
+        "Parce que ses cellules ont des nombres de chromosomes différents"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "À cause du brassage lors de la méiose et de la fécondation",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La répartition au hasard des chromosomes dans les gamètes et la rencontre au hasard des gamètes créent une combinaison unique.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Tout individu possède de l'ADN.",
+        "1": "L'être humain possède 46 chromosomes.",
+        "3": "Toutes ses cellules ont 46 chromosomes."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q01",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Quel organe relie la bouche à l'estomac ?",
+      "choices": [
+        "La trachée",
+        "Le pancréas",
+        "L'intestin grêle",
+        "L'œsophage"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "L'œsophage",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'œsophage conduit les aliments de la bouche à l'estomac.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "La trachée conduit l'air vers les poumons.",
+        "1": "Le pancréas est une glande annexe.",
+        "2": "L'intestin grêle est après l'estomac."
+      },
+      "common_error_target": {
+        "0": "confusion voies digestive / respiratoire"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q02",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "La digestion de l'amidon produit :",
+      "choices": [
+        "des acides gras",
+        "de l'eau uniquement",
+        "du glucose",
+        "des acides aminés"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "du glucose",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'amidon est découpé en glucose par des enzymes.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Ils proviennent des lipides.",
+        "1": "L'amidon ne donne pas que de l'eau.",
+        "3": "Ils proviennent des protéines."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q03",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Quel réactif révèle la présence d'amidon ?",
+      "choices": [
+        "Le bleu de méthylène",
+        "L'eau iodée",
+        "La liqueur de Fehling",
+        "L'eau de chaux"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "L'eau iodée",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau iodée colore l'amidon en bleu-violet.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est un colorant de cellules.",
+        "2": "Elle révèle les sucres réducteurs comme le glucose.",
+        "3": "Elle révèle le dioxyde de carbone."
+      },
+      "common_error_target": {
+        "2": "confusion des réactifs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q04",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Où se fait l'essentiel de l'absorption des nutriments ?",
+      "choices": [
+        "Dans l'intestin grêle",
+        "Dans l'estomac",
+        "Dans la bouche",
+        "Dans le gros intestin"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Dans l'intestin grêle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'intestin grêle, grâce à ses villosités, absorbe l'essentiel des nutriments.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'estomac absorbe très peu de nutriments.",
+        "2": "La bouche n'absorbe presque rien.",
+        "3": "Le gros intestin absorbe surtout de l'eau."
+      },
+      "common_error_target": {
+        "1": "confusion digestion / absorption"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q05",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Les enzymes digestives :",
+      "choices": [
+        "transportent le dioxygène",
+        "fabriquent des aliments",
+        "tuent toutes les bactéries",
+        "découpent les grosses molécules des aliments"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "découpent les grosses molécules des aliments",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les enzymes réalisent la digestion chimique en découpant les molécules.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est le rôle des globules rouges.",
+        "1": "Elles ne fabriquent pas d'aliments.",
+        "2": "Ce n'est pas leur rôle."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q06",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Pourquoi les villosités sont-elles efficaces pour l'absorption ?",
+      "choices": [
+        "Elles produisent du glucose",
+        "Elles broient les aliments",
+        "Elles augmentent la surface d'échange",
+        "Elles bloquent les nutriments"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Elles augmentent la surface d'échange",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les replis multiplient la surface de contact entre l'intestin et le sang.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Elles ne produisent pas de glucose.",
+        "1": "Le broyage se fait dans la bouche et l'estomac.",
+        "3": "Au contraire, elles favorisent leur passage."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q07",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Les protéines sont digérées en :",
+      "choices": [
+        "amidon",
+        "acides aminés",
+        "glucose",
+        "glycérol uniquement"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "acides aminés",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les protéines sont des chaînes d'acides aminés.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'amidon est un constituant des aliments, pas un produit.",
+        "2": "Le glucose provient de l'amidon.",
+        "3": "Le glycérol provient des lipides."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q08",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Une salive bouillie ne digère plus l'amidon car :",
+      "choices": [
+        "la chaleur a rendu l'enzyme inactive",
+        "elle contient trop d'eau",
+        "l'amidon a disparu avant",
+        "l'eau iodée ne fonctionne plus"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la chaleur a rendu l'enzyme inactive",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une forte chaleur dénature les enzymes, qui deviennent inactives.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'eau n'empêche pas la digestion.",
+        "2": "L'amidon est toujours présent.",
+        "3": "L'eau iodée fonctionne."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q09",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Le foie et le pancréas sont :",
+      "choices": [
+        "des parties du tube digestif traversées par les aliments",
+        "des organes respiratoires",
+        "des muscles",
+        "des glandes annexes du tube digestif"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "des glandes annexes du tube digestif",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ils déversent des sucs dans le tube digestif mais ne sont pas traversés par les aliments.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Les aliments ne les traversent pas.",
+        "1": "Ils ne participent pas à la respiration.",
+        "2": "Ce sont des glandes."
+      },
+      "common_error_target": {
+        "0": "confusion tube digestif / glandes annexes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.digestion.q10",
+      "notion_id": "SVT.3E.CORPS.systeme-digestif-digestion-absorption-aliments-et-nutriments",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Un repas contient 50 g de lipides dont 90 % sont absorbés. Quelle masse est absorbée ?",
+      "choices": [
+        "40 g",
+        "90 g",
+        "45 g",
+        "5 g"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "45 g",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "0,90 × 50 = 45 g : on calcule 90 % de la masse de lipides ingérée.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Erreur de calcul.",
+        "1": "C'est le pourcentage, pas une masse.",
+        "3": "C'est la part non absorbée."
+      },
+      "common_error_target": {
+        "3": "calcul de la part complémentaire"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q01",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Quelles cellules réalisent la phagocytose ?",
+      "choices": [
+        "Les neurones",
+        "Les cellules de la peau",
+        "Les phagocytes",
+        "Les globules rouges"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Les phagocytes",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les phagocytes sont des globules blancs qui englobent et digèrent les microorganismes.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Ce sont des cellules nerveuses.",
+        "1": "Elles forment une barrière mais ne phagocytent pas.",
+        "3": "Ils transportent le dioxygène."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q02",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Les anticorps sont produits par :",
+      "choices": [
+        "les lymphocytes B",
+        "les globules rouges",
+        "les phagocytes",
+        "les plaquettes"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "les lymphocytes B",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les lymphocytes B produisent des anticorps spécifiques.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Ils transportent le dioxygène.",
+        "2": "Ils englobent les microbes mais ne produisent pas d'anticorps.",
+        "3": "Elles interviennent dans la coagulation."
+      },
+      "common_error_target": {
+        "3": "confusion phagocyte / lymphocyte B"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q03",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Un anticorps est :",
+      "choices": [
+        "un médicament",
+        "une bactérie",
+        "spécifique d'un antigène",
+        "efficace contre tous les microbes"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "spécifique d'un antigène",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque anticorps reconnaît un antigène précis.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est une molécule produite par l'organisme.",
+        "1": "C'est une molécule, pas un microorganisme.",
+        "3": "Il ne reconnaît qu'un antigène."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q04",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Les antibiotiques agissent contre :",
+      "choices": [
+        "les bactéries",
+        "les virus",
+        "les champignons microscopiques et les virus",
+        "les anticorps"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "les bactéries",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les antibiotiques ciblent des mécanismes propres aux bactéries.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Ils sont sans effet sur les virus.",
+        "2": "Ils sont sans effet sur les virus.",
+        "3": "Ils n'agissent pas sur nos anticorps."
+      },
+      "common_error_target": {
+        "1": "confusion bactérie / virus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q05",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Quelle est la première barrière contre les microorganismes ?",
+      "choices": [
+        "Les lymphocytes mémoire",
+        "Les antibiotiques",
+        "La peau et les muqueuses",
+        "Les anticorps"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "La peau et les muqueuses",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La peau et les muqueuses empêchent la plupart des microorganismes d'entrer.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ils interviennent lors d'un second contact.",
+        "1": "Ce sont des médicaments.",
+        "3": "Ils interviennent après l'entrée du microbe."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q06",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "La réaction inflammatoire se manifeste notamment par :",
+      "choices": [
+        "rougeur, chaleur, gonflement et douleur",
+        "une baisse de la température du corps entier",
+        "la disparition des globules blancs",
+        "une production de gamètes"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "rougeur, chaleur, gonflement et douleur",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ce sont les signes classiques de l'inflammation au niveau d'une blessure infectée.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La température locale augmente.",
+        "2": "Les globules blancs affluent.",
+        "3": "Sans rapport avec l'immunité."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q07",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "La réponse immunitaire secondaire est :",
+      "choices": [
+        "identique à la primaire",
+        "absente",
+        "plus rapide et plus intense que la primaire",
+        "plus lente que la primaire"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "plus rapide et plus intense que la primaire",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Grâce aux cellules mémoire, la réponse secondaire est plus rapide et plus forte.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Elle diffère grâce à la mémoire.",
+        "1": "Elle existe grâce aux cellules mémoire.",
+        "3": "C'est l'inverse."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q08",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Le principe de la vaccination repose sur :",
+      "choices": [
+        "la mémoire immunitaire",
+        "la phagocytose seule",
+        "la destruction des globules rouges",
+        "la production d'antibiotiques"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la mémoire immunitaire",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le vaccin provoque la formation de cellules mémoire.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La phagocytose n'a pas de mémoire.",
+        "2": "Sans rapport.",
+        "3": "L'organisme ne produit pas d'antibiotiques."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q09",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Le VIH affaiblit le système immunitaire car il détruit :",
+      "choices": [
+        "les neurones",
+        "les cellules de la peau",
+        "des lymphocytes T4",
+        "les globules rouges"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "des lymphocytes T4",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le VIH infecte les lymphocytes T4, qui coordonnent la réponse immunitaire.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Ce n'est pas sa cible principale.",
+        "1": "Ce n'est pas sa cible.",
+        "3": "Il n'infecte pas les globules rouges."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.3E.immunite.q10",
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires",
+      "subject": "SVT",
+      "level": "3E",
+      "question": "Une population de 10 000 personnes doit être immunisée à 95 % pour stopper un virus. Combien de personnes cela représente-t-il ?",
+      "choices": [
+        "950",
+        "9 500",
+        "500",
+        "9 950"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "9 500",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "0,95 × 10 000 = 9 500 personnes.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Erreur d'un facteur 10.",
+        "2": "C'est la part non immunisée.",
+        "3": "Erreur de calcul."
+      },
+      "common_error_target": {
+        "2": "calcul de la part complémentaire"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

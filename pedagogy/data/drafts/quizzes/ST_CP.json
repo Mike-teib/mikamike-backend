@@ -1,0 +1,814 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q01",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Un glaçon, c'est…",
+      "choices": [
+        "de l'eau solide",
+        "de l'eau liquide",
+        "du sucre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de l'eau solide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le glaçon garde sa forme et se tient dans la main : c'est de l'eau solide.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "L'eau liquide coule ; le glaçon ne coule pas.",
+        "2": "Le glaçon est fait d'eau, pas de sucre."
+      },
+      "common_error_target": {
+        "1": "confusion solide / liquide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q02",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "La pluie, c'est…",
+      "choices": [
+        "de l'eau liquide",
+        "de l'eau solide",
+        "du sable"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de l'eau liquide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les gouttes de pluie coulent et font des flaques : c'est de l'eau liquide.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La pluie coule ; elle n'est pas solide.",
+        "2": "La pluie est de l'eau, pas du sable."
+      },
+      "common_error_target": {
+        "1": "tout ce qui tombe du ciel serait solide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q03",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Quelle eau garde sa forme ?",
+      "choices": [
+        "un glaçon",
+        "l'eau d'un verre",
+        "la pluie"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un glaçon",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Seule l'eau solide garde sa forme : c'est le cas du glaçon.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "L'eau du verre prend la forme du verre.",
+        "2": "La pluie coule."
+      },
+      "common_error_target": {
+        "1": "croire que l'eau d'un verre a une forme propre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q04",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "La neige, c'est de l'eau…",
+      "choices": [
+        "solide",
+        "liquide",
+        "chaude"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "solide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On peut faire une boule de neige qui garde sa forme : la neige est de l'eau solide.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La neige ne coule pas ; elle n'est pas liquide.",
+        "2": "La neige est froide, et « chaude » n'est pas un état."
+      },
+      "common_error_target": {
+        "1": "ne pas reconnaître la neige comme de l'eau solide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q05",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Que devient un glaçon posé au soleil ?",
+      "choices": [
+        "de l'eau liquide",
+        "un caillou",
+        "de la neige"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de l'eau liquide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Au soleil, il fait chaud : le glaçon fond et devient de l'eau liquide.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un glaçon n'est pas un caillou : il est fait d'eau.",
+        "2": "La neige est solide ; au soleil, le glaçon fond."
+      },
+      "common_error_target": {
+        "2": "ne pas savoir que la glace fond à la chaleur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q06",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Où l'eau liquide devient-elle de la glace ?",
+      "choices": [
+        "dans le congélateur",
+        "au soleil",
+        "dans un bain chaud"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "dans le congélateur",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Il faut beaucoup de froid pour que l'eau devienne de la glace : dans le congélateur.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Au soleil, la glace fond ; l'eau ne gèle pas.",
+        "2": "Dans un bain chaud, l'eau reste liquide."
+      },
+      "common_error_target": {
+        "1": "ne pas relier le gel au froid"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q07",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "L'eau liquide versée dans un bol prend…",
+      "choices": [
+        "la forme du bol",
+        "la forme d'une boule",
+        "toujours la même forme"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la forme du bol",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau liquide n'a pas de forme à elle : elle prend la forme du récipient, ici celle du bol.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'eau ne forme pas de boule dans un bol : elle en remplit le fond.",
+        "2": "L'eau liquide change de forme selon le récipient."
+      },
+      "common_error_target": {
+        "2": "croire que l'eau liquide a une forme propre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q08",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Le verglas sur la route est de l'eau…",
+      "choices": [
+        "solide",
+        "liquide",
+        "salée"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "solide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le verglas est une fine couche de glace : de l'eau solide sur laquelle on glisse.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le verglas ne coule pas : ce n'est pas une flaque.",
+        "2": "Le verglas est de la glace, pas de l'eau salée."
+      },
+      "common_error_target": {
+        "1": "confondre verglas et flaque"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q09",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Quand un glaçon fond, l'eau…",
+      "choices": [
+        "reste de l'eau",
+        "disparaît",
+        "devient du lait"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "reste de l'eau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le glaçon fondu donne de l'eau liquide : l'eau ne disparaît pas.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'eau ne disparaît pas : elle est dans l'assiette.",
+        "2": "Un glaçon d'eau ne peut pas devenir du lait."
+      },
+      "common_error_target": {
+        "1": "croire que la glace qui fond disparaît"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.etats-eau.q10",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Quel mot va avec l'eau solide ?",
+      "choices": [
+        "glace",
+        "pluie",
+        "flaque"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "glace",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La glace est de l'eau solide. La pluie et la flaque sont de l'eau liquide.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "La pluie coule : elle est liquide.",
+        "2": "Une flaque est de l'eau liquide."
+      },
+      "common_error_target": {
+        "1": "tout ce qui tombe du ciel serait solide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q01",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Lequel est un être vivant ?",
+      "choices": [
+        "un poisson",
+        "une bille",
+        "une cuillère"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un poisson",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le poisson naît, grandit, se nourrit et meurt : c'est un être vivant.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une bille ne grandit pas.",
+        "2": "Une cuillère est un objet, elle ne grandit pas."
+      },
+      "common_error_target": {
+        "1": "ne pas utiliser les critères du vivant"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q02",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Lequel est non vivant ?",
+      "choices": [
+        "un caillou",
+        "une coccinelle",
+        "une pâquerette"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un caillou",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le caillou ne naît pas, ne grandit pas et ne se nourrit pas.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La coccinelle naît, grandit et se nourrit : elle est vivante.",
+        "2": "La pâquerette est une plante : elle est vivante."
+      },
+      "common_error_target": {
+        "2": "croire qu'une plante n'est pas vivante"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q03",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Qui fabrique le miel ?",
+      "choices": [
+        "les abeilles",
+        "les escargots",
+        "les vers de terre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "les abeilles",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le miel est fabriqué par les abeilles avec le nectar des fleurs.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Les escargots ne fabriquent pas de miel.",
+        "2": "Les vers de terre ne fabriquent pas de miel."
+      },
+      "common_error_target": {
+        "1": "ne pas connaître l'origine du miel"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q04",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Une fleur est-elle vivante ?",
+      "choices": [
+        "oui, elle grandit",
+        "non, elle ne bouge pas",
+        "non, elle ne parle pas"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "oui, elle grandit",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une fleur pousse, grandit et a besoin d'eau : elle est vivante.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Ne pas se déplacer ne veut pas dire ne pas être vivant.",
+        "2": "Parler n'est pas un critère du vivant."
+      },
+      "common_error_target": {
+        "1": "vivant = qui se déplace"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q05",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Un ballon roule. Il est…",
+      "choices": [
+        "non vivant",
+        "vivant",
+        "une plante"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "non vivant",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le ballon bouge, mais il ne naît pas, ne grandit pas et ne se nourrit pas.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Bouger ne suffit pas pour être vivant.",
+        "2": "Un ballon ne pousse pas comme une plante : c'est un objet."
+      },
+      "common_error_target": {
+        "1": "vivant = qui bouge"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q06",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "La toile d'araignée est…",
+      "choices": [
+        "fabriquée par un être vivant",
+        "un être vivant",
+        "une plante"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "fabriquée par un être vivant",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La toile ne grandit pas et ne se nourrit pas ; elle est fabriquée par l'araignée.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La toile ne se nourrit pas : elle n'est pas un être vivant.",
+        "2": "La toile n'est pas une plante."
+      },
+      "common_error_target": {
+        "1": "confondre l'animal et ce qu'il fabrique"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q07",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Quel mot va avec tous les êtres vivants ?",
+      "choices": [
+        "grandir",
+        "rouler",
+        "briller"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "grandir",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Tous les êtres vivants grandissent. Rouler et briller ne sont pas des critères du vivant.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Une voiture roule sans être vivante.",
+        "2": "Une lampe brille sans être vivante."
+      },
+      "common_error_target": {
+        "1": "vivant = qui bouge"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q08",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Qui a fabriqué la coquille vide trouvée au jardin ?",
+      "choices": [
+        "un escargot",
+        "la pluie",
+        "un caillou"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un escargot",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La coquille a été fabriquée par un escargot, qui est un être vivant.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La pluie ne fabrique pas de coquille.",
+        "2": "Un caillou ne fabrique rien : il n'est pas vivant."
+      },
+      "common_error_target": {
+        "1": "ne pas relier la coquille à l'escargot"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q09",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Pourquoi le chat est-il vivant ?",
+      "choices": [
+        "il naît, mange et grandit",
+        "il a des poils doux",
+        "il fait miaou"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "il naît, mange et grandit",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On justifie avec les critères du vivant : le chat naît, mange, grandit et mourra un jour.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Avoir des poils n'est pas un critère : un arbre n'en a pas et il est vivant.",
+        "2": "Faire un bruit n'est pas un critère : un réveil sonne sans être vivant."
+      },
+      "common_error_target": {
+        "1": "justifier avec une caractéristique qui n'est pas un critère"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.vivant.q10",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Lequel n'est pas un être vivant ?",
+      "choices": [
+        "un nuage",
+        "un champignon",
+        "une fourmi"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un nuage",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le nuage bouge mais ne se nourrit pas et ne grandit pas comme un être vivant. Le champignon et la fourmi sont vivants.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Le champignon pousse et se nourrit : il est vivant.",
+        "2": "La fourmi naît, mange et grandit : elle est vivante."
+      },
+      "common_error_target": {
+        "1": "croire que le champignon n'est pas vivant"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q01",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Pour écrire, j'utilise…",
+      "choices": [
+        "un crayon",
+        "une assiette",
+        "un peigne"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un crayon",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le crayon est fabriqué pour écrire.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "L'assiette sert à manger.",
+        "2": "Le peigne sert à se coiffer."
+      },
+      "common_error_target": {
+        "1": "ne pas relier l'objet à son usage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q02",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "La nuit, pour voir, j'utilise…",
+      "choices": [
+        "une lampe",
+        "une gourde",
+        "un bonnet"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une lampe",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La lampe éclaire : elle aide à voir quand il fait noir.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La gourde sert à boire.",
+        "2": "Le bonnet sert à avoir chaud."
+      },
+      "common_error_target": {
+        "2": "ne pas relier l'objet à son usage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q03",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "À quoi sert un réfrigérateur ?",
+      "choices": [
+        "garder les aliments au frais",
+        "laver le linge",
+        "faire de la musique"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "garder les aliments au frais",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le réfrigérateur garde les aliments au frais pour qu'ils se conservent.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la machine à laver qui lave le linge.",
+        "2": "Le réfrigérateur ne fait pas de musique."
+      },
+      "common_error_target": {
+        "1": "confondre deux appareils de la maison"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q04",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Quel objet sert à tracer un trait bien droit ?",
+      "choices": [
+        "une règle",
+        "une gomme",
+        "de la colle"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une règle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La règle sert à tracer des traits droits.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La gomme sert à effacer.",
+        "2": "La colle sert à coller."
+      },
+      "common_error_target": {
+        "1": "confondre les objets de la trousse"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q05",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Un parapluie sert à…",
+      "choices": [
+        "se protéger de la pluie",
+        "se réveiller",
+        "se coiffer"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "se protéger de la pluie",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le parapluie répond au besoin de ne pas être mouillé quand il pleut.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est le réveil qui sert à se réveiller.",
+        "2": "C'est le peigne ou la brosse qui sert à se coiffer."
+      },
+      "common_error_target": {
+        "1": "ne pas relier l'objet à son usage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q06",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Quel objet sert à se déplacer ?",
+      "choices": [
+        "un vélo",
+        "une lampe",
+        "une horloge"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un vélo",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le vélo sert à se déplacer plus vite qu'à pied.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La lampe sert à s'éclairer.",
+        "2": "L'horloge sert à savoir l'heure."
+      },
+      "common_error_target": {
+        "2": "ne pas relier l'objet à son usage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q07",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Pour couper du pain, on utilise…",
+      "choices": [
+        "un couteau",
+        "une cuillère",
+        "un verre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un couteau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le couteau a une lame : il sert à couper.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La cuillère sert à manger la soupe, pas à couper.",
+        "2": "Le verre sert à boire."
+      },
+      "common_error_target": {
+        "1": "confondre les couverts"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q08",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Un réveil sert à…",
+      "choices": [
+        "se réveiller à l'heure",
+        "se brosser les dents",
+        "se laver"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "se réveiller à l'heure",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le réveil sonne à l'heure choisie : il répond au besoin de se réveiller à l'heure.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est la brosse à dents qui sert à se brosser les dents.",
+        "2": "Pour se laver, on utilise du savon et de l'eau."
+      },
+      "common_error_target": {
+        "1": "ne pas relier l'objet à son usage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q09",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Quel objet répond au besoin de boire ?",
+      "choices": [
+        "un verre",
+        "un stylo",
+        "un cartable"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un verre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le verre est l'objet qui sert à boire de l'eau ou du lait.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le stylo sert à écrire.",
+        "2": "Le cartable sert à ranger ses affaires."
+      },
+      "common_error_target": {
+        "2": "ne pas relier l'objet à son usage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CP.objets-besoins.q10",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "question": "Quel objet n'est pas fabriqué pour se déplacer ?",
+      "choices": [
+        "une chaise",
+        "une voiture",
+        "un train"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une chaise",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La voiture et le train servent à se déplacer ; la chaise sert à s'asseoir.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "La voiture sert à se déplacer.",
+        "2": "Le train sert à se déplacer."
+      },
+      "common_error_target": {
+        "1": "ne pas lire la négation"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

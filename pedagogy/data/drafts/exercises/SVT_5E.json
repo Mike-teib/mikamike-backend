@@ -215,21 +215,22 @@
       "level": "5E",
       "difficulty": "APPLICATION",
       "exercise_type": "ORDERING",
-      "statement": "Classe dans l'ordre le trajet d'une molécule de dioxygène depuis l'air jusqu'à une cellule du muscle de la cuisse.\nÉléments (dans le désordre) : trachée / alvéoles pulmonaires / sang / cellule musculaire / fosses nasales\nRéponds en séparant les éléments par « ; ».",
+      "statement": "Classe dans l'ordre le trajet d'une molécule de dioxygène depuis l'air jusqu'à une cellule du muscle de la cuisse.\nÉléments (dans le désordre) : alvéoles pulmonaires / bronches / sang / trachée / cellule musculaire / fosses nasales\nRéponds en séparant les éléments par « ; ».",
       "expected_answer": {
         "kind": "ORDERING",
         "value": [
           "fosses nasales",
           "trachée",
+          "bronches",
           "alvéoles pulmonaires",
           "sang",
           "cellule musculaire"
         ]
       },
-      "solution": "L'air entre par le nez, descend par la trachée jusqu'aux alvéoles ; le dioxygène passe dans le sang qui le distribue aux cellules. Ordre attendu : fosses nasales ; trachée ; alvéoles pulmonaires ; sang ; cellule musculaire.",
+      "solution": "L'air entre par le nez, descend par la trachée et les bronches jusqu'aux alvéoles ; le dioxygène passe dans le sang qui le distribue aux cellules. Ordre attendu : fosses nasales ; trachée ; bronches ; alvéoles pulmonaires ; sang ; cellule musculaire.",
       "step_by_step_solution": [
         "L'air entre par les fosses nasales puis la trachée.",
-        "Il arrive dans les alvéoles pulmonaires.",
+        "Il passe dans les bronches et arrive dans les alvéoles pulmonaires.",
         "Le dioxygène passe dans le sang.",
         "Le sang l'apporte à la cellule musculaire."
       ],
@@ -238,7 +239,7 @@
         "La cellule est la destination finale."
       ],
       "common_errors": {
-        "fosses nasales ; trachée ; sang ; alvéoles pulmonaires ; cellule musculaire": "L'élève fait passer le dioxygène dans le sang avant les alvéoles : il ignore le lieu de l'échange."
+        "fosses nasales ; trachée ; bronches ; sang ; alvéoles pulmonaires ; cellule musculaire": "L'élève fait passer le dioxygène dans le sang avant les alvéoles : il ignore le lieu de l'échange."
       },
       "remediation": "Suivre le trajet sur un schéma de l'appareil respiratoire puis de la circulation.",
       "estimated_time_min": 3,
