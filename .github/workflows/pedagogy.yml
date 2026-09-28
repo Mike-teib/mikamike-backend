@@ -1,0 +1,36 @@
+name: pedagogy
+
+on:
+  push:
+    paths: ["pedagogy/**", "tests_pedagogy/**", "prerequisite_graph_validator.py", "M01_346_COMPARISON_TOOL.py", "requirements-pedagogy.txt", ".github/workflows/pedagogy.yml"]
+  pull_request:
+    paths: ["pedagogy/**", "tests_pedagogy/**", "prerequisite_graph_validator.py", "M01_346_COMPARISON_TOOL.py", "requirements-pedagogy.txt", ".github/workflows/pedagogy.yml"]
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Dépendances (hors réseau applicatif)
+        run: pip install -r requirements-pedagogy.txt
+      - name: Tests pedagogy
+        run: python -m pytest -q -p no:cacheprovider tests_pedagogy
+      - name: Preuves déclarées vérifiables
+        run: python -m pedagogy.sources_cli verify
+      - name: Graphe de prérequis
+        run: python prerequisite_graph_validator.py --check-only
+      - name: QA (échoue sur BLOCKER/ERROR)
+        run: python -m pedagogy.qa --out-dir "$RUNNER_TEMP/qa"
+      - name: Rapports générés à jour
+        run: |
+          python -m pedagogy.coverage --out-dir "$RUNNER_TEMP/cov"
+          diff -u PEDAGOGY_COVERAGE_MATRIX.csv "$RUNNER_TEMP/cov/PEDAGOGY_COVERAGE_MATRIX.csv"
+          python prerequisite_graph_validator.py --graph-out "$RUNNER_TEMP/graph.json"
+          diff -u prerequisite_graph.json "$RUNNER_TEMP/graph.json"
