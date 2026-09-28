@@ -44,11 +44,11 @@
       ],
       "school_year_start": "2025-2026",
       "school_year_end": null,
-      "retrieval": "EXPECTED",
-      "local_path": "",
-      "sha256": "",
-      "reference_verified": true,
-      "notes": "Référence, NOR, arrêté et calendrier d'application vérifiés sur le Bulletin officiel n°16 du 17 avril 2025. Application à la 6e dès la rentrée 2025-2026. Le PDF officiel est accessible à l'URL déclarée mais n'est pas encore enregistré comme fichier local versionné avec SHA-256 : retrieval reste EXPECTED et aucune notion n'est PROVEN_OFFICIAL."
+      "retrieval": "RETRIEVED",
+      "local_path": "pedagogy/sources_local/official/programme-mathematiques-cycle3-2025.pdf",
+      "sha256": "f3f79a75ca8be7f54409b8b7cee3eafd769c23d12e6c822a253454e2c703b508",
+      "reference_verified": false,
+      "notes": "PDF officiel récupéré depuis l'URL education.gouv.fr déclarée et empreinte SHA-256 enregistrée. Référence/NOR/calendrier recoupés par audit automatisé, mais reference_verified reste false jusqu'à confirmation humaine. Aucune notion n'est promue automatiquement."
     },
     {
       "source_id": "SRC-C4-2020",

@@ -1,0 +1,72 @@
+name: pedagogy-fetch-official-cycle3-maths-2025
+
+on:
+  push:
+    branches:
+      - cloud/mikamike-pedagogy-megapack-20260928
+    paths:
+      - ".github/workflows/pedagogy-fetch-official-cycle3-maths-2025.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cloud/mikamike-pedagogy-megapack-20260928
+          fetch-depth: 0
+
+      - name: Télécharger et contrôler le PDF officiel
+        shell: bash
+        run: |
+          set -euo pipefail
+          target="pedagogy/sources_local/official/programme-mathematiques-cycle3-2025.pdf"
+          mkdir -p "$(dirname "$target")"
+          curl --fail --location --retry 3 --connect-timeout 15 --max-time 120             "https://www.education.gouv.fr/sites/default/files/programme-de-math-matiques-pour-le-cycle-3-439827.pdf"             --output "$target"
+          test "$(head -c 4 "$target")" = "%PDF"
+          test "$(stat -c%s "$target")" -gt 100000
+          sha256sum "$target"
+
+      - name: Enregistrer le chemin et le SHA-256 sans approbation humaine
+        shell: bash
+        run: |
+          set -euo pipefail
+          target="pedagogy/sources_local/official/programme-mathematiques-cycle3-2025.pdf"
+          sha="$(sha256sum "$target" | awk '{print $1}')"
+          SHA256_VALUE="$sha" python - <<'PY'
+          import json, os
+          from pathlib import Path
+
+          p = Path("pedagogy/data/sources/official_sources.json")
+          raw = json.loads(p.read_text(encoding="utf-8"))
+          for src in raw["sources"]:
+              if src["source_id"] == "SRC-C3-MATHS-NOUVEAU":
+                  src["local_path"] = "pedagogy/sources_local/official/programme-mathematiques-cycle3-2025.pdf"
+                  src["sha256"] = os.environ["SHA256_VALUE"]
+                  src["retrieval"] = "RETRIEVED"
+                  src["reference_verified"] = False
+                  src["notes"] = (
+                      "PDF officiel récupéré depuis l'URL education.gouv.fr déclarée et empreinte SHA-256 enregistrée. "
+                      "Référence/NOR/calendrier recoupés par audit automatisé, mais reference_verified reste false "
+                      "jusqu'à confirmation humaine. Aucune notion n'est promue automatiquement."
+                  )
+                  break
+          else:
+              raise SystemExit("SRC-C3-MATHS-NOUVEAU introuvable")
+          p.write_text(json.dumps(raw, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Commit du document public et de son empreinte
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "MikaMike Pedagogy Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add             pedagogy/sources_local/official/programme-mathematiques-cycle3-2025.pdf             pedagogy/data/sources/official_sources.json
+          git diff --cached --exit-code && exit 0
+          git commit -m "pedagogy: enregistrer le PDF officiel maths cycle 3 2025"
+          git push origin HEAD:cloud/mikamike-pedagogy-megapack-20260928
