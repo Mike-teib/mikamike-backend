@@ -226,3 +226,217 @@ textarea:focus-visible,
   border-color: var(--accent-blue);
   color: var(--accent-blue);
 }
+
+
+/* Mika student UX v3 — pinned exercise context, compact tools, desktop voice */
+.mika-chat-shell{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  overflow:hidden;
+}
+.mika-chat-header{
+  padding:.75rem 1rem;
+  background:#0f172a;
+  border-bottom:1px solid #334155;
+  display:flex;
+  align-items:center;
+  gap:.5rem;
+}
+.mika-chat-header h3{font-size:.95rem;font-weight:600}
+.mika-exercise-context{
+  position:sticky;
+  top:0;
+  z-index:8;
+  background:rgba(15,23,42,.98);
+  border-bottom:1px solid #334155;
+  padding:.65rem .85rem;
+  box-shadow:0 8px 18px rgba(15,23,42,.18);
+}
+.mika-exercise-context-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:.75rem;
+}
+.mika-exercise-context-head>div{
+  display:flex;
+  flex-direction:column;
+  gap:.2rem;
+  min-width:0;
+}
+.mika-exercise-context-head strong{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size:.86rem;
+}
+.mika-exercise-kicker{
+  display:flex;
+  align-items:center;
+  gap:.35rem;
+  color:#34d399;
+  font-size:.72rem;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+}
+.mika-context-toggle{padding:.28rem .55rem;font-size:.72rem;flex-shrink:0}
+.mika-exercise-context-body{
+  margin-top:.55rem;
+  padding:.6rem .7rem;
+  border-radius:8px;
+  background:#111c30;
+  border:1px solid #29384e;
+  color:#dbe7f3;
+  font-size:.82rem;
+  line-height:1.45;
+  max-height:128px;
+  overflow:auto;
+}
+.mika-exercise-context-body p{margin:0}
+.mika-exercise-question{margin-top:.45rem!important;color:#bfdbfe}
+.mika-messages-feed{
+  flex:1;
+  padding:1rem;
+  overflow-y:auto;
+  display:flex;
+  flex-direction:column;
+  gap:.75rem;
+}
+.mika-message-row{display:flex;gap:.5rem;max-width:85%}
+.mika-message-row.is-user{align-self:flex-end}
+.mika-message-row.is-bot{align-self:flex-start}
+.mika-avatar,.mika-user-avatar{
+  width:30px;height:30px;border-radius:50%;overflow:hidden;flex-shrink:0;
+}
+.mika-avatar{border:1px solid #10b981}
+.mika-avatar img{width:100%;height:100%;object-fit:cover}
+.mika-user-avatar{
+  background:#10b981;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.mika-message-bubble{
+  background:#1e293b;
+  color:#f8fafc;
+  padding:.65rem .9rem;
+  border-radius:12px;
+  border:1px solid rgba(16,185,129,.3);
+  font-size:.875rem;
+  line-height:1.4;
+}
+.mika-message-row.is-user .mika-message-bubble{
+  background:#0284c7;
+  border:none;
+}
+.mika-input-form{
+  padding:.65rem .75rem;
+  background:#0f172a;
+  border-top:1px solid #334155;
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr) auto;
+  gap:.5rem;
+  align-items:center;
+}
+.mika-input-form input{
+  min-width:0;
+  background:#1e293b;
+  border:1px solid #334155;
+  border-radius:8px;
+  padding:.55rem .8rem;
+  color:#f8fafc;
+  font-size:.875rem;
+}
+.mika-mic-button{padding:.55rem .65rem}
+.mika-voice-status{
+  min-height:1.25rem;
+  padding:.2rem .75rem .5rem;
+  background:#0f172a;
+  color:#94a3b8;
+  font-size:.72rem;
+}
+.exercise-sticky-context{
+  position:sticky;
+  top:0;
+  z-index:6;
+  box-shadow:0 8px 18px rgba(15,23,42,.18);
+}
+.math-keyboard-dock{
+  flex-shrink:0;
+  padding:.55rem .65rem;
+  background:#0f172a;
+  border:1px solid #3b82f6;
+  border-radius:10px;
+  max-height:180px;
+  overflow:hidden;
+}
+.math-keyboard-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:.75rem;
+  margin-bottom:.4rem;
+}
+.math-keyboard-head strong{font-size:.78rem;color:#60a5fa}
+.math-keyboard-actions{display:flex;gap:.35rem}
+.math-keyboard-actions .btn{padding:.2rem .45rem;font-size:.7rem}
+.math-keyboard-grid{
+  display:grid;
+  grid-template-columns:repeat(8,minmax(48px,1fr));
+  gap:.3rem;
+  overflow-x:auto;
+}
+.math-keyboard-dock.is-expanded .math-keyboard-grid{
+  grid-template-columns:repeat(5,minmax(52px,1fr));
+}
+.math-key{padding:.34rem .4rem;font-size:.8rem;font-family:monospace;min-height:36px}
+.math-tools-panel{max-height:55vh;overflow:auto}
+
+@media(max-width:1200px){
+  .right-sidebar{
+    display:flex!important;
+    position:fixed;
+    right:12px;
+    bottom:78px;
+    z-index:70;
+    width:min(320px,calc(100vw - 24px));
+    max-height:58vh;
+    overflow:auto;
+    filter:drop-shadow(0 18px 32px rgba(0,0,0,.35));
+  }
+}
+
+@media(max-width:768px){
+  .mika-exercise-context{position:sticky;top:0}
+  .mika-exercise-context-body{max-height:104px}
+  .mika-input-form{grid-template-columns:auto minmax(0,1fr)}
+  .mika-input-form .btn-primary{grid-column:1 / -1;width:100%}
+  .mika-message-row{max-width:96%}
+  .math-keyboard-dock{
+    position:sticky;
+    bottom:0;
+    z-index:65;
+    max-height:142px;
+  }
+  .math-keyboard-grid{
+    display:flex;
+    overflow-x:auto;
+    padding-bottom:.2rem;
+  }
+  .math-key{min-width:54px}
+  .math-keyboard-dock.is-expanded{max-height:220px;overflow:auto}
+  .math-keyboard-dock.is-expanded .math-keyboard-grid{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(52px,1fr));
+  }
+}
+
+@media(max-width:420px){
+  .mika-exercise-context{padding:.55rem .6rem}
+  .mika-exercise-context-head strong{font-size:.78rem}
+  .mika-context-toggle span{display:none}
+  .mika-voice-status{font-size:.68rem}
+  .right-sidebar{right:8px;width:calc(100vw - 16px)}
+}
