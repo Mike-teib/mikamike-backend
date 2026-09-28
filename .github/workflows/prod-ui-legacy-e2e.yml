@@ -1,0 +1,28 @@
+name: MikaMike production postdeploy E2E
+on:
+  push:
+    branches: ["audit/mikamike-prod-legacy-postdeploy-20260928"]
+    paths:
+      - ".github/workflows/prod-ui-legacy-e2e.yml"
+      - "ops/audit_prod_legacy_ui.mjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Auditer app.mikamike.fr
+        run: node ops/audit_prod_legacy_ui.mjs
+      - name: Captures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mikamike-prod-postdeploy
+          path: audit-artifacts/
