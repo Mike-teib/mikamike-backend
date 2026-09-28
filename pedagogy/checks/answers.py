@@ -196,7 +196,7 @@ def _check_quantity(expected: ExpectedAnswer, student: str) -> CheckResult:
         tolerance_relative=tol,
         required_sig_figs=expected.significant_figures,
         scientific_notation=expected.required_form == "notation_scientifique",
-        unit_imposed=expected.required_form == "unite_imposee",
+        unit_imposed=expected.required_form == "unite_imposee" or physics.unit_requires_identity(expected.unit or ""),
     )
 
 
