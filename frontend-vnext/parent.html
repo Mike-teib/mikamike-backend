@@ -21,45 +21,55 @@
         <div>
           <span class="eyebrow">ESPACE PARENT</span>
           <h1>Voir l’essentiel, sans surveiller chaque réponse.</h1>
-          <p class="lead">L’espace parent est conçu pour montrer les progrès, les fragilités et les prochaines étapes utiles. Il ne transforme pas l’apprentissage en tableau de contrôle permanent.</p>
+          <p class="lead">Connecte ton compte parent puis indique le code de l’élève déjà lié à ce compte. MikaMike affiche uniquement les indicateurs pédagogiques autorisés.</p>
         </div>
         <figure class="media-card parent-hero-illustration">
           <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_14-6-1024x576.png" alt="Illustration MikaMike : accompagnement d’un élève et de sa famille" width="1024" height="576" loading="eager" decoding="async">
         </figure>
       </section>
 
+      <section class="parent-auth-grid" aria-label="Connexion et tableau de bord parent">
+        <article class="parent-login-card">
+          <span class="eyebrow">CONNEXION SÉCURISÉE</span>
+          <h2>Ouvrir le suivi</h2>
+          <form id="parentLoginForm" novalidate>
+            <label for="parentEmail">Adresse e-mail du compte parent</label>
+            <input id="parentEmail" type="email" autocomplete="username" required>
+            <label for="parentPassword">Mot de passe</label>
+            <input id="parentPassword" type="password" autocomplete="current-password" required>
+            <label for="parentStudentCode">Code élève lié</label>
+            <input id="parentStudentCode" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. Test26Mika" required>
+            <p id="parentError" class="form-error" role="alert" hidden></p>
+            <p id="parentStatus" class="form-help" aria-live="polite">Le compte parent doit déjà être lié à cet élève.</p>
+            <button class="primary-button full-button" type="submit">Afficher les progrès</button>
+          </form>
+        </article>
+
+        <article id="parentDashboard" class="parent-dashboard-card" hidden>
+          <span class="eyebrow">TABLEAU DE BORD</span>
+          <h2 id="parentStudentTitle">Progression</h2>
+          <div class="progress-grid">
+            <article class="metric-card accent-green"><span class="metric-icon">✅</span><strong id="parentSuccess">0 / 0</strong><p>Exercices réussis.</p></article>
+            <article class="metric-card accent-blue"><span class="metric-icon">📊</span><strong id="parentRate">0 %</strong><p>Taux de réussite.</p></article>
+            <article class="metric-card accent-orange"><span class="metric-icon">🪜</span><strong id="parentLevel">—</strong><p>Niveau actuel.</p></article>
+          </div>
+          <div>
+            <h3>Compétences suivies</h3>
+            <div id="parentCompetences" class="parent-competences"></div>
+          </div>
+          <button id="parentLogout" class="text-button" type="button">Se déconnecter</button>
+        </article>
+      </section>
+
       <section class="parent-status-card">
         <div>
           <span class="status-dot"></span>
-          <strong>Interface parent préparée</strong>
-          <p>Le backend possède déjà les contrats de compte, de liaison parent–élève et de tableau de bord. L’ouverture publique reste désactivée tant que le parcours complet n’est pas validé.</p>
+          <strong>Accès respectueux de la vie privée</strong>
+          <p>Le tableau de bord ne reçoit ni nom, ni prénom, ni e-mail de l’élève : uniquement son identifiant pseudonyme et ses indicateurs pédagogiques agrégés.</p>
         </div>
-        <span class="badge-soon">Bientôt disponible</span>
-      </section>
-
-      <section class="parent-preview">
-        <div class="section-heading">
-          <div><span class="eyebrow">APERÇU</span><h2>Ce que les parents verront.</h2></div>
-        </div>
-        <figure class="media-card panel-illustration">
-          <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_16-7-1024x576.png" alt="Illustration MikaMike de l’espace parent et du suivi de progression" width="1024" height="576" loading="lazy" decoding="async">
-        </figure>
-        <div class="parent-grid">
-          <article class="metric-card accent-green"><span class="metric-icon">📈</span><strong>Progression</strong><p>Une vue claire des notions en cours et consolidées.</p></article>
-          <article class="metric-card accent-blue"><span class="metric-icon">🧩</span><strong>Points à renforcer</strong><p>Les prérequis fragiles remontent sans exposer chaque réponse.</p></article>
-          <article class="metric-card accent-orange"><span class="metric-icon">🗓️</span><strong>Rythme</strong><p>Des repères utiles dans le temps, sans pression quotidienne.</p></article>
-          <article class="metric-card accent-teal"><span class="metric-icon">🔒</span><strong>Vie privée</strong><p>Les données sont minimisées et l’accès doit être lié explicitement à l’élève.</p></article>
-        </div>
-      </section>
-
-      <section class="parent-actions">
-        <div>
-          <h2>Déjà un code élève ?</h2>
-          <p>L’application élève reste accessible normalement pendant la préparation de l’espace parent.</p>
-        </div>
-        <a class="primary-button button-link" href="./">Ouvrir l’espace élève</a>
       </section>
     </main>
   </div>
+  <script src="./parent.js" defer></script>
 </body>
 </html>
