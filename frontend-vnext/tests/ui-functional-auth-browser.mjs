@@ -137,9 +137,11 @@ await page.locator("#studentCode").fill("Test26Mika");
 await page.getByRole("button", { name: "Se connecter et commencer" }).click();
 
 await page.locator("#dashboardView").waitFor({ state: "visible" });
+await page.waitForFunction(() => document.querySelector("#exerciseStatement")?.textContent?.includes("2 + 3 × 4"));
+assert.equal(await page.locator("#studentLevel").inputValue(), "6e");
+await page.locator('button[data-panel="mika"]').click();
 await page.locator("#exerciseContext").waitFor({ state: "visible" });
 assert.match(await page.locator("#exerciseStatement").innerText(), /2 \+ 3 × 4/);
-assert.equal(await page.locator("#studentLevel").inputValue(), "6e");
 
 const storage = await page.evaluate(() => ({
   accountToken: sessionStorage.getItem("mikamike_account_token"),
@@ -154,7 +156,7 @@ await page.locator('button[data-panel="subjects"]').click();
 const maths = page.locator('#panel-subjects .subject-card[data-api-subject="maths"]');
 await maths.click();
 await page.locator("#panel-mika").waitFor({ state: "visible" });
-assert.match(await page.locator("#catalogNotice").innerText(), /parcours chargé depuis le serveur/);
+assert.match(await page.locator("#catalogNotice").textContent(), /parcours chargé depuis le serveur/);
 
 await page.locator("#chatInput").fill("14");
 await page.locator("#chatSubmit").click();
