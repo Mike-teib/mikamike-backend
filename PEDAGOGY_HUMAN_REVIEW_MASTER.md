@@ -61,7 +61,11 @@ Priorités humaines :
 
 ### Vague 2 — Mathématiques cycle 3 : CM1, CM2, 6e
 
-Fichier : `pedagogy/data/drafts/PILOT_MATHS_CM1_6E.md`
+Fichiers :
+- `pedagogy/data/drafts/PILOT_MATHS_CM1_6E.md`
+- pré-relecture modèle : `pedagogy/data/drafts/MODEL_REVIEW_WAVE2_MATHS_C3.md`
+
+La pré-relecture modèle ne remplace pas l'approbation humaine.
 
 Priorités humaines :
 
