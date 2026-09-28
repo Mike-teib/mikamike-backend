@@ -1500,8 +1500,8 @@
         "Que reste-t-il au bout d'une demi-vie ? Et d'une deuxième ?"
       ],
       "common_errors": {
-        "4,0 × 10^6": "L'élève a divisé par 2 une seule fois.",
-        "0": "L'élève pense que tous les noyaux ont disparu au bout de deux demi-vies."
+        "0": "L'élève pense que tous les noyaux ont disparu au bout de deux demi-vies.",
+        "4,0 × 10^6": "L'élève a divisé par 2 une seule fois."
       },
       "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
       "estimated_time_min": 3,
@@ -1735,11 +1735,12 @@
       "level": "TLE",
       "difficulty": "APPLICATION",
       "exercise_type": "CALCULATION",
-      "statement": "Un échantillon contient 3,0 × 10^12 noyaux radioactifs de constante radioactive λ = 1,0 × 10^-6 s⁻¹. Calculer son activité, exprimée en becquerels (donner le nombre seul). Donner le résultat avec 2 chiffres significatifs.",
+      "statement": "Un échantillon contient 3,0 × 10^12 noyaux radioactifs de constante radioactive λ = 1,0 × 10^-6 s⁻¹. Calculer son activité, exprimée en becquerels. Donner le résultat avec 2 chiffres significatifs.",
       "expected_answer": {
         "kind": "QUANTITY",
         "value": "3,0 × 10^6",
-        "significant_figures": 2
+        "significant_figures": 2,
+        "unit": "Bq"
       },
       "solution": "A = λ × N. A = 1,0 × 10^-6 × 3,0 × 10^12 = 3,0 × 10^6 Bq.",
       "step_by_step_solution": [
@@ -1787,8 +1788,8 @@
         "Combien de fois l'activité a-t-elle été divisée par 2 ?"
       ],
       "common_errors": {
-        "64": "L'élève a multiplié la demi-vie par 8 au lieu de 3.",
-        "16": "L'élève a compté deux demi-vies."
+        "16": "L'élève a compté deux demi-vies.",
+        "64": "L'élève a multiplié la demi-vie par 8 au lieu de 3."
       },
       "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
       "estimated_time_min": 4,
@@ -1896,11 +1897,12 @@
       "level": "TLE",
       "difficulty": "CONSOLIDATION",
       "exercise_type": "CALCULATION",
-      "statement": "Un fragment de bois ancien présente une activité en carbone 14 égale à 60 % de celle d'un bois récent. La demi-vie du carbone 14 vaut 5 730 ans. Estimer l'âge du fragment, en années (donner le nombre seul). Donner le résultat avec 2 chiffres significatifs.",
+      "statement": "Un fragment de bois ancien présente une activité en carbone 14 égale à 60 % de celle d'un bois récent. La demi-vie du carbone 14 vaut 5 730 ans. Estimer l'âge du fragment, en années. Donner le résultat avec 2 chiffres significatifs.",
       "expected_answer": {
         "kind": "QUANTITY",
         "value": "4,2 × 10^3",
-        "significant_figures": 2
+        "significant_figures": 2,
+        "unit": "an"
       },
       "solution": "A / A0 = e^(−λ t) = 0,60, donc t = −ln(0,60) / λ = −ln(0,60) × t½ / ln 2. t = 0,511 × 5 730 ÷ 0,693 ≈ 4,2 × 10^3 ans.",
       "step_by_step_solution": [
@@ -2058,11 +2060,12 @@
       "level": "TLE",
       "difficulty": "CONSOLIDATION",
       "exercise_type": "CALCULATION",
-      "statement": "Un échantillon contient 1,0 µg d'iode 131 (M = 131 g/mol ; demi-vie 8,02 jours, soit λ = 1,00 × 10^-6 s⁻¹). Données : NA = 6,02 × 10^23 mol⁻¹. Calculer son activité, exprimée en becquerels (donner le nombre seul). Donner le résultat avec 2 chiffres significatifs.",
+      "statement": "Un échantillon contient 1,0 µg d'iode 131 (M = 131 g/mol ; demi-vie 8,02 jours, soit λ = 1,00 × 10^-6 s⁻¹). Données : NA = 6,02 × 10^23 mol⁻¹. Calculer son activité, exprimée en becquerels. Donner le résultat avec 2 chiffres significatifs.",
       "expected_answer": {
         "kind": "QUANTITY",
         "value": "4,6 × 10^9",
-        "significant_figures": 2
+        "significant_figures": 2,
+        "unit": "Bq"
       },
       "solution": "N = m / M × NA = 1,0 × 10^-6 ÷ 131 × 6,02 × 10^23 ≈ 4,6 × 10^15 noyaux. A = λ N = 1,00 × 10^-6 × 4,6 × 10^15 ≈ 4,6 × 10^9 Bq.",
       "step_by_step_solution": [
@@ -2138,11 +2141,12 @@
       "level": "TLE",
       "difficulty": "ADVANCED",
       "exercise_type": "PROBLEM",
-      "statement": "On injecte à un patient une dose de technétium 99m d'activité 5,0 × 10^8 Bq (demi-vie 6,0 h). Calculer l'activité de la dose 24 h plus tard, exprimée en becquerels (donner le nombre seul ; on néglige l'élimination biologique). Donner le résultat avec 2 chiffres significatifs.",
+      "statement": "On injecte à un patient une dose de technétium 99m d'activité 5,0 × 10^8 Bq (demi-vie 6,0 h). Calculer l'activité de la dose 24 h plus tard, exprimée en becquerels (on néglige l'élimination biologique). Donner le résultat avec 2 chiffres significatifs.",
       "expected_answer": {
         "kind": "QUANTITY",
         "value": "3,1 × 10^7",
-        "significant_figures": 2
+        "significant_figures": 2,
+        "unit": "Bq"
       },
       "solution": "24 h = 4 demi-vies. A = A0 / 2^4 = 5,0 × 10^8 ÷ 16 ≈ 3,1 × 10^7 Bq.",
       "step_by_step_solution": [
@@ -2177,11 +2181,12 @@
       "level": "TLE",
       "difficulty": "ADVANCED",
       "exercise_type": "PROBLEM",
-      "statement": "Un os fossile ne contient plus que 25 % du carbone 14 qu'il contenait à la mort de l'animal. La demi-vie du carbone 14 vaut 5 730 ans. Calculer l'âge de l'os, en années (donner le nombre seul). Donner le résultat avec 3 chiffres significatifs.",
+      "statement": "Un os fossile ne contient plus que 25 % du carbone 14 qu'il contenait à la mort de l'animal. La demi-vie du carbone 14 vaut 5 730 ans. Calculer l'âge de l'os, en années. Donner le résultat avec 3 chiffres significatifs.",
       "expected_answer": {
         "kind": "QUANTITY",
         "value": "1,15 × 10^4",
-        "significant_figures": 3
+        "significant_figures": 3,
+        "unit": "an"
       },
       "solution": "25 % = 1/4 = 1/2² : deux demi-vies se sont écoulées. t = 2 × 5 730 = 1,15 × 10^4 ans.",
       "step_by_step_solution": [
