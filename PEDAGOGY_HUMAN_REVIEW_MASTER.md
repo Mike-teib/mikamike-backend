@@ -153,6 +153,20 @@ Aucun script ne doit transformer ces choix internes en vérité officielle : le 
 
 Décision recommandée pour le n°115 : le conserver hors banque tant qu'une notion officielle suffisamment précise ne couvre pas explicitement son problème multiplicatif en plusieurs étapes. Ne pas le rattacher artificiellement à une notion voisine.
 
+## File de relecture en lecture seule
+
+Avant toute approbation, générer la file courante :
+
+```bash
+python -m pedagogy.drafts review-plan
+```
+
+Le rapport est écrit par défaut dans `reports/DRAFTS_REVIEW_PLAN.json` et contient, pour chaque notion :
+matière, niveau, titre, statut de preuve, statut de revue, nombre d'exercices, nombre de quiz et indicateur
+`ready_for_human_review`. La CI publie aussi ce rapport comme artefact `pedagogy-human-review-plan`.
+
+Cette commande ne déplace, n'approuve et ne publie aucun contenu.
+
 ## Procédure d'approbation
 
 Exemple pour une notion et quelques items seulement :
