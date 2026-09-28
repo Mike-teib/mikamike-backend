@@ -1,0 +1,784 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q01",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "L'énergie cinétique d'un objet dépend :",
+      "choices": [
+        "de sa masse et de sa vitesse",
+        "de sa masse seulement",
+        "de sa vitesse seulement",
+        "de son altitude seulement"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de sa masse et de sa vitesse",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ec = ½ × m × v² : elle dépend de la masse et de la vitesse de l'objet.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La vitesse intervient aussi.",
+        "2": "La masse intervient aussi.",
+        "3": "L'altitude concerne l'énergie potentielle."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q02",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "L'unité d'énergie du Système international est :",
+      "choices": [
+        "le joule",
+        "le watt",
+        "le newton",
+        "le kilogramme"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le joule",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Toute énergie s'exprime en joules (J).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Unité de puissance.",
+        "2": "Unité de force.",
+        "3": "Unité de masse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q03",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un objet de 2 kg se déplace à 3 m/s. Son énergie cinétique vaut :",
+      "choices": [
+        "9 J",
+        "3 J",
+        "6 J",
+        "18 J"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9 J",
+      "answer_kind": "QUANTITY",
+      "explanation": "Ec = 0,5 × 2 × 3² = 0,5 × 2 × 9 = 9 J.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Vitesse non élevée au carré.",
+        "2": "Produit m × v.",
+        "3": "Oubli du facteur ½."
+      },
+      "common_error_target": {
+        "1": "oubli du carré"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q04",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Si la vitesse d'un objet est multipliée par 3, son énergie cinétique est :",
+      "choices": [
+        "multipliée par 9",
+        "multipliée par 3",
+        "multipliée par 6"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "multipliée par 9",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ec est proportionnelle à v² : 3² = 9.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Oubli du carré.",
+        "2": "Confusion entre 3² et 2 × 3."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q05",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Pour calculer Ec = ½ × m × v² en joules, la vitesse doit être exprimée en :",
+      "choices": [
+        "m/s",
+        "km/h",
+        "m/min"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "m/s",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Dans le Système international, la vitesse s'exprime en m/s et la masse en kg.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Il faut convertir les km/h en m/s.",
+        "2": "Unité non SI."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q06",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Une balle de 100 g se déplace à 20 m/s. Son énergie cinétique vaut :",
+      "choices": [
+        "20 J",
+        "20000 J",
+        "1 J",
+        "40 J"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "20 J",
+      "answer_kind": "QUANTITY",
+      "explanation": "m = 0,100 kg ; Ec = 0,5 × 0,100 × 20² = 20 J.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Masse non convertie en kg.",
+        "2": "Vitesse non élevée au carré.",
+        "3": "Oubli du facteur ½."
+      },
+      "common_error_target": {
+        "1": "masse en grammes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q07",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un objet de 50 kg se déplace à 36 km/h. Son énergie cinétique vaut :",
+      "choices": [
+        "2500 J",
+        "32400 J",
+        "250 J",
+        "5000 J"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2500 J",
+      "answer_kind": "QUANTITY",
+      "explanation": "36 km/h = 10 m/s ; Ec = 0,5 × 50 × 10² = 2 500 J.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Vitesse non convertie.",
+        "2": "Vitesse non élevée au carré.",
+        "3": "Oubli du facteur ½."
+      },
+      "common_error_target": {
+        "1": "km/h non convertis"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q08",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Quand un objet en mouvement s'immobilise, son énergie cinétique :",
+      "choices": [
+        "devient nulle",
+        "double",
+        "reste la même"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "devient nulle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ec = ½ × m × v² : si v = 0, alors Ec = 0.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Elle diminue au contraire.",
+        "2": "Elle dépend de la vitesse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q09",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "La forme d'énergie que possède un objet du fait de son mouvement s'appelle :",
+      "choices": [
+        "l'énergie cinétique",
+        "l'énergie nucléaire",
+        "l'énergie chimique",
+        "l'énergie lumineuse"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'énergie cinétique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'énergie liée au mouvement d'un objet est l'énergie cinétique.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Liée aux noyaux atomiques.",
+        "2": "Liée aux réactions chimiques.",
+        "3": "Transportée par la lumière."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.energie-cinetique.q10",
+      "notion_id": "PC.3E.NRJ.energies-cinetique-relation-ec-12-mv2-potentielle-dependant-de-la-posi",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un objet de 4,0 kg possède une énergie cinétique de 50 J. Sa vitesse vaut :",
+      "choices": [
+        "5,0 m/s",
+        "25 m/s",
+        "12,5 m/s",
+        "3,5 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5,0 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "v² = 2 × 50 ÷ 4,0 = 25, donc v = √25 = 5,0 m/s.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Oubli de la racine carrée.",
+        "2": "Division Ec / m seulement.",
+        "3": "Oubli du facteur 2."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q01",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Le poids d'un objet s'exprime en :",
+      "choices": [
+        "newtons",
+        "kilogrammes",
+        "joules",
+        "litres"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "newtons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le poids est une force : il s'exprime en newtons (N).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Unité de masse.",
+        "2": "Unité d'énergie.",
+        "3": "Unité de volume."
+      },
+      "common_error_target": {
+        "1": "confusion masse / poids"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q02",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "La relation entre le poids P et la masse m s'écrit :",
+      "choices": [
+        "P = m × g",
+        "P = m / g",
+        "P = m + g",
+        "P = g / m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "P = m × g",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le poids est proportionnel à la masse : P = m × g.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Quotient au lieu d'un produit.",
+        "2": "Somme.",
+        "3": "Quotient inversé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q03",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Sur Terre (g = 9,8 N/kg), le poids d'un objet de 2,0 kg vaut :",
+      "choices": [
+        "19,6 N",
+        "2,0 N",
+        "0,20 N",
+        "11,8 N"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "19,6 N",
+      "answer_kind": "QUANTITY",
+      "explanation": "P = m × g = 2,0 × 9,8 = 19,6 N.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Confusion masse / poids.",
+        "2": "Division m / g.",
+        "3": "Somme m + g."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q04",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Quand on passe de la Terre à la Lune, la masse d'un objet :",
+      "choices": [
+        "ne change pas",
+        "diminue",
+        "augmente"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ne change pas",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La masse ne dépend pas du lieu ; seul le poids change.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est le poids qui diminue.",
+        "2": "Ni la masse ni le poids n'augmentent."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q05",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Sur Terre (g = 9,8 N/kg), le poids d'un objet de 500 g vaut :",
+      "choices": [
+        "4,9 N",
+        "4900 N",
+        "500 N",
+        "0,051 N"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4,9 N",
+      "answer_kind": "QUANTITY",
+      "explanation": "m = 0,500 kg ; P = 0,500 × 9,8 = 4,9 N.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Masse non convertie.",
+        "2": "Confusion masse / poids.",
+        "3": "Division m / g."
+      },
+      "common_error_target": {
+        "1": "grammes non convertis"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q06",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un objet a un poids de 16 N sur la Lune (g = 1,6 N/kg). Sa masse est :",
+      "choices": [
+        "10 kg",
+        "25,6 kg",
+        "16 kg",
+        "0,1 kg"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10 kg",
+      "answer_kind": "QUANTITY",
+      "explanation": "m = P / g = 16 ÷ 1,6 = 10 kg.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Produit P × g.",
+        "2": "Confusion poids / masse.",
+        "3": "Quotient g / P."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q07",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Le poids d'un objet sur Terre est une force :",
+      "choices": [
+        "verticale orientée vers le bas",
+        "verticale orientée vers le haut",
+        "horizontale"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "verticale orientée vers le bas",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le poids est dirigé vers le centre de la Terre : vertical, vers le bas.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Sens inversé.",
+        "2": "Direction incorrecte."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q08",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "L'intensité de la pesanteur g s'exprime en :",
+      "choices": [
+        "N/kg",
+        "kg/N",
+        "N",
+        "kg"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "N/kg",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "g = P / m : des newtons divisés par des kilogrammes, soit des N/kg.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Quotient inversé.",
+        "2": "Unité de force.",
+        "3": "Unité de masse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q09",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un objet dont le poids est 98 N sur Terre (g = 9,8 N/kg) a une masse de :",
+      "choices": [
+        "10 kg",
+        "960,4 kg",
+        "98 kg",
+        "1 kg"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10 kg",
+      "answer_kind": "QUANTITY",
+      "explanation": "m = P / g = 98 ÷ 9,8 = 10 kg.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Produit P × g.",
+        "2": "Confusion poids / masse.",
+        "3": "Erreur de calcul."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.poids.q10",
+      "notion_id": "PC.3E.MVT.force-de-pesanteur-et-son-expression-p-mg",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Sur Mars, g = 3,7 N/kg. Un objet de 30 kg y a un poids de :",
+      "choices": [
+        "111 N",
+        "8,1 N",
+        "33,7 N",
+        "294 N"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "111 N",
+      "answer_kind": "QUANTITY",
+      "explanation": "P = m × g = 30 × 3,7 = 111 N.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Division m / g.",
+        "2": "Somme m + g.",
+        "3": "Poids sur Terre (g = 9,8 N/kg)."
+      },
+      "common_error_target": {
+        "3": "g terrestre utilisé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q01",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Le noyau d'un atome contient :",
+      "choices": [
+        "des protons et des neutrons",
+        "des électrons et des protons",
+        "uniquement des électrons",
+        "uniquement des neutrons"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "des protons et des neutrons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le noyau contient les nucléons : protons et neutrons. Les électrons sont autour du noyau.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Les électrons sont autour du noyau.",
+        "2": "Les électrons sont autour du noyau.",
+        "3": "Il y a aussi des protons."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q02",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Les électrons portent une charge électrique :",
+      "choices": [
+        "négative",
+        "positive",
+        "nulle"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "négative",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les électrons sont chargés négativement ; les protons positivement ; les neutrons ne sont pas chargés.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la charge du proton.",
+        "2": "C'est la charge du neutron."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q03",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un atome dont le noyau contient 8 protons possède :",
+      "choices": [
+        "8 électrons",
+        "16 électrons",
+        "4 électrons",
+        "0 électron"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "8 électrons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un atome est électriquement neutre : autant d'électrons que de protons.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Double du nombre de protons.",
+        "2": "Moitié du nombre de protons.",
+        "3": "Un atome a des électrons."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q04",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Le numéro atomique Z d'un élément est le nombre de :",
+      "choices": [
+        "protons",
+        "neutrons",
+        "nucléons",
+        "atomes"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "protons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Z est le nombre de protons du noyau ; il caractérise l'élément chimique.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le nombre de neutrons peut varier.",
+        "2": "C'est le nombre de masse.",
+        "3": "Confusion atome / particule."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q05",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un noyau contient 11 protons et 12 neutrons. Son nombre de nucléons est :",
+      "choices": [
+        "23",
+        "11",
+        "12",
+        "1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "23",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Nucléons = protons + neutrons = 11 + 12 = 23.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Seuls les protons.",
+        "2": "Seuls les neutrons.",
+        "3": "Différence 12 − 11."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q06",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un atome est électriquement neutre car :",
+      "choices": [
+        "il a autant d'électrons que de protons",
+        "il a autant de neutrons que de protons",
+        "son noyau n'est pas chargé"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "il a autant d'électrons que de protons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les charges des protons (+) et des électrons (−) se compensent exactement.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Les neutrons ne portent pas de charge.",
+        "2": "Le noyau est chargé positivement."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q07",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "La masse d'un atome est concentrée :",
+      "choices": [
+        "dans son noyau",
+        "dans ses électrons",
+        "dans le vide autour du noyau"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "dans son noyau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un nucléon est environ 2 000 fois plus massif qu'un électron : la masse est dans le noyau.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Les électrons sont très légers.",
+        "2": "Le vide n'a pas de masse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q08",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un noyau de 35 nucléons contient 17 protons. Son nombre de neutrons est :",
+      "choices": [
+        "18",
+        "17",
+        "52",
+        "35"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "18",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Neutrons = nucléons − protons = 35 − 17 = 18.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Nombre de protons.",
+        "2": "Somme au lieu d'une différence.",
+        "3": "Nombre de nucléons."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q09",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Deux atomes d'un même élément chimique ont toujours le même nombre de :",
+      "choices": [
+        "protons",
+        "neutrons",
+        "nucléons"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "protons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'élément chimique est défini par son numéro atomique, c'est-à-dire son nombre de protons.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le nombre de neutrons peut varier (isotopes).",
+        "2": "Le nombre de nucléons peut varier."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.3E.atome.q10",
+      "notion_id": "PC.3E.MAT.constituants-de-latome-structure-interne-dun-noyau-atomique-nucleons-p",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "question": "Un atome de fluor a 9 électrons et son noyau contient 19 nucléons. Ce noyau contient :",
+      "choices": [
+        "9 protons et 10 neutrons",
+        "10 protons et 9 neutrons",
+        "19 protons et 9 neutrons",
+        "9 protons et 19 neutrons"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9 protons et 10 neutrons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Atome neutre : 9 protons. Neutrons = 19 − 9 = 10.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Inversion protons / neutrons.",
+        "2": "Confusion nucléons / protons.",
+        "3": "Confusion nucléons / neutrons."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

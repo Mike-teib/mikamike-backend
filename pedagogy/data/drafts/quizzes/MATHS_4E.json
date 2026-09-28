@@ -1,0 +1,793 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q01",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est l'écriture décimale de $10^{-3}$ ?",
+      "choices": [
+        "0,001",
+        "0,0001",
+        "-1000",
+        "0,003"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,001",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "$10^{-3} = \\frac{1}{1000}$ = 0,001 : le chiffre 1 est au troisième rang après la virgule.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le 1 est placé au quatrième rang : c'est 10^-4.",
+        "2": "Un exposant négatif ne rend pas le nombre négatif.",
+        "3": "On a multiplié 3 par 0,001."
+      },
+      "common_error_target": {
+        "2": "exposant négatif confondu avec nombre négatif"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q02",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quel est le résultat de $10^{5} \\times 10^{3}$ ?",
+      "choices": [
+        "10^8",
+        "10^15",
+        "10^2",
+        "100^8"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10^8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Pour multiplier deux puissances de 10, on additionne les exposants : 5 + 3 = 8, d'où 10^8.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a multiplié les exposants.",
+        "2": "On a soustrait les exposants.",
+        "3": "On a multiplié les bases 10 × 10 : 100^8 = 10^16."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q03",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la notation scientifique du nombre 5 300 ?",
+      "choices": [
+        "5,3 × 10^3",
+        "53 × 10^2",
+        "5,3 × 10^2",
+        "0,53 × 10^4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5,3 × 10^3",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "En notation scientifique, la partie décimale est entre 1 et 10 : 5 300 = 5,3 × 1000 = 5,3 × 10^3.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "53 × 10^2 est égal à 5 300 mais 53 n'est pas entre 1 et 10.",
+        "2": "5,3 × 10^2 = 530 : erreur d'un rang.",
+        "3": "0,53 × 10^4 est égal à 5 300 mais 0,53 est inférieur à 1."
+      },
+      "common_error_target": {
+        "1": "partie décimale hors de [1 ; 10["
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q04",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "À quelle puissance de 10 correspond le préfixe « milli » ?",
+      "choices": [
+        "10^-3",
+        "10^3",
+        "10^-6",
+        "10^-2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10^-3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "1 mm = 0,001 m : le préfixe milli correspond à 10^-3.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "10^3 correspond au préfixe kilo.",
+        "2": "10^-6 correspond au préfixe micro.",
+        "3": "10^-2 correspond au préfixe centi."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q05",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quel est le résultat de $\\frac{10^{6}}{10^{-2}}$ ?",
+      "choices": [
+        "10^8",
+        "10^4",
+        "10^-3",
+        "10^-12"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10^8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On soustrait les exposants : 6 − (−2) = 8, donc le quotient vaut 10^8.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a calculé 6 − 2 en oubliant le signe.",
+        "2": "On a divisé les exposants.",
+        "3": "On a multiplié les exposants."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q06",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Laquelle de ces écritures est une notation scientifique ?",
+      "choices": [
+        "7,04 × 10^-5",
+        "70,4 × 10^-6",
+        "0,704 × 10^-4",
+        "704 × 10^-7"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "7,04 × 10^-5",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une notation scientifique s'écrit a × 10^n avec 1 ≤ a < 10 : seul 7,04 vérifie cette condition.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "70,4 est supérieur à 10.",
+        "2": "0,704 est inférieur à 1.",
+        "3": "704 est supérieur à 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q07",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Un micromètre (µm) vaut combien de mètres ?",
+      "choices": [
+        "10^-6",
+        "10^-3",
+        "10^-9",
+        "10^6"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10^-6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le préfixe micro correspond à un millionième : 1 µm = 10^-6 m.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "10^-3 correspond au préfixe milli.",
+        "2": "10^-9 correspond au préfixe nano.",
+        "3": "10^6 correspond au préfixe méga."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q08",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quel est le résultat de $10^{-4} \\times 10^{7}$ ?",
+      "choices": [
+        "10^3",
+        "10^-28",
+        "10^11",
+        "10^-3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10^3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On additionne les exposants : −4 + 7 = 3, d'où 10^3.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a multiplié les exposants.",
+        "2": "On a ignoré le signe de −4.",
+        "3": "On a calculé 4 − 7."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q09",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Parmi ces nombres, lequel est le plus petit ?",
+      "choices": [
+        "2 × 10^-5",
+        "9 × 10^-4",
+        "1 × 10^-3",
+        "5 × 10^-5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2 × 10^-5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le plus petit exposant est −5 ; parmi 2 × 10^-5 et 5 × 10^-5, le plus petit est 2 × 10^-5 (0,00002).",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "9 × 10^-4 = 0,0009, plus grand que 0,00002.",
+        "2": "1 × 10^-3 = 0,001, plus grand.",
+        "3": "Même exposant, mais 5 > 2."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.puissances-10.q10",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est l'écriture décimale de $4{,}2 \\times 10^{3}$ ?",
+      "choices": [
+        "4200",
+        "420",
+        "42000",
+        "0,0042"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4200",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Multiplier par 10^3, c'est multiplier par 1000 : 4,2 × 1000 = 4200.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a multiplié par 100.",
+        "2": "On a multiplié par 10 000.",
+        "3": "On a divisé par 1000 au lieu de multiplier."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q01",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la solution de l'équation x + 8 = 3 ?",
+      "choices": [
+        "-5",
+        "11",
+        "5",
+        "3/8"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "-5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On soustrait 8 aux deux membres : x = 3 − 8 = −5.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a ajouté 8 au lieu de le soustraire.",
+        "2": "Erreur de signe dans le calcul 3 − 8.",
+        "3": "On a divisé au lieu de soustraire."
+      },
+      "common_error_target": {
+        "1": "opération inverse mal choisie"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q02",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la solution de l'équation 6x = 9 ?",
+      "choices": [
+        "3/2",
+        "3",
+        "2/3",
+        "15"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On divise les deux membres par 6 : x = 9/6 = 3/2 (soit 1,5).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a soustrait 6 au lieu de diviser.",
+        "2": "On a divisé 6 par 9 : la fraction est inversée.",
+        "3": "On a ajouté 6."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q03",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quel nombre est solution de l'équation 2x − 1 = 9 ?",
+      "choices": [
+        "5",
+        "4",
+        "10",
+        "-5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "2 × 5 − 1 = 9 : l'égalité est vraie pour x = 5.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "2 × 4 − 1 = 7 ≠ 9.",
+        "2": "On a oublié de diviser par 2.",
+        "3": "Erreur de signe."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q04",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la solution de l'équation 3x + 4 = x + 10 ?",
+      "choices": [
+        "3",
+        "7/2",
+        "6",
+        "-3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3x − x = 10 − 4, donc 2x = 6 et x = 3.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a additionné 3x et x : 4x = 14.",
+        "2": "On a oublié de diviser par 2.",
+        "3": "Erreur de signe."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q05",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Que signifie « résoudre une équation » ?",
+      "choices": [
+        "trouver toutes les valeurs de l'inconnue qui rendent l'égalité vraie",
+        "remplacer l'inconnue par zéro puis calculer les deux membres",
+        "développer et réduire chacun des deux membres de l'égalité",
+        "calculer la valeur de l'expression écrite à gauche du signe égal"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "trouver toutes les valeurs de l'inconnue qui rendent l'égalité vraie",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Résoudre une équation, c'est déterminer toutes ses solutions, c'est-à-dire toutes les valeurs de l'inconnue pour lesquelles l'égalité est vraie.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Remplacer par zéro permet seulement de tester si 0 est solution.",
+        "2": "Développer et réduire est parfois une étape, pas la résolution elle-même.",
+        "3": "Calculer un seul membre ne donne pas les solutions."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q06",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la solution de l'équation −4x = 10 ?",
+      "choices": [
+        "-5/2",
+        "-6",
+        "5/2",
+        "-2/5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "-5/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On divise par −4 : x = 10/(−4) = −5/2 (soit −2,5).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a ajouté 4 au lieu de diviser par −4.",
+        "2": "On a oublié le signe du coefficient.",
+        "3": "On a divisé −4 par 10 : fraction inversée."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q07",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la solution de l'équation 5 − x = 12 ?",
+      "choices": [
+        "-7",
+        "7",
+        "17",
+        "-17"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "-7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "−x = 12 − 5 = 7, donc x = −7. Vérification : 5 − (−7) = 12.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a oublié que c'est −x qui vaut 7.",
+        "2": "On a ajouté 5 et 12.",
+        "3": "On a calculé −(5 + 12)."
+      },
+      "common_error_target": {
+        "1": "oubli du signe devant x"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q08",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la solution de l'équation 2(x − 1) = 8 ?",
+      "choices": [
+        "5",
+        "9/2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "2x − 2 = 8, donc 2x = 10 et x = 5.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a développé 2(x − 1) en 2x − 1.",
+        "2": "On a soustrait 1 au lieu de l'ajouter.",
+        "3": "On a divisé par 2 sans ajouter 1."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q09",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "La somme de trois nombres entiers consécutifs est 48. Quel est le plus petit de ces nombres ?",
+      "choices": [
+        "15",
+        "16",
+        "14",
+        "12"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "15",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "n + (n + 1) + (n + 2) = 48, soit 3n + 3 = 48, donc 3n = 45 et n = 15 (les nombres sont 15, 16 et 17).",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "16 est le nombre du milieu.",
+        "2": "On a mal traduit « consécutifs ».",
+        "3": "On a divisé 48 par 4."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.equations.q10",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la solution de l'équation $\\frac{x}{3} = 4$ ?",
+      "choices": [
+        "12",
+        "4/3",
+        "7",
+        "1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "12",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On multiplie les deux membres par 3 : x = 4 × 3 = 12.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a divisé par 3 au lieu de multiplier.",
+        "2": "On a ajouté 3.",
+        "3": "On a soustrait 3."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q01",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Un triangle est rectangle ; les côtés de l'angle droit mesurent 3 cm et 4 cm. Combien mesure l'hypoténuse ?",
+      "choices": [
+        "5 cm",
+        "7 cm",
+        "25 cm",
+        "12 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "Théorème de Pythagore : 3² + 4² = 9 + 16 = 25, donc l'hypoténuse mesure √25 = 5 cm.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a additionné les longueurs au lieu des carrés.",
+        "2": "On a oublié la racine carrée.",
+        "3": "On a multiplié les longueurs."
+      },
+      "common_error_target": {
+        "1": "somme des longueurs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q02",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Dans un triangle rectangle, l'hypoténuse mesure 10 cm et un côté de l'angle droit mesure 8 cm. Combien mesure le troisième côté ?",
+      "choices": [
+        "6 cm",
+        "2 cm",
+        "18 cm",
+        "12,8 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "10² − 8² = 100 − 64 = 36, donc le troisième côté mesure √36 = 6 cm.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a soustrait les longueurs au lieu des carrés.",
+        "2": "On a additionné les longueurs.",
+        "3": "On a additionné les carrés (√164 ≈ 12,8)."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q03",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Dans un triangle rectangle, comment s'appelle le côté opposé à l'angle droit ?",
+      "choices": [
+        "l'hypoténuse",
+        "la médiane",
+        "la hauteur",
+        "la bissectrice"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'hypoténuse",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le côté opposé à l'angle droit s'appelle l'hypoténuse ; c'est le plus long côté du triangle rectangle.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une médiane relie un sommet au milieu du côté opposé.",
+        "2": "Une hauteur est perpendiculaire à un côté et passe par le sommet opposé.",
+        "3": "Une bissectrice partage un angle en deux angles égaux."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q04",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Un triangle a des côtés de 6 cm, 8 cm et 11 cm. Est-il rectangle ?",
+      "choices": [
+        "Non, car 11² ≠ 6² + 8²",
+        "Oui, car 11² = 6² + 8²",
+        "Oui, car 6 + 8 > 11"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Non, car 11² ≠ 6² + 8²",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "11² = 121 et 6² + 8² = 100 : l'égalité de Pythagore n'est pas vérifiée, donc le triangle n'est pas rectangle.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "121 n'est pas égal à 100 : l'égalité est fausse.",
+        "2": "Cette inégalité prouve seulement que le triangle existe."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q05",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Le triangle de côtés 7 cm, 24 cm et 25 cm est-il un triangle rectangle ?",
+      "choices": [
+        "Oui, car 25² = 7² + 24²",
+        "Non, car 25² ≠ 7² + 24²",
+        "Non, car 7 + 24 ≠ 25"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Oui, car 25² = 7² + 24²",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "25² = 625 et 7² + 24² = 49 + 576 = 625 : d'après la réciproque du théorème de Pythagore, il est rectangle.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le calcul montre pourtant que 625 = 625.",
+        "2": "On compare les carrés des longueurs, pas les longueurs."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q06",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Dans le triangle ABC, M ∈ [AB], N ∈ [AC] et (MN) // (BC). On a AM = 2 cm, AB = 6 cm et BC = 9 cm. Combien mesure MN ?",
+      "choices": [
+        "3 cm",
+        "27 cm",
+        "4,5 cm",
+        "6 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "Théorème de Thalès : MN/BC = AM/AB = 2/6, donc MN = 9 × 2 ÷ 6 = 3 cm.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a inversé le rapport (9 × 6 ÷ 2).",
+        "2": "On a pris la moitié de BC.",
+        "3": "On a confondu MN avec AB."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q07",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Dans la configuration de Thalès (M ∈ [AB], N ∈ [AC], (MN) // (BC)), quelle égalité est correcte ?",
+      "choices": [
+        "AM/AB = AN/AC = MN/BC",
+        "AM/MB = AN/AC = MN/BC",
+        "AB/AM = AN/AC = BC/MN"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "AM/AB = AN/AC = MN/BC",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On écrit les rapports « petit triangle / grand triangle » dans le même ordre : AM/AB = AN/AC = MN/BC.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "MB n'est pas un côté du grand triangle ABC.",
+        "2": "Les rapports ne sont pas écrits dans le même sens."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q08",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Quelle est la longueur de la diagonale d'un rectangle de 5 cm sur 12 cm ?",
+      "choices": [
+        "13 cm",
+        "17 cm",
+        "60 cm",
+        "7 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "13 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "La diagonale est l'hypoténuse d'un triangle rectangle : 5² + 12² = 169, donc elle mesure 13 cm.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a additionné les longueurs.",
+        "2": "On a calculé l'aire du rectangle.",
+        "3": "On a soustrait les longueurs."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q09",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Les côtés de l'angle droit d'un triangle rectangle mesurent 2 cm et 3 cm. Quelle est la longueur de l'hypoténuse, arrondie au dixième ?",
+      "choices": [
+        "3,6 cm",
+        "5 cm",
+        "13 cm",
+        "2,2 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3,6 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "2² + 3² = 4 + 9 = 13, donc l'hypoténuse mesure √13 ≈ 3,6 cm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a additionné les longueurs.",
+        "2": "On a oublié la racine carrée.",
+        "3": "On a soustrait les carrés (√5 ≈ 2,2)."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.4E.pythagore-thales.q10",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "question": "Dans le triangle ABC, M ∈ [AB], N ∈ [AC] et (MN) // (BC). On a AM = 3 cm, AB = 12 cm et AC = 8 cm. Combien mesure AN ?",
+      "choices": [
+        "2 cm",
+        "32 cm",
+        "4,5 cm",
+        "4 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "Théorème de Thalès : AN/AC = AM/AB = 3/12, donc AN = 8 × 3 ÷ 12 = 2 cm.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a inversé le rapport (8 × 12 ÷ 3).",
+        "2": "On a utilisé un rapport 3/8 mal placé (12 × 3 ÷ 8).",
+        "3": "On a pris la moitié de AC sans utiliser le rapport AM/AB."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "schema_version": "1.0",
+  "subject": "SVT",
+  "level": "TLE",
+  "course": "SPECIALITE",
+  "generated_by": "agent-C (Claude) — reconstitution candidate, sans accès aux sources officielles",
+  "disclaimer": "CANDIDATS NON VÉRIFIÉS : notions reconstituées de mémoire, sans accès au BO/Éduscol. Aucune n'est prouvée ; aucune ne peut alimenter exercices ou quiz avant preuve officielle et revue humaine.",
+  "notions": [
+    {
+      "notion_id": "SVT.TLE.TVO.brassages-genetiques-lies-a-la-meiose-et-a-la-fecondation",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Génétique et évolution",
+      "title": "Brassages génétiques liés à la méiose et à la fécondation",
+      "official_wording": null,
+      "normalized_title": "brassages génétiques liés à la méiose et à la fécondation",
+      "prerequisites": [
+        "SVT.1RE.TVO.cycle-cellulaire-et-mitose"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Expliquer les brassages inter- et intrachromosomiques",
+        "Analyser les résultats de croisements tests"
+      ],
+      "expected_skills": [
+        "Interpréter un échiquier de croisement",
+        "Calculer des proportions phénotypiques"
+      ],
+      "common_mistakes": [
+        "confondre brassage intrachromosomique et interchromosomique",
+        "confondre gènes liés et gènes indépendants"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "SVT.TLE.TVO.diversification-des-genomes-et-transferts-horizontaux",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Génétique et évolution",
+      "title": "Diversification des génomes et transferts horizontaux",
+      "official_wording": null,
+      "normalized_title": "diversification des génomes et transferts horizontaux",
+      "prerequisites": [
+        "SVT.1RE.TVO.mutations-de-l-adn-et-systemes-de-reparation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Expliquer la diversification des génomes (duplications, transferts horizontaux, anomalies de méiose)",
+        "Relier les familles multigéniques aux duplications"
+      ],
+      "expected_skills": [
+        "Comparer des séquences",
+        "Utiliser une matrice de similitudes"
+      ],
+      "common_mistakes": [
+        "croire que les gènes ne se transmettent que verticalement",
+        "confondre duplication génique et réplication"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.TVO.frequences-alleliques-et-modele-de-hardy-weinberg",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Génétique et évolution",
+      "title": "Fréquences alléliques et modèle de Hardy-Weinberg",
+      "official_wording": null,
+      "normalized_title": "fréquences alléliques et modèle de hardy-weinberg",
+      "prerequisites": [
+        "SVT.TLE.TVO.brassages-genetiques-lies-a-la-meiose-et-a-la-fecondation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Utiliser le modèle de Hardy-Weinberg comme référence",
+        "Identifier les forces évolutives s'écartant du modèle"
+      ],
+      "expected_skills": [
+        "Calculer des fréquences alléliques et génotypiques",
+        "Comparer données et prédictions"
+      ],
+      "common_mistakes": [
+        "croire que Hardy-Weinberg décrit des populations réelles sans écart",
+        "confondre fréquence allélique et fréquence génotypique"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.1RE.AN.suites-numeriques"
+      ]
+    },
+    {
+      "notion_id": "SVT.TLE.TVO.datation-relative-et-datation-absolue",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "À la recherche du passé géologique",
+      "title": "Datation relative et datation absolue",
+      "official_wording": null,
+      "normalized_title": "datation relative et datation absolue",
+      "prerequisites": [
+        "SVT.5E.TER.formation-des-roches-sedimentaires"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Appliquer les principes de chronologie relative",
+        "Utiliser la décroissance radioactive pour une datation absolue"
+      ],
+      "expected_skills": [
+        "Utiliser la méthode des isochrones",
+        "Exploiter une loi de décroissance"
+      ],
+      "common_mistakes": [
+        "confondre âge relatif et âge absolu",
+        "croire que tout chronomètre radioactif s'applique à n'importe quelle roche"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.1RE.AN.fonction-exponentielle"
+      ]
+    },
+    {
+      "notion_id": "SVT.TLE.TVO.collision-continentale-et-histoire-des-chaines-de-montagnes",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "À la recherche du passé géologique",
+      "title": "Collision continentale et histoire des chaînes de montagnes",
+      "official_wording": null,
+      "normalized_title": "collision continentale et histoire des chaînes de montagnes",
+      "prerequisites": [
+        "SVT.1RE.TVO.subduction-et-magmatisme-associe"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier les indices de terrain à la fermeture d'un océan et à la collision",
+        "Reconstituer l'histoire d'une chaîne de montagnes"
+      ],
+      "expected_skills": [
+        "Interpréter des cartes géologiques",
+        "Reconnaître une ophiolite"
+      ],
+      "common_mistakes": [
+        "croire qu'une chaîne de montagnes se forme en une seule étape",
+        "confondre subduction et collision"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.TVO.organisation-fonctionnelle-des-plantes-a-fleurs",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "De la plante sauvage à la plante domestiquée",
+      "title": "Organisation fonctionnelle des plantes à fleurs",
+      "official_wording": null,
+      "normalized_title": "organisation fonctionnelle des plantes à fleurs",
+      "prerequisites": [
+        "SVT.2NDE.TVO.metabolisme-cellulaire-et-enzymes"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "CONCEVOIR_EXPERIENCE"
+      ],
+      "learning_objectives": [
+        "Relier l'organisation de la plante à la vie fixée (surfaces d'échange, circulation des sèves)",
+        "Décrire la photosynthèse et le devenir de ses produits"
+      ],
+      "expected_skills": [
+        "Réaliser des coupes et les observer",
+        "Exploiter des mesures d'échanges gazeux"
+      ],
+      "common_mistakes": [
+        "croire que la plante respire uniquement la nuit",
+        "confondre sève brute et sève élaborée"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.TVO.reproduction-des-plantes-a-fleurs-et-coevolution-avec-les-pollinisateurs",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "De la plante sauvage à la plante domestiquée",
+      "title": "Reproduction des plantes à fleurs et coévolution avec les pollinisateurs",
+      "official_wording": null,
+      "normalized_title": "reproduction des plantes à fleurs et coévolution avec les pollinisateurs",
+      "prerequisites": [
+        "SVT.TLE.TVO.organisation-fonctionnelle-des-plantes-a-fleurs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire la reproduction sexuée des angiospermes",
+        "Relier fleur et pollinisateurs à une coévolution"
+      ],
+      "expected_skills": [
+        "Disséquer une fleur et construire un diagramme floral"
+      ],
+      "common_mistakes": [
+        "croire que toutes les plantes sont pollinisées par des insectes",
+        "confondre pollinisation et fécondation"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.TVO.domestication-des-plantes-et-selection-par-l-etre-humain",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "De la plante sauvage à la plante domestiquée",
+      "title": "Domestication des plantes et sélection par l'être humain",
+      "official_wording": null,
+      "normalized_title": "domestication des plantes et sélection par l'être humain",
+      "prerequisites": [
+        "SVT.TLE.TVO.reproduction-des-plantes-a-fleurs-et-coevolution-avec-les-pollinisateurs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "COMMUNIQUER",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Comparer une plante sauvage et sa forme cultivée",
+        "Discuter les techniques de sélection et de modification génétique"
+      ],
+      "expected_skills": [
+        "Argumenter à partir de données"
+      ],
+      "common_mistakes": [
+        "confondre sélection artificielle et sélection naturelle",
+        "présenter les biotechnologies de façon uniquement positive ou négative"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.EPC.reconstituer-et-comprendre-les-variations-climatiques-passees",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "Enjeux contemporains de la planète",
+      "domain_code": "EPC",
+      "chapter": "Les climats de la Terre",
+      "title": "Reconstituer et comprendre les variations climatiques passées",
+      "official_wording": null,
+      "normalized_title": "reconstituer et comprendre les variations climatiques passées",
+      "prerequisites": [
+        "SVT.3E.TER.changement-climatique-actuel-et-effet-de-serre"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Utiliser des indicateurs paléoclimatiques (isotopes, pollens, glaces)",
+        "Relier variations climatiques et paramètres orbitaux"
+      ],
+      "expected_skills": [
+        "Interpréter des courbes du δ18O",
+        "Mettre en relation plusieurs indicateurs"
+      ],
+      "common_mistakes": [
+        "inverser l'interprétation du δ18O dans la glace et dans les foraminifères",
+        "confondre échelles de temps glaciaire et actuelle"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.EPC.changement-climatique-actuel-et-scenarios",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "Enjeux contemporains de la planète",
+      "domain_code": "EPC",
+      "chapter": "Les climats de la Terre",
+      "title": "Changement climatique actuel et scénarios",
+      "official_wording": null,
+      "normalized_title": "changement climatique actuel et scénarios",
+      "prerequisites": [
+        "SVT.TLE.EPC.reconstituer-et-comprendre-les-variations-climatiques-passees"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier le réchauffement actuel aux émissions anthropiques de gaz à effet de serre",
+        "Interpréter des projections de modèles climatiques"
+      ],
+      "expected_skills": [
+        "Analyser des scénarios",
+        "Distinguer projection et prédiction"
+      ],
+      "common_mistakes": [
+        "confondre météo et climat",
+        "croire que les modèles prédisent une valeur certaine"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.1RE.AN.fonction-exponentielle"
+      ]
+    },
+    {
+      "notion_id": "SVT.TLE.CHS.reflexe-myotatique-et-circuit-neuronal",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Comportements, mouvement et système nerveux",
+      "title": "Réflexe myotatique et circuit neuronal",
+      "official_wording": null,
+      "normalized_title": "réflexe myotatique et circuit neuronal",
+      "prerequisites": [
+        "SVT.4E.CORPS.systeme-nerveux-messages-nerveux-et-centres-nerveux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Décrire l'arc réflexe et ses éléments",
+        "Expliquer le codage du message nerveux (potentiels d'action, fréquence)"
+      ],
+      "expected_skills": [
+        "Interpréter des enregistrements électrophysiologiques",
+        "Schématiser un circuit"
+      ],
+      "common_mistakes": [
+        "croire que l'amplitude du potentiel d'action code l'intensité du stimulus",
+        "croire que le réflexe myotatique fait intervenir le cerveau"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.CHS.cerveau-et-mouvement-volontaire-plasticite-cerebrale",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Comportements, mouvement et système nerveux",
+      "title": "Cerveau et mouvement volontaire ; plasticité cérébrale",
+      "official_wording": null,
+      "normalized_title": "cerveau et mouvement volontaire ; plasticité cérébrale",
+      "prerequisites": [
+        "SVT.TLE.CHS.reflexe-myotatique-et-circuit-neuronal",
+        "SVT.4E.CORPS.commande-nerveuse-du-mouvement"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier le cortex moteur à la commande du mouvement volontaire",
+        "Présenter la plasticité cérébrale"
+      ],
+      "expected_skills": [
+        "Exploiter l'IRM fonctionnelle avec prudence"
+      ],
+      "common_mistakes": [
+        "croire que chaque aire cérébrale est figée dès la naissance",
+        "surinterpréter l'imagerie cérébrale comme une causalité"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.CHS.contraction-musculaire-et-apport-d-energie",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Produire le mouvement",
+      "title": "Contraction musculaire et apport d'énergie",
+      "official_wording": null,
+      "normalized_title": "contraction musculaire et apport d'énergie",
+      "prerequisites": [
+        "SVT.2NDE.TVO.metabolisme-cellulaire-et-enzymes"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Relier la contraction musculaire au glissement des protéines contractiles et à l'ATP",
+        "Comparer respiration cellulaire et fermentation"
+      ],
+      "expected_skills": [
+        "Interpréter des électronographies",
+        "Exploiter des mesures ExAO"
+      ],
+      "common_mistakes": [
+        "croire que l'ATP est une réserve d'énergie à long terme",
+        "confondre fermentation et respiration"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.CHS.regulation-de-la-glycemie",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Produire le mouvement",
+      "title": "Régulation de la glycémie",
+      "official_wording": null,
+      "normalized_title": "régulation de la glycémie",
+      "prerequisites": [
+        "SVT.2NDE.CHS.hormones-et-procreation-humaine"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Expliquer la régulation de la glycémie par l'insuline et le glucagon",
+        "Relier dysfonctionnements et diabètes"
+      ],
+      "expected_skills": [
+        "Interpréter des courbes de glycémie",
+        "Raisonner sur une boucle de régulation"
+      ],
+      "common_mistakes": [
+        "confondre diabète de type 1 et type 2",
+        "croire que l'insuline augmente la glycémie"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.TLE.CHS.le-stress-reponse-adaptative-et-stress-chronique",
+      "subject": "SVT",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Comportements et stress",
+      "title": "Le stress : réponse adaptative et stress chronique",
+      "official_wording": null,
+      "normalized_title": "le stress : réponse adaptative et stress chronique",
+      "prerequisites": [
+        "SVT.TLE.CHS.cerveau-et-mouvement-volontaire-plasticite-cerebrale"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Décrire la réponse de l'organisme au stress (système nerveux et hormones, cortisol)",
+        "Distinguer stress aigu adaptatif et stress chronique"
+      ],
+      "expected_skills": [
+        "Exploiter des documents physiologiques"
+      ],
+      "common_mistakes": [
+        "croire que le stress est toujours néfaste",
+        "confondre corrélation et causalité entre stress et maladie"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

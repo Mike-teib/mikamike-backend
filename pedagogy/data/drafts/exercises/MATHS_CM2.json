@@ -1,0 +1,2108 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.d01",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 2/7 + 3/7.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/7"
+      },
+      "solution": "2 septièmes + 3 septièmes = 5 septièmes : 2/7 + 3/7 = 5/7.",
+      "step_by_step_solution": [
+        "Les deux fractions sont des septièmes.",
+        "On ajoute les nombres de septièmes : 2 + 3 = 5.",
+        "2/7 + 3/7 = 5/7."
+      ],
+      "hints": [
+        "Lis les fractions avec des mots : 2 septièmes et 3 septièmes.",
+        "Le dénominateur change-t-il quand on ajoute des septièmes ?"
+      ],
+      "common_errors": {
+        "5/14": "L'élève a additionné aussi les dénominateurs.",
+        "6/7": "Erreur de calcul sur les numérateurs."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.d02",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léo mange 3/8 d'une pizza et sa sœur mange 2/8 de la même pizza. Quelle fraction de la pizza ont-ils mangée ensemble ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/8"
+      },
+      "solution": "3 huitièmes + 2 huitièmes = 5 huitièmes : 3/8 + 2/8 = 5/8.",
+      "step_by_step_solution": [
+        "La pizza est partagée en 8 parts égales.",
+        "Ensemble : 3 parts + 2 parts = 5 parts.",
+        "3/8 + 2/8 = 5/8 de la pizza."
+      ],
+      "hints": [
+        "Dessine une pizza partagée en 8 parts égales.",
+        "Combien de parts ont-ils mangées en tout ?"
+      ],
+      "common_errors": {
+        "5/16": "L'élève a additionné aussi les dénominateurs.",
+        "1/8": "L'élève a soustrait au lieu d'additionner."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Modéliser un problème par une addition de fractions"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.d03",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 9/10 − 4/10.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/10"
+      },
+      "solution": "9 dixièmes − 4 dixièmes = 5 dixièmes : 9/10 − 4/10 = 5/10.",
+      "step_by_step_solution": [
+        "Les deux fractions sont des dixièmes.",
+        "On soustrait les nombres de dixièmes : 9 − 4 = 5.",
+        "9/10 − 4/10 = 5/10."
+      ],
+      "hints": [
+        "Lis le calcul avec des mots : 9 dixièmes moins 4 dixièmes."
+      ],
+      "common_errors": {
+        "13/10": "L'élève a additionné au lieu de soustraire.",
+        "5/20": "L'élève a additionné les dénominateurs."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Soustraire des fractions de même dénominateur"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.d04",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Une bande de papier est partagée en 6 parts égales. On colorie 1/6 de la bande en bleu et 4/6 en rouge. Quelle fraction de la bande est coloriée ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/6"
+      },
+      "solution": "1 sixième + 4 sixièmes = 5 sixièmes : 1/6 + 4/6 = 5/6.",
+      "step_by_step_solution": [
+        "La bande compte 6 parts égales.",
+        "On colorie 1 part + 4 parts = 5 parts.",
+        "1/6 + 4/6 = 5/6 de la bande."
+      ],
+      "hints": [
+        "Combien de parts sont coloriées en tout ?"
+      ],
+      "common_errors": {
+        "5/12": "L'élève a additionné aussi les dénominateurs.",
+        "3/6": "L'élève a soustrait au lieu d'additionner."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.d05",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel est le résultat de 3/5 + 1/5 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "3 cinquièmes + 1 cinquième = 4 cinquièmes. Le résultat est 4/5.",
+      "step_by_step_solution": [
+        "On ajoute des cinquièmes : 3 + 1 = 4 cinquièmes.",
+        "Le résultat est 4/5."
+      ],
+      "hints": [
+        "Le dénominateur donne le nom des parts : des cinquièmes."
+      ],
+      "common_errors": {
+        "0": "L'élève a additionné aussi les dénominateurs.",
+        "1": "L'élève a multiplié les dénominateurs.",
+        "2": "L'élève a soustrait."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "choices": [
+        "4/10",
+        "3/25",
+        "2/5",
+        "4/5"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.a01",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 7/12 − 5/12.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2/12"
+      },
+      "solution": "7 douzièmes − 5 douzièmes = 2 douzièmes : 7/12 − 5/12 = 2/12.",
+      "step_by_step_solution": [
+        "Les deux fractions sont des douzièmes.",
+        "7 − 5 = 2.",
+        "7/12 − 5/12 = 2/12."
+      ],
+      "hints": [
+        "Soustrais les nombres de douzièmes."
+      ],
+      "common_errors": {
+        "12/12": "L'élève a additionné.",
+        "2/24": "L'élève a additionné les dénominateurs."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Soustraire des fractions de même dénominateur"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.a02",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Tom a déjà peint 3/10 d'un mur. Quelle fraction du mur lui reste-t-il à peindre ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7/10"
+      },
+      "solution": "Le mur entier, c'est 10/10. Il reste 10/10 − 3/10 = 7/10 du mur.",
+      "step_by_step_solution": [
+        "Le mur entier vaut 1, c'est-à-dire 10/10.",
+        "On enlève la partie déjà peinte : 10/10 − 3/10.",
+        "10/10 − 3/10 = 7/10 du mur."
+      ],
+      "hints": [
+        "Combien de dixièmes y a-t-il dans le mur entier ?"
+      ],
+      "common_errors": {
+        "3/10": "L'élève a donné la partie déjà peinte.",
+        "13/10": "L'élève a additionné."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Soustraire une fraction de l'unité"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.a03",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 5/4 + 2/4. Tu peux donner le résultat sous forme de fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7/4"
+      },
+      "solution": "5 quarts + 2 quarts = 7 quarts : 5/4 + 2/4 = 7/4 (c'est aussi 1 + 3/4).",
+      "step_by_step_solution": [
+        "On ajoute des quarts : 5 + 2 = 7 quarts.",
+        "5/4 + 2/4 = 7/4."
+      ],
+      "hints": [
+        "Une fraction peut être plus grande que 1 : ce n'est pas une erreur."
+      ],
+      "common_errors": {
+        "7/8": "L'élève a additionné aussi les dénominateurs.",
+        "3/4": "L'élève a soustrait."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Manipuler des fractions supérieures à 1"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.a04",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 23/100 + 45/100.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "68/100"
+      },
+      "solution": "23 centièmes + 45 centièmes = 68 centièmes : 23/100 + 45/100 = 68/100.",
+      "step_by_step_solution": [
+        "Ce sont des centièmes.",
+        "23 + 45 = 68.",
+        "23/100 + 45/100 = 68/100."
+      ],
+      "hints": [
+        "Ajoute les nombres de centièmes."
+      ],
+      "common_errors": {
+        "68/200": "L'élève a additionné aussi les dénominateurs.",
+        "22/100": "L'élève a soustrait."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Additionner des fractions décimales"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.a05",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 13/9 − 4/9. Simplifie le résultat si c'est possible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1"
+      },
+      "solution": "13 neuvièmes − 4 neuvièmes = 9 neuvièmes, et 9/9 = 1.",
+      "step_by_step_solution": [
+        "13 − 4 = 9 : on obtient 9 neuvièmes.",
+        "9 neuvièmes font une unité : 9/9 = 1."
+      ],
+      "hints": [
+        "Combien de neuvièmes faut-il pour faire une unité ?"
+      ],
+      "common_errors": {
+        "17/9": "L'élève a additionné.",
+        "9/18": "L'élève a additionné les dénominateurs."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Soustraire des fractions de même dénominateur",
+        "Reconnaître une fraction égale à 1"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.c01",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un ruban est partagé en 10 parts égales. Lina en coupe 2/10, puis 3/10, puis encore 1/10. Quelle fraction du ruban a-t-elle coupée en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6/10"
+      },
+      "solution": "2 dixièmes + 3 dixièmes + 1 dixième = 6 dixièmes : 2/10 + 3/10 + 1/10 = 6/10.",
+      "step_by_step_solution": [
+        "On ajoute les trois morceaux, tous en dixièmes.",
+        "2 + 3 + 1 = 6.",
+        "2/10 + 3/10 + 1/10 = 6/10 du ruban."
+      ],
+      "hints": [
+        "Les trois morceaux sont exprimés dans la même unité : laquelle ?"
+      ],
+      "common_errors": {
+        "6/30": "L'élève a additionné aussi les dénominateurs.",
+        "5/10": "L'élève a oublié le dernier morceau."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Additionner trois fractions"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.c02",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 7/6 + 5/6 et écris le résultat sous la forme d'un nombre entier.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "7 sixièmes + 5 sixièmes = 12 sixièmes. 12/6 = 2 car 6 sixièmes font 1 unité.",
+      "step_by_step_solution": [
+        "7 + 5 = 12 : on obtient 12 sixièmes.",
+        "6 sixièmes = 1 unité, donc 12 sixièmes = 2 unités.",
+        "7/6 + 5/6 = 12/6 = 2."
+      ],
+      "hints": [
+        "Combien de sixièmes dans une unité ?"
+      ],
+      "common_errors": {
+        "12/12": "L'élève a additionné aussi les dénominateurs.",
+        "1": "L'élève a pensé que 12/6 = 1."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Écrire une fraction sous forme d'entier"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.c03",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Sachant que 1/2 = 2/4, calcule 1/2 + 1/4.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/4"
+      },
+      "solution": "1/2 = 2/4, donc 1/2 + 1/4 = 2/4 + 1/4 = 3/4.",
+      "step_by_step_solution": [
+        "On écrit les deux fractions avec le même dénominateur : 1/2 = 2/4.",
+        "2 quarts + 1 quart = 3 quarts.",
+        "1/2 + 1/4 = 3/4."
+      ],
+      "hints": [
+        "Transforme 1/2 en quarts.",
+        "Ensuite, additionne des quarts."
+      ],
+      "common_errors": {
+        "2/6": "L'élève a additionné les numérateurs entre eux et les dénominateurs entre eux.",
+        "2/4": "L'élève a ajouté les numérateurs en gardant le dénominateur 4 sans transformer 1/2."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser. Vérifier sur une bande : la moitié et un quart de la bande.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Utiliser une relation entre fractions usuelles"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.c04",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Sachant que 1/10 = 10/100, calcule 3/10 + 25/100.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "55/100"
+      },
+      "solution": "3/10 = 30/100, donc 3/10 + 25/100 = 30/100 + 25/100 = 55/100.",
+      "step_by_step_solution": [
+        "On écrit 3/10 en centièmes : 3/10 = 30/100.",
+        "30 centièmes + 25 centièmes = 55 centièmes.",
+        "3/10 + 25/100 = 55/100."
+      ],
+      "hints": [
+        "Combien de centièmes dans un dixième ?",
+        "Transforme 3/10 en centièmes."
+      ],
+      "common_errors": {
+        "28/100": "L'élève a ajouté 3 et 25 sans convertir les dixièmes.",
+        "28/110": "L'élève a ajouté numérateurs et dénominateurs."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Additionner des fractions décimales"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.c05",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un réservoir est rempli aux 9/10. Le matin, on utilise 4/10 du réservoir et l'après-midi 3/10. Quelle fraction du réservoir est encore remplie ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2/10"
+      },
+      "solution": "9/10 − 4/10 − 3/10 = 2/10. Le réservoir est encore rempli aux 2/10.",
+      "step_by_step_solution": [
+        "On part de 9 dixièmes.",
+        "On enlève 4 dixièmes puis 3 dixièmes : 9 − 4 − 3 = 2.",
+        "9/10 − 4/10 − 3/10 = 2/10 du réservoir."
+      ],
+      "hints": [
+        "On part de ce qu'il y a dans le réservoir, puis on enlève ce qui est utilisé."
+      ],
+      "common_errors": {
+        "7/10": "L'élève a additionné les deux quantités utilisées sans les retirer.",
+        "5/10": "L'élève n'a retiré qu'une seule des deux quantités."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Soustraire des fractions de même dénominateur",
+        "Résoudre un problème en deux étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.x01",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 2 + 3/5 − 4/5. Donne le résultat sous forme d'une fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9/5"
+      },
+      "solution": "2 = 10/5. 10/5 + 3/5 = 13/5. 13/5 − 4/5 = 9/5 (c'est aussi 1 + 4/5).",
+      "step_by_step_solution": [
+        "On écrit 2 en cinquièmes : 2 = 10/5.",
+        "10/5 + 3/5 = 13/5.",
+        "13/5 − 4/5 = 9/5."
+      ],
+      "hints": [
+        "Combien de cinquièmes dans 1 unité ? Et dans 2 unités ?",
+        "Calcule de gauche à droite."
+      ],
+      "common_errors": {
+        "1/5": "L'élève a oublié l'entier 2.",
+        "11/5": "L'élève a ajouté 4/5 au lieu de le soustraire."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser. Écrire l'entier sous forme de fraction avant de calculer.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Écrire un entier sous forme de fraction"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.x02",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Lisa lit un livre. Lundi, elle en lit 5/12 et mardi 4/12. Quelle fraction du livre lui reste-t-il à lire ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/12"
+      },
+      "solution": "Elle a lu 5/12 + 4/12 = 9/12. Le livre entier vaut 12/12, il reste 12/12 − 9/12 = 3/12.",
+      "step_by_step_solution": [
+        "Fraction lue : 5/12 + 4/12 = 9/12.",
+        "Le livre entier vaut 12/12.",
+        "Il reste 12/12 − 9/12 = 3/12 du livre."
+      ],
+      "hints": [
+        "Calcule d'abord la fraction du livre déjà lue.",
+        "Le livre entier, c'est combien de douzièmes ?"
+      ],
+      "common_errors": {
+        "9/12": "L'élève a donné la fraction déjà lue.",
+        "1/12": "L'élève a fait 5/12 − 4/12."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Résoudre un problème en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.fractions-addition.x03",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une école, 35/100 des élèves viennent à pied, 2/10 viennent à vélo et tous les autres viennent en bus. Quelle fraction des élèves vient en bus ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "45/100"
+      },
+      "solution": "2/10 = 20/100. À pied ou à vélo : 35/100 + 20/100 = 55/100. En bus : 100/100 − 55/100 = 45/100.",
+      "step_by_step_solution": [
+        "On convertit : 2/10 = 20/100.",
+        "À pied ou à vélo : 35/100 + 20/100 = 55/100.",
+        "Tous les élèves : 100/100. En bus : 100/100 − 55/100 = 45/100."
+      ],
+      "hints": [
+        "Écris toutes les fractions en centièmes.",
+        "Tous les élèves de l'école représentent 100/100."
+      ],
+      "common_errors": {
+        "63/100": "L'élève a enlevé 2/100 au lieu de 20/100.",
+        "55/100": "L'élève a donné la part à pied ou à vélo."
+      },
+      "remediation": "Revenir au sens : 2/7, c'est 2 septièmes ; 2 septièmes + 3 septièmes = 5 septièmes. Le dénominateur indique l'unité (le septième) : il ne change pas. Utiliser une bande partagée en parts égales pour visualiser.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Additionner ou soustraire des fractions de même dénominateur",
+        "Additionner des fractions décimales",
+        "Résoudre un problème en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.d01",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Une classe achète 4 boîtes de 12 feutres, puis 5 feutres vendus à l'unité. Combien de feutres la classe a-t-elle achetés en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "53"
+      },
+      "solution": "Dans les boîtes : 4 × 12 = 48 feutres. En tout : 48 + 5 = 53. La classe a acheté 53 feutres.",
+      "step_by_step_solution": [
+        "Feutres dans les boîtes : 4 × 12 = 48.",
+        "On ajoute les feutres à l'unité : 48 + 5.",
+        "48 + 5 = 53, donc la classe a acheté 53 feutres."
+      ],
+      "hints": [
+        "Commence par les feutres rangés dans les boîtes.",
+        "N'oublie pas les feutres vendus à l'unité."
+      ],
+      "common_errors": {
+        "21": "L'élève a additionné 4 + 12 + 5.",
+        "48": "L'élève a oublié les feutres à l'unité."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.d02",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Maël a 50 €. Il achète 3 livres à 12 € chacun. Combien d'argent lui reste-t-il, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "14"
+      },
+      "solution": "Prix des livres : 3 × 12 = 36 €. Il reste 50 − 36 = 14. Il reste 14 euros à Maël.",
+      "step_by_step_solution": [
+        "Prix des 3 livres : 3 × 12 = 36.",
+        "On enlève cette dépense : 50 − 36.",
+        "50 − 36 = 14, donc il reste 14 euros à Maël."
+      ],
+      "hints": [
+        "Combien coûtent les 3 livres ?",
+        "Ensuite, que reste-t-il des 50 € ?"
+      ],
+      "common_errors": {
+        "38": "L'élève a enlevé le prix d'un seul livre.",
+        "36": "L'élève s'est arrêté au prix des livres."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.d03",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour une sortie, 3 bus de 45 places sont réservés. Il reste 8 places vides en tout. Combien de personnes sont montées dans les bus ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "127"
+      },
+      "solution": "Places en tout : 3 × 45 = 135. Personnes : 135 − 8 = 127. 127 personnes sont montées.",
+      "step_by_step_solution": [
+        "Nombre total de places : 3 × 45 = 135.",
+        "On enlève les places vides : 135 − 8.",
+        "135 − 8 = 127, donc 127 personnes sont montées dans les bus."
+      ],
+      "hints": [
+        "Combien de places y a-t-il dans les 3 bus ?",
+        "Les places vides ne sont pas occupées."
+      ],
+      "common_errors": {
+        "143": "L'élève a ajouté les places vides au lieu de les enlever.",
+        "37": "L'élève a fait 45 − 8 sans multiplier."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.d04",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Emma achète 2 cahiers à 3 € l'un et une trousse à 9 €. Combien paie-t-elle, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "15"
+      },
+      "solution": "Cahiers : 2 × 3 = 6 €. En tout : 6 + 9 = 15. Emma paie 15 euros.",
+      "step_by_step_solution": [
+        "Prix des cahiers : 2 × 3 = 6.",
+        "On ajoute la trousse : 6 + 9.",
+        "6 + 9 = 15, donc Emma paie 15 euros."
+      ],
+      "hints": [
+        "Calcule d'abord le prix des cahiers."
+      ],
+      "common_errors": {
+        "12": "L'élève a compté un seul cahier (3 + 9).",
+        "14": "L'élève a additionné 2 + 3 + 9."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.d05",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Léo a 20 €. Il achète 3 stylos à 2 € l'un. Quelle suite de calculs permet de trouver l'argent qui lui reste ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "On calcule d'abord la dépense, puis on l'enlève : 3 × 2 = 6 puis 20 − 6 = 14. Il reste 14 € à Léo.",
+      "step_by_step_solution": [
+        "La dépense : 3 stylos à 2 €, c'est 3 × 2 = 6.",
+        "Ce qui reste : 20 − 6 = 14.",
+        "La bonne suite de calculs est : 3 × 2 = 6 puis 20 − 6 = 14."
+      ],
+      "hints": [
+        "Que faut-il connaître avant de calculer ce qui reste ?"
+      ],
+      "common_errors": {
+        "0": "L'élève enlève le nombre de stylos au lieu de leur prix.",
+        "1": "L'élève ajoute la dépense au lieu de l'enlever.",
+        "2": "L'élève mélange les données sans suivre l'histoire."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Organiser les étapes d'un calcul"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "choices": [
+        "20 − 3 = 17 puis 17 − 2 = 15",
+        "3 × 2 = 6 puis 20 + 6 = 26",
+        "20 : 2 = 10 puis 10 − 3 = 7",
+        "3 × 2 = 6 puis 20 − 6 = 14"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.a01",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un croissant coûte 1,20 €. Chloé en achète 5 et paie avec un billet de 10 €. Combien d'argent lui rend-on, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Prix des croissants : 5 × 1,20 = 6 €. Monnaie : 10 − 6 = 4. On lui rend 4 euros.",
+      "step_by_step_solution": [
+        "Prix des 5 croissants : 5 × 1,20 = 6.",
+        "Monnaie rendue : 10 − 6.",
+        "10 − 6 = 4, donc on rend 4 euros à Chloé."
+      ],
+      "hints": [
+        "Calcule d'abord le prix des 5 croissants.",
+        "5 × 1,20 : pense à 5 × 120 centimes."
+      ],
+      "common_errors": {
+        "6": "L'élève s'est arrêté au prix des croissants.",
+        "8,8": "L'élève a enlevé le prix d'un seul croissant."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Multiplier un décimal par un entier"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.a02",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une école emmène 6 classes de 24 élèves au cinéma, accompagnées de 17 adultes. Combien de personnes vont au cinéma ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "161"
+      },
+      "solution": "Élèves : 6 × 24 = 144. En tout : 144 + 17 = 161. 161 personnes vont au cinéma.",
+      "step_by_step_solution": [
+        "Nombre d'élèves : 6 × 24 = 144.",
+        "On ajoute les adultes : 144 + 17.",
+        "144 + 17 = 161, donc 161 personnes vont au cinéma."
+      ],
+      "hints": [
+        "Combien d'élèves en tout ?",
+        "N'oublie pas les adultes."
+      ],
+      "common_errors": {
+        "144": "L'élève a oublié les adultes.",
+        "47": "L'élève a additionné 6 + 24 + 17."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.a03",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un fermier ramasse 240 œufs. Il les range dans des boîtes de 6 œufs et vend chaque boîte 2 €. Combien gagne-t-il s'il vend toutes les boîtes, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "80"
+      },
+      "solution": "Nombre de boîtes : 240 : 6 = 40. Recette : 40 × 2 = 80. Il gagne 80 euros.",
+      "step_by_step_solution": [
+        "Nombre de boîtes : 240 : 6 = 40.",
+        "Chaque boîte rapporte 2 € : 40 × 2.",
+        "40 × 2 = 80, donc le fermier gagne 80 euros."
+      ],
+      "hints": [
+        "Le prix est donné par boîte, pas par œuf.",
+        "Combien de boîtes peut-il remplir ?"
+      ],
+      "common_errors": {
+        "480": "L'élève a multiplié le nombre d'œufs par 2.",
+        "40": "L'élève s'est arrêté au nombre de boîtes."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Utiliser une division puis une multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.a04",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Lucas nage 8 longueurs de 25 m le lundi et 12 longueurs de 25 m le mardi. Quelle distance a-t-il nagée en tout, en m ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "500",
+        "unit": "m"
+      },
+      "solution": "Longueurs en tout : 8 + 12 = 20. Distance : 20 × 25 = 500. Lucas a nagé 500 m.",
+      "step_by_step_solution": [
+        "Nombre total de longueurs : 8 + 12 = 20.",
+        "Chaque longueur mesure 25 m : 20 × 25.",
+        "20 × 25 = 500, donc Lucas a nagé 500 m."
+      ],
+      "hints": [
+        "Tu peux d'abord compter toutes les longueurs.",
+        "Ou calculer chaque jour séparément."
+      ],
+      "common_errors": {
+        "45 m": "L'élève a additionné 8 + 12 + 25.",
+        "200 m": "L'élève n'a compté que le lundi (8 × 25)."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.a05",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Au cinéma, une place adulte coûte 9 € et une place enfant 6 €. Combien paie une famille de 2 adultes et 3 enfants, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "36"
+      },
+      "solution": "Adultes : 2 × 9 = 18 €. Enfants : 3 × 6 = 18 €. Total : 18 + 18 = 36. La famille paie 36 euros.",
+      "step_by_step_solution": [
+        "Places adultes : 2 × 9 = 18.",
+        "Places enfants : 3 × 6 = 18.",
+        "Total : 18 + 18 = 36, donc la famille paie 36 euros."
+      ],
+      "hints": [
+        "Calcule séparément le prix pour les adultes et pour les enfants."
+      ],
+      "common_errors": {
+        "75": "L'élève a fait 5 × (9 + 6).",
+        "15": "L'élève a additionné un seul prix adulte et un seul prix enfant."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.c01",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un club de football a 3 équipes. Chaque équipe a 11 joueurs et 5 remplaçants. Chaque joueur et chaque remplaçant reçoit un maillot. Combien de maillots faut-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "48"
+      },
+      "solution": "Par équipe : 11 + 5 = 16. Pour 3 équipes : 3 × 16 = 48. Il faut 48 maillots.",
+      "step_by_step_solution": [
+        "Personnes par équipe : 11 + 5 = 16.",
+        "Pour 3 équipes : 3 × 16.",
+        "3 × 16 = 48, donc il faut 48 maillots."
+      ],
+      "hints": [
+        "Combien de personnes dans une équipe, remplaçants compris ?"
+      ],
+      "common_errors": {
+        "38": "L'élève a fait 3 × 11 + 5 (remplaçants comptés une seule fois).",
+        "33": "L'élève a oublié les remplaçants."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.c02",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Nour achète 3 kg de pommes à 2,50 € le kg et 2 kg de poires à 3 € le kg. Elle paie avec un billet de 20 €. Combien lui rend-on, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6,5"
+      },
+      "solution": "Pommes : 3 × 2,50 = 7,50 €. Poires : 2 × 3 = 6 €. Total : 7,50 + 6 = 13,5 €. Monnaie : 20 − 13,5 = 6,5. On lui rend 6,5 euros.",
+      "step_by_step_solution": [
+        "Pommes : 3 × 2,50 = 7,50.",
+        "Poires : 2 × 3 = 6.",
+        "Total : 7,50 + 6 = 13,5.",
+        "Monnaie : 20 − 13,5 = 6,5, donc on rend 6,5 euros."
+      ],
+      "hints": [
+        "Calcule le prix des pommes, puis celui des poires.",
+        "Ensuite, calcule le total avant de chercher la monnaie."
+      ],
+      "common_errors": {
+        "13,5": "L'élève s'est arrêté au total des achats.",
+        "12,5": "L'élève a oublié les poires."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Calculer avec des nombres décimaux"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.c03",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une bibliothèque reçoit 8 cartons de 25 livres. 36 livres sont abîmés et mis de côté. Les autres livres sont rangés sur des étagères de 41 livres, toutes remplies. Combien d'étagères sont remplies ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Livres reçus : 8 × 25 = 200. Livres rangés : 200 − 36 = 164. Étagères : 164 : 41 = 4. 4 étagères sont remplies.",
+      "step_by_step_solution": [
+        "Livres reçus : 8 × 25 = 200.",
+        "Livres en bon état : 200 − 36 = 164.",
+        "Étagères : 164 : 41 = 4, donc 4 étagères sont remplies."
+      ],
+      "hints": [
+        "Il y a trois étapes : les livres reçus, les livres rangés, puis les étagères.",
+        "Pour la dernière étape, cherche combien de fois 41 dans le nombre de livres rangés."
+      ],
+      "common_errors": {
+        "164": "L'élève s'est arrêté au nombre de livres rangés.",
+        "5": "L'élève n'a pas enlevé les livres abîmés (200 : 41 ≈ 4,9)."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Résoudre un problème en trois étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.c04",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une randonnée dure 3 jours. Le 1er jour, on marche 12 km. Le 2e jour, on marche le double du 1er jour. Le 3e jour, on marche 5 km de moins que le 2e jour. Quelle distance totale a-t-on parcourue, en km ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "55",
+        "unit": "km"
+      },
+      "solution": "2e jour : 12 × 2 = 24 km. 3e jour : 24 − 5 = 19 km. Total : 12 + 24 + 19 = 55. On a parcouru 55 km.",
+      "step_by_step_solution": [
+        "2e jour : 12 × 2 = 24.",
+        "3e jour : 24 − 5 = 19.",
+        "Total : 12 + 24 + 19 = 55, donc on a parcouru 55 km."
+      ],
+      "hints": [
+        "Calcule jour après jour.",
+        "« Le double », c'est 2 fois plus."
+      ],
+      "common_errors": {
+        "43 km": "L'élève a pris 5 km de moins que le 1er jour pour le 3e jour.",
+        "41 km": "L'élève a fait 12 + 24 + 5."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Combiner comparaisons additive et multiplicative"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.c05",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un pâtissier prépare 7 plaques de 12 cookies. Il en goûte 4, puis il met tous les autres dans des sachets de 10 cookies. Combien de sachets remplit-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "Cookies préparés : 7 × 12 = 84. Après dégustation : 84 − 4 = 80. Sachets : 80 : 10 = 8. Il remplit 8 sachets.",
+      "step_by_step_solution": [
+        "Cookies préparés : 7 × 12 = 84.",
+        "Il en reste 84 − 4 = 80.",
+        "Sachets : 80 : 10 = 8, donc il remplit 8 sachets."
+      ],
+      "hints": [
+        "Calcule d'abord le nombre de cookies préparés."
+      ],
+      "common_errors": {
+        "80": "L'élève s'est arrêté au nombre de cookies.",
+        "84": "L'élève a oublié les cookies goûtés et la mise en sachets."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.x01",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une sortie scolaire coûte 360 € de car, plus 8 € d'entrée au musée par élève. 20 élèves participent. Le coût total est partagé également entre les élèves. Combien paie chaque élève, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "26"
+      },
+      "solution": "Entrées : 20 × 8 = 160 €. Coût total : 360 + 160 = 520 €. Par élève : 520 : 20 = 26. Chaque élève paie 26 euros.",
+      "step_by_step_solution": [
+        "Entrées : 20 × 8 = 160.",
+        "Coût total : 360 + 160 = 520.",
+        "Par élève : 520 : 20 = 26, donc chaque élève paie 26 euros."
+      ],
+      "hints": [
+        "Le prix du car est pour tout le groupe, l'entrée est par élève.",
+        "Calcule le coût total avant de partager."
+      ],
+      "common_errors": {
+        "18": "L'élève a partagé seulement le prix du car (360 : 20).",
+        "368": "L'élève a ajouté une seule entrée au prix du car."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Résoudre un problème en trois étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.x02",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Chloé avait déjà 38 € dans sa tirelire. Depuis 7 mois, elle ajoute 15 € chaque mois. Elle veut acheter un vélo à 189 €. Combien d'argent lui manque-t-il, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "46"
+      },
+      "solution": "Économies des 7 mois : 15 × 7 = 105 €. Total : 38 + 105 = 143 €. Il manque 189 − 143 = 46. Il lui manque 46 euros.",
+      "step_by_step_solution": [
+        "Argent ajouté : 15 × 7 = 105.",
+        "Argent total : 38 + 105 = 143.",
+        "Il manque : 189 − 143 = 46, donc il manque 46 euros."
+      ],
+      "hints": [
+        "Calcule d'abord tout l'argent que Chloé possède maintenant."
+      ],
+      "common_errors": {
+        "84": "L'élève a oublié l'argent de départ (189 − 105).",
+        "143": "L'élève s'est arrêté à l'argent économisé."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Résoudre un problème en trois étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.problemes-mixtes.x03",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Quatre amis commandent 2 pizzas à 12,50 € l'une et 4 boissons à 2,75 € l'une. Ils partagent l'addition en parts égales. Combien paie chaque ami, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "Pizzas : 2 × 12,50 = 25 €. Boissons : 4 × 2,75 = 11 €. Total : 25 + 11 = 36 €. Par ami : 36 : 4 = 9. Chaque ami paie 9 euros.",
+      "step_by_step_solution": [
+        "Pizzas : 2 × 12,50 = 25.",
+        "Boissons : 4 × 2,75 = 11.",
+        "Total : 25 + 11 = 36.",
+        "Par ami : 36 : 4 = 9, donc chaque ami paie 9 euros."
+      ],
+      "hints": [
+        "Calcule le total de l'addition avant de partager.",
+        "4 × 2,75 : pense à 4 × 275 centimes."
+      ],
+      "common_errors": {
+        "36": "L'élève a oublié de partager entre les 4 amis.",
+        "15,25": "L'élève a ajouté un seul prix de pizza et de boisson."
+      },
+      "remediation": "Reformuler l'histoire avec ses mots, repérer la question intermédiaire (« que dois-je calculer d'abord ? »), faire un schéma, puis écrire chaque calcul avec une phrase-réponse.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Résoudre un problème mixte en plusieurs étapes",
+        "Calculer avec des nombres décimaux"
+      ],
+      "source_notions": [
+        "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.d01",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Sur un quadrillage, un rectangle mesure 5 carreaux de long et 3 carreaux de large. Combien de carreaux faut-il pour le recouvrir entièrement ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "15"
+      },
+      "solution": "Il y a 3 rangées de 5 carreaux : 5 × 3 = 15. Il faut 15 carreaux.",
+      "step_by_step_solution": [
+        "Une rangée contient 5 carreaux.",
+        "Il y a 3 rangées.",
+        "5 × 3 = 15, donc il faut 15 carreaux."
+      ],
+      "hints": [
+        "Dessine le rectangle et compte les carreaux d'une rangée.",
+        "Combien y a-t-il de rangées ?"
+      ],
+      "common_errors": {
+        "8": "L'élève a additionné la longueur et la largeur.",
+        "16": "L'élève a compté le tour du rectangle (périmètre)."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Relier l'aire au pavage"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.d02",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un rectangle mesure 6 cm de long et 4 cm de large. Quelle est son aire, en cm² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "24",
+        "unit": "cm²"
+      },
+      "solution": "Aire = longueur × largeur = 6 × 4 = 24. L'aire est 24 cm².",
+      "step_by_step_solution": [
+        "L'aire d'un rectangle : longueur × largeur.",
+        "6 × 4.",
+        "6 × 4 = 24, donc l'aire est 24 cm²."
+      ],
+      "hints": [
+        "Combien de carrés de 1 cm de côté tiennent dans une rangée ? Combien de rangées ?"
+      ],
+      "common_errors": {
+        "20 cm²": "L'élève a calculé le périmètre (6 + 4 + 6 + 4).",
+        "10 cm²": "L'élève a additionné longueur et largeur."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.d03",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un carré a des côtés de 7 cm. Quelle est son aire, en cm² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "49",
+        "unit": "cm²"
+      },
+      "solution": "Aire du carré = côté × côté = 7 × 7 = 49. L'aire est 49 cm².",
+      "step_by_step_solution": [
+        "Un carré est un rectangle dont la longueur et la largeur sont égales.",
+        "Aire = 7 × 7.",
+        "7 × 7 = 49, donc l'aire est 49 cm²."
+      ],
+      "hints": [
+        "Un carré a 4 côtés de même longueur.",
+        "Pense à la table de 7."
+      ],
+      "common_errors": {
+        "28 cm²": "L'élève a calculé le périmètre (4 × 7).",
+        "14 cm²": "L'élève a calculé 7 × 2."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Calculer l'aire d'un carré"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.d04",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Un tapis carré mesure 3 m de côté. Quelle est l'aire du tapis, en m² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9",
+        "unit": "m²"
+      },
+      "solution": "Aire = 3 × 3 = 9. Le tapis a une aire de 9 m².",
+      "step_by_step_solution": [
+        "Le tapis est un carré de 3 m de côté.",
+        "Aire = 3 × 3.",
+        "3 × 3 = 9, donc l'aire est 9 m²."
+      ],
+      "hints": [
+        "Imagine le tapis couvert de carrés de 1 m de côté."
+      ],
+      "common_errors": {
+        "12 m²": "L'élève a calculé le périmètre (4 × 3).",
+        "6 m²": "L'élève a calculé 3 × 2."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Utiliser le mètre carré"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.d05",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel calcul donne l'aire d'un rectangle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "On pave le rectangle : il y a autant de rangées que la largeur et autant de carreaux par rangée que la longueur. L'aire se calcule donc par longueur × largeur.",
+      "step_by_step_solution": [
+        "Une rangée contient « longueur » carreaux, et il y a « largeur » rangées.",
+        "L'aire d'un rectangle se calcule par longueur × largeur."
+      ],
+      "hints": [
+        "Pense au nombre de carreaux qui recouvrent le rectangle."
+      ],
+      "common_errors": {
+        "0": "L'élève confond aire et somme des dimensions.",
+        "1": "C'est la formule du périmètre du rectangle.",
+        "2": "C'est la formule du périmètre d'un carré."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Distinguer aire et périmètre"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "choices": [
+        "longueur + largeur",
+        "2 × (longueur + largeur)",
+        "4 × côté",
+        "longueur × largeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.a01",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une feuille de dessin rectangulaire mesure 21 cm sur 30 cm. Quelle est son aire, en cm² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "630",
+        "unit": "cm²"
+      },
+      "solution": "Aire = 30 × 21 = 630. La feuille a une aire de 630 cm².",
+      "step_by_step_solution": [
+        "Aire = longueur × largeur = 30 × 21.",
+        "30 × 21 = 30 × 20 + 30 × 1 = 600 + 30.",
+        "30 × 21 = 630, donc l'aire est 630 cm²."
+      ],
+      "hints": [
+        "Décompose 21 en 20 + 1 pour calculer."
+      ],
+      "common_errors": {
+        "102 cm²": "L'élève a calculé le périmètre.",
+        "51 cm²": "L'élève a additionné les dimensions."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.a02",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une chambre rectangulaire mesure 4 m de long et 3 m de large. Quelle est l'aire du sol de la chambre, en m² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "12",
+        "unit": "m²"
+      },
+      "solution": "Aire = 4 × 3 = 12. Le sol de la chambre mesure 12 m².",
+      "step_by_step_solution": [
+        "Le sol est un rectangle de 4 m sur 3 m.",
+        "Aire = 4 × 3.",
+        "4 × 3 = 12, donc l'aire est 12 m²."
+      ],
+      "hints": [
+        "Combien de carrés de 1 m sur 1 m faut-il pour couvrir le sol ?"
+      ],
+      "common_errors": {
+        "14 m²": "L'élève a calculé le périmètre.",
+        "7 m²": "L'élève a additionné."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Utiliser le mètre carré"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.a03",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un carré a des côtés de 12 dm. Quelle est son aire, en dm² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "144",
+        "unit": "dm²"
+      },
+      "solution": "Aire = 12 × 12 = 144. L'aire est 144 dm².",
+      "step_by_step_solution": [
+        "Aire du carré = côté × côté.",
+        "12 × 12 = 12 × 10 + 12 × 2 = 120 + 24.",
+        "12 × 12 = 144, donc l'aire est 144 dm²."
+      ],
+      "hints": [
+        "Décompose 12 en 10 + 2."
+      ],
+      "common_errors": {
+        "48 dm²": "L'élève a calculé le périmètre.",
+        "24 dm²": "L'élève a calculé 12 × 2."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Utiliser le décimètre carré"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.a04",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rectangle a une aire de 45 cm² et une longueur de 9 cm. Quelle est sa largeur, en cm ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "5",
+        "unit": "cm"
+      },
+      "solution": "Aire = longueur × largeur, donc 9 × largeur = 45. Largeur = 45 : 9 = 5. La largeur est 5 cm.",
+      "step_by_step_solution": [
+        "On sait que 9 × largeur = 45.",
+        "On cherche le nombre qui, multiplié par 9, donne 45 : 45 : 9.",
+        "45 : 9 = 5, donc la largeur est 5 cm."
+      ],
+      "hints": [
+        "Écris l'égalité : 9 × … = 45.",
+        "Pense à la table de 9."
+      ],
+      "common_errors": {
+        "36 cm": "L'élève a soustrait 9 de 45.",
+        "405 cm": "L'élève a multiplié 45 par 9."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Retrouver une dimension à partir de l'aire"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.a05",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un potager rectangulaire mesure 15 m de long et 6 m de large. Quelle est son aire, en m² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "90",
+        "unit": "m²"
+      },
+      "solution": "Aire = 15 × 6 = 90. Le potager a une aire de 90 m².",
+      "step_by_step_solution": [
+        "Aire = longueur × largeur = 15 × 6.",
+        "15 × 6 = 10 × 6 + 5 × 6 = 60 + 30.",
+        "15 × 6 = 90, donc l'aire est 90 m²."
+      ],
+      "hints": [
+        "Décompose 15 en 10 + 5."
+      ],
+      "common_errors": {
+        "42 m²": "L'élève a calculé le périmètre.",
+        "21 m²": "L'élève a additionné."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.c01",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un carré a des côtés de 6 cm. Un rectangle mesure 9 cm sur 4 cm. Compare leurs aires.",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Aire du carré : 6 × 6 = 36 cm². Aire du rectangle : 9 × 4 = 36 cm². Elles ont la même aire.",
+      "step_by_step_solution": [
+        "Carré : 6 × 6 = 36 cm².",
+        "Rectangle : 9 × 4 = 36 cm².",
+        "Réponse : elles ont la même aire."
+      ],
+      "hints": [
+        "Calcule les deux aires avant de comparer.",
+        "Deux figures différentes peuvent avoir la même aire."
+      ],
+      "common_errors": {
+        "2": "L'élève a comparé les périmètres (24 cm et 26 cm) ou la longueur des côtés.",
+        "0": "L'élève pense que la figure la plus longue a la plus grande aire."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Comparer des aires"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "choices": [
+        "Le carré a la plus grande aire",
+        "Elles ont la même aire",
+        "Le rectangle a la plus grande aire"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.c02",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une figure est formée d'un rectangle de 8 cm sur 3 cm et d'un carré de 4 cm de côté, placés côte à côte sans se chevaucher. Quelle est l'aire de la figure, en cm² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "40",
+        "unit": "cm²"
+      },
+      "solution": "Rectangle : 8 × 3 = 24 cm². Carré : 4 × 4 = 16 cm². Figure : 24 + 16 = 40. L'aire est 40 cm².",
+      "step_by_step_solution": [
+        "Aire du rectangle : 8 × 3 = 24.",
+        "Aire du carré : 4 × 4 = 16.",
+        "Aire totale : 24 + 16 = 40, donc l'aire est 40 cm²."
+      ],
+      "hints": [
+        "Découpe la figure en deux morceaux simples.",
+        "Les aires des morceaux s'additionnent."
+      ],
+      "common_errors": {
+        "28 cm²": "L'élève a multiplié 8 × 3 puis ajouté 4.",
+        "19 cm²": "L'élève a additionné toutes les dimensions."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Calculer l'aire d'une figure composée"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.c03",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un mur rectangulaire mesure 6 m de long et 3 m de haut. Il a une fenêtre rectangulaire de 2 m sur 1 m qu'on ne peint pas. Quelle surface faut-il peindre, en m² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "16",
+        "unit": "m²"
+      },
+      "solution": "Mur : 6 × 3 = 18 m². Fenêtre : 2 × 1 = 2 m². À peindre : 18 − 2 = 16. Il faut peindre 16 m².",
+      "step_by_step_solution": [
+        "Aire du mur : 6 × 3 = 18.",
+        "Aire de la fenêtre : 2 × 1 = 2.",
+        "On enlève la fenêtre : 18 − 2 = 16, donc il faut peindre 16 m²."
+      ],
+      "hints": [
+        "Calcule l'aire du mur entier, puis celle de la fenêtre."
+      ],
+      "common_errors": {
+        "18 m²": "L'élève a oublié d'enlever la fenêtre.",
+        "20 m²": "L'élève a ajouté la fenêtre au lieu de l'enlever."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Calculer une aire par différence"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.c04",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un rectangle mesure 2 dm sur 3 dm. Quelle est son aire, en cm² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "600",
+        "unit": "cm²"
+      },
+      "solution": "2 dm = 20 cm et 3 dm = 30 cm. Aire = 20 × 30 = 600. L'aire est 600 cm².",
+      "step_by_step_solution": [
+        "On convertit les longueurs : 2 dm = 20 cm et 3 dm = 30 cm.",
+        "Aire = 20 × 30.",
+        "20 × 30 = 600, donc l'aire est 600 cm²."
+      ],
+      "hints": [
+        "1 dm = 10 cm : convertis d'abord les longueurs.",
+        "L'aire est demandée en cm²."
+      ],
+      "common_errors": {
+        "6 cm²": "L'élève n'a pas converti les longueurs (6 dm² et non 6 cm²).",
+        "60 cm²": "L'élève a pensé que 1 dm² = 10 cm²."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour). Rappeler que 1 dm² = 100 cm² (un carré de 10 cm de côté).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Convertir des longueurs avant de calculer"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.c05",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un carré a un périmètre de 20 cm. Quelle est son aire, en cm² ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "25",
+        "unit": "cm²"
+      },
+      "solution": "Le carré a 4 côtés égaux : 20 : 4 = 5 cm. Aire = 5 × 5 = 25. L'aire est 25 cm².",
+      "step_by_step_solution": [
+        "Longueur d'un côté : 20 : 4 = 5.",
+        "Aire = 5 × 5.",
+        "5 × 5 = 25, donc l'aire est 25 cm²."
+      ],
+      "hints": [
+        "Le périmètre, c'est la longueur du tour : combien de côtés égaux ?",
+        "Calcule d'abord la longueur d'un côté."
+      ],
+      "common_errors": {
+        "20 cm²": "L'élève a confondu aire et périmètre.",
+        "400 cm²": "L'élève a multiplié le périmètre par lui-même."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Distinguer aire et périmètre"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.x01",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un terrain rectangulaire mesure 12 m sur 8 m. On y creuse un bassin carré de 2 m de côté, et on sème du gazon sur tout le reste du terrain. Un sachet de graines permet de semer 10 m². Combien de sachets faut-il acheter au minimum ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "Terrain : 12 × 8 = 96 m². Bassin : 2 × 2 = 4 m². Gazon : 96 − 4 = 92 m². 9 sachets couvrent 90 m², ce n'est pas assez : il faut 10 sachets.",
+      "step_by_step_solution": [
+        "Aire du terrain : 12 × 8 = 96.",
+        "Aire du bassin : 2 × 2 = 4.",
+        "Aire du gazon : 96 − 4 = 92.",
+        "9 sachets couvrent 90 m² et 10 sachets couvrent 100 m² : il faut 10 sachets."
+      ],
+      "hints": [
+        "Calcule d'abord l'aire à semer.",
+        "Un sachet de plus est nécessaire s'il reste un petit morceau à semer."
+      ],
+      "common_errors": {
+        "9": "L'élève a arrondi 9,2 à 9 : il manquerait 2 m² de gazon.",
+        "92": "L'élève a donné l'aire du gazon au lieu du nombre de sachets."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Résoudre un problème d'aire en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.x02",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rectangle A mesure 8 cm sur 6 cm. Un rectangle B a la même aire et une longueur de 12 cm. Quelle est la largeur du rectangle B, en cm ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "4",
+        "unit": "cm"
+      },
+      "solution": "Aire de A : 8 × 6 = 48 cm². Pour B : 12 × largeur = 48, donc largeur = 48 : 12 = 4. La largeur de B est 4 cm.",
+      "step_by_step_solution": [
+        "Aire de A : 8 × 6 = 48.",
+        "B a la même aire : 12 × largeur = 48.",
+        "Largeur = 48 : 12 = 4, donc la largeur de B est 4 cm."
+      ],
+      "hints": [
+        "Calcule d'abord l'aire commune.",
+        "Quel nombre multiplié par 12 donne cette aire ?"
+      ],
+      "common_errors": {
+        "2 cm": "L'élève a fait 8 + 6 − 12.",
+        "36 cm": "L'élève a soustrait 12 de l'aire."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Retrouver une dimension à partir de l'aire"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM2.aire-rectangle.x03",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rectangle mesure 3 cm sur 2 cm. On double sa longueur et sa largeur. Par combien son aire est-elle multipliée ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Aire de départ : 3 × 2 = 6 cm². Nouveau rectangle : 6 cm sur 4 cm, aire 6 × 4 = 24 cm². 24 : 6 = 4 : l'aire est multipliée par 4.",
+      "step_by_step_solution": [
+        "Aire de départ : 3 × 2 = 6.",
+        "Nouvelles dimensions : 6 cm et 4 cm, aire 6 × 4 = 24.",
+        "24 : 6 = 4, donc l'aire est multipliée par 4."
+      ],
+      "hints": [
+        "Calcule l'aire avant et après.",
+        "Dessine les deux rectangles sur un quadrillage."
+      ],
+      "common_errors": {
+        "2": "L'élève pense que doubler les côtés double l'aire.",
+        "18": "L'élève a calculé la différence des aires."
+      },
+      "remediation": "Paver le rectangle avec des carreaux unités : une rangée contient autant de carreaux que la longueur, et il y a autant de rangées que la largeur. L'aire = longueur × largeur. Ne pas confondre avec le périmètre (le tour).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer l'aire d'un rectangle ou d'un carré",
+        "Étudier l'effet d'un agrandissement sur l'aire"
+      ],
+      "source_notions": [
+        "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

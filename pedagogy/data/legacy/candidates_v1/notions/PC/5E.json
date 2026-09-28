@@ -1,0 +1,782 @@
+{
+  "schema_version": "1.0",
+  "subject": "PHYSIQUE_CHIMIE",
+  "level": "5E",
+  "course": "COMMON",
+  "generated_by": "agent-B (candidats PC/ST reconstitués de mémoire, script de génération)",
+  "disclaimer": "Notions CANDIDATES non vérifiées : aucune source officielle n'a pu être consultée (BO / Éduscol inaccessibles). Aucun libellé officiel n'est stocké. Ces notions ne peuvent alimenter ni exercices ni quiz tant qu'elles ne sont pas PROVEN_OFFICIAL.",
+  "notions": [
+    {
+      "notion_id": "PC.5E.MAT.les-trois-etats-de-la-matiere-et-le-modele-particulaire",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "États de la matière",
+      "title": "Les trois états de la matière et le modèle particulaire",
+      "official_wording": null,
+      "normalized_title": "les trois états de la matière et le modèle particulaire",
+      "prerequisites": [
+        "ST.6E.MME.les-etats-solide-liquide-et-gazeux-de-la-matiere"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire les états solide, liquide et gazeux à l'échelle macroscopique",
+        "Interpréter les états avec un modèle particulaire (ordre, compacité, agitation)"
+      ],
+      "expected_skills": [
+        "Représenter un corps dans ses trois états par un schéma particulaire",
+        "Relier propriétés macroscopiques et modèle"
+      ],
+      "common_mistakes": [
+        "Dessiner des particules plus grosses ou déformées dans l'état solide",
+        "Représenter un gaz sans particules entre les points (« vide » non assumé)"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.MAT.changements-d-etat-conservation-de-la-masse",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "États de la matière",
+      "title": "Changements d'état : conservation de la masse",
+      "official_wording": null,
+      "normalized_title": "changements d'état : conservation de la masse",
+      "prerequisites": [
+        "ST.6E.MME.les-changements-d-etat-de-l-eau",
+        "PC.5E.MAT.les-trois-etats-de-la-matiere-et-le-modele-particulaire"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "CONCEVOIR_EXPERIENCE",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Montrer expérimentalement que la masse se conserve lors d'un changement d'état",
+        "Constater que le volume ne se conserve pas"
+      ],
+      "expected_skills": [
+        "Mesurer une masse avant et après la fusion",
+        "Interpréter la conservation de la masse par la conservation des particules"
+      ],
+      "common_mistakes": [
+        "Croire que la masse diminue quand la glace fond",
+        "Confondre conservation de la masse et conservation du volume"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "PC.5E.MAT.temperature-de-changement-d-etat-d-un-corps-pur",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "États de la matière",
+      "title": "Température de changement d'état d'un corps pur",
+      "official_wording": null,
+      "normalized_title": "température de changement d'état d'un corps pur",
+      "prerequisites": [
+        "PC.5E.MAT.changements-d-etat-conservation-de-la-masse"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Tracer et exploiter la courbe de température lors d'une solidification",
+        "Identifier un corps pur par son palier de changement d'état"
+      ],
+      "expected_skills": [
+        "Relever une température à intervalles réguliers",
+        "Tracer un graphique avec axes, unités et échelle"
+      ],
+      "common_mistakes": [
+        "Relier les points au lieu de tracer une courbe moyenne",
+        "Confondre température (°C) et chaleur"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux",
+        "MATHS.5E.NC.nombres-relatifs"
+      ]
+    },
+    {
+      "notion_id": "PC.5E.MAT.mesurer-une-masse-et-un-volume",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Grandeurs et mesures",
+      "title": "Mesurer une masse et un volume",
+      "official_wording": null,
+      "normalized_title": "mesurer une masse et un volume",
+      "prerequisites": [
+        "ST.6E.MME.masse-et-volume-mesure-et-unites"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Mesurer une masse et un volume avec le matériel adapté",
+        "Exprimer un résultat avec l'unité correcte"
+      ],
+      "expected_skills": [
+        "Convertir L, mL, cm³, dm³ et g, kg",
+        "Utiliser une éprouvette graduée et une balance"
+      ],
+      "common_mistakes": [
+        "Confondre masse et volume",
+        "Lire l'éprouvette au-dessus du ménisque"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.5E.MAT.melanges-homogenes-et-heterogenes-corps-purs",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Mélanges et corps purs",
+      "title": "Mélanges homogènes et hétérogènes, corps purs",
+      "official_wording": null,
+      "normalized_title": "mélanges homogènes et hétérogènes, corps purs",
+      "prerequisites": [
+        "ST.6E.MME.melanges-dissolution-et-miscibilite"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Distinguer mélange et corps pur",
+        "Distinguer mélange homogène et hétérogène"
+      ],
+      "expected_skills": [
+        "Classer des échantillons de la vie courante",
+        "Justifier un classement par une observation"
+      ],
+      "common_mistakes": [
+        "Penser qu'une eau limpide est forcément un corps pur",
+        "Confondre « pur » (chimie) et « propre » (usage courant)"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.MAT.solubilite-et-miscibilite",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Mélanges et corps purs",
+      "title": "Solubilité et miscibilité",
+      "official_wording": null,
+      "normalized_title": "solubilité et miscibilité",
+      "prerequisites": [
+        "PC.5E.MAT.melanges-homogenes-et-heterogenes-corps-purs"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Définir soluté, solvant et solution",
+        "Mettre en évidence la saturation d'une solution"
+      ],
+      "expected_skills": [
+        "Réaliser une dissolution jusqu'à saturation",
+        "Montrer la conservation de la masse lors d'une dissolution"
+      ],
+      "common_mistakes": [
+        "Croire que le soluté disparaît",
+        "Confondre soluble et miscible"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "PC.5E.MAT.separer-et-identifier-les-constituants-d-un-melange",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Mélanges et corps purs",
+      "title": "Séparer et identifier les constituants d'un mélange",
+      "official_wording": null,
+      "normalized_title": "séparer et identifier les constituants d'un mélange",
+      "prerequisites": [
+        "PC.5E.MAT.melanges-homogenes-et-heterogenes-corps-purs",
+        "ST.6E.MME.separer-les-constituants-d-un-melange"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Choisir une technique de séparation (décantation, filtration, distillation)",
+        "Identifier l'eau par le test au sulfate de cuivre anhydre"
+      ],
+      "expected_skills": [
+        "Mettre en œuvre un protocole de séparation",
+        "Schématiser un montage"
+      ],
+      "common_mistakes": [
+        "Croire que la filtration élimine les espèces dissoutes",
+        "Conclure à la présence d'eau pure à partir du seul test au sulfate de cuivre"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.MAT.composition-de-l-air",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Mélanges et corps purs",
+      "title": "Composition de l'air",
+      "official_wording": null,
+      "normalized_title": "composition de l'air",
+      "prerequisites": [
+        "PC.5E.MAT.melanges-homogenes-et-heterogenes-corps-purs"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Connaître la composition approximative de l'air (environ 78 % de diazote, 21 % de dioxygène)",
+        "Montrer que l'air est pesant et compressible"
+      ],
+      "expected_skills": [
+        "Exploiter un diagramme de composition",
+        "Mesurer la masse d'un volume d'air"
+      ],
+      "common_mistakes": [
+        "Croire que l'air est composé principalement de dioxygène",
+        "Penser que l'air n'a pas de masse"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.5E.MVT.referentiel-et-trajectoire",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Décrire un mouvement",
+      "title": "Référentiel et trajectoire",
+      "official_wording": null,
+      "normalized_title": "référentiel et trajectoire",
+      "prerequisites": [
+        "ST.6E.MME.decrire-un-mouvement-trajectoire-et-vitesse"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire un mouvement par rapport à un référentiel",
+        "Caractériser une trajectoire (rectiligne, circulaire, curviligne)"
+      ],
+      "expected_skills": [
+        "Choisir un référentiel adapté",
+        "Exploiter une chronophotographie"
+      ],
+      "common_mistakes": [
+        "Oublier de préciser le référentiel",
+        "Confondre trajectoire et distance parcourue"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.MVT.vitesse-moyenne",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Décrire un mouvement",
+      "title": "Vitesse moyenne",
+      "official_wording": null,
+      "normalized_title": "vitesse moyenne",
+      "prerequisites": [
+        "PC.5E.MVT.referentiel-et-trajectoire"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Utiliser la relation v = d / t",
+        "Exprimer une vitesse en m·s⁻¹ et en km·h⁻¹"
+      ],
+      "expected_skills": [
+        "Calculer une vitesse, une distance ou une durée",
+        "Convertir entre m·s⁻¹ et km·h⁻¹ (facteur 3,6)"
+      ],
+      "common_mistakes": [
+        "Multiplier par 3,6 au lieu de diviser (ou l'inverse)",
+        "Mélanger des unités (km et s) dans un même calcul"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.5E.MVT.mouvement-uniforme-accelere-ou-ralenti",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Décrire un mouvement",
+      "title": "Mouvement uniforme, accéléré ou ralenti",
+      "official_wording": null,
+      "normalized_title": "mouvement uniforme, accéléré ou ralenti",
+      "prerequisites": [
+        "PC.5E.MVT.vitesse-moyenne"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Qualifier un mouvement à partir de l'évolution de la vitesse",
+        "Exploiter une chronophotographie à intervalles de temps égaux"
+      ],
+      "expected_skills": [
+        "Comparer les distances entre positions successives",
+        "Associer une chronophotographie à un type de mouvement"
+      ],
+      "common_mistakes": [
+        "Confondre vitesse et accélération",
+        "Croire qu'un mouvement circulaire à vitesse constante est « uniforme rectiligne »"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "PC.5E.NRJ.circuit-en-serie-et-circuit-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Circuits électriques",
+      "title": "Circuit en série et circuit en dérivation",
+      "official_wording": null,
+      "normalized_title": "circuit en série et circuit en dérivation",
+      "prerequisites": [
+        "ST.6E.MME.le-circuit-electrique-simple"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_LANGAGES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Distinguer un circuit en série d'un circuit comportant des dérivations",
+        "Prévoir l'effet d'un dipôle défectueux selon le montage"
+      ],
+      "expected_skills": [
+        "Réaliser un montage à partir d'un schéma normalisé",
+        "Schématiser un circuit"
+      ],
+      "common_mistakes": [
+        "Croire que le courant « s'use » le long du circuit",
+        "Penser que l'ordre des dipôles en série change le fonctionnement"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.NRJ.conducteurs-et-isolants-electriques",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Circuits électriques",
+      "title": "Conducteurs et isolants électriques",
+      "official_wording": null,
+      "normalized_title": "conducteurs et isolants électriques",
+      "prerequisites": [
+        "ST.6E.MME.le-circuit-electrique-simple",
+        "ST.6E.TEC.familles-de-materiaux-et-leurs-proprietes"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Identifier des matériaux conducteurs et isolants",
+        "Connaître les dangers du courant électrique pour le corps humain"
+      ],
+      "expected_skills": [
+        "Tester un matériau avec un circuit test",
+        "Appliquer des règles de sécurité électrique"
+      ],
+      "common_mistakes": [
+        "Croire que l'eau du robinet est isolante",
+        "Penser qu'une pile de 4,5 V et le secteur présentent les mêmes dangers"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.NRJ.sources-formes-et-conversions-d-energie",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Sources et conversions d'énergie",
+      "title": "Sources, formes et conversions d'énergie",
+      "official_wording": null,
+      "normalized_title": "sources, formes et conversions d'énergie",
+      "prerequisites": [
+        "ST.6E.MME.formes-et-conversions-d-energie"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Identifier sources, formes et conversions d'énergie",
+        "Établir la chaîne énergétique d'un dispositif"
+      ],
+      "expected_skills": [
+        "Construire un diagramme de conversion d'énergie",
+        "Identifier l'énergie dissipée"
+      ],
+      "common_mistakes": [
+        "Confondre source et forme d'énergie",
+        "Oublier l'énergie thermique dissipée dans le diagramme"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.SIG.propagation-rectiligne-de-la-lumiere",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Des signaux pour observer et communiquer",
+      "domain_code": "SIG",
+      "chapter": "La lumière",
+      "title": "Propagation rectiligne de la lumière",
+      "official_wording": null,
+      "normalized_title": "propagation rectiligne de la lumière",
+      "prerequisites": [
+        "ST.6E.MME.signal-et-information"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Modéliser la propagation de la lumière par un rayon lumineux",
+        "Expliquer l'ombre propre et l'ombre portée"
+      ],
+      "expected_skills": [
+        "Tracer un rayon et un cône d'ombre",
+        "Réaliser une expérience de visée"
+      ],
+      "common_mistakes": [
+        "Représenter un rayon partant de l'œil vers l'objet",
+        "Oublier la flèche indiquant le sens de propagation"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.SIG.sources-primaires-et-objets-diffusants",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Des signaux pour observer et communiquer",
+      "domain_code": "SIG",
+      "chapter": "La lumière",
+      "title": "Sources primaires et objets diffusants",
+      "official_wording": null,
+      "normalized_title": "sources primaires et objets diffusants",
+      "prerequisites": [
+        "PC.5E.SIG.propagation-rectiligne-de-la-lumiere"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Distinguer source primaire et objet diffusant",
+        "Expliquer les conditions de visibilité d'un objet"
+      ],
+      "expected_skills": [
+        "Classer des objets selon qu'ils émettent ou diffusent de la lumière",
+        "Représenter le trajet de la lumière jusqu'à l'œil"
+      ],
+      "common_mistakes": [
+        "Croire que la Lune est une source primaire",
+        "Penser qu'on voit un objet sans que la lumière entre dans l'œil"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.5E.SIG.emission-et-propagation-d-un-son",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Des signaux pour observer et communiquer",
+      "domain_code": "SIG",
+      "chapter": "Le son",
+      "title": "Émission et propagation d'un son",
+      "official_wording": null,
+      "normalized_title": "émission et propagation d'un son",
+      "prerequisites": [
+        "ST.6E.MME.signal-et-information"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Relier l'émission d'un son à la vibration d'une source",
+        "Savoir qu'un son nécessite un milieu matériel pour se propager"
+      ],
+      "expected_skills": [
+        "Interpréter l'expérience de la sonnette sous cloche à vide",
+        "Identifier émetteur, milieu de propagation et récepteur"
+      ],
+      "common_mistakes": [
+        "Croire que le son se propage dans le vide",
+        "Penser que la matière se déplace de l'émetteur au récepteur"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 5E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    }
+  ]
+}

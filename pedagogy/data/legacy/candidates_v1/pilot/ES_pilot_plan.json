@@ -1,0 +1,67 @@
+{
+  "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+  "status": "BLOCKED_NO_PROVEN_NOTION",
+  "rule": "exercises only for PROVEN_OFFICIAL notions",
+  "note": "Plan pilote uniquement : aucune notion n'est PROVEN_OFFICIAL, aucun contenu d'exercice n'est produit. À réviser après preuve officielle.",
+  "levels": {
+    "1RE": [
+      {
+        "notion_id": "ES.1RE.MAT.decroissance-radioactive-et-demi-vie",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "REASONING",
+          "EXPERIMENT_PROTOCOL"
+        ],
+        "why": "Lien fort avec la fonction exponentielle, simulation possible."
+      },
+      {
+        "notion_id": "ES.1RE.SOL.bilan-radiatif-terrestre-albedo-et-effet-de-serre",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "GRAPH_INTERPRETATION",
+          "REASONING"
+        ],
+        "why": "Modèle de bilan et mesures d'albédo."
+      },
+      {
+        "notion_id": "ES.1RE.SON.le-son-phenomene-vibratoire",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "GRAPH_INTERPRETATION",
+          "REASONING",
+          "QCM"
+        ],
+        "why": "Mesures de fréquence et lecture de spectres."
+      }
+    ],
+    "TLE": [
+      {
+        "notion_id": "ES.TLE.CLIM.le-climat-du-futur-modeles-et-scenarios",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "DOCUMENT_READING",
+          "REASONING"
+        ],
+        "why": "Lecture de projections et incertitudes."
+      },
+      {
+        "notion_id": "ES.TLE.ENER.conversions-d-energie-et-rendement",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "REASONING",
+          "SITUATION_STUDY"
+        ],
+        "why": "Chaînes énergétiques et calcul de rendement."
+      },
+      {
+        "notion_id": "ES.TLE.HVIV.les-modeles-demographiques",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "REASONING",
+          "DOCUMENT_READING"
+        ],
+        "why": "Comparaison modèles linéaire/exponentiel et validité."
+      }
+    ]
+  }
+}

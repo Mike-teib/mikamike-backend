@@ -1,0 +1,1128 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATHS",
+  "level": "6E",
+  "course": "COMMON",
+  "generated_by": "agent-A-maths-candidates",
+  "disclaimer": "Notions CANDIDATES reconstituées de mémoire (connaissance générale des programmes), toutes UNPROVEN / CANDIDATE_UNVERIFIED : ce ne sont PAS des extraits officiels. Aucun libellé officiel n'est stocké. À vérifier contre la source officielle attendue avant toute production de contenu.",
+  "notions": [
+    {
+      "notion_id": "MATHS.6E.NC.nombres-entiers",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Nombres entiers et décimaux",
+      "title": "Nombres entiers",
+      "official_wording": null,
+      "normalized_title": "nombres entiers",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Lire, écrire et décomposer les grands nombres entiers"
+      ],
+      "expected_skills": [
+        "Passer de l'écriture en chiffres à l'écriture en lettres",
+        "Identifier le chiffre des milliers, des millions"
+      ],
+      "common_mistakes": [
+        "Confondre « chiffre des centaines » et « nombre de centaines »",
+        "Oublier les zéros intercalaires en écrivant « deux millions trente »"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Nombres entiers et décimaux",
+      "title": "Nombres décimaux",
+      "official_wording": null,
+      "normalized_title": "nombres décimaux",
+      "prerequisites": [
+        "MATHS.6E.NC.nombres-entiers"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Comprendre l'écriture décimale comme somme de fractions décimales",
+        "Comparer et ranger des nombres décimaux"
+      ],
+      "expected_skills": [
+        "Passer de $3{,}07$ à $3 + \\frac{7}{100}$",
+        "Ranger des décimaux dans l'ordre croissant"
+      ],
+      "common_mistakes": [
+        "Croire que $2{,}15 > 2{,}3$ car « 15 > 3 »",
+        "Lire $0{,}07$ comme « sept dixièmes »"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.reperage-sur-une-demi-droite-graduee",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Nombres entiers et décimaux",
+      "title": "Repérage sur une demi-droite graduée",
+      "official_wording": null,
+      "normalized_title": "repérage sur une demi-droite graduée",
+      "prerequisites": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Repérer et placer un nombre décimal sur une demi-droite graduée"
+      ],
+      "expected_skills": [
+        "Déterminer le pas d'une graduation",
+        "Lire l'abscisse d'un point"
+      ],
+      "common_mistakes": [
+        "Compter les traits au lieu des intervalles",
+        "Supposer que le pas vaut toujours 1"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.operations-sur-les-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Calculs",
+      "title": "Opérations sur les nombres décimaux",
+      "official_wording": null,
+      "normalized_title": "opérations sur les nombres décimaux",
+      "prerequisites": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Additionner, soustraire et multiplier des nombres décimaux",
+        "Multiplier et diviser par 10, 100, 1000"
+      ],
+      "expected_skills": [
+        "Poser une addition en alignant les virgules",
+        "Placer la virgule dans un produit"
+      ],
+      "common_mistakes": [
+        "Aligner les nombres à droite sans tenir compte de la virgule",
+        "Croire que « multiplier par 10, c'est ajouter un zéro » pour $2{,}5$"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.division-euclidienne",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Calculs",
+      "title": "Division euclidienne",
+      "official_wording": null,
+      "normalized_title": "division euclidienne",
+      "prerequisites": [
+        "MATHS.6E.NC.nombres-entiers"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Effectuer une division euclidienne et interpréter quotient et reste"
+      ],
+      "expected_skills": [
+        "Écrire l'égalité $a = b \\times q + r$ avec $r < b$",
+        "Choisir quotient ou reste selon la question posée"
+      ],
+      "common_mistakes": [
+        "Obtenir un reste supérieur au diviseur",
+        "Répondre par le quotient quand la question porte sur le reste"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.multiples-et-diviseurs",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Calculs",
+      "title": "Multiples et diviseurs",
+      "official_wording": null,
+      "normalized_title": "multiples et diviseurs",
+      "prerequisites": [
+        "MATHS.6E.NC.division-euclidienne"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Reconnaître multiples et diviseurs",
+        "Utiliser les critères de divisibilité par 2, 3, 5, 9 et 10"
+      ],
+      "expected_skills": [
+        "Appliquer un critère de divisibilité",
+        "Lister les diviseurs d'un entier"
+      ],
+      "common_mistakes": [
+        "Confondre « multiple de » et « diviseur de »",
+        "Appliquer le critère de 3 au dernier chiffre"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.calcul-mental-et-ordre-de-grandeur",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Calculs",
+      "title": "Calcul mental et ordre de grandeur",
+      "official_wording": null,
+      "normalized_title": "calcul mental et ordre de grandeur",
+      "prerequisites": [
+        "MATHS.6E.NC.operations-sur-les-nombres-decimaux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "CHERCHER"
+      ],
+      "learning_objectives": [
+        "Calculer mentalement et estimer un ordre de grandeur pour contrôler un résultat"
+      ],
+      "expected_skills": [
+        "Arrondir pour estimer un résultat",
+        "Utiliser les tables et des décompositions astucieuses"
+      ],
+      "common_mistakes": [
+        "Arrondir de manière incohérente les deux termes",
+        "Ne pas confronter le résultat posé à l'estimation"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.fractions",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Fractions",
+      "title": "Fractions",
+      "official_wording": null,
+      "normalized_title": "fractions",
+      "prerequisites": [
+        "MATHS.6E.NC.nombres-decimaux",
+        "MATHS.6E.NC.division-euclidienne"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Comprendre la fraction comme partage et comme quotient",
+        "Repérer une fraction sur une demi-droite graduée"
+      ],
+      "expected_skills": [
+        "Écrire $\\frac{a}{b}$ comme quotient $a \\div b$",
+        "Reconnaître des fractions égales simples"
+      ],
+      "common_mistakes": [
+        "Inverser numérateur et dénominateur",
+        "Croire que $\\frac{1}{4} > \\frac{1}{3}$ car $4 > 3$"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.proportionnalite",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Proportionnalité",
+      "title": "Proportionnalité",
+      "official_wording": null,
+      "normalized_title": "proportionnalité",
+      "prerequisites": [
+        "MATHS.6E.NC.operations-sur-les-nombres-decimaux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "RAISONNER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Reconnaître et résoudre une situation de proportionnalité"
+      ],
+      "expected_skills": [
+        "Utiliser la linéarité ou le passage à l'unité",
+        "Compléter un tableau de proportionnalité"
+      ],
+      "common_mistakes": [
+        "Appliquer un raisonnement additif (« +3 ») à une situation multiplicative",
+        "Considérer toute situation comme proportionnelle (âge et taille)"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.NC.pourcentages",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Proportionnalité",
+      "title": "Pourcentages",
+      "official_wording": null,
+      "normalized_title": "pourcentages",
+      "prerequisites": [
+        "MATHS.6E.NC.proportionnalite",
+        "MATHS.6E.NC.fractions"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Appliquer un pourcentage simple (10 %, 25 %, 50 %)"
+      ],
+      "expected_skills": [
+        "Calculer $25\\,\\%$ d'une quantité",
+        "Relier un pourcentage à une fraction simple"
+      ],
+      "common_mistakes": [
+        "Soustraire le pourcentage au lieu de le multiplier",
+        "Confondre 5 % et 50 %"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.GM.perimetres",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Grandeurs et mesures",
+      "domain_code": "GM",
+      "chapter": "Longueurs et périmètres",
+      "title": "Périmètres",
+      "official_wording": null,
+      "normalized_title": "périmètres",
+      "prerequisites": [
+        "MATHS.6E.NC.operations-sur-les-nombres-decimaux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer le périmètre d'un polygone"
+      ],
+      "expected_skills": [
+        "Additionner les longueurs des côtés en unités cohérentes"
+      ],
+      "common_mistakes": [
+        "Confondre périmètre et aire",
+        "Additionner des longueurs exprimées dans des unités différentes"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.GM.longueur-du-cercle",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Grandeurs et mesures",
+      "domain_code": "GM",
+      "chapter": "Longueurs et périmètres",
+      "title": "Longueur du cercle",
+      "official_wording": null,
+      "normalized_title": "longueur du cercle",
+      "prerequisites": [
+        "MATHS.6E.GM.perimetres",
+        "MATHS.6E.EG.cercle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer la longueur d'un cercle à partir de son rayon ou diamètre"
+      ],
+      "expected_skills": [
+        "Utiliser $L = 2\\pi r = \\pi d$",
+        "Donner une valeur approchée avec $\\pi \\approx 3{,}14$"
+      ],
+      "common_mistakes": [
+        "Utiliser le rayon à la place du diamètre dans $\\pi d$",
+        "Confondre longueur du cercle et aire du disque"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.GM.aires",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Grandeurs et mesures",
+      "domain_code": "GM",
+      "chapter": "Aires",
+      "title": "Aires",
+      "official_wording": null,
+      "normalized_title": "aires",
+      "prerequisites": [
+        "MATHS.6E.GM.perimetres"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Calculer l'aire d'un carré, d'un rectangle et d'un triangle rectangle"
+      ],
+      "expected_skills": [
+        "Utiliser les formules d'aire",
+        "Décomposer une surface en figures usuelles"
+      ],
+      "common_mistakes": [
+        "Exprimer une aire en cm au lieu de cm²",
+        "Multiplier les quatre côtés d'un rectangle"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.GM.volume-du-pave-droit",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Grandeurs et mesures",
+      "domain_code": "GM",
+      "chapter": "Volumes",
+      "title": "Volume du pavé droit",
+      "official_wording": null,
+      "normalized_title": "volume du pavé droit",
+      "prerequisites": [
+        "MATHS.6E.GM.aires"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer le volume d'un cube et d'un pavé droit"
+      ],
+      "expected_skills": [
+        "Utiliser $V = L \\times \\ell \\times h$",
+        "Relier cm³ et litre"
+      ],
+      "common_mistakes": [
+        "Additionner les dimensions au lieu de les multiplier",
+        "Croire que $1\\ \\text{dm}^3 = 10\\ \\text{cm}^3$"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.GM.conversions-d-unites",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Grandeurs et mesures",
+      "domain_code": "GM",
+      "chapter": "Conversions",
+      "title": "Conversions d'unités",
+      "official_wording": null,
+      "normalized_title": "conversions d'unités",
+      "prerequisites": [
+        "MATHS.6E.NC.operations-sur-les-nombres-decimaux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Convertir longueurs, masses, contenances, aires et volumes"
+      ],
+      "expected_skills": [
+        "Utiliser un tableau de conversion",
+        "Convertir des durées (h, min, s)"
+      ],
+      "common_mistakes": [
+        "Convertir les aires avec un facteur 10 au lieu de 100",
+        "Écrire $1\\ \\text{h}\\ 30 = 1{,}30\\ \\text{h}$"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.GM.angles",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Grandeurs et mesures",
+      "domain_code": "GM",
+      "chapter": "Angles",
+      "title": "Angles",
+      "official_wording": null,
+      "normalized_title": "angles",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Nommer, mesurer et construire un angle au rapporteur"
+      ],
+      "expected_skills": [
+        "Lire la bonne graduation du rapporteur",
+        "Distinguer angle aigu, droit, obtus"
+      ],
+      "common_mistakes": [
+        "Lire la graduation extérieure au lieu de l'intérieure",
+        "Croire que la mesure dépend de la longueur des côtés tracés"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.EG.droites-paralleles-et-perpendiculaires",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Figures planes",
+      "title": "Droites parallèles et perpendiculaires",
+      "official_wording": null,
+      "normalized_title": "droites parallèles et perpendiculaires",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Reconnaître et tracer des droites parallèles et perpendiculaires"
+      ],
+      "expected_skills": [
+        "Utiliser l'équerre et la règle",
+        "Utiliser les notations $(d) \\parallel (d')$ et $(d) \\perp (d')$"
+      ],
+      "common_mistakes": [
+        "Croire que deux droites non sécantes sur le dessin sont forcément parallèles",
+        "Confondre droite, demi-droite et segment"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.EG.cercle",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Figures planes",
+      "title": "Cercle",
+      "official_wording": null,
+      "normalized_title": "cercle",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Connaître le vocabulaire du cercle et le construire au compas"
+      ],
+      "expected_skills": [
+        "Distinguer rayon, diamètre, corde",
+        "Construire un cercle de centre et rayon donnés"
+      ],
+      "common_mistakes": [
+        "Ouvrir le compas de la longueur du diamètre pour un rayon donné",
+        "Confondre cercle et disque"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.EG.triangles-et-quadrilateres-particuliers",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Figures planes",
+      "title": "Triangles et quadrilatères particuliers",
+      "official_wording": null,
+      "normalized_title": "triangles et quadrilatères particuliers",
+      "prerequisites": [
+        "MATHS.6E.EG.droites-paralleles-et-perpendiculaires",
+        "MATHS.6E.EG.cercle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Reconnaître et construire triangles et quadrilatères particuliers à partir de leurs propriétés"
+      ],
+      "expected_skills": [
+        "Construire un triangle connaissant ses trois longueurs",
+        "Identifier un losange, un rectangle, un carré par leurs propriétés"
+      ],
+      "common_mistakes": [
+        "Se fier à l'apparence du dessin plutôt qu'aux codages",
+        "Ne pas reconnaître un carré comme cas particulier de rectangle"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.EG.symetrie-axiale",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Transformations",
+      "title": "Symétrie axiale",
+      "official_wording": null,
+      "normalized_title": "symétrie axiale",
+      "prerequisites": [
+        "MATHS.6E.EG.droites-paralleles-et-perpendiculaires"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Construire le symétrique d'une figure par rapport à une droite",
+        "Identifier les axes de symétrie d'une figure"
+      ],
+      "expected_skills": [
+        "Utiliser la médiatrice d'un segment",
+        "Construire le symétrique d'un point au compas ou à l'équerre"
+      ],
+      "common_mistakes": [
+        "Reporter la figure par translation au lieu de symétrie",
+        "Tracer le symétrique perpendiculairement au bord de la feuille et non à l'axe"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.EG.solides-usuels-et-patrons",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Espace",
+      "title": "Solides usuels et patrons",
+      "official_wording": null,
+      "normalized_title": "solides usuels et patrons",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "CHERCHER"
+      ],
+      "learning_objectives": [
+        "Reconnaître les solides usuels et réaliser un patron de pavé droit"
+      ],
+      "expected_skills": [
+        "Compter faces, arêtes, sommets",
+        "Identifier un patron valide"
+      ],
+      "common_mistakes": [
+        "Proposer un patron où deux faces se superposent",
+        "Confondre face et arête"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.OGD.tableaux-et-diagrammes",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Organisation et gestion de données, fonctions",
+      "domain_code": "OGD",
+      "chapter": "Données",
+      "title": "Tableaux et diagrammes",
+      "official_wording": null,
+      "normalized_title": "tableaux et diagrammes",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Lire, interpréter et produire tableaux et diagrammes (barres, circulaires, courbes)"
+      ],
+      "expected_skills": [
+        "Prélever une information dans un tableau à double entrée",
+        "Construire un diagramme en barres"
+      ],
+      "common_mistakes": [
+        "Lire la mauvaise ligne ou colonne d'un tableau",
+        "Utiliser une échelle irrégulière sur l'axe vertical"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.6E.AP.programmation-de-deplacements",
+      "subject": "MATHS",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "Programme de mathématiques du cycle 3 — BO n°16 du 17 avril 2025 (6e : rentrée 2025-2026)",
+      "domain": "Algorithmique et programmation",
+      "domain_code": "AP",
+      "chapter": "Programmation",
+      "title": "Programmation de déplacements",
+      "official_wording": null,
+      "normalized_title": "programmation de déplacements",
+      "prerequisites": [
+        "MATHS.6E.GM.angles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CHERCHER"
+      ],
+      "learning_objectives": [
+        "Programmer des déplacements d'un personnage ou d'un robot à l'aide de blocs"
+      ],
+      "expected_skills": [
+        "Écrire une suite d'instructions ordonnée",
+        "Utiliser une boucle « répéter »"
+      ],
+      "common_mistakes": [
+        "Confondre « tourner de 90° » et « s'orienter à 90° »",
+        "Oublier que l'ordre des instructions modifie le résultat"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_title": "Programme de mathématiques pour le cycle 3",
+      "source_url_or_ref": "BO n°16 du 17 avril 2025 — NOR MENE2504620A — arrêté du 10 avril 2025",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat pédagogique non prouvé. L'existence, la référence et le calendrier du programme officiel 2025 de mathématiques du cycle 3 sont confirmés pour la 6e, mais le titre, le placement et le libellé de cette notion n'ont pas encore été vérifiés verbatim dans le PDF local. official_wording reste vide et proof_status reste UNPROVEN. Source attendue : SRC-C3-MATHS-NOUVEAU ; libellé non vérifié. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

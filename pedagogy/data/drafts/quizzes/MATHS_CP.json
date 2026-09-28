@@ -1,0 +1,858 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q01",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Dans le nombre 36, quel est le chiffre des dizaines ?",
+      "choices": [
+        "3",
+        "6",
+        "36",
+        "30"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Dans 36, il y a 3 dizaines et 6 unités : le chiffre des dizaines est 3.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est le chiffre des unités.",
+        "2": "C'est le nombre entier, pas un chiffre.",
+        "3": "C'est la valeur du chiffre des dizaines, pas le chiffre lui-même."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q02",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Combien vaut le chiffre 8 dans le nombre 84 ?",
+      "choices": [
+        "8",
+        "4",
+        "84",
+        "80"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "80",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le chiffre 8 est à la place des dizaines : il vaut 8 dizaines, soit 80.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est le chiffre, mais à la place des dizaines il vaut huit dizaines.",
+        "1": "C'est le chiffre des unités.",
+        "2": "C'est le nombre entier."
+      },
+      "common_error_target": {
+        "0": "oubli de la position"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q03",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Quel nombre est formé de 5 dizaines et 3 unités ?",
+      "choices": [
+        "35",
+        "8",
+        "53",
+        "503"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "53",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 dizaines font 50 ; avec 3 unités : 50 + 3 = 53.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Les dizaines et les unités ont été inversées.",
+        "1": "On a ajouté 5 et 3 au lieu de composer le nombre.",
+        "3": "On a écrit un 0 en trop entre les chiffres."
+      },
+      "common_error_target": {
+        "0": "inversion dizaines/unités"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q04",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Sur la table, il y a 6 barres de dix cubes et 2 cubes seuls. Combien y a-t-il de cubes ?",
+      "choices": [
+        "26",
+        "62",
+        "8",
+        "602"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "62",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "6 barres de dix font 60 cubes ; avec les 2 cubes seuls, cela fait 62 cubes.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Les barres ont été comptées comme des unités.",
+        "2": "On a ajouté 6 et 2 sans voir que chaque barre vaut dix.",
+        "3": "On a écrit un 0 en trop."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q05",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Dans quel nombre le chiffre 9 est-il le chiffre des unités ?",
+      "choices": [
+        "19",
+        "91",
+        "90",
+        "94"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "19",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le chiffre des unités est celui de droite. Dans 19, le chiffre de droite est bien 9.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Ici, 9 est le chiffre des dizaines.",
+        "2": "Ici, 9 est le chiffre des dizaines et 0 celui des unités.",
+        "3": "Ici, 9 est le chiffre des dizaines."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q06",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Combien de dizaines y a-t-il dans soixante-dix ?",
+      "choices": [
+        "70",
+        "0",
+        "10",
+        "7"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Soixante-dix s'écrit 70 : c'est 7 dizaines et 0 unité.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est la valeur des dizaines, pas leur nombre.",
+        "1": "C'est le chiffre des unités de 70.",
+        "2": "Une dizaine vaut dix, mais la question demande combien il y a de dizaines."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q07",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Quel nombre s'écrit avec 4 unités et 8 dizaines ?",
+      "choices": [
+        "48",
+        "12",
+        "84",
+        "408"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "84",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les 8 dizaines font 80 et les 4 unités font 4 : le nombre est 84, même si la phrase cite les unités en premier.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Les chiffres ont été écrits dans l'ordre de la phrase, sans tenir compte de leur valeur.",
+        "1": "On a ajouté 4 et 8.",
+        "3": "On a écrit un 0 en trop."
+      },
+      "common_error_target": {
+        "0": "ordre des mots"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q08",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Complète : 56 = 50 + …",
+      "choices": [
+        "60",
+        "6",
+        "5",
+        "16"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "56, c'est 5 dizaines et 6 unités, donc 56 = 50 + 6.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a confondu avec la valeur d'un chiffre des dizaines.",
+        "2": "C'est le chiffre des dizaines de 56.",
+        "3": "On a mal calculé l'écart entre 50 et 56."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q09",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Zoé a 3 paquets de 10 autocollants et 14 autocollants seuls. Combien d'autocollants a-t-elle en tout ?",
+      "choices": [
+        "44",
+        "314",
+        "17",
+        "34"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "44",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3 paquets de 10 font 30 ; 14 autocollants seuls font 1 dizaine et 4 unités ; 30 + 14 = 44.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a écrit 3 puis 14 côte à côte sans regrouper par dix.",
+        "2": "On a ajouté 3 et 14 sans voir que chaque paquet vaut dix.",
+        "3": "On a oublié la dizaine contenue dans les 14 autocollants seuls."
+      },
+      "common_error_target": {
+        "1": "juxtaposition"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-position.q10",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Devinette : mon chiffre des dizaines est 6 et mon chiffre des unités a 1 de plus. Qui suis-je ?",
+      "choices": [
+        "76",
+        "61",
+        "7",
+        "67"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "67",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le chiffre des unités est 6 + 1 = 7 ; avec 6 dizaines, le nombre est 67.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Les chiffres des dizaines et des unités ont été inversés.",
+        "1": "On a pris 1 comme chiffre des unités.",
+        "2": "On n'a écrit que le chiffre des unités."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q01",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Il y a 3 chats et 4 chiens dans le jardin. Combien y a-t-il d'animaux dans le jardin ?",
+      "choices": [
+        "7",
+        "1",
+        "34",
+        "12"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On réunit les chats et les chiens : 3 + 4 = 7 animaux.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a soustrait au lieu de réunir.",
+        "2": "On a écrit les deux nombres côte à côte.",
+        "3": "On a multiplié 3 par 4."
+      },
+      "common_error_target": {
+        "1": "soustraction au lieu d'addition"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q02",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Léna a 10 bonbons. Elle en donne 3 à son frère. Combien lui en reste-t-il ?",
+      "choices": [
+        "13",
+        "3",
+        "10",
+        "7"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Léna donne des bonbons, elle en a donc moins : 10 − 3 = 7.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a ajouté alors que Léna donne des bonbons.",
+        "1": "C'est le nombre de bonbons donnés.",
+        "2": "C'est le nombre de bonbons du début."
+      },
+      "common_error_target": {
+        "0": "addition au lieu de soustraction"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q03",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Sur une étagère, il y a 11 livres de contes et 8 livres sur les animaux. Combien de livres y a-t-il sur l'étagère ?",
+      "choices": [
+        "3",
+        "18",
+        "19",
+        "20"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "19",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les deux sortes de livres forment l'étagère : 11 + 8 = 19 livres.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a soustrait au lieu d'ajouter.",
+        "1": "Erreur de calcul d'une unité.",
+        "3": "Erreur de calcul d'une unité."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q04",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Léa a 53 euros dans son porte-monnaie. Elle achète un livre à 7 euros. Combien d'euros lui reste-t-il ?",
+      "choices": [
+        "60",
+        "46",
+        "54",
+        "56"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "46",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Léa dépense de l'argent : 53 − 7 = 46 euros.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a ajouté le prix du livre.",
+        "2": "On a soustrait 3 − 7 à l'envers (7 − 3).",
+        "3": "Erreur de calcul en passant la dizaine."
+      },
+      "common_error_target": {
+        "0": "addition au lieu de soustraction"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q05",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Il y avait 36 oiseaux dans l'arbre. Il n'en reste plus que 21. Combien d'oiseaux se sont envolés ?",
+      "choices": [
+        "15",
+        "57",
+        "21",
+        "25"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "15",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les oiseaux restés et les oiseaux envolés forment les 36 oiseaux du début : 36 − 21 = 15.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a ajouté les deux nombres.",
+        "2": "C'est le nombre d'oiseaux restés.",
+        "3": "Erreur de calcul sur les dizaines."
+      },
+      "common_error_target": {
+        "1": "addition des données"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q06",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Dans une boîte de 50 crayons, 32 sont taillés. Combien de crayons ne sont pas taillés ?",
+      "choices": [
+        "82",
+        "28",
+        "22",
+        "18"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "18",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le tout, ce sont les 50 crayons ; on enlève la partie taillée : 50 − 32 = 18.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a ajouté le tout et une partie.",
+        "1": "Les chiffres de la bonne réponse ont été inversés.",
+        "2": "On a soustrait les unités à l'envers (2 − 0 au lieu de 10 − 2)."
+      },
+      "common_error_target": {
+        "0": "addition du tout et d'une partie"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q07",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Dans la boîte, il y avait des gâteaux. J'en ai mangé 6 et il en reste encore 21. Combien y avait-il de gâteaux au début ?",
+      "choices": [
+        "15",
+        "21",
+        "27",
+        "26"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "27",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les gâteaux mangés et les gâteaux restés forment tous les gâteaux du début : 21 + 6 = 27.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a soustrait à cause du mot « mangé ».",
+        "1": "C'est le nombre de gâteaux restés.",
+        "3": "Erreur de calcul d'une unité."
+      },
+      "common_error_target": {
+        "0": "soustraction induite par le verbe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q08",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Un train a trois wagons : 25 passagers dans le premier, 32 dans le deuxième et 18 dans le troisième. Combien y a-t-il de passagers dans le train ?",
+      "choices": [
+        "57",
+        "75",
+        "65",
+        "85"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "75",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le train entier est le tout : 25 + 32 + 18 = 75 passagers.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a oublié le troisième wagon.",
+        "2": "On a oublié une retenue.",
+        "3": "On a compté une dizaine de trop."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q09",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Ines avait des billes. Elle en gagne 24 et en a maintenant 61. Combien de billes avait-elle au début ?",
+      "choices": [
+        "37",
+        "85",
+        "43",
+        "47"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "37",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Maintenant, Inès a 61 billes (le tout) ; les billes gagnées sont une partie : 61 − 24 = 37.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a ajouté à cause du mot « gagne ».",
+        "2": "On a soustrait les unités à l'envers.",
+        "3": "On a oublié la retenue."
+      },
+      "common_error_target": {
+        "1": "addition induite par le verbe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.parties-tout.q10",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Dans la cour, 45 élèves jouent. Certains jouent au ballon, les 19 autres sautent à la corde. Combien d'élèves jouent au ballon ?",
+      "choices": [
+        "64",
+        "34",
+        "36",
+        "26"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "26",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le tout : 45 élèves ; une partie : 19 élèves à la corde. L'autre partie : 45 − 19 = 26.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "On a ajouté le tout et une partie.",
+        "1": "On a soustrait chiffre à chiffre le plus petit du plus grand.",
+        "2": "On a oublié une retenue."
+      },
+      "common_error_target": {
+        "0": "addition du tout et d'une partie"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q01",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Combien d'euros font 1 billet de 10 € et 4 pièces de 1 € ?",
+      "choices": [
+        "14",
+        "5",
+        "104",
+        "41"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "14",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le billet vaut 10 euros et les pièces 4 euros : 10 + 4 = 14 euros.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a compté le nombre d'objets au lieu de leur valeur.",
+        "2": "On a écrit 10 et 4 côte à côte.",
+        "3": "Les dizaines et les unités ont été inversées."
+      },
+      "common_error_target": {
+        "1": "compter les objets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q02",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Combien d'euros font 3 billets de 10 € ?",
+      "choices": [
+        "3",
+        "13",
+        "20",
+        "30"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "30",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On compte de dix en dix : dix, vingt, trente. Cela fait 30 euros.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a compté les billets au lieu de leur valeur.",
+        "1": "On a ajouté 10 et 3.",
+        "2": "On a compté un billet de moins."
+      },
+      "common_error_target": {
+        "0": "compter les objets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q03",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Combien d'euros font 3 pièces de 2 € ?",
+      "choices": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Chaque pièce vaut 2 euros : 2 + 2 + 2 = 6 euros.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a compté les pièces au lieu de leur valeur.",
+        "1": "On a ajouté 3 et 2.",
+        "3": "On a oublié une pièce."
+      },
+      "common_error_target": {
+        "0": "compter les objets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q04",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Quelle somme font 1 billet de 20 € et 1 billet de 5 € ?",
+      "choices": [
+        "2 €",
+        "25 €",
+        "20 €",
+        "15 €"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "25 €",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On ajoute les valeurs des billets : 20 + 5 = 25, soit 25 euros.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a compté les billets au lieu de leur valeur.",
+        "2": "On a oublié le billet de 5 € et gardé seulement le billet de 20 €.",
+        "3": "On a soustrait au lieu d'ajouter."
+      },
+      "common_error_target": {
+        "0": "compter les objets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q05",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Combien d'euros font 2 billets de 10 € et 7 pièces de 1 € ?",
+      "choices": [
+        "27",
+        "9",
+        "72",
+        "17"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "27",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "2 billets de 10 € font 20 euros ; avec 7 euros : 20 + 7 = 27 euros.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a compté le nombre d'objets.",
+        "2": "Les dizaines et les unités ont été inversées.",
+        "3": "On a compté un seul billet de 10 €."
+      },
+      "common_error_target": {
+        "1": "compter les objets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q06",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Combien d'euros font 1 billet de 50 € et 1 billet de 20 € ?",
+      "choices": [
+        "2",
+        "30",
+        "520",
+        "70"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "70",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "50 euros + 20 euros = 70 euros.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a compté les billets.",
+        "1": "On a soustrait au lieu d'ajouter.",
+        "2": "On a écrit les valeurs côte à côte."
+      },
+      "common_error_target": {
+        "0": "compter les objets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q07",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Aya a 4 pièces de 2 € et 1 billet de 10 €. Combien d'euros a-t-elle ?",
+      "choices": [
+        "5",
+        "14",
+        "18",
+        "16"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "18",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "4 pièces de 2 € font 8 euros ; avec le billet de 10 € : 10 + 8 = 18 euros.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a compté le nombre d'objets.",
+        "1": "Les pièces de 2 € ont été comptées comme des pièces de 1 €.",
+        "3": "On a oublié une pièce de 2 €."
+      },
+      "common_error_target": {
+        "0": "compter les objets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q08",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Quel ensemble vaut le plus d'euros ?",
+      "choices": [
+        "5 pièces de 2 €",
+        "1 billet de 20 €",
+        "9 pièces de 1 €",
+        "3 billets de 5 €"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "1 billet de 20 €",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "1 billet de 20 € vaut 20 euros, plus que 10, 9 ou 15 euros : ce n'est pas le nombre d'objets qui compte mais leur valeur.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "5 pièces de 2 € ne valent que 10 euros.",
+        "2": "9 pièces de 1 € ne valent que 9 euros, même s'il y a beaucoup de pièces.",
+        "3": "3 billets de 5 € valent 15 euros."
+      },
+      "common_error_target": {
+        "0": "confondre nombre de pièces et valeur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q09",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Sami a 11 pièces de 1 € et 2 billets de 10 €. Combien d'euros a-t-il ?",
+      "choices": [
+        "31",
+        "13",
+        "211",
+        "21"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "31",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "2 billets de 10 € font 20 euros ; 11 pièces de 1 € font 11 euros ; 20 + 11 = 31 euros.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a compté le nombre d'objets.",
+        "2": "On a écrit 2 et 11 côte à côte.",
+        "3": "On a oublié qu'avec 11 pièces on a plus qu'une dizaine d'euros."
+      },
+      "common_error_target": {
+        "1": "compter les objets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CP.valeur-euros.q10",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "question": "Nora a des billets de 10 € et 3 pièces de 1 €. En tout, elle a 43 €. Combien a-t-elle de billets de 10 € ?",
+      "choices": [
+        "40",
+        "3",
+        "5",
+        "4"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "43 euros, c'est 40 euros en billets et 3 euros en pièces ; 40 euros, ce sont 4 billets de 10 €.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est la valeur des billets, pas leur nombre.",
+        "1": "C'est le nombre de pièces.",
+        "2": "On a compté un billet de trop."
+      },
+      "common_error_target": {
+        "0": "valeur au lieu du nombre de billets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,2158 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.d01",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans le nombre 5 283, quel est le chiffre des milliers ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "5 283 = 5 milliers, 2 centaines, 8 dizaines et 3 unités. Le chiffre des milliers est 5.",
+      "step_by_step_solution": [
+        "De droite à gauche : unités, dizaines, centaines, milliers.",
+        "Le chiffre des milliers est le quatrième en partant de la droite.",
+        "Le chiffre des milliers est 5."
+      ],
+      "hints": [
+        "Pars du chiffre des unités, tout à droite, et compte les rangs vers la gauche."
+      ],
+      "common_errors": {
+        "3": "L'élève a donné le chiffre des unités.",
+        "2": "L'élève a donné le chiffre des centaines."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.d02",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écris en chiffres le nombre formé de 3 milliers, 4 centaines, 0 dizaine et 6 unités.",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "3406",
+          "3 406"
+        ]
+      },
+      "solution": "3 milliers = 3 000 ; 4 centaines = 400 ; 0 dizaine ; 6 unités. Le nombre est 3 406.",
+      "step_by_step_solution": [
+        "Milliers : 3 ; centaines : 4.",
+        "Dizaines : 0 ; unités : 6.",
+        "On écrit les chiffres dans l'ordre des rangs : 3 406."
+      ],
+      "hints": [
+        "Utilise un tableau des rangs.",
+        "N'oublie pas le zéro au rang où il n'y a rien."
+      ],
+      "common_errors": {
+        "346": "L'élève a oublié le zéro au rang des dizaines.",
+        "13": "L'élève a additionné les chiffres."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.d03",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Que vaut le chiffre 7 dans le nombre 7 150 ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "7000",
+          "7 000"
+        ]
+      },
+      "solution": "Dans 7 150, le chiffre 7 est au rang des milliers : il vaut 7 milliers, c'est-à-dire 7 000.",
+      "step_by_step_solution": [
+        "On repère le rang de chaque chiffre.",
+        "Le 7 est au rang des milliers.",
+        "Il vaut 7 milliers, soit 7 000."
+      ],
+      "hints": [
+        "À quel rang se trouve le chiffre 7 ?",
+        "Un millier vaut mille unités."
+      ],
+      "common_errors": {
+        "7": "L'élève a donné le chiffre sans tenir compte de son rang.",
+        "700": "L'élève a pris le 7 pour le chiffre des centaines."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.d04",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel nombre est représenté par 2 gros cubes de mille, 5 plaques de cent, 1 barre de dix et 8 petits cubes ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "2518",
+          "2 518"
+        ]
+      },
+      "solution": "2 milliers = 2 000 ; 5 centaines = 500 ; 1 dizaine = 10 ; 8 unités. 2 000 + 500 + 10 + 8 = 2 518.",
+      "step_by_step_solution": [
+        "Gros cubes : milliers ; plaques : centaines.",
+        "Barres : dizaines ; petits cubes : unités.",
+        "Le nombre est 2 518."
+      ],
+      "hints": [
+        "Chaque sorte de matériel correspond à un rang."
+      ],
+      "common_errors": {
+        "16": "L'élève a compté les objets au lieu de leur valeur.",
+        "8152": "L'élève a écrit les chiffres dans l'ordre inverse."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.d05",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans quel nombre le chiffre 8 vaut-il 800 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Le chiffre 8 vaut 800 quand il est au rang des centaines. Dans 2 850, il y a 2 milliers, 8 centaines, 5 dizaines et 0 unité. La bonne réponse est 2 850.",
+      "step_by_step_solution": [
+        "Dans 8 205, le 8 est au rang des milliers : il vaut 8 000.",
+        "Dans 1 008, le 8 est au rang des unités : il vaut 8.",
+        "Dans 2 850, le 8 est au rang des centaines : il vaut 800."
+      ],
+      "hints": [
+        "800, ce sont 8 centaines.",
+        "Cherche le nombre où le 8 est au troisième rang en partant de la droite."
+      ],
+      "common_errors": {
+        "0": "L'élève a choisi le nombre qui commence par 8.",
+        "2": "L'élève a choisi un nombre qui contient 8 sans regarder son rang."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "choices": [
+        "8 205",
+        "2 850",
+        "1 008"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.a01",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Complète l'égalité : 4 635 = 4 000 + … + 30 + 5.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "600"
+      },
+      "solution": "4 635 = 4 milliers, 6 centaines, 3 dizaines et 5 unités, soit 4 000 + 600 + 30 + 5. Le nombre manquant est 600.",
+      "step_by_step_solution": [
+        "Les milliers, les dizaines et les unités sont déjà écrits.",
+        "Il manque les centaines : 6 centaines.",
+        "6 centaines valent 600 : le nombre manquant est 600."
+      ],
+      "hints": [
+        "Quel rang manque dans la décomposition ?",
+        "Que vaut le chiffre de ce rang ?"
+      ],
+      "common_errors": {
+        "6": "L'élève a écrit le chiffre au lieu de sa valeur.",
+        "60": "L'élève a pris le 6 pour le chiffre des dizaines."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.a02",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quel nombre est égal à (3 × 1 000) + (7 × 100) + (2 × 10) + (9 × 1) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "3729",
+          "3 729"
+        ]
+      },
+      "solution": "3 000 + 700 + 20 + 9 = 3 729.",
+      "step_by_step_solution": [
+        "3 × 1 000 = 3 000 et 7 × 100 = 700.",
+        "2 × 10 = 20 et 9 × 1 = 9.",
+        "3 000 + 700 + 20 + 9 = 3 729."
+      ],
+      "hints": [
+        "Chaque parenthèse donne la valeur d'un chiffre selon son rang."
+      ],
+      "common_errors": {
+        "21": "L'élève a additionné les chiffres.",
+        "9273": "L'élève a écrit les chiffres dans l'ordre inverse."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.a03",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écris en chiffres le nombre deux-mille-quarante-trois.",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "2043",
+          "2 043"
+        ]
+      },
+      "solution": "Deux-mille : 2 milliers ; pas de centaines ; quarante-trois : 4 dizaines et 3 unités. Le nombre s'écrit 2 043.",
+      "step_by_step_solution": [
+        "Milliers : 2.",
+        "Centaines : 0, car il n'y en a pas.",
+        "Dizaines : 4 ; unités : 3. Le nombre est 2 043."
+      ],
+      "hints": [
+        "Y a-t-il des centaines dans ce nombre ?",
+        "Mets un zéro au rang vide."
+      ],
+      "common_errors": {
+        "243": "L'élève a oublié le zéro au rang des centaines.",
+        "200043": "L'élève a écrit 2000 puis 43 à la suite."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.a04",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Combien vaut le chiffre 5 dans le nombre 9 356 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "50"
+      },
+      "solution": "Dans 9 356, le 5 est au rang des dizaines : il vaut 5 dizaines, soit 50.",
+      "step_by_step_solution": [
+        "Le 6 est le chiffre des unités.",
+        "Le 5 est au rang des dizaines.",
+        "Il vaut 5 dizaines, soit 50."
+      ],
+      "hints": [
+        "Repère d'abord le chiffre des unités, puis avance d'un rang vers la gauche."
+      ],
+      "common_errors": {
+        "5": "L'élève a donné le chiffre sans sa valeur.",
+        "500": "L'élève a pris le 5 pour le chiffre des centaines."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.a05",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel nombre a 6 milliers, 0 centaine, 9 dizaines et 1 unité ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "6091",
+          "6 091"
+        ]
+      },
+      "solution": "6 milliers = 6 000 ; 0 centaine ; 9 dizaines = 90 ; 1 unité. Le nombre est 6 091.",
+      "step_by_step_solution": [
+        "Milliers : 6 ; centaines : 0.",
+        "Dizaines : 9 ; unités : 1.",
+        "Le nombre est 6 091."
+      ],
+      "hints": [
+        "N'oublie pas le zéro au rang des centaines."
+      ],
+      "common_errors": {
+        "691": "L'élève a oublié le zéro au rang des centaines.",
+        "6910": "L'élève a décalé les chiffres d'un rang."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.c01",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Combien y a-t-il de centaines en tout dans le nombre 3 870 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "38"
+      },
+      "solution": "3 870 = 3 milliers, 8 centaines et 7 dizaines. 3 milliers font 30 centaines ; 30 + 8 = 38 centaines.",
+      "step_by_step_solution": [
+        "1 millier = 10 centaines.",
+        "3 milliers = 30 centaines.",
+        "30 centaines + 8 centaines = 38 centaines."
+      ],
+      "hints": [
+        "On demande le nombre total de centaines, pas le chiffre des centaines.",
+        "Combien de centaines dans un millier ?"
+      ],
+      "common_errors": {
+        "8": "L'élève a donné le chiffre des centaines au lieu du nombre total de centaines.",
+        "387": "L'élève a donné le nombre total de dizaines."
+      },
+      "remediation": "Montrer avec le matériel qu'un gros cube de mille se remplace par 10 plaques de cent, puis compter toutes les plaques.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.c02",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Combien y a-t-il de dizaines en tout dans le nombre 2 450 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "245"
+      },
+      "solution": "2 450 = 2 milliers, 4 centaines et 5 dizaines. 2 milliers = 200 dizaines ; 4 centaines = 40 dizaines ; 200 + 40 + 5 = 245 dizaines.",
+      "step_by_step_solution": [
+        "1 millier = 100 dizaines et 1 centaine = 10 dizaines.",
+        "2 milliers = 200 dizaines ; 4 centaines = 40 dizaines.",
+        "200 + 40 + 5 = 245 dizaines."
+      ],
+      "hints": [
+        "Le nombre de dizaines se lit en cachant le chiffre des unités.",
+        "Combien de dizaines dans une centaine ? dans un millier ?"
+      ],
+      "common_errors": {
+        "5": "L'élève a donné le chiffre des dizaines.",
+        "24": "L'élève a donné le nombre de centaines."
+      },
+      "remediation": "Cacher le chiffre des unités dans un tableau de numération et lire le nombre de dizaines, puis le vérifier avec le matériel.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.c03",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une école a besoin de 2 360 feuilles. Les feuilles sont vendues uniquement par paquets de 100. Combien de paquets faut-il acheter, au minimum, pour avoir assez de feuilles ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "24"
+      },
+      "solution": "2 360 = 23 centaines et 60 unités. 23 paquets donnent 2 300 feuilles : il en manque 60. Il faut un paquet de plus : 23 + 1 = 24 paquets.",
+      "step_by_step_solution": [
+        "Dans 2 360, il y a 23 centaines entières.",
+        "23 paquets ne suffisent pas : il manque 60 feuilles.",
+        "Il faut 24 paquets."
+      ],
+      "hints": [
+        "Combien de centaines y a-t-il en tout dans ce nombre ?",
+        "Les feuilles qui restent doivent aussi être achetées."
+      ],
+      "common_errors": {
+        "23": "L'élève a oublié les 60 feuilles restantes.",
+        "3": "L'élève a donné le chiffre des centaines."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.c04",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel nombre est formé de 12 centaines, 4 unités et 3 milliers ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "4204",
+          "4 204"
+        ]
+      },
+      "solution": "3 milliers = 3 000 ; 12 centaines = 1 200 ; 4 unités. 3 000 + 1 200 + 4 = 4 204.",
+      "step_by_step_solution": [
+        "12 centaines = 1 millier et 2 centaines = 1 200.",
+        "3 000 + 1 200 = 4 200.",
+        "4 200 + 4 = 4 204."
+      ],
+      "hints": [
+        "12 centaines, c'est plus d'un millier.",
+        "Échange 10 centaines contre 1 millier."
+      ],
+      "common_errors": {
+        "3124": "L'élève a écrit les nombres à la suite sans échanger 10 centaines contre un millier.",
+        "19": "L'élève a additionné 12, 4 et 3."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.c05",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quel nombre obtient-on en ajoutant 1 centaine à 7 960 ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "8060",
+          "8 060"
+        ]
+      },
+      "solution": "7 960 a 79 centaines. Avec 1 centaine de plus, on a 80 centaines, soit 8 000, et il reste 60 : 7 960 + 100 = 8 060.",
+      "step_by_step_solution": [
+        "Ajouter 1 centaine, c'est ajouter 100.",
+        "9 centaines + 1 centaine = 10 centaines = 1 millier de plus.",
+        "On obtient 8 060."
+      ],
+      "hints": [
+        "Que se passe-t-il quand on a 10 centaines ?"
+      ],
+      "common_errors": {
+        "7970": "L'élève a ajouté 1 dizaine au lieu d'1 centaine.",
+        "71060": "L'élève a écrit 10 au rang des centaines sans échange."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.x01",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Devinette : je suis un nombre de quatre chiffres. Mon chiffre des milliers est 2. Mon chiffre des centaines est le double de celui des milliers. Mon chiffre des dizaines est 0. Mon chiffre des unités est la somme de mes chiffres des milliers et des centaines. Qui suis-je ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "2406",
+          "2 406"
+        ]
+      },
+      "solution": "Milliers : 2. Centaines : double de 2, soit 4. Dizaines : 0. Unités : 2 + 4 = 6. Le nombre est 2 406.",
+      "step_by_step_solution": [
+        "Milliers : 2 ; centaines : 4.",
+        "Dizaines : 0 ; unités : 2 + 4 = 6.",
+        "Le nombre est 2 406."
+      ],
+      "hints": [
+        "Trouve les chiffres un par un, dans l'ordre de la devinette.",
+        "Place ensuite chaque chiffre à son rang."
+      ],
+      "common_errors": {
+        "2046": "L'élève a inversé les rangs des centaines et des dizaines.",
+        "246": "L'élève a oublié le zéro des dizaines."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.x02",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Avec les chiffres 3, 9, 0 et 5, utilisés une seule fois chacun, écris le plus petit nombre de quatre chiffres possible.",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "3059",
+          "3 059"
+        ]
+      },
+      "solution": "Le chiffre des milliers ne peut pas être 0 (sinon le nombre n'aurait que trois chiffres). On y place 3, le plus petit chiffre non nul, puis 0, 5 et 9 : 3 059.",
+      "step_by_step_solution": [
+        "Le 0 ne peut pas être au rang des milliers.",
+        "Aux milliers : 3 ; puis les autres chiffres du plus petit au plus grand : 0, 5, 9.",
+        "Le plus petit nombre est 3 059."
+      ],
+      "hints": [
+        "Un nombre de quatre chiffres ne commence jamais par 0.",
+        "Range ensuite les chiffres restants du plus petit au plus grand."
+      ],
+      "common_errors": {
+        "359": "L'élève a placé 0 en tête : le nombre n'a plus que trois chiffres.",
+        "9530": "L'élève a écrit le plus grand nombre."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.valeur-position.x03",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Lucie a 2 gros cubes de mille, 13 plaques de cent, 5 barres de dix et 21 petits cubes. Combien de petits cubes cela représente-t-il en tout ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "3371",
+          "3 371"
+        ]
+      },
+      "solution": "2 000 + 1 300 + 50 + 21 = 3 371.",
+      "step_by_step_solution": [
+        "2 milliers = 2 000 ; 13 centaines = 1 300.",
+        "5 dizaines = 50 ; 21 unités = 21.",
+        "2 000 + 1 300 + 50 + 21 = 3 371."
+      ],
+      "hints": [
+        "13 plaques de cent, c'est plus d'un millier.",
+        "21 petits cubes, ce sont 2 dizaines et 1 unité."
+      ],
+      "common_errors": {
+        "41": "L'élève a compté les objets.",
+        "21352": "L'élève a écrit les nombres les uns à la suite des autres."
+      },
+      "remediation": "Placer le nombre dans un tableau milliers | centaines | dizaines | unités et le représenter avec du matériel (gros cubes de mille, plaques, barres, petits cubes).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (milliers, centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.d01",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 12 ÷ 3 en t'aidant de la table de 3.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Dans la table de 3, 3 × 4 = 12. Donc 12 ÷ 3 = 4.",
+      "step_by_step_solution": [
+        "On cherche combien de fois 3 dans 12.",
+        "3 × 4 = 12.",
+        "Donc 12 ÷ 3 = 4."
+      ],
+      "hints": [
+        "Récite la table de 3 jusqu'à trouver 12."
+      ],
+      "common_errors": {
+        "9": "L'élève a soustrait 3 à 12.",
+        "36": "L'élève a multiplié au lieu de diviser."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.d02",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Trois amis se partagent 24 billes en parts égales. Combien de billes aura chacun ? Écris la division.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "On partage 24 billes en 3 parts égales : 24 ÷ 3 = 8, car 3 × 8 = 24. Chacun aura 8 billes.",
+      "step_by_step_solution": [
+        "C'est un partage en 3 parts égales.",
+        "On écrit 24 ÷ 3.",
+        "24 ÷ 3 = 8."
+      ],
+      "hints": [
+        "Distribue les billes une à une aux trois amis.",
+        "Cherche dans la table de 3."
+      ],
+      "common_errors": {
+        "21": "L'élève a soustrait le nombre d'amis.",
+        "72": "L'élève a multiplié au lieu de diviser."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.d03",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On sait que 5 × 6 = 30. Combien fait 30 ÷ 5 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "La division est l'opération inverse de la multiplication : 5 × 6 = 30, donc 30 ÷ 5 = 6.",
+      "step_by_step_solution": [
+        "La division « défait » la multiplication.",
+        "5 × 6 = 30.",
+        "Donc 30 ÷ 5 = 6."
+      ],
+      "hints": [
+        "Quel nombre multiplié par 5 donne 30 ?"
+      ],
+      "common_errors": {
+        "25": "L'élève a soustrait 5.",
+        "150": "L'élève a multiplié 30 par 5."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.d04",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "30 élèves forment des équipes de 6. Combien y a-t-il d'équipes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "On cherche combien de groupes de 6 dans 30 : 30 ÷ 6 = 5, car 5 × 6 = 30.",
+      "step_by_step_solution": [
+        "Une équipe = 6 élèves.",
+        "On écrit 30 ÷ 6.",
+        "30 ÷ 6 = 5."
+      ],
+      "hints": [
+        "Compte de 6 en 6 jusqu'à 30."
+      ],
+      "common_errors": {
+        "24": "L'élève a soustrait.",
+        "180": "L'élève a multiplié."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.d05",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "« On range 20 pommes par sachets de 4. Combien de sachets remplit-on ? » Quel calcul permet de répondre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "On cherche combien de groupes de 4 dans 20 : c'est une division. Le calcul est 20 ÷ 4 (et 20 ÷ 4 = 5).",
+      "step_by_step_solution": [
+        "On fait des paquets de 4 pommes.",
+        "On cherche le nombre de paquets : c'est une division.",
+        "Le bon calcul est 20 ÷ 4."
+      ],
+      "hints": [
+        "Cherche-t-on le nombre total de pommes ou le nombre de paquets ?"
+      ],
+      "common_errors": {
+        "1": "L'élève a choisi la multiplication, qui donnerait le nombre de pommes dans 4 paquets de 20.",
+        "2": "L'élève a choisi la soustraction, qui n'enlève qu'un seul sachet."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "choices": [
+        "20 ÷ 4",
+        "20 × 4",
+        "20 - 4"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.a01",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On sait que 8 × 12 = 96. Calcule 96 ÷ 8.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "8 × 12 = 96, donc 96 ÷ 8 = 12 (la division est l'inverse de la multiplication).",
+      "step_by_step_solution": [
+        "La multiplication donnée relie 8, 12 et 96.",
+        "Diviser 96 par 8, c'est chercher le nombre qui, multiplié par 8, donne 96.",
+        "96 ÷ 8 = 12."
+      ],
+      "hints": [
+        "Relis bien la multiplication donnée dans l'énoncé."
+      ],
+      "common_errors": {
+        "88": "L'élève a soustrait 8.",
+        "768": "L'élève a multiplié."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.a02",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un fleuriste a 42 tulipes. Il fait 6 bouquets identiques avec toutes les tulipes. Combien de tulipes y a-t-il dans chaque bouquet ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "On partage 42 en 6 parts égales : 42 ÷ 6 = 7, car 6 × 7 = 42.",
+      "step_by_step_solution": [
+        "C'est un partage en 6 parts égales.",
+        "6 × 7 = 42.",
+        "42 ÷ 6 = 7."
+      ],
+      "hints": [
+        "Cherche dans la table de 6."
+      ],
+      "common_errors": {
+        "36": "L'élève a soustrait.",
+        "8": "L'élève s'est trompé dans la table de 6."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.a03",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calcule 56 ÷ 8.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "8 × 7 = 56, donc 56 ÷ 8 = 7.",
+      "step_by_step_solution": [
+        "On cherche le nombre qui, multiplié par 8, donne 56.",
+        "8 × 7 = 56.",
+        "56 ÷ 8 = 7."
+      ],
+      "hints": [
+        "Récite la table de 8."
+      ],
+      "common_errors": {
+        "48": "L'élève a soustrait 8.",
+        "6": "L'élève s'est trompé dans la table de 8."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.a04",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "La boulangère a 45 croissants. Elle les met dans des sacs de 5. Combien de sacs remplit-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "On cherche combien de groupes de 5 dans 45 : 45 ÷ 5 = 9, car 9 × 5 = 45.",
+      "step_by_step_solution": [
+        "Un sac = 5 croissants.",
+        "45 ÷ 5.",
+        "45 ÷ 5 = 9."
+      ],
+      "hints": [
+        "Compte de 5 en 5 jusqu'à 45."
+      ],
+      "common_errors": {
+        "40": "L'élève a soustrait.",
+        "225": "L'élève a multiplié."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.a05",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un ruban de 63 cm est coupé en 7 morceaux de même longueur. Quelle est la longueur de chaque morceau ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 9,
+        "unit": "cm"
+      },
+      "solution": "63 ÷ 7 = 9, car 7 × 9 = 63. Chaque morceau mesure 9 cm.",
+      "step_by_step_solution": [
+        "On partage 63 cm en 7 parts égales.",
+        "7 × 9 = 63.",
+        "63 ÷ 7 = 9 : chaque morceau mesure 9 cm."
+      ],
+      "hints": [
+        "Cherche dans la table de 7."
+      ],
+      "common_errors": {
+        "56 cm": "L'élève a soustrait 7.",
+        "8 cm": "L'élève s'est trompé dans la table de 7."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.c01",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans l'école, il y a 160 élèves. On veut former 40 équipes ayant toutes le même nombre d'élèves. Combien y aura-t-il d'élèves par équipe ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "160 ÷ 40 = 4, car 40 × 4 = 160. Il y aura 4 élèves par équipe.",
+      "step_by_step_solution": [
+        "On partage 160 élèves en 40 équipes égales.",
+        "On cherche le nombre qui, multiplié par 40, donne 160.",
+        "160 ÷ 40 = 4."
+      ],
+      "hints": [
+        "Compte de 40 en 40 jusqu'à 160.",
+        "Vérifie avec une multiplication."
+      ],
+      "common_errors": {
+        "120": "L'élève a soustrait.",
+        "40": "L'élève a recopié le nombre d'équipes."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.c02",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Complète : 9 × … = 72. Puis calcule 72 ÷ 9.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "9 × 8 = 72, donc 72 ÷ 9 = 8.",
+      "step_by_step_solution": [
+        "Dans la table de 9, on cherche 72.",
+        "9 × 8 = 72.",
+        "72 ÷ 9 = 8."
+      ],
+      "hints": [
+        "Récite la table de 9 jusqu'à 72."
+      ],
+      "common_errors": {
+        "63": "L'élève a soustrait 9.",
+        "7": "L'élève s'est trompé dans la table de 9."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.c03",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Le livre d'Inès a 84 pages. Elle lit 7 pages chaque jour. En combien de jours aura-t-elle fini son livre ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "On cherche combien de fois 7 pages dans 84 pages : 84 ÷ 7 = 12, car 7 × 12 = 84.",
+      "step_by_step_solution": [
+        "Chaque jour, Inès lit 7 pages.",
+        "7 × 10 = 70 et 7 × 2 = 14 ; 70 + 14 = 84.",
+        "84 ÷ 7 = 12 : il lui faut 12 jours."
+      ],
+      "hints": [
+        "Combien de pages lit-elle en 10 jours ?",
+        "Combien de pages restent après ces 10 jours ?"
+      ],
+      "common_errors": {
+        "77": "L'élève a soustrait 7.",
+        "588": "L'élève a multiplié."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.c04",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un jardinier plante 56 salades en 8 rangées qui ont toutes le même nombre de salades. Combien de salades y a-t-il dans chaque rangée ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "56 ÷ 8 = 7, car 8 × 7 = 56. Il y a 7 salades par rangée.",
+      "step_by_step_solution": [
+        "On partage 56 salades en 8 rangées égales.",
+        "8 × 7 = 56.",
+        "56 ÷ 8 = 7."
+      ],
+      "hints": [
+        "Cherche dans la table de 8 le résultat 56."
+      ],
+      "common_errors": {
+        "48": "L'élève a soustrait 8.",
+        "6": "L'élève s'est trompé dans la table de 8."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.c05",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel calcul permet de vérifier que 54 ÷ 6 = 9 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La division est l'inverse de la multiplication : pour vérifier 54 ÷ 6 = 9, on calcule 6 × 9 = 54.",
+      "step_by_step_solution": [
+        "Si 54 ÷ 6 = 9, alors 6 fois 9 doit redonner 54.",
+        "On calcule 6 × 9.",
+        "La vérification est 6 × 9 = 54."
+      ],
+      "hints": [
+        "Quelle opération est l'inverse de la division ?"
+      ],
+      "common_errors": {
+        "1": "L'élève pense qu'on vérifie une division par une soustraction.",
+        "2": "L'élève pense qu'on vérifie une division par une addition."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "choices": [
+        "6 × 9 = 54",
+        "54 - 6 = 48",
+        "54 + 6 = 60"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.x01",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Inès a 3 sœurs. Elle partage 36 bonbons en parts égales entre elle et ses sœurs. Combien de bonbons chacune reçoit-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "Il y a 4 filles : Inès et ses 3 sœurs. 36 ÷ 4 = 9, car 4 × 9 = 36. Chacune reçoit 9 bonbons.",
+      "step_by_step_solution": [
+        "Il faut compter Inès : il y a 4 parts.",
+        "36 ÷ 4.",
+        "36 ÷ 4 = 9."
+      ],
+      "hints": [
+        "Combien de personnes se partagent les bonbons ?",
+        "N'oublie pas Inès."
+      ],
+      "common_errors": {
+        "12": "L'élève a oublié de compter Inès (36 ÷ 3).",
+        "33": "L'élève a soustrait 3."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.x02",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour la kermesse, on a 90 ballons. On met 10 ballons dans chaque sac, puis on répartit les sacs en parts égales entre 3 classes. Combien de sacs chaque classe reçoit-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "Nombre de sacs : 90 ÷ 10 = 9. Répartition : 9 ÷ 3 = 3. Chaque classe reçoit 3 sacs.",
+      "step_by_step_solution": [
+        "90 ÷ 10 = 9 sacs.",
+        "On partage 9 sacs entre 3 classes.",
+        "9 ÷ 3 = 3 sacs par classe."
+      ],
+      "hints": [
+        "Calcule d'abord le nombre de sacs.",
+        "Partage ensuite les sacs entre les classes."
+      ],
+      "common_errors": {
+        "30": "L'élève a partagé les ballons (90 ÷ 3) au lieu des sacs.",
+        "9": "L'élève s'est arrêté au nombre de sacs."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.sens-division.x03",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Tom affirme que 48 ÷ 6 = 7. Vérifie avec une multiplication. Quel est le bon résultat de 48 ÷ 6 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "6 × 7 = 42, pas 48 : Tom se trompe. 6 × 8 = 48, donc 48 ÷ 6 = 8.",
+      "step_by_step_solution": [
+        "6 × 7 = 42 : ce n'est pas 48.",
+        "6 × 8 = 48.",
+        "Le bon résultat : 48 ÷ 6 = 8."
+      ],
+      "hints": [
+        "Calcule 6 fois le résultat de Tom.",
+        "Est-ce qu'on retrouve 48 ?"
+      ],
+      "common_errors": {
+        "7": "L'élève a accepté le résultat de Tom sans le vérifier.",
+        "42": "L'élève a donné le produit 6 × 7."
+      },
+      "remediation": "Revenir à la manipulation : distribuer des jetons dans des parts égales ou faire des paquets, puis écrire la division et la multiplication qui la vérifie.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaitre une situation de partage ou de groupement",
+        "Utiliser le symbole ÷ et le lien avec la multiplication"
+      ],
+      "source_notions": [
+        "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.d01",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un triangle a des côtés qui mesurent 3 cm, 4 cm et 5 cm. Quel est son périmètre ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 12,
+        "unit": "cm"
+      },
+      "solution": "Le périmètre est la longueur du contour : 3 cm + 4 cm + 5 cm = 12 cm.",
+      "step_by_step_solution": [
+        "Le périmètre, c'est le tour de la figure.",
+        "On ajoute les longueurs des trois côtés.",
+        "3 + 4 + 5 = 12 : le périmètre est 12 cm."
+      ],
+      "hints": [
+        "Combien de côtés a un triangle ?",
+        "Ajoute la longueur de tous les côtés."
+      ],
+      "common_errors": {
+        "60 cm": "L'élève a multiplié les longueurs au lieu de les ajouter.",
+        "5 cm": "L'élève a donné la longueur du plus grand côté."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.d02",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Qu'est-ce que le périmètre d'une figure ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le périmètre d'une figure plane est la longueur de son contour.",
+      "step_by_step_solution": [
+        "Imagine une fourmi qui fait le tour de la figure.",
+        "La distance qu'elle parcourt est le périmètre.",
+        "Le périmètre est la longueur de son contour."
+      ],
+      "hints": [
+        "Pense au chemin parcouru en faisant le tour de la figure."
+      ],
+      "common_errors": {
+        "1": "L'élève confond le périmètre avec l'intérieur de la figure.",
+        "2": "L'élève confond le périmètre avec le nombre de côtés."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "choices": [
+        "la longueur de son contour",
+        "tout ce qui est à l'intérieur de la figure",
+        "le nombre de ses côtés"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.d03",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un carré a des côtés de 6 cm. Quel est son périmètre ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 24,
+        "unit": "cm"
+      },
+      "solution": "Un carré a 4 côtés de même longueur : 6 cm + 6 cm + 6 cm + 6 cm = 24 cm.",
+      "step_by_step_solution": [
+        "Un carré a 4 côtés égaux.",
+        "Il n'est pas nécessaire de mesurer chaque côté.",
+        "6 + 6 + 6 + 6 = 24 : le périmètre est 24 cm."
+      ],
+      "hints": [
+        "Combien de côtés a un carré ?",
+        "Tous ses côtés ont-ils la même longueur ?"
+      ],
+      "common_errors": {
+        "12 cm": "L'élève n'a compté que deux côtés.",
+        "6 cm": "L'élève a donné la longueur d'un seul côté."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.d04",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un rectangle a une longueur de 8 cm et une largeur de 3 cm. Quel est son périmètre ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 22,
+        "unit": "cm"
+      },
+      "solution": "Le rectangle a 2 longueurs et 2 largeurs : 8 cm + 3 cm + 8 cm + 3 cm = 22 cm.",
+      "step_by_step_solution": [
+        "Un rectangle a 4 côtés : 2 longueurs et 2 largeurs.",
+        "On fait le tour : 8 + 3 + 8 + 3.",
+        "Le périmètre est 22 cm."
+      ],
+      "hints": [
+        "Combien de côtés a un rectangle ?",
+        "Les côtés opposés d'un rectangle ont la même longueur."
+      ],
+      "common_errors": {
+        "11 cm": "L'élève n'a compté qu'une longueur et une largeur.",
+        "24 cm": "L'élève a multiplié la longueur par la largeur."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.d05",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Une coccinelle fait une fois le tour d'une feuille en forme de triangle. Les côtés mesurent 9 cm, 6 cm et 6 cm. Quelle distance parcourt-elle ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 21,
+        "unit": "cm"
+      },
+      "solution": "Faire le tour, c'est parcourir le périmètre : 9 + 6 + 6 = 21 cm.",
+      "step_by_step_solution": [
+        "La distance parcourue en faisant le tour est le périmètre.",
+        "On ajoute les trois côtés.",
+        "9 + 6 + 6 = 21 : elle parcourt 21 cm."
+      ],
+      "hints": [
+        "Faire le tour de la feuille, c'est parcourir chacun de ses côtés."
+      ],
+      "common_errors": {
+        "15 cm": "L'élève n'a compté que deux côtés.",
+        "9 cm": "L'élève a donné le plus long côté."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.a01",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un jardin rectangulaire mesure 12 m de long et 7 m de large. Quelle longueur de grillage faut-il pour en faire tout le tour ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 38,
+        "unit": "m"
+      },
+      "solution": "Le tour du jardin est son périmètre : 12 + 7 + 12 + 7 = 38 m.",
+      "step_by_step_solution": [
+        "Le grillage suit le contour du jardin.",
+        "On ajoute les 4 côtés : 12 + 7 + 12 + 7.",
+        "Le périmètre est 38 m."
+      ],
+      "hints": [
+        "Le grillage fait tout le tour : combien de côtés faut-il compter ?"
+      ],
+      "common_errors": {
+        "19 m": "L'élève n'a compté qu'une longueur et une largeur.",
+        "84 m": "L'élève a multiplié la longueur par la largeur."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.a02",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une figure a 5 côtés qui mesurent tous 4 cm. Quel est son périmètre ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 20,
+        "unit": "cm"
+      },
+      "solution": "5 côtés de 4 cm : 4 + 4 + 4 + 4 + 4 = 20 cm, soit 5 × 4 cm = 20 cm.",
+      "step_by_step_solution": [
+        "La figure a 5 côtés égaux.",
+        "On ajoute 5 fois 4 cm.",
+        "Le périmètre est 20 cm."
+      ],
+      "hints": [
+        "Compte les côtés : on ajoute la même longueur à chaque fois."
+      ],
+      "common_errors": {
+        "9 cm": "L'élève a ajouté 5 et 4.",
+        "16 cm": "L'élève n'a compté que 4 côtés."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.a03",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un quadrilatère a des côtés de 5 cm, 8 cm, 4 cm et 6 cm. Quel est son périmètre ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 23,
+        "unit": "cm"
+      },
+      "solution": "5 + 8 + 4 + 6 = 23. Le périmètre est 23 cm.",
+      "step_by_step_solution": [
+        "Un quadrilatère a 4 côtés.",
+        "On ajoute les 4 longueurs.",
+        "Le périmètre est 23 cm."
+      ],
+      "hints": [
+        "Ajoute les côtés deux par deux pour calculer plus facilement."
+      ],
+      "common_errors": {
+        "17 cm": "L'élève a oublié un côté.",
+        "8 cm": "L'élève a donné le plus long côté."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.a04",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Arthur veut coller un ruban tout autour d'un cadre photo carré de 15 cm de côté. Quelle longueur de ruban lui faut-il ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 60,
+        "unit": "cm"
+      },
+      "solution": "Le ruban suit le contour du carré : 15 + 15 + 15 + 15 = 60 cm.",
+      "step_by_step_solution": [
+        "Le cadre est un carré : 4 côtés de même longueur.",
+        "4 fois 15 cm.",
+        "Il faut 60 cm de ruban."
+      ],
+      "hints": [
+        "Combien de côtés a le cadre ?"
+      ],
+      "common_errors": {
+        "30 cm": "L'élève n'a compté que deux côtés.",
+        "225 cm": "L'élève a multiplié le côté par lui-même."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.a05",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un losange a 4 côtés de même longueur. Un de ses côtés mesure 9 cm. Quel est son périmètre ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 36,
+        "unit": "cm"
+      },
+      "solution": "Les 4 côtés mesurent 9 cm : 9 + 9 + 9 + 9 = 36 cm.",
+      "step_by_step_solution": [
+        "Le losange a 4 côtés égaux.",
+        "On ajoute 4 fois 9 cm.",
+        "Le périmètre est 36 cm."
+      ],
+      "hints": [
+        "Tous les côtés du losange ont la même longueur."
+      ],
+      "common_errors": {
+        "18 cm": "L'élève n'a compté que deux côtés.",
+        "13 cm": "L'élève a ajouté 4 et 9."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.c01",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une figure a 6 côtés qui mesurent 4 cm, 2 cm, 3 cm, 5 cm, 7 cm et 7 cm. Quel est son périmètre ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 28,
+        "unit": "cm"
+      },
+      "solution": "On ajoute les 6 côtés : 4 + 2 + 3 + 5 + 7 + 7 = 28. Le périmètre est 28 cm.",
+      "step_by_step_solution": [
+        "On fait le tour de la figure en ajoutant chaque côté.",
+        "4 + 2 + 3 = 9 ; 5 + 7 + 7 = 19.",
+        "9 + 19 = 28 : le périmètre est 28 cm."
+      ],
+      "hints": [
+        "Coche chaque côté quand tu l'as ajouté pour n'en oublier aucun."
+      ],
+      "common_errors": {
+        "21 cm": "L'élève a oublié un côté de 7 cm.",
+        "6 cm": "L'élève a donné le nombre de côtés."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.c02",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un triangle a un périmètre de 20 cm. Deux de ses côtés mesurent 7 cm et 9 cm. Combien mesure le troisième côté ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 4,
+        "unit": "cm"
+      },
+      "solution": "Les deux côtés connus mesurent 7 + 9 = 16 cm. Le troisième côté mesure 20 − 16 = 4 cm.",
+      "step_by_step_solution": [
+        "Le périmètre (20 cm) est la somme des trois côtés.",
+        "Côtés connus : 7 + 9 = 16 cm.",
+        "Troisième côté : 20 − 16 = 4 cm."
+      ],
+      "hints": [
+        "Le périmètre est la somme des trois côtés.",
+        "Que manque-t-il aux deux côtés connus pour atteindre le périmètre ?"
+      ],
+      "common_errors": {
+        "36 cm": "L'élève a ajouté toutes les longueurs de l'énoncé.",
+        "16 cm": "L'élève a donné la somme des deux côtés connus."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.c03",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une nappe rectangulaire mesure 1 m de long et 30 cm de large. Quel est son périmètre, en centimètres ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 260,
+        "unit": "cm"
+      },
+      "solution": "1 m = 100 cm. Le périmètre est 100 + 30 + 100 + 30 = 260 cm.",
+      "step_by_step_solution": [
+        "On convertit : 1 m = 100 cm.",
+        "On ajoute les 4 côtés : 100 + 30 + 100 + 30.",
+        "Le périmètre est 260 cm."
+      ],
+      "hints": [
+        "Exprime toutes les longueurs dans la même unité.",
+        "Un rectangle a deux longueurs et deux largeurs."
+      ],
+      "common_errors": {
+        "62 cm": "L'élève a compté 1 m comme 1 cm.",
+        "130 cm": "L'élève n'a compté qu'une longueur et une largeur."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.c04",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle figure a le plus grand périmètre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Carré de côté 5 cm : 5 + 5 + 5 + 5 = 20 cm. Rectangle de 7 cm sur 2 cm : 7 + 2 + 7 + 2 = 18 cm. Triangle : 6 + 6 + 6 = 18 cm. La bonne réponse est : un carré de côté 5 cm.",
+      "step_by_step_solution": [
+        "Carré : 20 cm.",
+        "Rectangle : 18 cm ; triangle : 18 cm.",
+        "La figure au plus grand périmètre est un carré de côté 5 cm."
+      ],
+      "hints": [
+        "Calcule le périmètre de chaque figure avant de comparer.",
+        "Ce n'est pas la figure avec le plus long côté qui gagne forcément."
+      ],
+      "common_errors": {
+        "1": "L'élève a choisi la figure qui a le plus long côté.",
+        "2": "L'élève a choisi la figure qui a les plus grands nombres sans calculer le contour."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "choices": [
+        "un carré de côté 5 cm",
+        "un rectangle de 7 cm sur 2 cm",
+        "un triangle de côtés 6 cm, 6 cm et 6 cm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.c05",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un carré a un périmètre de 32 cm. Combien mesure un de ses côtés ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 8,
+        "unit": "cm"
+      },
+      "solution": "Les 4 côtés du carré sont égaux et leur somme vaut 32 cm. 4 × 8 = 32, donc un côté mesure 8 cm.",
+      "step_by_step_solution": [
+        "Le périmètre est la somme des 4 côtés égaux.",
+        "On cherche le nombre qui, ajouté 4 fois, donne 32.",
+        "4 × 8 = 32 : un côté mesure 8 cm."
+      ],
+      "hints": [
+        "Combien de côtés égaux a un carré ?"
+      ],
+      "common_errors": {
+        "16 cm": "L'élève a partagé le périmètre en 2 au lieu de 4.",
+        "28 cm": "L'élève a enlevé 4 au périmètre."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.x01",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rectangle a un périmètre de 30 cm. Sa longueur mesure 10 cm. Combien mesure sa largeur ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 5,
+        "unit": "cm"
+      },
+      "solution": "Les deux longueurs font 10 + 10 = 20 cm. Il reste 30 − 20 = 10 cm pour les deux largeurs, donc une largeur mesure 5 cm.",
+      "step_by_step_solution": [
+        "Deux longueurs : 20 cm.",
+        "Deux largeurs : 30 − 20 = 10 cm.",
+        "Une largeur : la moitié de 10 cm, soit 5 cm."
+      ],
+      "hints": [
+        "Un rectangle a deux longueurs et deux largeurs.",
+        "Enlève d'abord les deux longueurs au périmètre."
+      ],
+      "common_errors": {
+        "20 cm": "L'élève a enlevé la longueur une seule fois.",
+        "10 cm": "L'élève a oublié de partager entre les deux largeurs."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.x02",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Mila veut clôturer un potager rectangulaire de 6 m sur 4 m. Elle laisse une ouverture de 1 m pour la porte. Quelle longueur de clôture lui faut-il ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 19,
+        "unit": "m"
+      },
+      "solution": "Périmètre du potager : 6 + 4 + 6 + 4 = 20 m. On enlève l'ouverture : 20 − 1 = 19 m.",
+      "step_by_step_solution": [
+        "Périmètre : 20 m.",
+        "L'ouverture de 1 m n'a pas de clôture.",
+        "20 − 1 = 19 m de clôture."
+      ],
+      "hints": [
+        "Calcule d'abord le périmètre du potager.",
+        "Faut-il mettre de la clôture devant la porte ?"
+      ],
+      "common_errors": {
+        "20 m": "L'élève a oublié d'enlever l'ouverture.",
+        "9 m": "L'élève n'a compté qu'une longueur et une largeur, moins la porte."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE2.perimetre.x03",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "On place deux carrés de 3 cm de côté l'un à côté de l'autre, sans espace, pour former un rectangle. Quel est le périmètre de ce rectangle ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 18,
+        "unit": "cm"
+      },
+      "solution": "Le rectangle mesure 6 cm de long et 3 cm de large. Son périmètre : 6 + 3 + 6 + 3 = 18 cm.",
+      "step_by_step_solution": [
+        "Longueur du rectangle : 3 + 3 = 6 cm ; largeur : 3 cm.",
+        "Le côté commun aux deux carrés est à l'intérieur : il ne fait pas partie du contour.",
+        "Périmètre : 6 + 3 + 6 + 3 = 18 cm."
+      ],
+      "hints": [
+        "Dessine la figure obtenue.",
+        "Le côté que les deux carrés partagent est-il sur le contour ?"
+      ],
+      "common_errors": {
+        "24 cm": "L'élève a ajouté les périmètres des deux carrés, en comptant le côté commun.",
+        "12 cm": "L'élève a donné le périmètre d'un seul carré."
+      },
+      "remediation": "Faire le tour de la figure avec le doigt ou une ficelle, puis reporter chaque côté bout à bout sur une droite : le périmètre est la longueur totale obtenue.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Savoir que le périmètre est la longueur du contour",
+        "Calculer la longueur d'un contour à partir des longueurs des côtés"
+      ],
+      "source_notions": [
+        "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

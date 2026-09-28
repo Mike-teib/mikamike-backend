@@ -1,0 +1,2236 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.d01",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un individu est hétérozygote pour deux gènes indépendants (A/a et B/b). Combien de types de gamètes différents peut-il produire ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Pour deux paires d'allèles indépendantes : 2 × 2 = 4 types de gamètes (AB, Ab, aB, ab).",
+      "step_by_step_solution": [
+        "Chaque gamète reçoit un allèle de chaque paire.",
+        "Pour chaque gène : 2 possibilités.",
+        "2 × 2 = 4 : AB, Ab, aB, ab."
+      ],
+      "hints": [
+        "Écris toutes les combinaisons possibles d'un allèle du premier gène et d'un allèle du second."
+      ],
+      "common_errors": {
+        "2": "L'élève ne considère que les combinaisons parentales."
+      },
+      "remediation": "Construire le tableau des gamètes d'un double hétérozygote.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.d02",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Pour deux gènes indépendants, les quatre types de gamètes d'un double hétérozygote sont équiprobables. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Les 4 combinaisons sont équiprobables : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Pour des gènes portés par des chromosomes différents, la répartition des chromosomes à l'anaphase I se fait au hasard : chaque type de gamète a une fréquence de 1/4.",
+      "step_by_step_solution": [
+        "Les deux gènes sont sur des paires de chromosomes différentes.",
+        "La migration des chromosomes de chaque paire à l'anaphase I est indépendante.",
+        "Les 4 combinaisons sont équiprobables : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Que se passe-t-il à l'anaphase de la première division de méiose ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que les combinaisons parentales sont toujours majoritaires, même pour des gènes indépendants."
+      },
+      "remediation": "Schématiser les deux dispositions possibles des chromosomes en métaphase I.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.d03",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on le croisement d'un individu avec un individu homozygote récessif pour les gènes étudiés, qui permet de révéler les gamètes produits par le premier ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "croisement test",
+          "un croisement test",
+          "test-cross",
+          "croisement-test",
+          "testcross"
+        ]
+      },
+      "solution": "Le croisement test (avec un homozygote récessif) révèle directement, par les phénotypes des descendants, les types de gamètes de l'autre parent.",
+      "step_by_step_solution": [
+        "L'homozygote récessif ne produit qu'un type de gamète (ab).",
+        "Les phénotypes des descendants reflètent donc les gamètes de l'autre parent.",
+        "C'est un croisement test."
+      ],
+      "hints": [
+        "Il s'agit de « tester » les gamètes de l'individu en le croisant avec un homozygote récessif."
+      ],
+      "common_errors": {
+        "croisement réciproque": "Un croisement réciproque échange les sexes des parents ; ce n'est pas un test des gamètes."
+      },
+      "remediation": "Construire l'échiquier d'un croisement test et vérifier qu'il reflète les gamètes du double hétérozygote.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.d04",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Pour deux gènes liés (sur le même chromosome), comment appelle-t-on l'échange de portions entre chromatides homologues qui produit des combinaisons nouvelles ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "crossing-over",
+          "crossing over",
+          "un crossing-over",
+          "enjambement",
+          "crossing-overs"
+        ]
+      },
+      "solution": "Le crossing-over (enjambement) échange des portions de chromatides homologues en prophase I et produit des chromatides recombinées.",
+      "step_by_step_solution": [
+        "Les chromosomes homologues sont appariés en prophase I.",
+        "Des portions de chromatides s'échangent.",
+        "C'est le crossing-over."
+      ],
+      "hints": [
+        "Il a lieu en prophase de la première division de méiose."
+      ],
+      "common_errors": {
+        "mutation": "Le crossing-over ne modifie pas la séquence des allèles, il en change la combinaison."
+      },
+      "remediation": "Modéliser un crossing-over avec des chromosomes en pâte à modeler de deux couleurs.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.d05",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "À quelle étape de la méiose se produit le brassage interchromosomique ?\nA. Fécondation\nB. Anaphase I\nC. Prophase I\nD. Anaphase II",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Le brassage interchromosomique résulte de la migration aléatoire des chromosomes homologues de chaque paire vers l'un ou l'autre pôle à l'anaphase I. Bonne réponse : B. Anaphase I",
+      "step_by_step_solution": [
+        "Les homologues se séparent à l'anaphase I.",
+        "Pour chaque paire, le sens de migration est aléatoire et indépendant.",
+        "C'est le brassage interchromosomique."
+      ],
+      "hints": [
+        "C'est l'étape où les chromosomes homologues se séparent."
+      ],
+      "common_errors": {
+        "C": "L'élève confond avec le brassage intrachromosomique, qui a lieu en prophase I."
+      },
+      "remediation": "Faire un tableau : type de brassage / étape / mécanisme.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [
+        "Fécondation",
+        "Anaphase I",
+        "Prophase I",
+        "Anaphase II"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.a01",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Croisement test d'un double hétérozygote : on obtient 250 [AB], 248 [ab], 252 [Ab], 250 [aB]. Quel est le pourcentage de descendants recombinés [Ab] + [aB] ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 50.2,
+        "unit": "%"
+      },
+      "solution": "Recombinés = 252 + 250 = 502 sur 1 000, soit 50,2 % ≈ 50 % : les gènes sont indépendants.",
+      "step_by_step_solution": [
+        "Total = 250 + 248 + 252 + 250 = 1 000.",
+        "Recombinés = 252 + 250 = 502.",
+        "502 / 1 000 = 50,2 %."
+      ],
+      "hints": [
+        "Additionne les deux phénotypes recombinés puis divise par le total."
+      ],
+      "common_errors": {
+        "25,2 %": "L'élève n'a compté qu'un seul des deux phénotypes recombinés."
+      },
+      "remediation": "Relier pourcentage de recombinés ≈ 50 % et gènes indépendants.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter les résultats d'un croisement test"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.a02",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Un croisement test donne 4 phénotypes en proportions égales (environ 25 % chacun). Que peut-on en conclure sur les deux gènes ?\nA. Il s'agit d'un seul gène\nB. Les gènes sont indépendants\nC. Les gènes sont liés sans crossing-over\nD. Les gènes sont liés avec beaucoup de crossing-over entre eux et totalement confondus",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Quatre phénotypes équiprobables traduisent quatre types de gamètes équiprobables : les gènes sont indépendants (portés par deux paires de chromosomes différentes). Bonne réponse : B. Les gènes sont indépendants",
+      "step_by_step_solution": [
+        "Les phénotypes du croisement test reflètent les gamètes du double hétérozygote.",
+        "Les 4 types de gamètes sont équiprobables.",
+        "Les gènes sont donc indépendants."
+      ],
+      "hints": [
+        "Pour des gènes liés, quelles combinaisons seraient majoritaires ?"
+      ],
+      "common_errors": {
+        "C": "L'élève conclut à des gènes liés dès qu'il y a des recombinés."
+      },
+      "remediation": "Comparer des résultats de croisements tests pour gènes indépendants et liés.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [
+        "Il s'agit d'un seul gène",
+        "Les gènes sont indépendants",
+        "Les gènes sont liés sans crossing-over",
+        "Les gènes sont liés avec beaucoup de crossing-over entre eux et totalement confondus"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.a03",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Pour deux gènes liés, les gamètes recombinés sont en général minoritaires. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Ils sont donc minoritaires : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les recombinés ne sont produits que dans les méioses où un crossing-over a lieu entre les deux gènes : ils sont minoritaires (moins de 50 %).",
+      "step_by_step_solution": [
+        "Les combinaisons parentales sont transmises sans crossing-over.",
+        "Les recombinés n'apparaissent que si un crossing-over se produit entre les deux gènes.",
+        "Ils sont donc minoritaires : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Un crossing-over se produit-il entre ces deux gènes à chaque méiose ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que gènes liés et gènes indépendants donnent les mêmes proportions."
+      },
+      "remediation": "Analyser les résultats de Morgan chez la drosophile.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.a04",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes aboutissant à des gamètes recombinés pour deux gènes liés.\nÉléments (dans le désordre) : appariement des chromosomes homologues en prophase I / gamètes recombinés / séparation des homologues puis des chromatides / réplication de l'ADN (chromosomes à deux chromatides) / crossing-over entre chromatides homologues\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "réplication de l'ADN (chromosomes à deux chromatides)",
+          "appariement des chromosomes homologues en prophase I",
+          "crossing-over entre chromatides homologues",
+          "séparation des homologues puis des chromatides",
+          "gamètes recombinés"
+        ]
+      },
+      "solution": "Après réplication, les homologues s'apparient ; un crossing-over échange des portions de chromatides ; les deux divisions séparent homologues puis chromatides. Ordre attendu : réplication de l'ADN (chromosomes à deux chromatides) ; appariement des chromosomes homologues en prophase I ; crossing-over entre chromatides homologues ; séparation des homologues puis des chromatides ; gamètes recombinés.",
+      "step_by_step_solution": [
+        "L'ADN est répliqué avant la méiose.",
+        "Les homologues s'apparient en prophase I.",
+        "Un crossing-over peut s'y produire.",
+        "Les homologues puis les chromatides se séparent.",
+        "On obtient des gamètes dont certains sont recombinés."
+      ],
+      "hints": [
+        "Le crossing-over nécessite l'appariement préalable des homologues."
+      ],
+      "common_errors": {
+        "réplication de l'ADN (chromosomes à deux chromatides) ; crossing-over entre chromatides homologues ; appariement des chromosomes homologues en prophase I ; séparation des homologues puis des chromatides ; gamètes recombinés": "L'élève place le crossing-over avant l'appariement des homologues."
+      },
+      "remediation": "Schématiser la méiose avec un crossing-over entre deux loci.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.a05",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un individu est hétérozygote pour 3 gènes indépendants. Combien de types de gamètes peut-il produire ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "2 × 2 × 2 = 2^3 = 8 types de gamètes.",
+      "step_by_step_solution": [
+        "Chaque gène hétérozygote offre 2 possibilités.",
+        "Les gènes sont indépendants.",
+        "2^3 = 8."
+      ],
+      "hints": [
+        "Multiplie les possibilités de chaque gène."
+      ],
+      "common_errors": {
+        "6": "L'élève additionne (2 + 2 + 2) au lieu de multiplier."
+      },
+      "remediation": "Généraliser : 2^n types de gamètes pour n gènes hétérozygotes indépendants.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Dénombrer les gamètes"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.c01",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Croisement test : 420 [AB], 410 [ab], 88 [Ab], 82 [aB]. Quel est le pourcentage de recombinés ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 17,
+        "unit": "%"
+      },
+      "solution": "Recombinés = 88 + 82 = 170 sur 1 000, soit 17 %.",
+      "step_by_step_solution": [
+        "Total = 420 + 410 + 88 + 82 = 1 000.",
+        "Recombinés = 88 + 82 = 170.",
+        "170 / 1 000 = 17 %."
+      ],
+      "hints": [
+        "Les phénotypes minoritaires sont ici les recombinés."
+      ],
+      "common_errors": {
+        "83 %": "L'élève a calculé le pourcentage de parentaux."
+      },
+      "remediation": "Relier un pourcentage de recombinés < 50 % à des gènes liés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter les résultats d'un croisement test"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.c02",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Avec les résultats précédents (83 % de parentaux, 17 % de recombinés), les gènes sont-ils indépendants ou liés ?\nA. Indépendants\nB. Impossible à dire\nC. Portés par le chromosome Y\nD. Liés",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Les phénotypes parentaux sont très majoritaires (83 %) : les gènes sont liés ; les 17 % de recombinés résultent de crossing-over. Bonne réponse : D. Liés",
+      "step_by_step_solution": [
+        "Pour des gènes indépendants, on attendrait 25 % de chaque phénotype.",
+        "Ici les parentaux sont majoritaires.",
+        "Les gènes sont liés ; les recombinés viennent de crossing-over."
+      ],
+      "hints": [
+        "Compare aux proportions attendues pour des gènes indépendants."
+      ],
+      "common_errors": {
+        "A": "L'élève conclut à l'indépendance parce que quatre phénotypes sont présents."
+      },
+      "remediation": "S'entraîner à argumenter à partir des proportions d'un croisement test.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [
+        "Indépendants",
+        "Impossible à dire",
+        "Portés par le chromosome Y",
+        "Liés"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.c03",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque mécanisme à ses caractéristiques.\nÀ gauche : brassage interchromosomique / brassage intrachromosomique / fécondation\nÀ droite : anaphase I, migration aléatoire des homologues / réunion aléatoire de deux gamètes / prophase I, crossing-over\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "brassage interchromosomique": "anaphase I, migration aléatoire des homologues",
+          "brassage intrachromosomique": "prophase I, crossing-over",
+          "fécondation": "réunion aléatoire de deux gamètes"
+        }
+      },
+      "solution": "Le brassage interchromosomique a lieu en anaphase I, l'intrachromosomique en prophase I par crossing-over ; la fécondation réunit au hasard deux gamètes. Associations : brassage interchromosomique → anaphase I, migration aléatoire des homologues ; brassage intrachromosomique → prophase I, crossing-over ; fécondation → réunion aléatoire de deux gamètes.",
+      "step_by_step_solution": [
+        "Interchromosomique : répartition indépendante des paires en anaphase I.",
+        "Intrachromosomique : crossing-over en prophase I.",
+        "Fécondation : rencontre aléatoire des gamètes."
+      ],
+      "hints": [
+        "« Intra » : à l'intérieur d'une paire de chromosomes."
+      ],
+      "common_errors": {
+        "brassage interchromosomique → prophase I, crossing-over ; brassage intrachromosomique → anaphase I, migration aléatoire des homologues ; fécondation → réunion aléatoire de deux gamètes": "Inversion des deux types de brassage."
+      },
+      "remediation": "Construire un tableau récapitulatif des sources de diversité génétique.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.c04",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Pour deux gènes liés, plus ils sont éloignés sur le chromosome, plus le pourcentage de recombinés est élevé (sans dépasser 50 %). Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Le pourcentage de recombinés augmente : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La probabilité qu'un crossing-over se produise entre deux loci augmente avec la distance qui les sépare.",
+      "step_by_step_solution": [
+        "Les crossing-over se produisent en des points variables.",
+        "Plus deux gènes sont éloignés, plus un crossing-over entre eux est probable.",
+        "Le pourcentage de recombinés augmente : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Où peut se produire un crossing-over par rapport aux deux gènes ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la fréquence des recombinés ne dépend pas de la position des gènes."
+      },
+      "remediation": "Comparer les pourcentages de recombinés pour plusieurs couples de gènes liés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.c05",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Chez la drosophile, un double hétérozygote a reçu de sa mère un chromosome portant les allèles « corps gris » et « ailes longues », et de son père un chromosome portant « corps noir » et « ailes vestigiales ». Quels sont les deux types de gamètes recombinés qu'il peut produire ?\nA. (gris, vestigiales) et (noir, longues)\nB. (gris, longues) et (noir, vestigiales)\nC. (gris, noir) et (longues, vestigiales)\nD. uniquement (gris, longues)",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les combinaisons parentales sont (gris, longues) et (noir, vestigiales) ; les recombinées associent des allèles séparés chez les parents : (gris, vestigiales) et (noir, longues).",
+      "step_by_step_solution": [
+        "Parentaux : (gris, longues) et (noir, vestigiales), hérités des parents.",
+        "Recombinés : combinaisons nouvelles d'allèles.",
+        "Ce sont (gris, vestigiales) et (noir, longues)."
+      ],
+      "hints": [
+        "Les recombinés associent des allèles qui étaient séparés chez les parents."
+      ],
+      "common_errors": {
+        "B": "L'élève confond combinaisons parentales et recombinées."
+      },
+      "remediation": "Toujours identifier d'abord les combinaisons parentales à partir des parents de l'individu étudié.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Prévoir les gamètes d'un double hétérozygote",
+        "Interpréter un croisement test (gènes indépendants ou liés)"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [
+        "(gris, vestigiales) et (noir, longues)",
+        "(gris, longues) et (noir, vestigiales)",
+        "(gris, noir) et (longues, vestigiales)",
+        "uniquement (gris, longues)"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.x01",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Chez la drosophile, un double hétérozygote issu du croisement [corps gris, ailes longues] × [corps noir, ailes vestigiales] est croisé avec un double récessif. On obtient 965 [gris, longues], 944 [noir, vestigiales], 206 [gris, vestigiales], 185 [noir, longues]. Quel est le pourcentage de recombinés (arrondi à 0,1 %) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 17,
+        "unit": "%",
+        "tolerance_relative": 0.01
+      },
+      "solution": "Total = 2 300 ; recombinés = 206 + 185 = 391 ; 391 / 2 300 = 0,17, soit 17,0 %.",
+      "step_by_step_solution": [
+        "Total = 965 + 944 + 206 + 185 = 2 300.",
+        "Recombinés = 206 + 185 = 391.",
+        "391 / 2 300 = 0,17, soit 17,0 %."
+      ],
+      "hints": [
+        "Identifie d'abord les phénotypes parentaux (hérités des parents du double hétérozygote)."
+      ],
+      "common_errors": {
+        "83 %": "L'élève a calculé le pourcentage des phénotypes parentaux."
+      },
+      "remediation": "S'entraîner à identifier parentaux et recombinés dans des résultats expérimentaux.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter les résultats d'un croisement test",
+        "Calculer un pourcentage"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.x02",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Pour les résultats précédents (17 % de recombinés), remets dans l'ordre les étapes du raisonnement.\nÉléments (dans le désordre) : conclure à des gènes liés / comparer aux proportions attendues pour des gènes indépendants / expliquer les recombinés par des crossing-over / identifier les phénotypes parentaux et recombinés / calculer les proportions de chaque catégorie\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "identifier les phénotypes parentaux et recombinés",
+          "calculer les proportions de chaque catégorie",
+          "comparer aux proportions attendues pour des gènes indépendants",
+          "conclure à des gènes liés",
+          "expliquer les recombinés par des crossing-over"
+        ]
+      },
+      "solution": "On identifie les catégories, on calcule les proportions, on compare au cas indépendant (50 % de recombinés), on conclut à la liaison puis on explique les recombinés. Ordre attendu : identifier les phénotypes parentaux et recombinés ; calculer les proportions de chaque catégorie ; comparer aux proportions attendues pour des gènes indépendants ; conclure à des gènes liés ; expliquer les recombinés par des crossing-over.",
+      "step_by_step_solution": [
+        "Identifier parentaux et recombinés.",
+        "Calculer leurs proportions.",
+        "Comparer aux 25 % attendus par phénotype pour des gènes indépendants.",
+        "Conclure : gènes liés.",
+        "Expliquer les recombinés par des crossing-over en prophase I."
+      ],
+      "hints": [
+        "La conclusion vient après la comparaison."
+      ],
+      "common_errors": {
+        "identifier les phénotypes parentaux et recombinés ; calculer les proportions de chaque catégorie ; conclure à des gènes liés ; comparer aux proportions attendues pour des gènes indépendants ; expliquer les recombinés par des crossing-over": "L'élève conclut avant d'avoir comparé à l'hypothèse des gènes indépendants."
+      },
+      "remediation": "Rédiger un raisonnement structuré « je constate / j'en déduis » pour un croisement test.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Construire un raisonnement scientifique"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.brassage.x03",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Chez l'être humain (23 paires de chromosomes), en ne considérant que le brassage interchromosomique, combien de combinaisons de chromosomes sont possibles dans les gamètes d'un individu ? Donne le résultat sous la forme 2^n.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2^23"
+      },
+      "solution": "Chaque paire se répartit indépendamment : 2^23, soit environ 8,4 millions de combinaisons.",
+      "step_by_step_solution": [
+        "Pour chaque paire, 2 possibilités.",
+        "23 paires indépendantes.",
+        "Nombre de combinaisons = 2^23 ≈ 8,4 × 10^6."
+      ],
+      "hints": [
+        "Généralise la règle obtenue pour 2 et 3 paires."
+      ],
+      "common_errors": {
+        "46": "L'élève multiplie 2 par 23 au lieu de calculer une puissance."
+      },
+      "remediation": "Discuter : les crossing-over multiplient encore ce nombre, et la fécondation le porte au carré.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Dénombrer les combinaisons chromosomiques"
+      ],
+      "source_notions": [
+        "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.d01",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans quel organite de la cellule végétale se déroule la photosynthèse ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "chloroplaste",
+          "le chloroplaste",
+          "chloroplastes",
+          "les chloroplastes"
+        ]
+      },
+      "solution": "La photosynthèse se déroule dans les chloroplastes, qui contiennent les pigments chlorophylliens.",
+      "step_by_step_solution": [
+        "La photosynthèse nécessite des pigments chlorophylliens.",
+        "Ils sont contenus dans un organite vert.",
+        "C'est le chloroplaste."
+      ],
+      "hints": [
+        "Son nom évoque la couleur verte (« chloros »)."
+      ],
+      "common_errors": {
+        "mitochondrie": "La mitochondrie est le siège de la respiration cellulaire, pas de la photosynthèse."
+      },
+      "remediation": "Observer des cellules d'élodée au microscope et repérer les organites verts.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.d02",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le dioxygène libéré par la photosynthèse provient de la molécule d'eau. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Les expériences avec l'isotope 18O le confirment : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La photolyse de l'eau libère le dioxygène ; des expériences avec de l'eau marquée à l'oxygène 18 l'ont montré.",
+      "step_by_step_solution": [
+        "L'eau est décomposée à la lumière (photolyse).",
+        "Cette réaction libère du dioxygène.",
+        "Les expériences avec l'isotope 18O le confirment : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Que montrent les expériences utilisant de l'eau marquée à l'oxygène 18 ?"
+      ],
+      "common_errors": {
+        "faux": "Conception fréquente : le dioxygène proviendrait du CO2."
+      },
+      "remediation": "Analyser l'expérience de Ruben et Kamen (1941) avec des isotopes de l'oxygène.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.d03",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelles longueurs d'onde de la lumière visible la chlorophylle absorbe-t-elle le plus ?\nA. L'infrarouge uniquement\nB. Le bleu et le rouge\nC. Le vert uniquement\nD. Le jaune et le vert",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Les chlorophylles absorbent surtout le bleu et le rouge ; le vert est peu absorbé et en grande partie réfléchi ou transmis, d'où la couleur des feuilles. Bonne réponse : B. Le bleu et le rouge",
+      "step_by_step_solution": [
+        "Le spectre d'absorption de la chlorophylle montre deux pics.",
+        "L'un dans le bleu, l'autre dans le rouge.",
+        "Le vert est peu absorbé."
+      ],
+      "hints": [
+        "Pourquoi les feuilles nous apparaissent-elles vertes ?"
+      ],
+      "common_errors": {
+        "C": "L'élève pense que la chlorophylle absorbe le vert puisqu'elle est verte."
+      },
+      "remediation": "Comparer spectre d'absorption des pigments et spectre d'action de la photosynthèse.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [
+        "L'infrarouge uniquement",
+        "Le bleu et le rouge",
+        "Le vert uniquement",
+        "Le jaune et le vert"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.d04",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes de la photosynthèse.\nÉléments (dans le désordre) : production de glucose et d'autres sucres / photolyse de l'eau et libération de dioxygène / réduction du CO2 / absorption de l'énergie lumineuse par les pigments\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "absorption de l'énergie lumineuse par les pigments",
+          "photolyse de l'eau et libération de dioxygène",
+          "réduction du CO2",
+          "production de glucose et d'autres sucres"
+        ]
+      },
+      "solution": "L'énergie lumineuse captée permet la photolyse de l'eau (O2 libéré), puis la réduction du CO2 qui aboutit aux sucres. Ordre attendu : absorption de l'énergie lumineuse par les pigments ; photolyse de l'eau et libération de dioxygène ; réduction du CO2 ; production de glucose et d'autres sucres.",
+      "step_by_step_solution": [
+        "Les pigments captent l'énergie lumineuse.",
+        "Elle permet la photolyse de l'eau et la libération d'O2.",
+        "Le CO2 est réduit.",
+        "Des sucres sont produits."
+      ],
+      "hints": [
+        "La réduction du CO2 utilise des composés produits grâce à la phase photochimique."
+      ],
+      "common_errors": {
+        "absorption de l'énergie lumineuse par les pigments ; réduction du CO2 ; photolyse de l'eau et libération de dioxygène ; production de glucose et d'autres sucres": "L'élève place la réduction du CO2 avant la photolyse de l'eau."
+      },
+      "remediation": "Construire un schéma fonctionnel du chloroplaste (thylakoïdes / stroma).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.d05",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quelle substance de réserve, colorée en bleu-violet par l'eau iodée, est stockée dans les tubercules et les graines ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "amidon",
+          "l'amidon"
+        ]
+      },
+      "solution": "L'amidon est un polymère de glucose stocké comme réserve dans différents organes.",
+      "step_by_step_solution": [
+        "Les sucres produits peuvent être stockés.",
+        "Une forme de stockage est colorée par l'eau iodée.",
+        "C'est l'amidon."
+      ],
+      "hints": [
+        "C'est un polymère de glucose insoluble."
+      ],
+      "common_errors": {
+        "saccharose": "Le saccharose est la forme de transport des sucres dans la sève élaborée, non colorée par l'eau iodée."
+      },
+      "remediation": "Réaliser le test à l'eau iodée sur différents organes (feuille, tubercule, graine, racine).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.a01",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque molécule produite par la plante à sa fonction principale.\nÀ gauche : cellulose / amidon / saccharose / anthocyanes\nÀ droite : paroi et port de la plante / forme de transport des sucres / interactions avec d'autres espèces / réserve\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "cellulose": "paroi et port de la plante",
+          "amidon": "réserve",
+          "saccharose": "forme de transport des sucres",
+          "anthocyanes": "interactions avec d'autres espèces"
+        }
+      },
+      "solution": "La cellulose et la lignine soutiennent la plante, l'amidon est une réserve, le saccharose circule dans la sève élaborée, les anthocyanes interviennent dans les interactions (attraction des pollinisateurs…). Associations : cellulose → paroi et port de la plante ; amidon → réserve ; saccharose → forme de transport des sucres ; anthocyanes → interactions avec d'autres espèces.",
+      "step_by_step_solution": [
+        "Cellulose : paroi des cellules, port de la plante.",
+        "Amidon : réserve.",
+        "Saccharose : transport dans la sève élaborée.",
+        "Anthocyanes : pigments intervenant dans les interactions."
+      ],
+      "hints": [
+        "Pense à la couleur des fleurs pour les anthocyanes."
+      ],
+      "common_errors": {
+        "cellulose → paroi et port de la plante ; amidon → forme de transport des sucres ; saccharose → réserve ; anthocyanes → interactions avec d'autres espèces": "Confusion forme de transport / forme de réserve."
+      },
+      "remediation": "Construire un tableau des produits de la photosynthèse et de leurs fonctions.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.a02",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Équation bilan : 6 CO2 + 6 H2O → C6H12O6 + 6 O2. Combien de molécules de CO2 sont nécessaires pour produire 3 molécules de glucose ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "18"
+      },
+      "solution": "6 CO2 par glucose : 3 × 6 = 18 molécules de CO2.",
+      "step_by_step_solution": [
+        "Il faut 6 CO2 pour 1 glucose.",
+        "3 × 6 = 18."
+      ],
+      "hints": [
+        "Lis les coefficients de l'équation."
+      ],
+      "common_errors": {
+        "6": "L'élève oublie de multiplier par le nombre de molécules de glucose."
+      },
+      "remediation": "Revoir la lecture des coefficients d'une équation bilan.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter une équation bilan"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.a03",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Dans quelle partie du chloroplaste se déroule la réduction du CO2 (cycle de Calvin) ?\nA. La membrane des thylakoïdes\nB. Le noyau\nC. La mitochondrie\nD. Le stroma",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "La réduction du CO2 a lieu dans le stroma ; la photolyse de l'eau et la conversion de l'énergie lumineuse ont lieu dans les thylakoïdes. Bonne réponse : D. Le stroma",
+      "step_by_step_solution": [
+        "Les pigments sont dans les membranes des thylakoïdes.",
+        "La phase qui réduit le CO2 a lieu dans le liquide qui les entoure.",
+        "C'est le stroma."
+      ],
+      "hints": [
+        "C'est la partie non membranaire du chloroplaste."
+      ],
+      "common_errors": {
+        "A": "Confusion entre les lieux des deux phases."
+      },
+      "remediation": "Légender une électronographie de chloroplaste.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [
+        "La membrane des thylakoïdes",
+        "Le noyau",
+        "La mitochondrie",
+        "Le stroma"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.a04",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Les sucres produits dans les feuilles sont transportés vers les autres organes par la sève brute. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Ils sont transportés par la sève élaborée : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Les sucres (surtout le saccharose) circulent dans la sève élaborée, par le phloème ; la sève brute (xylème) transporte l'eau et les ions.",
+      "step_by_step_solution": [
+        "La sève brute monte des racines vers les feuilles.",
+        "Les sucres circulent des feuilles vers les organes consommateurs ou de réserve.",
+        "Ils sont transportés par la sève élaborée : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Quel tissu conducteur transporte la matière organique ?"
+      ],
+      "common_errors": {
+        "vrai": "Confusion entre xylème (sève brute) et phloème (sève élaborée)."
+      },
+      "remediation": "Observer une coupe de tige et repérer xylème et phloème.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.a05",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la décomposition de l'eau à la lumière, dans les thylakoïdes, qui libère du dioxygène ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "photolyse de l'eau",
+          "photolyse",
+          "la photolyse de l'eau",
+          "la photolyse"
+        ]
+      },
+      "solution": "La photolyse de l'eau, réalisée grâce à l'énergie lumineuse, libère du dioxygène.",
+      "step_by_step_solution": [
+        "L'eau est décomposée.",
+        "Cette réaction est déclenchée par la lumière.",
+        "C'est la photolyse de l'eau."
+      ],
+      "hints": [
+        "« Photo » (lumière) + « lyse » (coupure)."
+      ],
+      "common_errors": {
+        "respiration": "La respiration consomme du dioxygène, elle n'en libère pas."
+      },
+      "remediation": "Réaliser l'expérience de Hill (suspension de chloroplastes, accepteur d'électrons, dégagement d'O2).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.c01",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "EXPERIMENT_PROTOCOL",
+      "statement": "Expérience : une suspension de chloroplastes éclairée, en absence de CO2 mais en présence d'un accepteur d'électrons, dégage du dioxygène. Que montre cette expérience ?\nA. Le dioxygène provient du CO2\nB. La lumière est inutile à la photosynthèse\nC. Les chloroplastes respirent\nD. La photolyse de l'eau ne nécessite pas de CO2",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "La libération de dioxygène (photolyse de l'eau) peut se produire sans CO2 : elle ne dépend pas de la réduction du CO2 mais de la lumière et d'un accepteur d'électrons. Bonne réponse : D. La photolyse de l'eau ne nécessite pas de CO2",
+      "step_by_step_solution": [
+        "Il n'y a pas de CO2 dans le milieu.",
+        "Pourtant du dioxygène est produit à la lumière.",
+        "La photolyse de l'eau est indépendante de la réduction du CO2."
+      ],
+      "hints": [
+        "Le CO2 est-il nécessaire au dégagement d'O2 ?"
+      ],
+      "common_errors": {
+        "A": "L'élève pense que le dioxygène provient du CO2."
+      },
+      "remediation": "Analyser l'expérience de Hill et la relier au schéma du chloroplaste.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [
+        "Le dioxygène provient du CO2",
+        "La lumière est inutile à la photosynthèse",
+        "Les chloroplastes respirent",
+        "La photolyse de l'eau ne nécessite pas de CO2"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.c02",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : une plante produit 12 g de glucose par jour et en utilise 30 % pour sa respiration. Quelle masse de glucose reste disponible pour la croissance et les réserves ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 8.4,
+        "unit": "g"
+      },
+      "solution": "12 × 0,70 = 8,4 g de glucose disponibles.",
+      "step_by_step_solution": [
+        "30 % sont respirés : il reste 70 %.",
+        "0,70 × 12 = 8,4 g."
+      ],
+      "hints": [
+        "Calcule le pourcentage restant."
+      ],
+      "common_errors": {
+        "3,6 g": "L'élève a calculé la part respirée au lieu de la part restante."
+      },
+      "remediation": "Relier production brute, respiration et production nette.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un document chiffré"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.c03",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Les cellules des organes non chlorophylliens (racines, tubercules) utilisent des sucres produits dans les feuilles. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Ils les métabolisent (respiration, réserves) : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les organes non chlorophylliens ne font pas la photosynthèse : ils dépendent des sucres apportés par la sève élaborée.",
+      "step_by_step_solution": [
+        "Les racines et tubercules n'ont pas de chloroplastes fonctionnels.",
+        "Ils reçoivent des sucres de la sève élaborée.",
+        "Ils les métabolisent (respiration, réserves) : l'affirmation est vraie."
+      ],
+      "hints": [
+        "D'où viennent les sucres d'une racine ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que chaque organe produit ses propres sucres."
+      },
+      "remediation": "Construire un schéma des flux de matière organique organes sources / organes puits.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.c04",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "EXPERIMENT_PROTOCOL",
+      "statement": "Chromatographie des pigments d'une feuille : on observe du haut vers le bas des bandes jaune-orangé, vert-bleu et vert-jaune. Comment s'appelle le groupe de pigments jaune-orangé ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "caroténoïdes",
+          "les caroténoïdes",
+          "carotènes",
+          "carotenoides",
+          "xanthophylles et carotènes"
+        ]
+      },
+      "solution": "Les pigments jaune-orangé sont les caroténoïdes (carotènes et xanthophylles) ; les bandes vertes sont les chlorophylles a et b.",
+      "step_by_step_solution": [
+        "Les chlorophylles sont vertes.",
+        "Les pigments jaune-orangé forment un autre groupe.",
+        "Ce sont les caroténoïdes."
+      ],
+      "hints": [
+        "Ils donnent leur couleur aux carottes."
+      ],
+      "common_errors": {
+        "chlorophylle b": "La chlorophylle b est vert-jaune, pas jaune-orangé."
+      },
+      "remediation": "Réaliser une chromatographie sur papier d'un extrait de feuilles d'épinard.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.c05",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque partie du chloroplaste aux événements qui s'y déroulent.\nÀ gauche : thylakoïdes / stroma\nÀ droite : réduction du CO2 en sucres / capture de l'énergie lumineuse et photolyse de l'eau\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "thylakoïdes": "capture de l'énergie lumineuse et photolyse de l'eau",
+          "stroma": "réduction du CO2 en sucres"
+        }
+      },
+      "solution": "La phase photochimique se déroule dans les thylakoïdes, la réduction du CO2 dans le stroma. Associations : thylakoïdes → capture de l'énergie lumineuse et photolyse de l'eau ; stroma → réduction du CO2 en sucres.",
+      "step_by_step_solution": [
+        "Les pigments sont dans les membranes des thylakoïdes.",
+        "Les enzymes du cycle de Calvin sont dans le stroma."
+      ],
+      "hints": [
+        "Où sont situés les pigments chlorophylliens ?"
+      ],
+      "common_errors": {
+        "thylakoïdes → réduction du CO2 en sucres ; stroma → capture de l'énergie lumineuse et photolyse de l'eau": "Inversion des lieux des deux phases."
+      },
+      "remediation": "Légender un schéma de chloroplaste et y placer les réactions.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer la conversion de l'énergie lumineuse en énergie chimique",
+        "Relier photosynthèse et devenir des sucres dans la plante"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.x01",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : en éclairant une plante en lumière verte seule, le dégagement d'O2 est de 2 unités ; en lumière rouge seule, de 9 unités. Combien de fois la photosynthèse est-elle plus intense en lumière rouge qu'en lumière verte ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4,5"
+      },
+      "solution": "9 / 2 = 4,5 : la photosynthèse est 4,5 fois plus intense en lumière rouge, bien absorbée par la chlorophylle.",
+      "step_by_step_solution": [
+        "On compare par un quotient.",
+        "9 / 2 = 4,5.",
+        "La lumière rouge, bien absorbée, est plus efficace que la verte."
+      ],
+      "hints": [
+        "« Combien de fois » : on divise."
+      ],
+      "common_errors": {
+        "7": "L'élève calcule une différence au lieu d'un rapport."
+      },
+      "remediation": "Relier spectre d'absorption des pigments et spectre d'action.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document",
+        "Relier absorption et efficacité photosynthétique"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.x02",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "EXPERIMENT_PROTOCOL",
+      "statement": "Expérience : on fournit à une plante de l'eau dont l'oxygène est marqué (H2 18O) et du CO2 non marqué. Où retrouve-t-on l'oxygène 18 ?\nA. Nulle part\nB. Dans le dioxygène dégagé\nC. Uniquement dans le glucose produit\nD. Dans le CO2 absorbé",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "L'oxygène 18 se retrouve dans le dioxygène dégagé : l'O2 de la photosynthèse provient de l'eau (photolyse). Bonne réponse : B. Dans le dioxygène dégagé",
+      "step_by_step_solution": [
+        "L'eau marquée est photolysée.",
+        "Le dioxygène libéré contient l'oxygène 18.",
+        "L'O2 provient donc de l'eau."
+      ],
+      "hints": [
+        "Quelle molécule est décomposée pour libérer le dioxygène ?"
+      ],
+      "common_errors": {
+        "C": "L'élève pense que l'O2 provient du CO2 et que l'isotope se retrouve dans le glucose."
+      },
+      "remediation": "Comparer les deux expériences réciproques (eau marquée / CO2 marqué).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Interpréter une expérience de marquage isotopique"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [
+        "Nulle part",
+        "Dans le dioxygène dégagé",
+        "Uniquement dans le glucose produit",
+        "Dans le CO2 absorbé"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.photosynthese.x03",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre le devenir d'un atome de carbone, du CO2 de l'air jusqu'à l'amidon d'un tubercule de pomme de terre.\nÉléments (dans le désordre) : mise en réserve sous forme d'amidon dans le tubercule / formation de saccharose / réduction du CO2 dans le stroma / transport par la sève élaborée / entrée du CO2 par les stomates\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "entrée du CO2 par les stomates",
+          "réduction du CO2 dans le stroma",
+          "formation de saccharose",
+          "transport par la sève élaborée",
+          "mise en réserve sous forme d'amidon dans le tubercule"
+        ]
+      },
+      "solution": "Le CO2 entre par les stomates, est réduit dans le stroma, rejoint le saccharose transporté par la sève élaborée, puis est stocké en amidon. Ordre attendu : entrée du CO2 par les stomates ; réduction du CO2 dans le stroma ; formation de saccharose ; transport par la sève élaborée ; mise en réserve sous forme d'amidon dans le tubercule.",
+      "step_by_step_solution": [
+        "Le CO2 entre par les stomates.",
+        "Il est réduit dans le stroma des chloroplastes.",
+        "Les sucres formés donnent du saccharose.",
+        "Le saccharose circule dans la sève élaborée.",
+        "Il est converti en amidon dans le tubercule."
+      ],
+      "hints": [
+        "Le transport se fait sous forme de saccharose."
+      ],
+      "common_errors": {
+        "entrée du CO2 par les stomates ; réduction du CO2 dans le stroma ; transport par la sève élaborée ; formation de saccharose ; mise en réserve sous forme d'amidon dans le tubercule": "L'élève fait transporter l'amidon au lieu du saccharose."
+      },
+      "remediation": "Réaliser un schéma de synthèse plante entière : sources, transport, puits.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier production, transport et stockage de matière organique"
+      ],
+      "source_notions": [
+        "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.d01",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la concentration de glucose dans le sang ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "glycémie",
+          "la glycémie",
+          "glycemie"
+        ]
+      },
+      "solution": "La glycémie est la concentration de glucose dans le sang, maintenue autour de 1 g/L.",
+      "step_by_step_solution": [
+        "On mesure le glucose dans le sang.",
+        "Cette concentration porte un nom spécifique : la glycémie."
+      ],
+      "hints": [
+        "Le mot contient la racine « glyc- » (sucre) et « -émie » (sang)."
+      ],
+      "common_errors": {
+        "insulinémie": "L'insulinémie est la concentration d'insuline, pas de glucose."
+      },
+      "remediation": "Relier racines grecques et vocabulaire médical (glyc-, -émie).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.d02",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Autour de quelle valeur la glycémie est-elle maintenue chez une personne en bonne santé ? Réponds en g/L.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 1,
+        "unit": "g/L",
+        "tolerance_relative": 0.2
+      },
+      "solution": "La glycémie est maintenue dans un intervalle étroit autour d'environ 1 g/L.",
+      "step_by_step_solution": [
+        "La glycémie varie peu.",
+        "Sa valeur d'équilibre est proche de 1 g/L."
+      ],
+      "hints": [
+        "C'est une valeur ronde, proche de l'unité."
+      ],
+      "common_errors": {
+        "10 g/L": "Erreur d'ordre de grandeur."
+      },
+      "remediation": "Lire des résultats d'analyses sanguines et repérer la valeur de la glycémie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.d03",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel organe sécrète les deux hormones qui régulent la glycémie ?\nA. Les reins\nB. Le pancréas\nC. Le foie\nD. L'estomac",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Le pancréas sécrète l'insuline et le glucagon, produits par les îlots de Langerhans.",
+      "step_by_step_solution": [
+        "La glycémie est régulée par deux hormones.",
+        "Elles sont produites par les îlots de Langerhans.",
+        "Ces îlots se trouvent dans le pancréas."
+      ],
+      "hints": [
+        "Cet organe a aussi un rôle digestif."
+      ],
+      "common_errors": {
+        "C": "L'élève pense que le foie produit les hormones (il est un organe cible)."
+      },
+      "remediation": "Faire un schéma : glande endocrine → hormone → organes cibles.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [
+        "Les reins",
+        "Le pancréas",
+        "Le foie",
+        "L'estomac"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.d04",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? L'insuline est une hormone hypoglycémiante : elle fait baisser la glycémie. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : La glycémie diminue : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. L'insuline favorise l'entrée et le stockage du glucose dans les cellules (foie, muscles, tissu adipeux), ce qui fait baisser la glycémie.",
+      "step_by_step_solution": [
+        "L'insuline est sécrétée quand la glycémie augmente.",
+        "Elle favorise l'entrée et le stockage du glucose.",
+        "La glycémie diminue : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Quand l'insuline est-elle sécrétée ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève inverse les effets de l'insuline et du glucagon."
+      },
+      "remediation": "Construire un tableau insuline / glucagon (condition de sécrétion, cellules cibles, effets).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.d05",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Sous quelle forme le glucose est-il stocké dans les cellules du foie et des muscles ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "glycogène",
+          "le glycogène",
+          "glycogene"
+        ]
+      },
+      "solution": "Le glucose est stocké sous forme de glycogène, un polymère de glucose, dans le foie et les muscles.",
+      "step_by_step_solution": [
+        "Le glucose peut être polymérisé pour être stocké.",
+        "Chez les animaux, ce polymère est le glycogène."
+      ],
+      "hints": [
+        "Chez les végétaux, l'équivalent est l'amidon."
+      ],
+      "common_errors": {
+        "amidon": "L'amidon est la réserve des végétaux ; chez l'animal c'est le glycogène."
+      },
+      "remediation": "Colorer une coupe de foie au carmin de Best (ou lire un document) pour repérer le glycogène.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.a01",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque hormone à ses caractéristiques.\nÀ gauche : insuline / glucagon\nÀ droite : hyperglycémiante / hypoglycémiante\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "insuline": "hypoglycémiante",
+          "glucagon": "hyperglycémiante"
+        }
+      },
+      "solution": "L'insuline fait baisser la glycémie, le glucagon la fait augmenter. Associations : insuline → hypoglycémiante ; glucagon → hyperglycémiante.",
+      "step_by_step_solution": [
+        "Insuline : stockage du glucose → baisse de la glycémie.",
+        "Glucagon : libération de glucose par le foie → hausse."
+      ],
+      "hints": [
+        "« Hypo » : en dessous ; « hyper » : au-dessus."
+      ],
+      "common_errors": {
+        "insuline → hyperglycémiante ; glucagon → hypoglycémiante": "Inversion des effets des deux hormones."
+      },
+      "remediation": "Construire le schéma de la boucle de régulation de la glycémie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.a02",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un adulte possède environ 5 L de sang, avec une glycémie de 1 g/L. Quelle masse de glucose circule dans son sang ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 5,
+        "unit": "g"
+      },
+      "solution": "m = C × V = 1 × 5 = 5 g de glucose.",
+      "step_by_step_solution": [
+        "Masse = concentration × volume.",
+        "1 g/L × 5 L = 5 g."
+      ],
+      "hints": [
+        "Utilise m = C × V."
+      ],
+      "common_errors": {
+        "0,2 g": "L'élève divise la concentration par le volume au lieu de multiplier."
+      },
+      "remediation": "Revoir la relation masse = concentration massique × volume.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une masse à partir d'une concentration"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.a03",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Après un repas riche en glucides, la glycémie augmente. Quelle hormone est alors sécrétée en plus grande quantité ?\nA. L'adrénaline uniquement\nB. Aucune\nC. L'insuline\nD. Le glucagon",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "La hausse de la glycémie stimule la sécrétion d'insuline par les cellules β des îlots de Langerhans. Bonne réponse : C. L'insuline",
+      "step_by_step_solution": [
+        "Après le repas, la glycémie augmente.",
+        "Pour la ramener à sa valeur d'équilibre, il faut une hormone hypoglycémiante.",
+        "C'est l'insuline."
+      ],
+      "hints": [
+        "Il faut ramener la glycémie vers sa valeur d'équilibre."
+      ],
+      "common_errors": {
+        "D": "Inversion des rôles : le glucagon est sécrété quand la glycémie baisse."
+      },
+      "remediation": "Analyser des courbes de glycémie et d'insulinémie après un repas.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [
+        "L'adrénaline uniquement",
+        "Aucune",
+        "L'insuline",
+        "Le glucagon"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.a04",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le glycogène musculaire peut être libéré sous forme de glucose dans le sang pour remonter la glycémie. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : C'est le foie qui libère le glucose dans le sang : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Le glycogène musculaire est utilisé par le muscle lui-même ; c'est surtout le foie qui libère du glucose dans le sang.",
+      "step_by_step_solution": [
+        "Les muscles stockent du glycogène.",
+        "Ils l'utilisent pour leur propre contraction.",
+        "C'est le foie qui libère le glucose dans le sang : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Quel organe est capable de libérer du glucose dans le sang ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense que tous les organes de stockage libèrent du glucose dans le sang."
+      },
+      "remediation": "Comparer le rôle du foie et des muscles dans la régulation de la glycémie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.a05",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel type de cellules des îlots de Langerhans sécrète l'insuline ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "cellules bêta",
+          "cellules β",
+          "les cellules bêta",
+          "bêta",
+          "β",
+          "cellules beta"
+        ]
+      },
+      "solution": "L'insuline est sécrétée par les cellules β (bêta) des îlots de Langerhans ; le glucagon par les cellules α.",
+      "step_by_step_solution": [
+        "Les îlots contiennent deux principaux types de cellules endocrines.",
+        "L'une sécrète le glucagon (α), l'autre l'insuline."
+      ],
+      "hints": [
+        "Deuxième lettre de l'alphabet grec."
+      ],
+      "common_errors": {
+        "cellules alpha": "Les cellules α sécrètent le glucagon."
+      },
+      "remediation": "Observer une coupe de pancréas avec marquage immunologique des cellules α et β.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.c01",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes de la régulation après un repas riche en glucides.\nÉléments (dans le désordre) : augmentation de la glycémie / sécrétion d'insuline par les cellules β / retour de la glycémie vers sa valeur d'équilibre / absorption intestinale du glucose / stockage du glucose dans le foie, les muscles et le tissu adipeux\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "absorption intestinale du glucose",
+          "augmentation de la glycémie",
+          "sécrétion d'insuline par les cellules β",
+          "stockage du glucose dans le foie, les muscles et le tissu adipeux",
+          "retour de la glycémie vers sa valeur d'équilibre"
+        ]
+      },
+      "solution": "L'absorption élève la glycémie, ce qui déclenche la sécrétion d'insuline, qui favorise le stockage du glucose ; la glycémie revient vers 1 g/L. Ordre attendu : absorption intestinale du glucose ; augmentation de la glycémie ; sécrétion d'insuline par les cellules β ; stockage du glucose dans le foie, les muscles et le tissu adipeux ; retour de la glycémie vers sa valeur d'équilibre.",
+      "step_by_step_solution": [
+        "Le glucose est absorbé.",
+        "La glycémie augmente.",
+        "Les cellules β sécrètent de l'insuline.",
+        "Le glucose est stocké (glycogène, lipides).",
+        "La glycémie redescend vers sa valeur d'équilibre."
+      ],
+      "hints": [
+        "L'augmentation de la glycémie est le signal qui déclenche la sécrétion."
+      ],
+      "common_errors": {
+        "absorption intestinale du glucose ; sécrétion d'insuline par les cellules β ; augmentation de la glycémie ; stockage du glucose dans le foie, les muscles et le tissu adipeux ; retour de la glycémie vers sa valeur d'équilibre": "L'élève place la sécrétion d'insuline avant l'augmentation de la glycémie."
+      },
+      "remediation": "Construire le schéma de la boucle de régulation (capteur, message, effecteurs).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.c02",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : glycémie à jeun 0,9 g/L ; 1 h après un repas 1,4 g/L. De quel pourcentage la glycémie a-t-elle augmenté (arrondi à l'unité) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 56,
+        "unit": "%",
+        "tolerance_relative": 0.02
+      },
+      "solution": "(1,4 − 0,9) / 0,9 = 0,5 / 0,9 ≈ 0,56, soit environ 56 %.",
+      "step_by_step_solution": [
+        "Augmentation absolue : 1,4 − 0,9 = 0,5 g/L.",
+        "Augmentation relative : 0,5 / 0,9 ≈ 0,556.",
+        "Soit environ 56 %."
+      ],
+      "hints": [
+        "Rapporte l'augmentation à la valeur de départ."
+      ],
+      "common_errors": {
+        "50 %": "L'élève exprime l'augmentation absolue (0,5 g/L) comme un pourcentage."
+      },
+      "remediation": "Revoir le calcul d'une variation relative.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un document chiffré"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.c03",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle est l'origine du diabète de type 1 ?\nA. La destruction auto-immune des cellules β du pancréas\nB. Une résistance des cellules cibles à l'insuline uniquement\nC. Un excès de glucagon produit par le foie\nD. Une infection bactérienne de l'estomac",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le diabète de type 1 résulte de la destruction auto-immune des cellules β du pancréas : l'insuline n'est plus produite. Bonne réponse : A. La destruction auto-immune des cellules β du pancréas",
+      "step_by_step_solution": [
+        "Dans le diabète de type 1, l'insuline n'est plus sécrétée.",
+        "Les cellules β ont été détruites.",
+        "Cette destruction est d'origine auto-immune."
+      ],
+      "hints": [
+        "Que se passe-t-il pour les cellules productrices d'insuline ?"
+      ],
+      "common_errors": {
+        "B": "Confusion avec le diabète de type 2 (insulinorésistance)."
+      },
+      "remediation": "Comparer diabète de type 1 et de type 2 (causes, âge d'apparition fréquent) à partir de documents.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [
+        "La destruction auto-immune des cellules β du pancréas",
+        "Une résistance des cellules cibles à l'insuline uniquement",
+        "Un excès de glucagon produit par le foie",
+        "Une infection bactérienne de l'estomac"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.c04",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Dans le diabète de type 2, l'insuline est souvent produite mais les cellules cibles y répondent moins bien (insulinorésistance). Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : C'est l'insulinorésistance : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Le diabète de type 2 est marqué par une insulinorésistance, favorisée par des facteurs génétiques et le mode de vie.",
+      "step_by_step_solution": [
+        "Au début de la maladie, l'insuline est produite.",
+        "Les cellules cibles répondent moins bien.",
+        "C'est l'insulinorésistance : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Les cellules β sont-elles détruites dans ce type de diabète ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que tous les diabètes sont dus à une absence d'insuline."
+      },
+      "remediation": "Analyser des courbes d'insulinémie chez des personnes non diabétiques et diabétiques de type 2.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.c05",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel organe libère du glucose dans le sang lors d'un jeûne, en dégradant son glycogène sous l'effet du glucagon ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "foie",
+          "le foie"
+        ]
+      },
+      "solution": "Sous l'effet du glucagon, le foie hydrolyse son glycogène (glycogénolyse) et libère du glucose dans le sang.",
+      "step_by_step_solution": [
+        "Le glucagon agit sur un organe capable de libérer du glucose.",
+        "Cet organe est le foie."
+      ],
+      "hints": [
+        "Cet organe reçoit le sang venant de l'intestin."
+      ],
+      "common_errors": {
+        "muscles": "Les muscles ne libèrent pas de glucose dans le sang."
+      },
+      "remediation": "Analyser l'expérience historique du « foie lavé » de Claude Bernard.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Définir la glycémie et sa valeur de référence",
+        "Expliquer la régulation hormonale de la glycémie"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.x01",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : un test de tolérance au glucose donne, 2 h après l'ingestion de 75 g de glucose, une glycémie de 1,1 g/L chez la personne A et de 2,3 g/L chez la personne B. De combien la glycémie de B dépasse-t-elle celle de A ? Réponds en g/L.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 1.2,
+        "unit": "g/L"
+      },
+      "solution": "2,3 − 1,1 = 1,2 g/L : la glycémie de B reste très élevée, ce qui traduit une régulation défaillante (les critères diagnostiques relèvent d'un avis médical).",
+      "step_by_step_solution": [
+        "On compare les deux valeurs.",
+        "2,3 − 1,1 = 1,2 g/L."
+      ],
+      "hints": [
+        "Soustrais les deux glycémies."
+      ],
+      "common_errors": {
+        "3,4 g/L": "L'élève additionne les deux valeurs."
+      },
+      "remediation": "Interpréter un test de tolérance au glucose en termes de régulation (sans poser de diagnostic).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document",
+        "Relier régulation et valeurs mesurées"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.x02",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque perturbation à la réponse attendue de l'organisme.\nÀ gauche : hausse de la glycémie après un repas / baisse de la glycémie pendant un jeûne / glucagon agissant sur le foie\nÀ droite : sécrétion de glucagon / libération de glucose dans le sang / sécrétion d'insuline\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "hausse de la glycémie après un repas": "sécrétion d'insuline",
+          "baisse de la glycémie pendant un jeûne": "sécrétion de glucagon",
+          "glucagon agissant sur le foie": "libération de glucose dans le sang"
+        }
+      },
+      "solution": "Une hyperglycémie déclenche la sécrétion d'insuline ; une hypoglycémie celle du glucagon, qui fait libérer du glucose par le foie. Associations : hausse de la glycémie après un repas → sécrétion d'insuline ; baisse de la glycémie pendant un jeûne → sécrétion de glucagon ; glucagon agissant sur le foie → libération de glucose dans le sang.",
+      "step_by_step_solution": [
+        "Hyperglycémie → insuline.",
+        "Hypoglycémie → glucagon.",
+        "Glucagon → glycogénolyse hépatique et libération de glucose."
+      ],
+      "hints": [
+        "Chaque hormone s'oppose à l'écart de glycémie qui l'a déclenchée."
+      ],
+      "common_errors": {
+        "hausse de la glycémie après un repas → sécrétion de glucagon ; baisse de la glycémie pendant un jeûne → sécrétion d'insuline ; glucagon agissant sur le foie → libération de glucose dans le sang": "Inversion des signaux déclencheurs des deux hormones."
+      },
+      "remediation": "Schématiser la régulation comme un système à rétrocontrôle négatif.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Expliquer une régulation par rétrocontrôle"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.TLE.glycemie.x03",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi dit-on que la régulation de la glycémie fonctionne par rétrocontrôle négatif ?\nA. Car elle amplifie les variations de glycémie\nB. Car la réponse s'oppose à la variation et ramène la glycémie vers sa valeur d'équilibre\nC. Car elle fait toujours baisser la glycémie\nD. Car elle ne fonctionne que la nuit",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Toute variation de la glycémie déclenche une réponse hormonale qui s'oppose à cette variation et ramène la glycémie vers sa valeur d'équilibre. Bonne réponse : B. Car la réponse s'oppose à la variation et ramène la glycémie vers sa valeur d'équilibre",
+      "step_by_step_solution": [
+        "Une hausse de la glycémie déclenche l'insuline, qui la fait baisser.",
+        "Une baisse déclenche le glucagon, qui la fait augmenter.",
+        "La réponse s'oppose toujours à l'écart : c'est un rétrocontrôle négatif."
+      ],
+      "hints": [
+        "La réponse amplifie-t-elle ou corrige-t-elle l'écart ?"
+      ],
+      "common_errors": {
+        "C": "L'élève pense que « négatif » signifie que la régulation fait toujours baisser la glycémie."
+      },
+      "remediation": "Comparer rétrocontrôle négatif (correction) et positif (amplification) sur des exemples.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Expliquer une régulation par rétrocontrôle"
+      ],
+      "source_notions": [
+        "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan"
+      ],
+      "choices": [
+        "Car elle amplifie les variations de glycémie",
+        "Car la réponse s'oppose à la variation et ramène la glycémie vers sa valeur d'équilibre",
+        "Car elle fait toujours baisser la glycémie",
+        "Car elle ne fonctionne que la nuit"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

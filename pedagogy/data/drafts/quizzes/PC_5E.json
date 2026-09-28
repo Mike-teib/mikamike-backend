@@ -1,0 +1,765 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.PC.5E.etats.q01",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Quel état de la matière possède une forme propre ?",
+      "choices": [
+        "solide",
+        "liquide",
+        "gaz"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "solide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un solide garde sa forme quel que soit le récipient ; liquides et gaz n'ont pas de forme propre.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Un liquide prend la forme du récipient.",
+        "2": "Un gaz occupe tout l'espace offert."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q02",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "À la température ordinaire, l'eau d'une rivière est dans l'état :",
+      "choices": [
+        "liquide",
+        "solide",
+        "gazeux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "liquide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau d'une rivière coule et prend la forme du lit : elle est à l'état liquide.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Ce serait de la glace.",
+        "2": "Ce serait de la vapeur d'eau, invisible."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q03",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Quel état de la matière occupe tout l'espace qui lui est offert ?",
+      "choices": [
+        "gaz",
+        "liquide",
+        "solide"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "gaz",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un gaz n'a ni forme propre ni volume propre : il occupe tout le récipient.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Un liquide a un volume propre.",
+        "2": "Un solide a une forme et un volume propres."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q04",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Au repos, la surface libre d'un liquide est :",
+      "choices": [
+        "plane et horizontale",
+        "toujours bombée",
+        "inclinée comme le récipient",
+        "verticale"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "plane et horizontale",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Quelle que soit l'inclinaison du récipient, la surface libre d'un liquide au repos est plane et horizontale.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Seules de petites gouttes sont bombées.",
+        "2": "La surface ne suit pas l'inclinaison du récipient.",
+        "3": "Confusion entre verticale et horizontale."
+      },
+      "common_error_target": {
+        "2": "surface qui suit le récipient"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q05",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Quel état de la matière se comprime facilement ?",
+      "choices": [
+        "gaz",
+        "liquide",
+        "solide"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "gaz",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un gaz est compressible (seringue d'air bouchée) ; liquides et solides le sont très peu.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un liquide est pratiquement incompressible.",
+        "2": "Un solide ne se comprime pratiquement pas."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q06",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Un liquide possède :",
+      "choices": [
+        "un volume propre mais pas de forme propre",
+        "une forme propre et un volume propre",
+        "ni forme propre ni volume propre",
+        "une forme propre mais pas de volume propre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un volume propre mais pas de forme propre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un liquide garde son volume quand on le transvase, mais prend la forme du récipient.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est la description d'un solide.",
+        "2": "C'est la description d'un gaz.",
+        "3": "Aucun état ne correspond."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q07",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Le sable sec s'écoule et prend la forme du récipient. Pourtant, il est formé de matière à l'état :",
+      "choices": [
+        "solide",
+        "liquide",
+        "gazeux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "solide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque grain de sable a une forme propre : le sable est un solide divisé en grains.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "S'écouler ne suffit pas pour être liquide.",
+        "2": "Le sable n'occupe pas tout l'espace offert."
+      },
+      "common_error_target": {
+        "1": "s'écouler = être liquide"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q08",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Une seringue bouchée contient 1 L d'air. On tire le piston jusqu'à ce que la seringue offre un volume de 2 L. Quel volume occupe l'air ?",
+      "choices": [
+        "2 L",
+        "1 L",
+        "0,5 L",
+        "3 L"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2 L",
+      "answer_kind": "QUANTITY",
+      "explanation": "Un gaz occupe tout l'espace qui lui est offert : l'air occupe les 2 L de la seringue.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Un gaz n'a pas de volume propre.",
+        "2": "Le volume offert a augmenté, pas diminué.",
+        "3": "On a ajouté les deux volumes."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q09",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Laquelle de ces substances est à l'état gazeux à 20 °C ?",
+      "choices": [
+        "le dioxygène",
+        "l'huile",
+        "le fer",
+        "le sel"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le dioxygène",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le dioxygène, constituant de l'air, est un gaz à température ambiante.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'huile est liquide.",
+        "2": "Le fer est solide.",
+        "3": "Le sel est solide."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.etats.q10",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Quelle propriété distingue un liquide d'un gaz ?",
+      "choices": [
+        "le liquide a un volume propre",
+        "le liquide a une forme propre",
+        "le liquide n'a pas de masse",
+        "le gaz a une forme propre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le liquide a un volume propre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Liquide et gaz n'ont pas de forme propre ; seul le liquide garde son volume quand on change de récipient.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Un liquide n'a pas de forme propre.",
+        "2": "Toute matière a une masse.",
+        "3": "Un gaz n'a pas de forme propre."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q01",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Lors de la fusion d'un glaçon dans un flacon fermé, la masse d'eau :",
+      "choices": [
+        "se conserve",
+        "augmente",
+        "diminue"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "se conserve",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un changement d'état ne crée ni ne détruit de matière : la masse se conserve.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Confusion masse / volume.",
+        "2": "Confusion masse / volume."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q02",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Sous la pression atmosphérique normale, l'eau pure bout à :",
+      "choices": [
+        "100 °C",
+        "0 °C",
+        "50 °C",
+        "37 °C"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "100 °C",
+      "answer_kind": "QUANTITY",
+      "explanation": "L'ébullition de l'eau pure se fait à 100 °C sous la pression atmosphérique normale.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la température de fusion de la glace.",
+        "2": "Valeur sans signification particulière.",
+        "3": "C'est la température du corps humain."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q03",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Sous la pression atmosphérique normale, la glace pure fond à :",
+      "choices": [
+        "0 °C",
+        "100 °C",
+        "−10 °C",
+        "10 °C"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0 °C",
+      "answer_kind": "QUANTITY",
+      "explanation": "La fusion de la glace pure se fait à 0 °C : c'est aussi la température de solidification de l'eau.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la température d'ébullition.",
+        "2": "À −10 °C, la glace reste solide.",
+        "3": "À 10 °C, la glace a déjà fondu."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q04",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Quand l'eau liquide se solidifie, son volume :",
+      "choices": [
+        "augmente",
+        "diminue",
+        "ne change pas"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "augmente",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau est une exception : la glace occupe un volume plus grand que l'eau liquide de même masse.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est le cas de la plupart des autres corps purs, pas de l'eau.",
+        "2": "Le volume varie lors d'un changement d'état."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q05",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Un bécher vide pèse 60 g ; avec de l'eau, il pèse 210 g. Après congélation complète de l'eau, la glace seule a une masse de :",
+      "choices": [
+        "150 g",
+        "210 g",
+        "270 g",
+        "60 g"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "150 g",
+      "answer_kind": "QUANTITY",
+      "explanation": "Masse de l'eau : 210 − 60 = 150 g ; la masse se conserve lors de la solidification.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a oublié de retirer la masse du bécher.",
+        "2": "On a ajouté la masse du bécher.",
+        "3": "C'est la masse du bécher vide."
+      },
+      "common_error_target": {
+        "1": "oubli de la tare"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q06",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Pendant la fusion d'un corps pur, la température :",
+      "choices": [
+        "reste constante",
+        "augmente",
+        "diminue"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "reste constante",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le changement d'état d'un corps pur se fait à température constante : on observe un palier.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Elle augmente avant et après la fusion, pas pendant.",
+        "2": "On chauffe : elle ne diminue pas."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q07",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Un flacon bouché contenant de l'eau et des glaçons pèse 320 g. Une fois les glaçons fondus, le flacon bouché pèse :",
+      "choices": [
+        "toujours 320 g",
+        "plus de 320 g",
+        "moins de 320 g"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0",
+      "answer_kind": "CHOICE",
+      "explanation": "Le flacon est bouché : aucune matière n'entre ni ne sort, et la masse se conserve lors de la fusion.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'eau liquide n'est pas plus lourde que la glace de même masse.",
+        "2": "Le volume diminue lors de la fusion, pas la masse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q08",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "La courbe de refroidissement d'un corps pur liquide présente un palier à 16 °C. Cette température est sa température de :",
+      "choices": [
+        "solidification",
+        "ébullition",
+        "condensation"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "solidification",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Lors du refroidissement d'un liquide, le palier correspond au passage liquide → solide : la solidification.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'ébullition concerne le passage liquide → gaz, lors d'un chauffage.",
+        "2": "La condensation concerne le passage gaz → liquide."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q09",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "100 mL d'eau liquide donnent environ 109 mL de glace. Pour 200 mL d'eau liquide, on obtient environ :",
+      "choices": [
+        "218 mL",
+        "209 mL",
+        "200 mL",
+        "182 mL"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "218 mL",
+      "answer_kind": "QUANTITY",
+      "explanation": "Le volume de glace est proportionnel au volume d'eau : 2 × 109 = 218 mL.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a ajouté 9 mL au lieu de 2 × 9 mL.",
+        "2": "Le volume augmente lors de la solidification.",
+        "3": "Le volume augmente, il ne diminue pas."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.masse-changement-etat.q10",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Une casserole contient 1,2 kg d'eau. Après une ébullition, il reste 900 g d'eau liquide. Quelle masse d'eau s'est vaporisée ?",
+      "choices": [
+        "300 g",
+        "2,1 kg",
+        "900 g",
+        "1,1 kg"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "300 g",
+      "answer_kind": "QUANTITY",
+      "explanation": "1,2 kg = 1 200 g ; masse vaporisée = 1 200 − 900 = 300 g.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a additionné les deux masses.",
+        "2": "C'est la masse restante.",
+        "3": "On a retranché 0,1 kg sans convertir correctement."
+      },
+      "common_error_target": {
+        "3": "conversion kg / g"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q01",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Des dipôles qui forment une seule boucle avec le générateur sont branchés :",
+      "choices": [
+        "en série",
+        "en dérivation",
+        "en court-circuit"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "en série",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une seule boucle, sans nœud : les dipôles sont traversés l'un après l'autre, ils sont en série.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le montage en dérivation comporte plusieurs boucles.",
+        "2": "Un court-circuit relie deux bornes par un simple fil."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q02",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Dans un circuit en dérivation, si une lampe grille, les lampes des autres branches :",
+      "choices": [
+        "restent allumées",
+        "s'éteignent toutes",
+        "grillent aussi"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "restent allumées",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les autres boucles restent fermées : leurs lampes continuent de briller.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est ce qui se passe en série.",
+        "2": "Il n'y a aucune raison qu'elles grillent."
+      },
+      "common_error_target": {
+        "1": "confusion série / dérivation"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q03",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Un point d'un circuit relié à au moins trois fils s'appelle :",
+      "choices": [
+        "un nœud",
+        "une borne",
+        "une branche",
+        "une boucle"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un nœud",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un nœud est un point de jonction d'au moins trois fils : le courant s'y partage.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une borne appartient à un dipôle.",
+        "2": "Une branche est une portion de circuit entre deux nœuds.",
+        "3": "Une boucle est un chemin fermé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q04",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Les prises électriques d'une maison sont branchées :",
+      "choices": [
+        "en dérivation",
+        "en série",
+        "en court-circuit"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "en dérivation",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On peut utiliser un appareil sans les autres : les prises sont en dérivation.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Sinon, tous les appareils devraient fonctionner ensemble.",
+        "2": "Un court-circuit est dangereux."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q05",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Dans un circuit série, changer l'ordre des dipôles :",
+      "choices": [
+        "ne modifie pas le fonctionnement",
+        "change l'éclat des lampes",
+        "empêche le courant de circuler"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ne modifie pas le fonctionnement",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Dans une boucle unique, l'ordre des dipôles n'a pas d'influence sur le fonctionnement du circuit.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'éclat ne dépend pas de la position de la lampe dans la boucle.",
+        "2": "La boucle reste fermée."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q06",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Deux lampes sont branchées en dérivation sur une pile. Combien de boucles contenant la pile le circuit comporte-t-il ?",
+      "choices": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Chaque lampe forme avec la pile une boucle : il y a donc 2 boucles contenant la pile.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Ce serait un circuit série.",
+        "2": "Il n'y a que deux lampes.",
+        "3": "On a compté des boucles en double."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q07",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Une guirlande s'éteint entièrement quand une seule lampe est retirée. Ses lampes sont branchées :",
+      "choices": [
+        "en série",
+        "en dérivation",
+        "chacune sur sa propre pile"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "en série",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Retirer une lampe ouvre l'unique boucle : c'est un montage en série.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Les autres lampes resteraient allumées.",
+        "2": "Chaque lampe fonctionnerait indépendamment."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q08",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "On ajoute une troisième lampe identique en série dans un circuit qui en compte deux. L'éclat des lampes :",
+      "choices": [
+        "diminue",
+        "augmente",
+        "ne change pas"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "diminue",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Plus il y a de récepteurs en série, plus le courant dans la boucle est faible : les lampes brillent moins.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Ajouter une lampe n'ajoute pas de courant.",
+        "2": "Le courant dans la boucle diminue."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q09",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Pour commander toutes les lampes d'un montage en dérivation avec un seul interrupteur, on le place :",
+      "choices": [
+        "dans la branche principale",
+        "dans l'une des branches dérivées",
+        "seul dans une branche entre les nœuds"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "dans la branche principale",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Toutes les boucles passent par la branche principale : un interrupteur placé là les ouvre toutes.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Il ne commanderait qu'une lampe.",
+        "2": "Fermé, il court-circuiterait les lampes."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.5E.circuits-serie-derivation.q10",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "question": "Dans un circuit série avec deux lampes L1 et L2, un fil relie directement les deux bornes de L1. Alors :",
+      "choices": [
+        "L1 s'éteint et L2 brille davantage",
+        "L1 et L2 s'éteignent",
+        "L1 brille davantage",
+        "L2 s'éteint et L1 brille"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "L1 s'éteint et L2 brille davantage",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L1 est court-circuitée : le courant passe par le fil. Il ne reste que L2 dans la boucle, qui brille davantage.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "La boucle passant par L2 reste fermée.",
+        "2": "L1 n'est plus traversée par le courant.",
+        "3": "C'est L1 qui est court-circuitée, pas L2."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

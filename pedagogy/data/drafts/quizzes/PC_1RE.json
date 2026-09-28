@@ -1,0 +1,773 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q01",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "À l'équivalence d'un titrage, les réactifs titré et titrant ont été introduits :",
+      "choices": [
+        "dans les proportions stœchiométriques",
+        "tous les deux en excès",
+        "en volumes égaux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "dans les proportions stœchiométriques",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'équivalence correspond au changement de réactif limitant : les réactifs sont en proportions stœchiométriques.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "À l'équivalence, les deux réactifs sont entièrement consommés.",
+        "2": "Les volumes n'ont aucune raison d'être égaux."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q02",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Une solution de concentration 0,100 mol/L occupe un volume de 10,0 mL. Elle contient :",
+      "choices": [
+        "1,00 × 10^-3 mol",
+        "1,00 mol",
+        "1,00 × 10^-2 mol",
+        "0,100 mol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,00 × 10^-3 mol",
+      "answer_kind": "QUANTITY",
+      "explanation": "n = C × V = 0,100 × 10,0 × 10^-3 = 1,00 × 10^-3 mol.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Millilitres non convertis.",
+        "2": "Erreur de conversion.",
+        "3": "Volume pris égal à 1 L."
+      },
+      "common_error_target": {
+        "1": "mL non convertis"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q03",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Avant l'équivalence, le réactif limitant est :",
+      "choices": [
+        "le réactif titrant",
+        "le réactif titré",
+        "le solvant"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le réactif titrant",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque goutte de réactif titrant versée est entièrement consommée tant que l'équivalence n'est pas atteinte.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est le cas après l'équivalence.",
+        "2": "Le solvant n'est pas un réactif."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q04",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Pour la réaction A + 2 B → produits (A titré, B titrant), la relation à l'équivalence est :",
+      "choices": [
+        "n(A) = n(B) / 2",
+        "n(A) = 2 × n(B)",
+        "n(A) = n(B)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "n(A) = n(B) / 2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "n(A) / 1 = n(B) / 2 : il faut deux B pour un A.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Relation inversée.",
+        "2": "Coefficients ignorés."
+      },
+      "common_error_target": {
+        "1": "coefficient mal placé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q05",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Pour la réaction MnO4⁻(aq) + 5 Fe²⁺(aq) + 8 H⁺(aq) → Mn²⁺(aq) + 5 Fe³⁺(aq) + 4 H2O(l), on a versé 2,0 × 10^-4 mol d'ions MnO4⁻ à l'équivalence. La quantité initiale d'ions Fe²⁺ est :",
+      "choices": [
+        "1,0 × 10^-3 mol",
+        "4,0 × 10^-5 mol",
+        "2,0 × 10^-4 mol",
+        "1,6 × 10^-3 mol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,0 × 10^-3 mol",
+      "answer_kind": "QUANTITY",
+      "explanation": "n(Fe²⁺) = 5 × n(MnO4⁻) = 5 × 2,0 × 10^-4 = 1,0 × 10^-3 mol.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Division par 5 au lieu de multiplication.",
+        "2": "Coefficients ignorés.",
+        "3": "Coefficient de H⁺ utilisé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q06",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Pour la réaction I2(aq) + 2 S2O3²⁻(aq) → 2 I⁻(aq) + S4O6²⁻(aq), on a versé 6,0 × 10^-4 mol d'ions thiosulfate à l'équivalence. La quantité de diiode titrée est :",
+      "choices": [
+        "3,0 × 10^-4 mol",
+        "1,2 × 10^-3 mol",
+        "6,0 × 10^-4 mol",
+        "2,0 × 10^-4 mol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3,0 × 10^-4 mol",
+      "answer_kind": "QUANTITY",
+      "explanation": "n(I2) = n(S2O3²⁻) / 2 = 3,0 × 10^-4 mol.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Multiplication par 2.",
+        "2": "Coefficients ignorés.",
+        "3": "Division par 3."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q07",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Lors du titrage d'ions Fe²⁺ par des ions permanganate violets, l'équivalence est repérée par :",
+      "choices": [
+        "une teinte violette persistante",
+        "une décoloration définitive",
+        "un dégagement gazeux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une teinte violette persistante",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Après l'équivalence, les ions MnO4⁻ versés ne réagissent plus : leur couleur violette persiste.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La décoloration a lieu avant l'équivalence, goutte après goutte.",
+        "2": "Aucun gaz ne se forme."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q08",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "On titre 20,0 mL d'une solution A par une solution B à 0,050 mol/L (réaction mole à mole) ; VE = 12,0 mL. La concentration de A est :",
+      "choices": [
+        "3,0 × 10^-2 mol/L",
+        "8,3 × 10^-2 mol/L",
+        "6,0 × 10^-4 mol/L",
+        "0,60 mol/L"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3,0 × 10^-2 mol/L",
+      "answer_kind": "QUANTITY",
+      "explanation": "C(A) = C(B) × VE / V(A) = 0,050 × 12,0 / 20,0 = 3,0 × 10^-2 mol/L.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Volumes inversés.",
+        "2": "C'est une quantité de matière (en mol), pas une concentration.",
+        "3": "Division par le volume oubliée."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q09",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Après l'équivalence, le réactif titrant ajouté :",
+      "choices": [
+        "s'accumule dans le mélange",
+        "continue de réagir avec le réactif titré",
+        "disparaît instantanément"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "s'accumule dans le mélange",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le réactif titré étant épuisé, le réactif titrant ajouté ne réagit plus et s'accumule.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le réactif titré est épuisé.",
+        "2": "Il ne peut pas disparaître sans réagir."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.titrage-equivalence.q10",
+      "notion_id": "PC.1RE.CTM.etablir-la-relation-entre-les-quantites-de-matiere-de-reactifs-introdu",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Pour la réaction 2 MnO4⁻(aq) + 5 H2O2(aq) + 6 H⁺(aq) → 2 Mn²⁺(aq) + 5 O2(g) + 8 H2O(l), on a versé 4,0 × 10^-4 mol d'ions MnO4⁻ à l'équivalence. La quantité de H2O2 titrée est :",
+      "choices": [
+        "1,0 × 10^-3 mol",
+        "1,6 × 10^-4 mol",
+        "4,0 × 10^-4 mol",
+        "2,0 × 10^-3 mol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,0 × 10^-3 mol",
+      "answer_kind": "QUANTITY",
+      "explanation": "n(H2O2) / 5 = n(MnO4⁻) / 2, donc n(H2O2) = 5/2 × 4,0 × 10^-4 = 1,0 × 10^-3 mol.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Rapport inversé (2/5).",
+        "2": "Coefficients ignorés.",
+        "3": "Multiplication par 5 seulement."
+      },
+      "common_error_target": {
+        "1": "rapport des coefficients inversé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q01",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "L'énergie mécanique d'un système est :",
+      "choices": [
+        "Em = Ec + Epp",
+        "Em = Ec − Epp",
+        "Em = Ec × Epp",
+        "Em = Epp − Ec"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Em = Ec + Epp",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'énergie mécanique est la somme de l'énergie cinétique et de l'énergie potentielle de pesanteur.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Différence au lieu d'une somme.",
+        "2": "Produit sans signification.",
+        "3": "Différence au lieu d'une somme."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q02",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Un objet de 1,00 kg est situé à 10,0 m d'altitude (origine au sol ; g = 9,81 N/kg). Son énergie potentielle de pesanteur vaut :",
+      "choices": [
+        "98,1 J",
+        "9,81 J",
+        "981 J",
+        "10,0 J"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "98,1 J",
+      "answer_kind": "QUANTITY",
+      "explanation": "Epp = m g z = 1,00 × 9,81 × 10,0 = 98,1 J.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Altitude oubliée.",
+        "2": "Facteur 10 en trop.",
+        "3": "g oublié."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q03",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Sans frottement, pendant une chute libre, l'énergie mécanique :",
+      "choices": [
+        "reste constante",
+        "augmente",
+        "diminue"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "reste constante",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "En l'absence de frottements, l'énergie mécanique se conserve.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Aucune énergie n'est fournie.",
+        "2": "Aucune énergie n'est dissipée."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q04",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Un objet de 2,00 kg se déplace à 3,00 m/s. Son énergie cinétique vaut :",
+      "choices": [
+        "9,00 J",
+        "3,00 J",
+        "18,0 J",
+        "6,00 J"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9,00 J",
+      "answer_kind": "QUANTITY",
+      "explanation": "Ec = ½ × 2,00 × 3,00² = 9,00 J.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Vitesse non élevée au carré.",
+        "2": "Facteur ½ oublié.",
+        "3": "Produit m × v."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q05",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Un objet lâché sans vitesse de 5,00 m de hauteur (sans frottement, g = 9,81 N/kg) atteint le sol à :",
+      "choices": [
+        "9,90 m/s",
+        "98,1 m/s",
+        "49,1 m/s",
+        "7,00 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9,90 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "v = √(2 g h) = √(2 × 9,81 × 5,00) ≈ 9,90 m/s.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Racine carrée oubliée.",
+        "2": "Produit g × h.",
+        "3": "Facteur 2 oublié."
+      },
+      "common_error_target": {
+        "1": "racine oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q06",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Pour un pendule qui oscille sans frottement, au point le plus haut de l'oscillation, l'énergie cinétique est :",
+      "choices": [
+        "nulle",
+        "maximale",
+        "égale à la moitié de Em"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "nulle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Aux positions extrêmes, le pendule s'arrête avant de repartir : sa vitesse, donc Ec, est nulle.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Ec est maximale au point le plus bas.",
+        "2": "Aucune raison particulière."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q07",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "En présence de frottements, l'énergie mécanique d'un système :",
+      "choices": [
+        "diminue",
+        "se conserve",
+        "augmente"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "diminue",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les frottements dissipent de l'énergie (transfert thermique) : Em diminue.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Seulement sans frottement.",
+        "2": "Aucune énergie n'est fournie."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q08",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Une balle est lancée verticalement vers le haut à 10,0 m/s (sans frottement, g = 9,81 N/kg). Elle monte de :",
+      "choices": [
+        "5,10 m",
+        "1,02 m",
+        "10,2 m",
+        "0,510 m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5,10 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "h = v² / (2 g) = 100 ÷ 19,62 ≈ 5,10 m.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Vitesse non élevée au carré.",
+        "2": "Facteur 2 oublié.",
+        "3": "Erreur de puissance de 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q09",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Sans frottement et sans vitesse initiale, si la hauteur de chute devient deux fois plus grande, l'énergie cinétique au sol :",
+      "choices": [
+        "est multipliée par 2",
+        "est multipliée par 4",
+        "ne change pas"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "est multipliée par 2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ec(sol) = m g h est proportionnelle à h.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Confusion avec l'effet d'un doublement de vitesse.",
+        "2": "Ec dépend de h."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.energie-mecanique.q10",
+      "notion_id": "PC.1RE.ENERGIE.exploiter-la-conservation-de-lenergie-mecanique-dans-des-cas-simples-c",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Sans frottement et sans vitesse initiale, si l'on double la hauteur de chute, la vitesse au sol est multipliée par :",
+      "choices": [
+        "√2",
+        "2",
+        "4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "√2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "v = √(2 g h) : si h est multipliée par 2, v est multipliée par √2.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "La racine carrée a été oubliée.",
+        "2": "Confusion avec v²."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q01",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "La longueur d'onde s'exprime en :",
+      "choices": [
+        "mètres",
+        "secondes",
+        "hertz",
+        "mètres par seconde"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "mètres",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "λ est une distance : elle s'exprime en mètres.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Unité de la période.",
+        "2": "Unité de la fréquence.",
+        "3": "Unité de la célérité."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q02",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Un son se propage à 340 m/s avec une période de 2,0 ms. Sa longueur d'onde vaut :",
+      "choices": [
+        "0,68 m",
+        "680 m",
+        "170 m",
+        "0,0059 m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,68 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "λ = v × T = 340 × 2,0 × 10^-3 = 0,68 m.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Millisecondes non converties.",
+        "2": "Division v / T sans conversion.",
+        "3": "Quotient T / v."
+      },
+      "common_error_target": {
+        "1": "ms non converties"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q03",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "La période T d'une onde caractérise sa périodicité :",
+      "choices": [
+        "temporelle",
+        "spatiale",
+        "énergétique"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "temporelle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "T est une durée : périodicité temporelle. λ caractérise la périodicité spatiale.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la longueur d'onde qui caractérise la périodicité spatiale.",
+        "2": "Terme sans rapport."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q04",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Un son de 500 Hz se propage dans l'air à 340 m/s. Sa longueur d'onde vaut :",
+      "choices": [
+        "0,68 m",
+        "1,47 m",
+        "170000 m",
+        "340 m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,68 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "λ = v / f = 340 ÷ 500 = 0,68 m.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Quotient f / v.",
+        "2": "Produit v × f.",
+        "3": "Célérité prise pour λ."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q05",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Une onde de fréquence 50 Hz a une longueur d'onde de 2,0 m. Sa célérité vaut :",
+      "choices": [
+        "100 m/s",
+        "25 m/s",
+        "0,04 m/s",
+        "52 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "100 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "v = λ × f = 2,0 × 50 = 100 m/s.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Quotient f / λ.",
+        "2": "Quotient λ / f.",
+        "3": "Somme."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q06",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Quand une onde passe d'un milieu à un autre, la grandeur qui ne change pas est :",
+      "choices": [
+        "la fréquence",
+        "la célérité",
+        "la longueur d'onde"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la fréquence",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La fréquence est imposée par la source ; célérité et longueur d'onde dépendent du milieu.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La célérité dépend du milieu.",
+        "2": "λ = v / f change avec v."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q07",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Dans un même milieu, si la fréquence d'une onde est multipliée par 3, sa longueur d'onde :",
+      "choices": [
+        "est divisée par 3",
+        "est multipliée par 3",
+        "ne change pas"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "est divisée par 3",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "λ = v / f avec v constante : λ est inversement proportionnelle à f.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Sens de variation inversé.",
+        "2": "λ dépend de f."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q08",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Un ultrason de 40 kHz se propage dans l'air à 340 m/s. Sa longueur d'onde vaut :",
+      "choices": [
+        "8,5 mm",
+        "8,5 m",
+        "13,6 km",
+        "0,85 mm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "8,5 mm",
+      "answer_kind": "QUANTITY",
+      "explanation": "λ = 340 ÷ 40 000 = 8,5 × 10^-3 m = 8,5 mm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Kilohertz non convertis.",
+        "2": "Produit v × f.",
+        "3": "Erreur de conversion."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q09",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "Sur un schéma, 4 longueurs d'onde occupent 1,0 m. La longueur d'onde vaut :",
+      "choices": [
+        "25 cm",
+        "4,0 m",
+        "1,0 m",
+        "40 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "25 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "λ = 1,0 m ÷ 4 = 0,25 m = 25 cm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Multiplication au lieu de division.",
+        "2": "Distance totale prise pour λ.",
+        "3": "Erreur de calcul."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.1RE.ondes-periodiques.q10",
+      "notion_id": "PC.1RE.OS.justifier-et-exploiter-la-relation-entre-periode-longueur-d-onde-et-ce",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "question": "En échographie, une onde de longueur d'onde 0,50 mm se propage à 1 500 m/s. Sa fréquence vaut :",
+      "choices": [
+        "3,0 MHz",
+        "0,75 Hz",
+        "3,0 kHz",
+        "0,33 MHz"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3,0 MHz",
+      "answer_kind": "QUANTITY",
+      "explanation": "f = v / λ = 1 500 ÷ 5,0 × 10^-4 = 3,0 × 10^6 Hz = 3,0 MHz.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Produit v × λ.",
+        "2": "Millimètres non convertis.",
+        "3": "Quotient inversé et erreur de puissance de 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

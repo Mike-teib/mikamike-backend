@@ -1,0 +1,775 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q01",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Le pH d'une solution telle que [H3O+] = 1,0 × 10^-6 mol/L vaut :",
+      "choices": [
+        "6,0",
+        "−6,0",
+        "0,6",
+        "1,0"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6,0",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "pH = −log(1,0 × 10^-6) = 6,0.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Signe « − » oublié.",
+        "2": "Confusion avec 10^-6 lu à l'envers.",
+        "3": "Mantisse prise pour le pH."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q02",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "À 25 °C, une solution de pH 9,5 est :",
+      "choices": [
+        "basique",
+        "acide",
+        "neutre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "basique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "À 25 °C, une solution est basique si pH > 7.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une solution acide a un pH < 7.",
+        "2": "Une solution neutre a un pH = 7."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q03",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "La relation permettant de calculer [H3O+] à partir du pH est :",
+      "choices": [
+        "[H3O+] = c° × 10^(−pH)",
+        "[H3O+] = c° × 10^(pH)",
+        "[H3O+] = −log(pH)",
+        "[H3O+] = c° × pH"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "[H3O+] = c° × 10^(−pH)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "C'est la réciproque de pH = −log([H3O+] / c°).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Signe de l'exposant oublié.",
+        "2": "Confusion avec la définition du pH.",
+        "3": "Relation non logarithmique."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q04",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Quand on dilue 100 fois une solution d'acide fort, son pH :",
+      "choices": [
+        "augmente de 2",
+        "diminue de 2",
+        "est multiplié par 100"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "augmente de 2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "[H3O+] est divisée par 100 = 10^2 : le pH augmente de 2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La dilution rend la solution moins acide.",
+        "2": "Le pH n'est pas proportionnel à la concentration."
+      },
+      "common_error_target": {
+        "2": "pH vu comme proportionnel à la concentration"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q05",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Une solution a un pH de 3,0. Sa concentration en ions oxonium vaut :",
+      "choices": [
+        "1,0 × 10^-3 mol/L",
+        "1,0 × 10^3 mol/L",
+        "3,0 × 10^-1 mol/L",
+        "−3,0 mol/L"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,0 × 10^-3 mol/L",
+      "answer_kind": "QUANTITY",
+      "explanation": "[H3O+] = 10^(−3,0) = 1,0 × 10^-3 mol/L.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Signe de l'exposant oublié.",
+        "2": "Confusion entre pH et concentration.",
+        "3": "Une concentration est positive."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q06",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Une solution a une concentration [H3O+] = 4,0 × 10^-3 mol/L. Son pH vaut environ :",
+      "choices": [
+        "2,4",
+        "3,0",
+        "−2,4",
+        "0,60"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2,4",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "pH = −log(4,0 × 10^-3) ≈ 2,4.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Seul l'exposant a été pris en compte.",
+        "2": "Signe « − » oublié.",
+        "3": "log(4,0) a été calculé seul."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q07",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Le pH d'une solution passe de 3 à 5. Sa concentration en ions oxonium a été :",
+      "choices": [
+        "divisée par 100",
+        "divisée par 2",
+        "multipliée par 100"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "divisée par 100",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque unité de pH correspond à un facteur 10 : 10^2 = 100 ; le pH augmente, donc [H3O+] diminue.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Confusion entre la différence des pH et le facteur.",
+        "2": "Sens de variation inversé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q08",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Une solution d'acide chlorhydrique de concentration apportée 2,0 × 10^-2 mol/L a un pH de :",
+      "choices": [
+        "1,7",
+        "2,0",
+        "−1,7",
+        "2,3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,7",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Acide fort : [H3O+] = 2,0 × 10^-2 mol/L ; pH = −log(2,0 × 10^-2) ≈ 1,7.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Seul l'exposant a été pris en compte.",
+        "2": "Signe « − » oublié.",
+        "3": "log(2) ajouté au lieu d'être retranché."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q09",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Parmi ces solutions, la plus acide est celle dont le pH vaut :",
+      "choices": [
+        "1,5",
+        "4,8",
+        "7,0",
+        "12,1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,5",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Plus le pH est faible, plus [H3O+] est grande, donc plus la solution est acide.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "pH plus élevé, donc moins acide.",
+        "2": "Solution neutre à 25 °C.",
+        "3": "Solution basique."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.ph-oxonium.q10",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "On ajoute de l'eau à 10,0 mL d'acide chlorhydrique de pH 1,0 jusqu'à obtenir 1,00 L. Le pH de la solution obtenue vaut :",
+      "choices": [
+        "3,0",
+        "2,0",
+        "1,0",
+        "0,010"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3,0",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le volume est multiplié par 100, donc [H3O+] est divisée par 100 : le pH augmente de 2 et vaut 3,0.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Facteur 10 au lieu de 100.",
+        "2": "La dilution modifie le pH.",
+        "3": "pH divisé par 100 au lieu de [H3O+]."
+      },
+      "common_error_target": {
+        "3": "pH divisé par le facteur de dilution"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q01",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Pour un projectile soumis à son seul poids, la deuxième loi de Newton donne :",
+      "choices": [
+        "a = g",
+        "a = 0",
+        "v = g t seulement si m = 1 kg"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "a = g",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "m a = m g, la masse se simplifie : a = g.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Les forces ne se compensent pas.",
+        "2": "La masse se simplifie toujours."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q02",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Avec un axe Oz vertical orienté vers le haut, la coordonnée az de l'accélération d'un projectile vaut :",
+      "choices": [
+        "−g",
+        "+g",
+        "0"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "−g",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le poids est vertical vers le bas, opposé à l'axe Oz : az = −g.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Signe incorrect avec l'axe orienté vers le haut.",
+        "2": "C'est ax qui est nulle."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q03",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Un objet lâché sans vitesse initiale (sans frottement, g = 9,81 m/s²) a, au bout de 2,00 s, une vitesse de valeur :",
+      "choices": [
+        "19,6 m/s",
+        "9,81 m/s",
+        "4,91 m/s",
+        "39,2 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "19,6 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "v = g t = 9,81 × 2,00 ≈ 19,6 m/s.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Durée oubliée.",
+        "2": "Division par 2 au lieu de multiplication.",
+        "3": "Durée élevée au carré."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q04",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Pour un projectile lancé avec une vitesse v0 faisant l'angle α avec l'horizontale, vx(t) vaut :",
+      "choices": [
+        "v0 cos α",
+        "v0 sin α",
+        "−g t + v0 cos α"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "v0 cos α",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "ax = 0, donc vx est constante et égale à sa valeur initiale v0 cos α.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est la composante verticale initiale.",
+        "2": "Il n'y a pas d'accélération horizontale."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q05",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Un objet lâché sans vitesse initiale (sans frottement, g = 9,81 m/s²) descend en 1,00 s de :",
+      "choices": [
+        "4,91 m",
+        "9,81 m",
+        "19,6 m",
+        "2,45 m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4,91 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "h = ½ g t² = ½ × 9,81 × 1,00² ≈ 4,91 m.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Facteur ½ oublié.",
+        "2": "Multiplication par 2.",
+        "3": "Division par 4."
+      },
+      "common_error_target": {
+        "1": "facteur ½ oublié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q06",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "La durée de chute d'une bille lancée horizontalement depuis une table dépend :",
+      "choices": [
+        "de la hauteur de la table",
+        "de la vitesse horizontale initiale",
+        "de la masse de la bille"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de la hauteur de la table",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Verticalement, le mouvement est le même qu'une chute sans vitesse initiale : t = √(2 h / g).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "vx n'intervient pas dans z(t).",
+        "2": "La masse se simplifie dans la deuxième loi de Newton."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q07",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Au sommet de la trajectoire d'un projectile lancé obliquement, on a :",
+      "choices": [
+        "vz = 0",
+        "vx = 0",
+        "a = 0"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "vz = 0",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La composante verticale de la vitesse s'annule au sommet ; vx reste constante et a = g.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "vx est constante et non nulle.",
+        "2": "L'accélération vaut toujours g."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q08",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Une balle lancée verticalement vers le haut à 9,81 m/s (sans frottement, g = 9,81 m/s²) atteint son sommet au bout de :",
+      "choices": [
+        "1,00 s",
+        "96,2 s",
+        "0,500 s",
+        "2,00 s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,00 s",
+      "answer_kind": "QUANTITY",
+      "explanation": "vz = −g t + v0 = 0 pour t = v0 / g = 1,00 s.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Produit v0 × g.",
+        "2": "Facteur ½ ajouté à tort.",
+        "3": "Durée de l'aller-retour."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q09",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Sans frottement, la trajectoire d'un projectile lancé obliquement est :",
+      "choices": [
+        "une parabole",
+        "une droite",
+        "un cercle"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une parabole",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "En éliminant t entre x(t) et z(t), on obtient z polynôme de degré 2 en x.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Seulement pour un lancer vertical.",
+        "2": "Le poids est une force constante."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.equations-horaires.q10",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Deux balles sont lâchées à la même date d'une même hauteur : l'une sans vitesse, l'autre avec une vitesse horizontale. Sans frottement :",
+      "choices": [
+        "elles touchent le sol à la même date",
+        "la balle lancée arrive la première",
+        "la balle lâchée arrive la première"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "elles touchent le sol à la même date",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "z(t) = −½ g t² + h est la même pour les deux : la vitesse horizontale n'influe pas sur le mouvement vertical.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "vx n'intervient pas dans z(t).",
+        "2": "Les mouvements verticaux sont identiques."
+      },
+      "common_error_target": {
+        "1": "mouvements horizontal et vertical confondus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q01",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "La loi de décroissance radioactive s'écrit :",
+      "choices": [
+        "N(t) = N0 e^(−λ t)",
+        "N(t) = N0 e^(λ t)",
+        "N(t) = N0 − λ t",
+        "N(t) = λ N0 t"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "N(t) = N0 e^(−λ t)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le nombre de noyaux radioactifs décroît exponentiellement avec la constante radioactive λ.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Croissance exponentielle au lieu de décroissance.",
+        "2": "Décroissance linéaire.",
+        "3": "Loi de proportionnalité sans fondement."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q02",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Au bout d'une demi-vie, la proportion de noyaux radioactifs restants est :",
+      "choices": [
+        "50 %",
+        "0 %",
+        "25 %",
+        "100 %"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "50 %",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Par définition de la demi-vie, la moitié des noyaux initiaux reste.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Il faudrait une durée infinie.",
+        "2": "C'est au bout de deux demi-vies.",
+        "3": "Des noyaux se sont désintégrés."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q03",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "L'unité de l'activité d'un échantillon radioactif est :",
+      "choices": [
+        "le becquerel",
+        "le sievert",
+        "le gray",
+        "le hertz"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le becquerel",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "1 Bq = 1 désintégration par seconde.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Unité de dose efficace.",
+        "2": "Unité de dose absorbée.",
+        "3": "Unité de fréquence (bien que homogène)."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q04",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "La relation entre la demi-vie et la constante radioactive est :",
+      "choices": [
+        "t½ = ln 2 / λ",
+        "t½ = λ / ln 2",
+        "t½ = λ × ln 2",
+        "t½ = 1 / (2 λ)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "t½ = ln 2 / λ",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "N(t½) = N0 / 2 donne e^(−λ t½) = 1/2, soit t½ = ln 2 / λ.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Relation inversée.",
+        "2": "Produit au lieu d'un quotient.",
+        "3": "Confusion entre ln 2 et 2."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q05",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Un échantillon a une demi-vie de 10 min. Au bout de 30 min, il reste :",
+      "choices": [
+        "1/8 des noyaux",
+        "1/3 des noyaux",
+        "1/6 des noyaux",
+        "aucun noyau"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/8 des noyaux",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "30 min = 3 demi-vies : il reste N0 / 2³ = N0 / 8.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Division par le nombre de demi-vies.",
+        "2": "Division par 2 × 3.",
+        "3": "La décroissance n'atteint jamais zéro."
+      },
+      "common_error_target": {
+        "1": "division par le nombre de demi-vies"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q06",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "L'activité d'un échantillon vaut A = λ N. Si N est divisé par 2, l'activité :",
+      "choices": [
+        "est divisée par 2",
+        "ne change pas",
+        "est multipliée par 2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "est divisée par 2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "λ est une constante : l'activité est proportionnelle à N.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "A dépend de N.",
+        "2": "Sens de variation inversé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q07",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "La demi-vie d'un échantillon radioactif :",
+      "choices": [
+        "ne dépend que du type de noyau",
+        "dépend de la masse de l'échantillon",
+        "diminue au cours du temps"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ne dépend que du type de noyau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "t½ = ln 2 / λ et λ caractérise le noyau.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "t½ ne dépend pas de N0.",
+        "2": "t½ est une constante."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q08",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "Un noyau a une constante radioactive λ = 1,0 × 10^-3 s⁻¹. Sa demi-vie vaut environ :",
+      "choices": [
+        "6,9 × 10^2 s",
+        "1,0 × 10^3 s",
+        "6,9 × 10^-4 s",
+        "1,4 × 10^3 s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6,9 × 10^2 s",
+      "answer_kind": "QUANTITY",
+      "explanation": "t½ = ln 2 / λ = 0,693 ÷ 1,0 × 10^-3 ≈ 6,9 × 10^2 s.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "ln 2 oublié.",
+        "2": "Produit λ × ln 2.",
+        "3": "Calcul erroné 1 / (ln 2 × λ)."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q09",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "L'activité d'une source passe de 1 600 Bq à 200 Bq en 15 jours. Sa demi-vie vaut :",
+      "choices": [
+        "5 jours",
+        "7,5 jours",
+        "15 jours",
+        "1,9 jour"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5 jours",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "1 600 → 800 → 400 → 200 : 3 demi-vies en 15 jours, donc t½ = 5 jours.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Deux demi-vies comptées.",
+        "2": "Une seule demi-vie comptée.",
+        "3": "Division par 8 au lieu de 3."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.TLE.decroissance-radioactive.q10",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "question": "En datation au carbone 14 (t½ = 5 730 ans), un échantillon dont l'activité vaut 12,5 % de l'activité initiale a un âge d'environ :",
+      "choices": [
+        "17 190 ans",
+        "11 460 ans",
+        "716 ans",
+        "45 840 ans"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "17 190 ans",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "12,5 % = 1/8 = 1/2³ : 3 demi-vies, soit 3 × 5 730 = 17 190 ans.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Deux demi-vies seulement.",
+        "2": "Division de t½ par 8.",
+        "3": "Multiplication de t½ par 8."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,894 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATHS",
+  "level": "4E",
+  "course": "COMMON",
+  "generated_by": "agent-A-maths-candidates",
+  "disclaimer": "Notions CANDIDATES reconstituées de mémoire (connaissance générale des programmes), toutes UNPROVEN / CANDIDATE_UNVERIFIED : ce ne sont PAS des extraits officiels. Aucun libellé officiel n'est stocké. À vérifier contre la source officielle attendue avant toute production de contenu.",
+  "notions": [
+    {
+      "notion_id": "MATHS.4E.NC.multiplication-et-division-de-nombres-relatifs",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Nombres relatifs",
+      "title": "Multiplication et division de nombres relatifs",
+      "official_wording": null,
+      "normalized_title": "multiplication et division de nombres relatifs",
+      "prerequisites": [
+        "MATHS.5E.NC.addition-et-soustraction-de-nombres-relatifs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Multiplier et diviser des nombres relatifs"
+      ],
+      "expected_skills": [
+        "Appliquer la règle des signes",
+        "Déterminer le signe d'un produit de plusieurs facteurs"
+      ],
+      "common_mistakes": [
+        "Appliquer la règle des signes à une somme",
+        "Compter mal le nombre de facteurs négatifs"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.NC.multiplication-et-division-de-fractions",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Fractions",
+      "title": "Multiplication et division de fractions",
+      "official_wording": null,
+      "normalized_title": "multiplication et division de fractions",
+      "prerequisites": [
+        "MATHS.5E.NC.addition-et-soustraction-de-fractions"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Multiplier et diviser des fractions",
+        "Calculer une fraction d'une quantité"
+      ],
+      "expected_skills": [
+        "Diviser par une fraction en multipliant par son inverse",
+        "Simplifier avant de multiplier"
+      ],
+      "common_mistakes": [
+        "Réduire au même dénominateur avant de multiplier",
+        "Inverser la mauvaise fraction dans une division"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.NC.puissances",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Puissances",
+      "title": "Puissances",
+      "official_wording": null,
+      "normalized_title": "puissances",
+      "prerequisites": [
+        "MATHS.4E.NC.multiplication-et-division-de-nombres-relatifs",
+        "MATHS.5E.NC.priorites-operatoires"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Comprendre la notation $a^n$ et calculer avec des puissances d'exposant entier"
+      ],
+      "expected_skills": [
+        "Calculer $a^n$ et $a^{-n}$",
+        "Utiliser les règles $a^m \\times a^n = a^{m+n}$"
+      ],
+      "common_mistakes": [
+        "Calculer $2^3 = 6$",
+        "Confondre $(-2)^2$ et $-2^2$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.NC.puissances-de-10",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Puissances",
+      "title": "Puissances de 10",
+      "official_wording": null,
+      "normalized_title": "puissances de 10",
+      "prerequisites": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.6E.NC.nombres-decimaux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Utiliser les puissances de 10 d'exposant positif ou négatif"
+      ],
+      "expected_skills": [
+        "Écrire $10^{-3} = \\frac{1}{1000} = 0{,}001$",
+        "Relier puissances de 10 et préfixes (kilo, milli, micro)"
+      ],
+      "common_mistakes": [
+        "Croire que $10^{-3}$ est négatif",
+        "Compter mal les zéros ou les décimales"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.NC.notation-scientifique",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Puissances",
+      "title": "Notation scientifique",
+      "official_wording": null,
+      "normalized_title": "notation scientifique",
+      "prerequisites": [
+        "MATHS.4E.NC.puissances-de-10"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Écrire un nombre en notation scientifique et comparer des ordres de grandeur"
+      ],
+      "expected_skills": [
+        "Écrire $a \\times 10^n$ avec $1 \\le a < 10$",
+        "Calculer un produit en notation scientifique"
+      ],
+      "common_mistakes": [
+        "Écrire $45 \\times 10^3$ comme notation scientifique",
+        "Ajuster la mantisse sans corriger l'exposant"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.NC.calcul-litteral",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Calcul littéral",
+      "title": "Calcul littéral",
+      "official_wording": null,
+      "normalized_title": "calcul littéral",
+      "prerequisites": [
+        "MATHS.5E.NC.expressions-litterales",
+        "MATHS.4E.NC.multiplication-et-division-de-nombres-relatifs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Développer, réduire et factoriser des expressions simples"
+      ],
+      "expected_skills": [
+        "Utiliser $k(a+b) = ka + kb$",
+        "Développer $(a+b)(c+d)$",
+        "Réduire une expression"
+      ],
+      "common_mistakes": [
+        "Écrire $3x + 2 = 5x$",
+        "Oublier de distribuer le signe « − » devant une parenthèse"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.NC.equations-du-premier-degre",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Équations",
+      "title": "Équations du premier degré",
+      "official_wording": null,
+      "normalized_title": "équations du premier degré",
+      "prerequisites": [
+        "MATHS.4E.NC.calcul-litteral",
+        "MATHS.5E.NC.tester-une-egalite"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Résoudre une équation du premier degré à une inconnue",
+        "Mettre un problème en équation"
+      ],
+      "expected_skills": [
+        "Isoler l'inconnue par opérations sur les deux membres",
+        "Vérifier une solution"
+      ],
+      "common_mistakes": [
+        "Changer de membre sans changer le signe",
+        "Diviser par le coefficient d'un seul côté"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.OGD.quatrieme-proportionnelle-et-produit-en-croix",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et gestion de données, fonctions",
+      "domain_code": "OGD",
+      "chapter": "Proportionnalité",
+      "title": "Quatrième proportionnelle et produit en croix",
+      "official_wording": null,
+      "normalized_title": "quatrième proportionnelle et produit en croix",
+      "prerequisites": [
+        "MATHS.5E.OGD.proportionnalite"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Calculer une quatrième proportionnelle par égalité des produits en croix"
+      ],
+      "expected_skills": [
+        "Reconnaître une proportionnalité à partir d'un tableau",
+        "Appliquer le produit en croix"
+      ],
+      "common_mistakes": [
+        "Appliquer le produit en croix à une situation non proportionnelle",
+        "Mal placer les valeurs dans le tableau"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.OGD.pourcentages-d-evolution",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et gestion de données, fonctions",
+      "domain_code": "OGD",
+      "chapter": "Proportionnalité",
+      "title": "Pourcentages d'évolution",
+      "official_wording": null,
+      "normalized_title": "pourcentages d'évolution",
+      "prerequisites": [
+        "MATHS.5E.OGD.proportionnalite"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Calculer une augmentation ou une diminution en pourcentage"
+      ],
+      "expected_skills": [
+        "Utiliser un coefficient multiplicateur",
+        "Retrouver un pourcentage d'évolution"
+      ],
+      "common_mistakes": [
+        "Additionner deux pourcentages successifs",
+        "Calculer le pourcentage par rapport à la valeur finale"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.OGD.mediane-et-etendue",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et gestion de données, fonctions",
+      "domain_code": "OGD",
+      "chapter": "Statistiques",
+      "title": "Médiane et étendue",
+      "official_wording": null,
+      "normalized_title": "médiane et étendue",
+      "prerequisites": [
+        "MATHS.5E.OGD.statistiques-effectifs-frequences-et-moyenne"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Déterminer la médiane et l'étendue d'une série"
+      ],
+      "expected_skills": [
+        "Ranger les valeurs avant de chercher la médiane",
+        "Interpréter médiane et moyenne"
+      ],
+      "common_mistakes": [
+        "Prendre la valeur du milieu sans ranger la série",
+        "Confondre médiane et moyenne"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.OGD.calcul-de-probabilites",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et gestion de données, fonctions",
+      "domain_code": "OGD",
+      "chapter": "Probabilités",
+      "title": "Calcul de probabilités",
+      "official_wording": null,
+      "normalized_title": "calcul de probabilités",
+      "prerequisites": [
+        "MATHS.5E.OGD.initiation-aux-probabilites"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer des probabilités d'événements, y compris contraires"
+      ],
+      "expected_skills": [
+        "Utiliser $P(\\bar{A}) = 1 - P(A)$",
+        "Modéliser par un tableau ou un arbre simple"
+      ],
+      "common_mistakes": [
+        "Additionner les probabilités d'événements non incompatibles",
+        "Oublier des issues dans le décompte"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.GM.vitesse-moyenne",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Grandeurs et mesures",
+      "domain_code": "GM",
+      "chapter": "Grandeurs composées",
+      "title": "Vitesse moyenne",
+      "official_wording": null,
+      "normalized_title": "vitesse moyenne",
+      "prerequisites": [
+        "MATHS.6E.GM.conversions-d-unites",
+        "MATHS.5E.OGD.proportionnalite"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Calculer une vitesse moyenne, une distance ou une durée"
+      ],
+      "expected_skills": [
+        "Utiliser $v = \\frac{d}{t}$",
+        "Convertir km/h en m/s"
+      ],
+      "common_mistakes": [
+        "Écrire $1\\ \\text{h}\\ 15\\ \\text{min} = 1{,}15\\ \\text{h}$",
+        "Multiplier par 3,6 dans le mauvais sens"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.GM.volume-de-la-pyramide-et-du-cone",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Grandeurs et mesures",
+      "domain_code": "GM",
+      "chapter": "Volumes",
+      "title": "Volume de la pyramide et du cône",
+      "official_wording": null,
+      "normalized_title": "volume de la pyramide et du cône",
+      "prerequisites": [
+        "MATHS.5E.GM.volume-du-prisme-droit-et-du-cylindre"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer le volume d'une pyramide et d'un cône de révolution"
+      ],
+      "expected_skills": [
+        "Utiliser $V = \\frac{1}{3} \\mathcal{A}_{\\text{base}} \\times h$"
+      ],
+      "common_mistakes": [
+        "Oublier le facteur $\\frac{1}{3}$",
+        "Utiliser l'apothème ou la génératrice à la place de la hauteur"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.EG.theoreme-de-pythagore",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Triangle rectangle",
+      "title": "Théorème de Pythagore",
+      "official_wording": null,
+      "normalized_title": "théorème de pythagore",
+      "prerequisites": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.5E.EG.somme-des-angles-d-un-triangle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Calculer une longueur dans un triangle rectangle avec le théorème de Pythagore"
+      ],
+      "expected_skills": [
+        "Identifier l'hypoténuse",
+        "Écrire l'égalité et calculer une racine carrée"
+      ],
+      "common_mistakes": [
+        "Additionner les carrés en prenant l'hypoténuse comme un côté de l'angle droit",
+        "Écrire $\\sqrt{a^2 + b^2} = a + b$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.EG.reciproque-du-theoreme-de-pythagore",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Triangle rectangle",
+      "title": "Réciproque du théorème de Pythagore",
+      "official_wording": null,
+      "normalized_title": "réciproque du théorème de pythagore",
+      "prerequisites": [
+        "MATHS.4E.EG.theoreme-de-pythagore"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Démontrer qu'un triangle est rectangle ou ne l'est pas"
+      ],
+      "expected_skills": [
+        "Comparer le carré du plus grand côté à la somme des carrés des deux autres",
+        "Rédiger la conclusion avec la réciproque ou la contraposée"
+      ],
+      "common_mistakes": [
+        "Utiliser le théorème direct pour prouver qu'un triangle est rectangle",
+        "Conclure sur des valeurs arrondies"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.EG.theoreme-de-thales",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Configurations",
+      "title": "Théorème de Thalès",
+      "official_wording": null,
+      "normalized_title": "théorème de thalès",
+      "prerequisites": [
+        "MATHS.4E.OGD.quatrieme-proportionnelle-et-produit-en-croix",
+        "MATHS.5E.EG.angles-et-parallelisme"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Calculer des longueurs dans une configuration de triangles emboîtés"
+      ],
+      "expected_skills": [
+        "Écrire l'égalité des trois rapports",
+        "Utiliser le produit en croix"
+      ],
+      "common_mistakes": [
+        "Mélanger les côtés des deux triangles dans les rapports",
+        "Appliquer le théorème sans droites parallèles"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.EG.translations",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Espace et géométrie",
+      "domain_code": "EG",
+      "chapter": "Transformations",
+      "title": "Translations",
+      "official_wording": null,
+      "normalized_title": "translations",
+      "prerequisites": [
+        "MATHS.5E.EG.parallelogramme"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Construire l'image d'une figure par une translation"
+      ],
+      "expected_skills": [
+        "Utiliser un parallélogramme pour construire l'image d'un point"
+      ],
+      "common_mistakes": [
+        "Déplacer la figure dans la mauvaise direction ou le mauvais sens",
+        "Confondre translation et symétrie centrale"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.4E.AP.variables-et-sous-programmes",
+      "subject": "MATHS",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Algorithmique et programmation",
+      "domain_code": "AP",
+      "chapter": "Programmation",
+      "title": "Variables et sous-programmes",
+      "official_wording": null,
+      "normalized_title": "variables et sous-programmes",
+      "prerequisites": [
+        "MATHS.5E.AP.boucles-et-instructions-conditionnelles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Utiliser des variables et décomposer un problème en sous-programmes (blocs personnalisés)"
+      ],
+      "expected_skills": [
+        "Créer et modifier une variable",
+        "Définir un bloc avec paramètre"
+      ],
+      "common_mistakes": [
+        "Réinitialiser une variable à l'intérieur de la boucle",
+        "Confondre valeur et nom de la variable"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Doute spécifique : le cycle 4 est un programme de cycle ; la répartition 5e/4e/3e suit les repères annuels de progression (à confirmer).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

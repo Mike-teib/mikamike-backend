@@ -1,0 +1,814 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q01",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Un tamis sert à séparer…",
+      "choices": [
+        "des solides de tailles différentes",
+        "du sel dissous dans l'eau",
+        "du sucre dissous dans l'eau"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "des solides de tailles différentes",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le tamis retient les solides plus gros que ses trous et laisse passer les plus fins.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le sel dissous passe à travers tous les trous.",
+        "2": "Le sucre dissous passe aussi à travers tous les trous."
+      },
+      "common_error_target": {
+        "1": "croire qu'on peut tamiser un solide dissous"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q02",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Laisser reposer un mélange pour que les solides tombent au fond, c'est…",
+      "choices": [
+        "décantation",
+        "filtration",
+        "tamisage"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "décantation",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La décantation consiste à laisser reposer le mélange.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La filtration utilise un filtre.",
+        "2": "Le tamisage utilise un tamis."
+      },
+      "common_error_target": {
+        "1": "confondre décantation et filtration"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q03",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Faire passer un mélange à travers un papier-filtre, c'est…",
+      "choices": [
+        "filtration",
+        "décantation",
+        "tamisage"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "filtration",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Faire passer un mélange à travers un filtre, c'est une filtration.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La décantation ne demande pas de filtre.",
+        "2": "Le tamisage utilise un tamis à trous visibles."
+      },
+      "common_error_target": {
+        "1": "confondre filtration et décantation"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q04",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Pour séparer des cailloux et du sable sec, on fait…",
+      "choices": [
+        "un tamisage",
+        "une filtration",
+        "une décantation"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un tamisage",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Cailloux et sable sont deux solides de tailles différentes : on les sépare par tamisage.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La filtration sert pour un solide dans un liquide.",
+        "2": "La décantation se fait dans un liquide."
+      },
+      "common_error_target": {
+        "1": "utiliser un filtre pour des solides secs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q05",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Après une filtration d'eau boueuse, la terre reste…",
+      "choices": [
+        "dans le filtre",
+        "dans le filtrat",
+        "au-dessus de l'entonnoir"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "dans le filtre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les particules de terre ne traversent pas le papier-filtre.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le filtrat est le liquide qui a traversé ; la terre n'y est plus.",
+        "2": "La terre ne flotte pas au-dessus de l'entonnoir."
+      },
+      "common_error_target": {
+        "1": "confondre filtrat et résidu"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q06",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Le sel dissous dans l'eau…",
+      "choices": [
+        "traverse le filtre",
+        "reste dans le filtre",
+        "tombe au fond"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "traverse le filtre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le sel dissous est réparti dans l'eau en parties invisibles : il traverse le filtre.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le filtre ne retient pas un solide dissous.",
+        "2": "Un solide dissous ne se dépose pas au fond."
+      },
+      "common_error_target": {
+        "1": "croire que la filtration retire le sel"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q07",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Lors d'une décantation, le dépôt se forme…",
+      "choices": [
+        "au fond du récipient",
+        "à la surface",
+        "sur le couvercle"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "au fond du récipient",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les particules les plus lourdes tombent et forment un dépôt au fond.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Les particules lourdes ne remontent pas.",
+        "2": "Le dépôt ne se forme pas sur le couvercle."
+      },
+      "common_error_target": {
+        "1": "croire que la terre flotte"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q08",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Quel matériel sert à une filtration ?",
+      "choices": [
+        "un entonnoir et un papier-filtre",
+        "une passoire à gros trous",
+        "une cuillère et un bol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un entonnoir et un papier-filtre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La filtration utilise un entonnoir garni d'un papier-filtre.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Une passoire à gros trous ne retient pas les fines particules.",
+        "2": "Une cuillère ne sépare pas les particules."
+      },
+      "common_error_target": {
+        "1": "confondre tamis et filtre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q09",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Pour obtenir de la farine sans grumeaux, on utilise…",
+      "choices": [
+        "un tamis",
+        "un papier-filtre",
+        "un verre d'eau"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un tamis",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La farine passe à travers le tamis et les grumeaux restent dedans.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le papier-filtre sert à séparer un solide d'un liquide.",
+        "2": "Ajouter de l'eau ferait une pâte."
+      },
+      "common_error_target": {
+        "1": "utiliser un filtre pour des solides secs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.separer-melanges.q10",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Pourquoi décanter avant de filtrer ?",
+      "choices": [
+        "pour éviter que le filtre se bouche",
+        "pour dissoudre la terre",
+        "pour réchauffer l'eau"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "pour éviter que le filtre se bouche",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La décantation retire la plus grande partie de la terre : le filtre se bouche moins vite.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "La terre ne se dissout pas.",
+        "2": "La décantation ne réchauffe pas l'eau."
+      },
+      "common_error_target": {
+        "1": "confondre séparation et dissolution"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q01",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Un animal vivipare…",
+      "choices": [
+        "donne naissance à des petits vivants",
+        "pond des œufs",
+        "ne se reproduit pas"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "donne naissance à des petits vivants",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chez un vivipare, le petit se développe dans le ventre de sa mère et naît vivant.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Pondre des œufs, c'est être ovipare.",
+        "2": "Tous les animaux se reproduisent."
+      },
+      "common_error_target": {
+        "1": "confondre ovipare et vivipare"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q02",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Un animal ovipare…",
+      "choices": [
+        "pond des œufs",
+        "porte ses petits dans son ventre",
+        "mange des œufs"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "pond des œufs",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ovipare veut dire « qui pond des œufs ».",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la définition de vivipare.",
+        "2": "Ovipare ne parle pas de nourriture."
+      },
+      "common_error_target": {
+        "1": "confondre ovipare et vivipare"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q03",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "La fécondation de la truite est…",
+      "choices": [
+        "externe",
+        "interne",
+        "dans un nid"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "externe",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les ovules sont pondus dans l'eau et fécondés hors du corps : la fécondation est externe.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Il n'y a pas d'accouplement chez la truite.",
+        "2": "La truite ne fait pas de nid ; la fécondation a lieu dans l'eau."
+      },
+      "common_error_target": {
+        "1": "croire que toute fécondation est interne"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q04",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "La fécondation du lapin est…",
+      "choices": [
+        "interne",
+        "externe",
+        "dans l'eau"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "interne",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le lapin s'accouple : la fécondation a lieu dans le corps de la femelle.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La fécondation du lapin ne se fait pas hors du corps.",
+        "2": "Le lapin ne se reproduit pas dans l'eau."
+      },
+      "common_error_target": {
+        "1": "inverser interne et externe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q05",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Quel animal est ovipare ?",
+      "choices": [
+        "la tortue",
+        "la vache",
+        "le chat"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la tortue",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La tortue pond ses œufs dans le sable.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La vache est vivipare.",
+        "2": "Le chat est vivipare."
+      },
+      "common_error_target": {
+        "1": "confondre ovipare et vivipare"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q06",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Quel animal est vivipare ?",
+      "choices": [
+        "le dauphin",
+        "le saumon",
+        "la poule"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le dauphin",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le dauphin est un mammifère : son petit se développe dans le ventre de sa mère.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le saumon pond des œufs.",
+        "2": "La poule pond des œufs."
+      },
+      "common_error_target": {
+        "1": "croire que les animaux aquatiques pondent tous"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q07",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Une fécondation interne a lieu…",
+      "choices": [
+        "dans le corps de la femelle",
+        "dans l'eau, hors du corps",
+        "à la surface de l'œuf pondu"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "dans le corps de la femelle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Interne veut dire « à l'intérieur » : la rencontre a lieu dans le corps de la femelle.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La fécondation dans l'eau, hors du corps, est externe.",
+        "2": "L'œuf est pondu après la fécondation ; il ne s'agit pas d'une fécondation interne."
+      },
+      "common_error_target": {
+        "1": "inverser interne et externe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q08",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "La poule est…",
+      "choices": [
+        "ovipare à fécondation interne",
+        "vivipare à fécondation interne",
+        "ovipare à fécondation externe"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ovipare à fécondation interne",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le coq s'accouple avec la poule (interne), puis elle pond (ovipare).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La poule pond des œufs : elle n'est pas vivipare.",
+        "2": "Il y a accouplement : la fécondation est interne."
+      },
+      "common_error_target": {
+        "2": "associer ponte et fécondation externe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q09",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "La grenouille est…",
+      "choices": [
+        "ovipare à fécondation externe",
+        "vivipare à fécondation interne",
+        "ovipare à fécondation interne"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ovipare à fécondation externe",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les ovules de la grenouille sont fécondés dans l'eau et se développent dans des œufs.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La grenouille pond : elle n'est pas vivipare.",
+        "2": "La fécondation a lieu dans l'eau, hors du corps."
+      },
+      "common_error_target": {
+        "2": "croire que toute fécondation est interne"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.fecondation.q10",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Un animal à fécondation externe est…",
+      "choices": [
+        "ovipare",
+        "vivipare",
+        "un mammifère"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ovipare",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Si l'ovule est fécondé hors du corps, le petit se développe dans un œuf à l'extérieur : l'animal est ovipare.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Un vivipare a toujours une fécondation interne.",
+        "2": "Les mammifères ont une fécondation interne."
+      },
+      "common_error_target": {
+        "1": "ne pas relier fécondation et mode de reproduction"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q01",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "La Lune brille car…",
+      "choices": [
+        "elle est éclairée par le Soleil",
+        "elle produit sa lumière",
+        "elle renvoie la lumière des villes"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "elle est éclairée par le Soleil",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La Lune n'est pas une source de lumière : elle renvoie la lumière du Soleil.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La Lune ne produit pas de lumière.",
+        "2": "La lumière des villes est bien trop faible pour éclairer la Lune."
+      },
+      "common_error_target": {
+        "1": "croire que la Lune est une source de lumière"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q02",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "On voit tout le disque de la Lune éclairé. C'est la…",
+      "choices": [
+        "pleine lune",
+        "nouvelle lune",
+        "premier quartier"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "pleine lune",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Tout le disque éclairé : c'est la pleine lune.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "À la nouvelle lune, on ne voit pas la Lune.",
+        "2": "Au premier quartier, on voit une moitié."
+      },
+      "common_error_target": {
+        "1": "inverser pleine et nouvelle lune"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q03",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "On ne voit pas du tout la Lune. C'est la…",
+      "choices": [
+        "nouvelle lune",
+        "pleine lune",
+        "dernier quartier"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "nouvelle lune",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Quand la face éclairée n'est pas tournée vers nous, c'est la nouvelle lune.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "À la pleine lune, tout le disque est visible.",
+        "2": "Au dernier quartier, une moitié est visible."
+      },
+      "common_error_target": {
+        "1": "inverser pleine et nouvelle lune"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q04",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Un cycle complet des phases de la Lune dure…",
+      "choices": [
+        "environ 29 jours et demi",
+        "environ 24 heures",
+        "environ 1 an"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "environ 29 jours et demi",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "D'une pleine lune à la suivante, il s'écoule environ 29 jours et demi.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "24 heures, c'est un tour de la Terre sur elle-même.",
+        "2": "Un an, c'est un tour de la Terre autour du Soleil."
+      },
+      "common_error_target": {
+        "1": "confondre avec la durée du jour"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q05",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Parmi les quatre phases principales, laquelle vient juste après la pleine lune ?",
+      "choices": [
+        "dernier quartier",
+        "premier quartier",
+        "nouvelle lune"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "dernier quartier",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Après la pleine lune, la partie éclairée diminue : vient le dernier quartier.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le premier quartier vient avant la pleine lune.",
+        "2": "La nouvelle lune vient après le dernier quartier."
+      },
+      "common_error_target": {
+        "1": "inverser premier et dernier quartier"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q06",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Parmi les quatre phases principales, laquelle vient juste après la nouvelle lune ?",
+      "choices": [
+        "premier quartier",
+        "dernier quartier",
+        "pleine lune"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "premier quartier",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Après la nouvelle lune, la partie éclairée grandit : vient le premier quartier.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le dernier quartier vient avant la nouvelle lune.",
+        "2": "La pleine lune vient après le premier quartier."
+      },
+      "common_error_target": {
+        "1": "inverser premier et dernier quartier"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q07",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Pourquoi voit-on des phases de la Lune ?",
+      "choices": [
+        "on voit plus ou moins sa face éclairée",
+        "l'ombre de la Terre la cache",
+        "les nuages la cachent"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "on voit plus ou moins sa face éclairée",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Selon la position de la Lune autour de la Terre, on voit une partie plus ou moins grande de sa moitié éclairée.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'ombre de la Terre sur la Lune, c'est une éclipse, rare.",
+        "2": "Les nuages cachent la Lune, mais ne créent pas ses phases."
+      },
+      "common_error_target": {
+        "1": "confondre phases et éclipse"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q08",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Au dernier quartier, on voit éclairée…",
+      "choices": [
+        "une moitié du disque",
+        "tout le disque",
+        "une fine bande"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une moitié du disque",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Aux quartiers, on voit une moitié du disque éclairée.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Tout le disque : c'est la pleine lune.",
+        "2": "Une fine bande : c'est un croissant."
+      },
+      "common_error_target": {
+        "2": "confondre quartier et croissant"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q09",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Vue depuis la France, une Lune éclairée à droite est…",
+      "choices": [
+        "croissante",
+        "décroissante",
+        "pleine"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "croissante",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Vue depuis la France, la Lune qui grandit est éclairée à droite.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La Lune décroissante est éclairée à gauche.",
+        "2": "La pleine lune est entièrement éclairée."
+      },
+      "common_error_target": {
+        "1": "inverser croissante et décroissante"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CM1.phases-lune.q10",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "question": "Pendant la pleine lune, où est la Lune ?",
+      "choices": [
+        "à l'opposé du Soleil par rapport à la Terre",
+        "entre la Terre et le Soleil",
+        "juste à côté du Soleil"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "à l'opposé du Soleil par rapport à la Terre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "À la pleine lune, la Terre est à peu près entre le Soleil et la Lune : la Lune est du côté opposé au Soleil.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Entre la Terre et le Soleil, c'est la nouvelle lune.",
+        "2": "Près du Soleil, on verrait très peu la face éclairée."
+      },
+      "common_error_target": {
+        "1": "confondre pleine et nouvelle lune"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,842 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q01",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Un double hétérozygote pour deux gènes indépendants produit :",
+      "choices": [
+        "4 types dont 2 majoritaires",
+        "1 seul type de gamète",
+        "4 types de gamètes équiprobables",
+        "2 types de gamètes"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "4 types de gamètes équiprobables",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Gènes indépendants : AB, Ab, aB, ab, chacun à 25 %.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est le cas de gènes liés.",
+        "1": "Il est hétérozygote pour les deux gènes.",
+        "3": "Il y aurait aussi des recombinés."
+      },
+      "common_error_target": {
+        "0": "confusion gènes indépendants / liés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q02",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Le brassage intrachromosomique a lieu :",
+      "choices": [
+        "lors de la fécondation",
+        "en prophase I",
+        "en anaphase I",
+        "en anaphase II"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "en prophase I",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les crossing-over se produisent entre chromatides homologues appariées en prophase I.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "La fécondation est un autre mécanisme.",
+        "2": "C'est le brassage interchromosomique.",
+        "3": "Les chromatides se séparent alors, sans échange."
+      },
+      "common_error_target": {
+        "2": "confusion des deux types de brassage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q03",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Le croisement test consiste à croiser un individu avec :",
+      "choices": [
+        "un homozygote récessif",
+        "un homozygote dominant",
+        "un hétérozygote",
+        "un individu d'une autre espèce"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un homozygote récessif",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'homozygote récessif ne produit que des gamètes ab, ce qui révèle les gamètes de l'autre parent.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Il masquerait les allèles récessifs.",
+        "2": "Les résultats seraient difficiles à interpréter.",
+        "3": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q04",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Un croisement test donne 25 % de chacun des 4 phénotypes. Les gènes sont :",
+      "choices": [
+        "liés sans crossing-over",
+        "portés par l'ADN mitochondrial",
+        "identiques",
+        "indépendants"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "indépendants",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Quatre phénotypes équiprobables traduisent des gènes indépendants.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Il n'y aurait que deux phénotypes.",
+        "1": "Sans rapport.",
+        "2": "Il s'agit de deux gènes différents."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q05",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Croisement test : 45 % [AB], 45 % [ab], 5 % [Ab], 5 % [aB]. Les recombinés représentent :",
+      "choices": [
+        "5 %",
+        "50 %",
+        "10 %",
+        "90 %"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "10 %",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "5 % + 5 % = 10 % de recombinés.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est un seul phénotype recombiné.",
+        "1": "Ce serait le cas de gènes indépendants.",
+        "3": "C'est la part des parentaux."
+      },
+      "common_error_target": {
+        "3": "confusion parentaux / recombinés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q06",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Pour deux gènes liés, les phénotypes recombinés proviennent :",
+      "choices": [
+        "d'erreurs de comptage",
+        "de crossing-over",
+        "de mutations nouvelles",
+        "du brassage interchromosomique"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "de crossing-over",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les crossing-over entre les deux loci créent de nouvelles combinaisons d'allèles.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ce sont des résultats réels.",
+        "2": "Aucun nouvel allèle n'apparaît.",
+        "3": "Les deux gènes sont sur le même chromosome."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q07",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Hétérozygote pour 4 gènes indépendants : nombre de types de gamètes :",
+      "choices": [
+        "16",
+        "8",
+        "4",
+        "32"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "16",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque gène donne 2 possibilités : 2^4 = 16 types de gamètes.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "2 × 4 : addition déguisée.",
+        "2": "Nombre de gènes.",
+        "3": "2^5."
+      },
+      "common_error_target": {
+        "1": "multiplication au lieu de puissance"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q08",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Une drosophile double hétérozygote a reçu de sa mère (corps gris, yeux rouges) et de son père (corps noir, yeux pourpres). Ses gamètes recombinés sont :",
+      "choices": [
+        "(gris, rouges) et (noir, pourpres)",
+        "(gris, noir) et (rouges, pourpres)",
+        "uniquement (noir, pourpres)",
+        "(gris, pourpres) et (noir, rouges)"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "(gris, pourpres) et (noir, rouges)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les recombinés associent des allèles séparés chez les parents : (gris, pourpres) et (noir, rouges).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Ce sont les combinaisons parentales.",
+        "1": "Un gamète porte un allèle de chaque gène, pas deux allèles d'un même gène.",
+        "2": "Un gamète parental seulement : oubli des recombinés."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q09",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Plus deux gènes liés sont éloignés sur un chromosome :",
+      "choices": [
+        "plus les parentaux sont nombreux",
+        "plus ils deviennent indépendants de l'ADN",
+        "plus le pourcentage de recombinés est élevé",
+        "moins il y a de recombinés"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "plus le pourcentage de recombinés est élevé",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La probabilité d'un crossing-over entre deux loci augmente avec leur distance.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est l'inverse.",
+        "1": "Sans rapport.",
+        "3": "C'est l'inverse."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.brassage.q10",
+      "notion_id": "SVT.TLE.TVOV.pour-deux-paires-dalleles-quatre-combinaisons-dalleles-sont-possibles",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Un croisement test donne 1 000 descendants dont 120 recombinés. Pourcentage de recombinés :",
+      "choices": [
+        "120 %",
+        "12 %",
+        "88 %",
+        "1,2 %"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "12 %",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "120 / 1 000 = 0,12, soit 12 % : les gènes sont liés.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Un pourcentage de recombinés ne peut dépasser 100 %.",
+        "2": "C'est la part des parentaux.",
+        "3": "Erreur d'un facteur 10."
+      },
+      "common_error_target": {
+        "2": "confusion parentaux / recombinés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q01",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "La photosynthèse se déroule dans :",
+      "choices": [
+        "les mitochondries",
+        "le noyau",
+        "les vacuoles",
+        "les chloroplastes"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "les chloroplastes",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les chloroplastes contiennent les pigments et les enzymes de la photosynthèse.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Elles sont le siège de la respiration.",
+        "1": "Il contient l'ADN.",
+        "2": "Elles stockent de l'eau et des substances."
+      },
+      "common_error_target": {
+        "0": "confusion photosynthèse / respiration"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q02",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Le dioxygène libéré par la photosynthèse provient :",
+      "choices": [
+        "du CO2",
+        "du glucose",
+        "de l'air",
+        "de l'eau"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "de l'eau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La photolyse de l'eau libère le dioxygène.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Les expériences de marquage isotopique montrent le contraire.",
+        "1": "Le glucose est un produit.",
+        "2": "Il est produit, pas prélevé."
+      },
+      "common_error_target": {
+        "0": "origine de l'O2 attribuée au CO2"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q03",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "La chlorophylle absorbe principalement :",
+      "choices": [
+        "le vert",
+        "l'ultraviolet seul",
+        "le jaune",
+        "le bleu et le rouge"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "le bleu et le rouge",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les pics d'absorption de la chlorophylle sont dans le bleu et le rouge.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Le vert est peu absorbé.",
+        "1": "Sans rapport.",
+        "2": "Le jaune est peu absorbé par les chlorophylles."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q04",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "La réduction du CO2 a lieu dans :",
+      "choices": [
+        "les thylakoïdes",
+        "la paroi",
+        "le cytoplasme d'une cellule de racine",
+        "le stroma"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "le stroma",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le cycle de Calvin se déroule dans le stroma du chloroplaste.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est le lieu de la phase photochimique.",
+        "1": "Sans rapport.",
+        "2": "Les racines ne font pas la photosynthèse."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q05",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "La forme principale de transport des sucres dans la sève élaborée est :",
+      "choices": [
+        "l'amidon",
+        "la cellulose",
+        "la lignine",
+        "le saccharose"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "le saccharose",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le saccharose, soluble, circule dans le phloème.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'amidon est une réserve insoluble.",
+        "1": "C'est un constituant de la paroi.",
+        "2": "C'est un constituant du bois."
+      },
+      "common_error_target": {
+        "0": "confusion transport / réserve"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q06",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Quelle molécule assure le port rigide d'un arbre ?",
+      "choices": [
+        "Le saccharose",
+        "Le glucose libre",
+        "L'eau iodée",
+        "La lignine"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "La lignine",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La lignine imprègne les parois et rend le bois rigide.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est un sucre de transport.",
+        "1": "C'est un sucre soluble.",
+        "2": "C'est un réactif."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q07",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Pour produire 2 molécules de glucose, la plante fixe :",
+      "choices": [
+        "6 CO2",
+        "2 CO2",
+        "24 CO2",
+        "12 CO2"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "12 CO2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "6 CO2 par glucose, donc 12 CO2 pour 2 glucose.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est pour une seule molécule.",
+        "1": "Oubli du coefficient.",
+        "2": "Doublement erroné."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q08",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "L'expérience de Hill montre que :",
+      "choices": [
+        "le CO2 est la source de l'O2",
+        "la lumière est inutile",
+        "les chloroplastes produisent de l'amidon sans lumière",
+        "le dégagement d'O2 peut se faire sans CO2"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "le dégagement d'O2 peut se faire sans CO2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "En présence d'un accepteur d'électrons, des chloroplastes éclairés dégagent de l'O2 sans CO2.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est l'inverse.",
+        "1": "La lumière est indispensable.",
+        "2": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q09",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Les anthocyanes et les tanins interviennent principalement dans :",
+      "choices": [
+        "le transport de l'eau",
+        "la photolyse",
+        "la réplication de l'ADN",
+        "les interactions avec d'autres espèces"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "les interactions avec d'autres espèces",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Pigments et tanins interviennent dans l'attraction des pollinisateurs ou la défense contre les consommateurs.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est le rôle du xylème.",
+        "1": "Sans rapport.",
+        "2": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.photosynthese.q10",
+      "notion_id": "SVT.TLE.EPC.captee-par-les-pigments-chlorophylliens-au-niveau-du-chloroplaste-lene",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Une plante produit 20 g de glucose et en respire 25 %. Glucose disponible :",
+      "choices": [
+        "25 g",
+        "20 g",
+        "15 g",
+        "5 g"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "15 g",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "20 × 0,75 = 15 g de glucose disponibles pour la croissance et les réserves.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Confusion entre pourcentage et masse.",
+        "1": "Oubli de la respiration.",
+        "3": "C'est la part respirée."
+      },
+      "common_error_target": {
+        "3": "calcul de la part complémentaire"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q01",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "La glycémie est maintenue autour de :",
+      "choices": [
+        "1 g/L",
+        "10 g/L",
+        "0,1 g/L",
+        "100 g/L"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1 g/L",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La valeur d'équilibre de la glycémie est proche de 1 g/L.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Erreur d'un facteur 10.",
+        "2": "Erreur d'un facteur 10.",
+        "3": "Erreur d'un facteur 100."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q02",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "L'insuline est sécrétée par :",
+      "choices": [
+        "les cellules α des îlots de Langerhans",
+        "les cellules du foie",
+        "les cellules musculaires",
+        "les cellules β des îlots de Langerhans"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "les cellules β des îlots de Langerhans",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les cellules β du pancréas sécrètent l'insuline.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Elles sécrètent le glucagon.",
+        "1": "Le foie est un organe cible.",
+        "2": "Les muscles sont des organes cibles."
+      },
+      "common_error_target": {
+        "0": "confusion α / β"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q03",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Le glucagon est une hormone :",
+      "choices": [
+        "digestive",
+        "sexuelle",
+        "hyperglycémiante",
+        "hypoglycémiante"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "hyperglycémiante",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le glucagon fait augmenter la glycémie en stimulant la libération de glucose par le foie.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Ce n'est pas une enzyme digestive.",
+        "1": "Sans rapport.",
+        "3": "C'est l'insuline."
+      },
+      "common_error_target": {
+        "3": "inversion insuline / glucagon"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q04",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Le glucose est stocké dans le foie sous forme de :",
+      "choices": [
+        "cellulose",
+        "glycogène",
+        "amidon",
+        "saccharose"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "glycogène",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le glycogène est le polymère de réserve du glucose chez les animaux.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est un constituant des parois végétales.",
+        "2": "C'est la réserve des végétaux.",
+        "3": "C'est un sucre de transport chez les végétaux."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q05",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Quel organe libère du glucose dans le sang pendant un jeûne ?",
+      "choices": [
+        "Le foie",
+        "Le muscle",
+        "L'estomac",
+        "Le cerveau"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Le foie",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le foie hydrolyse son glycogène et libère du glucose dans le sang.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le muscle utilise son glycogène pour lui-même.",
+        "2": "Sans rapport.",
+        "3": "Il consomme du glucose."
+      },
+      "common_error_target": {
+        "1": "muscle crédité d'une libération de glucose"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q06",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Après un repas riche en glucides, on observe :",
+      "choices": [
+        "une hausse du glucagon",
+        "une baisse de la glycémie immédiate",
+        "l'arrêt de l'absorption",
+        "une hausse de l'insulinémie"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "une hausse de l'insulinémie",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La hausse de la glycémie stimule la sécrétion d'insuline.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Le glucagon diminue.",
+        "1": "La glycémie augmente d'abord.",
+        "2": "L'absorption se poursuit."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q07",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "5 L de sang à 0,9 g/L contiennent :",
+      "choices": [
+        "0,18 g de glucose",
+        "45 g de glucose",
+        "4,5 g de glucose",
+        "5,6 g de glucose"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "4,5 g de glucose",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "m = C × V = 0,9 × 5 = 4,5 g de glucose.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Division de C par V.",
+        "1": "Erreur d'un facteur 10.",
+        "3": "Division de V par C."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q08",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Le diabète de type 1 résulte :",
+      "choices": [
+        "d'une infection du foie",
+        "d'une destruction auto-immune des cellules β",
+        "d'une insulinorésistance",
+        "d'un excès d'insuline"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "d'une destruction auto-immune des cellules β",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les cellules productrices d'insuline sont détruites par le système immunitaire.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Sans rapport.",
+        "2": "C'est le cas typique du diabète de type 2.",
+        "3": "C'est l'inverse."
+      },
+      "common_error_target": {
+        "2": "confusion type 1 / type 2"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q09",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "La régulation de la glycémie est un exemple de :",
+      "choices": [
+        "rétrocontrôle négatif",
+        "rétrocontrôle positif",
+        "réflexe médullaire",
+        "régulation sans hormone"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "rétrocontrôle négatif",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La réponse hormonale s'oppose à la variation de la glycémie.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Il amplifierait l'écart.",
+        "2": "Il s'agit d'une régulation hormonale.",
+        "3": "Elle fait intervenir deux hormones."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.TLE.glycemie.q10",
+      "notion_id": "SVT.TLE.CHS.la-glycemie-est-la-concentration-de-glucose-dans-le-sang-maintenue-dan",
+      "subject": "SVT",
+      "level": "TLE",
+      "question": "Glycémie de 0,8 g/L à jeun et 1,2 g/L après un repas : augmentation relative de :",
+      "choices": [
+        "40 %",
+        "33 %",
+        "150 %",
+        "50 %"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "50 %",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "(1,2 − 0,8) / 0,8 = 0,5, soit 50 %.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est l'augmentation absolue écrite en %.",
+        "1": "Rapport à la valeur finale.",
+        "2": "C'est le rapport final / initial en %."
+      },
+      "common_error_target": {
+        "0": "augmentation absolue prise pour relative"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

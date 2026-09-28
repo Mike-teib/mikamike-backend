@@ -1,0 +1,2256 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.PC.5E.etats.d01",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Un glaçon posé dans une assiette garde sa forme quand on le déplace. Dans quel état physique est l'eau qui constitue le glaçon ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "solide",
+          "état solide",
+          "l'état solide"
+        ]
+      },
+      "solution": "Le glaçon garde sa forme quand on le déplace : il a une forme propre. Un corps qui possède une forme propre est à l'état solide. L'eau du glaçon est donc à l'état solide.",
+      "step_by_step_solution": [
+        "Le glaçon garde sa forme quand on le déplace : il a une forme propre.",
+        "Un corps qui possède une forme propre est à l'état solide.",
+        "L'eau du glaçon est donc à l'état solide."
+      ],
+      "hints": [
+        "Le glaçon change-t-il de forme quand on le déplace ?",
+        "Quel état de la matière possède une forme propre ?"
+      ],
+      "common_errors": {
+        "liquide": "L'élève pense à l'eau « en général » sans observer que le glaçon garde sa forme."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.d02",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle propriété caractérise un liquide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un liquide n'a pas de forme propre : il épouse la forme du récipient. Il garde cependant son volume, et il a une masse comme toute matière. La bonne réponse est : « Il prend la forme du récipient qui le contient. »",
+      "step_by_step_solution": [
+        "Un liquide n'a pas de forme propre : il épouse la forme du récipient.",
+        "Il garde cependant son volume, et il a une masse comme toute matière.",
+        "La bonne réponse est : « Il prend la forme du récipient qui le contient. »"
+      ],
+      "hints": [
+        "Verse de l'eau d'un verre dans une assiette : que devient sa forme ?"
+      ],
+      "common_errors": {
+        "1": "Confusion avec l'état solide.",
+        "2": "Confusion avec l'état gazeux.",
+        "3": "Toute matière a une masse."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "choices": [
+        "Il prend la forme du récipient qui le contient.",
+        "Il possède une forme propre.",
+        "Il occupe tout le volume disponible.",
+        "Il n'a pas de masse."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.d03",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "On gonfle un ballon de baudruche : il se remplit d'air. Dans quel état physique est l'air contenu dans le ballon ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "gaz",
+          "gazeux",
+          "état gazeux",
+          "l'état gazeux"
+        ]
+      },
+      "solution": "L'air occupe tout l'espace intérieur du ballon, quelle que soit sa forme. L'air est donc à l'état gazeux : c'est un gaz.",
+      "step_by_step_solution": [
+        "L'air occupe tout l'espace intérieur du ballon, quelle que soit sa forme.",
+        "L'air est donc à l'état gazeux : c'est un gaz."
+      ],
+      "hints": [
+        "L'air a-t-il une forme propre ?",
+        "L'air occupe-t-il tout l'espace qui lui est offert ?"
+      ],
+      "common_errors": {
+        "liquide": "L'élève confond « fluide » et « liquide » : l'air s'écoule mais n'a pas de volume propre."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.d04",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Parmi ces échantillons, lequel est à l'état liquide à la température de la classe (environ 20 °C) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le sel et le fer ont une forme propre : ce sont des solides. Le dioxygène de l'air occupe tout l'espace offert : c'est un gaz. L'huile coule et prend la forme du récipient tout en gardant son volume. La bonne réponse est : « L'huile de cuisine »",
+      "step_by_step_solution": [
+        "Le sel et le fer ont une forme propre : ce sont des solides.",
+        "Le dioxygène de l'air occupe tout l'espace offert : c'est un gaz.",
+        "L'huile coule et prend la forme du récipient tout en gardant son volume.",
+        "La bonne réponse est : « L'huile de cuisine »"
+      ],
+      "hints": [
+        "Lequel de ces échantillons coule et prend la forme de la bouteille qui le contient ?"
+      ],
+      "common_errors": {
+        "1": "Le sel est un solide (en grains).",
+        "2": "Le dioxygène est un gaz.",
+        "3": "Le fer est un solide."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "choices": [
+        "L'huile de cuisine",
+        "Le sel de table",
+        "Le dioxygène de l'air",
+        "Un clou en fer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.d05",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans quel état physique la matière n'a-t-elle ni forme propre ni volume propre ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "gaz",
+          "gazeux",
+          "état gazeux",
+          "l'état gazeux"
+        ]
+      },
+      "solution": "Un solide a une forme propre ; un liquide a un volume propre. Seul l'état gazeux n'a ni forme propre ni volume propre : un gaz occupe tout l'espace offert.",
+      "step_by_step_solution": [
+        "Un solide a une forme propre ; un liquide a un volume propre.",
+        "Seul l'état gazeux n'a ni forme propre ni volume propre : un gaz occupe tout l'espace offert."
+      ],
+      "hints": [
+        "Élimine les états qui ont au moins une des deux propriétés."
+      ],
+      "common_errors": {
+        "liquide": "Un liquide n'a pas de forme propre mais il a un volume propre."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.a01",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "On transvase 200 mL d'eau d'un verre dans une bouteille vide. Que peut-on dire du volume d'eau dans la bouteille ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un liquide a un volume propre : son volume ne dépend pas du récipient. Seule la forme de l'eau change quand on la transvase. La bonne réponse est : « Il vaut toujours 200 mL. »",
+      "step_by_step_solution": [
+        "Un liquide a un volume propre : son volume ne dépend pas du récipient.",
+        "Seule la forme de l'eau change quand on la transvase.",
+        "La bonne réponse est : « Il vaut toujours 200 mL. »"
+      ],
+      "hints": [
+        "La forme et le volume d'un liquide se comportent-ils de la même façon ?"
+      ],
+      "common_errors": {
+        "1": "L'élève confond hauteur du liquide et volume.",
+        "2": "L'élève confond largeur du récipient et volume.",
+        "3": "C'est la forme, et non le volume, qui dépend du récipient."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "choices": [
+        "Il vaut toujours 200 mL.",
+        "Il est plus grand car la bouteille est plus haute.",
+        "Il est plus petit car la bouteille est plus étroite.",
+        "Il dépend de la forme de la bouteille."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.a02",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "On bouche l'embout d'une seringue remplie d'air, puis on pousse le piston : il s'enfonce. Quel adjectif décrit cette propriété de l'air (un seul mot) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "compressible",
+          "le gaz est compressible",
+          "l'air est compressible"
+        ]
+      },
+      "solution": "Le piston s'enfonce alors qu'aucun air ne sort : le même air occupe un volume plus petit. On dit que l'air, comme tout gaz, est compressible.",
+      "step_by_step_solution": [
+        "Le piston s'enfonce alors qu'aucun air ne sort : le même air occupe un volume plus petit.",
+        "On dit que l'air, comme tout gaz, est compressible."
+      ],
+      "hints": [
+        "Le volume de l'air a-t-il changé alors que l'air est resté dans la seringue ?"
+      ],
+      "common_errors": {
+        "incompressible": "C'est l'inverse : l'air se laisse comprimer, contrairement à l'eau liquide."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.a03",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "On incline légèrement un verre contenant de l'eau. Une fois l'eau immobile, comment est sa surface libre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Au repos, la surface libre d'un liquide est toujours plane et horizontale, quelle que soit l'inclinaison du récipient. La bonne réponse est : « Plane et horizontale »",
+      "step_by_step_solution": [
+        "Au repos, la surface libre d'un liquide est toujours plane et horizontale, quelle que soit l'inclinaison du récipient.",
+        "La bonne réponse est : « Plane et horizontale »"
+      ],
+      "hints": [
+        "Pense au niveau de l'eau dans une bouteille que l'on penche."
+      ],
+      "common_errors": {
+        "1": "L'élève pense que la surface suit le récipient.",
+        "2": "Confusion avec une goutte ou un solide.",
+        "3": "Confusion entre verticale et horizontale."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "choices": [
+        "Plane et horizontale",
+        "Inclinée comme le verre",
+        "Bombée vers le haut",
+        "Perpendiculaire au fond du verre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.a04",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "On bouche l'embout d'une seringue remplie d'eau liquide, puis on pousse le piston : il ne s'enfonce pratiquement pas. Quel adjectif décrit cette propriété de l'eau liquide (un seul mot) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "incompressible",
+          "peu compressible",
+          "quasi incompressible"
+        ]
+      },
+      "solution": "Le piston ne s'enfonce pas : le volume de l'eau ne diminue pratiquement pas. On dit que l'eau liquide est incompressible (très peu compressible).",
+      "step_by_step_solution": [
+        "Le piston ne s'enfonce pas : le volume de l'eau ne diminue pratiquement pas.",
+        "On dit que l'eau liquide est incompressible (très peu compressible)."
+      ],
+      "hints": [
+        "Compare avec l'expérience faite avec de l'air dans la seringue."
+      ],
+      "common_errors": {
+        "compressible": "C'est l'air (un gaz) qui est compressible, pas l'eau liquide."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.a05",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans un verre, il y a de l'eau liquide et des glaçons qui flottent ; l'air au-dessus du verre contient de la vapeur d'eau. Combien d'états physiques différents de l'eau sont présents ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "Les glaçons : eau à l'état solide. L'eau du verre : eau à l'état liquide. La vapeur d'eau (invisible) : eau à l'état gazeux. Il y a donc 3 états physiques différents.",
+      "step_by_step_solution": [
+        "Les glaçons : eau à l'état solide.",
+        "L'eau du verre : eau à l'état liquide.",
+        "La vapeur d'eau (invisible) : eau à l'état gazeux.",
+        "Il y a donc 3 états physiques différents."
+      ],
+      "hints": [
+        "La vapeur d'eau se voit-elle ?",
+        "Associe chaque partie (glaçons, eau du verre, vapeur) à un état."
+      ],
+      "common_errors": {
+        "2": "L'élève a oublié la vapeur d'eau, invisible, qui est de l'eau à l'état gazeux."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.c01",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un élève affirme : « Le sable est un liquide, car il prend la forme du récipient dans lequel on le verse. » Quelle est la réponse correcte ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Il faut observer un seul grain : chaque grain garde sa forme, il a une forme propre. Le sable est donc un solide divisé en grains, même s'il s'écoule. La bonne réponse est : « Chaque grain de sable a une forme propre : le sable est un solide en grains. »",
+      "step_by_step_solution": [
+        "Il faut observer un seul grain : chaque grain garde sa forme, il a une forme propre.",
+        "Le sable est donc un solide divisé en grains, même s'il s'écoule.",
+        "La bonne réponse est : « Chaque grain de sable a une forme propre : le sable est un solide en grains. »"
+      ],
+      "hints": [
+        "Observe un seul grain de sable à la loupe : change-t-il de forme ?"
+      ],
+      "common_errors": {
+        "1": "L'élève confond « s'écouler » et « être liquide ».",
+        "2": "Le sable n'occupe pas tout l'espace offert.",
+        "3": "Toute matière est dans un état physique."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "choices": [
+        "Chaque grain de sable a une forme propre : le sable est un solide en grains.",
+        "Il a raison : le sable s'écoule, donc c'est un liquide.",
+        "Le sable est un gaz car il occupe tout l'espace.",
+        "Le sable n'a pas d'état physique."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.c02",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Classer les trois états physiques (solide, liquide, gaz) du plus compressible au moins compressible.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "gaz",
+          "liquide",
+          "solide"
+        ]
+      },
+      "solution": "Un gaz se comprime facilement (seringue d'air). Un liquide se comprime très difficilement (seringue d'eau). Un solide ne se comprime pratiquement pas. Ordre : gaz ; liquide ; solide.",
+      "step_by_step_solution": [
+        "Un gaz se comprime facilement (seringue d'air).",
+        "Un liquide se comprime très difficilement (seringue d'eau).",
+        "Un solide ne se comprime pratiquement pas.",
+        "Ordre : gaz ; liquide ; solide."
+      ],
+      "hints": [
+        "Repense aux deux expériences de la seringue bouchée (air, puis eau)."
+      ],
+      "common_errors": {
+        "solide ; liquide ; gaz": "L'élève a donné l'ordre inverse (du moins au plus compressible)."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.c03",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Pour l'éthanol, on donne : température de fusion −114 °C ; température d'ébullition 78 °C. Dans quel état physique est l'éthanol à 20 °C ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "liquide",
+          "état liquide",
+          "l'état liquide"
+        ]
+      },
+      "solution": "20 °C est supérieure à la température de fusion (−114 °C) : l'éthanol n'est plus solide. 20 °C est inférieure à la température d'ébullition (78 °C) : il n'est pas encore gazeux. À 20 °C, l'éthanol est donc à l'état liquide.",
+      "step_by_step_solution": [
+        "20 °C est supérieure à la température de fusion (−114 °C) : l'éthanol n'est plus solide.",
+        "20 °C est inférieure à la température d'ébullition (78 °C) : il n'est pas encore gazeux.",
+        "À 20 °C, l'éthanol est donc à l'état liquide."
+      ],
+      "hints": [
+        "Place 20 °C entre les deux températures données.",
+        "Au-dessus de la température de fusion, le solide a fondu."
+      ],
+      "common_errors": {
+        "gaz": "L'élève pense qu'au-dessus de 0 °C tout corps est gazeux.",
+        "solide": "L'élève a mal comparé 20 °C et −114 °C (nombres négatifs)."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.c04",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un gaz enfermé dans un flacon de 500 mL est transféré entièrement dans un flacon vide et fermé de 1 L. Quel volume le gaz occupe-t-il dans ce nouveau flacon ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1",
+        "unit": "L"
+      },
+      "solution": "Un gaz n'a pas de volume propre : il occupe tout l'espace qui lui est offert. Dans le flacon de 1 L, le gaz occupe donc 1 L.",
+      "step_by_step_solution": [
+        "Un gaz n'a pas de volume propre : il occupe tout l'espace qui lui est offert.",
+        "Dans le flacon de 1 L, le gaz occupe donc 1 L."
+      ],
+      "hints": [
+        "Un gaz garde-t-il son volume quand on change de récipient ?"
+      ],
+      "common_errors": {
+        "500 mL": "L'élève applique au gaz la propriété des liquides (volume propre)."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.c05",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle observation permet d'affirmer qu'un échantillon est à l'état solide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Toute matière a une masse et occupe un volume : ce ne sont pas des critères d'état. La couleur ne renseigne pas sur l'état physique. La bonne réponse est : « Il garde sa forme quand on le change de récipient. »",
+      "step_by_step_solution": [
+        "Toute matière a une masse et occupe un volume : ce ne sont pas des critères d'état.",
+        "La couleur ne renseigne pas sur l'état physique.",
+        "La bonne réponse est : « Il garde sa forme quand on le change de récipient. »"
+      ],
+      "hints": [
+        "Quelle propriété appartient seulement aux solides ?"
+      ],
+      "common_errors": {
+        "1": "Toute matière a une masse.",
+        "2": "La couleur n'est pas liée à l'état.",
+        "3": "Liquides et gaz occupent aussi un volume."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "choices": [
+        "Il garde sa forme quand on le change de récipient.",
+        "Il a une masse.",
+        "Il est de couleur blanche.",
+        "Il occupe un volume."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.x01",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "On dispose de trois flacons fermés identiques : A contient de l'eau, B contient uniquement de l'air, C contient du sable. On retourne chaque flacon et on attend. Dans quel flacon la matière forme-t-elle une surface libre plane et horizontale en gardant le même volume ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le sable (C) est un solide en grains : sa surface n'est pas forcément plane et horizontale. L'air (B) est un gaz : il n'a pas de surface libre, il occupe tout le flacon. L'eau (A) est un liquide : volume propre et surface libre plane et horizontale au repos. La bonne réponse est : « Flacon A »",
+      "step_by_step_solution": [
+        "Le sable (C) est un solide en grains : sa surface n'est pas forcément plane et horizontale.",
+        "L'air (B) est un gaz : il n'a pas de surface libre, il occupe tout le flacon.",
+        "L'eau (A) est un liquide : volume propre et surface libre plane et horizontale au repos.",
+        "La bonne réponse est : « Flacon A »"
+      ],
+      "hints": [
+        "Quel état physique possède une surface libre plane et horizontale ?",
+        "Le sable forme-t-il un tas ?"
+      ],
+      "common_errors": {
+        "1": "Un gaz n'a pas de surface libre.",
+        "2": "Le sable peut former un tas incliné : c'est un solide."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "choices": [
+        "Flacon A",
+        "Flacon B",
+        "Flacon C"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.x02",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Une seringue contient 60 mL d'air. On bouche l'embout et on pousse le piston : le volume de l'air diminue de 20 mL. Quel est alors le volume occupé par l'air ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "40",
+        "unit": "mL"
+      },
+      "solution": "L'air est compressible : son volume peut diminuer sans que de l'air sorte. Volume final = 60 − 20 = 40 mL.",
+      "step_by_step_solution": [
+        "L'air est compressible : son volume peut diminuer sans que de l'air sorte.",
+        "Volume final = 60 − 20 = 40 mL."
+      ],
+      "hints": [
+        "Le volume diminue : faut-il ajouter ou retrancher ?"
+      ],
+      "common_errors": {
+        "80 mL": "L'élève a ajouté au lieu de retrancher.",
+        "60 mL": "L'élève pense qu'un gaz garde son volume."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.etats.x03",
+      "notion_id": "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "On pèse une bouteille rigide fermée contenant de l'air. Avec une pompe, on y fait entrer davantage d'air, puis on la pèse de nouveau : sa masse a augmenté. Que peut-on conclure ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La bouteille est rigide : son volume et sa masse propre n'ont pas changé. On a seulement ajouté de l'air : c'est donc l'air ajouté qui a une masse. La bonne réponse est : « L'air, comme tout gaz, a une masse. »",
+      "step_by_step_solution": [
+        "La bouteille est rigide : son volume et sa masse propre n'ont pas changé.",
+        "On a seulement ajouté de l'air : c'est donc l'air ajouté qui a une masse.",
+        "La bonne réponse est : « L'air, comme tout gaz, a une masse. »"
+      ],
+      "hints": [
+        "Qu'est-ce qui a changé entre les deux pesées ?"
+      ],
+      "common_errors": {
+        "1": "L'expérience montre au contraire que l'air a une masse.",
+        "2": "La bouteille est rigide : elle ne change pas.",
+        "3": "Les gaz ont aussi une masse."
+      },
+      "remediation": "Reprendre le tableau des trois états : un solide a une forme propre et un volume propre ; un liquide n'a pas de forme propre mais a un volume propre, et sa surface libre au repos est plane et horizontale ; un gaz n'a ni forme propre ni volume propre : il occupe tout l'espace offert et il est compressible. Observer des exemples de la vie courante (glaçon, eau d'un verre, air d'un ballon).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Identifier l'état physique d'un échantillon",
+        "Associer propriétés macroscopiques et état physique"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.caracteriser-les-differents-etats-de-la-matiere-solide-liquide-et-gaz"
+      ],
+      "choices": [
+        "L'air, comme tout gaz, a une masse.",
+        "L'air n'a pas de masse : la balance est déréglée.",
+        "La bouteille rigide devient plus lourde quand elle est sous pression.",
+        "Seuls les solides et les liquides ont une masse."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.d01",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un glaçon de 18 g fond entièrement dans un récipient fermé. Quelle est la masse d'eau liquide obtenue ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "18",
+        "unit": "g"
+      },
+      "solution": "Lors d'un changement d'état, la masse se conserve. La masse d'eau liquide obtenue est donc 18 g.",
+      "step_by_step_solution": [
+        "Lors d'un changement d'état, la masse se conserve.",
+        "La masse d'eau liquide obtenue est donc 18 g."
+      ],
+      "hints": [
+        "Pendant la fusion, de la matière apparaît-elle ou disparaît-elle ?"
+      ],
+      "common_errors": {
+        "16 g": "L'élève pense que la masse diminue quand la glace fond.",
+        "20 g": "L'élève pense que la masse augmente quand la glace fond."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.d02",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Lors d'un changement d'état, que devient la masse de l'échantillon ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Aucune matière n'est ajoutée ni retirée : seul l'état change. La bonne réponse est : « Elle se conserve. »",
+      "step_by_step_solution": [
+        "Aucune matière n'est ajoutée ni retirée : seul l'état change.",
+        "La bonne réponse est : « Elle se conserve. »"
+      ],
+      "hints": [
+        "Pense à un glaçon qui fond dans un flacon fermé posé sur une balance."
+      ],
+      "common_errors": {
+        "1": "L'élève confond masse et volume.",
+        "2": "L'élève confond masse et volume.",
+        "3": "Un gaz a une masse."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "choices": [
+        "Elle se conserve.",
+        "Elle augmente.",
+        "Elle diminue.",
+        "Elle devient nulle pour un gaz."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.d03",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Sous la pression atmosphérique normale, à quelle température l'eau pure bout-elle (en °C) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "100",
+        "unit": "°C",
+        "tolerance_relative": 0.002
+      },
+      "solution": "L'ébullition de l'eau pure se fait à température constante. Sous la pression atmosphérique normale, cette température vaut 100 °C.",
+      "step_by_step_solution": [
+        "L'ébullition de l'eau pure se fait à température constante.",
+        "Sous la pression atmosphérique normale, cette température vaut 100 °C."
+      ],
+      "hints": [
+        "C'est la température du palier d'ébullition de l'eau."
+      ],
+      "common_errors": {
+        "0 °C": "C'est la température de fusion de la glace, pas d'ébullition."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.d04",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Sous la pression atmosphérique normale, à quelle température la glace pure fond-elle (en °C) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0",
+        "unit": "°C",
+        "tolerance_relative": 0.002
+      },
+      "solution": "La fusion de la glace pure se fait à température constante. Cette température de fusion vaut 0 °C.",
+      "step_by_step_solution": [
+        "La fusion de la glace pure se fait à température constante.",
+        "Cette température de fusion vaut 0 °C."
+      ],
+      "hints": [
+        "C'est aussi la température à laquelle l'eau pure gèle."
+      ],
+      "common_errors": {
+        "100 °C": "C'est la température d'ébullition de l'eau.",
+        "4 °C": "Confusion avec une autre valeur."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.d05",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "On place une bouteille pleine d'eau, fermée, au congélateur. Le lendemain, la bouteille est déformée. Pourquoi ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La masse d'eau n'a pas changé (bouteille fermée). En gelant, l'eau occupe un volume plus grand : la bouteille est déformée. La bonne réponse est : « Le volume de l'eau augmente quand elle gèle. »",
+      "step_by_step_solution": [
+        "La masse d'eau n'a pas changé (bouteille fermée).",
+        "En gelant, l'eau occupe un volume plus grand : la bouteille est déformée.",
+        "La bonne réponse est : « Le volume de l'eau augmente quand elle gèle. »"
+      ],
+      "hints": [
+        "La masse peut-elle changer dans une bouteille fermée ?"
+      ],
+      "common_errors": {
+        "1": "La masse se conserve lors d'un changement d'état.",
+        "2": "C'est l'eau qui gonfle en gelant.",
+        "3": "L'eau change d'état mais ne disparaît pas."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "choices": [
+        "Le volume de l'eau augmente quand elle gèle.",
+        "La masse de l'eau augmente quand elle gèle.",
+        "Le froid fait gonfler le plastique.",
+        "L'eau disparaît en gelant."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.a01",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un bécher vide a une masse de 85 g. On y verse de l'eau : l'ensemble pèse 335 g. On place le tout au congélateur jusqu'à solidification complète. Quelle est la masse de la glace seule ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "250",
+        "unit": "g"
+      },
+      "solution": "Masse de l'eau liquide = 335 − 85. La masse se conserve lors de la solidification. Masse de la glace = 250 g.",
+      "step_by_step_solution": [
+        "Masse de l'eau liquide = 335 − 85.",
+        "La masse se conserve lors de la solidification.",
+        "Masse de la glace = 250 g."
+      ],
+      "hints": [
+        "Commence par calculer la masse de l'eau seule.",
+        "La masse change-t-elle quand l'eau gèle ?"
+      ],
+      "common_errors": {
+        "335 g": "L'élève a oublié de retirer la masse du bécher.",
+        "420 g": "L'élève a ajouté la masse du bécher."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.a02",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une casserole contient 1,5 kg d'eau. On la fait bouillir jusqu'à ce que 300 g d'eau soient passés à l'état de vapeur. Quelle masse d'eau liquide reste-t-il dans la casserole ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,2",
+        "unit": "kg"
+      },
+      "solution": "On convertit : 300 g = 0,3 kg. La vapeur formée quitte la casserole : on retranche sa masse. Masse restante = 1,5 − 0,3 = 1,2 kg.",
+      "step_by_step_solution": [
+        "On convertit : 300 g = 0,3 kg.",
+        "La vapeur formée quitte la casserole : on retranche sa masse.",
+        "Masse restante = 1,5 − 0,3 = 1,2 kg."
+      ],
+      "hints": [
+        "Exprime les deux masses dans la même unité.",
+        "La vapeur d'eau reste-t-elle dans la casserole ?"
+      ],
+      "common_errors": {
+        "1,8 kg": "L'élève a ajouté la masse de vapeur au lieu de la retrancher.",
+        "298,5 g": "L'élève n'a pas converti 1,5 kg en grammes avant de soustraire."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.a03",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "On chauffe de la glace pure. Pendant toute la durée de la fusion, le thermomètre indique la même valeur. Comment appelle-t-on la partie horizontale de la courbe de température ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "palier",
+          "un palier",
+          "palier de température",
+          "un palier de température"
+        ]
+      },
+      "solution": "La température reste constante pendant le changement d'état d'un corps pur. Sur la courbe, cela se traduit par une partie horizontale appelée palier.",
+      "step_by_step_solution": [
+        "La température reste constante pendant le changement d'état d'un corps pur.",
+        "Sur la courbe, cela se traduit par une partie horizontale appelée palier."
+      ],
+      "hints": [
+        "Le mot désigne aussi une partie plate d'un escalier."
+      ],
+      "common_errors": {
+        "pente": "Une pente correspond à une température qui varie."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.a04",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On verse 100 mL d'eau liquide dans un tube et on la fait geler entièrement. Le volume de glace obtenu est de 109 mL. De combien de millilitres le volume a-t-il augmenté ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9",
+        "unit": "mL"
+      },
+      "solution": "Augmentation = volume final − volume initial. Augmentation = 109 − 100 = 9 mL.",
+      "step_by_step_solution": [
+        "Augmentation = volume final − volume initial.",
+        "Augmentation = 109 − 100 = 9 mL."
+      ],
+      "hints": [
+        "Fais la différence entre le volume de glace et le volume d'eau."
+      ],
+      "common_errors": {
+        "109 mL": "L'élève a donné le volume final au lieu de l'augmentation.",
+        "209 mL": "L'élève a additionné les volumes."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.a05",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Un corps pur change d'état à pression constante. Que fait sa température pendant ce changement d'état ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Pour un corps pur, le changement d'état se fait à température constante : c'est le palier. La bonne réponse est : « Elle reste constante. »",
+      "step_by_step_solution": [
+        "Pour un corps pur, le changement d'état se fait à température constante : c'est le palier.",
+        "La bonne réponse est : « Elle reste constante. »"
+      ],
+      "hints": [
+        "Pense à la courbe de chauffage de la glace pure."
+      ],
+      "common_errors": {
+        "1": "C'est le cas avant et après le changement d'état.",
+        "2": "C'est le cas lors d'un refroidissement sans changement d'état.",
+        "3": "La température d'un corps pur n'évolue pas au hasard."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "choices": [
+        "Elle reste constante.",
+        "Elle augmente régulièrement.",
+        "Elle diminue régulièrement.",
+        "Elle varie au hasard."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.c01",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un flacon fermé contient 40 g d'eau liquide et 12 g de glace. On attend que toute la glace fonde. Quelle est la masse totale d'eau liquide dans le flacon ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "52",
+        "unit": "g"
+      },
+      "solution": "La glace fond : ses 12 g deviennent 12 g d'eau liquide (conservation de la masse). Masse d'eau liquide = 40 + 12 = 52 g.",
+      "step_by_step_solution": [
+        "La glace fond : ses 12 g deviennent 12 g d'eau liquide (conservation de la masse).",
+        "Masse d'eau liquide = 40 + 12 = 52 g."
+      ],
+      "hints": [
+        "Que devient la masse de la glace quand elle fond ?"
+      ],
+      "common_errors": {
+        "40 g": "L'élève pense que la glace « disparaît » en fondant.",
+        "28 g": "L'élève a soustrait."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.c02",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une bouteille ouverte contenant 750 g d'eau reste en plein soleil. Une semaine plus tard, elle ne contient plus que 690 g d'eau liquide. Quelle masse d'eau est passée à l'état de vapeur ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "60",
+        "unit": "g"
+      },
+      "solution": "L'eau manquante ne disparaît pas : elle s'est évaporée (état gazeux). Masse vaporisée = 750 − 690 = 60 g.",
+      "step_by_step_solution": [
+        "L'eau manquante ne disparaît pas : elle s'est évaporée (état gazeux).",
+        "Masse vaporisée = 750 − 690 = 60 g."
+      ],
+      "hints": [
+        "L'eau qui manque a-t-elle disparu ou changé d'état ?"
+      ],
+      "common_errors": {
+        "690 g": "L'élève a donné la masse restante.",
+        "1440 g": "L'élève a additionné les deux masses."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.c03",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On pèse un flacon bouché contenant des glaçons : la balance indique 215 g. On attend la fusion complète des glaçons, sans ouvrir le flacon. Que doit indiquer la balance ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le flacon est bouché : aucune matière n'entre ni ne sort. Lors de la fusion, la masse se conserve. La bonne réponse est : « 215 g »",
+      "step_by_step_solution": [
+        "Le flacon est bouché : aucune matière n'entre ni ne sort.",
+        "Lors de la fusion, la masse se conserve.",
+        "La bonne réponse est : « 215 g »"
+      ],
+      "hints": [
+        "De la matière peut-elle entrer ou sortir d'un flacon bouché ?"
+      ],
+      "common_errors": {
+        "1": "L'élève pense que l'eau liquide est plus lourde que la glace.",
+        "2": "L'élève confond diminution de volume et diminution de masse."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "choices": [
+        "215 g",
+        "Plus de 215 g",
+        "Moins de 215 g"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.c04",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "On refroidit un corps pur liquide et on relève sa température chaque minute : 30 °C ; 24 °C ; 19 °C ; 16 °C ; 16 °C ; 16 °C ; 16 °C ; 12 °C ; 8 °C. À quelle température ce corps pur se solidifie-t-il ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "16",
+        "unit": "°C",
+        "tolerance_relative": 0.002
+      },
+      "solution": "Pendant la solidification d'un corps pur, la température reste constante. Les relevés restent constants pendant plusieurs minutes (palier). La température de solidification est donc 16 °C.",
+      "step_by_step_solution": [
+        "Pendant la solidification d'un corps pur, la température reste constante.",
+        "Les relevés restent constants pendant plusieurs minutes (palier).",
+        "La température de solidification est donc 16 °C."
+      ],
+      "hints": [
+        "Cherche les relevés qui ne changent pas d'une minute à l'autre."
+      ],
+      "common_errors": {
+        "30 °C": "L'élève a pris la température initiale.",
+        "8 °C": "L'élève a pris la température finale."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.c05",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un moule contient 500 g d'eau liquide. Après solidification complète, on obtient un bloc de glace. Quelle est la masse de ce bloc de glace (en kg) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,5",
+        "unit": "kg"
+      },
+      "solution": "La masse se conserve lors de la solidification : le bloc a une masse de 500 g. 500 g = 0,5 kg.",
+      "step_by_step_solution": [
+        "La masse se conserve lors de la solidification : le bloc a une masse de 500 g.",
+        "500 g = 0,5 kg."
+      ],
+      "hints": [
+        "1 kg = 1 000 g."
+      ],
+      "common_errors": {
+        "0,55 kg": "L'élève pense que la glace est plus lourde car elle occupe plus de volume.",
+        "5 kg": "Erreur de conversion des grammes en kilogrammes."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.x01",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un tube, 90 mL d'eau liquide gèlent entièrement ; la glace occupe alors 98 mL. De quel pourcentage le volume a-t-il augmenté (arrondi à l'unité, en %) ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9",
+        "unit": "%",
+        "tolerance_relative": 0.02
+      },
+      "solution": "Augmentation du volume : 98 − 90 = 8 mL. Pourcentage d'augmentation : 8 ÷ 90 × 100 ≈ 8,9. Arrondi à l'unité : 9 %.",
+      "step_by_step_solution": [
+        "Augmentation du volume : 98 − 90 = 8 mL.",
+        "Pourcentage d'augmentation : 8 ÷ 90 × 100 ≈ 8,9.",
+        "Arrondi à l'unité : 9 %."
+      ],
+      "hints": [
+        "Calcule d'abord l'augmentation en mL.",
+        "Divise l'augmentation par le volume de départ."
+      ],
+      "common_errors": {
+        "8 %": "L'élève a confondu l'augmentation en mL avec un pourcentage.",
+        "8,2 %": "L'élève a divisé par le volume final (98 mL) au lieu du volume initial."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.x02",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une casserole sans couvercle contient 2,0 kg d'eau. Pendant l'ébullition, la masse d'eau liquide diminue de 15 g chaque minute. Quelle masse d'eau liquide reste-t-il après 20 minutes d'ébullition ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,7",
+        "unit": "kg"
+      },
+      "solution": "Masse vaporisée en 20 minutes : 15 × 20 = 300 g = 0,3 kg. Masse restante : 2,0 − 0,3 = 1,7 kg.",
+      "step_by_step_solution": [
+        "Masse vaporisée en 20 minutes : 15 × 20 = 300 g = 0,3 kg.",
+        "Masse restante : 2,0 − 0,3 = 1,7 kg."
+      ],
+      "hints": [
+        "Calcule d'abord la masse d'eau vaporisée en 20 minutes.",
+        "Convertis avant de soustraire."
+      ],
+      "common_errors": {
+        "1,985 kg": "L'élève n'a compté qu'une minute d'ébullition.",
+        "2,3 kg": "L'élève a ajouté la masse vaporisée."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.masse-changement-etat.x03",
+      "notion_id": "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "On chauffe régulièrement de la glace pure prise à −20 °C et on relève la température chaque minute (en °C). Quelle suite de relevés est possible ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La glace se réchauffe jusqu'à 0 °C. Pendant la fusion, la température reste à 0 °C (palier). Puis l'eau liquide se réchauffe. La suite possible est : −20 ; −10 ; 0 ; 0 ; 0 ; 5 ; 10",
+      "step_by_step_solution": [
+        "La glace se réchauffe jusqu'à 0 °C.",
+        "Pendant la fusion, la température reste à 0 °C (palier).",
+        "Puis l'eau liquide se réchauffe.",
+        "La suite possible est : −20 ; −10 ; 0 ; 0 ; 0 ; 5 ; 10"
+      ],
+      "hints": [
+        "Où doit se situer le palier de fusion de l'eau ?",
+        "La température peut-elle redescendre si l'on chauffe ?"
+      ],
+      "common_errors": {
+        "1": "Il manque le palier de fusion.",
+        "2": "Le palier n'est pas à la température de fusion de l'eau.",
+        "3": "La température ne peut pas redescendre pendant un chauffage régulier."
+      },
+      "remediation": "Lors d'un changement d'état, la masse se conserve (aucune matière n'est créée ni perdue) mais le volume peut varier : l'eau qui gèle augmente de volume. Pour un corps pur, le changement d'état se fait à température constante (palier) : 0 °C pour la fusion ou la solidification de l'eau, 100 °C pour son ébullition sous la pression atmosphérique normale. Refaire un tableau « masse avant / masse après » à partir de pesées.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la conservation de la masse lors d'un changement d'état",
+        "Connaître les températures de changement d'état de l'eau"
+      ],
+      "source_notions": [
+        "PC.5E.MAT.conservation-de-la-masse-variation-du-volume-temperature-de-changement"
+      ],
+      "choices": [
+        "−20 ; −10 ; 0 ; 0 ; 0 ; 5 ; 10",
+        "−20 ; −10 ; 0 ; 5 ; 10 ; 15 ; 20",
+        "−20 ; −10 ; −10 ; −10 ; 0 ; 5 ; 10",
+        "−20 ; −15 ; 0 ; 10 ; 0 ; 5 ; 10"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.d01",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Une pile, un interrupteur fermé et deux lampes forment une seule boucle. Comment sont branchées les deux lampes ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "en série",
+          "série"
+        ]
+      },
+      "solution": "Il n'y a qu'une seule boucle : le courant traverse les dipôles les uns après les autres. Les deux lampes sont donc branchées en série.",
+      "step_by_step_solution": [
+        "Il n'y a qu'une seule boucle : le courant traverse les dipôles les uns après les autres.",
+        "Les deux lampes sont donc branchées en série."
+      ],
+      "hints": [
+        "Le courant a-t-il le choix entre plusieurs chemins ?"
+      ],
+      "common_errors": {
+        "en dérivation": "En dérivation, il faudrait au moins deux boucles et des nœuds."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.d02",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans un circuit en série comportant deux lampes, l'une des lampes grille. Que se passe-t-il pour l'autre lampe ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Une lampe grillée ouvre le circuit. Dans un circuit série, il n'y a qu'une boucle : le courant ne circule plus nulle part. La bonne réponse est : « Elle s'éteint. »",
+      "step_by_step_solution": [
+        "Une lampe grillée ouvre le circuit.",
+        "Dans un circuit série, il n'y a qu'une boucle : le courant ne circule plus nulle part.",
+        "La bonne réponse est : « Elle s'éteint. »"
+      ],
+      "hints": [
+        "Le courant peut-il contourner la lampe grillée ?"
+      ],
+      "common_errors": {
+        "1": "L'élève pense que l'autre lampe reçoit « plus de courant ».",
+        "2": "C'est le cas en dérivation.",
+        "3": "Aucune raison de clignoter."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "Elle s'éteint.",
+        "Elle brille davantage.",
+        "Elle continue de briller normalement.",
+        "Elle clignote."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.d03",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on un point d'un circuit où se rejoignent au moins trois fils de connexion ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "nœud",
+          "un nœud"
+        ]
+      },
+      "solution": "Un point où au moins trois fils se rejoignent est un point de partage du courant. On l'appelle un nœud.",
+      "step_by_step_solution": [
+        "Un point où au moins trois fils se rejoignent est un point de partage du courant.",
+        "On l'appelle un nœud."
+      ],
+      "hints": [
+        "C'est à cet endroit que le circuit se sépare en plusieurs branches."
+      ],
+      "common_errors": {
+        "boucle": "Une boucle est un chemin fermé, pas un point.",
+        "borne": "Une borne appartient à un dipôle."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.d04",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un circuit comporte un générateur et trois lampes branchées en dérivation, chacune dans sa propre branche. Combien de boucles contenant le générateur ce circuit comporte-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "Chaque lampe forme avec le générateur un chemin fermé. Il y a trois lampes en dérivation, donc 3 boucles contenant le générateur.",
+      "step_by_step_solution": [
+        "Chaque lampe forme avec le générateur un chemin fermé.",
+        "Il y a trois lampes en dérivation, donc 3 boucles contenant le générateur."
+      ],
+      "hints": [
+        "Suis avec le doigt un chemin fermé passant par le générateur et une seule lampe."
+      ],
+      "common_errors": {
+        "1": "L'élève raisonne comme pour un circuit série."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.d05",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Laquelle de ces observations montre que des lampes sont branchées en dérivation ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "En dérivation, chaque lampe est dans sa propre boucle avec le générateur. La bonne réponse est : « Si on dévisse une lampe, les autres restent allumées. »",
+      "step_by_step_solution": [
+        "En dérivation, chaque lampe est dans sa propre boucle avec le générateur.",
+        "La bonne réponse est : « Si on dévisse une lampe, les autres restent allumées. »"
+      ],
+      "hints": [
+        "Que se passe-t-il pour les autres lampes si une branche est ouverte ?"
+      ],
+      "common_errors": {
+        "1": "C'est la description d'un circuit série.",
+        "2": "C'est le comportement d'un circuit série.",
+        "3": "Sans nœud, le circuit est en série."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "Si on dévisse une lampe, les autres restent allumées.",
+        "Toutes les lampes sont dans une seule boucle, l'une après l'autre.",
+        "Si on dévisse une lampe, toutes s'éteignent.",
+        "Il n'y a aucun nœud dans le circuit."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.a01",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Dans une maison, on peut allumer la lampe du salon sans allumer celle de la cuisine. Comment ces lampes sont-elles branchées ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Chaque lampe fonctionne indépendamment de l'autre. Des dipôles indépendants sont branchés en dérivation. La bonne réponse est : « En dérivation »",
+      "step_by_step_solution": [
+        "Chaque lampe fonctionne indépendamment de l'autre.",
+        "Des dipôles indépendants sont branchés en dérivation.",
+        "La bonne réponse est : « En dérivation »"
+      ],
+      "hints": [
+        "En série, une lampe peut-elle s'allumer sans l'autre ?"
+      ],
+      "common_errors": {
+        "1": "En série, les deux lampes s'allumeraient ou s'éteindraient ensemble.",
+        "2": "Les lampes sont bien reliées au même réseau."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "En dérivation",
+        "En série",
+        "Chacune sur un réseau électrique différent"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.a02",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un circuit en série comporte une pile, un interrupteur, une lampe, un moteur et une DEL. Combien de dipôles récepteurs contient-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "La pile est le générateur ; l'interrupteur n'est pas un récepteur. Les récepteurs sont la lampe, le moteur et la DEL. Nombre de récepteurs = 3.",
+      "step_by_step_solution": [
+        "La pile est le générateur ; l'interrupteur n'est pas un récepteur.",
+        "Les récepteurs sont la lampe, le moteur et la DEL.",
+        "Nombre de récepteurs = 3."
+      ],
+      "hints": [
+        "Un récepteur convertit l'énergie électrique qu'il reçoit (lumière, mouvement…)."
+      ],
+      "common_errors": {
+        "4": "L'élève a compté l'interrupteur comme un récepteur.",
+        "5": "L'élève a compté la pile et l'interrupteur."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.a03",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Un circuit contient une pile et une lampe L1 dans la branche principale, puis deux branches en dérivation : l'une avec la lampe L2, l'autre avec la lampe L3. On dévisse L2. Que se passe-t-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Dévisser L2 ouvre seulement la branche de L2. La boucle pile – L1 – L3 reste fermée. La bonne réponse est : « L1 et L3 restent allumées. »",
+      "step_by_step_solution": [
+        "Dévisser L2 ouvre seulement la branche de L2.",
+        "La boucle pile – L1 – L3 reste fermée.",
+        "La bonne réponse est : « L1 et L3 restent allumées. »"
+      ],
+      "hints": [
+        "Repère la boucle qui passe par L1 et L3 : est-elle ouverte ?"
+      ],
+      "common_errors": {
+        "1": "L'élève raisonne comme si tout était en série.",
+        "2": "L3 est dans une autre branche que L2.",
+        "3": "L1 est dans la branche principale, qui reste fermée par la branche de L3."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "L1 et L3 restent allumées.",
+        "Toutes les lampes s'éteignent.",
+        "Seule L3 s'éteint.",
+        "L1 s'éteint et L3 reste allumée."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.a04",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans un circuit, un moteur et une lampe sont branchés entre les deux mêmes nœuds, chacun dans une branche différente. Comment sont-ils branchés l'un par rapport à l'autre ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "en dérivation",
+          "dérivation",
+          "en parallèle"
+        ]
+      },
+      "solution": "Deux dipôles branchés entre les deux mêmes nœuds, dans des branches différentes, sont en dérivation.",
+      "step_by_step_solution": [
+        "Deux dipôles branchés entre les deux mêmes nœuds, dans des branches différentes, sont en dérivation."
+      ],
+      "hints": [
+        "Le courant se partage-t-il entre le moteur et la lampe ?"
+      ],
+      "common_errors": {
+        "en série": "En série, il n'y aurait pas de nœud entre les deux dipôles."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.a05",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "On veut qu'un seul interrupteur commande l'allumage de deux lampes branchées en dérivation. Où faut-il le placer ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'interrupteur doit ouvrir toutes les boucles à la fois. Il faut donc le placer là où passent toutes les boucles : dans la branche principale, en série avec le générateur. La bonne réponse est : « Dans la branche principale, en série avec le générateur »",
+      "step_by_step_solution": [
+        "L'interrupteur doit ouvrir toutes les boucles à la fois.",
+        "Il faut donc le placer là où passent toutes les boucles : dans la branche principale, en série avec le générateur.",
+        "La bonne réponse est : « Dans la branche principale, en série avec le générateur »"
+      ],
+      "hints": [
+        "Par quelle partie du circuit passent toutes les boucles ?"
+      ],
+      "common_errors": {
+        "1": "Il ne commanderait que la première lampe.",
+        "2": "Il ne commanderait que la seconde lampe.",
+        "3": "Un interrupteur seul dans une branche entre les nœuds court-circuiterait les lampes une fois fermé."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "Dans la branche principale, en série avec le générateur",
+        "Dans la branche de la première lampe",
+        "Dans la branche de la seconde lampe",
+        "Seul dans une troisième branche entre les deux nœuds"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.c01",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Dans un circuit série, l'interrupteur est placé entre la lampe et le moteur. On ouvre l'interrupteur. Que se passe-t-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Dans un circuit série, il n'y a qu'une boucle. L'ouvrir en un point quelconque arrête le courant partout. La bonne réponse est : « La lampe et le moteur s'arrêtent tous les deux. »",
+      "step_by_step_solution": [
+        "Dans un circuit série, il n'y a qu'une boucle.",
+        "L'ouvrir en un point quelconque arrête le courant partout.",
+        "La bonne réponse est : « La lampe et le moteur s'arrêtent tous les deux. »"
+      ],
+      "hints": [
+        "La position de l'interrupteur dans la boucle a-t-elle de l'importance ?"
+      ],
+      "common_errors": {
+        "1": "L'élève pense que seul le dipôle « après » l'interrupteur s'arrête.",
+        "2": "L'élève pense que seul le dipôle « après » l'interrupteur s'arrête.",
+        "3": "Le circuit est ouvert."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "La lampe et le moteur s'arrêtent tous les deux.",
+        "Seul le moteur s'arrête.",
+        "Seule la lampe s'éteint.",
+        "Rien ne change."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.c02",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un circuit comporte une pile et deux nœuds A et B. Entre A et B, on a branché trois lampes, chacune dans sa branche. Combien de branches relient les nœuds A et B, en comptant la branche qui contient la pile ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Trois branches contiennent chacune une lampe. Une branche contient la pile. Au total : 3 + 1 = 4 branches.",
+      "step_by_step_solution": [
+        "Trois branches contiennent chacune une lampe.",
+        "Une branche contient la pile.",
+        "Au total : 3 + 1 = 4 branches."
+      ],
+      "hints": [
+        "N'oublie pas la branche du générateur."
+      ],
+      "common_errors": {
+        "3": "L'élève a oublié la branche contenant la pile."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.c03",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Une guirlande de 20 petites lampes s'éteint entièrement lorsqu'une seule lampe est retirée. Comment ses lampes sont-elles branchées ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Retirer une lampe ouvre le circuit pour toutes les lampes. C'est le comportement d'un montage en série. La bonne réponse est : « En série »",
+      "step_by_step_solution": [
+        "Retirer une lampe ouvre le circuit pour toutes les lampes.",
+        "C'est le comportement d'un montage en série.",
+        "La bonne réponse est : « En série »"
+      ],
+      "hints": [
+        "Dans quel type de montage une seule ouverture éteint tout ?"
+      ],
+      "common_errors": {
+        "1": "En dérivation, les autres lampes resteraient allumées.",
+        "2": "Chaque lampe continuerait alors de briller."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "En série",
+        "En dérivation",
+        "Chacune directement sur sa propre pile"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.c04",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Une lampe est branchée en série avec une pile. On ajoute une deuxième lampe identique en série dans cette boucle. Comment évolue l'éclat de la première lampe ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "En ajoutant un récepteur en série, le courant dans la boucle diminue. Les lampes brillent donc moins. La bonne réponse est : « Il diminue. »",
+      "step_by_step_solution": [
+        "En ajoutant un récepteur en série, le courant dans la boucle diminue.",
+        "Les lampes brillent donc moins.",
+        "La bonne réponse est : « Il diminue. »"
+      ],
+      "hints": [
+        "Deux lampes en série brillent-elles autant qu'une seule ?"
+      ],
+      "common_errors": {
+        "1": "L'élève pense qu'ajouter une lampe « ajoute du courant ».",
+        "2": "Le courant dans la boucle a changé."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "Il diminue.",
+        "Il augmente.",
+        "Il ne change pas."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.c05",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Dans un circuit série comportant une pile et deux lampes L1 et L2, un élève relie par un fil les deux bornes de la lampe L1. Que se passe-t-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le fil offre au courant un chemin sans récepteur autour de L1 : L1 est court-circuitée et s'éteint. Il ne reste qu'une lampe dans la boucle : L2 brille davantage. La bonne réponse est : « L1 s'éteint et L2 brille davantage. »",
+      "step_by_step_solution": [
+        "Le fil offre au courant un chemin sans récepteur autour de L1 : L1 est court-circuitée et s'éteint.",
+        "Il ne reste qu'une lampe dans la boucle : L2 brille davantage.",
+        "La bonne réponse est : « L1 s'éteint et L2 brille davantage. »"
+      ],
+      "hints": [
+        "Par où passe le courant : par la lampe L1 ou par le fil ?"
+      ],
+      "common_errors": {
+        "1": "La boucle passant par L2 reste fermée.",
+        "2": "L1 ne reçoit plus de courant.",
+        "3": "Le circuit est modifié."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "L1 s'éteint et L2 brille davantage.",
+        "Les deux lampes s'éteignent.",
+        "Les deux lampes brillent davantage.",
+        "Rien ne change."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.x01",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "On dispose d'une pile, de deux lampes L1 et L2 et de deux interrupteurs K1 et K2. On veut que K1 commande seulement L1 et que K2 commande seulement L2. Quel montage convient ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Chaque lampe doit être commandée indépendamment : les lampes doivent être dans des branches différentes (dérivation). Chaque interrupteur doit être dans la même branche que la lampe qu'il commande. La bonne réponse est : « L1 avec K1 dans une branche, L2 avec K2 dans une autre branche, les deux branches en dérivation sur la pile »",
+      "step_by_step_solution": [
+        "Chaque lampe doit être commandée indépendamment : les lampes doivent être dans des branches différentes (dérivation).",
+        "Chaque interrupteur doit être dans la même branche que la lampe qu'il commande.",
+        "La bonne réponse est : « L1 avec K1 dans une branche, L2 avec K2 dans une autre branche, les deux branches en dérivation sur la pile »"
+      ],
+      "hints": [
+        "Chaque lampe doit pouvoir fonctionner sans l'autre.",
+        "Un interrupteur commande les dipôles de sa branche."
+      ],
+      "common_errors": {
+        "1": "En série, chaque interrupteur commanderait les deux lampes.",
+        "2": "Dans la branche principale, chaque interrupteur commanderait les deux lampes.",
+        "3": "Chaque interrupteur commanderait la mauvaise lampe."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "L1 avec K1 dans une branche, L2 avec K2 dans une autre branche, les deux branches en dérivation sur la pile",
+        "L1, L2, K1 et K2 tous en série avec la pile",
+        "L1 et L2 en dérivation, K1 et K2 en série dans la branche principale",
+        "L1 avec K2 dans une branche, L2 avec K1 dans une autre branche en dérivation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.x02",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Un circuit comporte une pile, une lampe L1 dans la branche principale et trois branches en dérivation contenant respectivement la lampe L2, la lampe L3 et un moteur. La lampe L3 grille. Combien de récepteurs fonctionnent encore ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "La branche de L3 est ouverte, mais les branches de L2 et du moteur restent fermées. L1, dans la branche principale, est traversée par le courant de ces branches. Fonctionnent encore : L1, L2 et le moteur, soit 3 récepteurs.",
+      "step_by_step_solution": [
+        "La branche de L3 est ouverte, mais les branches de L2 et du moteur restent fermées.",
+        "L1, dans la branche principale, est traversée par le courant de ces branches.",
+        "Fonctionnent encore : L1, L2 et le moteur, soit 3 récepteurs."
+      ],
+      "hints": [
+        "Quelles boucles restent fermées ?",
+        "N'oublie pas la lampe de la branche principale."
+      ],
+      "common_errors": {
+        "0": "L'élève raisonne comme pour un circuit série.",
+        "2": "L'élève a oublié L1 dans la branche principale."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.5E.circuits-serie-derivation.x03",
+      "notion_id": "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un circuit comporte une pile, une lampe L1 dans la branche principale et deux branches en dérivation contenant L2 et L3. C'est la lampe L1 qui grille. Que se passe-t-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Toutes les boucles passent par la branche principale. Si L1 grille, toutes les boucles sont ouvertes. La bonne réponse est : « Toutes les lampes s'éteignent. »",
+      "step_by_step_solution": [
+        "Toutes les boucles passent par la branche principale.",
+        "Si L1 grille, toutes les boucles sont ouvertes.",
+        "La bonne réponse est : « Toutes les lampes s'éteignent. »"
+      ],
+      "hints": [
+        "Les boucles de L2 et de L3 passent-elles par L1 ?"
+      ],
+      "common_errors": {
+        "1": "L'élève oublie que L1 est dans la branche principale.",
+        "2": "L2 et L3 jouent des rôles symétriques.",
+        "3": "Aucun courant ne circule plus."
+      },
+      "remediation": "Suivre le trajet du courant avec le doigt depuis la borne + du générateur : si l'on passe par tous les dipôles sans jamais avoir de choix de chemin, ils sont en série (une seule boucle). S'il existe des nœuds et plusieurs boucles, les dipôles branchés entre les deux mêmes nœuds sont en dérivation. Dans un circuit série, si un dipôle est retiré ou grillé, le circuit est ouvert partout ; en dérivation, les autres branches continuent de fonctionner.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Reconnaître un montage en série ou en dérivation",
+        "Prévoir le fonctionnement d'un circuit électrique"
+      ],
+      "source_notions": [
+        "PC.5E.NRJ.dipoles-en-serie-dipoles-en-derivation"
+      ],
+      "choices": [
+        "Toutes les lampes s'éteignent.",
+        "L2 et L3 restent allumées.",
+        "Seule L2 reste allumée.",
+        "L2 et L3 brillent davantage."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

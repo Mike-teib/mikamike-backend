@@ -1,0 +1,2101 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.d01",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit la suite définie pour n ∈ ℕ par uₙ = (3n + 1)/(n + 2). Vers quel réel converge-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "On factorise par n : uₙ = (3 + 1/n)/(1 + 2/n). Comme 1/n → 0 et 2/n → 0, la limite vaut 3/1 = 3.",
+      "step_by_step_solution": [
+        "Forme indéterminée ∞/∞ : on factorise numérateur et dénominateur par n.",
+        "uₙ = (3 + 1/n)/(1 + 2/n) pour n ⩾ 1.",
+        "La limite de (uₙ) est 3."
+      ],
+      "hints": [
+        "Quel est le terme prépondérant au numérateur et au dénominateur ?",
+        "Divise numérateur et dénominateur par n."
+      ],
+      "common_errors": {
+        "1/2": "L'élève a fait le quotient des termes constants.",
+        "1": "L'élève a « simplifié » les infinis."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Lever une forme indéterminée ∞/∞"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.d02",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier n ⩾ 1, on pose uₙ = 5 − 4/√n. Déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "√n tend vers +∞, donc 4/√n tend vers 0 et uₙ tend vers 5 − 0 = 5.",
+      "step_by_step_solution": [
+        "lim √n = +∞, donc lim 4/√n = 0.",
+        "Limite d'une différence : 5 − 0.",
+        "La suite converge vers 5."
+      ],
+      "hints": [
+        "Que devient √n quand n devient très grand ? Et son inverse ?",
+        "Utilise la limite d'une somme."
+      ],
+      "common_errors": {
+        "1": "L'élève a remplacé n par 1.",
+        "0": "L'élève n'a gardé que la limite de 4/√n."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser les limites usuelles et les opérations"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.d03",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pour tout entier naturel n, on pose uₙ = n² − 3n. Quelle est la limite de (uₙ) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Forme ∞ − ∞ : on factorise, uₙ = n(n − 3). n → +∞ et n − 3 → +∞, donc la limite est +∞.",
+      "step_by_step_solution": [
+        "uₙ = n(n − 3).",
+        "Produit de deux facteurs tendant vers +∞.",
+        "La limite est +∞"
+      ],
+      "hints": [
+        "Factorise par n pour lever la forme indéterminée.",
+        "Le terme de plus haut degré l'emporte."
+      ],
+      "common_errors": {
+        "1": "Le terme n² l'emporte sur −3n.",
+        "2": "∞ − ∞ n'est pas égal à 0.",
+        "3": "La suite n'est pas bornée."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Lever une forme indéterminée ∞ − ∞"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "choices": [
+        "+∞",
+        "−∞",
+        "0",
+        "−3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.d04",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier naturel n, on pose uₙ = 2 + 3 × 0,4ⁿ. Déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "Comme −1 < 0,4 < 1, 0,4ⁿ tend vers 0. Donc uₙ tend vers 2 + 3 × 0 = 2.",
+      "step_by_step_solution": [
+        "−1 < 0,4 < 1, donc lim 0,4ⁿ = 0.",
+        "lim 3 × 0,4ⁿ = 0.",
+        "La suite converge vers 2."
+      ],
+      "hints": [
+        "Limite de qⁿ quand −1 < q < 1 ?",
+        "Utilise ensuite les opérations sur les limites."
+      ],
+      "common_errors": {
+        "5": "L'élève a cru que 0,4ⁿ tend vers 1.",
+        "0": "L'élève n'a gardé que le terme 3 × 0,4ⁿ."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser la limite d'une suite géométrique"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.d05",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier naturel n, on pose uₙ = (2n² − 1)/(n² + 5). Déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "uₙ = (2 − 1/n²)/(1 + 5/n²) pour n ⩾ 1, qui tend vers 2/1 = 2.",
+      "step_by_step_solution": [
+        "On factorise par n² au numérateur et au dénominateur.",
+        "1/n² → 0 et 5/n² → 0.",
+        "La limite de (uₙ) est 2."
+      ],
+      "hints": [
+        "Divise par n².",
+        "Seuls les termes de plus haut degré comptent."
+      ],
+      "common_errors": {
+        "-1/5": "L'élève a fait le quotient des termes constants.",
+        "0": "L'élève a conclu trop vite à 0."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Lever une forme indéterminée ∞/∞"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.a01",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier naturel n, on pose uₙ = (4n − 7)/(2n + 3). Établir que (uₙ) converge et donner sa limite.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "uₙ = (4 − 7/n)/(2 + 3/n) pour n ⩾ 1 ; numérateur → 4, dénominateur → 2 : (uₙ) converge vers 2.",
+      "step_by_step_solution": [
+        "On factorise par n : uₙ = (4 − 7/n)/(2 + 3/n).",
+        "4 − 7/n → 4 et 2 + 3/n → 2.",
+        "La suite converge vers 2."
+      ],
+      "hints": [
+        "Forme ∞/∞ : factorise par le terme prépondérant.",
+        "Quotient des coefficients de n."
+      ],
+      "common_errors": {
+        "-7/3": "Quotient des termes constants.",
+        "4": "L'élève a oublié le dénominateur."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Lever une forme indéterminée ∞/∞"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.a02",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier naturel n, on pose uₙ = (n + 1)/(n² + 1). Déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0"
+      },
+      "solution": "uₙ = (1/n + 1/n²)/(1 + 1/n²) pour n ⩾ 1 : le numérateur tend vers 0 et le dénominateur vers 1, d'où la limite 0.",
+      "step_by_step_solution": [
+        "On divise numérateur et dénominateur par n².",
+        "Numérateur → 0, dénominateur → 1.",
+        "La limite de (uₙ) est 0."
+      ],
+      "hints": [
+        "Compare les degrés du numérateur et du dénominateur.",
+        "Divise par n², le terme prépondérant du dénominateur."
+      ],
+      "common_errors": {
+        "1": "L'élève a fait le quotient des coefficients dominants sans tenir compte des degrés.",
+        "1/2": "Erreur de factorisation."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Lever une forme indéterminée ∞/∞"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.a03",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pour tout entier naturel n, on pose uₙ = −2n³ + n² + 5. Quelle est la limite de (uₙ) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "uₙ = n³(−2 + 1/n + 5/n³) ; la parenthèse tend vers −2 < 0 et n³ → +∞ : la limite est −∞.",
+      "step_by_step_solution": [
+        "On factorise par n³.",
+        "La parenthèse tend vers −2 et n³ vers +∞.",
+        "La limite est −∞"
+      ],
+      "hints": [
+        "Terme de plus haut degré.",
+        "Signe du coefficient dominant."
+      ],
+      "common_errors": {
+        "1": "Le signe du coefficient dominant est négatif.",
+        "2": "Le terme constant ne l'emporte pas.",
+        "3": "Le coefficient dominant n'est pas la limite."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Déterminer une limite infinie"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "choices": [
+        "−∞",
+        "+∞",
+        "5",
+        "−2"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.a04",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier naturel n, on pose uₙ = (3 × 2ⁿ + 1)/(2ⁿ + 4). Déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "On divise par 2ⁿ : uₙ = (3 + 1/2ⁿ)/(1 + 4/2ⁿ). Or 1/2ⁿ = 0,5ⁿ → 0, donc uₙ → 3.",
+      "step_by_step_solution": [
+        "On factorise par 2ⁿ au numérateur et au dénominateur.",
+        "1/2ⁿ = (1/2)ⁿ tend vers 0.",
+        "La limite de (uₙ) est 3."
+      ],
+      "hints": [
+        "2ⁿ est le terme prépondérant.",
+        "Que devient (1/2)ⁿ ?"
+      ],
+      "common_errors": {
+        "1/4": "Quotient des termes constants.",
+        "1": "L'élève a « simplifié » les 2ⁿ en oubliant le 3."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Lever une forme indéterminée avec des puissances"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.a05",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "REASONING",
+      "statement": "Pour tout entier n ⩾ 1, on pose uₙ = cos(n)/n. À l'aide d'un encadrement, déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0"
+      },
+      "solution": "Pour tout n ⩾ 1, −1 ⩽ cos(n) ⩽ 1, donc −1/n ⩽ uₙ ⩽ 1/n. Les deux suites encadrantes tendent vers 0 : d'après le théorème des gendarmes, (uₙ) converge vers 0.",
+      "step_by_step_solution": [
+        "−1 ⩽ cos(n) ⩽ 1, donc −1/n ⩽ uₙ ⩽ 1/n.",
+        "lim (−1/n) = lim (1/n) = 0.",
+        "Par le théorème des gendarmes, la limite de (uₙ) est 0."
+      ],
+      "hints": [
+        "cos(n) est borné.",
+        "Encadre uₙ par deux suites de même limite."
+      ],
+      "common_errors": {
+        "1": "cos(n) n'a pas de limite, mais il est borné.",
+        "-1": "Le minorant n'est pas la limite."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser le théorème des gendarmes"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.c01",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier naturel n, on pose uₙ = √(n² + n) − n. Déterminer la limite de (uₙ) (on pourra utiliser la quantité conjuguée).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/2"
+      },
+      "solution": "uₙ = (n² + n − n²)/(√(n² + n) + n) = n/(√(n² + n) + n) = 1/(√(1 + 1/n) + 1) pour n ⩾ 1, qui tend vers 1/2.",
+      "step_by_step_solution": [
+        "On multiplie et divise par √(n² + n) + n.",
+        "uₙ = n/(√(n² + n) + n) = 1/(√(1 + 1/n) + 1).",
+        "La limite de (uₙ) est 1/2."
+      ],
+      "hints": [
+        "Forme ∞ − ∞ avec une racine : pense à la quantité conjuguée.",
+        "Factorise ensuite n sous la racine."
+      ],
+      "common_errors": {
+        "0": "L'élève a cru que ∞ − ∞ = 0.",
+        "1": "Oubli du facteur 2 au dénominateur."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Lever une forme indéterminée avec la quantité conjuguée"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.c02",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier naturel n, on pose uₙ = (5ⁿ − 3ⁿ)/(5ⁿ + 2ⁿ). Déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1"
+      },
+      "solution": "On divise par 5ⁿ : uₙ = (1 − (3/5)ⁿ)/(1 + (2/5)ⁿ). Comme (3/5)ⁿ → 0 et (2/5)ⁿ → 0, uₙ → 1.",
+      "step_by_step_solution": [
+        "On factorise par 5ⁿ.",
+        "(3/5)ⁿ et (2/5)ⁿ tendent vers 0.",
+        "La limite de (uₙ) est 1."
+      ],
+      "hints": [
+        "Quelle puissance est prépondérante ?",
+        "Utilise la limite de qⁿ pour 0 < q < 1."
+      ],
+      "common_errors": {
+        "0": "L'élève a cru que 5ⁿ − 3ⁿ → 0.",
+        "-3/2": "L'élève a divisé les bases non dominantes."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Lever une forme indéterminée avec des suites géométriques"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.c03",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "REASONING",
+      "statement": "On définit u₀ = 0 et, pour tout entier naturel n, uₙ₊₁ = 0,5uₙ + 3. On admet que (uₙ) converge. Déterminer sa limite.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "La fonction f : x ↦ 0,5x + 3 est continue, donc la limite ℓ vérifie ℓ = 0,5ℓ + 3, soit 0,5ℓ = 3 et ℓ = 6.",
+      "step_by_step_solution": [
+        "Si uₙ → ℓ, alors uₙ₊₁ → ℓ et, f étant continue, f(uₙ) → f(ℓ).",
+        "ℓ = 0,5ℓ + 3 donne 0,5ℓ = 3.",
+        "La limite est ℓ = 6."
+      ],
+      "hints": [
+        "Passe à la limite dans la relation de récurrence.",
+        "Résous l'équation ℓ = f(ℓ)."
+      ],
+      "common_errors": {
+        "3": "L'élève a pris le terme constant pour limite.",
+        "2": "Erreur de résolution : ℓ = 3/1,5."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer la limite d'une suite récurrente convergente"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.c04",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pour tout entier naturel n, on pose uₙ = n + (−1)ⁿ√n. Quelle est la limite de (uₙ) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Pour tout n, uₙ ⩾ n − √n = √n(√n − 1), qui tend vers +∞. Par comparaison, la limite de (uₙ) est +∞.",
+      "step_by_step_solution": [
+        "(−1)ⁿ√n ⩾ −√n, donc uₙ ⩾ n − √n.",
+        "n − √n = √n(√n − 1) → +∞.",
+        "Par comparaison, la limite est +∞"
+      ],
+      "hints": [
+        "(−1)ⁿ oscille, mais on peut minorer uₙ.",
+        "Utilise le théorème de comparaison."
+      ],
+      "common_errors": {
+        "1": "Le terme n l'emporte sur √n.",
+        "2": "Le terme (−1)ⁿ√n n'est pas borné, mais il est dominé par n.",
+        "3": "(−1)ⁿ√n oscille, mais la somme tend vers +∞."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser un théorème de comparaison"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "choices": [
+        "+∞",
+        "−∞",
+        "0",
+        "la suite n'a pas de limite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.c05",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier n ⩾ 1, on pose uₙ = (1 + 2 + … + n)/(3n²). Déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/6"
+      },
+      "solution": "1 + 2 + … + n = n(n + 1)/2, donc uₙ = (n + 1)/(6n) = (1 + 1/n)/6, qui tend vers 1/6.",
+      "step_by_step_solution": [
+        "1 + 2 + … + n = n(n + 1)/2.",
+        "uₙ = n(n + 1)/(6n²) = (n + 1)/(6n).",
+        "La limite de (uₙ) est 1/6."
+      ],
+      "hints": [
+        "Remplace la somme par une expression explicite.",
+        "Simplifie par n."
+      ],
+      "common_errors": {
+        "1/3": "L'élève a oublié la division par 2 dans la somme.",
+        "0": "L'élève a cru que le dénominateur l'emporte."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer une limite après simplification"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.x01",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Pour tout entier naturel n, on pose uₙ = (2n + (−1)ⁿ)/(n + 1). Déterminer la limite de (uₙ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "Pour tout n, (2n − 1)/(n + 1) ⩽ uₙ ⩽ (2n + 1)/(n + 1). Les deux suites encadrantes tendent vers 2 : par le théorème des gendarmes, (uₙ) converge vers 2.",
+      "step_by_step_solution": [
+        "−1 ⩽ (−1)ⁿ ⩽ 1, donc (2n − 1)/(n + 1) ⩽ uₙ ⩽ (2n + 1)/(n + 1).",
+        "Les deux bornes tendent vers 2.",
+        "D'après le théorème des gendarmes, la limite de (uₙ) est 2."
+      ],
+      "hints": [
+        "Encadre (−1)ⁿ.",
+        "Calcule la limite des deux suites encadrantes."
+      ],
+      "common_errors": {
+        "1": "L'élève a « simplifié » en oubliant le coefficient 2.",
+        "3": "L'élève a pris la borne supérieure pour n = 0."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Utiliser le théorème des gendarmes"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.x02",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "On définit u₀ = 1 et, pour tout entier naturel n, uₙ₊₁ = √(2uₙ + 3). On admet que (uₙ) est à termes positifs et converge. Déterminer sa limite.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "f : x ↦ √(2x + 3) est continue sur [0 ; +∞[ ; la limite ℓ ⩾ 0 vérifie ℓ = √(2ℓ + 3), d'où ℓ² − 2ℓ − 3 = 0, soit (ℓ − 3)(ℓ + 1) = 0. Comme ℓ ⩾ 0, ℓ = 3.",
+      "step_by_step_solution": [
+        "ℓ = √(2ℓ + 3) entraîne ℓ² = 2ℓ + 3.",
+        "ℓ² − 2ℓ − 3 = (ℓ − 3)(ℓ + 1) : ℓ = 3 ou ℓ = −1.",
+        "ℓ ⩾ 0, donc la limite est ℓ = 3."
+      ],
+      "hints": [
+        "Passe à la limite dans la relation de récurrence.",
+        "Une limite de termes positifs est positive."
+      ],
+      "common_errors": {
+        "-1": "La limite d'une suite positive ne peut pas être négative.",
+        "l = 3 ou l = -1": "L'élève n'a pas éliminé la valeur négative."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer la limite d'une suite récurrente convergente"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.limites-suites.x03",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour tout entier naturel n, on pose uₙ = (n² + 3ⁿ)/(3ⁿ⁺¹ − n). Déterminer la limite de (uₙ), en admettant que n²/3ⁿ et n/3ⁿ tendent vers 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/3"
+      },
+      "solution": "On divise par 3ⁿ : uₙ = (n²/3ⁿ + 1)/(3 − n/3ⁿ). Le numérateur tend vers 1, le dénominateur vers 3 : la limite est 1/3.",
+      "step_by_step_solution": [
+        "3ⁿ⁺¹ = 3 × 3ⁿ ; on factorise par 3ⁿ.",
+        "uₙ = (n²/3ⁿ + 1)/(3 − n/3ⁿ).",
+        "La limite de (uₙ) est 1/3."
+      ],
+      "hints": [
+        "Le terme 3ⁿ l'emporte sur toute puissance de n.",
+        "Écris 3ⁿ⁺¹ = 3 × 3ⁿ."
+      ],
+      "common_errors": {
+        "1": "L'élève a confondu 3ⁿ⁺¹ et 3ⁿ.",
+        "3": "Quotient inversé."
+      },
+      "remediation": "Boîte à outils : limites usuelles (1/n → 0, √n → +∞, qⁿ → 0 si −1 < q < 1, qⁿ → +∞ si q > 1) ; opérations sur les limites ; formes indéterminées (∞ − ∞, ∞/∞, 0 × ∞) levées en factorisant par le terme prépondérant ou en multipliant par la quantité conjuguée ; théorèmes de comparaison et des gendarmes pour les suites bornées par des suites de même limite. Pour uₙ₊₁ = f(uₙ) convergente (f continue), la limite ℓ vérifie ℓ = f(ℓ). Une limite infinie se note +∞ ou −∞ ; une limite finie est un nombre réel.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Utiliser les croissances comparées"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.d01",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation eˣ = 5.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "ln(5)"
+      },
+      "solution": "5 > 0, donc eˣ = 5 équivaut à x = ln 5, soit x = ln(5).",
+      "step_by_step_solution": [
+        "La fonction exponentielle prend chaque valeur strictement positive une seule fois.",
+        "eˣ = 5 équivaut à x = ln 5.",
+        "x = ln(5)."
+      ],
+      "hints": [
+        "Le logarithme népérien est la fonction réciproque de l'exponentielle.",
+        "Applique ln aux deux membres."
+      ],
+      "common_errors": {
+        "exp(5)": "L'élève a confondu exponentielle et logarithme.",
+        "5": "L'élève a « supprimé » le e."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre eˣ = k"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.d02",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On écrit ln 8 sous la forme a × ln 2, avec a entier. Donner a.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "8 = 2³, donc ln 8 = ln(2³) = 3 ln 2 : a = 3.",
+      "step_by_step_solution": [
+        "8 = 2³.",
+        "ln(aᵏ) = k ln a.",
+        "ln 8 = 3 ln 2, donc a = 3."
+      ],
+      "hints": [
+        "Écris 8 comme une puissance de 2.",
+        "Utilise ln(aᵏ) = k ln a."
+      ],
+      "common_errors": {
+        "4": "L'élève a divisé 8 par 2.",
+        "8": "L'élève a cru que ln 8 = 8 ln 2."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Transformer une écriture avec ln"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.d03",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ]0 ; +∞[ l'équation ln x = 2.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "exp(2)"
+      },
+      "solution": "ln x = 2 équivaut à x = e², soit x = exp(2) (environ 7,39).",
+      "step_by_step_solution": [
+        "x doit être strictement positif.",
+        "ln x = 2 équivaut à x = e².",
+        "x = exp(2)."
+      ],
+      "hints": [
+        "Applique la fonction exponentielle aux deux membres.",
+        "e^(ln x) = x pour x > 0."
+      ],
+      "common_errors": {
+        "ln(2)": "L'élève a appliqué ln au lieu de exp.",
+        "2*exp(1)": "L'élève a multiplié e par 2 au lieu d'élever e au carré."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre ln x = k"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.d04",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On écrit e³ × e⁻¹ / e⁴ sous la forme eᵃ. Donner a.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-2"
+      },
+      "solution": "e³ × e⁻¹ / e⁴ = e^(3 − 1 − 4) = e⁻², donc a = −2.",
+      "step_by_step_solution": [
+        "e³ × e⁻¹ = e^(3 + (−1)) = e².",
+        "e² / e⁴ = e^(2 − 4).",
+        "a = −2."
+      ],
+      "hints": [
+        "Au produit correspond une somme d'exposants.",
+        "Au quotient correspond une différence d'exposants."
+      ],
+      "common_errors": {
+        "-3/4": "L'élève a multiplié et divisé les exposants.",
+        "6": "L'élève a ajouté l'exposant du dénominateur."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser les propriétés algébriques de exp"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.d05",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On écrit ln 2 + ln 5 sous la forme ln a. Donner a.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "ln 2 + ln 5 = ln(2 × 5) = ln 10, donc a = 10.",
+      "step_by_step_solution": [
+        "ln a + ln b = ln(ab) pour a, b > 0.",
+        "2 × 5 = 10.",
+        "a = 10."
+      ],
+      "hints": [
+        "Une somme de logarithmes est le logarithme d'un…",
+        "Relation fonctionnelle : ln(ab) = ln a + ln b."
+      ],
+      "common_errors": {
+        "7": "L'élève a ajouté 2 et 5.",
+        "25": "L'élève a calculé 5²."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Transformer une écriture avec ln"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.a01",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation e^(2x − 1) = 3.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "(1 + ln(3))/2"
+      },
+      "solution": "e^(2x − 1) = 3 équivaut à 2x − 1 = ln 3, soit x = (1 + ln 3)/2.",
+      "step_by_step_solution": [
+        "3 > 0, donc 2x − 1 = ln 3.",
+        "2x = 1 + ln 3.",
+        "x = (1 + ln(3))/2."
+      ],
+      "hints": [
+        "Applique ln aux deux membres.",
+        "Résous ensuite une équation du premier degré."
+      ],
+      "common_errors": {
+        "(ln(3) - 1)/2": "Erreur de signe en isolant 2x.",
+        "ln(3)/2 + 1": "L'élève a divisé seulement ln 3 par 2."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation avec exp"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.a02",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation ln(x + 1) = ln(3x − 5) sur l'intervalle ]5/3 ; +∞[.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "Sur ]5/3 ; +∞[, les deux logarithmes sont définis ; ln étant strictement croissante, l'équation équivaut à x + 1 = 3x − 5, soit x = 3, qui appartient bien à l'intervalle.",
+      "step_by_step_solution": [
+        "ln a = ln b équivaut à a = b (a, b > 0).",
+        "x + 1 = 3x − 5 donne 2x = 6.",
+        "x = 3, qui est bien supérieur à 5/3."
+      ],
+      "hints": [
+        "La fonction ln est strictement croissante donc injective.",
+        "N'oublie pas de vérifier que la solution est dans l'intervalle."
+      ],
+      "common_errors": {
+        "-3": "Erreur de signe.",
+        "2": "L'élève a écrit 2x = 4."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre ln a = ln b"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.a03",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'ensemble des solutions dans ℝ de l'inéquation eˣ > 7 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La fonction ln est strictement croissante : eˣ > 7 équivaut à x > ln 7. S = ]ln 7 ; +∞[.",
+      "step_by_step_solution": [
+        "7 = e^(ln 7).",
+        "exp est strictement croissante : eˣ > e^(ln 7) équivaut à x > ln 7.",
+        "S = ]ln 7 ; +∞["
+      ],
+      "hints": [
+        "Écris 7 comme une exponentielle.",
+        "Le sens de l'inégalité change-t-il ?"
+      ],
+      "common_errors": {
+        "1": "Confusion entre ln 7 et e⁷.",
+        "2": "Le e a été « supprimé » sans justification.",
+        "3": "Le sens de l'inégalité a été inversé."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une inéquation avec exp"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "choices": [
+        "]ln 7 ; +∞[",
+        "]e⁷ ; +∞[",
+        "]7 ; +∞[",
+        "]−∞ ; ln 7["
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.a04",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 2ˣ = 10 (on rappelle que 2ˣ = e^(x ln 2)).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "ln(10)/ln(2)"
+      },
+      "solution": "2ˣ = 10 équivaut à x ln 2 = ln 10, soit x = ln 10 / ln 2 (environ 3,32).",
+      "step_by_step_solution": [
+        "On applique ln : ln(2ˣ) = x ln 2.",
+        "x ln 2 = ln 10.",
+        "x = ln(10)/ln(2)."
+      ],
+      "hints": [
+        "Applique ln aux deux membres.",
+        "ln 2 est un nombre non nul."
+      ],
+      "common_errors": {
+        "5": "L'élève a divisé 10 par 2.",
+        "ln(5)": "L'élève a écrit ln(10/2)."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre aˣ = b"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.a05",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation ln x + ln(x − 3) = ln 4 sur l'intervalle ]3 ; +∞[.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Sur ]3 ; +∞[ : ln(x(x − 3)) = ln 4, donc x² − 3x − 4 = 0, soit (x − 4)(x + 1) = 0. −1 n'est pas dans ]3 ; +∞[ : la seule solution est x = 4.",
+      "step_by_step_solution": [
+        "ln x + ln(x − 3) = ln(x(x − 3)) pour x > 3.",
+        "x(x − 3) = 4 donne x = 4 ou x = −1.",
+        "Seule x = 4 appartient à ]3 ; +∞[."
+      ],
+      "hints": [
+        "Regroupe les logarithmes en un seul.",
+        "Vérifie que chaque solution est dans l'intervalle."
+      ],
+      "common_errors": {
+        "x = 4 ou x = -1": "L'élève n'a pas tenu compte de l'ensemble de définition.",
+        "7/2": "L'élève a remplacé ln x + ln(x − 3) par ln(2x − 3)."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une équation avec ln",
+        "Tenir compte de l'ensemble de définition"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.c01",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation e^(2x) − 5eˣ + 6 = 0 (on pourra poser X = eˣ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = ln(2) ou x = ln(3)"
+      },
+      "solution": "Avec X = eˣ > 0 : X² − 5X + 6 = 0, donc X = 2 ou X = 3. Puis eˣ = 2 donne x = ln 2 et eˣ = 3 donne x = ln 3.",
+      "step_by_step_solution": [
+        "e^(2x) = (eˣ)², l'équation devient X² − 5X + 6 = 0.",
+        "X = 2 ou X = 3, toutes deux strictement positives.",
+        "x = ln(2) ou x = ln(3)."
+      ],
+      "hints": [
+        "e^(2x) = (eˣ)².",
+        "Chaque valeur positive de X donne une valeur de x."
+      ],
+      "common_errors": {
+        "x = 2 ou x = 3": "L'élève a donné les valeurs de X, pas de x.",
+        "x = exp(2) ou x = exp(3)": "Confusion exp / ln au retour."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Se ramener à une équation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.c02",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Déterminer le plus petit entier naturel n tel que 0,8ⁿ < 0,01.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "21"
+      },
+      "solution": "0,8ⁿ < 0,01 équivaut à n ln 0,8 < ln 0,01, soit n > ln 0,01 / ln 0,8 ≈ 20,6 (car ln 0,8 < 0). Le plus petit entier est n = 21.",
+      "step_by_step_solution": [
+        "ln est strictement croissante : n ln 0,8 < ln 0,01.",
+        "ln 0,8 < 0 : en divisant, on change le sens : n > ln 0,01 / ln 0,8 ≈ 20,6.",
+        "Le plus petit entier est n = 21."
+      ],
+      "hints": [
+        "Applique ln aux deux membres.",
+        "Quel est le signe de ln 0,8 ?"
+      ],
+      "common_errors": {
+        "20": "L'élève a arrondi au lieu de prendre l'entier suivant.",
+        "0": "L'élève n'a pas changé le sens de l'inégalité (n < 20,6) et a répondu 0."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une inéquation d'inconnue entière avec ln"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.c03",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'ensemble des solutions de l'inéquation ln(2x − 1) ⩽ 0 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Condition : 2x − 1 > 0, soit x > 1/2. ln(2x − 1) ⩽ 0 = ln 1 équivaut à 2x − 1 ⩽ 1, soit x ⩽ 1. S = ]1/2 ; 1].",
+      "step_by_step_solution": [
+        "Ensemble de définition : x > 1/2.",
+        "ln(2x − 1) ⩽ ln 1 équivaut à 2x − 1 ⩽ 1, soit x ⩽ 1.",
+        "S = ]1/2 ; 1]"
+      ],
+      "hints": [
+        "Commence par l'ensemble de définition.",
+        "0 = ln 1."
+      ],
+      "common_errors": {
+        "1": "L'ensemble de définition a été oublié.",
+        "2": "Le sens de l'inégalité a été inversé.",
+        "3": "L'ensemble de définition est x > 1/2, pas x > 0."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une inéquation avec ln"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "choices": [
+        "]1/2 ; 1]",
+        "]−∞ ; 1]",
+        "[1 ; +∞[",
+        "]0 ; 1]"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.c04",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la valeur exacte de ln(e³ × √e).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7/2"
+      },
+      "solution": "√e = e^(1/2), donc e³ × √e = e^(3 + 1/2) = e^(7/2), et ln(e^(7/2)) = 7/2.",
+      "step_by_step_solution": [
+        "√e = e^(1/2).",
+        "e³ × e^(1/2) = e^(7/2).",
+        "ln(e³ × √e) = 7/2."
+      ],
+      "hints": [
+        "Écris √e comme une puissance de e.",
+        "ln(eᵃ) = a."
+      ],
+      "common_errors": {
+        "3": "L'élève a oublié le facteur √e.",
+        "3/2": "L'élève a multiplié les exposants."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Transformer une écriture avec exp et ln"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.c05",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ]0 ; +∞[ l'équation (ln x)² − ln x − 2 = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = exp(2) ou x = exp(-1)"
+      },
+      "solution": "Avec X = ln x : X² − X − 2 = 0, donc X = 2 ou X = −1. Puis x = e² ou x = e⁻¹.",
+      "step_by_step_solution": [
+        "On pose X = ln x : X² − X − 2 = (X − 2)(X + 1).",
+        "ln x = 2 ou ln x = −1.",
+        "x = exp(2) ou x = exp(-1)."
+      ],
+      "hints": [
+        "Pose X = ln x.",
+        "Reviens à x avec la fonction exponentielle."
+      ],
+      "common_errors": {
+        "x = 2 ou x = -1": "L'élève a donné les valeurs de ln x.",
+        "x = ln(2) ou x = ln(-1)": "Confusion exp / ln au retour."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Se ramener à une équation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.x01",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une population compte N(t) = 500 × e^(0,2t) individus au bout de t années. Au bout de combien d'années (valeur exacte) la population atteint-elle 2 000 individus ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5*ln(4)"
+      },
+      "solution": "500e^(0,2t) = 2 000 équivaut à e^(0,2t) = 4, soit 0,2t = ln 4 et t = 5 ln 4 (environ 6,93 ans).",
+      "step_by_step_solution": [
+        "e^(0,2t) = 2 000/500 = 4.",
+        "0,2t = ln 4.",
+        "t = 5 ln 4 = 5*ln(4)."
+      ],
+      "hints": [
+        "Isole l'exponentielle.",
+        "Diviser par 0,2 revient à multiplier par 5."
+      ],
+      "common_errors": {
+        "ln(4)/5": "L'élève a multiplié par 0,2 au lieu de diviser.",
+        "5*ln(3)": "L'élève a résolu N(t) = 1 500."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Modéliser une croissance exponentielle",
+        "Résoudre une équation avec exp"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.x02",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 3^(x + 1) = 4ˣ (réponse exacte à l'aide de ln).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "ln(3)/(ln(4) - ln(3))"
+      },
+      "solution": "On applique ln : (x + 1) ln 3 = x ln 4, soit x(ln 4 − ln 3) = ln 3. Comme ln 4 − ln 3 ≠ 0, x = ln 3/(ln 4 − ln 3) (environ 3,82).",
+      "step_by_step_solution": [
+        "(x + 1) ln 3 = x ln 4.",
+        "x(ln 4 − ln 3) = ln 3.",
+        "x = ln(3)/(ln(4) - ln(3))."
+      ],
+      "hints": [
+        "ln(aᵇ) = b ln a.",
+        "Regroupe les termes en x."
+      ],
+      "common_errors": {
+        "ln(3)/ln(4)": "L'élève a oublié le terme x ln 3.",
+        "ln(3)/(ln(3) - ln(4))": "Erreur de signe en regroupant."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre une équation exponentielle avec ln"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.exp-ln.x03",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Déterminer le plus petit entier naturel n tel que 1 − 0,95ⁿ ⩾ 0,99.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "90"
+      },
+      "solution": "1 − 0,95ⁿ ⩾ 0,99 équivaut à 0,95ⁿ ⩽ 0,01, soit n ln 0,95 ⩽ ln 0,01, donc n ⩾ ln 0,01 / ln 0,95 ≈ 89,8 (ln 0,95 < 0). Le plus petit entier est n = 90.",
+      "step_by_step_solution": [
+        "1 − 0,95ⁿ ⩾ 0,99 équivaut à 0,95ⁿ ⩽ 0,01.",
+        "n ⩾ ln 0,01 / ln 0,95 ≈ 89,8 car ln 0,95 < 0.",
+        "Le plus petit entier est n = 90."
+      ],
+      "hints": [
+        "Isole 0,95ⁿ.",
+        "Attention au signe de ln 0,95 en divisant."
+      ],
+      "common_errors": {
+        "89": "L'élève a arrondi par défaut.",
+        "0": "L'élève n'a pas changé le sens de l'inégalité et a répondu 0."
+      },
+      "remediation": "Règles : e^(a + b) = eᵃ × eᵇ, e^(a − b) = eᵃ/eᵇ, (eᵃ)ᵏ = e^(ka) ; pour a, b > 0 : ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(aᵏ) = k ln a, ln(eˣ) = x et e^(ln a) = a. Résolution : eˣ = k (k > 0) équivaut à x = ln k ; ln x = k équivaut à x = eᵏ. Toujours commencer par l'ensemble de définition (arguments du ln strictement positifs) et vérifier les solutions. Les fonctions exp et ln sont strictement croissantes : elles conservent le sens des inégalités. Dans les réponses, écrire exp(…) pour une puissance de e et ln(…).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre une inéquation d'inconnue entière avec ln"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.d01",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{0}^{2} (3x^2 + 1)\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "Une primitive de 3x² + 1 est F(x) = x³ + x. L'intégrale vaut F(2) − F(0) = (8 + 2) − 0 = 10.",
+      "step_by_step_solution": [
+        "F(x) = x³ + x est une primitive de 3x² + 1.",
+        "F(2) = 10 et F(0) = 0.",
+        "L'intégrale vaut 10."
+      ],
+      "hints": [
+        "Cherche une fonction dont la dérivée est 3x² + 1.",
+        "Calcule F(2) − F(0)."
+      ],
+      "common_errors": {
+        "13": "L'élève a calculé f(2) au lieu d'une intégrale.",
+        "8": "L'élève a oublié la primitive du terme 1."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une intégrale avec une primitive"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.d02",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{1}^{4} 2x\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "15"
+      },
+      "solution": "Une primitive de 2x est x². L'intégrale vaut 4² − 1² = 16 − 1 = 15.",
+      "step_by_step_solution": [
+        "F(x) = x².",
+        "F(4) − F(1) = 16 − 1.",
+        "L'intégrale vaut 15."
+      ],
+      "hints": [
+        "Primitive de 2x ?",
+        "N'oublie pas de soustraire F(1)."
+      ],
+      "common_errors": {
+        "16": "L'élève a oublié F(1).",
+        "6": "L'élève a calculé f(4) − f(1) avec f(x) = 2x."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une intégrale avec une primitive"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.d03",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la valeur exacte de $\\int_{0}^{1} e^x\\,dx$ (écrire exp(1) pour e).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "exp(1) - 1"
+      },
+      "solution": "Une primitive de eˣ est eˣ : l'intégrale vaut e¹ − e⁰ = e − 1, soit exp(1) − 1.",
+      "step_by_step_solution": [
+        "F(x) = eˣ.",
+        "F(1) − F(0) = e − 1.",
+        "L'intégrale vaut exp(1) − 1."
+      ],
+      "hints": [
+        "eˣ est sa propre dérivée.",
+        "e⁰ = 1."
+      ],
+      "common_errors": {
+        "exp(1)": "L'élève a oublié F(0) = 1.",
+        "exp(1) + 1": "Erreur de signe dans F(1) − F(0)."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une intégrale de exp"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.d04",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{1}^{e} \\frac{1}{x}\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1"
+      },
+      "solution": "Sur [1 ; e], une primitive de 1/x est ln x : l'intégrale vaut ln e − ln 1 = 1 − 0 = 1.",
+      "step_by_step_solution": [
+        "F(x) = ln x sur ]0 ; +∞[.",
+        "F(e) − F(1) = 1 − 0.",
+        "L'intégrale vaut 1."
+      ],
+      "hints": [
+        "Primitive de 1/x sur ]0 ; +∞[ ?",
+        "ln e = 1 et ln 1 = 0."
+      ],
+      "common_errors": {
+        "exp(1) - 1": "L'élève a intégré 1/x comme la constante 1.",
+        "0": "L'élève a pensé ln e = 0."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une intégrale avec ln"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.d05",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Laquelle de ces fonctions est une primitive de x ↦ 4x³ sur ℝ ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La dérivée de x⁴ est 4x³ : x⁴ est une primitive de 4x³.",
+      "step_by_step_solution": [
+        "On dérive chaque proposition.",
+        "(x⁴)' = 4x³.",
+        "La primitive cherchée est x⁴"
+      ],
+      "hints": [
+        "Une primitive F vérifie F' = f.",
+        "Dérive chacune des propositions."
+      ],
+      "common_errors": {
+        "1": "12x² est la dérivée de 4x³, pas une primitive.",
+        "2": "(4x⁴)' = 16x³.",
+        "3": "(x⁴/4)' = x³."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaître une primitive"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "choices": [
+        "x⁴",
+        "12x²",
+        "4x⁴",
+        "x⁴/4"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.a01",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{0}^{3} (x^2 - 2x)\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0"
+      },
+      "solution": "Une primitive est F(x) = x³/3 − x². F(3) − F(0) = (9 − 9) − 0 = 0.",
+      "step_by_step_solution": [
+        "F(x) = x³/3 − x².",
+        "F(3) = 27/3 − 9 = 0 et F(0) = 0.",
+        "L'intégrale vaut 0."
+      ],
+      "hints": [
+        "Primitive de x² : x³/3.",
+        "Une intégrale peut être nulle sans que la fonction soit nulle."
+      ],
+      "common_errors": {
+        "18": "L'élève a ajouté les deux termes au lieu de les soustraire.",
+        "3": "L'élève a calculé f(3)."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une intégrale avec une primitive"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.a02",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{0}^{1} 2(2x + 1)^3\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "20"
+      },
+      "solution": "2(2x + 1)³ est de la forme u'u³ avec u = 2x + 1 : une primitive est (2x + 1)⁴/4. L'intégrale vaut (3⁴ − 1⁴)/4 = 80/4 = 20.",
+      "step_by_step_solution": [
+        "u(x) = 2x + 1, u'(x) = 2 : la fonction est u'u³.",
+        "Une primitive est u⁴/4 = (2x + 1)⁴/4.",
+        "(81 − 1)/4 = 20."
+      ],
+      "hints": [
+        "Repère la forme u'uⁿ.",
+        "Primitive de u'uⁿ : uⁿ⁺¹/(n + 1)."
+      ],
+      "common_errors": {
+        "40": "L'élève a oublié le facteur 1/2 lié à u' = 2 (primitive (2x + 1)⁴/2).",
+        "80": "L'élève a oublié de diviser par 4."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Primitive de la forme u'uⁿ"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.a03",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{0}^{\\ln 2} e^{2x}\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/2"
+      },
+      "solution": "Une primitive de e^(2x) est e^(2x)/2. L'intégrale vaut (e^(2 ln 2) − e⁰)/2 = (4 − 1)/2 = 3/2.",
+      "step_by_step_solution": [
+        "F(x) = e^(2x)/2.",
+        "e^(2 ln 2) = (e^(ln 2))² = 4.",
+        "L'intégrale vaut (4 − 1)/2 = 3/2."
+      ],
+      "hints": [
+        "Primitive de e^(ax) : e^(ax)/a.",
+        "Simplifie e^(2 ln 2)."
+      ],
+      "common_errors": {
+        "3": "L'élève a oublié le facteur 1/2.",
+        "1/2": "L'élève a calculé (2 − 1)/2."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Primitive de e^(ax)"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.a04",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{0}^{\\pi} \\sin x\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "Une primitive de sin est −cos : l'intégrale vaut −cos π − (−cos 0) = 1 + 1 = 2.",
+      "step_by_step_solution": [
+        "F(x) = −cos x.",
+        "F(π) = −cos π = 1 et F(0) = −cos 0 = −1.",
+        "L'intégrale vaut 1 − (−1) = 2."
+      ],
+      "hints": [
+        "Primitive de sin : attention au signe.",
+        "cos π = −1."
+      ],
+      "common_errors": {
+        "0": "L'élève a pris cos comme primitive de sin.",
+        "-2": "Erreur de signe : primitive cos x."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Primitive de sin"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.a05",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{1}^{2} \\frac{1}{x^2}\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/2"
+      },
+      "solution": "Une primitive de 1/x² est −1/x. L'intégrale vaut (−1/2) − (−1) = 1/2.",
+      "step_by_step_solution": [
+        "F(x) = −1/x.",
+        "F(2) = −1/2 et F(1) = −1.",
+        "L'intégrale vaut −1/2 + 1 = 1/2."
+      ],
+      "hints": [
+        "1/x² = x⁻².",
+        "Vérifie ta primitive en la dérivant."
+      ],
+      "common_errors": {
+        "-1/2": "Oubli du signe moins dans la primitive.",
+        "-3/2": "L'élève a additionné F(2) et F(1)."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une intégrale avec une primitive"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.c01",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "À l'aide d'une intégration par parties, calculer $\\int_{0}^{1} x e^x\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1"
+      },
+      "solution": "u = x, v' = eˣ : u' = 1, v = eˣ. ∫₀¹ x eˣ dx = [x eˣ]₀¹ − ∫₀¹ eˣ dx = e − (e − 1) = 1.",
+      "step_by_step_solution": [
+        "u(x) = x, v(x) = eˣ.",
+        "[x eˣ]₀¹ = e et ∫₀¹ eˣ dx = e − 1.",
+        "L'intégrale vaut e − (e − 1) = 1."
+      ],
+      "hints": [
+        "Dérive le facteur x, intègre eˣ.",
+        "Formule : [uv] − ∫ u'v."
+      ],
+      "common_errors": {
+        "exp(1)": "L'élève s'est arrêté au crochet [x eˣ].",
+        "2*exp(1) - 1": "L'élève a ajouté l'intégrale au lieu de la retrancher."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Intégrer par parties"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.c02",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "À l'aide d'une intégration par parties, calculer $\\int_{1}^{e} x \\ln x\\,dx$ (écrire exp(2) pour e²).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "(exp(2) + 1)/4"
+      },
+      "solution": "u = ln x, v' = x : u' = 1/x, v = x²/2. [x²/2 × ln x]₁ᵉ − ∫₁ᵉ x/2 dx = e²/2 − (e² − 1)/4 = (e² + 1)/4.",
+      "step_by_step_solution": [
+        "u(x) = ln x, v(x) = x²/2.",
+        "[x²/2 × ln x]₁ᵉ = e²/2 et ∫₁ᵉ x/2 dx = (e² − 1)/4.",
+        "L'intégrale vaut (exp(2) + 1)/4."
+      ],
+      "hints": [
+        "Dérive ln x, intègre x.",
+        "u'v = (1/x)(x²/2) = x/2."
+      ],
+      "common_errors": {
+        "exp(2)/2": "L'élève s'est arrêté au crochet.",
+        "(exp(2) - 1)/4": "Erreur de signe dans la soustraction."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Intégrer par parties"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.c03",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\int_{0}^{1} \\frac{x}{x^2 + 1}\\,dx$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "ln(2)/2"
+      },
+      "solution": "x/(x² + 1) = (1/2) × u'/u avec u = x² + 1 > 0 : une primitive est (1/2) ln(x² + 1). L'intégrale vaut (1/2)(ln 2 − ln 1) = ln(2)/2.",
+      "step_by_step_solution": [
+        "u = x² + 1, u' = 2x : x/(x² + 1) = (1/2)u'/u.",
+        "Primitive : (1/2) ln(x² + 1).",
+        "L'intégrale vaut ln(2)/2."
+      ],
+      "hints": [
+        "Repère la forme u'/u.",
+        "Il manque un facteur 2 au numérateur."
+      ],
+      "common_errors": {
+        "ln(2)": "L'élève a oublié le facteur 1/2.",
+        "1/2": "L'élève a intégré le quotient comme un polynôme."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Primitive de la forme u'/u"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.c04",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer, en unités d'aire, l'aire du domaine compris entre les courbes d'équations y = x et y = x² pour x compris entre 0 et 1.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/6"
+      },
+      "solution": "Sur [0 ; 1], x ⩾ x². L'aire vaut ∫₀¹ (x − x²) dx = [x²/2 − x³/3]₀¹ = 1/2 − 1/3 = 1/6.",
+      "step_by_step_solution": [
+        "Sur [0 ; 1], x − x² = x(1 − x) ⩾ 0.",
+        "Aire = ∫₀¹ (x − x²) dx = 1/2 − 1/3.",
+        "L'aire vaut 1/6 unité d'aire."
+      ],
+      "hints": [
+        "Quelle courbe est au-dessus de l'autre sur [0 ; 1] ?",
+        "Intègre la différence (haut − bas)."
+      ],
+      "common_errors": {
+        "-1/6": "L'élève a intégré x² − x (bas − haut).",
+        "5/6": "L'élève a additionné les deux aires."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer l'aire entre deux courbes"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.c05",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la valeur moyenne de la fonction f(x) = x² sur l'intervalle [0 ; 3].",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "Valeur moyenne : (1/(3 − 0)) ∫₀³ x² dx = (1/3) × [x³/3]₀³ = (1/3) × 9 = 3.",
+      "step_by_step_solution": [
+        "μ = (1/(b − a)) ∫ₐᵇ f(x) dx.",
+        "∫₀³ x² dx = 27/3 = 9.",
+        "La valeur moyenne est μ = 9/3 = 3."
+      ],
+      "hints": [
+        "Formule de la valeur moyenne.",
+        "N'oublie pas de diviser par la longueur de l'intervalle."
+      ],
+      "common_errors": {
+        "9": "L'élève a donné l'intégrale sans diviser par 3.",
+        "9/2": "L'élève a fait la moyenne de f(0) et f(3)."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une valeur moyenne"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.x01",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "À l'aide d'une intégration par parties, calculer $\\int_{0}^{\\pi} x \\sin x\\,dx$ (écrire pi pour π).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "pi"
+      },
+      "solution": "u = x, v' = sin x : u' = 1, v = −cos x. [−x cos x]₀^π + ∫₀^π cos x dx = π + 0 = π.",
+      "step_by_step_solution": [
+        "u(x) = x, v(x) = −cos x.",
+        "[−x cos x]₀^π = π et ∫₀^π cos x dx = [sin x]₀^π = 0.",
+        "L'intégrale vaut pi."
+      ],
+      "hints": [
+        "Dérive x, intègre sin x.",
+        "Attention : − ∫ u'v = + ∫ cos x."
+      ],
+      "common_errors": {
+        "-pi": "Erreur de signe sur la primitive de sin.",
+        "0": "L'élève a oublié le crochet."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Intégrer par parties"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.x02",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Vérifier que x ↦ x eˣ est une primitive de x ↦ (x + 1)eˣ, puis calculer $\\int_{0}^{1} (x + 1) e^x\\,dx$ (valeur exacte, en notant exp(…) les puissances de e).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "exp(1)"
+      },
+      "solution": "(x eˣ)' = eˣ + x eˣ = (x + 1)eˣ. Donc l'intégrale vaut [x eˣ]₀¹ = e − 0 = exp(1).",
+      "step_by_step_solution": [
+        "(x eˣ)' = 1 × eˣ + x × eˣ = (x + 1)eˣ.",
+        "L'intégrale vaut 1 × e¹ − 0 × e⁰.",
+        "Le résultat est exp(1)."
+      ],
+      "hints": [
+        "Dérive x eˣ avec la formule du produit.",
+        "Calcule ensuite F(1) − F(0)."
+      ],
+      "common_errors": {
+        "exp(1) - 1": "L'élève a pris F(0) = 1.",
+        "2*exp(1) - 1": "L'élève a utilisé (x + 1)eˣ comme primitive."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Vérifier une primitive",
+        "Calculer une intégrale"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.TLE.integrales.x03",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Déterminer le réel a > 0 tel que $\\int_{0}^{a} 2x\\,dx = 9$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "∫₀ᵃ 2x dx = [x²]₀ᵃ = a². a² = 9 et a > 0 donnent a = 3.",
+      "step_by_step_solution": [
+        "Une primitive de 2x est x² : l'intégrale vaut a².",
+        "a² = 9.",
+        "Comme a > 0, a = 3."
+      ],
+      "hints": [
+        "Exprime l'intégrale en fonction de a.",
+        "Tiens compte de la condition a > 0."
+      ],
+      "common_errors": {
+        "a = 3 ou a = -3": "L'élève n'a pas tenu compte de la condition a > 0.",
+        "9/2": "L'élève a écrit 2a = 9."
+      },
+      "remediation": "Si F est une primitive de f continue sur [a ; b], alors ∫ₐᵇ f(x) dx = F(b) − F(a). Primitives usuelles : xⁿ → xⁿ⁺¹/(n + 1), 1/x → ln x (x > 0), eˣ → eˣ, e^(ax) → e^(ax)/a, sin → −cos, cos → sin, u'uⁿ → uⁿ⁺¹/(n + 1), u'/u → ln u (u > 0), u'e^u → e^u. Vérifier une primitive en la dérivant. Intégration par parties : ∫ₐᵇ u(x)v'(x) dx = [u(x)v(x)]ₐᵇ − ∫ₐᵇ u'(x)v(x) dx ; choisir u que la dérivation simplifie (x, ln x…). Erreurs fréquentes : oublier F(a), se tromper de signe dans F(b) − F(a). Dans les réponses, écrire exp(1) pour e.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une intégrale dépendant d'un paramètre"
+      ],
+      "source_notions": [
+        "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

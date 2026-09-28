@@ -1,0 +1,814 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q01",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "La glace qui devient liquide : c'est…",
+      "choices": [
+        "la fusion",
+        "la solidification",
+        "la dissolution"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la fusion",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Solide → liquide : c'est la fusion.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La solidification va du liquide au solide.",
+        "2": "La dissolution, c'est un solide qui se mélange dans un liquide, comme le sucre dans l'eau."
+      },
+      "common_error_target": {
+        "1": "inverser fusion et solidification"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q02",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "L'eau liquide qui devient glace : c'est…",
+      "choices": [
+        "la solidification",
+        "la fusion",
+        "la dissolution"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la solidification",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Liquide → solide : c'est la solidification.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La fusion va du solide au liquide.",
+        "2": "La dissolution n'est pas un changement d'état de l'eau."
+      },
+      "common_error_target": {
+        "1": "inverser fusion et solidification"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q03",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Un bonhomme de neige fond au soleil. C'est…",
+      "choices": [
+        "une fusion",
+        "une solidification",
+        "une dissolution"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une fusion",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La neige (solide) devient de l'eau liquide : c'est une fusion.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une solidification donnerait de la glace, pas de l'eau liquide.",
+        "2": "La neige ne se mélange pas dans un liquide : ce n'est pas une dissolution."
+      },
+      "common_error_target": {
+        "1": "inverser fusion et solidification"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q04",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "La nuit, l'eau de la flaque gèle. C'est…",
+      "choices": [
+        "une solidification",
+        "une fusion",
+        "une dissolution"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une solidification",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau liquide devient de la glace : c'est une solidification.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Une fusion transformerait de la glace en eau liquide.",
+        "2": "Rien ne se mélange ici."
+      },
+      "common_error_target": {
+        "1": "inverser fusion et solidification"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q05",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel mot veut dire « passer de l'état solide à l'état liquide » ?",
+      "choices": [
+        "fusion",
+        "solidification",
+        "dissolution"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "fusion",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Solide → liquide se dit fusion.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La solidification, c'est l'inverse : liquide → solide.",
+        "2": "La dissolution n'est pas un changement d'état."
+      },
+      "common_error_target": {
+        "1": "inverser fusion et solidification"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q06",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Le sucre qui disparaît dans l'eau…",
+      "choices": [
+        "se dissout",
+        "fond",
+        "se solidifie"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "se dissout",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le sucre se mélange à l'eau : il se dissout. Ce n'est pas une fusion.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On le dit dans la vie courante, mais le sucre ne devient pas liquide tout seul : c'est une dissolution.",
+        "2": "Le sucre ne devient pas plus solide."
+      },
+      "common_error_target": {
+        "1": "confondre dissolution et fusion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q07",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Le contraire de la solidification est…",
+      "choices": [
+        "la fusion",
+        "la congélation",
+        "le gel"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la fusion",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La solidification va du liquide au solide ; l'inverse, du solide au liquide, est la fusion.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Congeler, c'est rendre solide : c'est une solidification.",
+        "2": "Le gel de l'eau est une solidification."
+      },
+      "common_error_target": {
+        "1": "prendre un synonyme pour le contraire"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q08",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Pour fabriquer des glaçons, l'eau doit subir…",
+      "choices": [
+        "une solidification",
+        "une fusion",
+        "un mélange"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une solidification",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau liquide doit devenir solide : c'est une solidification.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La fusion ferait fondre les glaçons.",
+        "2": "Il n'y a rien à mélanger pour faire des glaçons."
+      },
+      "common_error_target": {
+        "1": "inverser fusion et solidification"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q09",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Une glace à l'eau coule sur ta main en été. Elle subit…",
+      "choices": [
+        "une fusion",
+        "une solidification",
+        "une dissolution"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une fusion",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La glace à l'eau passe de l'état solide à l'état liquide : c'est une fusion.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Une solidification la rendrait plus dure.",
+        "2": "Elle ne se mélange pas dans un liquide."
+      },
+      "common_error_target": {
+        "1": "inverser fusion et solidification"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.fusion-solidification.q10",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Après une fusion, la matière est à l'état…",
+      "choices": [
+        "liquide",
+        "solide",
+        "dur"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "liquide",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La fusion transforme un solide en liquide : à la fin, la matière est liquide.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Solide, c'est l'état du début de la fusion.",
+        "2": "« Dur » n'est pas le nom d'un état."
+      },
+      "common_error_target": {
+        "1": "confondre état de départ et état d'arrivée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q01",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Le lapin mange de l'herbe et des carottes. Il est…",
+      "choices": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "herbivore",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'herbe et les carottes sont des végétaux : le lapin est herbivore.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le lapin ne mange pas d'autres animaux.",
+        "2": "Le lapin ne mange que des végétaux."
+      },
+      "common_error_target": {
+        "1": "confondre herbivore et carnivore"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q02",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Le loup mange des lapins et des moutons. Il est…",
+      "choices": [
+        "carnivore",
+        "herbivore",
+        "omnivore"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "carnivore",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le loup mange d'autres animaux : il est carnivore.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le loup ne mange pas d'herbe.",
+        "2": "Le loup ne mange ici que des animaux."
+      },
+      "common_error_target": {
+        "1": "confondre herbivore et carnivore"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q03",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Un omnivore mange…",
+      "choices": [
+        "des végétaux et des animaux",
+        "seulement des végétaux",
+        "seulement des animaux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "des végétaux et des animaux",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "« Omni » veut dire « tout » : l'omnivore mange des végétaux et des animaux.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Seulement des végétaux : c'est un herbivore.",
+        "2": "Seulement des animaux : c'est un carnivore."
+      },
+      "common_error_target": {
+        "1": "confondre omnivore et herbivore"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q04",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel animal est carnivore ?",
+      "choices": [
+        "le requin",
+        "la chèvre",
+        "le cheval"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le requin",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le requin mange des poissons et d'autres animaux : il est carnivore.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La chèvre mange des végétaux.",
+        "2": "Le cheval mange de l'herbe et du foin."
+      },
+      "common_error_target": {
+        "2": "confondre herbivore et carnivore"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q05",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel animal est herbivore ?",
+      "choices": [
+        "le zèbre",
+        "le tigre",
+        "la chouette"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le zèbre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le zèbre mange de l'herbe : il est herbivore.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le tigre mange d'autres animaux.",
+        "2": "La chouette mange des souris et des insectes."
+      },
+      "common_error_target": {
+        "2": "croire que les oiseaux ne mangent que des graines"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q06",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "L'être humain est…",
+      "choices": [
+        "omnivore",
+        "herbivore",
+        "carnivore"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "omnivore",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'être humain peut manger des végétaux et des animaux : il est omnivore.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'être humain peut aussi manger de la viande et du poisson.",
+        "2": "L'être humain mange aussi des fruits et des légumes."
+      },
+      "common_error_target": {
+        "1": "ne retenir qu'une partie des aliments"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q07",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "La chouette mange des souris et des insectes. Elle est…",
+      "choices": [
+        "carnivore",
+        "herbivore",
+        "omnivore"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "carnivore",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Souris et insectes sont des animaux : la chouette est carnivore.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La chouette ne mange pas de végétaux ici.",
+        "2": "La chouette ne mange ici que des animaux."
+      },
+      "common_error_target": {
+        "1": "ne pas considérer les insectes comme des animaux"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q08",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Un herbivore mange…",
+      "choices": [
+        "des végétaux",
+        "des animaux",
+        "des végétaux et des animaux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "des végétaux",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un herbivore mange des végétaux, comme de l'herbe ou des feuilles.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Celui qui mange des animaux est carnivore.",
+        "2": "Celui qui mange des deux est omnivore."
+      },
+      "common_error_target": {
+        "1": "confondre herbivore et carnivore"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q09",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "La poule mange des graines et des vers de terre. Elle est…",
+      "choices": [
+        "omnivore",
+        "herbivore",
+        "carnivore"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "omnivore",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Graines (végétaux) et vers (animaux) : la poule est omnivore.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Les vers de terre sont des animaux.",
+        "2": "Les graines sont des végétaux."
+      },
+      "common_error_target": {
+        "1": "ne pas considérer le ver de terre comme un animal"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.regime-alimentaire.q10",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Un animal qui ne mange que des insectes mange…",
+      "choices": [
+        "des animaux",
+        "des végétaux",
+        "des végétaux et des animaux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "des animaux",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les insectes sont des animaux : cet animal mange des animaux.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Les insectes ne sont pas des végétaux.",
+        "2": "Il ne mange que des insectes, donc pas de végétaux."
+      },
+      "common_error_target": {
+        "1": "ne pas considérer les insectes comme des animaux"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q01",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel objet utilise l'énergie électrique ?",
+      "choices": [
+        "un aspirateur",
+        "un balai",
+        "une pelle"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un aspirateur",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'aspirateur se branche sur une prise ou a une batterie : il utilise l'énergie électrique.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le balai fonctionne avec la force des bras.",
+        "2": "La pelle fonctionne avec la force des bras."
+      },
+      "common_error_target": {
+        "1": "confondre objets qui ont le même besoin"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q02",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel objet n'utilise pas l'énergie électrique ?",
+      "choices": [
+        "un crayon",
+        "une télévision",
+        "un ordinateur"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un crayon",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le crayon fonctionne sans pile ni prise.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La télévision se branche sur une prise.",
+        "2": "L'ordinateur se branche ou a une batterie."
+      },
+      "common_error_target": {
+        "1": "ne pas lire la négation"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q03",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Une pile est…",
+      "choices": [
+        "une source d'énergie électrique",
+        "un objet qui éclaire",
+        "un fil électrique"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une source d'énergie électrique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La pile fournit l'énergie électrique à l'objet dans lequel on la place.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La pile n'éclaire pas : c'est la lampe qui éclaire grâce à la pile.",
+        "2": "Le fil transporte le courant, il ne le produit pas."
+      },
+      "common_error_target": {
+        "1": "confondre la source et l'objet qui l'utilise"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q04",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "D'où vient l'énergie électrique d'une télécommande ?",
+      "choices": [
+        "de ses piles",
+        "d'une prise",
+        "du soleil"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de ses piles",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La télécommande n'a pas de fil : elle fonctionne avec des piles.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La télécommande n'est pas branchée sur une prise.",
+        "2": "La plupart des télécommandes n'ont pas de panneau solaire."
+      },
+      "common_error_target": {
+        "1": "ne pas distinguer pile et prise"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q05",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel geste est sans danger ?",
+      "choices": [
+        "demander à un adulte de brancher un appareil",
+        "toucher une prise avec les doigts mouillés",
+        "mettre un clou dans une prise"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "demander à un adulte de brancher un appareil",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Seul le premier geste est sans danger : on ne touche jamais une prise, surtout avec les mains mouillées.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'eau et l'électricité ensemble sont très dangereuses.",
+        "2": "Mettre un objet en métal dans une prise peut électrocuter."
+      },
+      "common_error_target": {
+        "1": "sous-estimer le danger de la prise"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q06",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Pour recharger la batterie d'un téléphone, on le branche…",
+      "choices": [
+        "à une prise avec son chargeur",
+        "à un robinet",
+        "à un tuyau d'arrosage"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "à une prise avec son chargeur",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La batterie se recharge avec le chargeur branché sur une prise électrique.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un robinet donne de l'eau, pas de l'électricité.",
+        "2": "Un tuyau d'arrosage transporte de l'eau."
+      },
+      "common_error_target": {
+        "1": "ne pas savoir d'où vient l'énergie électrique"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q07",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel objet est électrique ?",
+      "choices": [
+        "un grille-pain",
+        "une fourchette",
+        "une assiette"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un grille-pain",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le grille-pain se branche sur une prise : il utilise l'énergie électrique.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La fourchette fonctionne avec la main.",
+        "2": "L'assiette n'utilise aucune énergie."
+      },
+      "common_error_target": {
+        "1": "ne pas repérer la prise"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q08",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Un vélo sans moteur avance grâce…",
+      "choices": [
+        "aux jambes du cycliste",
+        "à une prise électrique",
+        "à une pile"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "aux jambes du cycliste",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le vélo sans moteur avance grâce à la force des jambes : il n'utilise pas d'énergie électrique.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Un vélo sans moteur n'est pas branché.",
+        "2": "Un vélo sans moteur n'a pas de pile pour avancer."
+      },
+      "common_error_target": {
+        "2": "croire que tout ce qui avance utilise l'électricité"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q09",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel est l'avantage d'une lampe de poche ?",
+      "choices": [
+        "elle éclaire sans être branchée",
+        "elle ne s'use jamais",
+        "elle marche sans énergie"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "elle éclaire sans être branchée",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Grâce à ses piles, la lampe de poche éclaire loin de toute prise.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Ses piles s'usent et il faut les changer.",
+        "2": "Elle a besoin de l'énergie électrique des piles."
+      },
+      "common_error_target": {
+        "2": "oublier la source d'énergie"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.CE1.energie-electrique.q10",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "question": "Quel objet peut, selon le modèle, fonctionner avec ou sans énergie électrique ?",
+      "choices": [
+        "une brosse à dents",
+        "une cuillère",
+        "une télévision"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une brosse à dents",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Il existe des brosses à dents simples et des brosses à dents électriques.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Une cuillère n'est jamais électrique.",
+        "2": "Une télévision est toujours électrique."
+      },
+      "common_error_target": {
+        "2": "ne pas voir qu'un même besoin peut avoir deux solutions"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

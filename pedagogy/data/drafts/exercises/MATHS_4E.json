@@ -1,0 +1,2158 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.d01",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Un million s'écrit 1 000 000. Il peut s'écrire sous la forme $10^{n}$. Quelle est la valeur de n ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "1 000 000 est un 1 suivi de six zéros, donc 1 000 000 = $10^{6}$ et n = 6.",
+      "step_by_step_solution": [
+        "On compte les zéros après le 1 : il y en a six.",
+        "Un 1 suivi de n zéros s'écrit $10^{n}$.",
+        "Donc n = 6."
+      ],
+      "hints": [
+        "Compte le nombre de zéros.",
+        "Que vaut $10^{2}$ ? Et $10^{3}$ ?"
+      ],
+      "common_errors": {
+        "7": "L'élève a compté le nombre de chiffres au lieu du nombre de zéros.",
+        "1000000": "L'élève a recopié le nombre au lieu de donner l'exposant."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser les puissances de 10"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.d02",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Le nombre 0,001 peut s'écrire sous la forme $10^{n}$. Quelle est la valeur de n ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-3"
+      },
+      "solution": "0,001 = 1/1000 = $1/10^{3}$ = $10^{-3}$, donc n = −3.",
+      "step_by_step_solution": [
+        "0,001 = $\\frac{1}{1000}$.",
+        "1000 = $10^{3}$, donc $\\frac{1}{1000} = 10^{-3}$.",
+        "Donc n = −3."
+      ],
+      "hints": [
+        "Écris 0,001 sous forme de fraction décimale.",
+        "Un exposant négatif désigne l'inverse d'une puissance de 10."
+      ],
+      "common_errors": {
+        "3": "L'élève a oublié le signe moins : $10^{3}$ = 1000.",
+        "-2": "L'élève a compté les zéros après la virgule au lieu du rang du chiffre 1."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser les puissances de 10",
+        "Utiliser un exposant négatif"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.d03",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On a $10^{3} \\times 10^{4} = 10^{n}$. Quelle est la valeur de n ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "$10^{3} \\times 10^{4}$ = 1000 × 10 000 : un 1 suivi de 3 + 4 zéros, donc $10^{3} \\times 10^{4} = 10^{7}$ et n = 7.",
+      "step_by_step_solution": [
+        "$10^{3}$ = 1000 et $10^{4}$ = 10 000.",
+        "Le produit s'écrit avec un 1 suivi de 3 + 4 = 7 zéros.",
+        "Donc n = 7."
+      ],
+      "hints": [
+        "Écris chaque puissance sous forme décimale.",
+        "Pour multiplier des puissances de 10, que fait-on des exposants ?"
+      ],
+      "common_errors": {
+        "12": "L'élève a multiplié les exposants au lieu de les additionner.",
+        "1": "L'élève a soustrait les exposants."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser les puissances de 10",
+        "Multiplier des puissances de 10"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.d04",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "À quelle puissance de 10 correspond le préfixe « kilo » (comme dans kilomètre) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "1 km = 1000 m et 1000 = $10^{3}$ : le préfixe kilo correspond à 10^3.",
+      "step_by_step_solution": [
+        "Un kilomètre vaut 1000 mètres.",
+        "1000 est un 1 suivi de trois zéros.",
+        "Le préfixe kilo correspond donc à 10^3."
+      ],
+      "hints": [
+        "Combien de mètres y a-t-il dans un kilomètre ?",
+        "Écris ce nombre comme une puissance de 10."
+      ],
+      "common_errors": {
+        "1": "$10^{6}$ correspond au préfixe méga.",
+        "2": "$10^{-3}$ correspond au préfixe milli.",
+        "3": "$10^{2}$ correspond au préfixe hecto."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les préfixes de nano à giga"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "choices": [
+        "10^3",
+        "10^6",
+        "10^-3",
+        "10^2"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.d05",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Donner l'écriture décimale du nombre $10^{-2}$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,01"
+      },
+      "solution": "$10^{-2} = \\frac{1}{100}$, donc son écriture décimale est = 0,01.",
+      "step_by_step_solution": [
+        "$10^{-2}$ est l'inverse de $10^{2}$ = 100.",
+        "$\\frac{1}{100}$ = un centième.",
+        "Écriture décimale : = 0,01."
+      ],
+      "hints": [
+        "Que vaut $10^{2}$ ?",
+        "Un exposant négatif indique l'inverse."
+      ],
+      "common_errors": {
+        "-100": "L'élève a confondu exposant négatif et nombre négatif.",
+        "0,001": "L'élève a placé le 1 au troisième rang après la virgule."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser les puissances de 10",
+        "Utiliser un exposant négatif"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.a01",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écrire le nombre 45 000 en notation scientifique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "4,5 × 10^4",
+        "required_form": "notation_scientifique"
+      },
+      "solution": "On place la virgule après le premier chiffre non nul : 45 000 = 4,5 × 10 000 = 4,5 × 10^4.",
+      "step_by_step_solution": [
+        "La partie décimale doit être comprise entre 1 et 10 : on choisit 4,5.",
+        "45 000 = 4,5 × 10 000.",
+        "10 000 = 10^4, donc 45 000 = 4,5 × 10^4."
+      ],
+      "hints": [
+        "Place la virgule juste après le premier chiffre.",
+        "Par quelle puissance de 10 faut-il multiplier pour retrouver le nombre de départ ?"
+      ],
+      "common_errors": {
+        "45 × 10^3": "L'égalité est juste, mais 45 n'est pas compris entre 1 et 10 : ce n'est pas une notation scientifique.",
+        "4,5 × 10^3": "L'élève s'est trompé d'un rang dans l'exposant."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire un nombre en notation scientifique"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.a02",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écrire le nombre 0,00072 en notation scientifique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "7,2 × 10^-4",
+        "required_form": "notation_scientifique"
+      },
+      "solution": "On déplace la virgule de 4 rangs vers la droite pour obtenir 7,2 : 0,00072 = 7,2 × 10^-4.",
+      "step_by_step_solution": [
+        "La partie décimale entre 1 et 10 est 7,2.",
+        "Pour passer de 7,2 à 0,00072, on divise par 10 000, c'est-à-dire qu'on multiplie par 10^-4.",
+        "Donc 0,00072 = 7,2 × 10^-4."
+      ],
+      "hints": [
+        "Quel est le premier chiffre non nul ?",
+        "Un nombre inférieur à 1 a une notation scientifique avec un exposant négatif."
+      ],
+      "common_errors": {
+        "7,2 × 10^4": "L'élève a oublié que l'exposant est négatif pour un nombre inférieur à 1.",
+        "72 × 10^-5": "L'égalité est juste, mais 72 n'est pas compris entre 1 et 10."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire un nombre en notation scientifique",
+        "Utiliser un exposant négatif"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.a03",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On a $\\frac{10^{7}}{10^{-2}} = 10^{n}$. Quelle est la valeur de n ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "Pour un quotient de puissances de 10, on soustrait les exposants : 7 − (−2) = 9, donc n = 9.",
+      "step_by_step_solution": [
+        "$\\frac{10^{7}}{10^{-2}} = 10^{7} \\times 10^{2}$, car diviser par $10^{-2}$ revient à multiplier par $10^{2}$.",
+        "On ajoute les exposants : 7 + 2 = 9.",
+        "Donc n = 9."
+      ],
+      "hints": [
+        "Diviser par un nombre, c'est multiplier par son inverse.",
+        "Attention au signe de l'exposant du dénominateur."
+      ],
+      "common_errors": {
+        "5": "L'élève a calculé 7 − 2 en oubliant le signe de l'exposant.",
+        "-14": "L'élève a multiplié les exposants."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser les puissances de 10",
+        "Diviser des puissances de 10"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.a04",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Le nanomètre (nm) est une unité de longueur. On a 1 nm = $10^{n}$ m. Quelle est la valeur de n ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-9"
+      },
+      "solution": "Le préfixe nano correspond à un milliardième : 1 nm = 0,000000001 m = $10^{-9}$ m, donc n = −9.",
+      "step_by_step_solution": [
+        "Nano signifie « un milliardième ».",
+        "Un milliard = $10^{9}$, donc un milliardième = $10^{-9}$.",
+        "Donc n = −9."
+      ],
+      "hints": [
+        "Nano est le plus petit des préfixes étudiés.",
+        "Rappelle-toi l'ordre : milli, micro, nano."
+      ],
+      "common_errors": {
+        "-6": "L'élève a confondu nano avec micro.",
+        "9": "L'élève a oublié le signe moins (giga)."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les préfixes de nano à giga"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.a05",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "La distance moyenne entre la Terre et le Soleil est d'environ 150 000 000 km. Écrire cette distance en notation scientifique, en km.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,5 × 10^8",
+        "unit": "km",
+        "required_form": "notation_scientifique"
+      },
+      "solution": "150 000 000 = 1,5 × 100 000 000 = 1,5 × 10^8 : la distance vaut environ 1,5 × 10^8 km.",
+      "step_by_step_solution": [
+        "La partie décimale est 1,5.",
+        "Pour passer de 1,5 à 150 000 000, on multiplie par 100 000 000 = 10^8.",
+        "Distance ≈ 1,5 × 10^8 km."
+      ],
+      "hints": [
+        "Place la virgule après le premier chiffre non nul.",
+        "Compte de combien de rangs tu as déplacé la virgule."
+      ],
+      "common_errors": {
+        "15 × 10^7 km": "L'égalité est juste, mais 15 n'est pas compris entre 1 et 10.",
+        "1,5 × 10^7 km": "L'élève s'est trompé d'un rang."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire un nombre en notation scientifique",
+        "Exprimer un ordre de grandeur"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.c01",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On a $\\frac{10^{4} \\times 10^{-6}}{10^{-3}} = 10^{n}$. Quelle est la valeur de n ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1"
+      },
+      "solution": "Numérateur : $10^{4 + (-6)} = 10^{-2}$. Quotient : $10^{-2 - (-3)} = 10^{1}$, donc n = 1.",
+      "step_by_step_solution": [
+        "$10^{4} \\times 10^{-6} = 10^{-2}$ (on ajoute les exposants).",
+        "$\\frac{10^{-2}}{10^{-3}} = 10^{-2 + 3}$ (on soustrait les exposants).",
+        "−2 + 3 = 1, donc n = 1."
+      ],
+      "hints": [
+        "Commence par le numérateur.",
+        "Soustraire −3, c'est ajouter 3."
+      ],
+      "common_errors": {
+        "-5": "L'élève a ajouté l'exposant du dénominateur au lieu de le soustraire.",
+        "-13": "L'élève a additionné tous les exposants en changeant les signes au hasard."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser les puissances de 10",
+        "Enchaîner produits et quotients de puissances de 10"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.c02",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écrire le nombre $32 \\times 10^{5}$ en notation scientifique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,2 × 10^6",
+        "required_form": "notation_scientifique"
+      },
+      "solution": "32 = 3,2 × 10, donc 32 × 10^5 = 3,2 × 10 × 10^5 = 3,2 × 10^6.",
+      "step_by_step_solution": [
+        "32 n'est pas compris entre 1 et 10 : on écrit 32 = 3,2 × 10.",
+        "On regroupe les puissances de 10 : 10 × 10^5 = 10^6.",
+        "Donc 32 × 10^5 = 3,2 × 10^6."
+      ],
+      "hints": [
+        "Écris d'abord 32 en notation scientifique.",
+        "Regroupe ensuite les puissances de 10."
+      ],
+      "common_errors": {
+        "3,2 × 10^4": "L'élève a diminué l'exposant au lieu de l'augmenter.",
+        "32 × 10^5": "Ce n'est pas une notation scientifique : 32 n'est pas compris entre 1 et 10."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire un nombre en notation scientifique"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.c03",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écrire le nombre $0{,}05 \\times 10^{-3}$ en notation scientifique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "5 × 10^-5",
+        "required_form": "notation_scientifique"
+      },
+      "solution": "0,05 = 5 × 10^-2, donc 0,05 × 10^-3 = 5 × 10^-2 × 10^-3 = 5 × 10^-5.",
+      "step_by_step_solution": [
+        "0,05 = 5 × 10^-2.",
+        "On ajoute les exposants : −2 + (−3) = −5.",
+        "Donc le nombre vaut 5 × 10^-5."
+      ],
+      "hints": [
+        "Écris 0,05 comme un produit d'un nombre entre 1 et 10 par une puissance de 10.",
+        "Additionne ensuite les exposants."
+      ],
+      "common_errors": {
+        "5 × 10^-1": "L'élève a soustrait les exposants au lieu de les additionner.",
+        "5 × 10^-6": "L'élève a mal écrit 0,05 (5 × 10^-3 au lieu de 5 × 10^-2)."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire un nombre en notation scientifique",
+        "Utiliser un exposant négatif"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.c04",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Parmi les nombres suivants, lequel est le plus grand ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "On compare d'abord les exposants : l'exposant 5 est le plus grand, donc 3,1 × 10^5 est le plus grand nombre (310 000, contre 98 000, 80 000 et 0,0000027).",
+      "step_by_step_solution": [
+        "En notation scientifique, on compare d'abord les exposants.",
+        "Le plus grand exposant est 5.",
+        "Le plus grand nombre est 3,1 × 10^5."
+      ],
+      "hints": [
+        "Ne compare pas seulement les parties décimales.",
+        "Écris éventuellement chaque nombre sous forme décimale."
+      ],
+      "common_errors": {
+        "1": "9,8 est la plus grande partie décimale, mais l'exposant 4 est plus petit que 5.",
+        "2": "L'exposant −6 donne un nombre très petit.",
+        "3": "8 × 10^4 = 80 000, plus petit que 310 000."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Comparer des nombres en notation scientifique"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "choices": [
+        "3,1 × 10^5",
+        "9,8 × 10^4",
+        "2,7 × 10^-6",
+        "8 × 10^4"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.c05",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une cellule mesure 12 µm de diamètre. Exprimer ce diamètre en mètres, en notation scientifique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,2 × 10^-5",
+        "unit": "m",
+        "required_form": "notation_scientifique"
+      },
+      "solution": "1 µm = 10^-6 m, donc 12 µm = 12 × 10^-6 m = 1,2 × 10 × 10^-6 m = 1,2 × 10^-5 m.",
+      "step_by_step_solution": [
+        "Le préfixe micro correspond à 10^-6.",
+        "12 µm = 12 × 10^-6 m.",
+        "12 = 1,2 × 10, donc le diamètre vaut 1,2 × 10^-5 m."
+      ],
+      "hints": [
+        "À quelle puissance de 10 correspond le préfixe micro ?",
+        "Écris ensuite 12 en notation scientifique."
+      ],
+      "common_errors": {
+        "1,2 × 10^-7 m": "L'élève a diminué l'exposant au lieu de l'augmenter.",
+        "1,2 × 10^-8 m": "L'élève a confondu micro et nano."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire un nombre en notation scientifique",
+        "Connaître les préfixes de nano à giga"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.x01",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un globule rouge a un diamètre d'environ $7 \\times 10^{-6}$ m. Combien de globules rouges faudrait-il aligner pour obtenir une longueur de 7 cm ? Donner la réponse sous la forme d'une puissance de 10.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10^4"
+      },
+      "solution": "7 cm = $7 \\times 10^{-2}$ m. Nombre de globules : $\\frac{7 \\times 10^{-2}}{7 \\times 10^{-6}} = 10^{-2 - (-6)} = 10^{4}$, soit 10 000 globules.",
+      "step_by_step_solution": [
+        "On convertit : 7 cm = 0,07 m = $7 \\times 10^{-2}$ m.",
+        "On divise la longueur totale par le diamètre d'un globule.",
+        "$\\frac{7 \\times 10^{-2}}{7 \\times 10^{-6}} = 10^{4}$."
+      ],
+      "hints": [
+        "Exprime les deux longueurs dans la même unité.",
+        "Pour trouver combien de fois une longueur est contenue dans une autre, on divise."
+      ],
+      "common_errors": {
+        "10^-4": "L'élève a divisé dans le mauvais sens.",
+        "10^-8": "L'élève a multiplié au lieu de diviser."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser les puissances de 10",
+        "Déterminer un ordre de grandeur"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.x02",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $(6 \\times 10^{5}) \\times (4 \\times 10^{-2})$ et donner le résultat en notation scientifique.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,4 × 10^4",
+        "required_form": "notation_scientifique"
+      },
+      "solution": "On multiplie les parties décimales et les puissances de 10 : 6 × 4 = 24 et 10^5 × 10^-2 = 10^3. 24 × 10^3 = 2,4 × 10 × 10^3 = 2,4 × 10^4.",
+      "step_by_step_solution": [
+        "On regroupe : (6 × 4) × (10^5 × 10^-2).",
+        "6 × 4 = 24 et 10^5 × 10^-2 = 10^3, soit 24 × 10^3.",
+        "24 = 2,4 × 10, donc le résultat est 2,4 × 10^4."
+      ],
+      "hints": [
+        "Regroupe les nombres entre 1 et 10 d'un côté et les puissances de 10 de l'autre.",
+        "Vérifie que ta partie décimale est bien comprise entre 1 et 10."
+      ],
+      "common_errors": {
+        "24 × 10^3": "L'égalité est juste, mais ce n'est pas une notation scientifique.",
+        "2,4 × 10^-10": "L'élève a multiplié les exposants."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Écrire un nombre en notation scientifique",
+        "Calculer avec la notation scientifique"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.puissances-10.x03",
+      "notion_id": "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "La lumière parcourt environ $3 \\times 10^{8}$ m en une seconde. Quelle distance parcourt-elle en une nanoseconde (1 ns = $10^{-9}$ s) ? Donner la réponse en mètres.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 0.3,
+        "unit": "m"
+      },
+      "solution": "En 1 ns, la lumière parcourt 3 × 10^8 × 10^-9 = 3 × 10^-1 = 0,3 m, soit 30 cm.",
+      "step_by_step_solution": [
+        "La distance est proportionnelle à la durée : on multiplie la distance parcourue en 1 s par 10^-9.",
+        "3 × 10^8 × 10^-9 = 3 × 10^(8 − 9) = 3 × 10^-1.",
+        "3 × 10^-1 m = 0,3 m."
+      ],
+      "hints": [
+        "Une nanoseconde est un milliardième de seconde.",
+        "Ajoute les exposants 8 et −9."
+      ],
+      "common_errors": {
+        "3 × 10^17 m": "L'élève a soustrait l'exposant −9 au lieu de l'ajouter.",
+        "3 m": "L'élève s'est trompé d'un rang dans le calcul de l'exposant."
+      },
+      "remediation": "Reprendre le tableau des puissances de 10 (de $10^{-9}$ à $10^{9}$) : $10^{n}$ s'écrit avec un 1 suivi de n zéros, $10^{-n}$ s'écrit 0,0…01 avec le 1 au n-ième rang après la virgule. Pour un produit, on ajoute les exposants ; pour un quotient, on les soustrait. En notation scientifique, la partie décimale est comprise entre 1 (inclus) et 10 (exclu).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Utiliser les puissances de 10",
+        "Utiliser les puissances de 10 en lien avec la physique"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-puissances-de-10-sont-dabord-introduites-avec-des-exposants-positi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.d01",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation x + 7 = 19.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "On soustrait 7 aux deux membres : x = 19 − 7, donc x = 12. Vérification : 12 + 7 = 19.",
+      "step_by_step_solution": [
+        "On isole x en soustrayant 7 à chaque membre.",
+        "x = 19 − 7.",
+        "x = 12."
+      ],
+      "hints": [
+        "Quelle opération « annule » l'ajout de 7 ?",
+        "Fais la même opération des deux côtés de l'égalité."
+      ],
+      "common_errors": {
+        "26": "L'élève a ajouté 7 au lieu de le soustraire.",
+        "-12": "L'élève a changé le signe de la solution."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du premier degré"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.d02",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation 4x = 28.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "On divise les deux membres par 4 : x = 28 ÷ 4, donc x = 7. Vérification : 4 × 7 = 28.",
+      "step_by_step_solution": [
+        "4x signifie 4 × x.",
+        "On divise chaque membre par 4 : x = 28 ÷ 4.",
+        "x = 7."
+      ],
+      "hints": [
+        "Quelle opération annule une multiplication par 4 ?",
+        "Divise les deux membres par le même nombre."
+      ],
+      "common_errors": {
+        "24": "L'élève a soustrait 4 au lieu de diviser par 4.",
+        "112": "L'élève a multiplié par 4 au lieu de diviser."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du premier degré"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.d03",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Parmi les nombres 2, 3 et 4, lequel est solution de l'équation 5x − 3 = 12 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "On teste chaque nombre : 5 × 2 − 3 = 7 ; 5 × 3 − 3 = 12 ; 5 × 4 − 3 = 17. La solution est 3.",
+      "step_by_step_solution": [
+        "Pour x = 2 : 5 × 2 − 3 = 7, différent de 12.",
+        "Pour x = 3 : 5 × 3 − 3 = 12 : l'égalité est vraie.",
+        "Pour x = 4 : 5 × 4 − 3 = 17, différent de 12. La solution est 3."
+      ],
+      "hints": [
+        "Remplace x par chacun des nombres proposés.",
+        "Une solution rend l'égalité vraie."
+      ],
+      "common_errors": {
+        "0": "Pour x = 2, on obtient 7 et non 12.",
+        "2": "Pour x = 4, on obtient 17 et non 12."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Tester si un nombre est solution d'une équation"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "choices": [
+        "2",
+        "3",
+        "4"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.d04",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation x − 6 = −10.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-4"
+      },
+      "solution": "On ajoute 6 aux deux membres : x = −10 + 6, donc x = −4. Vérification : −4 − 6 = −10.",
+      "step_by_step_solution": [
+        "On ajoute 6 à chaque membre.",
+        "x = −10 + 6.",
+        "x = −4."
+      ],
+      "hints": [
+        "Quelle opération annule la soustraction de 6 ?",
+        "Attention au calcul avec les nombres relatifs."
+      ],
+      "common_errors": {
+        "-16": "L'élève a soustrait 6 au lieu de l'ajouter.",
+        "4": "L'élève a fait une erreur de signe."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Calculer avec des nombres relatifs"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.d05",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation 3x + 2 = 17.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "On soustrait 2 : 3x = 15. On divise par 3 : x = 5. Vérification : 3 × 5 + 2 = 17.",
+      "step_by_step_solution": [
+        "On soustrait 2 aux deux membres : 3x = 15.",
+        "On divise les deux membres par 3.",
+        "x = 5."
+      ],
+      "hints": [
+        "Commence par isoler le terme 3x.",
+        "Divise ensuite par le coefficient de x."
+      ],
+      "common_errors": {
+        "19/3": "L'élève a ajouté 2 au lieu de le soustraire.",
+        "13": "L'élève a soustrait 2 puis retiré 3 au lieu de diviser par 3."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du premier degré"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.a01",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Déterminer la solution de l'équation 5x − 8 = 2x + 16.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "On regroupe les x : 5x − 2x = 16 + 8, soit 3x = 24, donc x = 8. Vérification : 5 × 8 − 8 = 32 et 2 × 8 + 16 = 32.",
+      "step_by_step_solution": [
+        "On soustrait 2x aux deux membres : 3x − 8 = 16.",
+        "On ajoute 8 : 3x = 24.",
+        "On divise par 3 : x = 8."
+      ],
+      "hints": [
+        "Rassemble les termes en x dans un même membre.",
+        "Rassemble les nombres dans l'autre membre."
+      ],
+      "common_errors": {
+        "8/3": "L'élève a soustrait 8 au lieu de l'ajouter.",
+        "24/7": "L'élève a additionné 5x et 2x au lieu de soustraire."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une équation du premier degré"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.a02",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation 7 − 2x = 19.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-6"
+      },
+      "solution": "On soustrait 7 : −2x = 12. On divise par −2 : x = −6. Vérification : 7 − 2 × (−6) = 7 + 12 = 19.",
+      "step_by_step_solution": [
+        "On soustrait 7 aux deux membres : −2x = 12.",
+        "On divise par −2 (et non par 2).",
+        "x = −6."
+      ],
+      "hints": [
+        "Isole d'abord le terme en x.",
+        "Le coefficient de x est négatif : attention au signe."
+      ],
+      "common_errors": {
+        "6": "L'élève a divisé par 2 au lieu de −2.",
+        "13": "L'élève a ajouté 7 puis divisé par 2."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Diviser par un nombre négatif"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.a03",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Trouver le nombre x tel que 4x + 3 = 6.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/4"
+      },
+      "solution": "4x = 6 − 3 = 3, donc x = 3/4 (soit 0,75). Vérification : 4 × 0,75 + 3 = 6.",
+      "step_by_step_solution": [
+        "On soustrait 3 aux deux membres : 4x = 3.",
+        "On divise par 4.",
+        "x = 3/4."
+      ],
+      "hints": [
+        "La solution n'est pas forcément un nombre entier.",
+        "Divise par le coefficient de x et laisse le résultat sous forme de fraction si besoin."
+      ],
+      "common_errors": {
+        "4/3": "L'élève a inversé la fraction.",
+        "9/4": "L'élève a ajouté 3 au lieu de le soustraire."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Donner une solution sous forme fractionnaire"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.a04",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Je pense à un nombre. Je le multiplie par 3, puis j'ajoute 7 : j'obtiens 34. À quel nombre ai-je pensé ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "On note x le nombre : 3x + 7 = 34, donc 3x = 27 et x = 9. Vérification : 3 × 9 + 7 = 34.",
+      "step_by_step_solution": [
+        "On traduit : 3x + 7 = 34.",
+        "3x = 34 − 7 = 27.",
+        "x = 27 ÷ 3 = 9."
+      ],
+      "hints": [
+        "Désigne le nombre inconnu par une lettre.",
+        "Traduis le programme par une équation, puis résous-la."
+      ],
+      "common_errors": {
+        "41/3": "L'élève a ajouté 7 au lieu de le soustraire.",
+        "27": "L'élève a oublié de diviser par 3."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Mettre un problème en équation"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.a05",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation 2(x + 3) = 20.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "On développe : 2x + 6 = 20, donc 2x = 14 et x = 7. Vérification : 2 × (7 + 3) = 20.",
+      "step_by_step_solution": [
+        "On développe le membre de gauche : 2x + 6 = 20.",
+        "2x = 14.",
+        "x = 7."
+      ],
+      "hints": [
+        "Développe d'abord 2(x + 3), ou divise les deux membres par 2.",
+        "Isole ensuite x."
+      ],
+      "common_errors": {
+        "17/2": "L'élève a développé en 2x + 3 (oubli de multiplier 3 par 2).",
+        "10": "L'élève a divisé par 2 mais oublié de soustraire 3."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Développer avant de résoudre"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.c01",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation 6x − 5 = 2x − 3.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/2"
+      },
+      "solution": "6x − 2x = −3 + 5, donc 4x = 2 et x = 2/4 = 1/2. Vérification : 6 × 0,5 − 5 = −2 et 2 × 0,5 − 3 = −2.",
+      "step_by_step_solution": [
+        "On soustrait 2x : 4x − 5 = −3.",
+        "On ajoute 5 : 4x = 2.",
+        "On divise par 4 : x = 2/4 = 1/2."
+      ],
+      "hints": [
+        "Regroupe les termes en x d'un côté et les nombres de l'autre.",
+        "Simplifie la fraction obtenue."
+      ],
+      "common_errors": {
+        "-2": "L'élève a calculé − 3 − 5 au lieu de − 3 + 5, puis 4x = −8.",
+        "2": "L'élève a divisé 4 par 2 au lieu de 2 par 4."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une équation du premier degré"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.c02",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation 3(x − 2) = x + 9.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "15/2"
+      },
+      "solution": "On développe : 3x − 6 = x + 9, donc 2x = 15 et x = 15/2 (soit 7,5). Vérification : 3 × 5,5 = 16,5 et 7,5 + 9 = 16,5.",
+      "step_by_step_solution": [
+        "On développe : 3x − 6 = x + 9.",
+        "On soustrait x et on ajoute 6 : 2x = 15.",
+        "x = 15/2."
+      ],
+      "hints": [
+        "Commence par développer le membre de gauche.",
+        "Regroupe ensuite les termes en x."
+      ],
+      "common_errors": {
+        "11/2": "L'élève a développé en 3x − 2 (oubli de multiplier 2 par 3).",
+        "15/4": "L'élève a additionné 3x et x au lieu de soustraire."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Développer avant de résoudre"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.c03",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation $\\frac{x}{5} + 1 = 3$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "On soustrait 1 : x/5 = 2. On multiplie par 5 : x = 10. Vérification : 10 ÷ 5 + 1 = 3.",
+      "step_by_step_solution": [
+        "On soustrait 1 aux deux membres : $\\frac{x}{5}$ = 2.",
+        "On multiplie les deux membres par 5.",
+        "x = 10."
+      ],
+      "hints": [
+        "Isole d'abord le terme contenant x.",
+        "Quelle opération annule une division par 5 ?"
+      ],
+      "common_errors": {
+        "2/5": "L'élève a divisé par 5 au lieu de multiplier.",
+        "20": "L'élève a ajouté 1 au lieu de le soustraire."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Résoudre une équation à coefficient fractionnaire"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.c04",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rectangle a un périmètre de 46 cm. Sa longueur mesure 5 cm de plus que sa largeur. Calculer la largeur de ce rectangle, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 9,
+        "unit": "cm"
+      },
+      "solution": "On note ℓ la largeur : 2(ℓ + ℓ + 5) = 46, soit 4ℓ + 10 = 46, 4ℓ = 36 et ℓ = 9. La largeur mesure 9 cm (et la longueur 14 cm).",
+      "step_by_step_solution": [
+        "Longueur = ℓ + 5 ; périmètre = 2 × (largeur + longueur).",
+        "2(2ℓ + 5) = 46, soit 4ℓ + 10 = 46.",
+        "4ℓ = 36, donc la largeur vaut 9 cm."
+      ],
+      "hints": [
+        "Exprime la longueur en fonction de la largeur.",
+        "Écris la formule du périmètre avec ces expressions."
+      ],
+      "common_errors": {
+        "14 cm": "L'élève a donné la longueur au lieu de la largeur.",
+        "20,5 cm": "L'élève a oublié que le périmètre compte deux largeurs et deux longueurs."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Mettre un problème en équation"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.c05",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation 1,5x + 2 = 0,5x + 6,5.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4,5"
+      },
+      "solution": "1,5x − 0,5x = 6,5 − 2, donc x = 4,5. Vérification : 1,5 × 4,5 + 2 = 8,75 et 0,5 × 4,5 + 6,5 = 8,75.",
+      "step_by_step_solution": [
+        "On soustrait 0,5x : x + 2 = 6,5.",
+        "On soustrait 2 : x = 4,5."
+      ],
+      "hints": [
+        "Les coefficients peuvent être décimaux : la méthode reste la même.",
+        "1,5x − 0,5x = 1x."
+      ],
+      "common_errors": {
+        "8,5": "L'élève a ajouté 2 au lieu de le soustraire.",
+        "9/4": "L'élève a additionné 1,5x et 0,5x."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Calculer avec des décimaux"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.x01",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une piscine propose deux tarifs. Tarif A : 5 € la séance. Tarif B : un abonnement de 30 € puis 2 € la séance. Pour combien de séances les deux tarifs donnent-ils le même prix ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "On note n le nombre de séances : 5n = 30 + 2n, donc 3n = 30 et n = 10. Pour 10 séances, les deux tarifs coûtent 50 €.",
+      "step_by_step_solution": [
+        "Prix avec le tarif A : 5n ; avec le tarif B : 30 + 2n.",
+        "On résout 5n = 30 + 2n : 3n = 30.",
+        "n = 10."
+      ],
+      "hints": [
+        "Exprime le prix de chaque tarif en fonction du nombre de séances.",
+        "Écris l'égalité des deux prix."
+      ],
+      "common_errors": {
+        "6": "L'élève a résolu 5n = 30 en oubliant le prix des séances du tarif B.",
+        "30/7": "L'élève a additionné 5n et 2n."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Mettre un problème en équation",
+        "Comparer deux tarifs"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.x02",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une mère a 41 ans et sa fille a 9 ans. Dans combien d'années l'âge de la mère sera-t-il le triple de celui de sa fille ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "Dans x années : 41 + x = 3(9 + x), soit 41 + x = 27 + 3x, donc 14 = 2x et x = 7. Vérification : dans 7 ans, la mère aura 48 ans et la fille 16 ans ; 3 × 16 = 48.",
+      "step_by_step_solution": [
+        "Dans x années, la mère aura 41 + x ans et la fille 9 + x ans.",
+        "On résout 41 + x = 3(9 + x), soit 41 + x = 27 + 3x.",
+        "2x = 14, donc x = 7."
+      ],
+      "hints": [
+        "Les deux personnes vieillissent du même nombre d'années.",
+        "Attention : c'est l'âge futur de la fille qu'il faut tripler."
+      ],
+      "common_errors": {
+        "14": "L'élève a oublié de diviser par 2.",
+        "-14": "L'élève n'a pas fait vieillir la fille : il a résolu 41 + x = 3 × 9."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Mettre un problème en équation"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.equations.x03",
+      "notion_id": "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre l'équation 5(2x − 1) − 3(x + 4) = 4.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "On développe : 10x − 5 − 3x − 12 = 4, soit 7x − 17 = 4, donc 7x = 21 et x = 3. Vérification : 5 × 5 − 3 × 7 = 25 − 21 = 4.",
+      "step_by_step_solution": [
+        "On développe : 10x − 5 − 3x − 12 = 4.",
+        "On réduit : 7x − 17 = 4.",
+        "7x = 21, donc x = 3."
+      ],
+      "hints": [
+        "Attention au signe « − » devant 3(x + 4) : il s'applique aux deux termes.",
+        "Réduis le membre de gauche avant de résoudre."
+      ],
+      "common_errors": {
+        "-9/7": "L'élève a développé − 3(x + 4) en − 3x + 12.",
+        "21": "L'élève a oublié de diviser par 7."
+      },
+      "remediation": "Revenir au modèle de la balance : on peut ajouter, soustraire, multiplier ou diviser (par un nombre non nul) les deux membres par le même nombre sans changer les solutions. Vérifier systématiquement la solution en la remplaçant dans l'équation de départ.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre une équation du premier degré",
+        "Développer et réduire une expression"
+      ],
+      "source_notions": [
+        "MATHS.4E.NC.les-equations-sont-travaillees-tout-au-long-de-lannee-par-un-choix-pro"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.d01",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec AB = 6 cm et AC = 8 cm. Calculer la longueur BC, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 10,
+        "unit": "cm"
+      },
+      "solution": "D'après le théorème de Pythagore : BC² = AB² + AC² = 36 + 64 = 100, donc BC = √100 = 10 cm.",
+      "step_by_step_solution": [
+        "Le triangle est rectangle en A : l'hypoténuse est [BC].",
+        "BC² = AB² + AC² = 6² + 8² = 36 + 64 = 100.",
+        "BC = √100 = 10 cm."
+      ],
+      "hints": [
+        "Quel est le côté opposé à l'angle droit ?",
+        "Calcule la somme des carrés des deux autres côtés."
+      ],
+      "common_errors": {
+        "14 cm": "L'élève a additionné les longueurs au lieu des carrés.",
+        "100 cm": "L'élève a oublié de prendre la racine carrée."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.d02",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle EFG est rectangle en F, avec EF = 5 cm et FG = 12 cm. Déterminer la longueur de l'hypoténuse EG, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 13,
+        "unit": "cm"
+      },
+      "solution": "D'après le théorème de Pythagore : EG² = EF² + FG² = 25 + 144 = 169, donc EG = √169 = 13 cm.",
+      "step_by_step_solution": [
+        "L'angle droit est en F : l'hypoténuse est [EG].",
+        "EG² = 5² + 12² = 25 + 144 = 169.",
+        "EG = √169 = 13 cm."
+      ],
+      "hints": [
+        "Écris d'abord l'égalité de Pythagore avec les noms des côtés.",
+        "Cherche le nombre dont le carré vaut la somme obtenue."
+      ],
+      "common_errors": {
+        "17 cm": "L'élève a additionné les longueurs.",
+        "169 cm": "L'élève a oublié la racine carrée."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.d03",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Le triangle DEF est rectangle en E. Quelle égalité traduit le théorème de Pythagore dans ce triangle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'hypoténuse est le côté opposé à l'angle droit en E, c'est-à-dire [DF]. On a donc DF² = DE² + EF².",
+      "step_by_step_solution": [
+        "L'angle droit est en E.",
+        "Le côté opposé à E est [DF] : c'est l'hypoténuse.",
+        "Le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés : DF² = DE² + EF²."
+      ],
+      "hints": [
+        "Repère le côté qui ne contient pas le sommet de l'angle droit.",
+        "L'hypoténuse est seule dans un membre de l'égalité."
+      ],
+      "common_errors": {
+        "1": "[DE] contient le sommet E de l'angle droit : ce n'est pas l'hypoténuse.",
+        "2": "[EF] contient le sommet E de l'angle droit : ce n'est pas l'hypoténuse."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Identifier l'hypoténuse"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "choices": [
+        "DF² = DE² + EF²",
+        "DE² = DF² + EF²",
+        "EF² = DE² + DF²"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.d04",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle MNP est rectangle en M. On sait que NP = 10 cm et MN = 6 cm. Calculer MP, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 8,
+        "unit": "cm"
+      },
+      "solution": "L'hypoténuse est [NP] : NP² = MN² + MP², donc MP² = 100 − 36 = 64 et MP = √64 = 8 cm.",
+      "step_by_step_solution": [
+        "L'hypoténuse est [NP], opposée à l'angle droit en M.",
+        "NP² = MN² + MP², donc MP² = NP² − MN² = 100 − 36 = 64.",
+        "MP = √64 = 8 cm."
+      ],
+      "hints": [
+        "Ici, on connaît l'hypoténuse : il faudra faire une soustraction.",
+        "Écris l'égalité de Pythagore puis isole MP²."
+      ],
+      "common_errors": {
+        "11,7 cm": "L'élève a additionné les carrés au lieu de les soustraire (√136).",
+        "4 cm": "L'élève a soustrait les longueurs au lieu des carrés."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Calculer la longueur d'un côté de l'angle droit"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.d05",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Un triangle a des côtés de longueurs 9 cm, 12 cm et 15 cm. Ce triangle est-il rectangle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le plus grand côté mesure 15 cm : 15² = 225 et 9² + 12² = 81 + 144 = 225. L'égalité est vérifiée, donc d'après la réciproque du théorème de Pythagore : oui, il est rectangle (l'angle droit est opposé au côté de 15 cm).",
+      "step_by_step_solution": [
+        "On calcule le carré du plus grand côté : 15² = 225.",
+        "On calcule la somme des carrés des deux autres : 81 + 144 = 225.",
+        "Les deux résultats sont égaux : oui, il est rectangle."
+      ],
+      "hints": [
+        "Commence par le plus grand côté.",
+        "Compare son carré avec la somme des carrés des deux autres côtés."
+      ],
+      "common_errors": {
+        "1": "L'égalité 15² = 9² + 12² est pourtant vérifiée.",
+        "2": "La réciproque du théorème de Pythagore permet de conclure par le calcul."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la réciproque du théorème de Pythagore"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "choices": [
+        "Oui, il est rectangle",
+        "Non, il n'est pas rectangle",
+        "On ne peut pas conclure sans mesurer les angles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.a01",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en C, avec AC = 4 cm et BC = 7 cm. Calculer AB en cm, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 8.1,
+        "unit": "cm",
+        "tolerance_relative": 0.01
+      },
+      "solution": "D'après le théorème de Pythagore : AB² = AC² + BC² = 16 + 49 = 65, donc AB = √65 ≈ 8,1 cm.",
+      "step_by_step_solution": [
+        "L'angle droit est en C : l'hypoténuse est [AB].",
+        "AB² = 4² + 7² = 16 + 49 = 65.",
+        "AB = √65 ≈ 8,1 cm (arrondi au dixième)."
+      ],
+      "hints": [
+        "La somme des carrés n'est pas un carré parfait : utilise la calculatrice.",
+        "Arrondis seulement à la fin du calcul."
+      ],
+      "common_errors": {
+        "11 cm": "L'élève a additionné les longueurs.",
+        "65 cm": "L'élève a oublié la racine carrée."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Utiliser la racine carrée et arrondir"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.a02",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une échelle de 5 m est appuyée contre un mur vertical. Son pied est posé sur le sol horizontal à 1,4 m du mur. À quelle hauteur l'échelle touche-t-elle le mur ? Répondre en m.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 4.8,
+        "unit": "m"
+      },
+      "solution": "Le mur, le sol et l'échelle forment un triangle rectangle d'hypoténuse l'échelle : h² = 5² − 1,4² = 25 − 1,96 = 23,04, donc h = √23,04 = 4,8 m.",
+      "step_by_step_solution": [
+        "Le mur est perpendiculaire au sol : le triangle est rectangle au pied du mur.",
+        "L'échelle est l'hypoténuse : h² + 1,4² = 5².",
+        "h² = 25 − 1,96 = 23,04, donc h = 4,8 m."
+      ],
+      "hints": [
+        "Fais un schéma et repère l'angle droit.",
+        "Quelle longueur joue le rôle de l'hypoténuse ?"
+      ],
+      "common_errors": {
+        "5,2 m": "L'élève a additionné les carrés (√26,96).",
+        "3,6 m": "L'élève a soustrait les longueurs."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Modéliser une situation par un triangle rectangle"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.a03",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Les côtés d'un triangle mesurent 5 cm, 7 cm et 9 cm. Peut-on affirmer que ce triangle est rectangle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Le plus grand côté mesure 9 cm : 9² = 81, alors que 5² + 7² = 25 + 49 = 74. Comme 81 ≠ 74, le triangle n'est pas rectangle (conséquence du théorème de Pythagore). Réponse : non, il n'est pas rectangle.",
+      "step_by_step_solution": [
+        "9² = 81.",
+        "5² + 7² = 25 + 49 = 74.",
+        "81 ≠ 74 : non, il n'est pas rectangle."
+      ],
+      "hints": [
+        "Calcule séparément le carré du plus grand côté.",
+        "Si l'égalité de Pythagore n'est pas vérifiée, que peut-on conclure ?"
+      ],
+      "common_errors": {
+        "0": "L'égalité de Pythagore n'est pas vérifiée : 81 ≠ 74.",
+        "2": "Le calcul des carrés permet de conclure sans mesurer."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la réciproque du théorème de Pythagore",
+        "Démontrer qu'un triangle n'est pas rectangle"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "choices": [
+        "Oui, il est rectangle",
+        "Non, il n'est pas rectangle",
+        "On ne peut pas conclure sans mesurer les angles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.a04",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "L'écran rectangulaire d'un téléviseur mesure 80 cm de long et 60 cm de haut. Quelle est la longueur de sa diagonale, en cm ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 100,
+        "unit": "cm"
+      },
+      "solution": "La diagonale partage le rectangle en deux triangles rectangles : d² = 80² + 60² = 6400 + 3600 = 10 000, donc d = 100 cm.",
+      "step_by_step_solution": [
+        "Les angles d'un rectangle sont droits : la diagonale est l'hypoténuse d'un triangle rectangle.",
+        "d² = 80² + 60² = 6400 + 3600 = 10 000.",
+        "d = √10 000 = 100 cm."
+      ],
+      "hints": [
+        "Quelle figure forment la longueur, la largeur et la diagonale ?",
+        "La diagonale est-elle un côté de l'angle droit ou l'hypoténuse ?"
+      ],
+      "common_errors": {
+        "140 cm": "L'élève a additionné les longueurs.",
+        "52,9 cm": "L'élève a soustrait les carrés (√2800)."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Calculer la diagonale d'un rectangle"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.a05",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans le triangle ABC, M est un point de [AB] et N un point de [AC] tels que les droites (MN) et (BC) sont parallèles. On donne AM = 3 cm, AB = 5 cm et BC = 7,5 cm. Calculer MN, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 4.5,
+        "unit": "cm"
+      },
+      "solution": "D'après le théorème de Thalès : $\\frac{AM}{AB} = \\frac{AN}{AC} = \\frac{MN}{BC}$. Donc MN = BC × AM ÷ AB = 7,5 × 3 ÷ 5 = 4,5 cm.",
+      "step_by_step_solution": [
+        "Les points A, M, B et A, N, C sont alignés et (MN) // (BC).",
+        "Théorème de Thalès : $\\frac{AM}{AB} = \\frac{AN}{AC} = \\frac{MN}{BC}$.",
+        "MN/7,5 = 3/5, donc MN = 7,5 × 3 ÷ 5 = 4,5 cm."
+      ],
+      "hints": [
+        "Écris les trois rapports égaux en commençant par le petit triangle.",
+        "Utilise le rapport qui contient deux longueurs connues."
+      ],
+      "common_errors": {
+        "12,5 cm": "L'élève a inversé le rapport (7,5 × 5 ÷ 3).",
+        "5,5 cm": "L'élève a soustrait au lieu d'utiliser la proportionnalité."
+      },
+      "remediation": "Dans la configuration des triangles emboîtés, colorier le petit triangle et le grand triangle, puis écrire les rapports « petit / grand » dans le même ordre : AM/AB = AN/AC = MN/BC. Utiliser ensuite un produit en croix.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser le théorème de Thalès"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.c01",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans le triangle ABC, M est sur [AB] et N est sur [AC] avec (MN) // (BC). On donne AM = 4 cm, AB = 10 cm et AN = 6 cm. Calculer AC, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 15,
+        "unit": "cm"
+      },
+      "solution": "D'après le théorème de Thalès : $\\frac{AM}{AB} = \\frac{AN}{AC} = \\frac{MN}{BC}$. Donc 4/10 = 6/AC et AC = 6 × 10 ÷ 4 = 15 cm.",
+      "step_by_step_solution": [
+        "Configuration de Thalès : (MN) // (BC), M ∈ [AB], N ∈ [AC].",
+        "AM/AB = AN/AC, soit 4/10 = 6/AC.",
+        "AC = 6 × 10 ÷ 4 = 15 cm."
+      ],
+      "hints": [
+        "Quel rapport contient la longueur cherchée ?",
+        "Utilise un produit en croix."
+      ],
+      "common_errors": {
+        "2,4 cm": "L'élève a calculé 6 × 4 ÷ 10 (rapport inversé).",
+        "12 cm": "L'élève a ajouté 6 à la différence AB − AM."
+      },
+      "remediation": "Dans la configuration des triangles emboîtés, colorier le petit triangle et le grand triangle, puis écrire les rapports « petit / grand » dans le même ordre : AM/AB = AN/AC = MN/BC. Utiliser ensuite un produit en croix.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser le théorème de Thalès",
+        "Utiliser un produit en croix"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.c02",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Dans le triangle ABC, M est sur [AB] et N est sur [AC]. On donne AM = 3 cm, AB = 9 cm, AN = 4 cm et AC = 12 cm. Les droites (MN) et (BC) sont-elles parallèles ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "AM/AB = 3/9 = 1/3 et AN/AC = 4/12 = 1/3. Les rapports sont égaux et les points sont dans le même ordre, donc d'après la réciproque du théorème de Thalès : oui, les droites sont parallèles.",
+      "step_by_step_solution": [
+        "AM/AB = 3/9 = 1/3.",
+        "AN/AC = 4/12 = 1/3.",
+        "Rapports égaux, points alignés dans le même ordre : oui, les droites sont parallèles."
+      ],
+      "hints": [
+        "Calcule et simplifie les rapports AM/AB et AN/AC.",
+        "Quelle propriété permet de démontrer un parallélisme à partir de rapports ?"
+      ],
+      "common_errors": {
+        "1": "Les rapports AM/AB et AN/AC sont pourtant égaux.",
+        "2": "Il n'est pas nécessaire de connaître MN pour utiliser la réciproque."
+      },
+      "remediation": "Dans la configuration des triangles emboîtés, colorier le petit triangle et le grand triangle, puis écrire les rapports « petit / grand » dans le même ordre : AM/AB = AN/AC = MN/BC. Utiliser ensuite un produit en croix.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la réciproque du théorème de Thalès"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "choices": [
+        "Oui, les droites sont parallèles",
+        "Non, les droites ne sont pas parallèles",
+        "On ne peut pas savoir sans connaître MN"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.c03",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rectangle ABCD a pour longueur AB = 12 cm et sa diagonale [AC] mesure 13 cm. Calculer la largeur BC, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 5,
+        "unit": "cm"
+      },
+      "solution": "Le triangle ABC est rectangle en B : AC² = AB² + BC², donc BC² = 169 − 144 = 25 et BC = 5 cm.",
+      "step_by_step_solution": [
+        "Dans le rectangle, l'angle en B est droit : le triangle ABC est rectangle en B.",
+        "AC² = AB² + BC², donc BC² = 13² − 12² = 169 − 144 = 25.",
+        "BC = √25 = 5 cm."
+      ],
+      "hints": [
+        "Repère un triangle rectangle qui contient la diagonale.",
+        "La diagonale est-elle l'hypoténuse ?"
+      ],
+      "common_errors": {
+        "1 cm": "L'élève a soustrait les longueurs.",
+        "17,7 cm": "L'élève a additionné les carrés."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.c04",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un triangle ABC est isocèle en A avec AB = AC = 13 cm et BC = 10 cm. H est le milieu de [BC]. Calculer la hauteur AH, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 12,
+        "unit": "cm"
+      },
+      "solution": "Dans un triangle isocèle, la médiane issue de A est aussi la hauteur : AHB est rectangle en H avec BH = 5 cm. AH² = AB² − BH² = 169 − 25 = 144, donc AH = 12 cm.",
+      "step_by_step_solution": [
+        "(AH) est perpendiculaire à (BC) car le triangle est isocèle en A et H est le milieu de [BC].",
+        "BH = 10 ÷ 2 = 5 cm ; dans ABH rectangle en H : AB² = AH² + BH².",
+        "AH² = 169 − 25 = 144, donc AH = 12 cm."
+      ],
+      "hints": [
+        "Quelle est la nature du triangle ABH ?",
+        "Combien mesure BH ?"
+      ],
+      "common_errors": {
+        "8,3 cm": "L'élève a utilisé BH = 10 cm au lieu de 5 cm (√69).",
+        "13,9 cm": "L'élève a additionné les carrés."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Utiliser les propriétés du triangle isocèle"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.c05",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Au même moment, un bâton vertical de 1,5 m projette une ombre de 2 m, et un arbre vertical projette une ombre de 12 m. Les rayons du soleil sont parallèles et les ombres sont alignées avec les pieds sur un sol horizontal, dans une configuration de triangles emboîtés. Quelle est la hauteur de l'arbre, en m ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 9,
+        "unit": "m"
+      },
+      "solution": "Les deux triangles sont emboîtés et les côtés verticaux sont parallèles : d'après le théorème de Thalès, hauteur de l'arbre / 1,5 = 12 / 2, donc la hauteur vaut 1,5 × 12 ÷ 2 = 9 m.",
+      "step_by_step_solution": [
+        "Le bâton et l'arbre sont verticaux, donc parallèles.",
+        "Théorème de Thalès : hauteur / 1,5 = 12 / 2.",
+        "Hauteur = 1,5 × 6 = 9 m."
+      ],
+      "hints": [
+        "L'ombre de l'arbre est combien de fois plus longue que celle du bâton ?",
+        "Les longueurs des deux triangles sont proportionnelles."
+      ],
+      "common_errors": {
+        "0,25 m": "L'élève a inversé le rapport (1,5 × 2 ÷ 12).",
+        "11,5 m": "L'élève a ajouté la différence des ombres à la hauteur du bâton."
+      },
+      "remediation": "Dans la configuration des triangles emboîtés, colorier le petit triangle et le grand triangle, puis écrire les rapports « petit / grand » dans le même ordre : AM/AB = AN/AC = MN/BC. Utiliser ensuite un produit en croix.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Utiliser le théorème de Thalès",
+        "Modéliser une situation réelle"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.x01",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Un carré a des côtés de 5 cm. Calculer la longueur de sa diagonale en cm, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 7.1,
+        "unit": "cm",
+        "tolerance_relative": 0.01
+      },
+      "solution": "La diagonale partage le carré en deux triangles rectangles isocèles : d² = 5² + 5² = 50, donc d = √50 ≈ 7,1 cm.",
+      "step_by_step_solution": [
+        "Les côtés du carré sont perpendiculaires : la diagonale est une hypoténuse.",
+        "d² = 5² + 5² = 25 + 25 = 50.",
+        "d = √50 ≈ 7,07, soit 7,1 cm au dixième près."
+      ],
+      "hints": [
+        "Dessine le carré et une diagonale : quels triangles apparaissent ?",
+        "Le résultat n'est pas entier : utilise la calculatrice puis arrondis."
+      ],
+      "common_errors": {
+        "10 cm": "L'élève a additionné les longueurs des deux côtés.",
+        "50 cm": "L'élève a oublié la racine carrée."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Utiliser la racine carrée et arrondir"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.x02",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Le triangle ABC est rectangle en A avec AB = 3 cm et AC = 4 cm. Le triangle BCD est rectangle en C avec CD = 12 cm. Calculer BD, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 13,
+        "unit": "cm"
+      },
+      "solution": "Dans ABC rectangle en A : BC² = 9 + 16 = 25, donc BC = 5 cm. Dans BCD rectangle en C : BD² = BC² + CD² = 25 + 144 = 169, donc BD = 13 cm.",
+      "step_by_step_solution": [
+        "Première étape : dans ABC, BC² = AB² + AC² = 25, donc BC = 5 cm.",
+        "Deuxième étape : dans BCD rectangle en C, l'hypoténuse est [BD].",
+        "BD² = 5² + 12² = 169, donc BD = 13 cm."
+      ],
+      "hints": [
+        "Il faut utiliser deux fois le théorème de Pythagore.",
+        "Quelle longueur, commune aux deux triangles, faut-il calculer d'abord ?"
+      ],
+      "common_errors": {
+        "12,6 cm": "L'élève a utilisé AC à la place de BC (√160).",
+        "19 cm": "L'élève a additionné les longueurs."
+      },
+      "remediation": "Repérer l'angle droit puis l'hypoténuse (côté opposé à l'angle droit, le plus long). Écrire l'égalité de Pythagore avec les noms des côtés AVANT de remplacer par les longueurs. Contrôler : l'hypoténuse doit être le plus long côté.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Enchaîner deux raisonnements"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.4E.pythagore-thales.x03",
+      "notion_id": "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian",
+      "subject": "MATHS",
+      "level": "4E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Le triangle ABC est rectangle en A avec AB = 8 cm et AC = 6 cm. M est le point de [AB] tel que AM = 2 cm, et la parallèle à (BC) passant par M coupe [AC] en N. Calculer MN, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 2.5,
+        "unit": "cm"
+      },
+      "solution": "Pythagore dans ABC : BC² = 64 + 36 = 100, donc BC = 10 cm. Thalès : $\\frac{AM}{AB} = \\frac{AN}{AC} = \\frac{MN}{BC}$, donc MN = 10 × 2 ÷ 8 = 2,5 cm.",
+      "step_by_step_solution": [
+        "Dans ABC rectangle en A : BC² = 8² + 6² = 100, donc BC = 10 cm.",
+        "(MN) // (BC) : d'après le théorème de Thalès, $\\frac{AM}{AB} = \\frac{AN}{AC} = \\frac{MN}{BC}$.",
+        "MN = BC × AM ÷ AB = 10 × 2 ÷ 8 = 2,5 cm."
+      ],
+      "hints": [
+        "Il te manque la longueur BC : quel théorème permet de la calculer ?",
+        "Utilise ensuite le rapport AM/AB."
+      ],
+      "common_errors": {
+        "1,5 cm": "L'élève a utilisé AC au lieu de BC dans le rapport.",
+        "40 cm": "L'élève a inversé le rapport (10 × 8 ÷ 2)."
+      },
+      "remediation": "Dans la configuration des triangles emboîtés, colorier le petit triangle et le grand triangle, puis écrire les rapports « petit / grand » dans le même ordre : AM/AB = AN/AC = MN/BC. Utiliser ensuite un produit en croix.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Utiliser le théorème de Pythagore",
+        "Utiliser le théorème de Thalès"
+      ],
+      "source_notions": [
+        "MATHS.4E.EG.le-theoreme-de-thales-et-sa-reciproque-dans-la-configuration-des-trian"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

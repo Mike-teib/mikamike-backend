@@ -1,0 +1,832 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q01",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 0,3 × 0,2 ?",
+      "choices": [
+        "0,6",
+        "0,5",
+        "6",
+        "0,06"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "0,06",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3 × 2 = 6 et le produit a 1 + 1 = 2 chiffres après la virgule : 0,3 × 0,2 = 0,06.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Un seul chiffre après la virgule a été compté.",
+        "1": "L'élève a additionné.",
+        "2": "L'élève a oublié la virgule."
+      },
+      "common_error_target": {
+        "0": "mauvais placement de la virgule"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q02",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 1,2 × 1,1 ?",
+      "choices": [
+        "1,22",
+        "2,3",
+        "1,32",
+        "13,2"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "1,32",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "12 × 11 = 132, avec 2 chiffres après la virgule : 1,2 × 1,1 = 1,32.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Erreur dans le produit 12 × 11.",
+        "1": "L'élève a additionné.",
+        "3": "Un seul chiffre après la virgule a été compté."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q03",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 5 × 0,04 ?",
+      "choices": [
+        "5,04",
+        "0,2",
+        "0,02",
+        "20"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "0,2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 × 4 = 20 et il faut 2 chiffres après la virgule : 0,20 = 0,2.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a juxtaposé les nombres.",
+        "2": "Un chiffre après la virgule de trop.",
+        "3": "L'élève a oublié la virgule."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q04",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 2,5 × 4,4 ?",
+      "choices": [
+        "11",
+        "1,1",
+        "110",
+        "6,9"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "11",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "25 × 44 = 1 100, avec 2 chiffres après la virgule : 11,00 = 11.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un chiffre après la virgule de trop.",
+        "2": "Un seul chiffre après la virgule a été compté.",
+        "3": "L'élève a additionné."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q05",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Sans poser l'opération, quel est le résultat de 9,8 × 3,05 ?",
+      "choices": [
+        "298,9",
+        "2,989",
+        "2989",
+        "29,89"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "29,89",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Ordre de grandeur : 10 × 3 = 30. Seul 29,89 est proche de 30.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Dix fois trop grand.",
+        "1": "Dix fois trop petit.",
+        "2": "L'élève a oublié la virgule."
+      },
+      "common_error_target": {
+        "2": "virgule oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q06",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien le produit 0,12 × 0,4 a-t-il de chiffres après la virgule (avant d'enlever d'éventuels zéros inutiles) ?",
+      "choices": [
+        "1",
+        "5",
+        "3",
+        "2"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "0,12 a 2 chiffres après la virgule et 0,4 en a 1 : le produit en a 2 + 1 = 3 (0,12 × 0,4 = 0,048).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève n'a compté que celui de 0,4.",
+        "1": "Erreur de comptage.",
+        "3": "L'élève n'a compté que ceux de 0,12."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q07",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 0,5 × 0,5 ?",
+      "choices": [
+        "0,025",
+        "0,25",
+        "2,5",
+        "1"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "0,25",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 × 5 = 25 avec 2 chiffres après la virgule : 0,25. C'est aussi la moitié de 0,5.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Un chiffre après la virgule de trop.",
+        "2": "Un seul chiffre après la virgule a été compté.",
+        "3": "L'élève a additionné."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q08",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Quelle est l'aire d'un rectangle de 1,5 m sur 0,8 m ?",
+      "choices": [
+        "1,2 m²",
+        "12 m²",
+        "2,3 m²",
+        "0,12 m²"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,2 m²",
+      "answer_kind": "QUANTITY",
+      "explanation": "Aire = 1,5 × 0,8 = 1,20 m² (15 × 8 = 120, deux chiffres après la virgule), soit 1,2 m².",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Un seul chiffre après la virgule a été compté.",
+        "2": "L'élève a additionné les dimensions.",
+        "3": "Un chiffre après la virgule de trop."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q09",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Les cerises coûtent 2,4 € le kg. Combien coûtent 3,5 kg de cerises, en euros ?",
+      "choices": [
+        "84",
+        "5,9",
+        "0,84",
+        "8,4"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "8,4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3,5 × 2,4 : 35 × 24 = 840, deux chiffres après la virgule : 8,40 = 8,4 €.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a oublié une partie de la virgule.",
+        "1": "L'élève a additionné.",
+        "2": "Un chiffre après la virgule de trop."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.produit-decimaux.q10",
+      "notion_id": "MATHS.6E.NCRP.calculer-le-produit-de-deux-nombres-decimaux",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Le résultat de 12 × 0,9 est-il plus petit ou plus grand que 12 ?",
+      "choices": [
+        "Plus grand que 12",
+        "Égal à 12",
+        "Plus petit que 12"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Plus petit que 12",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Multiplier par un nombre plus petit que 1 donne un résultat plus petit : 12 × 0,9 = 10,8, qui est inférieur à 12.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Multiplier n'agrandit pas toujours : ici le facteur 0,9 est inférieur à 1.",
+        "1": "Il faudrait multiplier par 1 pour obtenir 12."
+      },
+      "common_error_target": {
+        "0": "« multiplier agrandit toujours »"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q01",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 50 % de 90 ?",
+      "choices": [
+        "40",
+        "140",
+        "180",
+        "45"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "45",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "50 %, c'est la moitié : 90 : 2 = 45.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a fait 90 − 50.",
+        "1": "L'élève a ajouté 50 et 90.",
+        "2": "L'élève a calculé le double."
+      },
+      "common_error_target": {
+        "2": "double au lieu de moitié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q02",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 10 % de 250 ?",
+      "choices": [
+        "240",
+        "260",
+        "25",
+        "2,5"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "25",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "10 %, c'est un dixième : 250 : 10 = 25.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a soustrait 10.",
+        "1": "L'élève a ajouté 10.",
+        "3": "L'élève a divisé par 100."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q03",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 25 % de 16 ?",
+      "choices": [
+        "8",
+        "4",
+        "64",
+        "9"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "25 %, c'est un quart : 16 : 4 = 4.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a pris la moitié (50 %).",
+        "2": "L'élève a multiplié par 4.",
+        "3": "L'élève a fait 25 − 16."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q04",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 75 % de 40 ?",
+      "choices": [
+        "30",
+        "10",
+        "35",
+        "300"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "30",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "75 %, ce sont trois quarts : un quart de 40 = 10, donc 3 × 10 = 30.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est 25 %, pas 75 %.",
+        "2": "L'élève a fait 75 − 40.",
+        "3": "L'élève a divisé par 10 au lieu de 100."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q05",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 20 % de 90 ?",
+      "choices": [
+        "70",
+        "9",
+        "45",
+        "18"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "18",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "10 % de 90 = 9, donc 20 % de 90 = 2 × 9 = 18.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a fait 90 − 20.",
+        "1": "C'est 10 %, pas 20 %.",
+        "2": "C'est 50 %."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q06",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 1 % de 500 ?",
+      "choices": [
+        "499",
+        "0,5",
+        "5",
+        "50"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "1 %, c'est un centième : 500 : 100 = 5.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a soustrait 1.",
+        "1": "L'élève a divisé par 1 000.",
+        "3": "L'élève a divisé par 10."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q07",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Un livre coûte 60 €. Il est soldé avec une remise de 10 %. Quel est son nouveau prix, en euros ?",
+      "choices": [
+        "66",
+        "54",
+        "6",
+        "50"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "54",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Remise : 10 % de 60 = 6 €. Nouveau prix : 60 − 6 = 54 €.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a ajouté la remise.",
+        "2": "C'est la remise, pas le nouveau prix.",
+        "3": "L'élève a retiré 10 € au lieu de 10 %."
+      },
+      "common_error_target": {
+        "2": "confusion remise / nouveau prix"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q08",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Calculer 30 % d'un nombre, c'est le multiplier par…",
+      "choices": [
+        "0,3",
+        "30",
+        "3",
+        "0,03"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "30 % = 30/100 = 0,3 : calculer 30 % d'un nombre, c'est le multiplier par 0,3.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Il faut diviser 30 par 100.",
+        "2": "3 = 300 %.",
+        "3": "0,03 = 3 %."
+      },
+      "common_error_target": {
+        "1": "oubli de la division par 100"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q09",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien vaut 5 % de 80 ?",
+      "choices": [
+        "40",
+        "75",
+        "16",
+        "4"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "10 % de 80 = 8, et 5 % en est la moitié : 4.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est 50 %.",
+        "1": "L'élève a fait 80 − 5.",
+        "2": "C'est 20 %."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.pourcentage.q10",
+      "notion_id": "MATHS.6E.NCRP.appliquer-un-pourcentage-a-une-grandeur-ou-a-un-nombre",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Dans un club de 25 enfants, 40 % font de la natation. Combien d'enfants font de la natation ?",
+      "choices": [
+        "65",
+        "100",
+        "10",
+        "15"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "40 % de 25 = 40/100 × 25 = 10 (10 % de 25 = 2,5 et 4 × 2,5 = 10).",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "L'élève a ajouté 25 et 40.",
+        "1": "L'élève a divisé par 10 au lieu de 100.",
+        "3": "C'est le nombre d'enfants qui ne font pas de natation."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q01",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Dans un triangle, deux angles mesurent 70° et 50°. Combien mesure le troisième angle, en degrés ?",
+      "choices": [
+        "120",
+        "240",
+        "70",
+        "60"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "60",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "La somme des angles vaut 180° : 180 − 70 − 50 = 60°.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est la somme des deux angles connus.",
+        "1": "L'élève a utilisé 360°.",
+        "2": "L'élève a recopié un angle connu."
+      },
+      "common_error_target": {
+        "0": "somme donnée au lieu du complément"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q02",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Un triangle rectangle a un angle aigu de 25°. Combien mesure l'autre angle aigu, en degrés ?",
+      "choices": [
+        "335",
+        "90",
+        "65",
+        "155"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "65",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "180 − 90 − 25 = 65° (les deux angles aigus d'un triangle rectangle font 90° ensemble).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a utilisé 360°.",
+        "1": "C'est l'angle droit.",
+        "3": "L'élève a oublié l'angle droit."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q03",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Combien mesure chaque angle d'un triangle équilatéral, en degrés ?",
+      "choices": [
+        "180",
+        "60",
+        "90",
+        "45"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "60",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les trois angles sont égaux et leur somme vaut 180° : 180 : 3 = 60°.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est la somme des trois angles.",
+        "2": "Un triangle équilatéral n'a pas d'angle droit.",
+        "3": "L'élève a partagé 180° en 4."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q04",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Un triangle isocèle a deux angles à la base de 70°. Combien mesure l'angle au sommet principal, en degrés ?",
+      "choices": [
+        "40",
+        "110",
+        "70",
+        "20"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "40",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les deux angles à la base mesurent 70° chacun : 180 − 70 − 70 = 40°.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un seul angle de 70° a été retiré.",
+        "2": "L'élève pense que les trois angles sont égaux.",
+        "3": "Erreur de calcul (180 − 160)."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q05",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Un triangle isocèle a un angle au sommet principal de 120°. Combien mesure chaque angle à la base, en degrés ?",
+      "choices": [
+        "60",
+        "120",
+        "15",
+        "30"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "30",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les deux angles à la base mesurent ensemble 180 − 120 = 60°, donc chacun 60 : 2 = 30°.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est la somme des deux angles à la base.",
+        "1": "L'élève a recopié l'angle au sommet.",
+        "2": "L'élève a partagé en 4."
+      },
+      "common_error_target": {
+        "0": "oubli du partage en deux"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q06",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Un triangle peut-il avoir deux angles droits ?",
+      "choices": [
+        "Oui, s'il est isocèle",
+        "Oui, s'il est rectangle",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Non",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Deux angles droits font déjà 90° + 90° = 180° : le troisième angle mesurerait 0°, ce qui est impossible. Réponse : non.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Un triangle isocèle a au plus un angle droit.",
+        "1": "Un triangle rectangle a exactement un angle droit.",
+        "3": "La somme de deux angles droits atteint déjà 180°."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q07",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Dans un triangle rectangle, combien mesurent les deux angles aigus ensemble, en degrés ?",
+      "choices": [
+        "60",
+        "90",
+        "180",
+        "45"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "90",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "180 − 90 = 90° : les deux angles aigus mesurent 90° ensemble.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Valeur sans justification.",
+        "2": "C'est la somme des trois angles.",
+        "3": "C'est chaque angle d'un triangle rectangle isocèle."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q08",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Dans un triangle, deux angles mesurent 33° et 47°. Combien mesure le troisième angle, en degrés ?",
+      "choices": [
+        "100",
+        "80",
+        "110",
+        "280"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "100",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "33 + 47 = 80, et 180 − 80 = 100°.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est la somme des deux angles connus.",
+        "2": "Erreur de calcul.",
+        "3": "L'élève a utilisé 360°."
+      },
+      "common_error_target": {
+        "1": "somme donnée au lieu du complément"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q09",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Lequel de ces trios peut correspondre aux mesures des trois angles d'un triangle ?",
+      "choices": [
+        "50°, 60°, 80°",
+        "90°, 60°, 40°",
+        "30°, 30°, 30°",
+        "50°, 60°, 70°"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "50°, 60°, 70°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La somme doit être 180° : 50 + 60 + 70 = 180. Les autres trios donnent 190°, 190° et 90°.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Somme 190° : impossible.",
+        "1": "Somme 190° : impossible.",
+        "2": "Somme 90° : impossible."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.6E.angles-triangle.q10",
+      "notion_id": "MATHS.6E.EG.connaitre-la-valeur-de-la-somme-des-mesures-des-angles-dun-triangle",
+      "subject": "MATHS",
+      "level": "6E",
+      "question": "Dans le triangle ABC, l'angle Â mesure 35° et l'angle B̂ mesure le triple de Â. Combien mesure l'angle Ĉ, en degrés ?",
+      "choices": [
+        "75",
+        "145",
+        "40",
+        "110"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "40",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "B̂ = 3 × 35 = 105°. Â + B̂ = 35 + 105 = 140°, donc Ĉ = 180 − 140 = 40°.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "L'élève a oublié l'angle Â.",
+        "1": "L'élève a oublié l'angle B̂.",
+        "3": "L'élève a pris B̂ = 35° au lieu du triple."
+      },
+      "common_error_target": {
+        "3": "B̂ mal calculé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

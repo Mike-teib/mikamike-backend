@@ -1,0 +1,840 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q01",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "La dérive génétique est :",
+      "choices": [
+        "un déplacement d'individus",
+        "une variation aléatoire des fréquences alléliques",
+        "une sélection des allèles avantageux",
+        "l'apparition de nouveaux allèles"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "une variation aléatoire des fréquences alléliques",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La dérive est due au hasard de la transmission des allèles d'une génération à l'autre.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est une migration.",
+        "2": "C'est la sélection naturelle.",
+        "3": "C'est le rôle des mutations."
+      },
+      "common_error_target": {
+        "2": "confusion dérive / sélection"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q02",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "La dérive génétique est plus rapide :",
+      "choices": [
+        "uniquement en hiver",
+        "dans les petites populations",
+        "dans les grandes populations",
+        "uniquement chez les bactéries"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "dans les petites populations",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le hasard modifie davantage les fréquences quand l'effectif est faible.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Elle ne dépend pas de la saison.",
+        "2": "C'est l'inverse.",
+        "3": "Elle concerne toutes les espèces."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q03",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Dans une population, 40 allèles sur 200 sont des allèles B. Quelle est la fréquence de B ?",
+      "choices": [
+        "0,8",
+        "0,2",
+        "0,4",
+        "40"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "0,2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Fréquence de B = nombre d'allèles B / nombre total d'allèles = 40 / 200 = 0,2.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est la fréquence de l'autre allèle.",
+        "2": "Erreur de calcul (40 / 100).",
+        "3": "C'est l'effectif, pas la fréquence."
+      },
+      "common_error_target": {
+        "3": "effectif donné au lieu d'une fréquence"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q04",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Un allèle de fréquence 1 dans une population est dit :",
+      "choices": [
+        "dominant",
+        "fixé",
+        "perdu",
+        "muté"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "fixé",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un allèle de fréquence 1 est le seul présent pour ce gène : il est fixé.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "La dominance concerne l'expression, pas la fréquence.",
+        "2": "Un allèle perdu a une fréquence de 0.",
+        "3": "La fréquence ne dit rien de l'origine mutationnelle."
+      },
+      "common_error_target": {
+        "0": "confusion fréquence / dominance"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q05",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "L'effet fondateur est un cas particulier de :",
+      "choices": [
+        "sélection artificielle",
+        "dérive génétique",
+        "sélection naturelle",
+        "mutation"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "dérive génétique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un petit groupe fondateur porte un échantillon aléatoire des allèles de la population d'origine.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Aucun choix humain n'intervient.",
+        "2": "Il n'y a pas d'avantage en jeu.",
+        "3": "Aucun nouvel allèle n'apparaît."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q06",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Une population de 30 individus diploïdes porte combien d'allèles d'un gène ?",
+      "choices": [
+        "90",
+        "60",
+        "30",
+        "15"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "60",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque individu diploïde porte 2 allèles : 30 × 2 = 60.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Erreur de multiplication.",
+        "2": "C'est le nombre d'individus.",
+        "3": "C'est la moitié du nombre d'individus."
+      },
+      "common_error_target": {
+        "2": "oubli de la diploïdie"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q07",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "La dérive génétique agit sur :",
+      "choices": [
+        "uniquement les chromosomes sexuels",
+        "les allèles neutres comme sur les autres",
+        "uniquement les allèles avantageux",
+        "uniquement les allèles néfastes"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "les allèles neutres comme sur les autres",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le hasard de la transmission concerne tous les allèles, quel que soit leur effet.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Elle concerne tous les gènes.",
+        "2": "Elle ne tient pas compte de l'avantage.",
+        "3": "Elle ne tient pas compte du désavantage."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q08",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Après un goulot d'étranglement, la diversité génétique d'une population :",
+      "choices": [
+        "devient infinie",
+        "diminue en général",
+        "augmente toujours",
+        "reste identique"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "diminue en général",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La réduction brutale d'effectif fait perdre des allèles par hasard.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Une diversité ne peut être infinie.",
+        "2": "Elle ne peut pas augmenter brutalement.",
+        "3": "Des allèles sont perdus."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q09",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "25 individus : 9 AA, 12 Aa, 4 aa. Quelle est la fréquence de l'allèle a ?",
+      "choices": [
+        "0,48",
+        "0,4",
+        "0,16",
+        "0,6"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "0,4",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Allèles a = 12 + 2 × 4 = 20 sur 50 : fréquence 0,4.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est la fréquence des hétérozygotes.",
+        "2": "C'est la fréquence du génotype aa (4/25).",
+        "3": "C'est la fréquence de A."
+      },
+      "common_error_target": {
+        "2": "confusion fréquence génotypique / allélique"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.derive-genetique.q10",
+      "notion_id": "SVT.2NDE.TVOV.la-derive-genetique-est-une-modification-aleatoire-de-la-frequence-des",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Trois petites populations isolées partent de la même fréquence d'un allèle neutre et aboutissent à 0, 0,5 et 1. Cela illustre :",
+      "choices": [
+        "la dérive génétique",
+        "la sélection naturelle",
+        "l'absence d'évolution",
+        "une migration massive"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la dérive génétique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Des évolutions divergentes et imprévisibles d'un allèle neutre sont la signature de la dérive.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Une même pression de sélection donnerait des évolutions semblables.",
+        "2": "Les fréquences ont changé.",
+        "3": "Les populations sont isolées."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q01",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "L'altération d'une roche est :",
+      "choices": [
+        "son transport par une rivière",
+        "son dépôt dans un lac",
+        "sa fusion en profondeur",
+        "sa modification physique et chimique sur place"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "sa modification physique et chimique sur place",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'altération modifie la roche sans la déplacer.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est l'érosion (transport).",
+        "1": "C'est la sédimentation.",
+        "2": "La fusion est un phénomène magmatique."
+      },
+      "common_error_target": {
+        "0": "confusion altération / érosion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q02",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Le principal agent d'altération et d'érosion est :",
+      "choices": [
+        "le magnétisme terrestre",
+        "la gravité seule",
+        "l'eau",
+        "la lumière"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "l'eau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau altère chimiquement et physiquement les roches et transporte leurs produits.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Sans rapport.",
+        "1": "La gravité intervient mais l'eau est l'agent principal.",
+        "3": "La lumière n'altère pas les roches."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q03",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Dans une arène granitique, les feldspaths sont transformés en :",
+      "choices": [
+        "sel",
+        "argiles",
+        "quartz",
+        "calcaire"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "argiles",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'hydrolyse des feldspaths produit des argiles.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Les feldspaths ne donnent pas de sel.",
+        "2": "Le quartz est un minéral résistant présent dès l'origine.",
+        "3": "Le calcaire ne vient pas du granite."
+      },
+      "common_error_target": {
+        "2": "confusion minéral résistant / minéral altéré"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q04",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "La dissolution du calcaire par l'eau est une altération :",
+      "choices": [
+        "chimique",
+        "physique",
+        "biologique uniquement",
+        "magmatique"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "chimique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Des ions passent en solution : c'est une réaction chimique.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La roche n'est pas seulement fragmentée.",
+        "2": "Elle ne dépend pas uniquement des êtres vivants.",
+        "3": "Sans rapport avec le magma."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q05",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Le gel-dégel provoque une altération :",
+      "choices": [
+        "chimique",
+        "radioactive",
+        "magmatique",
+        "physique"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "physique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau qui gèle augmente de volume et fracture la roche sans changer sa composition.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "La composition n'est pas modifiée.",
+        "1": "Sans rapport.",
+        "2": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q06",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Quand la vitesse d'un cours d'eau diminue :",
+      "choices": [
+        "toutes les particules sont dissoutes",
+        "le transport augmente",
+        "les particules les plus grosses se déposent d'abord",
+        "les argiles se déposent d'abord"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "les particules les plus grosses se déposent d'abord",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La capacité de transport diminue avec la vitesse : les grosses particules se déposent en premier.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Les particules solides ne se dissolvent pas.",
+        "1": "C'est l'inverse.",
+        "3": "Les argiles, très fines, restent en suspension plus longtemps."
+      },
+      "common_error_target": {
+        "0": "ordre de dépôt inversé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q07",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Une couverture végétale :",
+      "choices": [
+        "dissout les roches instantanément",
+        "limite l'érosion des sols",
+        "accélère toujours l'érosion",
+        "n'a aucun effet"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "limite l'érosion des sols",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les racines retiennent le sol et la végétation freine le ruissellement.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Sans rapport.",
+        "2": "Elle protège le sol.",
+        "3": "Elle a un effet protecteur."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q08",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Un sol perd 2 mm par an. Quelle épaisseur perd-il en 50 ans ?",
+      "choices": [
+        "10 cm",
+        "100 cm",
+        "1 cm",
+        "52 mm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10 cm",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Épaisseur perdue = 2 mm × 50 = 100 mm, soit 10 cm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Erreur de conversion (mm pris pour des cm).",
+        "2": "Erreur d'un facteur 10.",
+        "3": "Addition au lieu de multiplication."
+      },
+      "common_error_target": {
+        "1": "erreur de conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q09",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Pourquoi l'altération chimique est-elle intense en climat tropical humide ?",
+      "choices": [
+        "Le gel y est fréquent",
+        "Il n'y pleut jamais",
+        "Les roches y sont inaltérables",
+        "Chaleur et eau abondante accélèrent les réactions"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "Chaleur et eau abondante accélèrent les réactions",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Température élevée et forte humidité favorisent les réactions d'altération.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Le gel est rare en climat tropical.",
+        "1": "Il y pleut beaucoup.",
+        "2": "Aucune roche n'est inaltérable."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.erosion.q10",
+      "notion_id": "SVT.2NDE.ECP.leau-est-le-principal-facteur-de-leur-alteration-modification-physique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Une rivière transporte 3 000 t de charge solide et 1 000 t de charge dissoute par an. Quelle part de la charge totale est dissoute ?",
+      "choices": [
+        "75 %",
+        "10 %",
+        "25 %",
+        "33 %"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "25 %",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "1 000 / 4 000 = 0,25, soit 25 %.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est la part solide.",
+        "1": "Erreur de calcul.",
+        "3": "C'est 1 000 / 3 000 : on a divisé par la charge solide au lieu de la charge totale."
+      },
+      "common_error_target": {
+        "3": "mauvais dénominateur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q01",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Un agent pathogène :",
+      "choices": [
+        "ne se multiplie jamais",
+        "vit aux dépens d'un hôte en lui portant préjudice",
+        "aide toujours son hôte",
+        "est toujours une bactérie"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "vit aux dépens d'un hôte en lui portant préjudice",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un pathogène vit aux dépens de son hôte et provoque des symptômes.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Il se multiplie aux dépens de l'hôte.",
+        "2": "C'est une relation qui porte préjudice.",
+        "3": "Il peut être un virus ou un eucaryote."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q02",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Le paludisme est causé par :",
+      "choices": [
+        "un virus",
+        "une bactérie",
+        "le moustique lui-même",
+        "un eucaryote unicellulaire (Plasmodium)"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "un eucaryote unicellulaire (Plasmodium)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le Plasmodium, parasite unicellulaire eucaryote, est transmis par un moustique.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Ce n'est pas un virus.",
+        "1": "Ce n'est pas une bactérie.",
+        "2": "Le moustique est le vecteur, pas l'agent pathogène."
+      },
+      "common_error_target": {
+        "2": "confusion vecteur / agent pathogène"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q03",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Un virus :",
+      "choices": [
+        "est plus gros qu'une bactérie",
+        "ne se multiplie que dans les cellules d'un hôte",
+        "est une cellule autonome",
+        "est sensible aux antibiotiques"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "ne se multiplie que dans les cellules d'un hôte",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un virus n'est pas une cellule : il utilise la cellule hôte pour se multiplier.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Il est beaucoup plus petit.",
+        "2": "Ce n'est pas une cellule.",
+        "3": "Les antibiotiques n'agissent pas sur les virus."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q04",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Le moustique qui transmet le paludisme est :",
+      "choices": [
+        "un hôte unique",
+        "l'agent pathogène",
+        "un antibiotique",
+        "un vecteur"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "un vecteur",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Il transporte le pathogène d'un humain à un autre.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Il n'est pas le seul hôte du parasite.",
+        "1": "L'agent pathogène est le Plasmodium.",
+        "2": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q05",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Un réservoir de pathogènes peut être :",
+      "choices": [
+        "uniquement un vaccin",
+        "un humain ou un animal, malade ou non",
+        "uniquement un humain malade",
+        "uniquement de l'eau"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "un humain ou un animal, malade ou non",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le pathogène peut se maintenir chez un humain ou un animal, avec ou sans symptômes.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Sans rapport.",
+        "2": "Il peut être animal ou sans symptôme.",
+        "3": "Ce n'est pas le cas général."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q06",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Une épidémie correspond à :",
+      "choices": [
+        "une maladie non transmissible",
+        "un traitement",
+        "l'absence de maladie",
+        "la propagation rapide d'une maladie dans une région"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "la propagation rapide d'une maladie dans une région",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'épidémie est une augmentation rapide des cas dans une région.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Elle concerne les maladies transmissibles.",
+        "1": "Ce n'est pas un traitement.",
+        "2": "C'est l'inverse."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q07",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Quelle mesure limite la transmission d'une maladie vectorielle ?",
+      "choices": [
+        "Éviter le soleil",
+        "Supprimer les eaux stagnantes où se développent les larves de moustiques",
+        "Prendre un antibiotique préventif contre un virus",
+        "Manger plus sucré"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Supprimer les eaux stagnantes où se développent les larves de moustiques",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les larves de moustiques se développent dans l'eau stagnante.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Sans rapport.",
+        "2": "Les antibiotiques n'agissent pas sur les virus.",
+        "3": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q08",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Dans une ville de 20 000 habitants, 400 sont infectés. La prévalence est de :",
+      "choices": [
+        "20 %",
+        "0,2 %",
+        "4 %",
+        "2 %"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "2 %",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "400 / 20 000 = 0,02, soit 2 %.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Erreur d'un facteur 10.",
+        "1": "Erreur d'un facteur 10.",
+        "2": "Erreur de calcul."
+      },
+      "common_error_target": {
+        "0": "erreur de pourcentage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q09",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Le VIH se transmet notamment :",
+      "choices": [
+        "par l'air",
+        "par voie sexuelle, sanguine ou de la mère à l'enfant",
+        "par une piqûre de moustique",
+        "par une poignée de main"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "par voie sexuelle, sanguine ou de la mère à l'enfant",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le VIH se transmet par les liquides biologiques (sang, sécrétions sexuelles, lait maternel).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Il ne se transmet pas par l'air.",
+        "2": "Les moustiques ne transmettent pas le VIH.",
+        "3": "Le contact de la peau intacte ne transmet pas le VIH."
+      },
+      "common_error_target": {
+        "2": "idée fausse sur la transmission du VIH"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.2NDE.pathogenes.q10",
+      "notion_id": "SVT.2NDE.CHS.les-agents-pathogenes-virus-certaines-bacteries-ou-certains-eucaryotes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "question": "Pourquoi le changement climatique peut-il étendre une maladie vectorielle ?",
+      "choices": [
+        "Le vecteur peut s'installer dans de nouvelles régions",
+        "Le pathogène devient une bactérie",
+        "Les hôtes deviennent immunisés",
+        "Les vecteurs disparaissent partout"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Le vecteur peut s'installer dans de nouvelles régions",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Des températures plus élevées rendent de nouvelles zones favorables aux vecteurs.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Le type de pathogène ne change pas.",
+        "2": "Sans rapport avec le climat.",
+        "3": "C'est l'inverse dans les zones concernées."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,2258 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.d01",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Un glaçon devient de l'eau liquide. Comment s'appelle ce changement d'état ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le glaçon passe de l'état solide à l'état liquide : c'est la fusion.",
+      "step_by_step_solution": [
+        "Au début : glaçon, état solide.",
+        "À la fin : eau liquide.",
+        "Solide → liquide : c'est la fusion."
+      ],
+      "hints": [
+        "Quel est l'état au début ? Et à la fin ?"
+      ],
+      "common_errors": {
+        "la solidification": "L'élève confond les deux noms : la solidification va du liquide vers le solide."
+      },
+      "remediation": "Écrire au tableau « solide → liquide » et « liquide → solide » et placer chaque mot sous sa flèche.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "la fusion",
+        "la solidification",
+        "la cuisson"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.d02",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "De l'eau liquide devient de la glace. Comment s'appelle ce changement d'état ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'eau passe de l'état liquide à l'état solide : c'est la solidification.",
+      "step_by_step_solution": [
+        "Au début : eau liquide.",
+        "À la fin : glace, état solide.",
+        "Liquide → solide : c'est la solidification."
+      ],
+      "hints": [
+        "Le mot qui convient contient le nom de l'état obtenu à la fin."
+      ],
+      "common_errors": {
+        "la fusion": "L'élève confond les deux noms de changement d'état."
+      },
+      "remediation": "Faire remarquer que « solidification » contient le mot « solide » : on arrive à l'état solide.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "la solidification",
+        "la fusion",
+        "la cuisson"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.d03",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Complète : le passage de l'état solide à l'état liquide s'appelle la …",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "fusion"
+        ]
+      },
+      "solution": "Solide → liquide : c'est la fusion.",
+      "step_by_step_solution": [
+        "On part de l'état solide.",
+        "On arrive à l'état liquide : c'est la fusion."
+      ],
+      "hints": [
+        "C'est ce qui arrive à un glaçon posé sur la table."
+      ],
+      "common_errors": {
+        "solidification": "L'élève inverse les deux changements d'état."
+      },
+      "remediation": "Associer le mot à une image : glaçon qui fond.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.d04",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Complète : le passage de l'état liquide à l'état solide s'appelle la …",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "solidification"
+        ]
+      },
+      "solution": "Liquide → solide : c'est la solidification.",
+      "step_by_step_solution": [
+        "On part de l'état liquide.",
+        "On arrive à l'état solide : c'est la solidification."
+      ],
+      "hints": [
+        "C'est ce qui arrive à l'eau mise au congélateur."
+      ],
+      "common_errors": {
+        "fusion": "L'élève inverse les deux changements d'état."
+      },
+      "remediation": "Associer le mot à une image : bac à glaçons au congélateur.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.d05",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : quand la neige fond au soleil, c'est une fusion.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : la neige (eau solide) devient de l'eau liquide ; c'est une fusion. Réponse : vrai.",
+      "step_by_step_solution": [
+        "La neige est de l'eau solide.",
+        "Elle devient liquide : c'est une fusion, donc vrai."
+      ],
+      "hints": [
+        "La neige est-elle solide ou liquide ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève ne reconnaît pas la neige comme de l'eau solide."
+      },
+      "remediation": "Mettre un peu de neige ou de glace pilée dans un gobelet et observer.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.a01",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque situation au changement d'état : un glaçon fond dans un verre ; l'eau d'une flaque gèle la nuit ; un bonhomme de neige fond au soleil ; l'eau d'un bac devient glace au congélateur.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "un glaçon fond dans un verre": "fusion",
+          "l'eau d'une flaque gèle la nuit": "solidification",
+          "un bonhomme de neige fond au soleil": "fusion",
+          "l'eau d'un bac devient glace au congélateur": "solidification"
+        }
+      },
+      "solution": "Quand ça fond (solide → liquide), c'est une fusion ; quand ça gèle (liquide → solide), c'est une solidification. Réponse : un glaçon fond dans un verre → fusion ; l'eau d'une flaque gèle la nuit → solidification ; un bonhomme de neige fond au soleil → fusion ; l'eau d'un bac devient glace au congélateur → solidification.",
+      "step_by_step_solution": [
+        "Fond : fusion (glaçon, bonhomme de neige).",
+        "Gèle : solidification (flaque, bac)."
+      ],
+      "hints": [
+        "Cherche les mots « fond » et « gèle ».",
+        "Fondre, c'est passer à l'état liquide."
+      ],
+      "common_errors": {
+        "un glaçon fond dans un verre → solidification ; l'eau d'une flaque gèle la nuit → fusion ; un bonhomme de neige fond au soleil → fusion ; l'eau d'un bac devient glace au congélateur → solidification": "L'élève applique le mauvais mot à la première situation."
+      },
+      "remediation": "Associer le verbe fondre au mot fusion, et le verbe geler au mot solidification.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "fusion",
+        "solidification"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.a02",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "En hiver, l'eau de la mare devient de la glace. Quel est ce changement d'état ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'eau liquide de la mare devient solide : c'est la solidification.",
+      "step_by_step_solution": [
+        "Au début : eau liquide.",
+        "À la fin : glace.",
+        "C'est la solidification."
+      ],
+      "hints": [
+        "En hiver, il fait froid : l'eau devient-elle solide ou liquide ?"
+      ],
+      "common_errors": {
+        "la fusion": "L'élève associe « hiver » au mot le plus connu sans regarder le sens du changement."
+      },
+      "remediation": "Faire la flèche liquide → solide et y écrire le bon mot.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "la solidification",
+        "la fusion",
+        "la cuisson"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.a03",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Au printemps, la glace du lac redevient de l'eau liquide. Quel est ce changement d'état ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La glace (solide) devient de l'eau liquide : c'est la fusion.",
+      "step_by_step_solution": [
+        "Au début : glace, solide.",
+        "À la fin : eau liquide.",
+        "C'est la fusion."
+      ],
+      "hints": [
+        "Au printemps, il fait plus chaud : que devient la glace ?"
+      ],
+      "common_errors": {
+        "la solidification": "L'élève confond les deux noms."
+      },
+      "remediation": "Faire la flèche solide → liquide et y écrire le bon mot.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "la fusion",
+        "la solidification",
+        "la cuisson"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.a04",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quand la glace devient liquide, on dit qu'elle … (écris le verbe).",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "fond",
+          "fondre"
+        ]
+      },
+      "solution": "La glace qui devient liquide fond : c'est la fusion.",
+      "step_by_step_solution": [
+        "La glace devient de l'eau liquide.",
+        "On dit qu'elle fond."
+      ],
+      "hints": [
+        "C'est ce que fait une glace à l'eau au soleil."
+      ],
+      "common_errors": {
+        "gèle": "L'élève confond les verbes fondre et geler."
+      },
+      "remediation": "Associer chaque verbe à son changement d'état : fondre → fusion ; geler → solidification.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.a05",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quand l'eau liquide devient solide, on dit qu'elle … (écris le verbe).",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "gèle",
+          "gele",
+          "geler",
+          "se solidifie"
+        ]
+      },
+      "solution": "L'eau liquide qui devient solide gèle : c'est la solidification.",
+      "step_by_step_solution": [
+        "L'eau devient de la glace.",
+        "On dit qu'elle gèle."
+      ],
+      "hints": [
+        "C'est ce qui arrive aux flaques en hiver, la nuit."
+      ],
+      "common_errors": {
+        "fond": "L'élève confond les verbes geler et fondre."
+      },
+      "remediation": "Associer chaque verbe à son changement d'état : fondre → fusion ; geler → solidification.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.c01",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On met un morceau de sucre dans de l'eau et on remue. Le sucre disparaît. Est-ce une fusion ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le sucre ne devient pas liquide tout seul : il se mélange à l'eau, il se dissout. Ce n'est pas une fusion. Réponse : non, le sucre se mélange à l'eau : il se dissout.",
+      "step_by_step_solution": [
+        "Dans une fusion, un solide devient liquide sans rien ajouter.",
+        "Ici, le sucre se mélange à l'eau : il se dissout."
+      ],
+      "hints": [
+        "Le sucre devient-il liquide tout seul, ou parce qu'on l'a mis dans l'eau ?"
+      ],
+      "common_errors": {
+        "oui, le sucre fond comme un glaçon": "Erreur fréquente : on dit « le sucre fond » dans la vie courante, mais c'est une dissolution."
+      },
+      "remediation": "Comparer un glaçon seul dans une assiette (il fond) et un sucre seul dans une assiette (il ne devient pas liquide).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "non, le sucre se mélange à l'eau : il se dissout",
+        "oui, le sucre fond comme un glaçon",
+        "oui, le sucre devient de l'eau"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.c02",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre ce qui arrive à l'eau : « glaçons », « fusion dans la cuisine », « eau liquide dans le bac », « solidification au congélateur », « eau liquide dans le verre ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "eau liquide dans le bac",
+          "solidification au congélateur",
+          "glaçons",
+          "fusion dans la cuisine",
+          "eau liquide dans le verre"
+        ]
+      },
+      "solution": "L'eau liquide se solidifie au congélateur et donne des glaçons ; les glaçons fondent (fusion) et redonnent de l'eau liquide. Réponse : eau liquide dans le bac → solidification au congélateur → glaçons → fusion dans la cuisine → eau liquide dans le verre.",
+      "step_by_step_solution": [
+        "Eau liquide dans le bac → solidification au congélateur → glaçons.",
+        "Glaçons → fusion dans la cuisine → eau liquide dans le verre."
+      ],
+      "hints": [
+        "Commence par l'eau liquide qu'on verse dans le bac."
+      ],
+      "common_errors": {
+        "glaçons ; solidification au congélateur ; eau liquide dans le bac ; fusion dans la cuisine ; eau liquide dans le verre": "L'élève ne voit pas que la solidification vient avant les glaçons."
+      },
+      "remediation": "Dessiner le cycle en bande dessinée avec une flèche par changement d'état.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "glaçons",
+        "fusion dans la cuisine",
+        "eau liquide dans le bac",
+        "solidification au congélateur",
+        "eau liquide dans le verre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.c03",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : de l'eau qui a gelé peut refondre, puis geler à nouveau.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : fusion et solidification sont deux changements inverses ; on peut passer de l'un à l'autre plusieurs fois. Réponse : vrai.",
+      "step_by_step_solution": [
+        "La glace fond : fusion.",
+        "L'eau obtenue peut regeler : solidification. C'est vrai."
+      ],
+      "hints": [
+        "Peut-on refaire des glaçons avec l'eau de glaçons fondus ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense qu'un changement d'état ne peut se faire qu'une fois."
+      },
+      "remediation": "Faire fondre des glaçons puis remettre l'eau au congélateur.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.c04",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Du chocolat laissé au soleil devient mou puis coule. Quel est ce changement d'état ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le chocolat passe de l'état solide à l'état liquide : c'est une fusion. La fusion ne concerne pas que l'eau.",
+      "step_by_step_solution": [
+        "Au début : chocolat solide.",
+        "À la fin : chocolat qui coule, liquide.",
+        "C'est une fusion."
+      ],
+      "hints": [
+        "Le chocolat était-il solide ou liquide au début ?"
+      ],
+      "common_errors": {
+        "la solidification": "L'élève confond les deux noms, ou pense que ces mots ne servent que pour l'eau."
+      },
+      "remediation": "Chercher d'autres fusions de la vie courante : beurre au soleil, glace à la vanille.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "la fusion",
+        "la solidification",
+        "la cuisson"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.c05",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est le contraire de la fusion ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La fusion va du solide au liquide ; le changement inverse, du liquide au solide, est la solidification.",
+      "step_by_step_solution": [
+        "Fusion : solide → liquide.",
+        "Le contraire : liquide → solide, c'est la solidification."
+      ],
+      "hints": [
+        "Retourne la flèche solide → liquide."
+      ],
+      "common_errors": {
+        "la fonte des neiges": "La fonte des neiges est elle-même une fusion, pas son contraire."
+      },
+      "remediation": "Dessiner les deux flèches opposées entre « solide » et « liquide ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "la solidification",
+        "la fonte des neiges",
+        "le mélange"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.x01",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Maé dit : « Mon glaçon a fondu, donc il n'y a plus d'eau. » A-t-elle raison ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Après la fusion, l'eau est toujours là : elle est seulement passée de l'état solide à l'état liquide. Réponse : non, l'eau est toujours là, elle est liquide.",
+      "step_by_step_solution": [
+        "La fusion change l'état de l'eau.",
+        "L'eau est toujours là, à l'état liquide : Maé a tort."
+      ],
+      "hints": [
+        "Que trouve-t-on dans l'assiette après la fusion ?"
+      ],
+      "common_errors": {
+        "oui, l'eau a disparu": "Erreur fréquente : croire que la glace qui fond disparaît."
+      },
+      "remediation": "Peser (avec l'enseignant) un glaçon dans un gobelet fermé avant et après fusion : il y a toujours autant d'eau.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "non, l'eau est toujours là, elle est liquide",
+        "oui, l'eau a disparu",
+        "oui, la glace est devenue de l'air"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.x02",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque situation au changement d'état : un verre d'eau dans le congélateur ; un glaçon posé sur un radiateur tiède ; du beurre fondu mis au réfrigérateur ; une glace à la vanille qui coule au soleil.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "un verre d'eau dans le congélateur": "solidification",
+          "un glaçon posé sur un radiateur tiède": "fusion",
+          "du beurre fondu mis au réfrigérateur": "solidification",
+          "une glace à la vanille qui coule au soleil": "fusion"
+        }
+      },
+      "solution": "Le froid fait passer du liquide au solide (solidification) ; la chaleur fait passer du solide au liquide (fusion). Réponse : un verre d'eau dans le congélateur → solidification ; un glaçon posé sur un radiateur tiède → fusion ; du beurre fondu mis au réfrigérateur → solidification ; une glace à la vanille qui coule au soleil → fusion.",
+      "step_by_step_solution": [
+        "Froid (congélateur, réfrigérateur) : solidification.",
+        "Chaud (radiateur, soleil) : fusion."
+      ],
+      "hints": [
+        "Chaud ou froid ? Cela t'aide à trouver le changement d'état."
+      ],
+      "common_errors": {
+        "un verre d'eau dans le congélateur → solidification ; un glaçon posé sur un radiateur tiède → fusion ; du beurre fondu mis au réfrigérateur → fusion ; une glace à la vanille qui coule au soleil → fusion": "L'élève lit « beurre fondu » et répond fusion sans voir que le beurre durcit au froid."
+      },
+      "remediation": "Pour chaque situation, écrire l'état au début et l'état à la fin avant de nommer le changement.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "fusion",
+        "solidification"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.fusion-solidification.x03",
+      "notion_id": "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "La glace commence à fondre quand la température dépasse…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La glace fond quand la température dépasse 0 °C ; en dessous de 0 °C, l'eau gèle.",
+      "step_by_step_solution": [
+        "L'eau gèle quand il fait très froid.",
+        "La température de fusion de la glace est 0 °C."
+      ],
+      "hints": [
+        "Regarde la température affichée par le thermomètre quand il gèle dehors."
+      ],
+      "common_errors": {
+        "100 °C": "L'élève confond avec la température à laquelle l'eau bout."
+      },
+      "remediation": "Lire un thermomètre placé dans un verre d'eau avec des glaçons : il indique environ 0 °C.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Nommer les changements d'état fusion et solidification",
+        "Reconnaître un changement d'état dans une situation de la vie courante"
+      ],
+      "source_notions": [
+        "ST.CE1.MAT.nommer-le-changement-detat-solidification-et-fusion"
+      ],
+      "choices": [
+        "0 °C",
+        "100 °C",
+        "50 °C"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.d01",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "La vache mange de l'herbe et du foin. Quel est son régime alimentaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'herbe et le foin sont des végétaux : la vache est herbivore.",
+      "step_by_step_solution": [
+        "L'herbe et le foin sont des végétaux.",
+        "Un animal qui mange des végétaux est herbivore."
+      ],
+      "hints": [
+        "L'herbe est-elle un végétal ou un animal ?"
+      ],
+      "common_errors": {
+        "carnivore": "L'élève confond les deux mots."
+      },
+      "remediation": "Relier le début du mot « herbi-vore » à « herbe ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.d02",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Le lion mange des zèbres et des gazelles. Quel est son régime alimentaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le lion mange d'autres animaux : il est carnivore.",
+      "step_by_step_solution": [
+        "Zèbres et gazelles sont des animaux.",
+        "Un animal qui mange d'autres animaux est carnivore."
+      ],
+      "hints": [
+        "Le zèbre est-il un végétal ou un animal ?"
+      ],
+      "common_errors": {
+        "herbivore": "L'élève confond les deux mots, ou pense au régime du zèbre."
+      },
+      "remediation": "Relier « carnivore » à « chair », la viande des animaux.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "carnivore",
+        "herbivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.d03",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on un animal qui mange à la fois des végétaux et des animaux ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "omnivore"
+        ]
+      },
+      "solution": "Un animal qui mange des végétaux et des animaux est omnivore.",
+      "step_by_step_solution": [
+        "Il mange des végétaux et des animaux.",
+        "C'est un animal omnivore."
+      ],
+      "hints": [
+        "Ce n'est ni herbivore ni carnivore.",
+        "Ce mot commence par « omni », qui veut dire « tout »."
+      ],
+      "common_errors": {
+        "carnivore": "L'élève ne retient que les animaux mangés."
+      },
+      "remediation": "Faire une affiche avec les trois mots et un exemple d'animal pour chacun.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.d04",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Que mange un animal herbivore ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un animal herbivore mange des végétaux : herbe, feuilles, fruits, graines.",
+      "step_by_step_solution": [
+        "« Herbi » fait penser à l'herbe.",
+        "L'herbivore mange des végétaux."
+      ],
+      "hints": [
+        "Pense à la vache et au lapin."
+      ],
+      "common_errors": {
+        "d'autres animaux": "L'élève confond herbivore et carnivore."
+      },
+      "remediation": "Classer des images de nourriture en « végétaux » et « animaux ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "des végétaux",
+        "d'autres animaux",
+        "des cailloux"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.d05",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque animal à son régime : lapin, loup, cochon.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "lapin": "herbivore",
+          "loup": "carnivore",
+          "cochon": "omnivore"
+        }
+      },
+      "solution": "Le lapin mange des végétaux (herbivore), le loup mange des animaux (carnivore), le cochon mange des deux (omnivore). Réponse : lapin → herbivore ; loup → carnivore ; cochon → omnivore.",
+      "step_by_step_solution": [
+        "lapin → herbivore",
+        "loup → carnivore",
+        "cochon → omnivore"
+      ],
+      "hints": [
+        "Que mange chaque animal : des végétaux, des animaux, ou les deux ?"
+      ],
+      "common_errors": {
+        "lapin → herbivore ; loup → carnivore ; cochon → herbivore": "L'élève pense que le cochon ne mange que des végétaux."
+      },
+      "remediation": "Pour chaque animal, dessiner ce qu'il mange puis choisir le mot.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.a01",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque animal à son régime : girafe, requin, être humain, chouette.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "girafe": "herbivore",
+          "requin": "carnivore",
+          "être humain": "omnivore",
+          "chouette": "carnivore"
+        }
+      },
+      "solution": "La girafe mange des feuilles (herbivore). Le requin mange des poissons et la chouette des souris (carnivores). L'être humain mange des végétaux et des animaux (omnivore). Réponse : girafe → herbivore ; requin → carnivore ; être humain → omnivore ; chouette → carnivore.",
+      "step_by_step_solution": [
+        "girafe → herbivore ; requin → carnivore",
+        "être humain → omnivore ; chouette → carnivore"
+      ],
+      "hints": [
+        "Que mange la chouette la nuit ?"
+      ],
+      "common_errors": {
+        "girafe → herbivore ; requin → carnivore ; être humain → omnivore ; chouette → herbivore": "L'élève pense que les oiseaux mangent des graines."
+      },
+      "remediation": "Chercher dans un documentaire ce que mange chaque animal.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.a02",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Une chenille mange des feuilles. Quel est son régime alimentaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les feuilles sont des végétaux : la chenille est herbivore.",
+      "step_by_step_solution": [
+        "Les feuilles sont des végétaux.",
+        "La chenille est herbivore."
+      ],
+      "hints": [
+        "Une feuille est-elle un végétal ?"
+      ],
+      "common_errors": {
+        "carnivore": "L'élève pense qu'un petit animal est forcément carnivore."
+      },
+      "remediation": "Observer un élevage de chenilles nourries avec des feuilles.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.a03",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "L'araignée attrape des mouches dans sa toile et les mange. Quel est son régime alimentaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La mouche est un animal : l'araignée qui la mange est carnivore.",
+      "step_by_step_solution": [
+        "La mouche est un insecte, donc un animal.",
+        "L'araignée mange des animaux : elle est carnivore."
+      ],
+      "hints": [
+        "Une mouche est-elle un animal ?"
+      ],
+      "common_errors": {
+        "herbivore": "L'élève ne considère pas les insectes comme des animaux."
+      },
+      "remediation": "Rappeler que les insectes sont des animaux, même s'ils sont petits.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "carnivore",
+        "herbivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.a04",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Le sanglier mange des glands, des racines, des vers de terre et de petits animaux. Quel est son régime alimentaire ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "omnivore"
+        ]
+      },
+      "solution": "Le sanglier mange des végétaux (glands, racines) et des animaux (vers, petits animaux) : il est omnivore.",
+      "step_by_step_solution": [
+        "Végétaux : glands, racines.",
+        "Animaux : vers de terre, petits animaux.",
+        "Il mange les deux : omnivore."
+      ],
+      "hints": [
+        "Trie la liste : végétaux d'un côté, animaux de l'autre."
+      ],
+      "common_errors": {
+        "herbivore": "L'élève ne voit que les glands et les racines."
+      },
+      "remediation": "Souligner en vert les végétaux et en rouge les animaux dans la liste.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.a05",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Lequel de ces animaux est herbivore ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le mouton mange de l'herbe : il est herbivore. Le loup et le requin sont carnivores.",
+      "step_by_step_solution": [
+        "Le loup et le requin mangent des animaux.",
+        "Le mouton mange de l'herbe : il est herbivore."
+      ],
+      "hints": [
+        "Lequel broute l'herbe dans le pré ?"
+      ],
+      "common_errors": {
+        "le loup": "L'élève confond herbivore et carnivore."
+      },
+      "remediation": "Chercher des animaux de la ferme et dire ce qu'ils mangent.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "le mouton",
+        "le loup",
+        "le requin"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.c01",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un animal mange des graines, des vers de terre et des insectes. Quel est son régime alimentaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les graines sont des végétaux ; les vers et les insectes sont des animaux : cet animal est omnivore.",
+      "step_by_step_solution": [
+        "Graines : végétaux.",
+        "Vers et insectes : animaux.",
+        "Il mange les deux : omnivore."
+      ],
+      "hints": [
+        "Les vers et les insectes sont-ils des animaux ?"
+      ],
+      "common_errors": {
+        "herbivore": "L'élève ne voit que les graines."
+      },
+      "remediation": "Faire le tri végétaux / animaux avant de choisir le mot.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "omnivore",
+        "herbivore",
+        "carnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.c02",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : un animal qui mange des insectes mange des animaux.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : les insectes sont des animaux, même s'ils sont petits. Réponse : vrai.",
+      "step_by_step_solution": [
+        "Un insecte naît, se nourrit, se déplace : c'est un animal.",
+        "Donc c'est vrai."
+      ],
+      "hints": [
+        "Une fourmi est-elle un animal ?"
+      ],
+      "common_errors": {
+        "faux": "Erreur fréquente : ne pas considérer les insectes comme des animaux."
+      },
+      "remediation": "Classer une fourmi, un papillon et une mouche : ce sont des animaux.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.c03",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Lequel n'est pas carnivore ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le tigre et le crocodile mangent d'autres animaux. Le cheval mange de l'herbe et du foin : il n'est pas carnivore.",
+      "step_by_step_solution": [
+        "Le tigre et le crocodile chassent.",
+        "Le cheval mange des végétaux."
+      ],
+      "hints": [
+        "Lis bien la question : on cherche celui qui n'est pas carnivore."
+      ],
+      "common_errors": {
+        "le tigre": "L'élève n'a pas lu la négation."
+      },
+      "remediation": "Relire la consigne en entourant « n'est pas ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "le cheval",
+        "le tigre",
+        "le crocodile"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.c04",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque nourriture à « végétal » ou « animal » : herbe, souris, gland, ver de terre.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "herbe": "végétal",
+          "souris": "animal",
+          "gland": "végétal",
+          "ver de terre": "animal"
+        }
+      },
+      "solution": "L'herbe et le gland sont des végétaux ; la souris et le ver de terre sont des animaux. Réponse : herbe → végétal ; souris → animal ; gland → végétal ; ver de terre → animal.",
+      "step_by_step_solution": [
+        "Végétaux : herbe, gland.",
+        "Animaux : souris, ver de terre."
+      ],
+      "hints": [
+        "Le gland est le fruit du chêne."
+      ],
+      "common_errors": {
+        "herbe → végétal ; souris → animal ; gland → végétal ; ver de terre → végétal": "L'élève ne considère pas le ver de terre comme un animal."
+      },
+      "remediation": "Observer un ver de terre (puis le relâcher) : il se déplace et se nourrit, c'est un animal.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "végétal",
+        "animal"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.c05",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un escargot mange des feuilles de salade. Quel est son régime alimentaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La salade est un végétal : l'escargot est herbivore.",
+      "step_by_step_solution": [
+        "La salade est un végétal.",
+        "L'escargot est herbivore."
+      ],
+      "hints": [
+        "La salade pousse dans le jardin : est-ce un végétal ?"
+      ],
+      "common_errors": {
+        "omnivore": "L'élève pense que tous les petits animaux mangent de tout."
+      },
+      "remediation": "Observer des escargots en classe nourris avec de la salade.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.x01",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Dans la nature, un chat chasse des souris et des oiseaux. Quel est son régime alimentaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Souris et oiseaux sont des animaux : le chat est carnivore.",
+      "step_by_step_solution": [
+        "Souris et oiseaux sont des animaux.",
+        "Le chat est carnivore."
+      ],
+      "hints": [
+        "Que mange le chat quand il chasse ?"
+      ],
+      "common_errors": {
+        "omnivore": "L'élève pense aux croquettes du commerce plutôt qu'à ce que le chat mange dans la nature."
+      },
+      "remediation": "Chercher ce que mange un animal sauvage de la même famille (lynx, tigre).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "carnivore",
+        "herbivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.x02",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un élève dit : « Le cochon est herbivore, car il mange des pommes. » Qu'en penses-tu ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le cochon mange des végétaux (pommes, céréales) mais aussi des vers et de petits animaux : il est omnivore. Réponse : il a tort : le cochon mange aussi des animaux, il est omnivore.",
+      "step_by_step_solution": [
+        "Les pommes sont des végétaux.",
+        "Le cochon mange aussi des animaux : il est omnivore."
+      ],
+      "hints": [
+        "Un seul aliment suffit-il pour connaître le régime d'un animal ?"
+      ],
+      "common_errors": {
+        "il a raison": "L'élève se base sur un seul aliment."
+      },
+      "remediation": "Toujours lister tout ce que mange l'animal avant de choisir le régime.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "il a tort : le cochon mange aussi des animaux, il est omnivore",
+        "il a raison",
+        "il a tort : le cochon est carnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.regime-alimentaire.x03",
+      "notion_id": "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque animal à son régime : zèbre, crocodile, poule, chèvre, ours brun.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "zèbre": "herbivore",
+          "crocodile": "carnivore",
+          "poule": "omnivore",
+          "chèvre": "herbivore",
+          "ours brun": "omnivore"
+        }
+      },
+      "solution": "Le zèbre et la chèvre mangent des végétaux (herbivores). Le crocodile mange des animaux (carnivore). La poule et l'ours brun mangent des deux (omnivores). Réponse : zèbre → herbivore ; crocodile → carnivore ; poule → omnivore ; chèvre → herbivore ; ours brun → omnivore.",
+      "step_by_step_solution": [
+        "Herbivores : zèbre, chèvre.",
+        "Carnivore : crocodile.",
+        "Omnivores : poule (graines et vers), ours brun (baies et poissons)."
+      ],
+      "hints": [
+        "La poule picore des graines, mais aussi des vers.",
+        "L'ours brun mange des baies et des poissons."
+      ],
+      "common_errors": {
+        "zèbre → herbivore ; crocodile → carnivore ; poule → herbivore ; chèvre → herbivore ; ours brun → carnivore": "L'élève pense que la poule ne mange que des graines et que l'ours ne mange que de la viande."
+      },
+      "remediation": "Compléter pour chaque animal un tableau « végétaux / animaux » avant de choisir.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Identifier le régime alimentaire d'un animal (herbivore, carnivore, omnivore)",
+        "Relier ce que mange un animal à un régime alimentaire"
+      ],
+      "source_notions": [
+        "ST.CE1.VIV.identifier-le-regime-alimentaire-danimaux"
+      ],
+      "choices": [
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.d01",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel objet a besoin d'énergie électrique pour fonctionner ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La lampe de poche fonctionne avec des piles : elle utilise l'énergie électrique. Réponse : une lampe de poche.",
+      "step_by_step_solution": [
+        "Les ciseaux et le livre fonctionnent sans pile ni prise.",
+        "La lampe de poche a des piles : elle utilise l'énergie électrique."
+      ],
+      "hints": [
+        "Lequel a des piles ?"
+      ],
+      "common_errors": {
+        "des ciseaux": "L'élève ne sait pas encore repérer une source d'énergie électrique."
+      },
+      "remediation": "Chercher sur chaque objet une prise, une pile ou une batterie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "une lampe de poche",
+        "des ciseaux",
+        "un livre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.d02",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel objet fonctionne sans énergie électrique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les ciseaux fonctionnent avec la force de la main, sans électricité. Réponse : une paire de ciseaux.",
+      "step_by_step_solution": [
+        "La télévision et le réfrigérateur se branchent sur une prise.",
+        "Les ciseaux fonctionnent avec la main."
+      ],
+      "hints": [
+        "Lequel n'a ni fil ni pile ?"
+      ],
+      "common_errors": {
+        "une télévision": "L'élève n'a pas lu « sans »."
+      },
+      "remediation": "Relire la consigne en entourant le mot « sans ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "une paire de ciseaux",
+        "une télévision",
+        "un réfrigérateur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.d03",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque objet à « électrique » ou « non électrique » : grille-pain, cuillère, aspirateur, balai.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "grille-pain": "électrique",
+          "cuillère": "non électrique",
+          "aspirateur": "électrique",
+          "balai": "non électrique"
+        }
+      },
+      "solution": "Le grille-pain et l'aspirateur se branchent sur une prise : ils sont électriques. La cuillère et le balai fonctionnent avec la main. Réponse : grille-pain → électrique ; cuillère → non électrique ; aspirateur → électrique ; balai → non électrique.",
+      "step_by_step_solution": [
+        "Électriques : grille-pain, aspirateur (prise).",
+        "Non électriques : cuillère, balai."
+      ],
+      "hints": [
+        "Lequel a un fil avec une prise ?"
+      ],
+      "common_errors": {
+        "grille-pain → électrique ; cuillère → non électrique ; aspirateur → non électrique ; balai → non électrique": "L'élève ne sait pas que l'aspirateur fonctionne à l'électricité."
+      },
+      "remediation": "Faire l'inventaire des objets de la cuisine : avec ou sans fil électrique.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "électrique",
+        "non électrique"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.d04",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : une pile est une source d'énergie électrique.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : la pile fournit de l'énergie électrique à l'objet dans lequel on la met. Réponse : vrai.",
+      "step_by_step_solution": [
+        "On met des piles dans une lampe de poche pour qu'elle s'allume.",
+        "La pile est une source d'énergie électrique : vrai."
+      ],
+      "hints": [
+        "Que se passe-t-il quand on enlève les piles d'une lampe de poche ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que seules les prises donnent de l'électricité."
+      },
+      "remediation": "Allumer une lampe de poche, puis enlever les piles : elle ne s'allume plus.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.d05",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "D'où vient l'énergie électrique d'un réfrigérateur ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le réfrigérateur est branché sur une prise électrique. Réponse : de la prise électrique.",
+      "step_by_step_solution": [
+        "Le réfrigérateur a un fil branché au mur.",
+        "Son énergie électrique vient de la prise."
+      ],
+      "hints": [
+        "Regarde derrière le réfrigérateur : que vois-tu ?"
+      ],
+      "common_errors": {
+        "d'une pile": "L'élève ne distingue pas les objets à piles et les objets branchés."
+      },
+      "remediation": "Classer des appareils de la maison : branchés sur une prise ou à piles.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "de la prise électrique",
+        "d'une pile",
+        "du vent dans la cuisine"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.a01",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque objet à « électrique » ou « non électrique » : sèche-cheveux, brosse à cheveux, lampe de bureau, règle, ordinateur.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "sèche-cheveux": "électrique",
+          "brosse à cheveux": "non électrique",
+          "lampe de bureau": "électrique",
+          "règle": "non électrique",
+          "ordinateur": "électrique"
+        }
+      },
+      "solution": "Sèche-cheveux, lampe de bureau et ordinateur utilisent l'énergie électrique. La brosse et la règle fonctionnent sans. Réponse : sèche-cheveux → électrique ; brosse à cheveux → non électrique ; lampe de bureau → électrique ; règle → non électrique ; ordinateur → électrique.",
+      "step_by_step_solution": [
+        "Électriques : sèche-cheveux, lampe de bureau, ordinateur.",
+        "Non électriques : brosse à cheveux, règle."
+      ],
+      "hints": [
+        "Cherche un fil, une prise, une pile ou une batterie."
+      ],
+      "common_errors": {
+        "sèche-cheveux → électrique ; brosse à cheveux → électrique ; lampe de bureau → électrique ; règle → non électrique ; ordinateur → électrique": "L'élève classe la brosse avec le sèche-cheveux car ils servent au même besoin."
+      },
+      "remediation": "Rappeler que deux objets peuvent servir au même besoin sans utiliser la même énergie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "électrique",
+        "non électrique"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.a02",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Paul part camper loin de toute maison. Quelle source d'énergie électrique peut faire marcher sa lampe ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Loin des maisons, il n'y a pas de prise : Paul utilise une lampe à piles. Réponse : des piles.",
+      "step_by_step_solution": [
+        "Il n'y a pas de prise électrique en pleine nature.",
+        "Les piles s'emportent partout."
+      ],
+      "hints": [
+        "Qu'est-ce qu'on peut emporter dans son sac ?"
+      ],
+      "common_errors": {
+        "une prise électrique": "L'élève ne pense pas qu'une prise n'existe que dans les bâtiments."
+      },
+      "remediation": "Comparer une lampe de chevet (prise) et une lampe de poche (piles) : laquelle peut-on emporter ?",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "des piles",
+        "une prise électrique",
+        "un robinet"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.a03",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quel geste est dangereux ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Mettre un objet dans une prise est très dangereux : on peut s'électrocuter. On ne touche jamais l'intérieur d'une prise.",
+      "step_by_step_solution": [
+        "Une prise électrique est dangereuse.",
+        "Mettre un objet en métal dans une prise est le geste dangereux."
+      ],
+      "hints": [
+        "Laquelle de ces actions touche la prise du mur ?"
+      ],
+      "common_errors": {
+        "allumer une lampe de poche": "L'élève pense que tout objet électrique est dangereux, sans distinguer pile et prise."
+      },
+      "remediation": "Rappeler les règles : ne jamais toucher une prise, ne jamais utiliser un appareil branché avec les mains mouillées.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "mettre un objet en métal dans une prise",
+        "allumer une lampe de poche",
+        "demander à un adulte de changer les piles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.a04",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quel avantage l'énergie électrique apporte-t-elle à l'aspirateur, par rapport au balai ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le moteur électrique de l'aspirateur aspire la poussière : on fait moins d'effort qu'avec un balai. Réponse : il enlève la poussière avec moins d'effort.",
+      "step_by_step_solution": [
+        "L'aspirateur fait du bruit et doit être branché ou chargé.",
+        "Son intérêt : on fait moins d'effort."
+      ],
+      "hints": [
+        "Qui fait le travail : ton bras ou le moteur ?"
+      ],
+      "common_errors": {
+        "il marche sans être branché ni chargé": "L'élève oublie que l'aspirateur a besoin d'une source d'énergie électrique."
+      },
+      "remediation": "Comparer deux objets pour le même besoin (fouet / batteur électrique) : qui fait l'effort ?",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "il enlève la poussière avec moins d'effort",
+        "il ne fait aucun bruit",
+        "il marche sans être branché ni chargé"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.a05",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "La télécommande ne marche plus. Quels petits objets faut-il sans doute changer à l'intérieur ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "piles",
+          "les piles",
+          "pile",
+          "des piles"
+        ]
+      },
+      "solution": "La télécommande fonctionne avec des piles ; quand elles sont usées, il faut les changer.",
+      "step_by_step_solution": [
+        "La télécommande n'a pas de fil branché.",
+        "Sa source d'énergie électrique : des piles."
+      ],
+      "hints": [
+        "Ouvre le petit couvercle au dos de la télécommande."
+      ],
+      "common_errors": {
+        "ampoule": "L'élève confond la source d'énergie et un autre composant électrique."
+      },
+      "remediation": "Observer avec l'enseignant le compartiment d'une télécommande.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.c01",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'intérêt d'une lampe électrique par rapport à une bougie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La lampe électrique éclaire sans flamme : elle évite les brûlures et les incendies. Réponse : elle éclaire sans flamme, donc sans risque de brûlure.",
+      "step_by_step_solution": [
+        "La bougie a une flamme qui peut brûler.",
+        "La lampe électrique éclaire sans flamme."
+      ],
+      "hints": [
+        "Qu'est-ce qui peut brûler avec une bougie ?"
+      ],
+      "common_errors": {
+        "elle n'a jamais besoin d'énergie": "L'élève oublie que la lampe a besoin d'énergie électrique."
+      },
+      "remediation": "Lister les avantages de la lumière électrique à la maison.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "elle éclaire sans flamme, donc sans risque de brûlure",
+        "elle n'a jamais besoin d'énergie",
+        "elle éclaire moins bien"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.c02",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque objet à sa source d'énergie électrique : téléphone portable, télévision, télécommande, lave-linge.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "téléphone portable": "batterie",
+          "télévision": "prise électrique",
+          "télécommande": "piles",
+          "lave-linge": "prise électrique"
+        }
+      },
+      "solution": "Le téléphone a une batterie qu'on recharge ; la télécommande a des piles ; la télévision et le lave-linge sont branchés sur une prise. Réponse : téléphone portable → batterie ; télévision → prise électrique ; télécommande → piles ; lave-linge → prise électrique.",
+      "step_by_step_solution": [
+        "téléphone → batterie ; télécommande → piles",
+        "télévision et lave-linge → prise électrique"
+      ],
+      "hints": [
+        "Quels objets restent toujours branchés au mur ?"
+      ],
+      "common_errors": {
+        "téléphone portable → prise électrique ; télévision → prise électrique ; télécommande → piles ; lave-linge → prise électrique": "L'élève pense au chargeur et oublie que le téléphone fonctionne sur sa batterie."
+      },
+      "remediation": "Pour chaque objet, se demander : peut-on l'emporter partout ? Si oui, il a des piles ou une batterie.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "batterie",
+        "prise électrique",
+        "piles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.c03",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Lequel de ces objets n'utilise pas d'énergie électrique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La trottinette sans moteur avance grâce au pied de l'enfant. La console et la bouilloire utilisent l'électricité. Réponse : une trottinette sans moteur.",
+      "step_by_step_solution": [
+        "La console et la bouilloire se branchent ou se chargent.",
+        "La trottinette sans moteur avance grâce au pied."
+      ],
+      "hints": [
+        "Cherche l'objet qui avance grâce à la force du corps."
+      ],
+      "common_errors": {
+        "une console de jeux": "L'élève n'a pas lu la négation."
+      },
+      "remediation": "Relire la question en entourant « n'utilise pas ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "une trottinette sans moteur",
+        "une console de jeux",
+        "une bouilloire électrique"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.c04",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : on peut jouer avec une prise électrique si l'appareil est éteint.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : une prise électrique est toujours dangereuse, même quand l'appareil est éteint. On n'y touche jamais. Réponse : faux.",
+      "step_by_step_solution": [
+        "La prise du mur reste sous tension même si l'appareil est éteint.",
+        "On ne joue jamais avec une prise : c'est faux."
+      ],
+      "hints": [
+        "L'électricité arrive-t-elle toujours dans la prise du mur ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense que la prise est sans danger quand l'appareil est éteint."
+      },
+      "remediation": "Rappeler les règles de sécurité électrique et les afficher dans la classe.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.c05",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Deux moulins à café : l'un à manivelle, l'autre électrique. Lequel utilise une source d'énergie électrique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le moulin électrique a un moteur branché ; le moulin à manivelle fonctionne avec la force du bras.",
+      "step_by_step_solution": [
+        "La manivelle se tourne à la main.",
+        "Le moulin électrique utilise l'énergie électrique."
+      ],
+      "hints": [
+        "Qui fait tourner la manivelle ?"
+      ],
+      "common_errors": {
+        "le moulin à manivelle": "L'élève confond « bouger tout seul » et « utiliser l'électricité »."
+      },
+      "remediation": "Comparer d'autres paires : fouet / batteur électrique ; balai / aspirateur.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "le moulin électrique",
+        "le moulin à manivelle",
+        "ni l'un ni l'autre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.x01",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi un téléphone portable fonctionne-t-il avec une batterie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Grâce à sa batterie, le téléphone fonctionne loin des prises : on peut l'emporter partout. Réponse : pour pouvoir l'emporter partout.",
+      "step_by_step_solution": [
+        "La batterie se recharge sur une prise.",
+        "Elle permet d'utiliser le téléphone partout."
+      ],
+      "hints": [
+        "Où utilises-tu un téléphone portable ?"
+      ],
+      "common_errors": {
+        "parce qu'une batterie ne s'use jamais": "L'élève oublie qu'il faut recharger la batterie."
+      },
+      "remediation": "Comparer un téléphone fixe (branché) et un téléphone portable (batterie).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "pour pouvoir l'emporter partout",
+        "parce qu'une batterie ne s'use jamais",
+        "parce qu'une prise n'a pas d'énergie"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.x02",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque objet électrique à l'objet non électrique qui répond au même besoin : aspirateur, batteur électrique, sèche-linge. Objets : balai, fouet, étendoir à linge.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "aspirateur": "balai",
+          "batteur électrique": "fouet",
+          "sèche-linge": "étendoir à linge"
+        }
+      },
+      "solution": "Aspirateur et balai nettoient le sol ; batteur et fouet mélangent ; sèche-linge et étendoir font sécher le linge. Réponse : aspirateur → balai ; batteur électrique → fouet ; sèche-linge → étendoir à linge.",
+      "step_by_step_solution": [
+        "aspirateur → balai (nettoyer)",
+        "batteur électrique → fouet (mélanger)",
+        "sèche-linge → étendoir à linge (sécher)"
+      ],
+      "hints": [
+        "Pour chaque objet électrique, cherche le besoin : nettoyer, mélanger, sécher."
+      ],
+      "common_errors": {
+        "aspirateur → fouet ; batteur électrique → balai ; sèche-linge → étendoir à linge": "L'élève ne relie pas les objets par leur besoin."
+      },
+      "remediation": "Faire des paires d'images « même besoin, avec ou sans électricité ».",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "balai",
+        "fouet",
+        "étendoir à linge"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE1.energie-electrique.x03",
+      "notion_id": "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un réveil à piles, un vélo sans moteur, une radio branchée sur une prise. Combien de ces objets utilisent une source d'énergie électrique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le réveil (piles) et la radio (prise) utilisent l'énergie électrique ; le vélo sans moteur non. Il y en a 2.",
+      "step_by_step_solution": [
+        "Réveil à piles : oui.",
+        "Radio branchée : oui.",
+        "Vélo sans moteur : non. Il y en a 2."
+      ],
+      "hints": [
+        "Examine les objets un par un."
+      ],
+      "common_errors": {
+        "3": "L'élève compte le vélo comme un objet électrique."
+      },
+      "remediation": "Faire une croix à côté de chaque objet qui a une pile, une batterie ou une prise, puis compter.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Différencier les objets qui utilisent ou non une source d'énergie électrique",
+        "Identifier l'intérêt de l'énergie électrique et les règles de sécurité"
+      ],
+      "source_notions": [
+        "ST.CE1.TEC.differencier-les-objets-selon-quils-utilisent-ou-non-une-source-denerg"
+      ],
+      "choices": [
+        "2",
+        "1",
+        "3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

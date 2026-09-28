@@ -1,0 +1,774 @@
+{
+  "schema_version": "1.0",
+  "subject": "SVT",
+  "level": "2NDE",
+  "course": "COMMON",
+  "generated_by": "agent-C (Claude) — reconstitution candidate, sans accès aux sources officielles",
+  "disclaimer": "CANDIDATS NON VÉRIFIÉS : notions reconstituées de mémoire, sans accès au BO/Éduscol. Aucune n'est prouvée ; aucune ne peut alimenter exercices ou quiz avant preuve officielle et revue humaine.",
+  "notions": [
+    {
+      "notion_id": "SVT.2NDE.TVO.la-cellule-unite-structurale-et-fonctionnelle",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "L'organisation fonctionnelle du vivant",
+      "title": "La cellule, unité structurale et fonctionnelle",
+      "official_wording": null,
+      "normalized_title": "la cellule, unité structurale et fonctionnelle",
+      "prerequisites": [
+        "SVT.5E.VIV.la-cellule-unite-du-vivant"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier l'organisation des cellules eucaryotes et procaryotes à leurs fonctions",
+        "Présenter la membrane plasmique comme frontière d'échanges"
+      ],
+      "expected_skills": [
+        "Réaliser une observation microscopique et calculer une taille réelle",
+        "Mener un calcul d'échelle"
+      ],
+      "common_mistakes": [
+        "croire que les cellules procaryotes ont un noyau",
+        "confondre paroi et membrane"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "SVT.2NDE.TVO.l-adn-molecule-universelle-structure-et-composition",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "L'organisation fonctionnelle du vivant",
+      "title": "L'ADN, molécule universelle : structure et composition",
+      "official_wording": null,
+      "normalized_title": "l'adn, molécule universelle : structure et composition",
+      "prerequisites": [
+        "SVT.3E.VIV.l-adn-support-de-l-information-genetique"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Décrire l'ADN comme une double hélice de nucléotides complémentaires",
+        "Relier l'universalité de l'ADN à la parenté du vivant"
+      ],
+      "expected_skills": [
+        "Utiliser un logiciel de modélisation moléculaire",
+        "Appliquer la complémentarité des bases"
+      ],
+      "common_mistakes": [
+        "confondre ADN et gène",
+        "associer A avec C au lieu de A avec T"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.TVO.metabolisme-cellulaire-et-enzymes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "L'organisation fonctionnelle du vivant",
+      "title": "Métabolisme cellulaire et enzymes",
+      "official_wording": null,
+      "normalized_title": "métabolisme cellulaire et enzymes",
+      "prerequisites": [
+        "SVT.5E.VIV.besoins-nutritifs-des-vegetaux-chlorophylliens"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Relier le métabolisme d'une cellule à ses enzymes et à son environnement",
+        "Distinguer métabolisme autotrophe et hétérotrophe"
+      ],
+      "expected_skills": [
+        "Concevoir une expérience avec ExAO",
+        "Interpréter une courbe de concentration en O₂"
+      ],
+      "common_mistakes": [
+        "croire que les cellules chlorophylliennes ne respirent pas",
+        "confondre enzyme et substrat"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    },
+    {
+      "notion_id": "SVT.2NDE.TVO.l-organisme-pluricellulaire-cellules-specialisees-tissus-et-organes",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "L'organisation fonctionnelle du vivant",
+      "title": "L'organisme pluricellulaire : cellules spécialisées, tissus et organes",
+      "official_wording": null,
+      "normalized_title": "l'organisme pluricellulaire : cellules spécialisées, tissus et organes",
+      "prerequisites": [
+        "SVT.2NDE.TVO.la-cellule-unite-structurale-et-fonctionnelle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Relier les niveaux d'organisation cellule–tissu–organe–organisme",
+        "Relier la spécialisation cellulaire à l'expression d'une partie de l'information génétique"
+      ],
+      "expected_skills": [
+        "Changer d'échelle d'observation",
+        "Comparer des tissus"
+      ],
+      "common_mistakes": [
+        "croire que des cellules spécialisées ont des ADN différents",
+        "confondre tissu et organe"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.TVO.les-echelles-de-la-biodiversite",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Biodiversité et évolution",
+      "title": "Les échelles de la biodiversité",
+      "official_wording": null,
+      "normalized_title": "les échelles de la biodiversité",
+      "prerequisites": [
+        "SVT.5E.VIV.biodiversite-et-classification-du-vivant"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS",
+        "CONCEVOIR_EXPERIENCE"
+      ],
+      "learning_objectives": [
+        "Décrire la biodiversité aux échelles écosystémique, spécifique et génétique",
+        "Estimer une biodiversité par échantillonnage"
+      ],
+      "expected_skills": [
+        "Réaliser un échantillonnage et un calcul d'estimation",
+        "Mettre en œuvre une méthode capture-recapture"
+      ],
+      "common_mistakes": [
+        "confondre richesse spécifique et abondance",
+        "extrapoler sans tenir compte de l'échantillonnage"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "SVT.2NDE.TVO.mecanismes-de-l-evolution-selection-naturelle-et-derive-genetique",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Biodiversité et évolution",
+      "title": "Mécanismes de l'évolution : sélection naturelle et dérive génétique",
+      "official_wording": null,
+      "normalized_title": "mécanismes de l'évolution : sélection naturelle et dérive génétique",
+      "prerequisites": [
+        "SVT.3E.VIV.evolution-des-especes-et-selection-naturelle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Expliquer la modification des fréquences alléliques par sélection naturelle et dérive génétique",
+        "Relier la taille d'une population à l'effet de la dérive"
+      ],
+      "expected_skills": [
+        "Utiliser un modèle numérique de dérive",
+        "Interpréter des simulations"
+      ],
+      "common_mistakes": [
+        "croire que la dérive génétique est dirigée",
+        "croire que l'évolution a un but"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "SVT.2NDE.TVO.biodiversite-resultat-et-etape-de-l-evolution-notion-d-espece",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Biodiversité et évolution",
+      "title": "Biodiversité, résultat et étape de l'évolution : notion d'espèce",
+      "official_wording": null,
+      "normalized_title": "biodiversité, résultat et étape de l'évolution : notion d'espèce",
+      "prerequisites": [
+        "SVT.2NDE.TVO.mecanismes-de-l-evolution-selection-naturelle-et-derive-genetique"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "SE_SITUER_DANS_ESPACE_TEMPS"
+      ],
+      "learning_objectives": [
+        "Discuter la définition de l'espèce et ses limites",
+        "Relier isolement reproducteur et formation de nouvelles espèces"
+      ],
+      "expected_skills": [
+        "Argumenter à partir d'exemples"
+      ],
+      "common_mistakes": [
+        "croire que la définition de l'espèce est unique et sans exception",
+        "confondre espèce et race ou variété"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.EPC.erosion-processus-et-consequences",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Enjeux contemporains de la planète",
+      "domain_code": "EPC",
+      "chapter": "Géosciences et dynamique des paysages",
+      "title": "Érosion, processus et conséquences",
+      "official_wording": null,
+      "normalized_title": "érosion, processus et conséquences",
+      "prerequisites": [
+        "SVT.5E.TER.erosion-transport-et-sedimentation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Relier altération, érosion et transport à la formation des sédiments",
+        "Mesurer l'influence humaine sur l'érosion"
+      ],
+      "expected_skills": [
+        "Exploiter des données de terrain",
+        "Mener un calcul de vitesse de sédimentation"
+      ],
+      "common_mistakes": [
+        "confondre altération chimique et érosion mécanique",
+        "négliger l'influence humaine sur les flux sédimentaires"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "SVT.2NDE.EPC.les-sols-un-patrimoine-durable",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Enjeux contemporains de la planète",
+      "domain_code": "EPC",
+      "chapter": "Agrosystèmes et développement durable",
+      "title": "Les sols, un patrimoine durable",
+      "official_wording": null,
+      "normalized_title": "les sols, un patrimoine durable",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Décrire la formation d'un sol à partir de la roche mère et de l'activité biologique",
+        "Relier la lenteur de formation des sols à la nécessité de les préserver"
+      ],
+      "expected_skills": [
+        "Analyser un profil de sol",
+        "Réaliser un test de perméabilité"
+      ],
+      "common_mistakes": [
+        "croire qu'un sol se reforme en quelques années",
+        "négliger la faune du sol"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.EPC.agrosystemes-et-developpement-durable",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Enjeux contemporains de la planète",
+      "domain_code": "EPC",
+      "chapter": "Agrosystèmes et développement durable",
+      "title": "Agrosystèmes et développement durable",
+      "official_wording": null,
+      "normalized_title": "agrosystèmes et développement durable",
+      "prerequisites": [
+        "SVT.2NDE.EPC.les-sols-un-patrimoine-durable"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Comparer un agrosystème et un écosystème naturel (exportation de biomasse, intrants)",
+        "Évaluer les impacts de pratiques agricoles"
+      ],
+      "expected_skills": [
+        "Construire un bilan de flux",
+        "Argumenter un choix de pratique"
+      ],
+      "common_mistakes": [
+        "croire qu'un agrosystème fonctionne sans apports extérieurs",
+        "présenter une pratique comme uniformément bonne"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.CHS.differenciation-de-l-appareil-genital",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Procréation et sexualité humaine",
+      "title": "Différenciation de l'appareil génital",
+      "official_wording": null,
+      "normalized_title": "différenciation de l'appareil génital",
+      "prerequisites": [
+        "SVT.4E.CORPS.puberte-et-fonctionnement-des-appareils-reproducteurs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire les étapes de la mise en place de l'appareil sexuel (génétique, hormonale)",
+        "Distinguer sexe génétique, sexe gonadique et phénotype"
+      ],
+      "expected_skills": [
+        "Interpréter des résultats expérimentaux"
+      ],
+      "common_mistakes": [
+        "croire que le sexe est déterminé uniquement par les chromosomes sans intervention hormonale",
+        "confondre sexe biologique et identité de genre"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Thème sensible : vocabulaire précis et non normatif à vérifier contre le programme.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.CHS.hormones-et-procreation-humaine",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Procréation et sexualité humaine",
+      "title": "Hormones et procréation humaine",
+      "official_wording": null,
+      "normalized_title": "hormones et procréation humaine",
+      "prerequisites": [
+        "SVT.2NDE.CHS.differenciation-de-l-appareil-genital",
+        "SVT.4E.CORPS.fecondation-grossesse-et-maitrise-de-la-procreation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Décrire la régulation hormonale du fonctionnement des appareils reproducteurs",
+        "Expliquer le mode d'action de la contraception hormonale"
+      ],
+      "expected_skills": [
+        "Interpréter des graphiques hormonaux",
+        "Raisonner sur une boucle de régulation"
+      ],
+      "common_mistakes": [
+        "confondre hormones hypophysaires et hormones ovariennes",
+        "croire que la contraception hormonale protège des IST"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.CHS.sexualite-et-bases-biologiques-du-plaisir",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Procréation et sexualité humaine",
+      "title": "Sexualité et bases biologiques du plaisir",
+      "official_wording": null,
+      "normalized_title": "sexualité et bases biologiques du plaisir",
+      "prerequisites": [
+        "SVT.4E.CORPS.perturbations-du-systeme-nerveux-sommeil-substances-et-ecrans"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Relier le plaisir au système de récompense cérébral",
+        "Distinguer sexualité et procréation"
+      ],
+      "expected_skills": [
+        "Exploiter des documents d'imagerie cérébrale"
+      ],
+      "common_mistakes": [
+        "réduire la sexualité à la seule procréation",
+        "interpréter l'imagerie cérébrale comme une preuve de causalité"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.CHS.le-microbiote-humain-et-la-sante",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Microorganismes et santé",
+      "title": "Le microbiote humain et la santé",
+      "official_wording": null,
+      "normalized_title": "le microbiote humain et la santé",
+      "prerequisites": [
+        "SVT.5E.CORPS.role-des-micro-organismes-dans-la-digestion"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Décrire le microbiote et ses interactions avec l'organisme",
+        "Relier des perturbations du microbiote à des effets sur la santé"
+      ],
+      "expected_skills": [
+        "Exploiter des résultats scientifiques récents avec prudence"
+      ],
+      "common_mistakes": [
+        "croire que toutes les bactéries sont pathogènes",
+        "confondre corrélation et causalité dans les études sur le microbiote"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Domaine de recherche actif : éviter les affirmations causales fortes.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.2NDE.CHS.agents-pathogenes-et-maladies-vectorielles",
+      "subject": "SVT",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Microorganismes et santé",
+      "title": "Agents pathogènes et maladies vectorielles",
+      "official_wording": null,
+      "normalized_title": "agents pathogènes et maladies vectorielles",
+      "prerequisites": [
+        "SVT.3E.CORPS.micro-organismes-et-contamination"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire le cycle de transmission d'un agent pathogène par un vecteur",
+        "Identifier des moyens de lutte adaptés au cycle"
+      ],
+      "expected_skills": [
+        "Analyser un cycle de vie parasitaire",
+        "Argumenter une mesure de prévention"
+      ],
+      "common_mistakes": [
+        "confondre vecteur et agent pathogène",
+        "croire que tous les moustiques transmettent des maladies"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

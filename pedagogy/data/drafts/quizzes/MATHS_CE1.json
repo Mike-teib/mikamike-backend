@@ -1,0 +1,874 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q01",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Dans le nombre 739, quel est le chiffre des centaines ?",
+      "choices": [
+        "7",
+        "9",
+        "3",
+        "700"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "739 = 7 centaines, 3 dizaines et 9 unités : le chiffre des centaines est 7.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est le chiffre des unités.",
+        "2": "C'est le chiffre des dizaines.",
+        "3": "C'est la valeur du chiffre des centaines, pas le chiffre."
+      },
+      "common_error_target": {
+        "1": "confusion des rangs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q02",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Combien vaut le chiffre 4 dans le nombre 148 ?",
+      "choices": [
+        "4",
+        "400",
+        "48",
+        "40"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "40",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Dans 148, le chiffre 4 est au rang des dizaines : il vaut 4 dizaines, soit 40.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est le chiffre, sans sa valeur de position.",
+        "1": "Le 4 n'est pas au rang des centaines.",
+        "2": "On a pris aussi le chiffre des unités."
+      },
+      "common_error_target": {
+        "0": "oubli de la position"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q03",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Quel nombre s'écrit avec 5 centaines, 2 dizaines et 6 unités ?",
+      "choices": [
+        "625",
+        "13",
+        "526",
+        "5206"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "526",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 centaines, 2 dizaines et 6 unités : 500 + 20 + 6 = 526.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Les chiffres ont été écrits à l'envers.",
+        "1": "On a additionné les chiffres.",
+        "3": "On a écrit un zéro en trop."
+      },
+      "common_error_target": {
+        "0": "inversion des rangs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q04",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Quel nombre est égal à 700 + 5 ?",
+      "choices": [
+        "75",
+        "705",
+        "7005",
+        "750"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "705",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "700 + 5 : 7 centaines, 0 dizaine et 5 unités, soit 705.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a oublié le zéro au rang des dizaines.",
+        "2": "On a écrit 700 et 5 côte à côte.",
+        "3": "On a placé le 5 au rang des dizaines."
+      },
+      "common_error_target": {
+        "0": "oubli du zéro"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q05",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Six-cent-huit s'écrit :",
+      "choices": [
+        "608",
+        "68",
+        "6008",
+        "680"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "608",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Six-cent-huit : 6 centaines, 0 dizaine, 8 unités. On écrit 608.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a oublié le zéro des dizaines.",
+        "2": "On a écrit 600 puis 8.",
+        "3": "On a placé le 8 au rang des dizaines."
+      },
+      "common_error_target": {
+        "1": "oubli du zéro"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q06",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Dans quel nombre le chiffre 2 vaut-il 200 ?",
+      "choices": [
+        "128",
+        "812",
+        "902",
+        "281"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "281",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le 2 vaut 200 quand il est au rang des centaines : c'est le cas dans 281.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ici, le 2 vaut 20.",
+        "1": "Ici, le 2 vaut 2.",
+        "2": "Ici, le 2 vaut 2."
+      },
+      "common_error_target": {
+        "0": "confusion des rangs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q07",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Combien y a-t-il de dizaines en tout dans 470 ?",
+      "choices": [
+        "7",
+        "4",
+        "47",
+        "470"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "47",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "470 = 4 centaines et 7 dizaines ; 4 centaines font 40 dizaines, donc 40 + 7 = 47 dizaines.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est seulement le chiffre des dizaines.",
+        "1": "C'est le chiffre des centaines.",
+        "3": "C'est le nombre d'unités."
+      },
+      "common_error_target": {
+        "0": "chiffre des dizaines au lieu du nombre de dizaines"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q08",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Quel nombre est formé de 12 dizaines et 3 unités ?",
+      "choices": [
+        "1203",
+        "123",
+        "15",
+        "312"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "123",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "12 dizaines = 120 ; avec 3 unités : 120 + 3 = 123.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a écrit 12 puis 03 sans échanger 10 dizaines contre 1 centaine.",
+        "2": "On a ajouté 12 et 3.",
+        "3": "On a écrit les unités en premier."
+      },
+      "common_error_target": {
+        "0": "juxtaposition"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q09",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Quel nombre obtient-on en ajoutant 1 centaine à 395 ?",
+      "choices": [
+        "495",
+        "396",
+        "405",
+        "1395"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "495",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Ajouter 1 centaine augmente le chiffre des centaines de 1 : 395 + 100 = 495.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a ajouté 1 unité.",
+        "2": "On a ajouté 1 dizaine.",
+        "3": "On a écrit 1 devant le nombre."
+      },
+      "common_error_target": {
+        "1": "confusion des rangs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.valeur-position.q10",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Avec les chiffres 3, 7 et 1, utilisés une fois chacun, quel est le plus petit nombre de trois chiffres ?",
+      "choices": [
+        "731",
+        "173",
+        "317",
+        "137"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "137",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Pour le plus petit nombre, on met le plus petit chiffre aux centaines (1), puis 3, puis 7 : 137.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est le plus grand nombre possible.",
+        "1": "Les deux derniers chiffres sont mal rangés.",
+        "2": "Le plus petit chiffre n'est pas aux centaines."
+      },
+      "common_error_target": {
+        "0": "confusion plus grand / plus petit"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q01",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Il y a 5 paquets de 2 gâteaux. Combien de gâteaux y a-t-il ?",
+      "choices": [
+        "10",
+        "7",
+        "52",
+        "12"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 paquets de 2 gâteaux : 5 × 2 = 10 gâteaux.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a ajouté 5 et 2.",
+        "2": "On a écrit les deux nombres à la suite.",
+        "3": "Erreur de calcul."
+      },
+      "common_error_target": {
+        "1": "addition au lieu de multiplication"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q02",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Une fleur a 5 pétales. Combien de pétales ont 4 fleurs ?",
+      "choices": [
+        "9",
+        "15",
+        "25",
+        "20"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "20",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "4 fleurs de 5 pétales : 4 × 5 = 20 pétales.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a ajouté 4 et 5.",
+        "1": "On a compté 3 fleurs au lieu de 4.",
+        "2": "On a compté 5 fleurs au lieu de 4."
+      },
+      "common_error_target": {
+        "0": "addition au lieu de multiplication"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q03",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "12 enfants forment des équipes de 3. Combien y a-t-il d'équipes ?",
+      "choices": [
+        "9",
+        "36",
+        "4",
+        "15"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On fait des groupes de 3 : 4 × 3 = 12, donc il y a 4 équipes.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a soustrait 3 à 12.",
+        "1": "On a multiplié 12 par 3.",
+        "3": "On a ajouté 12 et 3."
+      },
+      "common_error_target": {
+        "0": "soustraction au lieu de groupement"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q04",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Un paquet contient 8 biscuits. Combien de biscuits y a-t-il dans 7 paquets ?",
+      "choices": [
+        "15",
+        "56",
+        "48",
+        "54"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "56",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "7 paquets de 8 biscuits : 7 × 8 = 56 biscuits.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a ajouté 7 et 8.",
+        "2": "On a compté 6 paquets au lieu de 7.",
+        "3": "Erreur dans la table de 8."
+      },
+      "common_error_target": {
+        "0": "addition au lieu de multiplication"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q05",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Deux sœurs se partagent 18 images en parts égales. Combien d'images a chacune ?",
+      "choices": [
+        "9",
+        "16",
+        "36",
+        "8"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Partager en 2 parts égales, c'est prendre la moitié : 2 × 9 = 18, donc 9 images chacune.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a soustrait 2.",
+        "2": "On a pris le double au lieu de la moitié.",
+        "3": "Erreur de calcul."
+      },
+      "common_error_target": {
+        "1": "soustraction au lieu de partage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q06",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Un client achète 10 paquets de 25 gâteaux. Combien de gâteaux a-t-il ?",
+      "choices": [
+        "35",
+        "1025",
+        "125",
+        "250"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "250",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "10 paquets de 25 : 10 × 25 = 250 gâteaux (chaque unité devient une dizaine).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a ajouté 10 et 25.",
+        "1": "On a écrit les nombres à la suite.",
+        "2": "On a mal multiplié par 10."
+      },
+      "common_error_target": {
+        "0": "addition au lieu de multiplication"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q07",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Il y a 60 élèves. On forme des équipes de 5 élèves. Combien y a-t-il d'équipes ?",
+      "choices": [
+        "55",
+        "300",
+        "12",
+        "10"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "12",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On compte de 5 en 5 jusqu'à 60 : 12 × 5 = 60, donc 12 équipes.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a soustrait 5.",
+        "1": "On a multiplié 60 par 5.",
+        "3": "On a fait une erreur en comptant de 5 en 5."
+      },
+      "common_error_target": {
+        "0": "soustraction au lieu de groupement"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q08",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "4 boîtes contiennent chacune 25 craies. Combien de craies y a-t-il en tout ?",
+      "choices": [
+        "29",
+        "100",
+        "80",
+        "425"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "100",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "4 fois 25 : 25 + 25 + 25 + 25 = 100 craies.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a ajouté 4 et 25.",
+        "2": "On a mal ajouté 25 quatre fois.",
+        "3": "On a écrit les nombres à la suite."
+      },
+      "common_error_target": {
+        "0": "addition au lieu de multiplication"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q09",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Un fermier a 75 œufs. Il les vend par boîtes de 6. Combien de boîtes pleines peut-il vendre ?",
+      "choices": [
+        "12",
+        "13",
+        "69",
+        "450"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "12",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "12 × 6 = 72 et 13 × 6 = 78 : il peut remplir 12 boîtes et il reste 3 œufs.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Avec 13 boîtes, il faudrait 78 œufs : la dernière boîte ne serait pas pleine.",
+        "2": "On a soustrait 6.",
+        "3": "On a multiplié 75 par 6."
+      },
+      "common_error_target": {
+        "1": "arrondi au-dessus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.multiplicatifs.q10",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Je veux ranger 189 photos dans un album, 10 photos par page. Combien de pages me faut-il pour ranger toutes mes photos ?",
+      "choices": [
+        "18",
+        "179",
+        "1890",
+        "19"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "19",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "18 pages contiennent 180 photos ; il reste 9 photos, donc il faut une page de plus : 19 pages.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Avec 18 pages, 9 photos ne seraient pas rangées.",
+        "1": "On a soustrait 10.",
+        "2": "On a multiplié par 10."
+      },
+      "common_error_target": {
+        "0": "oubli du reste"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q01",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Combien y a-t-il de centimètres dans 1 mètre ?",
+      "choices": [
+        "100 cm",
+        "10 cm",
+        "1 000 cm",
+        "1 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "100 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "Un mètre est partagé en cent centimètres : 1 m = 100 cm.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la longueur d'un décimètre.",
+        "2": "Mille, c'est le nombre de mètres dans un kilomètre.",
+        "3": "On a gardé le nombre sans convertir."
+      },
+      "common_error_target": {
+        "1": "confusion avec le décimètre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q02",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Combien y a-t-il de mètres dans 1 kilomètre ?",
+      "choices": [
+        "100 m",
+        "10 m",
+        "1 m",
+        "1 000 m"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "1 000 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "« Kilo » signifie mille : 1 km = 1 000 m.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Cent, c'est le nombre de centimètres dans un mètre.",
+        "1": "Ce n'est pas la bonne relation.",
+        "2": "On a gardé le nombre sans convertir."
+      },
+      "common_error_target": {
+        "0": "confusion des relations"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q03",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "5 m, c'est combien de centimètres ?",
+      "choices": [
+        "50 cm",
+        "105 cm",
+        "500 cm",
+        "5 000 cm"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "500 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 m = 100 cm, donc 5 m = 5 × 100 cm = 500 cm.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a ajouté un seul zéro.",
+        "1": "On a ajouté 5 à cent.",
+        "3": "On a utilisé la relation du kilomètre."
+      },
+      "common_error_target": {
+        "0": "multiplier par 10 au lieu de 100"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q04",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Combien de centimètres font 1 m et 46 cm ?",
+      "choices": [
+        "47 cm",
+        "146 cm",
+        "1 046 cm",
+        "460 cm"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "146 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 m = 100 cm ; 100 cm + 46 cm = 146 cm.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a ajouté 1 et 46 sans convertir.",
+        "2": "On a écrit les nombres à la suite.",
+        "3": "On a mal placé les chiffres."
+      },
+      "common_error_target": {
+        "0": "oubli de la conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q05",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Une étagère mesure 200 cm. Combien de mètres cela fait-il ?",
+      "choices": [
+        "2 m",
+        "20 m",
+        "200 m",
+        "2 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "100 cm = 1 m, donc 200 cm = 2 m.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a enlevé un seul zéro.",
+        "2": "On a changé d'unité sans changer le nombre.",
+        "3": "On a enlevé les zéros mais gardé les centimètres."
+      },
+      "common_error_target": {
+        "1": "diviser par 10 au lieu de 100"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q06",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Pour faire 1 km, il faut ajouter combien de mètres à 600 m ?",
+      "choices": [
+        "40 m",
+        "1 600 m",
+        "599 m",
+        "400 m"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "400 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 km = 1 000 m ; 1 000 m − 600 m = 400 m.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a cherché le complément à cent au lieu de mille.",
+        "1": "On a ajouté au lieu de chercher le complément.",
+        "2": "On a enlevé 1 sans convertir le kilomètre."
+      },
+      "common_error_target": {
+        "0": "complément à cent"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q07",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Quelle longueur est égale à 3 m et 5 cm ?",
+      "choices": [
+        "35 cm",
+        "350 cm",
+        "305 cm",
+        "8 cm"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "305 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "3 m = 300 cm ; 300 cm + 5 cm = 305 cm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a écrit 3 et 5 sans convertir.",
+        "1": "On a mis les 5 cm au rang des dizaines.",
+        "3": "On a ajouté 3 et 5."
+      },
+      "common_error_target": {
+        "0": "oubli de la conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q08",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Il y a 2 m de ficelle. On en utilise 70 cm. Combien en reste-t-il ?",
+      "choices": [
+        "68 cm",
+        "130 cm",
+        "270 cm",
+        "30 cm"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "130 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "2 m = 200 cm ; 200 cm − 70 cm = 130 cm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a enlevé 2 à 70 sans convertir.",
+        "2": "On a ajouté au lieu d'enlever.",
+        "3": "On a oublié un des deux mètres."
+      },
+      "common_error_target": {
+        "0": "oubli de la conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q09",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Quelle longueur est la plus courte ?",
+      "choices": [
+        "98 cm",
+        "1 m",
+        "110 cm",
+        "2 m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "98 cm",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "En centimètres : 1 m = 100 cm, 110 cm, 2 m = 200 cm et 98 cm. La plus courte est 98 cm.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "1 m = 100 cm, c'est plus que 98 cm.",
+        "2": "110 cm est plus long que 98 cm.",
+        "3": "2 m = 200 cm."
+      },
+      "common_error_target": {
+        "1": "comparer sans convertir"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE1.unites-longueur.q10",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "question": "Un escargot avance de 100 cm chaque heure. En combien d'heures parcourt-il 5 m ?",
+      "choices": [
+        "500",
+        "50",
+        "1",
+        "5"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "100 cm = 1 m. L'escargot avance de 1 m par heure ; pour 5 m, il lui faut 5 heures.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "On a converti 5 m en centimètres sans répondre à la question.",
+        "1": "On a mal converti les mètres.",
+        "2": "On a oublié que l'escargot avance de 100 cm par heure seulement."
+      },
+      "common_error_target": {
+        "0": "réponse à une question intermédiaire"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

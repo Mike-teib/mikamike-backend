@@ -1,0 +1,814 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.ST.6E.masse.q01",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "On mesure une masse avec…",
+      "choices": [
+        "une balance",
+        "un chronomètre",
+        "une éprouvette graduée"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une balance",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La balance mesure les masses.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le chronomètre mesure des durées.",
+        "2": "L'éprouvette graduée mesure des volumes."
+      },
+      "common_error_target": {
+        "2": "confondre masse et volume"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q02",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "1 kg est égal à…",
+      "choices": [
+        "1 000 g",
+        "100 g",
+        "10 g"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1 000 g",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Kilo signifie mille : 1 kg = 1 000 g.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "100 g, c'est un dixième de kilogramme.",
+        "2": "10 g, c'est bien trop peu."
+      },
+      "common_error_target": {
+        "1": "confondre kilo et cent"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q03",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Quelle unité n'est pas une unité de masse ?",
+      "choices": [
+        "le litre",
+        "le gramme",
+        "la tonne"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le litre",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le litre est une unité de volume.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le gramme est une unité de masse.",
+        "2": "La tonne est une unité de masse."
+      },
+      "common_error_target": {
+        "1": "confondre masse et volume"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q04",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "L'air a-t-il une masse ?",
+      "choices": [
+        "oui, car c'est de la matière",
+        "non, car il est invisible",
+        "non, car il est léger"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "oui, car c'est de la matière",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'air est de la matière (un gaz) : il a une masse.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Être invisible n'empêche pas d'avoir une masse.",
+        "2": "Léger ne veut pas dire sans masse."
+      },
+      "common_error_target": {
+        "1": "croire que l'invisible ne pèse rien"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q05",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "On aplatit une boule de pâte à modeler sans rien enlever. Sa masse…",
+      "choices": [
+        "ne change pas",
+        "augmente",
+        "diminue"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ne change pas",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Changer la forme d'un objet ne change pas sa masse.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On n'a pas ajouté de pâte.",
+        "2": "On n'a pas enlevé de pâte."
+      },
+      "common_error_target": {
+        "1": "croire que la forme change la masse"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q06",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "1 t est égale à…",
+      "choices": [
+        "1 000 kg",
+        "100 kg",
+        "10 000 kg"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1 000 kg",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une tonne vaut 1 000 kilogrammes.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "100 kg, c'est un quintal, pas une tonne.",
+        "2": "10 000 kg, c'est 10 tonnes."
+      },
+      "common_error_target": {
+        "1": "ne pas connaître la tonne"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q07",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Un verre vide pèse 150 g ; plein de lait, il pèse 350 g. La masse du lait est…",
+      "choices": [
+        "200 g",
+        "500 g",
+        "350 g"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "200 g",
+      "answer_kind": "QUANTITY",
+      "explanation": "On retire la masse du verre à la masse totale : 350 g − 150 g = 200 g.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Il fallait soustraire, pas additionner.",
+        "2": "350 g, c'est la masse du verre et du lait ensemble."
+      },
+      "common_error_target": {
+        "2": "oublier d'enlever la masse du récipient"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q08",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Un glaçon fond dans un sachet fermé. La masse…",
+      "choices": [
+        "reste la même",
+        "augmente",
+        "diminue"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "reste la même",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Lors d'un changement d'état, la masse se conserve.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Rien n'est ajouté dans le sachet fermé.",
+        "2": "Rien ne s'échappe du sachet fermé."
+      },
+      "common_error_target": {
+        "2": "croire que la fusion fait perdre de la masse"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q09",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "On dissout 10 g de sel dans 200 g d'eau. La masse de l'eau salée est…",
+      "choices": [
+        "210 g",
+        "200 g",
+        "190 g"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "210 g",
+      "answer_kind": "QUANTITY",
+      "explanation": "Le sel dissous est toujours présent : 200 g + 10 g = 210 g.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le sel dissous n'a pas disparu.",
+        "2": "On n'a rien enlevé."
+      },
+      "common_error_target": {
+        "1": "croire que le soluté disparaît"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.masse.q10",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "On emporte un objet de la Terre à la Lune. Sa masse…",
+      "choices": [
+        "reste la même",
+        "devient nulle",
+        "augmente"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "reste la même",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La masse est propre à l'objet : elle ne dépend pas du lieu.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "L'objet a toujours la même quantité de matière.",
+        "2": "La masse ne change pas en changeant d'astre."
+      },
+      "common_error_target": {
+        "1": "confondre masse et poids"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q01",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Une plante verte a besoin de…",
+      "choices": [
+        "lumière",
+        "viande",
+        "sucre en poudre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "lumière",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La lumière est un des quatre besoins de la plante verte.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une plante verte ne mange pas d'animaux.",
+        "2": "Une plante fabrique ses sucres elle-même."
+      },
+      "common_error_target": {
+        "1": "croire que la plante se nourrit comme un animal"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q02",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "L'eau du sol entre dans la plante par…",
+      "choices": [
+        "les racines",
+        "les feuilles",
+        "les fleurs"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "les racines",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les racines absorbent l'eau et les sels minéraux.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Les feuilles captent la lumière et le dioxyde de carbone.",
+        "2": "Les fleurs servent à la reproduction."
+      },
+      "common_error_target": {
+        "1": "confondre les rôles des organes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q03",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Le pigment vert des feuilles s'appelle…",
+      "choices": [
+        "la chlorophylle",
+        "la sève",
+        "le pollen"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la chlorophylle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La chlorophylle donne la couleur verte et permet d'utiliser la lumière.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La sève circule dans la plante ; ce n'est pas le pigment.",
+        "2": "Le pollen est produit par les fleurs."
+      },
+      "common_error_target": {
+        "1": "confondre pigment et sève"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q04",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Le dioxyde de carbone utilisé par la plante vient…",
+      "choices": [
+        "de l'air",
+        "du sol",
+        "de l'engrais"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de l'air",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le dioxyde de carbone est un gaz de l'air, prélevé par les feuilles.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le sol apporte l'eau et les sels minéraux.",
+        "2": "L'engrais apporte des sels minéraux."
+      },
+      "common_error_target": {
+        "1": "confondre les origines des besoins"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q05",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Les sels minéraux viennent…",
+      "choices": [
+        "du sol",
+        "de la lumière",
+        "de l'air"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "du sol",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les sels minéraux sont dissous dans l'eau du sol.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La lumière n'apporte pas de matière.",
+        "2": "L'air apporte le dioxyde de carbone."
+      },
+      "common_error_target": {
+        "2": "confondre les origines des besoins"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q06",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Une plante oubliée dans un placard sombre…",
+      "choices": [
+        "jaunit puis meurt",
+        "pousse plus vite",
+        "reste identique"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "jaunit puis meurt",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Sans lumière, la plante ne fabrique plus sa matière : elle jaunit puis meurt.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Sans lumière, elle ne peut pas pousser normalement.",
+        "2": "Elle change : elle jaunit."
+      },
+      "common_error_target": {
+        "2": "ignorer le besoin en lumière"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q07",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Dans une expérience, la plante témoin…",
+      "choices": [
+        "sert de comparaison",
+        "ne reçoit aucun soin",
+        "est placée dans le noir"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "sert de comparaison",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La plante témoin reçoit tout ce dont elle a besoin (conditions normales) ; elle sert de comparaison pour interpréter le résultat.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Une plante sans rien ne sert pas de comparaison.",
+        "2": "Le noir est une condition testée, pas le témoin."
+      },
+      "common_error_target": {
+        "1": "ne pas connaître le rôle du témoin"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q08",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Lequel n'est pas chlorophyllien ?",
+      "choices": [
+        "un champignon",
+        "une fougère",
+        "une algue verte"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un champignon",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les champignons n'ont pas de chlorophylle.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La fougère est une plante verte.",
+        "2": "L'algue verte contient de la chlorophylle."
+      },
+      "common_error_target": {
+        "2": "croire que les algues ne sont pas chlorophylliennes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q09",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Pour tester le besoin en lumière, on doit faire varier…",
+      "choices": [
+        "seulement la lumière",
+        "la lumière et l'eau",
+        "tous les facteurs"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "seulement la lumière",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On ne fait varier qu'un seul facteur à la fois.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Avec deux facteurs, on ne sait pas lequel agit.",
+        "2": "On ne pourrait rien conclure."
+      },
+      "common_error_target": {
+        "1": "changer plusieurs facteurs à la fois"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.besoins-vegetaux.q10",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "La matière d'un arbre vient surtout…",
+      "choices": [
+        "de l'eau et de l'air",
+        "de la terre du pot",
+        "des engrais du sol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de l'eau et de l'air",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'expérience de Van Helmont montre que la terre perd très peu de masse : la matière vient surtout de l'eau et du dioxyde de carbone.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "La terre du pot ne perd presque pas de masse.",
+        "2": "Les engrais apportent des sels minéraux en petite quantité."
+      },
+      "common_error_target": {
+        "1": "croire que la plante mange la terre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q01",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Le Soleil est…",
+      "choices": [
+        "une étoile",
+        "une planète",
+        "un satellite"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une étoile",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le Soleil est une étoile : il produit sa propre lumière.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une planète ne produit pas sa lumière.",
+        "2": "Un satellite tourne autour d'une planète."
+      },
+      "common_error_target": {
+        "1": "confondre étoile et planète"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q02",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Le système solaire compte…",
+      "choices": [
+        "8 planètes",
+        "9 planètes",
+        "7 planètes"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "8 planètes",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Il y a 8 planètes ; Pluton est une planète naine depuis 2006.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Pluton n'est plus une planète.",
+        "2": "Il en manque une."
+      },
+      "common_error_target": {
+        "1": "compter Pluton"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q03",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "La Terre est la… planète à partir du Soleil.",
+      "choices": [
+        "3e",
+        "1re",
+        "4e"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3e",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Mercure, Vénus, puis la Terre.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La 1re est Mercure.",
+        "2": "La 4e est Mars."
+      },
+      "common_error_target": {
+        "1": "croire la Terre la plus proche"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q04",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "La Lune est…",
+      "choices": [
+        "un satellite",
+        "une étoile",
+        "une planète"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un satellite",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La Lune tourne autour de la Terre.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La Lune ne produit pas sa lumière.",
+        "2": "La Lune tourne autour de la Terre, pas du Soleil directement."
+      },
+      "common_error_target": {
+        "1": "croire que la Lune brille par elle-même"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q05",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "La planète la plus proche du Soleil est…",
+      "choices": [
+        "Mercure",
+        "Vénus",
+        "la Terre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Mercure",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Mercure est la 1re planète.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Vénus est la 2e.",
+        "2": "La Terre est la 3e."
+      },
+      "common_error_target": {
+        "1": "confondre Mercure et Vénus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q06",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "La plus grande planète du système solaire est…",
+      "choices": [
+        "Jupiter",
+        "Saturne",
+        "la Terre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Jupiter",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Jupiter est la plus grande planète.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Saturne est grande, mais plus petite que Jupiter.",
+        "2": "La Terre est une petite planète rocheuse."
+      },
+      "common_error_target": {
+        "1": "confondre les géantes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q07",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Juste après la Terre, en s'éloignant du Soleil, on trouve…",
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Jupiter"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Mars",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'ordre est : Terre, puis Mars.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Vénus est avant la Terre.",
+        "2": "Jupiter vient après Mars."
+      },
+      "common_error_target": {
+        "1": "inverser l'ordre des planètes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q08",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "Laquelle est une planète gazeuse ?",
+      "choices": [
+        "Saturne",
+        "Mars",
+        "Mercure"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Saturne",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Saturne est une géante gazeuse.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Mars est rocheuse.",
+        "2": "Mercure est rocheuse."
+      },
+      "common_error_target": {
+        "1": "croire que Mars est gazeuse"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q09",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "La planète la plus éloignée du Soleil est…",
+      "choices": [
+        "Neptune",
+        "Pluton",
+        "Uranus"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Neptune",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Neptune est la 8e et dernière planète.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Pluton est une planète naine.",
+        "2": "Uranus est la 7e."
+      },
+      "common_error_target": {
+        "1": "compter Pluton"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ST.6E.systeme-solaire.q10",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "question": "L'eau liquide est abondante sur Terre surtout grâce à…",
+      "choices": [
+        "sa distance au Soleil",
+        "sa grande taille",
+        "sa couleur bleue"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "sa distance au Soleil",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Sa distance au Soleil donne des températures qui permettent l'eau liquide.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "La Terre n'est pas une grande planète.",
+        "2": "La couleur bleue est une conséquence de l'eau, pas sa cause."
+      },
+      "common_error_target": {
+        "2": "confondre cause et conséquence"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

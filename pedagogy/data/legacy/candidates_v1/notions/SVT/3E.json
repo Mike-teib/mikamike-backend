@@ -1,0 +1,770 @@
+{
+  "schema_version": "1.0",
+  "subject": "SVT",
+  "level": "3E",
+  "course": "COMMON",
+  "generated_by": "agent-C (Claude) — reconstitution candidate, sans accès aux sources officielles",
+  "disclaimer": "CANDIDATS NON VÉRIFIÉS : notions reconstituées de mémoire, sans accès au BO/Éduscol. Aucune n'est prouvée ; aucune ne peut alimenter exercices ou quiz avant preuve officielle et revue humaine.",
+  "notions": [
+    {
+      "notion_id": "SVT.3E.VIV.chromosomes-genes-et-alleles",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Génétique",
+      "title": "Chromosomes, gènes et allèles",
+      "official_wording": null,
+      "normalized_title": "chromosomes, gènes et allèles",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Localiser l'information génétique dans les chromosomes du noyau",
+        "Définir gène et allèle et relier allèles et caractères"
+      ],
+      "expected_skills": [
+        "Lire et interpréter un caryotype",
+        "Utiliser un vocabulaire génétique précis"
+      ],
+      "common_mistakes": [
+        "confondre ADN et gène",
+        "confondre gène et allèle",
+        "croire qu'un caractère dépend toujours d'un seul gène"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.VIV.l-adn-support-de-l-information-genetique",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Génétique",
+      "title": "L'ADN, support de l'information génétique",
+      "official_wording": null,
+      "normalized_title": "l'adn, support de l'information génétique",
+      "prerequisites": [
+        "SVT.3E.VIV.chromosomes-genes-et-alleles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Présenter l'ADN comme la molécule constitutive des chromosomes",
+        "Relier la séquence de l'ADN à l'information génétique"
+      ],
+      "expected_skills": [
+        "Réaliser une extraction d'ADN et en discuter la portée",
+        "Exploiter un logiciel de séquences"
+      ],
+      "common_mistakes": [
+        "croire que l'ADN extrait en classe est visible à l'échelle d'une seule molécule",
+        "confondre ADN et chromosome"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.VIV.division-cellulaire-et-conservation-de-l-information-genetique",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Génétique",
+      "title": "Division cellulaire et conservation de l'information génétique",
+      "official_wording": null,
+      "normalized_title": "division cellulaire et conservation de l'information génétique",
+      "prerequisites": [
+        "SVT.3E.VIV.chromosomes-genes-et-alleles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Expliquer que la division cellulaire conserve le nombre et l'information des chromosomes",
+        "Relier la division cellulaire à la croissance et au renouvellement"
+      ],
+      "expected_skills": [
+        "Ordonner des images de division cellulaire",
+        "Compter des chromosomes"
+      ],
+      "common_mistakes": [
+        "croire que les cellules filles ont moitié moins de chromosomes après une mitose",
+        "oublier la duplication préalable des chromosomes"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.VIV.reproduction-sexuee-et-diversite-genetique",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Génétique",
+      "title": "Reproduction sexuée et diversité génétique",
+      "official_wording": null,
+      "normalized_title": "reproduction sexuée et diversité génétique",
+      "prerequisites": [
+        "SVT.3E.VIV.division-cellulaire-et-conservation-de-l-information-genetique"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Expliquer que les gamètes contiennent un seul chromosome de chaque paire",
+        "Montrer que la fécondation réunit les chromosomes au hasard et crée un individu unique"
+      ],
+      "expected_skills": [
+        "Construire un tableau de combinaisons de gamètes",
+        "Schématiser le comportement des chromosomes"
+      ],
+      "common_mistakes": [
+        "croire que l'enfant reçoit la moitié de chaque chromosome de chaque parent",
+        "confondre mitose et méiose"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.VIV.mutations-et-diversite-des-alleles",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Génétique",
+      "title": "Mutations et diversité des allèles",
+      "official_wording": null,
+      "normalized_title": "mutations et diversité des allèles",
+      "prerequisites": [
+        "SVT.3E.VIV.l-adn-support-de-l-information-genetique"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Présenter la mutation comme une modification de la séquence de l'ADN à l'origine de nouveaux allèles",
+        "Relier certaines mutations à des facteurs environnementaux (UV, substances)"
+      ],
+      "expected_skills": [
+        "Comparer des séquences",
+        "Argumenter une conduite de protection solaire"
+      ],
+      "common_mistakes": [
+        "croire que toutes les mutations sont néfastes",
+        "croire qu'une mutation se transmet toujours à la descendance"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.VIV.evolution-des-especes-et-selection-naturelle",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Évolution",
+      "title": "Évolution des espèces et sélection naturelle",
+      "official_wording": null,
+      "normalized_title": "évolution des espèces et sélection naturelle",
+      "prerequisites": [
+        "SVT.3E.VIV.mutations-et-diversite-des-alleles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Expliquer la sélection naturelle comme un tri de variations héritables par le milieu",
+        "Relier l'apparition des espèces à l'accumulation de modifications au cours du temps"
+      ],
+      "expected_skills": [
+        "Interpréter des données de populations",
+        "Rédiger un raisonnement scientifique"
+      ],
+      "common_mistakes": [
+        "croire qu'un individu s'adapte en modifiant ses gènes selon ses besoins (lamarckisme)",
+        "croire que l'évolution a un but"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.VIV.parentes-entre-especes-et-arbres-phylogenetiques",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Évolution",
+      "title": "Parentés entre espèces et arbres phylogénétiques",
+      "official_wording": null,
+      "normalized_title": "parentés entre espèces et arbres phylogénétiques",
+      "prerequisites": [
+        "SVT.3E.VIV.evolution-des-especes-et-selection-naturelle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "SE_SITUER_DANS_ESPACE_TEMPS"
+      ],
+      "learning_objectives": [
+        "Établir des liens de parenté à partir des caractères partagés",
+        "Lire un arbre de parenté en termes d'ancêtres communs"
+      ],
+      "expected_skills": [
+        "Construire un arbre simple",
+        "Utiliser une matrice de caractères"
+      ],
+      "common_mistakes": [
+        "croire que l'être humain descend du chimpanzé",
+        "lire l'arbre comme une échelle de progrès"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.CORPS.micro-organismes-et-contamination",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Immunité et santé",
+      "title": "Micro-organismes et contamination",
+      "official_wording": null,
+      "normalized_title": "micro-organismes et contamination",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Distinguer bactéries, virus et autres micro-organismes",
+        "Décrire contamination et infection"
+      ],
+      "expected_skills": [
+        "Observer des micro-organismes",
+        "Interpréter une courbe de croissance bactérienne"
+      ],
+      "common_mistakes": [
+        "confondre bactérie et virus",
+        "confondre contamination et infection"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "SVT.3E.CORPS.reaction-immunitaire-rapide-et-phagocytose",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Immunité et santé",
+      "title": "Réaction immunitaire rapide et phagocytose",
+      "official_wording": null,
+      "normalized_title": "réaction immunitaire rapide et phagocytose",
+      "prerequisites": [
+        "SVT.3E.CORPS.micro-organismes-et-contamination"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Décrire la réaction inflammatoire et la phagocytose",
+        "Situer les barrières naturelles de l'organisme"
+      ],
+      "expected_skills": [
+        "Interpréter une séquence d'images de phagocytose"
+      ],
+      "common_mistakes": [
+        "croire que les globules rouges défendent l'organisme",
+        "confondre inflammation et infection"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.CORPS.reactions-immunitaires-adaptatives-lymphocytes-et-anticorps",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Immunité et santé",
+      "title": "Réactions immunitaires adaptatives : lymphocytes et anticorps",
+      "official_wording": null,
+      "normalized_title": "réactions immunitaires adaptatives : lymphocytes et anticorps",
+      "prerequisites": [
+        "SVT.3E.CORPS.reaction-immunitaire-rapide-et-phagocytose"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire l'action spécifique des lymphocytes et des anticorps",
+        "Expliquer la spécificité antigène–anticorps"
+      ],
+      "expected_skills": [
+        "Interpréter un test d'Ouchterlony simplifié ou des documents de sérologie"
+      ],
+      "common_mistakes": [
+        "croire qu'un anticorps agit sur tout type de microbe",
+        "confondre antigène et anticorps"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.CORPS.vaccination-et-memoire-immunitaire",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Immunité et santé",
+      "title": "Vaccination et mémoire immunitaire",
+      "official_wording": null,
+      "normalized_title": "vaccination et mémoire immunitaire",
+      "prerequisites": [
+        "SVT.3E.CORPS.reactions-immunitaires-adaptatives-lymphocytes-et-anticorps"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Expliquer le principe de la vaccination par la mémoire immunitaire",
+        "Distinguer protection individuelle et collective"
+      ],
+      "expected_skills": [
+        "Comparer des courbes de production d'anticorps",
+        "Argumenter à partir de données épidémiologiques"
+      ],
+      "common_mistakes": [
+        "croire qu'un vaccin soigne une maladie déclarée",
+        "confondre vaccin et sérum"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.CORPS.antiseptiques-antibiotiques-et-resistance-bacterienne",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Immunité et santé",
+      "title": "Antiseptiques, antibiotiques et résistance bactérienne",
+      "official_wording": null,
+      "normalized_title": "antiseptiques, antibiotiques et résistance bactérienne",
+      "prerequisites": [
+        "SVT.3E.CORPS.micro-organismes-et-contamination",
+        "SVT.3E.VIV.evolution-des-especes-et-selection-naturelle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Distinguer antiseptique et antibiotique",
+        "Expliquer l'apparition de bactéries résistantes par sélection"
+      ],
+      "expected_skills": [
+        "Interpréter un antibiogramme",
+        "Argumenter un usage raisonné des antibiotiques"
+      ],
+      "common_mistakes": [
+        "croire que les antibiotiques agissent sur les virus",
+        "croire que c'est l'individu, et non la bactérie, qui devient résistant"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.TER.changement-climatique-actuel-et-effet-de-serre",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "La planète Terre, l'environnement et l'action humaine",
+      "domain_code": "TER",
+      "chapter": "Climat et environnement",
+      "title": "Changement climatique actuel et effet de serre",
+      "official_wording": null,
+      "normalized_title": "changement climatique actuel et effet de serre",
+      "prerequisites": [
+        "SVT.5E.TER.distinguer-meteorologie-et-climat"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Relier l'augmentation des gaz à effet de serre d'origine humaine au réchauffement actuel",
+        "Distinguer variations naturelles passées et changement actuel rapide"
+      ],
+      "expected_skills": [
+        "Lire des courbes de température et de CO₂",
+        "Distinguer faits scientifiques et opinions"
+      ],
+      "common_mistakes": [
+        "confondre effet de serre et trou dans la couche d'ozone",
+        "confondre corrélation et causalité sans argument mécanistique"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    },
+    {
+      "notion_id": "SVT.3E.TER.ressources-energetiques-fossiles-et-renouvelables",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "La planète Terre, l'environnement et l'action humaine",
+      "domain_code": "TER",
+      "chapter": "Climat et environnement",
+      "title": "Ressources énergétiques fossiles et renouvelables",
+      "official_wording": null,
+      "normalized_title": "ressources énergétiques fossiles et renouvelables",
+      "prerequisites": [
+        "SVT.5E.TER.exploitation-des-ressources-naturelles-par-l-etre-humain"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Expliquer l'origine biologique des combustibles fossiles",
+        "Comparer énergies fossiles et renouvelables et leurs impacts"
+      ],
+      "expected_skills": [
+        "Comparer des données chiffrées",
+        "Argumenter un choix énergétique"
+      ],
+      "common_mistakes": [
+        "croire que les combustibles fossiles se reforment à l'échelle humaine",
+        "croire qu'une énergie renouvelable n'a aucun impact"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.3E.TER.gestion-durable-des-ecosystemes-et-de-la-biodiversite",
+      "subject": "SVT",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "La planète Terre, l'environnement et l'action humaine",
+      "domain_code": "TER",
+      "chapter": "Climat et environnement",
+      "title": "Gestion durable des écosystèmes et de la biodiversité",
+      "official_wording": null,
+      "normalized_title": "gestion durable des écosystèmes et de la biodiversité",
+      "prerequisites": [
+        "SVT.5E.TER.ecosysteme-et-influence-de-l-action-humaine"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "COMMUNIQUER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Identifier des solutions de préservation ou de restauration des écosystèmes",
+        "Évaluer les compromis entre usages humains et préservation"
+      ],
+      "expected_skills": [
+        "Argumenter à partir de données",
+        "Débattre de façon argumentée"
+      ],
+      "common_mistakes": [
+        "croire qu'un écosystème détruit se reconstitue toujours à l'identique",
+        "présenter une solution unique comme sans inconvénient"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

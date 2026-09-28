@@ -1,0 +1,2125 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.d01",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x² = 25.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 5 ou x = -5"
+      },
+      "solution": "La fonction carré prend la valeur 25 en deux nombres opposés : x = 5 ou x = −5.",
+      "step_by_step_solution": [
+        "25 est strictement positif, donc l'équation x² = 25 a deux solutions opposées.",
+        "√25 = 5.",
+        "Les solutions sont x = 5 ou x = −5."
+      ],
+      "hints": [
+        "Un carré est toujours positif : deux nombres opposés ont le même carré.",
+        "Cherche le nombre positif dont le carré vaut 25, puis pense à son opposé."
+      ],
+      "common_errors": {
+        "5": "L'élève a oublié la solution négative.",
+        "x = 12,5": "L'élève a divisé par 2 au lieu de prendre la racine carrée."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du type x² = k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.d02",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans [0 ; +∞[ l'équation √x = 3.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "√x = 3 équivaut à x = 3² = 9 (3 est positif). Vérification : √9 = 3.",
+      "step_by_step_solution": [
+        "Un nombre positif x a pour racine carrée 3 lorsque x = 3².",
+        "3² = 9.",
+        "La solution est x = 9."
+      ],
+      "hints": [
+        "La fonction racine carrée « défait » la fonction carré sur [0 ; +∞[.",
+        "Élève les deux membres au carré."
+      ],
+      "common_errors": {
+        "sqrt(3)": "L'élève a pris la racine carrée de 3 au lieu d'élever 3 au carré.",
+        "6": "L'élève a multiplié par 2 au lieu d'élever au carré."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du type √x = k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.d03",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ* l'équation 1/x = 4.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/4"
+      },
+      "solution": "La fonction inverse prend la valeur 4 en un seul nombre : x = 1/4 (c'est-à-dire 0,25).",
+      "step_by_step_solution": [
+        "1/x = 4 équivaut à x × 4 = 1 (x ≠ 0).",
+        "Donc x = 1 ÷ 4.",
+        "La solution est x = 1/4."
+      ],
+      "hints": [
+        "Multiplie les deux membres par x (non nul).",
+        "L'inverse de l'inverse d'un nombre, c'est ce nombre."
+      ],
+      "common_errors": {
+        "4": "L'élève a confondu x et son inverse.",
+        "-4": "L'élève a pris l'opposé au lieu de l'inverse."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du type 1/x = k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.d04",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x³ = −8.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-2"
+      },
+      "solution": "La fonction cube est strictement croissante sur ℝ : l'équation a une seule solution. (−2)³ = −8, donc x = −2.",
+      "step_by_step_solution": [
+        "La fonction cube prend chaque valeur réelle exactement une fois.",
+        "On cherche un nombre dont le cube vaut −8 : (−2) × (−2) × (−2) = −8.",
+        "La solution est x = −2."
+      ],
+      "hints": [
+        "Un cube peut être négatif, contrairement à un carré.",
+        "Essaie des petits entiers négatifs."
+      ],
+      "common_errors": {
+        "2": "Erreur de signe : 2³ = 8 et non −8.",
+        "x = 2 ou x = -2": "L'élève a raisonné comme pour la fonction carré."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du type x³ = k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.d05",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Combien de solutions réelles l'équation x² = −4 admet-elle ? Répondre par un nombre.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0"
+      },
+      "solution": "Un carré est toujours positif ou nul, il ne peut pas valoir −4 : l'équation a 0 solution réelle.",
+      "step_by_step_solution": [
+        "Pour tout réel x, x² ⩾ 0.",
+        "Or −4 < 0, donc aucun réel n'a pour carré −4.",
+        "Le nombre de solutions est 0."
+      ],
+      "hints": [
+        "Quel est le signe d'un carré ?",
+        "Regarde où la droite d'équation y = −4 coupe la parabole y = x²."
+      ],
+      "common_errors": {
+        "2": "L'élève a cru que −2 et 2 conviennent : or (−2)² = 4.",
+        "1": "L'élève a pensé à une solution unique."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître le signe de la fonction carré"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.a01",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 2|x| + 1 = 15.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 7 ou x = -7"
+      },
+      "solution": "2|x| + 1 = 15 donne 2|x| = 14 puis |x| = 7. Donc x = 7 ou x = −7.",
+      "step_by_step_solution": [
+        "On isole la valeur absolue : 2|x| = 14.",
+        "|x| = 7 : la distance de x à 0 vaut 7.",
+        "Les solutions sont x = 7 ou x = −7."
+      ],
+      "hints": [
+        "Commence par isoler |x|.",
+        "|x| = k (k > 0) : deux nombres sont à la distance k de 0."
+      ],
+      "common_errors": {
+        "7": "L'élève a oublié la solution négative.",
+        "x = 8 ou x = -8": "L'élève a ajouté 1 au lieu de le soustraire."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du type |x| = k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.a02",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 3x² − 5 = 22.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 3 ou x = -3"
+      },
+      "solution": "3x² − 5 = 22 donne 3x² = 27, puis x² = 9, donc x = 3 ou x = −3.",
+      "step_by_step_solution": [
+        "On isole x² : 3x² = 27 puis x² = 9.",
+        "9 > 0, donc deux solutions opposées.",
+        "Les solutions sont x = 3 ou x = −3."
+      ],
+      "hints": [
+        "Isole d'abord x².",
+        "Combien de solutions possède x² = k lorsque k > 0 ?"
+      ],
+      "common_errors": {
+        "3": "L'élève a oublié la solution négative.",
+        "x = sqrt(17/3) ou x = -sqrt(17/3)": "L'élève a retranché 5 au lieu de l'ajouter."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Se ramener à x² = k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.a03",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'ensemble des solutions dans ℝ de l'inéquation x² < 16 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les réels dont le carré est strictement inférieur à 16 sont ceux compris strictement entre −4 et 4 : S = ]−4 ; 4[.",
+      "step_by_step_solution": [
+        "x² = 16 pour x = −4 et x = 4.",
+        "La parabole y = x² est sous la droite y = 16 entre ces deux abscisses.",
+        "Donc S = ]−4 ; 4["
+      ],
+      "hints": [
+        "Résous d'abord l'équation x² = 16.",
+        "Sur la courbe de la fonction carré, où la courbe est-elle sous la droite y = 16 ?"
+      ],
+      "common_errors": {
+        "1": "L'élève a oublié que les nombres très négatifs ont un grand carré.",
+        "2": "L'élève a donné l'ensemble où x² > 16.",
+        "3": "L'élève a confondu 16 et sa racine carrée."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre graphiquement une inéquation x² < k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "choices": [
+        "]−4 ; 4[",
+        "]−∞ ; 4[",
+        "]−∞ ; −4[ ∪ ]4 ; +∞[",
+        "]−16 ; 16["
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.a04",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ* l'équation 1/x = −0,5.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-2"
+      },
+      "solution": "1/x = −0,5 équivaut à x = 1/(−0,5) = −2. Vérification : 1/(−2) = −0,5.",
+      "step_by_step_solution": [
+        "x ≠ 0 et 1/x = −0,5 équivaut à x = 1/(−0,5).",
+        "1/(−0,5) = −1/0,5.",
+        "Donc x = −2."
+      ],
+      "hints": [
+        "L'inverse d'un nombre négatif est négatif.",
+        "−0,5 s'écrit aussi −1/2."
+      ],
+      "common_errors": {
+        "2": "Erreur de signe.",
+        "-1/2": "L'élève a recopié k au lieu de prendre son inverse."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du type 1/x = k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.a05",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Déterminer le nombre réel positif x tel que √x = 1,5.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2,25"
+      },
+      "solution": "√x = 1,5 équivaut à x = 1,5² = 2,25.",
+      "step_by_step_solution": [
+        "1,5 est positif, donc √x = 1,5 équivaut à x = 1,5².",
+        "1,5² = 1,5 × 1,5.",
+        "La solution est x = 2,25."
+      ],
+      "hints": [
+        "Élève au carré les deux membres.",
+        "Attention : 1,5² n'est pas égal à 3."
+      ],
+      "common_errors": {
+        "3": "L'élève a multiplié par 2 au lieu d'élever au carré.",
+        "1,25": "Erreur de calcul du carré."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre une équation du type √x = k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.c01",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'ensemble des solutions dans ℝ de l'inéquation x² ⩾ 9 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "x² ⩾ 9 lorsque x ⩽ −3 ou x ⩾ 3 : S = ]−∞ ; −3] ∪ [3 ; +∞[.",
+      "step_by_step_solution": [
+        "x² = 9 pour x = −3 et x = 3.",
+        "La parabole est au-dessus de la droite y = 9 à l'extérieur de [−3 ; 3], bornes comprises.",
+        "Donc S = ]−∞ ; −3] ∪ [3 ; +∞["
+      ],
+      "hints": [
+        "Résous d'abord x² = 9.",
+        "Regarde les deux « branches » de la parabole."
+      ],
+      "common_errors": {
+        "0": "L'élève a oublié les nombres négatifs.",
+        "2": "L'élève a donné l'ensemble où x² ⩽ 9.",
+        "3": "L'élève a exclu les bornes alors que l'inégalité est large."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une inéquation x² ⩾ k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "choices": [
+        "[3 ; +∞[",
+        "]−∞ ; −3] ∪ [3 ; +∞[",
+        "[−3 ; 3]",
+        "]−∞ ; −3[ ∪ ]3 ; +∞["
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.c02",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'ensemble des solutions dans ℝ* de l'inéquation 1/x < 2 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Si x < 0, 1/x est négatif donc inférieur à 2 : tout ]−∞ ; 0[ convient. Si x > 0, 1/x < 2 équivaut à x > 1/2 (la fonction inverse est décroissante sur ]0 ; +∞[). S = ]−∞ ; 0[ ∪ ]1/2 ; +∞[.",
+      "step_by_step_solution": [
+        "Sur ]−∞ ; 0[, 1/x < 0 < 2 : toutes ces valeurs conviennent.",
+        "Sur ]0 ; +∞[, la fonction inverse est décroissante et 1/(1/2) = 2, donc 1/x < 2 équivaut à x > 1/2.",
+        "Donc S = ]−∞ ; 0[ ∪ ]1/2 ; +∞["
+      ],
+      "hints": [
+        "Sépare le cas x < 0 et le cas x > 0.",
+        "Sur ]0 ; +∞[, la fonction inverse est décroissante : l'ordre est inversé."
+      ],
+      "common_errors": {
+        "0": "L'élève a oublié les réels négatifs.",
+        "1": "L'élève n'a pas inversé l'ordre (décroissance).",
+        "2": "L'élève a « multiplié par x » sans tenir compte du signe de x."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une inéquation 1/x < k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "choices": [
+        "]1/2 ; +∞[",
+        "]0 ; 1/2[",
+        "]−∞ ; 1/2[",
+        "]−∞ ; 0[ ∪ ]1/2 ; +∞["
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.c03",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'ensemble des solutions de l'inéquation √x ⩽ 4 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "√x n'est défini que pour x ⩾ 0, et la fonction racine carrée est croissante : √x ⩽ 4 équivaut à 0 ⩽ x ⩽ 16. S = [0 ; 16].",
+      "step_by_step_solution": [
+        "√x existe si et seulement si x ⩾ 0.",
+        "La fonction racine carrée est croissante et √16 = 4.",
+        "Donc S = [0 ; 16]."
+      ],
+      "hints": [
+        "Sur quel ensemble la fonction racine carrée est-elle définie ?",
+        "Utilise la croissance de la fonction racine carrée."
+      ],
+      "common_errors": {
+        "0": "L'élève a oublié la condition d'existence x ⩾ 0.",
+        "1": "L'élève a pris la racine de 4 au lieu de son carré.",
+        "3": "L'élève a confondu x et √x."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une inéquation √x ⩽ k"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "choices": [
+        "]−∞ ; 16]",
+        "[0 ; 2]",
+        "[0 ; 16]",
+        "[0 ; 4]"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.c04",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "REASONING",
+      "statement": "Combien existe-t-il d'entiers relatifs n tels que n² < 30 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11"
+      },
+      "solution": "5² = 25 < 30 et 6² = 36 > 30. Les entiers solutions sont −5, −4, …, 4, 5, soit 11 entiers.",
+      "step_by_step_solution": [
+        "n² < 30 équivaut à −√30 < n < √30, avec 5 < √30 < 6.",
+        "Les entiers concernés vont de −5 à 5, zéro compris.",
+        "Il y a 5 + 5 + 1 = 11 entiers."
+      ],
+      "hints": [
+        "Encadre √30 entre deux entiers consécutifs.",
+        "N'oublie ni les entiers négatifs ni zéro."
+      ],
+      "common_errors": {
+        "5": "L'élève n'a compté que les entiers strictement positifs.",
+        "10": "L'élève a oublié l'entier 0.",
+        "6": "L'élève a compté 0 à 5 sans les négatifs."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une inéquation x² < k dans un ensemble d'entiers"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.c05",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (x − 1)² = 16.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 5 ou x = -3"
+      },
+      "solution": "(x − 1)² = 16 équivaut à x − 1 = 4 ou x − 1 = −4, donc x = 5 ou x = −3.",
+      "step_by_step_solution": [
+        "On pose X = x − 1 : X² = 16 donne X = 4 ou X = −4.",
+        "x − 1 = 4 donne x = 5 ; x − 1 = −4 donne x = −3.",
+        "Les solutions sont x = 5 ou x = −3."
+      ],
+      "hints": [
+        "Considère x − 1 comme un seul bloc.",
+        "X² = 16 a deux solutions opposées."
+      ],
+      "common_errors": {
+        "5": "L'élève a oublié le cas x − 1 = −4.",
+        "x = 3 ou x = -5": "Erreur de signe en isolant x."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Se ramener à X² = k par changement d'écriture"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.x01",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un carré a une aire de 50 cm². Donner la valeur exacte de la longueur de son côté, en cm, sous la forme la plus simple.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5*sqrt(2)"
+      },
+      "solution": "Si c est la longueur du côté (c > 0), c² = 50, donc c = √50 = √(25 × 2) = 5√2 cm (environ 7,07 cm).",
+      "step_by_step_solution": [
+        "On note c > 0 la longueur du côté : c² = 50.",
+        "Comme c > 0, c = √50.",
+        "√50 = √25 × √2, donc c = 5√2."
+      ],
+      "hints": [
+        "L'aire d'un carré de côté c est c².",
+        "Une longueur est positive : une seule des solutions de c² = 50 convient.",
+        "Décompose 50 en produit d'un carré parfait par un entier."
+      ],
+      "common_errors": {
+        "25": "L'élève a divisé l'aire par 2.",
+        "12,5": "L'élève a divisé l'aire par 4 (confusion avec le périmètre)."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Modéliser par une équation x² = k",
+        "Simplifier une racine carrée"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.x02",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Déterminer le plus grand entier naturel n non nul tel que 1/n > 0,03.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "33"
+      },
+      "solution": "Pour n > 0, 1/n > 0,03 équivaut à n < 1/0,03 = 100/3 ≈ 33,3 (la fonction inverse est décroissante sur ]0 ; +∞[). Le plus grand entier convenable est 33.",
+      "step_by_step_solution": [
+        "Sur ]0 ; +∞[, la fonction inverse est décroissante : 1/n > 0,03 équivaut à n < 1/0,03.",
+        "1/0,03 = 100/3 ≈ 33,3.",
+        "Le plus grand entier est n = 33."
+      ],
+      "hints": [
+        "Passe à l'inverse en pensant à changer le sens de l'inégalité.",
+        "Calcule 1 ÷ 0,03 puis prends la partie entière."
+      ],
+      "common_errors": {
+        "34": "L'élève a arrondi 33,3 à l'entier supérieur.",
+        "3": "Erreur sur la division par 0,03."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre une inéquation 1/x > k",
+        "Interpréter une inégalité dans ℕ"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.fonctions-ref.x03",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 5x² − 7 = 2x² + 47.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 3*sqrt(2) ou x = -3*sqrt(2)"
+      },
+      "solution": "5x² − 7 = 2x² + 47 donne 3x² = 54, puis x² = 18. Comme 18 > 0 : x = √18 = 3√2 ou x = −3√2.",
+      "step_by_step_solution": [
+        "On regroupe les termes en x² : 3x² = 54.",
+        "x² = 18 et √18 = √9 × √2 = 3√2.",
+        "Les solutions sont x = 3√2 ou x = −3√2."
+      ],
+      "hints": [
+        "Regroupe les x² dans un membre et les constantes dans l'autre.",
+        "Simplifie la racine carrée obtenue."
+      ],
+      "common_errors": {
+        "x = 3*sqrt(2)": "L'élève a oublié la solution négative.",
+        "x = sqrt(40/3) ou x = -sqrt(40/3)": "Erreur de signe sur −7."
+      },
+      "remediation": "Revenir à la courbe de la fonction de référence : tracer la droite horizontale y = k et lire les abscisses des points d'intersection (équation) ou des points situés sous la droite (inéquation). Carré : x² = k a deux solutions √k et −√k si k > 0, une seule (0) si k = 0, aucune si k < 0. Inverse : 1/x = k a pour unique solution 1/k si k ≠ 0 (et x ≠ 0 toujours). Racine carrée : √x = k (k ⩾ 0) donne x = k². Cube : x³ = k a une seule solution. Valeur absolue : |x| = k (k > 0) donne x = k ou x = −k. Toujours contrôler en remplaçant x par chaque valeur trouvée.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Se ramener à x² = k",
+        "Simplifier une racine carrée"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.d01",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (x − 3)(x + 5) = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 3 ou x = -5"
+      },
+      "solution": "Un produit est nul si l'un de ses facteurs est nul : x − 3 = 0 ou x + 5 = 0, donc x = 3 ou x = −5.",
+      "step_by_step_solution": [
+        "Le produit (x − 3)(x + 5) est nul si et seulement si x − 3 = 0 ou x + 5 = 0.",
+        "x − 3 = 0 donne 3 ; x + 5 = 0 donne −5.",
+        "Les solutions sont x = 3 ou x = −5."
+      ],
+      "hints": [
+        "Quand un produit de deux nombres est-il nul ?",
+        "Résous séparément chaque facteur égal à 0."
+      ],
+      "common_errors": {
+        "x = -3 ou x = 5": "Erreurs de signe en résolvant chaque facteur.",
+        "3": "L'élève n'a traité qu'un facteur."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.d02",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x(2x − 7) = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 0 ou x = 7/2"
+      },
+      "solution": "x(2x − 7) = 0 équivaut à x = 0 ou 2x − 7 = 0, c'est-à-dire x = 0 ou x = 7/2.",
+      "step_by_step_solution": [
+        "Premier facteur : x = 0.",
+        "Second facteur : 2x − 7 = 0 donne 2x = 7 puis 7/2.",
+        "Les solutions sont x = 0 ou x = 7/2."
+      ],
+      "hints": [
+        "x est lui-même un facteur.",
+        "Résous 2x − 7 = 0 comme une équation du premier degré."
+      ],
+      "common_errors": {
+        "x = 7/2": "L'élève a oublié le facteur x (solution 0).",
+        "x = 0 ou x = -7/2": "Erreur de signe."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.d03",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "À laquelle de ces équations peut-on appliquer directement la règle du produit nul ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La règle s'applique à un produit égal à 0 : seule l'équation (x + 1)(x − 4) = 0 a cette forme.",
+      "step_by_step_solution": [
+        "La règle du produit nul concerne une équation « produit = 0 ».",
+        "(x + 1)(x − 4) = 6 : le second membre n'est pas nul ; (x + 1) + (x − 4) = 0 est une somme.",
+        "La bonne réponse est (x + 1)(x − 4) = 0"
+      ],
+      "hints": [
+        "Le second membre doit être 0.",
+        "Le premier membre doit être un produit, pas une somme."
+      ],
+      "common_errors": {
+        "1": "Le second membre vaut 6, pas 0.",
+        "2": "C'est une somme, pas un produit.",
+        "3": "C'est une équation du premier degré, pas un produit nul."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaître une équation produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "choices": [
+        "(x + 1)(x − 4) = 0",
+        "(x + 1)(x − 4) = 6",
+        "(x + 1) + (x − 4) = 0",
+        "x + 1 = x − 4"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.d04",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (4x − 1)(x + 2) = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 1/4 ou x = -2"
+      },
+      "solution": "4x − 1 = 0 donne x = 1/4 ; x + 2 = 0 donne x = −2. Solutions : x = 1/4 ou x = −2.",
+      "step_by_step_solution": [
+        "(4x − 1)(x + 2) = 0 équivaut à 4x − 1 = 0 ou x + 2 = 0.",
+        "4x = 1 donne x = 1/4 ; x = −2.",
+        "Les solutions sont x = 1/4 ou x = −2."
+      ],
+      "hints": [
+        "Chaque facteur donne une équation du premier degré.",
+        "Dans 4x − 1 = 0, on divise par 4 à la fin."
+      ],
+      "common_errors": {
+        "x = 4 ou x = -2": "L'élève a mal isolé x dans 4x = 1.",
+        "x = -1/4 ou x = 2": "Erreurs de signe."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.d05",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 5(x − 2)(x + 9) = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 2 ou x = -9"
+      },
+      "solution": "Le facteur 5 n'est jamais nul. Donc x − 2 = 0 ou x + 9 = 0 : x = 2 ou x = −9.",
+      "step_by_step_solution": [
+        "5 ≠ 0 : ce facteur ne donne aucune solution.",
+        "x − 2 = 0 donne 2 ; x + 9 = 0 donne −9.",
+        "Les solutions sont x = 2 ou x = −9."
+      ],
+      "hints": [
+        "Un facteur constant non nul peut-il s'annuler ?",
+        "Résous les deux autres facteurs."
+      ],
+      "common_errors": {
+        "x = 0 ou x = 2 ou x = -9": "L'élève a cru que le facteur 5 donnait la solution 0.",
+        "x = -2 ou x = 9": "Erreurs de signe."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.a01",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x² − 5x = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 0 ou x = 5"
+      },
+      "solution": "On factorise par x : x(x − 5) = 0, donc x = 0 ou x = 5.",
+      "step_by_step_solution": [
+        "x² − 5x = x × x − 5 × x = x(x − 5).",
+        "x(x − 5) = 0 équivaut à x = 0 ou x − 5 = 0.",
+        "Les solutions sont x = 0 ou x = 5."
+      ],
+      "hints": [
+        "Cherche un facteur commun aux deux termes.",
+        "Ne divise pas par x : tu perdrais une solution."
+      ],
+      "common_errors": {
+        "5": "L'élève a divisé par x et perdu la solution 0.",
+        "x = 0 ou x = -5": "Erreur de signe."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Factoriser par un facteur commun",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.a02",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (2x + 3)(5 − x) = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = -3/2 ou x = 5"
+      },
+      "solution": "2x + 3 = 0 donne x = −3/2 ; 5 − x = 0 donne x = 5.",
+      "step_by_step_solution": [
+        "(2x + 3)(5 − x) = 0 équivaut à 2x + 3 = 0 ou 5 − x = 0.",
+        "2x = −3 donne −3/2 ; 5 − x = 0 donne 5.",
+        "Les solutions sont x = −3/2 ou x = 5."
+      ],
+      "hints": [
+        "Attention au facteur 5 − x : x est précédé d'un signe moins.",
+        "Isole x dans chaque équation."
+      ],
+      "common_errors": {
+        "x = -3/2 ou x = -5": "Erreur de signe sur 5 − x = 0.",
+        "x = 3/2 ou x = 5": "Erreur de signe sur 2x + 3 = 0."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.a03",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Factoriser x² − 16 à l'aide d'une identité remarquable, puis résoudre dans ℝ l'équation x² − 16 = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 4 ou x = -4"
+      },
+      "solution": "x² − 16 = x² − 4² = (x − 4)(x + 4). Le produit est nul si x = 4 ou x = −4.",
+      "step_by_step_solution": [
+        "x² − 16 = (x − 4)(x + 4) (identité a² − b² = (a − b)(a + b)).",
+        "(x − 4)(x + 4) = 0 équivaut à x − 4 = 0 ou x + 4 = 0.",
+        "Les solutions sont x = 4 ou x = −4."
+      ],
+      "hints": [
+        "16 est le carré d'un entier.",
+        "a² − b² = (a − b)(a + b)."
+      ],
+      "common_errors": {
+        "4": "L'élève a oublié la solution négative.",
+        "x = 8 ou x = -8": "L'élève a divisé 16 par 2."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Factoriser avec a² − b²",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.a04",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (x + 1)(x − 3) − (x + 1)(2x + 5) = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = -1 ou x = -8"
+      },
+      "solution": "Facteur commun (x + 1) : (x + 1)[(x − 3) − (2x + 5)] = (x + 1)(−x − 8) = 0, donc x = −1 ou x = −8.",
+      "step_by_step_solution": [
+        "On factorise par (x + 1) : (x + 1)[(x − 3) − (2x + 5)].",
+        "(x − 3) − (2x + 5) = x − 3 − 2x − 5 = −x − 8.",
+        "(x + 1)(−x − 8) = 0 donne x = −1 ou x = −8."
+      ],
+      "hints": [
+        "Repère le facteur commun aux deux produits.",
+        "Le signe « − » devant la parenthèse (2x + 5) change le signe de chacun de ses termes."
+      ],
+      "common_errors": {
+        "x = -1 ou x = 2": "L'élève n'a pas distribué le signe moins sur +5.",
+        "x = -1 ou x = 8": "Erreur de signe finale."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Factoriser par un facteur commun",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.a05",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 3x² = 12x.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 0 ou x = 4"
+      },
+      "solution": "3x² − 12x = 0, puis 3x(x − 4) = 0 : x = 0 ou x = 4.",
+      "step_by_step_solution": [
+        "On ramène tout dans un membre : 3x² − 12x = 0.",
+        "On factorise : 3x(x − 4) = 0.",
+        "Les solutions sont x = 0 ou x = 4."
+      ],
+      "hints": [
+        "Ne simplifie pas par x : ramène d'abord tout dans un membre.",
+        "Mets 3x en facteur."
+      ],
+      "common_errors": {
+        "4": "L'élève a divisé par x et perdu la solution 0.",
+        "x = 0 ou x = 12": "Erreur de factorisation."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Se ramener à une équation produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.c01",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (3x − 2)² = (x + 6)².",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 4 ou x = -1"
+      },
+      "solution": "(3x − 2)² − (x + 6)² = 0 ; avec a² − b² = (a − b)(a + b) : (2x − 8)(4x + 4) = 0, donc x = 4 ou x = −1.",
+      "step_by_step_solution": [
+        "On se ramène à (3x − 2)² − (x + 6)² = 0.",
+        "a − b = 3x − 2 − x − 6 = 2x − 8 et a + b = 3x − 2 + x + 6 = 4x + 4.",
+        "(2x − 8)(4x + 4) = 0 donne x = 4 ou x = −1."
+      ],
+      "hints": [
+        "Une différence de deux carrés se factorise.",
+        "Pose a = 3x − 2 et b = x + 6."
+      ],
+      "common_errors": {
+        "4": "L'élève a « simplifié les carrés » : 3x − 2 = x + 6, il manque un cas.",
+        "x = 4 ou x = 1": "Erreur de signe dans a + b."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Factoriser une différence de carrés",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.c02",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 25x² − 20x + 4 = 0 en reconnaissant une identité remarquable.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2/5"
+      },
+      "solution": "25x² − 20x + 4 = (5x − 2)². (5x − 2)² = 0 équivaut à 5x − 2 = 0 : la seule solution est x = 2/5.",
+      "step_by_step_solution": [
+        "25x² = (5x)², 4 = 2² et 20x = 2 × 5x × 2.",
+        "Donc 25x² − 20x + 4 = (5x − 2)².",
+        "(5x − 2)(5x − 2) = 0 donne une seule solution : x = 2/5."
+      ],
+      "hints": [
+        "Pense à (a − b)² = a² − 2ab + b².",
+        "Un carré est nul si et seulement si le nombre est nul."
+      ],
+      "common_errors": {
+        "x = 2/5 ou x = -2/5": "L'élève a confondu avec x² = k.",
+        "5/2": "L'élève a inversé la fraction."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Factoriser avec (a − b)²",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.c03",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (x − 2)(x + 7) = (x − 2)(3x − 1).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 2 ou x = 4"
+      },
+      "solution": "On ne divise pas par (x − 2). (x − 2)(x + 7) − (x − 2)(3x − 1) = (x − 2)(−2x + 8) = 0, donc x = 2 ou x = 4.",
+      "step_by_step_solution": [
+        "On ramène tout dans un membre : (x − 2)(x + 7) − (x − 2)(3x − 1) = 0.",
+        "Facteur commun : (x − 2)(x + 7 − 3x + 1) = (x − 2)(−2x + 8).",
+        "x − 2 = 0 ou −2x + 8 = 0 : x = 2 ou x = 4."
+      ],
+      "hints": [
+        "Simplifier par (x − 2) ferait perdre une solution.",
+        "Mets (x − 2) en facteur après avoir tout passé dans un membre."
+      ],
+      "common_errors": {
+        "4": "L'élève a simplifié par (x − 2) et perdu la solution 2.",
+        "x = 2 ou x = 3": "Erreur de signe sur −(3x − 1)."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Se ramener à une équation produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.c04",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x³ = 9x.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 0 ou x = 3 ou x = -3"
+      },
+      "solution": "x³ − 9x = x(x² − 9) = x(x − 3)(x + 3) = 0, donc x = 0 ou x = 3 ou x = −3.",
+      "step_by_step_solution": [
+        "On ramène tout dans un membre : x³ − 9x = 0.",
+        "On factorise : x(x² − 9) = x(x − 3)(x + 3).",
+        "Les solutions sont x = 0 ou x = 3 ou x = −3."
+      ],
+      "hints": [
+        "Commence par mettre x en facteur.",
+        "Le facteur restant est une différence de deux carrés."
+      ],
+      "common_errors": {
+        "x = 3 ou x = -3": "L'élève a divisé par x et perdu la solution 0.",
+        "x = 0 ou x = 3": "Oubli de la solution négative."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Factoriser en plusieurs étapes",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.c05",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Déterminer tous les nombres réels égaux à leur propre carré.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 0 ou x = 1"
+      },
+      "solution": "On cherche x tel que x² = x, soit x² − x = 0, c'est-à-dire x(x − 1) = 0 : x = 0 ou x = 1.",
+      "step_by_step_solution": [
+        "On traduit : x² = x.",
+        "x² − x = 0 donne x(x − 1) = 0.",
+        "Les nombres cherchés sont x = 0 ou x = 1."
+      ],
+      "hints": [
+        "Traduis la phrase par une équation.",
+        "Ramène tout dans un membre et factorise."
+      ],
+      "common_errors": {
+        "1": "L'élève a divisé par x et perdu la solution 0.",
+        "x = 1 ou x = -1": "Confusion avec x² = 1."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser par une équation",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.x01",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (x² − 4)(2x + 1) = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 2 ou x = -2 ou x = -1/2"
+      },
+      "solution": "x² − 4 = (x − 2)(x + 2). L'équation devient (x − 2)(x + 2)(2x + 1) = 0 : x = 2, x = −2 ou x = −1/2.",
+      "step_by_step_solution": [
+        "x² − 4 = 0 équivaut à (x − 2)(x + 2) = 0.",
+        "2x + 1 = 0 donne −1/2.",
+        "Les solutions sont x = 2 ou x = −2 ou x = −1/2."
+      ],
+      "hints": [
+        "Le premier facteur peut lui-même se factoriser.",
+        "Combien de facteurs du premier degré obtiens-tu ?"
+      ],
+      "common_errors": {
+        "x = 2 ou x = -1/2": "Oubli de la solution −2.",
+        "x = 4 ou x = -1/2": "Confusion entre x² = 4 et x = 4."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Factoriser complètement",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.x02",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "On cherche les réels x tels que le produit de (x + 2) par (x − 5) soit égal au triple de (x + 2). Donner toutes les valeurs possibles de x.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = -2 ou x = 8"
+      },
+      "solution": "(x + 2)(x − 5) = 3(x + 2) donne (x + 2)(x − 5) − 3(x + 2) = 0, soit (x + 2)(x − 8) = 0 : x = −2 ou x = 8.",
+      "step_by_step_solution": [
+        "On traduit : (x + 2)(x − 5) = 3(x + 2).",
+        "(x + 2)(x − 5) − 3(x + 2) = (x + 2)(x − 5 − 3) = (x + 2)(x − 8).",
+        "Les solutions sont x = −2 ou x = 8."
+      ],
+      "hints": [
+        "Traduis « le triple de (x + 2) » par 3(x + 2).",
+        "Ne simplifie pas par (x + 2) : factorise."
+      ],
+      "common_errors": {
+        "8": "L'élève a simplifié par (x + 2) et perdu la solution −2.",
+        "x = -2 ou x = 2": "Erreur de signe : x − 5 − 3."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Modéliser par une équation",
+        "Se ramener à une équation produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.produit-nul.x03",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation (2x − 1)² − 9 = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 2 ou x = -1"
+      },
+      "solution": "(2x − 1)² − 3² = (2x − 1 − 3)(2x − 1 + 3) = (2x − 4)(2x + 2) = 0 : x = 2 ou x = −1.",
+      "step_by_step_solution": [
+        "On reconnaît a² − b² avec a = 2x − 1 et b = 3.",
+        "(2x − 4)(2x + 2) = 0.",
+        "Les solutions sont x = 2 ou x = −1."
+      ],
+      "hints": [
+        "9 est un carré.",
+        "Utilise a² − b² = (a − b)(a + b)."
+      ],
+      "common_errors": {
+        "2": "L'élève a oublié le cas 2x − 1 = −3.",
+        "x = 5 ou x = -4": "L'élève a oublié de diviser par 2."
+      },
+      "remediation": "Rappel : un produit de facteurs est nul si et seulement si l'un au moins de ses facteurs est nul. Méthode : 1) tout ramener dans un membre pour obtenir « … = 0 » ; 2) factoriser (facteur commun, identité remarquable a² − b²) ; 3) écrire « A(x) = 0 ou B(x) = 0 » et résoudre chaque équation du premier degré ; 4) contrôler chaque solution dans l'équation de départ. Ne jamais diviser par une expression qui contient x : on perdrait des solutions.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Factoriser une différence de carrés",
+        "Appliquer la règle du produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.d01",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une base orthonormée, on donne u⃗(3 ; 2) et v⃗(4 ; 5). Calculer det(u⃗, v⃗).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "det(u⃗, v⃗) = 3 × 5 − 4 × 2 = 15 − 8 = 7.",
+      "step_by_step_solution": [
+        "det(u⃗, v⃗) = xy' − x'y.",
+        "3 × 5 − 4 × 2 = 15 − 8.",
+        "det(u⃗, v⃗) = 7."
+      ],
+      "hints": [
+        "Multiplie « en croix » : abscisse de u⃗ par ordonnée de v⃗, moins l'inverse.",
+        "Respecte l'ordre : xy' − x'y."
+      ],
+      "common_errors": {
+        "22": "L'élève a calculé xx' + yy'.",
+        "-7": "L'élève a calculé x'y − xy'."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer un déterminant de deux vecteurs"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.d02",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une base orthonormée, on donne u⃗(−2 ; 6) et v⃗(1 ; −3). Calculer det(u⃗, v⃗).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0"
+      },
+      "solution": "det(u⃗, v⃗) = (−2) × (−3) − 1 × 6 = 6 − 6 = 0 : les vecteurs sont colinéaires (u⃗ = −2v⃗).",
+      "step_by_step_solution": [
+        "det(u⃗, v⃗) = xy' − x'y = (−2) × (−3) − 1 × 6.",
+        "(−2) × (−3) = 6.",
+        "det(u⃗, v⃗) = 6 − 6 = 0."
+      ],
+      "hints": [
+        "Attention aux signes : le produit de deux négatifs est positif.",
+        "Applique xy' − x'y."
+      ],
+      "common_errors": {
+        "12": "Erreur de signe : l'élève a calculé 6 + 6.",
+        "-12": "Erreur de signe sur (−2) × (−3)."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer un déterminant de deux vecteurs"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.d03",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans une base orthonormée, lequel de ces vecteurs est colinéaire à u⃗(2 ; −5) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "det(u⃗, w⃗) = 2 × 10 − (−4) × (−5) = 20 − 20 = 0 pour w⃗(−4 ; 10) : c'est le vecteur colinéaire (w⃗ = −2u⃗). La bonne réponse est (−4 ; 10).",
+      "step_by_step_solution": [
+        "On calcule le déterminant de u⃗ avec chaque vecteur proposé.",
+        "Pour (−4 ; 10) : 2 × 10 − (−4) × (−5) = 0.",
+        "Le vecteur colinéaire est (−4 ; 10)"
+      ],
+      "hints": [
+        "Deux vecteurs colinéaires ont un déterminant nul.",
+        "Cherche aussi un coefficient k tel que w⃗ = k u⃗."
+      ],
+      "common_errors": {
+        "1": "Les signes ne sont pas proportionnels (det = 40).",
+        "2": "Coordonnées échangées : ce n'est pas colinéaire.",
+        "3": "Seule l'abscisse change de signe : det ≠ 0."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Tester la colinéarité par le déterminant"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "choices": [
+        "(−4 ; 10)",
+        "(4 ; 10)",
+        "(5 ; −2)",
+        "(−2 ; −5)"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.d04",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une base orthonormée, on donne u⃗(1/2 ; 3) et v⃗(10 ; −1). Calculer det(u⃗, v⃗).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-61/2"
+      },
+      "solution": "det(u⃗, v⃗) = (1/2) × (−1) − 10 × 3 = −1/2 − 30 = −61/2.",
+      "step_by_step_solution": [
+        "det(u⃗, v⃗) = xy' − x'y.",
+        "(1/2) × (−1) = −1/2 et 10 × 3 = 30.",
+        "det(u⃗, v⃗) = −1/2 − 30 = −61/2."
+      ],
+      "hints": [
+        "Écris 30 sous la forme d'une fraction de dénominateur 2.",
+        "Respecte l'ordre xy' − x'y."
+      ],
+      "common_errors": {
+        "61/2": "L'élève a calculé x'y − xy'.",
+        "-59/2": "Erreur de signe sur −1/2."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un déterminant avec des fractions"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.d05",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une base orthonormée, on donne u⃗(0 ; 5) et v⃗(−2 ; 3). Calculer det(u⃗, v⃗).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "det(u⃗, v⃗) = 0 × 3 − (−2) × 5 = 0 + 10 = 10.",
+      "step_by_step_solution": [
+        "det(u⃗, v⃗) = xy' − x'y avec x = 0.",
+        "0 × 3 = 0 et (−2) × 5 = −10.",
+        "det(u⃗, v⃗) = 0 − (−10) = 10."
+      ],
+      "hints": [
+        "Un produit par 0 est nul.",
+        "Soustraire un nombre négatif revient à ajouter son opposé."
+      ],
+      "common_errors": {
+        "-10": "Erreur de signe sur la soustraction.",
+        "15": "L'élève a calculé xx' + yy'."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer un déterminant de deux vecteurs"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.a01",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une base orthonormée, on donne u⃗(m ; 4) et v⃗(3 ; 6), où m est un réel. Déterminer m pour que u⃗ et v⃗ soient colinéaires.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 6m − 12 = 0, soit m = 2.",
+      "step_by_step_solution": [
+        "det(u⃗, v⃗) = m × 6 − 3 × 4 = 6m − 12.",
+        "On résout 6m − 12 = 0.",
+        "m = 2."
+      ],
+      "hints": [
+        "Écris la condition de colinéarité avec le déterminant.",
+        "Tu obtiens une équation du premier degré en m."
+      ],
+      "common_errors": {
+        "8": "L'élève a écrit 3m − 24 (produit en croix inversé).",
+        "-2": "Erreur de signe."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer un paramètre par colinéarité"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.a02",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans un repère orthonormé, on donne A(0 ; 1), B(2 ; 4) et C(5 ; 6). Calculer det(AB⃗, AC⃗).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-5"
+      },
+      "solution": "AB⃗(2 ; 3) et AC⃗(5 ; 5). det(AB⃗, AC⃗) = 2 × 5 − 5 × 3 = 10 − 15 = −5 : les points ne sont pas alignés.",
+      "step_by_step_solution": [
+        "AB⃗(2 − 0 ; 4 − 1) = (2 ; 3) et AC⃗(5 − 0 ; 6 − 1) = (5 ; 5).",
+        "det(AB⃗, AC⃗) = 2 × 5 − 5 × 3.",
+        "det(AB⃗, AC⃗) = −5."
+      ],
+      "hints": [
+        "Calcule d'abord les coordonnées de AB⃗ et de AC⃗.",
+        "Coordonnées de AB⃗ : (xB − xA ; yB − yA)."
+      ],
+      "common_errors": {
+        "5": "L'élève a calculé x'y − xy'.",
+        "25": "L'élève a calculé xx' + yy'."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer les coordonnées d'un vecteur",
+        "Calculer un déterminant"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.a03",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Dans un repère orthonormé, les points A(−1 ; 3), B(1 ; −1) et C(3 ; −5) sont-ils alignés ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "AB⃗(2 ; −4) et AC⃗(4 ; −8) : det(AB⃗, AC⃗) = 2 × (−8) − 4 × (−4) = −16 + 16 = 0. Réponse : Oui, car det(AB, AC) = 0.",
+      "step_by_step_solution": [
+        "AB⃗(2 ; −4) et AC⃗(4 ; −8).",
+        "det(AB⃗, AC⃗) = −16 + 16 = 0.",
+        "Oui, car det(AB, AC) = 0"
+      ],
+      "hints": [
+        "Trois points A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires.",
+        "Calcule le déterminant de AB⃗ et AC⃗."
+      ],
+      "common_errors": {
+        "1": "Erreur de signe dans le calcul du déterminant.",
+        "2": "Erreur dans les coordonnées de AC⃗.",
+        "3": "AB ≠ AC ; de plus l'égalité des longueurs ne prouve pas l'alignement."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Démontrer un alignement par le déterminant"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "choices": [
+        "Oui, car det(AB, AC) = 0",
+        "Non, car det(AB, AC) = −32",
+        "Non, car det(AB, AC) = 16",
+        "Oui, car AB = AC"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.a04",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une base orthonormée, on donne u⃗(2 ; m) et v⃗(m ; 8), où m est un réel. Déterminer toutes les valeurs de m pour lesquelles u⃗ et v⃗ sont colinéaires.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "m = 4 ou m = -4"
+      },
+      "solution": "det(u⃗, v⃗) = 2 × 8 − m × m = 16 − m². 16 − m² = 0 équivaut à m² = 16, soit m = 4 ou m = −4.",
+      "step_by_step_solution": [
+        "det(u⃗, v⃗) = 16 − m².",
+        "16 − m² = 0 équivaut à m² = 16.",
+        "m = 4 ou m = −4."
+      ],
+      "hints": [
+        "Le déterminant contient m².",
+        "Une équation m² = k (k > 0) a deux solutions."
+      ],
+      "common_errors": {
+        "4": "Oubli de la solution négative.",
+        "m = 8 ou m = -8": "Division par 2 au lieu de la racine carrée."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer un paramètre par colinéarité"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.a05",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans un repère orthonormé, on donne A(1 ; 1), B(3 ; 4), C(0 ; −2) et D(4 ; y), où y est un réel. Déterminer y pour que les droites (AB) et (CD) soient parallèles.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "AB⃗(2 ; 3) et CD⃗(4 ; y + 2). det(AB⃗, CD⃗) = 2(y + 2) − 4 × 3 = 2y − 8 = 0, donc y = 4.",
+      "step_by_step_solution": [
+        "AB⃗(2 ; 3) et CD⃗(4 ; y + 2).",
+        "(AB) // (CD) si et seulement si det(AB⃗, CD⃗) = 0 : 2(y + 2) − 12 = 0.",
+        "2y − 8 = 0, donc y = 4."
+      ],
+      "hints": [
+        "Deux droites sont parallèles si leurs vecteurs directeurs sont colinéaires.",
+        "Attention : l'ordonnée de CD⃗ est y − (−2)."
+      ],
+      "common_errors": {
+        "8": "L'élève a écrit y − 2 au lieu de y + 2.",
+        "6": "Erreur dans le produit en croix."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Démontrer un parallélisme par le déterminant"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.c01",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans un repère orthonormé, on donne A(−2 ; −1), B(2 ; 1) et E(x ; 3). Déterminer x pour que A, B et E soient alignés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "AB⃗(4 ; 2) et AE⃗(x + 2 ; 4). det(AB⃗, AE⃗) = 4 × 4 − (x + 2) × 2 = 12 − 2x = 0, donc x = 6.",
+      "step_by_step_solution": [
+        "AB⃗(4 ; 2) et AE⃗(x + 2 ; 4).",
+        "Alignement : 16 − 2(x + 2) = 0.",
+        "12 − 2x = 0, donc x = 6."
+      ],
+      "hints": [
+        "Écris la condition d'alignement avec AB⃗ et AE⃗.",
+        "Développe puis résous l'équation obtenue."
+      ],
+      "common_errors": {
+        "8": "L'élève a écrit x − 2 au lieu de x + 2.",
+        "-6": "Erreur de signe finale."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer une coordonnée par alignement"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.c02",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une base orthonormée, on donne u⃗(2 ; −3) et v⃗(−1 ; 4), puis w⃗ = u⃗ + 2v⃗. Calculer det(u⃗, w⃗).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "w⃗ = (2 − 2 ; −3 + 8) = (0 ; 5). det(u⃗, w⃗) = 2 × 5 − 0 × (−3) = 10.",
+      "step_by_step_solution": [
+        "2v⃗ = (−2 ; 8), donc w⃗ = (0 ; 5).",
+        "det(u⃗, w⃗) = 2 × 5 − 0 × (−3).",
+        "det(u⃗, w⃗) = 10."
+      ],
+      "hints": [
+        "Calcule d'abord les coordonnées de w⃗.",
+        "Multiplier un vecteur par 2 multiplie ses deux coordonnées par 2."
+      ],
+      "common_errors": {
+        "-10": "L'élève a calculé x'y − xy'.",
+        "5": "L'élève a oublié le coefficient 2 devant v⃗ (w⃗ = (1 ; 1))."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer des coordonnées de combinaisons de vecteurs",
+        "Calculer un déterminant"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.c03",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit m un réel. On considère les vecteurs u⃗(m − 1 ; 3) et v⃗(2 ; m + 4) exprimés dans une base orthonormée. Pour quelles valeurs de m ces deux vecteurs sont-ils colinéaires ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "m = 2 ou m = -5"
+      },
+      "solution": "det(u⃗, v⃗) = (m − 1)(m + 4) − 2 × 3 = m² + 3m − 10 = (m − 2)(m + 5). Il est nul pour m = 2 ou m = −5.",
+      "step_by_step_solution": [
+        "det(u⃗, v⃗) = (m − 1)(m + 4) − 6.",
+        "(m − 1)(m + 4) − 6 = m² + 3m − 10 = (m − 2)(m + 5).",
+        "m = 2 ou m = −5."
+      ],
+      "hints": [
+        "Développe (m − 1)(m + 4) − 6.",
+        "Vérifie que m² + 3m − 10 = (m − 2)(m + 5), puis applique la règle du produit nul."
+      ],
+      "common_errors": {
+        "2": "Oubli d'une solution.",
+        "m = -2 ou m = 5": "Erreurs de signe dans la factorisation."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer un paramètre par colinéarité",
+        "Résoudre une équation produit nul"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.c04",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une base orthonormée, on donne u⃗(√3 ; 2) et v⃗(1 ; √3). Calculer det(u⃗, v⃗).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1"
+      },
+      "solution": "det(u⃗, v⃗) = √3 × √3 − 1 × 2 = 3 − 2 = 1 : les vecteurs ne sont pas colinéaires.",
+      "step_by_step_solution": [
+        "det(u⃗, v⃗) = xy' − x'y = √3 × √3 − 1 × 2.",
+        "√3 × √3 = 3.",
+        "det(u⃗, v⃗) = 3 − 2 = 1."
+      ],
+      "hints": [
+        "√a × √a = a pour a ⩾ 0.",
+        "Applique xy' − x'y."
+      ],
+      "common_errors": {
+        "-1": "L'élève a calculé x'y − xy'.",
+        "4*sqrt(3)": "L'élève a calculé xx' + yy'."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un déterminant avec des racines carrées"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.c05",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans un repère orthonormé, on donne A(1 ; 3) et B(4 ; −3). Le point M appartient à l'axe des abscisses et A, B, M sont alignés. Déterminer l'abscisse de M.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/2"
+      },
+      "solution": "M(x ; 0). AB⃗(3 ; −6) et AM⃗(x − 1 ; −3). det = 3 × (−3) − (x − 1)(−6) = 6x − 15 = 0, donc x = 5/2.",
+      "step_by_step_solution": [
+        "M a pour coordonnées (x ; 0) ; AB⃗(3 ; −6) et AM⃗(x − 1 ; −3).",
+        "det(AB⃗, AM⃗) = −9 + 6(x − 1) = 6x − 15.",
+        "6x − 15 = 0 donne x = 5/2."
+      ],
+      "hints": [
+        "Un point de l'axe des abscisses a une ordonnée nulle.",
+        "Écris la condition d'alignement de A, B et M."
+      ],
+      "common_errors": {
+        "3/2": "Erreur de signe en développant −(x − 1)(−6).",
+        "2": "L'élève a pris AM⃗(x − 1 ; 3)."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer une coordonnée par alignement"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.x01",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans un repère orthonormé, on donne A(2 ; 1), B(5 ; 3) et C(k ; k), où k est un réel. Déterminer k pour que A, B et C soient alignés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-1"
+      },
+      "solution": "AB⃗(3 ; 2) et AC⃗(k − 2 ; k − 1). det = 3(k − 1) − 2(k − 2) = k + 1 = 0, donc k = −1. Vérification : C(−1 ; −1), AC⃗(−3 ; −2) = −AB⃗.",
+      "step_by_step_solution": [
+        "AB⃗(3 ; 2) et AC⃗(k − 2 ; k − 1).",
+        "det(AB⃗, AC⃗) = 3(k − 1) − 2(k − 2) = k + 1.",
+        "k + 1 = 0 donne k = −1."
+      ],
+      "hints": [
+        "Les deux coordonnées de C dépendent de k.",
+        "Développe soigneusement 3(k − 1) − 2(k − 2)."
+      ],
+      "common_errors": {
+        "1": "Erreur de signe en développant −2(k − 2).",
+        "7": "L'élève a développé −2(k − 2) en −2k − 4."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer un paramètre par alignement"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.x02",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Dans un repère orthonormé, on donne A(0 ; 0), B(m ; 2), C(1 ; 1) et D(3 ; m + 1), où m est un réel. Déterminer m pour que les droites (AB) et (CD) soient parallèles et distinctes.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-2"
+      },
+      "solution": "AB⃗(m ; 2), CD⃗(2 ; m). det = m² − 4 = 0 pour m = 2 ou m = −2. Si m = 2, (AB) : y = x passe par C(1 ; 1) : les droites sont confondues. Si m = −2, (AB) : y = −x ne passe pas par C : droites strictement parallèles. Donc m = −2.",
+      "step_by_step_solution": [
+        "(AB) // (CD) équivaut à det(AB⃗, CD⃗) = m² − 4 = 0, soit m = 2 ou m = −2.",
+        "Pour m = 2, C appartient à (AB) : les droites sont confondues, ce cas est exclu.",
+        "Pour m = −2, C n'appartient pas à (AB) : la réponse est m = −2."
+      ],
+      "hints": [
+        "Commence par la condition de parallélisme.",
+        "Deux droites parallèles ayant un point commun sont confondues : teste si C est sur (AB)."
+      ],
+      "common_errors": {
+        "m = 2 ou m = -2": "L'élève n'a pas éliminé le cas des droites confondues.",
+        "2": "Pour m = 2 les droites sont confondues."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Démontrer un parallélisme par le déterminant",
+        "Distinguer droites parallèles et confondues"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.2NDE.colinearite.x03",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Dans une base orthonormée, on donne u⃗(y ; 3) et v⃗(12 ; y), où y est un réel. Déterminer y pour que u⃗ et v⃗ soient colinéaires et de même sens.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "det(u⃗, v⃗) = y² − 36 = 0 pour y = 6 ou y = −6. Pour y = 6 : u⃗(6 ; 3), v⃗(12 ; 6) = 2u⃗ (même sens). Pour y = −6 : v⃗(12 ; −6) = −2u⃗ (sens contraires). Donc y = 6.",
+      "step_by_step_solution": [
+        "Colinéarité : y² − 36 = 0, soit y = 6 ou y = −6.",
+        "On cherche k > 0 tel que v⃗ = k u⃗ : pour y = −6, k = −2 < 0.",
+        "La seule valeur convenable est y = 6."
+      ],
+      "hints": [
+        "Deux vecteurs colinéaires de même sens vérifient v⃗ = k u⃗ avec k > 0.",
+        "Teste chacune des deux valeurs trouvées."
+      ],
+      "common_errors": {
+        "y = 6 ou y = -6": "L'élève n'a pas testé le sens.",
+        "-6": "Pour y = −6, les vecteurs sont de sens contraires."
+      },
+      "remediation": "Dans une base orthonormée, pour u⃗(x ; y) et v⃗(x' ; y'), det(u⃗, v⃗) = xy' − x'y (produit « en croix » des coordonnées, dans cet ordre). u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0. Applications : A, B, C sont alignés si et seulement si AB⃗ et AC⃗ sont colinéaires ; (AB) et (CD) sont parallèles si et seulement si AB⃗ et CD⃗ sont colinéaires. Coordonnées de AB⃗ : (xB − xA ; yB − yA). Ne pas confondre avec xx' + yy'.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer un paramètre par colinéarité",
+        "Interpréter le sens de deux vecteurs colinéaires"
+      ],
+      "source_notions": [
+        "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

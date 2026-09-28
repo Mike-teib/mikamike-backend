@@ -1,0 +1,2244 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.d01",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle ressource en énergie est renouvelable ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le vent souffle à nouveau chaque jour : c'est une ressource renouvelable.",
+      "step_by_step_solution": [
+        "Le pétrole et le charbon ont mis des millions d'années à se former.",
+        "Le vent se renouvelle sans cesse : renouvelable."
+      ],
+      "hints": [
+        "Laquelle ne s'épuise pas quand on l'utilise ?"
+      ],
+      "common_errors": {
+        "le pétrole": "L'élève ne connaît pas l'origine du pétrole."
+      },
+      "remediation": "Classer les ressources en deux colonnes avec le critère « se reconstitue vite ou non ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "le vent",
+        "le pétrole",
+        "le charbon"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.d02",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle ressource en énergie est non renouvelable ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le charbon s'est formé en millions d'années ; les stocks utilisés ne se reconstituent pas à l'échelle humaine.",
+      "step_by_step_solution": [
+        "Le Soleil et le vent se renouvellent sans cesse.",
+        "Le charbon est non renouvelable."
+      ],
+      "hints": [
+        "Laquelle est extraite d'une mine et finira par s'épuiser ?"
+      ],
+      "common_errors": {
+        "le Soleil": "L'élève n'a pas lu « non »."
+      },
+      "remediation": "Relire la question en entourant « non ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "le charbon",
+        "le Soleil",
+        "le vent"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.d03",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on une ressource en énergie qui se reconstitue rapidement, à l'échelle d'une vie humaine ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "renouvelable",
+          "ressource renouvelable",
+          "une ressource renouvelable"
+        ]
+      },
+      "solution": "Une ressource qui se reconstitue rapidement à l'échelle humaine est dite renouvelable.",
+      "step_by_step_solution": [
+        "Elle se reconstitue rapidement.",
+        "Elle est renouvelable."
+      ],
+      "hints": [
+        "Pense au vent et au Soleil."
+      ],
+      "common_errors": {
+        "non renouvelable": "L'élève inverse les deux catégories."
+      },
+      "remediation": "Écrire la définition des deux mots avec un exemple chacun.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.d04",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque ressource à sa catégorie : Soleil, pétrole, vent, uranium.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "Soleil": "renouvelable",
+          "pétrole": "non renouvelable",
+          "vent": "renouvelable",
+          "uranium": "non renouvelable"
+        }
+      },
+      "solution": "Le Soleil et le vent sont renouvelables. Le pétrole et l'uranium sont non renouvelables. Réponse : Soleil → renouvelable ; pétrole → non renouvelable ; vent → renouvelable ; uranium → non renouvelable.",
+      "step_by_step_solution": [
+        "Renouvelables : Soleil, vent.",
+        "Non renouvelables : pétrole, uranium."
+      ],
+      "hints": [
+        "L'uranium est extrait de mines."
+      ],
+      "common_errors": {
+        "Soleil → renouvelable ; pétrole → non renouvelable ; vent → renouvelable ; uranium → renouvelable": "L'élève ne sait pas que l'uranium est une ressource limitée."
+      },
+      "remediation": "Compléter un tableau avec l'origine de chaque ressource.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "renouvelable",
+        "non renouvelable"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.d05",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : le pétrole s'est formé en quelques années.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : le pétrole s'est formé en millions d'années, à partir de restes d'êtres vivants enfouis. Réponse : faux.",
+      "step_by_step_solution": [
+        "Le pétrole vient de restes d'êtres vivants très anciens.",
+        "Il a mis des millions d'années à se former : c'est faux."
+      ],
+      "hints": [
+        "Pense à l'âge des fossiles."
+      ],
+      "common_errors": {
+        "vrai": "L'élève ne se représente pas les temps très longs de formation."
+      },
+      "remediation": "Placer la formation du pétrole sur une frise du temps très longue.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.a01",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque ressource à sa catégorie : charbon, bois d'une forêt replantée, gaz naturel, eau des rivières, marées.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "charbon": "non renouvelable",
+          "bois d'une forêt replantée": "renouvelable",
+          "gaz naturel": "non renouvelable",
+          "eau des rivières": "renouvelable",
+          "marées": "renouvelable"
+        }
+      },
+      "solution": "Le charbon et le gaz naturel sont non renouvelables. Le bois (si l'on replante), l'eau des rivières et les marées sont renouvelables. Réponse : charbon → non renouvelable ; bois d'une forêt replantée → renouvelable ; gaz naturel → non renouvelable ; eau des rivières → renouvelable ; marées → renouvelable.",
+      "step_by_step_solution": [
+        "Non renouvelables : charbon, gaz naturel.",
+        "Renouvelables : bois replanté, eau des rivières, marées."
+      ],
+      "hints": [
+        "Les marées reviennent deux fois par jour environ."
+      ],
+      "common_errors": {
+        "charbon → non renouvelable ; bois d'une forêt replantée → non renouvelable ; gaz naturel → non renouvelable ; eau des rivières → renouvelable ; marées → renouvelable": "L'élève pense que le bois brûlé est perdu pour toujours."
+      },
+      "remediation": "Rappeler qu'un arbre repousse en quelques dizaines d'années, bien moins que les millions d'années du charbon.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "renouvelable",
+        "non renouvelable"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.a02",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi le pétrole est-il une ressource non renouvelable ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "On consomme le pétrole beaucoup plus vite qu'il ne se forme : il met des millions d'années à se former.",
+      "step_by_step_solution": [
+        "Sa couleur ou son état ne comptent pas.",
+        "Il met des millions d'années à se former."
+      ],
+      "hints": [
+        "Le critère porte sur le temps de formation."
+      ],
+      "common_errors": {
+        "il est liquide": "L'élève utilise un critère sans rapport (l'état)."
+      },
+      "remediation": "Toujours justifier avec le critère de temps de renouvellement.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "il met des millions d'années à se former",
+        "il est liquide",
+        "il est noir"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.a03",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle ressource une éolienne utilise-t-elle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les pales de l'éolienne sont mises en mouvement par le vent.",
+      "step_by_step_solution": [
+        "L'éolienne a des pales qui tournent.",
+        "Elles sont poussées par le vent."
+      ],
+      "hints": [
+        "Qu'est-ce qui fait tourner les pales ?"
+      ],
+      "common_errors": {
+        "l'uranium": "L'élève confond éolienne et centrale nucléaire."
+      },
+      "remediation": "Associer chaque installation à sa ressource (éolienne, barrage, panneau solaire, centrale).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "le vent",
+        "le charbon",
+        "l'uranium"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.a04",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Le bois est une ressource renouvelable à une condition. Laquelle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le bois se renouvelle si les arbres repoussent : il faut replanter autant d'arbres qu'on en coupe.",
+      "step_by_step_solution": [
+        "Le bois vient des arbres, qui repoussent.",
+        "Il faut replanter autant qu'on coupe."
+      ],
+      "hints": [
+        "Que faut-il pour qu'il y ait encore des arbres plus tard ?"
+      ],
+      "common_errors": {
+        "couper toute la forêt d'un coup": "L'élève ne relie pas renouvellement et gestion de la forêt."
+      },
+      "remediation": "Étudier l'exemple d'une forêt gérée : on coupe et on replante.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "replanter autant d'arbres qu'on en coupe",
+        "couper toute la forêt d'un coup",
+        "ne jamais replanter"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.a05",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel combustible fossile est extrait des mines sous forme de roche noire ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "charbon",
+          "le charbon",
+          "houille"
+        ]
+      },
+      "solution": "Le charbon est une roche noire extraite des mines ; c'est un combustible fossile.",
+      "step_by_step_solution": [
+        "Le pétrole est liquide ; le gaz naturel est un gaz.",
+        "La roche noire extraite des mines est le charbon."
+      ],
+      "hints": [
+        "Ce n'est ni un liquide ni un gaz."
+      ],
+      "common_errors": {
+        "pétrole": "L'élève confond les combustibles fossiles."
+      },
+      "remediation": "Comparer les trois combustibles fossiles : état et lieu d'extraction.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.c01",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Parmi ces ressources non renouvelables, laquelle n'est pas d'origine fossile ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le pétrole et le charbon viennent de restes d'êtres vivants : ils sont fossiles. L'uranium est un minerai : non renouvelable mais pas fossile.",
+      "step_by_step_solution": [
+        "Pétrole et charbon viennent d'êtres vivants anciens.",
+        "L'uranium est un minerai : il n'est pas fossile."
+      ],
+      "hints": [
+        "Qu'est-ce qu'une ressource fossile ?"
+      ],
+      "common_errors": {
+        "le pétrole": "L'élève pense que toute ressource non renouvelable est fossile."
+      },
+      "remediation": "Faire un tableau : fossile / non fossile ; renouvelable / non renouvelable.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "l'uranium",
+        "le pétrole",
+        "le charbon"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.c02",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : les panneaux solaires utilisent une ressource renouvelable.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : ils utilisent la lumière du Soleil, qui est renouvelable. Réponse : vrai.",
+      "step_by_step_solution": [
+        "Les panneaux solaires utilisent la lumière du Soleil.",
+        "Le Soleil est une ressource renouvelable : vrai."
+      ],
+      "hints": [
+        "Quelle ressource un panneau solaire utilise-t-il ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense à la fabrication du panneau et non à la ressource qu'il utilise."
+      },
+      "remediation": "Associer chaque installation à la ressource qu'elle utilise.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.c03",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle ressource une centrale nucléaire utilise-t-elle ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Une centrale nucléaire utilise de l'uranium, un minerai dont les réserves sont limitées. Réponse : de l'uranium, ressource non renouvelable.",
+      "step_by_step_solution": [
+        "Nucléaire : uranium.",
+        "Les réserves d'uranium sont limitées : non renouvelable."
+      ],
+      "hints": [
+        "Quel minerai est utilisé dans les centrales nucléaires ?"
+      ],
+      "common_errors": {
+        "du vent, ressource renouvelable": "L'élève confond centrale nucléaire et éolienne."
+      },
+      "remediation": "Associer chaque centrale ou installation à sa ressource.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "de l'uranium, ressource non renouvelable",
+        "du vent, ressource renouvelable",
+        "du bois, ressource renouvelable"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.c04",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque installation à la ressource utilisée : éolienne, panneau solaire, barrage hydraulique, centrale nucléaire.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "éolienne": "vent",
+          "panneau solaire": "Soleil",
+          "barrage hydraulique": "eau des rivières",
+          "centrale nucléaire": "uranium"
+        }
+      },
+      "solution": "Éolienne → vent ; panneau solaire → Soleil ; barrage → eau des rivières ; centrale nucléaire → uranium. Réponse : éolienne → vent ; panneau solaire → Soleil ; barrage hydraulique → eau des rivières ; centrale nucléaire → uranium.",
+      "step_by_step_solution": [
+        "éolienne → vent ; panneau solaire → Soleil",
+        "barrage hydraulique → eau des rivières ; centrale nucléaire → uranium"
+      ],
+      "hints": [
+        "« Hydraulique » veut dire « qui utilise l'eau »."
+      ],
+      "common_errors": {
+        "éolienne → vent ; panneau solaire → Soleil ; barrage hydraulique → uranium ; centrale nucléaire → eau des rivières": "L'élève sait qu'une centrale nucléaire est près d'un fleuve et confond l'eau de refroidissement avec la ressource."
+      },
+      "remediation": "Étudier des photos des quatre installations.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "vent",
+        "Soleil",
+        "eau des rivières",
+        "uranium"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.c05",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'intérêt d'utiliser davantage de ressources renouvelables ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les ressources renouvelables ne s'épuisent pas à l'échelle humaine. Mais le vent et le Soleil ne sont pas disponibles à chaque instant, et il faut des installations.",
+      "step_by_step_solution": [
+        "Le vent et le Soleil ne sont pas toujours là (nuit, calme).",
+        "Il faut des éoliennes ou des panneaux.",
+        "Leur intérêt : elles ne s'épuisent pas à l'échelle humaine."
+      ],
+      "hints": [
+        "Pense à la nuit et aux jours sans vent."
+      ],
+      "common_errors": {
+        "elles sont disponibles à chaque instant": "Erreur fréquente : oublier que le Soleil et le vent sont intermittents."
+      },
+      "remediation": "Lister avantages et inconvénients de chaque ressource.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "elles ne s'épuisent pas à l'échelle humaine",
+        "elles sont disponibles à chaque instant",
+        "elles ne demandent aucune installation"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.x01",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Le Soleil et le vent sont renouvelables, mais ils ont un inconvénient. Lequel ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La nuit, les panneaux solaires ne produisent pas ; sans vent, les éoliennes s'arrêtent : ces ressources ne sont pas toujours disponibles. Réponse : ils ne sont pas toujours disponibles (nuit, absence de vent).",
+      "step_by_step_solution": [
+        "La nuit, pas de lumière du Soleil.",
+        "Sans vent, les éoliennes s'arrêtent : ils ne sont pas toujours disponibles."
+      ],
+      "hints": [
+        "Que se passe-t-il la nuit pour un panneau solaire ?"
+      ],
+      "common_errors": {
+        "ils vont s'épuiser dans dix ans": "L'élève confond renouvelable et épuisable."
+      },
+      "remediation": "Relever la production d'un panneau solaire sur une journée (données fournies).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "ils ne sont pas toujours disponibles (nuit, absence de vent)",
+        "ils vont s'épuiser dans dix ans",
+        "ils coûtent de l'uranium"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.x02",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Les aliments sont une ressource en énergie pour le corps. Les plantes cultivées sont-elles une ressource renouvelable ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les plantes cultivées repoussent à chaque saison : c'est une ressource renouvelable, si l'on préserve les sols. Réponse : oui, on peut les cultiver à nouveau chaque année.",
+      "step_by_step_solution": [
+        "Le blé ou les légumes se ressèment chaque année.",
+        "C'est une ressource renouvelable."
+      ],
+      "hints": [
+        "Combien de temps faut-il pour faire pousser du blé ?"
+      ],
+      "common_errors": {
+        "non, ce sont des combustibles fossiles": "L'élève confond biomasse actuelle et ressources fossiles."
+      },
+      "remediation": "Comparer le temps de pousse du blé et le temps de formation du charbon.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "oui, on peut les cultiver à nouveau chaque année",
+        "non, elles mettent des millions d'années à pousser",
+        "non, ce sont des combustibles fossiles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.ressources-energie.x03",
+      "notion_id": "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque groupe de ressources à sa description : charbon, pétrole et gaz naturel ; uranium ; vent et Soleil.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "charbon, pétrole et gaz naturel": "fossiles et non renouvelables",
+          "uranium": "non fossile et non renouvelable",
+          "vent et Soleil": "renouvelables"
+        }
+      },
+      "solution": "Charbon, pétrole et gaz naturel sont des ressources fossiles non renouvelables ; l'uranium est un minerai non renouvelable mais non fossile ; le vent et le Soleil sont renouvelables. Réponse : charbon, pétrole et gaz naturel → fossiles et non renouvelables ; uranium → non fossile et non renouvelable ; vent et Soleil → renouvelables.",
+      "step_by_step_solution": [
+        "Fossiles : charbon, pétrole, gaz naturel.",
+        "Uranium : minerai, non fossile, non renouvelable.",
+        "Vent et Soleil : renouvelables."
+      ],
+      "hints": [
+        "Une ressource fossile vient de restes d'êtres vivants très anciens."
+      ],
+      "common_errors": {
+        "charbon, pétrole et gaz naturel → fossiles et non renouvelables ; uranium → fossiles et non renouvelables ; vent et Soleil → renouvelables": "L'élève pense que toute ressource non renouvelable est fossile."
+      },
+      "remediation": "Reprendre le tableau fossile / non fossile ; renouvelable / non renouvelable.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer ressources en énergie renouvelables et non renouvelables",
+        "Justifier par la vitesse de renouvellement à l'échelle humaine"
+      ],
+      "source_notions": [
+        "ST.CM2.MAT.ressources-renouvelables-et-non-renouvelables"
+      ],
+      "choices": [
+        "fossiles et non renouvelables",
+        "non fossile et non renouvelable",
+        "renouvelables"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.d01",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans quel groupe d'aliments range-t-on les pâtes ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les pâtes sont faites avec des céréales (blé) : ce sont des féculents.",
+      "step_by_step_solution": [
+        "Les pâtes sont fabriquées avec du blé.",
+        "Les aliments à base de céréales sont des féculents."
+      ],
+      "hints": [
+        "De quelle plante vient la farine des pâtes ?"
+      ],
+      "common_errors": {
+        "fruits et légumes": "L'élève range les pâtes avec les légumes du plat."
+      },
+      "remediation": "Classer les aliments d'un menu de cantine dans les groupes.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "féculents",
+        "produits laitiers",
+        "fruits et légumes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.d02",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel aliment est un produit laitier ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le yaourt est fabriqué avec du lait : c'est un produit laitier.",
+      "step_by_step_solution": [
+        "Le pain est un féculent, la pomme un fruit.",
+        "Le yaourt est fait avec du lait : produit laitier."
+      ],
+      "hints": [
+        "Lequel est fabriqué avec du lait ?"
+      ],
+      "common_errors": {
+        "le pain": "L'élève ne connaît pas encore les groupes d'aliments."
+      },
+      "remediation": "Lister tout ce qu'on peut fabriquer avec du lait.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "le yaourt",
+        "le pain",
+        "la pomme"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.d03",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque aliment à son groupe : pomme, riz, fromage, poisson.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "pomme": "fruits et légumes",
+          "riz": "féculents",
+          "fromage": "produits laitiers",
+          "poisson": "viandes, poissons, œufs"
+        }
+      },
+      "solution": "La pomme est un fruit, le riz un féculent, le fromage un produit laitier, le poisson appartient au groupe viandes, poissons, œufs. Réponse : pomme → fruits et légumes ; riz → féculents ; fromage → produits laitiers ; poisson → viandes, poissons, œufs.",
+      "step_by_step_solution": [
+        "pomme → fruits et légumes ; riz → féculents",
+        "fromage → produits laitiers ; poisson → viandes, poissons, œufs"
+      ],
+      "hints": [
+        "Le riz est une céréale."
+      ],
+      "common_errors": {
+        "pomme → fruits et légumes ; riz → fruits et légumes ; fromage → produits laitiers ; poisson → viandes, poissons, œufs": "L'élève range le riz avec les légumes."
+      },
+      "remediation": "Faire un jeu de cartes-aliments à ranger dans les groupes.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "fruits et légumes",
+        "féculents",
+        "produits laitiers",
+        "viandes, poissons, œufs"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.d04",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quelle est la seule boisson indispensable à notre corps ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "eau",
+          "l'eau",
+          "de l'eau"
+        ]
+      },
+      "solution": "L'eau est la seule boisson indispensable ; les autres boissons ne sont pas nécessaires.",
+      "step_by_step_solution": [
+        "Le corps perd de l'eau chaque jour (urine, transpiration).",
+        "Seule l'eau est indispensable."
+      ],
+      "hints": [
+        "Elle sort du robinet."
+      ],
+      "common_errors": {
+        "lait": "L'élève confond un aliment utile (produit laitier) et la boisson indispensable."
+      },
+      "remediation": "Lire l'étiquette d'un soda et d'une bouteille d'eau : comparer le sucre.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.d05",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : la pomme de terre est un féculent.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : la pomme de terre est riche en amidon ; on la classe avec les féculents, pas avec les légumes verts. Réponse : vrai.",
+      "step_by_step_solution": [
+        "La pomme de terre contient beaucoup d'amidon.",
+        "Elle est classée avec les féculents : vrai."
+      ],
+      "hints": [
+        "Donne-t-elle surtout de l'énergie, comme le pain et les pâtes ?"
+      ],
+      "common_errors": {
+        "faux": "Erreur fréquente : ranger la pomme de terre avec les légumes."
+      },
+      "remediation": "Comparer la pomme de terre avec les pâtes et le riz : même rôle dans le repas.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.a01",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Les produits laitiers apportent beaucoup de calcium. À quoi sert-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le calcium est un minéral indispensable pour construire et renforcer les os et les dents.",
+      "step_by_step_solution": [
+        "Le calcium est un minéral.",
+        "Il sert à construire et renforcer les os et les dents."
+      ],
+      "hints": [
+        "Quelle partie du corps est dure et grandit chez l'enfant ?"
+      ],
+      "common_errors": {
+        "à digérer plus vite": "L'élève ne connaît pas le rôle du calcium."
+      },
+      "remediation": "Associer chaque groupe d'aliments à son rôle principal.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "à construire et renforcer les os et les dents",
+        "à donner la couleur de la peau",
+        "à digérer plus vite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.a02",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quel groupe d'aliments apporte de l'énergie qui dure plusieurs heures ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les féculents apportent de l'énergie libérée lentement, sur plusieurs heures.",
+      "step_by_step_solution": [
+        "Les produits sucrés apportent une énergie rapide, qui ne dure pas.",
+        "L'eau n'apporte pas d'énergie.",
+        "Les féculents donnent une énergie durable."
+      ],
+      "hints": [
+        "Que mangent les sportifs la veille d'une course ?"
+      ],
+      "common_errors": {
+        "produits sucrés": "L'élève confond énergie rapide et énergie durable."
+      },
+      "remediation": "Comparer un petit-déjeuner avec pain et un petit-déjeuner avec seulement un soda.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "féculents",
+        "produits sucrés",
+        "l'eau"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.a03",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque aliment à son groupe : steak, beurre, bonbon, lait, carotte.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "steak": "viandes, poissons, œufs",
+          "beurre": "matières grasses",
+          "bonbon": "produits sucrés",
+          "lait": "produits laitiers",
+          "carotte": "fruits et légumes"
+        }
+      },
+      "solution": "Steak → viandes, poissons, œufs ; beurre → matières grasses ; bonbon → produits sucrés ; lait → produits laitiers ; carotte → fruits et légumes. Réponse : steak → viandes, poissons, œufs ; beurre → matières grasses ; bonbon → produits sucrés ; lait → produits laitiers ; carotte → fruits et légumes.",
+      "step_by_step_solution": [
+        "steak → viandes, poissons, œufs ; beurre → matières grasses",
+        "bonbon → produits sucrés ; lait → produits laitiers ; carotte → fruits et légumes"
+      ],
+      "hints": [
+        "Le beurre est fait avec la crème du lait, mais il est surtout gras."
+      ],
+      "common_errors": {
+        "steak → viandes, poissons, œufs ; beurre → produits laitiers ; bonbon → produits sucrés ; lait → produits laitiers ; carotte → fruits et légumes": "L'élève range le beurre avec les produits laitiers ; on le classe avec les matières grasses."
+      },
+      "remediation": "Lire la composition du beurre (surtout des graisses).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "viandes, poissons, œufs",
+        "matières grasses",
+        "produits sucrés",
+        "produits laitiers",
+        "fruits et légumes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.a04",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Combien de portions de fruits et légumes conseille-t-on de manger chaque jour, au minimum ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "On conseille de manger au moins 5 portions de fruits et légumes par jour.",
+      "step_by_step_solution": [
+        "C'est une recommandation nationale connue.",
+        "Au moins 5 portions par jour."
+      ],
+      "hints": [
+        "Pense au slogan « … fruits et légumes par jour »."
+      ],
+      "common_errors": {
+        "1": "L'élève sous-estime la quantité recommandée."
+      },
+      "remediation": "Compter les fruits et légumes mangés dans une journée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "5",
+        "1",
+        "10"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.a05",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Les viandes, les poissons et les œufs apportent surtout…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Viandes, poissons et œufs apportent surtout des protéines, qui servent à construire le corps (muscles). Réponse : des protéines, qui construisent le corps.",
+      "step_by_step_solution": [
+        "Ces aliments sont riches en protéines.",
+        "Les protéines servent à construire le corps."
+      ],
+      "hints": [
+        "Qu'est-ce qui aide les muscles à se construire ?"
+      ],
+      "common_errors": {
+        "du sucre rapide": "L'élève confond avec les produits sucrés."
+      },
+      "remediation": "Associer chaque groupe à son rôle : construire, donner de l'énergie, protéger.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "des protéines, qui construisent le corps",
+        "du sucre rapide",
+        "de l'eau"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.c01",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel repas est le plus équilibré ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le premier repas contient des aliments de plusieurs groupes : poisson, féculent, légume, produit laitier, fruit. Réponse : poisson, riz, haricots verts, yaourt, pomme.",
+      "step_by_step_solution": [
+        "Frites, soda, gâteau : trop de gras et de sucre.",
+        "Pain, pâtes, pommes de terre : seulement des féculents.",
+        "Le premier repas associe plusieurs groupes."
+      ],
+      "hints": [
+        "Compte les groupes d'aliments présents dans chaque repas."
+      ],
+      "common_errors": {
+        "pain, pâtes, pommes de terre": "L'élève pense qu'un repas copieux est équilibré."
+      },
+      "remediation": "Composer un repas en choisissant un aliment dans plusieurs groupes.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "poisson, riz, haricots verts, yaourt, pomme",
+        "frites, soda, gâteau",
+        "pain, pâtes, pommes de terre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.c02",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Léa fait deux heures de sport. Ses besoins en énergie ce jour-là sont…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'activité physique consomme de l'énergie : les besoins sont plus grands un jour de sport. Réponse : plus grands qu'un jour sans sport.",
+      "step_by_step_solution": [
+        "Faire du sport consomme de l'énergie.",
+        "Les besoins sont plus grands."
+      ],
+      "hints": [
+        "Quand as-tu le plus faim : après le sport ou après une journée calme ?"
+      ],
+      "common_errors": {
+        "exactement les mêmes": "L'élève ne relie pas activité physique et besoins en énergie."
+      },
+      "remediation": "Comparer les besoins d'un jour calme et d'un jour sportif.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "plus grands qu'un jour sans sport",
+        "plus petits qu'un jour sans sport",
+        "exactement les mêmes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.c03",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : manger beaucoup de produits sucrés tous les jours est bon pour la santé.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : trop de sucre favorise les caries et le surpoids ; les produits sucrés sont à limiter. Réponse : faux.",
+      "step_by_step_solution": [
+        "Le sucre en excès abîme les dents.",
+        "Il favorise le surpoids : c'est faux."
+      ],
+      "hints": [
+        "Que dit le dentiste des bonbons ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense que le sucre donne de l'énergie, donc qu'il en faut beaucoup."
+      },
+      "remediation": "Lire la quantité de sucre sur l'étiquette de boissons et de biscuits.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.c04",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Menu : steak, pâtes, pomme, eau. Quel groupe manque pour apporter du calcium ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le calcium vient surtout des produits laitiers ; aucun n'est présent dans ce menu.",
+      "step_by_step_solution": [
+        "Steak, pâtes, pomme, eau : pas de lait ni de fromage.",
+        "Il manque les produits laitiers."
+      ],
+      "hints": [
+        "Quel groupe apporte le plus de calcium ?"
+      ],
+      "common_errors": {
+        "féculents": "Les pâtes sont déjà dans le menu."
+      },
+      "remediation": "Vérifier un menu avec la liste des groupes d'aliments.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "produits laitiers",
+        "féculents",
+        "fruits et légumes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.c05",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque groupe à son rôle principal : féculents, produits laitiers, fruits et légumes, eau.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "féculents": "donner de l'énergie",
+          "produits laitiers": "apporter du calcium",
+          "fruits et légumes": "apporter vitamines et fibres",
+          "eau": "hydrater le corps"
+        }
+      },
+      "solution": "Les féculents donnent de l'énergie ; les produits laitiers apportent du calcium ; les fruits et légumes des vitamines et des fibres ; l'eau hydrate le corps. Réponse : féculents → donner de l'énergie ; produits laitiers → apporter du calcium ; fruits et légumes → apporter vitamines et fibres ; eau → hydrater le corps.",
+      "step_by_step_solution": [
+        "féculents → énergie ; produits laitiers → calcium",
+        "fruits et légumes → vitamines et fibres ; eau → hydrater"
+      ],
+      "hints": [
+        "Pense à ce que chaque groupe apporte au corps."
+      ],
+      "common_errors": {
+        "féculents → apporter du calcium ; produits laitiers → donner de l'énergie ; fruits et légumes → apporter vitamines et fibres ; eau → hydrater le corps": "L'élève inverse les rôles des féculents et des produits laitiers."
+      },
+      "remediation": "Faire une affiche « groupe d'aliments / rôle » avec des exemples.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "donner de l'énergie",
+        "apporter du calcium",
+        "apporter vitamines et fibres",
+        "hydrater le corps"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.x01",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un adulte et un enfant de 10 ans ont-ils besoin des mêmes quantités de nourriture ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les besoins en quantité dépendent de l'âge, de la taille et de l'activité physique. Réponse : non, les quantités dépendent de l'âge, de la taille et de l'activité.",
+      "step_by_step_solution": [
+        "Un enfant et un adulte n'ont pas le même corps ni la même activité.",
+        "Les quantités dépendent de l'âge, de la taille et de l'activité."
+      ],
+      "hints": [
+        "Qu'est-ce qui change entre un enfant et un adulte ?"
+      ],
+      "common_errors": {
+        "non, un enfant n'a pas besoin de manger le matin": "L'élève pense que le petit-déjeuner est inutile."
+      },
+      "remediation": "Comparer des portions recommandées pour un enfant et pour un adulte.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "non, les quantités dépendent de l'âge, de la taille et de l'activité",
+        "oui, exactement les mêmes",
+        "non, un enfant n'a pas besoin de manger le matin"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.x02",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi dit-on qu'il faut « manger varié » ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Chaque groupe d'aliments apporte des éléments différents : aucun aliment n'apporte à lui seul tout ce dont le corps a besoin.",
+      "step_by_step_solution": [
+        "Chaque groupe a un rôle différent.",
+        "Aucun aliment n'apporte tout : il faut varier."
+      ],
+      "hints": [
+        "Le lait apporte-t-il les vitamines des fruits ?"
+      ],
+      "common_errors": {
+        "pour manger toujours plus": "L'élève confond variété et quantité."
+      },
+      "remediation": "Chercher ce que chaque groupe apporte et ce qu'il n'apporte pas.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "aucun aliment n'apporte à lui seul tout ce dont le corps a besoin",
+        "pour manger toujours plus",
+        "pour ne manger que ce qu'on aime"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.apports-alimentaires.x03",
+      "notion_id": "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Tom boit trois sodas par jour. Quel conseil lui donner ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les sodas contiennent beaucoup de sucre : il vaut mieux les remplacer par de l'eau, seule boisson indispensable.",
+      "step_by_step_solution": [
+        "Les sodas sont très sucrés.",
+        "L'eau est la seule boisson indispensable : il faut remplacer les sodas par de l'eau."
+      ],
+      "hints": [
+        "Quelle boisson est indispensable ?"
+      ],
+      "common_errors": {
+        "ne plus boire du tout": "L'élève oublie que le corps a besoin d'eau chaque jour."
+      },
+      "remediation": "Calculer le nombre de morceaux de sucre dans trois canettes (données fournies).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Classer les aliments en groupes et connaître leurs principaux apports",
+        "Relier qualité et quantité des apports aux besoins de l'organisme"
+      ],
+      "source_notions": [
+        "ST.CM2.VIV.apports-alimentaires-qualite-et-quantite"
+      ],
+      "choices": [
+        "remplacer les sodas par de l'eau",
+        "boire encore plus de sodas pour l'énergie",
+        "ne plus boire du tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.d01",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "En combien de temps la Terre fait-elle un tour sur elle-même ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Terre fait un tour sur elle-même en environ 24 heures : c'est la durée d'un jour et d'une nuit.",
+      "step_by_step_solution": [
+        "Un tour sur elle-même donne un jour et une nuit.",
+        "Cela dure environ 24 heures."
+      ],
+      "hints": [
+        "Combien d'heures y a-t-il dans une journée complète ?"
+      ],
+      "common_errors": {
+        "environ 365 jours": "L'élève confond rotation et révolution."
+      },
+      "remediation": "Faire tourner un globe devant une lampe et compter un tour = une journée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "environ 24 heures",
+        "environ 365 jours",
+        "environ 1 heure"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.d02",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "En combien de temps la Terre fait-elle un tour autour du Soleil ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Terre fait le tour du Soleil en environ 365 jours : c'est une année.",
+      "step_by_step_solution": [
+        "Un tour autour du Soleil, c'est une année.",
+        "Une année dure environ 365 jours."
+      ],
+      "hints": [
+        "Combien de jours y a-t-il dans une année ?"
+      ],
+      "common_errors": {
+        "environ 24 heures": "L'élève confond révolution et rotation."
+      },
+      "remediation": "Faire tourner le globe autour de la lampe en comptant les mois.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "environ 365 jours",
+        "environ 24 heures",
+        "environ 29 jours"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.d03",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : c'est le Soleil qui tourne autour de la Terre.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : c'est la Terre qui tourne autour du Soleil. Le Soleil semble bouger dans le ciel car la Terre tourne sur elle-même. Réponse : faux.",
+      "step_by_step_solution": [
+        "La Terre tourne autour du Soleil.",
+        "Le mouvement du Soleil dans le ciel n'est qu'apparent : c'est faux."
+      ],
+      "hints": [
+        "Quand tu tournes sur toi-même, la pièce semble-t-elle tourner ?"
+      ],
+      "common_errors": {
+        "vrai": "Erreur fréquente : prendre le mouvement apparent du Soleil pour un mouvement réel."
+      },
+      "remediation": "Tourner sur soi-même au milieu de la classe : les murs semblent défiler.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.d04",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Qu'est-ce qui provoque l'alternance du jour et de la nuit ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Terre tourne sur elle-même : chaque lieu passe du côté éclairé (jour) au côté non éclairé (nuit). Réponse : la rotation de la Terre sur elle-même.",
+      "step_by_step_solution": [
+        "Une moitié de la Terre est éclairée par le Soleil.",
+        "En tournant sur elle-même, la Terre fait passer chaque lieu du jour à la nuit."
+      ],
+      "hints": [
+        "Fais tourner un globe devant une lampe."
+      ],
+      "common_errors": {
+        "le déplacement du Soleil autour de la Terre": "Erreur fréquente : croire que le Soleil tourne autour de la Terre."
+      },
+      "remediation": "Coller une gommette « France » sur un globe et la suivre pendant un tour devant la lampe.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "la rotation de la Terre sur elle-même",
+        "le déplacement du Soleil autour de la Terre",
+        "les nuages"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.d05",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "De quel côté le Soleil semble-t-il se lever ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Parce que la Terre tourne d'ouest en est, le Soleil semble se lever à l'est et se coucher à l'ouest.",
+      "step_by_step_solution": [
+        "La Terre tourne d'ouest en est.",
+        "Le Soleil semble donc se lever à l'est."
+      ],
+      "hints": [
+        "Le Soleil se couche à l'ouest ; il se lève du côté opposé."
+      ],
+      "common_errors": {
+        "à l'ouest": "L'élève inverse lever et coucher du Soleil."
+      },
+      "remediation": "Observer le lever du Soleil depuis la cour avec une boussole.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "à l'est",
+        "à l'ouest",
+        "au nord"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.a01",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "La Terre fait un tour sur elle-même en 24 h. Combien de temps dure un demi-tour ? Réponds en h.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 12,
+        "unit": "h"
+      },
+      "solution": "Un demi-tour dure la moitié de 24 h : 24 ÷ 2 = 12 h. Réponse : 12 h.",
+      "step_by_step_solution": [
+        "Un tour : 24 h.",
+        "Un demi-tour : 24 ÷ 2 = 12 h."
+      ],
+      "hints": [
+        "Un demi-tour, c'est la moitié d'un tour."
+      ],
+      "common_errors": {
+        "48 h": "L'élève a multiplié au lieu de diviser."
+      },
+      "remediation": "Faire un demi-tour avec le globe et repérer qu'un lieu passe du jour à la nuit.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.a02",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Il fait jour en France. Où se trouve la France à ce moment-là ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Il fait jour dans les lieux situés sur la moitié de la Terre tournée vers le Soleil. Réponse : du côté de la Terre tourné vers le Soleil.",
+      "step_by_step_solution": [
+        "Le Soleil éclaire une moitié de la Terre.",
+        "La France est du côté tourné vers le Soleil."
+      ],
+      "hints": [
+        "Quelle moitié du globe est éclairée par la lampe ?"
+      ],
+      "common_errors": {
+        "du côté opposé au Soleil": "L'élève inverse jour et nuit."
+      },
+      "remediation": "Placer la gommette « France » du côté éclairé du globe.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "du côté de la Terre tourné vers le Soleil",
+        "du côté opposé au Soleil",
+        "plus près de la Lune que du Soleil"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.a03",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque mouvement à sa durée : un tour de la Terre sur elle-même ; un tour de la Terre autour du Soleil ; un tour de la Lune autour de la Terre.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "un tour de la Terre sur elle-même": "environ 24 heures",
+          "un tour de la Terre autour du Soleil": "environ 365 jours",
+          "un tour de la Lune autour de la Terre": "environ un mois"
+        }
+      },
+      "solution": "La Terre tourne sur elle-même en environ 24 heures et autour du Soleil en environ 365 jours ; la Lune tourne autour de la Terre en environ un mois. Réponse : un tour de la Terre sur elle-même → environ 24 heures ; un tour de la Terre autour du Soleil → environ 365 jours ; un tour de la Lune autour de la Terre → environ un mois.",
+      "step_by_step_solution": [
+        "Terre sur elle-même → environ 24 heures",
+        "Terre autour du Soleil → environ 365 jours",
+        "Lune autour de la Terre → environ un mois"
+      ],
+      "hints": [
+        "Un jour, une année, un mois."
+      ],
+      "common_errors": {
+        "un tour de la Terre sur elle-même → environ 365 jours ; un tour de la Terre autour du Soleil → environ 24 heures ; un tour de la Lune autour de la Terre → environ un mois": "L'élève inverse rotation et révolution."
+      },
+      "remediation": "Relier chaque mouvement à une unité du calendrier : jour, mois, année.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "environ 24 heures",
+        "environ 365 jours",
+        "environ un mois"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.a04",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quand il est midi en France, où fait-il nuit ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'Australie est à peu près de l'autre côté de la Terre : quand la France est tournée vers le Soleil, l'Australie est dans la nuit. Réponse : en Australie, de l'autre côté de la Terre.",
+      "step_by_step_solution": [
+        "À midi, la France est tournée vers le Soleil.",
+        "L'Australie, à l'opposé, est dans la nuit."
+      ],
+      "hints": [
+        "Repère la France et l'Australie sur le globe."
+      ],
+      "common_errors": {
+        "partout sur Terre": "L'élève pense que le jour et la nuit sont les mêmes partout."
+      },
+      "remediation": "Éclairer un globe et repérer la France et l'Australie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "en Australie, de l'autre côté de la Terre",
+        "en France",
+        "partout sur Terre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.a05",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Dans quel sens la Terre tourne-t-elle sur elle-même ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Terre tourne d'ouest en est : c'est pourquoi le Soleil semble se lever à l'est.",
+      "step_by_step_solution": [
+        "Le Soleil semble se lever à l'est.",
+        "La Terre tourne donc d'ouest en est."
+      ],
+      "hints": [
+        "Le Soleil semble aller dans le sens inverse de la rotation de la Terre."
+      ],
+      "common_errors": {
+        "d'est en ouest": "L'élève confond le mouvement apparent du Soleil et le mouvement réel de la Terre."
+      },
+      "remediation": "Faire tourner le globe dans le bon sens et observer le lever de Soleil sur la France.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "d'ouest en est",
+        "d'est en ouest",
+        "du nord au sud"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.c01",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi y a-t-il des saisons ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les saisons sont dues à l'inclinaison de l'axe de la Terre : selon la période, un hémisphère reçoit les rayons du Soleil plus directement et plus longtemps. Réponse : parce que l'axe de la Terre est incliné.",
+      "step_by_step_solution": [
+        "La distance Terre-Soleil varie peu ; la Terre est même un peu plus proche du Soleil en janvier.",
+        "La cause des saisons est l'inclinaison de l'axe."
+      ],
+      "hints": [
+        "En janvier, la Terre est au plus près du Soleil, et pourtant c'est l'hiver en France."
+      ],
+      "common_errors": {
+        "parce que la Terre est plus proche du Soleil en été": "Erreur fréquente : expliquer les saisons par la distance au Soleil."
+      },
+      "remediation": "Tourner un globe incliné autour d'une lampe et observer l'éclairage de l'hémisphère nord.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "parce que l'axe de la Terre est incliné",
+        "parce que la Terre est plus proche du Soleil en été",
+        "parce que le Soleil chauffe plus en été"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.c02",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi le Soleil semble-t-il se déplacer dans le ciel au cours de la journée ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "C'est la Terre qui tourne sur elle-même ; depuis la Terre, le Soleil semble se déplacer. Réponse : parce que la Terre tourne sur elle-même.",
+      "step_by_step_solution": [
+        "Le Soleil ne tourne pas autour de la Terre.",
+        "Son déplacement est apparent : la Terre tourne sur elle-même."
+      ],
+      "hints": [
+        "Dans un train qui roule, les arbres semblent reculer."
+      ],
+      "common_errors": {
+        "parce que le Soleil tourne autour de la Terre en une journée": "Erreur fréquente : prendre le mouvement apparent pour un mouvement réel."
+      },
+      "remediation": "Relever l'ombre d'un bâton toutes les heures et expliquer son déplacement.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "parce que la Terre tourne sur elle-même",
+        "parce que le Soleil tourne autour de la Terre en une journée",
+        "parce que le vent pousse le Soleil"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.c03",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : à chaque instant, une moitié de la Terre est éclairée par le Soleil.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : la Terre est une boule éclairée d'un côté par le Soleil ; une moitié est dans le jour, l'autre dans la nuit. Réponse : vrai.",
+      "step_by_step_solution": [
+        "La Terre est une boule éclairée par le Soleil.",
+        "Une moitié est éclairée : vrai."
+      ],
+      "hints": [
+        "Éclaire un globe avec une lampe."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que toute la Terre est éclairée en même temps."
+      },
+      "remediation": "Éclairer un globe et tracer la limite jour/nuit.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.c04",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "La Terre met environ 365 jours pour faire un tour autour du Soleil. Comment appelle-t-on cette durée ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un tour de la Terre autour du Soleil dure une année.",
+      "step_by_step_solution": [
+        "Un tour sur elle-même : une journée.",
+        "Un tour autour du Soleil : une année."
+      ],
+      "hints": [
+        "Combien de jours compte le calendrier ?"
+      ],
+      "common_errors": {
+        "une journée": "L'élève confond rotation et révolution."
+      },
+      "remediation": "Construire une frise : jour (rotation), année (révolution).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "une année",
+        "une journée",
+        "un mois"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.c05",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "En France, relie chaque moment de la journée à la direction du Soleil : le Soleil se lève ; le Soleil se couche ; le Soleil est au plus haut dans le ciel.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "le Soleil se lève": "est",
+          "le Soleil se couche": "ouest",
+          "le Soleil est au plus haut dans le ciel": "sud"
+        }
+      },
+      "solution": "En France, le Soleil se lève du côté est, se couche du côté ouest et, au plus haut dans le ciel, il est au sud. Réponse : le Soleil se lève → est ; le Soleil se couche → ouest ; le Soleil est au plus haut dans le ciel → sud.",
+      "step_by_step_solution": [
+        "lever → est ; coucher → ouest",
+        "au plus haut → sud"
+      ],
+      "hints": [
+        "Utilise une boussole dans la cour."
+      ],
+      "common_errors": {
+        "le Soleil se lève → ouest ; le Soleil se couche → est ; le Soleil est au plus haut dans le ciel → sud": "L'élève inverse l'est et l'ouest."
+      },
+      "remediation": "Relever la direction du Soleil le matin, à midi et en fin d'après-midi (sans jamais le regarder directement).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "est",
+        "ouest",
+        "sud"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.x01",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "En France, en été, les journées sont plus longues qu'en hiver. Pourquoi ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Grâce à l'inclinaison de l'axe, l'hémisphère nord est plus longtemps éclairé en été : les journées sont plus longues. Réponse : à cause de l'inclinaison de l'axe de la Terre.",
+      "step_by_step_solution": [
+        "La Terre tourne toujours à la même vitesse.",
+        "La distance au Soleil n'explique pas les saisons.",
+        "C'est l'inclinaison de l'axe."
+      ],
+      "hints": [
+        "La durée d'un tour sur elle-même change-t-elle ?"
+      ],
+      "common_errors": {
+        "parce que la Terre est plus près du Soleil en été": "Erreur fréquente : expliquer les saisons par la distance."
+      },
+      "remediation": "Comparer les heures de lever et de coucher du Soleil en juin et en décembre (données fournies).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "à cause de l'inclinaison de l'axe de la Terre",
+        "parce que la Terre tourne plus lentement en été",
+        "parce que la Terre est plus près du Soleil en été"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.x02",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "La Terre tourne d'ouest en est. Où le Soleil se lève-t-il plus tôt : à Strasbourg (à l'est de la France) ou à Brest (à l'ouest) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Terre tourne d'ouest en est : les lieux situés à l'est arrivent en premier face au Soleil. Le Soleil se lève plus tôt à Strasbourg.",
+      "step_by_step_solution": [
+        "La rotation amène d'abord l'est face au Soleil.",
+        "Strasbourg est à l'est : le Soleil s'y lève plus tôt."
+      ],
+      "hints": [
+        "Fais tourner le globe d'ouest en est : quelle ville arrive d'abord à la lumière ?"
+      ],
+      "common_errors": {
+        "en même temps dans les deux villes": "L'élève pense que l'heure du lever est la même partout dans un pays."
+      },
+      "remediation": "Comparer les heures de lever du Soleil à Strasbourg et à Brest un même jour (données fournies).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "à Strasbourg",
+        "à Brest",
+        "en même temps dans les deux villes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM2.mouvements-terre.x03",
+      "notion_id": "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Quand c'est l'été en France (hémisphère nord), quelle saison est-ce en Argentine (hémisphère sud) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "À cause de l'inclinaison de l'axe, quand l'hémisphère nord est en été, l'hémisphère sud est en hiver. Réponse : l'hiver.",
+      "step_by_step_solution": [
+        "L'axe incliné fait que les deux hémisphères ne reçoivent pas la même lumière.",
+        "Été au nord : hiver au sud."
+      ],
+      "hints": [
+        "Quand un hémisphère est tourné vers le Soleil, l'autre l'est moins."
+      ],
+      "common_errors": {
+        "l'été": "L'élève pense que les saisons sont les mêmes partout sur Terre."
+      },
+      "remediation": "Faire tourner un globe incliné autour d'une lampe et observer les deux hémisphères.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Décrire la rotation de la Terre sur elle-même et sa révolution autour du Soleil",
+        "Expliquer l'alternance jour/nuit et l'année"
+      ],
+      "source_notions": [
+        "ST.CM2.TER.les-mouvements-de-la-terre-sur-elle-meme-et-autour-du-soleil"
+      ],
+      "choices": [
+        "l'hiver",
+        "l'été",
+        "le printemps"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

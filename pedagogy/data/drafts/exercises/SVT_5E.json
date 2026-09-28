@@ -1,0 +1,2198 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.d01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "De quoi les cellules des muscles ont-elles besoin pour fonctionner ?\nA. Uniquement de la lumière\nB. Des nutriments et du dioxygène\nC. Des nutriments et du dioxyde de carbone\nD. Uniquement de l'eau",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Toute cellule animale consomme des nutriments et du dioxygène apportés par le sang. Bonne réponse : B. Des nutriments et du dioxygène",
+      "step_by_step_solution": [
+        "Les cellules produisent l'énergie dont elles ont besoin à partir de nutriments.",
+        "Cette production utilise du dioxygène.",
+        "Il faut donc des nutriments et du dioxygène."
+      ],
+      "hints": [
+        "Pense à ce que le sang apporte aux organes.",
+        "Il y a deux besoins, l'un vient de la digestion, l'autre de la respiration."
+      ],
+      "common_errors": {
+        "C": "Confusion : le dioxyde de carbone est un déchet rejeté par les cellules, pas un besoin."
+      },
+      "remediation": "Reprendre un schéma d'une cellule musculaire avec les flèches « entrées » (nutriments, dioxygène) et « sorties » (dioxyde de carbone, déchets).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [
+        "Uniquement de la lumière",
+        "Des nutriments et du dioxygène",
+        "Des nutriments et du dioxyde de carbone",
+        "Uniquement de l'eau"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.d02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel gaz, rejeté par toutes les cellules animales, est transporté par le sang jusqu'aux poumons pour être expiré ? Donne son nom.",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "dioxyde de carbone",
+          "le dioxyde de carbone",
+          "CO2",
+          "gaz carbonique"
+        ]
+      },
+      "solution": "Les cellules rejettent du dioxyde de carbone (CO2), transporté par le sang jusqu'aux poumons puis expiré.",
+      "step_by_step_solution": [
+        "Les cellules consomment du dioxygène.",
+        "Elles rejettent un autre gaz, qui est un déchet.",
+        "Ce gaz est le dioxyde de carbone."
+      ],
+      "hints": [
+        "C'est un déchet gazeux.",
+        "Sa formule chimique contient un atome de carbone."
+      ],
+      "common_errors": {
+        "dioxygène": "L'élève confond le gaz consommé (dioxygène) et le gaz rejeté."
+      },
+      "remediation": "Comparer l'air inspiré et l'air expiré (eau de chaux qui se trouble avec l'air expiré).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier les déchets des cellules"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.d03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le sang transporte à la fois des nutriments et du dioxygène vers toutes les cellules du corps. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Le sang circule dans tous les organes : il apporte donc les deux à toutes les cellules."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Le plasma transporte les nutriments et les globules rouges transportent le dioxygène.",
+      "step_by_step_solution": [
+        "Les nutriments passent de l'intestin dans le sang.",
+        "Le dioxygène passe des poumons dans le sang.",
+        "Le sang circule dans tous les organes : il apporte donc les deux à toutes les cellules."
+      ],
+      "hints": [
+        "D'où viennent les nutriments ? D'où vient le dioxygène ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que le sang ne transporte que le dioxygène et oublie les nutriments issus de la digestion."
+      },
+      "remediation": "Construire un schéma bilan : intestin → sang ← poumons, puis sang → organes.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.d04",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque organe au rôle qu'il joue dans l'approvisionnement des cellules.\nÀ gauche : intestin grêle / poumons / cœur / reins\nÀ droite : passage des nutriments dans le sang / mise en mouvement du sang / élimination de déchets dans l'urine / passage du dioxygène dans le sang\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "intestin grêle": "passage des nutriments dans le sang",
+          "poumons": "passage du dioxygène dans le sang",
+          "cœur": "mise en mouvement du sang",
+          "reins": "élimination de déchets dans l'urine"
+        }
+      },
+      "solution": "Chaque organe a un rôle précis dans les échanges entre l'organisme et le milieu ou dans la circulation. Associations : intestin grêle → passage des nutriments dans le sang ; poumons → passage du dioxygène dans le sang ; cœur → mise en mouvement du sang ; reins → élimination de déchets dans l'urine.",
+      "step_by_step_solution": [
+        "L'intestin grêle absorbe les nutriments.",
+        "Les poumons permettent l'entrée du dioxygène.",
+        "Le cœur est une pompe.",
+        "Les reins filtrent le sang et produisent l'urine."
+      ],
+      "hints": [
+        "Le cœur ne fait pas d'échanges avec l'extérieur : il pompe."
+      ],
+      "common_errors": {
+        "intestin grêle → passage des nutriments dans le sang ; poumons → élimination de déchets dans l'urine ; cœur → mise en mouvement du sang ; reins → passage du dioxygène dans le sang": "Confusion entre les organes d'échange : l'élève attribue la sortie des déchets aux poumons (vrai seulement pour le CO2)."
+      },
+      "remediation": "Réaliser un schéma fonctionnel en couleur : un appareil par couleur relié au sang.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.d05",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel liquide circule dans les vaisseaux sanguins et assure le transport des nutriments et du dioxygène vers les organes ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "sang",
+          "le sang"
+        ]
+      },
+      "solution": "C'est le sang qui assure le transport entre les organes d'échange et les cellules.",
+      "step_by_step_solution": [
+        "Les vaisseaux sanguins contiennent un liquide rouge.",
+        "Ce liquide est le sang."
+      ],
+      "hints": [
+        "Il est mis en mouvement par le cœur."
+      ],
+      "common_errors": {
+        "la lymphe": "Réponse trop précise hors programme : c'est le sang qui est attendu en 5e."
+      },
+      "remediation": "Observer un schéma de la circulation sanguine et suivre le trajet du liquide avec le doigt.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.a01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Classe dans l'ordre le trajet d'une molécule de dioxygène depuis l'air jusqu'à une cellule du muscle de la cuisse.\nÉléments (dans le désordre) : alvéoles pulmonaires / bronches / sang / trachée / cellule musculaire / fosses nasales\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "fosses nasales",
+          "trachée",
+          "bronches",
+          "alvéoles pulmonaires",
+          "sang",
+          "cellule musculaire"
+        ]
+      },
+      "solution": "L'air entre par le nez, descend par la trachée et les bronches jusqu'aux alvéoles ; le dioxygène passe dans le sang qui le distribue aux cellules. Ordre attendu : fosses nasales ; trachée ; bronches ; alvéoles pulmonaires ; sang ; cellule musculaire.",
+      "step_by_step_solution": [
+        "L'air entre par les fosses nasales puis la trachée.",
+        "Il passe dans les bronches et arrive dans les alvéoles pulmonaires.",
+        "Le dioxygène passe dans le sang.",
+        "Le sang l'apporte à la cellule musculaire."
+      ],
+      "hints": [
+        "Le passage dans le sang se fait au niveau des alvéoles.",
+        "La cellule est la destination finale."
+      ],
+      "common_errors": {
+        "fosses nasales ; trachée ; bronches ; sang ; alvéoles pulmonaires ; cellule musculaire": "L'élève fait passer le dioxygène dans le sang avant les alvéoles : il ignore le lieu de l'échange."
+      },
+      "remediation": "Suivre le trajet sur un schéma de l'appareil respiratoire puis de la circulation.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.a02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Un document indique qu'un adulte au repos consomme environ 0,25 L de dioxygène par minute. Quel volume de dioxygène consomme-t-il en 60 minutes ? Donne le résultat en L.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 15,
+        "unit": "L"
+      },
+      "solution": "Volume = 0,25 × 60 = 15 L de dioxygène en une heure.",
+      "step_by_step_solution": [
+        "On multiplie la consommation par minute par le nombre de minutes.",
+        "0,25 × 60 = 15.",
+        "Il consomme 15 L de dioxygène."
+      ],
+      "hints": [
+        "Combien de minutes y a-t-il ? Que fait-on de la consommation par minute ?"
+      ],
+      "common_errors": {
+        "240 L": "L'élève a divisé 60 par 0,25 au lieu de multiplier."
+      },
+      "remediation": "Revoir la proportionnalité : une consommation par minute se multiplie par une durée en minutes.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Extraire et exploiter une donnée chiffrée"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.a03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans l'intestin grêle, les nutriments passent dans le sang à travers une paroi très repliée. Comment appelle-t-on ce passage des nutriments de l'intestin vers le sang ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "absorption",
+          "l'absorption",
+          "absorption intestinale"
+        ]
+      },
+      "solution": "Le passage des nutriments de l'intestin dans le sang s'appelle l'absorption intestinale.",
+      "step_by_step_solution": [
+        "Les aliments digérés donnent des nutriments.",
+        "Ces nutriments traversent la paroi de l'intestin grêle vers le sang.",
+        "Ce phénomène est l'absorption."
+      ],
+      "hints": [
+        "Le mot commence par « abs »."
+      ],
+      "common_errors": {
+        "digestion": "Confusion entre la digestion (transformation des aliments) et l'absorption (passage dans le sang)."
+      },
+      "remediation": "Distinguer sur un schéma : transformation des aliments dans le tube digestif, puis passage des nutriments dans le sang.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.a04",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi le sang qui sort d'un muscle au travail contient-il moins de dioxygène que celui qui y entre ?\nA. Le dioxygène s'échappe à travers la peau\nB. Le cœur retient le dioxygène\nC. Le dioxygène se transforme en nutriments\nD. Les cellules musculaires prélèvent et consomment du dioxygène",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Le sang perd du dioxygène dans le muscle car les cellules musculaires le prélèvent et le consomment. Bonne réponse : D. Les cellules musculaires prélèvent et consomment du dioxygène",
+      "step_by_step_solution": [
+        "Le sang arrive au muscle riche en dioxygène.",
+        "Les cellules musculaires prélèvent du dioxygène pour produire de l'énergie.",
+        "Le sang ressort donc appauvri en dioxygène."
+      ],
+      "hints": [
+        "Qui utilise le dioxygène dans le muscle ?"
+      ],
+      "common_errors": {
+        "A": "L'élève imagine que le dioxygène « se perd » dans l'air, alors qu'il est consommé par les cellules."
+      },
+      "remediation": "Comparer un tableau de composition du sang entrant et sortant d'un organe.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [
+        "Le dioxygène s'échappe à travers la peau",
+        "Le cœur retient le dioxygène",
+        "Le dioxygène se transforme en nutriments",
+        "Les cellules musculaires prélèvent et consomment du dioxygène"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.a05",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Seules les cellules des poumons ont besoin de dioxygène. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Toutes les cellules consomment du dioxygène : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Toutes les cellules du corps ont besoin de dioxygène ; les poumons sont seulement le lieu où il entre dans le sang.",
+      "step_by_step_solution": [
+        "Les poumons sont un lieu d'échange entre l'air et le sang.",
+        "Le sang distribue ensuite le dioxygène à tous les organes.",
+        "Toutes les cellules consomment du dioxygène : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Le dioxygène reste-t-il dans les poumons ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève confond l'organe d'entrée du dioxygène et les cellules qui l'utilisent."
+      },
+      "remediation": "Rappeler que chaque organe (cerveau, muscle, os…) est irrigué par du sang qui lui apporte du dioxygène.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.c01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Tableau : teneur en dioxygène du sang (en mL pour 100 mL de sang). Sang entrant dans le muscle au repos : 20 ; sang sortant du muscle au repos : 15. Calcule la quantité de dioxygène prélevée par le muscle pour 100 mL de sang. Réponds en mL.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 5,
+        "unit": "mL"
+      },
+      "solution": "Dioxygène prélevé = 20 − 15 = 5 mL pour 100 mL de sang.",
+      "step_by_step_solution": [
+        "On compare l'entrée et la sortie.",
+        "20 − 15 = 5.",
+        "Le muscle prélève 5 mL de dioxygène pour 100 mL de sang."
+      ],
+      "hints": [
+        "Le prélèvement est la différence entre ce qui entre et ce qui sort."
+      ],
+      "common_errors": {
+        "35 mL": "L'élève additionne les deux valeurs au lieu de calculer une différence."
+      },
+      "remediation": "Rappeler qu'un prélèvement se calcule par une différence entrée − sortie.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un tableau de données"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.c02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre le trajet d'un nutriment (le glucose), depuis l'aliment jusqu'à une cellule du cerveau.\nÉléments (dans le désordre) : sang / cellule du cerveau / bouche / intestin grêle / estomac\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "bouche",
+          "estomac",
+          "intestin grêle",
+          "sang",
+          "cellule du cerveau"
+        ]
+      },
+      "solution": "L'aliment est digéré le long du tube digestif ; le glucose est absorbé dans l'intestin grêle, passe dans le sang qui l'apporte au cerveau. Ordre attendu : bouche ; estomac ; intestin grêle ; sang ; cellule du cerveau.",
+      "step_by_step_solution": [
+        "L'aliment entre par la bouche puis passe dans l'estomac.",
+        "Dans l'intestin grêle, le glucose passe dans le sang.",
+        "Le sang l'apporte aux cellules du cerveau."
+      ],
+      "hints": [
+        "Où les nutriments passent-ils dans le sang ?"
+      ],
+      "common_errors": {
+        "bouche ; intestin grêle ; estomac ; sang ; cellule du cerveau": "L'élève place l'intestin grêle avant l'estomac : ordre du tube digestif mal connu."
+      },
+      "remediation": "Colorier le trajet sur un schéma du tube digestif puis relier au système circulatoire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.c03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Un élève affirme : « Quand je fais un effort, mes poumons consomment plus de dioxygène. » Vrai ou faux ? Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : L'affirmation confond lieu d'échange et lieu de consommation : elle est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Pendant l'effort ce sont surtout les cellules des muscles qui consomment davantage de dioxygène ; les poumons permettent son entrée dans le sang.",
+      "step_by_step_solution": [
+        "Les poumons sont le lieu des échanges gazeux.",
+        "Les cellules musculaires en activité consomment plus de dioxygène.",
+        "L'affirmation confond lieu d'échange et lieu de consommation : elle est fausse."
+      ],
+      "hints": [
+        "Quelles cellules travaillent davantage pendant l'effort ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense que le dioxygène est utilisé là où il entre (les poumons)."
+      },
+      "remediation": "Construire un tableau à deux colonnes : « organe d'échange » / « organe consommateur ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.c04",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque constituant du sang à ce qu'il transporte principalement.\nÀ gauche : globules rouges / plasma\nÀ droite : nutriments / dioxygène\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "globules rouges": "dioxygène",
+          "plasma": "nutriments"
+        }
+      },
+      "solution": "Les globules rouges transportent le dioxygène ; le plasma (partie liquide) transporte les nutriments dissous. Associations : globules rouges → dioxygène ; plasma → nutriments.",
+      "step_by_step_solution": [
+        "Les globules rouges contiennent de l'hémoglobine qui fixe le dioxygène.",
+        "Les nutriments sont dissous dans le plasma."
+      ],
+      "hints": [
+        "Le liquide du sang transporte ce qui est dissous."
+      ],
+      "common_errors": {
+        "globules rouges → nutriments ; plasma → dioxygène": "Inversion des rôles : l'élève ignore que le dioxygène est fixé par les globules rouges."
+      },
+      "remediation": "Observer un frottis sanguin au microscope et repérer les globules rouges.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.c05",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel organe met le sang en mouvement dans les vaisseaux ? Donne son nom.",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "cœur",
+          "coeur",
+          "le cœur",
+          "le coeur"
+        ]
+      },
+      "solution": "Le cœur est un muscle creux qui pompe le sang dans les vaisseaux.",
+      "step_by_step_solution": [
+        "Le sang circule en permanence.",
+        "Un organe musculaire se contracte régulièrement pour le propulser.",
+        "Cet organe est le cœur."
+      ],
+      "hints": [
+        "On peut sentir ses battements en posant la main sur la poitrine."
+      ],
+      "common_errors": {
+        "poumons": "L'élève confond l'organe d'échange des gaz avec la pompe qui fait circuler le sang."
+      },
+      "remediation": "Prendre son pouls et relier chaque pulsation à une contraction de l'organe qui pompe le sang.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins des cellules animales et le rôle des systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.x01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : après un repas, la teneur en glucose du sang qui sort de l'intestin grêle est de 2,0 g/L alors que celle du sang qui y entre est de 1,0 g/L. De combien la teneur en glucose a-t-elle augmenté ? Donne le résultat en g/L.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 1.0,
+        "unit": "g/L"
+      },
+      "solution": "Augmentation = 2,0 − 1,0 = 1,0 g/L : le sang s'est enrichi en glucose en traversant l'intestin grêle.",
+      "step_by_step_solution": [
+        "On compare le sang sortant et le sang entrant.",
+        "2,0 − 1,0 = 1,0.",
+        "Le sang s'enrichit de 1,0 g/L de glucose : c'est la preuve de l'absorption intestinale."
+      ],
+      "hints": [
+        "Calcule une différence sortie − entrée."
+      ],
+      "common_errors": {
+        "3,0 g/L": "L'élève additionne les teneurs au lieu de les comparer."
+      },
+      "remediation": "Reprendre la lecture de tableaux entrée / sortie d'un organe et interpréter le signe de la différence.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document",
+        "Relier absorption et transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.x02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Un organe reçoit du sang contenant 20 mL de dioxygène pour 100 mL de sang. Pendant un effort, le sang qui en sort n'en contient plus que 8 mL pour 100 mL. Quelle part (en %) du dioxygène apporté a été prélevée ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 60,
+        "unit": "%"
+      },
+      "solution": "Prélèvement = 20 − 8 = 12 mL ; part prélevée = 12 / 20 × 100 = 60 %.",
+      "step_by_step_solution": [
+        "On calcule le prélèvement : 20 − 8 = 12 mL.",
+        "On le rapporte à l'apport : 12 / 20 = 0,6.",
+        "Soit 60 % du dioxygène apporté."
+      ],
+      "hints": [
+        "Calcule d'abord la quantité prélevée.",
+        "Un pourcentage se calcule par rapport à la quantité de départ."
+      ],
+      "common_errors": {
+        "40 %": "L'élève a calculé la part restante (8 / 20) au lieu de la part prélevée."
+      },
+      "remediation": "Revoir le calcul d'une proportion : partie / total × 100.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document chiffré",
+        "Relier activité d'un organe et consommation"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-animaux.x03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre le trajet d'une molécule de dioxyde de carbone produite par une cellule musculaire jusqu'à sa sortie du corps.\nÉléments (dans le désordre) : cœur / air expiré / cellule musculaire / poumons / sang\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "cellule musculaire",
+          "sang",
+          "cœur",
+          "poumons",
+          "air expiré"
+        ]
+      },
+      "solution": "Le CO2 produit par la cellule passe dans le sang, retourne au cœur qui l'envoie aux poumons, puis il est expiré. Ordre attendu : cellule musculaire ; sang ; cœur ; poumons ; air expiré.",
+      "step_by_step_solution": [
+        "La cellule rejette le CO2 dans le sang.",
+        "Le sang revient au cœur.",
+        "Le cœur l'envoie aux poumons où le CO2 passe dans l'air.",
+        "Il est rejeté avec l'air expiré."
+      ],
+      "hints": [
+        "Le sang passe toujours par le cœur avant d'aller aux poumons."
+      ],
+      "common_errors": {
+        "cellule musculaire ; sang ; poumons ; cœur ; air expiré": "L'élève envoie le sang directement du muscle aux poumons sans passer par le cœur."
+      },
+      "remediation": "Reprendre le schéma de la double circulation simplifiée (corps → cœur → poumons → cœur → corps).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier production de déchets et systèmes de transport"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.d01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "De quoi une plante verte a-t-elle besoin pour fabriquer sa propre matière organique ?\nA. Uniquement d'eau\nB. De dioxygène et d'obscurité\nC. De l'eau, des sels minéraux, du dioxyde de carbone et de la lumière\nD. De la terre et des nutriments comme les animaux",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "La plante chlorophyllienne utilise de l'eau, des sels minéraux, du dioxyde de carbone et de l'énergie lumineuse. Bonne réponse : C. De l'eau, des sels minéraux, du dioxyde de carbone et de la lumière",
+      "step_by_step_solution": [
+        "Les feuilles captent la lumière et le dioxyde de carbone.",
+        "Les racines prélèvent l'eau et les sels minéraux.",
+        "Avec cela, la plante produit sa matière organique."
+      ],
+      "hints": [
+        "Pense à ce que la plante prélève dans l'air, dans le sol et à ce qu'elle capte du Soleil."
+      ],
+      "common_errors": {
+        "D": "L'élève pense que la plante « mange » de la matière organique du sol (terreau) : conception fréquente."
+      },
+      "remediation": "Comparer une plante cultivée en hydroponie (sans sol, eau + sels minéraux) et une plante à l'obscurité.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [
+        "Uniquement d'eau",
+        "De dioxygène et d'obscurité",
+        "De l'eau, des sels minéraux, du dioxyde de carbone et de la lumière",
+        "De la terre et des nutriments comme les animaux"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.d02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel gaz de l'air la plante utilise-t-elle, à la lumière, pour produire sa matière organique ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "dioxyde de carbone",
+          "le dioxyde de carbone",
+          "CO2",
+          "gaz carbonique"
+        ]
+      },
+      "solution": "À la lumière, les feuilles absorbent du dioxyde de carbone (CO2) pour fabriquer de la matière organique.",
+      "step_by_step_solution": [
+        "À la lumière, une plante verte fabrique de la matière organique.",
+        "Elle prélève pour cela un gaz de l'air contenant du carbone.",
+        "Ce gaz est le dioxyde de carbone."
+      ],
+      "hints": [
+        "Ce gaz contient l'élément carbone, présent dans toute matière organique."
+      ],
+      "common_errors": {
+        "dioxygène": "L'élève confond le gaz absorbé et le gaz rejeté lors de la photosynthèse."
+      },
+      "remediation": "Réaliser (ou analyser) une expérience d'enceinte éclairée avec suivi des teneurs en gaz.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.d03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Les racines d'une plante prélèvent l'eau et les sels minéraux dans le sol. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'eau et les sels minéraux entrent par les racines : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les poils absorbants des racines prélèvent l'eau et les sels minéraux du sol.",
+      "step_by_step_solution": [
+        "Les racines sont en contact avec le sol.",
+        "Leurs poils absorbants augmentent la surface de prélèvement.",
+        "L'eau et les sels minéraux entrent par les racines : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Observe les fines extrémités des racines d'un radis germé."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la plante prend l'eau par les feuilles."
+      },
+      "remediation": "Observer à la loupe des poils absorbants sur une jeune racine.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.d04",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque besoin de la plante à l'organe qui le prélève ou le capte.\nÀ gauche : eau / sels minéraux / dioxyde de carbone / lumière\nÀ droite : racines / feuilles\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "eau": "racines",
+          "sels minéraux": "racines",
+          "dioxyde de carbone": "feuilles",
+          "lumière": "feuilles"
+        }
+      },
+      "solution": "Les racines prélèvent l'eau et les sels minéraux ; les feuilles captent la lumière et le dioxyde de carbone. Associations : eau → racines ; sels minéraux → racines ; dioxyde de carbone → feuilles ; lumière → feuilles.",
+      "step_by_step_solution": [
+        "Ce qui est dans le sol est prélevé par les racines.",
+        "Ce qui est dans l'air et la lumière sont captés par les feuilles."
+      ],
+      "hints": [
+        "Où se trouve chaque ressource : dans le sol ou dans l'air ?"
+      ],
+      "common_errors": {
+        "eau → feuilles ; sels minéraux → racines ; dioxyde de carbone → racines ; lumière → feuilles": "L'élève pense que l'eau entre par les feuilles et le CO2 par les racines."
+      },
+      "remediation": "Faire un schéma d'une plante avec les entrées sol / air en deux couleurs.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.d05",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Par quel type d'organe une plante rejette-t-elle du dioxygène, à la lumière ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "feuilles",
+          "les feuilles",
+          "feuille",
+          "la feuille"
+        ]
+      },
+      "solution": "Ce sont les feuilles (organes verts) qui, à la lumière, rejettent du dioxygène.",
+      "step_by_step_solution": [
+        "Le dioxygène est produit par les parties vertes de la plante.",
+        "Les principaux organes verts sont les feuilles."
+      ],
+      "hints": [
+        "Les organes concernés sont verts et éclairés."
+      ],
+      "common_errors": {
+        "racines": "Confusion entre organes de prélèvement (racines) et organes de production (parties vertes)."
+      },
+      "remediation": "Expérience de l'élodée éclairée : observer les bulles de gaz qui se dégagent des feuilles.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.a01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Une expérience : deux plants identiques sont placés, l'un à la lumière, l'autre à l'obscurité pendant 48 h. On teste les feuilles à l'eau iodée : seules les feuilles éclairées deviennent bleu-violet. Quelle substance organique l'eau iodée met-elle en évidence ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "amidon",
+          "l'amidon"
+        ]
+      },
+      "solution": "L'eau iodée colore l'amidon en bleu-violet (presque noir) : les feuilles éclairées ont produit de l'amidon.",
+      "step_by_step_solution": [
+        "L'eau iodée est un réactif spécifique d'une substance.",
+        "La coloration bleu-violet indique la présence d'amidon.",
+        "Seules les feuilles éclairées ont produit de l'amidon."
+      ],
+      "hints": [
+        "C'est une réserve de sucre très abondante dans la pomme de terre."
+      ],
+      "common_errors": {
+        "glucose": "Le glucose ne réagit pas avec l'eau iodée ; c'est la liqueur de Fehling qui le révèle."
+      },
+      "remediation": "Faire le test à l'eau iodée sur une tranche de pomme de terre et sur une goutte d'eau sucrée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.a02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Avec l'expérience précédente (feuilles éclairées colorées par l'eau iodée, feuilles à l'obscurité non colorées), quelle conclusion tirer ?\nA. La production de matière organique nécessite la lumière\nB. La production de matière organique nécessite de l'eau\nC. Les racines produisent l'amidon\nD. L'obscurité favorise la production de matière organique",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La production de matière organique par les feuilles nécessite la lumière. Bonne réponse : A. La production de matière organique nécessite la lumière",
+      "step_by_step_solution": [
+        "Seul le facteur lumière diffère entre les deux plants.",
+        "Seules les feuilles éclairées contiennent de l'amidon.",
+        "La production de matière organique nécessite donc la lumière."
+      ],
+      "hints": [
+        "Quel est le seul facteur qui change entre les deux plants ?"
+      ],
+      "common_errors": {
+        "B": "L'élève conclut sur un facteur qui n'a pas été testé (l'eau)."
+      },
+      "remediation": "Revoir la démarche expérimentale : un seul facteur varie entre le témoin et le test.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [
+        "La production de matière organique nécessite la lumière",
+        "La production de matière organique nécessite de l'eau",
+        "Les racines produisent l'amidon",
+        "L'obscurité favorise la production de matière organique"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.a03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? La sève brute circule des racines vers les feuilles et contient de l'eau et des sels minéraux. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Ils y sont conduits par la sève brute : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. La sève brute (eau + sels minéraux) monte des racines vers les feuilles dans des vaisseaux conducteurs.",
+      "step_by_step_solution": [
+        "L'eau et les sels minéraux sont prélevés par les racines.",
+        "Ils doivent atteindre les feuilles.",
+        "Ils y sont conduits par la sève brute : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Comment l'eau prélevée par les racines rejoint-elle les feuilles ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève confond sève brute et sève élaborée (qui contient les sucres produits par les feuilles)."
+      },
+      "remediation": "Placer une tige de céleri dans de l'eau colorée et observer la montée du colorant.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.a04",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quelle sève transporte les sucres produits par les feuilles vers les autres organes (racines, fruits, tubercules) ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "sève élaborée",
+          "la sève élaborée",
+          "seve elaboree"
+        ]
+      },
+      "solution": "La sève élaborée transporte la matière organique (sucres) produite par les feuilles vers tous les organes.",
+      "step_by_step_solution": [
+        "Les feuilles produisent des sucres.",
+        "Ces sucres doivent aller vers les organes non chlorophylliens.",
+        "Ils circulent dans la sève élaborée."
+      ],
+      "hints": [
+        "Cette sève a été « fabriquée » (élaborée) grâce aux feuilles."
+      ],
+      "common_errors": {
+        "sève brute": "Confusion : la sève brute contient de l'eau et des sels minéraux et monte depuis les racines."
+      },
+      "remediation": "Construire un tableau comparatif sève brute / sève élaborée (contenu, origine, destination).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.a05",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Un tubercule de pomme de terre se développe sous terre, à l'obscurité, et contient beaucoup d'amidon. Vrai ou faux ? Cet amidon a été fabriqué dans le tubercule à partir de la lumière qu'il reçoit. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Elle est transportée par la sève élaborée et stockée sous forme d'amidon dans le tubercule."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Le tubercule est à l'obscurité : l'amidon qu'il contient provient des sucres produits par les feuilles et apportés par la sève élaborée, puis stockés.",
+      "step_by_step_solution": [
+        "Le tubercule est sous terre, il ne reçoit pas de lumière.",
+        "La matière organique est produite dans les feuilles éclairées.",
+        "Elle est transportée par la sève élaborée et stockée sous forme d'amidon dans le tubercule."
+      ],
+      "hints": [
+        "Un organe à l'obscurité peut-il produire de la matière organique ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève confond lieu de stockage et lieu de production."
+      },
+      "remediation": "Distinguer sur un schéma les organes producteurs (feuilles) et les organes de stockage (tubercules, graines, fruits).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.c01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre le trajet de l'eau dans une plante, du sol jusqu'à l'air.\nÉléments (dans le désordre) : air (vapeur d'eau) / vaisseaux de la tige / poils absorbants / feuilles / sol\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "sol",
+          "poils absorbants",
+          "vaisseaux de la tige",
+          "feuilles",
+          "air (vapeur d'eau)"
+        ]
+      },
+      "solution": "L'eau du sol entre par les poils absorbants, monte dans les vaisseaux (sève brute) jusqu'aux feuilles, d'où une partie s'évapore. Ordre attendu : sol ; poils absorbants ; vaisseaux de la tige ; feuilles ; air (vapeur d'eau).",
+      "step_by_step_solution": [
+        "L'eau entre par les poils absorbants des racines.",
+        "Elle monte dans les vaisseaux de la tige.",
+        "Elle arrive dans les feuilles, d'où une partie s'évapore dans l'air."
+      ],
+      "hints": [
+        "L'entrée se fait par les racines, la sortie par les feuilles."
+      ],
+      "common_errors": {
+        "sol ; vaisseaux de la tige ; poils absorbants ; feuilles ; air (vapeur d'eau)": "L'élève place les vaisseaux avant les poils absorbants : il ignore le point d'entrée."
+      },
+      "remediation": "Faire l'expérience du sac plastique autour d'un rameau feuillé (apparition de buée).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.c02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : une plante en pot de 500 g (pot + terre + plante) est arrosée régulièrement. Après 5 ans, la plante a pris 2 000 g alors que la terre n'a perdu que 50 g. D'où provient l'essentiel de la matière de la plante ?\nA. Du dioxyde de carbone de l'air et de l'eau\nB. De la terre du pot\nC. Des engrais uniquement\nD. De la lumière transformée en matière",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La terre n'a presque pas perdu de masse : la matière de la plante vient surtout du dioxyde de carbone de l'air et de l'eau, grâce à la lumière. Bonne réponse : A. Du dioxyde de carbone de l'air et de l'eau",
+      "step_by_step_solution": [
+        "La plante a gagné 2 000 g, la terre n'en a perdu que 50 g.",
+        "La terre ne peut donc pas être la source principale.",
+        "La matière organique est fabriquée à partir du dioxyde de carbone de l'air et de l'eau."
+      ],
+      "hints": [
+        "Compare la masse gagnée par la plante et la masse perdue par la terre."
+      ],
+      "common_errors": {
+        "B": "Conception « la plante mange la terre » contredite par les données."
+      },
+      "remediation": "Présenter l'expérience historique de Van Helmont et discuter ses conclusions.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [
+        "Du dioxyde de carbone de l'air et de l'eau",
+        "De la terre du pot",
+        "Des engrais uniquement",
+        "De la lumière transformée en matière"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.c03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque organe de la plante à sa fonction principale dans la nutrition.\nÀ gauche : feuille / racine / tige / tubercule\nÀ droite : stockage de réserves / production de matière organique / transport des sèves / prélèvement de l'eau et des sels minéraux\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "feuille": "production de matière organique",
+          "racine": "prélèvement de l'eau et des sels minéraux",
+          "tige": "transport des sèves",
+          "tubercule": "stockage de réserves"
+        }
+      },
+      "solution": "Chaque organe a un rôle : la feuille produit, la racine prélève, la tige transporte, le tubercule stocke. Associations : feuille → production de matière organique ; racine → prélèvement de l'eau et des sels minéraux ; tige → transport des sèves ; tubercule → stockage de réserves.",
+      "step_by_step_solution": [
+        "La feuille est le lieu de production à la lumière.",
+        "La racine prélève dans le sol.",
+        "La tige contient les vaisseaux conducteurs.",
+        "Le tubercule accumule des réserves."
+      ],
+      "hints": [
+        "Distingue produire, prélever, transporter et stocker."
+      ],
+      "common_errors": {
+        "feuille → stockage de réserves ; racine → prélèvement de l'eau et des sels minéraux ; tige → transport des sèves ; tubercule → production de matière organique": "Confusion entre production et stockage de la matière organique."
+      },
+      "remediation": "Construire une carte mentale « production / prélèvement / transport / stockage ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.c04",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Un élève met une élodée (plante aquatique) dans l'eau à la lumière puis à l'obscurité. Des bulles de gaz se forment seulement à la lumière. Quel gaz forme ces bulles ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "dioxygène",
+          "le dioxygène",
+          "O2",
+          "oxygène"
+        ]
+      },
+      "solution": "À la lumière, l'élodée produit de la matière organique et rejette du dioxygène : ce sont les bulles observées.",
+      "step_by_step_solution": [
+        "Les bulles n'apparaissent qu'à la lumière.",
+        "À la lumière, les végétaux verts rejettent un gaz.",
+        "Ce gaz est le dioxygène."
+      ],
+      "hints": [
+        "Ce gaz ravive une bûchette incandescente."
+      ],
+      "common_errors": {
+        "dioxyde de carbone": "L'élève inverse les échanges gazeux de la production de matière organique à la lumière."
+      },
+      "remediation": "Mesurer avec une sonde la teneur en dioxygène de l'eau autour d'une élodée à la lumière et à l'obscurité.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.c05",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Une plante verte n'a besoin de rien d'autre que d'eau pour grandir. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Sans sels minéraux, la croissance est très réduite : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. La plante a aussi besoin de sels minéraux, de dioxyde de carbone et de lumière.",
+      "step_by_step_solution": [
+        "L'eau est indispensable mais pas suffisante.",
+        "Sans lumière ou sans CO2, pas de production de matière organique.",
+        "Sans sels minéraux, la croissance est très réduite : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Que se passe-t-il pour une plante arrosée mais placée dans le noir ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève réduit les besoins de la plante à l'arrosage."
+      },
+      "remediation": "Comparer des cultures avec et sans lumière, avec et sans sels minéraux (eau distillée).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier les besoins d'une plante chlorophyllienne, les lieux de production et les transports de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.x01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : une feuille a été recouverte en partie d'un cache opaque et laissée 24 h à la lumière. Au test à l'eau iodée, seule la partie éclairée devient bleu-violet. Quelle est la conclusion la plus rigoureuse ?\nA. L'amidon est apporté par les racines\nB. L'eau iodée ne fonctionne qu'à la lumière\nC. La production d'amidon dans la feuille nécessite la lumière\nD. Le cache détruit l'amidon",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Seule la partie éclairée contient de l'amidon : la production d'amidon dans la feuille nécessite la lumière. Bonne réponse : C. La production d'amidon dans la feuille nécessite la lumière",
+      "step_by_step_solution": [
+        "La partie cachée et la partie éclairée appartiennent à la même feuille.",
+        "Seule la lumière diffère.",
+        "La production d'amidon nécessite donc la lumière."
+      ],
+      "hints": [
+        "Les deux parties de la feuille ont la même eau et le même CO2 : quelle différence reste-t-il ?"
+      ],
+      "common_errors": {
+        "D": "L'élève attribue le résultat au cache qui « empoisonnerait » la feuille au lieu de raisonner sur le facteur testé."
+      },
+      "remediation": "Revoir la notion de témoin : la partie éclairée sert de témoin à la partie cachée.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Interpréter une expérience",
+        "Identifier le facteur testé"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [
+        "L'amidon est apporté par les racines",
+        "L'eau iodée ne fonctionne qu'à la lumière",
+        "La production d'amidon dans la feuille nécessite la lumière",
+        "Le cache détruit l'amidon"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.x02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : un plant de tomate absorbe 2 L d'eau par jour ; seulement 2 % de cette eau reste dans la plante, le reste s'évapore par les feuilles. Quel volume d'eau reste chaque jour dans la plante ? Donne le résultat en mL.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 40,
+        "unit": "mL"
+      },
+      "solution": "2 % de 2 L = 0,02 × 2 = 0,04 L, soit 40 mL.",
+      "step_by_step_solution": [
+        "2 L = 2 000 mL.",
+        "2 % de 2 000 mL = 0,02 × 2 000 = 40 mL.",
+        "Il reste 40 mL d'eau par jour dans la plante."
+      ],
+      "hints": [
+        "Convertis d'abord 2 L en mL.",
+        "Calculer 2 % revient à multiplier par 0,02."
+      ],
+      "common_errors": {
+        "1960 mL": "L'élève a calculé le volume évaporé (98 %) au lieu du volume retenu."
+      },
+      "remediation": "Revoir le calcul d'un pourcentage et les conversions L / mL.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document chiffré",
+        "Relier transport de l'eau et évaporation"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.besoins-plante.x03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes qui mènent au stockage de l'amidon dans un tubercule de pomme de terre.\nÉléments (dans le désordre) : production de sucres dans les feuilles / transport des sucres par la sève élaborée / stockage sous forme d'amidon dans le tubercule / captage de la lumière par les feuilles\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "captage de la lumière par les feuilles",
+          "production de sucres dans les feuilles",
+          "transport des sucres par la sève élaborée",
+          "stockage sous forme d'amidon dans le tubercule"
+        ]
+      },
+      "solution": "La lumière permet aux feuilles de produire des sucres, qui sont transportés par la sève élaborée et stockés sous forme d'amidon. Ordre attendu : captage de la lumière par les feuilles ; production de sucres dans les feuilles ; transport des sucres par la sève élaborée ; stockage sous forme d'amidon dans le tubercule.",
+      "step_by_step_solution": [
+        "Les feuilles captent la lumière.",
+        "Elles produisent des sucres.",
+        "Les sucres circulent dans la sève élaborée.",
+        "Ils sont stockés en amidon dans le tubercule."
+      ],
+      "hints": [
+        "Le stockage a lieu loin du lieu de production."
+      ],
+      "common_errors": {
+        "captage de la lumière par les feuilles ; transport des sucres par la sève élaborée ; production de sucres dans les feuilles ; stockage sous forme d'amidon dans le tubercule": "L'élève place le transport avant la production : il pense que les sucres viennent du sol."
+      },
+      "remediation": "Schématiser la plante entière avec les flèches production → transport → stockage.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Relier production, transport et stockage de matière"
+      ],
+      "source_notions": [
+        "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.d01",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pendant une course, que deviennent le rythme cardiaque et le rythme respiratoire par rapport au repos ?\nA. Seul le rythme cardiaque augmente\nB. Ils diminuent tous les deux\nC. Ils restent identiques\nD. Ils augmentent tous les deux",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Pendant l'effort, le cœur bat plus vite et la respiration s'accélère. Bonne réponse : D. Ils augmentent tous les deux",
+      "step_by_step_solution": [
+        "On compte ses battements de cœur et ses mouvements respiratoires au repos.",
+        "On les recompte après une course.",
+        "Les deux rythmes augmentent."
+      ],
+      "hints": [
+        "Souviens-toi de ton essoufflement après une course."
+      ],
+      "common_errors": {
+        "A": "L'élève pense que seul le cœur accélère et oublie la respiration."
+      },
+      "remediation": "Mesurer son pouls et son rythme respiratoire au repos puis après 30 flexions.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [
+        "Seul le rythme cardiaque augmente",
+        "Ils diminuent tous les deux",
+        "Ils restent identiques",
+        "Ils augmentent tous les deux"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.d02",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Léa compte 20 battements de cœur en 15 secondes au repos. Quelle est sa fréquence cardiaque en battements par minute ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "80"
+      },
+      "solution": "Une minute = 4 × 15 s, donc fréquence = 20 × 4 = 80 battements par minute.",
+      "step_by_step_solution": [
+        "Une minute contient 4 fois 15 secondes.",
+        "On multiplie donc le nombre de battements par 4.",
+        "20 × 4 = 80."
+      ],
+      "hints": [
+        "Combien de fois 15 secondes y a-t-il dans une minute ?"
+      ],
+      "common_errors": {
+        "35": "L'élève ajoute 15 au lieu de multiplier par 4."
+      },
+      "remediation": "S'entraîner à convertir un comptage sur 15 s, 30 s ou 10 s en valeur par minute.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Mesurer et calculer une fréquence"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.d03",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Pendant un effort, les muscles consomment plus de dioxygène qu'au repos. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Plus le muscle travaille, plus il consomme de dioxygène : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les muscles en activité ont besoin de plus d'énergie, donc de plus de dioxygène et de nutriments.",
+      "step_by_step_solution": [
+        "Un muscle qui se contracte a besoin d'énergie.",
+        "L'énergie est produite à partir de nutriments et de dioxygène.",
+        "Plus le muscle travaille, plus il consomme de dioxygène : l'affirmation est vraie."
+      ],
+      "hints": [
+        "À quoi sert le dioxygène pour une cellule musculaire ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la consommation de dioxygène est la même quel que soit l'effort."
+      },
+      "remediation": "Analyser un graphique de consommation de dioxygène en fonction de l'intensité de l'effort.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.d04",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel organe accélère ses battements pendant un effort pour envoyer plus de sang aux muscles ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "cœur",
+          "coeur",
+          "le cœur",
+          "le coeur"
+        ]
+      },
+      "solution": "C'est le cœur qui accélère, ce qui augmente le débit de sang vers les muscles.",
+      "step_by_step_solution": [
+        "Les muscles ont besoin de plus de sang pendant l'effort.",
+        "L'organe qui pompe le sang bat plus vite."
+      ],
+      "hints": [
+        "On peut prendre ses battements au poignet ou au cou."
+      ],
+      "common_errors": {
+        "poumons": "L'élève confond la pompe du sang et l'organe des échanges gazeux."
+      },
+      "remediation": "Prendre son pouls au repos et après un effort, puis relier chaque pulsation à un battement.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.d05",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pour mesurer sa fréquence respiratoire, on compte :\nA. le nombre de battements du cœur par minute\nB. le volume d'air d'une inspiration\nC. la durée d'une course\nD. le nombre de mouvements respiratoires par minute",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "La fréquence respiratoire est le nombre de mouvements respiratoires (inspiration + expiration) par minute. Bonne réponse : D. le nombre de mouvements respiratoires par minute",
+      "step_by_step_solution": [
+        "Un mouvement respiratoire = une inspiration suivie d'une expiration.",
+        "On compte ces cycles pendant une minute."
+      ],
+      "hints": [
+        "Observe les mouvements de ta cage thoracique."
+      ],
+      "common_errors": {
+        "A": "Confusion entre fréquence respiratoire et fréquence cardiaque."
+      },
+      "remediation": "Compter ses cycles respiratoires en posant la main sur le thorax.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [
+        "le nombre de battements du cœur par minute",
+        "le volume d'air d'une inspiration",
+        "la durée d'une course",
+        "le nombre de mouvements respiratoires par minute"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.a01",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un élève a une fréquence respiratoire de 15 mouvements par minute et inspire 0,5 L d'air à chaque mouvement. Quel volume d'air entre dans ses poumons en une minute ? Réponds en L.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 7.5,
+        "unit": "L"
+      },
+      "solution": "Volume par minute = 15 × 0,5 = 7,5 L.",
+      "step_by_step_solution": [
+        "À chaque mouvement, 0,5 L d'air entre.",
+        "Il y a 15 mouvements par minute.",
+        "15 × 0,5 = 7,5 L."
+      ],
+      "hints": [
+        "Multiplie le volume d'un mouvement par le nombre de mouvements."
+      ],
+      "common_errors": {
+        "30 L": "L'élève divise 15 par 0,5 au lieu de multiplier."
+      },
+      "remediation": "Revoir la notion de débit : volume par mouvement × nombre de mouvements par minute.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un débit ventilatoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.a02",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Tableau : fréquence cardiaque de Tom au repos : 70 battements/min ; pendant une course : 150 battements/min. De combien de battements par minute sa fréquence cardiaque a-t-elle augmenté ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "80"
+      },
+      "solution": "Augmentation = 150 − 70 = 80 battements par minute.",
+      "step_by_step_solution": [
+        "On compare la valeur à l'effort et la valeur au repos.",
+        "150 − 70 = 80."
+      ],
+      "hints": [
+        "Calcule une différence."
+      ],
+      "common_errors": {
+        "220": "L'élève additionne les deux valeurs au lieu de les soustraire."
+      },
+      "remediation": "Revoir la lecture d'un tableau de mesures et le calcul d'une variation.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter des mesures"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.a03",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi le rythme respiratoire augmente-t-il pendant l'effort ?\nA. Pour diminuer le travail du cœur\nB. Pour apporter plus de dioxygène aux muscles et rejeter plus de dioxyde de carbone\nC. Pour refroidir les poumons\nD. Pour digérer plus vite",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "La respiration s'accélère pour faire entrer davantage de dioxygène et rejeter le dioxyde de carbone produit en plus grande quantité par les muscles. Bonne réponse : B. Pour apporter plus de dioxygène aux muscles et rejeter plus de dioxyde de carbone",
+      "step_by_step_solution": [
+        "Les muscles consomment plus de dioxygène.",
+        "Ils rejettent plus de dioxyde de carbone.",
+        "Respirer plus vite augmente les échanges gazeux dans les poumons."
+      ],
+      "hints": [
+        "Relie les besoins des muscles à ce qui entre et sort des poumons."
+      ],
+      "common_errors": {
+        "C": "L'élève pense que les poumons eux-mêmes ont besoin de plus d'air pour « se refroidir »."
+      },
+      "remediation": "Construire un schéma fléché : effort → besoins des muscles → réponses du cœur et des poumons.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [
+        "Pour diminuer le travail du cœur",
+        "Pour apporter plus de dioxygène aux muscles et rejeter plus de dioxyde de carbone",
+        "Pour refroidir les poumons",
+        "Pour digérer plus vite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.a04",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Juste après la fin d'un effort, le rythme cardiaque revient instantanément à sa valeur de repos. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Il faut plusieurs minutes pour revenir à la valeur de repos : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Après l'effort, le rythme cardiaque diminue progressivement pendant plusieurs minutes : c'est la récupération.",
+      "step_by_step_solution": [
+        "À la fin de l'effort, les besoins des muscles diminuent.",
+        "Le rythme cardiaque baisse progressivement.",
+        "Il faut plusieurs minutes pour revenir à la valeur de repos : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Observe l'allure d'une courbe de fréquence cardiaque après un effort."
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense que le retour au repos est immédiat."
+      },
+      "remediation": "Tracer la courbe de sa fréquence cardiaque toutes les minutes après un effort.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.a05",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque grandeur à son unité usuelle.\nÀ gauche : fréquence cardiaque / fréquence respiratoire / volume d'air inspiré\nÀ droite : mouvements par minute / battements par minute / litres\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "fréquence cardiaque": "battements par minute",
+          "fréquence respiratoire": "mouvements par minute",
+          "volume d'air inspiré": "litres"
+        }
+      },
+      "solution": "Chaque grandeur mesurée a son unité : battements/min, mouvements/min et litres. Associations : fréquence cardiaque → battements par minute ; fréquence respiratoire → mouvements par minute ; volume d'air inspiré → litres.",
+      "step_by_step_solution": [
+        "La fréquence cardiaque compte des battements.",
+        "La fréquence respiratoire compte des mouvements respiratoires.",
+        "Un volume s'exprime en litres."
+      ],
+      "hints": [
+        "Une fréquence compte un nombre d'événements par minute."
+      ],
+      "common_errors": {
+        "fréquence cardiaque → mouvements par minute ; fréquence respiratoire → battements par minute ; volume d'air inspiré → litres": "Confusion entre battements du cœur et mouvements respiratoires."
+      },
+      "remediation": "Remplir un tableau de mesures en indiquant systématiquement les unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser les unités adaptées"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.c01",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une formule couramment utilisée estime la fréquence cardiaque maximale (en battements par minute) par : 220 − âge. Quelle est la fréquence cardiaque maximale estimée d'un élève de 12 ans ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "208"
+      },
+      "solution": "220 − 12 = 208 battements par minute (valeur approximative).",
+      "step_by_step_solution": [
+        "On applique la formule : 220 − âge.",
+        "220 − 12 = 208."
+      ],
+      "hints": [
+        "Remplace « âge » par la valeur donnée."
+      ],
+      "common_errors": {
+        "232": "L'élève a ajouté l'âge au lieu de le soustraire."
+      },
+      "remediation": "Rappeler que cette formule donne une estimation moyenne et qu'elle varie d'une personne à l'autre.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Appliquer une formule donnée"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.c02",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Classe dans l'ordre les événements qui se produisent quand on commence à courir.\nÉléments (dans le désordre) : le système nerveux commande l'accélération du cœur et de la respiration / le débit de sang vers les muscles augmente / les besoins des muscles en dioxygène augmentent / les muscles se contractent davantage\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "les muscles se contractent davantage",
+          "les besoins des muscles en dioxygène augmentent",
+          "le système nerveux commande l'accélération du cœur et de la respiration",
+          "le débit de sang vers les muscles augmente"
+        ]
+      },
+      "solution": "L'activité musculaire augmente les besoins ; le système nerveux commande l'accélération cardiaque et respiratoire, ce qui augmente l'apport de sang aux muscles. Ordre attendu : les muscles se contractent davantage ; les besoins des muscles en dioxygène augmentent ; le système nerveux commande l'accélération du cœur et de la respiration ; le débit de sang vers les muscles augmente.",
+      "step_by_step_solution": [
+        "La course commence par la contraction des muscles.",
+        "Leurs besoins augmentent.",
+        "Le système nerveux commande l'accélération du cœur et de la respiration.",
+        "Plus de sang arrive aux muscles."
+      ],
+      "hints": [
+        "La cause première est l'activité des muscles."
+      ],
+      "common_errors": {
+        "les muscles se contractent davantage ; le système nerveux commande l'accélération du cœur et de la respiration ; les besoins des muscles en dioxygène augmentent ; le débit de sang vers les muscles augmente": "L'élève place l'accélération avant l'augmentation des besoins : il inverse cause et conséquence."
+      },
+      "remediation": "Construire un schéma fonctionnel reliant muscles, système nerveux, cœur et poumons.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.c03",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : Julie (sportive) retrouve sa fréquence cardiaque de repos 3 minutes après un effort ; Paul (non entraîné) la retrouve après 8 minutes. Combien de minutes de plus Paul met-il pour récupérer ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "8 − 3 = 5 minutes de plus pour Paul : l'entraînement raccourcit le temps de récupération.",
+      "step_by_step_solution": [
+        "On compare les deux durées de récupération.",
+        "8 − 3 = 5."
+      ],
+      "hints": [
+        "Calcule l'écart entre les deux durées."
+      ],
+      "common_errors": {
+        "11": "L'élève additionne les durées au lieu de calculer l'écart."
+      },
+      "remediation": "Discuter du lien entre entraînement régulier et récupération plus rapide.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un document",
+        "Comparer des données"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.c04",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Pendant un effort, le cœur envoie davantage de sang aux muscles par minute qu'au repos. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Le volume envoyé par minute augmente donc : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Le cœur bat plus vite (et plus fort) : le volume de sang envoyé par minute augmente, ce qui apporte plus de dioxygène et de nutriments aux muscles.",
+      "step_by_step_solution": [
+        "La fréquence cardiaque augmente pendant l'effort.",
+        "Chaque battement envoie du sang.",
+        "Le volume envoyé par minute augmente donc : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Relie le nombre de battements et le volume de sang envoyé."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que le cœur bat plus vite mais envoie autant de sang."
+      },
+      "remediation": "Calculer un volume de sang par minute pour deux fréquences cardiaques différentes.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.c05",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Pendant un effort, quel gaz, produit en plus grande quantité par les muscles, est rejeté davantage par les poumons ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "dioxyde de carbone",
+          "le dioxyde de carbone",
+          "CO2",
+          "gaz carbonique"
+        ]
+      },
+      "solution": "Les muscles en activité produisent plus de dioxyde de carbone, qui est rejeté par les poumons.",
+      "step_by_step_solution": [
+        "Les cellules musculaires utilisent du dioxygène et rejettent un déchet gazeux.",
+        "Ce déchet est rejeté dans l'air expiré."
+      ],
+      "hints": [
+        "Ce gaz trouble l'eau de chaux."
+      ],
+      "common_errors": {
+        "dioxygène": "L'élève confond le gaz consommé et le gaz rejeté par les muscles."
+      },
+      "remediation": "Tester l'air expiré au repos et après un effort avec de l'eau de chaux.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Relier effort physique, rythme cardiaque et rythme respiratoire"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.x01",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "À chaque battement, le cœur de Sami envoie 70 mL de sang. Pendant un effort, sa fréquence cardiaque est de 150 battements par minute. Quel volume de sang son cœur envoie-t-il par minute ? Réponds en L/min.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 10.5,
+        "unit": "L/min"
+      },
+      "solution": "70 mL × 150 = 10 500 mL par minute, soit 10,5 L/min.",
+      "step_by_step_solution": [
+        "Volume par minute = volume par battement × nombre de battements par minute.",
+        "70 × 150 = 10 500 mL.",
+        "10 500 mL = 10,5 L : 10,5 L/min."
+      ],
+      "hints": [
+        "Calcule d'abord en mL, puis convertis en L.",
+        "1 L = 1 000 mL."
+      ],
+      "common_errors": {
+        "10500 L/min": "L'élève oublie la conversion des mL en L."
+      },
+      "remediation": "Revoir les conversions de volume et la notion de débit.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un débit",
+        "Convertir des unités"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.x02",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : débit ventilatoire de Nina : au repos 8 L/min ; pendant un effort 40 L/min. Par combien son débit ventilatoire a-t-il été multiplié ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "40 / 8 = 5 : le débit ventilatoire a été multiplié par 5 pendant l'effort.",
+      "step_by_step_solution": [
+        "On cherche un facteur multiplicatif.",
+        "40 / 8 = 5."
+      ],
+      "hints": [
+        "« Multiplié par combien » : on divise la grande valeur par la petite."
+      ],
+      "common_errors": {
+        "32": "L'élève a calculé une différence (40 − 8) alors qu'on demande un facteur multiplicatif."
+      },
+      "remediation": "Distinguer augmentation absolue (différence) et facteur multiplicatif (quotient).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un document chiffré"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.SVT.5E.effort.x03",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Un élève a une fréquence cardiaque maximale estimée à 206 battements par minute. Son professeur lui conseille de courir à 70 % de cette valeur. Quelle fréquence cardiaque doit-il viser, arrondie à l'unité ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "144"
+      },
+      "solution": "0,70 × 206 = 144,2, soit environ 144 battements par minute.",
+      "step_by_step_solution": [
+        "70 % de 206 = 0,70 × 206.",
+        "0,70 × 206 = 144,2.",
+        "On arrondit à l'unité : 144 battements par minute."
+      ],
+      "hints": [
+        "Calculer 70 % revient à multiplier par 0,70."
+      ],
+      "common_errors": {
+        "136": "L'élève a retiré 70 à la valeur au lieu de calculer 70 %."
+      },
+      "remediation": "Revoir le calcul d'un pourcentage d'une valeur.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un pourcentage",
+        "Relier effort et fréquence cardiaque"
+      ],
+      "source_notions": [
+        "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

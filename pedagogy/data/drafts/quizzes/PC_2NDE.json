@@ -1,0 +1,779 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q01",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "La constante d'Avogadro vaut environ :",
+      "choices": [
+        "6,02 × 10^23 mol⁻¹",
+        "6,02 × 10^-23 mol⁻¹",
+        "1,67 × 10^-27 mol⁻¹",
+        "6,02 × 10^32 mol⁻¹"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6,02 × 10^23 mol⁻¹",
+      "answer_kind": "QUANTITY",
+      "explanation": "NA ≈ 6,02 × 10^23 mol⁻¹ : c'est le nombre d'entités dans une mole.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Exposant de signe inversé.",
+        "2": "C'est la masse d'un atome d'hydrogène en kg.",
+        "3": "Exposant erroné."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q02",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "La quantité de matière s'exprime en :",
+      "choices": [
+        "mole",
+        "gramme",
+        "litre",
+        "kilogramme par litre"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "mole",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'unité de quantité de matière est la mole (symbole mol).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Unité de masse.",
+        "2": "Unité de volume.",
+        "3": "Unité de concentration en masse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q03",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "La relation entre la quantité de matière n, le nombre d'entités N et la constante d'Avogadro NA est :",
+      "choices": [
+        "n = N / NA",
+        "n = N × NA",
+        "n = NA / N",
+        "n = N + NA"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "n = N / NA",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "n compte les paquets de NA entités : n = N / NA.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Produit au lieu d'un quotient.",
+        "2": "Quotient inversé.",
+        "3": "Somme sans signification."
+      },
+      "common_error_target": {
+        "1": "multiplication par NA"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q04",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "3,01 × 10^23 molécules correspondent à une quantité de matière de :",
+      "choices": [
+        "0,500 mol",
+        "2,00 mol",
+        "1,81 × 10^47 mol",
+        "5,00 mol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,500 mol",
+      "answer_kind": "QUANTITY",
+      "explanation": "n = N / NA = 3,01 × 10^23 ÷ 6,02 × 10^23 = 0,500 mol.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Quotient inversé.",
+        "2": "Produit N × NA.",
+        "3": "Erreur de puissance de 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q05",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un échantillon contient 2,0 mol d'atomes. Le nombre d'atomes qu'il contient est environ :",
+      "choices": [
+        "1,2 × 10^24",
+        "3,0 × 10^23",
+        "6,0 × 10^23",
+        "1,2 × 10^23"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,2 × 10^24",
+      "answer_kind": "QUANTITY",
+      "explanation": "N = n × NA = 2,0 × 6,02 × 10^23 ≈ 1,2 × 10^24.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Division par 2 au lieu de multiplication.",
+        "2": "Valeur pour 1,0 mol.",
+        "3": "Erreur de puissance de 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q06",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Avec m(H) = 1,67 × 10^-27 kg, la masse d'une molécule de dihydrogène H2 est :",
+      "choices": [
+        "3,34 × 10^-27 kg",
+        "1,67 × 10^-27 kg",
+        "8,35 × 10^-28 kg",
+        "3,34 × 10^-54 kg"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3,34 × 10^-27 kg",
+      "answer_kind": "QUANTITY",
+      "explanation": "H2 contient deux atomes H : m = 2 × 1,67 × 10^-27 = 3,34 × 10^-27 kg.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un seul atome compté.",
+        "2": "Division par 2.",
+        "3": "Les exposants ont été additionnés."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q07",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un échantillon de masse m contient des entités de masse m(entité). Le nombre d'entités vaut :",
+      "choices": [
+        "N = m / m(entité)",
+        "N = m × m(entité)",
+        "N = m(entité) / m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "N = m / m(entité)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On divise la masse totale par la masse d'une entité (dans la même unité).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Produit sans signification.",
+        "2": "Quotient inversé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q08",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "1,0 mol de fer et 1,0 mol d'aluminium contiennent :",
+      "choices": [
+        "le même nombre d'atomes",
+        "la même masse",
+        "des nombres d'atomes différents"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le même nombre d'atomes",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une mole contient toujours NA entités, quelle que soit l'espèce.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Les atomes n'ont pas la même masse.",
+        "2": "Même n, donc même N."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q09",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un échantillon contient 1,20 × 10^22 atomes. Sa quantité de matière est :",
+      "choices": [
+        "1,99 × 10^-2 mol",
+        "50,2 mol",
+        "7,22 × 10^45 mol",
+        "1,99 mol"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,99 × 10^-2 mol",
+      "answer_kind": "QUANTITY",
+      "explanation": "n = 1,20 × 10^22 ÷ 6,02 × 10^23 ≈ 1,99 × 10^-2 mol.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Quotient inversé.",
+        "2": "Produit N × NA.",
+        "3": "Erreur de puissance de 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.quantite-matiere.q10",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Le nombre d'atomes d'oxygène contenus dans 1,0 mol de molécules de CO2 est environ :",
+      "choices": [
+        "1,2 × 10^24",
+        "6,0 × 10^23",
+        "1,8 × 10^24",
+        "3,0 × 10^23"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,2 × 10^24",
+      "answer_kind": "QUANTITY",
+      "explanation": "1,0 mol de CO2 contient 6,02 × 10^23 molécules, chacune avec 2 atomes O : environ 1,2 × 10^24 atomes.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Oubli de l'indice 2.",
+        "2": "Tous les atomes comptés (C et O).",
+        "3": "Division par 2 au lieu de multiplication."
+      },
+      "common_error_target": {
+        "1": "indice ignoré"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q01",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Le vecteur vitesse moyenne entre les positions M1 et M2 a le même sens que :",
+      "choices": [
+        "le déplacement de M1 vers M2",
+        "le déplacement de M2 vers M1",
+        "la verticale descendante"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le déplacement de M1 vers M2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le vecteur vitesse moyenne est le vecteur déplacement M1M2 divisé par la durée : même direction et même sens.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Sens inversé.",
+        "2": "Seulement dans un cas particulier."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q02",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un point parcourt 10 m en ligne droite en 2,0 s. La norme de son vecteur vitesse moyenne est :",
+      "choices": [
+        "5,0 m/s",
+        "20 m/s",
+        "0,20 m/s",
+        "12 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5,0 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "v = d / Δt = 10 ÷ 2,0 = 5,0 m/s.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Produit.",
+        "2": "Quotient inversé.",
+        "3": "Somme."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q03",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Dans le Système international, une vitesse s'exprime en :",
+      "choices": [
+        "m/s",
+        "km/h",
+        "cm/min"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "m/s",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Unités SI : mètre et seconde, donc vitesse en m/s.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Unité usuelle, non SI.",
+        "2": "Unité non SI."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q04",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un objet parcourt 36 cm en 0,20 s. La valeur de sa vitesse moyenne est :",
+      "choices": [
+        "1,8 m/s",
+        "180 m/s",
+        "0,072 m/s",
+        "7,2 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,8 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "36 cm = 0,36 m ; v = 0,36 ÷ 0,20 = 1,8 m/s.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Centimètres non convertis.",
+        "2": "Produit.",
+        "3": "Produit sans conversion."
+      },
+      "common_error_target": {
+        "1": "cm non convertis"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q05",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Sur une chronophotographie, 40 ms séparent deux positions. Cette durée vaut :",
+      "choices": [
+        "0,040 s",
+        "0,40 s",
+        "4,0 s",
+        "40 s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,040 s",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 ms = 10^-3 s, donc 40 ms = 0,040 s.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Erreur de puissance de 10.",
+        "2": "Erreur de puissance de 10.",
+        "3": "Pas de conversion."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q06",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Des positions alignées et régulièrement espacées caractérisent un mouvement :",
+      "choices": [
+        "rectiligne uniforme",
+        "rectiligne accéléré",
+        "circulaire uniforme"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "rectiligne uniforme",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Trajectoire droite et distance constante entre positions successives : mouvement rectiligne uniforme.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Les écarts augmenteraient.",
+        "2": "Les positions ne seraient pas alignées."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q07",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Une vitesse de 5,0 m/s correspond à :",
+      "choices": [
+        "18 km/h",
+        "1,4 km/h",
+        "5,0 km/h",
+        "50 km/h"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "18 km/h",
+      "answer_kind": "QUANTITY",
+      "explanation": "Pour passer des m/s aux km/h, on multiplie par 3,6 : 5,0 × 3,6 = 18 km/h.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Division par 3,6.",
+        "2": "Pas de conversion.",
+        "3": "Multiplication par 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q08",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un point fait un tour complet d'un cercle et revient à son point de départ. Son vecteur vitesse moyenne sur ce tour est :",
+      "choices": [
+        "nul",
+        "égal à sa vitesse sur le cercle",
+        "vertical"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "nul",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le vecteur déplacement entre le départ et l'arrivée est nul, donc le vecteur vitesse moyenne aussi.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Confusion avec la vitesse calculée sur la distance parcourue.",
+        "2": "Aucune raison d'être vertical."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q09",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Sur un document à l'échelle 1 cm pour 10 cm, deux positions séparées de 0,10 s sont distantes de 4,5 cm. La vitesse moyenne réelle vaut :",
+      "choices": [
+        "4,5 m/s",
+        "0,45 m/s",
+        "45 m/s",
+        "450 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4,5 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "Distance réelle : 45 cm = 0,45 m ; v = 0,45 ÷ 0,10 = 4,5 m/s.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Échelle non utilisée.",
+        "2": "Centimètres non convertis.",
+        "3": "Centimètres non convertis et échelle appliquée deux fois."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.vitesse-moyenne.q10",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Dans un repère en mètres, un point passe de M1 (0 ; 0) à M2 (6,0 ; 8,0) en 2,0 s. La norme de son vecteur vitesse moyenne vaut :",
+      "choices": [
+        "5,0 m/s",
+        "7,0 m/s",
+        "10 m/s",
+        "14 m/s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5,0 m/s",
+      "answer_kind": "QUANTITY",
+      "explanation": "M1M2 = √(6,0² + 8,0²) = 10 m ; v = 10 ÷ 2,0 = 5,0 m/s.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Coordonnées additionnées puis divisées par 2.",
+        "2": "Distance sans division par la durée.",
+        "3": "Somme des coordonnées."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q01",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "La relation entre la fréquence f et la période T d'un signal est :",
+      "choices": [
+        "f = 1 / T",
+        "f = T",
+        "f = T²",
+        "f = 2T"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "f = 1 / T",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La fréquence est le nombre de périodes par seconde : f = 1 / T.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "f et T ne sont pas égales.",
+        "2": "Relation incorrecte.",
+        "3": "Relation incorrecte."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q02",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "La fréquence s'exprime en :",
+      "choices": [
+        "hertz",
+        "secondes",
+        "mètres",
+        "décibels"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "hertz",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'unité de fréquence est le hertz (Hz), soit s⁻¹.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Unité de la période.",
+        "2": "Unité de longueur.",
+        "3": "Unité de niveau d'intensité sonore."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q03",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un signal a une période T = 0,01 s. Sa fréquence vaut :",
+      "choices": [
+        "100 Hz",
+        "0,01 Hz",
+        "10 Hz",
+        "1000 Hz"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "100 Hz",
+      "answer_kind": "QUANTITY",
+      "explanation": "f = 1 / T = 1 ÷ 0,01 = 100 Hz.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Confusion période / fréquence.",
+        "2": "Erreur de puissance de 10.",
+        "3": "Erreur de puissance de 10."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q04",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un signal a une fréquence de 50 Hz. Sa période vaut :",
+      "choices": [
+        "20 ms",
+        "50 ms",
+        "2 ms",
+        "0,5 ms"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "20 ms",
+      "answer_kind": "QUANTITY",
+      "explanation": "T = 1 / f = 1 ÷ 50 = 0,020 s = 20 ms.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Confusion période / fréquence.",
+        "2": "Erreur de puissance de 10.",
+        "3": "Erreur de calcul."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q05",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Une fréquence de 1 kHz correspond à :",
+      "choices": [
+        "1000 Hz",
+        "100 Hz",
+        "10 Hz",
+        "0,001 Hz"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1000 Hz",
+      "answer_kind": "QUANTITY",
+      "explanation": "Le préfixe kilo signifie 10^3 : 1 kHz = 1 000 Hz.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Préfixe hecto.",
+        "2": "Préfixe déca.",
+        "3": "Préfixe milli."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q06",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Si la fréquence d'un signal double, sa période :",
+      "choices": [
+        "est divisée par 2",
+        "double",
+        "ne change pas"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "est divisée par 2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "T = 1 / f : si f est multipliée par 2, T est divisée par 2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "f et T sont inversement proportionnelles.",
+        "2": "T dépend de f."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q07",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Sur un enregistrement, 4 périodes durent 8,0 ms. La fréquence du signal vaut :",
+      "choices": [
+        "500 Hz",
+        "125 Hz",
+        "2000 Hz",
+        "2 Hz"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "500 Hz",
+      "answer_kind": "QUANTITY",
+      "explanation": "T = 8,0 ÷ 4 = 2,0 ms ; f = 1 ÷ 0,0020 = 500 Hz.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "8,0 ms prise comme une période.",
+        "2": "Période prise égale à 0,5 ms.",
+        "3": "Millisecondes non converties."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q08",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un ultrason de fréquence 50 kHz a une période de :",
+      "choices": [
+        "20 µs",
+        "20 ms",
+        "50 µs",
+        "0,02 µs"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "20 µs",
+      "answer_kind": "QUANTITY",
+      "explanation": "T = 1 ÷ 50 000 = 2,0 × 10^-5 s = 20 µs.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Erreur de préfixe.",
+        "2": "Confusion période / fréquence.",
+        "3": "Kilohertz non convertis."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q09",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Un son de période 2,5 ms a une fréquence de :",
+      "choices": [
+        "400 Hz",
+        "2,5 Hz",
+        "0,4 Hz",
+        "25 Hz"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "400 Hz",
+      "answer_kind": "QUANTITY",
+      "explanation": "T = 2,5 ms = 0,0025 s, donc f = 1 ÷ 0,0025 = 400 Hz.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Confusion période / fréquence.",
+        "2": "Millisecondes non converties.",
+        "3": "Erreur de calcul."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.PC.2NDE.periode-frequence.q10",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "question": "Parmi ces signaux, lequel a la plus grande fréquence ?",
+      "choices": [
+        "T = 0,20 ms",
+        "T = 2,0 ms",
+        "T = 20 ms",
+        "T = 0,20 s"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "T = 0,20 ms",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La fréquence est d'autant plus grande que la période est petite : T = 0,20 ms donne f = 5 000 Hz.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "f = 500 Hz.",
+        "2": "f = 50 Hz.",
+        "3": "f = 5 Hz."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,2261 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.d01",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pour séparer du sable sec et des graviers, on utilise…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les trous du tamis laissent passer le sable fin et retiennent les graviers : c'est un tamisage.",
+      "step_by_step_solution": [
+        "Sable et graviers sont deux solides de tailles différentes.",
+        "Le tamis retient les gros grains : on utilise un tamis."
+      ],
+      "hints": [
+        "Les graviers sont plus gros que les grains de sable."
+      ],
+      "common_errors": {
+        "un filtre à café": "L'élève choisit la filtration, adaptée à un mélange solide-liquide."
+      },
+      "remediation": "Tamiser un mélange sable-graviers et observer ce qui reste dans le tamis.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "un tamis",
+        "un filtre à café",
+        "un verre d'eau"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.d02",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment s'appelle la technique qui consiste à laisser reposer de l'eau boueuse pour que la terre tombe au fond ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "décantation",
+          "decantation",
+          "la décantation",
+          "la decantation"
+        ]
+      },
+      "solution": "Laisser reposer pour que les particules lourdes tombent au fond s'appelle la décantation.",
+      "step_by_step_solution": [
+        "On laisse le mélange au repos.",
+        "La terre tombe au fond : c'est la décantation."
+      ],
+      "hints": [
+        "Le mot commence par « dé »."
+      ],
+      "common_errors": {
+        "filtration": "L'élève confond avec la filtration, qui utilise un filtre."
+      },
+      "remediation": "Laisser reposer un bocal d'eau boueuse pendant la journée et dessiner le résultat.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.d03",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "On fait passer de l'eau boueuse à travers un papier-filtre placé dans un entonnoir. Comment s'appelle cette technique ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "filtration",
+          "la filtration"
+        ]
+      },
+      "solution": "Faire passer un mélange à travers un filtre s'appelle la filtration.",
+      "step_by_step_solution": [
+        "Le papier-filtre retient la terre.",
+        "C'est une filtration."
+      ],
+      "hints": [
+        "Quel objet est utilisé ?"
+      ],
+      "common_errors": {
+        "décantation": "L'élève confond avec la décantation."
+      },
+      "remediation": "Filtrer de l'eau boueuse avec un filtre à café et comparer avec l'eau de départ.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.d04",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque technique au matériel utilisé : tamisage, filtration, décantation.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "tamisage": "tamis",
+          "filtration": "entonnoir et papier-filtre",
+          "décantation": "récipient laissé au repos"
+        }
+      },
+      "solution": "Le tamisage utilise un tamis, la filtration un entonnoir et un papier-filtre, la décantation un récipient laissé au repos. Réponse : tamisage → tamis ; filtration → entonnoir et papier-filtre ; décantation → récipient laissé au repos.",
+      "step_by_step_solution": [
+        "tamisage → tamis",
+        "filtration → entonnoir et papier-filtre",
+        "décantation → récipient laissé au repos"
+      ],
+      "hints": [
+        "Le nom de la technique ressemble souvent au nom du matériel."
+      ],
+      "common_errors": {
+        "tamisage → tamis ; filtration → récipient laissé au repos ; décantation → entonnoir et papier-filtre": "L'élève inverse filtration et décantation."
+      },
+      "remediation": "Associer chaque technique à une photo du matériel.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "tamis",
+        "entonnoir et papier-filtre",
+        "récipient laissé au repos"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.d05",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : lors d'une décantation, les particules solides les plus lourdes tombent au fond du récipient.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : au repos, les particules lourdes se déposent au fond et forment un dépôt. Réponse : vrai.",
+      "step_by_step_solution": [
+        "On laisse le mélange au repos.",
+        "Les particules lourdes descendent au fond : vrai."
+      ],
+      "hints": [
+        "Observe un bocal d'eau boueuse après une heure."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la terre remonte à la surface."
+      },
+      "remediation": "Observer un bocal d'eau boueuse toutes les 15 minutes.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.a01",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pour enlever les grumeaux d'un sachet de farine, quelle technique utilise-t-on ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La farine fine passe à travers les trous du tamis, les grumeaux restent dedans : c'est un tamisage.",
+      "step_by_step_solution": [
+        "La farine est un solide en poudre, sans liquide.",
+        "On sépare des solides de tailles différentes : tamisage."
+      ],
+      "hints": [
+        "Y a-t-il un liquide dans ce mélange ?"
+      ],
+      "common_errors": {
+        "filtration": "L'élève choisit la filtration alors qu'il n'y a pas de liquide."
+      },
+      "remediation": "Rappeler : tamisage pour séparer des solides entre eux ; décantation et filtration pour un solide dans un liquide.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "tamisage",
+        "décantation",
+        "filtration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.a02",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "L'eau d'une flaque est très boueuse. Quelle technique enlève facilement une grande partie de la terre, simplement en attendant ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "En laissant reposer, la terre tombe au fond : c'est la décantation.",
+      "step_by_step_solution": [
+        "On ne fait rien d'autre qu'attendre.",
+        "La terre se dépose au fond : décantation."
+      ],
+      "hints": [
+        "Que se passe-t-il si on laisse le bocal immobile ?"
+      ],
+      "common_errors": {
+        "filtration": "La filtration utilise un filtre ; ici, on attend seulement."
+      },
+      "remediation": "Comparer un bocal agité et un bocal laissé au repos.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "décantation",
+        "tamisage",
+        "filtration"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.a03",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Pour obtenir une eau plus claire à partir d'eau boueuse, remets les étapes dans l'ordre : « filtrer », « laisser reposer », « verser doucement le liquide du dessus dans l'entonnoir ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "laisser reposer",
+          "verser doucement le liquide du dessus dans l'entonnoir",
+          "filtrer"
+        ]
+      },
+      "solution": "On laisse d'abord reposer (décantation), puis on verse doucement le liquide du dessus dans l'entonnoir, enfin on filtre. Réponse : laisser reposer → verser doucement le liquide du dessus dans l'entonnoir → filtrer.",
+      "step_by_step_solution": [
+        "D'abord la décantation : laisser reposer.",
+        "Ensuite verser doucement le liquide du dessus.",
+        "Enfin filtrer."
+      ],
+      "hints": [
+        "Par quelle étape la terre la plus lourde est-elle enlevée ?"
+      ],
+      "common_errors": {
+        "filtrer ; laisser reposer ; verser doucement le liquide du dessus dans l'entonnoir": "L'élève filtre tout le mélange d'abord : le filtre se bouche vite."
+      },
+      "remediation": "Faire les deux ordres en classe et comparer le temps de filtration.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "filtrer",
+        "laisser reposer",
+        "verser doucement le liquide du dessus dans l'entonnoir"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.a04",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Après la filtration d'eau boueuse, où se trouve la terre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les particules de terre sont trop grosses pour traverser le papier-filtre : elles restent dans le papier-filtre.",
+      "step_by_step_solution": [
+        "Le filtre laisse passer l'eau.",
+        "La terre reste dans le papier-filtre."
+      ],
+      "hints": [
+        "Regarde le papier-filtre après l'expérience."
+      ],
+      "common_errors": {
+        "elle a disparu": "L'élève pense que la matière disparaît lors d'une séparation."
+      },
+      "remediation": "Déplier le filtre après l'expérience pour observer la terre retenue.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "dans le papier-filtre",
+        "dans le liquide qui a traversé",
+        "elle a disparu"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.a05",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque technique à ce qu'elle permet de séparer : tamisage, décantation, filtration.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "tamisage": "des solides de tailles différentes",
+          "décantation": "un solide lourd qui tombe au fond d'un liquide",
+          "filtration": "des particules solides retenues par un papier"
+        }
+      },
+      "solution": "Le tamisage sépare des solides de tailles différentes ; la décantation laisse tomber un solide lourd au fond d'un liquide ; la filtration retient des particules solides dans un papier. Réponse : tamisage → des solides de tailles différentes ; décantation → un solide lourd qui tombe au fond d'un liquide ; filtration → des particules solides retenues par un papier.",
+      "step_by_step_solution": [
+        "tamisage → solides de tailles différentes",
+        "décantation → solide qui tombe au fond",
+        "filtration → particules retenues par un papier"
+      ],
+      "hints": [
+        "Pense à ce qui se passe dans chaque expérience."
+      ],
+      "common_errors": {
+        "tamisage → un solide lourd qui tombe au fond d'un liquide ; décantation → des solides de tailles différentes ; filtration → des particules solides retenues par un papier": "L'élève inverse tamisage et décantation."
+      },
+      "remediation": "Refaire un tableau : technique / mélange de départ / ce qui est retenu / ce qui passe.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "des solides de tailles différentes",
+        "un solide lourd qui tombe au fond d'un liquide",
+        "des particules solides retenues par un papier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.c01",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On filtre de l'eau dans laquelle on a dissous du sel. Le liquide recueilli sous le filtre contient-il encore du sel ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le sel dissous est mélangé à l'eau en toutes petites parties invisibles : il traverse le filtre avec l'eau. La filtration ne retire pas le sel dissous. Réponse : oui, le sel dissous traverse le filtre.",
+      "step_by_step_solution": [
+        "Le sel dissous n'est plus visible : il est réparti dans l'eau.",
+        "Il traverse le filtre avec l'eau : oui, le liquide contient encore du sel."
+      ],
+      "hints": [
+        "Voit-on des grains de sel dans l'eau salée ?"
+      ],
+      "common_errors": {
+        "non, le sel reste dans le papier-filtre": "Erreur fréquente : croire que le filtre retient tout ce qui est mélangé à l'eau."
+      },
+      "remediation": "Filtrer de l'eau salée, puis laisser évaporer une goutte du liquide filtré sur une assiette noire : des cristaux de sel réapparaissent (on ne goûte pas).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "oui, le sel dissous traverse le filtre",
+        "non, le sel reste dans le papier-filtre",
+        "non, le sel tombe au fond de l'entonnoir"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.c02",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi le tamis retient-il les graviers ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le tamis retient ce qui est plus gros que ses trous : les graviers restent dedans. Réponse : ils sont plus gros que les trous du tamis.",
+      "step_by_step_solution": [
+        "Le tamis a des trous d'une certaine taille.",
+        "Les graviers sont plus gros que les trous du tamis."
+      ],
+      "hints": [
+        "Compare la taille d'un gravier et celle d'un trou du tamis."
+      ],
+      "common_errors": {
+        "ils sont plus lourds que l'eau": "L'élève confond le tamisage avec la décantation."
+      },
+      "remediation": "Essayer des tamis à trous de tailles différentes sur le même mélange.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "ils sont plus gros que les trous du tamis",
+        "ils sont plus lourds que l'eau",
+        "ils sont dissous"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.c03",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : on peut séparer une partie de la terre d'une eau boueuse par filtration.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : le papier-filtre retient les particules de terre et laisse passer l'eau. Réponse : vrai.",
+      "step_by_step_solution": [
+        "Les particules de terre ne sont pas dissoutes.",
+        "Le filtre les retient : vrai."
+      ],
+      "hints": [
+        "La terre est-elle dissoute dans l'eau, ou seulement mélangée ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la filtration ne sert qu'aux solides entre eux."
+      },
+      "remediation": "Faire une filtration d'eau boueuse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.c04",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Comment s'appelle le liquide qui a traversé le filtre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le liquide recueilli après une filtration s'appelle le filtrat.",
+      "step_by_step_solution": [
+        "Le dépôt est ce qui tombe au fond lors d'une décantation.",
+        "Le liquide qui traverse le filtre s'appelle le filtrat."
+      ],
+      "hints": [
+        "Le mot ressemble à « filtre »."
+      ],
+      "common_errors": {
+        "le dépôt": "L'élève confond le vocabulaire de la décantation et celui de la filtration."
+      },
+      "remediation": "Légender un schéma de filtration : entonnoir, filtre, filtrat.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "le filtrat",
+        "le dépôt",
+        "le tamis"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.c05",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque définition au bon mot : ce qui tombe au fond lors d'une décantation ; le liquide recueilli sous le filtre ; l'objet à trous utilisé pour tamiser.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "ce qui tombe au fond lors d'une décantation": "dépôt",
+          "le liquide recueilli sous le filtre": "filtrat",
+          "l'objet à trous utilisé pour tamiser": "tamis"
+        }
+      },
+      "solution": "Le dépôt se forme au fond lors d'une décantation ; le filtrat est le liquide qui a traversé le filtre ; le tamis est l'objet à trous. Réponse : ce qui tombe au fond lors d'une décantation → dépôt ; le liquide recueilli sous le filtre → filtrat ; l'objet à trous utilisé pour tamiser → tamis.",
+      "step_by_step_solution": [
+        "décantation → dépôt",
+        "filtre → filtrat",
+        "tamiser → tamis"
+      ],
+      "hints": [
+        "Cherche le mot de la même famille dans chaque définition."
+      ],
+      "common_errors": {
+        "ce qui tombe au fond lors d'une décantation → filtrat ; le liquide recueilli sous le filtre → dépôt ; l'objet à trous utilisé pour tamiser → tamis": "L'élève inverse dépôt et filtrat."
+      },
+      "remediation": "Faire un lexique illustré des trois techniques.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "dépôt",
+        "filtrat",
+        "tamis"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.x01",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Chloé a un mélange de sable, de graviers et d'eau. Que peut-elle faire en premier pour retirer les graviers ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le tamis retient les graviers et laisse passer l'eau et le sable fin : c'est la première étape la plus simple.",
+      "step_by_step_solution": [
+        "Les graviers sont les plus gros éléments.",
+        "Un tamis les retient : on commence par un tamisage."
+      ],
+      "hints": [
+        "Quels sont les plus gros éléments du mélange ?"
+      ],
+      "common_errors": {
+        "une filtration avec un papier-filtre": "L'élève applique la filtration à tout le mélange : le papier se boucherait et se déchirerait."
+      },
+      "remediation": "Planifier les séparations de la plus grossière à la plus fine.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "un tamisage",
+        "une filtration avec un papier-filtre",
+        "attendre une semaine"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.x02",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Après une décantation, le liquide du dessus est encore un peu trouble. Que faire pour le rendre plus clair ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les fines particules qui restent en suspension peuvent être retenues par un papier-filtre : on filtre. Réponse : le filtrer.",
+      "step_by_step_solution": [
+        "Il reste de fines particules dans le liquide.",
+        "Un papier-filtre les retient : on le filtre."
+      ],
+      "hints": [
+        "Quel outil a les trous les plus fins ?"
+      ],
+      "common_errors": {
+        "le secouer": "Secouer remettrait le dépôt en suspension."
+      },
+      "remediation": "Comparer la finesse des trous d'une passoire et d'un filtre à café.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "le filtrer",
+        "le tamiser avec une passoire",
+        "le secouer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.separer-melanges.x03",
+      "notion_id": "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi fait-on souvent une décantation avant une filtration ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La décantation enlève d'abord la plus grande partie de la terre : il en reste moins à filtrer et le filtre ne se bouche pas vite. Réponse : pour que le filtre ne se bouche pas vite.",
+      "step_by_step_solution": [
+        "La décantation retire la terre la plus lourde.",
+        "Il en reste peu pour le filtre, qui ne se bouche pas vite."
+      ],
+      "hints": [
+        "Que se passe-t-il si on verse beaucoup de boue dans le filtre ?"
+      ],
+      "common_errors": {
+        "pour que la terre se dissolve": "L'élève confond séparation et dissolution."
+      },
+      "remediation": "Comparer en classe la durée de filtration avec et sans décantation préalable.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Choisir une technique de séparation (tamisage, décantation, filtration)",
+        "Expliquer ce que chaque technique retient ou laisse passer"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.separer-les-constituants-dun-melange-de-solides-ou-dun-melange-solide"
+      ],
+      "choices": [
+        "pour que le filtre ne se bouche pas vite",
+        "pour que l'eau devienne salée",
+        "pour que la terre se dissolve"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.d01",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Comment appelle-t-on un animal qui pond des œufs ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un animal qui pond des œufs est ovipare.",
+      "step_by_step_solution": [
+        "« Ovi » vient du latin et veut dire « œuf ».",
+        "L'animal qui pond des œufs est ovipare."
+      ],
+      "hints": [
+        "Le mot commence comme « ovale », la forme d'un œuf."
+      ],
+      "common_errors": {
+        "vivipare": "L'élève confond les deux mots."
+      },
+      "remediation": "Associer « ovi » à « œuf » et « vivi » à « vivant ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "ovipare",
+        "vivipare",
+        "herbivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.d02",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Chez la vache, le petit se développe dans le ventre de sa mère, puis naît. La vache est…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le petit se développe dans le ventre de la mère : la vache est vivipare.",
+      "step_by_step_solution": [
+        "Le veau se développe dans le ventre de la vache.",
+        "Elle est vivipare."
+      ],
+      "hints": [
+        "La vache pond-elle des œufs ?"
+      ],
+      "common_errors": {
+        "ovipare": "L'élève confond les deux mots."
+      },
+      "remediation": "Classer des animaux de la ferme en ovipares et vivipares.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "vivipare",
+        "ovipare",
+        "carnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.d03",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quand le spermatozoïde et l'ovule se rencontrent à l'intérieur du corps de la femelle, comment est la fécondation ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "interne",
+          "fécondation interne",
+          "fecondation interne"
+        ]
+      },
+      "solution": "La rencontre a lieu dans le corps de la femelle : la fécondation est interne.",
+      "step_by_step_solution": [
+        "La rencontre se fait à l'intérieur du corps.",
+        "La fécondation est interne."
+      ],
+      "hints": [
+        "« À l'intérieur » se dit aussi…"
+      ],
+      "common_errors": {
+        "externe": "L'élève inverse interne et externe."
+      },
+      "remediation": "Associer interne à « dedans » et externe à « dehors ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.d04",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Chez la truite, la femelle pond ses ovules dans l'eau et le mâle dépose ses spermatozoïdes dessus. Comment est la fécondation ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "externe",
+          "fécondation externe",
+          "fecondation externe"
+        ]
+      },
+      "solution": "La rencontre a lieu dans l'eau, hors du corps de la femelle : la fécondation est externe.",
+      "step_by_step_solution": [
+        "Les ovules sont pondus dans l'eau.",
+        "La rencontre se fait hors du corps : externe."
+      ],
+      "hints": [
+        "La rencontre a-t-elle lieu dans le corps de la femelle ?"
+      ],
+      "common_errors": {
+        "interne": "L'élève pense que toute fécondation se fait dans le corps de la femelle."
+      },
+      "remediation": "Regarder une vidéo de frai de truites ou de grenouilles.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.d05",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque animal à son mode de reproduction : poule, chat, grenouille, chèvre.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "poule": "ovipare",
+          "chat": "vivipare",
+          "grenouille": "ovipare",
+          "chèvre": "vivipare"
+        }
+      },
+      "solution": "La poule et la grenouille pondent des œufs : ovipares. Le chat et la chèvre donnent naissance à des petits : vivipares. Réponse : poule → ovipare ; chat → vivipare ; grenouille → ovipare ; chèvre → vivipare.",
+      "step_by_step_solution": [
+        "Ovipares : poule, grenouille.",
+        "Vivipares : chat, chèvre."
+      ],
+      "hints": [
+        "Lesquels pondent des œufs ?"
+      ],
+      "common_errors": {
+        "poule → ovipare ; chat → vivipare ; grenouille → vivipare ; chèvre → vivipare": "L'élève ne sait pas que la grenouille pond des œufs dans l'eau."
+      },
+      "remediation": "Observer des photos de pontes de grenouilles au printemps.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "ovipare",
+        "vivipare"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.a01",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque animal à son type de fécondation : truite, poule, grenouille, lapin.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "truite": "externe",
+          "poule": "interne",
+          "grenouille": "externe",
+          "lapin": "interne"
+        }
+      },
+      "solution": "La truite et la grenouille ont une fécondation externe, dans l'eau. La poule et le lapin ont une fécondation interne, après un accouplement. Réponse : truite → externe ; poule → interne ; grenouille → externe ; lapin → interne.",
+      "step_by_step_solution": [
+        "Externe (dans l'eau) : truite, grenouille.",
+        "Interne (accouplement) : poule, lapin."
+      ],
+      "hints": [
+        "Y a-t-il un accouplement ?"
+      ],
+      "common_errors": {
+        "truite → externe ; poule → externe ; grenouille → externe ; lapin → interne": "L'élève pense que les ovipares ont tous une fécondation externe."
+      },
+      "remediation": "Rappeler que la poule s'accouple avec le coq avant de pondre.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "interne",
+        "externe"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.a02",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Le dauphin vit dans la mer. Son petit se développe dans le ventre de sa mère. Le dauphin est…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le dauphin est un mammifère : fécondation interne, et le petit se développe dans le ventre de la mère (vivipare). Réponse : vivipare à fécondation interne.",
+      "step_by_step_solution": [
+        "Le petit se développe dans le ventre : vivipare.",
+        "Chez les vivipares, la fécondation est interne."
+      ],
+      "hints": [
+        "Vivre dans l'eau veut-il dire pondre des œufs ?"
+      ],
+      "common_errors": {
+        "ovipare à fécondation externe": "Erreur fréquente : croire que tout animal aquatique a une fécondation externe."
+      },
+      "remediation": "Comparer le dauphin et la truite : même milieu, reproduction différente.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "vivipare à fécondation interne",
+        "ovipare à fécondation externe",
+        "ovipare à fécondation interne"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.a03",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Où a lieu la fécondation de la grenouille ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Chez la grenouille, les ovules pondus dans l'eau sont fécondés hors du corps : la fécondation est externe.",
+      "step_by_step_solution": [
+        "La femelle pond ses ovules dans l'eau.",
+        "Le mâle dépose ses spermatozoïdes dessus : dans l'eau, hors du corps de la femelle."
+      ],
+      "hints": [
+        "Où la grenouille pond-elle ?"
+      ],
+      "common_errors": {
+        "dans le ventre de la femelle": "L'élève pense que toute fécondation est interne."
+      },
+      "remediation": "Observer des photos de pontes de grenouilles dans une mare.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "dans l'eau, hors du corps de la femelle",
+        "dans le ventre de la femelle",
+        "dans un nid"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.a04",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : la poule est ovipare et sa fécondation est interne.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : le coq s'accouple avec la poule (fécondation interne), puis la poule pond des œufs (ovipare). Réponse : vrai.",
+      "step_by_step_solution": [
+        "Accouplement : fécondation interne.",
+        "Ponte d'œufs : ovipare. C'est vrai."
+      ],
+      "hints": [
+        "Le coq s'accouple-t-il avec la poule ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense qu'un ovipare a forcément une fécondation externe."
+      },
+      "remediation": "Remplir le tableau à double entrée avec la poule.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.a05",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Lequel est vivipare ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le chiot se développe dans le ventre de sa mère : le chien est vivipare. La tortue et le saumon pondent des œufs.",
+      "step_by_step_solution": [
+        "La tortue pond des œufs dans le sable ; le saumon pond dans la rivière.",
+        "Le chien est vivipare."
+      ],
+      "hints": [
+        "Lequel ne pond pas d'œufs ?"
+      ],
+      "common_errors": {
+        "la tortue": "L'élève pense que la tortue, animal lent, porte ses petits."
+      },
+      "remediation": "Classer une dizaine d'animaux familiers en ovipares et vivipares.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "le chien",
+        "la tortue",
+        "le saumon"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.c01",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un animal a une fécondation externe. Que peut-on en déduire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Si la fécondation se fait hors du corps de la femelle, l'œuf se développe aussi à l'extérieur : l'animal est ovipare. Réponse : il est ovipare.",
+      "step_by_step_solution": [
+        "Fécondation externe : les ovules sont hors du corps.",
+        "Le petit se développe dans un œuf à l'extérieur : ovipare."
+      ],
+      "hints": [
+        "Si l'ovule est fécondé hors du corps, où le petit peut-il se développer ?"
+      ],
+      "common_errors": {
+        "il est vivipare": "L'élève ne relie pas le lieu de la fécondation au lieu du développement."
+      },
+      "remediation": "Compléter le tableau : fécondation externe → ovipare ; fécondation interne → ovipare ou vivipare.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "il est ovipare",
+        "il est vivipare",
+        "il vit forcément sur la terre ferme"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.c02",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : tous les animaux à fécondation interne sont vivipares.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : la poule, la tortue ou le crocodile ont une fécondation interne mais pondent des œufs (ovipares). Réponse : faux.",
+      "step_by_step_solution": [
+        "La poule a une fécondation interne.",
+        "Pourtant elle pond des œufs : c'est faux."
+      ],
+      "hints": [
+        "Pense à la poule."
+      ],
+      "common_errors": {
+        "vrai": "L'élève confond fécondation interne et viviparité."
+      },
+      "remediation": "Chercher des contre-exemples dans le tableau à double entrée.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.c03",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque animal à sa description : crocodile, cheval, saumon, grenouille.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "crocodile": "interne et ovipare",
+          "cheval": "interne et vivipare",
+          "saumon": "externe et ovipare",
+          "grenouille": "externe et ovipare"
+        }
+      },
+      "solution": "Le crocodile s'accouple puis pond (interne, ovipare) ; le cheval porte son petit (interne, vivipare) ; le saumon et la grenouille ont une fécondation dans l'eau et pondent (externe, ovipare). Réponse : crocodile → interne et ovipare ; cheval → interne et vivipare ; saumon → externe et ovipare ; grenouille → externe et ovipare.",
+      "step_by_step_solution": [
+        "crocodile → interne et ovipare ; cheval → interne et vivipare",
+        "saumon et grenouille → externe et ovipare"
+      ],
+      "hints": [
+        "Réponds à deux questions : y a-t-il accouplement ? y a-t-il ponte d'œufs ?"
+      ],
+      "common_errors": {
+        "crocodile → externe et ovipare ; cheval → interne et vivipare ; saumon → externe et ovipare ; grenouille → externe et ovipare": "L'élève pense que les animaux vivant près de l'eau ont une fécondation externe."
+      },
+      "remediation": "Placer chaque animal dans le tableau à double entrée.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "interne et ovipare",
+        "interne et vivipare",
+        "externe et ovipare"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.c04",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi la fécondation externe se fait-elle dans l'eau ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les ovules et les spermatozoïdes sont fragiles : dans l'air, ils se dessèchent. L'eau leur permet de survivre et de se rencontrer. Réponse : dans l'eau, les cellules reproductrices ne se dessèchent pas.",
+      "step_by_step_solution": [
+        "Les cellules reproductrices sont fragiles.",
+        "Dans l'eau, elles ne se dessèchent pas."
+      ],
+      "hints": [
+        "Que devient une cellule fragile laissée à l'air libre ?"
+      ],
+      "common_errors": {
+        "l'eau chauffe les œufs": "L'élève invente un rôle de chauffage à l'eau."
+      },
+      "remediation": "Relier le milieu de vie (eau) à la fécondation externe chez les poissons et les amphibiens.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "dans l'eau, les cellules reproductrices ne se dessèchent pas",
+        "l'eau chauffe les œufs",
+        "l'eau nourrit les adultes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.c05",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Après l'accouplement, le papillon femelle pond des œufs sur une feuille. Le papillon est…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'accouplement montre une fécondation interne ; la ponte d'œufs montre qu'il est ovipare. Réponse : ovipare à fécondation interne.",
+      "step_by_step_solution": [
+        "Accouplement : fécondation interne.",
+        "Ponte d'œufs : ovipare."
+      ],
+      "hints": [
+        "Deux indices : l'accouplement et la ponte."
+      ],
+      "common_errors": {
+        "ovipare à fécondation externe": "L'élève associe ponte et fécondation externe."
+      },
+      "remediation": "Relire l'énoncé en soulignant les deux indices.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "ovipare à fécondation interne",
+        "vivipare à fécondation interne",
+        "ovipare à fécondation externe"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.x01",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Voici trois animaux. A : accouplement, le petit naît vivant. B : pas d'accouplement, les ovules sont pondus dans l'eau puis recouverts de spermatozoïdes. C : accouplement, puis ponte d'œufs à coquille. Relie chaque animal à sa description.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "A": "interne et vivipare",
+          "B": "externe et ovipare",
+          "C": "interne et ovipare"
+        }
+      },
+      "solution": "A : fécondation interne, vivipare. B : fécondation externe, ovipare. C : fécondation interne, ovipare. Réponse : A → interne et vivipare ; B → externe et ovipare ; C → interne et ovipare.",
+      "step_by_step_solution": [
+        "A → interne et vivipare",
+        "B → externe et ovipare",
+        "C → interne et ovipare"
+      ],
+      "hints": [
+        "Accouplement = fécondation interne.",
+        "Ponte = ovipare."
+      ],
+      "common_errors": {
+        "A → interne et vivipare ; B → externe et ovipare ; C → externe et ovipare": "L'élève pense que toute ponte suit une fécondation externe."
+      },
+      "remediation": "Traduire chaque indice : accouplement → interne ; naissance d'un petit vivant → vivipare ; ponte → ovipare.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "interne et vivipare",
+        "externe et ovipare",
+        "interne et ovipare"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.x02",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Quel indice montre qu'une fécondation est interne ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'accouplement permet aux spermatozoïdes d'entrer dans le corps de la femelle : la fécondation est interne. Réponse : il y a un accouplement.",
+      "step_by_step_solution": [
+        "Vivre dans l'eau ou pondre ne suffit pas : le dauphin vit dans l'eau, la poule pond.",
+        "L'indice est l'accouplement."
+      ],
+      "hints": [
+        "Comment les spermatozoïdes peuvent-ils arriver dans le corps de la femelle ?"
+      ],
+      "common_errors": {
+        "l'animal pond des œufs": "L'élève confond ovipare et fécondation externe."
+      },
+      "remediation": "Chercher des animaux qui pondent après un accouplement (poule, tortue).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [
+        "il y a un accouplement",
+        "l'animal vit dans l'eau",
+        "l'animal pond des œufs"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.fecondation.x03",
+      "notion_id": "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : la baleine vit dans l'eau, donc sa fécondation est externe.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : la baleine est un mammifère ; sa fécondation est interne et son petit se développe dans le ventre de sa mère. Réponse : faux.",
+      "step_by_step_solution": [
+        "La baleine est un mammifère, vivipare.",
+        "Sa fécondation est interne : c'est faux."
+      ],
+      "hints": [
+        "La baleine allaite son petit : quel type d'animal est-ce ?"
+      ],
+      "common_errors": {
+        "vrai": "Erreur fréquente : relier le milieu aquatique à la fécondation externe."
+      },
+      "remediation": "Comparer baleine et poisson dans le tableau à double entrée.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer fécondation interne et fécondation externe",
+        "Relier le type de fécondation au mode de reproduction ovipare ou vivipare"
+      ],
+      "source_notions": [
+        "ST.CM1.VIV.mettre-en-relation-le-type-de-fecondation-interne-ou-externe-avec-le-m"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.d01",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "D'où vient la lumière de la Lune ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Lune ne produit pas de lumière : elle est éclairée par le Soleil et renvoie une partie de sa lumière. Réponse : du Soleil, qui l'éclaire.",
+      "step_by_step_solution": [
+        "La Lune n'est pas une source de lumière.",
+        "Elle est éclairée par le Soleil."
+      ],
+      "hints": [
+        "La Lune brille-t-elle toute seule, comme une lampe ?"
+      ],
+      "common_errors": {
+        "de la Lune elle-même": "Erreur fréquente : croire que la Lune produit sa propre lumière."
+      },
+      "remediation": "Éclairer une balle avec une lampe dans une pièce sombre.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "du Soleil, qui l'éclaire",
+        "de la Lune elle-même",
+        "des étoiles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.d02",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Comment s'appelle la phase où l'on voit tout le disque de la Lune éclairé ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Quand tout le disque est éclairé, c'est la pleine lune.",
+      "step_by_step_solution": [
+        "Tout le disque est éclairé.",
+        "C'est la pleine lune."
+      ],
+      "hints": [
+        "« Plein » veut dire « complet »."
+      ],
+      "common_errors": {
+        "nouvelle lune": "L'élève confond les noms des deux phases opposées."
+      },
+      "remediation": "Dessiner les quatre phases principales et écrire leur nom dessous.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "pleine lune",
+        "nouvelle lune",
+        "premier quartier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.d03",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la phase où la Lune n'est pas visible, car sa face éclairée n'est pas tournée vers la Terre ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "nouvelle lune",
+          "la nouvelle lune"
+        ]
+      },
+      "solution": "Quand on ne voit pas la Lune, c'est la nouvelle lune : sa face éclairée est tournée vers le Soleil, pas vers nous.",
+      "step_by_step_solution": [
+        "La face éclairée n'est pas tournée vers nous.",
+        "C'est la nouvelle lune."
+      ],
+      "hints": [
+        "C'est le début d'un nouveau cycle."
+      ],
+      "common_errors": {
+        "pleine lune": "L'élève confond les deux phases opposées."
+      },
+      "remediation": "Avec la maquette lampe-balle, placer la balle entre la lampe et la tête.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.d04",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : la Lune produit sa propre lumière.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : la Lune est éclairée par le Soleil. Réponse : faux.",
+      "step_by_step_solution": [
+        "La Lune n'est pas une source de lumière.",
+        "Elle renvoie la lumière du Soleil : c'est faux."
+      ],
+      "hints": [
+        "Qu'est-ce qui éclaire la Lune ?"
+      ],
+      "common_errors": {
+        "vrai": "Erreur fréquente : confondre la Lune avec une source de lumière."
+      },
+      "remediation": "Comparer une source de lumière (lampe, Soleil) et un objet éclairé (balle, Lune).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.d05",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Au premier quartier, quelle partie du disque de la Lune voit-on éclairée ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Au premier quartier, on voit une moitié du disque éclairée.",
+      "step_by_step_solution": [
+        "Premier quartier : le disque est coupé en deux.",
+        "On voit une moitié éclairée."
+      ],
+      "hints": [
+        "Le premier quartier ressemble à un demi-disque."
+      ],
+      "common_errors": {
+        "tout le disque": "L'élève confond avec la pleine lune."
+      },
+      "remediation": "Dessiner le premier quartier et le colorier.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "une moitié",
+        "tout le disque",
+        "aucune partie"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.a01",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Range ces phases dans l'ordre, à partir de la nouvelle lune : pleine lune, dernier quartier, nouvelle lune, premier quartier.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "nouvelle lune",
+          "premier quartier",
+          "pleine lune",
+          "dernier quartier"
+        ]
+      },
+      "solution": "Après la nouvelle lune, la partie éclairée grandit (premier quartier) jusqu'à la pleine lune, puis diminue (dernier quartier). Réponse : nouvelle lune → premier quartier → pleine lune → dernier quartier.",
+      "step_by_step_solution": [
+        "nouvelle lune → premier quartier",
+        "→ pleine lune → dernier quartier"
+      ],
+      "hints": [
+        "Entre la nouvelle lune et la pleine lune, la partie éclairée grandit."
+      ],
+      "common_errors": {
+        "nouvelle lune ; dernier quartier ; pleine lune ; premier quartier": "L'élève inverse premier et dernier quartier."
+      },
+      "remediation": "Observer et dessiner la Lune plusieurs soirs sur un mois (calendrier lunaire).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "pleine lune",
+        "dernier quartier",
+        "nouvelle lune",
+        "premier quartier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.a02",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Combien de temps faut-il environ pour passer d'une pleine lune à la pleine lune suivante ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un cycle complet des phases de la Lune dure environ 29 jours et demi, à peu près un mois.",
+      "step_by_step_solution": [
+        "Un cycle complet dure à peu près un mois.",
+        "Plus précisément, environ 29 jours et demi."
+      ],
+      "hints": [
+        "C'est à peu près la durée d'un mois."
+      ],
+      "common_errors": {
+        "environ 7 jours": "L'élève confond avec la durée entre deux phases principales."
+      },
+      "remediation": "Noter les dates de deux pleines lunes successives sur un calendrier.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "environ 29 jours et demi",
+        "environ 7 jours",
+        "environ 365 jours"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.a03",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Vue depuis la France, la Lune croissante (dont la partie éclairée grandit) est éclairée…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Vue depuis la France, la Lune croissante est éclairée à droite ; la Lune décroissante est éclairée à gauche.",
+      "step_by_step_solution": [
+        "Entre nouvelle lune et pleine lune, la partie éclairée grandit par la droite.",
+        "Elle est éclairée du côté droit."
+      ],
+      "hints": [
+        "Pense au premier quartier vu depuis la France."
+      ],
+      "common_errors": {
+        "du côté gauche": "L'élève inverse lune croissante et lune décroissante."
+      },
+      "remediation": "Utiliser le moyen mnémotechnique : en France, une Lune en forme de « C » décroît.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "du côté droit",
+        "du côté gauche",
+        "en bas"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.a04",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Vue depuis la France, relie chaque description à la phase : disque entièrement éclairé ; Lune invisible ; moitié droite éclairée ; moitié gauche éclairée.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "disque entièrement éclairé": "pleine lune",
+          "Lune invisible": "nouvelle lune",
+          "moitié droite éclairée": "premier quartier",
+          "moitié gauche éclairée": "dernier quartier"
+        }
+      },
+      "solution": "Disque entier : pleine lune ; invisible : nouvelle lune ; moitié droite : premier quartier ; moitié gauche : dernier quartier. Réponse : disque entièrement éclairé → pleine lune ; Lune invisible → nouvelle lune ; moitié droite éclairée → premier quartier ; moitié gauche éclairée → dernier quartier.",
+      "step_by_step_solution": [
+        "entier → pleine lune ; invisible → nouvelle lune",
+        "droite → premier quartier ; gauche → dernier quartier"
+      ],
+      "hints": [
+        "La Lune qui grandit est éclairée à droite (vue de France)."
+      ],
+      "common_errors": {
+        "disque entièrement éclairé → pleine lune ; Lune invisible → nouvelle lune ; moitié droite éclairée → dernier quartier ; moitié gauche éclairée → premier quartier": "L'élève inverse premier et dernier quartier."
+      },
+      "remediation": "Dessiner les quatre phases principales en indiquant le côté éclairé.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "pleine lune",
+        "nouvelle lune",
+        "premier quartier",
+        "dernier quartier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.a05",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Entre la nouvelle lune et la pleine lune, la partie éclairée que l'on voit…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Après la nouvelle lune, on voit chaque soir un peu plus de la face éclairée : la partie visible grandit jusqu'à la pleine lune.",
+      "step_by_step_solution": [
+        "Nouvelle lune : rien de visible.",
+        "Pleine lune : tout le disque. Entre les deux, la partie éclairée grandit."
+      ],
+      "hints": [
+        "Compare la nouvelle lune et la pleine lune."
+      ],
+      "common_errors": {
+        "diminue": "L'élève inverse les deux moitiés du cycle."
+      },
+      "remediation": "Compléter une frise des phases avec des flèches « grandit » et « diminue ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "grandit",
+        "diminue",
+        "ne change pas"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.c01",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi la forme de la Lune que l'on voit change-t-elle au cours du mois ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Lune tourne autour de la Terre ; selon sa position, on voit une partie plus ou moins grande de sa moitié éclairée par le Soleil.",
+      "step_by_step_solution": [
+        "La moitié de la Lune tournée vers le Soleil est toujours éclairée.",
+        "Selon la position de la Lune, on en voit une partie plus ou moins grande."
+      ],
+      "hints": [
+        "La Lune est une boule : une moitié est toujours éclairée."
+      ],
+      "common_errors": {
+        "l'ombre de la Terre cache une partie de la Lune": "Erreur fréquente : confondre les phases avec une éclipse de Lune."
+      },
+      "remediation": "Refaire la modélisation lampe-balle en tournant sur soi.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "on voit une partie plus ou moins grande de sa moitié éclairée",
+        "l'ombre de la Terre cache une partie de la Lune",
+        "la Lune change vraiment de forme"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.c02",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Range ces phases dans l'ordre, à partir de la pleine lune : premier quartier, nouvelle lune, dernier quartier, pleine lune.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "pleine lune",
+          "dernier quartier",
+          "nouvelle lune",
+          "premier quartier"
+        ]
+      },
+      "solution": "Après la pleine lune, la partie éclairée diminue (dernier quartier) jusqu'à la nouvelle lune, puis grandit (premier quartier). Réponse : pleine lune → dernier quartier → nouvelle lune → premier quartier.",
+      "step_by_step_solution": [
+        "pleine lune → dernier quartier",
+        "→ nouvelle lune → premier quartier"
+      ],
+      "hints": [
+        "Après la pleine lune, la partie éclairée diminue."
+      ],
+      "common_errors": {
+        "pleine lune ; premier quartier ; nouvelle lune ; dernier quartier": "L'élève inverse premier et dernier quartier."
+      },
+      "remediation": "Dessiner le cycle en cercle pour voir qu'il recommence.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "premier quartier",
+        "nouvelle lune",
+        "dernier quartier",
+        "pleine lune"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.c03",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Lors de la pleine lune, où se trouve la Terre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "À la pleine lune, la Terre est à peu près entre le Soleil et la Lune : on voit toute la face éclairée de la Lune.",
+      "step_by_step_solution": [
+        "On voit toute la face éclairée.",
+        "La Terre est donc à peu près entre le Soleil et la Lune."
+      ],
+      "hints": [
+        "Pour voir toute la face éclairée, où faut-il être ?"
+      ],
+      "common_errors": {
+        "derrière le Soleil": "L'élève ne se représente pas les positions des trois astres."
+      },
+      "remediation": "Placer les trois astres avec la maquette pour la pleine lune et la nouvelle lune.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "à peu près entre le Soleil et la Lune",
+        "derrière le Soleil",
+        "loin, sur le côté du Soleil"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.c04",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : la moitié de la Lune tournée vers le Soleil est toujours éclairée.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : comme toute boule éclairée par une lampe, la Lune a toujours une moitié éclairée, celle tournée vers le Soleil. Réponse : vrai.",
+      "step_by_step_solution": [
+        "Une boule éclairée a une moitié éclairée.",
+        "La Lune aussi : c'est vrai."
+      ],
+      "hints": [
+        "Éclaire une balle avec une lampe."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la partie éclairée de la Lune change vraiment."
+      },
+      "remediation": "Éclairer une balle et faire le tour pour voir que la moitié éclairée ne change pas.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.c05",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Environ combien de jours séparent la nouvelle lune du premier quartier ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un cycle dure environ 29 jours et demi et compte quatre phases principales : environ 7 jours entre deux phases principales.",
+      "step_by_step_solution": [
+        "Cycle : environ 29 jours et demi.",
+        "Quatre phases principales : environ 7 jours entre deux."
+      ],
+      "hints": [
+        "Partage le cycle d'environ un mois en quatre."
+      ],
+      "common_errors": {
+        "environ 29 jours": "L'élève confond avec la durée du cycle complet."
+      },
+      "remediation": "Repérer sur un calendrier les dates des quatre phases principales.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "environ 7 jours",
+        "environ 1 jour",
+        "environ 29 jours"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.x01",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Range ces huit phases dans l'ordre, à partir de la nouvelle lune : pleine lune, premier croissant, dernier quartier, lune gibbeuse croissante, nouvelle lune, dernier croissant, premier quartier, lune gibbeuse décroissante.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "nouvelle lune",
+          "premier croissant",
+          "premier quartier",
+          "lune gibbeuse croissante",
+          "pleine lune",
+          "lune gibbeuse décroissante",
+          "dernier quartier",
+          "dernier croissant"
+        ]
+      },
+      "solution": "La partie éclairée grandit (croissant, quartier, gibbeuse) jusqu'à la pleine lune, puis diminue dans l'ordre inverse. Réponse : nouvelle lune → premier croissant → premier quartier → lune gibbeuse croissante → pleine lune → lune gibbeuse décroissante → dernier quartier → dernier croissant.",
+      "step_by_step_solution": [
+        "Croissance : nouvelle lune, premier croissant, premier quartier, gibbeuse croissante.",
+        "Pleine lune, puis décroissance : gibbeuse décroissante, dernier quartier, dernier croissant."
+      ],
+      "hints": [
+        "Une lune gibbeuse est plus qu'à moitié éclairée.",
+        "Un croissant est moins qu'à moitié éclairé."
+      ],
+      "common_errors": {
+        "nouvelle lune ; premier quartier ; premier croissant ; lune gibbeuse croissante ; pleine lune ; lune gibbeuse décroissante ; dernier quartier ; dernier croissant": "L'élève place le quartier avant le croissant."
+      },
+      "remediation": "Ranger des dessins des phases de la plus petite à la plus grande partie éclairée.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "pleine lune",
+        "premier croissant",
+        "dernier quartier",
+        "lune gibbeuse croissante",
+        "nouvelle lune",
+        "dernier croissant",
+        "premier quartier",
+        "lune gibbeuse décroissante"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.x02",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Ce soir, c'est la pleine lune. Quelle phase verra-t-on dans environ 15 jours ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Environ 15 jours, c'est la moitié du cycle : on passe de la pleine lune à la nouvelle lune.",
+      "step_by_step_solution": [
+        "Le cycle dure environ 29 jours et demi.",
+        "15 jours, c'est environ la moitié : on arrive à la nouvelle lune."
+      ],
+      "hints": [
+        "15 jours, c'est environ quelle part du cycle ?"
+      ],
+      "common_errors": {
+        "premier quartier": "L'élève oublie qu'après la pleine lune vient d'abord le dernier quartier, puis la nouvelle lune."
+      },
+      "remediation": "Utiliser une frise circulaire des phases et compter les jours.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "nouvelle lune",
+        "pleine lune",
+        "premier quartier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CM1.phases-lune.x03",
+      "notion_id": "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Depuis la France, Léo observe une Lune éclairée à gauche, en forme de « C ». Cette Lune est…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Vue depuis la France, une Lune éclairée à gauche est décroissante : on se rapproche de la nouvelle lune. Réponse : décroissante : elle va bientôt disparaître.",
+      "step_by_step_solution": [
+        "Vue de France, la Lune croissante est éclairée à droite.",
+        "Éclairée à gauche : décroissante."
+      ],
+      "hints": [
+        "De quel côté est éclairée la Lune qui grandit, vue de France ?"
+      ],
+      "common_errors": {
+        "croissante : elle va grossir": "Erreur fréquente : croire que « C » veut dire « croissante » (la Lune « menteuse »)."
+      },
+      "remediation": "Apprendre la règle : vue de France, la Lune en « C » décroît.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Nommer et ordonner les phases de la Lune",
+        "Expliquer les phases par l'éclairage de la Lune par le Soleil"
+      ],
+      "source_notions": [
+        "ST.CM1.MAT.observer-schematiser-et-nommer-les-phases-de-la-lune"
+      ],
+      "choices": [
+        "décroissante : elle va bientôt disparaître",
+        "croissante : elle va grossir",
+        "pleine"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

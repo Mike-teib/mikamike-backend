@@ -1,0 +1,874 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q01",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quelles sont les solutions réelles de l'équation x² = 49 ?",
+      "choices": [
+        "x = 7 ou x = −7",
+        "x = 7",
+        "x = 24,5",
+        "x = 49 ou x = −49"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 7 ou x = -7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "49 > 0, donc x² = 49 a deux solutions opposées : √49 = 7 et −7.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Oubli de la solution négative.",
+        "2": "Division par 2 au lieu de la racine carrée.",
+        "3": "Confusion entre x et x²."
+      },
+      "common_error_target": {
+        "1": "oubli de la solution négative"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q02",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Sur [0 ; +∞[, quelle est la solution de √x = 5 ?",
+      "choices": [
+        "25",
+        "√5",
+        "10",
+        "5/2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "25",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "√x = 5 avec 5 ⩾ 0 équivaut à x = 5² = 25.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a pris la racine au lieu d'élever au carré.",
+        "2": "On a multiplié par 2.",
+        "3": "On a divisé par 2."
+      },
+      "common_error_target": {
+        "1": "confusion carré / racine carrée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q03",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quelle est la solution dans ℝ* de l'équation 1/x = 5 ?",
+      "choices": [
+        "1/5",
+        "5",
+        "−5",
+        "−1/5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "1/x = 5 équivaut à x = 1/5 : c'est l'inverse de 5.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Confusion entre un nombre et son inverse.",
+        "2": "Confusion entre inverse et opposé.",
+        "3": "Erreur de signe."
+      },
+      "common_error_target": {
+        "2": "confusion inverse / opposé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q04",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quel est l'ensemble des solutions dans ℝ de x² ⩽ 4 ?",
+      "choices": [
+        "[−2 ; 2]",
+        "]−∞ ; 2]",
+        "[−4 ; 4]",
+        "[0 ; 2]"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "[−2 ; 2]",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "x² = 4 pour x = ±2 ; la parabole est sous la droite y = 4 entre −2 et 2, bornes comprises (inégalité large).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Les nombres très négatifs ont un grand carré.",
+        "2": "Confusion entre 4 et √4.",
+        "3": "Oubli des nombres négatifs."
+      },
+      "common_error_target": {
+        "1": "oubli des négatifs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q05",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quelle est la solution réelle de l'équation x³ = 27 ?",
+      "choices": [
+        "3",
+        "9",
+        "−3",
+        "x = 3 ou x = −3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "La fonction cube est strictement croissante : x³ = 27 a une seule solution, 3 (car 3³ = 27).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a divisé 27 par 3.",
+        "2": "Erreur de signe : (−3)³ = −27.",
+        "3": "Raisonnement de la fonction carré appliqué au cube."
+      },
+      "common_error_target": {
+        "3": "confusion carré / cube"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q06",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quelles sont les solutions de |x| = 4 ?",
+      "choices": [
+        "x = 4 ou x = −4",
+        "x = 4",
+        "x = 2 ou x = −2",
+        "x = 16 ou x = −16"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 4 ou x = -4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "|x| = 4 : les nombres situés à la distance 4 de 0 sont 4 et −4.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Oubli du nombre négatif.",
+        "2": "Confusion avec √4.",
+        "3": "Confusion avec 4²."
+      },
+      "common_error_target": {
+        "1": "oubli de −4"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q07",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quel est l'ensemble des solutions dans ℝ* de 1/x ⩾ 1/4 ?",
+      "choices": [
+        "]0 ; 4]",
+        "]−∞ ; 4]",
+        "[4 ; +∞[",
+        "]−∞ ; 0[ ∪ ]0 ; 4]"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "]0 ; 4]",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Si x < 0, 1/x < 0 < 1/4 : aucun négatif ne convient. Si x > 0, la fonction inverse est décroissante, donc 1/x ⩾ 1/4 équivaut à x ⩽ 4. S = ]0 ; 4].",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Les négatifs et 0 ne conviennent pas.",
+        "2": "On n'a pas inversé l'ordre.",
+        "3": "Les réels négatifs ont un inverse négatif."
+      },
+      "common_error_target": {
+        "2": "oubli de la décroissance"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q08",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quel est l'ensemble des solutions dans ℝ de x² > 3 ?",
+      "choices": [
+        "]−∞ ; −√3[ ∪ ]√3 ; +∞[",
+        "]√3 ; +∞[",
+        "]−√3 ; √3[",
+        "]−∞ ; −3[ ∪ ]3 ; +∞["
+      ],
+      "correct_answer": 0,
+      "reference_answer": "]−∞ ; −√3[ ∪ ]√3 ; +∞[",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "x² = 3 pour x = ±√3 ; x² > 3 à l'extérieur de [−√3 ; √3], bornes exclues.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Oubli des nombres négatifs.",
+        "2": "C'est l'ensemble où x² < 3.",
+        "3": "Confusion entre 3 et √3."
+      },
+      "common_error_target": {
+        "3": "oubli de la racine carrée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q09",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quel est l'ensemble des solutions de √x < 3 ?",
+      "choices": [
+        "[0 ; 9[",
+        "]−∞ ; 9[",
+        "[0 ; 3[",
+        "[0 ; √3["
+      ],
+      "correct_answer": 0,
+      "reference_answer": "[0 ; 9[",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "√x existe pour x ⩾ 0 et la fonction racine carrée est croissante : √x < 3 équivaut à 0 ⩽ x < 9.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Oubli de la condition x ⩾ 0.",
+        "2": "Confusion entre x et √x.",
+        "3": "On a pris la racine au lieu du carré."
+      },
+      "common_error_target": {
+        "1": "oubli de l'ensemble de définition"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.fonctions-ref.q10",
+      "notion_id": "MATHS.2NDE.FON.pour-les-fonctions-affines-valeur-absolue-carre-inverse-racine-carree",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Pour quelle valeur de k l'équation x² = k admet-elle exactement une solution réelle ?",
+      "choices": [
+        "0",
+        "1",
+        "−1",
+        "4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Si k > 0 il y a deux solutions (±√k), si k < 0 aucune ; seule k = 0 donne une unique solution, x = 0.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "x² = 1 a deux solutions : 1 et −1.",
+        "2": "x² = −1 n'a aucune solution réelle.",
+        "3": "x² = 4 a deux solutions : 2 et −2."
+      },
+      "common_error_target": {
+        "1": "oubli de la solution négative"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q01",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quelles sont les solutions de l'équation (x − 7)(x + 2) = 0 ?",
+      "choices": [
+        "x = 7 ou x = −2",
+        "x = −7 ou x = 2",
+        "x = 7",
+        "x = 7 ou x = 2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 7 ou x = -2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un produit est nul si l'un de ses facteurs est nul : x − 7 = 0 ou x + 2 = 0.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Erreurs de signe.",
+        "2": "Oubli du second facteur.",
+        "3": "Erreur de signe sur x + 2 = 0."
+      },
+      "common_error_target": {
+        "1": "erreur de signe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q02",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Pour x réel, l'égalité x(x + 9) = 0 est vraie exactement lorsque :",
+      "choices": [
+        "x = 0 ou x = −9",
+        "x = −9",
+        "x = 0 ou x = 9",
+        "x = 9"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 0 ou x = -9",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le produit x(x + 9) est nul si x = 0 ou si x + 9 = 0, c'est-à-dire x = −9.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Oubli du facteur x.",
+        "2": "Erreur de signe.",
+        "3": "Oubli du facteur x et erreur de signe."
+      },
+      "common_error_target": {
+        "1": "oubli de la solution 0"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q03",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Compléter : un produit de facteurs est nul si et seulement si…",
+      "choices": [
+        "l'un au moins des facteurs est nul",
+        "tous les facteurs sont nuls",
+        "la somme des facteurs est nulle",
+        "les facteurs sont égaux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "l'un au moins des facteurs est nul",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Il suffit qu'un seul facteur soit nul pour que le produit soit nul, et réciproquement.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Condition trop forte : un seul facteur nul suffit.",
+        "2": "Confusion entre somme et produit.",
+        "3": "Deux facteurs égaux non nuls donnent un produit non nul."
+      },
+      "common_error_target": {
+        "1": "condition trop forte"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q04",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Résoudre dans ℝ : (3x − 6)(x + 4) = 0.",
+      "choices": [
+        "x = 2 ou x = −4",
+        "x = 6 ou x = −4",
+        "x = −2 ou x = 4",
+        "x = 3 ou x = −4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 2 ou x = -4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3x − 6 = 0 donne x = 2 et x + 4 = 0 donne x = −4.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a oublié de diviser par 3.",
+        "2": "Erreurs de signe.",
+        "3": "On a pris le coefficient 3 pour la solution."
+      },
+      "common_error_target": {
+        "1": "division oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q05",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "L'équation x² + 8x = 0 a pour ensemble de solutions :",
+      "choices": [
+        "x = 0 ou x = −8",
+        "x = −8",
+        "x = 0 ou x = 8",
+        "x = 8"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 0 ou x = -8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "x² + 8x = x(x + 8) : produit nul, d'où x = 0 ou x = −8.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Division par x : la solution 0 est perdue.",
+        "2": "Erreur de signe.",
+        "3": "Division par x et erreur de signe."
+      },
+      "common_error_target": {
+        "1": "division par x"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q06",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quelles valeurs de x annulent (x − 1)(2x + 5) ?",
+      "choices": [
+        "x = 1 ou x = −5/2",
+        "x = 1 ou x = 5/2",
+        "x = −1 ou x = −5/2",
+        "x = 1 ou x = −5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 1 ou x = -5/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "x − 1 = 0 donne 1 et 2x + 5 = 0 donne −5/2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Erreur de signe sur 2x + 5 = 0.",
+        "2": "Erreur de signe sur x − 1 = 0.",
+        "3": "Division par 2 oubliée."
+      },
+      "common_error_target": {
+        "3": "division oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q07",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Résoudre dans ℝ : (x + 3)(x − 1) = 2x(x + 3).",
+      "choices": [
+        "x = −3 ou x = −1",
+        "x = −1",
+        "x = −3 ou x = 1",
+        "x = 3 ou x = 1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = -3 ou x = -1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(x + 3)(x − 1) − 2x(x + 3) = (x + 3)(−x − 1) = 0, donc x = −3 ou x = −1.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Simplification par (x + 3) : solution −3 perdue.",
+        "2": "Erreur de signe sur −x − 1 = 0.",
+        "3": "Erreurs de signe."
+      },
+      "common_error_target": {
+        "1": "simplification interdite"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q08",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Quelles sont les solutions réelles de 9x² − 1 = 0 ?",
+      "choices": [
+        "x = 1/3 ou x = −1/3",
+        "x = 1/3",
+        "x = 1/9 ou x = −1/9",
+        "x = 3 ou x = −3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 1/3 ou x = -1/3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "9x² − 1 = (3x − 1)(3x + 1), nul pour x = 1/3 ou x = −1/3.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Oubli de la solution négative.",
+        "2": "On a oublié la racine carrée.",
+        "3": "On a inversé les fractions."
+      },
+      "common_error_target": {
+        "2": "oubli de la racine"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q09",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Combien de solutions réelles distinctes l'équation (x − 4)² = 0 possède-t-elle ?",
+      "choices": [
+        "1",
+        "2",
+        "0",
+        "4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(x − 4)² = (x − 4)(x − 4) : les deux facteurs sont nuls pour la même valeur x = 4, donc une seule solution.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Les deux facteurs donnent la même solution.",
+        "2": "Un carré peut être nul.",
+        "3": "Confusion entre la solution et leur nombre."
+      },
+      "common_error_target": {
+        "1": "solution comptée deux fois"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.produit-nul.q10",
+      "notion_id": "MATHS.2NDE.NCA.equation-de-la-forme-a-x-b-x-0-equation-produit-nul",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Résoudre dans ℝ : x³ − x = 0.",
+      "choices": [
+        "x = 0 ou x = 1 ou x = −1",
+        "x = 1 ou x = −1",
+        "x = 0 ou x = 1",
+        "x = 1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 0 ou x = 1 ou x = -1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "x³ − x = x(x² − 1) = x(x − 1)(x + 1) : trois solutions 0, 1 et −1.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Division par x : solution 0 perdue.",
+        "2": "Oubli de la solution −1.",
+        "3": "Deux solutions oubliées."
+      },
+      "common_error_target": {
+        "1": "division par x"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q01",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Dans une base orthonormée, que vaut det(u⃗, v⃗) pour u⃗(2 ; 5) et v⃗(1 ; 3) ?",
+      "choices": [
+        "1",
+        "17",
+        "−1",
+        "11"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "det(u⃗, v⃗) = xy' − x'y = 2 × 3 − 1 × 5 = 1.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est xx' + yy'.",
+        "2": "Ordre inversé : x'y − xy'.",
+        "3": "Produits en croix ajoutés au lieu d'être soustraits."
+      },
+      "common_error_target": {
+        "1": "confusion avec xx' + yy'"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q02",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Deux vecteurs du plan sont colinéaires si et seulement si leur déterminant…",
+      "choices": [
+        "est nul",
+        "est égal à 1",
+        "est positif",
+        "est négatif"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "est nul",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Critère de colinéarité : u⃗ et v⃗ sont colinéaires si et seulement si det(u⃗, v⃗) = 0.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Aucune propriété n'est liée à la valeur 1.",
+        "2": "Le signe ne renseigne pas sur la colinéarité.",
+        "3": "Le signe ne renseigne pas sur la colinéarité."
+      },
+      "common_error_target": {
+        "2": "confusion signe / nullité"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q03",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Dans une base orthonormée, quel vecteur est colinéaire à u⃗(3 ; 1) ?",
+      "choices": [
+        "(6 ; 2)",
+        "(1 ; 3)",
+        "(−3 ; 1)",
+        "(3 ; −1)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "(6 ; 2)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "(6 ; 2) = 2 × (3 ; 1) ; le déterminant 3 × 2 − 6 × 1 est nul.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Coordonnées échangées.",
+        "2": "Seule l'abscisse change de signe.",
+        "3": "Seule l'ordonnée change de signe."
+      },
+      "common_error_target": {
+        "1": "échange des coordonnées"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q04",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Pour quelle valeur de m les vecteurs u⃗(m ; 6) et v⃗(2 ; 3) sont-ils colinéaires ?",
+      "choices": [
+        "4",
+        "1",
+        "9",
+        "−4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "det(u⃗, v⃗) = 3m − 12 = 0, donc m = 4.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Produit en croix mal posé (6m = 6).",
+        "2": "Somme au lieu d'une égalité de produits.",
+        "3": "Erreur de signe."
+      },
+      "common_error_target": {
+        "1": "produit en croix inversé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q05",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Dans un repère, A(0 ; 0), B(2 ; 6) et C(3 ; y) sont alignés. Que vaut y ?",
+      "choices": [
+        "9",
+        "6",
+        "1",
+        "3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "AB⃗(2 ; 6), AC⃗(3 ; y) : 2y − 18 = 0, donc y = 9.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a recopié l'ordonnée de B.",
+        "2": "Produit en croix inversé (6y = 6).",
+        "3": "On a recopié l'abscisse de C."
+      },
+      "common_error_target": {
+        "2": "produit en croix inversé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q06",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Dans une base orthonormée, calculer det(u⃗, v⃗) pour u⃗(−1 ; 4) et v⃗(3 ; −2).",
+      "choices": [
+        "−10",
+        "10",
+        "14",
+        "−14"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "-10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "det(u⃗, v⃗) = (−1) × (−2) − 3 × 4 = 2 − 12 = −10.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Ordre inversé.",
+        "2": "Erreur de signe sur (−1) × (−2).",
+        "3": "Erreurs de signe."
+      },
+      "common_error_target": {
+        "1": "ordre inversé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q07",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "Pour quelles valeurs de m les vecteurs u⃗(m ; 2) et v⃗(8 ; m) sont-ils colinéaires ?",
+      "choices": [
+        "m = 4 ou m = −4",
+        "m = 4",
+        "m = 16",
+        "m = 8 ou m = −8"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "m = 4 ou m = -4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "det(u⃗, v⃗) = m² − 16 = 0 équivaut à m = 4 ou m = −4.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Oubli de la solution négative.",
+        "2": "On a oublié la racine carrée.",
+        "3": "On n'a pas tenu compte du 2."
+      },
+      "common_error_target": {
+        "1": "oubli de −4"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q08",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "A(1 ; 2), B(3 ; 6), C(0 ; 1), D(2 ; y). Pour quelle valeur de y a-t-on (AB) // (CD) ?",
+      "choices": [
+        "5",
+        "4",
+        "9",
+        "3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "AB⃗(2 ; 4), CD⃗(2 ; y − 1) : 2(y − 1) − 8 = 0 donne y = 5.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a pris CD⃗(2 ; y) sans soustraire l'ordonnée de C.",
+        "2": "Erreur de signe sur y − 1.",
+        "3": "On a pris CD⃗(2 ; y + 1)."
+      },
+      "common_error_target": {
+        "1": "coordonnées de CD⃗ mal calculées"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q09",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "On sait que u⃗ ≠ 0⃗ et det(u⃗, v⃗) = 0. Que peut-on affirmer ?",
+      "choices": [
+        "Il existe un réel k tel que v⃗ = k u⃗",
+        "u⃗ et v⃗ sont orthogonaux",
+        "u⃗ et v⃗ ont la même norme",
+        "u⃗ = v⃗"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Il existe un réel k tel que v⃗ = k u⃗",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un déterminant nul traduit la colinéarité : v⃗ est un multiple de u⃗ (u⃗ non nul).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le déterminant ne traduit pas l'orthogonalité.",
+        "2": "Colinéaires n'implique pas même norme.",
+        "3": "Colinéaires n'implique pas égaux."
+      },
+      "common_error_target": {
+        "1": "confusion colinéaire / orthogonal"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.2NDE.colinearite.q10",
+      "notion_id": "MATHS.2NDE.GEO.determinant-de-deux-vecteurs-dans-une-base-orthonormee-critere-de-coli",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "question": "A(2 ; 4), B(5 ; −2) et M(x ; 0) sont alignés. Que vaut x ?",
+      "choices": [
+        "4",
+        "3",
+        "2",
+        "6"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "AB⃗(3 ; −6), AM⃗(x − 2 ; −4) : 3 × (−4) − (x − 2)(−6) = 6x − 24 = 0, donc x = 4.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Erreur de signe dans le produit en croix.",
+        "2": "On a recopié l'abscisse de A.",
+        "3": "Erreur de signe sur (x − 2)."
+      },
+      "common_error_target": {
+        "1": "erreur de signe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

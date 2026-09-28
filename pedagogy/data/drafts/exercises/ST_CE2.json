@@ -1,0 +1,2267 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.d01",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Lequel est un solide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le caillou garde sa forme, quel que soit le récipient : c'est un solide. Réponse : un caillou.",
+      "step_by_step_solution": [
+        "L'huile et le lait coulent et prennent la forme du récipient.",
+        "Le caillou garde sa forme : c'est un solide."
+      ],
+      "hints": [
+        "Lequel garde sa forme dans n'importe quel récipient ?"
+      ],
+      "common_errors": {
+        "de l'huile": "L'élève pense qu'un liquide épais est un solide."
+      },
+      "remediation": "Déplacer un caillou et de l'huile d'un récipient à l'autre et comparer leur forme.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "un caillou",
+        "de l'huile",
+        "du lait"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.d02",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Lequel est un liquide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le jus de pomme coule et prend la forme du verre : c'est un liquide. Réponse : du jus de pomme.",
+      "step_by_step_solution": [
+        "La gomme et le clou gardent leur forme.",
+        "Le jus de pomme prend la forme du récipient : c'est un liquide."
+      ],
+      "hints": [
+        "Lequel coule quand on le verse ?"
+      ],
+      "common_errors": {
+        "une gomme": "L'élève confond « mou » et « liquide »."
+      },
+      "remediation": "Verser du jus dans deux verres de formes différentes et observer.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "du jus de pomme",
+        "une gomme",
+        "un clou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.d03",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Complète : une matière qui garde sa forme quand on la change de récipient est à l'état …",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "solide"
+        ]
+      },
+      "solution": "Une matière qui a une forme propre est à l'état solide.",
+      "step_by_step_solution": [
+        "Garder sa forme, c'est avoir une forme propre.",
+        "C'est une propriété de l'état solide."
+      ],
+      "hints": [
+        "Pense à un caillou ou à un morceau de bois."
+      ],
+      "common_errors": {
+        "liquide": "L'élève inverse les propriétés des deux états."
+      },
+      "remediation": "Faire la carte d'identité des deux états : forme propre ? volume propre ?",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.d04",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : un liquide prend la forme du récipient qui le contient.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : un liquide n'a pas de forme propre, il prend la forme du récipient. Réponse : vrai.",
+      "step_by_step_solution": [
+        "L'eau dans un verre a la forme du verre ; dans un bol, celle du bol.",
+        "C'est vrai."
+      ],
+      "hints": [
+        "Pense à de l'eau versée dans un verre puis dans un bol."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que le liquide garde la forme de la bouteille d'où il vient."
+      },
+      "remediation": "Transvaser de l'eau colorée dans des récipients de formes variées.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.d05",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque matière à son état : bois, huile, glace, lait.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "bois": "solide",
+          "huile": "liquide",
+          "glace": "solide",
+          "lait": "liquide"
+        }
+      },
+      "solution": "Le bois et la glace gardent leur forme : solides. L'huile et le lait prennent la forme du récipient : liquides. Réponse : bois → solide ; huile → liquide ; glace → solide ; lait → liquide.",
+      "step_by_step_solution": [
+        "Solides : bois, glace.",
+        "Liquides : huile, lait."
+      ],
+      "hints": [
+        "Lesquels coulent ?"
+      ],
+      "common_errors": {
+        "bois → solide ; huile → liquide ; glace → liquide ; lait → liquide": "L'élève pense que la glace est liquide parce qu'elle est faite d'eau."
+      },
+      "remediation": "Rappeler que la glace est de l'eau à l'état solide.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "solide",
+        "liquide"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.a01",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "On vide deux bouteilles contenant chacune 1 L d'eau dans un seau vide, sans rien renverser. Quel volume d'eau y a-t-il dans le seau ? Réponds en L.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 2,
+        "unit": "L"
+      },
+      "solution": "Un liquide a un volume propre : le volume ne change pas quand on le transvase. 1 L + 1 L = 2 L. Réponse : 2 L.",
+      "step_by_step_solution": [
+        "Le volume de l'eau ne change pas quand on la transvase.",
+        "1 L + 1 L = 2 L."
+      ],
+      "hints": [
+        "Le seau est plus large que la bouteille : le volume change-t-il pour autant ?"
+      ],
+      "common_errors": {
+        "1 L": "L'élève n'a compté qu'une seule bouteille."
+      },
+      "remediation": "Transvaser réellement deux bouteilles d'un litre dans un récipient gradué.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.a02",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "On penche doucement un verre d'eau. Comment reste la surface de l'eau ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Au repos, la surface libre d'un liquide reste horizontale, même si le récipient est penché.",
+      "step_by_step_solution": [
+        "Le verre penche, mais pas la surface de l'eau.",
+        "Elle reste horizontale, à plat."
+      ],
+      "hints": [
+        "Compare la surface de l'eau au dessus de la table."
+      ],
+      "common_errors": {
+        "penchée comme le verre": "Erreur fréquente : croire que la surface suit l'inclinaison du récipient."
+      },
+      "remediation": "Pencher un verre d'eau colorée devant une feuille avec des lignes horizontales.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "horizontale, à plat",
+        "penchée comme le verre",
+        "en forme de bosse"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.a03",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Le sable coule quand on le verse. Pourtant, le sable est…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Chaque grain de sable garde sa forme : le sable est un solide en grains, même s'il coule.",
+      "step_by_step_solution": [
+        "Regarde un grain à la loupe : il garde sa forme.",
+        "Le sable est un solide fait de petits grains."
+      ],
+      "hints": [
+        "Observe un seul grain de sable à la loupe."
+      ],
+      "common_errors": {
+        "un liquide": "Erreur fréquente : croire que tout ce qui s'écoule est liquide."
+      },
+      "remediation": "Observer du sable et du sucre en poudre à la loupe : chaque grain a sa forme.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "un solide fait de petits grains",
+        "un liquide",
+        "de l'eau"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.a04",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque propriété à l'état : « a une forme propre », « n'a pas de forme propre », « surface libre horizontale au repos », « se saisit avec les doigts ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "a une forme propre": "solide",
+          "n'a pas de forme propre": "liquide",
+          "surface libre horizontale au repos": "liquide",
+          "se saisit avec les doigts": "solide"
+        }
+      },
+      "solution": "Le solide a une forme propre et se saisit avec les doigts ; le liquide n'a pas de forme propre et sa surface libre au repos est horizontale. Réponse : a une forme propre → solide ; n'a pas de forme propre → liquide ; surface libre horizontale au repos → liquide ; se saisit avec les doigts → solide.",
+      "step_by_step_solution": [
+        "Solide : forme propre, se saisit avec les doigts.",
+        "Liquide : pas de forme propre, surface horizontale."
+      ],
+      "hints": [
+        "Pense à un caillou puis à de l'eau dans un verre."
+      ],
+      "common_errors": {
+        "a une forme propre → liquide ; n'a pas de forme propre → solide ; surface libre horizontale au repos → liquide ; se saisit avec les doigts → solide": "L'élève inverse la forme propre."
+      },
+      "remediation": "Construire un tableau des propriétés avec des exemples.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "solide",
+        "liquide"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.a05",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Léo verse l'eau d'une bouteille haute et fine dans un plat large et bas. Le volume d'eau…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'eau change de forme mais garde son volume : le volume reste le même.",
+      "step_by_step_solution": [
+        "L'eau change de forme.",
+        "Rien n'est ajouté ni renversé : le volume reste le même."
+      ],
+      "hints": [
+        "A-t-on ajouté ou enlevé de l'eau ?"
+      ],
+      "common_errors": {
+        "diminue": "L'élève juge le volume à la hauteur de l'eau, plus basse dans le plat."
+      },
+      "remediation": "Reverser l'eau du plat dans la bouteille : elle remonte au même niveau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "reste le même",
+        "augmente",
+        "diminue"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.c01",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque matière à son état : miel liquide, sucre en poudre, farine, huile.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "miel liquide": "liquide",
+          "sucre en poudre": "solide",
+          "farine": "solide",
+          "huile": "liquide"
+        }
+      },
+      "solution": "Le sucre en poudre et la farine sont des solides en grains. Le miel liquide et l'huile prennent la forme du récipient : ce sont des liquides. Réponse : miel liquide → liquide ; sucre en poudre → solide ; farine → solide ; huile → liquide.",
+      "step_by_step_solution": [
+        "Solides en grains : sucre en poudre, farine.",
+        "Liquides : miel liquide, huile."
+      ],
+      "hints": [
+        "Observe un grain de farine ou de sucre à la loupe."
+      ],
+      "common_errors": {
+        "miel liquide → liquide ; sucre en poudre → liquide ; farine → liquide ; huile → liquide": "L'élève classe les poudres parmi les liquides parce qu'elles s'écoulent."
+      },
+      "remediation": "Verser de la farine dans un verre : sa surface n'est pas horizontale, elle forme un tas.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "solide",
+        "liquide"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.c02",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi dit-on que la farine est un solide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Chaque petit grain de farine a une forme propre : la farine est un solide en poudre.",
+      "step_by_step_solution": [
+        "La farine s'écoule, mais ses grains gardent leur forme.",
+        "Chaque grain garde sa forme : c'est un solide."
+      ],
+      "hints": [
+        "Que voit-on à la loupe ?"
+      ],
+      "common_errors": {
+        "elle coule": "L'élève confond « s'écouler » et « être liquide »."
+      },
+      "remediation": "Comparer un tas de farine (forme un tas) et de l'eau (surface horizontale).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "chaque grain garde sa forme",
+        "elle coule",
+        "elle est blanche"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.c03",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : le miel liquide coule lentement, donc c'est un solide.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : le miel liquide coule lentement mais prend la forme du pot : c'est un liquide épais. Réponse : faux.",
+      "step_by_step_solution": [
+        "Le miel liquide prend la forme du récipient.",
+        "Il n'a pas de forme propre : c'est un liquide, donc faux."
+      ],
+      "hints": [
+        "Au bout d'un moment, le miel prend-il la forme du pot ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense qu'un liquide doit couler vite."
+      },
+      "remediation": "Comparer l'écoulement de l'eau et d'un liquide épais (sirop) : tous deux prennent la forme du récipient.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.c04",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Une bouteille bien fermée, à moitié pleine d'eau, est couchée sur la table. La surface de l'eau est…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Au repos, la surface libre de l'eau reste horizontale, quelle que soit la position de la bouteille.",
+      "step_by_step_solution": [
+        "La bouteille est couchée.",
+        "La surface de l'eau reste horizontale."
+      ],
+      "hints": [
+        "Est-ce que la surface d'un liquide au repos suit la bouteille ?"
+      ],
+      "common_errors": {
+        "verticale": "L'élève pense que la surface suit la position de la bouteille."
+      },
+      "remediation": "Coucher une bouteille transparente à moitié remplie d'eau colorée et observer.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "horizontale",
+        "verticale",
+        "penchée"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.c05",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Inès met des billes dans un verre : elles remplissent à peu près le fond du verre. Pourtant, les billes sont des solides. Pourquoi ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le tas de billes suit un peu la forme du verre, mais chaque bille garde sa forme propre : ce sont des solides.",
+      "step_by_step_solution": [
+        "C'est le tas qui s'adapte au verre, pas chaque bille.",
+        "Chaque bille garde sa forme : solide."
+      ],
+      "hints": [
+        "Regarde une seule bille : change-t-elle de forme ?"
+      ],
+      "common_errors": {
+        "les billes sont petites": "La taille n'est pas un critère d'état."
+      },
+      "remediation": "Comparer les billes avec le sable et la farine : des solides divisés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "chaque bille garde sa forme",
+        "les billes sont petites",
+        "les billes sont rondes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.x01",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une carafe vide reçoit le contenu de deux bouteilles de 1 L et d'une bouteille de 2 L. Quel volume d'eau contient la carafe ? Réponds en L.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 4,
+        "unit": "L"
+      },
+      "solution": "Le volume d'un liquide ne change pas quand on le transvase : 1 L + 1 L + 2 L = 4 L. Réponse : 4 L.",
+      "step_by_step_solution": [
+        "Chaque bouteille garde son volume en passant dans la carafe.",
+        "1 L + 1 L + 2 L = 4 L."
+      ],
+      "hints": [
+        "Compte toutes les bouteilles."
+      ],
+      "common_errors": {
+        "3 L": "L'élève n'a compté qu'une bouteille de 1 L."
+      },
+      "remediation": "Écrire la liste des bouteilles avant de faire l'addition.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.x02",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Quelle propriété ont en commun les solides et les liquides ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les solides et les liquides ont tous les deux un volume propre. Seul le solide a une forme propre. Réponse : ils ont un volume propre.",
+      "step_by_step_solution": [
+        "Forme propre : seulement le solide.",
+        "Volume propre : le solide et le liquide."
+      ],
+      "hints": [
+        "Un litre d'eau reste-t-il un litre dans un autre récipient ?"
+      ],
+      "common_errors": {
+        "ils ont une forme propre": "L'élève oublie qu'un liquide n'a pas de forme propre."
+      },
+      "remediation": "Compléter un tableau « forme propre / volume propre » pour les deux états.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "ils ont un volume propre",
+        "ils ont une forme propre",
+        "ils prennent la forme du récipient"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.solide-liquide.x03",
+      "notion_id": "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Quelle expérience montre qu'un liquide n'a pas de forme propre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "En versant l'eau dans des récipients de formes différentes, on voit qu'elle prend chaque fois leur forme. Réponse : verser de l'eau dans des récipients de formes différentes.",
+      "step_by_step_solution": [
+        "Peser mesure la masse, pas la forme.",
+        "Le congélateur change l'état de l'eau.",
+        "Il faut verser dans des récipients de formes différentes."
+      ],
+      "hints": [
+        "Que faut-il changer pour voir si la forme change ?"
+      ],
+      "common_errors": {
+        "peser l'eau": "L'élève ne relie pas l'expérience à la propriété à tester."
+      },
+      "remediation": "Faire l'expérience avec trois récipients et dessiner l'eau dans chacun.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Différencier l'état solide et l'état liquide par leurs propriétés",
+        "Utiliser les critères forme propre, volume propre, surface horizontale"
+      ],
+      "source_notions": [
+        "ST.CE2.MAT.differencier-les-etats-physiques-solide-forme-et-volume-propre-et-liqu"
+      ],
+      "choices": [
+        "verser de l'eau dans des récipients de formes différentes",
+        "peser l'eau",
+        "mettre l'eau au congélateur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.d01",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans une chaîne alimentaire, que veut dire « herbe → lapin » ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La flèche veut dire « est mangé par » : l'herbe est mangée par le lapin.",
+      "step_by_step_solution": [
+        "La flèche se lit « est mangé par ».",
+        "herbe → lapin : l'herbe est mangée par le lapin."
+      ],
+      "hints": [
+        "La flèche va de l'aliment vers celui qui le mange."
+      ],
+      "common_errors": {
+        "le lapin est mangé par l'herbe": "L'élève lit la flèche à l'envers."
+      },
+      "remediation": "Lire plusieurs flèches à voix haute avec la formule « … est mangé par … ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "l'herbe est mangée par le lapin",
+        "le lapin est mangé par l'herbe",
+        "le lapin marche sur l'herbe"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.d02",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "ORDERING",
+      "statement": "Range pour former une chaîne alimentaire : lapin, herbe, renard.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "herbe",
+          "lapin",
+          "renard"
+        ]
+      },
+      "solution": "L'herbe est mangée par le lapin, qui est mangé par le renard : herbe → lapin → renard. Réponse : herbe → lapin → renard.",
+      "step_by_step_solution": [
+        "On commence par le végétal : l'herbe.",
+        "L'herbe est mangée par le lapin, le lapin par le renard."
+      ],
+      "hints": [
+        "Par quoi commence toujours une chaîne alimentaire ?"
+      ],
+      "common_errors": {
+        "renard ; lapin ; herbe": "L'élève écrit la chaîne à l'envers (du mangeur vers l'aliment)."
+      },
+      "remediation": "Découper des étiquettes et les poser dans l'ordre en disant « est mangé par ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "lapin",
+        "herbe",
+        "renard"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.d03",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Par quoi commence toujours une chaîne alimentaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Une chaîne alimentaire commence toujours par un végétal, qui ne mange pas d'autre être vivant.",
+      "step_by_step_solution": [
+        "Les animaux mangent d'autres êtres vivants.",
+        "Le premier maillon est toujours un végétal."
+      ],
+      "hints": [
+        "Qui, dans la nature, ne mange aucun autre être vivant ?"
+      ],
+      "common_errors": {
+        "par un gros animal": "L'élève commence par l'animal le plus impressionnant."
+      },
+      "remediation": "Vérifier sur plusieurs chaînes que le premier maillon est une plante.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "par un végétal",
+        "par un gros animal",
+        "par un carnivore"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.d04",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "ORDERING",
+      "statement": "Range pour former une chaîne alimentaire : hérisson, salade, escargot.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "salade",
+          "escargot",
+          "hérisson"
+        ]
+      },
+      "solution": "La salade est mangée par l'escargot, qui est mangé par le hérisson. Réponse : salade → escargot → hérisson.",
+      "step_by_step_solution": [
+        "On commence par le végétal : la salade.",
+        "Salade → escargot → hérisson."
+      ],
+      "hints": [
+        "Que mange l'escargot ? Qui mange l'escargot ?"
+      ],
+      "common_errors": {
+        "salade ; hérisson ; escargot": "L'élève ne sait pas que le hérisson mange des escargots."
+      },
+      "remediation": "Chercher dans un documentaire ce que mangent le hérisson et l'escargot.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "hérisson",
+        "salade",
+        "escargot"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.d05",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : dans « feuille → chenille », c'est la chenille qui mange la feuille.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : la flèche se lit « la feuille est mangée par la chenille ». Réponse : vrai.",
+      "step_by_step_solution": [
+        "La flèche veut dire « est mangé par ».",
+        "La feuille est mangée par la chenille : vrai."
+      ],
+      "hints": [
+        "Lis la flèche avec les mots « est mangée par »."
+      ],
+      "common_errors": {
+        "faux": "L'élève lit la flèche à l'envers."
+      },
+      "remediation": "S'entraîner à lire des flèches à voix haute.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.a01",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Range pour former une chaîne alimentaire : épervier, feuilles de chêne, mésange, chenille.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "feuilles de chêne",
+          "chenille",
+          "mésange",
+          "épervier"
+        ]
+      },
+      "solution": "Les feuilles de chêne sont mangées par la chenille, mangée par la mésange, mangée par l'épervier. Réponse : feuilles de chêne → chenille → mésange → épervier.",
+      "step_by_step_solution": [
+        "On commence par le végétal : les feuilles de chêne.",
+        "Puis chenille, mésange, épervier."
+      ],
+      "hints": [
+        "Commence par le végétal.",
+        "L'épervier est un rapace qui chasse les petits oiseaux."
+      ],
+      "common_errors": {
+        "feuilles de chêne ; mésange ; chenille ; épervier": "L'élève inverse la chenille et la mésange."
+      },
+      "remediation": "Pour chaque animal, chercher ce qu'il mange avant de ranger.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "épervier",
+        "feuilles de chêne",
+        "mésange",
+        "chenille"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.a02",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle chaîne alimentaire est bien écrite ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "On commence par le végétal et la flèche veut dire « est mangé par » : herbe → criquet → grenouille.",
+      "step_by_step_solution": [
+        "Le premier maillon doit être le végétal : l'herbe.",
+        "herbe → criquet → grenouille."
+      ],
+      "hints": [
+        "Laquelle commence par un végétal ?"
+      ],
+      "common_errors": {
+        "grenouille → criquet → herbe": "L'élève écrit la chaîne à l'envers."
+      },
+      "remediation": "Vérifier chaque chaîne avec deux questions : commence-t-elle par un végétal ? chaque flèche se lit-elle « est mangé par » ?",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "herbe → criquet → grenouille",
+        "grenouille → criquet → herbe",
+        "criquet → herbe → grenouille"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.a03",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Complète la chaîne : blé → ? → chouette.",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La souris mange des grains de blé et elle est mangée par la chouette : blé → souris → chouette.",
+      "step_by_step_solution": [
+        "Il faut un animal qui mange du blé et qui est mangé par la chouette.",
+        "C'est la souris."
+      ],
+      "hints": [
+        "Qui la chouette chasse-t-elle la nuit ?"
+      ],
+      "common_errors": {
+        "vache": "La vache mange des végétaux mais n'est pas mangée par la chouette."
+      },
+      "remediation": "Vérifier chaque flèche séparément : blé → ? puis ? → chouette.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "souris",
+        "lion",
+        "vache"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.a04",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Dans la chaîne « herbe → criquet → grenouille → héron », relie chaque animal à ce qu'il mange.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "criquet": "herbe",
+          "grenouille": "criquet",
+          "héron": "grenouille"
+        }
+      },
+      "solution": "Chaque animal mange le maillon juste avant lui : le criquet mange l'herbe, la grenouille le criquet, le héron la grenouille. Réponse : criquet → herbe ; grenouille → criquet ; héron → grenouille.",
+      "step_by_step_solution": [
+        "criquet → herbe ; grenouille → criquet",
+        "héron → grenouille"
+      ],
+      "hints": [
+        "Regarde le maillon juste avant chaque animal."
+      ],
+      "common_errors": {
+        "criquet → grenouille ; grenouille → héron ; héron → herbe": "L'élève lit la chaîne à l'envers."
+      },
+      "remediation": "Relire la chaîne en disant « … est mangé par … » pour chaque flèche.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "herbe",
+        "criquet",
+        "grenouille"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.a05",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Dans la chaîne « algues → petit poisson → brochet », qui mange le petit poisson ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le petit poisson est mangé par le brochet, le maillon suivant.",
+      "step_by_step_solution": [
+        "La flèche après le petit poisson va vers le brochet.",
+        "Le petit poisson est mangé par le brochet."
+      ],
+      "hints": [
+        "Suis la flèche qui part du petit poisson."
+      ],
+      "common_errors": {
+        "les algues": "L'élève lit la flèche à l'envers."
+      },
+      "remediation": "Pointer du doigt la flèche qui part du petit poisson.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "le brochet",
+        "les algues",
+        "personne"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.c01",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Range pour former une chaîne alimentaire : héron, herbe, grenouille, criquet.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "herbe",
+          "criquet",
+          "grenouille",
+          "héron"
+        ]
+      },
+      "solution": "L'herbe est mangée par le criquet, mangé par la grenouille, mangée par le héron. Réponse : herbe → criquet → grenouille → héron.",
+      "step_by_step_solution": [
+        "On commence par le végétal : l'herbe.",
+        "Puis criquet, grenouille, héron."
+      ],
+      "hints": [
+        "Que mange la grenouille ?"
+      ],
+      "common_errors": {
+        "herbe ; grenouille ; criquet ; héron": "L'élève pense que la grenouille mange de l'herbe."
+      },
+      "remediation": "Pour chaque animal, dire ce qu'il mange avant de placer l'étiquette.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "héron",
+        "herbe",
+        "grenouille",
+        "criquet"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.c02",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Dans une forêt, des renards ne mangent que des lapins, et les lapins mangent de l'herbe. Que se passe-t-il pour les renards s'il n'y a presque plus de lapins ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les renards mangent des lapins : s'il y a moins de lapins, les renards ont moins de nourriture. Réponse : ils ont moins à manger.",
+      "step_by_step_solution": [
+        "herbe → lapin → renard.",
+        "Moins de lapins : moins de nourriture pour les renards."
+      ],
+      "hints": [
+        "Que mangent les renards dans cette forêt ?"
+      ],
+      "common_errors": {
+        "rien ne change pour eux": "L'élève ne voit pas les liens entre les maillons."
+      },
+      "remediation": "Jouer la chaîne avec des élèves qui se tiennent par la main : si un maillon part, que se passe-t-il ?",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "ils ont moins à manger",
+        "ils ont plus à manger",
+        "rien ne change pour eux"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.c03",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle chaîne alimentaire est fausse ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "« lapin → herbe » voudrait dire que le lapin est mangé par l'herbe : c'est faux. La chaîne fausse est lapin → herbe → renard.",
+      "step_by_step_solution": [
+        "Les deux autres chaînes commencent par un végétal.",
+        "La chaîne fausse est celle qui ne commence pas par un végétal."
+      ],
+      "hints": [
+        "Lis chaque flèche avec « est mangé par »."
+      ],
+      "common_errors": {
+        "salade → escargot → hérisson": "L'élève ne sait pas que le hérisson mange des escargots."
+      },
+      "remediation": "Vérifier chaque flèche à voix haute.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "lapin → herbe → renard",
+        "herbe → lapin → renard",
+        "salade → escargot → hérisson"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.c04",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : une chaîne alimentaire peut commencer par un animal carnivore.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : une chaîne alimentaire commence toujours par un végétal. Réponse : faux.",
+      "step_by_step_solution": [
+        "Un carnivore mange d'autres animaux.",
+        "Il ne peut donc pas être le premier maillon : faux."
+      ],
+      "hints": [
+        "Que mange un carnivore ? Peut-il être au début ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève commence les chaînes par l'animal le plus fort."
+      },
+      "remediation": "Rappeler la règle du premier maillon végétal et l'appliquer à plusieurs chaînes.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.c05",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans une chaîne alimentaire, comment appelle-t-on chaque être vivant relié aux autres par des flèches ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "maillon",
+          "un maillon",
+          "maillons",
+          "les maillons"
+        ]
+      },
+      "solution": "Chaque être vivant d'une chaîne alimentaire est un maillon, comme les anneaux d'une chaîne.",
+      "step_by_step_solution": [
+        "Une chaîne est faite d'anneaux accrochés les uns aux autres.",
+        "Chaque être vivant est un maillon."
+      ],
+      "hints": [
+        "Pense aux anneaux d'une chaîne de vélo."
+      ],
+      "common_errors": {
+        "flèche": "L'élève confond l'être vivant et la flèche qui le relie au suivant."
+      },
+      "remediation": "Construire une chaîne en papier : un anneau par être vivant, avec son nom écrit dessus.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.x01",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Range pour former une chaîne alimentaire : faucon, herbe, lézard, sauterelle.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "herbe",
+          "sauterelle",
+          "lézard",
+          "faucon"
+        ]
+      },
+      "solution": "L'herbe est mangée par la sauterelle, mangée par le lézard, mangé par le faucon. Réponse : herbe → sauterelle → lézard → faucon.",
+      "step_by_step_solution": [
+        "On commence par le végétal : l'herbe.",
+        "Puis sauterelle, lézard, faucon."
+      ],
+      "hints": [
+        "Le lézard mange des insectes.",
+        "Le faucon est un rapace."
+      ],
+      "common_errors": {
+        "herbe ; lézard ; sauterelle ; faucon": "L'élève pense que le lézard mange de l'herbe."
+      },
+      "remediation": "Pour chaque animal, chercher ce qu'il mange dans un documentaire.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "faucon",
+        "herbe",
+        "lézard",
+        "sauterelle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.x02",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un élève écrit : « renard → lapin → herbe ». Quelle est son erreur ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La chaîne doit commencer par le végétal et la flèche veut dire « est mangé par » : l'élève a écrit la chaîne à l'envers.",
+      "step_by_step_solution": [
+        "« renard → lapin » voudrait dire que le renard est mangé par le lapin.",
+        "Il a écrit la chaîne à l'envers."
+      ],
+      "hints": [
+        "Lis la première flèche avec « est mangé par »."
+      ],
+      "common_errors": {
+        "il a oublié un animal": "L'élève ne repère pas le sens de la flèche."
+      },
+      "remediation": "Réécrire la chaîne dans le bon sens et la lire à voix haute.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "il a écrit la chaîne à l'envers",
+        "il a oublié un animal",
+        "il a mis un végétal"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.chaine-alimentaire.x03",
+      "notion_id": "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Quel être vivant peut être le premier maillon de la chaîne « ? → escargot → hérisson » ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le premier maillon est un végétal que mange l'escargot : une feuille de salade.",
+      "step_by_step_solution": [
+        "Le premier maillon est un végétal.",
+        "L'escargot mange des feuilles de salade."
+      ],
+      "hints": [
+        "Le premier maillon est toujours un végétal."
+      ],
+      "common_errors": {
+        "un renard": "L'élève oublie que le premier maillon est un végétal."
+      },
+      "remediation": "Rappeler la règle du premier maillon végétal.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Élaborer une courte chaîne alimentaire",
+        "Lire la flèche « est mangé par »"
+      ],
+      "source_notions": [
+        "ST.CE2.VIV.elaborer-une-courte-chaine-alimentaire"
+      ],
+      "choices": [
+        "une feuille de salade",
+        "un renard",
+        "une grenouille"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.d01",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel appareil sert à saisir (entrer) des informations dans l'ordinateur ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le clavier sert à entrer des lettres et des chiffres : c'est un appareil de saisie.",
+      "step_by_step_solution": [
+        "L'écran et l'imprimante montrent des informations.",
+        "Le clavier sert à les entrer : saisie."
+      ],
+      "hints": [
+        "Avec quoi tapes-tu ton prénom ?"
+      ],
+      "common_errors": {
+        "l'écran": "L'élève confond saisir et voir."
+      },
+      "remediation": "Taper un mot au clavier et observer qu'il apparaît ensuite à l'écran.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "le clavier",
+        "l'écran",
+        "l'imprimante"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.d02",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel appareil montre les informations à l'utilisateur ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'écran affiche les informations : c'est un appareil de restitution.",
+      "step_by_step_solution": [
+        "Le clavier et la souris servent à entrer des informations.",
+        "L'écran les affiche : restitution."
+      ],
+      "hints": [
+        "Où regardes-tu pour voir ton texte ?"
+      ],
+      "common_errors": {
+        "le clavier": "L'élève confond saisie et restitution."
+      },
+      "remediation": "Classer les appareils en « ce qui entre » et « ce qui sort ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "l'écran",
+        "le clavier",
+        "la souris"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.d03",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment s'appelle le composant qui traite les informations à l'intérieur de l'ordinateur ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "processeur",
+          "le processeur",
+          "microprocesseur"
+        ]
+      },
+      "solution": "Le processeur est le composant qui traite (calcule) les informations.",
+      "step_by_step_solution": [
+        "Il est caché dans l'ordinateur.",
+        "Il s'appelle le processeur."
+      ],
+      "hints": [
+        "On ne le voit pas : il est à l'intérieur du boîtier.",
+        "Son nom commence par « pro »."
+      ],
+      "common_errors": {
+        "écran": "L'élève cite un appareil visible au lieu du composant qui traite."
+      },
+      "remediation": "Montrer une photo de processeur et placer le mot sur un schéma de l'ordinateur.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.d04",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque élément à son rôle : clavier, processeur, écran.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "clavier": "saisie",
+          "processeur": "traitement",
+          "écran": "restitution"
+        }
+      },
+      "solution": "Le clavier sert à la saisie, le processeur au traitement, l'écran à la restitution. Réponse : clavier → saisie ; processeur → traitement ; écran → restitution.",
+      "step_by_step_solution": [
+        "clavier → saisie",
+        "processeur → traitement",
+        "écran → restitution"
+      ],
+      "hints": [
+        "Qu'est-ce qui entre, qu'est-ce qui calcule, qu'est-ce qui sort ?"
+      ],
+      "common_errors": {
+        "clavier → restitution ; processeur → traitement ; écran → saisie": "L'élève inverse saisie et restitution."
+      },
+      "remediation": "Faire un schéma en trois cases : entrée → traitement → sortie.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "saisie",
+        "traitement",
+        "restitution"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.d05",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : l'imprimante sert à restituer des informations sur papier.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : l'imprimante fait sortir les informations de l'ordinateur sur une feuille. Réponse : vrai.",
+      "step_by_step_solution": [
+        "L'imprimante fait sortir une feuille imprimée.",
+        "C'est un appareil de restitution : vrai."
+      ],
+      "hints": [
+        "Les informations entrent-elles ou sortent-elles par l'imprimante ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que l'imprimante sert à entrer des documents (confusion avec le scanner)."
+      },
+      "remediation": "Imprimer un dessin et suivre le trajet de l'information.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.a01",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque élément à son rôle : souris, micro, haut-parleur, imprimante, processeur.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "souris": "saisie",
+          "micro": "saisie",
+          "haut-parleur": "restitution",
+          "imprimante": "restitution",
+          "processeur": "traitement"
+        }
+      },
+      "solution": "La souris et le micro servent à la saisie ; le haut-parleur et l'imprimante à la restitution ; le processeur au traitement. Réponse : souris → saisie ; micro → saisie ; haut-parleur → restitution ; imprimante → restitution ; processeur → traitement.",
+      "step_by_step_solution": [
+        "Saisie : souris, micro.",
+        "Restitution : haut-parleur, imprimante.",
+        "Traitement : processeur."
+      ],
+      "hints": [
+        "Le micro fait-il entrer ou sortir le son ?"
+      ],
+      "common_errors": {
+        "souris → saisie ; micro → restitution ; haut-parleur → restitution ; imprimante → restitution ; processeur → traitement": "L'élève pense que le micro fait sortir le son."
+      },
+      "remediation": "Comparer micro et haut-parleur : l'un capte la voix, l'autre fait entendre le son.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "saisie",
+        "traitement",
+        "restitution"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.a02",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Léa tape son prénom dans un logiciel. Quel appareil utilise-t-elle pour la saisie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Pour taper des lettres, on utilise le clavier : c'est l'appareil de saisie.",
+      "step_by_step_solution": [
+        "Taper des lettres, c'est saisir.",
+        "L'appareil utilisé : le clavier."
+      ],
+      "hints": [
+        "Où sont les touches avec les lettres ?"
+      ],
+      "common_errors": {
+        "l'imprimante": "L'élève confond saisie et restitution."
+      },
+      "remediation": "Nommer l'appareil utilisé à chaque étape d'une activité à l'ordinateur.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "le clavier",
+        "le haut-parleur",
+        "l'imprimante"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.a03",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pour écouter une chanson sur l'ordinateur, quel appareil restitue le son ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le haut-parleur fait entendre le son : il restitue l'information sonore.",
+      "step_by_step_solution": [
+        "Le micro capte le son (saisie).",
+        "Le haut-parleur fait entendre le son (restitution)."
+      ],
+      "hints": [
+        "Quel appareil fait sortir le son ?"
+      ],
+      "common_errors": {
+        "le micro": "L'élève confond le micro, qui capte le son, et le haut-parleur, qui le fait entendre."
+      },
+      "remediation": "Faire un enregistrement avec le micro puis l'écouter avec le haut-parleur.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "le haut-parleur",
+        "le micro",
+        "le clavier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.a04",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pour enregistrer sa voix sur l'ordinateur, on utilise…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le micro capte la voix et la fait entrer dans l'ordinateur : c'est un appareil de saisie.",
+      "step_by_step_solution": [
+        "Enregistrer sa voix, c'est faire entrer un son.",
+        "On utilise un micro."
+      ],
+      "hints": [
+        "Quel appareil capte les sons ?"
+      ],
+      "common_errors": {
+        "un écran": "L'élève ne relie pas l'appareil à l'information (son)."
+      },
+      "remediation": "Associer chaque sorte d'information (texte, son, image) à son appareil de saisie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "un micro",
+        "un écran",
+        "une imprimante"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.a05",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Tom tape une lettre et la voit apparaître. Remets dans l'ordre le trajet de l'information : écran, clavier, processeur.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "clavier",
+          "processeur",
+          "écran"
+        ]
+      },
+      "solution": "L'information est saisie au clavier, traitée par le processeur, puis restituée à l'écran. Réponse : clavier → processeur → écran.",
+      "step_by_step_solution": [
+        "Saisie : clavier.",
+        "Traitement : processeur.",
+        "Restitution : écran."
+      ],
+      "hints": [
+        "Par où l'information entre-t-elle ?"
+      ],
+      "common_errors": {
+        "clavier ; écran ; processeur": "L'élève oublie que le traitement a lieu avant l'affichage."
+      },
+      "remediation": "Mimer le trajet : un élève « clavier » passe un papier à l'élève « processeur » qui le passe à l'élève « écran ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "écran",
+        "clavier",
+        "processeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.c01",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Nina parle dans le micro et entend sa voix dans le casque. Remets dans l'ordre : casque, micro, processeur.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "micro",
+          "processeur",
+          "casque"
+        ]
+      },
+      "solution": "La voix est saisie par le micro, traitée par le processeur et restituée par le casque. Réponse : micro → processeur → casque.",
+      "step_by_step_solution": [
+        "Saisie : micro.",
+        "Traitement : processeur.",
+        "Restitution : casque."
+      ],
+      "hints": [
+        "Où la voix entre-t-elle ?"
+      ],
+      "common_errors": {
+        "casque ; processeur ; micro": "L'élève inverse saisie et restitution."
+      },
+      "remediation": "Refaire le schéma saisie → traitement → restitution avec d'autres appareils.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "casque",
+        "micro",
+        "processeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.c02",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel appareil ne sert pas à la saisie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La souris et le clavier servent à la saisie ; l'imprimante sert à la restitution.",
+      "step_by_step_solution": [
+        "Souris et clavier : saisie.",
+        "L'imprimante fait sortir l'information : restitution."
+      ],
+      "hints": [
+        "Attention au mot « pas »."
+      ],
+      "common_errors": {
+        "la souris": "L'élève n'a pas lu la négation."
+      },
+      "remediation": "Relire la consigne en entourant « ne … pas ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "l'imprimante",
+        "la souris",
+        "le clavier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.c03",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque action à l'appareil : taper un texte, déplacer la flèche à l'écran, imprimer un dessin, entendre de la musique.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "taper un texte": "clavier",
+          "déplacer la flèche à l'écran": "souris",
+          "imprimer un dessin": "imprimante",
+          "entendre de la musique": "haut-parleur"
+        }
+      },
+      "solution": "On tape au clavier, on déplace la flèche avec la souris, on imprime avec l'imprimante, on entend avec le haut-parleur. Réponse : taper un texte → clavier ; déplacer la flèche à l'écran → souris ; imprimer un dessin → imprimante ; entendre de la musique → haut-parleur.",
+      "step_by_step_solution": [
+        "taper → clavier ; flèche → souris",
+        "imprimer → imprimante ; entendre → haut-parleur"
+      ],
+      "hints": [
+        "Mime chaque action."
+      ],
+      "common_errors": {
+        "taper un texte → souris ; déplacer la flèche à l'écran → clavier ; imprimer un dessin → imprimante ; entendre de la musique → haut-parleur": "L'élève confond clavier et souris."
+      },
+      "remediation": "Faire chaque action sur un vrai ordinateur en nommant l'appareil.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "clavier",
+        "souris",
+        "imprimante",
+        "haut-parleur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.c04",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un scanner transforme une feuille de papier en image dans l'ordinateur. C'est un appareil de…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le scanner fait entrer une image dans l'ordinateur : c'est un appareil de saisie.",
+      "step_by_step_solution": [
+        "L'image va de la feuille vers l'ordinateur.",
+        "Elle entre : c'est de la saisie."
+      ],
+      "hints": [
+        "L'information entre-t-elle ou sort-elle de l'ordinateur ?"
+      ],
+      "common_errors": {
+        "restitution": "L'élève confond le scanner et l'imprimante, qui se ressemblent."
+      },
+      "remediation": "Comparer scanner (papier → ordinateur) et imprimante (ordinateur → papier).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "saisie",
+        "restitution",
+        "traitement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.c05",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : le haut-parleur sert à saisir des sons.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : le haut-parleur fait entendre les sons (restitution). C'est le micro qui les saisit. Réponse : faux.",
+      "step_by_step_solution": [
+        "Le haut-parleur fait sortir le son.",
+        "C'est une restitution, pas une saisie : faux."
+      ],
+      "hints": [
+        "Le son entre-t-il ou sort-il par le haut-parleur ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève confond micro et haut-parleur."
+      },
+      "remediation": "Refaire l'activité enregistrement / écoute.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.x01",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "L'écran tactile d'une tablette…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "On touche l'écran pour entrer des informations (saisie) et il les affiche (restitution) : il fait les deux.",
+      "step_by_step_solution": [
+        "On touche l'écran pour choisir : saisie.",
+        "L'écran affiche : restitution.",
+        "Il sert à la fois à saisir et à restituer."
+      ],
+      "hints": [
+        "Que fais-tu avec ton doigt sur l'écran ? Que fait l'écran ?"
+      ],
+      "common_errors": {
+        "sert seulement à saisir": "L'élève oublie que l'écran affiche aussi."
+      },
+      "remediation": "Utiliser une tablette et nommer ce qui entre et ce qui sort.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "sert à la fois à saisir et à restituer",
+        "sert seulement à saisir",
+        "sert seulement à traiter"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.x02",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Sans processeur, que se passerait-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le processeur traite les informations : sans lui, l'ordinateur ne pourrait rien calculer ni afficher de résultat. Réponse : l'ordinateur ne pourrait pas traiter les informations.",
+      "step_by_step_solution": [
+        "Le processeur est chargé du traitement.",
+        "Sans lui, les informations ne seraient pas traitées."
+      ],
+      "hints": [
+        "Quel est le rôle du processeur ?"
+      ],
+      "common_errors": {
+        "l'écran serait plus grand": "L'élève ne connaît pas le rôle du processeur."
+      },
+      "remediation": "Rappeler les trois étapes et le rôle du processeur au milieu.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "l'ordinateur ne pourrait pas traiter les informations",
+        "le clavier deviendrait inutile pour toujours",
+        "l'écran serait plus grand"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CE2.saisie-traitement.x03",
+      "notion_id": "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CE2",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque étape à son rôle : l'appareil photo prend l'image ; l'ordinateur modifie les couleurs ; l'imprimante imprime la photo.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "l'appareil photo prend l'image": "saisie",
+          "l'ordinateur modifie les couleurs": "traitement",
+          "l'imprimante imprime la photo": "restitution"
+        }
+      },
+      "solution": "Prendre l'image est une saisie, modifier les couleurs est un traitement, imprimer est une restitution. Réponse : l'appareil photo prend l'image → saisie ; l'ordinateur modifie les couleurs → traitement ; l'imprimante imprime la photo → restitution.",
+      "step_by_step_solution": [
+        "appareil photo → saisie",
+        "modifier les couleurs → traitement",
+        "imprimer → restitution"
+      ],
+      "hints": [
+        "Suis l'image depuis l'appareil photo jusqu'au papier."
+      ],
+      "common_errors": {
+        "l'appareil photo prend l'image → restitution ; l'ordinateur modifie les couleurs → traitement ; l'imprimante imprime la photo → saisie": "L'élève inverse saisie et restitution."
+      },
+      "remediation": "Suivre en classe le trajet d'une photo, de la prise de vue à l'impression.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Identifier les dispositifs de saisie, de traitement et de restitution",
+        "Décrire le trajet d'une information dans un ordinateur"
+      ],
+      "source_notions": [
+        "ST.CE2.TEC.identifier-les-dispositifs-permettant-la-saisie-le-traitement-et-la-re"
+      ],
+      "choices": [
+        "saisie",
+        "traitement",
+        "restitution"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

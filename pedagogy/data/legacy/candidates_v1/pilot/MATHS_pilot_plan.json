@@ -1,0 +1,213 @@
+{
+  "subject": "MATHS",
+  "status": "BLOCKED_NO_PROVEN_NOTION",
+  "rule": "exercises only for PROVEN_OFFICIAL notions",
+  "note": "Plan de pilote uniquement : aucun contenu d'exercice. Toutes les notions visées sont UNPROVEN (candidates) ; la production reste bloquée tant qu'elles ne sont pas PROVEN_OFFICIAL. 1RE et TLE : enseignement de spécialité.",
+  "generated_by": "agent-A-maths-candidates",
+  "levels": {
+    "6E": [
+      {
+        "notion_id": "MATHS.6E.NC.nombres-decimaux",
+        "planned_exercise_types": [
+          "QCM",
+          "ORDERING",
+          "TRUE_FALSE_ARGUED"
+        ],
+        "why": "Ancre du cycle 3 ; les erreurs de comparaison (2,15 vs 2,3) se diagnostiquent bien par rangement et vrai/faux argumenté."
+      },
+      {
+        "notion_id": "MATHS.6E.NC.fractions",
+        "planned_exercise_types": [
+          "MATCHING",
+          "SHORT_ANSWER",
+          "QCM"
+        ],
+        "why": "Ancre ; associer écritures fractionnaires, décimales et repères graduées."
+      },
+      {
+        "notion_id": "MATHS.6E.NC.proportionnalite",
+        "planned_exercise_types": [
+          "PROBLEM",
+          "CALCULATION",
+          "SITUATION_STUDY"
+        ],
+        "why": "Notion transversale (sciences, vie courante) ; se prête aux situations concrètes."
+      }
+    ],
+    "5E": [
+      {
+        "notion_id": "MATHS.5E.NC.nombres-relatifs",
+        "planned_exercise_types": [
+          "ORDERING",
+          "QCM",
+          "MATCHING"
+        ],
+        "why": "Ancre ; comparaison et repérage de relatifs."
+      },
+      {
+        "notion_id": "MATHS.5E.OGD.proportionnalite",
+        "planned_exercise_types": [
+          "PROBLEM",
+          "DOCUMENT_READING",
+          "CALCULATION"
+        ],
+        "why": "Ancre ; échelles et quatrième proportionnelle sur documents (cartes, recettes)."
+      },
+      {
+        "notion_id": "MATHS.5E.OGD.statistiques-effectifs-frequences-et-moyenne",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "CALCULATION",
+          "DOCUMENT_READING"
+        ],
+        "why": "Lecture de diagrammes et calcul de moyenne."
+      }
+    ],
+    "4E": [
+      {
+        "notion_id": "MATHS.4E.NC.puissances",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "TRUE_FALSE_ARGUED",
+          "QCM"
+        ],
+        "why": "Ancre ; erreurs typiques ($2^3=6$, $-2^2$) ciblables par QCM et vrai/faux."
+      },
+      {
+        "notion_id": "MATHS.4E.NC.equations-du-premier-degre",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "PROBLEM",
+          "REASONING"
+        ],
+        "why": "Ancre ; résolution vérifiable symboliquement (SymPy) et mise en équation."
+      },
+      {
+        "notion_id": "MATHS.4E.EG.theoreme-de-pythagore",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "REASONING",
+          "SITUATION_STUDY",
+          "SHORT_ANSWER"
+        ],
+        "why": "Ancre ; calcul de longueur et rédaction de démonstration."
+      }
+    ],
+    "3E": [
+      {
+        "notion_id": "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "CALCULATION",
+          "MATCHING"
+        ],
+        "why": "Ancre ; lien expression / tableau / courbe."
+      },
+      {
+        "notion_id": "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "PROBLEM",
+          "QCM"
+        ],
+        "why": "Ancre ; choix du rapport adapté et calcul d'angle."
+      },
+      {
+        "notion_id": "MATHS.3E.OGD.probabilites-experiences-a-deux-epreuves",
+        "planned_exercise_types": [
+          "SITUATION_STUDY",
+          "CALCULATION",
+          "TRUE_FALSE_ARGUED"
+        ],
+        "why": "Arbres et tableaux ; erreurs d'addition au lieu de multiplication."
+      }
+    ],
+    "2NDE": [
+      {
+        "notion_id": "MATHS.2NDE.GEO.vecteurs",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "REASONING",
+          "QCM"
+        ],
+        "why": "Ancre ; coordonnées et relation de Chasles."
+      },
+      {
+        "notion_id": "MATHS.2NDE.FON.fonctions-de-reference",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "MATCHING",
+          "TRUE_FALSE_ARGUED"
+        ],
+        "why": "Ancre ; associer courbes et expressions, comparer $x$, $x^2$, $\\sqrt{x}$."
+      },
+      {
+        "notion_id": "MATHS.2NDE.SP.proportions-et-evolutions-en-pourcentage",
+        "planned_exercise_types": [
+          "PROBLEM",
+          "DOCUMENT_READING",
+          "CALCULATION"
+        ],
+        "why": "Information chiffrée utile en SES/sciences ; documents chiffrés."
+      }
+    ],
+    "1RE": [
+      {
+        "notion_id": "MATHS.1RE.AN.derivation",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "QCM",
+          "TRUE_FALSE_ARGUED"
+        ],
+        "why": "Ancre (spécialité) ; calcul de dérivées vérifiable symboliquement."
+      },
+      {
+        "notion_id": "MATHS.1RE.AN.suites-numeriques",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "REASONING",
+          "GRAPH_INTERPRETATION"
+        ],
+        "why": "Ancre ; termes, variations et représentation graphique."
+      },
+      {
+        "notion_id": "MATHS.1RE.AN.fonction-exponentielle",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "MATCHING",
+          "PROBLEM"
+        ],
+        "why": "Ancre ; propriétés algébriques et modélisation."
+      }
+    ],
+    "TLE": [
+      {
+        "notion_id": "MATHS.TLE.AN.fonction-logarithme-neperien",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "TRUE_FALSE_ARGUED",
+          "QCM"
+        ],
+        "why": "Ancre (spécialité) ; propriétés algébriques et erreurs $\\ln(a+b)$."
+      },
+      {
+        "notion_id": "MATHS.TLE.AN.raisonnement-par-recurrence",
+        "planned_exercise_types": [
+          "REASONING",
+          "ORDERING",
+          "TRUE_FALSE_ARGUED"
+        ],
+        "why": "Ancre ; remettre dans l'ordre les étapes d'une récurrence, repérer une hérédité fausse."
+      },
+      {
+        "notion_id": "MATHS.TLE.AN.primitives-et-equations-differentielles",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "SITUATION_STUDY",
+          "PROBLEM"
+        ],
+        "why": "Ancre ; modélisation (refroidissement, population)."
+      }
+    ]
+  }
+}

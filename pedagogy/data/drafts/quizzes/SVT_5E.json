@@ -1,0 +1,838 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quels sont les deux besoins des cellules animales apportés par le sang ?",
+      "choices": [
+        "Nutriments et dioxygène",
+        "Dioxyde de carbone et urée",
+        "Lumière et eau",
+        "Sels minéraux et lumière"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Nutriments et dioxygène",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les cellules animales utilisent des nutriments et du dioxygène pour produire l'énergie nécessaire à leur fonctionnement.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Ce sont des déchets rejetés par les cellules.",
+        "2": "La lumière est un besoin des végétaux chlorophylliens, pas des cellules animales.",
+        "3": "Ce sont des besoins des plantes."
+      },
+      "common_error_target": {
+        "1": "confusion besoins / déchets"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Dans quel organe le dioxygène de l'air passe-t-il dans le sang ?",
+      "choices": [
+        "Les reins",
+        "Les poumons",
+        "L'estomac",
+        "Le cœur"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Les poumons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Au niveau des alvéoles pulmonaires, le dioxygène traverse une paroi très fine et passe dans le sang.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Les reins filtrent le sang et produisent l'urine.",
+        "2": "L'estomac participe à la digestion.",
+        "3": "Le cœur pompe le sang mais ne fait pas d'échanges avec l'air."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel déchet gazeux est produit par toutes les cellules animales ?",
+      "choices": [
+        "L'azote",
+        "La vapeur d'hydrogène",
+        "Le dioxyde de carbone",
+        "Le dioxygène"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Le dioxyde de carbone",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le dioxyde de carbone est produit par les cellules ; il est transporté par le sang et rejeté par les poumons.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'azote de l'air n'est pas utilisé ni produit par les cellules.",
+        "1": "Ce gaz n'est pas un déchet cellulaire.",
+        "3": "Le dioxygène est consommé, pas produit."
+      },
+      "common_error_target": {
+        "3": "confusion gaz consommé / gaz rejeté"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q04",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel organe assure le passage des nutriments dans le sang ?",
+      "choices": [
+        "Les poumons",
+        "La vessie",
+        "Le foie seul",
+        "L'intestin grêle"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "L'intestin grêle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La paroi très repliée de l'intestin grêle permet l'absorption des nutriments vers le sang.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Les poumons échangent des gaz.",
+        "1": "La vessie stocke l'urine.",
+        "2": "Le foie reçoit les nutriments après leur passage dans le sang, il ne les absorbe pas depuis le tube digestif."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q05",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel est le rôle du cœur ?",
+      "choices": [
+        "Mettre le sang en mouvement",
+        "Fabriquer le dioxygène",
+        "Digérer les aliments",
+        "Filtrer l'urine"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Mettre le sang en mouvement",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le cœur est un muscle qui se contracte et propulse le sang dans les vaisseaux.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le dioxygène vient de l'air.",
+        "2": "La digestion se fait dans le tube digestif.",
+        "3": "La filtration du sang est faite par les reins."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q06",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quels éléments du sang transportent le dioxygène ?",
+      "choices": [
+        "Les nutriments",
+        "Les globules rouges",
+        "Les globules blancs",
+        "Les plaquettes"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Les globules rouges",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les globules rouges contiennent de l'hémoglobine qui fixe le dioxygène.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Les nutriments sont transportés, ils ne transportent rien.",
+        "2": "Les globules blancs défendent l'organisme.",
+        "3": "Les plaquettes interviennent dans la coagulation."
+      },
+      "common_error_target": {
+        "2": "confusion entre les cellules du sang"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q07",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Un muscle travaille davantage. Que se passe-t-il pour sa consommation de dioxygène ?",
+      "choices": [
+        "Elle reste nulle",
+        "Elle devient négative",
+        "Elle augmente",
+        "Elle diminue"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Elle augmente",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un muscle plus actif a besoin de plus d'énergie : il consomme davantage de nutriments et de dioxygène.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Un muscle consomme toujours du dioxygène, même au repos.",
+        "1": "Une consommation ne peut pas être négative.",
+        "3": "C'est l'inverse : l'activité augmente les besoins."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q08",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Pourquoi la paroi des alvéoles pulmonaires est-elle favorable aux échanges ?",
+      "choices": [
+        "Elle est épaisse et imperméable",
+        "Elle est dépourvue de vaisseaux sanguins",
+        "Elle contient des aliments",
+        "Elle est très fine et très étendue"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "Elle est très fine et très étendue",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une paroi fine, une grande surface et de nombreux capillaires facilitent le passage des gaz entre l'air et le sang.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Une paroi épaisse gênerait les échanges.",
+        "1": "Au contraire, les alvéoles sont entourées de nombreux capillaires.",
+        "2": "Les aliments ne vont pas dans les poumons."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q09",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Le sang qui quitte un muscle au travail est, par rapport au sang qui y entre :",
+      "choices": [
+        "plus pauvre en dioxygène et plus riche en dioxyde de carbone",
+        "plus riche en dioxygène et plus pauvre en dioxyde de carbone",
+        "identique",
+        "dépourvu de globules rouges"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "plus pauvre en dioxygène et plus riche en dioxyde de carbone",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le muscle prélève du dioxygène et rejette du dioxyde de carbone dans le sang.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est l'inverse de ce qui se passe dans un muscle.",
+        "2": "Les échanges modifient la composition du sang.",
+        "3": "Les globules rouges restent dans le sang."
+      },
+      "common_error_target": {
+        "1": "inversion des échanges muscle / poumon"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-animaux.q10",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-en-nutriments-et-dioxygene-des-cellules-animales-et",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel système élimine l'urée, un déchet transporté par le sang ?",
+      "choices": [
+        "Le système respiratoire",
+        "Le système digestif",
+        "Le système nerveux",
+        "Le système urinaire"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "Le système urinaire",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les reins filtrent le sang et éliminent l'urée dans l'urine.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Il élimine le dioxyde de carbone, pas l'urée.",
+        "1": "Il rejette les restes non digérés, pas l'urée du sang.",
+        "2": "Il ne filtre pas le sang."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q01",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel organe d'une plante verte produit la matière organique à la lumière ?",
+      "choices": [
+        "La feuille",
+        "La racine",
+        "La fleur fanée",
+        "Le tubercule"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "La feuille",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les feuilles, riches en chlorophylle, produisent la matière organique à la lumière.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "La racine prélève l'eau et les sels minéraux.",
+        "2": "Une fleur fanée ne produit pas de matière organique.",
+        "3": "Le tubercule stocke des réserves."
+      },
+      "common_error_target": {
+        "3": "confusion production / stockage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q02",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Par où l'eau du sol entre-t-elle dans la plante ?",
+      "choices": [
+        "Par les poils absorbants des racines",
+        "Par les fleurs",
+        "Par les stomates des feuilles",
+        "Par l'écorce du tronc"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Par les poils absorbants des racines",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les poils absorbants des racines prélèvent l'eau et les sels minéraux du sol.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Les fleurs servent à la reproduction.",
+        "2": "Les stomates laissent surtout passer les gaz (et la vapeur d'eau qui sort).",
+        "3": "L'écorce protège le tronc."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q03",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel réactif met en évidence l'amidon ?",
+      "choices": [
+        "L'eau iodée",
+        "L'eau de chaux",
+        "L'eau salée",
+        "L'eau distillée"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "L'eau iodée",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau iodée colore l'amidon en bleu-violet foncé.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "L'eau de chaux met en évidence le dioxyde de carbone.",
+        "2": "L'eau salée n'est pas un réactif de l'amidon.",
+        "3": "L'eau distillée ne réagit pas."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q04",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quelle sève contient de l'eau et des sels minéraux ?",
+      "choices": [
+        "La sève brute",
+        "La sève élaborée",
+        "Le latex",
+        "Le nectar"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "La sève brute",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La sève brute monte des racines vers les feuilles avec l'eau et les sels minéraux.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Elle contient surtout les sucres produits par les feuilles.",
+        "2": "Le latex est un liquide particulier de certaines plantes.",
+        "3": "Le nectar est produit par les fleurs."
+      },
+      "common_error_target": {
+        "1": "confusion sève brute / sève élaborée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q05",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel gaz est rejeté par une plante verte éclairée lors de la production de matière organique ?",
+      "choices": [
+        "Le dioxygène",
+        "Le dioxyde de carbone",
+        "Le méthane",
+        "L'azote"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Le dioxygène",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "À la lumière, la plante absorbe du CO2 et rejette du dioxygène.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Il est absorbé par la plante éclairée.",
+        "2": "La plante ne rejette pas de méthane.",
+        "3": "L'azote de l'air n'intervient pas ici."
+      },
+      "common_error_target": {
+        "1": "inversion des échanges gazeux"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q06",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Où une pomme de terre stocke-t-elle ses réserves d'amidon ?",
+      "choices": [
+        "Dans son tubercule",
+        "Dans ses feuilles uniquement",
+        "Dans ses fleurs",
+        "Dans l'air"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Dans son tubercule",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le tubercule est un organe souterrain de stockage.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Les feuilles produisent mais le stockage principal est dans le tubercule.",
+        "2": "Les fleurs ne sont pas des organes de stockage.",
+        "3": "L'air n'est pas un organe."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q07",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Une plante est placée à l'obscurité pendant plusieurs jours. Que se passe-t-il pour sa production de matière organique ?",
+      "choices": [
+        "Elle s'arrête",
+        "Elle augmente",
+        "Elle ne change pas",
+        "Elle passe dans les racines"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Elle s'arrête",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Sans énergie lumineuse, la plante ne peut pas produire de matière organique.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La lumière est indispensable, son absence ne peut pas augmenter la production.",
+        "2": "La lumière est un facteur nécessaire.",
+        "3": "Les racines ne produisent pas de matière organique."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q08",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel tissu conduit les sèves dans la tige ?",
+      "choices": [
+        "Les vaisseaux conducteurs",
+        "Les poils absorbants",
+        "Les pétales",
+        "Les stomates"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Les vaisseaux conducteurs",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Des vaisseaux conducteurs parcourent la tige et transportent sève brute et sève élaborée.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Ils sont dans les racines et prélèvent l'eau.",
+        "2": "Ce sont des pièces de la fleur.",
+        "3": "Ce sont des orifices des feuilles."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q09",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Un sac plastique entourant un rameau feuillé se couvre de buée. Que montre cette observation ?",
+      "choices": [
+        "La plante rejette de la vapeur d'eau par ses feuilles",
+        "La plante absorbe l'eau par ses feuilles",
+        "Le sac produit de l'eau",
+        "Les feuilles fabriquent de l'amidon"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "La plante rejette de la vapeur d'eau par ses feuilles",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La buée provient de l'eau évaporée par les feuilles (transpiration).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est l'inverse : l'eau sort des feuilles.",
+        "2": "Le sac ne produit rien.",
+        "3": "Cette observation ne concerne pas l'amidon."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.besoins-plante.q10",
+      "notion_id": "SVT.5E.VIV.relier-les-besoins-des-cellules-dune-plante-chlorophyllienne-co2-eau-s",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Les sucres produits par les feuilles rejoignent les racines grâce :",
+      "choices": [
+        "à la sève brute",
+        "au vent",
+        "aux poils absorbants",
+        "à la sève élaborée"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "à la sève élaborée",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La sève élaborée distribue la matière organique produite par les feuilles à tous les organes.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "La sève brute monte des racines vers les feuilles.",
+        "1": "Le vent ne transporte pas les sucres.",
+        "2": "Ils prélèvent l'eau du sol."
+      },
+      "common_error_target": {
+        "0": "confusion sève brute / sève élaborée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q01",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Que devient la fréquence cardiaque pendant un effort physique ?",
+      "choices": [
+        "Elle ne change jamais",
+        "Elle augmente",
+        "Elle diminue",
+        "Elle devient nulle"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Elle augmente",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Pendant l'effort, le cœur bat plus vite pour apporter plus de sang aux muscles.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Elle varie selon l'activité.",
+        "2": "C'est l'inverse de ce qu'on mesure.",
+        "3": "Le cœur ne s'arrête pas."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q02",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "On compte 18 battements en 15 secondes. Quelle est la fréquence cardiaque ?",
+      "choices": [
+        "36 battements par minute",
+        "72 battements par minute",
+        "18 battements par minute",
+        "33 battements par minute"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "72 battements par minute",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "18 × 4 = 72 battements par minute, car une minute contient quatre fois 15 secondes.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié par 2 au lieu de 4.",
+        "2": "C'est le comptage sur 15 s, pas sur une minute.",
+        "3": "L'élève a ajouté 15 au lieu de multiplier par 4."
+      },
+      "common_error_target": {
+        "2": "oubli de la conversion en minute"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q03",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Pourquoi les muscles ont-ils besoin de plus de sang pendant l'effort ?",
+      "choices": [
+        "Pour stocker l'air",
+        "Pour recevoir plus de dioxygène et de nutriments",
+        "Pour se refroidir uniquement",
+        "Pour produire du sang"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Pour recevoir plus de dioxygène et de nutriments",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le sang apporte le dioxygène et les nutriments dont les muscles en activité ont davantage besoin.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'air n'est pas stocké dans les muscles.",
+        "2": "Le sang aide à évacuer la chaleur mais ce n'est pas la raison principale attendue.",
+        "3": "Les muscles ne produisent pas de sang."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q04",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel gaz est rejeté en plus grande quantité pendant l'effort ?",
+      "choices": [
+        "L'hydrogène",
+        "Le dioxyde de carbone",
+        "Le dioxygène",
+        "L'hélium"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Le dioxyde de carbone",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les muscles actifs produisent plus de dioxyde de carbone, éliminé par les poumons.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'organisme ne rejette pas d'hydrogène par la respiration.",
+        "2": "Il est consommé, pas rejeté.",
+        "3": "L'hélium n'est pas produit par l'organisme."
+      },
+      "common_error_target": {
+        "2": "confusion gaz consommé / gaz rejeté"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q05",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Qu'appelle-t-on la récupération après un effort ?",
+      "choices": [
+        "La fabrication rapide de nouveaux muscles",
+        "Le retour progressif des rythmes à leurs valeurs de repos",
+        "L'arrêt immédiat des battements du cœur",
+        "La digestion du repas pris avant l'effort"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Le retour progressif des rythmes à leurs valeurs de repos",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Après l'effort, les rythmes cardiaque et respiratoire diminuent peu à peu : c'est la récupération.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ce n'est pas la construction du muscle.",
+        "2": "Le cœur ne s'arrête pas.",
+        "3": "La digestion n'est pas concernée."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q06",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Un élève respire 16 fois par minute et inspire 0,5 L à chaque fois. Quel volume d'air inspire-t-il par minute ?",
+      "choices": [
+        "0,5 L",
+        "8 L",
+        "32 L",
+        "16,5 L"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "8 L",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Volume par minute = 16 × 0,5 = 8 L par minute.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est le volume d'un seul mouvement.",
+        "2": "16 / 0,5 : division au lieu de multiplication.",
+        "3": "Addition au lieu de multiplication."
+      },
+      "common_error_target": {
+        "2": "division au lieu de multiplication"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q07",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Quel système commande l'accélération du cœur et de la respiration pendant l'effort ?",
+      "choices": [
+        "Le squelette",
+        "Le système nerveux",
+        "Le système digestif",
+        "Le système urinaire"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Le système nerveux",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Des centres nerveux commandent l'accélération des rythmes cardiaque et respiratoire.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Le squelette soutient le corps mais ne commande pas.",
+        "2": "Il transforme les aliments.",
+        "3": "Il élimine des déchets."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q08",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Deux élèves font le même effort. Celui qui est entraîné récupère en général :",
+      "choices": [
+        "toujours en même temps",
+        "plus vite",
+        "plus lentement",
+        "jamais"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "plus vite",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'entraînement régulier améliore les capacités cardiaques et respiratoires, ce qui raccourcit la récupération.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Les durées varient selon l'entraînement.",
+        "2": "C'est l'inverse de ce qui est observé en général.",
+        "3": "Tout le monde récupère."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q09",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "La formule « 220 − âge » donne une estimation :",
+      "choices": [
+        "de la taille du cœur",
+        "de la fréquence cardiaque maximale",
+        "de la fréquence respiratoire au repos",
+        "du volume d'air inspiré"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "de la fréquence cardiaque maximale",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Cette formule approximative estime la fréquence cardiaque maximale en battements par minute.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Elle ne mesure pas une taille.",
+        "2": "Elle ne concerne pas la respiration.",
+        "3": "Elle ne donne pas un volume."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.5E.effort.q10",
+      "notion_id": "SVT.5E.CORPS.rythmes-cardiaque-et-respiratoire-et-effort-physique",
+      "subject": "SVT",
+      "level": "5E",
+      "question": "Le débit ventilatoire passe de 6 L/min au repos à 30 L/min à l'effort. Il a été multiplié par :",
+      "choices": [
+        "5",
+        "24",
+        "36",
+        "6"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "30 / 6 = 5 : le débit a été multiplié par 5.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "C'est la différence 30 − 6, pas un facteur.",
+        "2": "C'est la somme 30 + 6.",
+        "3": "6 est la valeur de repos."
+      },
+      "common_error_target": {
+        "1": "confusion différence / facteur multiplicatif"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

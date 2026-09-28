@@ -1,0 +1,2254 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.d01",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Lequel est de l'eau solide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le glaçon garde sa forme et on peut le tenir : c'est de l'eau solide. Réponse : un glaçon.",
+      "step_by_step_solution": [
+        "La pluie et l'eau du robinet coulent : elles sont liquides.",
+        "Le glaçon garde sa forme : c'est de l'eau solide."
+      ],
+      "hints": [
+        "L'eau solide garde sa forme.",
+        "Lequel peut-on tenir dans la main sans qu'il coule ?"
+      ],
+      "common_errors": {
+        "la pluie": "L'élève pense que la pluie est solide car elle tombe du ciel ; les gouttes coulent, elles sont liquides."
+      },
+      "remediation": "Toucher un glaçon puis de l'eau du robinet et dire lequel garde sa forme.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "un glaçon",
+        "la pluie",
+        "l'eau du robinet"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.d02",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Laquelle est de l'eau liquide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les gouttes de pluie coulent : la pluie est de l'eau liquide.",
+      "step_by_step_solution": [
+        "La neige et le glaçon gardent leur forme : ils sont solides.",
+        "La pluie coule : c'est de l'eau liquide."
+      ],
+      "hints": [
+        "L'eau liquide coule.",
+        "Quelle eau fait des flaques en tombant ?"
+      ],
+      "common_errors": {
+        "la neige": "L'élève ne reconnaît pas la neige comme de l'eau solide."
+      },
+      "remediation": "Comparer une boule de neige (ou de la glace pilée) et de l'eau qui coule d'un arrosoir.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "la pluie",
+        "la neige",
+        "un glaçon"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.d03",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : l'eau liquide coule.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : l'eau liquide coule quand on la verse. Réponse : vrai.",
+      "step_by_step_solution": [
+        "On verse de l'eau d'un verre dans un autre : elle coule.",
+        "Donc c'est vrai."
+      ],
+      "hints": [
+        "Pense à l'eau qui sort du robinet."
+      ],
+      "common_errors": {
+        "faux": "L'élève confond l'eau liquide et la glace, qui ne coule pas."
+      },
+      "remediation": "Verser de l'eau d'un gobelet à un autre et observer qu'elle coule.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.d04",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "On verse de l'eau liquide dans un verre. Quelle forme prend l'eau ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'eau liquide prend la forme du récipient : ici, la forme du verre.",
+      "step_by_step_solution": [
+        "L'eau liquide n'a pas de forme à elle.",
+        "Elle prend la forme du récipient : la forme du verre."
+      ],
+      "hints": [
+        "L'eau liquide n'a pas de forme à elle.",
+        "Regarde le récipient dans lequel on la verse."
+      ],
+      "common_errors": {
+        "elle garde la forme de la bouteille": "L'élève pense que l'eau liquide garde sa forme comme un solide."
+      },
+      "remediation": "Verser la même eau dans un verre, puis dans un bol, puis dans une assiette creuse et observer sa forme.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "la forme du verre",
+        "la forme d'un cube",
+        "elle garde la forme de la bouteille"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.d05",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Complète : un glaçon, c'est de l'eau à l'état …",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "solide"
+        ]
+      },
+      "solution": "Le glaçon garde sa forme : c'est de l'eau à l'état solide.",
+      "step_by_step_solution": [
+        "Le glaçon se tient dans la main et garde sa forme.",
+        "C'est de l'eau à l'état solide."
+      ],
+      "hints": [
+        "Le glaçon coule-t-il ?",
+        "L'eau qui garde sa forme est dans l'état contraire de liquide."
+      ],
+      "common_errors": {
+        "liquide": "L'élève sait que le glaçon est de l'eau mais confond les deux états."
+      },
+      "remediation": "Classer des photos : glaçon, neige, pluie, flaque, en deux groupes « garde sa forme » et « coule ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.a01",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque eau à son état : pluie, neige, glaçon, eau du bain. États : solide ou liquide.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "pluie": "liquide",
+          "neige": "solide",
+          "glaçon": "solide",
+          "eau du bain": "liquide"
+        }
+      },
+      "solution": "La pluie et l'eau du bain coulent : elles sont liquides. La neige et le glaçon gardent leur forme : ils sont solides. Réponse : pluie → liquide ; neige → solide ; glaçon → solide ; eau du bain → liquide.",
+      "step_by_step_solution": [
+        "Ce qui coule est liquide : pluie, eau du bain.",
+        "Ce qui garde sa forme est solide : neige, glaçon."
+      ],
+      "hints": [
+        "Demande-toi pour chacune : est-ce que ça coule ?"
+      ],
+      "common_errors": {
+        "pluie → solide ; neige → liquide ; glaçon → solide ; eau du bain → liquide": "L'élève inverse la pluie et la neige, qui tombent toutes les deux du ciel."
+      },
+      "remediation": "Trier des images d'eau en deux boîtes : « coule » et « garde sa forme ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "solide",
+        "liquide"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.a02",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Léa sort un glaçon du congélateur. Elle le pose sur une assiette dans la classe. Que devient le glaçon ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Dans la classe, il fait plus chaud que dans le congélateur : le glaçon fond et devient de l'eau liquide. Réponse : il fond et devient de l'eau liquide.",
+      "step_by_step_solution": [
+        "Il fait plus chaud dans la classe que dans le congélateur.",
+        "Le glaçon fond et devient de l'eau liquide."
+      ],
+      "hints": [
+        "Pense à ce qui arrive à une glace à l'eau en été.",
+        "Que trouve-t-on dans l'assiette après un moment ?"
+      ],
+      "common_errors": {
+        "il reste solide pour toujours": "L'élève ne sait pas encore que la glace fond quand il fait plus chaud."
+      },
+      "remediation": "Poser un glaçon dans une assiette et regarder toutes les 10 minutes ce qu'il devient.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "il fond et devient de l'eau liquide",
+        "il reste solide pour toujours",
+        "il devient plus gros"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.a03",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Tom remplit un bac à glaçons avec de l'eau liquide. Il le met au congélateur. Le lendemain, que trouve-t-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Dans le congélateur, il fait très froid : l'eau liquide devient de la glace.",
+      "step_by_step_solution": [
+        "Le congélateur est très froid.",
+        "L'eau liquide devient de la glace (de l'eau solide)."
+      ],
+      "hints": [
+        "À quoi sert un bac à glaçons ?"
+      ],
+      "common_errors": {
+        "un bac vide": "L'élève pense que l'eau disparaît dans le froid."
+      },
+      "remediation": "Mettre un gobelet d'eau au congélateur avec l'enseignant et l'observer le lendemain.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "de la glace",
+        "de l'eau qui coule",
+        "un bac vide"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.a04",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : la neige est de l'eau solide.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : la neige est de l'eau solide ; on peut faire une boule de neige qui garde sa forme. Réponse : vrai.",
+      "step_by_step_solution": [
+        "La neige garde sa forme : on peut en faire une boule.",
+        "C'est donc de l'eau solide : vrai."
+      ],
+      "hints": [
+        "Peut-on faire une boule avec de l'eau qui coule ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève ne relie pas la neige à l'eau."
+      },
+      "remediation": "Observer de la neige (ou du givre dans le congélateur) fondre dans un gobelet : elle devient de l'eau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.a05",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Il pleut. Les gouttes de pluie sont de l'eau à l'état …",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "liquide"
+        ]
+      },
+      "solution": "Les gouttes de pluie coulent et font des flaques : c'est de l'eau à l'état liquide.",
+      "step_by_step_solution": [
+        "Les gouttes coulent sur la vitre et font des flaques.",
+        "C'est de l'eau à l'état liquide."
+      ],
+      "hints": [
+        "Les gouttes de pluie coulent-elles sur la vitre ?"
+      ],
+      "common_errors": {
+        "solide": "L'élève pense que tout ce qui tombe du ciel est solide."
+      },
+      "remediation": "Regarder la pluie couler sur une vitre et la comparer à un glaçon.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.c01",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque phrase à l'état de l'eau (solide ou liquide) : « garde sa forme », « coule », « prend la forme du récipient », « se tient dans la main ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "garde sa forme": "solide",
+          "coule": "liquide",
+          "prend la forme du récipient": "liquide",
+          "se tient dans la main": "solide"
+        }
+      },
+      "solution": "L'eau solide garde sa forme et se tient dans la main. L'eau liquide coule et prend la forme du récipient. Réponse : garde sa forme → solide ; coule → liquide ; prend la forme du récipient → liquide ; se tient dans la main → solide.",
+      "step_by_step_solution": [
+        "Solide : garde sa forme, se tient dans la main.",
+        "Liquide : coule, prend la forme du récipient."
+      ],
+      "hints": [
+        "Pense à un glaçon puis à l'eau d'un verre."
+      ],
+      "common_errors": {
+        "garde sa forme → liquide ; coule → solide ; prend la forme du récipient → liquide ; se tient dans la main → solide": "L'élève mélange les indices du solide et du liquide."
+      },
+      "remediation": "Faire la liste de ce qu'on peut faire avec un glaçon et avec de l'eau d'un verre.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "solide",
+        "liquide"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.c02",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel indice montre que de l'eau est solide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'eau solide garde sa forme : c'est l'indice de l'état solide.",
+      "step_by_step_solution": [
+        "Couler et se renverser, c'est ce que fait l'eau liquide.",
+        "Elle garde sa forme : elle est solide."
+      ],
+      "hints": [
+        "Que fait un glaçon posé sur la table ?"
+      ],
+      "common_errors": {
+        "elle coule": "L'élève confond l'indice du liquide avec celui du solide."
+      },
+      "remediation": "Comparer un glaçon et de l'eau posés sur une assiette.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "elle garde sa forme",
+        "elle coule",
+        "elle se renverse"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.c03",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : quand un glaçon fond, l'eau disparaît.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : l'eau ne disparaît pas, elle devient de l'eau liquide dans l'assiette. Réponse : faux.",
+      "step_by_step_solution": [
+        "Le glaçon fond.",
+        "Il reste de l'eau liquide dans l'assiette : l'eau n'a pas disparu, c'est faux."
+      ],
+      "hints": [
+        "Que reste-t-il dans l'assiette après que le glaçon a fondu ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense que la glace qui fond disparaît."
+      },
+      "remediation": "Laisser fondre un glaçon dans une assiette et montrer l'eau qui reste.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.c04",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "En hiver, il y a du verglas sur la route. Le verglas, c'est :",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le verglas est une fine couche de glace : c'est de l'eau solide, qui glisse.",
+      "step_by_step_solution": [
+        "Le verglas est une couche de glace sur le sol.",
+        "La glace est de l'eau solide."
+      ],
+      "hints": [
+        "Le verglas se forme quand il fait très froid.",
+        "Pourquoi glisse-t-on sur le verglas ?"
+      ],
+      "common_errors": {
+        "de l'eau liquide": "L'élève pense que le verglas est une flaque d'eau."
+      },
+      "remediation": "Montrer une photo de verglas et une photo de flaque : laquelle est de la glace ?",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "de l'eau solide",
+        "de l'eau liquide",
+        "du sable"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.c05",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre : « on sort des glaçons », « on remplit le bac d'eau liquide », « on met le bac au congélateur ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "on remplit le bac d'eau liquide",
+          "on met le bac au congélateur",
+          "on sort des glaçons"
+        ]
+      },
+      "solution": "On met d'abord de l'eau liquide, puis le froid du congélateur la rend solide, enfin on sort des glaçons. Réponse : on remplit le bac d'eau liquide → on met le bac au congélateur → on sort des glaçons.",
+      "step_by_step_solution": [
+        "D'abord : on remplit le bac d'eau liquide.",
+        "Ensuite : on met le bac au congélateur.",
+        "Enfin : on sort des glaçons."
+      ],
+      "hints": [
+        "Par quoi commence-t-on pour fabriquer des glaçons ?"
+      ],
+      "common_errors": {
+        "on met le bac au congélateur ; on remplit le bac d'eau liquide ; on sort des glaçons": "L'élève ne voit pas qu'il faut d'abord de l'eau liquide."
+      },
+      "remediation": "Fabriquer des glaçons en classe en suivant les étapes dans l'ordre.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "on sort des glaçons",
+        "on remplit le bac d'eau liquide",
+        "on met le bac au congélateur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.x01",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Lina a un glaçon et une flaque d'eau. Qu'est-ce qui est pareil ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le glaçon est de l'eau solide et la flaque est de l'eau liquide : c'est de l'eau dans les deux cas.",
+      "step_by_step_solution": [
+        "Le glaçon est de l'eau solide.",
+        "La flaque est de l'eau liquide.",
+        "C'est de l'eau dans les deux cas."
+      ],
+      "hints": [
+        "Que devient le glaçon s'il fond ?"
+      ],
+      "common_errors": {
+        "ce sont deux matières différentes": "L'élève pense que la glace n'est pas de l'eau."
+      },
+      "remediation": "Faire fondre un glaçon dans un verre et comparer avec l'eau d'un autre verre.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "c'est de l'eau dans les deux cas",
+        "ce sont deux matières différentes",
+        "ce sont deux liquides"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.x02",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Où un glaçon reste-t-il solide le plus longtemps ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le congélateur est très froid : le glaçon n'y fond pas. Dans la main ou au soleil, il fond. Réponse : dans le congélateur.",
+      "step_by_step_solution": [
+        "Le glaçon fond quand il fait plus chaud.",
+        "Le congélateur est l'endroit le plus froid : il y reste solide."
+      ],
+      "hints": [
+        "Où fait-il le plus froid ?"
+      ],
+      "common_errors": {
+        "dans la main": "L'élève ne relie pas la fonte du glaçon à la chaleur."
+      },
+      "remediation": "Comparer un glaçon dans la main et un glaçon dans une boîte isotherme.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [
+        "dans le congélateur",
+        "dans la main",
+        "au soleil"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.etats-eau.x03",
+      "notion_id": "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : l'eau d'un glaçon fondu peut redevenir un glaçon si on la remet au congélateur.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : l'eau liquide redevient solide dans le froid du congélateur. Réponse : vrai.",
+      "step_by_step_solution": [
+        "L'eau du glaçon fondu est de l'eau liquide.",
+        "Au congélateur, l'eau liquide devient solide : c'est vrai."
+      ],
+      "hints": [
+        "Comment fabrique-t-on des glaçons ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense qu'un glaçon fondu est perdu pour toujours."
+      },
+      "remediation": "Faire fondre des glaçons dans un gobelet puis remettre le gobelet au congélateur.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Reconnaître l'eau à l'état solide et à l'état liquide",
+        "Utiliser le vocabulaire solide / liquide"
+      ],
+      "source_notions": [
+        "ST.CP.MAT.reconnaitre-et-identifier-les-etats-solides-et-liquides-de-leau"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.d01",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Lequel est vivant ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le chat naît, grandit, mange et mourra un jour : il est vivant. Réponse : un chat.",
+      "step_by_step_solution": [
+        "Le caillou et la bille ne naissent pas et ne grandissent pas.",
+        "Le chat naît, grandit et mange : il est vivant."
+      ],
+      "hints": [
+        "Lequel mange et grandit ?"
+      ],
+      "common_errors": {
+        "un caillou": "L'élève ne s'appuie pas sur les critères du vivant."
+      },
+      "remediation": "Pour chaque objet, se demander : est-ce qu'il mange ? est-ce qu'il grandit ?",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "un chat",
+        "un caillou",
+        "une bille"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.d02",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Lequel n'est pas vivant ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La pierre ne naît pas, ne grandit pas et ne se nourrit pas : elle n'est pas vivante. Réponse : une pierre.",
+      "step_by_step_solution": [
+        "L'arbre et l'escargot grandissent et se nourrissent.",
+        "La pierre ne grandit pas : elle n'est pas vivante."
+      ],
+      "hints": [
+        "Lequel ne grandit jamais ?"
+      ],
+      "common_errors": {
+        "un arbre": "L'élève pense qu'un arbre n'est pas vivant parce qu'il ne se déplace pas."
+      },
+      "remediation": "Observer une plante sur plusieurs semaines : elle grandit, elle est vivante.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "une pierre",
+        "un arbre",
+        "un escargot"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.d03",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : un arbre est vivant.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : un arbre pousse à partir d'une graine, grandit, a besoin d'eau et meurt un jour. Réponse : vrai.",
+      "step_by_step_solution": [
+        "L'arbre pousse à partir d'une graine et grandit.",
+        "Il a besoin d'eau : il est vivant, c'est vrai."
+      ],
+      "hints": [
+        "Un arbre grandit-il ?",
+        "Un arbre a-t-il besoin d'eau ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que seuls les animaux qui bougent sont vivants."
+      },
+      "remediation": "Planter une graine en classe et suivre sa croissance.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.d04",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Qui fabrique le miel ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les abeilles fabriquent le miel avec le nectar des fleurs.",
+      "step_by_step_solution": [
+        "Le miel est fabriqué avec le nectar des fleurs.",
+        "Ce sont les abeilles qui le fabriquent."
+      ],
+      "hints": [
+        "Pense aux insectes qui vivent dans une ruche."
+      ],
+      "common_errors": {
+        "les vaches": "L'élève confond le miel avec le lait, fabriqué par la vache."
+      },
+      "remediation": "Regarder un documentaire court sur la ruche et les abeilles.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "les abeilles",
+        "les vaches",
+        "le vent"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.d05",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chacun à « vivant » ou « non vivant » : chien, caillou, fleur, sable.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "chien": "vivant",
+          "caillou": "non vivant",
+          "fleur": "vivant",
+          "sable": "non vivant"
+        }
+      },
+      "solution": "Le chien et la fleur naissent, grandissent et se nourrissent : ils sont vivants. Le caillou et le sable ne grandissent pas : ils sont non vivants. Réponse : chien → vivant ; caillou → non vivant ; fleur → vivant ; sable → non vivant.",
+      "step_by_step_solution": [
+        "Vivants : chien, fleur (ils grandissent).",
+        "Non vivants : caillou, sable."
+      ],
+      "hints": [
+        "Pour chacun, demande-toi s'il grandit."
+      ],
+      "common_errors": {
+        "chien → vivant ; caillou → non vivant ; fleur → non vivant ; sable → non vivant": "L'élève pense qu'une fleur n'est pas vivante car elle ne bouge pas."
+      },
+      "remediation": "Faire deux colonnes au tableau et trier des images avec le critère « grandit / ne grandit pas ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "vivant",
+        "non vivant"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.a01",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi dit-on qu'un lapin est vivant ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un être vivant naît, grandit, se nourrit et meurt : c'est le cas du lapin. Réponse : il naît, grandit, mange et meurt.",
+      "step_by_step_solution": [
+        "Doux ou blanc ne sont pas des critères du vivant.",
+        "Le lapin naît, grandit, mange et meurt : il est vivant."
+      ],
+      "hints": [
+        "Cherche la réponse qui parle de ce que fait le lapin pendant sa vie."
+      ],
+      "common_errors": {
+        "il est tout doux": "L'élève justifie avec une caractéristique qui n'est pas un critère du vivant."
+      },
+      "remediation": "Lister ce que fait un animal de la classe (poisson, phasme) au cours de sa vie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "il naît, grandit, mange et meurt",
+        "il est tout doux",
+        "il est blanc"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.a02",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Une plante ne marche pas. Est-elle vivante ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Une plante grandit et a besoin d'eau : elle est vivante, même si elle ne se déplace pas. Réponse : oui, car elle grandit et a besoin d'eau.",
+      "step_by_step_solution": [
+        "Se déplacer n'est pas obligatoire pour être vivant.",
+        "La plante grandit et a besoin d'eau : elle est vivante."
+      ],
+      "hints": [
+        "Est-ce que la plante grandit ?"
+      ],
+      "common_errors": {
+        "non, car elle ne bouge pas": "Erreur fréquente : croire que seul ce qui se déplace est vivant."
+      },
+      "remediation": "Comparer une plante arrosée et une plante non arrosée pendant une semaine.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "oui, car elle grandit et a besoin d'eau",
+        "non, car elle ne bouge pas",
+        "non, car elle est verte"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.a03",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Une voiture roule. Est-elle vivante ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La voiture bouge, mais elle ne naît pas, ne grandit pas et ne se nourrit pas : elle n'est pas vivante. Réponse : non, elle ne naît pas et ne grandit pas.",
+      "step_by_step_solution": [
+        "Bouger ne suffit pas pour être vivant.",
+        "La voiture ne naît pas et ne grandit pas : elle n'est pas vivante."
+      ],
+      "hints": [
+        "Une voiture grandit-elle ?"
+      ],
+      "common_errors": {
+        "oui, car elle bouge": "Erreur fréquente : croire que tout ce qui bouge est vivant."
+      },
+      "remediation": "Chercher des choses qui bougent sans être vivantes : un ballon, une voiture, un nuage.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "non, elle ne naît pas et ne grandit pas",
+        "oui, car elle bouge",
+        "oui, car elle fait du bruit"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.a04",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chacun à « vivant », « non vivant » ou « fabriqué par un être vivant » : miel, toile d'araignée, souris, caillou.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "miel": "fabriqué par un être vivant",
+          "toile d'araignée": "fabriqué par un être vivant",
+          "souris": "vivant",
+          "caillou": "non vivant"
+        }
+      },
+      "solution": "La souris est vivante. Le caillou est non vivant. Le miel (abeilles) et la toile (araignée) sont fabriqués par des êtres vivants. Réponse : miel → fabriqué par un être vivant ; toile d'araignée → fabriqué par un être vivant ; souris → vivant ; caillou → non vivant.",
+      "step_by_step_solution": [
+        "La souris naît, grandit, mange : vivante.",
+        "Le caillou : non vivant.",
+        "Le miel et la toile sont fabriqués par des animaux."
+      ],
+      "hints": [
+        "Qui a fabriqué le miel ? Et la toile ?"
+      ],
+      "common_errors": {
+        "miel → vivant ; toile d'araignée → fabriqué par un être vivant ; souris → vivant ; caillou → non vivant": "L'élève pense que le miel est vivant parce qu'il vient d'un animal."
+      },
+      "remediation": "Montrer une toile d'araignée et un pot de miel : ils ne grandissent pas, mais un animal les a fabriqués.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "vivant",
+        "non vivant",
+        "fabriqué par un être vivant"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.a05",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans un coin du préau, il y a une toile faite de fils très fins. Quel petit animal l'a fabriquée ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "araignée",
+          "araignee",
+          "une araignée",
+          "une araignee"
+        ]
+      },
+      "solution": "La toile est fabriquée par une araignée avec des fils qu'elle produit.",
+      "step_by_step_solution": [
+        "La toile est faite de fils très fins.",
+        "C'est l'araignée qui fabrique ces fils et la toile."
+      ],
+      "hints": [
+        "C'est un petit animal à huit pattes."
+      ],
+      "common_errors": {
+        "mouche": "L'élève cite l'animal qui se fait attraper dans la toile, pas celui qui la fabrique."
+      },
+      "remediation": "Observer une toile d'araignée dans la cour (sans toucher) et chercher l'araignée.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.c01",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle phrase est vraie pour tous les êtres vivants ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Tous les êtres vivants naissent, grandissent et meurent. Les plantes n'ont pas de pattes et beaucoup d'êtres vivants vivent hors de l'eau. Réponse : ils naissent, grandissent et meurent.",
+      "step_by_step_solution": [
+        "Les plantes n'ont pas de pattes.",
+        "Beaucoup d'êtres vivants vivent hors de l'eau.",
+        "Tous naissent, grandissent et meurent."
+      ],
+      "hints": [
+        "Pense à la fois à un arbre et à un poisson."
+      ],
+      "common_errors": {
+        "ils ont des pattes": "L'élève oublie que les plantes sont aussi des êtres vivants."
+      },
+      "remediation": "Vérifier la phrase sur plusieurs exemples : un arbre, un poisson, un chat.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "ils naissent, grandissent et meurent",
+        "ils ont des pattes",
+        "ils vivent dans l'eau"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.c02",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : un nuage bouge, donc il est vivant.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : le nuage bouge avec le vent, mais il ne naît pas d'un parent, ne se nourrit pas : il n'est pas vivant. Réponse : faux.",
+      "step_by_step_solution": [
+        "Le nuage bouge, poussé par le vent.",
+        "Il ne se nourrit pas : il n'est pas vivant, c'est faux."
+      ],
+      "hints": [
+        "Bouger suffit-il pour être vivant ?"
+      ],
+      "common_errors": {
+        "vrai": "Erreur fréquente : croire que ce qui bouge est vivant."
+      },
+      "remediation": "Lister des choses qui bougent (nuage, ballon, eau de la rivière) et vérifier les critères du vivant.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.c03",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On trouve un nid dans un arbre. Qui l'a fabriqué ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le nid est construit par un oiseau avec des brindilles et de la mousse : il est fabriqué par un être vivant.",
+      "step_by_step_solution": [
+        "Le nid est fait de brindilles bien rangées.",
+        "C'est un oiseau qui l'a construit."
+      ],
+      "hints": [
+        "Qui pond des œufs dans un nid ?"
+      ],
+      "common_errors": {
+        "le vent": "L'élève pense que le nid s'est formé tout seul."
+      },
+      "remediation": "Observer un nid vide (ou une photo) et chercher comment l'oiseau l'a construit.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "un oiseau",
+        "le vent",
+        "la pluie"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.c04",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chacun à « vivant », « non vivant » ou « fabriqué par un être vivant » : escargot, coquille vide d'escargot, eau de la mare, herbe.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "escargot": "vivant",
+          "coquille vide d'escargot": "fabriqué par un être vivant",
+          "eau de la mare": "non vivant",
+          "herbe": "vivant"
+        }
+      },
+      "solution": "L'escargot et l'herbe sont vivants. La coquille vide a été fabriquée par un escargot. L'eau de la mare n'est pas vivante. Réponse : escargot → vivant ; coquille vide d'escargot → fabriqué par un être vivant ; eau de la mare → non vivant ; herbe → vivant.",
+      "step_by_step_solution": [
+        "Vivants : escargot, herbe.",
+        "Fabriquée par un être vivant : la coquille vide.",
+        "Non vivante : l'eau."
+      ],
+      "hints": [
+        "La coquille vide grandit-elle encore ?",
+        "Qui a fabriqué la coquille ?"
+      ],
+      "common_errors": {
+        "escargot → vivant ; coquille vide d'escargot → vivant ; eau de la mare → non vivant ; herbe → vivant": "L'élève pense qu'une coquille vide est encore vivante."
+      },
+      "remediation": "Comparer un escargot vivant et une coquille vide trouvée au jardin.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "vivant",
+        "non vivant",
+        "fabriqué par un être vivant"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.c05",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "De quoi tous les êtres vivants ont-ils besoin ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Tous les êtres vivants ont besoin de se nourrir pour vivre et grandir.",
+      "step_by_step_solution": [
+        "Les roues et le métal concernent des objets.",
+        "Tous les êtres vivants ont besoin de se nourrir."
+      ],
+      "hints": [
+        "Que doit-on donner à un animal ou à une plante pour qu'il vive ?"
+      ],
+      "common_errors": {
+        "avoir des roues": "L'élève confond les êtres vivants avec des objets qui bougent."
+      },
+      "remediation": "S'occuper d'un élevage ou d'une plantation en classe : nourrir, arroser.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "se nourrir",
+        "avoir des roues",
+        "être en métal"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.x01",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "On plante une graine de haricot et on l'arrose. Quelques jours plus tard, une petite plante sort de terre. Que montre cette observation ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La graine contient une petite plante vivante : avec de l'eau, elle germe et grandit.",
+      "step_by_step_solution": [
+        "La petite plante sort de la graine.",
+        "La graine contenait une plante vivante qui grandit."
+      ],
+      "hints": [
+        "D'où sort la petite plante ?"
+      ],
+      "common_errors": {
+        "la terre fabrique des plantes": "L'élève pense que la plante vient de la terre et non de la graine."
+      },
+      "remediation": "Faire germer des graines de haricot dans du coton humide pour voir la plante sortir de la graine.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "la graine contenait une plante vivante qui grandit",
+        "la terre fabrique des plantes",
+        "l'eau s'est transformée en plante"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.x02",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Le miel n'est pas un être vivant. Pourtant, il a un lien avec le vivant. Lequel ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le miel ne grandit pas et ne se nourrit pas, mais il est fabriqué par des abeilles, qui sont vivantes.",
+      "step_by_step_solution": [
+        "Le miel ne grandit pas : il n'est pas vivant.",
+        "Il est fabriqué par des abeilles."
+      ],
+      "hints": [
+        "Qui vit dans la ruche ?"
+      ],
+      "common_errors": {
+        "il pousse dans les arbres": "L'élève confond le miel avec un fruit."
+      },
+      "remediation": "Classer : miel, lait, toile d'araignée, nid dans la catégorie « fabriqué par un être vivant ».",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "il est fabriqué par des abeilles",
+        "il pousse dans les arbres",
+        "il est fabriqué par une machine"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.vivant.x03",
+      "notion_id": "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Trouve l'intrus : chat, rosier, poisson, caillou.",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le chat, le rosier et le poisson sont vivants. Le caillou n'est pas vivant : c'est l'intrus.",
+      "step_by_step_solution": [
+        "Chat, rosier, poisson : ils grandissent, ils sont vivants.",
+        "Le caillou ne grandit pas : c'est l'intrus."
+      ],
+      "hints": [
+        "Cherche celui qui ne grandit pas."
+      ],
+      "common_errors": {
+        "rosier": "L'élève pense que le rosier n'est pas vivant car il ne se déplace pas."
+      },
+      "remediation": "Refaire le tri avec les critères naître, grandir, se nourrir, mourir.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Distinguer le vivant, le non-vivant et ce qui est fabriqué par un être vivant",
+        "Justifier avec des critères simples (naître, grandir, se nourrir, mourir)"
+      ],
+      "source_notions": [
+        "ST.CP.VIV.caracteriser-et-justifier-a-laide-de-criteres-simples-ce-qui-est-vivan"
+      ],
+      "choices": [
+        "caillou",
+        "chat",
+        "rosier",
+        "poisson"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.d01",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pour couper une feuille de papier, j'utilise…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les ciseaux sont fabriqués pour couper le papier.",
+      "step_by_step_solution": [
+        "Le besoin est de couper.",
+        "L'objet qui coupe le papier : des ciseaux."
+      ],
+      "hints": [
+        "Quel objet a deux lames ?"
+      ],
+      "common_errors": {
+        "une gomme": "L'élève ne relie pas l'objet à son usage."
+      },
+      "remediation": "Montrer des objets de la trousse et dire à quoi sert chacun.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "des ciseaux",
+        "une cuillère",
+        "une gomme"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.d02",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pour savoir l'heure, j'utilise…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'horloge sert à savoir l'heure.",
+      "step_by_step_solution": [
+        "Le besoin : savoir l'heure.",
+        "L'objet : une horloge."
+      ],
+      "hints": [
+        "Regarde au mur de la classe : quel objet a des aiguilles ?"
+      ],
+      "common_errors": {
+        "un parapluie": "L'élève ne relie pas l'objet à son usage."
+      },
+      "remediation": "Observer l'horloge de la classe et dire à quoi elle sert.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "une horloge",
+        "un parapluie",
+        "une fourchette"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.d03",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Il pleut. Quel objet me protège de la pluie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le parapluie est fabriqué pour se protéger de la pluie.",
+      "step_by_step_solution": [
+        "Le besoin : ne pas être mouillé.",
+        "L'objet : un parapluie."
+      ],
+      "hints": [
+        "Quel objet ouvre-t-on au-dessus de sa tête ?"
+      ],
+      "common_errors": {
+        "une lampe": "L'élève ne relie pas l'objet à son usage."
+      },
+      "remediation": "Jouer à associer des images de météo et d'objets (pluie → parapluie, soleil → casquette).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "un parapluie",
+        "une lampe",
+        "une règle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.d04",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque besoin à son objet : écrire, couper, s'éclairer. Objets : crayon, ciseaux, lampe.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "écrire": "crayon",
+          "couper": "ciseaux",
+          "s'éclairer": "lampe"
+        }
+      },
+      "solution": "On écrit avec un crayon, on coupe avec des ciseaux, on s'éclaire avec une lampe. Réponse : écrire → crayon ; couper → ciseaux ; s'éclairer → lampe.",
+      "step_by_step_solution": [
+        "écrire → crayon",
+        "couper → ciseaux",
+        "s'éclairer → lampe"
+      ],
+      "hints": [
+        "Pour chaque action, imagine ce que tu prends dans ta main."
+      ],
+      "common_errors": {
+        "écrire → ciseaux ; couper → crayon ; s'éclairer → lampe": "L'élève inverse deux objets de la trousse."
+      },
+      "remediation": "Mimer chaque action et montrer l'objet correspondant.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "crayon",
+        "ciseaux",
+        "lampe"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.d05",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "À quoi sert une brosse à dents ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La brosse à dents sert à se laver les dents.",
+      "step_by_step_solution": [
+        "Le nom de l'objet donne un indice.",
+        "Elle sert à se laver les dents."
+      ],
+      "hints": [
+        "Quand l'utilises-tu : le matin et le soir, dans la salle de bains ?"
+      ],
+      "common_errors": {
+        "à se coiffer": "L'élève confond la brosse à dents et la brosse à cheveux."
+      },
+      "remediation": "Comparer une brosse à dents et une brosse à cheveux : même nom, besoins différents.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "à se laver les dents",
+        "à se coiffer",
+        "à dessiner"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.a01",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque besoin à son objet : garder les aliments au frais, boire, se déplacer, tracer un trait droit. Objets : réfrigérateur, verre, vélo, règle.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "garder les aliments au frais": "réfrigérateur",
+          "boire": "verre",
+          "se déplacer": "vélo",
+          "tracer un trait droit": "règle"
+        }
+      },
+      "solution": "Le réfrigérateur garde les aliments au frais, le verre sert à boire, le vélo à se déplacer, la règle à tracer un trait droit. Réponse : garder les aliments au frais → réfrigérateur ; boire → verre ; se déplacer → vélo ; tracer un trait droit → règle.",
+      "step_by_step_solution": [
+        "frais → réfrigérateur ; boire → verre",
+        "se déplacer → vélo ; trait droit → règle"
+      ],
+      "hints": [
+        "Commence par le besoin le plus facile."
+      ],
+      "common_errors": {
+        "garder les aliments au frais → verre ; boire → réfrigérateur ; se déplacer → vélo ; tracer un trait droit → règle": "L'élève associe le réfrigérateur aux boissons plutôt qu'à la conservation."
+      },
+      "remediation": "Faire un imagier des objets de la maison avec, sous chaque image, le besoin.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "réfrigérateur",
+        "verre",
+        "vélo",
+        "règle"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.a02",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Le soir, il fait noir dans la chambre. Quel objet aide à voir ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La lampe éclaire : elle répond au besoin de voir quand il fait noir.",
+      "step_by_step_solution": [
+        "Le besoin : voir dans le noir.",
+        "L'objet qui éclaire : une lampe."
+      ],
+      "hints": [
+        "Quel objet fait de la lumière ?"
+      ],
+      "common_errors": {
+        "un oreiller": "L'élève pense au coucher, pas au besoin de voir."
+      },
+      "remediation": "Éteindre la lumière de la classe puis allumer une lampe de poche : qu'est-ce qui change ?",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "une lampe",
+        "un oreiller",
+        "une gomme"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.a03",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quel objet sert à se déplacer ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La trottinette sert à se déplacer plus vite qu'à pied.",
+      "step_by_step_solution": [
+        "Le besoin : se déplacer.",
+        "L'objet : une trottinette."
+      ],
+      "hints": [
+        "Lequel a des roues ?"
+      ],
+      "common_errors": {
+        "un livre": "L'élève ne relie pas l'objet à son usage."
+      },
+      "remediation": "Lister les objets qui servent à se déplacer : vélo, trottinette, bus, voiture.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "une trottinette",
+        "une casserole",
+        "un livre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.a04",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Je veux effacer un trait de crayon sur ma feuille. Quel objet j'utilise ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "gomme",
+          "une gomme"
+        ]
+      },
+      "solution": "La gomme sert à effacer un trait de crayon.",
+      "step_by_step_solution": [
+        "Le besoin : effacer.",
+        "L'objet de la trousse qui efface : la gomme."
+      ],
+      "hints": [
+        "Cherche dans ta trousse l'objet qui fait disparaître le trait."
+      ],
+      "common_errors": {
+        "taille-crayon": "L'élève confond deux objets de la trousse."
+      },
+      "remediation": "Ouvrir sa trousse et dire à quoi sert chaque objet.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.a05",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi met-on un manteau en hiver ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le manteau répond au besoin d'avoir chaud quand il fait froid. Réponse : pour avoir chaud.",
+      "step_by_step_solution": [
+        "En hiver il fait froid.",
+        "Le manteau sert à avoir chaud."
+      ],
+      "hints": [
+        "Quel temps fait-il en hiver ?"
+      ],
+      "common_errors": {
+        "pour se laver": "L'élève ne relie pas l'objet au besoin."
+      },
+      "remediation": "Associer des vêtements et la météo : manteau et froid, casquette et soleil.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "pour avoir chaud",
+        "pour se laver",
+        "pour manger"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.c01",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Une fourchette et une cuillère servent au même besoin. Lequel ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La fourchette et la cuillère sont deux objets différents qui répondent au même besoin : manger.",
+      "step_by_step_solution": [
+        "On utilise ces deux objets à table.",
+        "Le besoin commun : manger."
+      ],
+      "hints": [
+        "Où utilise-t-on ces deux objets ?"
+      ],
+      "common_errors": {
+        "écrire": "L'élève ne relie pas les objets de la table au besoin de manger."
+      },
+      "remediation": "Chercher d'autres objets qui répondent au même besoin : stylo et crayon pour écrire.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "manger",
+        "dormir",
+        "écrire"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.c02",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quels objets répondent tous les deux au besoin de s'éclairer ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La lampe de poche et la lampe de bureau éclairent toutes les deux. Réponse : une lampe de poche et une lampe de bureau.",
+      "step_by_step_solution": [
+        "Le seau et la pelle servent à jouer dans le sable.",
+        "Le bonnet et l'écharpe servent à avoir chaud.",
+        "Les deux lampes servent à s'éclairer."
+      ],
+      "hints": [
+        "Quels objets font de la lumière ?"
+      ],
+      "common_errors": {
+        "un bonnet et une écharpe": "L'élève ne relie pas les objets au besoin demandé."
+      },
+      "remediation": "Rassembler des objets qui éclairent (photos) et remarquer qu'ils sont différents mais ont le même usage.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "une lampe de poche et une lampe de bureau",
+        "un seau et une pelle",
+        "un bonnet et une écharpe"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.c03",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque objet à son besoin : réveil, gourde, casque de vélo, brosse à cheveux. Besoins : se réveiller à l'heure, boire, protéger sa tête, se coiffer.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "réveil": "se réveiller à l'heure",
+          "gourde": "boire",
+          "casque de vélo": "protéger sa tête",
+          "brosse à cheveux": "se coiffer"
+        }
+      },
+      "solution": "Le réveil sert à se réveiller à l'heure, la gourde à boire, le casque à protéger sa tête, la brosse à se coiffer. Réponse : réveil → se réveiller à l'heure ; gourde → boire ; casque de vélo → protéger sa tête ; brosse à cheveux → se coiffer.",
+      "step_by_step_solution": [
+        "réveil → se réveiller à l'heure ; gourde → boire",
+        "casque de vélo → protéger sa tête ; brosse à cheveux → se coiffer"
+      ],
+      "hints": [
+        "Le nom de l'objet peut t'aider."
+      ],
+      "common_errors": {
+        "réveil → se réveiller à l'heure ; gourde → boire ; casque de vélo → se coiffer ; brosse à cheveux → protéger sa tête": "L'élève associe le casque et la brosse parce qu'ils vont tous les deux sur la tête."
+      },
+      "remediation": "Mimer l'usage de chaque objet, puis dire le besoin.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "se réveiller à l'heure",
+        "boire",
+        "protéger sa tête",
+        "se coiffer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.c04",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Mia veut emporter de l'eau pour boire pendant la promenade. Quel objet l'aide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La gourde est fermée : elle garde l'eau pour boire pendant la promenade. La passoire et le panier ont des trous. Réponse : une gourde.",
+      "step_by_step_solution": [
+        "La passoire et le panier laissent passer l'eau.",
+        "La gourde garde l'eau : c'est le bon objet."
+      ],
+      "hints": [
+        "Quel objet ne laisse pas l'eau s'échapper ?"
+      ],
+      "common_errors": {
+        "une passoire": "L'élève ne pense pas à la forme de l'objet (trous)."
+      },
+      "remediation": "Essayer de verser de l'eau dans une passoire au-dessus d'un bac : que se passe-t-il ?",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "une gourde",
+        "une passoire",
+        "un panier"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.c05",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel objet ne sert PAS à écrire ou à dessiner ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le crayon et le feutre servent à écrire ou dessiner ; le marteau sert à enfoncer des clous. Réponse : un marteau.",
+      "step_by_step_solution": [
+        "Crayon et feutre : écrire et dessiner.",
+        "Le marteau sert à autre chose : planter des clous."
+      ],
+      "hints": [
+        "Lis bien : on cherche celui qui ne sert pas à écrire."
+      ],
+      "common_errors": {
+        "un feutre": "L'élève n'a pas lu la négation « ne … pas »."
+      },
+      "remediation": "Relire la consigne en montrant le mot « PAS », puis trier les objets.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "un marteau",
+        "un crayon",
+        "un feutre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.x01",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Devinette : j'ai des dents mais je ne mange pas. Je sers à se coiffer. Qui suis-je ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le peigne a des dents et sert à se coiffer. La fourchette et la scie ont aussi des dents, mais ne servent pas à se coiffer. Réponse : un peigne.",
+      "step_by_step_solution": [
+        "Plusieurs objets ont des « dents ».",
+        "Celui qui sert à se coiffer : le peigne."
+      ],
+      "hints": [
+        "Lis l'indice sur le besoin : se coiffer."
+      ],
+      "common_errors": {
+        "une scie": "L'élève utilise un seul indice (les dents) et oublie le besoin."
+      },
+      "remediation": "Rappeler qu'un objet se reconnaît d'abord au besoin auquel il répond.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "un peigne",
+        "une fourchette",
+        "une scie"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.x02",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un vélo, une trottinette et un bus répondent au même besoin. Lequel ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Ces trois objets servent à se déplacer.",
+      "step_by_step_solution": [
+        "Le vélo, la trottinette et le bus ont des roues et transportent des personnes.",
+        "Le besoin commun : se déplacer."
+      ],
+      "hints": [
+        "Que fais-tu quand tu montes dans un bus ?"
+      ],
+      "common_errors": {
+        "s'éclairer": "L'élève ne repère pas ce qui est commun aux trois objets."
+      },
+      "remediation": "Trier des images d'objets par besoin : se déplacer, manger, s'éclairer.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "se déplacer",
+        "se nourrir",
+        "s'éclairer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.CP.objets-besoins.x03",
+      "notion_id": "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque besoin à son objet : se protéger du soleil, couper la viande, ranger ses affaires d'école, arroser les plantes. Objets : casquette, couteau, cartable, arrosoir.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "se protéger du soleil": "casquette",
+          "couper la viande": "couteau",
+          "ranger ses affaires d'école": "cartable",
+          "arroser les plantes": "arrosoir"
+        }
+      },
+      "solution": "Casquette pour le soleil, couteau pour couper, cartable pour ranger ses affaires, arrosoir pour arroser. Réponse : se protéger du soleil → casquette ; couper la viande → couteau ; ranger ses affaires d'école → cartable ; arroser les plantes → arrosoir.",
+      "step_by_step_solution": [
+        "soleil → casquette ; viande → couteau",
+        "affaires d'école → cartable ; plantes → arrosoir"
+      ],
+      "hints": [
+        "Commence par l'objet dont le nom ressemble au besoin."
+      ],
+      "common_errors": {
+        "se protéger du soleil → cartable ; couper la viande → couteau ; ranger ses affaires d'école → casquette ; arroser les plantes → arrosoir": "L'élève associe au hasard sans penser à l'usage."
+      },
+      "remediation": "Faire un jeu de paires besoin / objet avec des cartes.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Associer un objet technique au besoin auquel il répond",
+        "Identifier des objets de la vie quotidienne"
+      ],
+      "source_notions": [
+        "ST.CP.TEC.identifier-des-activites-de-la-vie-quotidienne-faisant-appel-a-des-obj"
+      ],
+      "choices": [
+        "casquette",
+        "couteau",
+        "cartable",
+        "arrosoir"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

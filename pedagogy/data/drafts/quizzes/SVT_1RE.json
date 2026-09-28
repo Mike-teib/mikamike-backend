@@ -1,0 +1,840 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q01",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Un codon est formé de :",
+      "choices": [
+        "trois nucléotides",
+        "deux nucléotides",
+        "un acide aminé",
+        "trois gènes"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "trois nucléotides",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le code génétique se lit par triplets de nucléotides appelés codons.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Deux nucléotides ne donneraient que 16 combinaisons.",
+        "2": "Le codon code un acide aminé, il n'en est pas formé.",
+        "3": "Un gène est beaucoup plus long."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q02",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Combien de codons existe-t-il ?",
+      "choices": [
+        "12",
+        "64",
+        "20",
+        "61"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "64",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "4 nucléotides sur 3 positions : 4 × 4 × 4 = 64 codons.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "4 × 3 = 12 : ce n'est pas le bon calcul.",
+        "2": "20 est le nombre d'acides aminés.",
+        "3": "61 est le nombre de codons codant un acide aminé."
+      },
+      "common_error_target": {
+        "2": "confusion codons / acides aminés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q03",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Le codon AUG :",
+      "choices": [
+        "ne code aucun acide aminé",
+        "n'existe que chez les bactéries",
+        "est le codon initiateur et code la méthionine",
+        "est un codon stop"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "est le codon initiateur et code la méthionine",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "AUG initie la traduction et code la méthionine.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Il code la méthionine.",
+        "1": "Il est universel.",
+        "3": "Les codons stop sont UAA, UAG et UGA."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q04",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Le code génétique est dit redondant car :",
+      "choices": [
+        "un codon code plusieurs acides aminés",
+        "il change selon les espèces",
+        "il ne contient pas de codon stop",
+        "un acide aminé peut être codé par plusieurs codons"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "un acide aminé peut être codé par plusieurs codons",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Avec 61 codons pour 20 acides aminés, plusieurs codons codent souvent le même acide aminé.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est faux : chaque codon est non ambigu.",
+        "1": "Il est universel.",
+        "2": "Il contient trois codons stop."
+      },
+      "common_error_target": {
+        "0": "inversion de la redondance"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q05",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Parmi ces codons, lequel est un codon stop ?",
+      "choices": [
+        "UGA",
+        "UGG",
+        "AUG",
+        "GGA"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "UGA",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "UAA, UAG et UGA sont les trois codons stop.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "UGG code le tryptophane.",
+        "2": "AUG est le codon initiateur.",
+        "3": "GGA code la glycine."
+      },
+      "common_error_target": {
+        "1": "confusion UGA / UGG"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q06",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Une séquence codante de 450 nucléotides (sans le codon stop) donne une protéine de :",
+      "choices": [
+        "149 acides aminés",
+        "150 acides aminés",
+        "450 acides aminés",
+        "1 350 acides aminés"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "150 acides aminés",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "450 / 3 = 150 codons, donc 150 acides aminés.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Le codon stop est déjà exclu.",
+        "2": "Un acide aminé correspond à 3 nucléotides.",
+        "3": "Multiplication au lieu de division."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q07",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Une mutation qui remplace un codon par un autre codant le même acide aminé est :",
+      "choices": [
+        "faux-sens",
+        "un décalage du cadre de lecture",
+        "silencieuse",
+        "non-sens"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "silencieuse",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Grâce à la redondance du code, la protéine est inchangée.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Elle changerait l'acide aminé.",
+        "1": "Elle résulte d'une insertion ou d'une délétion.",
+        "3": "Elle introduirait un codon stop."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q08",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Chez un eucaryote, la traduction a lieu :",
+      "choices": [
+        "dans le noyau",
+        "dans la membrane plasmique",
+        "dans l'ADN",
+        "dans le cytoplasme"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "dans le cytoplasme",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'ARNm quitte le noyau et est traduit par les ribosomes du cytoplasme.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est le lieu de la transcription.",
+        "1": "Ce n'est pas un lieu de synthèse des protéines.",
+        "2": "L'ADN n'est pas un lieu."
+      },
+      "common_error_target": {
+        "0": "confusion transcription / traduction"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q09",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "L'universalité du code génétique permet :",
+      "choices": [
+        "de faire produire une protéine humaine par une bactérie",
+        "d'éviter toute mutation",
+        "de supprimer les codons stop",
+        "de transformer l'ADN en protéine sans ARN"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "de faire produire une protéine humaine par une bactérie",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La bactérie traduit le gène humain avec les mêmes correspondances codon / acide aminé.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Les mutations restent possibles.",
+        "2": "Les codons stop existent chez tous les êtres vivants.",
+        "3": "L'ARN reste indispensable."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.code-genetique.q10",
+      "notion_id": "SVT.1RE.TVOV.le-code-genetique-est-un-systeme-de-correspondance-universel-a-lensemb",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Dans la drépanocytose, GAG (Glu) devient GUG (Val). C'est une mutation :",
+      "choices": [
+        "silencieuse",
+        "non-sens",
+        "par insertion",
+        "faux-sens"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "faux-sens",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un acide aminé est remplacé par un autre : c'est une mutation faux-sens.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "L'acide aminé change.",
+        "1": "Aucun codon stop n'apparaît.",
+        "2": "C'est une substitution d'un seul nucléotide."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q01",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Au niveau d'une dorsale, les plaques :",
+      "choices": [
+        "s'écartent",
+        "se rapprochent",
+        "coulissent sans rien produire",
+        "sont immobiles"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "s'écartent",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La dorsale est une zone de divergence où se forme de la lithosphère océanique.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est le cas des zones de subduction ou de collision.",
+        "2": "Ce sont les failles transformantes.",
+        "3": "Les dorsales sont actives."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q02",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Le magma des dorsales provient de :",
+      "choices": [
+        "la fusion de la croûte continentale",
+        "la fonte des glaces",
+        "la fusion du noyau",
+        "la fusion partielle des péridotites du manteau"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "la fusion partielle des péridotites du manteau",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La décompression du manteau qui remonte provoque la fusion partielle des péridotites.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "La croûte continentale n'est pas présente sous les dorsales.",
+        "1": "Sans rapport.",
+        "2": "Le noyau n'intervient pas."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q03",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "La cause principale de la fusion partielle sous les dorsales est :",
+      "choices": [
+        "l'apport de chaleur du Soleil",
+        "la collision",
+        "la décompression",
+        "l'hydratation par une plaque plongeante"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "la décompression",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La remontée du manteau diminue la pression et franchit le solidus.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Sans rapport.",
+        "1": "Sans rapport.",
+        "3": "C'est le cas dans les zones de subduction."
+      },
+      "common_error_target": {
+        "3": "confusion dorsale / subduction"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q04",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Le gabbro se distingue du basalte par :",
+      "choices": [
+        "sa présence dans la croûte continentale uniquement",
+        "sa structure grenue",
+        "sa composition chimique totalement différente",
+        "sa formation en surface"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "sa structure grenue",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le gabbro, refroidi lentement en profondeur, a une structure grenue ; le basalte est microlitique.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Il constitue la croûte océanique inférieure.",
+        "2": "Ils ont une composition proche.",
+        "3": "Le gabbro se forme en profondeur."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q05",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Des basaltes à 200 km de l'axe ont 10 Ma. Vitesse de la plaque :",
+      "choices": [
+        "2 cm par an",
+        "20 cm par an",
+        "0,2 cm par an",
+        "200 cm par an"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2 cm par an",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "200 km en 10 Ma = 20 km par Ma = 20 mm par an = 2 cm par an.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Erreur de conversion d'un facteur 10.",
+        "2": "Erreur de conversion d'un facteur 10.",
+        "3": "Erreur de conversion."
+      },
+      "common_error_target": {
+        "1": "erreur de conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q06",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "L'âge du plancher océanique :",
+      "choices": [
+        "diminue avec la distance à la dorsale",
+        "est le même partout",
+        "est maximal à l'axe",
+        "augmente avec la distance à la dorsale"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "augmente avec la distance à la dorsale",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La lithosphère se forme à l'axe et vieillit en s'en éloignant.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est l'inverse.",
+        "1": "Les datations montrent le contraire.",
+        "2": "L'axe est la zone la plus jeune."
+      },
+      "common_error_target": {
+        "1": "inversion de la relation âge / distance"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q07",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Dans les dorsales lentes, la divergence peut mettre à l'affleurement :",
+      "choices": [
+        "des craies",
+        "des sables de plage",
+        "des péridotites",
+        "des granites"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "des péridotites",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Avec un magmatisme réduit, le manteau peut être exhumé directement.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Ce sont des roches sédimentaires.",
+        "1": "Sans rapport.",
+        "3": "Le granite est une roche continentale."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q08",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "L'hydrothermalisme océanique transforme notamment la péridotite en :",
+      "choices": [
+        "charbon",
+        "serpentinite",
+        "granite",
+        "calcaire"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "serpentinite",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'eau de mer hydrate les minéraux de la péridotite, qui devient une serpentinite.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Sans rapport.",
+        "2": "Sans rapport.",
+        "3": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q09",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "En vieillissant, la lithosphère océanique :",
+      "choices": [
+        "se refroidit, s'épaissit et devient plus dense",
+        "se réchauffe et s'amincit",
+        "garde la même épaisseur",
+        "devient moins dense"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "se refroidit, s'épaissit et devient plus dense",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le refroidissement épaissit le manteau lithosphérique et augmente la densité moyenne.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est l'inverse.",
+        "2": "Son épaisseur augmente.",
+        "3": "Sa densité augmente."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.dorsales.q10",
+      "notion_id": "SVT.1RE.TVOV.la-divergence-des-plaques-de-part-et-dautre-des-dorsales-permet-la-mis",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Deux basaltes de même âge, 4 Ma, sont à 240 km l'un de l'autre de part et d'autre d'une dorsale. La vitesse d'expansion totale est :",
+      "choices": [
+        "3 cm par an",
+        "60 cm par an",
+        "0,6 cm par an",
+        "6 cm par an"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "6 cm par an",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "240 km en 4 Ma = 60 km par Ma = 6 cm par an.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est la demi-vitesse.",
+        "1": "Erreur de conversion.",
+        "2": "Erreur de conversion."
+      },
+      "common_error_target": {
+        "0": "confusion vitesse totale / demi-vitesse"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q01",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Dans une maladie autosomique récessive, un hétérozygote est :",
+      "choices": [
+        "porteur sain",
+        "atteint",
+        "toujours stérile",
+        "porteur de deux allèles mutés"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "porteur sain",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un seul allèle muté ne suffit pas : l'hétérozygote n'est pas atteint mais peut transmettre l'allèle.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Seuls les homozygotes mutés sont atteints.",
+        "2": "Sans rapport.",
+        "3": "Il porte un seul allèle muté."
+      },
+      "common_error_target": {
+        "1": "confusion récessif / dominant"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q02",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Deux porteurs sains ont un enfant. Probabilité qu'il soit atteint :",
+      "choices": [
+        "1/4",
+        "1/2",
+        "3/4",
+        "1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/4",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque parent transmet l'allèle muté avec une probabilité 1/2 : 1/2 × 1/2 = 1/4.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la probabilité d'être hétérozygote.",
+        "2": "C'est la probabilité de ne pas être atteint.",
+        "3": "Ce n'est pas certain."
+      },
+      "common_error_target": {
+        "1": "confusion atteint / hétérozygote"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q03",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "« Autosomique » signifie que le gène est porté par :",
+      "choices": [
+        "un chromosome non sexuel",
+        "le chromosome X",
+        "le chromosome Y",
+        "les mitochondries"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un chromosome non sexuel",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les autosomes sont les 22 paires de chromosomes non sexuels chez l'humain.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Ce serait une transmission liée à l'X.",
+        "2": "Ce serait une transmission liée à l'Y.",
+        "3": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q04",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Deux parents sains ont un enfant atteint. On en déduit que l'allèle est :",
+      "choices": [
+        "récessif",
+        "dominant",
+        "lié au chromosome Y",
+        "absent chez les parents"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "récessif",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les parents portent l'allèle sans l'exprimer : il est récessif.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un allèle dominant s'exprimerait chez un parent.",
+        "2": "Une fille pourrait être atteinte, ce qui exclurait l'Y.",
+        "3": "L'enfant l'a hérité de ses parents."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q05",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Un parent aa et un parent AA ont un enfant. Il sera :",
+      "choices": [
+        "forcément hétérozygote",
+        "forcément atteint",
+        "atteint avec une probabilité 1/2",
+        "forcément AA"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "forcément hétérozygote",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le parent aa donne a, le parent AA donne A : l'enfant est Aa.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Il n'est pas aa.",
+        "2": "Il est forcément Aa.",
+        "3": "Il reçoit forcément a."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q06",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Deux porteurs sains ont un enfant non atteint. Probabilité qu'il soit porteur :",
+      "choices": [
+        "2/3",
+        "1/2",
+        "1/4",
+        "3/4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2/3",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Parmi AA (1/4) et Aa (1/2), la part des Aa est (1/2)/(3/4) = 2/3.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On oublie de tenir compte de l'information « non atteint ».",
+        "2": "C'est la probabilité d'être aa ou AA.",
+        "3": "C'est la probabilité de ne pas être atteint."
+      },
+      "common_error_target": {
+        "1": "oubli du conditionnement"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q07",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Dans la mucoviscidose, la protéine altérée est :",
+      "choices": [
+        "un canal à ions chlorure (CFTR)",
+        "l'hémoglobine des globules rouges",
+        "l'insuline produite par le pancréas",
+        "un anticorps circulant dans le sang"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "un canal à ions chlorure (CFTR)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le gène CFTR code un canal à ions chlorure ; son altération épaissit le mucus.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est la drépanocytose.",
+        "2": "Sans rapport.",
+        "3": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q08",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Des parents porteurs ont déjà un enfant atteint. Probabilité que le suivant soit atteint :",
+      "choices": [
+        "1/4",
+        "0",
+        "1",
+        "1/2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/4",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque naissance est indépendante : la probabilité reste 1/4.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le hasard n'a pas de mémoire.",
+        "2": "Ce n'est pas certain.",
+        "3": "Confusion avec la probabilité d'être hétérozygote."
+      },
+      "common_error_target": {
+        "1": "croyance en une « compensation » du hasard"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q09",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "Une fille atteinte d'un père sain permet d'exclure une transmission :",
+      "choices": [
+        "récessive liée à l'X",
+        "autosomique récessive",
+        "autosomique dominante",
+        "mitochondriale"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "récessive liée à l'X",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Pour une maladie récessive liée à l'X, le père d'une fille atteinte serait atteint.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est justement compatible.",
+        "2": "L'argument porte sur le chromosome X.",
+        "3": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.SVT.1RE.maladie-recessive.q10",
+      "notion_id": "SVT.1RE.CHS.dans-le-cas-dune-maladie-monogenique-a-transmission-autosomique-recess",
+      "subject": "SVT",
+      "level": "1RE",
+      "question": "1 personne sur 25 est porteuse. Probabilité qu'un couple au hasard ait un enfant atteint :",
+      "choices": [
+        "1/625",
+        "1/100",
+        "1/50",
+        "1/2500"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "1/2500",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les deux parents doivent être porteurs puis transmettre l'allèle : 1/25 × 1/25 × 1/4 = 1/2500.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "On oublie le facteur 1/4.",
+        "1": "Calcul erroné.",
+        "2": "Addition au lieu de produit."
+      },
+      "common_error_target": {
+        "0": "oubli de la probabilité de transmission"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

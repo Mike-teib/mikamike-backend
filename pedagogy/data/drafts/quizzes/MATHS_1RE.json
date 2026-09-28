@@ -1,0 +1,874 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q01",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quel est le discriminant du trinôme x² + 3x − 4 ?",
+      "choices": [
+        "25",
+        "−7",
+        "7",
+        "13"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "25",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Δ = b² − 4ac = 9 − 4 × 1 × (−4) = 9 + 16 = 25.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Erreur de signe : 9 − 16.",
+        "2": "On a calculé 16 − 9.",
+        "3": "On a calculé 9 + 4."
+      },
+      "common_error_target": {
+        "1": "erreur de signe sur −4ac"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q02",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Si Δ < 0, l'équation ax² + bx + c = 0 (a ≠ 0) possède dans ℝ :",
+      "choices": [
+        "pas de solution réelle",
+        "une solution réelle",
+        "deux solutions réelles",
+        "une infinité de solutions"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "pas de solution réelle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Si Δ < 0, √Δ n'existe pas dans ℝ : le trinôme ne s'annule jamais et garde le signe de a.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une solution correspond à Δ = 0.",
+        "2": "Deux solutions correspondent à Δ > 0.",
+        "3": "Un trinôme non nul a au plus deux racines."
+      },
+      "common_error_target": {
+        "2": "confusion des cas selon le signe de Δ"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q03",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelles sont les solutions de x² − 7x + 10 = 0 ?",
+      "choices": [
+        "x = 2 ou x = 5",
+        "x = −2 ou x = −5",
+        "x = 2",
+        "x = 1 ou x = 10"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 2 ou x = 5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Δ = 49 − 40 = 9 : x = (7 − 3)/2 = 2 et x = (7 + 3)/2 = 5.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Erreur de signe sur −b.",
+        "2": "Une racine oubliée.",
+        "3": "On a cherché deux nombres de produit 10 sans tenir compte de la somme 7."
+      },
+      "common_error_target": {
+        "1": "erreur de signe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q04",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelle est la forme canonique de x² + 4x + 1 ?",
+      "choices": [
+        "(x + 2)² − 3",
+        "(x − 2)² − 3",
+        "(x + 2)² + 1",
+        "(x + 4)² + 1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "(x + 2)^2 - 3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "x² + 4x = (x + 2)² − 4, donc x² + 4x + 1 = (x + 2)² − 3.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Erreur de signe sur α.",
+        "2": "On a oublié de retrancher 4.",
+        "3": "On a pris α = −b au lieu de −b/2."
+      },
+      "common_error_target": {
+        "1": "erreur de signe sur α"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q05",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelles sont les racines de 2x² − 3x − 2 ?",
+      "choices": [
+        "x = 2 ou x = −1/2",
+        "x = −2 ou x = 1/2",
+        "x = 2 ou x = −1",
+        "x = 4 ou x = −1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 2 ou x = -1/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Δ = 9 + 16 = 25 : x = (3 + 5)/4 = 2 et x = (3 − 5)/4 = −1/2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Erreur de signe sur −b.",
+        "2": "On a divisé par 2 au lieu de 2a = 4.",
+        "3": "On a oublié de diviser par 2a."
+      },
+      "common_error_target": {
+        "3": "division par 2a oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q06",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Combien de racines réelles distinctes possède 4x² − 4x + 1 ?",
+      "choices": [
+        "1",
+        "2",
+        "0",
+        "4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Δ = 16 − 16 = 0 : une racine double, x = 1/2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Deux racines seulement si Δ > 0.",
+        "2": "Aucune racine seulement si Δ < 0.",
+        "3": "Confusion avec le coefficient a."
+      },
+      "common_error_target": {
+        "1": "racine double comptée deux fois"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q07",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Sur quel ensemble a-t-on −x² + 9 > 0 ?",
+      "choices": [
+        "]−3 ; 3[",
+        "]−∞ ; −3[ ∪ ]3 ; +∞[",
+        "]−9 ; 9[",
+        "]3 ; +∞["
+      ],
+      "correct_answer": 0,
+      "reference_answer": "]−3 ; 3[",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Racines −3 et 3, a = −1 < 0 : le trinôme est positif strictement entre ses racines.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est l'ensemble où il est négatif.",
+        "2": "Confusion entre 9 et √9.",
+        "3": "Une seule partie, et du mauvais signe."
+      },
+      "common_error_target": {
+        "1": "signe de a ignoré"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q08",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Pour quelle valeur de m l'équation x² − 2x + m = 0 admet-elle une racine double ?",
+      "choices": [
+        "1",
+        "−1",
+        "4",
+        "2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Racine double si Δ = 4 − 4m = 0, soit m = 1.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Erreur de signe.",
+        "2": "On a pris Δ = b² − m.",
+        "3": "Confusion avec b."
+      },
+      "common_error_target": {
+        "2": "discriminant mal écrit"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q09",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelle est la forme factorisée de 2x² − 2x − 12 ?",
+      "choices": [
+        "2(x − 3)(x + 2)",
+        "(x − 3)(x + 2)",
+        "2(x + 3)(x − 2)",
+        "2(x − 3)(x − 2)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2(x - 3)(x + 2)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Racines : x² − x − 6 = 0 donne 3 et −2 ; on n'oublie pas le coefficient a = 2 : 2(x − 3)(x + 2).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le coefficient a = 2 est oublié.",
+        "2": "Erreur de signe sur les racines.",
+        "3": "Une racine a un mauvais signe."
+      },
+      "common_error_target": {
+        "1": "oubli de a"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.second-degre.q10",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quel est le minimum sur ℝ de f(x) = 3x² − 12x + 7 ?",
+      "choices": [
+        "−5",
+        "7",
+        "2",
+        "−12"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "-5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "f(x) = 3(x − 2)² − 5 : le minimum vaut −5, atteint en x = 2.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "C'est f(0).",
+        "2": "C'est l'abscisse du minimum.",
+        "3": "C'est le coefficient b."
+      },
+      "common_error_target": {
+        "2": "confusion abscisse / valeur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q01",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelle est la dérivée de f(x) = x² + 5x ?",
+      "choices": [
+        "2x + 5",
+        "2x",
+        "x + 5",
+        "2x + 5x"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2x + 5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(x²)' = 2x et (5x)' = 5 : f′(x) = 2x + 5.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le terme 5x a été oublié.",
+        "2": "La dérivée de x² est 2x, pas x.",
+        "3": "5x n'a pas été dérivé."
+      },
+      "common_error_target": {
+        "3": "terme non dérivé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q02",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelle est la dérivée de la fonction inverse x ↦ 1/x sur ]0 ; +∞[ ?",
+      "choices": [
+        "−1/x²",
+        "1/x²",
+        "−1/x",
+        "1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "-1/x^2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(1/x)' = −1/x² : la fonction inverse est décroissante sur ]0 ; +∞[, sa dérivée est négative.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Signe oublié.",
+        "2": "L'exposant n'a pas changé.",
+        "3": "Confusion avec la dérivée de x."
+      },
+      "common_error_target": {
+        "1": "oubli du signe moins"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q03",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelle est la dérivée de x ↦ √x sur ]0 ; +∞[ ?",
+      "choices": [
+        "1/(2√x)",
+        "2√x",
+        "1/√x",
+        "√x/2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/(2sqrt(x))",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "D'après le formulaire des fonctions de référence, (√x)' = 1/(2√x) sur ]0 ; +∞[.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Inverse de la bonne réponse.",
+        "2": "Le facteur 1/2 manque.",
+        "3": "Confusion avec la moitié de √x."
+      },
+      "common_error_target": {
+        "2": "facteur 1/2 oublié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q04",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Soit f(x) = (x + 1)(x − 1). Que vaut f′(x) ?",
+      "choices": [
+        "2x",
+        "1",
+        "2x + 2",
+        "x²"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2x",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(uv)' = u'v + uv' = (x − 1) + (x + 1) = 2x (ou : f(x) = x² − 1).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a calculé u'v' = 1 × 1.",
+        "2": "Erreur dans la somme u'v + uv'.",
+        "3": "Ce n'est pas une dérivée."
+      },
+      "common_error_target": {
+        "1": "(uv)' = u'v' (faux)"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q05",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Dériver f(x) = 3x⁴ − 2x.",
+      "choices": [
+        "12x³ − 2",
+        "12x³",
+        "3x³ − 2",
+        "12x³ − 2x"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "12x^3 - 2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(3x⁴)' = 3 × 4x³ = 12x³ et (−2x)' = −2, donc f′(x) = 12x³ − 2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le terme −2x a été oublié.",
+        "2": "Le coefficient 4 n'a pas été multiplié.",
+        "3": "Le terme −2x n'a pas été dérivé."
+      },
+      "common_error_target": {
+        "2": "nxⁿ⁻¹ mal appliqué"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q06",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Pour deux fonctions dérivables u et v, la dérivée du produit uv est :",
+      "choices": [
+        "u'v + uv'",
+        "u'v'",
+        "u'v − uv'",
+        "u'v + v'"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "u'v + uv'",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Formule du produit : (uv)' = u'v + uv'. Le signe moins apparaît dans la formule du quotient.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Erreur classique : (uv)' ≠ u'v'.",
+        "2": "Confusion avec le numérateur de la formule du quotient.",
+        "3": "Le facteur u manque devant v'."
+      },
+      "common_error_target": {
+        "1": "produit des dérivées"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q07",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelle est la dérivée de x ↦ x/(x + 1) sur ]−1 ; +∞[ ?",
+      "choices": [
+        "1/(x + 1)²",
+        "−1/(x + 1)²",
+        "1",
+        "(2x + 1)/(x + 1)²"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/(x + 1)^2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(u'v − uv')/v² = ((x + 1) − x)/(x + 1)² = 1/(x + 1)².",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Numérateur calculé à l'envers (uv' − u'v).",
+        "2": "On a calculé u'/v'.",
+        "3": "On a additionné u'v et uv'."
+      },
+      "common_error_target": {
+        "2": "quotient des dérivées"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q08",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Soit f(x) = (2x + 1)². Que vaut f′(x) ?",
+      "choices": [
+        "8x + 4",
+        "2(2x + 1)",
+        "4x + 1",
+        "8x + 1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "8x + 4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "f(x) = (2x + 1)(2x + 1) : f′(x) = 2(2x + 1) + (2x + 1) × 2 = 4(2x + 1) = 8x + 4.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le facteur 2 venant de (2x + 1)' est oublié.",
+        "2": "Erreur de développement.",
+        "3": "Erreur de distributivité."
+      },
+      "common_error_target": {
+        "1": "dérivée intérieure oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q09",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Quelle est la dérivée de x ↦ 1/(3x − 2) sur ]2/3 ; +∞[ ?",
+      "choices": [
+        "−3/(3x − 2)²",
+        "−1/(3x − 2)²",
+        "3/(3x − 2)²",
+        "1/3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "-3/(3x - 2)^2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(1/v)' = −v'/v² avec v' = 3 : −3/(3x − 2)².",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le facteur v' = 3 est oublié.",
+        "2": "Le signe moins est oublié.",
+        "3": "On a inversé v'."
+      },
+      "common_error_target": {
+        "1": "v' oublié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.derivation.q10",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Soit f(x) = (x² + 1)/x sur ]0 ; +∞[. Que vaut f′(1) ?",
+      "choices": [
+        "0",
+        "2",
+        "1",
+        "−2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "f(x) = x + 1/x, donc f′(x) = 1 − 1/x² et f′(1) = 0.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "C'est f(1).",
+        "2": "On a oublié le terme −1/x².",
+        "3": "Erreur de signe : 1/x² au lieu de −1/x²."
+      },
+      "common_error_target": {
+        "1": "confusion f(1) / f′(1)"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q01",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "(uₙ) est arithmétique avec u₀ = 7 et de raison 4. Que vaut u₅ ?",
+      "choices": [
+        "27",
+        "31",
+        "23",
+        "35"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "27",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "u₅ = u₀ + 5r = 7 + 20 = 27.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a ajouté 6 fois la raison.",
+        "2": "On a ajouté 4 fois la raison.",
+        "3": "On a multiplié 7 par 5."
+      },
+      "common_error_target": {
+        "1": "décalage d'indice"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q02",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "(vₙ) est géométrique avec v₀ = 3 et de raison 2. Que vaut v₄ ?",
+      "choices": [
+        "48",
+        "24",
+        "96",
+        "11"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "48",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "v₄ = v₀ × q⁴ = 3 × 16 = 48.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a multiplié 3 fois par 2.",
+        "2": "On a multiplié 5 fois par 2.",
+        "3": "Raisonnement arithmétique : 3 + 4 × 2."
+      },
+      "common_error_target": {
+        "3": "confusion arithmétique / géométrique"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q03",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Laquelle de ces suites est arithmétique ?",
+      "choices": [
+        "uₙ = 4n − 1",
+        "uₙ = 4ⁿ",
+        "uₙ = n² + 1",
+        "uₙ = 1/(n + 1)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "uₙ = 4n − 1",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "uₙ₊₁ − uₙ = 4 est constant pour uₙ = 4n − 1 : suite arithmétique de raison 4.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est une suite géométrique de raison 4.",
+        "2": "Les écarts 1, 3, 5… ne sont pas constants.",
+        "3": "Les écarts ne sont pas constants."
+      },
+      "common_error_target": {
+        "1": "confusion arithmétique / géométrique"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q04",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "(uₙ)ₙ⩾₁ est arithmétique avec u₁ = 2 et de raison 5. Quelle est l'expression de uₙ ?",
+      "choices": [
+        "5n − 3",
+        "2 + 5n",
+        "2n + 5",
+        "5n + 1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5n - 3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "uₙ = u₁ + (n − 1) × 5 = 2 + 5n − 5 = 5n − 3.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Formule uₙ = u₀ + nr appliquée avec u₁.",
+        "2": "Premier terme et raison inversés.",
+        "3": "Erreur de distributivité : −5 devenu −1."
+      },
+      "common_error_target": {
+        "1": "indice de départ ignoré"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q05",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Que vaut 1 + 2 + … + 50 ?",
+      "choices": [
+        "1275",
+        "2550",
+        "1250",
+        "1225"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1275",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "n(n + 1)/2 avec n = 50 : 50 × 51 / 2 = 1275.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Division par 2 oubliée.",
+        "2": "On a calculé 50 × 50 / 2.",
+        "3": "On a calculé 50 × 49 / 2."
+      },
+      "common_error_target": {
+        "1": "division par 2 oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q06",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "(uₙ) est géométrique avec u₀ = 4 et u₁ = 6. Quelle est sa raison ?",
+      "choices": [
+        "3/2",
+        "2",
+        "2/3",
+        "24"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Dans une suite géométrique, u₁ = q × u₀, donc q = u₁/u₀ = 6/4 = 3/2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "C'est u₁ − u₀ (raisonnement arithmétique).",
+        "2": "On a calculé u₀/u₁.",
+        "3": "On a multiplié u₀ par u₁."
+      },
+      "common_error_target": {
+        "1": "confusion avec la raison arithmétique"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q07",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "On pose vₙ = −2 × 3ⁿ. Quel est le sens de variation de (vₙ) ?",
+      "choices": [
+        "décroissante",
+        "croissante",
+        "constante",
+        "ni croissante ni décroissante"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "décroissante",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "vₙ₊₁ − vₙ = −2 × 3ⁿ × (3 − 1) = −4 × 3ⁿ < 0 : la suite est décroissante.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "q > 1 mais le premier terme est négatif.",
+        "2": "La raison n'est pas 1.",
+        "3": "Les termes gardent le même signe : la suite est monotone."
+      },
+      "common_error_target": {
+        "1": "signe de v₀ ignoré"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q08",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Que vaut 1 + 3 + 9 + … + 3⁶ ?",
+      "choices": [
+        "1093",
+        "2186",
+        "729",
+        "3280"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1093",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(3⁷ − 1)/(3 − 1) = 2186/2 = 1093.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Division par q − 1 = 2 oubliée.",
+        "2": "C'est le dernier terme seulement.",
+        "3": "Un terme de trop (jusqu'à 3⁷)."
+      },
+      "common_error_target": {
+        "1": "formule mal appliquée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q09",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "Un prix de 200 euros augmente de 10 % par an. Quel est-il, en euros, au bout de 3 ans ?",
+      "choices": [
+        "266,2",
+        "260",
+        "266",
+        "220"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "266,2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "200 × 1,1³ = 200 × 1,331 = 266,2.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Augmentations simples : 200 + 3 × 20.",
+        "2": "Arrondi abusif.",
+        "3": "Une seule hausse appliquée."
+      },
+      "common_error_target": {
+        "1": "intérêts simples"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.1RE.suites.q10",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "question": "(uₙ) est arithmétique avec u₅ = 17 et u₁₂ = 38. Que vaut u₀ ?",
+      "choices": [
+        "2",
+        "3",
+        "17/5",
+        "5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "7r = 38 − 17 = 21 donc r = 3, puis u₀ = u₅ − 5r = 17 − 15 = 2.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "C'est la raison.",
+        "2": "On a divisé u₅ par 5.",
+        "3": "Erreur sur le nombre de pas."
+      },
+      "common_error_target": {
+        "1": "confusion raison / premier terme"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATHS",
+  "level": "1RE",
+  "course": "SPECIALITE",
+  "generated_by": "agent-A-maths-candidates",
+  "disclaimer": "Notions CANDIDATES reconstituées de mémoire (connaissance générale des programmes), toutes UNPROVEN / CANDIDATE_UNVERIFIED : ce ne sont PAS des extraits officiels. Aucun libellé officiel n'est stocké. À vérifier contre la source officielle attendue avant toute production de contenu.",
+  "notions": [
+    {
+      "notion_id": "MATHS.1RE.ALG.fonctions-polynomes-du-second-degre",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Algèbre",
+      "domain_code": "ALG",
+      "chapter": "Second degré",
+      "title": "Fonctions polynômes du second degré",
+      "official_wording": null,
+      "normalized_title": "fonctions polynômes du second degré",
+      "prerequisites": [
+        "MATHS.2NDE.FON.fonctions-de-reference",
+        "MATHS.2NDE.NC.calcul-litteral-et-identites-remarquables"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Connaître les formes développée, canonique et factorisée d'un trinôme",
+        "Relier la forme canonique au sommet de la parabole"
+      ],
+      "expected_skills": [
+        "Déterminer la forme canonique",
+        "Dresser le tableau de variations d'un trinôme"
+      ],
+      "common_mistakes": [
+        "Se tromper de signe sur l'abscisse du sommet ($-\\frac{b}{2a}$)",
+        "Oublier le facteur $a$ dans la forme canonique"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.ALG.equations-du-second-degre-et-discriminant",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Algèbre",
+      "domain_code": "ALG",
+      "chapter": "Second degré",
+      "title": "Équations du second degré et discriminant",
+      "official_wording": null,
+      "normalized_title": "équations du second degré et discriminant",
+      "prerequisites": [
+        "MATHS.1RE.ALG.fonctions-polynomes-du-second-degre",
+        "MATHS.3E.NC.equations-produit-nul"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Résoudre une équation du second degré et étudier le signe d'un trinôme"
+      ],
+      "expected_skills": [
+        "Calculer $\\Delta = b^2 - 4ac$",
+        "Factoriser un trinôme"
+      ],
+      "common_mistakes": [
+        "Calculer $-b^2$ au lieu de $b^2$ avec $b$ négatif",
+        "Oublier le signe de $a$ dans le tableau de signes"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AN.suites-numeriques",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Suites",
+      "title": "Suites numériques",
+      "official_wording": null,
+      "normalized_title": "suites numériques",
+      "prerequisites": [
+        "MATHS.2NDE.FON.generalites-sur-les-fonctions",
+        "MATHS.2NDE.AP.variables-et-instructions-en-python"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Définir une suite de façon explicite ou par récurrence",
+        "Étudier le sens de variation d'une suite"
+      ],
+      "expected_skills": [
+        "Calculer des termes",
+        "Étudier le signe de $u_{n+1} - u_n$"
+      ],
+      "common_mistakes": [
+        "Confondre $u_{n+1}$ et $u_n + 1$",
+        "Confondre l'indice et la valeur du terme"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AN.suites-arithmetiques",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Suites",
+      "title": "Suites arithmétiques",
+      "official_wording": null,
+      "normalized_title": "suites arithmétiques",
+      "prerequisites": [
+        "MATHS.1RE.AN.suites-numeriques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Reconnaître une suite arithmétique et calculer ses termes et sommes"
+      ],
+      "expected_skills": [
+        "Utiliser $u_n = u_0 + nr$",
+        "Calculer $1 + 2 + \\dots + n$"
+      ],
+      "common_mistakes": [
+        "Utiliser $u_n = u_1 + nr$ en partant de $u_1$",
+        "Compter mal le nombre de termes d'une somme"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AN.suites-geometriques",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Suites",
+      "title": "Suites géométriques",
+      "official_wording": null,
+      "normalized_title": "suites géométriques",
+      "prerequisites": [
+        "MATHS.1RE.AN.suites-numeriques",
+        "MATHS.2NDE.SP.proportions-et-evolutions-en-pourcentage"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Reconnaître une suite géométrique et calculer ses termes et sommes"
+      ],
+      "expected_skills": [
+        "Utiliser $u_n = u_0 q^n$",
+        "Calculer $1 + q + \\dots + q^n$"
+      ],
+      "common_mistakes": [
+        "Écrire $u_n = u_0 \\times q \\times n$",
+        "Confondre suite géométrique et arithmétique dans une situation d'évolution en %"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AN.nombre-derive-et-tangente",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Dérivation",
+      "title": "Nombre dérivé et tangente",
+      "official_wording": null,
+      "normalized_title": "nombre dérivé et tangente",
+      "prerequisites": [
+        "MATHS.2NDE.GEO.equations-de-droites",
+        "MATHS.2NDE.FON.generalites-sur-les-fonctions"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Définir le nombre dérivé comme limite du taux de variation",
+        "Déterminer l'équation d'une tangente"
+      ],
+      "expected_skills": [
+        "Calculer un taux de variation",
+        "Utiliser $y = f'(a)(x-a) + f(a)$"
+      ],
+      "common_mistakes": [
+        "Confondre $f'(a)$ et $f(a)$ dans l'équation de tangente",
+        "Lire le nombre dérivé comme ordonnée du point"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AN.derivation",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Dérivation",
+      "title": "Dérivation",
+      "official_wording": null,
+      "normalized_title": "dérivation",
+      "prerequisites": [
+        "MATHS.1RE.AN.nombre-derive-et-tangente",
+        "MATHS.2NDE.FON.fonctions-de-reference"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer la fonction dérivée des fonctions usuelles, d'une somme, d'un produit, d'un quotient"
+      ],
+      "expected_skills": [
+        "Utiliser $(uv)' = u'v + uv'$",
+        "Dériver $x \\mapsto g(ax+b)$"
+      ],
+      "common_mistakes": [
+        "Écrire $(uv)' = u'v'$",
+        "Oublier le carré au dénominateur de $\\left(\\frac{u}{v}\\right)'$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AN.applications-de-la-derivation",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Dérivation",
+      "title": "Applications de la dérivation",
+      "official_wording": null,
+      "normalized_title": "applications de la dérivation",
+      "prerequisites": [
+        "MATHS.1RE.AN.derivation",
+        "MATHS.2NDE.FON.tableaux-de-signes",
+        "MATHS.1RE.ALG.equations-du-second-degre-et-discriminant"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Étudier les variations et les extremums d'une fonction à l'aide de sa dérivée"
+      ],
+      "expected_skills": [
+        "Étudier le signe de $f'$",
+        "Résoudre un problème d'optimisation"
+      ],
+      "common_mistakes": [
+        "Confondre signe de $f$ et signe de $f'$",
+        "Oublier de justifier le signe de la dérivée"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AN.fonction-exponentielle",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Fonctions",
+      "title": "Fonction exponentielle",
+      "official_wording": null,
+      "normalized_title": "fonction exponentielle",
+      "prerequisites": [
+        "MATHS.1RE.AN.derivation",
+        "MATHS.1RE.AN.suites-geometriques",
+        "MATHS.2NDE.NC.puissances-et-racines-carrees"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Connaître la fonction exponentielle, ses propriétés algébriques et sa dérivée"
+      ],
+      "expected_skills": [
+        "Utiliser $e^{a+b} = e^a e^b$",
+        "Dériver $x \\mapsto e^{kx}$"
+      ],
+      "common_mistakes": [
+        "Écrire $e^{a+b} = e^a + e^b$",
+        "Oublier que $e^x > 0$ pour tout $x$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AN.fonctions-trigonometriques",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Fonctions",
+      "title": "Fonctions trigonométriques",
+      "official_wording": null,
+      "normalized_title": "fonctions trigonométriques",
+      "prerequisites": [
+        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle",
+        "MATHS.2NDE.FON.generalites-sur-les-fonctions"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Utiliser le cercle trigonométrique, le radian et les fonctions cosinus et sinus"
+      ],
+      "expected_skills": [
+        "Convertir degrés et radians",
+        "Lire les valeurs remarquables sur le cercle"
+      ],
+      "common_mistakes": [
+        "Utiliser la calculatrice en mode degrés pour des radians",
+        "Confondre abscisse (cosinus) et ordonnée (sinus)"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.GEO.produit-scalaire",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Produit scalaire",
+      "title": "Produit scalaire",
+      "official_wording": null,
+      "normalized_title": "produit scalaire",
+      "prerequisites": [
+        "MATHS.2NDE.GEO.vecteurs",
+        "MATHS.2NDE.GEO.projete-orthogonal",
+        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Calculer un produit scalaire par différentes expressions",
+        "Caractériser l'orthogonalité"
+      ],
+      "expected_skills": [
+        "Utiliser $\\vec{u} \\cdot \\vec{v} = xx' + yy'$",
+        "Utiliser la formule avec le cosinus",
+        "Appliquer le théorème d'Al-Kashi"
+      ],
+      "common_mistakes": [
+        "Multiplier les normes sans le cosinus",
+        "Croire qu'un produit scalaire est un vecteur"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.GEO.geometrie-reperee",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Géométrie repérée",
+      "title": "Géométrie repérée",
+      "official_wording": null,
+      "normalized_title": "géométrie repérée",
+      "prerequisites": [
+        "MATHS.1RE.GEO.produit-scalaire",
+        "MATHS.2NDE.GEO.equations-de-droites"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Utiliser un vecteur normal pour déterminer une équation de droite",
+        "Déterminer une équation de cercle"
+      ],
+      "expected_skills": [
+        "Écrire $ax + by + c = 0$ avec $\\vec{n}(a;b)$ normal",
+        "Reconnaître $(x-a)^2 + (y-b)^2 = r^2$"
+      ],
+      "common_mistakes": [
+        "Confondre vecteur normal et vecteur directeur",
+        "Oublier le carré du rayon"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.PROBA.probabilites-conditionnelles",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Probabilités et statistiques",
+      "domain_code": "PROBA",
+      "chapter": "Probabilités",
+      "title": "Probabilités conditionnelles",
+      "official_wording": null,
+      "normalized_title": "probabilités conditionnelles",
+      "prerequisites": [
+        "MATHS.2NDE.SP.modeles-de-probabilite"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Calculer une probabilité conditionnelle et utiliser la formule des probabilités totales"
+      ],
+      "expected_skills": [
+        "Construire un arbre pondéré",
+        "Utiliser $P_A(B) = \\frac{P(A \\cap B)}{P(A)}$"
+      ],
+      "common_mistakes": [
+        "Confondre $P_A(B)$ et $P(A \\cap B)$",
+        "Confondre $P_A(B)$ et $P_B(A)$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.PROBA.independance-d-evenements",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Probabilités et statistiques",
+      "domain_code": "PROBA",
+      "chapter": "Probabilités",
+      "title": "Indépendance d'événements",
+      "official_wording": null,
+      "normalized_title": "indépendance d'événements",
+      "prerequisites": [
+        "MATHS.1RE.PROBA.probabilites-conditionnelles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Reconnaître et utiliser l'indépendance de deux événements"
+      ],
+      "expected_skills": [
+        "Vérifier $P(A \\cap B) = P(A) P(B)$"
+      ],
+      "common_mistakes": [
+        "Confondre événements indépendants et incompatibles",
+        "Supposer l'indépendance sans justification"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.PROBA.variables-aleatoires-reelles",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Probabilités et statistiques",
+      "domain_code": "PROBA",
+      "chapter": "Variables aléatoires",
+      "title": "Variables aléatoires réelles",
+      "official_wording": null,
+      "normalized_title": "variables aléatoires réelles",
+      "prerequisites": [
+        "MATHS.1RE.PROBA.probabilites-conditionnelles",
+        "MATHS.2NDE.SP.statistiques-descriptives"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Déterminer la loi d'une variable aléatoire et calculer espérance, variance, écart type"
+      ],
+      "expected_skills": [
+        "Construire un tableau de loi",
+        "Interpréter l'espérance (jeu équitable)"
+      ],
+      "common_mistakes": [
+        "Oublier de vérifier que la somme des probabilités vaut 1",
+        "Calculer la variance sans pondérer par les probabilités"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.1RE.AP.listes-en-python",
+      "subject": "MATHS",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité 1re — programme 2019 (à confirmer)",
+      "domain": "Algorithmique et programmation",
+      "domain_code": "AP",
+      "chapter": "Python",
+      "title": "Listes en Python",
+      "official_wording": null,
+      "normalized_title": "listes en python",
+      "prerequisites": [
+        "MATHS.2NDE.AP.fonctions-en-python"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Créer et parcourir des listes en Python (extension, compréhension)"
+      ],
+      "expected_skills": [
+        "Utiliser `append` et `len`",
+        "Générer une liste par compréhension"
+      ],
+      "common_mistakes": [
+        "Commencer l'indexation à 1",
+        "Modifier une liste pendant son parcours"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Doute spécifique : l'organisation officielle range les suites dans « Algèbre » ; le code AN est imposé par le contrat d'ancres.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

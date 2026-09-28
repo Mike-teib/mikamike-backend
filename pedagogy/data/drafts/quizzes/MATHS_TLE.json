@@ -1,0 +1,874 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q01",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la limite de la suite de terme général (6n + 5)/(2n − 1) ?",
+      "choices": [
+        "3",
+        "6",
+        "−5",
+        "1/3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On factorise par n : (6 + 5/n)/(2 − 1/n) tend vers 6/2 = 3.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le dénominateur a été oublié.",
+        "2": "Quotient des termes constants.",
+        "3": "Quotient des coefficients inversé (2/6)."
+      },
+      "common_error_target": {
+        "2": "quotient des constantes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q02",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Pour n ⩾ 1, quelle est la limite de uₙ = 4 + 1/n² ?",
+      "choices": [
+        "4",
+        "0",
+        "5",
+        "1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "1/n² tend vers 0, donc uₙ tend vers 4 + 0 = 4.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Seul le terme 1/n² a été considéré.",
+        "2": "On a remplacé n par 1.",
+        "3": "Confusion sur 1/n²."
+      },
+      "common_error_target": {
+        "2": "calcul de u₁ au lieu de la limite"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q03",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la limite de la suite (0,9ⁿ) ?",
+      "choices": [
+        "0",
+        "0,9",
+        "1",
+        "−1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Pour −1 < q < 1, qⁿ tend vers 0 ; ici q = 0,9.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est u₁, pas la limite.",
+        "2": "0,9 est proche de 1, mais 0,9ⁿ → 0.",
+        "3": "Les termes sont tous positifs."
+      },
+      "common_error_target": {
+        "2": "intuition « proche de 1 »"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q04",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la limite de la suite de terme général n² − 5n ?",
+      "choices": [
+        "+∞",
+        "−∞",
+        "0",
+        "−5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "+∞",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "n² − 5n = n(n − 5) : produit de deux facteurs tendant vers +∞.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le terme n² l'emporte.",
+        "2": "∞ − ∞ n'est pas 0.",
+        "3": "Le coefficient de n n'est pas la limite."
+      },
+      "common_error_target": {
+        "2": "∞ − ∞ = 0 (faux)"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q05",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la limite de la suite de terme général (2n + 1)/(n² + 1) ?",
+      "choices": [
+        "0",
+        "2",
+        "1",
+        "1/2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le degré du dénominateur est supérieur : en divisant par n², on obtient (2/n + 1/n²)/(1 + 1/n²) → 0.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Quotient des coefficients sans tenir compte des degrés.",
+        "2": "Quotient des constantes.",
+        "3": "Quotient inversé."
+      },
+      "common_error_target": {
+        "1": "degrés ignorés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q06",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "On sait que uₙ ⩽ vₙ pour tout n et que lim uₙ = +∞. Que peut-on en déduire ?",
+      "choices": [
+        "lim vₙ = +∞",
+        "lim vₙ = −∞",
+        "(vₙ) converge",
+        "lim vₙ = 0"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "lim vₙ = +∞",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Théorème de comparaison : une suite minorée par une suite qui tend vers +∞ tend aussi vers +∞.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le sens de l'inégalité est ignoré.",
+        "2": "vₙ est plus grand qu'une suite non bornée.",
+        "3": "vₙ dépasse tout réel à partir d'un certain rang."
+      },
+      "common_error_target": {
+        "1": "sens de l'inégalité"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q07",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la limite de la suite de terme général √(n + 1) − √n ?",
+      "choices": [
+        "0",
+        "1",
+        "1/2",
+        "−1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Quantité conjuguée : √(n + 1) − √n = 1/(√(n + 1) + √n), qui tend vers 0.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a calculé (n + 1) − n.",
+        "2": "Confusion avec la limite de √(n² + n) − n.",
+        "3": "Erreur de signe."
+      },
+      "common_error_target": {
+        "1": "racines « simplifiées »"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q08",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la limite de la suite de terme général (4ⁿ + 1)/(2 × 4ⁿ) ?",
+      "choices": [
+        "1/2",
+        "2",
+        "1",
+        "0"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(4ⁿ + 1)/(2 × 4ⁿ) = 1/2 + 1/(2 × 4ⁿ), qui tend vers 1/2.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Quotient inversé.",
+        "2": "Le facteur 2 a été oublié.",
+        "3": "Le numérateur ne tend pas vers 0."
+      },
+      "common_error_target": {
+        "1": "quotient inversé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q09",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "On suppose que (uₙ), définie par uₙ₊₁ = uₙ/3 + 4, converge. Quelle est sa limite ?",
+      "choices": [
+        "6",
+        "4",
+        "12",
+        "3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "La limite vérifie ℓ = ℓ/3 + 4, soit 2ℓ/3 = 4, donc ℓ = 6.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est le terme constant.",
+        "2": "On a résolu ℓ = 4 × 3.",
+        "3": "On a pris le coefficient 3."
+      },
+      "common_error_target": {
+        "1": "terme constant pris pour limite"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.limites-suites.q10",
+      "notion_id": "MATHS.TLE.AN.etablir-la-convergence-dune-suite-ou-sa-divergence-vers-ou",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la limite de la suite de terme général (3n − 2cos(n))/(n + 1) ?",
+      "choices": [
+        "3",
+        "2",
+        "1",
+        "−2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(3n − 2)/(n + 1) ⩽ uₙ ⩽ (3n + 2)/(n + 1), et les deux bornes tendent vers 3 : théorème des gendarmes.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Le coefficient du cosinus n'est pas la limite.",
+        "2": "Le coefficient 3 a été oublié.",
+        "3": "Le cosinus est borné, il ne compte pas."
+      },
+      "common_error_target": {
+        "1": "rôle du terme borné"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q01",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la solution réelle de l'équation eˣ = 1 ?",
+      "choices": [
+        "0",
+        "1",
+        "exp(1)",
+        "−1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "e⁰ = 1 et la fonction exponentielle est strictement croissante : x = ln 1 = 0.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Confusion entre x et eˣ.",
+        "2": "C'est e¹, qui vaut e et non 1.",
+        "3": "e⁻¹ = 1/e ≠ 1."
+      },
+      "common_error_target": {
+        "1": "confusion x / eˣ"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q02",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Que vaut ln(e⁵) ?",
+      "choices": [
+        "5",
+        "1",
+        "5/2",
+        "25"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "ln et exp sont réciproques : ln(eᵃ) = a, donc ln(e⁵) = 5.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Confusion avec ln(e) = 1.",
+        "2": "On a divisé par 2 sans raison.",
+        "3": "On a élevé 5 au carré."
+      },
+      "common_error_target": {
+        "1": "confusion avec ln e"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q03",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Pour a > 0 et b > 0, ln(ab) est égal à :",
+      "choices": [
+        "ln(a) + ln(b)",
+        "ln(a) × ln(b)",
+        "ln(a) − ln(b)",
+        "ln(a + b)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ln(a) + ln(b)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Relation fonctionnelle du logarithme : le logarithme d'un produit est la somme des logarithmes.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le produit n'est pas conservé par ln.",
+        "2": "C'est ln(a/b).",
+        "3": "ln n'est pas additive sur les sommes."
+      },
+      "common_error_target": {
+        "1": "ln(ab) = ln a × ln b (faux)"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q04",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la solution dans ]0 ; +∞[ de ln x = −1 ?",
+      "choices": [
+        "exp(-1)",
+        "-exp(1)",
+        "1",
+        "-1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "exp(-1)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "ln x = −1 équivaut à x = e⁻¹ = 1/e.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un nombre négatif n'a pas de logarithme.",
+        "2": "ln 1 = 0.",
+        "3": "Le logarithme a été « supprimé »."
+      },
+      "common_error_target": {
+        "1": "signe mal placé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q05",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle est la solution réelle de e^(3x) = 8 ?",
+      "choices": [
+        "ln(2)",
+        "ln(8)",
+        "8/3",
+        "ln(24)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ln(2)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3x = ln 8 = 3 ln 2, donc x = ln 2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Division par 3 oubliée.",
+        "2": "Le logarithme a été oublié.",
+        "3": "On a multiplié par 3 au lieu de diviser."
+      },
+      "common_error_target": {
+        "1": "division oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q06",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Que vaut ln 50 − ln 2 ?",
+      "choices": [
+        "2ln(5)",
+        "ln(48)",
+        "25",
+        "ln(100)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2ln(5)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "ln 50 − ln 2 = ln(50/2) = ln 25 = 2 ln 5.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a soustrait les arguments.",
+        "2": "Le logarithme a été oublié.",
+        "3": "On a multiplié les arguments."
+      },
+      "common_error_target": {
+        "1": "ln(a) − ln(b) = ln(a − b) (faux)"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q07",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quel est l'ensemble des solutions de eˣ ⩽ 3 ?",
+      "choices": [
+        "]−∞ ; ln 3]",
+        "[ln 3 ; +∞[",
+        "]0 ; 3]",
+        "]−∞ ; 3]"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "]−∞ ; ln 3]",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "exp est strictement croissante et 3 = e^(ln 3) : eˣ ⩽ 3 équivaut à x ⩽ ln 3.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Sens de l'inégalité inversé.",
+        "2": "Ce sont les valeurs de eˣ, pas de x.",
+        "3": "Le logarithme a été oublié."
+      },
+      "common_error_target": {
+        "3": "e supprimé sans ln"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q08",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quel est le plus petit entier naturel n tel que 2ⁿ > 1000 ?",
+      "choices": [
+        "10",
+        "9",
+        "500",
+        "11"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "n > ln 1000 / ln 2 ≈ 9,97 : le plus petit entier est 10 (2¹⁰ = 1024).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "2⁹ = 512 < 1000.",
+        "2": "On a divisé 1000 par 2.",
+        "3": "10 convient déjà."
+      },
+      "common_error_target": {
+        "1": "arrondi par défaut"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q09",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Sur ]2 ; 8[, quelle est la solution de ln(x − 2) = ln(8 − x) ?",
+      "choices": [
+        "5",
+        "3",
+        "6",
+        "10"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "ln est injective : x − 2 = 8 − x, soit 2x = 10 et x = 5, qui appartient à ]2 ; 8[.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a résolu x − 2 = 8 − x en 2x = 6.",
+        "2": "Le terme en x du second membre a été oublié : x = 8 − 2.",
+        "3": "On a oublié de diviser par 2."
+      },
+      "common_error_target": {
+        "3": "division oubliée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.exp-ln.q10",
+      "notion_id": "MATHS.TLE.AN.utiliser-lequation-fonctionnelle-de-lexponentielle-ou-du-logarithme-po",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelles sont les solutions réelles de e^(2x) − 3eˣ + 2 = 0 ?",
+      "choices": [
+        "x = 0 ou x = ln(2)",
+        "x = 1 ou x = 2",
+        "x = ln(2)",
+        "x = 0 ou x = ln(3)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "x = 0 ou x = ln(2)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Avec X = eˣ : X² − 3X + 2 = 0, X = 1 ou X = 2, donc x = ln 1 = 0 ou x = ln 2.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Ce sont les valeurs de X = eˣ.",
+        "2": "La solution x = 0 (X = 1) a été oubliée.",
+        "3": "Erreur sur les racines en X."
+      },
+      "common_error_target": {
+        "1": "retour à x oublié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q01",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Que vaut $\\int_{0}^{1} x^2\\,dx$ ?",
+      "choices": [
+        "1/3",
+        "1/2",
+        "2",
+        "1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Une primitive de x² est x³/3 : l'intégrale vaut 1/3 − 0 = 1/3.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Primitive de x confondue avec celle de x².",
+        "2": "On a dérivé au lieu d'intégrer.",
+        "3": "On a calculé f(1)."
+      },
+      "common_error_target": {
+        "2": "dérivée au lieu de primitive"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q02",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Que vaut $\\int_{1}^{3} (2x - 1)\\,dx$ ?",
+      "choices": [
+        "6",
+        "8",
+        "4",
+        "5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Primitive x² − x : (9 − 3) − (1 − 1) = 6.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a oublié le terme −x.",
+        "2": "On a calculé f(3) − f(1).",
+        "3": "On a calculé f(3)."
+      },
+      "common_error_target": {
+        "2": "f(b) − f(a) au lieu de F(b) − F(a)"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q03",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Quelle fonction est une primitive de x ↦ 1/x sur ]0 ; +∞[ ?",
+      "choices": [
+        "ln(x)",
+        "−1/x²",
+        "1/x²",
+        "exp(x)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ln(x)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "La dérivée de ln x est 1/x sur ]0 ; +∞[ : ln est une primitive de la fonction inverse.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la dérivée de 1/x.",
+        "2": "Erreur de signe et de sens (dérivée).",
+        "3": "exp est sa propre dérivée."
+      },
+      "common_error_target": {
+        "1": "dérivée au lieu de primitive"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q04",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Que vaut $\\int_{0}^{1} 3e^{3x}\\,dx$ ?",
+      "choices": [
+        "exp(3) - 1",
+        "exp(3)",
+        "3exp(3) - 3",
+        "exp(1) - 1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "exp(3) - 1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3e^(3x) = u'e^u avec u = 3x : une primitive est e^(3x). Résultat : e³ − 1.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "F(0) = 1 a été oublié.",
+        "2": "Le facteur 3 a été gardé à tort.",
+        "3": "On a intégré eˣ."
+      },
+      "common_error_target": {
+        "1": "F(0) oublié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q05",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Que vaut $\\int_{1}^{2} \\frac{1}{x}\\,dx$ ?",
+      "choices": [
+        "ln(2)",
+        "1/2",
+        "-1/2",
+        "ln(3)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "ln(2)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Une primitive de 1/x est ln x : ln 2 − ln 1 = ln 2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a calculé 1/2 − 1/1 en valeur absolue.",
+        "2": "On a calculé 1/2 − 1.",
+        "3": "On a additionné les bornes."
+      },
+      "common_error_target": {
+        "2": "f(b) − f(a)"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q06",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Que vaut $\\int_{0}^{\\pi/2} \\cos x\\,dx$ ?",
+      "choices": [
+        "1",
+        "0",
+        "-1",
+        "π/2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Une primitive de cos est sin : sin(π/2) − sin 0 = 1.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a pris cos comme primitive.",
+        "2": "On a pris −sin comme primitive.",
+        "3": "On a donné la longueur de l'intervalle."
+      },
+      "common_error_target": {
+        "1": "primitive de cos mal connue"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q07",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Par parties, que vaut $\\int_{0}^{1} x e^{-x}\\,dx$ ?",
+      "choices": [
+        "1 - 2exp(-1)",
+        "1",
+        "exp(-1)",
+        "1 - exp(-1)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1 - 2exp(-1)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "[−x e^(−x)]₀¹ + ∫₀¹ e^(−x) dx = −e⁻¹ + (1 − e⁻¹) = 1 − 2e⁻¹.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le crochet a été oublié.",
+        "2": "Seul un terme a été gardé.",
+        "3": "Le crochet −e⁻¹ a été oublié."
+      },
+      "common_error_target": {
+        "3": "crochet oublié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q08",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "On sait que ∫ de 0 à 2 de f vaut 5 et que ∫ de 2 à 5 de f vaut −3. Que vaut ∫ de 0 à 5 de f ?",
+      "choices": [
+        "2",
+        "8",
+        "-2",
+        "-15"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Relation de Chasles : ∫₀⁵ f = ∫₀² f + ∫₂⁵ f = 5 + (−3) = 2.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a soustrait −3.",
+        "2": "Erreur de signe.",
+        "3": "On a multiplié les intégrales."
+      },
+      "common_error_target": {
+        "1": "Chasles mal appliquée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q09",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "On sait que ∫ de 0 à 1 de f vaut 4 et que ∫ de 0 à 1 de g vaut −1. Que vaut ∫ de 0 à 1 de (2f − 3g) ?",
+      "choices": [
+        "11",
+        "5",
+        "8",
+        "-11"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "11",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Linéarité : 2 × 4 − 3 × (−1) = 8 + 3 = 11.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Erreur de signe sur −3 × (−1).",
+        "2": "Le terme en g a été oublié.",
+        "3": "Erreur de signe globale."
+      },
+      "common_error_target": {
+        "1": "erreur de signe"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.TLE.integrales.q10",
+      "notion_id": "MATHS.TLE.AN.calculer-une-integrale-a-laide-dune-primitive-a-laide-dune-integration",
+      "subject": "MATHS",
+      "level": "TLE",
+      "question": "Que vaut $\\int_{1}^{e} \\frac{\\ln x}{x}\\,dx$ ?",
+      "choices": [
+        "1/2",
+        "1",
+        "exp(1)/2",
+        "2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "(ln x)/x = u'u avec u = ln x : une primitive est (ln x)²/2. Résultat : (1 − 0)/2 = 1/2.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Le facteur 1/2 a été oublié.",
+        "2": "On a confondu ln e et e.",
+        "3": "On a inversé le facteur 1/2."
+      },
+      "common_error_target": {
+        "1": "facteur 1/2 oublié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

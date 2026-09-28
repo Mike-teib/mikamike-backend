@@ -1,0 +1,2218 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.d01",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une solution aqueuse a une concentration en ions oxonium [H3O+] = 1,0 × 10^-4 mol/L. Calculer son pH. Donner le pH avec une décimale.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "4,0",
+        "tolerance_relative": 0.01
+      },
+      "solution": "pH = −log([H3O+] / c°) = −log(1,0 × 10^-4). log(10^-4) = −4, donc pH = 4,0.",
+      "step_by_step_solution": [
+        "pH = −log([H3O+] / c°) = −log(1,0 × 10^-4).",
+        "log(10^-4) = −4, donc pH = 4,0."
+      ],
+      "hints": [
+        "Utilise pH = −log([H3O+] / c°) avec c° = 1 mol/L."
+      ],
+      "common_errors": {
+        "-4,0": "L'élève a oublié le signe « − » de la définition."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.d02",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle relation définit le pH d'une solution aqueuse diluée (c° = 1 mol/L) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le pH est l'opposé du logarithme décimal de [H3O+] / c°. Donc : pH = −log([H3O+] / c°)",
+      "step_by_step_solution": [
+        "Le pH est l'opposé du logarithme décimal de [H3O+] / c°.",
+        "Donc : pH = −log([H3O+] / c°)"
+      ],
+      "hints": [
+        "Le pH d'une solution acide est positif alors que [H3O+] est inférieure à 1 mol/L."
+      ],
+      "common_errors": {
+        "1": "Le signe « − » a été oublié.",
+        "2": "Confusion entre logarithme et puissance de 10.",
+        "3": "C'est la réciproque, qui donne [H3O+] et non le pH."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "choices": [
+        "pH = −log([H3O+] / c°)",
+        "pH = log([H3O+] / c°)",
+        "pH = 10^([H3O+] / c°)",
+        "pH = 10^(−[H3O+] / c°)"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.d03",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le pH d'une solution vaut 5,0. Calculer la concentration en ions oxonium de cette solution. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,0 × 10^-5",
+        "unit": "mol/L",
+        "significant_figures": 2
+      },
+      "solution": "[H3O+] = c° × 10^(−pH). [H3O+] = 1 × 10^(−5,0) = 1,0 × 10^-5 mol/L.",
+      "step_by_step_solution": [
+        "[H3O+] = c° × 10^(−pH).",
+        "[H3O+] = 1 × 10^(−5,0) = 1,0 × 10^-5 mol/L."
+      ],
+      "hints": [
+        "Utilise la réciproque de la définition du pH."
+      ],
+      "common_errors": {
+        "1,0 × 10^5 mol/L": "L'élève a oublié le signe « − » dans l'exposant."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.d04",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "À 25 °C, une solution aqueuse de pH égal à 3,2 est :",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "À 25 °C, une solution est acide si pH < 7. 3,2 < 7 : la solution est acide.",
+      "step_by_step_solution": [
+        "À 25 °C, une solution est acide si pH < 7.",
+        "3,2 < 7 : la solution est acide."
+      ],
+      "hints": [
+        "Compare le pH à 7."
+      ],
+      "common_errors": {
+        "1": "Une solution neutre a un pH de 7 à 25 °C.",
+        "2": "Une solution basique a un pH supérieur à 7."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "choices": [
+        "acide.",
+        "neutre.",
+        "basique."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.d05",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "La concentration en ions oxonium d'une solution est multipliée par 10. Comment varie son pH ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "pH = −log([H3O+] / c°) et log(10 × x) = 1 + log(x). Le pH diminue donc d'une unité : Il diminue de 1.",
+      "step_by_step_solution": [
+        "pH = −log([H3O+] / c°) et log(10 × x) = 1 + log(x).",
+        "Le pH diminue donc d'une unité : Il diminue de 1."
+      ],
+      "hints": [
+        "Que vaut log(10) ?"
+      ],
+      "common_errors": {
+        "1": "Plus la solution contient d'ions H3O+, plus elle est acide : le pH diminue.",
+        "2": "Le pH est une fonction logarithmique : il n'est pas proportionnel à [H3O+].",
+        "3": "Même erreur : le pH ne varie pas proportionnellement."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "choices": [
+        "Il diminue de 1.",
+        "Il augmente de 1.",
+        "Il est multiplié par 10.",
+        "Il est divisé par 10."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.a01",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une solution a une concentration en ions oxonium [H3O+] = 2,5 × 10^-4 mol/L. Calculer son pH. Donner le pH avec deux décimales.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,60",
+        "tolerance_relative": 0.002
+      },
+      "solution": "pH = −log(2,5 × 10^-4). pH ≈ 3,60.",
+      "step_by_step_solution": [
+        "pH = −log(2,5 × 10^-4).",
+        "pH ≈ 3,60."
+      ],
+      "hints": [
+        "Utilise la touche log de la calculatrice.",
+        "Le pH doit être compris entre 3 et 4."
+      ],
+      "common_errors": {
+        "-3,60": "L'élève a oublié le signe « − ».",
+        "4,40": "L'élève a ajouté log(2,5) au lieu de le retrancher (4 + 0,40)."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.a02",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le pH d'un vinaigre dilué vaut 2,4. Calculer la concentration en ions oxonium de cette solution. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,0040",
+        "unit": "mol/L",
+        "significant_figures": 2
+      },
+      "solution": "[H3O+] = c° × 10^(−pH) = 10^(−2,4). [H3O+] ≈ 0,0040 mol/L.",
+      "step_by_step_solution": [
+        "[H3O+] = c° × 10^(−pH) = 10^(−2,4).",
+        "[H3O+] ≈ 0,0040 mol/L."
+      ],
+      "hints": [
+        "[H3O+] = c° × 10^(−pH)."
+      ],
+      "common_errors": {
+        "251 mol/L": "L'élève a calculé 10^(2,4) en oubliant le signe « − ».",
+        "0,38 mol/L": "L'élève a calculé log(2,4)."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.a03",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "L'acide chlorhydrique est un acide fort : dans une solution de concentration apportée C = 5,0 × 10^-3 mol/L, [H3O+] = C. Calculer le pH de cette solution. Donner le pH avec deux décimales.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,30",
+        "tolerance_relative": 0.002
+      },
+      "solution": "[H3O+] = 5,0 × 10^-3 mol/L. pH = −log(5,0 × 10^-3) ≈ 2,30.",
+      "step_by_step_solution": [
+        "[H3O+] = 5,0 × 10^-3 mol/L.",
+        "pH = −log(5,0 × 10^-3) ≈ 2,30."
+      ],
+      "hints": [
+        "Pour un acide fort, [H3O+] est égale à la concentration apportée."
+      ],
+      "common_errors": {
+        "-2,30": "L'élève a oublié le signe « − ».",
+        "3,00": "L'élève n'a retenu que l'exposant de la puissance de 10."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.a04",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "L'eau de mer a un pH voisin de 8,2. Calculer sa concentration en ions oxonium. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "6,3 × 10^-9",
+        "unit": "mol/L",
+        "significant_figures": 2
+      },
+      "solution": "[H3O+] = 10^(−8,2). [H3O+] ≈ 6,3 × 10^-9 mol/L.",
+      "step_by_step_solution": [
+        "[H3O+] = 10^(−8,2).",
+        "[H3O+] ≈ 6,3 × 10^-9 mol/L."
+      ],
+      "hints": [
+        "[H3O+] = c° × 10^(−pH)."
+      ],
+      "common_errors": {
+        "1,0 × 10^-8 mol/L": "L'élève n'a gardé que la partie entière du pH."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.a05",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "On dilue 10 fois une solution d'acide chlorhydrique (acide fort) de pH 2,0. Quel est le pH de la solution diluée ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La dilution divise [H3O+] par 10. Le pH augmente donc d'une unité : 3,0",
+      "step_by_step_solution": [
+        "La dilution divise [H3O+] par 10.",
+        "Le pH augmente donc d'une unité : 3,0"
+      ],
+      "hints": [
+        "Que devient [H3O+] lors d'une dilution d'un facteur 10 ?"
+      ],
+      "common_errors": {
+        "1": "Diluer rend la solution moins acide : le pH augmente.",
+        "2": "Le pH n'est pas proportionnel à la concentration.",
+        "3": "La concentration change, donc le pH aussi."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "choices": [
+        "3,0",
+        "1,0",
+        "20",
+        "2,0"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.c01",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un jus de citron a un pH de 2,3. Calculer sa concentration en ions oxonium. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,0050",
+        "unit": "mol/L",
+        "significant_figures": 2
+      },
+      "solution": "[H3O+] = c° × 10^(−pH) = 10^(−2,3). [H3O+] ≈ 0,0050 mol/L.",
+      "step_by_step_solution": [
+        "[H3O+] = c° × 10^(−pH) = 10^(−2,3).",
+        "[H3O+] ≈ 0,0050 mol/L."
+      ],
+      "hints": [
+        "Utilise la touche 10^x de la calculatrice."
+      ],
+      "common_errors": {
+        "2,0 × 10^2 mol/L": "L'élève a oublié le signe « − » dans l'exposant."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.c02",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La solution S1 a un pH de 3,0 et la solution S2 un pH de 5,0. Par combien faut-il multiplier [H3O+] de S2 pour obtenir [H3O+] de S1 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "100"
+      },
+      "solution": "[H3O+]1 = 10^-3 mol/L et [H3O+]2 = 10^-5 mol/L. Rapport : 10^-3 ÷ 10^-5 = 10^2 = 100.",
+      "step_by_step_solution": [
+        "[H3O+]1 = 10^-3 mol/L et [H3O+]2 = 10^-5 mol/L.",
+        "Rapport : 10^-3 ÷ 10^-5 = 10^2 = 100."
+      ],
+      "hints": [
+        "Calcule les deux concentrations puis leur rapport."
+      ],
+      "common_errors": {
+        "2": "L'élève a fait la différence des pH au lieu du rapport des concentrations.",
+        "0,01": "L'élève a calculé le rapport inverse."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.c03",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une solution d'acide chlorhydrique (acide fort) de concentration 1,0 × 10^-2 mol/L est diluée 20 fois. Calculer le pH de la solution obtenue. Donner le pH avec deux décimales.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,30",
+        "tolerance_relative": 0.002
+      },
+      "solution": "Après dilution : C = 1,0 × 10^-2 ÷ 20 = 5,0 × 10^-4 mol/L = [H3O+]. pH = −log(5,0 × 10^-4) ≈ 3,30.",
+      "step_by_step_solution": [
+        "Après dilution : C = 1,0 × 10^-2 ÷ 20 = 5,0 × 10^-4 mol/L = [H3O+].",
+        "pH = −log(5,0 × 10^-4) ≈ 3,30."
+      ],
+      "hints": [
+        "Calcule d'abord la concentration après dilution.",
+        "Pour un acide fort, [H3O+] = C."
+      ],
+      "common_errors": {
+        "2,00": "L'élève a oublié la dilution.",
+        "0,70": "L'élève a multiplié la concentration par 20 au lieu de la diviser."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.c04",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une eau de pluie a un pH de 5,6. Calculer sa concentration en ions oxonium. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,5 × 10^-6",
+        "unit": "mol/L",
+        "significant_figures": 2
+      },
+      "solution": "[H3O+] = 10^(−5,6). [H3O+] ≈ 2,5 × 10^-6 mol/L.",
+      "step_by_step_solution": [
+        "[H3O+] = 10^(−5,6).",
+        "[H3O+] ≈ 2,5 × 10^-6 mol/L."
+      ],
+      "hints": [
+        "[H3O+] = c° × 10^(−pH)."
+      ],
+      "common_errors": {
+        "1,0 × 10^-5 mol/L": "L'élève n'a gardé que la partie entière du pH."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.c05",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Une solution A a un pH de 4 et une solution B un pH de 6. Quelle affirmation est exacte ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Plus le pH est faible, plus [H3O+] est grande. [H3O+]A / [H3O+]B = 10^(6 − 4) = 100 : A contient 100 fois plus d'ions H3O+ que B.",
+      "step_by_step_solution": [
+        "Plus le pH est faible, plus [H3O+] est grande.",
+        "[H3O+]A / [H3O+]B = 10^(6 − 4) = 100 : A contient 100 fois plus d'ions H3O+ que B."
+      ],
+      "hints": [
+        "Calcule le rapport des concentrations en ions oxonium."
+      ],
+      "common_errors": {
+        "1": "Plus le pH est grand, moins la solution est acide.",
+        "2": "Le rapport vaut 100, pas 2.",
+        "3": "Les pH différents traduisent des concentrations différentes."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "choices": [
+        "A contient 100 fois plus d'ions H3O+ que B.",
+        "B est plus acide que A.",
+        "A contient 2 fois plus d'ions H3O+ que B.",
+        "A et B ont la même concentration en ions H3O+."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.x01",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "On dissout 0,365 g de chlorure d'hydrogène HCl (acide fort) dans de l'eau pour obtenir 1,00 L de solution. Donnée : M(HCl) = 36,5 g/mol. Calculer le pH de la solution. Donner le pH avec deux décimales.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,00",
+        "tolerance_relative": 0.002
+      },
+      "solution": "n(HCl) = m / M = 0,365 ÷ 36,5 = 1,00 × 10^-2 mol. C = n / V = 1,00 × 10^-2 mol/L = [H3O+] (acide fort). pH = −log(1,00 × 10^-2) = 2,00.",
+      "step_by_step_solution": [
+        "n(HCl) = m / M = 0,365 ÷ 36,5 = 1,00 × 10^-2 mol.",
+        "C = n / V = 1,00 × 10^-2 mol/L = [H3O+] (acide fort).",
+        "pH = −log(1,00 × 10^-2) = 2,00."
+      ],
+      "hints": [
+        "Calcule la quantité de matière de HCl dissoute.",
+        "Pour un acide fort, [H3O+] = C."
+      ],
+      "common_errors": {
+        "-2,00": "L'élève a oublié le signe « − ».",
+        "0,44": "L'élève a pris la masse (en g) pour la concentration (−log 0,365)."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.x02",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une solution d'acide chlorhydrique a un pH de 1,7. Calculer la quantité d'ions oxonium contenue dans 500 mL de cette solution. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,010",
+        "unit": "mol",
+        "significant_figures": 2
+      },
+      "solution": "[H3O+] = 10^(−1,7) ≈ 2,0 × 10^-2 mol/L. n = [H3O+] × V = 2,0 × 10^-2 × 0,500 ≈ 0,010 mol.",
+      "step_by_step_solution": [
+        "[H3O+] = 10^(−1,7) ≈ 2,0 × 10^-2 mol/L.",
+        "n = [H3O+] × V = 2,0 × 10^-2 × 0,500 ≈ 0,010 mol."
+      ],
+      "hints": [
+        "Calcule d'abord [H3O+].",
+        "Convertis le volume en litres."
+      ],
+      "common_errors": {
+        "10 mol": "L'élève n'a pas converti les millilitres en litres.",
+        "2,0 × 10^-2 mol": "L'élève a donné la concentration au lieu de la quantité de matière."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.ph-oxonium.x03",
+      "notion_id": "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "On dispose d'une solution d'acide chlorhydrique (acide fort) de concentration 1,0 × 10^-1 mol/L. Quel volume de cette solution faut-il prélever pour préparer 100,0 mL d'une solution de pH 2,0 ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "10",
+        "unit": "mL"
+      },
+      "solution": "Solution fille : [H3O+] = 10^(−2,0) = 1,0 × 10^-2 mol/L. Facteur de dilution : 1,0 × 10^-1 ÷ 1,0 × 10^-2 = 10. Volume à prélever : 100,0 ÷ 10 = 10 mL.",
+      "step_by_step_solution": [
+        "Solution fille : [H3O+] = 10^(−2,0) = 1,0 × 10^-2 mol/L.",
+        "Facteur de dilution : 1,0 × 10^-1 ÷ 1,0 × 10^-2 = 10.",
+        "Volume à prélever : 100,0 ÷ 10 = 10 mL."
+      ],
+      "hints": [
+        "Quelle concentration correspond à un pH de 2,0 ?",
+        "Utilise la conservation de la quantité de soluté : C0 × V0 = C1 × V1."
+      ],
+      "common_errors": {
+        "1000 mL": "L'élève a multiplié par le facteur de dilution au lieu de diviser.",
+        "50 mL": "L'élève a confondu pH et facteur de dilution."
+      },
+      "remediation": "Le pH d'une solution aqueuse diluée est défini par pH = −log([H3O+] / c°), avec c° = 1 mol/L : on prend le logarithme décimal du nombre qui mesure [H3O+] en mol/L, puis on change le signe. Réciproquement, [H3O+] = c° × 10^(−pH). Quand [H3O+] est multipliée par 10, le pH diminue d'une unité. À 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7. Pour un acide fort comme l'acide chlorhydrique, [H3O+] est égale à la concentration apportée. Vérifier le signe « − » et l'ordre de grandeur (un pH d'acide dilué est compris entre 0 et 7).",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer un pH à partir de [H3O+] : pH = −log([H3O+] / c°)",
+        "Calculer [H3O+] à partir du pH : [H3O+] = c° × 10^(−pH)",
+        "Utiliser la fonction logarithme décimal et sa réciproque"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.determiner-a-partir-de-la-valeur-de-la-concentration-en-ion-oxonium-h3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.d01",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Un ballon est en mouvement dans le champ de pesanteur uniforme ; les frottements sont négligés. Que vaut son vecteur accélération ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le ballon n'est soumis qu'à son poids P = m g. Deuxième loi de Newton : m a = m g, donc a = g, vertical vers le bas.",
+      "step_by_step_solution": [
+        "Le ballon n'est soumis qu'à son poids P = m g.",
+        "Deuxième loi de Newton : m a = m g, donc a = g, vertical vers le bas."
+      ],
+      "hints": [
+        "Applique la deuxième loi de Newton au ballon soumis à son seul poids."
+      ],
+      "common_errors": {
+        "1": "L'accélération ne dépend pas de la vitesse initiale.",
+        "2": "L'accélération est nulle seulement si les forces se compensent.",
+        "3": "La masse se simplifie : l'accélération n'en dépend pas."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "choices": [
+        "a = g, vertical vers le bas.",
+        "a a la direction du vecteur vitesse initiale.",
+        "a = 0.",
+        "a = m g."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.d02",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une bille est lâchée sans vitesse initiale ; les frottements sont négligés. Calculer la valeur de sa vitesse 1,50 s après le lâcher (g = 9,81 m/s²). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "14,7",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Axe Oz vertical vers le haut : vz(t) = −g t. À t = 1,50 s : v = g t = 9,81 × 1,50 ≈ 14,7 m/s.",
+      "step_by_step_solution": [
+        "Axe Oz vertical vers le haut : vz(t) = −g t.",
+        "À t = 1,50 s : v = g t = 9,81 × 1,50 ≈ 14,7 m/s."
+      ],
+      "hints": [
+        "Sans vitesse initiale, vz(t) = −g t."
+      ],
+      "common_errors": {
+        "11 m/s": "L'élève a calculé ½ g t² (une distance) au lieu de g t."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.d03",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une balle est lancée horizontalement avec une vitesse v0 = 4,00 m/s ; les frottements sont négligés. L'origine O est le point de lancement et l'axe Ox est horizontal. Calculer l'abscisse x de la balle à la date t = 0,500 s. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,00",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "ax = 0, donc vx = v0 est constante et x(t) = v0 t. x(0,500) = 4,00 × 0,500 = 2,00 m.",
+      "step_by_step_solution": [
+        "ax = 0, donc vx = v0 est constante et x(t) = v0 t.",
+        "x(0,500) = 4,00 × 0,500 = 2,00 m."
+      ],
+      "hints": [
+        "La composante horizontale de la vitesse est constante."
+      ],
+      "common_errors": {
+        "8 m": "L'élève a divisé v0 par t."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.d04",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pour un projectile soumis à son seul poids, la composante horizontale vx de la vitesse est :",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "ax = 0 car le poids est vertical. Donc vx est constante.",
+      "step_by_step_solution": [
+        "ax = 0 car le poids est vertical.",
+        "Donc vx est constante."
+      ],
+      "hints": [
+        "Quelle est la composante horizontale du poids ?"
+      ],
+      "common_errors": {
+        "1": "Aucune force horizontale ne ralentit le projectile.",
+        "2": "Aucune force horizontale ne l'accélère.",
+        "3": "vx ne s'annule que si v0 est verticale."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "choices": [
+        "constante.",
+        "décroissante.",
+        "croissante.",
+        "toujours nulle."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.d05",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une pierre est lâchée sans vitesse initiale ; les frottements sont négligés. De quelle hauteur est-elle descendue 0,400 s après le lâcher (g = 9,81 m/s²) ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,785",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "La hauteur descendue vaut ½ g t². ½ × 9,81 × 0,400² ≈ 0,785 m.",
+      "step_by_step_solution": [
+        "La hauteur descendue vaut ½ g t².",
+        "½ × 9,81 × 0,400² ≈ 0,785 m."
+      ],
+      "hints": [
+        "z(t) = −½ g t² + z0."
+      ],
+      "common_errors": {
+        "3,92 m": "L'élève a calculé g t (une vitesse) au lieu de ½ g t².",
+        "1,57 m": "L'élève a oublié le facteur ½."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.a01",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un objet est lâché sans vitesse initiale d'une hauteur de 20,0 m ; les frottements sont négligés. Calculer la durée de sa chute (g = 9,81 m/s²). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,02",
+        "unit": "s",
+        "significant_figures": 3
+      },
+      "solution": "z(t) = −½ g t² + h ; au sol z = 0. t = √(2 h / g) = √(40,0 ÷ 9,81) ≈ 2,02 s.",
+      "step_by_step_solution": [
+        "z(t) = −½ g t² + h ; au sol z = 0.",
+        "t = √(2 h / g) = √(40,0 ÷ 9,81) ≈ 2,02 s."
+      ],
+      "hints": [
+        "Écris z(t) puis résous z(t) = 0."
+      ],
+      "common_errors": {
+        "4,08 s": "L'élève a oublié la racine carrée.",
+        "1,43 s": "L'élève a oublié le facteur 2."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.a02",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une balle est lancée verticalement vers le haut à 12,0 m/s ; les frottements sont négligés. À quelle date atteint-elle son point le plus haut (g = 9,81 m/s²) ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,22",
+        "unit": "s",
+        "significant_figures": 3
+      },
+      "solution": "vz(t) = −g t + v0. Au sommet vz = 0 : t = v0 / g = 12,0 ÷ 9,81 ≈ 1,22 s.",
+      "step_by_step_solution": [
+        "vz(t) = −g t + v0.",
+        "Au sommet vz = 0 : t = v0 / g = 12,0 ÷ 9,81 ≈ 1,22 s."
+      ],
+      "hints": [
+        "Que vaut vz au sommet ?"
+      ],
+      "common_errors": {
+        "118 s": "L'élève a multiplié v0 par g."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.a03",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une bille roule sur une table haute de 1,50 m et la quitte horizontalement à 3,00 m/s ; les frottements sont négligés. Calculer la durée de sa chute jusqu'au sol (g = 9,81 m/s²). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,553",
+        "unit": "s",
+        "significant_figures": 3
+      },
+      "solution": "Verticalement, la vitesse initiale est nulle : z(t) = −½ g t² + 1,50. z = 0 : t = √(2 × 1,50 ÷ 9,81) ≈ 0,553 s.",
+      "step_by_step_solution": [
+        "Verticalement, la vitesse initiale est nulle : z(t) = −½ g t² + 1,50.",
+        "z = 0 : t = √(2 × 1,50 ÷ 9,81) ≈ 0,553 s."
+      ],
+      "hints": [
+        "La vitesse horizontale n'intervient pas dans la durée de chute."
+      ],
+      "common_errors": {
+        "0,5 s": "L'élève a divisé la hauteur par la vitesse horizontale."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.a04",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une bille quitte horizontalement une table haute de 1,50 m à 3,00 m/s ; les frottements sont négligés. À quelle distance horizontale du bord de la table touche-t-elle le sol (g = 9,81 m/s²) ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,66",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "Durée de chute : t = √(2 × 1,50 ÷ 9,81) ≈ 0,553 s. x = v0 t = 3,00 × 0,553 ≈ 1,66 m.",
+      "step_by_step_solution": [
+        "Durée de chute : t = √(2 × 1,50 ÷ 9,81) ≈ 0,553 s.",
+        "x = v0 t = 3,00 × 0,553 ≈ 1,66 m."
+      ],
+      "hints": [
+        "Calcule d'abord la durée de chute.",
+        "Reporte-la dans x(t) = v0 t."
+      ],
+      "common_errors": {
+        "4,5 m": "L'élève a multiplié la vitesse par la hauteur."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.a05",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Sans frottement, quelle est la forme de la trajectoire d'un projectile lancé avec une vitesse initiale oblique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "x(t) est une fonction affine de t et z(t) un polynôme de degré 2. En éliminant t, z est un polynôme de degré 2 en x : une portion de parabole.",
+      "step_by_step_solution": [
+        "x(t) est une fonction affine de t et z(t) un polynôme de degré 2.",
+        "En éliminant t, z est un polynôme de degré 2 en x : une portion de parabole."
+      ],
+      "hints": [
+        "Élimine t entre x(t) et z(t)."
+      ],
+      "common_errors": {
+        "1": "Ce serait le cas pour une vitesse initiale verticale.",
+        "2": "Le poids ne produit pas de mouvement circulaire.",
+        "3": "z dépend de x² : ce n'est pas une droite."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "choices": [
+        "une portion de parabole.",
+        "une droite verticale.",
+        "un cercle.",
+        "une droite oblique."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.c01",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un ballon est lancé depuis le sol (origine O) avec une vitesse initiale de 10,0 m/s faisant un angle de 30,0° avec l'horizontale ; les frottements sont négligés (g = 9,81 m/s²). Calculer la hauteur maximale atteinte par le ballon. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,27",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "v0z = v0 sin 30,0° = 5,00 m/s. Au sommet : vz = 0 à t = v0z / g ≈ 0,510 s. zmax = v0z² / (2 g) = 25,0 ÷ 19,62 ≈ 1,27 m.",
+      "step_by_step_solution": [
+        "v0z = v0 sin 30,0° = 5,00 m/s.",
+        "Au sommet : vz = 0 à t = v0z / g ≈ 0,510 s.",
+        "zmax = v0z² / (2 g) = 25,0 ÷ 19,62 ≈ 1,27 m."
+      ],
+      "hints": [
+        "Au sommet, la composante verticale de la vitesse est nulle.",
+        "Utilise v0z = v0 sin α."
+      ],
+      "common_errors": {
+        "5,1 m": "L'élève a utilisé v0 au lieu de v0z.",
+        "2,55 m": "L'élève a oublié le facteur 2 au dénominateur."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.c02",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un ballon est lancé depuis le sol (origine O) avec une vitesse initiale de 10,0 m/s faisant un angle de 30,0° avec l'horizontale ; les frottements sont négligés (g = 9,81 m/s²). Calculer la portée du tir, c'est-à-dire la distance horizontale au point où le ballon retombe au sol. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "8,83",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "z(t) = t (v0z − ½ g t) = 0 pour t = 2 v0z / g ≈ 1,02 s. x = v0x × t = 8,66 × 1,02 ≈ 8,83 m.",
+      "step_by_step_solution": [
+        "z(t) = t (v0z − ½ g t) = 0 pour t = 2 v0z / g ≈ 1,02 s.",
+        "x = v0x × t = 8,66 × 1,02 ≈ 8,83 m."
+      ],
+      "hints": [
+        "Cherche la date où z(t) = 0 (autre que t = 0).",
+        "Reporte-la dans x(t)."
+      ],
+      "common_errors": {
+        "4,41 m": "L'élève a utilisé la date du sommet au lieu de la date du retour au sol.",
+        "10,2 m": "L'élève a utilisé v0 au lieu de v0x."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.c03",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un ballon est lancé depuis le sol (origine O) avec une vitesse initiale de 10,0 m/s faisant un angle de 30,0° avec l'horizontale ; les frottements sont négligés (g = 9,81 m/s²). Calculer la composante verticale vz de la vitesse à la date t = 0,300 s. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,06",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "vz(t) = −g t + v0 sin α. vz(0,300) = −9,81 × 0,300 + 5,00 ≈ 2,06 m/s.",
+      "step_by_step_solution": [
+        "vz(t) = −g t + v0 sin α.",
+        "vz(0,300) = −9,81 × 0,300 + 5,00 ≈ 2,06 m/s."
+      ],
+      "hints": [
+        "Utilise vz(t) = −g t + v0z avec v0z = v0 sin α."
+      ],
+      "common_errors": {
+        "7,94 m/s": "L'élève a ajouté g t au lieu de le retrancher.",
+        "7,06 m/s": "L'élève a utilisé v0 au lieu de v0z."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.c04",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Au sommet de la trajectoire d'un ballon lancé avec une vitesse initiale oblique (sans frottement), le vecteur vitesse est :",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Au sommet, vz = 0. Mais vx = v0 cos α reste constante et non nulle : le vecteur vitesse est horizontal et non nul.",
+      "step_by_step_solution": [
+        "Au sommet, vz = 0.",
+        "Mais vx = v0 cos α reste constante et non nulle : le vecteur vitesse est horizontal et non nul."
+      ],
+      "hints": [
+        "Que valent vx et vz au sommet ?"
+      ],
+      "common_errors": {
+        "1": "vx ne s'annule pas.",
+        "2": "vz est nulle au sommet.",
+        "3": "Au sommet, la vitesse n'est pas maximale."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "choices": [
+        "horizontal et non nul.",
+        "nul.",
+        "vertical.",
+        "maximal."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.c05",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une bille quitte horizontalement une table haute de 1,50 m à 3,00 m/s ; les frottements sont négligés. Calculer la valeur de sa vitesse juste avant de toucher le sol (g = 9,81 m/s²). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "6,20",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Durée de chute t = √(2 h / g) ; vz = −g t = −√(2 g h) ≈ −5,42 m/s ; vx = 3,00 m/s. v = √(vx² + vz²) = √(9,00 + 29,4) ≈ 6,20 m/s.",
+      "step_by_step_solution": [
+        "Durée de chute t = √(2 h / g) ; vz = −g t = −√(2 g h) ≈ −5,42 m/s ; vx = 3,00 m/s.",
+        "v = √(vx² + vz²) = √(9,00 + 29,4) ≈ 6,20 m/s."
+      ],
+      "hints": [
+        "Calcule vx et vz au moment de l'impact.",
+        "La valeur de la vitesse est la norme du vecteur."
+      ],
+      "common_errors": {
+        "8,42 m/s": "L'élève a additionné les composantes au lieu de calculer la norme.",
+        "5,42 m/s": "L'élève a oublié la composante horizontale."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.x01",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un basketteur lance le ballon depuis une hauteur de 2,00 m avec une vitesse de 8,00 m/s faisant un angle de 50,0° avec l'horizontale. Le panier est à 5,00 m de distance horizontale. Les frottements sont négligés (g = 9,81 m/s²). À quelle hauteur se trouve le ballon lorsqu'il arrive à l'aplomb du panier ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,32",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "x(t) = v0 cos α × t, donc t = 5,00 ÷ (8,00 × cos 50,0°) ≈ 0,972 s. z(t) = −½ g t² + v0 sin α × t + 2,00. z ≈ −½ × 9,81 × 0,972² + 8,00 × sin 50,0° × 0,972 + 2,00 ≈ 3,32 m.",
+      "step_by_step_solution": [
+        "x(t) = v0 cos α × t, donc t = 5,00 ÷ (8,00 × cos 50,0°) ≈ 0,972 s.",
+        "z(t) = −½ g t² + v0 sin α × t + 2,00.",
+        "z ≈ −½ × 9,81 × 0,972² + 8,00 × sin 50,0° × 0,972 + 2,00 ≈ 3,32 m."
+      ],
+      "hints": [
+        "Calcule d'abord la date à laquelle x = 5,00 m.",
+        "N'oublie pas la hauteur de lancement."
+      ],
+      "common_errors": {
+        "1,32 m": "L'élève a oublié la hauteur de lancement de 2,00 m."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 12,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.x02",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Depuis une falaise haute de 20,0 m, on lance horizontalement une pierre à 15,0 m/s. Les frottements sont négligés (g = 9,81 m/s²). À quelle distance horizontale du pied de la falaise la pierre tombe-t-elle ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "30,3",
+        "unit": "m",
+        "significant_figures": 3
+      },
+      "solution": "Durée de chute : t = √(2 h / g) = √(40,0 ÷ 9,81) ≈ 2,02 s. x = v0 t = 15,0 × 2,02 ≈ 30,3 m.",
+      "step_by_step_solution": [
+        "Durée de chute : t = √(2 h / g) = √(40,0 ÷ 9,81) ≈ 2,02 s.",
+        "x = v0 t = 15,0 × 2,02 ≈ 30,3 m."
+      ],
+      "hints": [
+        "La durée de chute ne dépend que de la hauteur.",
+        "Reporte la durée dans x(t) = v0 t."
+      ],
+      "common_errors": {
+        "61,2 m": "L'élève a oublié la racine carrée dans le calcul de la durée."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.equations-horaires.x03",
+      "notion_id": "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une balle est lancée horizontalement d'une hauteur de 1,80 m. Quelle vitesse initiale minimale faut-il lui donner pour qu'elle touche le sol à au moins 6,00 m du point de lancement (mesuré horizontalement) ? Les frottements sont négligés (g = 9,81 m/s²). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9,90",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Durée de chute : t = √(2 × 1,80 ÷ 9,81) ≈ 0,606 s. x = v0 t ≥ 6,00 m, donc v0 ≥ 6,00 ÷ 0,606 ≈ 9,90 m/s.",
+      "step_by_step_solution": [
+        "Durée de chute : t = √(2 × 1,80 ÷ 9,81) ≈ 0,606 s.",
+        "x = v0 t ≥ 6,00 m, donc v0 ≥ 6,00 ÷ 0,606 ≈ 9,90 m/s."
+      ],
+      "hints": [
+        "La durée de chute est imposée par la hauteur.",
+        "Écris x = v0 t = 6,00 m."
+      ],
+      "common_errors": {
+        "3,33 m/s": "L'élève a divisé la distance par la hauteur."
+      },
+      "remediation": "Pour un système soumis à son seul poids dans un référentiel terrestre supposé galiléen, la deuxième loi de Newton donne a = g : l'accélération est verticale, vers le bas, de valeur g = 9,81 m/s². Avec un axe Ox horizontal et un axe Oz vertical vers le haut, et une vitesse initiale v0 faisant l'angle α avec l'horizontale : ax = 0, az = −g ; vx(t) = v0 cos α, vz(t) = −g t + v0 sin α ; x(t) = v0 cos α × t, z(t) = −½ g t² + v0 sin α × t + z0. La composante horizontale de la vitesse est constante. Au sommet de la trajectoire, vz = 0 (mais la vitesse n'est pas nulle si vx ≠ 0). On obtient la durée d'un mouvement en résolvant z(t) = valeur cherchée, puis on reporte t dans x(t).",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Appliquer la deuxième loi de Newton à un projectile : a = g",
+        "Établir les équations horaires vx(t), vz(t), x(t), z(t)",
+        "Exploiter les équations horaires (durée, portée, flèche)"
+      ],
+      "source_notions": [
+        "PC.TLE.MI.etablir-et-exploiter-les-equations-horaires-du-mouvement"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.d01",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un échantillon contient initialement 8,0 × 10^6 noyaux radioactifs. Combien de noyaux radioactifs reste-t-il au bout de deux demi-vies ? Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,0 × 10^6",
+        "significant_figures": 2
+      },
+      "solution": "Au bout d'une demi-vie, il reste N0 / 2 ; au bout de deux demi-vies, N0 / 4. N = 8,0 × 10^6 ÷ 4 = 2,0 × 10^6.",
+      "step_by_step_solution": [
+        "Au bout d'une demi-vie, il reste N0 / 2 ; au bout de deux demi-vies, N0 / 4.",
+        "N = 8,0 × 10^6 ÷ 4 = 2,0 × 10^6."
+      ],
+      "hints": [
+        "Que reste-t-il au bout d'une demi-vie ? Et d'une deuxième ?"
+      ],
+      "common_errors": {
+        "0": "L'élève pense que tous les noyaux ont disparu au bout de deux demi-vies.",
+        "4,0 × 10^6": "L'élève a divisé par 2 une seule fois."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.d02",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Qu'est-ce que la demi-vie d'un noyau radioactif ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La demi-vie est la durée nécessaire pour que la moitié des noyaux initialement présents se désintègre. La bonne réponse est : « La durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée. »",
+      "step_by_step_solution": [
+        "La demi-vie est la durée nécessaire pour que la moitié des noyaux initialement présents se désintègre.",
+        "La bonne réponse est : « La durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée. »"
+      ],
+      "hints": [
+        "Que reste-t-il de l'échantillon au bout d'une demi-vie ?"
+      ],
+      "common_errors": {
+        "1": "Après deux demi-vies, il reste encore un quart des noyaux.",
+        "2": "La demi-vie ne dépend pas de la durée de vie d'un noyau particulier.",
+        "3": "La demi-vie ne dépend pas de la quantité initiale."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "choices": [
+        "La durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée.",
+        "La moitié de la durée nécessaire pour que tous les noyaux se désintègrent.",
+        "La durée de vie d'un noyau donné.",
+        "Une durée proportionnelle au nombre initial de noyaux."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.d03",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "L'iode 131 a une demi-vie t½ = 8,02 jours. Calculer sa constante radioactive λ en s⁻¹ (1 jour = 86 400 s). Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,00 × 10^-6",
+        "unit": "s⁻¹",
+        "significant_figures": 3
+      },
+      "solution": "t½ = 8,02 × 86 400 ≈ 6,93 × 10^5 s. λ = ln 2 / t½ ≈ 0,693 ÷ 6,93 × 10^5 ≈ 1,00 × 10^-6 s⁻¹.",
+      "step_by_step_solution": [
+        "t½ = 8,02 × 86 400 ≈ 6,93 × 10^5 s.",
+        "λ = ln 2 / t½ ≈ 0,693 ÷ 6,93 × 10^5 ≈ 1,00 × 10^-6 s⁻¹."
+      ],
+      "hints": [
+        "Convertis la demi-vie en secondes.",
+        "λ = ln 2 / t½."
+      ],
+      "common_errors": {
+        "8,64 × 10^-2 s⁻¹": "L'élève n'a pas converti les jours en secondes."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.d04",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Au cours du temps, l'activité d'un échantillon radioactif :",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "A(t) = A0 e^(−λ t) : l'activité décroît exponentiellement. Donc l'activité décroît exponentiellement.",
+      "step_by_step_solution": [
+        "A(t) = A0 e^(−λ t) : l'activité décroît exponentiellement.",
+        "Donc l'activité décroît exponentiellement."
+      ],
+      "hints": [
+        "L'activité est proportionnelle au nombre de noyaux restants."
+      ],
+      "common_errors": {
+        "1": "Elle diminue de moins en moins vite, pas linéairement.",
+        "2": "Le nombre de noyaux diminue.",
+        "3": "Elle diminue, puisque N diminue."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "choices": [
+        "décroît exponentiellement.",
+        "décroît linéairement.",
+        "augmente.",
+        "reste constante."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.d05",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Quel pourcentage des noyaux radioactifs initialement présents reste-t-il au bout de trois demi-vies ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "12,5",
+        "unit": "%",
+        "significant_figures": 3
+      },
+      "solution": "Au bout de 3 demi-vies : N = N0 / 2³ = N0 / 8. 1/8 = 0,125 = 12,5 %.",
+      "step_by_step_solution": [
+        "Au bout de 3 demi-vies : N = N0 / 2³ = N0 / 8.",
+        "1/8 = 0,125 = 12,5 %."
+      ],
+      "hints": [
+        "Divise par 2 à chaque demi-vie."
+      ],
+      "common_errors": {
+        "33,3 %": "L'élève a divisé par 3 au lieu de 2³.",
+        "16,7 %": "L'élève a divisé par 6 (2 × 3) au lieu de 2³."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.a01",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un échantillon de technétium 99m contient initialement 5,00 × 10^12 noyaux ; sa demi-vie vaut 6,00 h. Combien de noyaux de technétium 99m reste-t-il au bout de 9,00 h ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,77 × 10^12",
+        "significant_figures": 3
+      },
+      "solution": "N(t) = N0 e^(−λ t) = N0 × 2^(−t / t½). t / t½ = 9,00 ÷ 6,00 = 1,50. N = 5,00 × 10^12 × 2^(−1,50) ≈ 1,77 × 10^12.",
+      "step_by_step_solution": [
+        "N(t) = N0 e^(−λ t) = N0 × 2^(−t / t½).",
+        "t / t½ = 9,00 ÷ 6,00 = 1,50.",
+        "N = 5,00 × 10^12 × 2^(−1,50) ≈ 1,77 × 10^12."
+      ],
+      "hints": [
+        "Exprime t en nombre de demi-vies.",
+        "N = N0 × 2^(−t / t½)."
+      ],
+      "common_errors": {
+        "2,50 × 10^12": "L'élève a considéré qu'il s'est écoulé une seule demi-vie.",
+        "1,25 × 10^12": "L'élève a considéré qu'il s'est écoulé deux demi-vies."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.a02",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un échantillon contient 3,0 × 10^12 noyaux radioactifs de constante radioactive λ = 1,0 × 10^-6 s⁻¹. Calculer son activité, exprimée en becquerels. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,0 × 10^6",
+        "significant_figures": 2,
+        "unit": "Bq"
+      },
+      "solution": "A = λ × N. A = 1,0 × 10^-6 × 3,0 × 10^12 = 3,0 × 10^6 Bq.",
+      "step_by_step_solution": [
+        "A = λ × N.",
+        "A = 1,0 × 10^-6 × 3,0 × 10^12 = 3,0 × 10^6 Bq."
+      ],
+      "hints": [
+        "Utilise A = λ N."
+      ],
+      "common_errors": {
+        "3,0 × 10^18": "L'élève a divisé N par λ au lieu de multiplier."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.a03",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "L'activité d'une source d'iode 131 (demi-vie 8,0 jours) passe de 800 Bq à 100 Bq. Combien de jours se sont écoulés ? Donner le nombre de jours seul.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "24"
+      },
+      "solution": "800 → 400 → 200 → 100 : l'activité a été divisée par 8 = 2³. Il s'est écoulé 3 demi-vies : 3 × 8,0 = 24 jours.",
+      "step_by_step_solution": [
+        "800 → 400 → 200 → 100 : l'activité a été divisée par 8 = 2³.",
+        "Il s'est écoulé 3 demi-vies : 3 × 8,0 = 24 jours."
+      ],
+      "hints": [
+        "Combien de fois l'activité a-t-elle été divisée par 2 ?"
+      ],
+      "common_errors": {
+        "16": "L'élève a compté deux demi-vies.",
+        "64": "L'élève a multiplié la demi-vie par 8 au lieu de 3."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.a04",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Sur une courbe N(t) de décroissance radioactive, comment lit-on la demi-vie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Par définition, N(t½) = N0 / 2. La bonne réponse est : « À l'abscisse du point d'ordonnée N0 / 2. »",
+      "step_by_step_solution": [
+        "Par définition, N(t½) = N0 / 2.",
+        "La bonne réponse est : « À l'abscisse du point d'ordonnée N0 / 2. »"
+      ],
+      "hints": [
+        "Que vaut N à la date t½ ?"
+      ],
+      "common_errors": {
+        "1": "N0 / e correspond à la constante de temps 1/λ, pas à la demi-vie.",
+        "2": "La courbe ne s'annule jamais.",
+        "3": "C'est la date où il reste un quart des noyaux, soit deux demi-vies."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "choices": [
+        "À l'abscisse du point d'ordonnée N0 / 2.",
+        "À l'abscisse du point d'ordonnée N0 / e.",
+        "À l'abscisse où la courbe s'annule.",
+        "À l'abscisse du point d'ordonnée N0 / 4."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.a05",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le cobalt 60 a une demi-vie de 5,27 ans. Quel pourcentage des noyaux de cobalt 60 initialement présents reste-t-il au bout de 10,0 ans ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "26,8",
+        "unit": "%",
+        "significant_figures": 3
+      },
+      "solution": "N / N0 = 2^(−t / t½) = 2^(−10,0 / 5,27). N / N0 ≈ 0,268 = 26,8 %.",
+      "step_by_step_solution": [
+        "N / N0 = 2^(−t / t½) = 2^(−10,0 / 5,27).",
+        "N / N0 ≈ 0,268 = 26,8 %."
+      ],
+      "hints": [
+        "Exprime la durée en nombre de demi-vies (pas forcément entier)."
+      ],
+      "common_errors": {
+        "25 %": "L'élève a arrondi la durée à deux demi-vies.",
+        "52,7 %": "L'élève a fait le rapport t½ / t."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.c01",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un fragment de bois ancien présente une activité en carbone 14 égale à 60 % de celle d'un bois récent. La demi-vie du carbone 14 vaut 5 730 ans. Estimer l'âge du fragment, en années. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "4,2 × 10^3",
+        "significant_figures": 2,
+        "unit": "an"
+      },
+      "solution": "A / A0 = e^(−λ t) = 0,60, donc t = −ln(0,60) / λ = −ln(0,60) × t½ / ln 2. t = 0,511 × 5 730 ÷ 0,693 ≈ 4,2 × 10^3 ans.",
+      "step_by_step_solution": [
+        "A / A0 = e^(−λ t) = 0,60, donc t = −ln(0,60) / λ = −ln(0,60) × t½ / ln 2.",
+        "t = 0,511 × 5 730 ÷ 0,693 ≈ 4,2 × 10^3 ans."
+      ],
+      "hints": [
+        "Isole t dans A = A0 e^(−λ t) avec la fonction ln.",
+        "λ = ln 2 / t½."
+      ],
+      "common_errors": {
+        "2,9 × 10^3": "L'élève a pris t = t½ / 2 sans calcul.",
+        "3,4 × 10^3": "L'élève a calculé 0,60 × 5 730."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.c02",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Sur la courbe de décroissance d'un échantillon de radon 222, on lit que le nombre de noyaux est divisé par deux en 3,8 jours. Calculer la constante radioactive du radon 222 en s⁻¹ (1 jour = 86 400 s). Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,1 × 10^-6",
+        "unit": "s⁻¹",
+        "significant_figures": 2
+      },
+      "solution": "t½ = 3,8 jours = 3,8 × 86 400 ≈ 3,3 × 10^5 s. λ = ln 2 / t½ ≈ 2,1 × 10^-6 s⁻¹.",
+      "step_by_step_solution": [
+        "t½ = 3,8 jours = 3,8 × 86 400 ≈ 3,3 × 10^5 s.",
+        "λ = ln 2 / t½ ≈ 2,1 × 10^-6 s⁻¹."
+      ],
+      "hints": [
+        "La durée lue est la demi-vie.",
+        "Convertis-la en secondes."
+      ],
+      "common_errors": {
+        "0,18 s⁻¹": "L'élève n'a pas converti les jours en secondes."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.c03",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "L'iode 131 a une demi-vie de 8,02 jours. Quel pourcentage des noyaux initiaux reste-t-il au bout de 1,00 jour ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "91,7",
+        "unit": "%",
+        "significant_figures": 3
+      },
+      "solution": "N / N0 = 2^(−t / t½) = 2^(−1,00 / 8,02). N / N0 ≈ 0,917 = 91,7 %.",
+      "step_by_step_solution": [
+        "N / N0 = 2^(−t / t½) = 2^(−1,00 / 8,02).",
+        "N / N0 ≈ 0,917 = 91,7 %."
+      ],
+      "hints": [
+        "t / t½ n'est pas un entier : utilise 2^(−t / t½) ou e^(−λ t)."
+      ],
+      "common_errors": {
+        "87,5 %": "L'élève a retranché 1/8 de façon linéaire."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.c04",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On double la masse initiale d'un échantillon radioactif. Que devient sa demi-vie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La demi-vie t½ = ln 2 / λ ne dépend que du type de noyau. Elle ne change pas.",
+      "step_by_step_solution": [
+        "La demi-vie t½ = ln 2 / λ ne dépend que du type de noyau.",
+        "Elle ne change pas."
+      ],
+      "hints": [
+        "La demi-vie dépend-elle du nombre initial de noyaux ?"
+      ],
+      "common_errors": {
+        "1": "t½ ne dépend pas de N0.",
+        "2": "t½ ne dépend pas de N0."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "choices": [
+        "ne change pas.",
+        "double.",
+        "est divisée par 2."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.c05",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un échantillon contient 1,0 µg d'iode 131 (M = 131 g/mol ; demi-vie 8,02 jours, soit λ = 1,00 × 10^-6 s⁻¹). Données : NA = 6,02 × 10^23 mol⁻¹. Calculer son activité, exprimée en becquerels. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "4,6 × 10^9",
+        "significant_figures": 2,
+        "unit": "Bq"
+      },
+      "solution": "N = m / M × NA = 1,0 × 10^-6 ÷ 131 × 6,02 × 10^23 ≈ 4,6 × 10^15 noyaux. A = λ N = 1,00 × 10^-6 × 4,6 × 10^15 ≈ 4,6 × 10^9 Bq.",
+      "step_by_step_solution": [
+        "N = m / M × NA = 1,0 × 10^-6 ÷ 131 × 6,02 × 10^23 ≈ 4,6 × 10^15 noyaux.",
+        "A = λ N = 1,00 × 10^-6 × 4,6 × 10^15 ≈ 4,6 × 10^9 Bq."
+      ],
+      "hints": [
+        "Calcule d'abord le nombre de noyaux.",
+        "Convertis 1,0 µg en grammes."
+      ],
+      "common_errors": {
+        "4,6 × 10^15": "L'élève a donné le nombre de noyaux au lieu de l'activité."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.x01",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Le technétium 99m a une demi-vie de 6,00 h. Au bout de combien de temps l'activité d'un échantillon est-elle divisée par 10 ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "19,9",
+        "unit": "h",
+        "significant_figures": 3
+      },
+      "solution": "A / A0 = 2^(−t / t½) = 1/10, donc t / t½ = log2(10) = ln 10 / ln 2 ≈ 3,32. t ≈ 3,32 × 6,00 ≈ 19,9 h.",
+      "step_by_step_solution": [
+        "A / A0 = 2^(−t / t½) = 1/10, donc t / t½ = log2(10) = ln 10 / ln 2 ≈ 3,32.",
+        "t ≈ 3,32 × 6,00 ≈ 19,9 h."
+      ],
+      "hints": [
+        "Isole t avec la fonction ln.",
+        "t = t½ × ln 10 / ln 2."
+      ],
+      "common_errors": {
+        "60 h": "L'élève a multiplié la demi-vie par 10.",
+        "30 h": "L'élève a cru que diviser par 10 correspondait à 5 demi-vies."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 12,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.x02",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "On injecte à un patient une dose de technétium 99m d'activité 5,0 × 10^8 Bq (demi-vie 6,0 h). Calculer l'activité de la dose 24 h plus tard, exprimée en becquerels (on néglige l'élimination biologique). Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,1 × 10^7",
+        "significant_figures": 2,
+        "unit": "Bq"
+      },
+      "solution": "24 h = 4 demi-vies. A = A0 / 2^4 = 5,0 × 10^8 ÷ 16 ≈ 3,1 × 10^7 Bq.",
+      "step_by_step_solution": [
+        "24 h = 4 demi-vies.",
+        "A = A0 / 2^4 = 5,0 × 10^8 ÷ 16 ≈ 3,1 × 10^7 Bq."
+      ],
+      "hints": [
+        "Combien de demi-vies se sont écoulées ?"
+      ],
+      "common_errors": {
+        "1,3 × 10^8": "L'élève a divisé par 4 au lieu de 2^4.",
+        "6,3 × 10^7": "L'élève a compté trois demi-vies."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.TLE.decroissance-radioactive.x03",
+      "notion_id": "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un os fossile ne contient plus que 25 % du carbone 14 qu'il contenait à la mort de l'animal. La demi-vie du carbone 14 vaut 5 730 ans. Calculer l'âge de l'os, en années. Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,15 × 10^4",
+        "significant_figures": 3,
+        "unit": "an"
+      },
+      "solution": "25 % = 1/4 = 1/2² : deux demi-vies se sont écoulées. t = 2 × 5 730 = 1,15 × 10^4 ans.",
+      "step_by_step_solution": [
+        "25 % = 1/4 = 1/2² : deux demi-vies se sont écoulées.",
+        "t = 2 × 5 730 = 1,15 × 10^4 ans."
+      ],
+      "hints": [
+        "À quelle fraction de puissance de 2 correspond 25 % ?"
+      ],
+      "common_errors": {
+        "1,43 × 10^3": "L'élève a pris t = t½ / 4.",
+        "2,29 × 10^4": "L'élève a compté quatre demi-vies."
+      },
+      "remediation": "Le nombre de noyaux radioactifs d'un échantillon suit la loi de décroissance N(t) = N0 e^(−λ t), où λ est la constante radioactive (en s⁻¹). La demi-vie t½ est la durée au bout de laquelle la moitié des noyaux initialement présents s'est désintégrée : t½ = ln 2 / λ. Au bout de n demi-vies, il reste N0 / 2^n noyaux. L'activité A = λ N (en becquerels, 1 Bq = 1 désintégration par seconde) suit la même loi : A(t) = A0 e^(−λ t). Sur une courbe, on lit t½ à l'abscisse du point d'ordonnée N0 / 2. Attention aux unités de temps : λ et t doivent être exprimés avec la même unité.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Exploiter la loi N(t) = N0 e^(−λ t)",
+        "Relier demi-vie et constante radioactive : t½ = ln 2 / λ",
+        "Lire une demi-vie sur une courbe de décroissance et calculer une activité A = λ N"
+      ],
+      "source_notions": [
+        "PC.TLE.CTM.exploiter-la-loi-et-une-courbe-de-decroissance-radioactive"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

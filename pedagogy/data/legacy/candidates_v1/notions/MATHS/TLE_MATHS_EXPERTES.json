@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATHS",
+  "level": "TLE",
+  "course": "MATHS_EXPERTES",
+  "generated_by": "agent-A-maths-candidates",
+  "disclaimer": "Notions CANDIDATES reconstituées de mémoire (connaissance générale des programmes), toutes UNPROVEN / CANDIDATE_UNVERIFIED : ce ne sont PAS des extraits officiels. Aucun libellé officiel n'est stocké. À vérifier contre la source officielle attendue avant toute production de contenu.",
+  "notions": [
+    {
+      "notion_id": "MATHS.TLE.CPLX.nombres-complexes-forme-algebrique",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Nombres complexes",
+      "domain_code": "CPLX",
+      "chapter": "Nombres complexes",
+      "title": "Nombres complexes : forme algébrique",
+      "official_wording": null,
+      "normalized_title": "nombres complexes : forme algébrique",
+      "prerequisites": [
+        "MATHS.2NDE.NC.calcul-litteral-et-identites-remarquables"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer avec les nombres complexes sous forme algébrique",
+        "Utiliser le conjugué"
+      ],
+      "expected_skills": [
+        "Calculer un produit et un quotient",
+        "Résoudre une équation du premier degré dans $\\mathbb{C}$"
+      ],
+      "common_mistakes": [
+        "Oublier que $i^2 = -1$",
+        "Multiplier par le conjugué seulement le dénominateur"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.CPLX.equations-polynomiales-dans-c",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Nombres complexes",
+      "domain_code": "CPLX",
+      "chapter": "Nombres complexes",
+      "title": "Équations polynomiales dans C",
+      "official_wording": null,
+      "normalized_title": "équations polynomiales dans c",
+      "prerequisites": [
+        "MATHS.TLE.CPLX.nombres-complexes-forme-algebrique",
+        "MATHS.1RE.ALG.equations-du-second-degre-et-discriminant"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Résoudre une équation du second degré à coefficients réels dans $\\mathbb{C}$",
+        "Factoriser un polynôme connaissant une racine"
+      ],
+      "expected_skills": [
+        "Utiliser $\\Delta < 0$ et les racines $\\frac{-b \\pm i\\sqrt{-\\Delta}}{2a}$"
+      ],
+      "common_mistakes": [
+        "Écrire $\\sqrt{\\Delta}$ avec $\\Delta < 0$",
+        "Oublier la racine conjuguée"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.CPLX.forme-trigonometrique-et-exponentielle",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Nombres complexes",
+      "domain_code": "CPLX",
+      "chapter": "Nombres complexes",
+      "title": "Forme trigonométrique et exponentielle",
+      "official_wording": null,
+      "normalized_title": "forme trigonométrique et exponentielle",
+      "prerequisites": [
+        "MATHS.TLE.CPLX.nombres-complexes-forme-algebrique",
+        "MATHS.1RE.AN.fonctions-trigonometriques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Utiliser module et argument, formes trigonométrique et exponentielle",
+        "Utiliser les formules de Moivre et d'Euler"
+      ],
+      "expected_skills": [
+        "Calculer module et argument",
+        "Écrire $z = re^{i\\theta}$"
+      ],
+      "common_mistakes": [
+        "Déterminer l'argument sans tenir compte du quadrant",
+        "Additionner les modules d'un produit"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.CPLX.nombres-complexes-et-geometrie",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Nombres complexes",
+      "domain_code": "CPLX",
+      "chapter": "Nombres complexes",
+      "title": "Nombres complexes et géométrie",
+      "official_wording": null,
+      "normalized_title": "nombres complexes et géométrie",
+      "prerequisites": [
+        "MATHS.TLE.CPLX.forme-trigonometrique-et-exponentielle",
+        "MATHS.2NDE.GEO.vecteurs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Utiliser les nombres complexes pour démontrer des propriétés géométriques",
+        "Connaître les racines $n$-ièmes de l'unité"
+      ],
+      "expected_skills": [
+        "Interpréter $|z_B - z_A|$ comme une distance",
+        "Caractériser un alignement ou une orthogonalité"
+      ],
+      "common_mistakes": [
+        "Confondre affixe d'un point et affixe d'un vecteur",
+        "Oublier une racine $n$-ième"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.ARITH.divisibilite-et-congruences",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Arithmétique",
+      "domain_code": "ARITH",
+      "chapter": "Arithmétique",
+      "title": "Divisibilité et congruences",
+      "official_wording": null,
+      "normalized_title": "divisibilité et congruences",
+      "prerequisites": [
+        "MATHS.2NDE.NC.multiples-diviseurs-et-nombres-premiers",
+        "MATHS.TLE.AN.raisonnement-par-recurrence"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Utiliser la division euclidienne dans $\\mathbb{Z}$ et les congruences"
+      ],
+      "expected_skills": [
+        "Manipuler $a \\equiv b \\pmod n$",
+        "Déterminer le reste d'une puissance"
+      ],
+      "common_mistakes": [
+        "Diviser une congruence sans condition",
+        "Donner un reste négatif"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.ARITH.pgcd-theoremes-de-bezout-et-de-gauss",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Arithmétique",
+      "domain_code": "ARITH",
+      "chapter": "Arithmétique",
+      "title": "PGCD, théorèmes de Bézout et de Gauss",
+      "official_wording": null,
+      "normalized_title": "pgcd, théorèmes de bézout et de gauss",
+      "prerequisites": [
+        "MATHS.TLE.ARITH.divisibilite-et-congruences"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer un PGCD et utiliser les théorèmes de Bézout et de Gauss",
+        "Résoudre une équation diophantienne $ax + by = c$"
+      ],
+      "expected_skills": [
+        "Appliquer l'algorithme d'Euclide",
+        "Trouver une solution particulière"
+      ],
+      "common_mistakes": [
+        "Appliquer Gauss sans vérifier la primalité entre les nombres",
+        "Oublier des solutions générales"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.ARITH.nombres-premiers-et-petit-theoreme-de-fermat",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Arithmétique",
+      "domain_code": "ARITH",
+      "chapter": "Arithmétique",
+      "title": "Nombres premiers et petit théorème de Fermat",
+      "official_wording": null,
+      "normalized_title": "nombres premiers et petit théorème de fermat",
+      "prerequisites": [
+        "MATHS.TLE.ARITH.pgcd-theoremes-de-bezout-et-de-gauss"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Utiliser la décomposition en facteurs premiers et le petit théorème de Fermat"
+      ],
+      "expected_skills": [
+        "Appliquer $a^{p-1} \\equiv 1 \\pmod p$",
+        "Démontrer qu'un nombre est premier"
+      ],
+      "common_mistakes": [
+        "Appliquer Fermat avec $p$ non premier ou $p \\mid a$",
+        "Oublier d'examiner les diviseurs jusqu'à $\\sqrt{n}$"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.GRAPH.matrices-et-operations",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Graphes et matrices",
+      "domain_code": "GRAPH",
+      "chapter": "Matrices",
+      "title": "Matrices et opérations",
+      "official_wording": null,
+      "normalized_title": "matrices et opérations",
+      "prerequisites": [
+        "MATHS.2NDE.GEO.systemes-de-deux-equations-lineaires"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer avec des matrices : somme, produit, inverse",
+        "Résoudre un système linéaire par écriture matricielle"
+      ],
+      "expected_skills": [
+        "Calculer un produit de matrices",
+        "Calculer l'inverse d'une matrice $2 \\times 2$"
+      ],
+      "common_mistakes": [
+        "Multiplier les matrices coefficient par coefficient",
+        "Croire que $AB = BA$"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.GRAPH.graphes-et-chaines-de-markov",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_EXPERTES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths expertes Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Graphes et matrices",
+      "domain_code": "GRAPH",
+      "chapter": "Graphes",
+      "title": "Graphes et chaînes de Markov",
+      "official_wording": null,
+      "normalized_title": "graphes et chaînes de markov",
+      "prerequisites": [
+        "MATHS.TLE.GRAPH.matrices-et-operations",
+        "MATHS.1RE.PROBA.probabilites-conditionnelles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "REPRESENTER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Modéliser par un graphe et étudier une chaîne de Markov à l'aide de sa matrice de transition"
+      ],
+      "expected_skills": [
+        "Construire la matrice d'adjacence ou de transition",
+        "Déterminer un état stable"
+      ],
+      "common_mistakes": [
+        "Construire la matrice de transition transposée",
+        "Oublier que les lignes d'une matrice stochastique somment à 1"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

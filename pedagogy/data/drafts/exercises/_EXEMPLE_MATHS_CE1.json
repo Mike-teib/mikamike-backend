@@ -1,0 +1,42 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.CE1.parties-tout.d01",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans la classe, il y a 12 filles et 14 garçons. Combien y a-t-il d'élèves dans la classe ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "26"
+      },
+      "solution": "On cherche le tout quand on connaît les deux parties : 12 + 14 = 26. Il y a 26 élèves.",
+      "step_by_step_solution": [
+        "Les filles et les garçons sont les deux parties ; les élèves de la classe sont le tout.",
+        "On ajoute les deux parties : 12 + 14.",
+        "12 + 14 = 26, donc il y a 26 élèves."
+      ],
+      "hints": [
+        "Qu'est-ce qu'on cherche : une partie ou le tout ?",
+        "Pour trouver le tout, on réunit les deux parties."
+      ],
+      "common_errors": {
+        "2": "L'élève a soustrait (14 − 12) au lieu de réunir les deux parties."
+      },
+      "remediation": "Représenter les filles et les garçons avec des cubes de deux couleurs, puis réunir les cubes et les compter.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Calculer une somme"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-additifs-en-une-etape-de-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}
