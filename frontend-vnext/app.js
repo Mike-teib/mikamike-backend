@@ -69,7 +69,7 @@
   async function api(path, options = {}) {
     const headers = new Headers(options.headers || {});
     headers.set("Content-Type", "application/json");
-    if (state.token) headers.set("Authorization", \`Bearer \${state.token}\`);
+    if (state.token) headers.set("Authorization", `Bearer ${state.token}`);
 
     if (window.MikaNativeHttp?.request) {
       const result = await window.MikaNativeHttp.request({
@@ -87,7 +87,7 @@
       return result.data;
     }
 
-    const response = await fetch(\`\${API}\${path}\`, { ...options, headers });
+    const response = await fetch(`${API}${path}`, { ...options, headers });
     let payload = null;
     if (response.status !== 204) {
       const text = await response.text();
@@ -103,8 +103,8 @@
   }
 
   function requestId(prefix) {
-    const suffix = globalThis.crypto?.randomUUID?.() || \`\${Date.now()}-\${Math.random().toString(16).slice(2)}\`;
-    return \`\${prefix}-\${suffix}\`.slice(0, 120);
+    const suffix = globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    return `${prefix}-${suffix}`.slice(0, 120);
   }
 
   async function loginStudent(code) {
@@ -117,7 +117,7 @@
 
   function appendMessage(kind, text) {
     const wrap = document.createElement("div");
-    wrap.className = \`message \${kind === "user" ? "user-message" : "mika-message"}\`;
+    wrap.className = `message ${kind === "user" ? "user-message" : "mika-message"}`;
     if (kind !== "user") {
       const icon = document.createElement("span");
       icon.textContent = "🐱";
@@ -147,7 +147,7 @@
   async function prepareTutor() {
     setComposerEnabled(false, "Mika prépare ton exercice…");
     try {
-      const step = await api(\`/parcours/prochaine-etape?student_id=\${encodeURIComponent(state.studentId)}\`);
+      const step = await api(`/parcours/prochaine-etape?student_id=${encodeURIComponent(state.studentId)}`);
       state.nextStep = step;
       const ctx = $("#exerciseContext");
       if (ctx) ctx.hidden = false;
@@ -165,7 +165,7 @@
       renderTutor(session);
       setComposerEnabled(true, voiceCapabilityText());
     } catch (error) {
-      appendMessage("mika", \`Je n’arrive pas à ouvrir le prochain exercice : \${error.message}\`);
+      appendMessage("mika", `Je n’arrive pas à ouvrir le prochain exercice : ${error.message}`);
       setComposerEnabled(false, "Le micro sera disponible quand l’exercice pourra démarrer.");
     }
   }
@@ -198,16 +198,16 @@
   }
 
   function switchPanel(name) {
-    $$(".panel").forEach((panel) => panel.classList.toggle("active-panel", panel.id === \`panel-\${name}\`));
+    $$(".panel").forEach((panel) => panel.classList.toggle("active-panel", panel.id === `panel-${name}`));
     $$(".nav-card").forEach((button) => button.classList.toggle("active", button.dataset.panel === name));
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function hydrateDemo() {
-    $("#progressGrid").innerHTML = \`
+    $("#progressGrid").innerHTML = `
       <article class="metric-card"><span class="metric-icon">🌱</span><strong>3 à découvrir</strong><p>Proportionnalité, vitesse, mélanges.</p></article>
       <article class="metric-card"><span class="metric-icon">🧠</span><strong>4 en cours</strong><p>Fractions, calcul littéral, unités, angles.</p></article>
-      <article class="metric-card"><span class="metric-icon">🏆</span><strong>7 maîtrisées</strong><p>Des acquis confirmés sur plusieurs jours.</p></article>\`;
+      <article class="metric-card"><span class="metric-icon">🏆</span><strong>7 maîtrisées</strong><p>Des acquis confirmés sur plusieurs jours.</p></article>`;
     catalogNotice.hidden = false;
     catalogNotice.textContent = "Mode démonstration : ces contenus sont fictifs et ne représentent pas le catalogue pédagogique publié.";
     $("#exerciseContext").hidden = false;
@@ -238,7 +238,7 @@
   function applyTranscript(transcript) {
     if (!chatInput || !transcript) return;
     const spacer = state.voiceBaseText && !state.voiceBaseText.endsWith(" ") ? " " : "";
-    chatInput.value = \`\${state.voiceBaseText}\${spacer}\${transcript}\`;
+    chatInput.value = `${state.voiceBaseText}${spacer}${transcript}`;
     chatInput.dispatchEvent(new Event("input", { bubbles: true }));
   }
 
@@ -376,8 +376,8 @@
       const subject = button.dataset.subject;
       catalogNotice.hidden = false;
       catalogNotice.textContent = state.demo
-        ? \`\${subject} sélectionné. En démonstration, ouvre Mika pour voir le parcours fictif.\`
-        : \`\${subject} sélectionné. Mika choisit la prochaine étape validée par le serveur.\`;
+        ? `${subject} sélectionné. En démonstration, ouvre Mika pour voir le parcours fictif.`
+        : `${subject} sélectionné. Mika choisit la prochaine étape validée par le serveur.`;
     });
   });
 
@@ -402,7 +402,7 @@
     setComposerEnabled(false, "Mika analyse ta réponse…");
     try {
       const endpoint = state.tutorat.etat?.attend_comprehension ? "comprehension" : "answer";
-      const result = await api(\`/mika/session/\${endpoint}\`, {
+      const result = await api(`/mika/session/${endpoint}`, {
         method: "POST",
         body: JSON.stringify({
           student_pseudo_id: state.studentId,

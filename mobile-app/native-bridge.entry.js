@@ -5,7 +5,7 @@ window.MIKAMIKE_NATIVE=native;
 window.MIKAMIKE_API_BASE=native?"https://app.mikamike.fr/api/v1":"/api/v1";
 let handles=[];
 async function clearHandles(){const current=handles;handles=[];await Promise.all(current.map(h=>h?.remove?.().catch(()=>{})));}
-window.MikaNativeHttp=native?{async request({path,method="GET",headers={},body=null}){const result=await CapacitorHttp.request({url:\`https://app.mikamike.fr/api/v1\${path}\`,method,headers,data:body?JSON.parse(body):undefined,connectTimeout:15000,readTimeout:30000});return{status:result.status,data:result.data,headers:result.headers};}}:null;
+window.MikaNativeHttp=native?{async request({path,method="GET",headers={},body=null}){const result=await CapacitorHttp.request({url:`https://app.mikamike.fr/api/v1${path}`,method,headers,data:body?JSON.parse(body):undefined,connectTimeout:15000,readTimeout:30000});return{status:result.status,data:result.data,headers:result.headers};}}:null;
 window.MikaNativeSpeech=native?{
   available:true,
   async start({language="fr-FR",onPartial,onState,onError}={}){
