@@ -18,6 +18,7 @@ Toute unité inconnue ou écriture non analysable ⇒ NEEDS_HUMAN_REVIEW.
 
 from __future__ import annotations
 
+import math
 import re
 from typing import Dict, List, NamedTuple, Optional, Tuple
 
@@ -60,6 +61,11 @@ _BASE: Dict[str, Unit] = {
     "ohm": Unit(1.0, dim(L=2, M=1, T=-3, I=-2)),
     "C": Unit(1.0, dim(T=1, I=1)),
     "Hz": Unit(1.0, dim(T=-1)),
+    "Bq": Unit(1.0, dim(T=-1)),
+    "day": Unit(86400.0, dim(T=1)),
+    "yr": Unit(31557600.0, dim(T=1)),
+    "deg": Unit(math.pi / 180.0, DIMENSIONLESS),
+    "EUR": Unit(1.0, DIMENSIONLESS),
     "L": Unit(1e-3, dim(L=3)),
     "l": Unit(1e-3, dim(L=3)),
     "min": Unit(60.0, dim(T=1)),
@@ -88,6 +94,11 @@ UNIT_NAMES: Dict[str, str] = {
     "ampères": "A", "ohms": "Ω", "pascal": "Pa", "pascals": "Pa", "hertz": "Hz", "litre": "L", "litres": "L",
     "millilitre": "mL", "millilitres": "mL", "kelvin": "K", "kelvins": "K", "mole": "mol", "moles": "mol",
     "coulomb": "C", "coulombs": "C",
+    "becquerel": "Bq", "becquerels": "Bq",
+    "jour": "day", "jours": "day",
+    "an": "yr", "ans": "yr", "annee": "yr", "annees": "yr", "année": "yr", "années": "yr",
+    "degre": "deg", "degres": "deg", "degré": "deg", "degrés": "deg",
+    "euro": "EUR", "euros": "EUR",
 }
 
 
@@ -117,16 +128,29 @@ def _atomic_unit(token: str) -> Unit:
     return Unit(u.factor ** exp, tuple(x * exp for x in u.dim))  # type: ignore[arg-type]
 
 
-def parse_unit(text: str) -> Unit:
-    """« m/s », « m.s-1 », « kg·m^-2 », « mol/L », « N.m », « km/h » → Unit."""
+def canonical_unit_text(text: str) -> str:
+    """Normalise les alias scolaires sans perdre l'identité de l'unité."""
     t = latex_to_plain(text or "").strip().translate(_SUPERSCRIPTS)
     t = t.replace("·", ".").replace("*", ".").replace("⋅", ".").replace("(", "").replace(")", "")
+    if t == "€":
+        return "EUR"
+    if t == "°":
+        return "deg"
+    return UNIT_NAMES.get(t.lower(), t)
+
+
+def unit_requires_identity(text: str) -> bool:
+    """Les monnaies ne doivent jamais être confondues avec une autre unité sans dimension."""
+    return canonical_unit_text(text) == "EUR"
+
+
+def parse_unit(text: str) -> Unit:
+    """« m/s », « m.s-1 », « kg·m^-2 », « mol/L », « N.m », « km/h » → Unit."""
+    t = canonical_unit_text(text)
     if not t:
         return Unit(1.0, DIMENSIONLESS)
     if len(t) > 40:
         raise QuantityError("unite_trop_longue")
-    if t.lower() in UNIT_NAMES:
-        t = UNIT_NAMES[t.lower()]
     factor, d = 1.0, [0] * 7
     for i, block in enumerate(t.split("/")):
         sign = 1 if i == 0 else -1
@@ -230,8 +254,7 @@ def check_quantity(
         return invalid("unite_manquante")
     if qe.unit.dim != qa.unit.dim:
         return invalid("dimension_incorrecte")
-    if unit_imposed and (abs(qe.unit.factor - qa.unit.factor) > 1e-12 * abs(qe.unit.factor)
-                         or (qe.unit_text == "°C") != (qa.unit_text == "°C")):
+    if unit_imposed and canonical_unit_text(qe.unit_text) != canonical_unit_text(qa.unit_text):
         return invalid("unite_imposee_non_respectee")
 
     ve, va = to_si(qe), to_si(qa)
