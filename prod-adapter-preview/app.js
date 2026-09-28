@@ -527,7 +527,7 @@
           messages: state.history,
           code: state.studentId,
           matiere: state.selectedSubject || "maths",
-          exercice_id: null,
+          exercice_id: 0,
         }),
       });
       const reply = result?.reply || "Je n’ai pas reçu de réponse exploitable. Réessaie.";
