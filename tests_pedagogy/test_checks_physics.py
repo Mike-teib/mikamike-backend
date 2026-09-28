@@ -34,6 +34,11 @@ V, I, R = Verdict.VALID, Verdict.INVALID, Verdict.NEEDS_HUMAN_REVIEW
     ("1200 m", "1 200 m", V),
     ("0,25 kg", "$2{,}5 \\times 10^{-1}$ kg", V),
     ("25 °C", "298,15 K", V),
+    ("2 Bq", "2 s^-1", V),
+    ("2 jours", "48 h", V),
+    ("1 an", "365,25 jours", V),
+    ("180 °", "3,141592653589793 rad", V),
+    ("12 €", "12 euros", V),
     ("5 m", "5 furlongs", R),         # unité inconnue
     ("5 m", "cinq mètres", R),
     ("5 m", "", I),
@@ -59,6 +64,9 @@ def test_tolerance_et_chiffres_significatifs():
 def test_unites_et_significatifs():
     assert parse_unit("kg·m^-2").dim == (-2, 1, 0, 0, 0, 0, 0)
     assert parse_unit("joules").dim == parse_unit("J").dim
+    assert parse_unit("Bq").dim == parse_unit("s^-1").dim
+    assert parse_unit("jour").dim == parse_unit("h").dim
+    assert parse_unit("€").dim == DIMENSIONLESS
     assert parse_unit("").dim == DIMENSIONLESS
     with pytest.raises(QuantityError):
         parse_unit("xyz")
