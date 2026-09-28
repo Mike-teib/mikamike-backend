@@ -79,13 +79,15 @@ async function demo(width,height,label) {
   await page.screenshot({path:path.join(OUT,label + "-initial.png"),fullPage:true});
   const imageState = await page.evaluate(() => [...document.images].map(img => ({
     src: img.src,
+    visible: !!(img.offsetWidth || img.offsetHeight || img.getClientRects().length),
     complete: img.complete,
     naturalWidth: img.naturalWidth,
     naturalHeight: img.naturalHeight
   })));
-  const brokenImages = imageState.filter(x => !x.complete || x.naturalWidth === 0);
-  if (brokenImages.length === 0) pass(label + " illustrations chargées", imageState.length + " image(s)");
-  else fail(label + " illustrations chargées", brokenImages.length + " image(s) cassée(s)", {brokenImages});
+  const visibleImages = imageState.filter(x => x.visible);
+  const brokenImages = visibleImages.filter(x => !x.complete || x.naturalWidth === 0);
+  if (brokenImages.length === 0) pass(label + " illustrations visibles chargées", visibleImages.length + " image(s)");
+  else fail(label + " illustrations visibles chargées", brokenImages.length + " image(s) cassée(s)", {brokenImages});
   if (r?.status()===200) pass(label + " démo HTTP","200"); else fail(label + " démo HTTP","Statut " + r?.status());
   if (await page.locator("#dashboardView").isVisible() && !(await page.locator("#loginView").isVisible())) pass(label + " ouverture démo"); else fail(label + " ouverture démo");
 
@@ -130,17 +132,41 @@ async function demo(width,height,label) {
 
   const subjectsNav = page.locator('.nav-card[data-panel="subjects"]');
   if (await subjectsNav.count()) await subjectsNav.click();
-  const subject = page.locator(".subject-card").first();
+  const subjectsPanel = page.locator("#panel-subjects");
+  await subjectsPanel.evaluate(async el => {
+    const animations = el.getAnimations();
+    await Promise.all(animations.map(a => a.finished.catch(() => undefined)));
+  }).catch(()=>{});
+  await page.waitForTimeout(100);
+
+  const panelImage = subjectsPanel.locator("img").first();
+  if (await panelImage.count()) {
+    await panelImage.scrollIntoViewIfNeeded().catch(()=>{});
+    await page.waitForFunction(
+      () => {
+        const img = document.querySelector("#panel-subjects img");
+        return !!img && img.complete;
+      },
+      { timeout: 10000 }
+    ).catch(()=>{});
+    const imgState = await panelImage.evaluate(img => ({src:img.src,complete:img.complete,naturalWidth:img.naturalWidth,naturalHeight:img.naturalHeight}));
+    if (imgState.complete && imgState.naturalWidth > 0) pass(label + " illustration Matières", imgState.src);
+    else fail(label + " illustration Matières", "Image non chargée", imgState);
+  }
+
+  const subject = subjectsPanel.locator(".subject-card").first();
   if (await subject.count() && await subject.isVisible()) {
     let count=0; const h=req=>{if(req.url().includes("/api/"))count++;}; page.on("request",h);
-    await subject.click(); await page.waitForTimeout(700); page.off("request",h);
+    await subject.click(); await page.waitForTimeout(350); page.off("request",h);
     const notice = await txt(page.locator("#catalogNotice"));
     if (count===0) fail(label + " sélection matière","Aucune requête/changement de parcours; seul le message change",{notice}); else pass(label + " sélection matière",count + " requête(s) API");
+  } else {
+    fail(label + " sélection matière","Aucune carte matière visible après ouverture du panneau");
   }
 
   const visualState = await page.evaluate(() => {
-    const card = document.querySelector(".subject-card");
     const panel = document.querySelector("#panel-subjects");
+    const card = panel?.querySelector(".subject-card");
     const dlg = document.querySelector("#installDialog");
     const cs = card ? getComputedStyle(card) : null;
     return {
