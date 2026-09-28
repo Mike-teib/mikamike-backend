@@ -70,6 +70,7 @@ def test_duplicate_ids_blocked(drafts):
 def test_approve_is_explicit_and_moves_to_bank(tmp_path):
     data = tmp_path / "data"
     shutil.copytree(DATA_DIR / "notions" / "MATHS", data / "notions" / "MATHS")
+    shutil.copytree(DATA_DIR / "sources", data / "sources")
     (data / "drafts" / "exercises").mkdir(parents=True)
     (data / "drafts" / "quizzes").mkdir(parents=True)
     shutil.copy(EX, data / "drafts" / "exercises" / EX_NAME)
@@ -91,6 +92,7 @@ def test_approve_is_explicit_and_moves_to_bank(tmp_path):
 def test_quiz_approval_permutes_choices_without_breaking_key(tmp_path):
     data = tmp_path / "data"
     shutil.copytree(DATA_DIR / "notions" / "MATHS", data / "notions" / "MATHS")
+    shutil.copytree(DATA_DIR / "sources", data / "sources")
     (data / "drafts" / "exercises").mkdir(parents=True)
     (data / "drafts" / "quizzes").mkdir(parents=True)
     shutil.copy(QZ, data / "drafts" / "quizzes" / QZ_NAME)
@@ -172,6 +174,7 @@ def test_repository_example_fixtures_are_excluded_from_real_drafts(tmp_path):
 def test_approve_missing_item_does_not_mutate_notion(tmp_path):
     data = tmp_path / "data"
     shutil.copytree(DATA_DIR / "notions" / "MATHS", data / "notions" / "MATHS")
+    shutil.copytree(DATA_DIR / "sources", data / "sources")
     (data / "drafts" / "exercises").mkdir(parents=True)
     (data / "drafts" / "quizzes").mkdir(parents=True)
     shutil.copy(EX, data / "drafts" / "exercises" / EX_NAME)
@@ -189,6 +192,7 @@ def test_approve_missing_item_does_not_mutate_notion(tmp_path):
 def test_approve_item_requires_notion_approval_in_same_batch(tmp_path):
     data = tmp_path / "data"
     shutil.copytree(DATA_DIR / "notions" / "MATHS", data / "notions" / "MATHS")
+    shutil.copytree(DATA_DIR / "sources", data / "sources")
     (data / "drafts" / "exercises").mkdir(parents=True)
     (data / "drafts" / "quizzes").mkdir(parents=True)
     shutil.copy(EX, data / "drafts" / "exercises" / EX_NAME)
