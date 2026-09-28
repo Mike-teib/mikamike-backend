@@ -2,8 +2,14 @@ name: MikaMike store build readiness
 
 on:
   push:
-    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927"]
+    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927", "ui/mikamike-installable-improvements-20260928"]
     paths:
+      - "frontend-vnext/**"
+      - "mobile-app/**"
+      - ".github/workflows/mobile-store-readiness.yml"
+  pull_request:
+    paths:
+      - "frontend-vnext/**"
       - "mobile-app/**"
       - ".github/workflows/mobile-store-readiness.yml"
   workflow_dispatch:
@@ -51,3 +57,7 @@ jobs:
         working-directory: mobile-app
         run: |
           xcodebuild archive             -project ios/App/App.xcodeproj             -scheme App             -sdk iphoneos             -configuration Release             -archivePath "$RUNNER_TEMP/MikaMike.xcarchive"             CODE_SIGNING_ALLOWED=NO
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mikamike-ios-release-xcarchive-unsigned
+          path: ${{ runner.temp }}/MikaMike.xcarchive
