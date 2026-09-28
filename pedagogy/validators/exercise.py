@@ -60,6 +60,7 @@ from pedagogy.models import (
     GenerationOrigin,
     ProofStatus,
     PublicationStatus,
+    ReviewStatus,
     Subject,
 )
 from pedagogy.registry import Registry
