@@ -5,9 +5,9 @@ Fail-closed : un exercice n'est servi que s'il franchit `valider_exercice` (noti
 texte recalculé utilisable, cohérences, vérificateur) ET si son plan franchit
 `valider_plan(..., exiger_cle_comprehension=True)`. Sinon : ContenuIndisponible.
 
-Aujourd'hui aucun contenu réel PROVEN n'existe dans le dépôt (artefacts absents) :
-le catalogue par défaut est VIDE ⇒ `/mika/session/start` répond 404. Les tests
-installent un catalogue FICTIF (`autoriser_fictif=True`), interdit en production.
+Le catalogue par défaut contient uniquement le mini-pilote réel explicitement
+versionné dans `pilot_reel.py`. Les tests peuvent temporairement installer un
+catalogue FICTIF (`autoriser_fictif=True`), toujours interdit en production.
 """
 
 from __future__ import annotations
@@ -61,4 +61,9 @@ def definir_catalogue(catalogue: Optional[CatalogueTutorat]) -> None:
 
 
 def catalogue() -> CatalogueTutorat:
-    return _CATALOGUE if _CATALOGUE is not None else CatalogueTutorat(Referentiel(), [], {})
+    if _CATALOGUE is not None:
+        return _CATALOGUE
+    # Import paresseux pour éviter une dépendance circulaire : pilot_reel construit
+    # un CatalogueTutorat à partir des mêmes classes de ce module.
+    from app.api.v1.tutorat.pilot_reel import catalogue_pilote_reel
+    return catalogue_pilote_reel()
