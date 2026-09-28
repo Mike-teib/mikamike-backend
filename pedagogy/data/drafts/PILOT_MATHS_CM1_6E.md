@@ -54,8 +54,7 @@ et notions au libellé non autonome (« L'utiliser pour… »).
 
 - `MATH_EXPR` pour les nombres, fractions (`5/7`, équivalents acceptés : `10/14`, `1 + 2/5`…) et décimaux (virgule ou point).
 - `QUANTITY` avec unité pour les longueurs, masses, contenances, durées et aires (`cm²`, `m²`…).
-- Les montants en euros et les angles en degrés sont en `MATH_EXPR` (le vérificateur ne connaît ni `€` ni `°`) ;
-  l'énoncé précise « en euros » / « en degrés », et la solution écrit « euros » / « degrés » en toutes lettres.
+- Les anciens montants en euros et angles en degrés peuvent rester en `MATH_EXPR`, mais le vérificateur reconnaît désormais `€` et `°` : les nouveaux items peuvent utiliser `QUANTITY` lorsque l'unité doit faire partie de la réponse.
 - `CHOICE` pour les 14 exercices QCM (3 ou 4 choix, un seul correct, position de la bonne réponse variée).
 
 ## Contrôle automatique
@@ -69,9 +68,7 @@ Toutes les valeurs numériques ont été calculées par script (`fractions.Fract
 
 ## Limites et points d'attention pour la relecture
 
-1. **Nombres ≥ 1 000 en réponse** : le vérificateur n'accepte pas l'écriture française « 1 200 » (espace des
-   milliers) comme égale à 1200. Aucune réponse attendue n'atteint donc 1 000 ; les grands nombres
-   n'apparaissent que dans les énoncés et les étapes de calcul.
+1. **Nombres ≥ 1 000 en réponse** : le séparateur français des milliers est désormais accepté (« 1 200 » ≡ « 1200 »). La limitation historique du pilote n'est donc plus nécessaire pour les nouveaux items.
 2. **Réponses fractionnaires** : une réponse équivalente non simplifiée ou simplifiée est acceptée
    (`5/10` ≡ `1/2`). Si l'on veut exiger une forme (irréductible, entier), il faudra ajouter un `required_form`.
 3. **Unités** : en `QUANTITY`, une réponse juste dans une autre unité (`0,5 m` pour `50 cm`) est acceptée, sauf
