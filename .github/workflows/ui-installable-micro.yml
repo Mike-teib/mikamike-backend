@@ -1,0 +1,80 @@
+name: MikaMike installable + micro
+on:
+  push:
+    branches: ["ui/mikamike-installable-micro-v1-20260928", "ui/mikamike-installable-improvements-20260928", "fix/mikamike-prod-legacy-adapter-20260928"]
+    paths: ["frontend-vnext/**","mobile-app/**",".github/workflows/ui-installable-micro.yml"]
+  pull_request:
+    paths: ["frontend-vnext/**","mobile-app/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  web-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - run: node --check frontend-vnext/app.js
+      - run: node frontend-vnext/tests/check-installable-ui.mjs
+  browser-375:
+    runs-on: ubuntu-latest
+    needs: web-contract
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Recette micro + PWA 375px
+        run: |
+          python3 -m http.server 4173 --directory frontend-vnext >/tmp/mikamike-http.log 2>&1 &
+          node frontend-vnext/tests/ui-installable-browser.mjs
+          node frontend-vnext/tests/ui-prod-legacy-browser.mjs
+
+  android-debug:
+    runs-on: ubuntu-latest
+    needs: browser-375
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - uses: actions/setup-java@v4
+        with: {distribution: temurin, java-version: "21"}
+      - working-directory: mobile-app
+        run: npm install
+      - working-directory: mobile-app
+        run: npm run prepare && npx cap add android && npx cap sync android && npm run patch:native
+      - working-directory: mobile-app/android
+        run: ./gradlew assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mikamike-android-debug
+          path: mobile-app/android/app/build/outputs/apk/debug/app-debug.apk
+  ios-simulator:
+    runs-on: macos-latest
+    needs: browser-375
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - working-directory: mobile-app
+        run: npm install
+      - working-directory: mobile-app
+        run: npm run prepare && npx cap add ios && npx cap sync ios && npm run patch:native
+      - working-directory: mobile-app
+        run: xcodebuild -project ios/App/App.xcodeproj -scheme App -sdk iphonesimulator -configuration Debug CODE_SIGNING_ALLOWED=NO build
+  preview:
+    runs-on: ubuntu-latest
+    needs: browser-375
+    if: github.event_name != 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./frontend-vnext
+          destination_dir: prod-adapter-preview
+          keep_files: true
+          commit_message: "preview(installable-micro): ${{ github.sha }}"

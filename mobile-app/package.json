@@ -1,0 +1,23 @@
+{
+  "name": "mikamike-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:web": "node scripts/prepare-web.mjs",
+    "build:bridge": "esbuild native-bridge.entry.js --bundle --format=iife --platform=browser --target=es2022 --outfile=www/native-bridge.js",
+    "prepare": "npm run prepare:web && npm run build:bridge",
+    "patch:native": "node scripts/patch-platforms.mjs",
+    "sync": "npm run prepare && npx cap sync && npm run patch:native"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
+    "@capgo/capacitor-speech-recognition": "^8.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "esbuild": "^0.28.2"
+  }
+}

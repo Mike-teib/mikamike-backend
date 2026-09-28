@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "version": "1.0.0-rc",
+    "bo_version": "BO n°30 du 23 juillet 2020 / Mise à jour 2024-2025",
+    "school_year": "2024-2025",
+    "source_status": "Officiel Éducation Nationale - Conforme BO",
+    "last_updated": "2026-08-17"
+  },
+  "cycles": [
+    {
+      "id": "cycle_2",
+      "label": "Cycle 2 (Apprentissages fondamentaux)",
+      "short_label": "Cycle 2",
+      "levels": [
+        { "id": "cp", "label": "CP" },
+        { "id": "ce1", "label": "CE1" },
+        { "id": "ce2", "label": "CE2" }
+      ],
+      "has_series": false,
+      "has_specialties": false,
+      "has_options": false
+    },
+    {
+      "id": "cycle_3",
+      "label": "Cycle 3 (Consolidation)",
+      "short_label": "Cycle 3",
+      "levels": [
+        { "id": "cm1", "label": "CM1" },
+        { "id": "cm2", "label": "CM2" },
+        { "id": "6eme", "label": "6ème" }
+      ],
+      "has_series": false,
+      "has_specialties": false,
+      "has_options": false
+    },
+    {
+      "id": "college",
+      "label": "Collège (Cycle 4)",
+      "short_label": "Collège",
+      "levels": [
+        { "id": "5eme", "label": "5ème" },
+        { "id": "4eme", "label": "4ème" },
+        { "id": "3eme", "label": "3ème" }
+      ],
+      "has_series": false,
+      "has_specialties": false,
+      "has_options": false
+    },
+    {
+      "id": "lycee_general",
+      "label": "Lycée Général",
+      "short_label": "Lycée général",
+      "levels": [
+        { "id": "2nde_g", "label": "Seconde Générale", "has_series": false, "has_specialties": false, "has_options": true },
+        { "id": "1ere_g", "label": "Première Générale", "has_series": false, "has_specialties": true, "has_options": true },
+        { "id": "tle_g", "label": "Terminale Générale", "has_series": false, "has_specialties": true, "has_options": true }
+      ],
+      "has_series": false,
+      "has_specialties": true,
+      "has_options": true
+    },
+    {
+      "id": "lycee_techno",
+      "label": "Lycée Technologique",
+      "short_label": "Lycée techno",
+      "levels": [
+        { "id": "2nde_gt", "label": "Seconde GT", "has_series": false, "has_specialties": false, "has_options": false },
+        { "id": "1ere_t", "label": "Première Technologique", "has_series": true, "has_specialties": true, "has_options": false },
+        { "id": "tle_t", "label": "Terminale Technologique", "has_series": true, "has_specialties": true, "has_options": false }
+      ],
+      "has_series": true,
+      "has_specialties": true,
+      "has_options": false
+    },
+    {
+      "id": "voie_pro",
+      "label": "Voie Professionnelle",
+      "short_label": "Voie pro",
+      "levels": [
+        { "id": "cap_1", "label": "CAP 1ère année", "has_series": true, "has_specialties": false, "has_options": false },
+        { "id": "cap_2", "label": "CAP 2ème année", "has_series": true, "has_specialties": false, "has_options": false },
+        { "id": "2nde_pro", "label": "Seconde Professionnelle", "has_series": true, "has_specialties": false, "has_options": false },
+        { "id": "1ere_pro", "label": "Première Professionnelle", "has_series": true, "has_specialties": false, "has_options": false },
+        { "id": "tle_pro", "label": "Terminale Professionnelle", "has_series": true, "has_specialties": false, "has_options": false }
+      ],
+      "has_series": true,
+      "has_specialties": false,
+      "has_options": false
+    }
+  ],
+  "series": {
+    "lycee_techno": [
+      { "id": "stmg", "label": "STMG", "name": "Sciences et Technologies du Management et de la Gestion" },
+      { "id": "sti2d", "label": "STI2D", "name": "Sciences et Technologies de l'Industrie et du Développement Durable" },
+      { "id": "stl", "label": "STL", "name": "Sciences et Technologies de Laboratoire" },
+      { "id": "st2s", "label": "ST2S", "name": "Sciences et Technologies de la Santé et du Social" }
+    ],
+    "voie_pro": [
+      { "id": "assp", "label": "ASSP", "name": "Accompagnement, Soins et Services à la Personne" },
+      { "id": "commerce", "label": "Métiers du Commerce et de la Vente", "name": "Commerce et Distribution" },
+      { "id": "melec", "label": "MELEC", "name": "Métiers de l'Électricité et de ses Environnements Connectés" },
+      { "id": "ciel", "label": "CIEL", "name": "Cybersécurité, Informatique et Réseaux, Électronique" }
+    ]
+  },
+  "specialties": {
+    "lycee_general": [
+      { "id": "spe_maths", "label": "Spécialité Mathématiques", "subjects": ["maths"] },
+      { "id": "spe_pc", "label": "Spécialité Physique-Chimie", "subjects": ["physique_chimie"] },
+      { "id": "spe_svt", "label": "Spécialité SVT", "subjects": ["svt"] },
+      { "id": "spe_nsi", "label": "Spécialité NSI (Numérique et Sciences Informatiques)", "subjects": ["maths"] },
+      { "id": "spe_hggsp", "label": "Spécialité HGGSP", "subjects": [] }
+    ],
+    "sti2d": [
+      { "id": "spe_pcm", "label": "Physique-Chimie et Mathématiques", "subjects": ["maths", "physique_chimie"] },
+      { "id": "spe_2d", "label": "Ingénierie, Innovation et Développement Durable (I2D)", "subjects": ["maths", "physique_chimie"] }
+    ],
+    "stl": [
+      { "id": "spe_pcm_stl", "label": "Physique-Chimie et Mathématiques", "subjects": ["maths", "physique_chimie"] },
+      { "id": "spe_spcl", "label": "Sciences Physiques et Chimiques en Laboratoire", "subjects": ["physique_chimie"] }
+    ],
+    "stmg": [
+      { "id": "spe_msd", "label": "Management, Sciences de Gestion et Numérique", "subjects": ["maths"] },
+      { "id": "spe_droit", "label": "Droit et Économie", "subjects": [] }
+    ],
+    "st2s": [
+      { "id": "spe_bss", "label": "Biologie et Physiopathologie Humaines", "subjects": ["svt"] },
+      { "id": "spe_stss", "label": "Sciences et Techniques Sanitaires et Sociales", "subjects": ["svt"] }
+    ]
+  },
+  "options": {
+    "tle_g": [
+      { "id": "opt_maths_exp", "label": "Mathématiques Expertes" },
+      { "id": "opt_maths_comp", "label": "Mathématiques Complémentaires" }
+    ]
+  },
+  "subjects": [
+    {
+      "id": "maths",
+      "label": "Mathématiques",
+      "icon": "Calculator",
+      "color": "#3b82f6",
+      "applicable_cycles": ["cycle_2", "cycle_3", "college", "lycee_general", "lycee_techno", "voie_pro"],
+      "coverage": "Disponible",
+      "chapters": [
+        {
+          "id": "chap_p1a1",
+          "title": "P1A1 — Second degré et polynômes",
+          "level": "1ere_g",
+          "coverage": "Disponible",
+          "exercise_count": 14,
+          "sample_exercise_id": "P1A1-006"
+        },
+        {
+          "id": "chap_p1a2",
+          "title": "P1A2 — Dérivation et applications",
+          "level": "1ere_g",
+          "coverage": "Disponible",
+          "exercise_count": 18,
+          "sample_exercise_id": "P1A2-001"
+        },
+        {
+          "id": "chap_3e_pyth",
+          "title": "Théorème de Pythagore et trigonométrie",
+          "level": "3eme",
+          "coverage": "Disponible",
+          "exercise_count": 10,
+          "sample_exercise_id": "3E-PYTH-01"
+        },
+        {
+          "id": "chap_tle_int",
+          "title": "Calcul intégral et primitives",
+          "level": "tle_g",
+          "coverage": "Partiel",
+          "exercise_count": 6,
+          "sample_exercise_id": "TLE-INT-01"
+        },
+        {
+          "id": "chap_c3_frac",
+          "title": "Fractions et nombres décimaux",
+          "level": "cm2",
+          "coverage": "Disponible",
+          "exercise_count": 8,
+          "sample_exercise_id": "CM2-FRAC-01"
+        }
+      ]
+    },
+    {
+      "id": "physique_chimie",
+      "label": "Physique-Chimie",
+      "icon": "Zap",
+      "color": "#06b6d4",
+      "applicable_cycles": ["college", "lycee_general", "lycee_techno", "voie_pro"],
+      "coverage": "Disponible",
+      "chapters": [
+        {
+          "id": "chap_pc_1g_meca",
+          "title": "Mouvement et interactions (Mécanique)",
+          "level": "1ere_g",
+          "coverage": "Disponible",
+          "exercise_count": 12,
+          "sample_exercise_id": "PC-1G-MECA-01"
+        },
+        {
+          "id": "chap_pc_sti2d_elec",
+          "title": "Énergie électrique et puissance en STI2D",
+          "level": "1ere_t",
+          "coverage": "Partiel",
+          "exercise_count": 5,
+          "sample_exercise_id": "PC-STI2D-01"
+        },
+        {
+          "id": "chap_pc_3e_chimie",
+          "title": "Atomes, ions et réactivité chimique",
+          "level": "3eme",
+          "coverage": "Disponible",
+          "exercise_count": 9,
+          "sample_exercise_id": "PC-3E-CHIM-01"
+        }
+      ]
+    },
+    {
+      "id": "svt",
+      "label": "SVT (Sciences de la Vie et de la Terre)",
+      "icon": "Leaf",
+      "color": "#10b981",
+      "applicable_cycles": ["cycle_3", "college", "lycee_general", "lycee_techno"],
+      "coverage": "Partiel",
+      "chapters": [
+        {
+          "id": "chap_svt_1g_genetique",
+          "title": "Génétique et dynamique du génome",
+          "level": "1ere_g",
+          "coverage": "Disponible",
+          "exercise_count": 8,
+          "sample_exercise_id": "SVT-1G-GEN-01"
+        },
+        {
+          "id": "chap_svt_3e_immuno",
+          "title": "Système immunitaire et défense de l'organisme",
+          "level": "3eme",
+          "coverage": "Partiel",
+          "exercise_count": 4,
+          "sample_exercise_id": "SVT-3E-IMM-01"
+        },
+        {
+          "id": "chap_svt_tle_climat",
+          "title": "Climat et évolution du globe",
+          "level": "tle_g",
+          "coverage": "En préparation",
+          "exercise_count": 0,
+          "sample_exercise_id": null
+        }
+      ]
+    }
+  ],
+  "exam_annales": [
+    {
+      "id": "annale_dnb_2024_maths",
+      "exam_type": "Brevet",
+      "year": 2024,
+      "session": "Métropole",
+      "subject": "Mathématiques",
+      "level": "3ème",
+      "title": "DNB 2024 Métropole — Mathématiques",
+      "coverage": "Disponible",
+      "duration": "2h00",
+      "points": 100,
+      "exercises": [
+        { "id": "DNB-2024-EX1", "title": "Exercice 1 : QCM général (Automatismes et fractions)", "points": 20 },
+        { "id": "DNB-2024-EX2", "title": "Exercice 2 : Théorème de Thalès et trigonométrie dans la voile", "points": 20 },
+        { "id": "DNB-2024-EX3", "title": "Exercice 3 : Probabilités et statistiques de fréquentation", "points": 20 },
+        { "id": "DNB-2024-EX4", "title": "Exercice 4 : Algorithmique et programmation Scratch", "points": 20 },
+        { "id": "DNB-2024-EX5", "title": "Exercice 5 : Fonctions affines et optimisation de tarif", "points": 20 }
+      ]
+    },
+    {
+      "id": "annale_bac_2024_maths_1",
+      "exam_type": "Bac",
+      "year": 2024,
+      "session": "Métropole Jour 1",
+      "subject": "Spécialité Mathématiques",
+      "level": "Terminale Générale",
+      "coverage": "Disponible",
+      "duration": "4h00",
+      "points": 20,
+      "exercises": [
+        { "id": "BAC-2024-EX1", "title": "Exercice 1 : Probabilités conditionnelles et loi binomiale", "points": 5 },
+        { "id": "BAC-2024-EX2", "title": "Exercice 2 : Géométrie dans l'espace (Repère orthonormal, plans, droites)", "points": 5 },
+        { "id": "BAC-2024-EX3", "title": "Exercice 3 : Étude de fonction, suite numérique et convexité", "points": 5 },
+        { "id": "BAC-2024-EX4", "title": "Exercice 4 : Vrai/Faux sur le calcul intégral et suites", "points": 5 }
+      ]
+    },
+    {
+      "id": "annale_bac_2024_pc",
+      "exam_type": "Bac",
+      "year": 2024,
+      "session": "Métropole",
+      "subject": "Spécialité Physique-Chimie",
+      "level": "Terminale Générale",
+      "coverage": "Disponible",
+      "duration": "3h30",
+      "points": 20,
+      "exercises": [
+        { "id": "BAC-PC-2024-EX1", "title": "Exercice 1 : Synthèse du paracétamol et titrage acido-basique", "points": 10 },
+        { "id": "BAC-PC-2024-EX2", "title": "Exercice 2 : Mouvement d'un satellite en orbite terrestre", "points": 6 },
+        { "id": "BAC-PC-2024-EX3", "title": "Exercice 3 : Lunette astronomique et diffraction de la lumière", "points": 4 }
+      ]
+    },
+    {
+      "id": "annale_bac_2024_sti2d",
+      "exam_type": "Bac",
+      "year": 2024,
+      "session": "Métropole",
+      "subject": "Physique-Chimie et Mathématiques (STI2D)",
+      "level": "Terminale Technologique",
+      "coverage": "Partiel",
+      "duration": "3h00",
+      "points": 20,
+      "exercises": [
+        { "id": "BAC-STI2D-EX1", "title": "Partie PCM : Bilans thermiques d'un bâtiment basse consommation", "points": 10 },
+        { "id": "BAC-STI2D-EX2", "title": "Partie Maths : Équations différentielles et charge de condensateur", "points": 10 }
+      ]
+    },
+    {
+      "id": "annale_bac_pro_2024_melec",
+      "exam_type": "Bac",
+      "year": 2024,
+      "session": "Métropole",
+      "subject": "Épreuve E2 Mathématiques & Sciences",
+      "level": "Terminale Professionnelle",
+      "coverage": "En préparation",
+      "duration": "2h00",
+      "points": 20,
+      "exercises": []
+    }
+  ]
+}

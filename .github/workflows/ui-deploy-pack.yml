@@ -1,0 +1,57 @@
+name: MikaMike frontend deploy pack
+
+on:
+  push:
+    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927", "ui/mikamike-installable-improvements-20260928"]
+    paths:
+      - "ops/deploy_frontend_micro_pwa.sh"
+      - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
+      - "ops/deploy_frontend_micro_pwa_windows.ps1"
+      - "ops/run_frontend_release.ps1"
+      - ".github/workflows/ui-deploy-pack.yml"
+  pull_request:
+    paths:
+      - "ops/deploy_frontend_micro_pwa.sh"
+      - "ops/deploy_frontend_micro_pwa_windows.ps1"
+      - "ops/run_frontend_release.ps1"
+      - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
+      - ".github/workflows/ui-deploy-pack.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Syntaxe Bash
+        run: bash -n ops/deploy_frontend_micro_pwa.sh
+      - name: Garde-fous de portée
+        run: |
+          grep -F '/home/mike/mikamike/app/frontend' ops/deploy_frontend_micro_pwa.sh
+          grep -F -- '--expected-index-sha' ops/deploy_frontend_micro_pwa.sh
+          grep -F 'ROLLBACK.sh' ops/deploy_frontend_micro_pwa.sh
+          grep -F 'parent.html' ops/deploy_frontend_micro_pwa.sh
+          grep -F '.well-known' ops/deploy_frontend_micro_pwa.sh
+          ! grep -E 'docker compose|systemctl|caddy reload|psql|DELETE FROM|DROP TABLE' ops/deploy_frontend_micro_pwa.sh
+      - name: Syntaxe PowerShell du lanceur Windows
+        shell: pwsh
+        run: |
+          [scriptblock]::Create((Get-Content -Raw "ops/deploy_frontend_micro_pwa_windows.ps1")) | Out-Null
+          $script = Get-Content -Raw "ops/deploy_frontend_micro_pwa_windows.ps1"
+          [scriptblock]::Create($script) | Out-Null
+          [scriptblock]::Create((Get-Content -Raw "ops/run_frontend_release.ps1")) | Out-Null
+          if (-not (Get-Content -Raw "ops/run_frontend_release.ps1").Contains("ExpectedReleaseSha")) { throw "Lanceur neutre incomplet" }
+          foreach ($needle in @(
+            "79.137.79.200",
+            "2222",
+            "sudo -n sha256sum",
+            "git -C `$repoDir fetch --quiet --depth 1 origin `$releaseSha",
+            "git -C `$repoDir checkout --quiet --detach FETCH_HEAD",
+            "--expected-index-sha",
+            "sudo -n bash '`$backupPath/ROLLBACK.sh'",
+            "BatchMode=yes",
+            '$savedErrorActionPreference = $ErrorActionPreference',
+            '$ErrorActionPreference = "Continue"',
+            '$ErrorActionPreference = $savedErrorActionPreference'
+          )) {
+            if (-not $script.Contains($needle)) { throw "Garde-fou PowerShell absent: $needle" }
+          }
