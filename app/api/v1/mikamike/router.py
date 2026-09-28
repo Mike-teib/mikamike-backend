@@ -17,7 +17,8 @@ from __future__ import annotations
 from fastapi import APIRouter, Depends, HTTPException, Path, Query
 from sqlalchemy.orm import Session
 
-from app.api.v1.mikamike import catalogue, crud, moteur
+from app.api.v1.mikamike import catalogue, crud
+from app.api.v1.tutorat import contenu as contenu_tutorat, moteur
 from app.api.v1.mikamike.learning_engine import (
     ETATS_SOLIDES,
     EtatMaitrise,
@@ -160,12 +161,46 @@ def prochaine_etape(
     eleve_hmac = _hmac(student_id)
     etats = crud.get_etats(db, eleve_hmac)
 
-    # Première compétence du catalogue non encore consolidée, dans le niveau/matière demandé.
+    # Avec niveau/matière, le parcours utilise EXACTEMENT le même catalogue
+    # canonique que le tuteur Mika. Cela empêche de proposer un exercice legacy
+    # que /mika/session/start ne saurait pas ouvrir.
     filtres_actifs = bool((level or "").strip() or (subject or "").strip())
-    candidats = catalogue.exercices_disponibles(niveau=level, matiere=subject) if filtres_actifs else list(catalogue.EXERCICES)
-    if not candidats:
-        raise HTTPException(status_code=404, detail="contenu_indisponible")
+    if filtres_actifs:
+        niveau_norm = (level or "").strip().lower()
+        matiere_norm = (subject or "").strip().lower()
+        exercices = [
+            ex for ex in contenu_tutorat.catalogue().exercices.values()
+            if (not niveau_norm or ex.niveau.value == niveau_norm)
+            and (not matiere_norm or ex.matiere.value == matiere_norm)
+        ]
+        if not exercices:
+            raise HTTPException(status_code=404, detail="contenu_indisponible")
 
+        exo = None
+        cible = None
+        for candidat in exercices:
+            comp = candidat.notion_id
+            try:
+                etat = EtatMaitrise(etats.get(comp, "INCONNU"))
+            except ValueError:
+                etat = EtatMaitrise.INCONNU
+            if etat not in ETATS_SOLIDES:
+                exo = candidat
+                cible = comp
+                break
+        if exo is None:
+            exo = exercices[0]
+            cible = exo.notion_id
+        return {
+            "student_id": student_id,
+            "exercice_id": exo.id,
+            "competence": cible,
+            "niveau": exo.niveau.value,
+            "consigne": exo.enonce,
+        }
+
+    # Appels historiques sans filtre : comportement legacy conservé pour compatibilité.
+    candidats = list(catalogue.EXERCICES)
     cible = None
     exo_id = None
     for candidat_id in candidats:
@@ -183,7 +218,6 @@ def prochaine_etape(
             break
 
     if exo_id is None:
-        # Tout est consolidé pour ce filtre : révision du premier exercice disponible.
         exo_id = candidats[0]
         meta_revision = catalogue.get_exercice(exo_id)
         cible = meta_revision["competence"]
