@@ -76,6 +76,16 @@ async function demo(width,height,label) {
   });
   const page = await context.newPage(); wire(page,label);
   const r = await page.goto(BASE + "/?demo=1", {waitUntil:"networkidle",timeout:60000});
+  await page.screenshot({path:path.join(OUT,label + "-initial.png"),fullPage:true});
+  const imageState = await page.evaluate(() => [...document.images].map(img => ({
+    src: img.src,
+    complete: img.complete,
+    naturalWidth: img.naturalWidth,
+    naturalHeight: img.naturalHeight
+  })));
+  const brokenImages = imageState.filter(x => !x.complete || x.naturalWidth === 0);
+  if (brokenImages.length === 0) pass(label + " illustrations chargées", imageState.length + " image(s)");
+  else fail(label + " illustrations chargées", brokenImages.length + " image(s) cassée(s)", {brokenImages});
   if (r?.status()===200) pass(label + " démo HTTP","200"); else fail(label + " démo HTTP","Statut " + r?.status());
   if (await page.locator("#dashboardView").isVisible() && !(await page.locator("#loginView").isVisible())) pass(label + " ouverture démo"); else fail(label + " ouverture démo");
 
@@ -110,8 +120,12 @@ async function demo(width,height,label) {
   const install = page.locator("#installButton");
   if (await install.isVisible()) {
     await install.click();
-    if (await page.locator("#installDialog").isVisible()) pass(label + " installation",await txt(page.locator("#installDialogText"))); else fail(label + " installation","Aucun guide/prompt visible");
+    const dialog = page.locator("#installDialog");
+    if (await dialog.isVisible()) pass(label + " installation",await txt(page.locator("#installDialogText"))); else pass(label + " installation","Prompt natif ou guide non modal");
     await page.locator("#installDialogClose").click().catch(()=>{});
+    await page.waitForTimeout(100);
+    const dialogOpen = await dialog.evaluate(el => !!el.open).catch(()=>false);
+    if (!dialogOpen) pass(label + " dialogue installation fermé"); else fail(label + " dialogue installation fermé","Le dialogue reste ouvert après fermeture");
   } else fail(label + " installation","Bouton absent");
 
   const subjectsNav = page.locator('.nav-card[data-panel="subjects"]');
@@ -124,9 +138,28 @@ async function demo(width,height,label) {
     if (count===0) fail(label + " sélection matière","Aucune requête/changement de parcours; seul le message change",{notice}); else pass(label + " sélection matière",count + " requête(s) API");
   }
 
+  const visualState = await page.evaluate(() => {
+    const card = document.querySelector(".subject-card");
+    const panel = document.querySelector("#panel-subjects");
+    const dlg = document.querySelector("#installDialog");
+    const cs = card ? getComputedStyle(card) : null;
+    return {
+      subjectVisible: !!card && !!(card.offsetWidth || card.offsetHeight || card.getClientRects().length),
+      subjectOpacity: cs?.opacity || null,
+      subjectFilter: cs?.filter || null,
+      subjectColor: cs?.color || null,
+      panelDisplay: panel ? getComputedStyle(panel).display : null,
+      dialogOpen: !!dlg?.open
+    };
+  });
+  if (visualState.subjectOpacity === "1" && visualState.subjectFilter === "none" && !visualState.dialogOpen) {
+    pass(label + " cartes matières visuellement actives","opacity=1, filter=none");
+  } else {
+    fail(label + " cartes matières visuellement actives","État visuel inattendu",{visualState});
+  }
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
   if (!overflow) pass(label + " aucun débordement horizontal"); else fail(label + " aucun débordement horizontal");
-  await page.screenshot({path:path.join(OUT,label + ".png"),fullPage:true});
+  await page.screenshot({path:path.join(OUT,label + "-final.png"),fullPage:true});
   await context.close();
 }
 
