@@ -1,0 +1,844 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q01",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Combien font 1/3 + 1/3 ?",
+      "choices": [
+        "2/6",
+        "1/9",
+        "2/9",
+        "2/3"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "2/3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "1 tiers + 1 tiers = 2 tiers : 1/3 + 1/3 = 2/3. Le dénominateur ne change pas.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a additionné aussi les dénominateurs.",
+        "1": "L'élève a multiplié les fractions.",
+        "2": "L'élève a multiplié les dénominateurs."
+      },
+      "common_error_target": {
+        "0": "addition des dénominateurs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q02",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Combien font 5/8 − 2/8 ?",
+      "choices": [
+        "3/16",
+        "3/64",
+        "3/8",
+        "7/8"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "3/8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 huitièmes − 2 huitièmes = 3 huitièmes : 5/8 − 2/8 = 3/8.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a additionné les dénominateurs.",
+        "1": "L'élève a multiplié les dénominateurs.",
+        "3": "L'élève a additionné."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q03",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Combien font 4/7 + 5/7 ?",
+      "choices": [
+        "1/7",
+        "9/7",
+        "9/14",
+        "20/49"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "9/7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "4 septièmes + 5 septièmes = 9 septièmes : 9/7, une fraction plus grande que 1.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a soustrait.",
+        "2": "L'élève a additionné aussi les dénominateurs.",
+        "3": "L'élève a multiplié les fractions."
+      },
+      "common_error_target": {
+        "2": "addition des dénominateurs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q04",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Combien font 1 − 2/5 ?",
+      "choices": [
+        "3/5",
+        "7/5",
+        "1/5",
+        "2/5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3/5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "1 = 5/5, donc 1 − 2/5 = 5/5 − 2/5 = 3/5.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'élève a additionné.",
+        "2": "L'élève a mal converti 1 (en 3/5).",
+        "3": "L'élève a recopié la fraction enlevée."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q05",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Combien font 36/100 + 42/100 ?",
+      "choices": [
+        "78/200",
+        "6/100",
+        "78/10000",
+        "78/100"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "78/100",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "36 centièmes + 42 centièmes = 78 centièmes : 78/100.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a additionné aussi les dénominateurs.",
+        "1": "L'élève a soustrait.",
+        "2": "L'élève a multiplié les dénominateurs."
+      },
+      "common_error_target": {
+        "0": "addition des dénominateurs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q06",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Combien font 7/10 + 5/100 ?",
+      "choices": [
+        "12/110",
+        "57/100",
+        "75/100",
+        "12/100"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "75/100",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "7/10 = 70/100, donc 7/10 + 5/100 = 70/100 + 5/100 = 75/100.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a ajouté numérateurs et dénominateurs.",
+        "1": "L'élève a inversé les chiffres des dixièmes et des centièmes.",
+        "3": "L'élève a ajouté 7 et 5 sans convertir les dixièmes."
+      },
+      "common_error_target": {
+        "3": "oubli de la conversion dixièmes → centièmes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q07",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Combien font 1/4 + 3/4 ?",
+      "choices": [
+        "3/16",
+        "1",
+        "4/8",
+        "4/16"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "1 quart + 3 quarts = 4 quarts, et 4/4 = 1.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié les fractions.",
+        "2": "L'élève a additionné aussi les dénominateurs.",
+        "3": "L'élève a multiplié les dénominateurs."
+      },
+      "common_error_target": {
+        "2": "addition des dénominateurs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q08",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Paul mange 3/9 d'un gâteau et Anna 5/9. Quelle fraction du gâteau reste-t-il ?",
+      "choices": [
+        "1/9",
+        "8/9",
+        "2/9",
+        "1/18"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/9",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Ils ont mangé 3/9 + 5/9 = 8/9. Il reste 9/9 − 8/9 = 1/9.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est la partie mangée, pas le reste.",
+        "2": "L'élève a calculé 5/9 − 3/9.",
+        "3": "L'élève a mal calculé le dénominateur."
+      },
+      "common_error_target": {
+        "1": "arrêt après la première étape"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q09",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Combien font 13/6 − 5/6 ?",
+      "choices": [
+        "18/6",
+        "8/12",
+        "8/36",
+        "8/6"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "8/6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "13 sixièmes − 5 sixièmes = 8 sixièmes : 8/6.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a additionné.",
+        "1": "L'élève a additionné les dénominateurs.",
+        "2": "L'élève a multiplié les dénominateurs."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.fractions-addition.q10",
+      "notion_id": "MATHS.CM2.NCRP.additionner-et-soustraire-des-fractions",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Quelle fraction faut-il ajouter à 3/5 pour obtenir 1 ?",
+      "choices": [
+        "1/5",
+        "2/10",
+        "2/5",
+        "5/5"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "2/5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "1 = 5/5 et 5/5 − 3/5 = 2/5. Donc 3/5 + 2/5 = 1.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Erreur de calcul : 3/5 + 1/5 = 4/5.",
+        "1": "L'élève a changé le dénominateur.",
+        "3": "5/5 vaut 1 : c'est le total, pas ce qu'il faut ajouter."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q01",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Sam achète 3 paquets de 8 biscuits et 5 biscuits en vrac. Combien de biscuits a-t-il ?",
+      "choices": [
+        "16",
+        "39",
+        "24",
+        "29"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "29",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3 × 8 = 24 biscuits en paquets, puis 24 + 5 = 29 biscuits.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a additionné 3 + 8 + 5.",
+        "1": "L'élève a calculé 3 × (8 + 5).",
+        "2": "L'élève a oublié les biscuits en vrac."
+      },
+      "common_error_target": {
+        "2": "oubli d'une étape"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q02",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Inès a 25 €. Elle achète 4 BD à 5 € l'une. Combien lui reste-t-il, en euros ?",
+      "choices": [
+        "16",
+        "20",
+        "5",
+        "45"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "4 × 5 = 20 € de dépense, puis 25 − 20 = 5 €.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a enlevé 4 puis 5.",
+        "1": "C'est la dépense, pas ce qui reste.",
+        "3": "L'élève a ajouté la dépense."
+      },
+      "common_error_target": {
+        "1": "arrêt après la première étape"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q03",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Hugo a 2 billets de 20 €. Il achète 3 jeux à 7 € l'un. Combien lui reste-t-il, en euros ?",
+      "choices": [
+        "61",
+        "19",
+        "21",
+        "33"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "19",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Il a 2 × 20 = 40 €. Il dépense 3 × 7 = 21 €. Il reste 40 − 21 = 19 €.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a ajouté la dépense.",
+        "2": "C'est la dépense.",
+        "3": "L'élève a enlevé un seul jeu (40 − 7)."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q04",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "3 cars de 52 places emmènent 140 élèves. Pour trouver le nombre de places vides, quel calcul faut-il faire en premier ?",
+      "choices": [
+        "D'abord 3 × 52",
+        "D'abord 140 − 52",
+        "D'abord 140 : 3",
+        "D'abord 52 + 3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "D'abord 3 × 52",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Il faut d'abord connaître le nombre total de places : 3 × 52 = 156, puis 156 − 140 = 16 places vides.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Enlever un seul car ne donne pas le nombre de places vides.",
+        "2": "Partager les élèves n'est pas demandé.",
+        "3": "Ajouter des cars et des places n'a pas de sens."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q05",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "3 cars de 52 places emmènent 140 élèves. Combien reste-t-il de places vides ?",
+      "choices": [
+        "88",
+        "296",
+        "104",
+        "16"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "16",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Places : 3 × 52 = 156. Places vides : 156 − 140 = 16.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a fait 140 − 52.",
+        "1": "L'élève a ajouté les élèves aux places.",
+        "2": "L'élève a compté seulement 2 cars."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q06",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Léna achète 4 cahiers à 1,50 € l'un et un stylo à 2 €. Combien paie-t-elle, en euros ?",
+      "choices": [
+        "3,5",
+        "14",
+        "8",
+        "6"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "4 × 1,50 = 6 € de cahiers, puis 6 + 2 = 8 €.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a compté un seul cahier.",
+        "1": "L'élève a multiplié aussi le stylo par 4.",
+        "3": "L'élève a oublié le stylo."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q07",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Tom a 12 ans. L'âge de sa mère est le triple de celui de Tom, plus 2 ans. Quel âge a sa mère ?",
+      "choices": [
+        "36",
+        "38",
+        "17",
+        "42"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "38",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le triple de 12 : 3 × 12 = 36, puis 36 + 2 = 38 ans.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a oublié les 2 ans.",
+        "2": "L'élève a additionné 12 + 3 + 2.",
+        "3": "L'élève a calculé 3 × (12 + 2)."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q08",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Une boulangère prépare 96 croissants. Elle en vend 60 et met les autres par sachets de 4. Combien de sachets remplit-elle ?",
+      "choices": [
+        "9",
+        "24",
+        "15",
+        "36"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Il reste 96 − 60 = 36 croissants, et 36 : 4 = 9 sachets.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'élève a partagé tous les croissants.",
+        "2": "L'élève a partagé les croissants vendus.",
+        "3": "C'est le nombre de croissants restants."
+      },
+      "common_error_target": {
+        "3": "arrêt après la première étape"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q09",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Lucie fait 3 km pour aller à l'école et autant pour revenir, 5 jours par semaine. Quelle distance fait-elle par semaine, en km ?",
+      "choices": [
+        "15",
+        "11",
+        "8",
+        "30"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "30",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Par jour : 3 + 3 = 6 km. Par semaine : 6 × 5 = 30 km.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a oublié le retour.",
+        "1": "L'élève a additionné 3 + 3 + 5.",
+        "2": "L'élève a additionné 3 + 5."
+      },
+      "common_error_target": {
+        "0": "oubli du trajet retour"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.problemes-mixtes.q10",
+      "notion_id": "MATHS.CM2.NCRP.resoudre-des-problemes-mixtes-en-plusieurs-etapes",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Un jeu coûte 45 €. Sam a 18 € et reçoit 5 € par semaine pendant 4 semaines. Combien lui manque-t-il, en euros ?",
+      "choices": [
+        "22",
+        "38",
+        "7",
+        "27"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Il reçoit 5 × 4 = 20 €, il a donc 18 + 20 = 38 €. Il manque 45 − 38 = 7 €.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "L'élève a compté une seule semaine.",
+        "1": "C'est l'argent de Sam, pas ce qui manque.",
+        "3": "L'élève a oublié l'argent reçu."
+      },
+      "common_error_target": {
+        "1": "arrêt avant la dernière étape"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q01",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Quelle est l'aire d'un rectangle de 7 cm sur 5 cm ?",
+      "choices": [
+        "24 cm²",
+        "12 cm²",
+        "70 cm²",
+        "35 cm²"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "35 cm²",
+      "answer_kind": "QUANTITY",
+      "explanation": "Aire = longueur × largeur = 7 × 5 = 35 cm².",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est le périmètre (2 × (7 + 5)) avec la mauvaise unité.",
+        "1": "C'est la somme 7 + 5.",
+        "2": "C'est le double de l'aire."
+      },
+      "common_error_target": {
+        "0": "confusion aire / périmètre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q02",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Quelle est l'aire d'un carré de 9 cm de côté ?",
+      "choices": [
+        "18 cm²",
+        "27 cm²",
+        "81 cm²",
+        "36 cm²"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "81 cm²",
+      "answer_kind": "QUANTITY",
+      "explanation": "Aire = côté × côté = 9 × 9 = 81 cm².",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est 9 × 2.",
+        "1": "C'est 9 × 3.",
+        "3": "C'est le périmètre (4 × 9) avec la mauvaise unité."
+      },
+      "common_error_target": {
+        "3": "confusion aire / périmètre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q03",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Quelle unité convient le mieux pour exprimer l'aire du sol d'une salle de classe ?",
+      "choices": [
+        "cm",
+        "m²",
+        "cm²",
+        "m"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "m²",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une aire s'exprime en unités d'aire ; pour une grande surface comme une salle, on utilise le mètre carré (m²).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Le centimètre est une unité de longueur.",
+        "2": "Le cm² convient pour de petites surfaces (une feuille, un timbre).",
+        "3": "Le mètre est une unité de longueur."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q04",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Un rectangle a une aire de 42 m² et une longueur de 7 m. Quelle est sa largeur ?",
+      "choices": [
+        "6 m",
+        "35 m",
+        "49 m",
+        "294 m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "7 × largeur = 42, donc largeur = 42 : 7 = 6 m.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'élève a soustrait 7 de 42.",
+        "2": "L'élève a calculé 7 × 7.",
+        "3": "L'élève a multiplié 42 par 7."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q05",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Quelle est l'aire d'un rectangle de 10 m sur 4 m ?",
+      "choices": [
+        "14 m²",
+        "28 m²",
+        "80 m²",
+        "40 m²"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "40 m²",
+      "answer_kind": "QUANTITY",
+      "explanation": "L'aire d'un rectangle est longueur × largeur : 10 × 4 = 40 m².",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est la somme des dimensions.",
+        "1": "C'est le nombre du périmètre (2 × 14).",
+        "2": "C'est le double de l'aire."
+      },
+      "common_error_target": {
+        "1": "confusion aire / périmètre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q06",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Quelle figure a la plus grande aire ? Carré A : 5 cm de côté ; rectangle B : 6 cm sur 4 cm ; rectangle C : 8 cm sur 3 cm.",
+      "choices": [
+        "Le carré A",
+        "Le rectangle B",
+        "Le rectangle C"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Le carré A",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "A : 5 × 5 = 25 cm². B : 6 × 4 = 24 cm². C : 8 × 3 = 24 cm². C'est le carré A qui a la plus grande aire.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "B a une aire de 24 cm², plus petite que 25 cm².",
+        "2": "C a le côté le plus long, mais son aire (24 cm²) est plus petite que 25 cm²."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q07",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Une figure est formée de deux rectangles accolés : l'un de 5 cm sur 2 cm, l'autre de 3 cm sur 2 cm. Quelle est son aire ?",
+      "choices": [
+        "60 cm²",
+        "16 cm²",
+        "12 cm²",
+        "30 cm²"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "16 cm²",
+      "answer_kind": "QUANTITY",
+      "explanation": "5 × 2 = 10 cm² et 3 × 2 = 6 cm². Aire totale : 10 + 6 = 16 cm².",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié les deux aires.",
+        "2": "L'élève a additionné toutes les dimensions.",
+        "3": "L'élève a calculé 5 × 3 × 2."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q08",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Un carré a 1 m de côté. Quelle est son aire, en dm² ?",
+      "choices": [
+        "100 dm²",
+        "10 dm²",
+        "1000 dm²",
+        "4 dm²"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "100 dm²",
+      "answer_kind": "QUANTITY",
+      "explanation": "1 m = 10 dm, donc l'aire est 10 × 10 = 100 dm².",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "L'élève a converti comme une longueur (1 m = 10 dm).",
+        "2": "L'élève a multiplié par 1 000.",
+        "3": "C'est le périmètre du carré en mètres."
+      },
+      "common_error_target": {
+        "1": "conversion d'aire traitée comme une longueur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q09",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Un rectangle a une aire de 20 cm² et une longueur de 5 cm. Quelle est sa largeur ?",
+      "choices": [
+        "15 cm",
+        "100 cm",
+        "10 cm",
+        "4 cm"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "4 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "5 × largeur = 20, donc largeur = 20 : 5 = 4 cm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a soustrait.",
+        "1": "L'élève a multiplié 20 par 5.",
+        "2": "L'élève a divisé par 2."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM2.aire-rectangle.q10",
+      "notion_id": "MATHS.CM2.GM.determiner-laire-dun-carre-ou-dun-rectangle",
+      "subject": "MATHS",
+      "level": "CM2",
+      "question": "Si on double la longueur du côté d'un carré, son aire est multipliée par…",
+      "choices": [
+        "8",
+        "16",
+        "4",
+        "2"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Si le côté passe de c à 2c, l'aire passe de c × c à 2c × 2c = 4 × (c × c) : elle est multipliée par 4.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié 2 × 4.",
+        "1": "L'élève a élevé 4 au carré.",
+        "3": "Doubler les côtés ne double pas l'aire."
+      },
+      "common_error_target": {
+        "3": "l'aire serait doublée comme les côtés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,2128 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.d01",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On considère la fonction affine f définie par f(x) = 3x − 2. Calculer l'image de 4 par f.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "f(4) = 3 × 4 − 2 = 12 − 2 = 10. L'image de 4 par f est 10.",
+      "step_by_step_solution": [
+        "On remplace x par 4 dans l'expression de f.",
+        "f(4) = 3 × 4 − 2 = 12 − 2.",
+        "f(4) = 10."
+      ],
+      "hints": [
+        "L'image de 4, c'est f(4).",
+        "Respecte les priorités : la multiplication d'abord."
+      ],
+      "common_errors": {
+        "14": "L'élève a ajouté 2 au lieu de le soustraire.",
+        "2/3": "L'élève a cherché un antécédent au lieu d'une image."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une image par une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.d02",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit g la fonction définie par g(x) = −2x + 5. Déterminer g(−3).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11"
+      },
+      "solution": "g(−3) = −2 × (−3) + 5 = 6 + 5 = 11.",
+      "step_by_step_solution": [
+        "On remplace x par −3, entre parenthèses.",
+        "−2 × (−3) = 6.",
+        "g(−3) = 6 + 5 = 11."
+      ],
+      "hints": [
+        "Mets −3 entre parenthèses quand tu le remplaces.",
+        "Le produit de deux nombres négatifs est positif."
+      ],
+      "common_errors": {
+        "-1": "L'élève a calculé −2 × (−3) = −6 : règle des signes mal appliquée."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une image par une fonction affine",
+        "Calculer avec des nombres relatifs"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.d03",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Parmi les fonctions suivantes, laquelle est une fonction linéaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Une fonction linéaire s'écrit x ↦ ax. Seule h(x) = 4x est de cette forme (a = 4) ; h(x) = 4x + 1 est affine mais pas linéaire.",
+      "step_by_step_solution": [
+        "Une fonction linéaire s'écrit f(x) = ax, sans terme constant.",
+        "4x + 1 a un terme constant ; x² + 4 et 4/x ne sont pas de la forme ax.",
+        "La fonction linéaire est h(x) = 4x."
+      ],
+      "hints": [
+        "Une fonction linéaire est une fonction affine particulière : laquelle ?",
+        "Cherche l'expression sans terme constant et sans carré ni quotient par x."
+      ],
+      "common_errors": {
+        "1": "Le terme constant 1 empêche la fonction d'être linéaire.",
+        "2": "Le carré de x ne correspond pas à une fonction affine.",
+        "3": "Une division par x ne correspond pas à une fonction affine."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Reconnaître une fonction linéaire"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "choices": [
+        "h(x) = 4x",
+        "h(x) = 4x + 1",
+        "h(x) = x² + 4",
+        "h(x) = 4/x"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.d04",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f la fonction définie par f(x) = 5x + 1. Déterminer l'antécédent de 21 par f.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "On résout 5x + 1 = 21 : 5x = 20, donc x = 4. Vérification : f(4) = 21. L'antécédent de 21 est 4.",
+      "step_by_step_solution": [
+        "Chercher l'antécédent de 21, c'est résoudre f(x) = 21.",
+        "5x + 1 = 21, donc 5x = 20.",
+        "x = 4."
+      ],
+      "hints": [
+        "Écris l'équation f(x) = 21.",
+        "Ne confonds pas image et antécédent."
+      ],
+      "common_errors": {
+        "106": "L'élève a calculé l'image de 21 au lieu de son antécédent.",
+        "22/5": "L'élève a ajouté 1 au lieu de le soustraire."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer un antécédent par une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.d05",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "GRAPH_INTERPRETATION",
+      "statement": "La droite représentant une fonction affine f passe par les points A(0 ; 1) et B(2 ; 7). Quel est le coefficient directeur de cette droite ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "a = (7 − 1) ÷ (2 − 0) = 6 ÷ 2 = 3. Quand x augmente de 2, l'image augmente de 6, soit 3 par unité.",
+      "step_by_step_solution": [
+        "Le coefficient directeur est a = (f(2) − f(0)) ÷ (2 − 0).",
+        "f(2) − f(0) = 7 − 1 = 6.",
+        "a = 6 ÷ 2 = 3."
+      ],
+      "hints": [
+        "De combien augmente l'ordonnée quand l'abscisse passe de 0 à 2 ?",
+        "Ramène cette augmentation à une augmentation de 1 de l'abscisse."
+      ],
+      "common_errors": {
+        "6": "L'élève a oublié de diviser par l'écart des abscisses.",
+        "1": "L'élève a donné l'ordonnée à l'origine."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Lire graphiquement le coefficient directeur"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.a01",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "f est une fonction affine telle que f(1) = 5 et f(3) = 11. Déterminer l'expression de f(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3x + 2",
+        "required_form": "developpee"
+      },
+      "solution": "a = (11 − 5) ÷ (3 − 1) = 3. Puis f(1) = 3 × 1 + b = 5 donne b = 2. Donc f(x) = 3x + 2.",
+      "step_by_step_solution": [
+        "a = (f(3) − f(1)) ÷ (3 − 1) = 6 ÷ 2 = 3.",
+        "f(1) = 3 + b = 5, donc b = 2.",
+        "f(x) = 3x + 2."
+      ],
+      "hints": [
+        "Commence par calculer le coefficient directeur a.",
+        "Utilise ensuite l'une des deux images pour trouver b."
+      ],
+      "common_errors": {
+        "6x - 1": "L'élève a oublié de diviser par l'écart des abscisses.",
+        "3x + 5": "L'élève a pris f(1) comme ordonnée à l'origine."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer l'expression d'une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.a02",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "f est une fonction linéaire telle que f(4) = 10. Déterminer l'expression de f(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2,5x",
+        "required_form": "developpee"
+      },
+      "solution": "f(x) = ax avec 4a = 10, donc a = 10 ÷ 4 = 2,5 et f(x) = 2,5x.",
+      "step_by_step_solution": [
+        "Une fonction linéaire s'écrit f(x) = ax.",
+        "f(4) = 4a = 10.",
+        "a = 2,5, donc f(x) = 2,5x."
+      ],
+      "hints": [
+        "Quelle est la forme générale d'une fonction linéaire ?",
+        "Écris l'équation donnée par f(4) = 10."
+      ],
+      "common_errors": {
+        "0,4x": "L'élève a divisé 4 par 10 au lieu de 10 par 4.",
+        "10x": "L'élève a pris l'image comme coefficient."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer l'expression d'une fonction affine",
+        "Reconnaître une fonction linéaire"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.a03",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un taxi facture 2,50 € de prise en charge puis 1,20 € par kilomètre. On note P(x) le prix, en euros, d'une course de x km. Quel est le prix, en euros, d'une course de 15 km ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "20,5"
+      },
+      "solution": "P(x) = 1,2x + 2,5, donc P(15) = 1,2 × 15 + 2,5 = 18 + 2,5 = 20,5. La course coûte 20,50 €.",
+      "step_by_step_solution": [
+        "Le prix est une fonction affine de la distance : P(x) = 1,2x + 2,5.",
+        "P(15) = 1,2 × 15 + 2,5.",
+        "P(15) = 18 + 2,5 = 20,5."
+      ],
+      "hints": [
+        "Quelle partie du prix ne dépend pas de la distance ?",
+        "Écris P(x) puis calcule l'image de 15."
+      ],
+      "common_errors": {
+        "18": "L'élève a oublié la prise en charge.",
+        "38,7": "L'élève a inversé le prix au kilomètre et la prise en charge (2,5 × 15 + 1,2)."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une image par une fonction affine",
+        "Modéliser une situation par une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.a04",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "GRAPH_INTERPRETATION",
+      "statement": "La représentation graphique d'une fonction affine f est la droite passant par les points C(0 ; −1) et D(2 ; 3). Déterminer l'expression de f(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2x - 1",
+        "required_form": "developpee"
+      },
+      "solution": "L'ordonnée à l'origine est b = −1 (point C). a = (3 − (−1)) ÷ (2 − 0) = 4 ÷ 2 = 2. Donc f(x) = 2x − 1.",
+      "step_by_step_solution": [
+        "Le point C(0 ; −1) donne l'ordonnée à l'origine : b = −1.",
+        "a = (3 − (−1)) ÷ 2 = 2.",
+        "f(x) = 2x − 1."
+      ],
+      "hints": [
+        "Lequel des deux points est sur l'axe des ordonnées ?",
+        "Attention au signe dans le calcul de 3 − (−1)."
+      ],
+      "common_errors": {
+        "x - 1": "L'élève a calculé 3 − 1 au lieu de 3 − (−1).",
+        "2x + 3": "L'élève a pris l'ordonnée de D comme ordonnée à l'origine."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer l'expression d'une fonction affine",
+        "Lire une représentation graphique"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.a05",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit g la fonction définie par g(x) = −3x + 4. Déterminer l'antécédent de −11 par g.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "On résout −3x + 4 = −11 : −3x = −15, donc x = 5. Vérification : g(5) = −15 + 4 = −11.",
+      "step_by_step_solution": [
+        "On résout g(x) = −11.",
+        "−3x = −11 − 4 = −15.",
+        "x = −15 ÷ (−3) = 5."
+      ],
+      "hints": [
+        "Écris l'équation à résoudre.",
+        "Divise par un nombre négatif avec soin."
+      ],
+      "common_errors": {
+        "-5": "L'élève a fait une erreur de signe en divisant par −3.",
+        "37": "L'élève a calculé l'image de −11 au lieu de son antécédent."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer un antécédent par une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.c01",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Les fonctions f et g sont définies par f(x) = 2x + 3 et g(x) = −x + 9. Leurs représentations graphiques se coupent en un point. Quelle est l'abscisse de ce point ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "Au point d'intersection, f(x) = g(x) : 2x + 3 = −x + 9, donc 3x = 6 et x = 2. (Les deux images valent alors 7.)",
+      "step_by_step_solution": [
+        "Le point d'intersection a la même image par f et par g.",
+        "2x + 3 = −x + 9, donc 3x = 6.",
+        "x = 2."
+      ],
+      "hints": [
+        "Quelle égalité vérifie l'abscisse d'un point commun aux deux droites ?",
+        "Regroupe les termes en x dans un même membre."
+      ],
+      "common_errors": {
+        "7": "L'élève a donné l'ordonnée du point au lieu de son abscisse.",
+        "6": "L'élève a soustrait x au lieu de l'ajouter : 2x − x = 9 − 3."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer l'intersection de deux droites"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.c02",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un cinéma propose deux formules. Formule A : 8 € la place. Formule B : une carte de 20 € puis 4 € la place. À partir de combien de places achetées la formule B est-elle strictement moins chère ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "A(x) = 8x et B(x) = 4x + 20. Égalité pour 8x = 4x + 20, soit x = 5 (40 € dans les deux cas). Pour 6 places : A = 48 € et B = 44 €. La formule B est strictement moins chère à partir de 6 places.",
+      "step_by_step_solution": [
+        "On modélise : A(x) = 8x (fonction linéaire) et B(x) = 4x + 20 (fonction affine).",
+        "Les deux prix sont égaux pour 8x = 4x + 20, c'est-à-dire x = 5.",
+        "Au-delà de 5 places, B est moins chère : la réponse est 6 places."
+      ],
+      "hints": [
+        "Exprime le prix de chaque formule en fonction du nombre de places.",
+        "Cherche d'abord pour quel nombre de places les prix sont égaux."
+      ],
+      "common_errors": {
+        "5": "Pour 5 places, les deux formules coûtent le même prix : B n'est pas strictement moins chère.",
+        "20": "L'élève a donné le prix de la carte."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Modéliser une situation par une fonction affine",
+        "Comparer deux fonctions"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.c03",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "f est une fonction affine telle que f(−2) = 7 et f(4) = −5. Déterminer l'expression de f(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-2x + 3",
+        "required_form": "developpee"
+      },
+      "solution": "a = (−5 − 7) ÷ (4 − (−2)) = −12 ÷ 6 = −2. Puis f(4) = −8 + b = −5, donc b = 3. Ainsi f(x) = −2x + 3.",
+      "step_by_step_solution": [
+        "a = (f(4) − f(−2)) ÷ (4 − (−2)) = −12 ÷ 6 = −2.",
+        "f(4) = −2 × 4 + b = −5, donc b = 3.",
+        "f(x) = −2x + 3."
+      ],
+      "hints": [
+        "Calcule soigneusement les deux différences, attention aux signes.",
+        "Un coefficient directeur négatif correspond à une fonction décroissante."
+      ],
+      "common_errors": {
+        "-6x + 19": "L'élève a divisé par 2 au lieu de 6 dans le calcul de a (écart des abscisses mal calculé).",
+        "2x - 13": "L'élève a obtenu un coefficient directeur positif par erreur de signe."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer l'expression d'une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.c04",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Le prix d'un article augmente de 15 %. On note f(x) le nouveau prix d'un article qui coûtait x euros ; f est une fonction linéaire. Quel est son coefficient ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1,15"
+      },
+      "solution": "Nouveau prix = x + 0,15x = 1,15x : f est la fonction linéaire x ↦ 1,15x, de coefficient = 1,15.",
+      "step_by_step_solution": [
+        "Augmenter de 15 %, c'est ajouter 15/100 du prix : x + 0,15x.",
+        "x + 0,15x = (1 + 0,15)x.",
+        "Le coefficient est 1 + 0,15 = 1,15."
+      ],
+      "hints": [
+        "Exprime le nouveau prix comme le prix initial plus l'augmentation.",
+        "Factorise par x."
+      ],
+      "common_errors": {
+        "0,15": "L'élève a donné le taux d'évolution au lieu du coefficient multiplicateur.",
+        "15": "L'élève a confondu le pourcentage et le coefficient."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Relier pourcentage d'évolution et fonction linéaire"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.c05",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour convertir une température de degrés Celsius en degrés Fahrenheit, on utilise la fonction affine F(c) = 1,8c + 32. Quelle température en degrés Fahrenheit correspond à 25 degrés Celsius ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "77"
+      },
+      "solution": "F(25) = 1,8 × 25 + 32 = 45 + 32 = 77. 25 degrés Celsius correspondent à 77 degrés Fahrenheit.",
+      "step_by_step_solution": [
+        "On calcule l'image de 25 par F.",
+        "1,8 × 25 = 45.",
+        "F(25) = 45 + 32 = 77."
+      ],
+      "hints": [
+        "Remplace c par 25.",
+        "Multiplie avant d'ajouter."
+      ],
+      "common_errors": {
+        "45": "L'élève a oublié d'ajouter 32.",
+        "-3,9": "L'élève a cherché un antécédent au lieu d'une image."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une image par une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.x01",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "La droite (AB), avec A(2 ; 5) et B(6 ; 13), représente une fonction affine f. Calculer f(−4).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-7"
+      },
+      "solution": "a = (13 − 5) ÷ (6 − 2) = 2. f(2) = 2 × 2 + b = 5 donne b = 1, donc f(x) = 2x + 1. Alors f(−4) = −8 + 1 = −7.",
+      "step_by_step_solution": [
+        "a = (13 − 5) ÷ (6 − 2) = 8 ÷ 4 = 2.",
+        "f(2) = 4 + b = 5, donc b = 1 et f(x) = 2x + 1.",
+        "f(−4) = 2 × (−4) + 1 = −7."
+      ],
+      "hints": [
+        "Détermine d'abord l'expression de f.",
+        "Calcule ensuite l'image demandée."
+      ],
+      "common_errors": {
+        "-9": "L'élève a oublié l'ordonnée à l'origine (b = 1).",
+        "-3": "L'élève a pris b = 5 au lieu de b = 1."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Déterminer l'expression d'une fonction affine",
+        "Calculer une image par une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.x02",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un réservoir contient 60 L d'eau et se vide à débit constant de 2,5 L par minute. Le volume restant après t minutes est V(t) = 60 − 2,5t. Au bout de combien de temps le réservoir est-il vide ? Répondre en minutes.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 24,
+        "unit": "min"
+      },
+      "solution": "Le réservoir est vide quand V(t) = 0 : 60 − 2,5t = 0, donc t = 60 ÷ 2,5 = 24. Il est vide au bout de 24 min.",
+      "step_by_step_solution": [
+        "On cherche l'antécédent de 0 par V.",
+        "60 − 2,5t = 0, donc 2,5t = 60.",
+        "t = 60 ÷ 2,5 = 24 min."
+      ],
+      "hints": [
+        "Que vaut le volume quand le réservoir est vide ?",
+        "Résous l'équation obtenue."
+      ],
+      "common_errors": {
+        "150 min": "L'élève a multiplié 60 par 2,5.",
+        "57,5 min": "L'élève a soustrait 2,5 de 60."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer un antécédent par une fonction affine",
+        "Modéliser une situation par une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.fonctions-affines.x03",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "La fonction affine f vérifie f(0) = 4, et sa représentation graphique est parallèle à celle de la fonction linéaire g(x) = −3x. Déterminer l'antécédent de 16 par f.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-4"
+      },
+      "solution": "Deux droites parallèles ont le même coefficient directeur : a = −3 ; f(0) = 4 donne b = 4. Donc f(x) = −3x + 4. On résout −3x + 4 = 16 : −3x = 12, x = −4.",
+      "step_by_step_solution": [
+        "Même coefficient directeur que g : a = −3.",
+        "f(0) = 4, donc b = 4 et f(x) = −3x + 4.",
+        "−3x + 4 = 16, donc −3x = 12 et x = −4."
+      ],
+      "hints": [
+        "Que peut-on dire des coefficients directeurs de deux droites parallèles ?",
+        "Que représente f(0) sur le graphique ?"
+      ],
+      "common_errors": {
+        "4": "L'élève a fait une erreur de signe en divisant par −3.",
+        "-44": "L'élève a calculé l'image de 16 au lieu de son antécédent."
+      },
+      "remediation": "Revenir à la définition : une fonction affine s'écrit f(x) = ax + b ; a est le coefficient directeur (on ajoute a à l'image quand x augmente de 1), b est l'ordonnée à l'origine (image de 0). Une fonction linéaire est le cas b = 0 : sa représentation est une droite passant par l'origine. Pour trouver a à partir de deux points, calculer (f(x₂) − f(x₁)) / (x₂ − x₁).",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Déterminer l'expression d'une fonction affine",
+        "Déterminer un antécédent par une fonction affine"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.d01",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Le triangle ABC est rectangle en A. Quelle écriture est égale à $\\cos(\\widehat{ABC})$ ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Pour l'angle en B, le côté adjacent est [AB] et l'hypoténuse est [BC] : le cosinus vaut AB/BC.",
+      "step_by_step_solution": [
+        "L'hypoténuse est [BC], opposée à l'angle droit en A.",
+        "Le côté adjacent à l'angle en B (autre que l'hypoténuse) est [AB].",
+        "cos = adjacent / hypoténuse = AB/BC."
+      ],
+      "hints": [
+        "Repère d'abord l'hypoténuse.",
+        "Le côté adjacent « touche » l'angle étudié."
+      ],
+      "common_errors": {
+        "1": "AC/BC est le sinus de l'angle en B (côté opposé / hypoténuse).",
+        "2": "AC/AB est la tangente de l'angle en B, et AB/AC n'en est aucune."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les définitions des lignes trigonométriques"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "choices": [
+        "AB/BC",
+        "AC/BC",
+        "AB/AC"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.d02",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec AB = 3 cm et BC = 5 cm. Calculer $\\cos(\\widehat{ABC})$ sous forme de fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/5"
+      },
+      "solution": "cos = côté adjacent / hypoténuse = AB ÷ BC, donc le cosinus de l'angle en B vaut 3/5 (soit 0,6).",
+      "step_by_step_solution": [
+        "L'hypoténuse est [BC] = 5 cm.",
+        "Le côté adjacent à l'angle en B est [AB] = 3 cm.",
+        "Le cosinus de l'angle en B vaut AB/BC = 3/5."
+      ],
+      "hints": [
+        "Quelle est la formule du cosinus ?",
+        "Quel côté est adjacent à l'angle en B ?"
+      ],
+      "common_errors": {
+        "5/3": "L'élève a inversé le rapport.",
+        "4/5": "L'élève a calculé le sinus (AC = 4 cm)."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les définitions des lignes trigonométriques"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.d03",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec AB = 4 cm et AC = 3 cm. Écrire $\\tan(\\widehat{ABC})$ sous forme de fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/4"
+      },
+      "solution": "tan = côté opposé / côté adjacent = AC ÷ AB, donc la tangente de l'angle en B vaut 3/4 (soit 0,75).",
+      "step_by_step_solution": [
+        "Pour l'angle en B, le côté opposé est [AC] et le côté adjacent est [AB].",
+        "tan = opposé / adjacent.",
+        "La tangente de l'angle en B vaut AC/AB = 3/4."
+      ],
+      "hints": [
+        "La tangente n'utilise pas l'hypoténuse.",
+        "Quel côté est en face de l'angle en B ?"
+      ],
+      "common_errors": {
+        "4/3": "L'élève a inversé opposé et adjacent.",
+        "3/5": "L'élève a calculé le sinus (BC = 5 cm)."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les définitions des lignes trigonométriques"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.d04",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle DEF est rectangle en E, avec EF = 7 cm et DF = 25 cm. Calculer $\\sin(\\widehat{EDF})$ sous forme de fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7/25"
+      },
+      "solution": "Pour l'angle en D, le côté opposé est [EF] et l'hypoténuse est [DF] : le sinus vaut EF ÷ DF = 7/25 (soit 0,28).",
+      "step_by_step_solution": [
+        "L'hypoténuse est [DF], opposée à l'angle droit en E.",
+        "Le côté opposé à l'angle en D est [EF].",
+        "sin = opposé / hypoténuse = 7/25."
+      ],
+      "hints": [
+        "Quel côté est en face de l'angle en D ?",
+        "Le sinus utilise l'hypoténuse."
+      ],
+      "common_errors": {
+        "25/7": "L'élève a inversé le rapport.",
+        "7/24": "L'élève a calculé la tangente (DE = 24 cm)."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les définitions des lignes trigonométriques"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.d05",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec BC = 10 cm et $\\widehat{ABC}$ = 30°. Calculer AC, en cm.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 5,
+        "unit": "cm"
+      },
+      "solution": "AC est le côté opposé à l'angle en B et [BC] l'hypoténuse : AC = BC × sin(30°) = 10 × 0,5 = 5 cm.",
+      "step_by_step_solution": [
+        "On connaît l'hypoténuse et on cherche le côté opposé à l'angle en B : on utilise le sinus.",
+        "sin(30°) = AC/BC, donc AC = 10 × sin(30°).",
+        "sin(30°) = 0,5, donc AC = 5 cm."
+      ],
+      "hints": [
+        "Quel côté cherche-t-on par rapport à l'angle de 30° ?",
+        "Quelle ligne trigonométrique relie le côté opposé et l'hypoténuse ?"
+      ],
+      "common_errors": {
+        "8,7 cm": "L'élève a utilisé le cosinus au lieu du sinus.",
+        "20 cm": "L'élève a divisé par sin(30°) au lieu de multiplier."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.a01",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec BC = 8 cm et $\\widehat{ABC}$ = 40°. Calculer AB en cm, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 6.1,
+        "unit": "cm",
+        "tolerance_relative": 0.01
+      },
+      "solution": "[AB] est le côté adjacent à l'angle en B : AB = BC × cos(40°) = 8 × cos(40°) ≈ 6,1 cm.",
+      "step_by_step_solution": [
+        "On connaît l'hypoténuse, on cherche le côté adjacent : on utilise le cosinus.",
+        "cos(40°) = AB/BC, donc AB = 8 × cos(40°).",
+        "AB ≈ 6,128, soit 6,1 cm au dixième."
+      ],
+      "hints": [
+        "Le côté cherché touche-t-il l'angle de 40° ?",
+        "Calculatrice en mode degrés."
+      ],
+      "common_errors": {
+        "5,1 cm": "L'élève a utilisé le sinus au lieu du cosinus.",
+        "10,4 cm": "L'élève a divisé par cos(40°) au lieu de multiplier."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.a02",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec AB = 5 cm et $\\widehat{ABC}$ = 35°. Calculer AC en cm, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 3.5,
+        "unit": "cm",
+        "tolerance_relative": 0.01
+      },
+      "solution": "[AC] est opposé à l'angle en B et [AB] lui est adjacent : AC = AB × tan(35°) = 5 × tan(35°) ≈ 3,5 cm.",
+      "step_by_step_solution": [
+        "On connaît le côté adjacent et on cherche le côté opposé : on utilise la tangente.",
+        "tan(35°) = AC/AB, donc AC = 5 × tan(35°).",
+        "AC ≈ 3,501, soit 3,5 cm."
+      ],
+      "hints": [
+        "L'hypoténuse n'intervient pas ici.",
+        "Quelle ligne trigonométrique relie opposé et adjacent ?"
+      ],
+      "common_errors": {
+        "2,9 cm": "L'élève a utilisé le sinus au lieu de la tangente.",
+        "7,1 cm": "L'élève a divisé par tan(35°) au lieu de multiplier."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.a03",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec AB = 6 cm et BC = 9 cm. Calculer la mesure de l'angle $\\widehat{ABC}$, en degrés, arrondie au degré.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "48"
+      },
+      "solution": "cos = adjacent / hypoténuse = 6/9 = 2/3. Avec la touche arccos (ou cos⁻¹) : l'angle en B mesure environ 48,19°, donc arrondi au degré = 48 (degrés).",
+      "step_by_step_solution": [
+        "On connaît le côté adjacent (AB) et l'hypoténuse (BC) : on utilise le cosinus.",
+        "cos = 6/9 = 2/3.",
+        "La calculatrice donne 48,19 environ : arrondi au degré, la mesure est = 48."
+      ],
+      "hints": [
+        "Quelle formule relie le côté adjacent et l'hypoténuse ?",
+        "Utilise la fonction réciproque du cosinus sur la calculatrice."
+      ],
+      "common_errors": {
+        "42": "L'élève a utilisé le sinus au lieu du cosinus.",
+        "34": "L'élève a utilisé la tangente avec 6 et 9."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un angle avec la trigonométrie"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.a04",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle MNP est rectangle en M, avec MN = 4 cm et MP = 7 cm. Déterminer la mesure de $\\widehat{MNP}$, en degrés, arrondie au degré.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "60"
+      },
+      "solution": "Pour l'angle en N, [MP] est le côté opposé et [MN] le côté adjacent : tan = 7/4 = 1,75. La calculatrice donne 60,26 environ, donc arrondi au degré = 60 (degrés).",
+      "step_by_step_solution": [
+        "On connaît les deux côtés de l'angle droit : on utilise la tangente.",
+        "tan = MP/MN = 7/4 = 1,75.",
+        "Arctan donne 60,26 environ : la mesure arrondie est = 60."
+      ],
+      "hints": [
+        "Quels côtés sont connus par rapport à l'angle en N ?",
+        "Utilise la fonction réciproque de la tangente."
+      ],
+      "common_errors": {
+        "30": "L'élève a inversé opposé et adjacent (tan = 4/7).",
+        "2": "L'élève a oublié d'utiliser la fonction réciproque."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un angle avec la trigonométrie"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.a05",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une échelle de 6 m est appuyée contre un mur vertical ; elle forme un angle de 70° avec le sol horizontal. À quelle hauteur l'échelle touche-t-elle le mur ? Répondre en m, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 5.6,
+        "unit": "m",
+        "tolerance_relative": 0.01
+      },
+      "solution": "L'échelle est l'hypoténuse et la hauteur est le côté opposé à l'angle de 70° : h = 6 × sin(70°) ≈ 5,6 m.",
+      "step_by_step_solution": [
+        "Le mur est perpendiculaire au sol : triangle rectangle d'hypoténuse l'échelle.",
+        "La hauteur est opposée à l'angle de 70° : sin(70°) = h/6.",
+        "h = 6 × sin(70°) ≈ 5,638, soit 5,6 m."
+      ],
+      "hints": [
+        "Fais un schéma et place l'angle de 70°.",
+        "La hauteur cherchée est-elle opposée ou adjacente à cet angle ?"
+      ],
+      "common_errors": {
+        "2,1 m": "L'élève a utilisé le cosinus : c'est la distance au mur.",
+        "16,5 m": "L'élève a utilisé la tangente."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie",
+        "Modéliser une situation par un triangle rectangle"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.c01",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec AB = 7 cm et $\\widehat{ABC}$ = 50°. Calculer l'hypoténuse BC en cm, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 10.9,
+        "unit": "cm",
+        "tolerance_relative": 0.01
+      },
+      "solution": "cos(50°) = AB/BC, donc BC = AB ÷ cos(50°) = 7 ÷ cos(50°) ≈ 10,9 cm.",
+      "step_by_step_solution": [
+        "[AB] est adjacent à l'angle en B, [BC] est l'hypoténuse : cos(50°) = 7/BC.",
+        "BC = 7 ÷ cos(50°).",
+        "BC ≈ 10,89, soit 10,9 cm."
+      ],
+      "hints": [
+        "L'inconnue est au dénominateur : pense au produit en croix.",
+        "Contrôle : l'hypoténuse doit être plus longue que AB."
+      ],
+      "common_errors": {
+        "4,5 cm": "L'élève a multiplié par cos(50°) au lieu de diviser.",
+        "9,1 cm": "L'élève a divisé par sin(50°)."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie",
+        "Isoler une longueur au dénominateur"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.c02",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec AC = 4 cm et $\\widehat{ABC}$ = 25°. Calculer AB en cm, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 8.6,
+        "unit": "cm",
+        "tolerance_relative": 0.01
+      },
+      "solution": "[AC] est opposé et [AB] adjacent à l'angle en B : tan(25°) = 4/AB, donc AB = 4 ÷ tan(25°) ≈ 8,6 cm.",
+      "step_by_step_solution": [
+        "On relie opposé (connu) et adjacent (cherché) : tangente.",
+        "tan(25°) = AC/AB, donc AB = 4 ÷ tan(25°).",
+        "AB ≈ 8,58, soit 8,6 cm."
+      ],
+      "hints": [
+        "Écris d'abord l'égalité avec la tangente.",
+        "L'inconnue est au dénominateur."
+      ],
+      "common_errors": {
+        "1,9 cm": "L'élève a multiplié par tan(25°) au lieu de diviser.",
+        "9,5 cm": "L'élève a divisé par sin(25°) : c'est l'hypoténuse."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie",
+        "Isoler une longueur au dénominateur"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.c03",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une rampe d'accès rectiligne de 5 m de long permet de monter une marche de 0,4 m de haut. Quel angle la rampe forme-t-elle avec le sol horizontal ? Répondre en degrés, arrondi au degré.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "La rampe est l'hypoténuse et la hauteur est le côté opposé à l'angle cherché : sin = 0,4 ÷ 5 = 0,08. Arcsin donne 4,59 environ, donc l'angle arrondi au degré = 5 (degrés).",
+      "step_by_step_solution": [
+        "Triangle rectangle : hypoténuse = rampe (5 m), côté opposé = hauteur (0,4 m).",
+        "sin = 0,4 ÷ 5 = 0,08.",
+        "Arcsin donne environ 4,59 : arrondi au degré, l'angle mesure = 5."
+      ],
+      "hints": [
+        "La hauteur est-elle opposée ou adjacente à l'angle avec le sol ?",
+        "Utilise la fonction réciproque adaptée."
+      ],
+      "common_errors": {
+        "85": "L'élève a utilisé le cosinus au lieu du sinus.",
+        "0,08": "L'élève a donné le sinus au lieu de l'angle."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer un angle avec la trigonométrie",
+        "Modéliser une situation par un triangle rectangle"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.c04",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour estimer la hauteur d'un arbre vertical, Inès se place à 15 m de son pied. L'angle entre le sol horizontal et la direction du sommet, mesuré depuis le sol, est de 32°. Calculer la hauteur de l'arbre en m, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 9.4,
+        "unit": "m",
+        "tolerance_relative": 0.01
+      },
+      "solution": "La hauteur est opposée à l'angle de 32° et la distance au pied lui est adjacente : h = 15 × tan(32°) ≈ 9,4 m.",
+      "step_by_step_solution": [
+        "Triangle rectangle au pied de l'arbre.",
+        "tan(32°) = h/15.",
+        "h = 15 × tan(32°) ≈ 9,37, soit 9,4 m."
+      ],
+      "hints": [
+        "Quelles longueurs sont en jeu : opposée, adjacente, hypoténuse ?",
+        "L'hypoténuse n'est ni connue ni cherchée."
+      ],
+      "common_errors": {
+        "7,9 m": "L'élève a utilisé le sinus.",
+        "24 m": "L'élève a divisé par tan(32°) au lieu de multiplier."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie",
+        "Modéliser une situation par un triangle rectangle"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.c05",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle RST est rectangle en S, avec ST = 5 cm et RT = 13 cm. Calculer la mesure de $\\widehat{SRT}$, en degrés, arrondie au degré.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "23"
+      },
+      "solution": "Pour l'angle en R, [ST] est le côté opposé et [RT] l'hypoténuse : sin = 5/13. Arcsin donne 22,62 environ, donc arrondi au degré = 23 (degrés).",
+      "step_by_step_solution": [
+        "Côté opposé à l'angle en R : [ST] ; hypoténuse : [RT].",
+        "sin = 5/13.",
+        "Arcsin donne 22,62 environ : la mesure arrondie est = 23."
+      ],
+      "hints": [
+        "Repère le côté opposé à l'angle en R.",
+        "Le sinus utilise l'hypoténuse."
+      ],
+      "common_errors": {
+        "67": "L'élève a utilisé le cosinus (angle en T).",
+        "22": "L'élève a tronqué au lieu d'arrondir."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un angle avec la trigonométrie"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.x01",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est rectangle en A, avec AB = 6 cm et AC = 8 cm. Calculer BC, puis la mesure de $\\widehat{ABC}$ arrondie au degré. Donner la mesure de l'angle, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "53"
+      },
+      "solution": "Pythagore : BC² = 36 + 64 = 100, donc BC = 10 cm. Puis cos = AB/BC = 6/10 = 0,6 (ou tan = 8/6). Arccos donne 53,13 environ, donc la mesure arrondie au degré = 53 (degrés).",
+      "step_by_step_solution": [
+        "BC² = AB² + AC² = 100, donc BC = 10 cm.",
+        "cos = 6/10 = 0,6.",
+        "Arccos donne 53,13 environ : la mesure arrondie est = 53."
+      ],
+      "hints": [
+        "Commence par calculer l'hypoténuse avec le théorème de Pythagore.",
+        "Plusieurs lignes trigonométriques conviennent : vérifie que tu obtiens le même angle."
+      ],
+      "common_errors": {
+        "37": "L'élève a calculé l'angle en C au lieu de l'angle en B.",
+        "10": "L'élève a donné la longueur BC au lieu de l'angle."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Calculer un angle avec la trigonométrie",
+        "Utiliser le théorème de Pythagore"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.x02",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Le fil d'un cerf-volant, tendu et rectiligne, mesure 30 m et forme un angle de 55° avec l'horizontale. La main qui tient le fil est à 1,2 m du sol. À quelle altitude se trouve le cerf-volant ? Répondre en m, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 25.8,
+        "unit": "m",
+        "tolerance_relative": 0.01
+      },
+      "solution": "Hauteur au-dessus de la main : 30 × sin(55°) ≈ 24,57 m. Altitude : 24,57 + 1,2 ≈ 25,8 m.",
+      "step_by_step_solution": [
+        "Le fil est l'hypoténuse d'un triangle rectangle ; la hauteur au-dessus de la main est opposée à l'angle de 55°.",
+        "h = 30 × sin(55°) ≈ 24,57 m.",
+        "Altitude = 24,57 + 1,2 ≈ 25,8 m."
+      ],
+      "hints": [
+        "Fais un schéma : le triangle rectangle ne part pas du sol.",
+        "N'oublie pas la hauteur de la main."
+      ],
+      "common_errors": {
+        "24,6 m": "L'élève a oublié d'ajouter la hauteur de la main.",
+        "18,4 m": "L'élève a utilisé le cosinus au lieu du sinus."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie",
+        "Résoudre un problème à plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.trigonometrie.x03",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Le triangle ABC est isocèle en A, avec BC = 10 cm, et ses angles à la base mesurent 70°. H est le milieu de [BC]. Calculer la hauteur AH en cm, arrondie au dixième.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 13.7,
+        "unit": "cm",
+        "tolerance_relative": 0.01
+      },
+      "solution": "Dans un triangle isocèle, la médiane (AH) est aussi une hauteur : ABH est rectangle en H avec BH = 5 cm. tan(70°) = AH/BH, donc AH = 5 × tan(70°) ≈ 13,7 cm.",
+      "step_by_step_solution": [
+        "(AH) est perpendiculaire à (BC) et BH = 10 ÷ 2 = 5 cm.",
+        "Dans ABH rectangle en H : tan(70°) = AH/BH.",
+        "AH = 5 × tan(70°) ≈ 13,74, soit 13,7 cm."
+      ],
+      "hints": [
+        "Quelle est la nature du triangle ABH ?",
+        "Combien mesure BH ?"
+      ],
+      "common_errors": {
+        "27,5 cm": "L'élève a pris BH = 10 cm au lieu de 5 cm.",
+        "4,7 cm": "L'élève a utilisé le sinus avec BH comme hypoténuse."
+      },
+      "remediation": "Coder la figure : marquer l'angle droit, l'angle aigu étudié, puis nommer l'hypoténuse, le côté opposé et le côté adjacent À CET ANGLE. Mémo : cos = adjacent / hypoténuse, sin = opposé / hypoténuse, tan = opposé / adjacent. Choisir la formule qui relie les deux longueurs connues ou cherchée. Vérifier que la calculatrice est en mode degrés.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Calculer une longueur avec la trigonométrie",
+        "Utiliser les propriétés du triangle isocèle"
+      ],
+      "source_notions": [
+        "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.d01",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On lance un dé équilibré à six faces numérotées de 1 à 6. Quelle est la probabilité d'obtenir le 5 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/6"
+      },
+      "solution": "Il y a 6 issues équiprobables et une seule est favorable : la probabilité est égale à 1/6.",
+      "step_by_step_solution": [
+        "Issues possibles : 1, 2, 3, 4, 5, 6 (six issues équiprobables).",
+        "Une seule issue est favorable : le 5.",
+        "Probabilité = 1/6."
+      ],
+      "hints": [
+        "Combien y a-t-il d'issues possibles ?",
+        "Combien sont favorables ?"
+      ],
+      "common_errors": {
+        "5/6": "L'élève a calculé la probabilité de ne pas obtenir 5.",
+        "1/5": "L'élève a compté 5 issues au lieu de 6."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.d02",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On lance un dé équilibré à six faces numérotées de 1 à 6. Quelle est la probabilité d'obtenir un nombre pair ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/2"
+      },
+      "solution": "Issues favorables : 2, 4 et 6, soit 3 issues sur 6. La probabilité vaut 3/6 = 1/2.",
+      "step_by_step_solution": [
+        "Les issues sont équiprobables : il y en a 6.",
+        "Les nombres pairs sont 2, 4 et 6 : 3 issues favorables.",
+        "Probabilité = 3/6 = 1/2."
+      ],
+      "hints": [
+        "Liste les nombres pairs entre 1 et 6.",
+        "Divise le nombre d'issues favorables par le nombre total."
+      ],
+      "common_errors": {
+        "1/6": "L'élève n'a compté qu'une issue favorable.",
+        "2/6": "L'élève a oublié l'une des issues paires."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.d03",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une urne contient 3 boules rouges et 5 boules bleues, indiscernables au toucher. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/8"
+      },
+      "solution": "Il y a 3 + 5 = 8 boules, dont 3 rouges : la probabilité de tirer une rouge est 3/8.",
+      "step_by_step_solution": [
+        "Nombre total de boules : 3 + 5 = 8.",
+        "Boules rouges : 3.",
+        "Probabilité = 3/8."
+      ],
+      "hints": [
+        "Commence par compter toutes les boules.",
+        "Combien de boules sont favorables ?"
+      ],
+      "common_errors": {
+        "3/5": "L'élève a divisé par le nombre de boules bleues au lieu du total.",
+        "5/8": "L'élève a calculé la probabilité de tirer une boule bleue."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.d04",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "On lance un dé équilibré à six faces numérotées de 1 à 6. Lequel de ces événements est impossible ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Aucune face ne porte le 7 : l'événement « Obtenir 7 » est impossible, sa probabilité est 0. Réponse : obtenir 7.",
+      "step_by_step_solution": [
+        "Un événement impossible ne contient aucune issue.",
+        "« Obtenir un nombre pair » contient 2, 4, 6 ; « obtenir un nombre inférieur à 7 » est certain.",
+        "L'événement impossible est : obtenir 7."
+      ],
+      "hints": [
+        "Pour chaque événement, liste les issues qui le réalisent.",
+        "Quelle est la probabilité d'un événement impossible ?"
+      ],
+      "common_errors": {
+        "1": "Obtenir un nombre pair a une probabilité de 1/2.",
+        "2": "Obtenir un nombre inférieur à 7 est un événement certain."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser le vocabulaire des probabilités"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "choices": [
+        "obtenir 7",
+        "obtenir un nombre pair",
+        "obtenir un nombre inférieur à 7"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.d05",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On tire une carte au hasard dans un jeu de 32 cartes, qui contient 4 rois. Quelle est la probabilité de tirer un roi ? Donner le résultat sous forme de fraction irréductible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/8",
+        "required_form": "fraction_irreductible"
+      },
+      "solution": "Il y a 4 rois parmi 32 cartes : 4/32, qui se simplifie par 4 en = 1/8.",
+      "step_by_step_solution": [
+        "32 issues équiprobables.",
+        "4 issues favorables.",
+        "Probabilité = 4/32 = 1/8."
+      ],
+      "hints": [
+        "Combien de rois y a-t-il ?",
+        "Simplifie la fraction obtenue."
+      ],
+      "common_errors": {
+        "1/32": "L'élève n'a compté qu'un seul roi.",
+        "4/32": "La valeur est juste, mais la fraction n'est pas irréductible."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Simplifier une fraction"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.a01",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un sac contient 4 jetons verts, 6 jetons jaunes et 5 jetons rouges. On tire un jeton au hasard. Quelle est la probabilité que le jeton ne soit pas rouge ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2/3"
+      },
+      "solution": "Il y a 15 jetons, dont 10 ne sont pas rouges : la probabilité vaut 10/15 = 2/3. (Autre méthode : 1 − 5/15 = 10/15.)",
+      "step_by_step_solution": [
+        "Nombre total de jetons : 4 + 6 + 5 = 15.",
+        "Jetons non rouges : 4 + 6 = 10.",
+        "Probabilité = 10/15 = 2/3."
+      ],
+      "hints": [
+        "« Ne pas être rouge », c'est être vert ou jaune.",
+        "Tu peux aussi utiliser l'événement contraire."
+      ],
+      "common_errors": {
+        "1/3": "L'élève a calculé la probabilité de tirer un jeton rouge.",
+        "10/5": "L'élève a divisé par le nombre de jetons rouges."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Utiliser l'événement contraire"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.a02",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une roue de loterie est partagée en 8 secteurs identiques numérotés de 1 à 8. Quelle est la probabilité que la roue s'arrête sur un multiple de 3 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/4"
+      },
+      "solution": "Les multiples de 3 entre 1 et 8 sont 3 et 6 : 2 issues favorables sur 8, donc la probabilité vaut 2/8 = 1/4.",
+      "step_by_step_solution": [
+        "8 secteurs identiques : 8 issues équiprobables.",
+        "Multiples de 3 : 3 et 6.",
+        "Probabilité = 2/8 = 1/4."
+      ],
+      "hints": [
+        "Liste les multiples de 3 inférieurs ou égaux à 8.",
+        "N'oublie pas de simplifier."
+      ],
+      "common_errors": {
+        "3/8": "L'élève a compté une issue favorable en trop (par exemple 1 ou 9).",
+        "1/8": "L'élève n'a compté qu'un seul multiple de 3."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.a03",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La probabilité d'un événement A est égale à 0,35. Quelle est la probabilité de l'événement contraire « non A » ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,65"
+      },
+      "solution": "P(non A) = 1 − P(A) = 1 − 0,35 = 0,65.",
+      "step_by_step_solution": [
+        "Un événement et son contraire ont des probabilités de somme 1.",
+        "P(non A) = 1 − 0,35.",
+        "P(non A) = 0,65."
+      ],
+      "hints": [
+        "Que vaut P(A) + P(non A) ?",
+        "Effectue la soustraction."
+      ],
+      "common_errors": {
+        "0,35": "L'élève a recopié la probabilité de A.",
+        "-0,65": "L'élève a calculé 0,35 − 1."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser l'événement contraire"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.a04",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On écrit chacune des lettres du mot PROBABILITE sur un carton (un carton par lettre, soit 11 cartons). On tire un carton au hasard. Quelle est la probabilité d'obtenir une voyelle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/11"
+      },
+      "solution": "Les 11 lettres sont P, R, O, B, A, B, I, L, I, T, E. Les voyelles sont O, A, I, I, E, soit 5 cartons : la probabilité vaut 5/11.",
+      "step_by_step_solution": [
+        "11 cartons, donc 11 issues équiprobables.",
+        "Voyelles : O, A, I, I, E (le I apparaît deux fois).",
+        "Probabilité = 5/11."
+      ],
+      "hints": [
+        "Compte chaque lettre autant de fois qu'elle apparaît.",
+        "Les voyelles sont A, E, I, O, U, Y."
+      ],
+      "common_errors": {
+        "4/11": "L'élève n'a compté le I qu'une seule fois.",
+        "6/11": "L'élève a calculé la probabilité d'obtenir une consonne."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.a05",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On lance un dé équilibré à 12 faces numérotées de 1 à 12. Quelle est la probabilité d'obtenir un nombre premier ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/12"
+      },
+      "solution": "Les nombres premiers entre 1 et 12 sont 2, 3, 5, 7 et 11 : 5 issues favorables sur 12, donc la probabilité vaut 5/12.",
+      "step_by_step_solution": [
+        "12 issues équiprobables.",
+        "Nombres premiers : 2, 3, 5, 7, 11 (1 n'est pas premier).",
+        "Probabilité = 5/12."
+      ],
+      "hints": [
+        "Un nombre premier a exactement deux diviseurs : 1 et lui-même.",
+        "Le nombre 1 est-il premier ?"
+      ],
+      "common_errors": {
+        "6/12": "L'élève a compté 1 comme nombre premier.",
+        "4/12": "L'élève a oublié le nombre 2 ou le nombre 11."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Reconnaître un nombre premier"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.c01",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une urne contient 12 boules blanches ou noires. On tire une boule au hasard ; la probabilité qu'elle soit blanche est 1/3. Combien y a-t-il de boules blanches ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Nombre de boules blanches = 12 × 1/3 = 4 (il y a donc 8 boules noires).",
+      "step_by_step_solution": [
+        "P(blanche) = nombre de boules blanches / 12.",
+        "Nombre de blanches / 12 = 1/3.",
+        "Nombre de blanches = 12 ÷ 3 = 4."
+      ],
+      "hints": [
+        "Écris la probabilité à l'aide du nombre inconnu de boules blanches.",
+        "Utilise un produit en croix ou une fraction égale."
+      ],
+      "common_errors": {
+        "3": "L'élève a pris le dénominateur de la probabilité comme nombre de boules.",
+        "8": "L'élève a donné le nombre de boules noires."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Raisonner à partir d'une probabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.c02",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour une tombola, 200 tickets sont vendus, dont 15 sont gagnants. On achète un ticket au hasard. Quelle est la probabilité qu'il soit gagnant ? Donner le résultat sous forme de fraction irréductible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/40",
+        "required_form": "fraction_irreductible"
+      },
+      "solution": "P(gagnant) = 15/200 ; on simplifie par 5 : la probabilité vaut 15/200 = 3/40 (soit 0,075).",
+      "step_by_step_solution": [
+        "200 tickets équiprobables, 15 gagnants.",
+        "P = 15/200.",
+        "On simplifie par 5 : 15/200 = 3/40."
+      ],
+      "hints": [
+        "Quel est le plus grand diviseur commun à 15 et 200 ?",
+        "Divise numérateur et dénominateur par ce nombre."
+      ],
+      "common_errors": {
+        "15/200": "La valeur est juste mais la fraction n'est pas irréductible.",
+        "37/40": "L'élève a calculé la probabilité de perdre."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Écrire une fraction irréductible"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.c03",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Dans une classe de 28 élèves, 12 sont des filles. Parmi les filles, 5 portent des lunettes ; parmi les garçons, 4 portent des lunettes. On choisit un élève au hasard. Quelle est la probabilité qu'il porte des lunettes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9/28"
+      },
+      "solution": "Élèves portant des lunettes : 5 + 4 = 9 sur 28. La probabilité vaut 9/28.",
+      "step_by_step_solution": [
+        "Nombre total d'élèves : 28 (issues équiprobables).",
+        "Élèves à lunettes : 5 filles + 4 garçons = 9.",
+        "Probabilité = 9/28."
+      ],
+      "hints": [
+        "Un tableau à double entrée (filles/garçons, lunettes/sans lunettes) peut t'aider.",
+        "L'événement concerne tous les élèves, pas seulement les filles."
+      ],
+      "common_errors": {
+        "5/12": "L'élève n'a considéré que les filles.",
+        "4/16": "L'élève n'a considéré que les garçons."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Organiser des données dans un tableau"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.c04",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On lance un dé équilibré à six faces numérotées de 1 à 6. Quelle est la probabilité d'obtenir un diviseur de 12 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/6"
+      },
+      "solution": "Les diviseurs de 12 parmi 1, 2, 3, 4, 5, 6 sont 1, 2, 3, 4 et 6 : 5 issues favorables sur 6, la probabilité vaut 5/6.",
+      "step_by_step_solution": [
+        "Issues : 1, 2, 3, 4, 5, 6.",
+        "Diviseurs de 12 : 1, 2, 3, 4, 6 (5 ne divise pas 12).",
+        "Probabilité = 5/6."
+      ],
+      "hints": [
+        "Teste chaque face : 12 est-il divisible par ce nombre ?",
+        "N'oublie pas le nombre 1."
+      ],
+      "common_errors": {
+        "4/6": "L'élève a oublié le diviseur 1.",
+        "1/6": "L'élève a calculé la probabilité de l'événement contraire."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Utiliser les notions de multiple et de diviseur"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.c05",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un paquet contient 7 bonbons à la fraise, 5 au citron et des bonbons à l'orange. On prend un bonbon au hasard ; la probabilité qu'il soit à la fraise est 7/20. Combien y a-t-il de bonbons à l'orange ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "P(fraise) = 7/total = 7/20, donc le paquet contient 20 bonbons. Bonbons à l'orange : 20 − 7 − 5 = 8.",
+      "step_by_step_solution": [
+        "La probabilité 7/20 avec 7 bonbons à la fraise indique un total de 20 bonbons.",
+        "Bonbons fraise + citron : 7 + 5 = 12.",
+        "Bonbons à l'orange : 20 − 12 = 8."
+      ],
+      "hints": [
+        "Retrouve d'abord le nombre total de bonbons.",
+        "Retire ensuite les bonbons à la fraise et au citron."
+      ],
+      "common_errors": {
+        "20": "L'élève a donné le nombre total de bonbons.",
+        "13": "L'élève a seulement retiré les bonbons à la fraise."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Raisonner à partir d'une probabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.x01",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une urne contient 3 boules rouges et 2 boules vertes. Combien de boules vertes faut-il ajouter pour que la probabilité de tirer une boule verte soit égale à 3/4 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "Avec n boules vertes ajoutées : (2 + n)/(5 + n) = 3/4, donc 4(2 + n) = 3(5 + n), soit 8 + 4n = 15 + 3n et n = 7. Vérification : 9 vertes sur 12 boules, 9/12 = 3/4.",
+      "step_by_step_solution": [
+        "Après ajout : 2 + n boules vertes sur 5 + n boules.",
+        "(2 + n)/(5 + n) = 3/4, donc 4(2 + n) = 3(5 + n).",
+        "8 + 4n = 15 + 3n, donc n = 7."
+      ],
+      "hints": [
+        "Exprime la nouvelle probabilité en fonction du nombre de boules ajoutées.",
+        "Les boules rouges restent 3 : que doit valoir la proportion de rouges ?"
+      ],
+      "common_errors": {
+        "1": "L'élève a cherché 3 boules vertes sur 4 sans tenir compte des boules rouges.",
+        "9": "L'élève a donné le nombre total de boules vertes après l'ajout."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Mettre un problème en équation"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.x02",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Jeu A : on tire un ticket dans un sac de 10 tickets dont 3 sont gagnants. Jeu B : on tire un ticket dans un sac de 16 tickets dont 5 sont gagnants. Quel jeu donne la plus grande probabilité de gagner ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "P(A) = 3/10 = 0,3 et P(B) = 5/16 = 0,3125. Comme 0,3125 > 0,3, la réponse est : le jeu B.",
+      "step_by_step_solution": [
+        "P(gagner au jeu A) = 3/10 = 0,3.",
+        "P(gagner au jeu B) = 5/16 = 0,3125.",
+        "0,3125 > 0,3 : le jeu B est le plus favorable."
+      ],
+      "hints": [
+        "Calcule chaque probabilité sous forme décimale.",
+        "Il ne suffit pas de comparer les nombres de tickets gagnants."
+      ],
+      "common_errors": {
+        "1": "3/10 = 0,3 est plus petit que 5/16 = 0,3125.",
+        "2": "Les deux probabilités ne sont pas égales."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une probabilité dans une situation d'équiprobabilité",
+        "Comparer des probabilités"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "choices": [
+        "le jeu B",
+        "le jeu A",
+        "les deux jeux sont équivalents"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.3E.probabilites.x03",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Un dé à six faces est truqué : la probabilité d'obtenir 6 est 0,3, et les cinq autres faces ont toutes la même probabilité. Quelle est la probabilité d'obtenir 1 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,14"
+      },
+      "solution": "La somme des probabilités vaut 1 : les faces 1 à 5 se partagent 1 − 0,3 = 0,7. Chacune a donc la probabilité 0,7 ÷ 5 = 0,14.",
+      "step_by_step_solution": [
+        "La somme des probabilités de toutes les issues vaut 1.",
+        "Faces 1 à 5 : 1 − 0,3 = 0,7 au total.",
+        "P(1) = 0,7 ÷ 5 = 0,14."
+      ],
+      "hints": [
+        "Ce dé n'est pas équilibré : on ne peut pas utiliser 1/6.",
+        "Que vaut la somme des probabilités des six faces ?"
+      ],
+      "common_errors": {
+        "1/6": "L'élève a considéré le dé comme équilibré.",
+        "0,7": "L'élève a oublié de partager entre les cinq faces."
+      },
+      "remediation": "Lister toutes les issues possibles et vérifier qu'elles sont équiprobables. Compter les issues favorables à l'événement. Probabilité = nombre d'issues favorables / nombre total d'issues. Contrôle : le résultat est compris entre 0 et 1, et P(non A) = 1 − P(A).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Utiliser la somme des probabilités des issues",
+        "Calculer une probabilité hors équiprobabilité"
+      ],
+      "source_notions": [
+        "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

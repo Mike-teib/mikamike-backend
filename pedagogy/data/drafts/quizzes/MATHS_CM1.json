@@ -1,0 +1,850 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q01",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Combien vaut la moitié de 14 ?",
+      "choices": [
+        "28",
+        "12",
+        "16",
+        "7"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "La moitié de 14, c'est 14 partagé en 2 parts égales : 14 : 2 = 7.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est le double de 14, pas la moitié.",
+        "1": "L'élève a enlevé 2 à 14.",
+        "2": "L'élève a ajouté 2 à 14."
+      },
+      "common_error_target": {
+        "0": "confusion moitié / double"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q02",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Combien vaut un tiers de 15 ?",
+      "choices": [
+        "12",
+        "18",
+        "5",
+        "45"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un tiers de 15, c'est une des 3 parts égales de 15 : 15 : 3 = 5.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a enlevé 3 à 15.",
+        "1": "L'élève a ajouté 3 à 15.",
+        "3": "L'élève a multiplié par 3 au lieu de partager."
+      },
+      "common_error_target": {
+        "3": "multiplication au lieu du partage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q03",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Combien vaut un quart de 36 ?",
+      "choices": [
+        "40",
+        "9",
+        "32",
+        "144"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "9",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un quart de 36, c'est 36 partagé en 4 parts égales : 36 : 4 = 9.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a ajouté 4.",
+        "2": "L'élève a soustrait 4.",
+        "3": "L'élève a multiplié par 4."
+      },
+      "common_error_target": {
+        "2": "soustraction au lieu du partage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q04",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Combien vaut un cinquième de 35 ?",
+      "choices": [
+        "7",
+        "30",
+        "175",
+        "40"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un cinquième de 35 : on partage 35 en 5 parts égales, 35 : 5 = 7.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'élève a soustrait 5.",
+        "2": "L'élève a multiplié par 5.",
+        "3": "L'élève a ajouté 5."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q05",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Un jardin mesure 80 m de long. Un dixième de cette longueur est planté de fleurs. Combien de mètres sont plantés de fleurs ?",
+      "choices": [
+        "70",
+        "800",
+        "90",
+        "8"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un dixième de 80 m : 80 : 10 = 8. Il y a 8 m plantés de fleurs.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a soustrait 10.",
+        "1": "L'élève a multiplié par 10.",
+        "2": "L'élève a ajouté 10."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q06",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Combien de minutes y a-t-il dans un sixième d'heure ?",
+      "choices": [
+        "16",
+        "54",
+        "10",
+        "6"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Une heure = 60 minutes. Un sixième de 60 : 60 : 6 = 10 minutes.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a pris 1 heure = 100 minutes (100 : 6 ≈ 16).",
+        "1": "L'élève a soustrait 6 à 60.",
+        "3": "L'élève a donné le nombre de parts."
+      },
+      "common_error_target": {
+        "0": "une heure comptée comme 100 minutes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q07",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Il y a 48 œufs. Un huitième des œufs sont cassés. Combien d'œufs sont cassés ?",
+      "choices": [
+        "8",
+        "6",
+        "40",
+        "56"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un huitième de 48 : 48 : 8 = 6. Il y a 6 œufs cassés.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a donné le dénominateur.",
+        "2": "L'élève a soustrait 8.",
+        "3": "L'élève a ajouté 8."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q08",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Sur 30 élèves, un sixième viennent à l'école à pied. Combien d'élèves ne viennent pas à pied ?",
+      "choices": [
+        "25",
+        "5",
+        "24",
+        "36"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "25",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un sixième de 30 : 30 : 6 = 5 élèves viennent à pied. Les autres : 30 − 5 = 25.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est le nombre d'élèves qui viennent à pied : il fallait continuer.",
+        "2": "L'élève a enlevé 6 au lieu d'un sixième.",
+        "3": "L'élève a ajouté 6."
+      },
+      "common_error_target": {
+        "1": "arrêt après la première étape"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q09",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "1 m = 100 cm. Combien de centimètres mesure un quart de mètre ?",
+      "choices": [
+        "4",
+        "75",
+        "250",
+        "25"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "25",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un quart de 100 cm : 100 : 4 = 25 cm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a donné le nombre de parts.",
+        "1": "L'élève a calculé ce qui reste (trois quarts).",
+        "2": "L'élève a pris 1 m = 1 000 cm."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.fraction-quantite.q10",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Un tiers de la somme de Jules vaut 5 €. Quelle somme Jules a-t-il en tout, en euros ?",
+      "choices": [
+        "2",
+        "5",
+        "15",
+        "8"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "15",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le tout, c'est 3 tiers. Un tiers vaut 5 €, donc le tout vaut 3 × 5 = 15 €.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "L'élève a soustrait 3 de 5.",
+        "1": "C'est la valeur d'un seul tiers.",
+        "3": "L'élève a ajouté 5 et 3."
+      },
+      "common_error_target": {
+        "1": "confusion entre une part et le tout"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q01",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Combien vaut 5 fois plus que 7 ?",
+      "choices": [
+        "12",
+        "2",
+        "57",
+        "35"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "35",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "« 5 fois plus que 7 » se calcule par une multiplication : 7 × 5 = 35.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est 7 + 5 : confusion entre « 5 fois plus » et « 5 de plus ».",
+        "1": "C'est 7 − 5.",
+        "2": "L'élève a juxtaposé les chiffres."
+      },
+      "common_error_target": {
+        "0": "fois plus / de plus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q02",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Combien vaut 3 fois moins que 27 ?",
+      "choices": [
+        "24",
+        "30",
+        "9",
+        "81"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "9",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "« 3 fois moins que 27 » se calcule par une division : 27 : 3 = 9.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a soustrait 3.",
+        "1": "L'élève a ajouté 3.",
+        "3": "L'élève a multiplié par 3."
+      },
+      "common_error_target": {
+        "0": "fois moins / de moins"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q03",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Un pull coûte 48 € et un tee-shirt 6 €. Combien de fois le pull est-il plus cher ?",
+      "choices": [
+        "288",
+        "8",
+        "42",
+        "54"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On cherche combien de fois 6 dans 48 : 48 : 6 = 8. Le pull est 8 fois plus cher.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est le produit des prix.",
+        "2": "C'est la différence de prix, pas le nombre de fois.",
+        "3": "C'est la somme des prix."
+      },
+      "common_error_target": {
+        "2": "différence au lieu du rapport"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q04",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Ali a 56 €. Il a 7 fois plus d'argent que Bob. Combien d'argent Bob a-t-il, en euros ?",
+      "choices": [
+        "8",
+        "392",
+        "49",
+        "63"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Bob a 7 fois moins d'argent qu'Ali : 56 : 7 = 8 €.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "L'élève a multiplié à cause du mot « plus ».",
+        "2": "L'élève a soustrait 7.",
+        "3": "L'élève a ajouté 7."
+      },
+      "common_error_target": {
+        "1": "piège du mot « plus »"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q05",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Une tortue a 90 ans. Un chien est 6 fois moins âgé que la tortue. Quel âge a le chien ?",
+      "choices": [
+        "540",
+        "84",
+        "96",
+        "15"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "15",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "6 fois moins que 90 : 90 : 6 = 15. Le chien a 15 ans.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié par 6.",
+        "1": "L'élève a soustrait 6.",
+        "2": "L'élève a ajouté 6."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q06",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Un colis pèse 3 kg. Un autre colis est 4 fois plus lourd. Combien pèse-t-il, en kg ?",
+      "choices": [
+        "1",
+        "24",
+        "12",
+        "7"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "12",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "4 fois plus lourd : 3 × 4 = 12 kg.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a soustrait 3 de 4.",
+        "1": "L'élève a multiplié par 8 au lieu de 4.",
+        "3": "L'élève a ajouté 4."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q07",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "« Léo a 4 fois moins de billes que Sara. » Quelle phrase veut dire la même chose ?",
+      "choices": [
+        "Sara a 4 billes de moins que Léo",
+        "Sara a 4 fois plus de billes que Léo",
+        "Sara a 4 billes de plus que Léo",
+        "Léo a 4 fois plus de billes que Sara"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "Sara a 4 fois plus de billes que Léo",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Si Léo a 4 fois moins de billes que Sara, alors Sara a 4 fois plus de billes que Léo : on inverse la comparaison.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Comparaison additive et sens inversé.",
+        "2": "C'est une comparaison additive (4 de plus), pas multiplicative.",
+        "3": "Le sens de la comparaison est inversé : c'est Sara qui en a le plus."
+      },
+      "common_error_target": {
+        "2": "fois plus / de plus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q08",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Un livre coûte 9 €. Un jeu coûte 5 fois plus cher. Quel calcul donne le prix du jeu ?",
+      "choices": [
+        "9 × 5",
+        "9 + 5",
+        "9 − 5",
+        "9 : 5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9 × 5",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "« 5 fois plus cher » se traduit par une multiplication : 9 × 5 = 45 €.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Addition : confusion avec « 5 € de plus ».",
+        "2": "Soustraction : ne correspond pas à l'énoncé.",
+        "3": "Division : correspond à « 5 fois moins »."
+      },
+      "common_error_target": {
+        "1": "fois plus / de plus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q09",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Un arbre mesure 12 m. Un buisson est 6 fois moins haut. Quelle est la hauteur du buisson, en m ?",
+      "choices": [
+        "72",
+        "6",
+        "18",
+        "2"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "6 fois moins que 12 m : 12 : 6 = 2 m.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié.",
+        "1": "L'élève a soustrait 6.",
+        "2": "L'élève a ajouté 6."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.comparaison-mult.q10",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Ensemble, Anna et Bob ont 30 billes. Anna a 2 fois plus de billes que Bob. Combien Bob a-t-il de billes ?",
+      "choices": [
+        "20",
+        "60",
+        "10",
+        "15"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Bob a 1 part, Anna 2 parts : 3 parts pour 30 billes, donc une part vaut 30 : 3 = 10. Bob a 10 billes.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est le nombre de billes d'Anna.",
+        "1": "L'élève a multiplié 30 par 2.",
+        "3": "L'élève a partagé en 2 au lieu de 3 parts."
+      },
+      "common_error_target": {
+        "3": "oubli d'une part dans le schéma"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q01",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "3 stylos coûtent 5 €. Combien coûtent 6 stylos, en euros ?",
+      "choices": [
+        "8",
+        "11",
+        "15",
+        "10"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "6 stylos, c'est 2 fois plus que 3 stylos : on paie 2 fois plus, 5 × 2 = 10 €.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Raisonnement additif : 3 stylos de plus, donc 3 € de plus.",
+        "1": "L'élève a ajouté 6 et 5.",
+        "2": "L'élève a multiplié 5 par 3."
+      },
+      "common_error_target": {
+        "0": "raisonnement additif"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q02",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "4 kg de pommes coûtent 10 €. Combien coûtent 12 kg, en euros ?",
+      "choices": [
+        "40",
+        "120",
+        "30",
+        "18"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "30",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "12 kg, c'est 3 fois plus que 4 kg : on paie 3 fois plus, 10 × 3 = 30 €.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié 10 par 4.",
+        "1": "L'élève a multiplié 10 par 12.",
+        "3": "Raisonnement additif : 8 kg de plus, donc 8 € de plus."
+      },
+      "common_error_target": {
+        "3": "raisonnement additif"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q03",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "10 bonbons pèsent 50 g. Combien pèsent 5 bonbons, en g ?",
+      "choices": [
+        "250",
+        "25",
+        "45",
+        "100"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "25",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 bonbons, c'est 2 fois moins que 10 bonbons : ils pèsent 2 fois moins, 50 : 2 = 25 g.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié 50 par 5.",
+        "2": "Raisonnement additif : 5 bonbons de moins, donc 5 g de moins.",
+        "3": "L'élève a multiplié par 2."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q04",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Dans quelle situation le prix payé est-il proportionnel au nombre de cahiers achetés ?",
+      "choices": [
+        "Tous les cahiers ont le même prix",
+        "Le troisième cahier est offert",
+        "On paie 2 € de livraison en plus",
+        "Le prix baisse à partir de 10 cahiers"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Tous les cahiers ont le même prix",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le prix est proportionnel quand chaque cahier coûte la même somme : 3 fois plus de cahiers, 3 fois plus cher.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Avec un cahier offert, 3 cahiers ne coûtent pas 3 fois le prix d'un cahier.",
+        "2": "Les frais de livraison s'ajoutent : le prix n'est plus proportionnel.",
+        "3": "Si le prix change avec la quantité, ce n'est plus proportionnel."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q05",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "2 bouteilles identiques contiennent 3 L. Combien contiennent 8 bouteilles, en L ?",
+      "choices": [
+        "9",
+        "16",
+        "24",
+        "12"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "12",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "8 bouteilles, c'est 4 fois plus que 2 bouteilles : 3 × 4 = 12 L.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Raisonnement additif : 6 bouteilles de plus, donc 6 L de plus.",
+        "1": "L'élève a multiplié 2 par 8.",
+        "2": "L'élève a multiplié 3 par 8."
+      },
+      "common_error_target": {
+        "0": "raisonnement additif"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q06",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Pour 5 personnes, il faut 250 g de pâtes. Quelle masse faut-il pour 15 personnes, en g ?",
+      "choices": [
+        "500",
+        "3750",
+        "750",
+        "260"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "750",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "15 personnes, c'est 3 fois plus que 5 personnes : 250 × 3 = 750 g.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "L'élève a multiplié par 2 au lieu de 3.",
+        "1": "L'élève a multiplié 250 par 15.",
+        "3": "Raisonnement additif : 10 personnes de plus, donc 10 g de plus."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q07",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Tous les pains ont le même prix. Julie achète quatre fois moins de pains que Marc. Comment est la somme payée par Julie, comparée à celle de Marc ?",
+      "choices": [
+        "la même somme",
+        "4 fois moins",
+        "4 fois plus",
+        "4 € de moins"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "4 fois moins",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Dans une situation de proportionnalité, si la quantité est 4 fois plus petite, le prix est 4 fois plus petit.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Le prix dépend du nombre de pains achetés.",
+        "2": "Le sens est inversé.",
+        "3": "Raisonnement additif, qui ne convient pas."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q08",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "9 places de concert coûtent 63 €. Combien coûtent 3 places, en euros ?",
+      "choices": [
+        "21",
+        "57",
+        "189",
+        "60"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "21",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "3 places, c'est 3 fois moins que 9 places : 63 : 3 = 21 €.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Raisonnement additif : 6 places de moins, donc 6 € de moins.",
+        "2": "L'élève a multiplié par 3.",
+        "3": "L'élève a soustrait 3."
+      },
+      "common_error_target": {
+        "1": "raisonnement additif"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q09",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "Un robinet remplit 15 L en 5 minutes, toujours au même rythme. Combien de litres en 20 minutes ?",
+      "choices": [
+        "30",
+        "75",
+        "300",
+        "60"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "60",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "20 minutes, c'est 4 fois plus que 5 minutes : 15 × 4 = 60 L.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Raisonnement additif : 15 minutes de plus, donc 15 L de plus.",
+        "1": "L'élève a multiplié 15 par 5.",
+        "2": "L'élève a multiplié 15 par 20."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CM1.proportionnalite.q10",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "question": "6 gâteaux identiques coûtent 9 €. Combien coûtent 4 gâteaux, en euros ?",
+      "choices": [
+        "3",
+        "36",
+        "6",
+        "7"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "2 gâteaux, c'est 3 fois moins que 6 gâteaux : 9 : 3 = 3 €. 4 gâteaux, c'est 2 fois plus : 3 × 2 = 6 €.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est le prix de 2 gâteaux : il manque une étape.",
+        "1": "L'élève a multiplié 9 par 4.",
+        "3": "Raisonnement additif : 2 gâteaux de moins, donc 2 € de moins."
+      },
+      "common_error_target": {
+        "0": "arrêt après la première étape"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

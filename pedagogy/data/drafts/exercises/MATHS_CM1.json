@@ -1,0 +1,2138 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.d01",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léa a 12 billes. Elle les partage en 3 parts égales et donne une part à son frère : elle lui donne donc un tiers de ses billes. Combien de billes son frère reçoit-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Un tiers de 12, c'est une part quand on partage 12 en 3 parts égales : 12 : 3 = 4. Son frère reçoit 4 billes.",
+      "step_by_step_solution": [
+        "Un tiers, c'est une part sur 3 parts égales.",
+        "On partage 12 billes en 3 parts égales : 12 : 3.",
+        "12 : 3 = 4, donc son frère reçoit 4 billes."
+      ],
+      "hints": [
+        "En combien de parts égales Léa partage-t-elle ses billes ?",
+        "Cherche combien de billes il y a dans chaque part."
+      ],
+      "common_errors": {
+        "9": "L'élève a enlevé 3 billes (12 − 3) au lieu de partager en 3 parts.",
+        "36": "L'élève a multiplié par 3 au lieu de partager en 3."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Relier « un tiers » au partage en 3 parts égales"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.d02",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Tom a un sachet de 18 bonbons. Il en mange la moitié. Combien de bonbons Tom mange-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "La moitié, c'est un demi : on partage 18 en 2 parts égales. 18 : 2 = 9. Tom mange 9 bonbons.",
+      "step_by_step_solution": [
+        "La moitié, c'est une part sur 2 parts égales.",
+        "On calcule 18 : 2.",
+        "18 : 2 = 9, donc Tom mange 9 bonbons."
+      ],
+      "hints": [
+        "La moitié, c'est partager en combien de parts égales ?",
+        "Quel nombre ajouté à lui-même donne 18 ?"
+      ],
+      "common_errors": {
+        "16": "L'élève a enlevé 2 bonbons au lieu de partager en 2.",
+        "36": "L'élève a calculé le double au lieu de la moitié."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Connaître le sens de « la moitié »"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.d03",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une classe de 20 élèves, un quart des élèves portent des lunettes. Combien d'élèves portent des lunettes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "Un quart de 20, c'est une part quand on partage 20 en 4 parts égales : 20 : 4 = 5. 5 élèves portent des lunettes.",
+      "step_by_step_solution": [
+        "Un quart, c'est une part sur 4 parts égales.",
+        "On partage les 20 élèves en 4 groupes égaux : 20 : 4.",
+        "20 : 4 = 5, donc 5 élèves portent des lunettes."
+      ],
+      "hints": [
+        "Un quart : en combien de parts égales faut-il partager la classe ?",
+        "Pense à la table de 4."
+      ],
+      "common_errors": {
+        "16": "L'élève a enlevé 4 élèves au lieu de partager en 4.",
+        "80": "L'élève a multiplié par 4."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Relier « un quart » au partage en 4 parts égales"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.d04",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pour calculer un cinquième de 30 images, que faut-il faire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Un cinquième de 30, c'est une des 5 parts égales de 30. La bonne méthode est donc : partager 30 en 5 parts égales et prendre une part (30 : 5 = 6).",
+      "step_by_step_solution": [
+        "Un cinquième, c'est 1 part quand on partage en 5 parts égales.",
+        "On partage donc 30 en 5 parts égales et on prend une part.",
+        "Bonne réponse : partager 30 en 5 parts égales et prendre une part."
+      ],
+      "hints": [
+        "Que veut dire le mot « cinquième » ?",
+        "Pense à un partage équitable entre 5 enfants."
+      ],
+      "common_errors": {
+        "2": "L'élève confond « un cinquième » avec « 5 fois plus ».",
+        "3": "L'élève a ajouté les deux nombres de l'énoncé sans chercher le sens.",
+        "0": "L'élève a enlevé 5 au lieu de partager en 5."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Comprendre la fraction comme opérateur de partage"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "choices": [
+        "Enlever 5 à 30",
+        "Partager 30 en 5 parts égales et prendre une part",
+        "Multiplier 30 par 5",
+        "Ajouter 5 et 30"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.d05",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Une ficelle mesure 60 cm. Tom en coupe un tiers. Quelle est la longueur du morceau coupé, en cm ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "20",
+        "unit": "cm"
+      },
+      "solution": "Un tiers de 60 cm : on partage 60 cm en 3 parts égales. 60 : 3 = 20. Le morceau mesure 20 cm.",
+      "step_by_step_solution": [
+        "Un tiers de la ficelle, c'est une des 3 parts égales.",
+        "On calcule 60 : 3.",
+        "60 : 3 = 20, donc le morceau coupé mesure 20 cm."
+      ],
+      "hints": [
+        "En combien de morceaux égaux faut-il imaginer la ficelle ?",
+        "Combien de fois 3 dans 60 ?"
+      ],
+      "common_errors": {
+        "57 cm": "L'élève a enlevé 3 cm au lieu de partager en 3.",
+        "180 cm": "L'élève a multiplié par 3."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Calculer une fraction d'une longueur"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.a01",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Noah a 42 autocollants. Il en colle un sixième dans son cahier. Combien d'autocollants colle-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "Un sixième de 42 : 42 : 6 = 7. Noah colle 7 autocollants.",
+      "step_by_step_solution": [
+        "Un sixième, c'est une part sur 6 parts égales.",
+        "On calcule 42 : 6 (table de 6).",
+        "42 : 6 = 7, donc Noah colle 7 autocollants."
+      ],
+      "hints": [
+        "Combien de parts égales pour « un sixième » ?",
+        "Dans la table de 6, quel produit donne 42 ?"
+      ],
+      "common_errors": {
+        "36": "L'élève a enlevé 6 au lieu de partager en 6.",
+        "6": "L'élève a donné le dénominateur au lieu du résultat du partage."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Utiliser les tables de multiplication pour diviser"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.a02",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rouleau de tissu mesure 40 m. La couturière en utilise un huitième pour faire des rideaux. Quelle longueur de tissu utilise-t-elle, en m ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "5",
+        "unit": "m"
+      },
+      "solution": "Un huitième de 40 m : 40 : 8 = 5. Elle utilise 5 m de tissu.",
+      "step_by_step_solution": [
+        "Un huitième, c'est une part sur 8 parts égales.",
+        "On calcule 40 : 8.",
+        "40 : 8 = 5, donc la couturière utilise 5 m de tissu."
+      ],
+      "hints": [
+        "Quel partage correspond à « un huitième » ?",
+        "Combien de fois 8 dans 40 ?"
+      ],
+      "common_errors": {
+        "32 m": "L'élève a soustrait 8 au lieu de partager en 8.",
+        "320 m": "L'élève a multiplié par 8."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Calculer une fraction d'une longueur"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.a03",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une heure dure 60 minutes. Combien de minutes dure un quart d'heure ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "15",
+        "unit": "min"
+      },
+      "solution": "Un quart d'heure, c'est un quart de 60 minutes : 60 : 4 = 15. Un quart d'heure dure 15 min.",
+      "step_by_step_solution": [
+        "Un quart d'heure, c'est une des 4 parts égales d'une heure.",
+        "On partage 60 minutes en 4 : 60 : 4.",
+        "60 : 4 = 15, donc un quart d'heure dure 15 min."
+      ],
+      "hints": [
+        "Une heure, c'est combien de minutes ?",
+        "Partage ces minutes en 4 parts égales."
+      ],
+      "common_errors": {
+        "25 min": "L'élève pense qu'une heure fait 100 minutes (100 : 4).",
+        "4 min": "L'élève a confondu le nombre de parts et la durée d'une part."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Calculer une fraction d'une durée"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.a04",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Mamie donne 90 € à ses petits-enfants. Lucie reçoit un dixième de cette somme. Combien d'euros Lucie reçoit-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "Un dixième de 90 : 90 : 10 = 9. Lucie reçoit 9 euros.",
+      "step_by_step_solution": [
+        "Un dixième, c'est une part sur 10 parts égales.",
+        "On calcule 90 : 10.",
+        "90 : 10 = 9, donc Lucie reçoit 9 euros."
+      ],
+      "hints": [
+        "Que devient un nombre de dizaines quand on le partage en 10 ?",
+        "Combien de dizaines y a-t-il dans 90 ?"
+      ],
+      "common_errors": {
+        "80": "L'élève a soustrait 10 au lieu de partager en 10.",
+        "900": "L'élève a multiplié par 10."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Diviser par 10"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.a05",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour faire un gâteau, Maman utilise un cinquième d'un paquet de farine de 1 kg. Quelle masse de farine utilise-t-elle, en grammes ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "200",
+        "unit": "g"
+      },
+      "solution": "1 kg = 1 000 g. Un cinquième de 1 000 g : 1 000 : 5 = 200. Elle utilise 200 g de farine.",
+      "step_by_step_solution": [
+        "On convertit : 1 kg = 1 000 g.",
+        "Un cinquième, c'est une part sur 5 : on calcule 1 000 : 5.",
+        "1 000 : 5 = 200, donc Maman utilise 200 g de farine."
+      ],
+      "hints": [
+        "Combien de grammes y a-t-il dans 1 kg ?",
+        "Partage ensuite cette masse en 5 parts égales."
+      ],
+      "common_errors": {
+        "995 g": "L'élève a soustrait 5 g au lieu de partager en 5.",
+        "20 g": "L'élève a pris 1 kg = 100 g."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part. Rappeler que 1 kg = 1 000 g avant de partager.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Convertir des kilogrammes en grammes"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.c01",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une classe de 24 élèves, un tiers des élèves font du judo. Combien d'élèves ne font pas de judo ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "16"
+      },
+      "solution": "Un tiers de 24 : 24 : 3 = 8 élèves font du judo. Ceux qui n'en font pas : 24 − 8 = 16. 16 élèves ne font pas de judo.",
+      "step_by_step_solution": [
+        "On cherche d'abord combien d'élèves font du judo : un tiers de 24.",
+        "24 : 3 = 8.",
+        "On enlève ces élèves du total : 24 − 8 = 16, donc 16 élèves ne font pas de judo."
+      ],
+      "hints": [
+        "Commence par calculer le nombre d'élèves qui font du judo.",
+        "La question porte sur ceux qui n'en font PAS."
+      ],
+      "common_errors": {
+        "8": "L'élève s'est arrêté au nombre d'élèves qui font du judo.",
+        "21": "L'élève a enlevé 3 élèves au lieu de calculer un tiers."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part. Représenter la classe par une bande partagée en 3 et colorier la part « judo ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Résoudre un problème en deux étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.c02",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une bouteille contient 1 L de jus d'orange. Paul en verse un quart dans son verre. Quelle quantité de jus verse-t-il, en mL ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "250",
+        "unit": "mL"
+      },
+      "solution": "1 L = 1 000 mL. Un quart de 1 000 mL : 1 000 : 4 = 250. Paul verse 250 mL de jus.",
+      "step_by_step_solution": [
+        "On convertit : 1 L = 1 000 mL.",
+        "Un quart, c'est une part sur 4 : 1 000 : 4.",
+        "1 000 : 4 = 250, donc Paul verse 250 mL."
+      ],
+      "hints": [
+        "Combien de millilitres y a-t-il dans 1 litre ?",
+        "Partage ensuite en 4 parts égales ; tu peux passer par la moitié de la moitié."
+      ],
+      "common_errors": {
+        "996 mL": "L'élève a soustrait 4 au lieu de partager en 4.",
+        "25 mL": "L'élève a pris 1 L = 100 mL."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part. Rappeler que 1 L = 1 000 mL.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Convertir des litres en millilitres"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.c03",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Léo reçoit un tiers d'un paquet de 27 cartes. Nina reçoit un quart d'un paquet de 32 cartes. Qui a reçu le plus de cartes ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Léo : 27 : 3 = 9 cartes. Nina : 32 : 4 = 8 cartes. 9 > 8, donc c'est Léo qui a reçu le plus de cartes.",
+      "step_by_step_solution": [
+        "Un tiers de 27 : 27 : 3 = 9.",
+        "Un quart de 32 : 32 : 4 = 8.",
+        "On compare : 9 > 8. Réponse : Léo."
+      ],
+      "hints": [
+        "Calcule d'abord le nombre de cartes de chaque enfant.",
+        "Attention : le plus grand paquet ne donne pas forcément la plus grande part."
+      ],
+      "common_errors": {
+        "1": "L'élève a comparé les paquets (32 > 27) au lieu des parts.",
+        "2": "L'élève n'a pas calculé les deux parts."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Comparer deux fractions de quantités"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "choices": [
+        "Léo",
+        "Nina",
+        "Ils en ont reçu autant"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.c04",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une randonnée fait 18 km. Le premier jour, le groupe parcourt un sixième du trajet. Quelle distance reste-t-il à parcourir, en km ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "15",
+        "unit": "km"
+      },
+      "solution": "Un sixième de 18 km : 18 : 6 = 3. Il reste 18 − 3 = 15. Il reste 15 km.",
+      "step_by_step_solution": [
+        "On calcule la distance du premier jour : un sixième de 18 km.",
+        "18 : 6 = 3.",
+        "On enlève cette distance : 18 − 3 = 15, donc il reste 15 km."
+      ],
+      "hints": [
+        "Calcule d'abord la distance parcourue le premier jour.",
+        "Puis cherche ce qui manque pour arriver au total."
+      ],
+      "common_errors": {
+        "3 km": "L'élève s'est arrêté à la distance du premier jour.",
+        "12 km": "L'élève a enlevé 6 km au lieu d'un sixième du trajet."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Résoudre un problème en deux étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.c05",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Sami marche un quart d'une piste de 100 m, puis il court un cinquième de cette même piste. Quelle distance a-t-il parcourue en tout, en m ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "45",
+        "unit": "m"
+      },
+      "solution": "Un quart de 100 m : 100 : 4 = 25. Un cinquième de 100 m : 100 : 5 = 20. En tout : 25 + 20 = 45. Sami a parcouru 45 m.",
+      "step_by_step_solution": [
+        "Un quart de 100 m : 100 : 4 = 25.",
+        "Un cinquième de 100 m : 100 : 5 = 20.",
+        "On ajoute : 25 + 20 = 45, donc Sami a parcouru 45 m."
+      ],
+      "hints": [
+        "Il y a deux distances à calculer.",
+        "Les deux fractions portent sur la même piste de 100 m."
+      ],
+      "common_errors": {
+        "9 m": "L'élève a ajouté 4 et 5 sans calculer les fractions.",
+        "25 m": "L'élève n'a calculé que la première distance."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Additionner deux fractions de grandeurs"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.x01",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un tiers d'un paquet de biscuits, c'est 6 biscuits. Combien y a-t-il de biscuits dans le paquet entier ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "18"
+      },
+      "solution": "Le paquet entier contient 3 tiers. Un tiers vaut 6 biscuits, donc 3 tiers valent 3 × 6 = 18. Le paquet contient 18 biscuits.",
+      "step_by_step_solution": [
+        "Le paquet entier, c'est 3 parts égales (3 tiers).",
+        "Chaque part contient 6 biscuits.",
+        "3 × 6 = 18, donc le paquet contient 18 biscuits."
+      ],
+      "hints": [
+        "Combien de tiers faut-il pour faire le paquet entier ?",
+        "Dessine une bande partagée en 3 parts égales et écris 6 dans une part."
+      ],
+      "common_errors": {
+        "2": "L'élève a partagé 6 en 3 au lieu de reconstituer le tout.",
+        "9": "L'élève a ajouté 3 et 6."
+      },
+      "remediation": "Utiliser une bande partagée en parts égales : on connaît une part, on cherche le tout.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Retrouver le tout à partir d'une part"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.x02",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Hugo a 40 billes. Il en donne un quart à Léa et un cinquième à Zoé. Combien de billes lui reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "22"
+      },
+      "solution": "Un quart de 40 : 40 : 4 = 10. Un cinquième de 40 : 40 : 5 = 8. Il a donné 10 + 8 = 18 billes. Il lui reste 40 − 18 = 22 billes.",
+      "step_by_step_solution": [
+        "Billes données à Léa : 40 : 4 = 10.",
+        "Billes données à Zoé : 40 : 5 = 8.",
+        "Billes données en tout : 10 + 8 = 18.",
+        "Il reste 40 − 18 = 22, donc Hugo a encore 22 billes."
+      ],
+      "hints": [
+        "Calcule séparément ce que reçoit chaque fille.",
+        "Les deux fractions portent sur les 40 billes du départ."
+      ],
+      "common_errors": {
+        "31": "L'élève a enlevé 4 puis 5 billes au lieu des fractions.",
+        "18": "L'élève a donné le nombre de billes données au lieu du reste."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Résoudre un problème en plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.fraction-quantite.x03",
+      "notion_id": "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Emma lit pendant un tiers d'heure et son frère pendant un quart d'heure. Combien de minutes Emma a-t-elle lu de plus que son frère ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "5",
+        "unit": "min"
+      },
+      "solution": "Un tiers d'heure : 60 : 3 = 20 min. Un quart d'heure : 60 : 4 = 15 min. Différence : 20 − 15 = 5. Emma a lu 5 min de plus.",
+      "step_by_step_solution": [
+        "Un tiers d'heure : 60 : 3 = 20 min.",
+        "Un quart d'heure : 60 : 4 = 15 min.",
+        "On compare : 20 − 15 = 5, donc Emma a lu 5 min de plus."
+      ],
+      "hints": [
+        "Une heure dure 60 minutes.",
+        "Calcule les deux durées en minutes avant de les comparer."
+      ],
+      "common_errors": {
+        "1 min": "L'élève a fait 4 − 3 sans calculer les durées.",
+        "35 min": "L'élève a additionné les deux durées."
+      },
+      "remediation": "Manipuler : distribuer les objets un par un dans les parts égales (autant de parts que le dénominateur), puis compter ce qu'il y a dans UNE part.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer une fraction unitaire d'une quantité",
+        "Comparer deux fractions d'une durée"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.determiner-une-fraction-dune-quantite-ou-dune-grandeur"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.d01",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Lina a 6 billes. Hugo a 3 fois plus de billes que Lina. Combien Hugo a-t-il de billes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "18"
+      },
+      "solution": "Hugo a 3 fois plus de billes : 6 × 3 = 18. Hugo a 18 billes.",
+      "step_by_step_solution": [
+        "« 3 fois plus que 6 », c'est 3 fois la quantité 6.",
+        "On calcule 6 × 3.",
+        "6 × 3 = 18, donc Hugo a 18 billes."
+      ],
+      "hints": [
+        "« 3 fois plus » : est-ce une addition ou une multiplication ?",
+        "Dessine 3 bandes de 6 billes."
+      ],
+      "common_errors": {
+        "9": "L'élève a ajouté 3 au lieu de multiplier par 3.",
+        "2": "L'élève a divisé par 3."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Interpréter « fois plus »"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.d02",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Un chat pèse 4 kg. Un chien pèse 5 fois plus que le chat. Combien pèse le chien, en kg ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "20",
+        "unit": "kg"
+      },
+      "solution": "Le chien pèse 5 fois plus : 4 × 5 = 20. Le chien pèse 20 kg.",
+      "step_by_step_solution": [
+        "Le chien pèse 5 fois la masse du chat.",
+        "On calcule 4 × 5.",
+        "4 × 5 = 20, donc le chien pèse 20 kg."
+      ],
+      "hints": [
+        "Que veut dire « 5 fois plus » ?",
+        "Dessine 5 bandes égales à la masse du chat."
+      ],
+      "common_errors": {
+        "9 kg": "L'élève a ajouté 5 au lieu de multiplier.",
+        "1 kg": "L'élève a soustrait."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Interpréter « fois plus » avec des masses"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.d03",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Un crayon coûte 2 €. Un livre coûte 7 fois plus cher que le crayon. Combien coûte le livre, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "14"
+      },
+      "solution": "Le livre coûte 7 fois plus : 2 × 7 = 14. Le livre coûte 14 euros.",
+      "step_by_step_solution": [
+        "Le prix du livre, c'est 7 fois le prix du crayon.",
+        "On calcule 2 × 7.",
+        "2 × 7 = 14, donc le livre coûte 14 euros."
+      ],
+      "hints": [
+        "« 7 fois plus cher » : combien de fois faut-il répéter le prix du crayon ?"
+      ],
+      "common_errors": {
+        "9": "L'élève a ajouté 2 et 7.",
+        "5": "L'élève a soustrait 2 de 7."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Interpréter « fois plus cher »"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.d04",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Le papa de Zoé a 36 ans. Zoé a 4 fois moins que son papa. Quel âge a Zoé ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "Zoé a 4 fois moins : on partage 36 en 4. 36 : 4 = 9. Zoé a 9 ans.",
+      "step_by_step_solution": [
+        "« 4 fois moins », c'est partager en 4 parts égales.",
+        "On calcule 36 : 4.",
+        "36 : 4 = 9, donc Zoé a 9 ans."
+      ],
+      "hints": [
+        "« 4 fois moins » : est-ce qu'on enlève 4 ou qu'on partage en 4 ?",
+        "Quel nombre multiplié par 4 donne 36 ?"
+      ],
+      "common_errors": {
+        "32": "L'élève a enlevé 4 au lieu de diviser par 4.",
+        "144": "L'élève a multiplié par 4."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Interpréter « fois moins »"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.d05",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Tom a 8 images. Emma a 3 fois plus d'images que Tom. Quel calcul permet de trouver le nombre d'images d'Emma ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Emma a 3 fois plus d'images : on multiplie le nombre d'images de Tom par 3. Le bon calcul est 8 × 3 (= 24).",
+      "step_by_step_solution": [
+        "« 3 fois plus » se traduit par une multiplication par 3.",
+        "Le bon calcul est 8 × 3."
+      ],
+      "hints": [
+        "Relis bien : « 3 fois plus » ou « 3 de plus » ?"
+      ],
+      "common_errors": {
+        "0": "L'élève confond « 3 fois plus » et « 3 de plus ».",
+        "1": "L'élève a soustrait.",
+        "2": "L'élève confond « fois plus » et « fois moins »."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Choisir l'opération adaptée"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "choices": [
+        "8 + 3",
+        "8 − 3",
+        "8 : 3",
+        "8 × 3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.a01",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un immeuble a 12 étages. Une tour a 5 fois plus d'étages que l'immeuble. Combien d'étages a la tour ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "60"
+      },
+      "solution": "5 fois plus que 12 : 12 × 5 = 60. La tour a 60 étages.",
+      "step_by_step_solution": [
+        "La tour a 5 fois le nombre d'étages de l'immeuble.",
+        "On calcule 12 × 5.",
+        "12 × 5 = 60, donc la tour a 60 étages."
+      ],
+      "hints": [
+        "Quelle opération correspond à « 5 fois plus » ?",
+        "12 × 5, c'est 10 × 5 + 2 × 5."
+      ],
+      "common_errors": {
+        "17": "L'élève a ajouté 5.",
+        "7": "L'élève a soustrait 5."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.a02",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une girafe mesure 5 m de haut. Un lapin est 10 fois moins haut que la girafe. Quelle est la hauteur du lapin, en cm ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "50",
+        "unit": "cm"
+      },
+      "solution": "5 m = 500 cm. 10 fois moins : 500 : 10 = 50. Le lapin mesure 50 cm.",
+      "step_by_step_solution": [
+        "On convertit : 5 m = 500 cm.",
+        "« 10 fois moins » : on divise par 10.",
+        "500 : 10 = 50, donc le lapin mesure 50 cm."
+      ],
+      "hints": [
+        "Convertis d'abord la hauteur de la girafe en centimètres.",
+        "« 10 fois moins » : quelle opération ?"
+      ],
+      "common_errors": {
+        "490 cm": "L'élève a enlevé 10 cm au lieu de diviser par 10.",
+        "5000 cm": "L'élève a multiplié par 10."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise. Rappeler que 1 m = 100 cm.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Convertir des mètres en centimètres"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.a03",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un sac de pommes coûte 3 €. Un panier de fruits coûte 15 €. Combien de fois le panier est-il plus cher que le sac de pommes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "On cherche combien de fois 3 dans 15 : 15 : 3 = 5. Le panier est 5 fois plus cher.",
+      "step_by_step_solution": [
+        "On cherche le nombre de fois : combien de fois 3 € dans 15 € ?",
+        "On calcule 15 : 3.",
+        "15 : 3 = 5, donc le panier est 5 fois plus cher."
+      ],
+      "hints": [
+        "Combien de fois faut-il répéter 3 pour arriver à 15 ?"
+      ],
+      "common_errors": {
+        "12": "L'élève a calculé la différence (15 − 3) au lieu du nombre de fois.",
+        "45": "L'élève a multiplié les deux prix."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Trouver le rapport entre deux quantités"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.a04",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Paul a lu 120 pages. Il a lu 4 fois plus de pages que Léo. Combien de pages Léo a-t-il lues ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "30"
+      },
+      "solution": "Paul a lu 4 fois plus que Léo, donc Léo a lu 4 fois moins que Paul : 120 : 4 = 30. Léo a lu 30 pages.",
+      "step_by_step_solution": [
+        "C'est Paul qui a le plus de pages : Léo en a 4 fois moins.",
+        "On calcule 120 : 4.",
+        "120 : 4 = 30, donc Léo a lu 30 pages."
+      ],
+      "hints": [
+        "Qui a lu le plus de pages : Paul ou Léo ?",
+        "Attention : le mot « plus » ne veut pas toujours dire qu'on multiplie."
+      ],
+      "common_errors": {
+        "480": "L'élève a multiplié car il a vu le mot « plus ».",
+        "116": "L'élève a soustrait 4."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise. Reformuler : « Léo a 4 fois moins de pages que Paul ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Inverser une comparaison"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.a05",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une trottinette coûte 35 €. Un vélo coûte 6 fois plus cher. Combien coûte le vélo, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "210"
+      },
+      "solution": "6 fois plus cher : 35 × 6 = 210. Le vélo coûte 210 euros.",
+      "step_by_step_solution": [
+        "Le prix du vélo, c'est 6 fois 35 €.",
+        "35 × 6 = 30 × 6 + 5 × 6 = 180 + 30.",
+        "35 × 6 = 210, donc le vélo coûte 210 euros."
+      ],
+      "hints": [
+        "Quelle opération traduit « 6 fois plus cher » ?",
+        "Décompose 35 en 30 + 5."
+      ],
+      "common_errors": {
+        "41": "L'élève a ajouté 6.",
+        "180": "L'élève a oublié de multiplier les unités (5 × 6)."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Multiplier un nombre à deux chiffres par un nombre à un chiffre"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.c01",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un jardinier a planté 48 tulipes. C'est 6 fois plus que le nombre de rosiers. Combien de rosiers a-t-il plantés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "Il y a 6 fois plus de tulipes que de rosiers, donc 6 fois moins de rosiers : 48 : 6 = 8. Il a planté 8 rosiers.",
+      "step_by_step_solution": [
+        "Les tulipes sont les plus nombreuses : les rosiers sont 6 fois moins nombreux.",
+        "On calcule 48 : 6.",
+        "48 : 6 = 8, donc il a planté 8 rosiers."
+      ],
+      "hints": [
+        "Qui sont les plus nombreux : les tulipes ou les rosiers ?",
+        "Quel nombre multiplié par 6 donne 48 ?"
+      ],
+      "common_errors": {
+        "288": "L'élève a multiplié à cause du mot « plus ».",
+        "42": "L'élève a soustrait 6."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Inverser une comparaison"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.c02",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un seau contient 10 L d'eau. Une baignoire contient 15 fois plus d'eau que le seau. Combien de litres contient la baignoire ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "150",
+        "unit": "L"
+      },
+      "solution": "15 fois plus : 10 × 15 = 150. La baignoire contient 150 L.",
+      "step_by_step_solution": [
+        "La baignoire contient 15 fois la contenance du seau.",
+        "On calcule 10 × 15.",
+        "10 × 15 = 150, donc la baignoire contient 150 L."
+      ],
+      "hints": [
+        "Multiplier par 10, c'est facile : que devient 15 ?"
+      ],
+      "common_errors": {
+        "25 L": "L'élève a ajouté 15.",
+        "5 L": "L'élève a soustrait 10 de 15."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Multiplier par 10"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.c03",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Nina a 9 €. Sa sœur a 4 fois plus d'argent que Nina. Combien d'argent ont-elles ensemble, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "45"
+      },
+      "solution": "La sœur a 9 × 4 = 36 €. Ensemble : 9 + 36 = 45. Elles ont 45 euros ensemble.",
+      "step_by_step_solution": [
+        "Argent de la sœur : 9 × 4 = 36.",
+        "Ensemble : 9 + 36.",
+        "9 + 36 = 45, donc elles ont 45 euros ensemble."
+      ],
+      "hints": [
+        "Calcule d'abord l'argent de la sœur.",
+        "La question demande le total des deux."
+      ],
+      "common_errors": {
+        "36": "L'élève a donné seulement l'argent de la sœur.",
+        "13": "L'élève a ajouté 9 et 4."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Résoudre un problème en deux étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.c04",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un ruban rouge mesure 96 cm et un ruban bleu mesure 8 cm. Combien de fois le ruban rouge est-il plus long que le ruban bleu ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "On cherche combien de fois 8 dans 96 : 96 : 8 = 12. Le ruban rouge est 12 fois plus long.",
+      "step_by_step_solution": [
+        "On cherche combien de fois la longueur du ruban bleu tient dans le ruban rouge.",
+        "On calcule 96 : 8.",
+        "96 : 8 = 12, donc le ruban rouge est 12 fois plus long."
+      ],
+      "hints": [
+        "Combien de rubans bleus faut-il mettre bout à bout pour faire le ruban rouge ?",
+        "8 × 10 = 80 : combien de fois 8 faut-il encore ajouter ?"
+      ],
+      "common_errors": {
+        "88": "L'élève a calculé la différence au lieu du nombre de fois.",
+        "768": "L'élève a multiplié les deux longueurs."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Trouver le rapport entre deux longueurs"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.c05",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Julie a 40 billes. Elle a 5 fois plus de billes que Max. Combien de billes Max a-t-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Julie a 5 fois plus de billes que Max, donc Max en a 5 fois moins : 40 : 5 = 8. Max a 8 billes.",
+      "step_by_step_solution": [
+        "C'est Julie qui a le plus de billes.",
+        "Max en a 5 fois moins : 40 : 5.",
+        "40 : 5 = 8, donc Max a 8 billes."
+      ],
+      "hints": [
+        "Qui a le plus de billes ?",
+        "Attention au piège du mot « plus »."
+      ],
+      "common_errors": {
+        "2": "L'élève a multiplié à cause du mot « plus ».",
+        "3": "L'élève a ajouté 5.",
+        "0": "L'élève a soustrait 5."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Inverser une comparaison"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "choices": [
+        "35",
+        "8",
+        "200",
+        "45"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.x01",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Sam a 7 livres. Tom a 2 fois plus de livres que Sam. Léa a 3 fois plus de livres que Tom. Combien de livres Léa a-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "42"
+      },
+      "solution": "Tom : 7 × 2 = 14. Léa : 14 × 3 = 42. Léa a 42 livres.",
+      "step_by_step_solution": [
+        "On calcule d'abord les livres de Tom : 7 × 2 = 14.",
+        "Puis ceux de Léa : 14 × 3.",
+        "14 × 3 = 42, donc Léa a 42 livres."
+      ],
+      "hints": [
+        "Commence par la personne dont tu connais le nombre de livres.",
+        "Il y a deux comparaisons à la suite."
+      ],
+      "common_errors": {
+        "21": "L'élève a fait 7 × 3 en oubliant l'étape de Tom.",
+        "12": "L'élève a ajouté 7 + 2 + 3."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Enchaîner deux comparaisons multiplicatives"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.x02",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Ensemble, Noé et Inès ont 35 cartes. Inès a 4 fois plus de cartes que Noé. Combien de cartes Noé a-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "Si Noé a 1 part, Inès en a 4 : cela fait 5 parts égales en tout. 35 : 5 = 7. Noé a 7 cartes.",
+      "step_by_step_solution": [
+        "On représente Noé par 1 part et Inès par 4 parts de même taille.",
+        "Il y a 5 parts en tout pour 35 cartes : 35 : 5.",
+        "35 : 5 = 7, donc Noé a 7 cartes."
+      ],
+      "hints": [
+        "Dessine une bande pour Noé et 4 bandes identiques pour Inès.",
+        "Combien de bandes en tout ?"
+      ],
+      "common_errors": {
+        "28": "L'élève a donné le nombre de cartes d'Inès.",
+        "9": "L'élève a divisé 35 par 4 (reste ignoré)."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Modéliser avec un schéma en barres"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.comparaison-mult.x03",
+      "notion_id": "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un pot de confiture coûte 4 €. Un panier garni coûte 9 fois plus cher que le pot. Un paquet de biscuits coûte 6 €. Combien de fois le panier est-il plus cher que le paquet de biscuits ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "Prix du panier : 4 × 9 = 36 €. Nombre de fois : 36 : 6 = 6. Le panier est 6 fois plus cher que les biscuits.",
+      "step_by_step_solution": [
+        "Prix du panier : 4 × 9 = 36.",
+        "On cherche combien de fois 6 dans 36.",
+        "36 : 6 = 6, donc le panier est 6 fois plus cher."
+      ],
+      "hints": [
+        "Calcule d'abord le prix du panier.",
+        "Ensuite, compare-le au prix des biscuits."
+      ],
+      "common_errors": {
+        "30": "L'élève a calculé la différence 36 − 6.",
+        "36": "L'élève s'est arrêté au prix du panier."
+      },
+      "remediation": "Schématiser avec des bandes : une bande pour la petite quantité, et la grande quantité représentée par plusieurs bandes identiques. « k fois plus » : on multiplie ; « k fois moins » : on divise.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre un problème de comparaison multiplicative",
+        "Résoudre un problème en deux étapes"
+      ],
+      "source_notions": [
+        "MATHS.CM1.NCRP.resoudre-des-problemes-de-comparaison-multiplicative"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.d01",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "3 croissants coûtent 4 €. Quel est le prix de 9 croissants, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "9 croissants, c'est 3 fois plus que 3 croissants (3 × 3 = 9). Je paie donc 3 fois plus : 4 × 3 = 12. 9 croissants coûtent 12 euros.",
+      "step_by_step_solution": [
+        "On compare les quantités : 9 croissants, c'est 3 fois 3 croissants.",
+        "J'achète 3 fois plus, donc je paie 3 fois plus.",
+        "4 × 3 = 12, donc 9 croissants coûtent 12 euros."
+      ],
+      "hints": [
+        "Combien de fois plus de croissants achète-t-on ?",
+        "Si la quantité est multipliée, que devient le prix ?"
+      ],
+      "common_errors": {
+        "10": "L'élève a ajouté 6 € car il y a 6 croissants de plus (raisonnement additif).",
+        "36": "L'élève a multiplié le prix par 9."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.d02",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "2 kg de pommes coûtent 5 €. Combien coûtent 6 kg de ces mêmes pommes, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "15"
+      },
+      "solution": "6 kg, c'est 3 fois plus que 2 kg. Je paie 3 fois plus : 5 × 3 = 15. 6 kg coûtent 15 euros.",
+      "step_by_step_solution": [
+        "6 kg, c'est 3 fois 2 kg.",
+        "3 fois plus de pommes coûtent 3 fois plus cher.",
+        "5 × 3 = 15, donc 6 kg coûtent 15 euros."
+      ],
+      "hints": [
+        "Combien de fois 2 kg y a-t-il dans 6 kg ?"
+      ],
+      "common_errors": {
+        "9": "L'élève a ajouté 4 € car il y a 4 kg de plus.",
+        "30": "L'élève a multiplié 5 par 6."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.d03",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour faire un gâteau pour 4 personnes, il faut 200 g de farine. Quelle masse de farine faut-il pour 8 personnes, en g ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "400",
+        "unit": "g"
+      },
+      "solution": "8 personnes, c'est 2 fois plus que 4 personnes. Il faut 2 fois plus de farine : 200 × 2 = 400. Il faut 400 g de farine.",
+      "step_by_step_solution": [
+        "8 personnes, c'est 2 fois 4 personnes.",
+        "Il faut donc 2 fois plus de farine.",
+        "200 × 2 = 400, donc il faut 400 g de farine."
+      ],
+      "hints": [
+        "Combien de fois plus de personnes y a-t-il ?"
+      ],
+      "common_errors": {
+        "204 g": "L'élève a ajouté 4 g car il y a 4 personnes de plus.",
+        "1600 g": "L'élève a multiplié 200 par 8."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Utiliser la proportionnalité dans une recette"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.d04",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Une pile de 100 feuilles de papier a une épaisseur de 12 mm. Quelle est l'épaisseur d'une pile de 25 feuilles, en mm ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3",
+        "unit": "mm"
+      },
+      "solution": "25 feuilles, c'est 4 fois moins que 100 feuilles. L'épaisseur est 4 fois plus petite : 12 : 4 = 3. La pile mesure 3 mm.",
+      "step_by_step_solution": [
+        "100 feuilles, c'est 4 fois 25 feuilles : 25 feuilles, c'est 4 fois moins.",
+        "L'épaisseur sera 4 fois plus petite.",
+        "12 : 4 = 3, donc la pile mesure 3 mm."
+      ],
+      "hints": [
+        "Combien de fois moins de feuilles y a-t-il ?",
+        "Si on prend moins de feuilles, la pile est-elle plus fine ?"
+      ],
+      "common_errors": {
+        "48 mm": "L'élève a multiplié au lieu de diviser.",
+        "25 mm": "L'élève a confondu le nombre de feuilles et l'épaisseur."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Utiliser « fois moins » en proportionnalité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.d05",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "6 cahiers coûtent 9 €. Quel raisonnement permet de trouver le prix de 18 cahiers ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "18 cahiers, c'est 3 fois plus que 6 cahiers, donc on paie 3 fois plus. Le bon raisonnement est : 18 cahiers, c'est 3 fois plus que 6 cahiers, donc on paie 3 fois plus (9 × 3 = 27 €).",
+      "step_by_step_solution": [
+        "On compare les nombres de cahiers : 18 = 3 × 6.",
+        "Bon raisonnement : 18 cahiers, c'est 3 fois plus que 6 cahiers, donc on paie 3 fois plus."
+      ],
+      "hints": [
+        "Compare les nombres de cahiers : combien de fois plus ?",
+        "Un raisonnement additif (« de plus ») ne marche pas pour les prix."
+      ],
+      "common_errors": {
+        "0": "Raisonnement additif : il ne conserve pas la proportionnalité.",
+        "1": "Ajouter un nombre de cahiers et un prix n'a pas de sens.",
+        "2": "Soustraire des cahiers et ne pas utiliser le prix n'a pas de sens."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Choisir un raisonnement de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "choices": [
+        "18 cahiers, c'est 12 cahiers de plus, donc on paie 12 € de plus",
+        "On ajoute 18 et 9",
+        "On soustrait 6 à 18",
+        "18 cahiers, c'est 3 fois plus que 6 cahiers, donc on paie 3 fois plus"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.a01",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une recette pour 6 crêpes utilise 2 œufs. Combien d'œufs faut-il pour faire 24 crêpes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "24 crêpes, c'est 4 fois plus que 6 crêpes. Il faut 4 fois plus d'œufs : 2 × 4 = 8. Il faut 8 œufs.",
+      "step_by_step_solution": [
+        "24 crêpes, c'est 4 fois 6 crêpes.",
+        "Il faut donc 4 fois plus d'œufs.",
+        "2 × 4 = 8, donc il faut 8 œufs."
+      ],
+      "hints": [
+        "Combien de fois 6 dans 24 ?"
+      ],
+      "common_errors": {
+        "20": "L'élève a ajouté 18 œufs (24 − 6) : raisonnement additif.",
+        "48": "L'élève a multiplié 2 par 24."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.a02",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "5 cahiers identiques pèsent 300 g. Combien pèsent 15 de ces cahiers, en g ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "900",
+        "unit": "g"
+      },
+      "solution": "15 cahiers, c'est 3 fois plus que 5 cahiers. Ils pèsent 3 fois plus : 300 × 3 = 900. 15 cahiers pèsent 900 g.",
+      "step_by_step_solution": [
+        "15 cahiers, c'est 3 fois 5 cahiers.",
+        "La masse est donc 3 fois plus grande.",
+        "300 × 3 = 900, donc 15 cahiers pèsent 900 g."
+      ],
+      "hints": [
+        "Combien de fois 5 dans 15 ?"
+      ],
+      "common_errors": {
+        "310 g": "L'élève a ajouté 10 g car il y a 10 cahiers de plus.",
+        "4500 g": "L'élève a multiplié 300 par 15."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Utiliser la proportionnalité avec des masses"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.a03",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un robinet coule toujours de la même façon : il remplit 20 L en 4 minutes. Combien de litres remplit-il en 12 minutes ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "60",
+        "unit": "L"
+      },
+      "solution": "12 minutes, c'est 3 fois plus que 4 minutes. Le robinet remplit 3 fois plus : 20 × 3 = 60. Il remplit 60 L.",
+      "step_by_step_solution": [
+        "12 minutes, c'est 3 fois 4 minutes.",
+        "En 3 fois plus de temps, il coule 3 fois plus d'eau.",
+        "20 × 3 = 60, donc le robinet remplit 60 L."
+      ],
+      "hints": [
+        "Combien de fois 4 minutes dans 12 minutes ?"
+      ],
+      "common_errors": {
+        "28 L": "L'élève a ajouté 8 L (raisonnement additif).",
+        "240 L": "L'élève a multiplié 20 par 12."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Utiliser la proportionnalité avec des durées"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.a04",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "8 places de cinéma coûtent 56 €. Combien coûtent 2 places, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "14"
+      },
+      "solution": "2 places, c'est 4 fois moins que 8 places. Je paie 4 fois moins : 56 : 4 = 14. 2 places coûtent 14 euros.",
+      "step_by_step_solution": [
+        "8 places, c'est 4 fois 2 places : 2 places, c'est 4 fois moins.",
+        "On paie donc 4 fois moins.",
+        "56 : 4 = 14, donc 2 places coûtent 14 euros."
+      ],
+      "hints": [
+        "Combien de fois moins de places achète-t-on ?"
+      ],
+      "common_errors": {
+        "50": "L'élève a enlevé 6 € car il y a 6 places de moins.",
+        "224": "L'élève a multiplié par 4."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Utiliser « fois moins » en proportionnalité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.a05",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un cycliste roule toujours à la même allure. En 2 heures, il parcourt 30 km. Quelle distance parcourt-il en 6 heures, en km ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "90",
+        "unit": "km"
+      },
+      "solution": "6 heures, c'est 3 fois plus que 2 heures. Il parcourt 3 fois plus : 30 × 3 = 90. Il parcourt 90 km.",
+      "step_by_step_solution": [
+        "6 heures, c'est 3 fois 2 heures.",
+        "À la même allure, il parcourt 3 fois plus de distance.",
+        "30 × 3 = 90, donc il parcourt 90 km."
+      ],
+      "hints": [
+        "Pourquoi est-ce important qu'il roule toujours à la même allure ?",
+        "Combien de fois 2 heures dans 6 heures ?"
+      ],
+      "common_errors": {
+        "34 km": "L'élève a ajouté 4 km (raisonnement additif).",
+        "180 km": "L'élève a multiplié 30 par 6."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Utiliser la proportionnalité avec des distances"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.c01",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "6 ballons identiques coûtent 27 €. Combien coûtent 2 ballons, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "2 ballons, c'est 3 fois moins que 6 ballons. Je paie 3 fois moins : 27 : 3 = 9. 2 ballons coûtent 9 euros.",
+      "step_by_step_solution": [
+        "6 ballons, c'est 3 fois 2 ballons.",
+        "On paie donc 3 fois moins.",
+        "27 : 3 = 9, donc 2 ballons coûtent 9 euros."
+      ],
+      "hints": [
+        "Combien de fois moins de ballons ?",
+        "Pas besoin de chercher le prix d'un seul ballon."
+      ],
+      "common_errors": {
+        "23": "L'élève a enlevé 4 € car il y a 4 ballons de moins.",
+        "81": "L'élève a multiplié par 3."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.c02",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "12 bouteilles d'eau coûtent 9 €. Combien coûtent 4 bouteilles, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3"
+      },
+      "solution": "4 bouteilles, c'est 3 fois moins que 12 bouteilles. Je paie 3 fois moins : 9 : 3 = 3. 4 bouteilles coûtent 3 euros.",
+      "step_by_step_solution": [
+        "12 bouteilles, c'est 3 fois 4 bouteilles.",
+        "On paie donc 3 fois moins.",
+        "9 : 3 = 3, donc 4 bouteilles coûtent 3 euros."
+      ],
+      "hints": [
+        "Combien de fois 4 dans 12 ?"
+      ],
+      "common_errors": {
+        "1": "L'élève a enlevé 8 € car il y a 8 bouteilles de moins.",
+        "27": "L'élève a multiplié par 3."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.c03",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un paquet de 10 images coûte 3 €. Tom veut 50 images. Combien va-t-il payer, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "15"
+      },
+      "solution": "50 images, c'est 5 fois plus que 10 images (5 paquets). Il paie 5 fois plus : 3 × 5 = 15. Tom paie 15 euros.",
+      "step_by_step_solution": [
+        "50 images, c'est 5 fois 10 images.",
+        "Il paie donc 5 fois plus.",
+        "3 × 5 = 15, donc Tom paie 15 euros."
+      ],
+      "hints": [
+        "Combien de paquets de 10 images faut-il pour avoir 50 images ?"
+      ],
+      "common_errors": {
+        "43": "L'élève a ajouté 40 € car il y a 40 images de plus.",
+        "150": "L'élève a multiplié 3 par 50."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.c04",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un fleuriste vend 5 roses pour 8 €. Combien coûtent 20 roses, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "32"
+      },
+      "solution": "20 roses, c'est 4 fois plus que 5 roses. On paie 4 fois plus : 8 × 4 = 32. 20 roses coûtent 32 euros.",
+      "step_by_step_solution": [
+        "20 roses, c'est 4 fois 5 roses.",
+        "On paie donc 4 fois plus.",
+        "8 × 4 = 32, donc 20 roses coûtent 32 euros."
+      ],
+      "hints": [
+        "Combien de bouquets de 5 roses faut-il pour avoir 20 roses ?"
+      ],
+      "common_errors": {
+        "23": "L'élève a ajouté 15 € (raisonnement additif).",
+        "160": "L'élève a multiplié 8 par 20."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.c05",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une imprimante imprime toujours au même rythme : 15 pages en 3 minutes. Combien de minutes lui faut-il pour imprimer 60 pages ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "12",
+        "unit": "min"
+      },
+      "solution": "60 pages, c'est 4 fois plus que 15 pages. Il faut 4 fois plus de temps : 3 × 4 = 12. Il faut 12 min.",
+      "step_by_step_solution": [
+        "60 pages, c'est 4 fois 15 pages.",
+        "Il faut donc 4 fois plus de temps.",
+        "3 × 4 = 12, donc il faut 12 min."
+      ],
+      "hints": [
+        "Combien de fois 15 dans 60 ?",
+        "Ici, on cherche une durée, pas un nombre de pages."
+      ],
+      "common_errors": {
+        "48 min": "L'élève a ajouté 45 minutes (raisonnement additif).",
+        "20 min": "L'élève a divisé 60 par 3."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Utiliser la proportionnalité avec des durées"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.x01",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "4 pains identiques coûtent 10 €. Combien coûtent 10 pains, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "25"
+      },
+      "solution": "2 pains, c'est 2 fois moins que 4 pains : 10 : 2 = 5 €. 10 pains, c'est 5 fois plus que 2 pains : 5 × 5 = 25. 10 pains coûtent 25 euros.",
+      "step_by_step_solution": [
+        "On passe par 2 pains : 2 fois moins que 4 pains, donc 10 : 2 = 5 €.",
+        "10 pains, c'est 5 fois 2 pains.",
+        "5 × 5 = 25, donc 10 pains coûtent 25 euros."
+      ],
+      "hints": [
+        "10 n'est pas un multiple de 4 : cherche un nombre de pains plus pratique.",
+        "Combien coûtent 2 pains ?"
+      ],
+      "common_errors": {
+        "16": "L'élève a ajouté 6 € car il y a 6 pains de plus.",
+        "100": "L'élève a multiplié 10 par 10."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Enchaîner deux raisonnements de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.x02",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "6 billes de verre identiques pèsent 90 g. Combien pèsent 4 de ces billes, en g ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "60",
+        "unit": "g"
+      },
+      "solution": "2 billes, c'est 3 fois moins que 6 billes : 90 : 3 = 30 g. 4 billes, c'est 2 fois plus que 2 billes : 30 × 2 = 60. 4 billes pèsent 60 g.",
+      "step_by_step_solution": [
+        "On passe par 2 billes : 90 : 3 = 30 g.",
+        "4 billes, c'est 2 fois 2 billes.",
+        "30 × 2 = 60, donc 4 billes pèsent 60 g."
+      ],
+      "hints": [
+        "4 n'est pas un multiple de 6 : cherche d'abord la masse de 2 billes."
+      ],
+      "common_errors": {
+        "88 g": "L'élève a enlevé 2 g car il y a 2 billes de moins.",
+        "360 g": "L'élève a multiplié 90 par 4."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Enchaîner deux raisonnements de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CM1.proportionnalite.x03",
+      "notion_id": "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite",
+      "subject": "MATHS",
+      "level": "CM1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Léa lit toujours au même rythme : 12 pages en 20 minutes. Combien de pages lit-elle en 30 minutes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "18"
+      },
+      "solution": "En 10 minutes (2 fois moins de temps), elle lit 12 : 2 = 6 pages. En 30 minutes (3 fois plus que 10 minutes), elle lit 6 × 3 = 18 pages.",
+      "step_by_step_solution": [
+        "En 10 minutes, c'est 2 fois moins de temps : 12 : 2 = 6 pages.",
+        "30 minutes, c'est 3 fois 10 minutes.",
+        "6 × 3 = 18, donc Léa lit 18 pages."
+      ],
+      "hints": [
+        "30 n'est pas un multiple de 20 : passe par une durée plus petite.",
+        "Combien de pages en 10 minutes ?"
+      ],
+      "common_errors": {
+        "22": "L'élève a ajouté 10 pages car il y a 10 minutes de plus.",
+        "36": "L'élève a multiplié 12 par 3."
+      },
+      "remediation": "Verbaliser le raisonnement : « Si j'achète 3 fois plus, je paie 3 fois plus. » Chercher d'abord combien de fois plus (ou moins) d'objets il y a, puis appliquer la même opération à l'autre grandeur. Pas de tableau au CM1.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Résoudre un problème de proportionnalité par un raisonnement de linéarité",
+        "Enchaîner deux raisonnements de linéarité"
+      ],
+      "source_notions": [
+        "MATHS.CM1.PROP.savoir-resoudre-un-probleme-de-proportionnalite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

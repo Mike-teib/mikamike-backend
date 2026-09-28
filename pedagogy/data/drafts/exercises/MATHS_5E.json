@@ -1,0 +1,2143 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.d01",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\frac{1}{2} + \\frac{1}{4}$. Donner le résultat sous la forme d'une fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/4"
+      },
+      "solution": "On écrit $\\frac{1}{2}$ avec le dénominateur 4 : $\\frac{1}{2} + \\frac{1}{4} = \\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$.",
+      "step_by_step_solution": [
+        "4 est un multiple de 2 : on écrit $\\frac{1}{2} = \\frac{2}{4}$.",
+        "Les deux fractions ont maintenant le même dénominateur 4.",
+        "On ajoute les numérateurs : $\\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$."
+      ],
+      "hints": [
+        "Les deux fractions n'ont pas le même dénominateur : lequel peut-on choisir ?",
+        "Combien de quarts y a-t-il dans une demie ?"
+      ],
+      "common_errors": {
+        "2/6": "L'élève a ajouté les numérateurs entre eux et les dénominateurs entre eux.",
+        "2/4": "L'élève a oublié de transformer la demie avant d'ajouter."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.d02",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\frac{5}{6} - \\frac{1}{3}$. Donner le résultat sous la forme d'une fraction simplifiée.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/2"
+      },
+      "solution": "$\\frac{5}{6} - \\frac{1}{3} = \\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6}$, puis on simplifie par 3 : $\\frac{3}{6} = \\frac{1}{2}$.",
+      "step_by_step_solution": [
+        "6 est un multiple de 3 : $\\frac{1}{3} = \\frac{2}{6}$.",
+        "On soustrait les numérateurs : $\\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6}$.",
+        "On simplifie par 3 : $\\frac{3}{6} = \\frac{1}{2}$."
+      ],
+      "hints": [
+        "Écris d'abord le tiers avec le dénominateur 6.",
+        "Pense à simplifier le résultat si le numérateur et le dénominateur ont un diviseur commun."
+      ],
+      "common_errors": {
+        "4/3": "L'élève a soustrait les numérateurs entre eux et les dénominateurs entre eux.",
+        "4/6": "L'élève a soustrait 1 à 5 sans transformer le tiers en sixièmes."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Simplifier une fraction"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.d03",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Léa mange un quart d'une pizza et son frère en mange trois huitièmes. Quelle fraction de la pizza ont-ils mangée à eux deux ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5/8"
+      },
+      "solution": "On ajoute les deux parts : $\\frac{1}{4} + \\frac{3}{8} = \\frac{2}{8} + \\frac{3}{8} = \\frac{5}{8}$. Ils ont mangé cinq huitièmes de la pizza.",
+      "step_by_step_solution": [
+        "On traduit l'énoncé : $\\frac{1}{4} + \\frac{3}{8}$.",
+        "8 est un multiple de 4 : $\\frac{1}{4} = \\frac{2}{8}$.",
+        "$\\frac{2}{8} + \\frac{3}{8} = \\frac{5}{8}$."
+      ],
+      "hints": [
+        "Écris chaque part sous la forme d'une fraction.",
+        "Transforme le quart en huitièmes."
+      ],
+      "common_errors": {
+        "4/12": "L'élève a ajouté les numérateurs et les dénominateurs.",
+        "4/8": "L'élève a considéré qu'un quart valait un huitième."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Modéliser un problème par une somme de fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.d04",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pour calculer $\\frac{2}{3} + \\frac{1}{9}$, quel est le plus petit dénominateur commun que l'on peut utiliser ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "9 est un multiple de 3, donc le plus petit dénominateur commun est 9 : $\\frac{2}{3} + \\frac{1}{9} = \\frac{6}{9} + \\frac{1}{9} = \\frac{7}{9}$.",
+      "step_by_step_solution": [
+        "On regarde si l'un des dénominateurs est un multiple de l'autre.",
+        "9 = 3 × 3, donc 9 est un multiple de 3.",
+        "La bonne réponse est 9."
+      ],
+      "hints": [
+        "Un dénominateur commun doit être un multiple de 3 et de 9.",
+        "Parmi les multiples de 9, lequel est le plus petit ?"
+      ],
+      "common_errors": {
+        "1": "12 = 3 + 9 : l'élève a additionné les dénominateurs.",
+        "3": "27 = 3 × 9 convient, mais ce n'est pas le plus petit."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Trouver un dénominateur commun"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "choices": [
+        "9",
+        "12",
+        "3",
+        "27"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.d05",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\frac{7}{10} - \\frac{2}{5}$. Donner le résultat sous la forme d'une fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/10"
+      },
+      "solution": "$\\frac{2}{5} = \\frac{4}{10}$, donc $\\frac{7}{10} - \\frac{2}{5} = \\frac{7}{10} - \\frac{4}{10} = \\frac{3}{10}$.",
+      "step_by_step_solution": [
+        "10 est un multiple de 5 : $\\frac{2}{5} = \\frac{4}{10}$.",
+        "On soustrait les numérateurs : $\\frac{7}{10} - \\frac{4}{10} = \\frac{3}{10}$."
+      ],
+      "hints": [
+        "Transforme les cinquièmes en dixièmes.",
+        "Multiplie le numérateur ET le dénominateur par le même nombre."
+      ],
+      "common_errors": {
+        "5/5": "L'élève a soustrait les numérateurs et les dénominateurs.",
+        "5/10": "L'élève n'a multiplié que le dénominateur de la deuxième fraction."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.a01",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Effectuer le calcul $\\frac{2}{3} + \\frac{1}{4}$ et écrire le résultat sous forme fractionnaire.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11/12"
+      },
+      "solution": "12 est un multiple commun de 3 et de 4 : $\\frac{2}{3} + \\frac{1}{4} = \\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$.",
+      "step_by_step_solution": [
+        "Aucun dénominateur n'est multiple de l'autre : on cherche un multiple commun de 3 et 4, par exemple 12.",
+        "$\\frac{2}{3} = \\frac{8}{12}$ et $\\frac{1}{4} = \\frac{3}{12}$.",
+        "$\\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$."
+      ],
+      "hints": [
+        "Cherche un nombre qui est à la fois dans la table de 3 et dans la table de 4.",
+        "Écris les deux fractions avec ce dénominateur avant d'ajouter."
+      ],
+      "common_errors": {
+        "3/7": "L'élève a ajouté les numérateurs et les dénominateurs.",
+        "3/12": "L'élève a changé les dénominateurs sans multiplier les numérateurs."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Trouver un multiple commun"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.a02",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quelle est la valeur de la différence $\\frac{5}{6} - \\frac{3}{4}$ ? Répondre par une fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/12"
+      },
+      "solution": "12 est un multiple commun de 6 et 4 : $\\frac{5}{6} - \\frac{3}{4} = \\frac{10}{12} - \\frac{9}{12} = \\frac{1}{12}$.",
+      "step_by_step_solution": [
+        "On cherche un multiple commun de 6 et 4 : 12.",
+        "$\\frac{5}{6} = \\frac{10}{12}$ et $\\frac{3}{4} = \\frac{9}{12}$.",
+        "$\\frac{10}{12} - \\frac{9}{12} = \\frac{1}{12}$."
+      ],
+      "hints": [
+        "Quel est le plus petit nombre non nul multiple de 6 et de 4 ?",
+        "Transforme chaque fraction avant de soustraire."
+      ],
+      "common_errors": {
+        "2/2": "L'élève a soustrait les numérateurs et les dénominateurs (5 − 3 et 6 − 4).",
+        "1/24": "L'élève a pris 24 comme dénominateur sans transformer les numérateurs."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.a03",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la somme $\\frac{3}{4} + \\frac{5}{6}$, puis contrôler la vraisemblance du résultat.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "19/12"
+      },
+      "solution": "$\\frac{3}{4} + \\frac{5}{6} = \\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12}$. Le résultat est supérieur à 1, ce qui est cohérent car les deux fractions sont proches de 1.",
+      "step_by_step_solution": [
+        "Multiple commun de 4 et 6 : 12.",
+        "$\\frac{3}{4} = \\frac{9}{12}$ et $\\frac{5}{6} = \\frac{10}{12}$.",
+        "$\\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12}$."
+      ],
+      "hints": [
+        "Les multiples de 6 sont 6, 12, 18… Lequel est aussi un multiple de 4 ?",
+        "Contrôle : chaque fraction est proche de 1, donc la somme est proche de 2."
+      ],
+      "common_errors": {
+        "8/10": "L'élève a ajouté les numérateurs et les dénominateurs.",
+        "8/12": "L'élève n'a pas multiplié les numérateurs en changeant de dénominateur."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Contrôler la vraisemblance d'un résultat"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.a04",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Le réservoir d'une tondeuse est rempli aux trois cinquièmes. Pendant la tonte, on consomme un quart du réservoir. Quelle fraction du réservoir reste-t-il remplie ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7/20"
+      },
+      "solution": "On calcule $\\frac{3}{5} - \\frac{1}{4} = \\frac{12}{20} - \\frac{5}{20} = \\frac{7}{20}$. Il reste sept vingtièmes du réservoir.",
+      "step_by_step_solution": [
+        "On traduit : $\\frac{3}{5} - \\frac{1}{4}$.",
+        "20 est un multiple commun de 5 et 4 : $\\frac{3}{5} = \\frac{12}{20}$ et $\\frac{1}{4} = \\frac{5}{20}$.",
+        "$\\frac{12}{20} - \\frac{5}{20} = \\frac{7}{20}$."
+      ],
+      "hints": [
+        "Quelle opération traduit « on consomme » ?",
+        "Cherche un dénominateur commun à 5 et 4."
+      ],
+      "common_errors": {
+        "2/1": "L'élève a soustrait les numérateurs et les dénominateurs (3 − 1 et 5 − 4).",
+        "17/20": "L'élève a ajouté au lieu de soustraire."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Modéliser un problème par une différence de fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.a05",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\frac{7}{8} - \\frac{1}{6}$ en utilisant le plus petit dénominateur commun possible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "17/24"
+      },
+      "solution": "24 est le plus petit multiple commun de 8 et 6 : $\\frac{7}{8} - \\frac{1}{6} = \\frac{21}{24} - \\frac{4}{24} = \\frac{17}{24}$.",
+      "step_by_step_solution": [
+        "Multiples de 8 : 8, 16, 24… ; 24 est aussi un multiple de 6.",
+        "$\\frac{7}{8} = \\frac{21}{24}$ et $\\frac{1}{6} = \\frac{4}{24}$.",
+        "$\\frac{21}{24} - \\frac{4}{24} = \\frac{17}{24}$."
+      ],
+      "hints": [
+        "Liste quelques multiples de 8 et vérifie s'ils sont dans la table de 6.",
+        "Multiplie numérateur et dénominateur par le même nombre."
+      ],
+      "common_errors": {
+        "6/2": "L'élève a soustrait les numérateurs et les dénominateurs.",
+        "6/24": "L'élève a changé les dénominateurs sans changer les numérateurs."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.c01",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6}$.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1"
+      },
+      "solution": "Avec le dénominateur 6 : $\\frac{3}{6} + \\frac{2}{6} + \\frac{1}{6} = \\frac{6}{6} = 1$.",
+      "step_by_step_solution": [
+        "6 est un multiple de 2 et de 3 : c'est un dénominateur commun aux trois fractions.",
+        "$\\frac{1}{2} = \\frac{3}{6}$ et $\\frac{1}{3} = \\frac{2}{6}$.",
+        "$\\frac{3}{6} + \\frac{2}{6} + \\frac{1}{6} = \\frac{6}{6} = 1$."
+      ],
+      "hints": [
+        "Cherche un dénominateur commun aux trois fractions.",
+        "Quand le numérateur est égal au dénominateur, que vaut la fraction ?"
+      ],
+      "common_errors": {
+        "3/11": "L'élève a ajouté les numérateurs et les dénominateurs.",
+        "5/6": "L'élève a oublié la fraction un sixième."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Additionner plusieurs fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.c02",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $2 - \\frac{3}{7}$. Donner le résultat sous la forme d'une fraction.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11/7"
+      },
+      "solution": "On écrit 2 en septièmes : $2 = \\frac{14}{7}$, donc $2 - \\frac{3}{7} = \\frac{14}{7} - \\frac{3}{7} = \\frac{11}{7}$.",
+      "step_by_step_solution": [
+        "Un entier s'écrit comme une fraction : $2 = \\frac{14}{7}$.",
+        "$\\frac{14}{7} - \\frac{3}{7} = \\frac{11}{7}$."
+      ],
+      "hints": [
+        "Combien de septièmes y a-t-il dans une unité ? Et dans 2 unités ?",
+        "Écris 2 comme une fraction de dénominateur 7."
+      ],
+      "common_errors": {
+        "-1/7": "L'élève a remplacé 2 par 2/7 : il a calculé 2 − 3 au numérateur sans transformer 2 en septièmes."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Écrire un entier sous forme de fraction"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.c03",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Sofiane consacre un tiers de son argent de poche aux sorties, un quart aux livres et un sixième à l'épargne. Quelle fraction de son argent de poche lui reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1/4"
+      },
+      "solution": "Dépenses : $\\frac{1}{3} + \\frac{1}{4} + \\frac{1}{6} = \\frac{4}{12} + \\frac{3}{12} + \\frac{2}{12} = \\frac{9}{12}$. Reste : $1 - \\frac{9}{12} = \\frac{3}{12} = \\frac{1}{4}$. Il lui reste un quart de son argent de poche.",
+      "step_by_step_solution": [
+        "On additionne les parts utilisées avec le dénominateur 12 : $\\frac{4}{12} + \\frac{3}{12} + \\frac{2}{12} = \\frac{9}{12}$.",
+        "Le tout correspond à $1 = \\frac{12}{12}$.",
+        "$1 - \\frac{9}{12} = \\frac{3}{12} = \\frac{1}{4}$."
+      ],
+      "hints": [
+        "Commence par calculer la fraction utilisée au total.",
+        "Le tout (tout l'argent de poche) correspond à la fraction 1."
+      ],
+      "common_errors": {
+        "3/4": "L'élève a donné la fraction utilisée au lieu de la fraction restante.",
+        "3/13": "L'élève a ajouté les numérateurs et les dénominateurs."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Résoudre un problème à plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.c04",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\frac{5}{12} + \\frac{7}{18}$. Donner le résultat sous la forme d'une fraction simplifiée.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "29/36"
+      },
+      "solution": "36 est le plus petit multiple commun de 12 et 18 : $\\frac{5}{12} + \\frac{7}{18} = \\frac{15}{36} + \\frac{14}{36} = \\frac{29}{36}$.",
+      "step_by_step_solution": [
+        "Multiples de 18 : 18, 36… ; 36 est aussi un multiple de 12.",
+        "$\\frac{5}{12} = \\frac{15}{36}$ et $\\frac{7}{18} = \\frac{14}{36}$.",
+        "$\\frac{15}{36} + \\frac{14}{36} = \\frac{29}{36}$, fraction qui ne se simplifie pas."
+      ],
+      "hints": [
+        "Le produit 12 × 18 convient mais donne de grands nombres : cherche un multiple commun plus petit.",
+        "Teste les multiples de 18 un par un."
+      ],
+      "common_errors": {
+        "12/30": "L'élève a ajouté les numérateurs et les dénominateurs.",
+        "12/36": "L'élève n'a pas multiplié les numérateurs."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Trouver le plus petit multiple commun"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.c05",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Effectuer la différence $\\frac{9}{10} - \\frac{2}{15}$ ; simplifier le résultat si c'est possible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "23/30"
+      },
+      "solution": "30 est un multiple commun de 10 et 15 : $\\frac{9}{10} - \\frac{2}{15} = \\frac{27}{30} - \\frac{4}{30} = \\frac{23}{30}$.",
+      "step_by_step_solution": [
+        "Multiples de 15 : 15, 30… ; 30 est aussi un multiple de 10.",
+        "$\\frac{9}{10} = \\frac{27}{30}$ et $\\frac{2}{15} = \\frac{4}{30}$.",
+        "$\\frac{27}{30} - \\frac{4}{30} = \\frac{23}{30}$."
+      ],
+      "hints": [
+        "Cherche le plus petit nombre qui est à la fois multiple de 10 et de 15.",
+        "Vérifie à la fin si la fraction obtenue peut se simplifier."
+      ],
+      "common_errors": {
+        "7/5": "L'élève a soustrait les numérateurs (9 − 2) et pris l'écart des dénominateurs (15 − 10).",
+        "7/30": "L'élève a changé les dénominateurs sans changer les numérateurs."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.x01",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour une randonnée, Tom parcourt deux cinquièmes du trajet le matin et un tiers du trajet l'après-midi. Quelle fraction du trajet lui reste-t-il à parcourir le lendemain ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4/15"
+      },
+      "solution": "Parcouru : $\\frac{2}{5} + \\frac{1}{3} = \\frac{6}{15} + \\frac{5}{15} = \\frac{11}{15}$. Reste : $1 - \\frac{11}{15} = \\frac{4}{15}$. Il lui reste quatre quinzièmes du trajet.",
+      "step_by_step_solution": [
+        "Fraction parcourue : $\\frac{2}{5} + \\frac{1}{3}$, avec le dénominateur commun 15.",
+        "$\\frac{6}{15} + \\frac{5}{15} = \\frac{11}{15}$.",
+        "Le trajet entier vaut $1 = \\frac{15}{15}$, donc il reste $\\frac{15}{15} - \\frac{11}{15} = \\frac{4}{15}$."
+      ],
+      "hints": [
+        "Calcule d'abord la fraction du trajet déjà parcourue.",
+        "Le trajet complet correspond à 1."
+      ],
+      "common_errors": {
+        "11/15": "L'élève a donné la fraction parcourue au lieu de la fraction restante.",
+        "3/8": "L'élève a ajouté les numérateurs et les dénominateurs."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Résoudre un problème à plusieurs étapes"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.x02",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Quelle fraction faut-il ajouter à $\\frac{3}{8}$ pour obtenir $\\frac{5}{6}$ ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11/24"
+      },
+      "solution": "On cherche la différence $\\frac{5}{6} - \\frac{3}{8} = \\frac{20}{24} - \\frac{9}{24} = \\frac{11}{24}$. Vérification : $\\frac{9}{24} + \\frac{11}{24} = \\frac{20}{24} = \\frac{5}{6}$.",
+      "step_by_step_solution": [
+        "Chercher ce qu'il faut ajouter revient à calculer une différence.",
+        "Dénominateur commun 24 : $\\frac{5}{6} = \\frac{20}{24}$ et $\\frac{3}{8} = \\frac{9}{24}$.",
+        "$\\frac{20}{24} - \\frac{9}{24} = \\frac{11}{24}$."
+      ],
+      "hints": [
+        "Pense à une addition à trou : 3/8 + … = 5/6.",
+        "Pour trouver le terme manquant d'une somme, on effectue une soustraction."
+      ],
+      "common_errors": {
+        "2/14": "L'élève a soustrait les numérateurs et additionné les dénominateurs.",
+        "29/24": "L'élève a ajouté les deux fractions au lieu de les soustraire."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Résoudre une addition à trou"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.fractions.x03",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer $\\frac{1}{4} + \\frac{1}{5} - \\frac{1}{10}$. Donner le résultat sous la forme d'une fraction simplifiée.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7/20"
+      },
+      "solution": "Avec le dénominateur 20 : $\\frac{5}{20} + \\frac{4}{20} - \\frac{2}{20} = \\frac{7}{20}$.",
+      "step_by_step_solution": [
+        "20 est un multiple de 4, de 5 et de 10.",
+        "$\\frac{1}{4} = \\frac{5}{20}$, $\\frac{1}{5} = \\frac{4}{20}$ et $\\frac{1}{10} = \\frac{2}{20}$.",
+        "$\\frac{5}{20} + \\frac{4}{20} - \\frac{2}{20} = \\frac{7}{20}$."
+      ],
+      "hints": [
+        "Trouve un dénominateur commun aux trois fractions.",
+        "Calcule de gauche à droite une fois les fractions transformées."
+      ],
+      "common_errors": {
+        "1/19": "L'élève a calculé sur les numérateurs et additionné les dénominateurs.",
+        "11/20": "L'élève a ajouté la dernière fraction au lieu de la soustraire."
+      },
+      "remediation": "Revenir à une bande unité partagée : on ne peut ajouter que des parts de même taille. Chercher un multiple commun des dénominateurs, écrire chaque fraction avec ce dénominateur, puis ajouter (ou soustraire) seulement les numérateurs.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Écrire des fractions égales",
+        "Additionner et soustraire des fractions",
+        "Enchaîner additions et soustractions de fractions"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.d01",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Développer l'expression 3(x + 4).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3x + 12",
+        "required_form": "developpee"
+      },
+      "solution": "On distribue 3 sur chaque terme : 3(x + 4) = 3 × x + 3 × 4 = 3x + 12.",
+      "step_by_step_solution": [
+        "On applique k(a + b) = ka + kb avec k = 3, a = x et b = 4.",
+        "3 × x = 3x et 3 × 4 = 12.",
+        "Donc 3(x + 4) = 3x + 12."
+      ],
+      "hints": [
+        "Le nombre devant la parenthèse multiplie chacun des termes qu'elle contient.",
+        "Combien de termes y a-t-il dans la parenthèse ?"
+      ],
+      "common_errors": {
+        "3x + 4": "L'élève n'a multiplié que le premier terme par 3.",
+        "x + 12": "L'élève n'a multiplié que le second terme par 3."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Développer avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.d02",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "En écrivant 102 = 100 + 2, calculer mentalement 6 × 102.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "612"
+      },
+      "solution": "6 × 102 = 6 × (100 + 2) = 6 × 100 + 6 × 2 = 600 + 12 = 612.",
+      "step_by_step_solution": [
+        "6 × 102 = 6 × (100 + 2).",
+        "On distribue : 6 × 100 + 6 × 2 = 600 + 12.",
+        "600 + 12 = 612."
+      ],
+      "hints": [
+        "Multiplie 6 par 100, puis 6 par 2.",
+        "Ajoute ensuite les deux produits obtenus."
+      ],
+      "common_errors": {
+        "602": "L'élève a oublié de multiplier le 2 par 6.",
+        "108": "L'élève a ajouté 6 au lieu de multiplier."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser la distributivité en calcul mental"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.d03",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Développer l'expression 5(a − 2).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5a - 10",
+        "required_form": "developpee"
+      },
+      "solution": "On distribue 5 sur chaque terme : 5(a − 2) = 5 × a − 5 × 2 = 5a − 10.",
+      "step_by_step_solution": [
+        "On applique k(a − b) = ka − kb avec k = 5.",
+        "5 × a = 5a et 5 × 2 = 10.",
+        "Donc 5(a − 2) = 5a − 10."
+      ],
+      "hints": [
+        "Le signe « − » entre les deux termes se conserve après la distribution.",
+        "Multiplie 5 par a, puis 5 par 2."
+      ],
+      "common_errors": {
+        "5a - 2": "L'élève n'a multiplié que le premier terme.",
+        "5a + 10": "L'élève a changé le signe du second terme."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Développer avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.d04",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle égalité est une application correcte de la distributivité ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le facteur 4 multiplie chaque terme : 4 × x + 4 × 2, donc l'égalité correcte est 4(x + 2) = 4x + 8.",
+      "step_by_step_solution": [
+        "On développe 4(x + 2) : 4 × x + 4 × 2.",
+        "4 × 2 = 8.",
+        "L'égalité correcte est 4(x + 2) = 4x + 8."
+      ],
+      "hints": [
+        "Développe toi-même 4(x + 2) puis compare avec les propositions.",
+        "Le 4 doit multiplier les deux termes de la parenthèse."
+      ],
+      "common_errors": {
+        "1": "Le terme 2 n'a pas été multiplié par 4.",
+        "2": "On a additionné 4 et 2 : les termes x et 2 ne sont pas semblables."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Développer avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "choices": [
+        "4(x + 2) = 4x + 8",
+        "4(x + 2) = 4x + 2",
+        "4(x + 2) = 6x",
+        "4(x + 2) = x + 8"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.d05",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "En écrivant 98 = 100 − 2, calculer mentalement 7 × 98.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "686"
+      },
+      "solution": "7 × 98 = 7 × (100 − 2) = 7 × 100 − 7 × 2 = 700 − 14 = 686.",
+      "step_by_step_solution": [
+        "7 × 98 = 7 × (100 − 2).",
+        "On distribue : 7 × 100 − 7 × 2 = 700 − 14.",
+        "700 − 14 = 686."
+      ],
+      "hints": [
+        "Multiplie 7 par 100, puis 7 par 2.",
+        "Attention : il faut soustraire le second produit."
+      ],
+      "common_errors": {
+        "698": "L'élève a soustrait 2 au lieu de 7 × 2.",
+        "714": "L'élève a ajouté 14 au lieu de le soustraire."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser la distributivité en calcul mental"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.a01",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Développer l'expression 4(2x + 3).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8x + 12",
+        "required_form": "developpee"
+      },
+      "solution": "4(2x + 3) = 4 × 2x + 4 × 3 = 8x + 12.",
+      "step_by_step_solution": [
+        "On distribue 4 sur 2x et sur 3.",
+        "4 × 2x = 8x et 4 × 3 = 12.",
+        "Donc 4(2x + 3) = 8x + 12."
+      ],
+      "hints": [
+        "4 × 2x : on multiplie les nombres entre eux, la lettre reste.",
+        "N'oublie pas de multiplier aussi le second terme."
+      ],
+      "common_errors": {
+        "8x + 3": "L'élève n'a pas multiplié le second terme.",
+        "6x + 7": "L'élève a additionné 4 au lieu de multiplier."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Développer avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.a02",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Développer l'expression 6(3 − 2y).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "18 - 12y",
+        "required_form": "developpee"
+      },
+      "solution": "6(3 − 2y) = 6 × 3 − 6 × 2y = 18 − 12y.",
+      "step_by_step_solution": [
+        "On distribue 6 sur 3 et sur 2y.",
+        "6 × 3 = 18 et 6 × 2y = 12y.",
+        "Donc 6(3 − 2y) = 18 − 12y."
+      ],
+      "hints": [
+        "Le signe « − » se conserve.",
+        "Calcule séparément 6 × 3 et 6 × 2y."
+      ],
+      "common_errors": {
+        "18 - 2y": "L'élève n'a pas multiplié le second terme.",
+        "18 + 12y": "L'élève a changé le signe."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Développer avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.a03",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Compléter l'égalité 5x + 20 = 5 × (…) : quelle expression faut-il écrire dans la parenthèse ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x + 4"
+      },
+      "solution": "20 = 5 × 4, donc 5x + 20 = 5 × x + 5 × 4 = 5(x + 4). On divise chaque terme par 5 : (5x + 20) ÷ 5 = x + 4. Vérification : 5(x + 4) redonne bien 5x + 20.",
+      "step_by_step_solution": [
+        "On écrit chaque terme comme un produit par 5 : 5x = 5 × x et 20 = 5 × 4.",
+        "On applique ka + kb = k(a + b).",
+        "Dans la parenthèse, on écrit (5x + 20) ÷ 5 = x + 4."
+      ],
+      "hints": [
+        "Divise chaque terme par 5.",
+        "Vérifie en développant ta réponse."
+      ],
+      "common_errors": {
+        "x + 20": "L'élève n'a pas divisé le second terme par 5.",
+        "5x + 4": "L'élève a divisé seulement le second terme."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Factoriser avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.a04",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Compléter l'égalité 12a − 18 = 6 × (…) : quelle expression faut-il écrire dans la parenthèse ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2a - 3"
+      },
+      "solution": "12a = 6 × 2a et 18 = 6 × 3, donc 12a − 18 = 6(2a − 3). Dans la parenthèse : (12a − 18) ÷ 6 = 2a − 3.",
+      "step_by_step_solution": [
+        "On écrit 12a = 6 × 2a et 18 = 6 × 3.",
+        "On applique ka − kb = k(a − b).",
+        "Dans la parenthèse, on écrit (12a − 18) ÷ 6 = 2a − 3."
+      ],
+      "hints": [
+        "Quel nombre, multiplié par 6, donne 12 ? et 18 ?",
+        "Le signe « − » se conserve dans la parenthèse."
+      ],
+      "common_errors": {
+        "2a - 18": "L'élève n'a pas divisé le second terme par 6.",
+        "2a + 3": "L'élève a changé le signe."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Factoriser avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.a05",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Écrire sous forme développée le produit 2,5(4x + 2).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10x + 5",
+        "required_form": "developpee"
+      },
+      "solution": "2,5(4x + 2) = 2,5 × 4x + 2,5 × 2 = 10x + 5.",
+      "step_by_step_solution": [
+        "On distribue 2,5 sur 4x et sur 2.",
+        "2,5 × 4 = 10 donc 2,5 × 4x = 10x ; 2,5 × 2 = 5.",
+        "Donc 2,5(4x + 2) = 10x + 5."
+      ],
+      "hints": [
+        "La distributivité fonctionne aussi avec un facteur décimal.",
+        "Pour 2,5 × 4, pense à 2 × 4 + 0,5 × 4."
+      ],
+      "common_errors": {
+        "10x + 2": "L'élève n'a pas multiplié le second terme.",
+        "6,5x + 4,5": "L'élève a additionné 2,5 au lieu de multiplier."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Développer avec la distributivité simple",
+        "Calculer avec des décimaux"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.c01",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Développer puis réduire l'expression 3(x + 2) + 4x.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7x + 6",
+        "required_form": "developpee"
+      },
+      "solution": "3(x + 2) + 4x = 3x + 6 + 4x = 7x + 6.",
+      "step_by_step_solution": [
+        "On développe 3(x + 2) = 3x + 6.",
+        "L'expression devient 3x + 6 + 4x.",
+        "On regroupe les termes en x : 3x + 4x = 7x, d'où 7x + 6."
+      ],
+      "hints": [
+        "Commence par développer la parenthèse.",
+        "Regroupe ensuite les termes en x entre eux."
+      ],
+      "common_errors": {
+        "7x + 2": "L'élève n'a pas multiplié 2 par 3.",
+        "13x": "L'élève a additionné des termes qui ne sont pas semblables."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Développer avec la distributivité simple",
+        "Réduire une expression littérale"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.c02",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Compléter l'égalité 4x + x² = x × (…) : quelle expression faut-il écrire dans la parenthèse ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4 + x"
+      },
+      "solution": "4x = x × 4 et x² = x × x : le facteur commun est x, donc 4x + x² = x(4 + x). Pour x non nul, (4x + x²) ÷ x = 4 + x.",
+      "step_by_step_solution": [
+        "On repère le facteur commun aux deux termes : x.",
+        "4x = x × 4 et x² = x × x.",
+        "Les seconds facteurs sont 4 et x : la parenthèse contient 4x ÷ x + x² ÷ x = 4 + x."
+      ],
+      "hints": [
+        "Le facteur commun peut être une lettre.",
+        "Quel est le second facteur de chaque produit ?"
+      ],
+      "common_errors": {
+        "4 + x²": "L'élève a laissé le second terme tel quel.",
+        "4x": "L'élève n'a factorisé que le premier terme."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Factoriser avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.c03",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer astucieusement 17 × 6 + 17 × 4.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "170"
+      },
+      "solution": "On factorise par 17 : 17 × 6 + 17 × 4 = 17 × (6 + 4) = 17 × 10 = 170.",
+      "step_by_step_solution": [
+        "On repère le facteur commun 17.",
+        "17 × 6 + 17 × 4 = 17 × (6 + 4).",
+        "17 × 10 = 170."
+      ],
+      "hints": [
+        "Quel nombre apparaît dans les deux produits ?",
+        "Utilise ka + kb = k(a + b) dans le sens de la factorisation."
+      ],
+      "common_errors": {
+        "27": "L'élève a additionné tous les nombres au lieu d'effectuer les produits.",
+        "1020": "L'élève a multiplié 17 × 6 × 10."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Factoriser avec la distributivité simple",
+        "Calculer astucieusement"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.c04",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Développer puis réduire l'expression 2(3x − 1) − 5.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6x - 7",
+        "required_form": "developpee"
+      },
+      "solution": "2(3x − 1) − 5 = 6x − 2 − 5 = 6x − 7.",
+      "step_by_step_solution": [
+        "On développe : 2(3x − 1) = 6x − 2.",
+        "On ajoute le terme − 5 : 6x − 2 − 5.",
+        "On réduit : − 2 − 5 = − 7, donc 6x − 7."
+      ],
+      "hints": [
+        "Développe d'abord la parenthèse, sans toucher au − 5.",
+        "Regroupe ensuite les nombres sans lettre."
+      ],
+      "common_errors": {
+        "6x - 6": "L'élève n'a pas multiplié le 1 par 2.",
+        "6x - 3": "L'élève a calculé − 2 + 5 au lieu de − 2 − 5."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Développer avec la distributivité simple",
+        "Réduire une expression littérale"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.c05",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rectangle a pour longueur x + 3 et pour largeur 4 (en centimètres). Exprimer son périmètre en fonction de x, sous forme développée et réduite.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2x + 14",
+        "required_form": "developpee"
+      },
+      "solution": "P = 2 × (longueur + largeur) = 2(x + 3 + 4) = 2(x + 7) = 2x + 14.",
+      "step_by_step_solution": [
+        "Périmètre d'un rectangle : 2 × (longueur + largeur).",
+        "Longueur + largeur = x + 3 + 4 = x + 7.",
+        "On développe : 2(x + 7) = 2x + 14."
+      ],
+      "hints": [
+        "Écris la formule du périmètre d'un rectangle.",
+        "Réduis la somme dans la parenthèse avant de développer."
+      ],
+      "common_errors": {
+        "2x + 7": "L'élève n'a pas multiplié 7 par 2.",
+        "4x + 12": "L'élève a calculé l'aire au lieu du périmètre."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Développer avec la distributivité simple",
+        "Produire une expression littérale à partir d'une figure"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.x01",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Montrer que, quel que soit le nombre x, l'expression 3(x + 2) − 3x prend toujours la même valeur. Quelle est cette valeur ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "On développe : 3(x + 2) − 3x = 3x + 6 − 3x = 6. L'expression vaut 6 pour tout nombre x.",
+      "step_by_step_solution": [
+        "On développe 3(x + 2) = 3x + 6.",
+        "L'expression devient 3x + 6 − 3x.",
+        "Les termes 3x et − 3x s'annulent : il reste 6."
+      ],
+      "hints": [
+        "Développe la parenthèse.",
+        "Que donne 3x − 3x ?"
+      ],
+      "common_errors": {
+        "2": "L'élève n'a pas multiplié 2 par 3.",
+        "6x + 6": "L'élève a ajouté 3x au lieu de le soustraire."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Développer avec la distributivité simple",
+        "Démontrer une propriété par le calcul littéral"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.x02",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Sans poser d'opération, trouver la valeur de 2,6 × 25 + 7,4 × 25 en factorisant.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "250"
+      },
+      "solution": "On factorise par 25 : 2,6 × 25 + 7,4 × 25 = 25 × (2,6 + 7,4) = 25 × 10 = 250.",
+      "step_by_step_solution": [
+        "Le facteur commun est 25.",
+        "2,6 × 25 + 7,4 × 25 = 25 × (2,6 + 7,4).",
+        "2,6 + 7,4 = 10, donc 25 × 10 = 250."
+      ],
+      "hints": [
+        "Repère le nombre qui apparaît dans les deux produits.",
+        "Calcule la somme des deux autres facteurs."
+      ],
+      "common_errors": {
+        "25": "L'élève a oublié de multiplier par 10.",
+        "260": "L'élève a fait une erreur en additionnant 2,6 et 7,4."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Factoriser avec la distributivité simple",
+        "Calculer astucieusement"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.distributivite.x03",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Développer l'expression 4(2a + 3b − 1).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8a + 12b - 4",
+        "required_form": "developpee"
+      },
+      "solution": "4(2a + 3b − 1) = 4 × 2a + 4 × 3b − 4 × 1 = 8a + 12b − 4.",
+      "step_by_step_solution": [
+        "Le facteur 4 multiplie les trois termes de la parenthèse.",
+        "4 × 2a = 8a, 4 × 3b = 12b et 4 × 1 = 4.",
+        "Donc 4(2a + 3b − 1) = 8a + 12b − 4."
+      ],
+      "hints": [
+        "La distributivité s'applique à tous les termes, même s'il y en a trois.",
+        "Garde les signes de chaque terme."
+      ],
+      "common_errors": {
+        "8a + 3b - 1": "L'élève n'a multiplié que le premier terme.",
+        "8a + 12b - 1": "L'élève a oublié de multiplier le dernier terme."
+      },
+      "remediation": "Illustrer k(a + b) par l'aire d'un rectangle de largeur k et de longueur a + b, découpé en deux rectangles d'aires ka et kb. Insister : le facteur k multiplie CHACUN des termes de la parenthèse.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Développer avec la distributivité simple"
+      ],
+      "source_notions": [
+        "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.d01",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans le triangle ABC, $\\widehat{BAC}$ mesure 48° et $\\widehat{ABC}$ mesure 67°. Calculer la mesure de l'angle $\\widehat{ACB}$, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "65"
+      },
+      "solution": "La somme des angles d'un triangle vaut 180°. On calcule 180 − (48 + 67) = 65, donc l'angle mesure 65°.",
+      "step_by_step_solution": [
+        "Dans un triangle, la somme des trois angles vaut 180°.",
+        "48 + 67 = 115.",
+        "180 − 115 = 65 : l'angle mesure 65°."
+      ],
+      "hints": [
+        "Que vaut la somme des trois angles d'un triangle ?",
+        "Additionne d'abord les deux angles connus."
+      ],
+      "common_errors": {
+        "115": "L'élève a donné la somme des deux angles connus.",
+        "245": "L'élève a ajouté 180 au lieu de soustraire."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.d02",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle DEF est rectangle en E et $\\widehat{EDF}$ mesure 35°. Calculer la mesure de l'angle $\\widehat{EFD}$, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "55"
+      },
+      "solution": "L'angle droit mesure 90°. On calcule 180 − (90 + 35) = 55, donc l'angle mesure 55°.",
+      "step_by_step_solution": [
+        "Le triangle est rectangle en E : l'angle en E mesure 90°.",
+        "90 + 35 = 125.",
+        "180 − 125 = 55 : l'angle mesure 55°."
+      ],
+      "hints": [
+        "Combien mesure un angle droit ?",
+        "Les deux angles aigus d'un triangle rectangle ont une somme de 90°."
+      ],
+      "common_errors": {
+        "145": "L'élève a oublié l'angle droit.",
+        "125": "L'élève a donné la somme de l'angle droit et de l'angle connu."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Utiliser la propriété du triangle rectangle"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.d03",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un triangle a ses trois angles de même mesure. Quelle est la mesure de chacun de ses angles, en degrés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "60"
+      },
+      "solution": "Les trois angles sont égaux et leur somme vaut 180°. On calcule 180 ÷ 3 = 60, donc chaque angle mesure 60°.",
+      "step_by_step_solution": [
+        "La somme des trois angles vaut 180°.",
+        "Les trois angles ont la même mesure : on partage 180 en trois.",
+        "180 ÷ 3 = 60 : chaque angle mesure 60°."
+      ],
+      "hints": [
+        "Quelle est la somme des angles d'un triangle ?",
+        "Partage cette somme en parts égales."
+      ],
+      "common_errors": {
+        "90": "L'élève a divisé 180 par 2.",
+        "180": "L'élève a donné la somme des angles."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Reconnaître le triangle équilatéral"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.d04",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Peut-on construire un triangle dont les angles mesurent 90°, 60° et 40° ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "90 + 60 + 40 = 190 ≠ 180. La bonne réponse est : non, car la somme vaut 190°.",
+      "step_by_step_solution": [
+        "On additionne les trois mesures : 90 + 60 + 40 = 190.",
+        "Dans un triangle, la somme des angles doit valoir 180°.",
+        "190 ≠ 180 : un tel triangle n'existe pas."
+      ],
+      "hints": [
+        "Additionne les trois mesures proposées.",
+        "Compare le total avec la somme des angles d'un triangle."
+      ],
+      "common_errors": {
+        "1": "Avoir un angle droit ne suffit pas : la somme doit valoir 180°.",
+        "2": "Chaque angle inférieur à 180° ne suffit pas."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Contrôler l'existence d'un triangle"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "choices": [
+        "Non, car la somme vaut 190°",
+        "Oui, c'est un triangle rectangle",
+        "Oui, car chaque angle est inférieur à 180°"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.d05",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle ABC est isocèle en A et $\\widehat{BAC}$ mesure 40°. Calculer la mesure de l'angle $\\widehat{ABC}$, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "70"
+      },
+      "solution": "Les angles à la base d'un triangle isocèle sont égaux. (180 − 40) ÷ 2 = 70, donc l'angle mesure 70°.",
+      "step_by_step_solution": [
+        "Dans un triangle isocèle en A, les angles en B et en C ont la même mesure.",
+        "Ces deux angles ont pour somme 180 − 40 = 140.",
+        "140 ÷ 2 = 70 : l'angle mesure 70°."
+      ],
+      "hints": [
+        "Dans un triangle isocèle, quels angles sont égaux ?",
+        "Calcule d'abord la somme des deux angles à la base."
+      ],
+      "common_errors": {
+        "140": "L'élève a oublié de partager entre les deux angles à la base.",
+        "40": "L'élève a pensé que les trois angles étaient égaux à l'angle donné."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Utiliser les propriétés du triangle isocèle"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.a01",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le triangle MNP est isocèle en M et $\\widehat{MNP}$ mesure 52°. Calculer la mesure de l'angle $\\widehat{NMP}$, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "76"
+      },
+      "solution": "Les angles à la base sont égaux : 52° et 52°. On calcule 180 − 2 × 52 = 76, donc l'angle au sommet mesure 76°.",
+      "step_by_step_solution": [
+        "Isocèle en M : les angles en N et en P mesurent tous deux 52°.",
+        "52 + 52 = 104.",
+        "180 − 104 = 76 : l'angle au sommet mesure 76°."
+      ],
+      "hints": [
+        "Quel autre angle mesure aussi 52° ?",
+        "Retire la somme des deux angles égaux à 180."
+      ],
+      "common_errors": {
+        "128": "L'élève n'a retiré qu'un seul angle de 52°.",
+        "64": "L'élève a divisé par 2 comme pour un angle à la base."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Utiliser les propriétés du triangle isocèle"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.a02",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans le triangle DEF, $\\widehat{DEF}$ mesure 30° et $\\widehat{EDF}$ mesure le double de $\\widehat{DEF}$. Calculer la mesure de l'angle $\\widehat{DFE}$, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "90"
+      },
+      "solution": "L'angle en D mesure 2 × 30 = 60°. On calcule 180 − (30 + 60) = 90, donc l'angle en F mesure 90° : le triangle est rectangle en F.",
+      "step_by_step_solution": [
+        "L'angle en D mesure 2 × 30 = 60°.",
+        "30 + 60 = 90.",
+        "180 − 90 = 90 : l'angle en F mesure 90°."
+      ],
+      "hints": [
+        "Commence par calculer la mesure de l'angle en D.",
+        "Utilise ensuite la somme des angles du triangle."
+      ],
+      "common_errors": {
+        "120": "L'élève a pris 30° pour l'angle en D au lieu du double.",
+        "60": "L'élève a donné la mesure de l'angle en D."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.a03",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un triangle est à la fois rectangle et isocèle. Quelle est la mesure de l'un de ses angles aigus, en degrés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "45"
+      },
+      "solution": "L'angle droit mesure 90°, les deux angles aigus sont égaux et ont pour somme 180 − 90 = 90. On calcule 90 ÷ 2 = 45, donc chaque angle aigu mesure 45°.",
+      "step_by_step_solution": [
+        "L'angle droit mesure 90° ; les deux autres angles sont égaux car le triangle est isocèle.",
+        "Leur somme vaut 180 − 90 = 90.",
+        "90 ÷ 2 = 45 : chaque angle aigu mesure 45°."
+      ],
+      "hints": [
+        "Le sommet principal d'un triangle rectangle isocèle est le sommet de l'angle droit.",
+        "Les deux angles aigus ont la même mesure."
+      ],
+      "common_errors": {
+        "90": "L'élève a oublié de partager entre les deux angles aigus.",
+        "60": "L'élève a confondu avec le triangle équilatéral."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Utiliser les propriétés du triangle isocèle"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.a04",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans le triangle RST, $\\widehat{SRT}$ mesure 38,5° et $\\widehat{RST}$ mesure 71,5°. Calculer la mesure de l'angle $\\widehat{RTS}$, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "70"
+      },
+      "solution": "38,5 + 71,5 = 110. On calcule 180 − 110 = 70, donc l'angle mesure 70°.",
+      "step_by_step_solution": [
+        "La somme des angles du triangle vaut 180°.",
+        "38,5 + 71,5 = 110.",
+        "180 − 110 = 70 : l'angle mesure 70°."
+      ],
+      "hints": [
+        "Les mesures peuvent être décimales : additionne-les avec soin.",
+        "Retire ensuite ce total de 180."
+      ],
+      "common_errors": {
+        "110": "L'élève a donné la somme des deux angles connus.",
+        "71,5": "L'élève a pensé que le triangle était isocèle."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Calculer avec des décimaux"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.a05",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "La ferme d'une charpente a la forme d'un triangle isocèle dont l'angle au sommet mesure 110°. Quelle est la mesure de chacun des deux angles à la base, en degrés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "35"
+      },
+      "solution": "Les angles à la base sont égaux et ont pour somme 180 − 110 = 70. On calcule 70 ÷ 2 = 35, donc chaque angle mesure 35°.",
+      "step_by_step_solution": [
+        "Les deux angles à la base d'un triangle isocèle sont égaux.",
+        "Leur somme vaut 180 − 110 = 70.",
+        "70 ÷ 2 = 35 : chaque angle à la base mesure 35°."
+      ],
+      "hints": [
+        "Retire d'abord l'angle au sommet de 180.",
+        "Partage le reste entre les deux angles égaux."
+      ],
+      "common_errors": {
+        "70": "L'élève a oublié de diviser par 2.",
+        "55": "L'élève a divisé 110 par 2."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Utiliser les propriétés du triangle isocèle"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.c01",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "REASONING",
+      "statement": "Dans le triangle ABC, $\\widehat{ABC}$ mesure 20° de plus que $\\widehat{BAC}$, et $\\widehat{ACB}$ mesure 40° de plus que $\\widehat{BAC}$. Quelle est la mesure de $\\widehat{BAC}$, en degrés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "40"
+      },
+      "solution": "Si l'angle en A mesure a degrés, alors a + (a + 20) + (a + 40) = 180, soit 3a + 60 = 180, 3a = 120 et a = 40. L'angle en A mesure 40° (les autres mesurent 60° et 80°).",
+      "step_by_step_solution": [
+        "On note a la mesure de l'angle en A.",
+        "Somme des angles : a + (a + 20) + (a + 40) = 180, soit 3a + 60 = 180.",
+        "3a = 120, donc a = 40."
+      ],
+      "hints": [
+        "Exprime chacun des trois angles à l'aide de la mesure de l'angle en A.",
+        "Retire les 20° et 40° « en plus » de 180, puis partage en trois."
+      ],
+      "common_errors": {
+        "60": "L'élève a partagé 180 en trois sans tenir compte des écarts.",
+        "120": "L'élève a oublié de diviser par 3."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Mettre un problème en équation"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.c02",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "REASONING",
+      "statement": "Dans le triangle EFG, $\\widehat{FEG}$ est le triple de $\\widehat{EFG}$, et $\\widehat{EGF}$ est le double de $\\widehat{EFG}$. Quelle est la mesure de $\\widehat{FEG}$, en degrés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "90"
+      },
+      "solution": "Si l'angle en F mesure f, alors 3f + f + 2f = 180, donc 6f = 180 et f = 30. L'angle en E mesure 3 × 30 = 90, soit 90°.",
+      "step_by_step_solution": [
+        "On note f la mesure de l'angle en F : les angles mesurent 3f, f et 2f.",
+        "3f + f + 2f = 6f = 180, donc f = 30.",
+        "L'angle en E mesure 3 × 30 = 90."
+      ],
+      "hints": [
+        "Combien de « parts » égales à l'angle en F la somme contient-elle ?",
+        "Trouve d'abord l'angle en F, puis multiplie."
+      ],
+      "common_errors": {
+        "30": "L'élève a donné la mesure de l'angle en F.",
+        "60": "L'élève a donné la mesure de l'angle en G."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Mettre un problème en équation"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.c03",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Dans le triangle ABC, $\\widehat{BAC}$ mesure 64° et $\\widehat{ABC}$ mesure 58°. Quelle est la nature du triangle ABC ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'angle en C mesure 180 − (64 + 58) = 58°. Les angles en B et en C sont égaux, donc le triangle est isocèle en A.",
+      "step_by_step_solution": [
+        "On calcule l'angle en C : 180 − (64 + 58) = 58.",
+        "Les angles en B et en C mesurent tous deux 58°.",
+        "Deux angles égaux : le triangle est isocèle ; le sommet principal est A. Réponse : isocèle en A."
+      ],
+      "hints": [
+        "Calcule d'abord la mesure du troisième angle.",
+        "Si deux angles sont égaux, le sommet principal est celui du troisième angle."
+      ],
+      "common_errors": {
+        "1": "Un triangle équilatéral a trois angles de 60°.",
+        "2": "Aucun angle ne mesure 90°.",
+        "3": "Le sommet principal est celui opposé à la base, où se trouvent les deux angles égaux."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Reconnaître un triangle isocèle par ses angles"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "choices": [
+        "isocèle en A",
+        "équilatéral",
+        "rectangle en C",
+        "isocèle en B"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.c04",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans le triangle ABC, $\\widehat{BAC}$ mesure 50° et $\\widehat{ABC}$ mesure 60°. On prolonge le côté [BC] au-delà de C par un point D. Calculer la mesure de l'angle $\\widehat{ACD}$, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "110"
+      },
+      "solution": "L'angle en C du triangle mesure 180 − (50 + 60) = 70. Les angles ACB et ACD forment un angle plat, donc ACD mesure 180 − 70 = 110, soit 110°.",
+      "step_by_step_solution": [
+        "Angle en C du triangle : 180 − (50 + 60) = 70.",
+        "B, C et D sont alignés : les angles ACB et ACD sont supplémentaires.",
+        "180 − 70 = 110 : l'angle ACD mesure 110°."
+      ],
+      "hints": [
+        "Calcule d'abord l'angle en C du triangle.",
+        "Deux angles qui forment un angle plat ont une somme de 180°."
+      ],
+      "common_errors": {
+        "70": "L'élève a donné l'angle du triangle au lieu de l'angle extérieur.",
+        "130": "L'élève a calculé 180 − 50."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Utiliser les angles supplémentaires"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.c05",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "REASONING",
+      "statement": "Un quadrilatère ABCD est partagé par sa diagonale [AC] en deux triangles. Trois de ses angles mesurent 80°, 95° et 110°. Quelle est la mesure du quatrième angle, en degrés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "75"
+      },
+      "solution": "La diagonale partage le quadrilatère en deux triangles, donc la somme de ses angles vaut 2 × 180 = 360. On calcule 360 − (80 + 95 + 110) = 75 : le quatrième angle mesure 75°.",
+      "step_by_step_solution": [
+        "Chacun des deux triangles a des angles de somme 180°.",
+        "La somme des angles du quadrilatère vaut donc 2 × 180 = 360.",
+        "360 − (80 + 95 + 110) = 360 − 285 = 75."
+      ],
+      "hints": [
+        "Combien de triangles la diagonale forme-t-elle ?",
+        "Déduis-en la somme des angles d'un quadrilatère."
+      ],
+      "common_errors": {
+        "-105": "L'élève a utilisé 180 comme somme des angles du quadrilatère.",
+        "285": "L'élève a donné la somme des trois angles connus."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Démontrer en réutilisant une propriété"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.x01",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Pour démontrer que la somme des angles d'un triangle ABC vaut 180°, on trace la parallèle à (BC) passant par A. Quelle propriété permet ensuite d'affirmer que les angles formés en A sont égaux aux angles $\\widehat{ABC}$ et $\\widehat{ACB}$ ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les angles formés en A et les angles en B et en C sont alternes-internes par rapport aux droites parallèles. La propriété utilisée est : les angles alternes-internes formés par deux parallèles et une sécante sont égaux. Les trois angles en A forment alors un angle plat, donc la somme vaut 180°.",
+      "step_by_step_solution": [
+        "La droite tracée est parallèle à (BC) ; (AB) et (AC) sont des sécantes.",
+        "Chaque angle formé en A est alterne-interne avec l'angle en B ou en C.",
+        "On utilise : les angles alternes-internes formés par deux parallèles et une sécante sont égaux."
+      ],
+      "hints": [
+        "Repère les deux droites parallèles et la sécante.",
+        "Comment s'appellent deux angles situés de part et d'autre de la sécante, entre les parallèles ?"
+      ],
+      "common_errors": {
+        "1": "Les angles opposés par le sommet sont égaux, pas supplémentaires, et ne sont pas ceux utilisés ici.",
+        "2": "La somme des angles d'un quadrilatère vaut 360° et n'intervient pas ici."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Démontrer la somme des angles d'un triangle",
+        "Caractériser le parallélisme par les angles"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "choices": [
+        "les angles alternes-internes formés par deux parallèles et une sécante sont égaux",
+        "les angles opposés par le sommet sont supplémentaires",
+        "la somme des angles d'un quadrilatère vaut 180°"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.x02",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Le triangle ABC est isocèle en A et chacun de ses angles à la base mesure le double de $\\widehat{BAC}$. Quelle est la mesure de $\\widehat{BAC}$, en degrés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "36"
+      },
+      "solution": "Si l'angle en A mesure a, les angles à la base mesurent 2a chacun : a + 2a + 2a = 180, donc 5a = 180 et a = 36. L'angle en A mesure 36° (les angles à la base mesurent 72°).",
+      "step_by_step_solution": [
+        "On note a la mesure de l'angle en A ; les angles en B et C mesurent 2a.",
+        "a + 2a + 2a = 5a = 180.",
+        "a = 180 ÷ 5 = 36."
+      ],
+      "hints": [
+        "Exprime les trois angles à l'aide d'une seule mesure.",
+        "Combien de fois l'angle en A la somme contient-elle ?"
+      ],
+      "common_errors": {
+        "60": "L'élève a partagé 180 en trois parts égales.",
+        "72": "L'élève a donné la mesure d'un angle à la base."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Mettre un problème en équation"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.5E.angles-triangle.x03",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Le triangle ABC est rectangle en A et $\\widehat{ABC}$ mesure 32°. H est le pied de la hauteur issue de A. Calculer la mesure de l'angle $\\widehat{HAC}$, en degrés.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "32"
+      },
+      "solution": "Dans ABC : l'angle en C mesure 180 − (90 + 32) = 58. Dans le triangle AHC, rectangle en H : l'angle HAC mesure 180 − (90 + 58) = 32, soit 32°.",
+      "step_by_step_solution": [
+        "Dans le triangle ABC : angle en C = 180 − (90 + 32) = 58.",
+        "Le triangle AHC est rectangle en H, car (AH) est perpendiculaire à (BC).",
+        "Dans AHC : 180 − (90 + 58) = 32."
+      ],
+      "hints": [
+        "Utilise d'abord le triangle ABC pour trouver l'angle en C.",
+        "Quel autre triangle rectangle contient l'angle HAC ?"
+      ],
+      "common_errors": {
+        "58": "L'élève a donné la mesure de l'angle en C.",
+        "90": "L'élève a confondu avec l'angle droit en H."
+      },
+      "remediation": "Découper les trois coins d'un triangle en papier et les juxtaposer : ils forment un angle plat (180°). Puis refaire le calcul : angle cherché = 180 − (somme des deux angles connus).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la somme des angles d'un triangle",
+        "Enchaîner deux propriétés dans une figure"
+      ],
+      "source_notions": [
+        "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

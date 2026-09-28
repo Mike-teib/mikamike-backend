@@ -1,0 +1,796 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q01",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Soit f(x) = 2x + 5. Quelle est l'image de 3 par f ?",
+      "choices": [
+        "11",
+        "10",
+        "16",
+        "-1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "11",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "f(3) = 2 × 3 + 5 = 6 + 5 = 11.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a additionné tous les nombres : 2 + 3 + 5.",
+        "2": "On a calculé 2 × (3 + 5) : erreur de priorité.",
+        "3": "On a cherché l'antécédent de 3 au lieu de l'image."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q02",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Quel est le coefficient directeur de la droite d'équation y = −4x + 1 ?",
+      "choices": [
+        "-4",
+        "1",
+        "4",
+        "-1/4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "-4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Dans y = ax + b, le coefficient directeur est a, ici −4 ; l'ordonnée à l'origine est 1.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "1 est l'ordonnée à l'origine.",
+        "2": "On a oublié le signe.",
+        "3": "On a pris l'inverse."
+      },
+      "common_error_target": {
+        "1": "confusion coefficient directeur / ordonnée à l'origine"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q03",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "La représentation graphique d'une fonction linéaire est :",
+      "choices": [
+        "une droite passant par l'origine du repère",
+        "une droite qui ne passe jamais par l'origine",
+        "une courbe qui passe par l'origine du repère",
+        "un segment parallèle à l'axe des abscisses"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "une droite passant par l'origine du repère",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une fonction linéaire x ↦ ax a pour image 0 en 0 : sa représentation est une droite passant par l'origine.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est le cas des fonctions affines non linéaires (b ≠ 0).",
+        "2": "La représentation d'une fonction linéaire est une droite, pas une courbe quelconque.",
+        "3": "Une fonction linéaire (a ≠ 0) n'a pas une représentation horizontale."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q04",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Soit f(x) = 3x − 5. Quel est l'antécédent de 7 par f ?",
+      "choices": [
+        "4",
+        "16",
+        "2/3",
+        "-4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On résout 3x − 5 = 7 : 3x = 12, donc x = 4.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "16 est l'image de 7, pas son antécédent.",
+        "2": "On a soustrait 5 au lieu de l'ajouter.",
+        "3": "Erreur de signe."
+      },
+      "common_error_target": {
+        "1": "confusion image / antécédent"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q05",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Laquelle de ces fonctions est affine mais pas linéaire ?",
+      "choices": [
+        "f(x) = 3x − 7",
+        "f(x) = −2x",
+        "f(x) = x² + 1",
+        "f(x) = 5/x"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "f(x) = 3x − 7",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "f(x) = 3x − 7 est de la forme ax + b avec b = −7 ≠ 0 : elle est affine et non linéaire.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "−2x est linéaire (b = 0).",
+        "2": "x² + 1 n'est pas affine.",
+        "3": "5/x n'est pas affine."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q06",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Une fonction affine f vérifie f(0) = 2 et f(1) = 5. Quelle est l'expression de f(x) ?",
+      "choices": [
+        "3x + 2",
+        "2x + 3",
+        "5x + 2",
+        "3x + 5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3x + 2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "b = f(0) = 2 et a = f(1) − f(0) = 3, donc f(x) = 3x + 2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a inversé a et b.",
+        "2": "On a pris f(1) comme coefficient directeur.",
+        "3": "On a pris f(1) comme ordonnée à l'origine."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q07",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Une fonction linéaire f vérifie f(2) = 7. Quel est son coefficient ?",
+      "choices": [
+        "7/2",
+        "2/7",
+        "5",
+        "14"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "7/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "f(x) = ax avec 2a = 7, donc a = 7/2 (soit 3,5).",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a divisé 2 par 7.",
+        "2": "On a soustrait 2 à 7.",
+        "3": "On a multiplié 7 par 2."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q08",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Soit g(x) = −x + 4. Quelle est l'image de −2 par g ?",
+      "choices": [
+        "6",
+        "2",
+        "-6",
+        "-2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "g(−2) = −(−2) + 4 = 2 + 4 = 6.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a calculé −2 + 4 en oubliant le signe devant x.",
+        "2": "Erreur de signe sur le résultat.",
+        "3": "On a calculé −(2 + 4) + 4."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q09",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Les droites d'équations y = x + 1 et y = 3x − 5 se coupent en un point. Quelle est son abscisse ?",
+      "choices": [
+        "3",
+        "-2",
+        "1",
+        "4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On résout x + 1 = 3x − 5 : 6 = 2x, donc x = 3 (et y = 4).",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a résolu x + 1 = 3x + 5 (erreur de signe).",
+        "2": "On a pris l'ordonnée à l'origine de la première droite.",
+        "3": "4 est l'ordonnée du point, pas son abscisse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.fonctions-affines.q10",
+      "notion_id": "MATHS.3E.OGDF.les-fonctions-affines-et-lineaires-sont-presentees-par-leurs-expressio",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Un prix augmente de 20 %. Par quel nombre est-il multiplié ?",
+      "choices": [
+        "1,2",
+        "0,2",
+        "20",
+        "0,8"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1,2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Augmenter de 20 %, c'est multiplier par 1 + 20/100 = 1,2 : c'est la fonction linéaire x ↦ 1,2x.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "0,2 est le taux d'évolution, pas le coefficient multiplicateur.",
+        "2": "On a confondu pourcentage et coefficient.",
+        "3": "0,8 correspond à une baisse de 20 %."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q01",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Dans un triangle rectangle, le cosinus d'un angle aigu est égal à :",
+      "choices": [
+        "côté adjacent / hypoténuse",
+        "côté opposé / hypoténuse",
+        "côté opposé / côté adjacent",
+        "hypoténuse / côté adjacent"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "côté adjacent / hypoténuse",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Par définition, le cosinus d'un angle aigu d'un triangle rectangle est le quotient du côté adjacent par l'hypoténuse.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la définition du sinus.",
+        "2": "C'est la définition de la tangente.",
+        "3": "C'est l'inverse du cosinus."
+      },
+      "common_error_target": {
+        "1": "confusion cosinus / sinus"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q02",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Dans un triangle rectangle, la tangente d'un angle aigu est égale à :",
+      "choices": [
+        "côté opposé / côté adjacent",
+        "côté adjacent / côté opposé",
+        "côté opposé / hypoténuse",
+        "côté adjacent / hypoténuse"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "côté opposé / côté adjacent",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Par définition, la tangente d'un angle aigu est le quotient du côté opposé par le côté adjacent.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le rapport est inversé.",
+        "2": "C'est la définition du sinus.",
+        "3": "C'est la définition du cosinus."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q03",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "ABC est rectangle en A avec AB = 4 cm et BC = 5 cm. Que vaut $\\cos(\\widehat{ABC})$ ?",
+      "choices": [
+        "4/5",
+        "3/5",
+        "5/4",
+        "4/3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4/5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "cos = adjacent / hypoténuse = AB/BC = 4/5 (soit 0,8).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "3/5 est le sinus de l'angle en B (AC = 3 cm).",
+        "2": "Le rapport est inversé.",
+        "3": "4/3 est le quotient AB/AC, qui n'est pas une ligne trigonométrique de l'angle en B."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q04",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Quelle est la valeur exacte de sin(30°) ?",
+      "choices": [
+        "1/2",
+        "√3/2",
+        "√2/2",
+        "1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Dans un triangle équilatéral coupé en deux par une hauteur, le côté opposé à l'angle de 30° vaut la moitié de l'hypoténuse : sin(30°) = 1/2 = 0,5.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "√3/2 est la valeur de cos(30°).",
+        "2": "√2/2 est la valeur de sin(45°).",
+        "3": "1 est la valeur de sin(90°), pas d'un angle de 30°."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q05",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "ABC est rectangle en A, BC = 12 cm et $\\widehat{ABC}$ = 60°. Combien mesure AB ?",
+      "choices": [
+        "6 cm",
+        "10,4 cm",
+        "24 cm",
+        "20,8 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "AB est adjacent à l'angle en B : AB = BC × cos(60°) = 12 × 0,5 = 6 cm.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a utilisé le sinus : c'est la longueur AC.",
+        "2": "On a divisé par cos(60°).",
+        "3": "On a multiplié 12 par tan(60°)."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q06",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Un angle aigu a un cosinus égal à 0,5. Quelle est sa mesure ?",
+      "choices": [
+        "60°",
+        "30°",
+        "45°",
+        "0,5°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "60°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "cos(60°) = 0,5 : avec la touche arccos, on obtient un angle de 60°.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "C'est sin(30°) qui vaut 0,5.",
+        "2": "cos(45°) ≈ 0,71.",
+        "3": "On a confondu la valeur du cosinus et l'angle."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q07",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "ABC est rectangle en A. On connaît BC et $\\widehat{ABC}$. Quelle égalité permet de calculer AC ?",
+      "choices": [
+        "AC = BC × sin(\\widehat{ABC})",
+        "AC = BC × cos(\\widehat{ABC})",
+        "AC = BC ÷ sin(\\widehat{ABC})",
+        "AC = BC × tan(\\widehat{ABC})"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "AC = BC × sin(\\widehat{ABC})",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "[AC] est le côté opposé à l'angle en B et [BC] l'hypoténuse : sin = AC/BC, donc AC = BC × sin.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le cosinus donnerait AB, côté adjacent.",
+        "2": "Diviser par le sinus donnerait une longueur plus grande que BC.",
+        "3": "La tangente relie opposé et adjacent, pas l'hypoténuse."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q08",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Un angle aigu a une tangente égale à 1. Quelle est sa mesure ?",
+      "choices": [
+        "45°",
+        "90°",
+        "1°",
+        "60°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "45°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "tan = 1 signifie que le côté opposé et le côté adjacent sont égaux : le triangle est rectangle isocèle, l'angle mesure 45°.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Un angle aigu mesure moins de 90°.",
+        "2": "On a confondu la tangente et l'angle.",
+        "3": "tan(60°) ≈ 1,73."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q09",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "ABC est rectangle en A, AB = 10 cm et $\\widehat{ABC}$ = 20°. Combien mesure AC, arrondi au dixième ?",
+      "choices": [
+        "3,6 cm",
+        "3,4 cm",
+        "9,4 cm",
+        "27,5 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3,6 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "AC est opposé et AB adjacent à l'angle en B : AC = 10 × tan(20°) ≈ 3,6 cm.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a utilisé le sinus (10 × sin 20°).",
+        "2": "On a utilisé le cosinus (10 × cos 20°).",
+        "3": "On a divisé par tan(20°)."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.trigonometrie.q10",
+      "notion_id": "MATHS.3E.EG.les-lignes-trigonometriques-cosinus-sinus-tangente-dans-le-triangle-re",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Pour calculer un angle aigu d'un triangle rectangle dont on connaît le côté opposé et l'hypoténuse, on utilise :",
+      "choices": [
+        "le sinus",
+        "le cosinus",
+        "la tangente",
+        "le théorème de Thalès"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "le sinus",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le sinus relie le côté opposé et l'hypoténuse : on calcule leur quotient puis on utilise arcsin.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Le cosinus utilise le côté adjacent.",
+        "2": "La tangente n'utilise pas l'hypoténuse.",
+        "3": "Le théorème de Thalès ne permet pas de calculer un angle."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q01",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "On lance une pièce équilibrée. Quelle est la probabilité d'obtenir pile ?",
+      "choices": [
+        "1/2",
+        "1",
+        "0",
+        "2"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Deux issues équiprobables (pile, face), une seule favorable : la probabilité vaut 1/2.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "1 est la probabilité d'un événement certain.",
+        "2": "0 est la probabilité d'un événement impossible.",
+        "3": "Une probabilité ne peut pas dépasser 1."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q02",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "On lance un dé équilibré à six faces. Quelle est la probabilité d'obtenir 1 ou 2 ?",
+      "choices": [
+        "1/3",
+        "2/3",
+        "1/6",
+        "3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Deux issues favorables (1 et 2) sur six : 2/6 = 1/3.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la probabilité de l'événement contraire.",
+        "2": "On n'a compté qu'une issue favorable.",
+        "3": "Une probabilité est comprise entre 0 et 1."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q03",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Une urne contient 2 boules rouges, 3 noires et 5 blanches. Quelle est la probabilité de tirer une boule noire ?",
+      "choices": [
+        "3/10",
+        "3/7",
+        "1/3",
+        "3/5"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3/10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Il y a 2 + 3 + 5 = 10 boules, dont 3 noires : la probabilité vaut 3/10.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a divisé par le nombre de boules non noires.",
+        "2": "On a considéré les trois couleurs comme équiprobables.",
+        "3": "On a oublié les boules blanches dans le total."
+      },
+      "common_error_target": {
+        "2": "couleurs supposées équiprobables"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q04",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Entre quelles valeurs une probabilité est-elle toujours comprise ?",
+      "choices": [
+        "0 et 1",
+        "−1 et 1",
+        "0 et 100",
+        "1 et 10"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0 et 1",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une probabilité est un nombre compris entre 0 (événement impossible) et 1 (événement certain).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Une probabilité n'est jamais négative.",
+        "2": "On confond avec un pourcentage (0 % à 100 %).",
+        "3": "Une probabilité ne dépasse jamais 1."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q05",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "La probabilité d'un événement A vaut 0,4. Quelle est la probabilité de l'événement contraire ?",
+      "choices": [
+        "0,6",
+        "0,4",
+        "1,4",
+        "-0,4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "P(non A) = 1 − P(A) = 1 − 0,4 = 0,6.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a recopié P(A).",
+        "2": "On a ajouté 1 au lieu de soustraire.",
+        "3": "Une probabilité n'est jamais négative."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q06",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "On tire une carte au hasard dans un jeu de 52 cartes qui contient 13 cœurs. Quelle est la probabilité de tirer un cœur ?",
+      "choices": [
+        "1/4",
+        "1/13",
+        "1/52",
+        "13/4"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "13 cœurs sur 52 cartes : 13/52 = 1/4.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a calculé la probabilité de tirer une carte d'une hauteur donnée.",
+        "2": "On n'a compté qu'une carte favorable.",
+        "3": "Une probabilité ne peut pas dépasser 1."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q07",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Quelle est la probabilité d'un événement certain ?",
+      "choices": [
+        "1",
+        "0",
+        "1/2",
+        "100"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Un événement certain est toujours réalisé : sa probabilité vaut 1.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "0 est la probabilité d'un événement impossible.",
+        "2": "1/2 correspond à une chance sur deux.",
+        "3": "On confond avec 100 %."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q08",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Une roue est partagée en 10 secteurs identiques numérotés de 1 à 10. Quelle est la probabilité d'obtenir un multiple de 4 ?",
+      "choices": [
+        "1/5",
+        "1/4",
+        "2/5",
+        "3/10"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les multiples de 4 entre 1 et 10 sont 4 et 8 : 2/10 = 1/5.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a confondu « multiple de 4 » et « probabilité 1/4 ».",
+        "2": "On a compté 4 issues favorables.",
+        "3": "On a compté trois issues favorables au lieu de deux."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q09",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "Un sac contient 20 jetons. La probabilité de tirer un jeton rouge est 0,25. Combien y a-t-il de jetons rouges ?",
+      "choices": [
+        "5",
+        "25",
+        "4",
+        "15"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Nombre de jetons rouges = 20 × 0,25 = 5.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a confondu 0,25 et 25 jetons.",
+        "2": "On a divisé 20 par 5 au lieu de multiplier par 0,25.",
+        "3": "C'est le nombre de jetons qui ne sont pas rouges."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.3E.probabilites.q10",
+      "notion_id": "MATHS.3E.OGDF.les-calculs-de-probabilites-a-partir-de-denombrements-sappliquent-a-de",
+      "subject": "MATHS",
+      "level": "3E",
+      "question": "On écrit les lettres du mot MATHS sur cinq cartons et on en tire un au hasard. Quelle est la probabilité d'obtenir une voyelle ?",
+      "choices": [
+        "1/5",
+        "4/5",
+        "1/4",
+        "1/26"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "La seule voyelle de MATHS est le A : 1 issue favorable sur 5, soit 1/5.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "C'est la probabilité d'obtenir une consonne.",
+        "2": "On a divisé par le nombre de consonnes.",
+        "3": "On a raisonné sur les 26 lettres de l'alphabet."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

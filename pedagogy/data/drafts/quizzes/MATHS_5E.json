@@ -1,0 +1,794 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q01",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Combien vaut $\\frac{1}{3} + \\frac{1}{6}$ ?",
+      "choices": [
+        "1/2",
+        "2/9",
+        "2/6",
+        "1/18"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/2",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "$\\frac{1}{3} = \\frac{2}{6}$, donc $\\frac{1}{3} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2}$.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a ajouté les numérateurs et les dénominateurs.",
+        "2": "On a changé le dénominateur du tiers sans changer son numérateur.",
+        "3": "On a multiplié au lieu d'ajouter."
+      },
+      "common_error_target": {
+        "1": "addition des dénominateurs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q02",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Combien vaut $\\frac{3}{4} - \\frac{2}{3}$ ?",
+      "choices": [
+        "1/12",
+        "1",
+        "5/12",
+        "1/7"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/12",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Avec le dénominateur 12 : $\\frac{9}{12} - \\frac{8}{12} = \\frac{1}{12}$.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a soustrait les numérateurs et les dénominateurs : (3 − 2)/(4 − 3).",
+        "2": "Erreur dans la transformation de l'une des fractions.",
+        "3": "On a soustrait les numérateurs et additionné les dénominateurs."
+      },
+      "common_error_target": {
+        "1": "soustraction des dénominateurs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q03",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quel est le résultat de $\\frac{2}{5} + \\frac{1}{2}$ ?",
+      "choices": [
+        "9/10",
+        "3/7",
+        "3/10",
+        "7/10"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9/10",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Avec le dénominateur 10 : $\\frac{4}{10} + \\frac{5}{10} = \\frac{9}{10}$.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a ajouté les numérateurs et les dénominateurs.",
+        "2": "On a ajouté les numérateurs sans transformer les fractions.",
+        "3": "On a transformé 2/5 en 2/10 sans multiplier le numérateur."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q04",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Pour additionner deux fractions de dénominateurs différents, que faut-il faire d'abord ?",
+      "choices": [
+        "les écrire avec un même dénominateur",
+        "additionner leurs dénominateurs",
+        "multiplier leurs numérateurs",
+        "simplifier chacune par deux"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "les écrire avec un même dénominateur",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On ne peut additionner que des parts de même taille : on écrit d'abord les fractions avec un dénominateur commun, puis on additionne les numérateurs.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On n'additionne jamais les dénominateurs : ils indiquent la taille des parts.",
+        "2": "Multiplier les numérateurs ne correspond pas à une addition.",
+        "3": "Simplifier ne rend pas les dénominateurs égaux."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q05",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quel est le plus petit dénominateur commun de $\\frac{1}{6}$ et de $\\frac{3}{8}$ ?",
+      "choices": [
+        "24",
+        "48",
+        "14",
+        "12"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "24",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Les multiples de 8 sont 8, 16, 24… ; 24 est le premier qui soit aussi un multiple de 6.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "48 = 6 × 8 est un dénominateur commun, mais pas le plus petit.",
+        "2": "14 = 6 + 8 : on a additionné les dénominateurs.",
+        "3": "12 est un multiple de 6 mais pas de 8."
+      },
+      "common_error_target": {
+        "2": "addition des dénominateurs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q06",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Combien vaut $1 - \\frac{3}{8}$ ?",
+      "choices": [
+        "5/8",
+        "2/8",
+        "3/8",
+        "11/8"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5/8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "$1 = \\frac{8}{8}$, donc $1 - \\frac{3}{8} = \\frac{5}{8}$.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a calculé 3 − 1 au numérateur.",
+        "2": "On a recopié la fraction retirée.",
+        "3": "On a ajouté au lieu de soustraire."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q07",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Dans un collège, un quart des élèves viennent à pied et deux cinquièmes en bus. Quelle fraction des élèves vient à pied ou en bus ?",
+      "choices": [
+        "13/20",
+        "3/9",
+        "3/20",
+        "8/20"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "13/20",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "$\\frac{1}{4} + \\frac{2}{5} = \\frac{5}{20} + \\frac{8}{20} = \\frac{13}{20}$.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a ajouté les numérateurs et les dénominateurs.",
+        "2": "On a changé les dénominateurs sans changer les numérateurs.",
+        "3": "On n'a compté que les élèves venant en bus."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q08",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quelle est la valeur de $\\frac{7}{12} - \\frac{1}{4}$ ?",
+      "choices": [
+        "1/3",
+        "6/8",
+        "6/12",
+        "5/12"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "1/3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "$\\frac{1}{4} = \\frac{3}{12}$, donc $\\frac{7}{12} - \\frac{3}{12} = \\frac{4}{12} = \\frac{1}{3}$.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a soustrait les numérateurs et les dénominateurs.",
+        "2": "On n'a pas transformé le quart en douzièmes.",
+        "3": "On a cru que le quart valait deux douzièmes."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q09",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "On calcule $\\frac{5}{6} + \\frac{4}{9}$. Quel résultat obtient-on ?",
+      "choices": [
+        "23/18",
+        "9/15",
+        "23/54",
+        "9/18"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "23/18",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "18 est un multiple commun de 6 et 9 : $\\frac{15}{18} + \\frac{8}{18} = \\frac{23}{18}$.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a ajouté les numérateurs et les dénominateurs.",
+        "2": "On a pris 54 = 6 × 9 comme dénominateur sans transformer correctement les numérateurs.",
+        "3": "On n'a pas multiplié les numérateurs."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.fractions.q10",
+      "notion_id": "MATHS.5E.NC.additionner-et-soustraire-des-fractions-de-denominateurs-quelconques",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Parmi ces fractions, laquelle est égale à $\\frac{1}{2} + \\frac{1}{5} + \\frac{1}{10}$ ?",
+      "choices": [
+        "4/5",
+        "3/17",
+        "3/10",
+        "7/10"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4/5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Avec le dénominateur 10 : $\\frac{5}{10} + \\frac{2}{10} + \\frac{1}{10} = \\frac{8}{10} = \\frac{4}{5}$.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a ajouté les numérateurs et les dénominateurs.",
+        "2": "On a changé les dénominateurs sans changer les numérateurs.",
+        "3": "On a oublié la dernière fraction."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q01",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quelle est la forme développée de 3(x + 5) ?",
+      "choices": [
+        "3x + 15",
+        "3x + 5",
+        "x + 15",
+        "8x"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3x + 15",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Le facteur 3 multiplie chaque terme : 3 × x + 3 × 5 = 3x + 15.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le second terme n'a pas été multiplié par 3.",
+        "2": "Le premier terme n'a pas été multiplié par 3.",
+        "3": "On a additionné des termes non semblables."
+      },
+      "common_error_target": {
+        "1": "distribution incomplète"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q02",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quelle est la forme développée de 2(4 − y) ?",
+      "choices": [
+        "8 - 2y",
+        "8 - y",
+        "6 - y",
+        "8 + 2y"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "8 - 2y",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "2(4 − y) = 2 × 4 − 2 × y = 8 − 2y.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le terme y n'a pas été multiplié par 2.",
+        "2": "On a additionné 2 et 4 au lieu de multiplier.",
+        "3": "Le signe « − » n'a pas été conservé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q03",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quelle expression est égale à 6x + 18 ?",
+      "choices": [
+        "6(x + 3)",
+        "6(x + 18)",
+        "3(x + 6)",
+        "x(6 + 18)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "6(x + 3)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "18 = 6 × 3, donc 6x + 18 = 6 × x + 6 × 3 = 6(x + 3).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le second terme n'a pas été divisé par 6 : 6(x + 18) = 6x + 108.",
+        "2": "3(x + 6) = 3x + 18 : le premier terme ne convient pas.",
+        "3": "18 n'est pas un multiple de x."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q04",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "En écrivant 99 = 100 − 1, combien vaut 5 × 99 ?",
+      "choices": [
+        "495",
+        "500",
+        "499",
+        "594"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "495",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 × 99 = 5 × (100 − 1) = 500 − 5 = 495.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a oublié de retirer 5 × 1.",
+        "2": "On a retiré 1 au lieu de 5 × 1.",
+        "3": "Erreur de calcul : inversion des chiffres."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q05",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quelle est la forme développée de 7(2a − 3) ?",
+      "choices": [
+        "14a - 21",
+        "14a - 3",
+        "9a - 10",
+        "14a + 21"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "14a - 21",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "7(2a − 3) = 7 × 2a − 7 × 3 = 14a − 21.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Le second terme n'a pas été multiplié par 7.",
+        "2": "On a additionné 7 aux nombres au lieu de multiplier.",
+        "3": "Le signe « − » n'a pas été conservé."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q06",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Passer de l'écriture k(a + b) à l'écriture ka + kb, c'est :",
+      "choices": [
+        "développer",
+        "factoriser",
+        "réduire",
+        "simplifier"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "développer",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Transformer un produit en somme, c'est développer ; l'opération inverse s'appelle factoriser.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Factoriser, c'est le sens inverse : passer de ka + kb à k(a + b).",
+        "2": "Réduire, c'est regrouper des termes semblables.",
+        "3": "Simplifier ne désigne pas cette transformation."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q07",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Passer de l'écriture 4x + 4y à l'écriture 4(x + y), c'est :",
+      "choices": [
+        "factoriser",
+        "développer",
+        "additionner",
+        "réduire"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "factoriser",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Transformer une somme en produit en mettant en évidence le facteur commun 4, c'est factoriser.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Développer, c'est passer du produit à la somme.",
+        "2": "On ne calcule pas de somme ici : on transforme l'écriture.",
+        "3": "Réduire, c'est regrouper des termes semblables, ce qui n'est pas le cas."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q08",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Combien vaut 12 × 8 + 12 × 2 ?",
+      "choices": [
+        "120",
+        "22",
+        "240",
+        "96"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "120",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On factorise par 12 : 12 × (8 + 2) = 12 × 10 = 120.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "On a additionné tous les nombres : 12 + 8 + 2.",
+        "2": "On a multiplié par 20 au lieu de 10.",
+        "3": "On a oublié le second produit."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q09",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quelle est la forme développée de 0,5(4x + 6) ?",
+      "choices": [
+        "2x + 3",
+        "2x + 6",
+        "4,5x + 6,5",
+        "4x + 3"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "2x + 3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "0,5 × 4x = 2x et 0,5 × 6 = 3, donc 0,5(4x + 6) = 2x + 3.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Le second terme n'a pas été multiplié par 0,5.",
+        "2": "On a additionné 0,5 au lieu de multiplier.",
+        "3": "Le premier terme n'a pas été multiplié par 0,5."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.distributivite.q10",
+      "notion_id": "MATHS.5E.NC.exploiter-les-relations-k-a-b-ka-kb-ou-k-a-b-ka-kb-pour-factoriser-ou",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quelle écriture est égale à 10x − 15 ?",
+      "choices": [
+        "5(2x - 3)",
+        "5(2x - 15)",
+        "10(x - 5)",
+        "5(5x - 3)"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5(2x - 3)",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "10x = 5 × 2x et 15 = 5 × 3, donc 10x − 15 = 5(2x − 3).",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "15 n'a pas été divisé par 5 : 5(2x − 15) = 10x − 75.",
+        "2": "10(x − 5) = 10x − 50.",
+        "3": "5(5x − 3) = 25x − 15."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q01",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Dans un triangle, deux angles mesurent 30° et 80°. Combien mesure le troisième ?",
+      "choices": [
+        "70°",
+        "110°",
+        "80°",
+        "250°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "70°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La somme des angles d'un triangle vaut 180° : 180 − (30 + 80) = 70, donc 70°.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est la somme des deux angles connus.",
+        "2": "On a supposé à tort le triangle isocèle.",
+        "3": "On a ajouté 180 au lieu de soustraire."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q02",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Un triangle rectangle a un angle aigu de 62°. Combien mesure son autre angle aigu ?",
+      "choices": [
+        "28°",
+        "118°",
+        "62°",
+        "38°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "28°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les deux angles aigus d'un triangle rectangle ont une somme de 90° : 90 − 62 = 28, donc 28°.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a oublié l'angle droit : 180 − 62.",
+        "2": "Rien n'indique que le triangle est isocèle.",
+        "3": "Erreur de soustraction."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q03",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Combien mesure chaque angle d'un triangle équilatéral ?",
+      "choices": [
+        "60°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "60°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les trois angles sont égaux et leur somme vaut 180° : 180 ÷ 3 = 60, donc 60°.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "90° est la mesure d'un angle droit.",
+        "2": "180° est la somme des trois angles.",
+        "3": "45° correspond au triangle rectangle isocèle."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q04",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Un triangle isocèle a un angle au sommet de 100°. Combien mesure chacun de ses angles à la base ?",
+      "choices": [
+        "40°",
+        "80°",
+        "100°",
+        "50°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "40°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "(180 − 100) ÷ 2 = 40 : chaque angle à la base mesure 40°.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a oublié de diviser par 2.",
+        "2": "On a recopié l'angle au sommet.",
+        "3": "On a divisé 100 par 2."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q05",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Quelle est la somme des mesures des trois angles d'un triangle quelconque ?",
+      "choices": [
+        "180°",
+        "360°",
+        "90°",
+        "100°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "180°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Dans tout triangle, la somme des mesures des trois angles vaut 180° (un angle plat).",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "360° est la somme des angles d'un quadrilatère.",
+        "2": "90° est la mesure d'un angle droit.",
+        "3": "Cette valeur ne correspond à aucune propriété."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q06",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Un triangle isocèle a deux angles à la base de 65°. Combien mesure son angle au sommet ?",
+      "choices": [
+        "50°",
+        "115°",
+        "65°",
+        "25°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "50°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "180 − 2 × 65 = 50 : l'angle au sommet mesure 50°.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On n'a retiré qu'un seul angle à la base.",
+        "2": "Les trois angles ne sont pas égaux.",
+        "3": "Erreur de calcul : 90 − 65."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q07",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Existe-t-il un triangle ayant des angles de 100°, de 50° et de 40° ?",
+      "choices": [
+        "Non, car la somme vaut 190°",
+        "Oui, car il a un seul angle obtus",
+        "Oui, car chaque angle est inférieur à 180°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "Non, car la somme vaut 190°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "100 + 50 + 40 = 190 ≠ 180 : un tel triangle n'existe pas.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Avoir un seul angle obtus ne suffit pas : la somme doit valoir 180°.",
+        "2": "Chaque angle inférieur à 180° ne suffit pas."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q08",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Combien mesure chaque angle aigu d'un triangle rectangle isocèle ?",
+      "choices": [
+        "45°",
+        "90°",
+        "60°",
+        "30°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "45°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les deux angles aigus sont égaux et ont pour somme 90° : 90 ÷ 2 = 45, donc 45°.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "90° est la mesure de l'angle droit.",
+        "2": "60° correspond au triangle équilatéral.",
+        "3": "Erreur de partage."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q09",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Les angles d'un triangle mesurent a, 2a et 3a. Combien mesure le plus grand angle ?",
+      "choices": [
+        "90°",
+        "60°",
+        "30°",
+        "120°"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "90°",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "a + 2a + 3a = 6a = 180, donc a = 30 et le plus grand angle mesure 3 × 30 = 90, soit 90°.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "C'est la mesure du deuxième angle (2a).",
+        "2": "C'est la valeur de a.",
+        "3": "On a pris 4a."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.5E.angles-triangle.q10",
+      "notion_id": "MATHS.5E.EG.connaitre-la-somme-des-angles-dun-triangle-et-savoir-la-demontrer",
+      "subject": "MATHS",
+      "level": "5E",
+      "question": "Un triangle a deux angles de 45°. Quelle est sa nature ?",
+      "choices": [
+        "rectangle isocèle",
+        "équilatéral",
+        "obtusangle",
+        "isocèle non rectangle"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "rectangle isocèle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le troisième angle mesure 180 − 90 = 90 : le triangle a un angle droit et deux angles égaux, il est rectangle isocèle.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Un triangle équilatéral a trois angles de 60°.",
+        "2": "Aucun angle n'est obtus.",
+        "3": "Le troisième angle mesure 90° : le triangle est aussi rectangle."
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}
