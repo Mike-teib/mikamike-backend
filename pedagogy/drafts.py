@@ -14,6 +14,10 @@ Les brouillons vivent donc HORS de la banque servie (pedagogy/data/bank) :
       NOTION_NOT_APPROVED (notion prouvée mais pas encore relue) est tolérée. Code 1 sinon.
       Écrit reports/DRAFTS_QA_REPORT.json (déterministe, non versionné).
 
+  python -m pedagogy.drafts review-plan
+      Produit une file de relecture LECTURE SEULE : notion, niveau, titre, statuts,
+      nombre d'exercices et de quiz encore dans les brouillons.
+
   python -m pedagogy.drafts approve --reviewer "Mike" --notion ID [...] --item ID [...]
       Outil de REVUE HUMAINE : passe les notions citées en review_status=APPROVED et les
       exercices/quiz cités en qa_status=HUMAN_APPROVED, puis les déplace vers la banque.
@@ -117,6 +121,59 @@ def check(reg: Optional[Registry] = None, drafts_dir: Path = DRAFTS_DIR) -> Dict
     return report
 
 
+def review_plan(reg: Optional[Registry] = None, drafts_dir: Path = DRAFTS_DIR) -> Dict[str, object]:
+    """Construit une file de relecture déterministe sans modifier les brouillons."""
+    reg = reg or load_registry()
+    ex, ex_err = _load("exercises", drafts_dir)
+    qz, qz_err = _load("quizzes", drafts_dir)
+    ex_count = Counter(e.notion_id for _, e in ex)
+    qz_count = Counter(q.notion_id for _, q in qz)
+    meta: Dict[str, Tuple[str, str]] = {}
+    for _, item in [*ex, *qz]:
+        meta.setdefault(item.notion_id, (item.subject.value, item.level.value))
+
+    rows: List[Dict[str, object]] = []
+    for notion_id in sorted(set(ex_count) | set(qz_count), key=lambda nid: (*meta.get(nid, ("", "")), nid)):
+        notion = reg.notions.get(notion_id)
+        subject, level = meta.get(notion_id, ("", ""))
+        proof = notion.proof_status.value if notion is not None else "UNKNOWN"
+        review = notion.review_status.value if notion is not None else "UNKNOWN"
+        exercises = ex_count[notion_id]
+        quizzes = qz_count[notion_id]
+        rows.append({
+            "notion_id": notion_id,
+            "subject": subject,
+            "level": level,
+            "title": notion.title if notion is not None else None,
+            "proof_status": proof,
+            "review_status": review,
+            "exercises": exercises,
+            "quizzes": quizzes,
+            "items": exercises + quizzes,
+            "ready_for_human_review": bool(
+                notion is not None
+                and notion.proof_status == ProofStatus.PROVEN_OFFICIAL
+                and notion.review_status != ReviewStatus.APPROVED
+            ),
+        })
+
+    by_subject_level = Counter((r["subject"], r["level"]) for r in rows)
+    return {
+        "generated_by": "pedagogy.drafts review-plan",
+        "notions": len(rows),
+        "exercises": len(ex),
+        "quizzes": len(qz),
+        "items": len(ex) + len(qz),
+        "load_errors": [list(x) for x in sorted(ex_err + qz_err)],
+        "ready_for_human_review": sum(1 for r in rows if r["ready_for_human_review"]),
+        "by_subject_level": {
+            f"{subject}.{level}": count
+            for (subject, level), count in sorted(by_subject_level.items())
+        },
+        "queue": rows,
+    }
+
+
 def _permute_quiz_for_bank(obj: Dict[str, object]) -> Dict[str, object]:
     """Permutation déterministe des choix, avec remappage de tous les index associés."""
     choices = list(obj.get("choices") or [])
@@ -189,6 +246,8 @@ def main(argv=None) -> int:
     sub = ap.add_subparsers(dest="cmd", required=True)
     c = sub.add_parser("check")
     c.add_argument("--out", type=Path, default=REPO_ROOT / "reports" / "DRAFTS_QA_REPORT.json")
+    p = sub.add_parser("review-plan")
+    p.add_argument("--out", type=Path, default=REPO_ROOT / "reports" / "DRAFTS_REVIEW_PLAN.json")
     a = sub.add_parser("approve")
     a.add_argument("--reviewer", required=True)
     a.add_argument("--notion", nargs="*", default=[])
@@ -206,6 +265,19 @@ def main(argv=None) -> int:
         for d in rep["load_errors"][:10]:
             print(f"  LOAD {d[0]} {d[1][:160]}")
         return 0 if rep["verdict"] == "PASS" else 1
+    if args.cmd == "review-plan":
+        rep = review_plan()
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        args.out.write_text(json.dumps(rep, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(
+            f"REVIEW_PLAN notions={rep['notions']} exercices={rep['exercises']} "
+            f"quiz={rep['quizzes']} prêts={rep['ready_for_human_review']}"
+        )
+        if rep["load_errors"]:
+            for row in rep["load_errors"][:10]:
+                print(f"  LOAD {row[0]} {row[1][:160]}")
+            return 1
+        return 0
     print(approve(args.reviewer, args.notion, args.item))
     return 0
 
