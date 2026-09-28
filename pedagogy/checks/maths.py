@@ -335,7 +335,7 @@ def _form_gap(raw: str, form: str) -> Optional[str]:
             return None
         # SymPy peut simplifier 3(x+5) lors du parsing. On conserve donc aussi
         # l'information syntaxique : un produit de facteurs sans +/− au niveau racine.
-        explicit_product = bool(re.search(r"(?:[0-9A-Za-z)]\s*\(|\)\s*\(|\*\s*\()", s))
+        explicit_product = bool(re.search(r"(?:(?<![A-Za-z])[0-9A-Za-z)]\s*\(|\)\s*\(|\*\s*\()", s))
         return None if explicit_product and not _has_top_level_add_sub(s) else "forme_non_factorisee"
     raise MathInputRejected("forme_inconnue")
 
