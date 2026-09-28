@@ -141,6 +141,10 @@ def _namespace(text: str) -> Tuple[Dict[str, object], Dict[str, object]]:
         if word not in _FUNCTIONS:
             for letter in word:
                 loc[letter] = sympy.Symbol(letter)
+    # « e » isolé est le nombre d'Euler (notation du lycée : e², e^x, e^(-1)). La réponse
+    # attendue et celle de l'élève passent par le même analyseur : l'équivalence reste cohérente.
+    if re.search(r"(?<![A-Za-z])e(?![A-Za-z])", text):
+        loc["e"] = sympy.E
     return glob, loc
 
 

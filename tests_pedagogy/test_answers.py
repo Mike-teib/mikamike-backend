@@ -159,3 +159,15 @@ def test_ten_thousand_is_not_a_product():
     from pedagogy.models import AnswerKind, ExpectedAnswer
     assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value="10000"), "10 000") == Verdict.VALID
     assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value="0"), "10 000") != Verdict.VALID
+
+
+# --- Nombre d'Euler « e » (notation du lycée) ------------------------------------------
+@pytest.mark.parametrize("expected,student", [
+    ("exp(x)*(x+1)", "e^x(x+1)"), ("exp(2)", "e²"), ("exp(2)", "e^2"), ("exp(-1)", "1/e"), ("x*exp(x)", "x e^x"),
+])
+def test_euler_e_is_the_number(expected, student):
+    assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value=expected), student) == Verdict.VALID
+
+
+def test_euler_e_not_confused():
+    assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value="exp(2)"), "2e") != Verdict.VALID
