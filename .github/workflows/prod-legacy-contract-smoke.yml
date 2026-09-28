@@ -47,11 +47,17 @@ jobs:
       - name: Chat production minimal
         run: |
           set -euo pipefail
-          curl -fsS --max-time 45             -H 'Content-Type: application/json'             -d '{"code":"Test26Mika","matiere":"maths","messages":[{"role":"user","content":"Bonjour Mika, test technique de connexion."}],"exercice_id":null}'             https://app.mikamike.fr/api/chat             -o /tmp/chat.json
+          TOKEN="$(python3 -c 'import json; print(json.load(open("/tmp/login.json"))["token"])')"
+          curl -fsS --max-time 45 \
+            -H 'Content-Type: application/json' \
+            -H "Authorization: Bearer $TOKEN" \
+            -d '{"code":"Test26Mika","matiere":"maths","messages":[{"role":"user","content":"Bonjour Mika, test technique de connexion."}],"exercice_id":null}' \
+            https://app.mikamike.fr/api/chat \
+            -o /tmp/chat.json
           python3 - <<'PY'
           import json
           data=json.load(open("/tmp/chat.json",encoding="utf-8"))
           reply=data.get("reply")
           assert isinstance(reply,str) and reply.strip(), data
-          print("PASS /api/chat Test26Mika reply_non_empty")
+          print("PASS /api/chat Test26Mika bearer reply_non_empty")
           PY
