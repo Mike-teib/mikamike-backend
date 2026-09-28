@@ -107,7 +107,12 @@ def test_exercices_seulement_prouves_qa_et_non_fixture(client):
     r = c.get("/pedagogy/exercises").json()
     assert [e["exercise_id"] for e in r["items"]] == ["EX.ok.1"]
     assert c.get("/pedagogy/exercises", params={"difficulty": "ADVANCED"}).json()["total"] == 0
-    assert c.get("/pedagogy/quiz", params={"notion_id": p.notion_id}).json()["total"] == 1
+    quiz = c.get("/pedagogy/quiz", params={"notion_id": p.notion_id}).json()
+    assert quiz["total"] == 1
+    item = quiz["items"][0]
+    assert item["choices"] == ["100", "20", "12"]
+    for secret in ("correct_answer", "reference_answer", "explanation", "distractor_rationale", "common_error_target"):
+        assert secret not in item
 
 
 @pytest.mark.parametrize("params", [{"limit": 0}, {"limit": 1000}, {"offset": -1}, {"level": "7E"}, {"subject": "HISTOIRE"}])
