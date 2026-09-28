@@ -20,4 +20,4 @@ window.MikaNativeSpeech=native?{
     await SpeechRecognition.start({language,maxResults:3,partialResults:true,popup:false,contextualStrings:["MikaMike","mathématiques","fraction","équation","géométrie"]});
   },
   async stop(){try{await SpeechRecognition.stop();}finally{await clearHandles();}}
-}:null;\n
+}:null;
