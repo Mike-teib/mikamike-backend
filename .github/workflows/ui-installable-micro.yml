@@ -17,9 +17,23 @@ jobs:
         with: {node-version: "22"}
       - run: node --check frontend-vnext/app.js
       - run: node frontend-vnext/tests/check-installable-ui.mjs
-  android-debug:
+  browser-375:
     runs-on: ubuntu-latest
     needs: web-contract
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Recette micro + PWA 375px
+        run: |
+          python3 -m http.server 4173 --directory frontend-vnext >/tmp/mikamike-http.log 2>&1 &
+          node frontend-vnext/tests/ui-installable-browser.mjs
+
+  android-debug:
+    runs-on: ubuntu-latest
+    needs: browser-375
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -38,7 +52,7 @@ jobs:
           path: mobile-app/android/app/build/outputs/apk/debug/app-debug.apk
   ios-simulator:
     runs-on: macos-latest
-    needs: web-contract
+    needs: browser-375
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -51,7 +65,7 @@ jobs:
         run: xcodebuild -project ios/App/App.xcodeproj -scheme App -sdk iphonesimulator -configuration Debug CODE_SIGNING_ALLOWED=NO build
   preview:
     runs-on: ubuntu-latest
-    needs: web-contract
+    needs: browser-375
     if: github.event_name != 'pull_request'
     steps:
       - uses: actions/checkout@v4
