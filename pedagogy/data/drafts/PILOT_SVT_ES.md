@@ -110,8 +110,8 @@ Les unités encore hors du parseur courant, notamment `dB` et `ppm`, restent dem
 
 ## Validation automatique
 
-`python -m pedagogy.drafts check` → **PASS** : 1 815 exercices, 961 quiz, 0 bloquant, 0 erreur de chargement,
-0 avertissement (tous brouillons confondus).
+`python -m pedagogy.drafts check` → **PASS** : 1 814 exercices réels, 960 quiz réels, 0 bloquant, 0 erreur de chargement,
+0 avertissement (les fichiers `_EXEMPLE_*.json` sont des fixtures et ne sont pas comptés).
 
 ## Points de revue humaine
 
