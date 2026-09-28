@@ -23,6 +23,7 @@ Les brouillons vivent donc HORS de la banque servie (pedagogy/data/bank) :
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from collections import Counter
 from pathlib import Path
@@ -116,6 +117,27 @@ def check(reg: Optional[Registry] = None, drafts_dir: Path = DRAFTS_DIR) -> Dict
     return report
 
 
+def _permute_quiz_for_bank(obj: Dict[str, object]) -> Dict[str, object]:
+    """Permutation déterministe des choix, avec remappage de tous les index associés."""
+    choices = list(obj.get("choices") or [])
+    if len(choices) < 2:
+        return obj
+    quiz_id = str(obj.get("quiz_id") or "")
+    order = sorted(
+        range(len(choices)),
+        key=lambda i: hashlib.sha256(f"{quiz_id}|{i}".encode("utf-8")).digest(),
+    )
+    old_to_new = {old: new for new, old in enumerate(order)}
+    out = dict(obj)
+    out["choices"] = [choices[i] for i in order]
+    out["correct_answer"] = old_to_new[int(obj["correct_answer"])]
+    for field in ("distractor_rationale", "common_error_target"):
+        raw = obj.get(field) or {}
+        if isinstance(raw, dict):
+            out[field] = {str(old_to_new[int(k)]): v for k, v in raw.items()}
+    return out
+
+
 def approve(reviewer: str, notion_ids: Sequence[str], item_ids: Sequence[str],
             data_dir: Path = DATA_DIR) -> Dict[str, int]:
     """Revue humaine explicite. Ne jamais appeler depuis un pipeline automatique."""
@@ -147,7 +169,10 @@ def approve(reviewer: str, notion_ids: Sequence[str], item_ids: Sequence[str],
                 (moved if obj[key] in wanted_items else keep).append(obj)
             if not moved:
                 continue
-            for obj in moved:
+            for i, obj in enumerate(moved):
+                if kind == "quizzes":
+                    obj = _permute_quiz_for_bank(obj)
+                    moved[i] = obj
                 obj["qa_status"] = "HUMAN_APPROVED"
                 obj["publication_status"] = "APPROVED"
             target = bank / f.name
