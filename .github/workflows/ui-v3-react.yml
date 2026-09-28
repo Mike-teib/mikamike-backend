@@ -30,3 +30,22 @@ jobs:
         run: npm test
       - name: Build
         run: npm run build
+      - name: Installer Chromium Playwright
+        run: npx playwright install --with-deps chromium
+      - name: Recette navigateur 375px
+        shell: bash
+        run: |
+          npm run preview -- --host 127.0.0.1 --port 4173 >/tmp/mikamike-ui-v3.log 2>&1 &
+          echo $! >/tmp/mikamike-ui-v3.pid
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:4173 >/dev/null; then break; fi
+            sleep 1
+          done
+          node src/tests/ui-v3-mobile.mjs
+      - name: Capture mobile 375px
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mikamike-ui-v3-mobile-375
+          path: /tmp/mikamike-ui-v3-mobile-375.png
+          if-no-files-found: ignore
