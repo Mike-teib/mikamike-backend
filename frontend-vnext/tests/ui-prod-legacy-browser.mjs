@@ -16,7 +16,7 @@ await page.route("**/api/**", async route => {
     assert.equal(req.method(),"POST");
     assert.equal(body.code,"Test26Mika");
     return route.fulfill({status:200,contentType:"application/json",body:JSON.stringify({
-      ok:true,eleve:"Test",niveau:"college",matieres:["maths","physique"],upload:true,token:"legacy-token"
+      ok:true,eleve:"Test",niveau:"college",matieres:["maths","physique","chimie"],upload:true,token:"legacy-token"
     })});
   }
   if(url.pathname==="/api/chat"){
@@ -53,7 +53,7 @@ const chemistry=subjectsPanel.locator('.subject-card[data-subject="Chimie"]');
 assert.equal(await maths.isEnabled(),true);
 assert.equal(await physics.isEnabled(),true);
 assert.equal(await svt.isDisabled(),true);
-assert.equal(await chemistry.isDisabled(),true);
+assert.equal(await chemistry.isEnabled(),true);
 
 await page.locator('button[data-panel="subjects"]').click();
 await physics.click();
