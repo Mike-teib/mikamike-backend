@@ -16,7 +16,7 @@ await page.addInitScript(() => {
   window.SpeechRecognition=FakeSpeechRecognition;
 });
 await page.goto("http://127.0.0.1:4173/?demo=1",{waitUntil:"networkidle"});
-await page.getByRole("button",{name:"Mika",exact:true}).click();
+await page.locator('button[data-panel="mika"]').click();
 const mic=page.getByRole("button",{name:"Activer la dictée vocale"});
 await mic.waitFor({state:"visible"});
 assert.equal(await mic.isEnabled(),true);
