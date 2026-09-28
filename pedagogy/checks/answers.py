@@ -10,7 +10,8 @@ Répartition par AnswerKind :
   MATH_EXPR  : équivalence symbolique SymPy (gardes de sécurité) + required_form ;
   QUANTITY   : valeur + unité (dimension, tolérance relative, chiffres significatifs,
                required_form ∈ {notation_scientifique, unite_imposee}) ;
-  EXACT_TEXT : égalité après normalisation (casse, espaces, apostrophes, ponctuation finale) ;
+  EXACT_TEXT : égalité après normalisation (casse, espaces, apostrophes, ponctuation finale,
+               article initial « le/la/les/l'/un/une/des/du ») ;
                value peut être une liste de formes acceptées ;
   CHOICE     : index (0-based) ou lettre (A, B…) ; plusieurs index ⇒ ensemble exact ;
   BOOLEAN    : vrai/faux, true/false, oui/non ;
@@ -47,6 +48,16 @@ def normalize_answer_text(text: str) -> str:
     t = re.sub(r"\s*'\s*", "'", t)
     t = re.sub(r"(\d),(\d)", r"\1.\2", t)
     return t.strip(" .;:,!?\"'")
+
+
+_ARTICLE = re.compile(r"^(?:le|la|les|l'|un|une|des|du|de la|de l'|d')\s*")
+
+
+def normalize_short_text(text: str) -> str:
+    """Texte court (EXACT_TEXT) : normalisation + article initial retiré (« le noyau » ≡ « noyau »)."""
+    t = normalize_answer_text(text)
+    stripped = _ARTICLE.sub("", t, count=1).strip()
+    return stripped or t
 
 
 # --------------------------------------------------------------------------- #
@@ -212,10 +223,10 @@ def check_answer_detailed(expected: ExpectedAnswer, student: Any) -> CheckResult
         if kind == AnswerKind.EXACT_TEXT:
             accepted = expected.value if isinstance(expected.value, (list, tuple)) else [expected.value]
             accepted = [a for a in accepted if isinstance(a, (str, int, float)) and not isinstance(a, bool)]
-            norm = [normalize_answer_text(str(a)) for a in accepted]
+            norm = [normalize_short_text(str(a)) for a in accepted]
             if not norm or not all(norm):
                 return review("attendue_vide")
-            return valid("texte_identique") if normalize_answer_text(student) in norm else invalid("texte_different")
+            return valid("texte_identique") if normalize_short_text(student) in norm else invalid("texte_different")
         if kind == AnswerKind.CHOICE:
             exp = parse_choice(expected.value)
             if exp is None:

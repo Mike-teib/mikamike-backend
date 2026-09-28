@@ -18,7 +18,8 @@ Codes d'anomalie STABLES (code — sévérité — signification) :
   DUPLICATE_CHOICES            ERROR    deux choix identiques après normalisation
   EMPTY_CHOICE                 ERROR    choix vide
   AMBIGUOUS_CHOICE             ERROR    « toutes les réponses », « aucune », « je ne sais pas »…
-  ANSWER_IN_QUESTION           ERROR    la réponse figure dans la question (frontière de jeton)
+  ANSWER_IN_QUESTION           ERROR    la réponse figure dans la question (frontière de jeton ;
+                                        MATH_EXPR / QUANTITY / EXACT_TEXT seulement)
   EXPLANATION_MISSING          ERROR    explication vide
   EXPLANATION_TOO_SHORT        WARNING  explication de moins de 25 caractères utiles
   DISTRACTOR_RATIONALE_MISSING WARNING  un distracteur sans justification
@@ -148,7 +149,7 @@ def validate_quiz(q: QuizItem, reg: Registry) -> List[Issue]:
 
     # ------------------------------------------------------------------ fuites
     leak = [q.reference_answer] + ([correct] if correct.strip() else [])
-    if any(text_contains_answer(q.question, a, min_length=3) for a in leak if len(a) <= 200):
+    if q.answer_kind in (AnswerKind.MATH_EXPR, AnswerKind.QUANTITY, AnswerKind.EXACT_TEXT) and any(text_contains_answer(q.question, a, min_length=3) for a in leak if len(a) <= 200):
         add("ANSWER_IN_QUESTION", E, q.reference_answer)
 
     # ------------------------------------------------------------------ explication
