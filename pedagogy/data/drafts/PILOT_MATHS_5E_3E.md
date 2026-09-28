@@ -68,18 +68,11 @@ Remarques sur le périmètre :
 
 ## Limites connues (points d'attention pour la revue)
 
-- **Factorisation.** La forme `factorisee` refuse `3(x + 5)`, car SymPy redistribue un facteur numérique. Les
-  factorisations sont donc demandées sous la forme « compléter k × (…) » : on attend le contenu de la parenthèse,
-  sans forme imposée.
-- **Angles.** L'unité « ° » n'est pas reconnue par le vérificateur de grandeurs. Les mesures d'angles sont donc des
-  MATH_EXPR entières, avec « en degrés » dans l'énoncé. Dans les quiz, les choix portent « ° » et sont en
-  EXACT_TEXT. Une réponse d'élève non arrondie (ex. 48,2 au lieu de 48) est refusée.
+- **Factorisation.** Le vérificateur accepte désormais les écritures scolaires implicites comme `3(x + 5)` tout en refusant une forme développée équivalente lorsque `required_form = factorisee`.
+- **Angles.** L'unité « ° » est désormais reconnue. Les anciens items `MATH_EXPR` restent compatibles ; les nouveaux peuvent utiliser `QUANTITY`. Les règles d'arrondi restent à valider pédagogiquement.
 - **Longueurs arrondies.** Les longueurs arrondies (QUANTITY) acceptent un écart relatif de 1 %.
-- **Unités.** L'euro et le degré Fahrenheit ne sont pas des unités reconnues. Ces réponses sont donc de simples
-  nombres (MATH_EXPR), et l'unité figure dans l'énoncé.
-- **Écriture des nombres.** Les décimaux qui portent une réponse MATH_EXPR sont écrits « 0,01 », jamais
-  `0{,}01` en LaTeX : le vérificateur ne lit pas `{,}`. Les grands entiers réponses sont évités, car le séparateur
-  de milliers (« 10 000 ») serait lu comme un produit implicite.
+- **Unités.** L'euro est désormais reconnu. Le degré Fahrenheit reste hors du périmètre actuel du parseur d'unités et doit rester traité explicitement si un futur item l'utilise.
+- **Écriture des nombres.** Les espaces de milliers sont désormais normalisés (« 10 000 » ≡ « 10000 »). La notation LaTeX `0{,}01` reste à éviter dans une saisie `MATH_EXPR` libre.
 - **Figures.** Il n'y a aucune figure : les configurations géométriques sont décrites en texte. Un relecteur peut
   vouloir ajouter des schémas (échelle, Thalès, cerf-volant, triangle isocèle).
 - **Diagnostics d'erreur.** Les `common_errors` et `distractor_rationale` sont des hypothèses didactiques
