@@ -83,6 +83,8 @@ def test_unites_annoncees_par_l_enonce():
     assert implied == ["m/s", "joules"]
     assert [t for t, _ in units_implied_by_text("rectangle en A", ignore_single_capitals=True)] == []
     assert [t for t, _ in units_implied_by_text("Exprimer I en A.")] == ["A"]
+    assert [t for t, _ in units_implied_by_text("activité exprimée en becquerels")] == ["becquerels"]
+    assert [t for t, _ in units_implied_by_text("âge du fossile en années")] == ["années"]
 
 
 @pytest.mark.parametrize("q,context,violated", [
