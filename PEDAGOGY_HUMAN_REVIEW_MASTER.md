@@ -7,10 +7,11 @@ Ce document organise la relecture humaine avant toute approbation ou publication
 État de référence avant cette mise à jour :
 
 - 3 188 notions `PROVEN_OFFICIAL` issues de 23 PDF officiels avec page et SHA-256 ;
-- 1 815 exercices brouillons et 961 quiz brouillons dans le jeu de validation global ;
+- 1 814 exercices brouillons et 960 quiz brouillons réels dans le jeu de validation global ;
 - 108 notions représentées dans les brouillons (pilote + historique) ;
 - pilote principal : 96 notions, à raison de 3 notions par niveau et par matière couverte ;
-- 86 exercices historiques rattachés à 15 notion_id distincts ; l'ancien exercice n°115 reste volontairement `UNMAPPED` ;
+- 86 exercices historiques rattachés à 15 `notion_id` distincts ; l'ancien exercice n°115 reste volontairement `UNMAPPED` ;
+- les fichiers `_EXEMPLE_*.json` sont des fixtures de test et sont explicitement exclus du chargement, de la file de revue et de l'approbation ;
 - banque servie aux élèves : 0 exercice, 0 quiz ;
 - aucune approbation humaine automatique.
 
