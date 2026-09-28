@@ -82,10 +82,7 @@ Les solutions multiples s'écrivent « x = a ou x = b ». Les couples (forme can
 
 ## Limites connues (points d'attention pour la revue)
 
-- **Nombre e.** Pour le vérificateur, `e` est une lettre, pas le nombre d'Euler. Une réponse d'élève « e^x(x+1) »
-  ou « e² » est donc déclarée **INVALIDE** alors qu'elle est juste. Les énoncés concernés demandent d'écrire
-  `exp(…)` : « écrire exp(x) pour eˣ », « écrire exp(1) pour e ». Les choix de quiz utilisent `exp(…)`. Le
-  vérificateur doit évoluer (traiter `e` comme exp(1) en contexte d'analyse) avant publication.
+- **Nombre e.** Le vérificateur traite désormais `e` comme le nombre d'Euler en contexte d'analyse : `e^x`, `e²` et les formes `exp(...)` sont reconnues de façon cohérente. Le cas faux `2e` face à `e²` reste refusé.
 - **Logarithme sans parenthèses.** « ln3 » ou « ln 3 » est envoyé en revue humaine. Il faut écrire « ln(3) ».
 - **Limites infinies et intervalles.** Le vérificateur ne lit ni +∞ ni les intervalles. Les limites infinies et les
   ensembles solutions d'inéquations sont donc proposés en QCM. Il n'y a pas de saisie libre pour ces réponses.
