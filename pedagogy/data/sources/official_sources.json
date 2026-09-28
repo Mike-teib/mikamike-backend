@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "disclaimer": "Liste des documents officiels ATTENDUS. Aucun n'est récupéré : retrieval=EXPECTED, reference_verified=false. Aucune notion ne peut être PROVEN_OFFICIAL tant que le PDF n'est pas déposé et enregistré (sha256).",
+  "sources": [
+    {
+      "source_id": "SRC-C3-2020",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "url": "",
+      "subjects": [
+        "MATHS",
+        "SCIENCES_TECHNOLOGIE"
+      ],
+      "levels": [
+        "6E"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2020-2021",
+      "school_year_end": null,
+      "retrieval": "EXPECTED",
+      "local_path": "",
+      "sha256": "",
+      "reference_verified": false,
+      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path. Vérifier aussi si un nouveau programme de mathématiques du cycle 3 s'applique en 6e à la rentrée visée (voir SRC-C3-MATHS-NOUVEAU)."
+    },
+    {
+      "source_id": "SRC-C3-MATHS-NOUVEAU",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de mathématiques du cycle 3 — nouvelle version éventuelle (existence, référence et calendrier à confirmer)",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "à confirmer",
+      "url": "",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "6E"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2025-2026",
+      "school_year_end": null,
+      "retrieval": "EXPECTED",
+      "local_path": "",
+      "sha256": "",
+      "reference_verified": false,
+      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path. Si cette version existe et s'applique, elle remplace SRC-C3-2020 pour les maths de 6e : les notions de l'ancienne version passeront DEPRECATED."
+    },
+    {
+      "source_id": "SRC-C4-2020",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "url": "",
+      "subjects": [
+        "MATHS",
+        "PHYSIQUE_CHIMIE",
+        "SVT"
+      ],
+      "levels": [
+        "5E",
+        "4E",
+        "3E"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2020-2021",
+      "school_year_end": null,
+      "retrieval": "EXPECTED",
+      "local_path": "",
+      "sha256": "",
+      "reference_verified": false,
+      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path. Vérifier l'existence d'une version plus récente applicable à la rentrée visée."
+    },
+    {
+      "source_id": "SRC-2NDE-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "url": "",
+      "subjects": [
+        "MATHS",
+        "PHYSIQUE_CHIMIE",
+        "SVT"
+      ],
+      "levels": [
+        "2NDE"
+      ],
+      "courses": [
+        "COMMON"
+      ],
+      "school_year_start": "2019-2020",
+      "school_year_end": null,
+      "retrieval": "EXPECTED",
+      "local_path": "",
+      "sha256": "",
+      "reference_verified": false,
+      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path."
+    },
+    {
+      "source_id": "SRC-1RE-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "url": "",
+      "subjects": [
+        "MATHS",
+        "PHYSIQUE_CHIMIE",
+        "SVT",
+        "ENSEIGNEMENT_SCIENTIFIQUE"
+      ],
+      "levels": [
+        "1RE"
+      ],
+      "courses": [
+        "SPECIALITE",
+        "ENSEIGNEMENT_SCIENTIFIQUE"
+      ],
+      "school_year_start": "2019-2020",
+      "school_year_end": null,
+      "retrieval": "EXPECTED",
+      "local_path": "",
+      "sha256": "",
+      "reference_verified": false,
+      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path."
+    },
+    {
+      "source_id": "SRC-1RE-MATHS-TC",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programme de l'enseignement de mathématiques du tronc commun de première générale (existence, référence et calendrier à confirmer)",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "à confirmer",
+      "url": "",
+      "subjects": [
+        "MATHS"
+      ],
+      "levels": [
+        "1RE"
+      ],
+      "courses": [
+        "MATHS_SPECIFIQUES_1RE"
+      ],
+      "school_year_start": "2023-2024",
+      "school_year_end": null,
+      "retrieval": "EXPECTED",
+      "local_path": "",
+      "sha256": "",
+      "reference_verified": false,
+      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path."
+    },
+    {
+      "source_id": "SRC-TLE-2019",
+      "source_type": "OFFICIAL_BO",
+      "title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "publisher": "Ministère de l'Éducation nationale",
+      "reference": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "url": "",
+      "subjects": [
+        "MATHS",
+        "PHYSIQUE_CHIMIE",
+        "SVT",
+        "ENSEIGNEMENT_SCIENTIFIQUE"
+      ],
+      "levels": [
+        "TLE"
+      ],
+      "courses": [
+        "SPECIALITE",
+        "MATHS_COMPLEMENTAIRES",
+        "MATHS_EXPERTES",
+        "ENSEIGNEMENT_SCIENTIFIQUE"
+      ],
+      "school_year_start": "2020-2021",
+      "school_year_end": null,
+      "retrieval": "EXPECTED",
+      "local_path": "",
+      "sha256": "",
+      "reference_verified": false,
+      "notes": "Référence reconstituée de mémoire, NON vérifiée (sources officielles inaccessibles depuis l'environnement cloud : education.gouv.fr / eduscol bloqués). À confirmer, puis déposer le PDF et renseigner local_path."
+    }
+  ]
+}

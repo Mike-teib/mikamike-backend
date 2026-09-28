@@ -21,6 +21,7 @@ service-account*.json
 *.sqlite3
 *.db-journal
 data/
+!pedagogy/data/
 /data/
 
 # Python

@@ -1,0 +1,5 @@
+# Dépendances du package pedagogy (hors runtime API historique)
+pydantic==2.13.5
+sympy==1.14.0
+pypdf==6.19.0
+pytest==9.1.1
