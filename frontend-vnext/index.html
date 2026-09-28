@@ -8,6 +8,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="MikaMike">
   <meta name="format-detection" content="telephone=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="./icons/mikamike-192.svg">
   <title>MikaMike — Espace élève</title>
   <meta name="description" content="MikaMike accompagne les élèves du primaire au lycée avec une progression claire et un professeur numérique rassurant.">
   <link rel="manifest" href="./manifest.webmanifest">
@@ -24,6 +26,7 @@
       </a>
       <div class="top-actions">
         <span class="status-chip" id="networkStatus">En ligne</span>
+        <button id="installButton" class="ghost-button install-button" type="button" hidden>Installer l’app</button>
         <a class="ghost-button" href="./parent.html">Espace parent</a>
       </div>
     </header>
@@ -128,13 +131,25 @@
               <div class="rule-chip">Je ne donne pas la réponse toute faite.</div>
             </aside>
             <section class="chat-main" aria-label="Conversation avec Mika">
+              <div id="exerciseContext" class="exercise-context" hidden>
+                <span class="eyebrow">ÉNONCÉ EN COURS</span>
+                <strong id="exerciseTitle">Exercice</strong>
+                <p id="exerciseStatement"></p>
+              </div>
               <div id="chatMessages" class="messages" aria-live="polite">
                 <div class="message mika-message"><span>🐱</span><p>Choisis d’abord un exercice ou une notion disponible. Ensuite, on travaille ensemble étape par étape.</p></div>
               </div>
               <form id="chatForm" class="composer">
                 <label class="sr-only" for="chatInput">Ta réponse</label>
-                <textarea id="chatInput" rows="2" maxlength="500" placeholder="Écris ta réponse ou explique ce qui te bloque…" disabled></textarea>
-                <button class="primary-button" type="submit" disabled>Envoyer</button>
+                <button id="micButton" class="voice-button" type="button" disabled
+                        aria-label="Activer la dictée vocale" title="Dicter ta réponse au micro">
+                  <span aria-hidden="true">🎙️</span><span>Dicter</span>
+                </button>
+                <div class="composer-field">
+                  <textarea id="chatInput" rows="2" maxlength="500" placeholder="Écris ou dicte ta réponse…" disabled></textarea>
+                  <p id="voiceStatus" class="voice-status" aria-live="polite">Le micro sera disponible avec un exercice actif.</p>
+                </div>
+                <button id="chatSubmit" class="primary-button" type="submit" disabled>Envoyer</button>
               </form>
             </section>
           </div>
@@ -163,6 +178,7 @@
     </main>
   </div>
 
+  <script src="./native-bridge.js"></script>
   <script src="./app.js" defer></script>
 </body>
 </html>
