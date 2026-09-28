@@ -5,6 +5,8 @@ import App from '../App';
 import LevelSelector from '../components/LevelSelector';
 import ConditionalSeriesSelector from '../components/ConditionalSeriesSelector';
 import curriculumData from '../data/mock_curriculum.json';
+import ChatInterface from '../components/core/ChatInterface';
+import MathKeyboard from '../components/core/MathKeyboard';
 
 describe('MIKAMIKE Multi-Level Frontend RC — UI Test Suite', () => {
   test('Renders Brand Title and Default Level (Lycée général > Première Générale)', () => {
@@ -96,6 +98,47 @@ describe('MIKAMIKE Multi-Level Frontend RC — UI Test Suite', () => {
 
     const deltaBtn = screen.getByRole('button', { name: /Symbole mathématique Δ/i });
     fireEvent.click(deltaBtn);
+  });
+
+
+
+  test('Mika chat keeps current exercise context visible', () => {
+    render(
+      <ChatInterface
+        activeSubject="Mathématiques"
+        activeLevel="Première Générale"
+        activeExercise="P1A1-006"
+        inputFormula=""
+        onInputChange={() => {}}
+      />
+    );
+
+    expect(screen.getByText(/Énoncé en cours/i)).toBeInTheDocument();
+    expect(screen.getByText(/P1A1-006/i)).toBeInTheDocument();
+    expect(screen.getByText(/Quelle est la valeur du discriminant/i)).toBeInTheDocument();
+  });
+
+  test('Math keyboard opens in compact mode and can expand', () => {
+    render(<MathKeyboard onInsert={() => {}} onClose={() => {}} />);
+
+    expect(screen.getByText(/Clavier maths/i)).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Agrandir le clavier mathématique/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Symbole mathématique x²/i })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /Agrandir le clavier mathématique/i }));
+    expect(screen.getByRole('button', { name: /Réduire le clavier mathématique/i })).toBeInTheDocument();
+  });
+
+  test('Mika chat exposes a microphone control', () => {
+    render(
+      <ChatInterface
+        activeSubject="Mathématiques"
+        activeLevel="Première Générale"
+        activeExercise="P1A1-006"
+        inputFormula=""
+        onInputChange={() => {}}
+      />
+    );
+    expect(screen.getByRole('button', { name: /Activer la dictée vocale/i })).toBeInTheDocument();
   });
 
   test('Program Admin Debug Panel toggles metadata accurately', () => {
