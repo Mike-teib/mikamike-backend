@@ -1,0 +1,44 @@
+
+name: MikaMike production E2E audit
+
+on:
+  push:
+    branches:
+      - audit/mikamike-prod-e2e-20260928
+    paths:
+      - "ops/audit_mikamike_prod.mjs"
+      - ".github/workflows/prod-e2e-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Installer Playwright
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Auditer la production
+        continue-on-error: true
+        run: node ops/audit_mikamike_prod.mjs
+      - name: Publier le rapport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mikamike-production-e2e-audit
+          path: audit-artifacts/
+      - name: Afficher le résumé
+        if: always()
+        run: cat audit-artifacts/report.md || true
+      - name: Signaler les défauts
+        if: always()
+        run: |
+          node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('audit-artifacts/report.json','utf8'));if(p.summary.fail>0){console.error('Audit FAIL: '+p.summary.fail+' défaut(s)');process.exit(1)}"
