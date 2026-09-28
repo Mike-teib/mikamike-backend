@@ -171,3 +171,10 @@ def test_euler_e_is_the_number(expected, student):
 
 def test_euler_e_not_confused():
     assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value="exp(2)"), "2e") != Verdict.VALID
+
+
+def test_euro_ne_se_confond_pas_avec_une_unite_sans_dimension():
+    expected = ExpectedAnswer(kind=AnswerKind.QUANTITY, value=12, unit="€")
+    assert check_answer(expected, "12 €") == Verdict.VALID
+    assert check_answer(expected, "12 euros") == Verdict.VALID
+    assert check_answer(expected, "12 rad") == Verdict.INVALID
