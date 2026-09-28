@@ -1,0 +1,58 @@
+name: MikaMike frontend + real backend E2E
+
+on:
+  push:
+    branches: ["fix/mikamike-functional-auth-20260928"]
+    paths:
+      - "frontend-vnext/**"
+      - "app/api/v1/mikamike/**"
+      - "tests_mika/**"
+      - ".github/workflows/ui-functional-real-backend.yml"
+  pull_request:
+    paths:
+      - "frontend-vnext/**"
+      - "app/api/v1/mikamike/**"
+      - "tests_mika/**"
+      - ".github/workflows/ui-functional-real-backend.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  e2e-real-backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Installer backend
+        run: pip install -r requirements.txt
+      - name: Installer Playwright
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Démarrer backend et frontend jetables
+        run: |
+          python frontend-vnext/tests/real_backend_e2e_server.py >/tmp/mikamike-e2e-backend.log 2>&1 &
+          python3 -m http.server 4173 --directory frontend-vnext >/tmp/mikamike-e2e-front.log 2>&1 &
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:8000/health >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/mikamike-e2e-backend.log
+          exit 1
+      - name: Parcours navigateur contre le vrai backend
+        run: node frontend-vnext/tests/ui-real-backend-e2e.mjs
+      - name: Logs en cas d'échec
+        if: failure()
+        run: |
+          echo "=== BACKEND ==="
+          cat /tmp/mikamike-e2e-backend.log || true
+          echo "=== FRONT ==="
+          cat /tmp/mikamike-e2e-front.log || true
