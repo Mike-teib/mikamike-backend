@@ -11,6 +11,12 @@ const browser = await chromium.launch({headless:true});
 for (const c of cases) {
   const page = await browser.newPage({viewport:{width:c.width,height:c.height}});
   await page.addInitScript(() => {
+    Object.defineProperty(navigator, "mediaDevices", {
+      configurable: true,
+      value: {
+        getUserMedia: async () => ({ getTracks: () => [{ stop() {} }] }),
+      },
+    });
     class FakeSpeechRecognition {
       start(){
         setTimeout(()=>this.onstart?.(),5);
