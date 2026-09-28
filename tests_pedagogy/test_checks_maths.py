@@ -38,6 +38,10 @@ def test_check_math_answer(expected, answer, verdict):
     ("0,75", "3/4", "decimal", I), ("0,75", "0,75", "decimal", V),
     ("x^2+2x+1", "(x+1)^2", "developpee", I), ("x^2+2x+1", "x^2+2x+1", "developpee", V),
     ("(x+1)^2", "x^2+2x+1", "factorisee", I), ("(x+1)^2", "(x+1)^2", "factorisee", V),
+    ("3*x+15", "3(x+5)", "factorisee", V),
+    ("(x+1)*(x-2)", "(x+1)(x-2)", "factorisee", V),
+    ("3*x+15", "3x+15", "factorisee", I),
+    ("exp(x)", "e^x", "factorisee", I),
     ("3/4", "3/4", "forme_inventee", R),
 ])
 def test_formes_requises(expected, answer, form, verdict):
