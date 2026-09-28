@@ -1,0 +1,1068 @@
+{
+  "schema_version": "1.0",
+  "subject": "PHYSIQUE_CHIMIE",
+  "level": "TLE",
+  "course": "SPECIALITE",
+  "generated_by": "agent-B (candidats PC/ST reconstitués de mémoire, script de génération)",
+  "disclaimer": "Notions CANDIDATES non vérifiées : aucune source officielle n'a pu être consultée (BO / Éduscol inaccessibles). Aucun libellé officiel n'est stocké. Ces notions ne peuvent alimenter ni exercices ni quiz tant qu'elles ne sont pas PROVEN_OFFICIAL.",
+  "notions": [
+    {
+      "notion_id": "PC.TLE.MAT.reactions-acide-base-ph-pka-et-diagrammes-de-predominance",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Transformations acide-base",
+      "title": "Réactions acide-base : pH, pKa et diagrammes de prédominance",
+      "official_wording": null,
+      "normalized_title": "réactions acide-base : ph, pka et diagrammes de prédominance",
+      "prerequisites": [
+        "PC.3E.MAT.dilution-et-evolution-du-ph",
+        "PC.1RE.MAT.quantite-de-matiere-masse-molaire-volume-molaire-et-concentration-en-quantite-de"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Utiliser pH = −log([H₃O⁺] / c°)",
+        "Relier pH et pKa pour établir un diagramme de prédominance"
+      ],
+      "expected_skills": [
+        "Calculer un pH et une concentration en H₃O⁺",
+        "Déterminer l'espèce prédominante d'un couple"
+      ],
+      "common_mistakes": [
+        "Confondre log décimal et logarithme népérien",
+        "Inverser les domaines de prédominance de l'acide et de la base"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.TLE.AN.fonction-logarithme-neperien",
+        "MATHS.4E.NC.puissances",
+        "MATHS.1RE.AN.fonction-exponentielle"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MAT.titrages-ph-metrique-et-conductimetrique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Méthodes d'analyse",
+      "title": "Titrages pH-métrique et conductimétrique",
+      "official_wording": null,
+      "normalized_title": "titrages ph-métrique et conductimétrique",
+      "prerequisites": [
+        "PC.1RE.MAT.titrage-avec-suivi-colorimetrique",
+        "PC.TLE.MAT.reactions-acide-base-ph-pka-et-diagrammes-de-predominance"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Déterminer le volume à l'équivalence par la méthode des tangentes ou de la dérivée",
+        "Interpréter l'évolution de la conductivité"
+      ],
+      "expected_skills": [
+        "Mettre en œuvre un titrage pH-métrique",
+        "Exploiter une courbe dpH/dV"
+      ],
+      "common_mistakes": [
+        "Oublier la dilution dans le calcul final",
+        "Confondre point d'équivalence et point de demi-équivalence"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.1RE.AN.derivation",
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MAT.cinetique-chimique-vitesse-volumique-et-temps-de-demi-reaction",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Évolution temporelle d'un système",
+      "title": "Cinétique chimique : vitesse volumique et temps de demi-réaction",
+      "official_wording": null,
+      "normalized_title": "cinétique chimique : vitesse volumique et temps de demi-réaction",
+      "prerequisites": [
+        "PC.1RE.MAT.tableau-d-avancement-et-etat-final"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "CONCEVOIR_EXPERIENCE",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Définir la vitesse volumique d'apparition ou de disparition",
+        "Déterminer un temps de demi-réaction"
+      ],
+      "expected_skills": [
+        "Exploiter une courbe x(t) ou c(t)",
+        "Identifier les facteurs cinétiques"
+      ],
+      "common_mistakes": [
+        "Confondre t₁/₂ et la moitié de la durée de la réaction",
+        "Tracer la tangente de façon imprécise"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.1RE.AN.derivation",
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MAT.loi-de-vitesse-d-ordre-1",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Évolution temporelle d'un système",
+      "title": "Loi de vitesse d'ordre 1",
+      "official_wording": null,
+      "normalized_title": "loi de vitesse d'ordre 1",
+      "prerequisites": [
+        "PC.TLE.MAT.cinetique-chimique-vitesse-volumique-et-temps-de-demi-reaction"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Identifier une cinétique d'ordre 1",
+        "Relier une loi de vitesse d'ordre 1 à une décroissance exponentielle"
+      ],
+      "expected_skills": [
+        "Linéariser ln(c) en fonction de t",
+        "Déterminer une constante de vitesse"
+      ],
+      "common_mistakes": [
+        "Confondre ordre de réaction et stœchiométrie",
+        "Mal choisir l'échelle en représentation logarithmique"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.1RE.AN.fonction-exponentielle",
+        "MATHS.TLE.AN.primitives-et-equations-differentielles",
+        "MATHS.TLE.AN.fonction-logarithme-neperien"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MAT.decroissance-radioactive",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Évolution temporelle d'un système",
+      "title": "Décroissance radioactive",
+      "official_wording": null,
+      "normalized_title": "décroissance radioactive",
+      "prerequisites": [
+        "PC.2NDE.MAT.transformations-physiques-chimiques-et-nucleaires"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Utiliser la loi N(t) = N₀ e^(−λt)",
+        "Relier demi-vie et constante radioactive (t₁/₂ = ln 2 / λ)"
+      ],
+      "expected_skills": [
+        "Exploiter une datation",
+        "Déterminer une demi-vie graphiquement"
+      ],
+      "common_mistakes": [
+        "Croire qu'après deux demi-vies il ne reste plus rien",
+        "Confondre activité et nombre de noyaux"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.1RE.AN.fonction-exponentielle",
+        "MATHS.TLE.AN.primitives-et-equations-differentielles",
+        "MATHS.TLE.AN.fonction-logarithme-neperien"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MAT.quotient-de-reaction-constante-d-equilibre-et-sens-d-evolution-spontanee",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Évolution spontanée d'un système",
+      "title": "Quotient de réaction, constante d'équilibre et sens d'évolution spontanée",
+      "official_wording": null,
+      "normalized_title": "quotient de réaction, constante d'équilibre et sens d'évolution spontanée",
+      "prerequisites": [
+        "PC.1RE.MAT.tableau-d-avancement-et-etat-final",
+        "PC.TLE.MAT.reactions-acide-base-ph-pka-et-diagrammes-de-predominance"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Exprimer un quotient de réaction",
+        "Prévoir le sens d'évolution en comparant Qr et K"
+      ],
+      "expected_skills": [
+        "Calculer Qr dans l'état initial",
+        "Déterminer le taux d'avancement final"
+      ],
+      "common_mistakes": [
+        "Inclure le solvant ou les solides dans Qr",
+        "Inverser la conclusion Qr < K"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.6E.NC.fractions"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MAT.piles-fonctionnement-et-capacite-electrique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Évolution spontanée d'un système",
+      "title": "Piles : fonctionnement et capacité électrique",
+      "official_wording": null,
+      "normalized_title": "piles : fonctionnement et capacité électrique",
+      "prerequisites": [
+        "PC.1RE.MAT.reactions-d-oxydo-reduction",
+        "PC.TLE.MAT.quotient-de-reaction-constante-d-equilibre-et-sens-d-evolution-spontanee"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Décrire le fonctionnement d'une pile (anode, cathode, pont salin)",
+        "Calculer la capacité électrique Q = n(e⁻) × F"
+      ],
+      "expected_skills": [
+        "Schématiser une pile avec le sens des porteurs de charge",
+        "Relier la quantité d'électricité à l'avancement"
+      ],
+      "common_mistakes": [
+        "Confondre anode et cathode",
+        "Faire circuler les électrons dans la solution"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MAT.transformations-forcees-electrolyse",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Évolution forcée d'un système",
+      "title": "Transformations forcées : électrolyse",
+      "official_wording": null,
+      "normalized_title": "transformations forcées : électrolyse",
+      "prerequisites": [
+        "PC.TLE.MAT.piles-fonctionnement-et-capacite-electrique"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Distinguer transformation spontanée et forcée",
+        "Relier la quantité d'électricité à la quantité de produit formé"
+      ],
+      "expected_skills": [
+        "Schématiser un électrolyseur",
+        "Exploiter un stockage d'énergie chimique"
+      ],
+      "common_mistakes": [
+        "Confondre le rôle des électrodes entre pile et électrolyse",
+        "Oublier la durée dans Q = I × Δt"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MAT.synthese-organique-optimisation-et-strategie",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Stratégies en synthèse organique",
+      "title": "Synthèse organique : optimisation et stratégie",
+      "official_wording": null,
+      "normalized_title": "synthèse organique : optimisation et stratégie",
+      "prerequisites": [
+        "PC.1RE.MAT.structure-des-molecules-organiques-groupes-caracteristiques-et-nomenclature",
+        "PC.TLE.MAT.cinetique-chimique-vitesse-volumique-et-temps-de-demi-reaction"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Identifier les étapes d'un protocole de synthèse",
+        "Calculer un rendement et discuter d'une optimisation"
+      ],
+      "expected_skills": [
+        "Choisir une technique de purification et d'identification",
+        "Proposer un changement de conditions pour améliorer une vitesse ou un rendement"
+      ],
+      "common_mistakes": [
+        "Calculer le rendement avec le réactif en excès",
+        "Confondre catalyseur et réactif"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.6E.NC.fractions"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MVT.vecteurs-vitesse-et-acceleration",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Décrire un mouvement",
+      "title": "Vecteurs vitesse et accélération",
+      "official_wording": null,
+      "normalized_title": "vecteurs vitesse et accélération",
+      "prerequisites": [
+        "PC.2NDE.MVT.vecteur-deplacement-et-vecteur-vitesse",
+        "PC.1RE.MVT.lien-entre-forces-et-variation-du-vecteur-vitesse"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Définir les vecteurs vitesse et accélération comme dérivées",
+        "Caractériser un mouvement (rectiligne uniformément accéléré, circulaire uniforme)"
+      ],
+      "expected_skills": [
+        "Calculer des coordonnées de vitesse et d'accélération",
+        "Représenter le vecteur accélération en mouvement circulaire"
+      ],
+      "common_mistakes": [
+        "Confondre vitesse et accélération",
+        "Croire que l'accélération est nulle dans un mouvement circulaire uniforme"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.1RE.AN.derivation",
+        "MATHS.2NDE.GEO.vecteurs"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MVT.deuxieme-loi-de-newton",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Relier les actions à la dynamique",
+      "title": "Deuxième loi de Newton",
+      "official_wording": null,
+      "normalized_title": "deuxième loi de newton",
+      "prerequisites": [
+        "PC.TLE.MVT.vecteurs-vitesse-et-acceleration"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Énoncer et appliquer la deuxième loi de Newton",
+        "Définir le centre de masse d'un système"
+      ],
+      "expected_skills": [
+        "Établir les équations horaires",
+        "Projeter une relation vectorielle sur des axes"
+      ],
+      "common_mistakes": [
+        "Oublier une force dans le bilan",
+        "Mauvaise projection des vecteurs (sinus et cosinus inversés)"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.GEO.vecteurs",
+        "MATHS.1RE.AN.derivation",
+        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MVT.mouvement-dans-un-champ-uniforme",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Relier les actions à la dynamique",
+      "title": "Mouvement dans un champ uniforme",
+      "official_wording": null,
+      "normalized_title": "mouvement dans un champ uniforme",
+      "prerequisites": [
+        "PC.TLE.MVT.deuxieme-loi-de-newton",
+        "PC.1RE.MVT.interactions-fondamentales-loi-de-coulomb-gravitation-et-notion-de-champ"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Établir les équations horaires d'un projectile dans le champ de pesanteur",
+        "Étudier le mouvement d'une particule chargée dans un champ électrique uniforme"
+      ],
+      "expected_skills": [
+        "Déterminer l'équation de la trajectoire",
+        "Exploiter une étude énergétique"
+      ],
+      "common_mistakes": [
+        "Oublier les conditions initiales lors de l'intégration",
+        "Confondre trajectoire y(x) et équations horaires"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.TLE.AN.primitives-et-equations-differentielles",
+        "MATHS.2NDE.FON.fonctions-de-reference",
+        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MVT.mouvement-des-satellites-et-des-planetes-lois-de-kepler",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Mouvement dans un champ de gravitation",
+      "title": "Mouvement des satellites et des planètes : lois de Kepler",
+      "official_wording": null,
+      "normalized_title": "mouvement des satellites et des planètes : lois de kepler",
+      "prerequisites": [
+        "PC.TLE.MVT.deuxieme-loi-de-newton",
+        "PC.2NDE.MVT.loi-de-la-gravitation-universelle-et-poids"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Établir la vitesse d'un satellite en orbite circulaire",
+        "Utiliser la troisième loi de Kepler"
+      ],
+      "expected_skills": [
+        "Démontrer T² / r³ = constante",
+        "Exploiter des données astronomiques"
+      ],
+      "common_mistakes": [
+        "Utiliser l'altitude à la place du rayon de l'orbite",
+        "Confondre période de révolution et période de rotation"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.4E.NC.calcul-litteral",
+        "MATHS.2NDE.FON.fonctions-de-reference"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.MVT.ecoulement-d-un-fluide-debit-et-relation-de-bernoulli",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Modéliser l'écoulement d'un fluide",
+      "title": "Écoulement d'un fluide : débit et relation de Bernoulli",
+      "official_wording": null,
+      "normalized_title": "écoulement d'un fluide : débit et relation de bernoulli",
+      "prerequisites": [
+        "PC.1RE.MVT.pression-et-loi-fondamentale-de-la-statique-des-fluides"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Utiliser la conservation du débit volumique",
+        "Appliquer la relation de Bernoulli"
+      ],
+      "expected_skills": [
+        "Exploiter l'effet Venturi",
+        "Calculer une vitesse d'écoulement"
+      ],
+      "common_mistakes": [
+        "Confondre débit massique et débit volumique",
+        "Oublier le terme d'altitude"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.calcul-litteral",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.NRJ.premier-principe-de-la-thermodynamique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "L'énergie : conversions et transferts",
+      "domain_code": "NRJ",
+      "chapter": "Bilans d'énergie",
+      "title": "Premier principe de la thermodynamique",
+      "official_wording": null,
+      "normalized_title": "premier principe de la thermodynamique",
+      "prerequisites": [
+        "PC.1RE.NRJ.energie-potentielle-et-energie-mecanique"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Écrire le premier principe ΔU = W + Q",
+        "Relier variation d'énergie interne et variation de température (ΔU = C ΔT)"
+      ],
+      "expected_skills": [
+        "Faire un bilan énergétique d'un système",
+        "Distinguer les modes de transfert thermique"
+      ],
+      "common_mistakes": [
+        "Confondre température et énergie thermique",
+        "Erreur de signe sur les transferts reçus ou cédés"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.NC.nombres-relatifs",
+        "MATHS.4E.NC.calcul-litteral"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.NRJ.transferts-thermiques-et-loi-phenomenologique-de-newton",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "L'énergie : conversions et transferts",
+      "domain_code": "NRJ",
+      "chapter": "Bilans d'énergie",
+      "title": "Transferts thermiques et loi phénoménologique de Newton",
+      "official_wording": null,
+      "normalized_title": "transferts thermiques et loi phénoménologique de newton",
+      "prerequisites": [
+        "PC.TLE.NRJ.premier-principe-de-la-thermodynamique"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Utiliser la notion de flux thermique et de résistance thermique",
+        "Établir l'évolution temporelle de la température d'un système"
+      ],
+      "expected_skills": [
+        "Résoudre une équation différentielle du premier ordre",
+        "Exploiter une courbe expérimentale de refroidissement"
+      ],
+      "common_mistakes": [
+        "Confondre flux thermique (W) et énergie (J)",
+        "Oublier la température du milieu extérieur dans le modèle"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.TLE.AN.primitives-et-equations-differentielles",
+        "MATHS.1RE.AN.fonction-exponentielle"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.NRJ.dipole-rc-charge-et-decharge-d-un-condensateur",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "L'énergie : conversions et transferts",
+      "domain_code": "NRJ",
+      "chapter": "Dynamique d'un système électrique",
+      "title": "Dipôle RC : charge et décharge d'un condensateur",
+      "official_wording": null,
+      "normalized_title": "dipôle rc : charge et décharge d'un condensateur",
+      "prerequisites": [
+        "PC.1RE.NRJ.puissance-effet-joule-et-rendement-d-un-convertisseur-electrique"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "CONCEVOIR_EXPERIENCE"
+      ],
+      "learning_objectives": [
+        "Établir l'équation différentielle de la charge d'un condensateur",
+        "Déterminer la constante de temps τ = R C"
+      ],
+      "expected_skills": [
+        "Exploiter un enregistrement uC(t)",
+        "Déterminer τ par la tangente à l'origine ou à 63 %"
+      ],
+      "common_mistakes": [
+        "Confondre τ et la durée totale de charge",
+        "Oublier la convention récepteur pour i = C duC/dt"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.TLE.AN.primitives-et-equations-differentielles",
+        "MATHS.1RE.AN.fonction-exponentielle",
+        "MATHS.1RE.AN.derivation"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.ONDE.intensite-sonore-et-niveau-d-intensite-sonore",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Caractériser les phénomènes ondulatoires",
+      "title": "Intensité sonore et niveau d'intensité sonore",
+      "official_wording": null,
+      "normalized_title": "intensité sonore et niveau d'intensité sonore",
+      "prerequisites": [
+        "PC.2NDE.ONDE.signal-sonore-periodique-periode-frequence-et-niveau-d-intensite-sonore"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Utiliser L = 10 log(I / I₀)",
+        "Relier atténuation et distance"
+      ],
+      "expected_skills": [
+        "Calculer un niveau d'intensité sonore",
+        "Comparer l'effet de plusieurs sources"
+      ],
+      "common_mistakes": [
+        "Additionner des niveaux en dB",
+        "Confondre intensité (W·m⁻²) et niveau (dB)"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.TLE.AN.fonction-logarithme-neperien",
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.ONDE.diffraction-et-interferences",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Caractériser les phénomènes ondulatoires",
+      "title": "Diffraction et interférences",
+      "official_wording": null,
+      "normalized_title": "diffraction et interférences",
+      "prerequisites": [
+        "PC.1RE.ONDE.ondes-periodiques-periode-longueur-d-onde-et-celerite"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Utiliser θ = λ / a pour la diffraction",
+        "Déterminer une interfrange et les conditions d'interférences constructives ou destructives"
+      ],
+      "expected_skills": [
+        "Mesurer une largeur de tache centrale",
+        "Exploiter une figure d'interférences"
+      ],
+      "common_mistakes": [
+        "Confondre diffraction et interférences",
+        "Oublier l'approximation des petits angles (tan θ ≈ θ)"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle",
+        "MATHS.6E.NC.fractions"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.ONDE.effet-doppler",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Caractériser les phénomènes ondulatoires",
+      "title": "Effet Doppler",
+      "official_wording": null,
+      "normalized_title": "effet doppler",
+      "prerequisites": [
+        "PC.1RE.ONDE.ondes-periodiques-periode-longueur-d-onde-et-celerite"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Décrire l'effet Doppler",
+        "Exploiter le décalage de fréquence pour déterminer une vitesse"
+      ],
+      "expected_skills": [
+        "Utiliser une expression du décalage Doppler",
+        "Exploiter une mesure de fréquence"
+      ],
+      "common_mistakes": [
+        "Inverser le sens du décalage (rapprochement / éloignement)",
+        "Confondre fréquence émise et fréquence perçue"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.calcul-litteral",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.ONDE.lunette-astronomique-afocale",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Former des images",
+      "title": "Lunette astronomique afocale",
+      "official_wording": null,
+      "normalized_title": "lunette astronomique afocale",
+      "prerequisites": [
+        "PC.1RE.ONDE.lentille-mince-convergente-relation-de-conjugaison-et-grandissement"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Construire la marche d'un faisceau dans une lunette afocale",
+        "Définir et calculer le grossissement G = f₁ / f₂"
+      ],
+      "expected_skills": [
+        "Exploiter des angles apparents",
+        "Réaliser une maquette de lunette"
+      ],
+      "common_mistakes": [
+        "Confondre grossissement et grandissement",
+        "Mal placer les foyers pour obtenir un système afocal"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle",
+        "MATHS.6E.NC.fractions"
+      ]
+    },
+    {
+      "notion_id": "PC.TLE.ONDE.effet-photoelectrique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "terminale générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Décrire la lumière par un flux de photons",
+      "title": "Effet photoélectrique",
+      "official_wording": null,
+      "normalized_title": "effet photoélectrique",
+      "prerequisites": [
+        "PC.1RE.ONDE.modele-particulaire-de-la-lumiere-photon-et-energie-e-h"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Interpréter l'effet photoélectrique avec le modèle du photon",
+        "Utiliser le travail d'extraction et l'énergie cinétique maximale des électrons"
+      ],
+      "expected_skills": [
+        "Réaliser un bilan d'énergie",
+        "Discuter du rendement d'une cellule photovoltaïque"
+      ],
+      "common_mistakes": [
+        "Croire qu'une lumière plus intense suffit à extraire des électrons",
+        "Oublier de convertir les eV en J"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.4E.NC.calcul-litteral"
+      ]
+    }
+  ]
+}

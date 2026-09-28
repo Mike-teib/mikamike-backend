@@ -1,0 +1,1122 @@
+{
+  "schema_version": "1.0",
+  "subject": "SCIENCES_TECHNOLOGIE",
+  "level": "6E",
+  "course": "COMMON",
+  "generated_by": "agent-B (candidats PC/ST reconstitués de mémoire, script de génération)",
+  "disclaimer": "Notions CANDIDATES non vérifiées : aucune source officielle n'a pu être consultée (BO / Éduscol inaccessibles). Aucun libellé officiel n'est stocké. Ces notions ne peuvent alimenter ni exercices ni quiz tant qu'elles ne sont pas PROVEN_OFFICIAL.",
+  "notions": [
+    {
+      "notion_id": "ST.6E.MME.les-etats-solide-liquide-et-gazeux-de-la-matiere",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Décrire la matière à différentes échelles",
+      "title": "Les états solide, liquide et gazeux de la matière",
+      "official_wording": null,
+      "normalized_title": "les états solide, liquide et gazeux de la matière",
+      "prerequisites": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Distinguer les états solide, liquide et gazeux par leurs propriétés macroscopiques",
+        "Reconnaître l'état physique d'une substance dans une situation de la vie courante"
+      ],
+      "expected_skills": [
+        "Classer des échantillons selon leur état physique",
+        "Justifier un classement par une propriété observable (forme propre, volume propre)"
+      ],
+      "common_mistakes": [
+        "Croire qu'un gaz n'a pas de masse",
+        "Confondre « liquide » et « substance qui coule » (sable, poudre)"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.MME.les-changements-d-etat-de-l-eau",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Décrire la matière à différentes échelles",
+      "title": "Les changements d'état de l'eau",
+      "official_wording": null,
+      "normalized_title": "les changements d'état de l'eau",
+      "prerequisites": [
+        "ST.6E.MME.les-etats-solide-liquide-et-gazeux-de-la-matiere"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Nommer les changements d'état (fusion, solidification, vaporisation, liquéfaction)",
+        "Relier un changement d'état à un apport ou à un retrait d'énergie thermique"
+      ],
+      "expected_skills": [
+        "Décrire une expérience de fusion de la glace",
+        "Repérer un palier de température sur un relevé"
+      ],
+      "common_mistakes": [
+        "Confondre fusion et dissolution (« le sucre fond dans l'eau »)",
+        "Confondre vapeur d'eau (invisible) et buée ou brouillard"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "ST.6E.MME.masse-et-volume-mesure-et-unites",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Décrire la matière à différentes échelles",
+      "title": "Masse et volume : mesure et unités",
+      "official_wording": null,
+      "normalized_title": "masse et volume : mesure et unités",
+      "prerequisites": [
+        "ST.6E.MME.les-etats-solide-liquide-et-gazeux-de-la-matiere"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Mesurer une masse avec une balance et un volume avec une éprouvette graduée",
+        "Utiliser les unités g, kg, mL, L et cm³"
+      ],
+      "expected_skills": [
+        "Lire une graduation en se plaçant au bas du ménisque",
+        "Convertir des unités de masse et de volume"
+      ],
+      "common_mistakes": [
+        "Confondre masse et volume",
+        "Oublier que 1 mL = 1 cm³ ou se tromper d'un facteur 1000 dans les conversions"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "ST.6E.MME.melanges-dissolution-et-miscibilite",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Décrire la matière à différentes échelles",
+      "title": "Mélanges, dissolution et miscibilité",
+      "official_wording": null,
+      "normalized_title": "mélanges, dissolution et miscibilité",
+      "prerequisites": [
+        "ST.6E.MME.les-etats-solide-liquide-et-gazeux-de-la-matiere",
+        "ST.6E.MME.masse-et-volume-mesure-et-unites"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Distinguer mélange homogène et mélange hétérogène",
+        "Observer une dissolution et la conservation de la masse lors de la dissolution"
+      ],
+      "expected_skills": [
+        "Réaliser une dissolution et décrire le résultat",
+        "Prévoir si deux liquides sont miscibles à partir d'observations"
+      ],
+      "common_mistakes": [
+        "Croire que le soluté « disparaît » lors d'une dissolution",
+        "Confondre dissolution et fusion"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.MME.separer-les-constituants-d-un-melange",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Décrire la matière à différentes échelles",
+      "title": "Séparer les constituants d'un mélange",
+      "official_wording": null,
+      "normalized_title": "séparer les constituants d'un mélange",
+      "prerequisites": [
+        "ST.6E.MME.melanges-dissolution-et-miscibilite"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Choisir une technique de séparation adaptée : décantation, filtration, évaporation",
+        "Relier la technique au type de mélange"
+      ],
+      "expected_skills": [
+        "Mettre en œuvre une filtration en respectant un protocole",
+        "Schématiser un montage de filtration"
+      ],
+      "common_mistakes": [
+        "Penser que la filtration sépare un soluté dissous de l'eau",
+        "Confondre filtrat et résidu"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.MME.decrire-un-mouvement-trajectoire-et-vitesse",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Observer et décrire différents types de mouvements",
+      "title": "Décrire un mouvement : trajectoire et vitesse",
+      "official_wording": null,
+      "normalized_title": "décrire un mouvement : trajectoire et vitesse",
+      "prerequisites": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Décrire la trajectoire d'un objet (rectiligne, circulaire, curviligne)",
+        "Distinguer mouvement à vitesse constante et mouvement à vitesse variable"
+      ],
+      "expected_skills": [
+        "Exploiter une chronophotographie",
+        "Comparer des vitesses à partir de distances parcourues pendant des durées égales"
+      ],
+      "common_mistakes": [
+        "Confondre trajectoire et distance parcourue",
+        "Penser que le mouvement ne dépend pas de l'observateur"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "ST.6E.MME.sources-d-energie-renouvelables-et-non-renouvelables",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Identifier différentes sources et connaître quelques conversions d'énergie",
+      "title": "Sources d'énergie renouvelables et non renouvelables",
+      "official_wording": null,
+      "normalized_title": "sources d'énergie renouvelables et non renouvelables",
+      "prerequisites": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Identifier des sources d'énergie (Soleil, vent, eau, combustibles fossiles, uranium)",
+        "Distinguer ressources renouvelables et non renouvelables"
+      ],
+      "expected_skills": [
+        "Classer des sources d'énergie",
+        "Argumenter sur un usage responsable de l'énergie"
+      ],
+      "common_mistakes": [
+        "Confondre source d'énergie et forme d'énergie",
+        "Croire qu'une énergie renouvelable n'a aucun impact environnemental"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.MME.formes-et-conversions-d-energie",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Identifier différentes sources et connaître quelques conversions d'énergie",
+      "title": "Formes et conversions d'énergie",
+      "official_wording": null,
+      "normalized_title": "formes et conversions d'énergie",
+      "prerequisites": [
+        "ST.6E.MME.sources-d-energie-renouvelables-et-non-renouvelables"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Identifier des formes d'énergie (électrique, thermique, lumineuse, mécanique, chimique)",
+        "Représenter une conversion d'énergie par une chaîne simple"
+      ],
+      "expected_skills": [
+        "Compléter une chaîne de conversion pour un objet du quotidien",
+        "Repérer l'énergie « perdue » sous forme thermique"
+      ],
+      "common_mistakes": [
+        "Dire qu'un appareil « produit » ou « consomme » de l'énergie au lieu de la convertir",
+        "Oublier la conversion en énergie thermique"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.MME.le-circuit-electrique-simple",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Identifier différentes sources et connaître quelques conversions d'énergie",
+      "title": "Le circuit électrique simple",
+      "official_wording": null,
+      "normalized_title": "le circuit électrique simple",
+      "prerequisites": [
+        "ST.6E.MME.formes-et-conversions-d-energie"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_LANGAGES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Réaliser un circuit électrique simple comportant une pile, un interrupteur et une lampe",
+        "Distinguer conducteurs et isolants"
+      ],
+      "expected_skills": [
+        "Schématiser un circuit avec les symboles normalisés",
+        "Repérer une boucle fermée"
+      ],
+      "common_mistakes": [
+        "Penser qu'un seul fil suffit pour allumer une lampe",
+        "Confondre circuit ouvert et circuit fermé"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.MME.signal-et-information",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matière, mouvement, énergie, information",
+      "domain_code": "MME",
+      "chapter": "Identifier un signal et une information",
+      "title": "Signal et information",
+      "official_wording": null,
+      "normalized_title": "signal et information",
+      "prerequisites": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "MODELISER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Identifier un signal (sonore, lumineux, électrique, radio) et l'information qu'il transporte",
+        "Distinguer émetteur, signal et récepteur"
+      ],
+      "expected_skills": [
+        "Analyser une situation de communication simple",
+        "Coder et décoder une information simple (binaire, morse)"
+      ],
+      "common_mistakes": [
+        "Confondre le signal et l'information",
+        "Croire qu'un signal n'a pas besoin de support ou de récepteur"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.TEC.besoin-fonction-d-usage-et-fonction-technique-d-un-objet",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matériaux et objets techniques",
+      "domain_code": "TEC",
+      "chapter": "Identifier les principales évolutions du besoin et des objets",
+      "title": "Besoin, fonction d'usage et fonction technique d'un objet",
+      "official_wording": null,
+      "normalized_title": "besoin, fonction d'usage et fonction technique d'un objet",
+      "prerequisites": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Relier un objet technique au besoin auquel il répond",
+        "Distinguer fonction d'usage et fonction technique"
+      ],
+      "expected_skills": [
+        "Décrire le fonctionnement d'un objet à partir de ses fonctions",
+        "Identifier les éléments assurant une fonction technique"
+      ],
+      "common_mistakes": [
+        "Confondre fonction d'usage et fonction technique",
+        "Décrire la forme de l'objet au lieu de sa fonction"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.TEC.evolution-des-objets-techniques",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matériaux et objets techniques",
+      "domain_code": "TEC",
+      "chapter": "Identifier les principales évolutions du besoin et des objets",
+      "title": "Évolution des objets techniques",
+      "official_wording": null,
+      "normalized_title": "évolution des objets techniques",
+      "prerequisites": [
+        "ST.6E.TEC.besoin-fonction-d-usage-et-fonction-technique-d-un-objet"
+      ],
+      "competency_ids": [
+        "COMMUNIQUER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Situer un objet technique dans une frise chronologique",
+        "Relier l'évolution d'un objet aux progrès techniques, aux matériaux et aux besoins"
+      ],
+      "expected_skills": [
+        "Comparer deux générations d'un même objet",
+        "Identifier le contexte d'une évolution"
+      ],
+      "common_mistakes": [
+        "Réduire l'évolution d'un objet à son esthétique",
+        "Anachronismes dans la chronologie"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.TEC.familles-de-materiaux-et-leurs-proprietes",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matériaux et objets techniques",
+      "domain_code": "TEC",
+      "chapter": "Décrire le fonctionnement d'objets techniques",
+      "title": "Familles de matériaux et leurs propriétés",
+      "official_wording": null,
+      "normalized_title": "familles de matériaux et leurs propriétés",
+      "prerequisites": [
+        "ST.6E.MME.le-circuit-electrique-simple"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Classer des matériaux en familles (métaux, matières plastiques, bois, verre, céramiques, composites)",
+        "Relier le choix d'un matériau à une propriété (masse, résistance, conduction, recyclabilité)"
+      ],
+      "expected_skills": [
+        "Réaliser un test simple de propriété (conduction électrique, flottabilité)",
+        "Justifier le choix d'un matériau pour un usage"
+      ],
+      "common_mistakes": [
+        "Confondre matériau et objet",
+        "Croire que tous les métaux sont attirés par un aimant"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.TEC.chaine-d-energie-et-chaine-d-information-d-un-objet-technique",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matériaux et objets techniques",
+      "domain_code": "TEC",
+      "chapter": "Décrire le fonctionnement d'objets techniques",
+      "title": "Chaîne d'énergie et chaîne d'information d'un objet technique",
+      "official_wording": null,
+      "normalized_title": "chaîne d'énergie et chaîne d'information d'un objet technique",
+      "prerequisites": [
+        "ST.6E.TEC.besoin-fonction-d-usage-et-fonction-technique-d-un-objet",
+        "ST.6E.MME.formes-et-conversions-d-energie",
+        "ST.6E.MME.signal-et-information"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Repérer les blocs fonctionnels d'un objet (alimenter, transmettre, convertir / acquérir, traiter, communiquer)",
+        "Distinguer chaîne d'énergie et chaîne d'information"
+      ],
+      "expected_skills": [
+        "Compléter un diagramme fonctionnel",
+        "Identifier capteurs et actionneurs"
+      ],
+      "common_mistakes": [
+        "Confondre capteur et actionneur",
+        "Mélanger flux d'énergie et flux d'information"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.TEC.algorithme-et-programmation-d-un-objet-simple",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Matériaux et objets techniques",
+      "domain_code": "TEC",
+      "chapter": "Concevoir et produire tout ou partie d'un objet technique",
+      "title": "Algorithme et programmation d'un objet simple",
+      "official_wording": null,
+      "normalized_title": "algorithme et programmation d'un objet simple",
+      "prerequisites": [
+        "ST.6E.TEC.chaine-d-energie-et-chaine-d-information-d-un-objet-technique"
+      ],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "MODELISER",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Décrire un comportement attendu par un algorithme (séquence, condition, boucle)",
+        "Programmer un objet ou un personnage dans un environnement de programmation par blocs"
+      ],
+      "expected_skills": [
+        "Écrire et tester un programme simple",
+        "Corriger un programme qui ne fonctionne pas"
+      ],
+      "common_mistakes": [
+        "Oublier de réinitialiser les variables ou la position de départ",
+        "Confondre répétition (boucle) et condition"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.VIV.classer-les-etres-vivants-en-groupes-emboites",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "domain_code": "VIV",
+      "chapter": "Classer les organismes, exploiter les liens de parenté",
+      "title": "Classer les êtres vivants en groupes emboîtés",
+      "official_wording": null,
+      "normalized_title": "classer les êtres vivants en groupes emboîtés",
+      "prerequisites": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Classer des organismes selon les attributs qu'ils possèdent en commun",
+        "Interpréter un classement en groupes emboîtés"
+      ],
+      "expected_skills": [
+        "Construire un tableau de caractères",
+        "Placer un organisme dans une classification"
+      ],
+      "common_mistakes": [
+        "Classer selon ce que les êtres vivants « n'ont pas » ou selon leur milieu de vie",
+        "Confondre classement et tri par critères d'usage"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.VIV.la-cellule-unite-du-vivant",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "domain_code": "VIV",
+      "chapter": "Classer les organismes, exploiter les liens de parenté",
+      "title": "La cellule, unité du vivant",
+      "official_wording": null,
+      "normalized_title": "la cellule, unité du vivant",
+      "prerequisites": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Identifier la cellule comme unité structurelle des êtres vivants",
+        "Observer des cellules au microscope"
+      ],
+      "expected_skills": [
+        "Réaliser une préparation microscopique",
+        "Réaliser un dessin d'observation légendé avec grossissement"
+      ],
+      "common_mistakes": [
+        "Confondre cellule et molécule",
+        "Oublier de calculer le grossissement (oculaire × objectif)"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "ST.6E.VIV.developpement-et-reproduction-des-etres-vivants",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "domain_code": "VIV",
+      "chapter": "Décrire comment les êtres vivants se développent et deviennent aptes à se reproduire",
+      "title": "Développement et reproduction des êtres vivants",
+      "official_wording": null,
+      "normalized_title": "développement et reproduction des êtres vivants",
+      "prerequisites": [
+        "ST.6E.VIV.classer-les-etres-vivants-en-groupes-emboites"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Décrire les étapes du développement d'un animal ou d'un végétal (métamorphose, croissance)",
+        "Distinguer reproduction sexuée et reproduction asexuée"
+      ],
+      "expected_skills": [
+        "Exploiter une série d'observations ou une courbe de croissance",
+        "Ordonner les étapes d'un cycle de vie"
+      ],
+      "common_mistakes": [
+        "Confondre croissance et développement",
+        "Penser que seuls les animaux se reproduisent de façon sexuée"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "ST.6E.VIV.besoins-alimentaires-et-origine-des-aliments",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "domain_code": "VIV",
+      "chapter": "Expliquer les besoins variables en aliments de l'être humain",
+      "title": "Besoins alimentaires et origine des aliments",
+      "official_wording": null,
+      "normalized_title": "besoins alimentaires et origine des aliments",
+      "prerequisites": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier les besoins alimentaires à l'activité et à l'âge",
+        "Identifier l'origine animale, végétale ou minérale des aliments"
+      ],
+      "expected_skills": [
+        "Analyser un menu ou une étiquette nutritionnelle",
+        "Classer des aliments selon leur origine"
+      ],
+      "common_mistakes": [
+        "Confondre aliment et nutriment",
+        "Croire qu'un aliment « sain » peut être consommé sans limite"
+      ],
+      "difficulty": 1,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.VIV.besoins-des-vegetaux-chlorophylliens-et-production-de-matiere",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "domain_code": "VIV",
+      "chapter": "Relier les besoins des plantes vertes et leur place particulière dans les réseaux trophiques",
+      "title": "Besoins des végétaux chlorophylliens et production de matière",
+      "official_wording": null,
+      "normalized_title": "besoins des végétaux chlorophylliens et production de matière",
+      "prerequisites": [
+        "ST.6E.VIV.besoins-alimentaires-et-origine-des-aliments"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Identifier les besoins d'une plante verte (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Situer les végétaux chlorophylliens comme producteurs primaires"
+      ],
+      "expected_skills": [
+        "Concevoir une expérience avec un témoin en ne faisant varier qu'un seul facteur",
+        "Interpréter les résultats d'une culture"
+      ],
+      "common_mistakes": [
+        "Croire que la plante « mange » la terre",
+        "Faire varier plusieurs facteurs à la fois dans une expérience"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.VIV.transformation-et-conservation-des-aliments",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "Le vivant, sa diversité et les fonctions qui le caractérisent",
+      "domain_code": "VIV",
+      "chapter": "Expliquer l'origine de la matière organique des êtres vivants",
+      "title": "Transformation et conservation des aliments",
+      "official_wording": null,
+      "normalized_title": "transformation et conservation des aliments",
+      "prerequisites": [
+        "ST.6E.VIV.la-cellule-unite-du-vivant"
+      ],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "CONCEVOIR_EXPERIENCE"
+      ],
+      "learning_objectives": [
+        "Relier la transformation d'un aliment à l'action de micro-organismes (fermentation)",
+        "Expliquer le principe de techniques de conservation (froid, chaleur, salaison, séchage)"
+      ],
+      "expected_skills": [
+        "Mettre en place une expérience de conservation avec témoin",
+        "Relier une technique à la limitation du développement microbien"
+      ],
+      "common_mistakes": [
+        "Croire que tous les micro-organismes sont nuisibles",
+        "Penser que le réfrigérateur tue les micro-organismes"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.TER.la-terre-dans-le-systeme-solaire-mouvements-et-saisons",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "La planète Terre. Les êtres vivants dans leur environnement",
+      "domain_code": "TER",
+      "chapter": "Situer la Terre dans le système solaire",
+      "title": "La Terre dans le système solaire : mouvements et saisons",
+      "official_wording": null,
+      "normalized_title": "la terre dans le système solaire : mouvements et saisons",
+      "prerequisites": [
+        "ST.6E.MME.decrire-un-mouvement-trajectoire-et-vitesse"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire les mouvements de la Terre (rotation sur elle-même, révolution autour du Soleil)",
+        "Relier l'alternance jour/nuit et les saisons à ces mouvements"
+      ],
+      "expected_skills": [
+        "Utiliser une maquette ou un modèle pour expliquer l'alternance jour/nuit",
+        "Exploiter des durées d'éclairement au cours de l'année"
+      ],
+      "common_mistakes": [
+        "Expliquer les saisons par la variation de distance Terre-Soleil",
+        "Confondre rotation et révolution"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "ST.6E.TER.peuplement-d-un-milieu-et-conditions-de-vie",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "La planète Terre. Les êtres vivants dans leur environnement",
+      "domain_code": "TER",
+      "chapter": "Identifier des enjeux liés à l'environnement",
+      "title": "Peuplement d'un milieu et conditions de vie",
+      "official_wording": null,
+      "normalized_title": "peuplement d'un milieu et conditions de vie",
+      "prerequisites": [
+        "ST.6E.VIV.besoins-des-vegetaux-chlorophylliens-et-production-de-matiere"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "MODELISER",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Relier la répartition des êtres vivants aux conditions du milieu",
+        "Décrire des réseaux trophiques simples"
+      ],
+      "expected_skills": [
+        "Réaliser un relevé de terrain et exploiter des données",
+        "Construire une chaîne alimentaire"
+      ],
+      "common_mistakes": [
+        "Orienter les flèches d'une chaîne alimentaire dans le mauvais sens (« est mangé par »)",
+        "Confondre milieu de vie et habitat"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.TER.phenomenes-geologiques-et-meteorologiques-risques-naturels",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "La planète Terre. Les êtres vivants dans leur environnement",
+      "domain_code": "TER",
+      "chapter": "Situer la Terre dans le système solaire",
+      "title": "Phénomènes géologiques et météorologiques, risques naturels",
+      "official_wording": null,
+      "normalized_title": "phénomènes géologiques et météorologiques, risques naturels",
+      "prerequisites": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Identifier des phénomènes naturels (séisme, volcanisme, inondation) et les risques associés",
+        "Connaître des mesures de prévention et de protection"
+      ],
+      "expected_skills": [
+        "Exploiter une carte de risques",
+        "Distinguer aléa, enjeu et risque"
+      ],
+      "common_mistakes": [
+        "Confondre aléa et risque",
+        "Confondre météo et climat"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ST.6E.TER.impact-des-activites-humaines-sur-l-environnement",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "cycle": "CYCLE_3",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 3 — version consolidée 2020 (à confirmer ; organisation de la 6e à vérifier)",
+      "domain": "La planète Terre. Les êtres vivants dans leur environnement",
+      "domain_code": "TER",
+      "chapter": "Identifier des enjeux liés à l'environnement",
+      "title": "Impact des activités humaines sur l'environnement",
+      "official_wording": null,
+      "normalized_title": "impact des activités humaines sur l'environnement",
+      "prerequisites": [
+        "ST.6E.TER.peuplement-d-un-milieu-et-conditions-de-vie",
+        "ST.6E.MME.sources-d-energie-renouvelables-et-non-renouvelables"
+      ],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Identifier des effets positifs et négatifs des activités humaines sur un milieu",
+        "Proposer des gestes et aménagements responsables"
+      ],
+      "expected_skills": [
+        "Argumenter à partir de documents",
+        "Relier un comportement à ses conséquences sur l'environnement"
+      ],
+      "common_mistakes": [
+        "Généraliser sans données (« toute activité humaine détruit la nature »)",
+        "Confondre pollution et déchet"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C3-2020",
+      "source_title": "Programmes du cycle 3 (version consolidée) — mathématiques, sciences et technologie (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C3-2020. Aucun libellé officiel stocké. En 6e, cette notion relève de « Sciences et technologie » (cycle 3) ; organisation et horaires de la 6e à la rentrée visée à vérifier.",
+      "cross_subject_links": []
+    }
+  ]
+}

@@ -1,0 +1,954 @@
+{
+  "schema_version": "1.0",
+  "subject": "PHYSIQUE_CHIMIE",
+  "level": "1RE",
+  "course": "SPECIALITE",
+  "generated_by": "agent-B (candidats PC/ST reconstitués de mémoire, script de génération)",
+  "disclaimer": "Notions CANDIDATES non vérifiées : aucune source officielle n'a pu être consultée (BO / Éduscol inaccessibles). Aucun libellé officiel n'est stocké. Ces notions ne peuvent alimenter ni exercices ni quiz tant qu'elles ne sont pas PROVEN_OFFICIAL.",
+  "notions": [
+    {
+      "notion_id": "PC.1RE.MAT.quantite-de-matiere-masse-molaire-volume-molaire-et-concentration-en-quantite-de",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Suivi de l'évolution d'un système",
+      "title": "Quantité de matière : masse molaire, volume molaire et concentration en quantité de matière",
+      "official_wording": null,
+      "normalized_title": "quantité de matière : masse molaire, volume molaire et concentration en quantité de matière",
+      "prerequisites": [
+        "PC.2NDE.MAT.quantite-de-matiere-la-mole",
+        "PC.2NDE.MAT.solution-aqueuse-et-concentration-en-masse"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Utiliser n = m / M, n = V / Vm et c = n / V",
+        "Choisir la relation adaptée à l'état physique"
+      ],
+      "expected_skills": [
+        "Calculer une concentration en mol·L⁻¹",
+        "Enchaîner des conversions d'unités"
+      ],
+      "common_mistakes": [
+        "Confondre concentration en masse (g·L⁻¹) et en quantité de matière (mol·L⁻¹)",
+        "Utiliser V en mL sans conversion en L"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.4E.NC.equations-du-premier-degre",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.MAT.absorbance-et-loi-de-beer-lambert",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Suivi de l'évolution d'un système",
+      "title": "Absorbance et loi de Beer-Lambert",
+      "official_wording": null,
+      "normalized_title": "absorbance et loi de beer-lambert",
+      "prerequisites": [
+        "PC.1RE.MAT.quantite-de-matiere-masse-molaire-volume-molaire-et-concentration-en-quantite-de",
+        "PC.2NDE.MAT.dosage-par-etalonnage"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Relier absorbance et concentration par A = k × c",
+        "Choisir la longueur d'onde de mesure"
+      ],
+      "expected_skills": [
+        "Tracer une droite d'étalonnage A = f(c)",
+        "Déterminer une concentration par spectrophotométrie"
+      ],
+      "common_mistakes": [
+        "Confondre couleur perçue et couleur absorbée",
+        "Appliquer la loi hors de son domaine de linéarité"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.MAT.tableau-d-avancement-et-etat-final",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Suivi de l'évolution d'un système",
+      "title": "Tableau d'avancement et état final",
+      "official_wording": null,
+      "normalized_title": "tableau d'avancement et état final",
+      "prerequisites": [
+        "PC.2NDE.MAT.transformation-chimique-stchiometrie-et-reactif-limitant",
+        "PC.1RE.MAT.quantite-de-matiere-masse-molaire-volume-molaire-et-concentration-en-quantite-de"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Construire un tableau d'avancement",
+        "Déterminer l'avancement maximal et le réactif limitant"
+      ],
+      "expected_skills": [
+        "Exprimer les quantités en fonction de x",
+        "Distinguer transformation totale et non totale (xf < xmax)"
+      ],
+      "common_mistakes": [
+        "Oublier les nombres stœchiométriques devant x",
+        "Choisir comme xmax la plus grande valeur au lieu de la plus petite"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.calcul-litteral",
+        "MATHS.4E.NC.equations-du-premier-degre",
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.MAT.reactions-d-oxydo-reduction",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Suivi de l'évolution d'un système",
+      "title": "Réactions d'oxydo-réduction",
+      "official_wording": null,
+      "normalized_title": "réactions d'oxydo-réduction",
+      "prerequisites": [
+        "PC.1RE.MAT.tableau-d-avancement-et-etat-final",
+        "PC.3E.MAT.les-ions"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Identifier un couple oxydant/réducteur",
+        "Écrire une demi-équation électronique et l'équation d'oxydo-réduction"
+      ],
+      "expected_skills": [
+        "Ajuster une demi-équation en milieu acide",
+        "Combiner deux demi-équations"
+      ],
+      "common_mistakes": [
+        "Confondre oxydant et réducteur",
+        "Laisser des électrons dans l'équation bilan"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.1RE.MAT.titrage-avec-suivi-colorimetrique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Suivi de l'évolution d'un système",
+      "title": "Titrage avec suivi colorimétrique",
+      "official_wording": null,
+      "normalized_title": "titrage avec suivi colorimétrique",
+      "prerequisites": [
+        "PC.1RE.MAT.reactions-d-oxydo-reduction"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Définir l'équivalence d'un titrage",
+        "Déterminer une quantité de matière à partir du volume à l'équivalence"
+      ],
+      "expected_skills": [
+        "Mettre en œuvre un titrage",
+        "Écrire la relation à l'équivalence en tenant compte de la stœchiométrie"
+      ],
+      "common_mistakes": [
+        "Oublier les coefficients stœchiométriques à l'équivalence",
+        "Confondre solution titrante et solution titrée"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.equations-du-premier-degre",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.MAT.schema-de-lewis-et-geometrie-des-molecules",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "De la structure à la polarité",
+      "title": "Schéma de Lewis et géométrie des molécules",
+      "official_wording": null,
+      "normalized_title": "schéma de lewis et géométrie des molécules",
+      "prerequisites": [
+        "PC.2NDE.MAT.stabilite-des-entites-chimiques-ions-monoatomiques-et-schema-de-lewis"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Établir le schéma de Lewis de molécules et d'ions",
+        "Prévoir la géométrie d'une molécule (méthode VSEPR simplifiée)"
+      ],
+      "expected_skills": [
+        "Dénombrer les doublets autour d'un atome central",
+        "Associer schéma de Lewis et géométrie"
+      ],
+      "common_mistakes": [
+        "Ignorer les doublets non liants dans la géométrie",
+        "Confondre lacune électronique et doublet non liant"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.1RE.MAT.electronegativite-et-polarite-des-molecules",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "De la structure à la polarité",
+      "title": "Électronégativité et polarité des molécules",
+      "official_wording": null,
+      "normalized_title": "électronégativité et polarité des molécules",
+      "prerequisites": [
+        "PC.1RE.MAT.schema-de-lewis-et-geometrie-des-molecules"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier l'électronégativité à la polarisation d'une liaison",
+        "Déterminer si une molécule est polaire"
+      ],
+      "expected_skills": [
+        "Placer les charges partielles",
+        "Exploiter la géométrie pour conclure sur la polarité"
+      ],
+      "common_mistakes": [
+        "Conclure qu'une molécule est polaire dès qu'elle a une liaison polarisée (cas de CO₂)",
+        "Inverser le sens des charges partielles"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.1RE.MAT.cohesion-des-solides-et-solubilite-interactions-intermoleculaires",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "De la structure aux propriétés",
+      "title": "Cohésion des solides et solubilité : interactions intermoléculaires",
+      "official_wording": null,
+      "normalized_title": "cohésion des solides et solubilité : interactions intermoléculaires",
+      "prerequisites": [
+        "PC.1RE.MAT.electronegativite-et-polarite-des-molecules",
+        "PC.5E.MAT.solubilite-et-miscibilite"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "CONCEVOIR_EXPERIENCE"
+      ],
+      "learning_objectives": [
+        "Expliquer la cohésion d'un solide ionique ou moléculaire",
+        "Interpréter la solubilité et la miscibilité par les interactions (liaison hydrogène, van der Waals)"
+      ],
+      "expected_skills": [
+        "Choisir un solvant d'extraction",
+        "Interpréter une extraction liquide-liquide"
+      ],
+      "common_mistakes": [
+        "Confondre liaison hydrogène et liaison covalente",
+        "Oublier que le solvant extracteur doit être non miscible"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.1RE.MAT.structure-des-molecules-organiques-groupes-caracteristiques-et-nomenclature",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Structure des entités organiques",
+      "title": "Structure des molécules organiques : groupes caractéristiques et nomenclature",
+      "official_wording": null,
+      "normalized_title": "structure des molécules organiques : groupes caractéristiques et nomenclature",
+      "prerequisites": [
+        "PC.1RE.MAT.schema-de-lewis-et-geometrie-des-molecules"
+      ],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Identifier des groupes caractéristiques (hydroxyle, carbonyle, carboxyle)",
+        "Nommer des molécules simples"
+      ],
+      "expected_skills": [
+        "Écrire une formule semi-développée ou topologique",
+        "Associer famille et groupe caractéristique"
+      ],
+      "common_mistakes": [
+        "Confondre aldéhyde et cétone",
+        "Mal numéroter la chaîne carbonée principale"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.1RE.MAT.combustions-et-energie-liberee",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Conversions d'énergie chimique",
+      "title": "Combustions et énergie libérée",
+      "official_wording": null,
+      "normalized_title": "combustions et énergie libérée",
+      "prerequisites": [
+        "PC.4E.MAT.combustions",
+        "PC.1RE.MAT.quantite-de-matiere-masse-molaire-volume-molaire-et-concentration-en-quantite-de"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Écrire l'équation d'une combustion complète",
+        "Estimer l'énergie libérée à partir de l'énergie molaire de réaction ou des énergies de liaison"
+      ],
+      "expected_skills": [
+        "Calculer une énergie libérée en J ou kJ",
+        "Discuter des enjeux environnementaux des combustions"
+      ],
+      "common_mistakes": [
+        "Confondre énergie molaire (J·mol⁻¹) et énergie (J)",
+        "Erreurs de signe entre énergie libérée et reçue"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.5E.NC.nombres-relatifs"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.MVT.interactions-fondamentales-loi-de-coulomb-gravitation-et-notion-de-champ",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Interactions fondamentales",
+      "title": "Interactions fondamentales : loi de Coulomb, gravitation et notion de champ",
+      "official_wording": null,
+      "normalized_title": "interactions fondamentales : loi de coulomb, gravitation et notion de champ",
+      "prerequisites": [
+        "PC.2NDE.MVT.loi-de-la-gravitation-universelle-et-poids"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Utiliser la loi de Coulomb et la loi de la gravitation",
+        "Définir un champ électrostatique et un champ de gravitation"
+      ],
+      "expected_skills": [
+        "Comparer les ordres de grandeur des interactions",
+        "Représenter un vecteur champ"
+      ],
+      "common_mistakes": [
+        "Oublier la valeur absolue du produit des charges",
+        "Confondre champ et force"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.GEO.vecteurs",
+        "MATHS.4E.NC.puissances",
+        "MATHS.4E.NC.calcul-litteral"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.MVT.pression-et-loi-fondamentale-de-la-statique-des-fluides",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Description d'un fluide au repos",
+      "title": "Pression et loi fondamentale de la statique des fluides",
+      "official_wording": null,
+      "normalized_title": "pression et loi fondamentale de la statique des fluides",
+      "prerequisites": [
+        "PC.2NDE.MVT.modelisation-d-une-action-par-une-force-vecteur-force",
+        "PC.4E.MAT.masse-volumique"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Utiliser la relation P = F / S",
+        "Utiliser la loi PB − PA = ρ g (zA − zB)"
+      ],
+      "expected_skills": [
+        "Calculer une pression en Pa",
+        "Interpréter la loi de Mariotte (P × V constant)"
+      ],
+      "common_mistakes": [
+        "Confondre Pa et hPa ou bar",
+        "Se tromper de signe dans l'orientation de l'axe vertical"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.4E.NC.equations-du-premier-degre",
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.MVT.lien-entre-forces-et-variation-du-vecteur-vitesse",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Mouvement d'un système",
+      "title": "Lien entre forces et variation du vecteur vitesse",
+      "official_wording": null,
+      "normalized_title": "lien entre forces et variation du vecteur vitesse",
+      "prerequisites": [
+        "PC.2NDE.MVT.principe-d-inertie"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Relier la somme des forces à la variation du vecteur vitesse (m Δv / Δt ≈ ΣF)",
+        "Utiliser la modélisation d'un mouvement par un logiciel ou un programme"
+      ],
+      "expected_skills": [
+        "Construire un vecteur variation de vitesse",
+        "Comparer sa direction à celle de la somme des forces"
+      ],
+      "common_mistakes": [
+        "Confondre vecteur vitesse et vecteur variation de vitesse",
+        "Croire que la force est dans le sens de la vitesse"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.GEO.vecteurs"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.NRJ.energie-cinetique-et-theoreme-de-l-energie-cinetique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "L'énergie : conversions et transferts",
+      "domain_code": "NRJ",
+      "chapter": "Aspects énergétiques mécaniques",
+      "title": "Énergie cinétique et théorème de l'énergie cinétique",
+      "official_wording": null,
+      "normalized_title": "énergie cinétique et théorème de l'énergie cinétique",
+      "prerequisites": [
+        "PC.3E.NRJ.energie-cinetique",
+        "PC.2NDE.MVT.modelisation-d-une-action-par-une-force-vecteur-force"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Calculer le travail d'une force constante",
+        "Appliquer le théorème de l'énergie cinétique"
+      ],
+      "expected_skills": [
+        "Distinguer travail moteur et résistant",
+        "Déterminer une vitesse par un bilan énergétique"
+      ],
+      "common_mistakes": [
+        "Oublier le cosinus de l'angle dans le travail",
+        "Appliquer le théorème dans un référentiel non précisé"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.GEO.vecteurs",
+        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle",
+        "MATHS.4E.NC.calcul-litteral"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.NRJ.energie-potentielle-et-energie-mecanique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "L'énergie : conversions et transferts",
+      "domain_code": "NRJ",
+      "chapter": "Aspects énergétiques mécaniques",
+      "title": "Énergie potentielle et énergie mécanique",
+      "official_wording": null,
+      "normalized_title": "énergie potentielle et énergie mécanique",
+      "prerequisites": [
+        "PC.1RE.NRJ.energie-cinetique-et-theoreme-de-l-energie-cinetique",
+        "PC.3E.NRJ.energie-de-position-et-conversions-d-energie-mecanique"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Définir l'énergie potentielle de pesanteur Epp = m g z",
+        "Discuter la conservation ou la non-conservation de l'énergie mécanique"
+      ],
+      "expected_skills": [
+        "Exploiter des courbes Ec, Epp et Em",
+        "Relier la variation de Em au travail des forces non conservatives"
+      ],
+      "common_mistakes": [
+        "Oublier le choix de l'origine des altitudes",
+        "Croire que Em se conserve en présence de frottements"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.4E.NC.calcul-litteral"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.NRJ.puissance-effet-joule-et-rendement-d-un-convertisseur-electrique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "L'énergie : conversions et transferts",
+      "domain_code": "NRJ",
+      "chapter": "Aspects énergétiques électriques",
+      "title": "Puissance, effet Joule et rendement d'un convertisseur électrique",
+      "official_wording": null,
+      "normalized_title": "puissance, effet joule et rendement d'un convertisseur électrique",
+      "prerequisites": [
+        "PC.3E.NRJ.bilan-energetique-et-rendement-d-un-convertisseur",
+        "PC.2NDE.ONDE.lois-de-l-electricite-nuds-mailles-et-loi-d-ohm"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Modéliser un générateur réel (U = E − r I)",
+        "Calculer une puissance dissipée par effet Joule (P = R I²) et un rendement"
+      ],
+      "expected_skills": [
+        "Exploiter la caractéristique d'un générateur",
+        "Construire un bilan de puissance"
+      ],
+      "common_mistakes": [
+        "Confondre E (force électromotrice) et U",
+        "Oublier le carré de l'intensité dans l'effet Joule"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.ONDE.ondes-mecaniques-progressives-celerite-et-retard",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Ondes mécaniques",
+      "title": "Ondes mécaniques progressives : célérité et retard",
+      "official_wording": null,
+      "normalized_title": "ondes mécaniques progressives : célérité et retard",
+      "prerequisites": [
+        "PC.2NDE.ONDE.signal-sonore-periodique-periode-frequence-et-niveau-d-intensite-sonore"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Décrire une onde mécanique comme propagation d'une perturbation sans transport de matière",
+        "Utiliser la relation v = d / Δt"
+      ],
+      "expected_skills": [
+        "Mesurer un retard",
+        "Exploiter une représentation spatiale et temporelle"
+      ],
+      "common_mistakes": [
+        "Croire que la matière se déplace avec l'onde",
+        "Confondre célérité de l'onde et vitesse des points du milieu"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.ONDE.ondes-periodiques-periode-longueur-d-onde-et-celerite",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Ondes mécaniques",
+      "title": "Ondes périodiques : période, longueur d'onde et célérité",
+      "official_wording": null,
+      "normalized_title": "ondes périodiques : période, longueur d'onde et célérité",
+      "prerequisites": [
+        "PC.1RE.ONDE.ondes-mecaniques-progressives-celerite-et-retard"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "CONCEVOIR_EXPERIENCE"
+      ],
+      "learning_objectives": [
+        "Définir la longueur d'onde",
+        "Utiliser la relation λ = v × T"
+      ],
+      "expected_skills": [
+        "Mesurer une longueur d'onde sur plusieurs périodes spatiales",
+        "Distinguer périodicité temporelle et spatiale"
+      ],
+      "common_mistakes": [
+        "Confondre période (s) et longueur d'onde (m)",
+        "Mesurer une seule longueur d'onde au lieu de plusieurs"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.FON.fonctions-de-reference",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.ONDE.lentille-mince-convergente-relation-de-conjugaison-et-grandissement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Images et couleurs",
+      "title": "Lentille mince convergente : relation de conjugaison et grandissement",
+      "official_wording": null,
+      "normalized_title": "lentille mince convergente : relation de conjugaison et grandissement",
+      "prerequisites": [
+        "PC.2NDE.ONDE.lentille-mince-convergente-image-et-grandissement"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Utiliser la relation de conjugaison et la formule du grandissement en valeurs algébriques",
+        "Modéliser l'œil par une lentille"
+      ],
+      "expected_skills": [
+        "Déterminer une position d'image par le calcul",
+        "Vérifier graphiquement"
+      ],
+      "common_mistakes": [
+        "Oublier les signes des distances algébriques",
+        "Confondre distance focale et vergence"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.fractions",
+        "MATHS.4E.NC.equations-du-premier-degre",
+        "MATHS.5E.NC.nombres-relatifs"
+      ]
+    },
+    {
+      "notion_id": "PC.1RE.ONDE.modele-particulaire-de-la-lumiere-photon-et-energie-e-h",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale, spécialité — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Modèles ondulatoire et particulaire de la lumière",
+      "title": "Modèle particulaire de la lumière : photon et énergie E = h ν",
+      "official_wording": null,
+      "normalized_title": "modèle particulaire de la lumière : photon et énergie e = h ν",
+      "prerequisites": [
+        "PC.2NDE.ONDE.lumiere-blanche-dispersion-et-spectres-d-emission"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Utiliser la relation E = h ν = h c / λ",
+        "Interpréter les spectres par la quantification des niveaux d'énergie"
+      ],
+      "expected_skills": [
+        "Calculer une énergie de photon en J et en eV",
+        "Exploiter un diagramme de niveaux d'énergie"
+      ],
+      "common_mistakes": [
+        "Oublier de convertir nm en m",
+        "Confondre fréquence et longueur d'onde dans la relation"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.6E.NC.fractions"
+      ]
+    }
+  ]
+}

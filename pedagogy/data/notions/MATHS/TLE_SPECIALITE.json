@@ -1,0 +1,861 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATHS",
+  "level": "TLE",
+  "course": "SPECIALITE",
+  "generated_by": "agent-A-maths-candidates",
+  "disclaimer": "Notions CANDIDATES reconstituées de mémoire (connaissance générale des programmes), toutes UNPROVEN / CANDIDATE_UNVERIFIED : ce ne sont PAS des extraits officiels. Aucun libellé officiel n'est stocké. À vérifier contre la source officielle attendue avant toute production de contenu.",
+  "notions": [
+    {
+      "notion_id": "MATHS.TLE.AN.raisonnement-par-recurrence",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Suites",
+      "title": "Raisonnement par récurrence",
+      "official_wording": null,
+      "normalized_title": "raisonnement par récurrence",
+      "prerequisites": [
+        "MATHS.1RE.AN.suites-numeriques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Démontrer une propriété par récurrence"
+      ],
+      "expected_skills": [
+        "Rédiger initialisation, hérédité et conclusion",
+        "Utiliser l'hypothèse de récurrence"
+      ],
+      "common_mistakes": [
+        "Oublier l'initialisation",
+        "Supposer la propriété vraie pour tout $n$ dans l'hérédité"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AN.limites-de-suites",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Suites",
+      "title": "Limites de suites",
+      "official_wording": null,
+      "normalized_title": "limites de suites",
+      "prerequisites": [
+        "MATHS.TLE.AN.raisonnement-par-recurrence",
+        "MATHS.1RE.AN.suites-geometriques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Déterminer la limite d'une suite par opérations, comparaison ou encadrement",
+        "Utiliser le théorème de convergence monotone"
+      ],
+      "expected_skills": [
+        "Lever une forme indéterminée par factorisation",
+        "Utiliser le théorème des gendarmes"
+      ],
+      "common_mistakes": [
+        "Conclure $\\infty - \\infty = 0$",
+        "Croire qu'une suite croissante tend forcément vers $+\\infty$"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AN.limites-de-fonctions",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Fonctions",
+      "title": "Limites de fonctions",
+      "official_wording": null,
+      "normalized_title": "limites de fonctions",
+      "prerequisites": [
+        "MATHS.TLE.AN.limites-de-suites",
+        "MATHS.1RE.AN.fonction-exponentielle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Déterminer des limites de fonctions et interpréter les asymptotes"
+      ],
+      "expected_skills": [
+        "Utiliser les croissances comparées",
+        "Identifier une asymptote horizontale ou verticale"
+      ],
+      "common_mistakes": [
+        "Oublier les limites à gauche et à droite",
+        "Traiter $\\frac{0}{0}$ ou $\\frac{\\infty}{\\infty}$ comme 1"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AN.continuite",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Fonctions",
+      "title": "Continuité",
+      "official_wording": null,
+      "normalized_title": "continuité",
+      "prerequisites": [
+        "MATHS.TLE.AN.limites-de-fonctions",
+        "MATHS.1RE.AN.applications-de-la-derivation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Utiliser la continuité et le théorème des valeurs intermédiaires"
+      ],
+      "expected_skills": [
+        "Appliquer le corollaire du TVI pour justifier l'existence et l'unicité d'une solution",
+        "Approcher une solution par dichotomie"
+      ],
+      "common_mistakes": [
+        "Oublier l'hypothèse de stricte monotonie pour l'unicité",
+        "Appliquer le TVI sur un intervalle où la fonction n'est pas continue"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AN.complements-sur-la-derivation-et-convexite",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Dérivation",
+      "title": "Compléments sur la dérivation et convexité",
+      "official_wording": null,
+      "normalized_title": "compléments sur la dérivation et convexité",
+      "prerequisites": [
+        "MATHS.1RE.AN.derivation",
+        "MATHS.1RE.AN.applications-de-la-derivation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Dériver une fonction composée",
+        "Étudier la convexité et les points d'inflexion"
+      ],
+      "expected_skills": [
+        "Utiliser $(g \\circ u)' = u' \\times g' \\circ u$",
+        "Étudier le signe de $f''$"
+      ],
+      "common_mistakes": [
+        "Oublier le facteur $u'$ dans la dérivée d'une composée",
+        "Confondre point d'inflexion et extremum"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AN.fonction-logarithme-neperien",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Fonctions",
+      "title": "Fonction logarithme népérien",
+      "official_wording": null,
+      "normalized_title": "fonction logarithme népérien",
+      "prerequisites": [
+        "MATHS.1RE.AN.fonction-exponentielle",
+        "MATHS.TLE.AN.limites-de-fonctions"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Connaître la fonction $\\ln$, réciproque de l'exponentielle, ses propriétés et sa dérivée"
+      ],
+      "expected_skills": [
+        "Utiliser $\\ln(ab) = \\ln a + \\ln b$",
+        "Résoudre des équations et inéquations avec $\\ln$ et $\\exp$"
+      ],
+      "common_mistakes": [
+        "Écrire $\\ln(a+b) = \\ln a + \\ln b$",
+        "Oublier la condition $x > 0$ sur le domaine"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AN.fonctions-sinus-et-cosinus",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Fonctions",
+      "title": "Fonctions sinus et cosinus",
+      "official_wording": null,
+      "normalized_title": "fonctions sinus et cosinus",
+      "prerequisites": [
+        "MATHS.1RE.AN.fonctions-trigonometriques",
+        "MATHS.TLE.AN.complements-sur-la-derivation-et-convexite"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Étudier les fonctions sinus et cosinus : dérivées, parité, périodicité"
+      ],
+      "expected_skills": [
+        "Dériver $x \\mapsto \\cos(ax+b)$",
+        "Résoudre $\\cos x = a$ sur un intervalle"
+      ],
+      "common_mistakes": [
+        "Écrire $(\\cos x)' = \\sin x$",
+        "Oublier des solutions en ne tenant pas compte de la périodicité"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AN.primitives-et-equations-differentielles",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Primitives",
+      "title": "Primitives et équations différentielles",
+      "official_wording": null,
+      "normalized_title": "primitives et équations différentielles",
+      "prerequisites": [
+        "MATHS.TLE.AN.complements-sur-la-derivation-et-convexite",
+        "MATHS.TLE.AN.fonction-logarithme-neperien"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Déterminer des primitives",
+        "Résoudre les équations différentielles $y' = ay$ et $y' = ay + b$"
+      ],
+      "expected_skills": [
+        "Utiliser un tableau de primitives",
+        "Déterminer la solution vérifiant une condition initiale"
+      ],
+      "common_mistakes": [
+        "Oublier la constante d'intégration",
+        "Donner $\\frac{a}{b}$ au lieu de $-\\frac{b}{a}$ pour la solution constante"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AN.calcul-integral",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Analyse",
+      "domain_code": "AN",
+      "chapter": "Intégration",
+      "title": "Calcul intégral",
+      "official_wording": null,
+      "normalized_title": "calcul intégral",
+      "prerequisites": [
+        "MATHS.TLE.AN.primitives-et-equations-differentielles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Calculer une intégrale à l'aide d'une primitive et l'interpréter comme aire",
+        "Utiliser l'intégration par parties"
+      ],
+      "expected_skills": [
+        "Calculer $\\int_a^b f(x)\\,dx = F(b) - F(a)$",
+        "Calculer une valeur moyenne"
+      ],
+      "common_mistakes": [
+        "Calculer $F(a) - F(b)$",
+        "Interpréter une intégrale négative comme une aire négative"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.ALG.combinatoire-et-denombrement",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Algèbre",
+      "domain_code": "ALG",
+      "chapter": "Combinatoire",
+      "title": "Combinatoire et dénombrement",
+      "official_wording": null,
+      "normalized_title": "combinatoire et dénombrement",
+      "prerequisites": [
+        "MATHS.2NDE.SP.modeles-de-probabilite"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Dénombrer k-uplets, arrangements, permutations et combinaisons"
+      ],
+      "expected_skills": [
+        "Utiliser $\\binom{n}{k}$",
+        "Choisir entre ordre / pas d'ordre, avec / sans répétition"
+      ],
+      "common_mistakes": [
+        "Utiliser des arrangements quand l'ordre n'importe pas",
+        "Oublier les répétitions possibles"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.GEO.vecteurs-droites-et-plans-de-l-espace",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Géométrie dans l'espace",
+      "title": "Vecteurs, droites et plans de l'espace",
+      "official_wording": null,
+      "normalized_title": "vecteurs, droites et plans de l'espace",
+      "prerequisites": [
+        "MATHS.2NDE.GEO.colinearite-de-vecteurs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Étendre le calcul vectoriel à l'espace et étudier les positions relatives de droites et plans"
+      ],
+      "expected_skills": [
+        "Démontrer la coplanarité de trois vecteurs",
+        "Décomposer un vecteur dans une base"
+      ],
+      "common_mistakes": [
+        "Croire que deux droites non sécantes sont parallèles dans l'espace",
+        "Confondre vecteurs colinéaires et coplanaires"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.GEO.orthogonalite-et-distances-dans-l-espace",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Géométrie dans l'espace",
+      "title": "Orthogonalité et distances dans l'espace",
+      "official_wording": null,
+      "normalized_title": "orthogonalité et distances dans l'espace",
+      "prerequisites": [
+        "MATHS.1RE.GEO.produit-scalaire",
+        "MATHS.TLE.GEO.vecteurs-droites-et-plans-de-l-espace"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Utiliser le produit scalaire dans l'espace pour démontrer une orthogonalité ou calculer une distance"
+      ],
+      "expected_skills": [
+        "Calculer un produit scalaire en repère orthonormé",
+        "Déterminer un projeté orthogonal sur un plan"
+      ],
+      "common_mistakes": [
+        "Montrer l'orthogonalité à une seule droite du plan",
+        "Utiliser la formule de distance en repère non orthonormé"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.GEO.representations-parametriques-et-equations-cartesiennes",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Géométrie dans l'espace",
+      "title": "Représentations paramétriques et équations cartésiennes",
+      "official_wording": null,
+      "normalized_title": "représentations paramétriques et équations cartésiennes",
+      "prerequisites": [
+        "MATHS.TLE.GEO.orthogonalite-et-distances-dans-l-espace",
+        "MATHS.1RE.GEO.geometrie-reperee"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Écrire la représentation paramétrique d'une droite et l'équation cartésienne d'un plan"
+      ],
+      "expected_skills": [
+        "Utiliser un vecteur normal au plan",
+        "Déterminer l'intersection d'une droite et d'un plan"
+      ],
+      "common_mistakes": [
+        "Utiliser le même paramètre pour deux droites différentes",
+        "Confondre vecteur normal et vecteur directeur du plan"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.PROBA.loi-binomiale",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Probabilités et statistiques",
+      "domain_code": "PROBA",
+      "chapter": "Lois",
+      "title": "Loi binomiale",
+      "official_wording": null,
+      "normalized_title": "loi binomiale",
+      "prerequisites": [
+        "MATHS.1RE.PROBA.variables-aleatoires-reelles",
+        "MATHS.1RE.PROBA.independance-d-evenements",
+        "MATHS.TLE.ALG.combinatoire-et-denombrement"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Modéliser une succession d'épreuves indépendantes par une loi binomiale"
+      ],
+      "expected_skills": [
+        "Justifier le schéma de Bernoulli",
+        "Calculer $P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$"
+      ],
+      "common_mistakes": [
+        "Oublier le coefficient binomial",
+        "Utiliser la loi binomiale pour des tirages sans remise"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.PROBA.sommes-de-variables-aleatoires",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Probabilités et statistiques",
+      "domain_code": "PROBA",
+      "chapter": "Variables aléatoires",
+      "title": "Sommes de variables aléatoires",
+      "official_wording": null,
+      "normalized_title": "sommes de variables aléatoires",
+      "prerequisites": [
+        "MATHS.1RE.PROBA.variables-aleatoires-reelles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Utiliser la linéarité de l'espérance et l'additivité de la variance pour des variables indépendantes"
+      ],
+      "expected_skills": [
+        "Calculer $E(X+Y)$ et $V(aX+b)$"
+      ],
+      "common_mistakes": [
+        "Écrire $V(aX) = aV(X)$",
+        "Additionner les variances sans indépendance"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.PROBA.concentration-et-loi-des-grands-nombres",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Probabilités et statistiques",
+      "domain_code": "PROBA",
+      "chapter": "Variables aléatoires",
+      "title": "Concentration et loi des grands nombres",
+      "official_wording": null,
+      "normalized_title": "concentration et loi des grands nombres",
+      "prerequisites": [
+        "MATHS.TLE.PROBA.sommes-de-variables-aleatoires",
+        "MATHS.2NDE.SP.echantillonnage"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Utiliser l'inégalité de Bienaymé-Tchebychev et interpréter la loi des grands nombres"
+      ],
+      "expected_skills": [
+        "Majorer $P(|X - E(X)| \\ge \\delta)$",
+        "Déterminer une taille d'échantillon"
+      ],
+      "common_mistakes": [
+        "Inverser le sens de l'inégalité",
+        "Oublier le carré sur $\\delta$"
+      ],
+      "difficulty": 5,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.AP.algorithmes-de-seuil-et-de-dichotomie",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "spécialité Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Algorithmique et programmation",
+      "domain_code": "AP",
+      "chapter": "Python",
+      "title": "Algorithmes de seuil et de dichotomie",
+      "official_wording": null,
+      "normalized_title": "algorithmes de seuil et de dichotomie",
+      "prerequisites": [
+        "MATHS.1RE.AP.listes-en-python",
+        "MATHS.TLE.AN.limites-de-suites"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Écrire un algorithme de recherche de seuil pour une suite et de dichotomie pour une équation"
+      ],
+      "expected_skills": [
+        "Utiliser une boucle `while` avec condition d'arrêt",
+        "Justifier la terminaison"
+      ],
+      "common_mistakes": [
+        "Inverser la condition de la boucle `while`",
+        "Renvoyer l'indice suivant ou précédent du seuil"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

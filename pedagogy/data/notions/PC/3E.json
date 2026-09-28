@@ -1,0 +1,761 @@
+{
+  "schema_version": "1.0",
+  "subject": "PHYSIQUE_CHIMIE",
+  "level": "3E",
+  "course": "COMMON",
+  "generated_by": "agent-B (candidats PC/ST reconstitués de mémoire, script de génération)",
+  "disclaimer": "Notions CANDIDATES non vérifiées : aucune source officielle n'a pu être consultée (BO / Éduscol inaccessibles). Aucun libellé officiel n'est stocké. Ces notions ne peuvent alimenter ni exercices ni quiz tant qu'elles ne sont pas PROVEN_OFFICIAL.",
+  "notions": [
+    {
+      "notion_id": "PC.3E.MAT.constitution-de-l-atome-noyau-et-electrons",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Constitution de la matière",
+      "title": "Constitution de l'atome : noyau et électrons",
+      "official_wording": null,
+      "normalized_title": "constitution de l'atome : noyau et électrons",
+      "prerequisites": [
+        "PC.4E.MAT.atomes-et-molecules"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Décrire l'atome comme un noyau chargé positivement entouré d'électrons",
+        "Connaître l'ordre de grandeur des dimensions de l'atome et du noyau"
+      ],
+      "expected_skills": [
+        "Comparer des tailles avec des puissances de dix",
+        "Expliquer la neutralité électrique de l'atome"
+      ],
+      "common_mistakes": [
+        "Croire que l'atome est plein",
+        "Confondre numéro atomique et nombre de nucléons"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.MAT.les-ions",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Constitution de la matière",
+      "title": "Les ions",
+      "official_wording": null,
+      "normalized_title": "les ions",
+      "prerequisites": [
+        "PC.3E.MAT.constitution-de-l-atome-noyau-et-electrons",
+        "PC.4E.MAT.solutions-acides-basiques-et-neutres-le-ph"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Définir un ion comme un atome ou un groupe d'atomes ayant perdu ou gagné des électrons",
+        "Interpréter la formule d'un ion (Cu²⁺, Cl⁻)"
+      ],
+      "expected_skills": [
+        "Déterminer la charge d'un ion à partir du nombre d'électrons",
+        "Écrire une formule ionique neutre"
+      ],
+      "common_mistakes": [
+        "Croire qu'un ion positif a gagné des protons ou des électrons",
+        "Oublier la neutralité d'une solution ionique"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.NC.nombres-relatifs"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.MAT.tests-d-identification-de-quelques-ions",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Constitution de la matière",
+      "title": "Tests d'identification de quelques ions",
+      "official_wording": null,
+      "normalized_title": "tests d'identification de quelques ions",
+      "prerequisites": [
+        "PC.3E.MAT.les-ions"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Identifier des ions par des tests de précipitation (soude, nitrate d'argent)",
+        "Relier la couleur d'un précipité à un ion"
+      ],
+      "expected_skills": [
+        "Réaliser un test en respectant les consignes de sécurité",
+        "Conclure en rédigeant « si… alors… »"
+      ],
+      "common_mistakes": [
+        "Confondre la couleur de la solution et celle du précipité",
+        "Conclure sans test témoin"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.3E.MAT.reaction-entre-un-acide-et-un-metal",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Transformations chimiques",
+      "title": "Réaction entre un acide et un métal",
+      "official_wording": null,
+      "normalized_title": "réaction entre un acide et un métal",
+      "prerequisites": [
+        "PC.3E.MAT.tests-d-identification-de-quelques-ions",
+        "PC.4E.MAT.equation-de-reaction-et-conservation-des-atomes"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Décrire la réaction de l'acide chlorhydrique sur le fer",
+        "Identifier le dihydrogène et les ions formés"
+      ],
+      "expected_skills": [
+        "Mettre en évidence le dihydrogène (détonation)",
+        "Écrire l'équation de la réaction"
+      ],
+      "common_mistakes": [
+        "Croire que le métal « fond » dans l'acide",
+        "Oublier les ions spectateurs ou les inclure à tort dans le bilan"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.3E.MAT.dilution-et-evolution-du-ph",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Solutions aqueuses",
+      "title": "Dilution et évolution du pH",
+      "official_wording": null,
+      "normalized_title": "dilution et évolution du ph",
+      "prerequisites": [
+        "PC.4E.MAT.solutions-acides-basiques-et-neutres-le-ph"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Prévoir l'évolution du pH lors de la dilution d'une solution acide ou basique",
+        "Connaître les règles de sécurité de la dilution (verser l'acide dans l'eau)"
+      ],
+      "expected_skills": [
+        "Réaliser une dilution simple",
+        "Mesurer et comparer des pH"
+      ],
+      "common_mistakes": [
+        "Croire que diluer un acide rend son pH supérieur à 7",
+        "Verser l'eau dans l'acide concentré"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.nombres-decimaux"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.MAT.composition-de-l-univers-et-formation-des-elements",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Organisation et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Constitution de la matière",
+      "title": "Composition de l'Univers et formation des éléments",
+      "official_wording": null,
+      "normalized_title": "composition de l'univers et formation des éléments",
+      "prerequisites": [
+        "PC.3E.MAT.constitution-de-l-atome-noyau-et-electrons",
+        "PC.4E.SIG.vitesse-de-propagation-de-la-lumiere-et-annee-lumiere"
+      ],
+      "competency_ids": [
+        "COMMUNIQUER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Savoir que les éléments chimiques se sont formés dans les étoiles",
+        "Situer la Terre, le système solaire et la galaxie à différentes échelles"
+      ],
+      "expected_skills": [
+        "Utiliser les puissances de dix pour comparer des distances",
+        "Exploiter un document de vulgarisation scientifique"
+      ],
+      "common_mistakes": [
+        "Confondre système solaire et galaxie",
+        "Erreurs sur les ordres de grandeur des distances astronomiques"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.MVT.interaction-gravitationnelle",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Interactions",
+      "title": "Interaction gravitationnelle",
+      "official_wording": null,
+      "normalized_title": "interaction gravitationnelle",
+      "prerequisites": [
+        "PC.4E.MVT.modeliser-une-action-mecanique-par-une-force"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Décrire l'interaction gravitationnelle entre deux corps massifs",
+        "Relier sa valeur aux masses et à la distance (expression F = G m₁ m₂ / d²)"
+      ],
+      "expected_skills": [
+        "Calculer la valeur d'une force gravitationnelle en écriture scientifique",
+        "Représenter les deux forces réciproques"
+      ],
+      "common_mistakes": [
+        "Croire que le corps le plus massif exerce une force plus grande sur l'autre",
+        "Oublier d'élever la distance au carré ou de la convertir en mètres"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.4E.NC.calcul-litteral"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.MVT.poids-et-pesanteur-sur-differents-astres",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Interactions",
+      "title": "Poids et pesanteur sur différents astres",
+      "official_wording": null,
+      "normalized_title": "poids et pesanteur sur différents astres",
+      "prerequisites": [
+        "PC.3E.MVT.interaction-gravitationnelle",
+        "PC.4E.MVT.poids-et-masse"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Relier le poids à l'attraction gravitationnelle de l'astre",
+        "Comparer le poids d'un objet sur la Terre et sur la Lune"
+      ],
+      "expected_skills": [
+        "Calculer un poids avec g propre à l'astre",
+        "Justifier que la masse ne change pas"
+      ],
+      "common_mistakes": [
+        "Croire que la masse change sur la Lune",
+        "Croire qu'il n'y a pas de pesanteur dans la Station spatiale internationale"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.MVT.forces-et-variation-de-la-vitesse",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Interactions",
+      "title": "Forces et variation de la vitesse",
+      "official_wording": null,
+      "normalized_title": "forces et variation de la vitesse",
+      "prerequisites": [
+        "PC.4E.MVT.modeliser-une-action-mecanique-par-une-force",
+        "PC.5E.MVT.mouvement-uniforme-accelere-ou-ralenti"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Relier qualitativement l'effet d'une force à la modification de la vitesse ou de la trajectoire",
+        "Savoir qu'en l'absence d'action (ou si elles se compensent) le mouvement est rectiligne uniforme ou le système immobile"
+      ],
+      "expected_skills": [
+        "Analyser une chronophotographie en termes de forces",
+        "Identifier les forces qui se compensent"
+      ],
+      "common_mistakes": [
+        "Croire qu'un mouvement nécessite une force dans le sens du mouvement",
+        "Confondre vitesse et accélération"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.3E.NRJ.energie-cinetique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Énergie mécanique",
+      "title": "Énergie cinétique",
+      "official_wording": null,
+      "normalized_title": "énergie cinétique",
+      "prerequisites": [
+        "PC.5E.MVT.vitesse-moyenne",
+        "PC.5E.NRJ.sources-formes-et-conversions-d-energie"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Utiliser la relation Ec = ½ m v²",
+        "Exprimer l'énergie en joule (J)"
+      ],
+      "expected_skills": [
+        "Calculer une énergie cinétique en unités SI",
+        "Analyser l'influence de la vitesse (proportionnelle au carré)"
+      ],
+      "common_mistakes": [
+        "Oublier de convertir km·h⁻¹ en m·s⁻¹",
+        "Oublier le carré de la vitesse ou le facteur ½"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.4E.NC.calcul-litteral",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.NRJ.energie-de-position-et-conversions-d-energie-mecanique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Énergie mécanique",
+      "title": "Énergie de position et conversions d'énergie mécanique",
+      "official_wording": null,
+      "normalized_title": "énergie de position et conversions d'énergie mécanique",
+      "prerequisites": [
+        "PC.3E.NRJ.energie-cinetique"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Relier l'énergie de position à l'altitude",
+        "Décrire la conversion entre énergie de position et énergie cinétique lors d'une chute"
+      ],
+      "expected_skills": [
+        "Construire un bilan énergétique d'une chute",
+        "Exploiter des courbes d'énergie"
+      ],
+      "common_mistakes": [
+        "Croire que l'énergie mécanique se conserve toujours, frottements compris",
+        "Confondre énergie et puissance"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.NRJ.securite-routiere-distance-d-arret",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Énergie mécanique",
+      "title": "Sécurité routière : distance d'arrêt",
+      "official_wording": null,
+      "normalized_title": "sécurité routière : distance d'arrêt",
+      "prerequisites": [
+        "PC.3E.NRJ.energie-cinetique"
+      ],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Décomposer la distance d'arrêt en distance de réaction et distance de freinage",
+        "Relier la distance de freinage à l'énergie cinétique"
+      ],
+      "expected_skills": [
+        "Exploiter un tableau ou un graphique de distances d'arrêt",
+        "Calculer une distance de réaction"
+      ],
+      "common_mistakes": [
+        "Croire que la distance de freinage est proportionnelle à la vitesse",
+        "Oublier la distance parcourue pendant le temps de réaction"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.4E.NC.calcul-litteral",
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.NRJ.puissance-electrique-p-u-i",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Énergie électrique",
+      "title": "Puissance électrique : P = U × I",
+      "official_wording": null,
+      "normalized_title": "puissance électrique : p = u × i",
+      "prerequisites": [
+        "PC.4E.NRJ.resistance-et-loi-d-ohm"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Utiliser la relation P = U × I",
+        "Lire la puissance nominale d'un appareil"
+      ],
+      "expected_skills": [
+        "Calculer une puissance en watt (W)",
+        "Déterminer l'intensité traversant un appareil"
+      ],
+      "common_mistakes": [
+        "Confondre puissance et énergie",
+        "Oublier de convertir les mA en A"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.NRJ.energie-electrique-e-p-t",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Énergie électrique",
+      "title": "Énergie électrique : E = P × t",
+      "official_wording": null,
+      "normalized_title": "énergie électrique : e = p × t",
+      "prerequisites": [
+        "PC.3E.NRJ.puissance-electrique-p-u-i"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Utiliser la relation E = P × t",
+        "Utiliser le joule et le kilowattheure"
+      ],
+      "expected_skills": [
+        "Calculer l'énergie consommée et un coût",
+        "Convertir kWh en J (1 kWh = 3,6 × 10⁶ J)"
+      ],
+      "common_mistakes": [
+        "Confondre kW et kWh",
+        "Exprimer une durée en minutes dans une relation en unités SI"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.4E.NC.puissances",
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.NRJ.bilan-energetique-et-rendement-d-un-convertisseur",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "L'énergie et ses conversions",
+      "domain_code": "NRJ",
+      "chapter": "Énergie électrique",
+      "title": "Bilan énergétique et rendement d'un convertisseur",
+      "official_wording": null,
+      "normalized_title": "bilan énergétique et rendement d'un convertisseur",
+      "prerequisites": [
+        "PC.3E.NRJ.energie-electrique-e-p-t"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Établir un bilan d'énergie d'un convertisseur",
+        "Calculer un rendement (énergie utile / énergie reçue)"
+      ],
+      "expected_skills": [
+        "Construire un diagramme énergétique",
+        "Exprimer un rendement en pourcentage"
+      ],
+      "common_mistakes": [
+        "Obtenir un rendement supérieur à 1 en inversant le rapport",
+        "Oublier l'énergie dissipée"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.6E.NC.fractions",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.3E.SIG.transmettre-une-information-par-un-signal-lumineux-ou-sonore",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "3E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Des signaux pour observer et communiquer",
+      "domain_code": "SIG",
+      "chapter": "Signaux et information",
+      "title": "Transmettre une information par un signal lumineux ou sonore",
+      "official_wording": null,
+      "normalized_title": "transmettre une information par un signal lumineux ou sonore",
+      "prerequisites": [
+        "PC.4E.SIG.vitesse-de-propagation-du-son",
+        "PC.4E.SIG.vitesse-de-propagation-de-la-lumiere-et-annee-lumiere"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Identifier l'émetteur, le récepteur et la nature du signal",
+        "Comparer signaux sonores et lumineux (milieu, vitesse)"
+      ],
+      "expected_skills": [
+        "Analyser une chaîne de transmission d'information",
+        "Calculer une durée de transmission"
+      ],
+      "common_mistakes": [
+        "Confondre information et signal",
+        "Croire que le son se propage aussi vite que la lumière"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Au cycle 4 le programme est défini pour le cycle entier : le placement en 3E est une progression indicative, à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    }
+  ]
+}

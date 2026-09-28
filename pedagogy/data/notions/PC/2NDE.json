@@ -1,0 +1,957 @@
+{
+  "schema_version": "1.0",
+  "subject": "PHYSIQUE_CHIMIE",
+  "level": "2NDE",
+  "course": "COMMON",
+  "generated_by": "agent-B (candidats PC/ST reconstitués de mémoire, script de génération)",
+  "disclaimer": "Notions CANDIDATES non vérifiées : aucune source officielle n'a pu être consultée (BO / Éduscol inaccessibles). Aucun libellé officiel n'est stocké. Ces notions ne peuvent alimenter ni exercices ni quiz tant qu'elles ne sont pas PROVEN_OFFICIAL.",
+  "notions": [
+    {
+      "notion_id": "PC.2NDE.MAT.composition-d-un-melange-pourcentage-massique-et-volumique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Corps purs et mélanges",
+      "title": "Composition d'un mélange : pourcentage massique et volumique",
+      "official_wording": null,
+      "normalized_title": "composition d'un mélange : pourcentage massique et volumique",
+      "prerequisites": [
+        "PC.5E.MAT.composition-de-l-air"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Exprimer la composition d'un mélange en pourcentage massique ou volumique",
+        "Citer la composition approchée de l'air"
+      ],
+      "expected_skills": [
+        "Calculer un pourcentage massique",
+        "Exploiter des données de composition"
+      ],
+      "common_mistakes": [
+        "Additionner des pourcentages massiques et volumiques",
+        "Confondre fraction et pourcentage"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.6E.NC.fractions"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.identification-d-une-espece-chimique-masse-volumique-temperatures-de-changement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Corps purs et mélanges",
+      "title": "Identification d'une espèce chimique : masse volumique, températures de changement d'état, CCM",
+      "official_wording": null,
+      "normalized_title": "identification d'une espèce chimique : masse volumique, températures de changement d'état, ccm",
+      "prerequisites": [
+        "PC.4E.MAT.masse-volumique",
+        "PC.5E.MAT.temperature-de-changement-d-etat-d-un-corps-pur"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Identifier une espèce chimique par ses caractéristiques physiques",
+        "Interpréter une chromatographie sur couche mince"
+      ],
+      "expected_skills": [
+        "Mesurer une masse volumique et une température de fusion",
+        "Calculer un rapport frontal"
+      ],
+      "common_mistakes": [
+        "Confondre densité et masse volumique",
+        "Conclure à la pureté sans comparaison à une référence"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.solution-aqueuse-et-concentration-en-masse",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Solutions aqueuses",
+      "title": "Solution aqueuse et concentration en masse",
+      "official_wording": null,
+      "normalized_title": "solution aqueuse et concentration en masse",
+      "prerequisites": [
+        "PC.5E.MAT.solubilite-et-miscibilite",
+        "PC.4E.MAT.masse-volumique"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Utiliser la relation Cm = m / V",
+        "Distinguer concentration en masse et masse volumique"
+      ],
+      "expected_skills": [
+        "Préparer une solution par dissolution",
+        "Préparer une solution par dilution (conservation de la masse de soluté)"
+      ],
+      "common_mistakes": [
+        "Confondre Cm (g·L⁻¹) et ρ (g·L⁻¹)",
+        "Utiliser le volume de solvant au lieu du volume de solution"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.dosage-par-etalonnage",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Solutions aqueuses",
+      "title": "Dosage par étalonnage",
+      "official_wording": null,
+      "normalized_title": "dosage par étalonnage",
+      "prerequisites": [
+        "PC.2NDE.MAT.solution-aqueuse-et-concentration-en-masse"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Déterminer une concentration à l'aide d'une gamme d'étalons",
+        "Exploiter une droite d'étalonnage"
+      ],
+      "expected_skills": [
+        "Tracer une droite d'étalonnage",
+        "Lire graphiquement une concentration inconnue"
+      ],
+      "common_mistakes": [
+        "Extrapoler hors de la gamme d'étalons",
+        "Oublier de tenir compte d'une dilution préalable"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.le-noyau-de-l-atome-et-la-notation-symbolique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "De l'échelle macroscopique à l'échelle microscopique",
+      "title": "Le noyau de l'atome et la notation symbolique",
+      "official_wording": null,
+      "normalized_title": "le noyau de l'atome et la notation symbolique",
+      "prerequisites": [
+        "PC.3E.MAT.constitution-de-l-atome-noyau-et-electrons"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Interpréter la notation A Z X",
+        "Définir un élément chimique et des isotopes"
+      ],
+      "expected_skills": [
+        "Déterminer la composition d'un noyau",
+        "Comparer masses et dimensions de l'atome et du noyau"
+      ],
+      "common_mistakes": [
+        "Confondre Z et A",
+        "Croire que des isotopes ont des propriétés chimiques différentes"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.configuration-electronique-et-tableau-periodique",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "De l'échelle macroscopique à l'échelle microscopique",
+      "title": "Configuration électronique et tableau périodique",
+      "official_wording": null,
+      "normalized_title": "configuration électronique et tableau périodique",
+      "prerequisites": [
+        "PC.2NDE.MAT.le-noyau-de-l-atome-et-la-notation-symbolique"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Écrire la configuration électronique d'un atome (Z ≤ 18)",
+        "Relier la position dans le tableau périodique aux électrons de valence"
+      ],
+      "expected_skills": [
+        "Identifier la famille d'un élément",
+        "Prévoir le nombre d'électrons de valence"
+      ],
+      "common_mistakes": [
+        "Remplir 2p avant 2s",
+        "Confondre période et colonne"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.stabilite-des-entites-chimiques-ions-monoatomiques-et-schema-de-lewis",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "De l'échelle macroscopique à l'échelle microscopique",
+      "title": "Stabilité des entités chimiques : ions monoatomiques et schéma de Lewis",
+      "official_wording": null,
+      "normalized_title": "stabilité des entités chimiques : ions monoatomiques et schéma de lewis",
+      "prerequisites": [
+        "PC.2NDE.MAT.configuration-electronique-et-tableau-periodique",
+        "PC.3E.MAT.les-ions"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Prévoir la charge d'un ion monoatomique",
+        "Établir un schéma de Lewis simple"
+      ],
+      "expected_skills": [
+        "Dénombrer les doublets liants et non liants",
+        "Vérifier la règle de stabilité (duet, octet)"
+      ],
+      "common_mistakes": [
+        "Oublier les doublets non liants",
+        "Appliquer la règle de l'octet à l'hydrogène"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.quantite-de-matiere-la-mole",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Quantité de matière",
+      "title": "Quantité de matière : la mole",
+      "official_wording": null,
+      "normalized_title": "quantité de matière : la mole",
+      "prerequisites": [
+        "PC.2NDE.MAT.le-noyau-de-l-atome-et-la-notation-symbolique"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Définir la mole et la constante d'Avogadro",
+        "Utiliser n = N / NA et n = m / M"
+      ],
+      "expected_skills": [
+        "Calculer une quantité de matière",
+        "Calculer une masse molaire moléculaire"
+      ],
+      "common_mistakes": [
+        "Confondre masse et masse molaire",
+        "Erreurs de puissances de dix avec NA ≈ 6,02 × 10²³ mol⁻¹"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.transformation-chimique-stchiometrie-et-reactif-limitant",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Transformations chimiques",
+      "title": "Transformation chimique : stœchiométrie et réactif limitant",
+      "official_wording": null,
+      "normalized_title": "transformation chimique : stœchiométrie et réactif limitant",
+      "prerequisites": [
+        "PC.2NDE.MAT.quantite-de-matiere-la-mole",
+        "PC.4E.MAT.equation-de-reaction-et-conservation-des-atomes"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "CONCEVOIR_EXPERIENCE"
+      ],
+      "learning_objectives": [
+        "Modéliser une transformation par une réaction et son équation ajustée",
+        "Identifier le réactif limitant"
+      ],
+      "expected_skills": [
+        "Comparer les proportions initiales aux proportions stœchiométriques",
+        "Déterminer les quantités finales"
+      ],
+      "common_mistakes": [
+        "Comparer les quantités initiales sans tenir compte des nombres stœchiométriques",
+        "Confondre masse et quantité de matière dans le bilan"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MAT.transformations-physiques-chimiques-et-nucleaires",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Constitution et transformations de la matière",
+      "domain_code": "MAT",
+      "chapter": "Transformations chimiques",
+      "title": "Transformations physiques, chimiques et nucléaires",
+      "official_wording": null,
+      "normalized_title": "transformations physiques, chimiques et nucléaires",
+      "prerequisites": [
+        "PC.2NDE.MAT.le-noyau-de-l-atome-et-la-notation-symbolique",
+        "PC.2NDE.MAT.transformation-chimique-stchiometrie-et-reactif-limitant"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Distinguer transformation physique, chimique et nucléaire",
+        "Écrire une équation de réaction nucléaire en respectant les lois de conservation"
+      ],
+      "expected_skills": [
+        "Identifier la conservation des éléments ou des nucléons",
+        "Comparer des ordres de grandeur d'énergie"
+      ],
+      "common_mistakes": [
+        "Croire que les éléments se conservent lors d'une transformation nucléaire",
+        "Oublier la conservation du nombre de charge"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MVT.vecteur-deplacement-et-vecteur-vitesse",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Décrire un mouvement",
+      "title": "Vecteur déplacement et vecteur vitesse",
+      "official_wording": null,
+      "normalized_title": "vecteur déplacement et vecteur vitesse",
+      "prerequisites": [
+        "PC.5E.MVT.mouvement-uniforme-accelere-ou-ralenti"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Représenter le vecteur vitesse d'un point",
+        "Relier le vecteur vitesse au vecteur déplacement"
+      ],
+      "expected_skills": [
+        "Construire des vecteurs vitesse sur une chronophotographie",
+        "Utiliser une échelle"
+      ],
+      "common_mistakes": [
+        "Tracer le vecteur vitesse non tangent à la trajectoire",
+        "Oublier de préciser le référentiel"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.GEO.vecteurs",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MVT.modelisation-d-une-action-par-une-force-vecteur-force",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Modéliser une action",
+      "title": "Modélisation d'une action par une force : vecteur force",
+      "official_wording": null,
+      "normalized_title": "modélisation d'une action par une force : vecteur force",
+      "prerequisites": [
+        "PC.4E.MVT.modeliser-une-action-mecanique-par-une-force",
+        "PC.3E.MVT.interaction-gravitationnelle"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Modéliser une action mécanique par un vecteur force",
+        "Connaître le principe des actions réciproques"
+      ],
+      "expected_skills": [
+        "Représenter poids, réaction du support et tension d'un fil",
+        "Construire un diagramme objet-interactions"
+      ],
+      "common_mistakes": [
+        "Représenter sur le même schéma des forces exercées sur des systèmes différents",
+        "Oublier que les forces réciproques s'appliquent à deux systèmes différents"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.GEO.vecteurs"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MVT.principe-d-inertie",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Principe d'inertie",
+      "title": "Principe d'inertie",
+      "official_wording": null,
+      "normalized_title": "principe d'inertie",
+      "prerequisites": [
+        "PC.2NDE.MVT.vecteur-deplacement-et-vecteur-vitesse",
+        "PC.2NDE.MVT.modelisation-d-une-action-par-une-force-vecteur-force"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Énoncer le principe d'inertie",
+        "Relier la variation du vecteur vitesse à la somme des forces (approche qualitative)"
+      ],
+      "expected_skills": [
+        "Exploiter une chronophotographie pour conclure sur les forces",
+        "Utiliser la contraposée du principe d'inertie"
+      ],
+      "common_mistakes": [
+        "Croire qu'il faut une force pour maintenir un mouvement rectiligne uniforme",
+        "Confondre immobilité et absence de force"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.GEO.vecteurs"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.MVT.loi-de-la-gravitation-universelle-et-poids",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Mouvement et interactions",
+      "domain_code": "MVT",
+      "chapter": "Modéliser une action",
+      "title": "Loi de la gravitation universelle et poids",
+      "official_wording": null,
+      "normalized_title": "loi de la gravitation universelle et poids",
+      "prerequisites": [
+        "PC.3E.MVT.interaction-gravitationnelle",
+        "PC.2NDE.MVT.modelisation-d-une-action-par-une-force-vecteur-force"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Exprimer la force gravitationnelle sous forme vectorielle",
+        "Relier poids et force d'attraction de la Terre"
+      ],
+      "expected_skills": [
+        "Calculer une force gravitationnelle",
+        "Comparer poids et force gravitationnelle"
+      ],
+      "common_mistakes": [
+        "Utiliser l'altitude au lieu de la distance au centre",
+        "Oublier de convertir km en m"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.GEO.vecteurs",
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.ONDE.signal-sonore-periodique-periode-frequence-et-niveau-d-intensite-sonore",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Émission et perception d'un son",
+      "title": "Signal sonore périodique : période, fréquence et niveau d'intensité sonore",
+      "official_wording": null,
+      "normalized_title": "signal sonore périodique : période, fréquence et niveau d'intensité sonore",
+      "prerequisites": [
+        "PC.4E.SIG.frequence-d-un-son-sons-audibles-infrasons-et-ultrasons"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "CONCEVOIR_EXPERIENCE",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Définir un signal périodique, sa période et sa fréquence",
+        "Relier hauteur et fréquence, niveau d'intensité sonore et risques auditifs"
+      ],
+      "expected_skills": [
+        "Mesurer une période sur un enregistrement",
+        "Calculer f = 1 / T"
+      ],
+      "common_mistakes": [
+        "Mesurer une seule période sur un enregistrement bruité au lieu de plusieurs",
+        "Croire que les niveaux d'intensité sonore s'additionnent"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.2NDE.FON.fonctions-de-reference",
+        "MATHS.6E.NC.fractions",
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.ONDE.reflexion-et-refraction-lois-de-snell-descartes",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Vision et image",
+      "title": "Réflexion et réfraction : lois de Snell-Descartes",
+      "official_wording": null,
+      "normalized_title": "réflexion et réfraction : lois de snell-descartes",
+      "prerequisites": [
+        "PC.5E.SIG.propagation-rectiligne-de-la-lumiere"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Utiliser les lois de la réflexion et de la réfraction",
+        "Définir l'indice de réfraction"
+      ],
+      "expected_skills": [
+        "Mesurer des angles par rapport à la normale",
+        "Calculer un indice ou un angle"
+      ],
+      "common_mistakes": [
+        "Mesurer les angles par rapport à la surface au lieu de la normale",
+        "Calculatrice en radians au lieu de degrés"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle",
+        "MATHS.4E.NC.equations-du-premier-degre"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.ONDE.lentille-mince-convergente-image-et-grandissement",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Vision et image",
+      "title": "Lentille mince convergente : image et grandissement",
+      "official_wording": null,
+      "normalized_title": "lentille mince convergente : image et grandissement",
+      "prerequisites": [
+        "PC.2NDE.ONDE.reflexion-et-refraction-lois-de-snell-descartes"
+      ],
+      "competency_ids": [
+        "MODELISER",
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Construire l'image d'un objet par une lentille convergente",
+        "Définir et calculer le grandissement"
+      ],
+      "expected_skills": [
+        "Déterminer une distance focale",
+        "Construire graphiquement une image"
+      ],
+      "common_mistakes": [
+        "Confondre foyer objet et foyer image",
+        "Oublier le signe du grandissement (image renversée)"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite",
+        "MATHS.5E.NC.nombres-relatifs"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.ONDE.lumiere-blanche-dispersion-et-spectres-d-emission",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Vision et image",
+      "title": "Lumière blanche, dispersion et spectres d'émission",
+      "official_wording": null,
+      "normalized_title": "lumière blanche, dispersion et spectres d'émission",
+      "prerequisites": [
+        "PC.2NDE.ONDE.reflexion-et-refraction-lois-de-snell-descartes"
+      ],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Relier la dispersion de la lumière blanche à la variation de l'indice",
+        "Exploiter un spectre de raies pour identifier un élément"
+      ],
+      "expected_skills": [
+        "Utiliser un spectroscope",
+        "Comparer un spectre à des spectres de référence"
+      ],
+      "common_mistakes": [
+        "Confondre spectre continu et spectre de raies",
+        "Croire que la couleur d'une radiation dépend du milieu (et non de sa fréquence)"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.ONDE.lois-de-l-electricite-nuds-mailles-et-loi-d-ohm",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Signaux et capteurs",
+      "title": "Lois de l'électricité : nœuds, mailles et loi d'Ohm",
+      "official_wording": null,
+      "normalized_title": "lois de l'électricité : nœuds, mailles et loi d'ohm",
+      "prerequisites": [
+        "PC.4E.NRJ.resistance-et-loi-d-ohm",
+        "PC.4E.NRJ.lois-d-additivite-des-tensions-et-des-intensites"
+      ],
+      "competency_ids": [
+        "UTILISER_OUTILS_MATHEMATIQUES",
+        "MODELISER",
+        "CONCEVOIR_EXPERIENCE"
+      ],
+      "learning_objectives": [
+        "Appliquer la loi des nœuds et la loi des mailles",
+        "Exploiter la caractéristique d'un dipôle ohmique"
+      ],
+      "expected_skills": [
+        "Tracer une caractéristique tension-courant",
+        "Modéliser par une fonction linéaire"
+      ],
+      "common_mistakes": [
+        "Oublier l'orientation des tensions dans une maille",
+        "Confondre relation linéaire et affine"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.4E.NC.equations-du-premier-degre",
+        "MATHS.5E.NC.nombres-relatifs"
+      ]
+    },
+    {
+      "notion_id": "PC.2NDE.ONDE.capteurs-electriques-et-etalonnage",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer)",
+      "domain": "Ondes et signaux",
+      "domain_code": "ONDE",
+      "chapter": "Signaux et capteurs",
+      "title": "Capteurs électriques et étalonnage",
+      "official_wording": null,
+      "normalized_title": "capteurs électriques et étalonnage",
+      "prerequisites": [
+        "PC.2NDE.ONDE.lois-de-l-electricite-nuds-mailles-et-loi-d-ohm"
+      ],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "UTILISER_OUTILS_MATHEMATIQUES"
+      ],
+      "learning_objectives": [
+        "Utiliser un capteur (thermistance, photorésistance) pour mesurer une grandeur",
+        "Exploiter une courbe d'étalonnage"
+      ],
+      "expected_skills": [
+        "Réaliser l'étalonnage d'un capteur",
+        "Déterminer une grandeur à partir d'une mesure électrique"
+      ],
+      "common_mistakes": [
+        "Utiliser un capteur hors de son domaine de validité",
+        "Confondre capteur et actionneur"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké. Version du programme (2019 ou aménagement ultérieur) et limites exactes du contenu à confirmer.",
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    }
+  ]
+}

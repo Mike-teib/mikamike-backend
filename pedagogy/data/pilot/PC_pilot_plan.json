@@ -1,0 +1,183 @@
+{
+  "subject": "PHYSIQUE_CHIMIE",
+  "status": "BLOCKED_NO_PROVEN_NOTION",
+  "rule": "exercises only for PROVEN_OFFICIAL notions",
+  "note": "Plan indicatif : aucune notion n'est PROVEN_OFFICIAL, aucun contenu d'exercice n'est produit.",
+  "levels": {
+    "5E": [
+      {
+        "notion_id": "PC.5E.MVT.vitesse-moyenne",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "GRAPH_INTERPRETATION",
+          "QCM",
+          "SITUATION_STUDY"
+        ],
+        "why": "Première relation quantitative du cycle 4 ; conversions m·s⁻¹ / km·h⁻¹ très fautives."
+      },
+      {
+        "notion_id": "PC.5E.MAT.temperature-de-changement-d-etat-d-un-corps-pur",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "GRAPH_INTERPRETATION",
+          "SHORT_ANSWER"
+        ],
+        "why": "Palier de température : lecture de graphique et protocole de relevé."
+      },
+      {
+        "notion_id": "PC.5E.NRJ.circuit-en-serie-et-circuit-en-derivation",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "MATCHING",
+          "REASONING"
+        ],
+        "why": "Montage série / dérivation : schéma normalisé et raisonnement sur les pannes."
+      }
+    ],
+    "4E": [
+      {
+        "notion_id": "PC.4E.MAT.masse-volumique",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "EXPERIMENT_PROTOCOL",
+          "GRAPH_INTERPRETATION"
+        ],
+        "why": "Relation ρ = m / V : calcul, mesure et identification de substances."
+      },
+      {
+        "notion_id": "PC.4E.MVT.poids-et-masse",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "GRAPH_INTERPRETATION",
+          "TRUE_FALSE_ARGUED"
+        ],
+        "why": "Confusion masse / poids très fréquente ; relation de proportionnalité P = m × g."
+      },
+      {
+        "notion_id": "PC.4E.NRJ.resistance-et-loi-d-ohm",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "GRAPH_INTERPRETATION",
+          "CALCULATION"
+        ],
+        "why": "Caractéristique U(I) : tracé, pente, conversions mA / A."
+      }
+    ],
+    "3E": [
+      {
+        "notion_id": "PC.3E.NRJ.energie-cinetique",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "SITUATION_STUDY",
+          "GRAPH_INTERPRETATION"
+        ],
+        "why": "Ec = ½ m v² : carré de la vitesse et conversions d'unités."
+      },
+      {
+        "notion_id": "PC.3E.NRJ.energie-electrique-e-p-t",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "SITUATION_STUDY",
+          "QCM"
+        ],
+        "why": "E = P × t, kWh / J : notion utile et fréquemment évaluée."
+      },
+      {
+        "notion_id": "PC.3E.MAT.tests-d-identification-de-quelques-ions",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "MATCHING",
+          "DOCUMENT_READING"
+        ],
+        "why": "Tests d'identification : protocole et raisonnement « si… alors… »."
+      }
+    ],
+    "2NDE": [
+      {
+        "notion_id": "PC.2NDE.MAT.quantite-de-matiere-la-mole",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "QCM",
+          "REASONING"
+        ],
+        "why": "Notion charnière de la chimie du lycée ; puissances de dix."
+      },
+      {
+        "notion_id": "PC.2NDE.MAT.dosage-par-etalonnage",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "GRAPH_INTERPRETATION",
+          "CALCULATION"
+        ],
+        "why": "Droite d'étalonnage : lecture graphique et démarche expérimentale."
+      },
+      {
+        "notion_id": "PC.2NDE.ONDE.reflexion-et-refraction-lois-de-snell-descartes",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "CALCULATION",
+          "GRAPH_INTERPRETATION"
+        ],
+        "why": "Lois de Snell-Descartes : mesures d'angles et trigonométrie."
+      }
+    ],
+    "1RE": [
+      {
+        "notion_id": "PC.1RE.MAT.tableau-d-avancement-et-etat-final",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "REASONING",
+          "PROBLEM"
+        ],
+        "why": "Tableau d'avancement : structure de nombreux raisonnements de chimie."
+      },
+      {
+        "notion_id": "PC.1RE.MAT.titrage-avec-suivi-colorimetrique",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "CALCULATION",
+          "PROBLEM"
+        ],
+        "why": "Titrage : protocole, équivalence et calcul de concentration."
+      },
+      {
+        "notion_id": "PC.1RE.ONDE.ondes-periodiques-periode-longueur-d-onde-et-celerite",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "CALCULATION",
+          "EXPERIMENT_PROTOCOL"
+        ],
+        "why": "λ = v × T : lecture de représentations spatiales et temporelles."
+      }
+    ],
+    "TLE": [
+      {
+        "notion_id": "PC.TLE.MVT.deuxieme-loi-de-newton",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "PROBLEM",
+          "REASONING"
+        ],
+        "why": "Deuxième loi de Newton : cœur de la mécanique de terminale."
+      },
+      {
+        "notion_id": "PC.TLE.NRJ.dipole-rc-charge-et-decharge-d-un-condensateur",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "GRAPH_INTERPRETATION",
+          "CALCULATION"
+        ],
+        "why": "Charge d'un condensateur : équation différentielle et exploitation de courbe."
+      },
+      {
+        "notion_id": "PC.TLE.MAT.reactions-acide-base-ph-pka-et-diagrammes-de-predominance",
+        "planned_exercise_types": [
+          "CALCULATION",
+          "GRAPH_INTERPRETATION",
+          "QCM"
+        ],
+        "why": "pH / pKa : logarithme décimal et diagrammes de prédominance."
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "subject": "SCIENCES_TECHNOLOGIE",
+  "status": "BLOCKED_NO_PROVEN_NOTION",
+  "rule": "exercises only for PROVEN_OFFICIAL notions",
+  "note": "Plan indicatif : aucune notion n'est PROVEN_OFFICIAL, aucun contenu d'exercice n'est produit.",
+  "levels": {
+    "6E": [
+      {
+        "notion_id": "ST.6E.MME.melanges-dissolution-et-miscibilite",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "QCM",
+          "SHORT_ANSWER"
+        ],
+        "why": "Dissolution / mélanges : démarche expérimentale et conception erronée « le sucre disparaît »."
+      },
+      {
+        "notion_id": "ST.6E.MME.decrire-un-mouvement-trajectoire-et-vitesse",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "CALCULATION",
+          "MATCHING"
+        ],
+        "why": "Chronophotographies et comparaisons de vitesses : lien direct avec la PC de 5e."
+      },
+      {
+        "notion_id": "ST.6E.VIV.besoins-des-vegetaux-chlorophylliens-et-production-de-matiere",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "DOCUMENT_READING",
+          "REASONING"
+        ],
+        "why": "Expérience avec témoin (un seul facteur variable) : compétence expérimentale clé."
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "subject": "SVT",
+  "status": "BLOCKED_NO_PROVEN_NOTION",
+  "rule": "exercises only for PROVEN_OFFICIAL notions",
+  "note": "Plan pilote uniquement : aucune notion n'est PROVEN_OFFICIAL, aucun contenu d'exercice n'est produit. À réviser après preuve officielle.",
+  "levels": {
+    "5E": [
+      {
+        "notion_id": "SVT.5E.VIV.besoins-nutritifs-des-vegetaux-chlorophylliens",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "REASONING",
+          "DOCUMENT_READING"
+        ],
+        "why": "Démarche expérimentale avec témoin, cœur de la pratique scientifique au cycle 4."
+      },
+      {
+        "notion_id": "SVT.5E.CORPS.effort-physique-et-adaptations-de-l-organisme",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "EXPERIMENT_PROTOCOL",
+          "REASONING",
+          "QCM"
+        ],
+        "why": "Mesures chiffrées et graphiques accessibles, lien santé."
+      },
+      {
+        "notion_id": "SVT.5E.TER.erosion-transport-et-sedimentation",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "EXPERIMENT_PROTOCOL",
+          "REASONING"
+        ],
+        "why": "Modélisation analogique et lecture de paysages."
+      }
+    ],
+    "4E": [
+      {
+        "notion_id": "SVT.4E.TER.seismes-origine-et-manifestations",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "GRAPH_INTERPRETATION",
+          "REASONING",
+          "QCM"
+        ],
+        "why": "Lecture de sismogrammes et distinction foyer/épicentre."
+      },
+      {
+        "notion_id": "SVT.4E.VIV.dynamique-des-populations-et-facteurs-du-milieu",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "REASONING",
+          "DOCUMENT_READING"
+        ],
+        "why": "Travail explicite corrélation/causalité sur courbes."
+      },
+      {
+        "notion_id": "SVT.4E.CORPS.systeme-nerveux-messages-nerveux-et-centres-nerveux",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "EXPERIMENT_PROTOCOL",
+          "REASONING",
+          "QCM"
+        ],
+        "why": "Interprétation d'expériences historiques et schématisation."
+      }
+    ],
+    "3E": [
+      {
+        "notion_id": "SVT.3E.VIV.chromosomes-genes-et-alleles",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "REASONING",
+          "QCM"
+        ],
+        "why": "Notion pivot, erreurs fréquentes ADN/gène/allèle."
+      },
+      {
+        "notion_id": "SVT.3E.CORPS.antiseptiques-antibiotiques-et-resistance-bacterienne",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "DOCUMENT_READING",
+          "REASONING",
+          "SITUATION_STUDY"
+        ],
+        "why": "Antibiogramme et misconception antibiotiques/virus."
+      },
+      {
+        "notion_id": "SVT.3E.TER.changement-climatique-actuel-et-effet-de-serre",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "DOCUMENT_READING",
+          "REASONING"
+        ],
+        "why": "Lecture de courbes CO₂/température et argumentation."
+      }
+    ],
+    "2NDE": [
+      {
+        "notion_id": "SVT.2NDE.TVO.metabolisme-cellulaire-et-enzymes",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "GRAPH_INTERPRETATION",
+          "REASONING"
+        ],
+        "why": "ExAO et interprétation de courbes d'O₂."
+      },
+      {
+        "notion_id": "SVT.2NDE.TVO.les-echelles-de-la-biodiversite",
+        "planned_exercise_types": [
+          "EXPERIMENT_PROTOCOL",
+          "GRAPH_INTERPRETATION",
+          "REASONING",
+          "DOCUMENT_READING"
+        ],
+        "why": "Échantillonnage et estimation quantitative."
+      },
+      {
+        "notion_id": "SVT.2NDE.CHS.agents-pathogenes-et-maladies-vectorielles",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "REASONING",
+          "SITUATION_STUDY"
+        ],
+        "why": "Étude de cycles et choix de mesures de prévention."
+      }
+    ],
+    "1RE": [
+      {
+        "notion_id": "SVT.1RE.TVO.replication-semi-conservative-de-l-adn",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "GRAPH_INTERPRETATION",
+          "REASONING"
+        ],
+        "why": "Expérience historique de Meselson et Stahl."
+      },
+      {
+        "notion_id": "SVT.1RE.TVO.divergence-et-formation-de-la-lithosphere-oceanique",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "GRAPH_INTERPRETATION",
+          "REASONING"
+        ],
+        "why": "Calcul de vitesse d'expansion à partir d'anomalies magnétiques."
+      },
+      {
+        "notion_id": "SVT.1RE.CHS.immunite-adaptative-lymphocytes-b-et-t",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "EXPERIMENT_PROTOCOL",
+          "REASONING",
+          "QCM"
+        ],
+        "why": "Interprétation d'expériences de transfert."
+      }
+    ],
+    "TLE": [
+      {
+        "notion_id": "SVT.TLE.TVO.brassages-genetiques-lies-a-la-meiose-et-a-la-fecondation",
+        "planned_exercise_types": [
+          "DOCUMENT_READING",
+          "REASONING",
+          "QCM"
+        ],
+        "why": "Croisements tests et raisonnement chromosomique."
+      },
+      {
+        "notion_id": "SVT.TLE.EPC.reconstituer-et-comprendre-les-variations-climatiques-passees",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "DOCUMENT_READING",
+          "REASONING"
+        ],
+        "why": "Interprétation du δ18O et multi-indicateurs."
+      },
+      {
+        "notion_id": "SVT.TLE.CHS.regulation-de-la-glycemie",
+        "planned_exercise_types": [
+          "GRAPH_INTERPRETATION",
+          "EXPERIMENT_PROTOCOL",
+          "REASONING",
+          "DOCUMENT_READING"
+        ],
+        "why": "Courbes de glycémie et boucle de régulation."
+      }
+    ]
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATHS",
+  "level": "TLE",
+  "course": "MATHS_COMPLEMENTAIRES",
+  "generated_by": "agent-A-maths-candidates",
+  "disclaimer": "Notions CANDIDATES reconstituées de mémoire (connaissance générale des programmes), toutes UNPROVEN / CANDIDATE_UNVERIFIED : ce ne sont PAS des extraits officiels. Aucun libellé officiel n'est stocké. À vérifier contre la source officielle attendue avant toute production de contenu.",
+  "notions": [
+    {
+      "notion_id": "MATHS.TLE.MCAN.modeles-d-evolution-discrets",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_COMPLEMENTAIRES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths complémentaires Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Modèles et analyse (mathématiques complémentaires)",
+      "domain_code": "MCAN",
+      "chapter": "Modèles discrets",
+      "title": "Modèles d'évolution discrets",
+      "official_wording": null,
+      "normalized_title": "modèles d'évolution discrets",
+      "prerequisites": [
+        "MATHS.1RE.AN.suites-arithmetiques",
+        "MATHS.1RE.AN.suites-geometriques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Modéliser une évolution par une suite arithmétique, géométrique ou arithmético-géométrique"
+      ],
+      "expected_skills": [
+        "Choisir le modèle adapté aux données",
+        "Déterminer un seuil"
+      ],
+      "common_mistakes": [
+        "Choisir un modèle linéaire pour une évolution à taux constant",
+        "Oublier le terme constant dans une récurrence $u_{n+1} = au_n + b$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.MCAN.logarithme-et-exponentielle-en-modelisation",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_COMPLEMENTAIRES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths complémentaires Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Modèles et analyse (mathématiques complémentaires)",
+      "domain_code": "MCAN",
+      "chapter": "Fonctions",
+      "title": "Logarithme et exponentielle en modélisation",
+      "official_wording": null,
+      "normalized_title": "logarithme et exponentielle en modélisation",
+      "prerequisites": [
+        "MATHS.1RE.AN.fonction-exponentielle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Utiliser $\\exp$ et $\\ln$ pour modéliser croissance et décroissance",
+        "Résoudre $q^n \\ge a$ avec le logarithme"
+      ],
+      "expected_skills": [
+        "Résoudre une équation $e^{kx} = a$",
+        "Déterminer un temps de doublement"
+      ],
+      "common_mistakes": [
+        "Oublier de changer le sens de l'inégalité quand $\\ln q < 0$",
+        "Écrire $\\ln(e^x + 1) = x + 1$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.MCAN.derivation-et-convexite-en-modelisation",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_COMPLEMENTAIRES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths complémentaires Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Modèles et analyse (mathématiques complémentaires)",
+      "domain_code": "MCAN",
+      "chapter": "Fonctions",
+      "title": "Dérivation et convexité en modélisation",
+      "official_wording": null,
+      "normalized_title": "dérivation et convexité en modélisation",
+      "prerequisites": [
+        "MATHS.1RE.AN.applications-de-la-derivation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Utiliser la dérivée et la convexité pour étudier un modèle continu"
+      ],
+      "expected_skills": [
+        "Étudier les variations d'une fonction modèle",
+        "Interpréter un point d'inflexion (ralentissement de la croissance)"
+      ],
+      "common_mistakes": [
+        "Confondre croissance ralentie et décroissance",
+        "Oublier la dérivée intérieure d'une composée"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.MCAN.integration-en-modelisation",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_COMPLEMENTAIRES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths complémentaires Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Modèles et analyse (mathématiques complémentaires)",
+      "domain_code": "MCAN",
+      "chapter": "Intégration",
+      "title": "Intégration en modélisation",
+      "official_wording": null,
+      "normalized_title": "intégration en modélisation",
+      "prerequisites": [
+        "MATHS.1RE.AN.derivation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Calculer une intégrale pour déterminer une aire, une valeur moyenne ou une quantité cumulée"
+      ],
+      "expected_skills": [
+        "Déterminer une primitive usuelle",
+        "Interpréter une intégrale dans le contexte"
+      ],
+      "common_mistakes": [
+        "Oublier les unités dans l'interprétation",
+        "Calculer $F(a) - F(b)$"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.MCAN.equations-differentielles-en-modelisation",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_COMPLEMENTAIRES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths complémentaires Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Modèles et analyse (mathématiques complémentaires)",
+      "domain_code": "MCAN",
+      "chapter": "Modèles continus",
+      "title": "Équations différentielles en modélisation",
+      "official_wording": null,
+      "normalized_title": "équations différentielles en modélisation",
+      "prerequisites": [
+        "MATHS.1RE.AN.fonction-exponentielle"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Résoudre et interpréter $y' = ay + b$ dans un contexte"
+      ],
+      "expected_skills": [
+        "Déterminer la solution avec condition initiale",
+        "Interpréter la limite (état d'équilibre)"
+      ],
+      "common_mistakes": [
+        "Oublier la condition initiale",
+        "Confondre $a$ et $b$ dans la solution constante"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.MCPROB.lois-binomiale-et-geometrique",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_COMPLEMENTAIRES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths complémentaires Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Probabilités et statistiques (mathématiques complémentaires)",
+      "domain_code": "MCPROB",
+      "chapter": "Lois discrètes",
+      "title": "Lois binomiale et géométrique",
+      "official_wording": null,
+      "normalized_title": "lois binomiale et géométrique",
+      "prerequisites": [
+        "MATHS.1RE.PROBA.variables-aleatoires-reelles",
+        "MATHS.1RE.PROBA.independance-d-evenements"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Modéliser par une loi binomiale ou géométrique et calculer probabilités et espérance"
+      ],
+      "expected_skills": [
+        "Reconnaître un temps d'attente",
+        "Calculer $P(X = k) = (1-p)^{k-1}p$"
+      ],
+      "common_mistakes": [
+        "Confondre nombre de succès et rang du premier succès",
+        "Oublier l'hypothèse d'indépendance"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.MCPROB.lois-a-densite-uniforme-et-exponentielle",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_COMPLEMENTAIRES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths complémentaires Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Probabilités et statistiques (mathématiques complémentaires)",
+      "domain_code": "MCPROB",
+      "chapter": "Lois continues",
+      "title": "Lois à densité uniforme et exponentielle",
+      "official_wording": null,
+      "normalized_title": "lois à densité uniforme et exponentielle",
+      "prerequisites": [
+        "MATHS.TLE.MCAN.integration-en-modelisation",
+        "MATHS.1RE.PROBA.variables-aleatoires-reelles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Utiliser les lois uniforme et exponentielle"
+      ],
+      "expected_skills": [
+        "Calculer $P(a \\le X \\le b)$ par une intégrale",
+        "Utiliser l'absence de mémoire"
+      ],
+      "common_mistakes": [
+        "Croire que $P(X = a) > 0$ pour une loi à densité",
+        "Confondre paramètre $\\lambda$ et espérance"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.TLE.MCPROB.statistiques-a-deux-variables",
+      "subject": "MATHS",
+      "level": "TLE",
+      "cycle": "LYCEE_GT",
+      "course": "MATHS_COMPLEMENTAIRES",
+      "school_year": "2025-2026",
+      "official_program_version": "option maths complémentaires Tle — programme 2019, applicable 2020 (à confirmer)",
+      "domain": "Probabilités et statistiques (mathématiques complémentaires)",
+      "domain_code": "MCPROB",
+      "chapter": "Statistiques",
+      "title": "Statistiques à deux variables",
+      "official_wording": null,
+      "normalized_title": "statistiques à deux variables",
+      "prerequisites": [
+        "MATHS.2NDE.SP.statistiques-descriptives",
+        "MATHS.2NDE.GEO.equations-de-droites"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "MODELISER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Représenter un nuage de points et déterminer un ajustement affine"
+      ],
+      "expected_skills": [
+        "Déterminer la droite des moindres carrés à la calculatrice",
+        "Effectuer un changement de variable ($\\ln y$)"
+      ],
+      "common_mistakes": [
+        "Extrapoler loin du domaine observé",
+        "Confondre corrélation et causalité"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-TLE-2019",
+      "source_title": "Programmes de spécialité de terminale générale, options mathématiques complémentaires / expertes et enseignement scientifique (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°8 du 25 juillet 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-TLE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

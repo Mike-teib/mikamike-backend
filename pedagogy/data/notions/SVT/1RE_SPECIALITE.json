@@ -1,0 +1,771 @@
+{
+  "schema_version": "1.0",
+  "subject": "SVT",
+  "level": "1RE",
+  "course": "SPECIALITE",
+  "generated_by": "agent-C (Claude) — reconstitution candidate, sans accès aux sources officielles",
+  "disclaimer": "CANDIDATS NON VÉRIFIÉS : notions reconstituées de mémoire, sans accès au BO/Éduscol. Aucune n'est prouvée ; aucune ne peut alimenter exercices ou quiz avant preuve officielle et revue humaine.",
+  "notions": [
+    {
+      "notion_id": "SVT.1RE.TVO.replication-semi-conservative-de-l-adn",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Transmission, variation et expression du patrimoine génétique",
+      "title": "Réplication semi-conservative de l'ADN",
+      "official_wording": null,
+      "normalized_title": "réplication semi-conservative de l'adn",
+      "prerequisites": [
+        "SVT.2NDE.TVO.l-adn-molecule-universelle-structure-et-composition"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Expliquer la réplication semi-conservative de l'ADN",
+        "Relier la réplication au cycle cellulaire"
+      ],
+      "expected_skills": [
+        "Interpréter l'expérience de Meselson et Stahl",
+        "Construire un schéma de réplication"
+      ],
+      "common_mistakes": [
+        "croire que la réplication produit une molécule entièrement neuve",
+        "confondre réplication et transcription"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.TVO.cycle-cellulaire-et-mitose",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Transmission, variation et expression du patrimoine génétique",
+      "title": "Cycle cellulaire et mitose",
+      "official_wording": null,
+      "normalized_title": "cycle cellulaire et mitose",
+      "prerequisites": [
+        "SVT.1RE.TVO.replication-semi-conservative-de-l-adn",
+        "SVT.3E.VIV.division-cellulaire-et-conservation-de-l-information-genetique"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Décrire les phases du cycle cellulaire et l'évolution de la quantité d'ADN",
+        "Expliquer la conservation de l'information génétique par la mitose"
+      ],
+      "expected_skills": [
+        "Interpréter une courbe de quantité d'ADN",
+        "Identifier les phases de la mitose au microscope"
+      ],
+      "common_mistakes": [
+        "croire qu'une chromatide est un chromosome dupliqué",
+        "oublier la phase S"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.TVO.mutations-de-l-adn-et-systemes-de-reparation",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Transmission, variation et expression du patrimoine génétique",
+      "title": "Mutations de l'ADN et systèmes de réparation",
+      "official_wording": null,
+      "normalized_title": "mutations de l'adn et systèmes de réparation",
+      "prerequisites": [
+        "SVT.1RE.TVO.replication-semi-conservative-de-l-adn",
+        "SVT.3E.VIV.mutations-et-diversite-des-alleles"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Relier l'origine des mutations aux erreurs de réplication et aux agents mutagènes",
+        "Distinguer mutations somatiques et germinales"
+      ],
+      "expected_skills": [
+        "Comparer des séquences avec un logiciel",
+        "Interpréter des données de fréquence de mutations"
+      ],
+      "common_mistakes": [
+        "croire qu'une mutation somatique se transmet à la descendance",
+        "croire que toute mutation modifie la protéine"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.1RE.AN.fonction-exponentielle"
+      ]
+    },
+    {
+      "notion_id": "SVT.1RE.TVO.expression-genetique-transcription-et-traduction",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Transmission, variation et expression du patrimoine génétique",
+      "title": "Expression génétique : transcription et traduction",
+      "official_wording": null,
+      "normalized_title": "expression génétique : transcription et traduction",
+      "prerequisites": [
+        "SVT.2NDE.TVO.l-adn-molecule-universelle-structure-et-composition"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "UTILISER_OUTILS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Décrire la transcription de l'ADN en ARN et la traduction en protéine",
+        "Utiliser le code génétique"
+      ],
+      "expected_skills": [
+        "Utiliser un tableau du code génétique",
+        "Schématiser les étapes de l'expression"
+      ],
+      "common_mistakes": [
+        "confondre transcription et traduction",
+        "croire que l'ARNm contient de la thymine"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.TVO.phenotypes-aux-differentes-echelles-et-environnement",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "Transmission, variation et expression du patrimoine génétique",
+      "title": "Phénotypes aux différentes échelles et environnement",
+      "official_wording": null,
+      "normalized_title": "phénotypes aux différentes échelles et environnement",
+      "prerequisites": [
+        "SVT.1RE.TVO.expression-genetique-transcription-et-traduction"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier phénotypes moléculaire, cellulaire et macroscopique",
+        "Montrer que l'environnement influence l'expression du phénotype"
+      ],
+      "expected_skills": [
+        "Mettre en relation plusieurs échelles"
+      ],
+      "common_mistakes": [
+        "croire que le phénotype dépend uniquement des gènes",
+        "confondre génotype et phénotype"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.TVO.structure-du-globe-croutes-manteau-et-lithosphere",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "La dynamique interne de la Terre",
+      "title": "Structure du globe : croûtes, manteau et lithosphère",
+      "official_wording": null,
+      "normalized_title": "structure du globe : croûtes, manteau et lithosphère",
+      "prerequisites": [
+        "SVT.4E.TER.structure-interne-du-globe-terrestre"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier les données sismiques à la structure interne du globe",
+        "Distinguer croûtes continentale et océanique par leur composition et leur densité"
+      ],
+      "expected_skills": [
+        "Interpréter des profils de vitesse sismique",
+        "Identifier des roches (granite, basalte, gabbro, péridotite)"
+      ],
+      "common_mistakes": [
+        "croire que le manteau est liquide parce que les ondes S le traversent lentement",
+        "confondre limite chimique (Moho) et limite mécanique (lithosphère/asthénosphère)"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.TVO.divergence-et-formation-de-la-lithosphere-oceanique",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "La dynamique interne de la Terre",
+      "title": "Divergence et formation de la lithosphère océanique",
+      "official_wording": null,
+      "normalized_title": "divergence et formation de la lithosphère océanique",
+      "prerequisites": [
+        "SVT.1RE.TVO.structure-du-globe-croutes-manteau-et-lithosphere",
+        "SVT.4E.TER.tectonique-des-plaques-et-mouvements-des-plaques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "SE_SITUER_DANS_ESPACE_TEMPS"
+      ],
+      "learning_objectives": [
+        "Expliquer la formation de lithosphère océanique au niveau des dorsales",
+        "Relier l'âge des fonds océaniques à la distance à la dorsale"
+      ],
+      "expected_skills": [
+        "Utiliser des anomalies magnétiques pour calculer une vitesse d'expansion"
+      ],
+      "common_mistakes": [
+        "croire que le magma des dorsales provient d'un réservoir liquide permanent du manteau",
+        "oublier la symétrie des anomalies magnétiques"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines"
+      ]
+    },
+    {
+      "notion_id": "SVT.1RE.TVO.subduction-et-magmatisme-associe",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, la vie et l'organisation du vivant",
+      "domain_code": "TVO",
+      "chapter": "La dynamique interne de la Terre",
+      "title": "Subduction et magmatisme associé",
+      "official_wording": null,
+      "normalized_title": "subduction et magmatisme associé",
+      "prerequisites": [
+        "SVT.1RE.TVO.divergence-et-formation-de-la-lithosphere-oceanique"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Expliquer la subduction par la densité croissante de la lithosphère océanique vieillissante",
+        "Relier la fusion partielle hydratée au magmatisme des zones de subduction"
+      ],
+      "expected_skills": [
+        "Interpréter un plan de Wadati-Benioff",
+        "Exploiter un diagramme de phases"
+      ],
+      "common_mistakes": [
+        "croire que la plaque plongeante fond directement",
+        "confondre subduction et collision"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.EPC.dynamique-des-ecosystemes-et-interactions",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Enjeux contemporains de la planète",
+      "domain_code": "EPC",
+      "chapter": "Écosystèmes et services environnementaux",
+      "title": "Dynamique des écosystèmes et interactions",
+      "official_wording": null,
+      "normalized_title": "dynamique des écosystèmes et interactions",
+      "prerequisites": [
+        "SVT.4E.VIV.dynamique-des-populations-et-facteurs-du-milieu"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Décrire un écosystème comme un ensemble d'interactions dynamiques",
+        "Relier perturbations et résilience d'un écosystème"
+      ],
+      "expected_skills": [
+        "Exploiter un modèle mathématique simple de dynamique de populations"
+      ],
+      "common_mistakes": [
+        "croire qu'un écosystème est à l'équilibre statique",
+        "confondre résilience et retour exact à l'état initial"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.1RE.AN.suites-numeriques"
+      ]
+    },
+    {
+      "notion_id": "SVT.1RE.EPC.services-ecosystemiques-et-gestion",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Enjeux contemporains de la planète",
+      "domain_code": "EPC",
+      "chapter": "Écosystèmes et services environnementaux",
+      "title": "Services écosystémiques et gestion",
+      "official_wording": null,
+      "normalized_title": "services écosystémiques et gestion",
+      "prerequisites": [
+        "SVT.1RE.EPC.dynamique-des-ecosystemes-et-interactions"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Identifier des services rendus par les écosystèmes (pollinisation, épuration...)",
+        "Évaluer une solution d'ingénierie écologique"
+      ],
+      "expected_skills": [
+        "Argumenter une gestion durable"
+      ],
+      "common_mistakes": [
+        "réduire les services à leur valeur monétaire",
+        "présenter l'être humain comme extérieur aux écosystèmes"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.CHS.patrimoine-genetique-et-maladies-l-exemple-de-la-mucoviscidose",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Variation génétique et santé",
+      "title": "Patrimoine génétique et maladies : l'exemple de la mucoviscidose",
+      "official_wording": null,
+      "normalized_title": "patrimoine génétique et maladies : l'exemple de la mucoviscidose",
+      "prerequisites": [
+        "SVT.1RE.TVO.expression-genetique-transcription-et-traduction"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier une mutation à un phénotype pathologique",
+        "Analyser un arbre généalogique"
+      ],
+      "expected_skills": [
+        "Interpréter un arbre généalogique",
+        "Calculer un risque génétique"
+      ],
+      "common_mistakes": [
+        "croire qu'un porteur sain est malade",
+        "confondre maladie génétique et maladie héréditaire"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "SVT.1RE.CHS.alterations-du-genome-et-cancerisation",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Variation génétique et santé",
+      "title": "Altérations du génome et cancérisation",
+      "official_wording": null,
+      "normalized_title": "altérations du génome et cancérisation",
+      "prerequisites": [
+        "SVT.1RE.TVO.mutations-de-l-adn-et-systemes-de-reparation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Relier l'accumulation de mutations somatiques à la cancérisation",
+        "Identifier des facteurs de risque et des moyens de prévention"
+      ],
+      "expected_skills": [
+        "Exploiter des données épidémiologiques"
+      ],
+      "common_mistakes": [
+        "croire que le cancer est une maladie héréditaire dans tous les cas",
+        "confondre facteur de risque et cause certaine"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.CHS.immunite-innee-et-reaction-inflammatoire",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Le fonctionnement du système immunitaire humain",
+      "title": "Immunité innée et réaction inflammatoire",
+      "official_wording": null,
+      "normalized_title": "immunité innée et réaction inflammatoire",
+      "prerequisites": [
+        "SVT.3E.CORPS.reaction-immunitaire-rapide-et-phagocytose"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Décrire les acteurs cellulaires et moléculaires de la réaction inflammatoire",
+        "Expliquer l'action des anti-inflammatoires"
+      ],
+      "expected_skills": [
+        "Interpréter des documents expérimentaux"
+      ],
+      "common_mistakes": [
+        "croire que l'immunité innée est spécifique d'un pathogène",
+        "croire que l'inflammation est toujours néfaste"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.CHS.immunite-adaptative-lymphocytes-b-et-t",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Le fonctionnement du système immunitaire humain",
+      "title": "Immunité adaptative : lymphocytes B et T",
+      "official_wording": null,
+      "normalized_title": "immunité adaptative : lymphocytes b et t",
+      "prerequisites": [
+        "SVT.1RE.CHS.immunite-innee-et-reaction-inflammatoire",
+        "SVT.3E.CORPS.reactions-immunitaires-adaptatives-lymphocytes-et-anticorps"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire la sélection et l'amplification clonale des lymphocytes",
+        "Distinguer réponse à médiation humorale et réponse cellulaire"
+      ],
+      "expected_skills": [
+        "Interpréter des expériences de transfert de lymphocytes"
+      ],
+      "common_mistakes": [
+        "croire que chaque lymphocyte reconnaît tous les antigènes",
+        "confondre LT CD4 et LT CD8"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.1RE.CHS.memoire-immunitaire-vaccination-et-immunotherapies",
+      "subject": "SVT",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "SPECIALITE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Corps humain et santé",
+      "domain_code": "CHS",
+      "chapter": "Le fonctionnement du système immunitaire humain",
+      "title": "Mémoire immunitaire, vaccination et immunothérapies",
+      "official_wording": null,
+      "normalized_title": "mémoire immunitaire, vaccination et immunothérapies",
+      "prerequisites": [
+        "SVT.1RE.CHS.immunite-adaptative-lymphocytes-b-et-t",
+        "SVT.3E.CORPS.vaccination-et-memoire-immunitaire"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Expliquer la mémoire immunitaire et la stratégie vaccinale",
+        "Présenter le principe de l'immunothérapie"
+      ],
+      "expected_skills": [
+        "Interpréter des courbes de réponse primaire et secondaire"
+      ],
+      "common_mistakes": [
+        "croire qu'un vaccin contient toujours un pathogène vivant",
+        "confondre vaccination et sérothérapie"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

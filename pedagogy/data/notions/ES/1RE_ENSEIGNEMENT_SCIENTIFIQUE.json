@@ -1,0 +1,757 @@
+{
+  "schema_version": "1.0",
+  "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+  "level": "1RE",
+  "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+  "generated_by": "agent-C (Claude) — reconstitution candidate, sans accès aux sources officielles",
+  "disclaimer": "CANDIDATS NON VÉRIFIÉS : notions reconstituées de mémoire, sans accès au BO/Éduscol. Aucune n'est prouvée ; aucune ne peut alimenter exercices ou quiz avant preuve officielle et revue humaine.",
+  "notions": [
+    {
+      "notion_id": "ES.1RE.MAT.formation-des-elements-chimiques-dans-l-univers",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Une longue histoire de la matière",
+      "domain_code": "MAT",
+      "chapter": "Une longue histoire de la matière",
+      "title": "Formation des éléments chimiques dans l'Univers",
+      "official_wording": null,
+      "normalized_title": "formation des éléments chimiques dans l'univers",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier la formation des éléments à la nucléosynthèse primordiale et stellaire",
+        "Situer l'abondance des éléments dans l'Univers et sur Terre"
+      ],
+      "expected_skills": [
+        "Lire un diagramme d'abondance en échelle logarithmique"
+      ],
+      "common_mistakes": [
+        "croire que tous les éléments se sont formés au Big Bang",
+        "confondre élément chimique et molécule"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise surtout physique-chimie.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.MAT.decroissance-radioactive-et-demi-vie",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Une longue histoire de la matière",
+      "domain_code": "MAT",
+      "chapter": "Une longue histoire de la matière",
+      "title": "Décroissance radioactive et demi-vie",
+      "official_wording": null,
+      "normalized_title": "décroissance radioactive et demi-vie",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire le caractère aléatoire d'une désintégration individuelle et la loi de décroissance",
+        "Utiliser la demi-vie pour estimer un âge"
+      ],
+      "expected_skills": [
+        "Exploiter une courbe de décroissance",
+        "Simuler une décroissance"
+      ],
+      "common_mistakes": [
+        "croire qu'après deux demi-vies tous les noyaux ont disparu",
+        "confondre activité et nombre de noyaux"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise physique-chimie et mathématiques.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.1RE.AN.fonction-exponentielle",
+        "MATHS.1RE.AN.suites-numeriques"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.MAT.organisation-des-cristaux-et-modele-cristallin",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Une longue histoire de la matière",
+      "domain_code": "MAT",
+      "chapter": "Une longue histoire de la matière",
+      "title": "Organisation des cristaux et modèle cristallin",
+      "official_wording": null,
+      "normalized_title": "organisation des cristaux et modèle cristallin",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire un cristal à partir d'une maille (cubique simple, cubique à faces centrées)",
+        "Relier structure cristalline et propriétés macroscopiques"
+      ],
+      "expected_skills": [
+        "Calculer une compacité ou une masse volumique",
+        "Utiliser un modèle 3D"
+      ],
+      "common_mistakes": [
+        "compter chaque atome au sommet comme appartenant entièrement à la maille",
+        "confondre solide cristallin et amorphe"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise physique-chimie et SVT (minéraux, roches).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.MAT.histoire-de-la-theorie-cellulaire-et-organisation-de-la-cellule",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Une longue histoire de la matière",
+      "domain_code": "MAT",
+      "chapter": "Une longue histoire de la matière",
+      "title": "Histoire de la théorie cellulaire et organisation de la cellule",
+      "official_wording": null,
+      "normalized_title": "histoire de la théorie cellulaire et organisation de la cellule",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "PRATIQUER_LANGAGES",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Retracer la construction historique de la théorie cellulaire",
+        "Relier l'amélioration des instruments aux avancées scientifiques"
+      ],
+      "expected_skills": [
+        "Exploiter des textes historiques",
+        "Calculer des ordres de grandeur"
+      ],
+      "common_mistakes": [
+        "croire qu'une théorie scientifique est découverte d'un coup par une seule personne",
+        "confondre taille réelle et grossissement"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise SVT et histoire des sciences.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.SOL.rayonnement-solaire-et-puissance-recue-par-la-terre",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Le Soleil, notre source d'énergie",
+      "domain_code": "SOL",
+      "chapter": "Le Soleil, notre source d'énergie",
+      "title": "Rayonnement solaire et puissance reçue par la Terre",
+      "official_wording": null,
+      "normalized_title": "rayonnement solaire et puissance reçue par la terre",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier l'énergie solaire aux réactions de fusion",
+        "Expliquer la variation de la puissance reçue selon la latitude"
+      ],
+      "expected_skills": [
+        "Exploiter un spectre",
+        "Calculer une puissance surfacique"
+      ],
+      "common_mistakes": [
+        "croire que les saisons sont dues à la variation de la distance Terre-Soleil",
+        "confondre puissance et énergie"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise physique-chimie et SVT.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.SOL.bilan-radiatif-terrestre-albedo-et-effet-de-serre",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Le Soleil, notre source d'énergie",
+      "domain_code": "SOL",
+      "chapter": "Le Soleil, notre source d'énergie",
+      "title": "Bilan radiatif terrestre, albédo et effet de serre",
+      "official_wording": null,
+      "normalized_title": "bilan radiatif terrestre, albédo et effet de serre",
+      "prerequisites": [
+        "ES.1RE.SOL.rayonnement-solaire-et-puissance-recue-par-la-terre"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Établir un bilan radiatif simplifié",
+        "Expliquer le rôle de l'albédo et de l'effet de serre"
+      ],
+      "expected_skills": [
+        "Exploiter un modèle de bilan",
+        "Mesurer un albédo"
+      ],
+      "common_mistakes": [
+        "confondre effet de serre et couche d'ozone",
+        "croire que l'effet de serre est uniquement d'origine humaine"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.SOL.photosynthese-conversion-de-l-energie-solaire",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Le Soleil, notre source d'énergie",
+      "domain_code": "SOL",
+      "chapter": "Le Soleil, notre source d'énergie",
+      "title": "Photosynthèse : conversion de l'énergie solaire",
+      "official_wording": null,
+      "normalized_title": "photosynthèse : conversion de l'énergie solaire",
+      "prerequisites": [
+        "ES.1RE.SOL.rayonnement-solaire-et-puissance-recue-par-la-terre"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier la photosynthèse à la conversion d'énergie lumineuse en énergie chimique",
+        "Relier la biomasse et les combustibles fossiles à l'énergie solaire passée"
+      ],
+      "expected_skills": [
+        "Estimer un rendement de conversion"
+      ],
+      "common_mistakes": [
+        "croire que la plante tire sa masse du sol",
+        "croire qu'une grande part de l'énergie reçue est convertie"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise SVT.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.SOL.bilan-thermique-du-corps-humain",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Le Soleil, notre source d'énergie",
+      "domain_code": "SOL",
+      "chapter": "Le Soleil, notre source d'énergie",
+      "title": "Bilan thermique du corps humain",
+      "official_wording": null,
+      "normalized_title": "bilan thermique du corps humain",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier la température du corps à l'équilibre entre production et pertes thermiques",
+        "Identifier les modes de transfert thermique"
+      ],
+      "expected_skills": [
+        "Exploiter des données de métabolisme"
+      ],
+      "common_mistakes": [
+        "confondre chaleur et température",
+        "croire que le corps ne perd de l'énergie que par transpiration"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise SVT et physique-chimie.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ES.1RE.TERRE.forme-et-dimensions-de-la-terre-histoire-de-la-mesure",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, un astre singulier",
+      "domain_code": "TERRE",
+      "chapter": "La Terre, un astre singulier",
+      "title": "Forme et dimensions de la Terre : histoire de la mesure",
+      "official_wording": null,
+      "normalized_title": "forme et dimensions de la terre : histoire de la mesure",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Reproduire le raisonnement d'Ératosthène",
+        "Calculer une longueur de méridien et des distances sur la sphère"
+      ],
+      "expected_skills": [
+        "Utiliser la trigonométrie et la proportionnalité"
+      ],
+      "common_mistakes": [
+        "confondre latitude et longitude",
+        "croire qu'au Moyen Âge on pensait que la Terre était plate"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise mathématiques et histoire des sciences.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.TERRE.l-age-de-la-terre-histoire-d-une-controverse",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, un astre singulier",
+      "domain_code": "TERRE",
+      "chapter": "La Terre, un astre singulier",
+      "title": "L'âge de la Terre : histoire d'une controverse",
+      "official_wording": null,
+      "normalized_title": "l'âge de la terre : histoire d'une controverse",
+      "prerequisites": [
+        "ES.1RE.MAT.decroissance-radioactive-et-demi-vie"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Retracer les estimations successives de l'âge de la Terre",
+        "Expliquer l'apport de la radiochronologie"
+      ],
+      "expected_skills": [
+        "Exploiter des documents historiques et argumenter"
+      ],
+      "common_mistakes": [
+        "croire qu'une estimation fausse du passé était non scientifique",
+        "confondre âge de la Terre et âge de l'Univers"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise SVT, physique-chimie et histoire des sciences.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ES.1RE.TERRE.la-terre-dans-l-univers-du-geocentrisme-a-l-heliocentrisme",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "La Terre, un astre singulier",
+      "domain_code": "TERRE",
+      "chapter": "La Terre, un astre singulier",
+      "title": "La Terre dans l'Univers : du géocentrisme à l'héliocentrisme",
+      "official_wording": null,
+      "normalized_title": "la terre dans l'univers : du géocentrisme à l'héliocentrisme",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "SE_SITUER_DANS_ESPACE_TEMPS",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Retracer le passage du modèle géocentrique au modèle héliocentrique",
+        "Interpréter le mouvement apparent des planètes"
+      ],
+      "expected_skills": [
+        "Exploiter des documents historiques"
+      ],
+      "common_mistakes": [
+        "croire que Copernic a apporté une preuve définitive",
+        "confondre modèle et réalité"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "ES.1RE.SON.le-son-phenomene-vibratoire",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Son et musique, porteurs d'information",
+      "domain_code": "SON",
+      "chapter": "Son et musique, porteurs d'information",
+      "title": "Le son, phénomène vibratoire",
+      "official_wording": null,
+      "normalized_title": "le son, phénomène vibratoire",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Relier la hauteur à la fréquence et l'intensité au niveau sonore",
+        "Distinguer son pur et son complexe"
+      ],
+      "expected_skills": [
+        "Exploiter un spectre sonore",
+        "Mesurer une fréquence"
+      ],
+      "common_mistakes": [
+        "confondre hauteur et intensité",
+        "croire que le son se propage dans le vide"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise physique-chimie.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.SON.la-musique-ou-l-art-de-faire-entendre-les-nombres",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Son et musique, porteurs d'information",
+      "domain_code": "SON",
+      "chapter": "Son et musique, porteurs d'information",
+      "title": "La musique ou l'art de faire entendre les nombres",
+      "official_wording": null,
+      "normalized_title": "la musique ou l'art de faire entendre les nombres",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Relier les intervalles musicaux à des rapports de fréquences",
+        "Comparer gamme de Pythagore et gamme tempérée"
+      ],
+      "expected_skills": [
+        "Calculer des rapports de fréquences"
+      ],
+      "common_mistakes": [
+        "croire qu'une octave correspond à une fréquence additionnée plutôt que multipliée",
+        "confondre rapports et différences de fréquences"
+      ],
+      "difficulty": 4,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise mathématiques.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.1RE.AN.suites-numeriques",
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.SON.numerisation-du-son-et-compression",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Son et musique, porteurs d'information",
+      "domain_code": "SON",
+      "chapter": "Son et musique, porteurs d'information",
+      "title": "Numérisation du son et compression",
+      "official_wording": null,
+      "normalized_title": "numérisation du son et compression",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier fréquence d'échantillonnage et quantification à la qualité du son numérisé",
+        "Calculer une taille de fichier"
+      ],
+      "expected_skills": [
+        "Calculer un débit binaire"
+      ],
+      "common_mistakes": [
+        "confondre fréquence d'échantillonnage et fréquence du son",
+        "croire que la compression est toujours sans perte"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise physique-chimie et numérique.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "ES.1RE.SON.entendre-la-musique-oreille-cerveau-et-risques-auditifs",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "cycle": "LYCEE_GT",
+      "course": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "school_year": "2025-2026",
+      "official_program_version": "première générale — programme 2019 (à confirmer)",
+      "domain": "Son et musique, porteurs d'information",
+      "domain_code": "SON",
+      "chapter": "Son et musique, porteurs d'information",
+      "title": "Entendre la musique : oreille, cerveau et risques auditifs",
+      "official_wording": null,
+      "normalized_title": "entendre la musique : oreille, cerveau et risques auditifs",
+      "prerequisites": [
+        "ES.1RE.SON.le-son-phenomene-vibratoire"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Décrire la transduction du son dans l'oreille interne",
+        "Relier exposition sonore et lésions irréversibles"
+      ],
+      "expected_skills": [
+        "Exploiter un audiogramme"
+      ],
+      "common_mistakes": [
+        "croire que les cellules ciliées se régénèrent chez l'être humain",
+        "confondre niveau sonore et fréquence"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-1RE-2019",
+      "source_title": "Programmes de spécialité de première générale et d'enseignement scientifique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-1RE-2019. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Mobilise SVT.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

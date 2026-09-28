@@ -1,0 +1,1101 @@
+{
+  "schema_version": "1.0",
+  "subject": "MATHS",
+  "level": "2NDE",
+  "course": "COMMON",
+  "generated_by": "agent-A-maths-candidates",
+  "disclaimer": "Notions CANDIDATES reconstituées de mémoire (connaissance générale des programmes), toutes UNPROVEN / CANDIDATE_UNVERIFIED : ce ne sont PAS des extraits officiels. Aucun libellé officiel n'est stocké. À vérifier contre la source officielle attendue avant toute production de contenu.",
+  "notions": [
+    {
+      "notion_id": "MATHS.2NDE.NC.ensembles-de-nombres",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Nombres",
+      "title": "Ensembles de nombres",
+      "official_wording": null,
+      "normalized_title": "ensembles de nombres",
+      "prerequisites": [
+        "MATHS.3E.NC.racine-carree",
+        "MATHS.5E.NC.comparaison-de-fractions"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Connaître les ensembles $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{D}$, $\\mathbb{Q}$, $\\mathbb{R}$"
+      ],
+      "expected_skills": [
+        "Déterminer le plus petit ensemble auquel appartient un nombre",
+        "Utiliser les symboles $\\in$ et $\\subset$"
+      ],
+      "common_mistakes": [
+        "Croire que $\\frac{1}{3}$ est décimal",
+        "Penser que $\\sqrt{4}$ n'est pas entier"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.NC.intervalles-et-valeur-absolue",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Nombres",
+      "title": "Intervalles et valeur absolue",
+      "official_wording": null,
+      "normalized_title": "intervalles et valeur absolue",
+      "prerequisites": [
+        "MATHS.2NDE.NC.ensembles-de-nombres"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Représenter un ensemble de réels par un intervalle",
+        "Interpréter $|x - a|$ comme une distance"
+      ],
+      "expected_skills": [
+        "Traduire $|x - 2| \\le 3$ par un intervalle",
+        "Utiliser les crochets ouverts ou fermés"
+      ],
+      "common_mistakes": [
+        "Mettre un crochet fermé en $+\\infty$",
+        "Croire que $|x - 2| = x + 2$"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.NC.puissances-et-racines-carrees",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Calculs",
+      "title": "Puissances et racines carrées",
+      "official_wording": null,
+      "normalized_title": "puissances et racines carrées",
+      "prerequisites": [
+        "MATHS.4E.NC.puissances",
+        "MATHS.3E.NC.racine-carree"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Calculer avec les puissances d'exposant entier relatif et les racines carrées"
+      ],
+      "expected_skills": [
+        "Utiliser $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$",
+        "Simplifier $\\sqrt{50}$ en $5\\sqrt{2}$"
+      ],
+      "common_mistakes": [
+        "Écrire $\\sqrt{a+b} = \\sqrt{a} + \\sqrt{b}$",
+        "Écrire $(a^m)^n = a^{m+n}$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.NC.multiples-diviseurs-et-nombres-premiers",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Arithmétique",
+      "title": "Multiples, diviseurs et nombres premiers",
+      "official_wording": null,
+      "normalized_title": "multiples, diviseurs et nombres premiers",
+      "prerequisites": [
+        "MATHS.3E.NC.decomposition-en-produit-de-facteurs-premiers"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "RAISONNER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Utiliser les notions de multiple, diviseur et nombre premier dans des démonstrations simples"
+      ],
+      "expected_skills": [
+        "Démontrer que la somme de deux multiples de $a$ est un multiple de $a$",
+        "Utiliser l'écriture $2k$ ou $2k+1$"
+      ],
+      "common_mistakes": [
+        "Vérifier sur des exemples au lieu de démontrer",
+        "Utiliser la même lettre $k$ pour deux entiers différents"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.NC.calcul-litteral-et-identites-remarquables",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Calcul littéral",
+      "title": "Calcul littéral et identités remarquables",
+      "official_wording": null,
+      "normalized_title": "calcul littéral et identités remarquables",
+      "prerequisites": [
+        "MATHS.3E.NC.factorisation-et-identites-remarquables"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Développer, factoriser et transformer des expressions algébriques"
+      ],
+      "expected_skills": [
+        "Utiliser les trois identités remarquables",
+        "Choisir la forme adaptée à la question"
+      ],
+      "common_mistakes": [
+        "Oublier le double produit dans $(a+b)^2$",
+        "Mal gérer les signes en développant $-(x-3)^2$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.NC.equations-et-inequations-du-premier-degre",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Nombres et calculs",
+      "domain_code": "NC",
+      "chapter": "Équations",
+      "title": "Équations et inéquations du premier degré",
+      "official_wording": null,
+      "normalized_title": "équations et inéquations du premier degré",
+      "prerequisites": [
+        "MATHS.4E.NC.equations-du-premier-degre",
+        "MATHS.2NDE.NC.intervalles-et-valeur-absolue"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Résoudre des équations et inéquations du premier degré"
+      ],
+      "expected_skills": [
+        "Changer le sens de l'inégalité en multipliant par un négatif",
+        "Donner l'ensemble des solutions sous forme d'intervalle"
+      ],
+      "common_mistakes": [
+        "Ne pas changer le sens de l'inégalité en divisant par un nombre négatif",
+        "Donner une seule valeur comme solution d'une inéquation"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.GEO.vecteurs",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Vecteurs",
+      "title": "Vecteurs",
+      "official_wording": null,
+      "normalized_title": "vecteurs",
+      "prerequisites": [
+        "MATHS.4E.EG.translations",
+        "MATHS.5E.EG.parallelogramme",
+        "MATHS.5E.EG.reperage-dans-le-plan"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Définir un vecteur par une translation et calculer avec les vecteurs",
+        "Utiliser la relation de Chasles"
+      ],
+      "expected_skills": [
+        "Construire $\\vec{u} + \\vec{v}$ et $k\\vec{u}$",
+        "Calculer les coordonnées d'un vecteur"
+      ],
+      "common_mistakes": [
+        "Calculer $\\overrightarrow{AB}$ par $x_A - x_B$",
+        "Confondre égalité de vecteurs et égalité de longueurs"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.GEO.colinearite-de-vecteurs",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Vecteurs",
+      "title": "Colinéarité de vecteurs",
+      "official_wording": null,
+      "normalized_title": "colinéarité de vecteurs",
+      "prerequisites": [
+        "MATHS.2NDE.GEO.vecteurs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Utiliser le déterminant pour tester la colinéarité",
+        "Démontrer un alignement ou un parallélisme"
+      ],
+      "expected_skills": [
+        "Calculer $\\det(\\vec{u}, \\vec{v}) = xy' - x'y$",
+        "Traduire un alignement par une colinéarité"
+      ],
+      "common_mistakes": [
+        "Calculer $xx' - yy'$",
+        "Conclure au parallélisme de droites confondues sans vérifier"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.GEO.coordonnees-dans-un-repere",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Géométrie repérée",
+      "title": "Coordonnées dans un repère",
+      "official_wording": null,
+      "normalized_title": "coordonnées dans un repère",
+      "prerequisites": [
+        "MATHS.4E.EG.theoreme-de-pythagore",
+        "MATHS.5E.EG.reperage-dans-le-plan"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Calculer les coordonnées du milieu d'un segment et la distance entre deux points"
+      ],
+      "expected_skills": [
+        "Utiliser $\\left(\\frac{x_A+x_B}{2}; \\frac{y_A+y_B}{2}\\right)$",
+        "Utiliser $AB = \\sqrt{(x_B-x_A)^2 + (y_B-y_A)^2}$ en repère orthonormé"
+      ],
+      "common_mistakes": [
+        "Utiliser la formule de distance dans un repère non orthonormé",
+        "Soustraire au lieu d'additionner pour le milieu"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.GEO.equations-de-droites",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Géométrie repérée",
+      "title": "Équations de droites",
+      "official_wording": null,
+      "normalized_title": "équations de droites",
+      "prerequisites": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.2NDE.GEO.colinearite-de-vecteurs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Déterminer une équation de droite (réduite ou cartésienne)"
+      ],
+      "expected_skills": [
+        "Calculer un coefficient directeur",
+        "Utiliser un vecteur directeur"
+      ],
+      "common_mistakes": [
+        "Oublier le cas des droites verticales",
+        "Inverser $\\Delta x$ et $\\Delta y$ dans le coefficient directeur"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.GEO.systemes-de-deux-equations-lineaires",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Géométrie repérée",
+      "title": "Systèmes de deux équations linéaires",
+      "official_wording": null,
+      "normalized_title": "systèmes de deux équations linéaires",
+      "prerequisites": [
+        "MATHS.2NDE.GEO.equations-de-droites"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Résoudre un système de deux équations linéaires à deux inconnues"
+      ],
+      "expected_skills": [
+        "Utiliser la substitution ou les combinaisons linéaires",
+        "Interpréter graphiquement la solution"
+      ],
+      "common_mistakes": [
+        "Oublier de multiplier tous les termes d'une équation",
+        "Ne pas vérifier la solution dans les deux équations"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.GEO.projete-orthogonal",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Géométrie",
+      "domain_code": "GEO",
+      "chapter": "Géométrie plane",
+      "title": "Projeté orthogonal",
+      "official_wording": null,
+      "normalized_title": "projeté orthogonal",
+      "prerequisites": [
+        "MATHS.4E.EG.theoreme-de-pythagore"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Définir le projeté orthogonal d'un point sur une droite et l'utiliser pour une distance minimale"
+      ],
+      "expected_skills": [
+        "Construire le projeté orthogonal",
+        "Justifier que la distance est minimale"
+      ],
+      "common_mistakes": [
+        "Projeter parallèlement à un axe au lieu de perpendiculairement",
+        "Confondre projeté et symétrique"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.FON.generalites-sur-les-fonctions",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Fonctions",
+      "domain_code": "FON",
+      "chapter": "Généralités",
+      "title": "Généralités sur les fonctions",
+      "official_wording": null,
+      "normalized_title": "généralités sur les fonctions",
+      "prerequisites": [
+        "MATHS.3E.OGD.notion-de-fonction"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Utiliser les notions de fonction, ensemble de définition, courbe représentative"
+      ],
+      "expected_skills": [
+        "Résoudre graphiquement $f(x) = k$ et $f(x) < k$",
+        "Déterminer si un point appartient à une courbe"
+      ],
+      "common_mistakes": [
+        "Lire les solutions sur l'axe des ordonnées",
+        "Confondre $f(x) = 0$ et $f(0)$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.FON.fonctions-de-reference",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Fonctions",
+      "domain_code": "FON",
+      "chapter": "Fonctions de référence",
+      "title": "Fonctions de référence",
+      "official_wording": null,
+      "normalized_title": "fonctions de référence",
+      "prerequisites": [
+        "MATHS.2NDE.FON.generalites-sur-les-fonctions",
+        "MATHS.3E.NC.racine-carree"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Connaître les fonctions carré, inverse, racine carrée et cube et leurs courbes"
+      ],
+      "expected_skills": [
+        "Tracer l'allure des courbes",
+        "Comparer $x$, $x^2$, $x^3$, $\\sqrt{x}$ selon la position de $x$"
+      ],
+      "common_mistakes": [
+        "Croire que $x^2 \\ge x$ pour tout $x$",
+        "Appliquer la fonction inverse en $0$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.FON.variations-et-extremums",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Fonctions",
+      "domain_code": "FON",
+      "chapter": "Variations",
+      "title": "Variations et extremums",
+      "official_wording": null,
+      "normalized_title": "variations et extremums",
+      "prerequisites": [
+        "MATHS.2NDE.FON.fonctions-de-reference"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "REPRESENTER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Décrire les variations d'une fonction et déterminer ses extremums"
+      ],
+      "expected_skills": [
+        "Construire un tableau de variations",
+        "Lire un maximum et le nombre où il est atteint"
+      ],
+      "common_mistakes": [
+        "Confondre le maximum et l'abscisse où il est atteint",
+        "Décrire les variations sur l'axe des ordonnées"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.FON.tableaux-de-signes",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Fonctions",
+      "domain_code": "FON",
+      "chapter": "Signe",
+      "title": "Tableaux de signes",
+      "official_wording": null,
+      "normalized_title": "tableaux de signes",
+      "prerequisites": [
+        "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+        "MATHS.2NDE.NC.equations-et-inequations-du-premier-degre"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER"
+      ],
+      "learning_objectives": [
+        "Étudier le signe d'une fonction affine et d'un produit ou quotient de facteurs affines"
+      ],
+      "expected_skills": [
+        "Construire un tableau de signes",
+        "Résoudre une inéquation produit ou quotient"
+      ],
+      "common_mistakes": [
+        "Oublier la double barre pour la valeur interdite",
+        "Déterminer le signe de $ax+b$ sans tenir compte du signe de $a$"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.SP.proportions-et-evolutions-en-pourcentage",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Statistiques et probabilités",
+      "domain_code": "SP",
+      "chapter": "Information chiffrée",
+      "title": "Proportions et évolutions en pourcentage",
+      "official_wording": null,
+      "normalized_title": "proportions et évolutions en pourcentage",
+      "prerequisites": [
+        "MATHS.4E.OGD.pourcentages-d-evolution"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "MODELISER"
+      ],
+      "learning_objectives": [
+        "Calculer proportions, taux d'évolution, évolutions successives et réciproques"
+      ],
+      "expected_skills": [
+        "Utiliser le coefficient multiplicateur $1 + t$",
+        "Calculer un taux réciproque"
+      ],
+      "common_mistakes": [
+        "Additionner deux taux successifs",
+        "Croire qu'une baisse de 20 % est compensée par une hausse de 20 %"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.SP.statistiques-descriptives",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Statistiques et probabilités",
+      "domain_code": "SP",
+      "chapter": "Statistiques",
+      "title": "Statistiques descriptives",
+      "official_wording": null,
+      "normalized_title": "statistiques descriptives",
+      "prerequisites": [
+        "MATHS.3E.OGD.indicateurs-statistiques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CALCULER",
+        "REPRESENTER",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Calculer et interpréter moyenne, médiane, quartiles, écart type"
+      ],
+      "expected_skills": [
+        "Utiliser la linéarité de la moyenne",
+        "Lire les indicateurs sur une calculatrice"
+      ],
+      "common_mistakes": [
+        "Calculer les quartiles comme moyennes de valeurs",
+        "Confondre écart interquartile et étendue"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.SP.modeles-de-probabilite",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Statistiques et probabilités",
+      "domain_code": "SP",
+      "chapter": "Probabilités",
+      "title": "Modèles de probabilité",
+      "official_wording": null,
+      "normalized_title": "modèles de probabilité",
+      "prerequisites": [
+        "MATHS.3E.OGD.probabilites-experiences-a-deux-epreuves"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CALCULER"
+      ],
+      "learning_objectives": [
+        "Utiliser un modèle de probabilité sur un univers fini",
+        "Calculer $P(A \\cup B)$"
+      ],
+      "expected_skills": [
+        "Utiliser $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$",
+        "Dénombrer avec tableau ou arbre"
+      ],
+      "common_mistakes": [
+        "Oublier de retirer $P(A \\cap B)$",
+        "Supposer l'équiprobabilité sans justification"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.SP.echantillonnage",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Statistiques et probabilités",
+      "domain_code": "SP",
+      "chapter": "Échantillonnage",
+      "title": "Échantillonnage",
+      "official_wording": null,
+      "normalized_title": "échantillonnage",
+      "prerequisites": [
+        "MATHS.2NDE.SP.modeles-de-probabilite"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "CHERCHER"
+      ],
+      "learning_objectives": [
+        "Observer la fluctuation d'échantillonnage et estimer une proportion"
+      ],
+      "expected_skills": [
+        "Simuler des échantillons avec Python ou un tableur",
+        "Interpréter l'écart entre fréquence observée et probabilité"
+      ],
+      "common_mistakes": [
+        "Croire que la fréquence observée est toujours égale à la probabilité",
+        "Conclure à partir d'un échantillon de petite taille"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.AP.variables-et-instructions-en-python",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Algorithmique et programmation",
+      "domain_code": "AP",
+      "chapter": "Python",
+      "title": "Variables et instructions en Python",
+      "official_wording": null,
+      "normalized_title": "variables et instructions en python",
+      "prerequisites": [
+        "MATHS.3E.AP.algorithmes-et-programmes-avances"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Utiliser variables, affectations, instructions conditionnelles et boucles en Python"
+      ],
+      "expected_skills": [
+        "Écrire une boucle `for` et une boucle `while`",
+        "Écrire une instruction `if … elif … else`"
+      ],
+      "common_mistakes": [
+        "Confondre `=` (affectation) et `==` (test)",
+        "Oublier l'indentation dans un bloc"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "MATHS.2NDE.AP.fonctions-en-python",
+      "subject": "MATHS",
+      "level": "2NDE",
+      "cycle": "LYCEE_GT",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "seconde GT — programme 2019 (à confirmer ; ajustements ultérieurs éventuels)",
+      "domain": "Algorithmique et programmation",
+      "domain_code": "AP",
+      "chapter": "Python",
+      "title": "Fonctions en Python",
+      "official_wording": null,
+      "normalized_title": "fonctions en python",
+      "prerequisites": [
+        "MATHS.2NDE.AP.variables-et-instructions-en-python",
+        "MATHS.2NDE.FON.generalites-sur-les-fonctions"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "MODELISER",
+        "RAISONNER"
+      ],
+      "learning_objectives": [
+        "Définir et appeler une fonction Python avec paramètres et valeur de retour"
+      ],
+      "expected_skills": [
+        "Utiliser `def` et `return`",
+        "Distinguer `print` et `return`"
+      ],
+      "common_mistakes": [
+        "Utiliser `print` au lieu de `return`",
+        "Oublier d'appeler la fonction"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-2NDE-2019",
+      "source_title": "Programmes de la classe de seconde générale et technologique — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO spécial n°1 du 22 janvier 2019 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-2NDE-2019. Aucun libellé officiel stocké.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}

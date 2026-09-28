@@ -1,0 +1,716 @@
+{
+  "schema_version": "1.0",
+  "subject": "SVT",
+  "level": "4E",
+  "course": "COMMON",
+  "generated_by": "agent-C (Claude) — reconstitution candidate, sans accès aux sources officielles",
+  "disclaimer": "CANDIDATS NON VÉRIFIÉS : notions reconstituées de mémoire, sans accès au BO/Éduscol. Aucune n'est prouvée ; aucune ne peut alimenter exercices ou quiz avant preuve officielle et revue humaine.",
+  "notions": [
+    {
+      "notion_id": "SVT.4E.TER.structure-interne-du-globe-terrestre",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "La planète Terre, l'environnement et l'action humaine",
+      "domain_code": "TER",
+      "chapter": "Dynamique interne de la Terre",
+      "title": "Structure interne du globe terrestre",
+      "official_wording": null,
+      "normalized_title": "structure interne du globe terrestre",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "UTILISER_OUTILS",
+        "SE_SITUER_DANS_ESPACE_TEMPS"
+      ],
+      "learning_objectives": [
+        "Décrire l'organisation du globe en enveloppes (croûte, manteau, noyau)",
+        "Distinguer lithosphère rigide et manteau sous-jacent"
+      ],
+      "expected_skills": [
+        "Interpréter un modèle",
+        "Lire une coupe du globe à l'échelle"
+      ],
+      "common_mistakes": [
+        "croire que le manteau est liquide",
+        "confondre croûte et lithosphère"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.TER.tectonique-des-plaques-et-mouvements-des-plaques",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "La planète Terre, l'environnement et l'action humaine",
+      "domain_code": "TER",
+      "chapter": "Dynamique interne de la Terre",
+      "title": "Tectonique des plaques et mouvements des plaques",
+      "official_wording": null,
+      "normalized_title": "tectonique des plaques et mouvements des plaques",
+      "prerequisites": [
+        "SVT.4E.TER.structure-interne-du-globe-terrestre"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "UTILISER_OUTILS",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "SE_SITUER_DANS_ESPACE_TEMPS"
+      ],
+      "learning_objectives": [
+        "Relier la répartition des séismes et volcans aux limites de plaques",
+        "Estimer une vitesse de déplacement de plaque"
+      ],
+      "expected_skills": [
+        "Utiliser un logiciel de visualisation (ex. Tectoglob)",
+        "Calculer une vitesse à partir de mesures"
+      ],
+      "common_mistakes": [
+        "croire que les continents flottent sur un océan de magma",
+        "confondre plaque et continent"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "SVT.4E.TER.seismes-origine-et-manifestations",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "La planète Terre, l'environnement et l'action humaine",
+      "domain_code": "TER",
+      "chapter": "Dynamique interne de la Terre",
+      "title": "Séismes : origine et manifestations",
+      "official_wording": null,
+      "normalized_title": "séismes : origine et manifestations",
+      "prerequisites": [
+        "SVT.4E.TER.tectonique-des-plaques-et-mouvements-des-plaques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Expliquer un séisme par une rupture des roches libérant de l'énergie",
+        "Distinguer foyer, épicentre, magnitude et intensité"
+      ],
+      "expected_skills": [
+        "Lire un sismogramme",
+        "Modéliser une rupture"
+      ],
+      "common_mistakes": [
+        "confondre magnitude et intensité",
+        "confondre foyer et épicentre"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.4E.NC.puissances"
+      ]
+    },
+    {
+      "notion_id": "SVT.4E.TER.volcanisme-effusif-et-explosif",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "La planète Terre, l'environnement et l'action humaine",
+      "domain_code": "TER",
+      "chapter": "Dynamique interne de la Terre",
+      "title": "Volcanisme effusif et explosif",
+      "official_wording": null,
+      "normalized_title": "volcanisme effusif et explosif",
+      "prerequisites": [
+        "SVT.4E.TER.tectonique-des-plaques-et-mouvements-des-plaques"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Relier le type d'éruption à la viscosité et à la teneur en gaz du magma",
+        "Relier le volcanisme aux contextes de plaques"
+      ],
+      "expected_skills": [
+        "Modéliser une éruption et discuter les limites du modèle"
+      ],
+      "common_mistakes": [
+        "croire que la lave provient du noyau terrestre",
+        "confondre magma et lave"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.TER.risques-naturels-alea-enjeux-vulnerabilite-et-prevention",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "La planète Terre, l'environnement et l'action humaine",
+      "domain_code": "TER",
+      "chapter": "Risques et prévention",
+      "title": "Risques naturels : aléa, enjeux, vulnérabilité et prévention",
+      "official_wording": null,
+      "normalized_title": "risques naturels : aléa, enjeux, vulnérabilité et prévention",
+      "prerequisites": [
+        "SVT.4E.TER.seismes-origine-et-manifestations",
+        "SVT.4E.TER.volcanisme-effusif-et-explosif"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Distinguer aléa, enjeux et risque",
+        "Identifier des mesures de prévention et de protection"
+      ],
+      "expected_skills": [
+        "Analyser une carte d'aléa",
+        "Argumenter une mesure de prévention"
+      ],
+      "common_mistakes": [
+        "confondre aléa et risque",
+        "croire qu'un risque peut être supprimé totalement"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.VIV.reseaux-trophiques-et-flux-de-matiere-dans-un-ecosysteme",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Relations entre êtres vivants",
+      "title": "Réseaux trophiques et flux de matière dans un écosystème",
+      "official_wording": null,
+      "normalized_title": "réseaux trophiques et flux de matière dans un écosystème",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Construire un réseau trophique incluant producteurs, consommateurs et décomposeurs",
+        "Expliquer le recyclage de la matière par les décomposeurs"
+      ],
+      "expected_skills": [
+        "Construire un schéma fléché orienté",
+        "Interpréter une pyramide des biomasses"
+      ],
+      "common_mistakes": [
+        "inverser le sens des flèches (une flèche signifie « est mangé par », elle indique le transfert de matière)",
+        "oublier les décomposeurs dans le cycle de la matière"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "SVT.4E.VIV.interactions-entre-especes-symbiose-parasitisme-competition",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Relations entre êtres vivants",
+      "title": "Interactions entre espèces : symbiose, parasitisme, compétition",
+      "official_wording": null,
+      "normalized_title": "interactions entre espèces : symbiose, parasitisme, compétition",
+      "prerequisites": [
+        "SVT.4E.VIV.reseaux-trophiques-et-flux-de-matiere-dans-un-ecosysteme"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Distinguer différents types d'interactions entre espèces",
+        "Relier ces interactions à la dynamique des populations"
+      ],
+      "expected_skills": [
+        "Classer des exemples d'interactions"
+      ],
+      "common_mistakes": [
+        "confondre symbiose et parasitisme",
+        "croire que toute interaction est une relation alimentaire"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.VIV.dynamique-des-populations-et-facteurs-du-milieu",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le vivant et son évolution",
+      "domain_code": "VIV",
+      "chapter": "Relations entre êtres vivants",
+      "title": "Dynamique des populations et facteurs du milieu",
+      "official_wording": null,
+      "normalized_title": "dynamique des populations et facteurs du milieu",
+      "prerequisites": [
+        "SVT.4E.VIV.interactions-entre-especes-symbiose-parasitisme-competition"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "PRATIQUER_LANGAGES",
+        "UTILISER_OUTILS"
+      ],
+      "learning_objectives": [
+        "Relier la variation d'effectif d'une population aux facteurs du milieu et aux interactions",
+        "Interpréter des courbes d'effectifs"
+      ],
+      "expected_skills": [
+        "Lire un graphique à deux courbes",
+        "Formuler une hypothèse explicative"
+      ],
+      "common_mistakes": [
+        "confondre corrélation et causalité entre deux courbes d'effectifs",
+        "négliger le décalage temporel proie–prédateur"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": [
+        "MATHS.5E.OGD.proportionnalite"
+      ]
+    },
+    {
+      "notion_id": "SVT.4E.CORPS.puberte-et-fonctionnement-des-appareils-reproducteurs",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Reproduction et sexualité",
+      "title": "Puberté et fonctionnement des appareils reproducteurs",
+      "official_wording": null,
+      "normalized_title": "puberté et fonctionnement des appareils reproducteurs",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "ADOPTER_COMPORTEMENT_RESPONSABLE"
+      ],
+      "learning_objectives": [
+        "Décrire les transformations de la puberté et leur commande hormonale",
+        "Décrire la production des gamètes chez l'homme et la femme"
+      ],
+      "expected_skills": [
+        "Légender des schémas d'appareils reproducteurs",
+        "Lire un graphique hormonal simple"
+      ],
+      "common_mistakes": [
+        "croire que la production d'ovules est continue comme celle des spermatozoïdes",
+        "confondre caractères sexuels primaires et secondaires"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.CORPS.fecondation-grossesse-et-maitrise-de-la-procreation",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Reproduction et sexualité",
+      "title": "Fécondation, grossesse et maîtrise de la procréation",
+      "official_wording": null,
+      "normalized_title": "fécondation, grossesse et maîtrise de la procréation",
+      "prerequisites": [
+        "SVT.4E.CORPS.puberte-et-fonctionnement-des-appareils-reproducteurs"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Décrire la rencontre des gamètes et le début du développement embryonnaire",
+        "Expliquer le mode d'action de méthodes contraceptives"
+      ],
+      "expected_skills": [
+        "Mettre en relation des documents",
+        "Argumenter une conduite responsable"
+      ],
+      "common_mistakes": [
+        "croire qu'une grossesse est impossible lors du premier rapport sexuel",
+        "confondre contraception et protection contre les IST"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.CORPS.infections-sexuellement-transmissibles-et-prevention",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Reproduction et sexualité",
+      "title": "Infections sexuellement transmissibles et prévention",
+      "official_wording": null,
+      "normalized_title": "infections sexuellement transmissibles et prévention",
+      "prerequisites": [
+        "SVT.4E.CORPS.fecondation-grossesse-et-maitrise-de-la-procreation"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Identifier les modes de transmission des IST",
+        "Justifier l'usage du préservatif comme moyen de prévention"
+      ],
+      "expected_skills": [
+        "Extraire et organiser des informations de santé"
+      ],
+      "common_mistakes": [
+        "croire que la pilule protège des IST",
+        "croire qu'une IST présente toujours des symptômes visibles"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.CORPS.systeme-nerveux-messages-nerveux-et-centres-nerveux",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Système nerveux et comportements",
+      "title": "Système nerveux : messages nerveux et centres nerveux",
+      "official_wording": null,
+      "normalized_title": "système nerveux : messages nerveux et centres nerveux",
+      "prerequisites": [],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_LANGAGES",
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE"
+      ],
+      "learning_objectives": [
+        "Décrire le trajet organe sensoriel → nerf → centre nerveux → nerf → muscle",
+        "Présenter le neurone et la synapse comme supports du message nerveux"
+      ],
+      "expected_skills": [
+        "Schématiser une chaîne de commande nerveuse",
+        "Interpréter des résultats d'expériences historiques"
+      ],
+      "common_mistakes": [
+        "croire que le message nerveux circule dans le sang",
+        "confondre nerf et neurone"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.CORPS.commande-nerveuse-du-mouvement",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Système nerveux et comportements",
+      "title": "Commande nerveuse du mouvement",
+      "official_wording": null,
+      "normalized_title": "commande nerveuse du mouvement",
+      "prerequisites": [
+        "SVT.4E.CORPS.systeme-nerveux-messages-nerveux-et-centres-nerveux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "PRATIQUER_DEMARCHE_SCIENTIFIQUE",
+        "CONCEVOIR_EXPERIENCE",
+        "PRATIQUER_LANGAGES"
+      ],
+      "learning_objectives": [
+        "Relier la contraction musculaire à la commande nerveuse",
+        "Expliquer le rôle des muscles antagonistes et des articulations"
+      ],
+      "expected_skills": [
+        "Modéliser un mouvement articulaire",
+        "Interpréter un électromyogramme simple"
+      ],
+      "common_mistakes": [
+        "croire que les muscles poussent les os",
+        "confondre tendon et ligament"
+      ],
+      "difficulty": 3,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte.",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    },
+    {
+      "notion_id": "SVT.4E.CORPS.perturbations-du-systeme-nerveux-sommeil-substances-et-ecrans",
+      "subject": "SVT",
+      "level": "4E",
+      "cycle": "CYCLE_4",
+      "course": "COMMON",
+      "school_year": "2025-2026",
+      "official_program_version": "cycle 4 — version consolidée 2020 (à confirmer)",
+      "domain": "Le corps humain et la santé",
+      "domain_code": "CORPS",
+      "chapter": "Système nerveux et comportements",
+      "title": "Perturbations du système nerveux : sommeil, substances et écrans",
+      "official_wording": null,
+      "normalized_title": "perturbations du système nerveux : sommeil, substances et écrans",
+      "prerequisites": [
+        "SVT.4E.CORPS.systeme-nerveux-messages-nerveux-et-centres-nerveux"
+      ],
+      "child_notions": [],
+      "related_notions": [],
+      "competency_ids": [
+        "ADOPTER_COMPORTEMENT_RESPONSABLE",
+        "PRATIQUER_LANGAGES",
+        "COMMUNIQUER"
+      ],
+      "learning_objectives": [
+        "Identifier les effets de substances (alcool, drogues) et du manque de sommeil sur le système nerveux",
+        "Argumenter des comportements responsables"
+      ],
+      "expected_skills": [
+        "Analyser des données de temps de réaction",
+        "Distinguer information scientifique et opinion"
+      ],
+      "common_mistakes": [
+        "confondre corrélation et causalité dans des études sur les écrans",
+        "croire qu'une substance légale est sans danger"
+      ],
+      "difficulty": 2,
+      "source_type": "CANDIDATE_UNVERIFIED",
+      "source_id": "SRC-C4-2020",
+      "source_title": "Programmes du cycle 4 (version consolidée) — mathématiques, physique-chimie, SVT (référence à confirmer)",
+      "source_url_or_ref": "BO n°31 du 30 juillet 2020 (à confirmer)",
+      "source_page_or_section": null,
+      "source_sha256": null,
+      "proof_status": "UNPROVEN",
+      "review_status": "NOT_REVIEWED",
+      "publication_status": "DRAFT",
+      "provenance_note": "Candidat reconstitué de mémoire (connaissance générale des programmes), non vérifié contre la source officielle SRC-C4-2020. Aucun libellé officiel stocké. Répartition, découpage en domaines et intitulés reconstitués ; niveau de rattachement à vérifier contre la source officielle. Le programme du cycle 4 est un programme de cycle : la répartition par année (5e/4e/3e) est une progression indicative choisie par MikaMike, non imposée par le texte. Thème sensible : formulations prudentes sur les écrans (données scientifiques encore discutées).",
+      "legacy_ids": [],
+      "optional_in_program": false,
+      "cross_subject_links": []
+    }
+  ]
+}
