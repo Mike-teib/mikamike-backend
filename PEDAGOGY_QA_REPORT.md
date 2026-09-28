@@ -13,11 +13,11 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 | Notions | 404 |
 | Fichiers de notions | 24 |
 | Sources officielles déclarées | 7 |
-| Sources récupérées | 0 |
+| Sources récupérées | 1 |
 | Exercices | 0 |
 | Quiz | 0 |
 | Erreurs de chargement | 0 |
-| Issues | 809 (BLOCKER 0, ERROR 0, WARNING 0, INFO 809) |
+| Issues | 786 (BLOCKER 0, ERROR 0, WARNING 0, INFO 786) |
 
 ### Notions par statut de preuve
 
@@ -53,7 +53,7 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 
 | Sévérité | Issues |
 |---|---:|
-| INFO | 809 |
+| INFO | 786 |
 
 ### Par code
 
@@ -61,7 +61,7 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 |---|---:|
 | NOTIONS_UNPROVEN_SUMMARY | 1 |
 | NOTION_UNPROVEN | 404 |
-| SOURCE_NOT_RETRIEVED | 404 |
+| SOURCE_NOT_RETRIEVED | 381 |
 
 ### Par matière
 
@@ -69,7 +69,7 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 |---|---:|
 | - | 1 |
 | ENSEIGNEMENT_SCIENTIFIQUE | 56 |
-| MATHS | 300 |
+| MATHS | 277 |
 | PHYSIQUE_CHIMIE | 224 |
 | SCIENCES_TECHNOLOGIE | 50 |
 | SVT | 178 |
@@ -84,7 +84,7 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 | 3E | 96 |
 | 4E | 98 |
 | 5E | 104 |
-| 6E | 96 |
+| 6E | 73 |
 | TLE | 168 |
 
 ## Principales anomalies (BLOCKER / ERROR / WARNING, 60 premières)
@@ -93,7 +93,6 @@ Aucune anomalie BLOCKER, ERROR ou WARNING.
 
 ## Ce qui n'a PAS pu être vérifié
 
-- Aucune source officielle récupérée (toutes EXPECTED) : aucune provenance officielle n'a pu être vérifiée, ni la conformité des notions, niveaux et libellés aux programmes.
 - Aucune notion PROVEN_OFFICIAL : la banque d'exercices/quiz ne peut pas être alimentée (bank_ready=false).
 - Aucun exercice dans la banque : contrôles d'exercices non exercés.
 - Aucune question de quiz dans la banque : contrôles de quiz non exercés.

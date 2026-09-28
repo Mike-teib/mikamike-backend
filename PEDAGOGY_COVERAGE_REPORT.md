@@ -8,7 +8,7 @@
 - PROVEN_OFFICIAL : **0** · UNPROVEN : **404** · CONFLICT : **0** · DEPRECATED : **0** · PROVEN_INTERNAL : **0**
 - Exercices en banque : **0** (cible théorique : 0 = 0 notion(s) prouvée(s) × 18)
 - Questions de quiz : **0** (cible théorique : 0)
-- Sources officielles attendues : **7** dont récupérées : **0**
+- Sources officielles attendues : **7** dont récupérées : **1**
 
 Tant qu'aucune source officielle n'est récupérée, **toutes les notions sont UNPROVEN** et la banque d'exercices reste volontairement vide (règle : contenu uniquement sur notion PROVEN_OFFICIAL).
 
@@ -37,6 +37,6 @@ Tant qu'aucune source officielle n'est récupérée, **toutes les notions sont U
 | `SRC-1RE-MATHS-TC` | EXPECTED | non | MATHS | 1RE |
 | `SRC-2NDE-2019` | EXPECTED | non | MATHS, PHYSIQUE_CHIMIE, SVT | 2NDE |
 | `SRC-C3-2020` | EXPECTED | non | SCIENCES_TECHNOLOGIE | 6E |
-| `SRC-C3-MATHS-NOUVEAU` | EXPECTED | oui | MATHS | 6E |
+| `SRC-C3-MATHS-NOUVEAU` | RETRIEVED | non | MATHS | 6E |
 | `SRC-C4-2020` | EXPECTED | non | MATHS, PHYSIQUE_CHIMIE, SVT | 5E, 4E, 3E |
 | `SRC-TLE-2019` | EXPECTED | non | MATHS, PHYSIQUE_CHIMIE, SVT, ENSEIGNEMENT_SCIENTIFIQUE | TLE |

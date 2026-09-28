@@ -4,7 +4,7 @@
     "by_code": {
       "NOTIONS_UNPROVEN_SUMMARY": 1,
       "NOTION_UNPROVEN": 404,
-      "SOURCE_NOT_RETRIEVED": 404
+      "SOURCE_NOT_RETRIEVED": 381
     },
     "by_level": {
       "-": 1,
@@ -13,16 +13,16 @@
       "3E": 96,
       "4E": 98,
       "5E": 104,
-      "6E": 96,
+      "6E": 73,
       "TLE": 168
     },
     "by_severity": {
-      "INFO": 809
+      "INFO": 786
     },
     "by_subject": {
       "-": 1,
       "ENSEIGNEMENT_SCIENTIFIQUE": 56,
-      "MATHS": 300,
+      "MATHS": 277,
       "PHYSIQUE_CHIMIE": 224,
       "SCIENCES_TECHNOLOGIE": 50,
       "SVT": 178
@@ -4243,190 +4243,6 @@
     },
     {
       "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.AP.programmation-de-deplacements",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.EG.cercle",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.EG.droites-paralleles-et-perpendiculaires",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.EG.solides-usuels-et-patrons",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.EG.symetrie-axiale",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.EG.triangles-et-quadrilateres-particuliers",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.GM.aires",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.GM.angles",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.GM.conversions-d-unites",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.GM.longueur-du-cercle",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.GM.perimetres",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.GM.volume-du-pave-droit",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.calcul-mental-et-ordre-de-grandeur",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.division-euclidienne",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.fractions",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.multiples-et-diviseurs",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.nombres-decimaux",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.nombres-entiers",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.operations-sur-les-nombres-decimaux",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.pourcentages",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.proportionnalite",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.NC.reperage-sur-une-demi-droite-graduee",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
-      "detail": "SRC-C3-MATHS-NOUVEAU",
-      "level": "6E",
-      "object_id": "MATHS.6E.OGD.tableaux-et-diagrammes",
-      "severity": "INFO",
-      "subject": "MATHS"
-    },
-    {
-      "code": "SOURCE_NOT_RETRIEVED",
       "detail": "SRC-TLE-2019",
       "level": "TLE",
       "object_id": "MATHS.TLE.ALG.combinatoire-et-denombrement",
@@ -6507,7 +6323,6 @@
     }
   ],
   "not_checked": [
-    "Aucune source officielle récupérée (toutes EXPECTED) : aucune provenance officielle n'a pu être vérifiée, ni la conformité des notions, niveaux et libellés aux programmes.",
     "Aucune notion PROVEN_OFFICIAL : la banque d'exercices/quiz ne peut pas être alimentée (bank_ready=false).",
     "Aucun exercice dans la banque : contrôles d'exercices non exercés.",
     "Aucune question de quiz dans la banque : contrôles de quiz non exercés.",
@@ -6518,8 +6333,8 @@
     "blockers": 0,
     "errors": 0,
     "exercises": 0,
-    "infos": 809,
-    "issues": 809,
+    "infos": 786,
+    "issues": 786,
     "load_errors": 0,
     "notion_files": 24,
     "notions": {
@@ -6550,9 +6365,12 @@
     "quizzes": 0,
     "sources": {
       "by_retrieval": {
-        "EXPECTED": 7
+        "EXPECTED": 6,
+        "RETRIEVED": 1
       },
-      "retrieved": [],
+      "retrieved": [
+        "SRC-C3-MATHS-NOUVEAU"
+      ],
       "total": 7
     },
     "warnings": 0
