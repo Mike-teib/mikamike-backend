@@ -3,6 +3,9 @@ import { strict as assert } from "node:assert";
 
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:375,height:812}});
+const browserErrors=[];
+page.on("pageerror",e=>browserErrors.push(String(e)));
+page.on("console",m=>{if(m.type()==="error")browserErrors.push(m.text());});
 await page.addInitScript(() => {
   window.__microPermissionRequested = false;
   Object.defineProperty(navigator, "mediaDevices", {
@@ -30,6 +33,17 @@ const micCheck=page.getByRole("button",{name:/Vérifier le micro|Micro prêt/});
 await micCheck.click();
 await page.waitForFunction(()=>window.__microPermissionRequested===true);
 await page.waitForFunction(()=>document.querySelector("#micCheckButton")?.textContent.includes("Micro prêt"));
+try{
+  await page.waitForFunction(()=>{const b=document.querySelector("#installButton");return !!b && !b.hidden;},{timeout:5000});
+}catch(e){
+  console.error("PWA install button did not initialize",await page.evaluate(()=>({
+    hidden:document.querySelector("#installButton")?.hidden,
+    native:window.MIKAMIKE_NATIVE,
+    standalone:matchMedia("(display-mode: standalone)").matches,
+    errors:[...document.querySelectorAll(".form-error")].map(x=>x.textContent)
+  })),browserErrors);
+  throw e;
+}
 assert.equal(await page.locator("#installButton").isVisible(),true);
 await page.locator("#installButton").click();
 assert.equal(await page.locator("#installDialog").getAttribute("open")!==null,true);
