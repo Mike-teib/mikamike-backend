@@ -10,16 +10,28 @@ Il **ne touche pas** à `parent.html`, `parent.js`, `parent.css`, `.well-known/`
 
 ## Précheck obligatoire
 
-Le VPS doit être relu avant écriture. Relever d’abord le SHA réel de `index.html` :
+L'utilisateur SSH `ubuntu` n'a pas la lecture directe de tous les fichiers du frontend. Le précheck doit donc utiliser `sudo -n` :
 
 ```bash
-sha256sum /home/mike/mikamike/app/frontend/index.html
-find /home/mike/mikamike/app/frontend -maxdepth 2 -type f -printf '%P\n' | sort
+sudo -n sha256sum /home/mike/mikamike/app/frontend/index.html
+sudo -n find /home/mike/mikamike/app/frontend -maxdepth 2 -type f -printf '%P\n' | sort
 ```
 
-Le script refuse d’écrire si le SHA a changé entre le précheck et l’activation.
+Le script refuse d'écrire si le SHA a changé entre le précheck et l'activation.
 
-## Exécution
+## Verrouillage de la release
+
+Le lanceur Windows résout d'abord le HEAD de la branche release, puis récupère **ce SHA exact** et checkout en mode détaché. Il ne déploie donc jamais un commit apparu après le précheck Git.
+
+Pour imposer un SHA attendu :
+
+```powershell
+.\ops\deploy_frontend_micro_pwa_windows.ps1 -ExpectedReleaseSha <SHA40>
+```
+
+Si la branche ne pointe plus vers ce SHA, le script s'arrête avant toute écriture.
+
+## Exécution serveur
 
 ```bash
 sudo bash ops/deploy_frontend_micro_pwa.sh \
@@ -29,14 +41,17 @@ sudo bash ops/deploy_frontend_micro_pwa.sh \
 
 Une sauvegarde est créée sous `/home/mike/mikamike/ops-backups/FRONTEND_MICRO_PWA_BEFORE_<UTC>/` avec SHA avant/après et `ROLLBACK.sh`.
 
-Les smoke tests vérifient la racine, `app.js`, `native-bridge.js`, le manifest, le service worker et la santé API. Un échec déclenche le rollback automatique.
+Les smoke tests serveur vérifient la racine, `app.js`, `native-bridge.js`, le manifest, le service worker et `/api/health` (avec fallback historique `/health`). Un échec déclenche le rollback automatique.
+
+Le lanceur Windows exécute ensuite sa propre seconde série de smoke tests. **Si cette validation Windows échoue après une activation serveur réussie, il exécute lui aussi immédiatement le `ROLLBACK.sh` de la sauvegarde.**
 
 ## Validation avant production
 
 - web contract PASS ;
-- Chromium 375 px PASS : micro + dictée + énoncé + PWA ;
-- Android `assembleDebug` PASS ;
-- iOS Xcode simulateur PASS ;
-- APK debug produit.
+- Chromium 375 px PASS : permission micro + dictée + énoncé + PWA ;
+- matrice téléphone / tablette / PC PASS ;
+- Android AAB release PASS ;
+- iOS archive release sans signature PASS ;
+- pack de déploiement Bash/PowerShell PASS.
 
-Ce runbook ne constitue pas une activation production : le précheck VPS réel reste obligatoire.
+Le précheck VPS réel reste obligatoire avant chaque activation.

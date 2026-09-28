@@ -11,7 +11,9 @@ on:
   pull_request:
     paths:
       - "ops/deploy_frontend_micro_pwa.sh"
+      - "ops/deploy_frontend_micro_pwa_windows.ps1"
       - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
+      - ".github/workflows/ui-deploy-pack.yml"
 
 jobs:
   validate:
@@ -32,4 +34,17 @@ jobs:
         shell: pwsh
         run: |
           [scriptblock]::Create((Get-Content -Raw "ops/deploy_frontend_micro_pwa_windows.ps1")) | Out-Null
-          Select-String -Path "ops/deploy_frontend_micro_pwa_windows.ps1" -SimpleMatch "79.137.79.200", "2222", "--expected-index-sha", "BatchMode=yes"
+          $script = Get-Content -Raw "ops/deploy_frontend_micro_pwa_windows.ps1"
+          [scriptblock]::Create($script) | Out-Null
+          foreach ($needle in @(
+            "79.137.79.200",
+            "2222",
+            "sudo -n sha256sum",
+            "git -C `$repoDir fetch --quiet --depth 1 origin `$releaseSha",
+            "git -C `$repoDir checkout --quiet --detach FETCH_HEAD",
+            "--expected-index-sha",
+            "sudo -n bash '`$backupPath/ROLLBACK.sh'",
+            "BatchMode=yes"
+          )) {
+            if (-not $script.Contains($needle)) { throw "Garde-fou PowerShell absent: $needle" }
+          }
