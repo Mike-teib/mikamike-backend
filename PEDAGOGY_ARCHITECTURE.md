@@ -11,9 +11,12 @@ PDF officiel local ──sha256──► OfficialSource (RETRIEVED/VERIFIED)
         │ pypdf, page par page, normalisation typographique
         ▼
 Notion candidate (UNPROVEN) ──promote_notion(page, extrait exact)──► PROVEN_OFFICIAL
-        │                                                              │
-        │  interdit                                                    ▼
-        ╳──────────► exercices / quiz                       banque (exercices, quiz)
+        │                                                              │ revue humaine
+        │  interdit                                                     ▼
+        ╳──────────► exercices / quiz                         review_status=APPROVED
+                                                                        │
+                                                                        ▼
+                                                             banque (exercices, quiz)
                                                                        │ validateurs + QA
                                                                        ▼
                                                            API lecture seule / tuteur
@@ -22,8 +25,7 @@ Notion candidate (UNPROVEN) ──promote_notion(page, extrait exact)──► P
 - Une notion n'est `PROVEN_OFFICIAL` que si son `official_wording` figure **mot pour mot**
   sur la page déclarée d'un PDF officiel local dont l'empreinte SHA-256 est vérifiée.
   La promotion est explicite (`promote_notion`), jamais automatique.
-- `UNPROVEN` et `CONFLICT` n'entrent **jamais** dans le pipeline d'exercices (invariant du
-  modèle `Notion.eligible_for_content`, QA `NOTION_NOT_PROVEN` BLOCKER, filtres de l'API).
+- `UNPROVEN`, `CONFLICT` et les notions `PROVEN_OFFICIAL` non encore approuvées humainement n'entrent **jamais** dans le pipeline d'exercices (invariant `Notion.eligible_for_content`, validateurs `NOTION_NOT_PROVEN` / `NOTION_NOT_APPROVED` BLOCKER, filtres de l'API).
 - Les anciens contenus MikaMike sont des **candidats** : correspondance tracée
   (`data/legacy/legacy_notions_map.json`), jamais réécrits.
 
@@ -67,8 +69,7 @@ progression MikaMike **indicative**, documentée dans les `UNCERTAINTIES.md`.
 2. `python -m pedagogy.sources_cli register SRC-… chemin.pdf [--reference-verified]`
    (calcule le SHA-256, passe la source en RETRIEVED/VERIFIED).
 3. `python -m pedagogy.sources_cli propose` : liste les pages candidates pour chaque notion.
-4. Relecture humaine, puis `promote_notion(notion, texte_source, page, extrait_exact)` —
-   l'extrait est recopié depuis le PDF, jamais depuis la mémoire.
+4. `promote_notion(notion, texte_source, page, extrait_exact)` établit la preuve documentaire ; l'extrait est recopié depuis le PDF, jamais depuis la mémoire. La notion reste non éligible au contenu tant qu'une relecture humaine n'a pas passé `review_status=APPROVED`.
 5. `python -m pedagogy.sources_cli verify` (échoue si une notion déclarée prouvée ne l'est pas).
 6. Pilote : rédiger 5/5/5/3 exercices + 10 quiz pour 3 notions/niveau/matière,
    `generation_origin` tracée, `qa_status` calculé par `python -m pedagogy.qa`.

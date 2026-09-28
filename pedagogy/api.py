@@ -11,9 +11,9 @@ api.py — API pédagogique en LECTURE SEULE (préparée, NON montée dans main.
 Règles :
   - aucune route d'écriture ;
   - exercices et quiz servis UNIQUEMENT s'ils sont rattachés à une notion
-    PROVEN_OFFICIAL, sans blocage QA, et jamais s'ils sont des fixtures de test ;
-  - les notions non prouvées ne sont listées que sur demande explicite
-    (include_unproven=true, usage interne) et portent toujours leur proof_status ;
+    PROVEN_OFFICIAL ET review_status=APPROVED, sans blocage QA, et jamais s'ils sont des fixtures de test ;
+  - les notions non prouvées ou non approuvées ne sont exposées que sur demande explicite
+    (include_unproven=true, usage interne) et portent toujours leurs statuts ;
   - pagination bornée.
 
 Montage (décision ultérieure, hors de ce chantier) :
@@ -47,9 +47,9 @@ def _page(items: List[Dict[str, Any]], limit: int, offset: int) -> Dict[str, Any
     return {"total": len(items), "limit": limit, "offset": offset, "items": items[offset:offset + limit]}
 
 
-def _proven(reg: Registry, notion_id: str) -> bool:
+def _content_eligible(reg: Registry, notion_id: str) -> bool:
     n = reg.notions.get(notion_id)
-    return bool(n and n.proof_status == ProofStatus.PROVEN_OFFICIAL)
+    return bool(n and n.eligible_for_content)
 
 
 def build_router(registry: Optional[Registry] = None) -> APIRouter:
@@ -83,15 +83,15 @@ def build_router(registry: Optional[Registry] = None) -> APIRouter:
                 continue
             if difficulty is not None and n.difficulty != difficulty:
                 continue
-            if not include_unproven and n.proof_status != ProofStatus.PROVEN_OFFICIAL:
+            if not include_unproven and not n.eligible_for_content:
                 continue
             out.append(n.model_dump(mode="json"))
         return _page(out, limit, offset)
 
     @router.get("/notions/{notion_id}")
-    def notion(notion_id: str) -> Dict[str, Any]:
+    def notion(notion_id: str, include_unproven: bool = False) -> Dict[str, Any]:
         n = reg.notions.get(notion_id)
-        if n is None:
+        if n is None or (not include_unproven and not n.eligible_for_content):
             raise HTTPException(status_code=404, detail="notion_inconnue")
         return n.model_dump(mode="json")
 
@@ -100,7 +100,7 @@ def build_router(registry: Optional[Registry] = None) -> APIRouter:
         for it in sorted(items, key=lambda x: getattr(x, "exercise_id", getattr(x, "quiz_id", ""))):
             if it.generation_origin == GenerationOrigin.FIXTURE_TEST or it.qa_status not in _SERVABLE_QA:
                 continue
-            if not _proven(reg, it.notion_id):
+            if not _content_eligible(reg, it.notion_id):
                 continue
             if subject and it.subject != subject or level and it.level != level:
                 continue

@@ -17,6 +17,7 @@ from pedagogy.models import (
     Notion,
     ProofStatus,
     QAStatus,
+    ReviewStatus,
     QuizItem,
     SourceType,
     Subject,
@@ -26,10 +27,11 @@ from pedagogy.models import (
 from pedagogy.registry import Registry
 
 
-def _notion(title, proven):
+def _notion(title, proven, approved=True):
     extra = dict(source_type=SourceType.OFFICIAL_BO, source_id="SRC-FICTIF", source_page_or_section="2",
                  official_wording=f"[FICTIF] {title}", source_sha256="a" * 64,
-                 proof_status=ProofStatus.PROVEN_OFFICIAL) if proven else {}
+                 proof_status=ProofStatus.PROVEN_OFFICIAL,
+                 review_status=ReviewStatus.APPROVED if approved else ReviewStatus.NOT_REVIEWED) if proven else {}
     base = dict(notion_id=make_notion_id(Subject.MATHS, Level.QUATRIEME, "NC", title), subject=Subject.MATHS,
                 level=Level.QUATRIEME, cycle=Cycle.CYCLE_4, school_year="2025-2026",
                 official_program_version="[FICTIF]", domain="Nombres et calculs", domain_code="NC",
@@ -50,11 +52,14 @@ def _ex(ex_id, notion, origin=GenerationOrigin.MODEL_ASSISTED_DRAFT, qa=QAStatus
 
 @pytest.fixture()
 def client():
-    p, u = _notion("Puissances de 10", True), _notion("Calcul littéral", False)
-    reg = Registry(notions={p.notion_id: p, u.notion_id: u})
+    p = _notion("Puissances de 10", True, approved=True)
+    r = _notion("Notion prouvée non relue", True, approved=False)
+    u = _notion("Calcul littéral", False)
+    reg = Registry(notions={p.notion_id: p, r.notion_id: r, u.notion_id: u})
     reg.exercises = {e.exercise_id: e for e in [
         _ex("EX.ok.1", p),
-        _ex("EX.unproven.1", u),                                # notion non prouvée → jamais servi
+        _ex("EX.unproven.1", u),                                # notion non prouvée → jamais servie
+        _ex("EX.unapproved.1", r),                                # prouvée mais non approuvée → jamais servie
         _ex("EX.fixture.1", p, origin=GenerationOrigin.FIXTURE_TEST),  # fixture → jamais servie
         _ex("EX.notqa.1", p, qa=QAStatus.NOT_CHECKED),           # QA non passée → jamais servi
     ]}
@@ -66,34 +71,39 @@ def client():
         qa_status=QAStatus.AUTO_PASSED)}
     app = FastAPI()
     app.include_router(build_router(reg))
-    return TestClient(app), p, u
+    return TestClient(app), p, r, u
 
 
 def test_subjects_levels(client):
-    c, _, _ = client
+    c, _, _, _ = client
     subs = {s["subject"]: s["levels"] for s in c.get("/pedagogy/subjects").json()["items"]}
     assert "6E" not in subs["PHYSIQUE_CHIMIE"] and subs["SCIENCES_TECHNOLOGIE"] == ["6E"]
     assert c.get("/pedagogy/levels").json()["items"] == ["6E", "5E", "4E", "3E", "2NDE", "1RE", "TLE"]
 
 
 def test_notions_prouvees_par_defaut(client):
-    c, p, u = client
+    c, p, r, u = client
     ids = [n["notion_id"] for n in c.get("/pedagogy/notions").json()["items"]]
     assert ids == [p.notion_id]
     tous = c.get("/pedagogy/notions", params={"include_unproven": True}).json()
-    assert tous["total"] == 2 and {n["proof_status"] for n in tous["items"]} == {"PROVEN_OFFICIAL", "UNPROVEN"}
+    assert tous["total"] == 3
+    assert {n["proof_status"] for n in tous["items"]} == {"PROVEN_OFFICIAL", "UNPROVEN"}
+    assert any(n["notion_id"] == r.notion_id and n["review_status"] == "NOT_REVIEWED" for n in tous["items"])
 
 
 def test_filtres_et_detail(client):
-    c, p, _ = client
+    c, p, r, u = client
     assert c.get("/pedagogy/notions", params={"subject": "SVT"}).json()["total"] == 0
     assert c.get("/pedagogy/notions", params={"level": "4E", "difficulty": 2}).json()["total"] == 1
     assert c.get(f"/pedagogy/notions/{p.notion_id}").json()["title"] == "Puissances de 10"
+    assert c.get(f"/pedagogy/notions/{r.notion_id}").status_code == 404
+    assert c.get(f"/pedagogy/notions/{u.notion_id}").status_code == 404
+    assert c.get(f"/pedagogy/notions/{r.notion_id}", params={"include_unproven": True}).status_code == 200
     assert c.get("/pedagogy/notions/INCONNU").status_code == 404
 
 
 def test_exercices_seulement_prouves_qa_et_non_fixture(client):
-    c, p, _ = client
+    c, p, _, _ = client
     r = c.get("/pedagogy/exercises").json()
     assert [e["exercise_id"] for e in r["items"]] == ["EX.ok.1"]
     assert c.get("/pedagogy/exercises", params={"difficulty": "ADVANCED"}).json()["total"] == 0
@@ -102,11 +112,11 @@ def test_exercices_seulement_prouves_qa_et_non_fixture(client):
 
 @pytest.mark.parametrize("params", [{"limit": 0}, {"limit": 1000}, {"offset": -1}, {"level": "7E"}, {"subject": "HISTOIRE"}])
 def test_entrees_bornees(client, params):
-    c, _, _ = client
+    c, _, _, _ = client
     assert c.get("/pedagogy/notions", params=params).status_code == 422
 
 
 def test_aucune_route_d_ecriture(client):
-    c, _, _ = client
+    c, _, _, _ = client
     assert c.post("/pedagogy/notions", json={}).status_code == 405
     assert c.delete("/pedagogy/exercises").status_code == 405
