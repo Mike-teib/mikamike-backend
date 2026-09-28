@@ -504,7 +504,7 @@
   $$(".nav-card").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.panel)));
   $$("[data-go]").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.go)));
 
-  $(".subject-card[data-api-subject]").forEach((button) => {
+  $$(".subject-card[data-api-subject]").forEach((button) => {
     button.addEventListener("click", async () => {
       const subjectLabel = button.dataset.subject;
       state.selectedSubject = button.dataset.apiSubject;
