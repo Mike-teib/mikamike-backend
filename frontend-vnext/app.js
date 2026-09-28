@@ -211,9 +211,11 @@
       });
       renderTutor(session);
       setComposerEnabled(true, voiceCapabilityText());
+      return true;
     } catch (error) {
       appendMessage("mika", `Je n’arrive pas à ouvrir le prochain exercice : ${error.message}`);
       setComposerEnabled(false, "Le micro sera disponible quand l’exercice pourra démarrer.");
+      return false;
     }
   }
 
@@ -532,12 +534,12 @@
       state.selectedSubject = subjectApiValue(subject);
       sessionStorage.setItem("mikamike_selected_subject", state.selectedSubject);
       catalogNotice.textContent = `${subject} : recherche du prochain exercice validé…`;
-      try {
-        await prepareTutor();
+      const ready = await prepareTutor();
+      if (ready) {
         catalogNotice.textContent = `${subject} sélectionné. Le prochain exercice validé est prêt dans Mika.`;
         switchPanel("mika");
-      } catch {
-        // prepareTutor affiche déjà le diagnostic dans Mika.
+      } else {
+        catalogNotice.textContent = `${subject} : aucun exercice validé n’est disponible pour ${state.level} pour le moment.`;
       }
     });
   });
