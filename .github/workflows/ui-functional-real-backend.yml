@@ -38,6 +38,8 @@ jobs:
           npm install --no-save playwright
           npx playwright install --with-deps chromium
       - name: Démarrer backend et frontend jetables
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
           python frontend-vnext/tests/real_backend_e2e_server.py >/tmp/mikamike-e2e-backend.log 2>&1 &
           python3 -m http.server 4173 --directory frontend-vnext >/tmp/mikamike-e2e-front.log 2>&1 &
