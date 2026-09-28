@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import katex from 'katex';
 import { CheckCircle, AlertTriangle, HelpCircle, ArrowRight, ArrowLeft } from 'lucide-react';
 
-const MOCK_EXERCISES = {
+export const MOCK_EXERCISES = {
   'P1A1-006': {
     id: 'P1A1-006',
     chapter: 'P1A1 — Second degré',
@@ -179,7 +179,7 @@ export default function ExerciseViewer({ selectedExerciseId, onExerciseChange })
       </div>
 
       {/* Statement Box */}
-      <div style={{ background: '#0f172a', padding: '1rem', borderRadius: '8px', border: '1px solid #334155' }}>
+      <div className="exercise-sticky-context" style={{ background: '#0f172a', padding: '1rem', borderRadius: '8px', border: '1px solid #334155' }}>
         <h3 style={{ fontSize: '0.95rem', fontWeight: '600', marginBottom: '0.5rem', color: '#f8fafc' }}>{ex.title}</h3>
         <p style={{ fontSize: '0.9rem', color: '#cbd5e1', lineHeight: '1.5' }}>
           {renderKaTeX(ex.statement)}

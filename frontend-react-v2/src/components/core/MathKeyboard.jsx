@@ -1,5 +1,5 @@
-import React from 'react';
-import { Delete, CornerDownLeft } from 'lucide-react';
+import React, { useState } from 'react';
+import { ChevronDown, ChevronUp, X } from 'lucide-react';
 
 const KEYBOARD_SYMBOLS = [
   { label: 'x²', latex: 'x^2' },
@@ -15,27 +15,43 @@ const KEYBOARD_SYMBOLS = [
   { label: '≠', latex: '\\ne' },
   { label: '±', latex: '\\pm' },
   { label: '∞', latex: '\\infty' },
-  { label: 'f\'(x)', latex: 'f\'(x)' },
+  { label: "f'(x)", latex: "f'(x)" },
   { label: '∑', latex: '\\sum' }
 ];
 
 export default function MathKeyboard({ onInsert, onClose }) {
+  const [expanded, setExpanded] = useState(false);
+  const visibleSymbols = expanded ? KEYBOARD_SYMBOLS : KEYBOARD_SYMBOLS.slice(0, 8);
+
   return (
-    <div className="glass-card" style={{ padding: '0.75rem', background: '#0f172a', border: '1px solid #3b82f6', borderRadius: '10px' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
-        <span style={{ fontSize: '0.8rem', fontWeight: '700', color: '#60a5fa' }}>Clavier Mathématique Éléments Canoniques</span>
-        {onClose && (
-          <button onClick={onClose} className="btn btn-outline" style={{ padding: '2px 6px', fontSize: '0.7rem' }}>Fermer</button>
-        )}
+    <div className={`glass-card math-keyboard-dock ${expanded ? 'is-expanded' : 'is-compact'}`}>
+      <div className="math-keyboard-head">
+        <strong>Clavier maths</strong>
+        <div className="math-keyboard-actions">
+          <button
+            type="button"
+            onClick={() => setExpanded(value => !value)}
+            className="btn btn-outline"
+            aria-label={expanded ? 'Réduire le clavier mathématique' : 'Agrandir le clavier mathématique'}
+          >
+            {expanded ? <ChevronDown size={15} /> : <ChevronUp size={15} />}
+            {expanded ? 'Réduire' : 'Plus'}
+          </button>
+          {onClose && (
+            <button type="button" onClick={onClose} className="btn btn-outline" aria-label="Fermer le clavier mathématique">
+              <X size={15} />
+            </button>
+          )}
+        </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '0.35rem' }}>
-        {KEYBOARD_SYMBOLS.map((sym, i) => (
+      <div className="math-keyboard-grid" role="group" aria-label="Symboles mathématiques">
+        {visibleSymbols.map((sym) => (
           <button
-            key={i}
+            key={sym.label}
+            type="button"
             onClick={() => onInsert(sym.latex)}
-            className="btn btn-secondary"
-            style={{ padding: '0.4rem', fontSize: '0.85rem', fontFamily: 'monospace' }}
+            className="btn btn-secondary math-key"
             title={`Insérer ${sym.latex}`}
             aria-label={`Symbole mathématique ${sym.label}`}
           >
