@@ -167,3 +167,37 @@ def test_repository_example_fixtures_are_excluded_from_real_drafts(tmp_path):
     assert rep["exercises"] == 0 and rep["quizzes"] == 0
     assert plan["exercises"] == 0 and plan["quizzes"] == 0
     assert plan["queue"] == []
+
+
+def test_approve_missing_item_does_not_mutate_notion(tmp_path):
+    data = tmp_path / "data"
+    shutil.copytree(DATA_DIR / "notions" / "MATHS", data / "notions" / "MATHS")
+    (data / "drafts" / "exercises").mkdir(parents=True)
+    (data / "drafts" / "quizzes").mkdir(parents=True)
+    shutil.copy(EX, data / "drafts" / "exercises" / EX_NAME)
+    ex = json.loads(EX.read_text(encoding="utf-8"))["exercises"][0]
+    notion_file = data / "notions" / "MATHS" / "CE1.json"
+    before = notion_file.read_bytes()
+
+    with pytest.raises(ValueError, match="item_inconnu"):
+        approve("Mike", [ex["notion_id"]], ["EX.INEXISTANT"], data)
+
+    assert notion_file.read_bytes() == before
+    assert not (data / "bank").exists()
+
+
+def test_approve_item_requires_notion_approval_in_same_batch(tmp_path):
+    data = tmp_path / "data"
+    shutil.copytree(DATA_DIR / "notions" / "MATHS", data / "notions" / "MATHS")
+    (data / "drafts" / "exercises").mkdir(parents=True)
+    (data / "drafts" / "quizzes").mkdir(parents=True)
+    shutil.copy(EX, data / "drafts" / "exercises" / EX_NAME)
+    ex = json.loads(EX.read_text(encoding="utf-8"))["exercises"][0]
+    draft_file = data / "drafts" / "exercises" / EX_NAME
+    before = draft_file.read_bytes()
+
+    with pytest.raises(ValueError, match="item_sur_notion_non_approuvee"):
+        approve("Mike", [], [ex["exercise_id"]], data)
+
+    assert draft_file.read_bytes() == before
+    assert not (data / "bank").exists()
