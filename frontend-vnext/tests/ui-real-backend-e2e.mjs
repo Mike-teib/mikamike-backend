@@ -24,7 +24,7 @@ await page.locator("#studentLevel").selectOption("5e");
 await page.getByRole("button",{name:"Se connecter et commencer"}).click();
 
 await page.waitForFunction(()=>!document.querySelector("#dashboardView")?.hidden,{timeout:15000});
-await page.waitForFunction(()=>document.querySelector("#exerciseStatement")?.textContent.includes("x + 4 = 7"),{timeout:15000});
+await page.waitForFunction(()=>document.querySelector("#exerciseStatement")?.textContent.includes("8 + 3 × 2"),{timeout:15000});
 assert.match(await page.locator("#exerciseStatement").innerText(),/x \+ 4 = 7/);
 await page.locator('button[data-panel="mika"]').click();
 await page.waitForFunction(()=>document.querySelector("#chatMessages")?.textContent.includes("Résous") || document.querySelector("#chatMessages")?.textContent.includes("On commence") || document.querySelector("#chatMessages")?.textContent.length>20,{timeout:10000});
@@ -41,7 +41,7 @@ assert.equal(storage.student,null);
 assert.equal(storage.id,"Test26Mika");
 assert.equal(storage.level,"5e");
 
-await page.locator("#chatInput").fill("3");
+await page.locator("#chatInput").fill("14");
 await page.locator("#chatSubmit").click();
 await page.waitForTimeout(700);
 assert.match(await page.locator("#chatMessages").innerText(),/3/);
