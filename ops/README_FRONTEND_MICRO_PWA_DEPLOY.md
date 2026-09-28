@@ -45,6 +45,12 @@ Les smoke tests serveur vérifient la racine, `app.js`, `native-bridge.js`, le m
 
 Le lanceur Windows exécute ensuite sa propre seconde série de smoke tests. **Si cette validation Windows échoue après une activation serveur réussie, il exécute lui aussi immédiatement le `ROLLBACK.sh` de la sauvegarde.**
 
+### Particularité Windows PowerShell 5.1
+
+L'appel SSH de l'étape de déploiement capture stdout et stderr avec `2>&1`. Sous Windows PowerShell 5.1, un message natif envoyé sur stderr peut être converti en erreur PowerShell si `$ErrorActionPreference = "Stop"`, même lorsque `ssh` termine avec le code 0.
+
+Le lanceur passe donc temporairement `$ErrorActionPreference` à `Continue` autour de cet appel précis, restaure immédiatement la valeur précédente, puis décide du succès ou de l'échec **uniquement à partir de `$LASTEXITCODE`**. Les autres garde-fous restent sous `Stop`.
+
 ## Validation avant production
 
 - web contract PASS ;

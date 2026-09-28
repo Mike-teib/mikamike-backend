@@ -98,8 +98,19 @@ try {
 
   Write-Host "[7/8] Déploiement atomique avec sauvegarde et rollback serveur"
   $remoteCommand = "sed -i 's/\r$//' '$remoteStage/deploy_frontend_micro_pwa.sh' && sudo -n bash '$remoteStage/deploy_frontend_micro_pwa.sh' --source '$remoteStage/frontend-vnext' --expected-index-sha '$expectedSha'"
-  $deployOutput = @(& ssh @ssh $remoteCommand 2>&1)
-  $deployExit = $LASTEXITCODE
+  $savedErrorActionPreference = $ErrorActionPreference
+  try {
+    # Windows PowerShell 5.1 peut convertir un stderr natif redirigé (2>&1)
+    # en erreur PowerShell sous Stop, même si ssh termine avec code 0.
+    # On capture donc stdout+stderr sous Continue, puis on décide uniquement
+    # avec le vrai code de sortie du processus ssh.
+    $ErrorActionPreference = "Continue"
+    $deployOutput = @(& ssh @ssh $remoteCommand 2>&1)
+    $deployExit = $LASTEXITCODE
+  }
+  finally {
+    $ErrorActionPreference = $savedErrorActionPreference
+  }
   $deployOutput | ForEach-Object { Write-Host $_ }
   if ($deployExit -ne 0) {
     throw "Déploiement serveur échoué (code $deployExit). Le script serveur gère son rollback sur échec interne."
