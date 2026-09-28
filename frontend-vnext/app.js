@@ -1,13 +1,18 @@
 (() => {
   "use strict";
 
-  const API = window.MIKAMIKE_API_BASE || "/api/v1";
+  const API = window.MIKAMIKE_API_BASE || "";
+  const params = new URLSearchParams(location.search);
   const state = {
-    token: sessionStorage.getItem("mikamike_student_token") || "",
-    studentId: sessionStorage.getItem("mikamike_student_id") || "",
-    demo: new URLSearchParams(location.search).get("demo") === "1",
-    tutorat: null,
-    nextStep: null,
+    token: sessionStorage.getItem("mika_token") || "",
+    studentId: localStorage.getItem("mika_code") || "",
+    studentName: "",
+    level: "",
+    subjects: [],
+    selectedSubject: sessionStorage.getItem("mika_subject") || "maths",
+    history: [],
+    demo: params.get("demo") === "1",
+    openTarget: params.get("open") || "",
     listening: false,
     installPrompt: null,
     recognition: null,
@@ -114,11 +119,15 @@
   }
 
   async function loginStudent(code) {
-    if (state.demo) return { token: "demo-token", token_type: "Bearer", typ: "mika-eleve", expires_in: 7200 };
-    return api("/auth/eleve/jeton", {
+    if (state.demo) {
+      return { ok: true, eleve: "Alex", niveau: "college", matieres: ["maths", "physique"], upload: true, token: "demo-token" };
+    }
+    const result = await api("/api/login", {
       method: "POST",
-      body: JSON.stringify({ student_pseudo_id: code }),
+      body: JSON.stringify({ code }),
     });
+    if (!result?.ok) throw new Error("Code incorrect. Réessaie.");
+    return result;
   }
 
   function appendMessage(kind, text) {
@@ -150,56 +159,76 @@
     if (message) appendMessage("mika", message);
   }
 
-  async function prepareTutor() {
-    setComposerEnabled(false, "Mika prépare ton exercice…");
-    try {
-      const step = await api(`/parcours/prochaine-etape?student_id=${encodeURIComponent(state.studentId)}`);
-      state.nextStep = step;
-      const ctx = $("#exerciseContext");
-      if (ctx) ctx.hidden = false;
-      $("#exerciseTitle").textContent = step.exercice_id || "Exercice";
-      $("#exerciseStatement").textContent = step.consigne || "";
-      $("#chatMessages").innerHTML = "";
-      const session = await api("/mika/session/start", {
-        method: "POST",
-        body: JSON.stringify({
-          student_pseudo_id: state.studentId,
-          exercice_id: step.exercice_id,
-          requete_id: requestId("start"),
-        }),
-      });
-      renderTutor(session);
-      setComposerEnabled(true, voiceCapabilityText());
-    } catch (error) {
-      appendMessage("mika", `Je n’arrive pas à ouvrir le prochain exercice : ${error.message}`);
-      setComposerEnabled(false, "Le micro sera disponible quand l’exercice pourra démarrer.");
+  function subjectApiName(label) {
+    const map = {
+      "Mathématiques": "maths",
+      "Physique-chimie": "physique",
+      "SVT": "svt",
+      "Sciences": "sciences",
+    };
+    return map[label] || label?.toLowerCase() || "maths";
+  }
+
+  function applySubjectAccess() {
+    const allowed = state.subjects.length ? state.subjects : ["maths"];
+    $$(".subject-card").forEach((button) => {
+      const apiName = subjectApiName(button.dataset.subject);
+      const enabled = allowed.includes(apiName);
+      button.disabled = !enabled;
+      button.classList.toggle("subject-disabled", !enabled);
+      button.setAttribute("aria-disabled", String(!enabled));
+      if (!enabled) button.title = "Cette matière n’est pas activée pour ce compte.";
+      else button.removeAttribute("title");
+    });
+    if (!allowed.includes(state.selectedSubject)) state.selectedSubject = allowed[0] || "maths";
+    sessionStorage.setItem("mika_subject", state.selectedSubject);
+  }
+
+  function prepareLegacySession() {
+    state.history = [];
+    state.selectedSubject = state.subjects.includes(state.selectedSubject)
+      ? state.selectedSubject
+      : (state.subjects[0] || "maths");
+    applySubjectAccess();
+    const ctx = $("#exerciseContext");
+    if (ctx) ctx.hidden = true;
+    $("#chatMessages").innerHTML = "";
+    appendMessage("mika", `Salut ${state.studentName || "!"} 🐾 Explique-moi sur quoi tu bloques ou colle ton exercice. On avance ensemble, étape par étape.`);
+    setComposerEnabled(true, voiceCapabilityText());
+    if (catalogNotice) {
+      catalogNotice.hidden = false;
+      catalogNotice.textContent = `Matière active : ${state.selectedSubject}. Les autres matières disponibles dépendent de ton compte.`;
     }
   }
 
   function openDashboard() {
     loginView.hidden = true;
     dashboardView.hidden = false;
-    $("#studentName").textContent = state.demo ? "Alex 👋" : "👋";
+    $("#studentName").textContent = `${state.studentName || (state.demo ? "Alex" : "")} 👋`;
     $("#heroMessage").textContent = state.demo
       ? "Aujourd’hui : consolider les fractions, puis un mini-quiz."
-      : "On reprend là où tu t’es arrêté.";
+      : (state.level ? `Niveau ${state.level} — on reprend là où tu t’es arrêté.` : "On reprend là où tu t’es arrêté.");
     if (state.demo) hydrateDemo();
-    else prepareTutor();
+    else prepareLegacySession();
+    if (state.openTarget === "mika") switchPanel("mika");
   }
 
   function closeDashboard() {
     stopVoice();
     state.token = "";
     state.studentId = "";
-    state.tutorat = null;
-    state.nextStep = null;
-    sessionStorage.removeItem("mikamike_student_token");
-    sessionStorage.removeItem("mikamike_student_id");
+    state.studentName = "";
+    state.level = "";
+    state.subjects = [];
+    state.history = [];
+    sessionStorage.removeItem("mika_token");
+    sessionStorage.removeItem("mika_subject");
+    localStorage.removeItem("mika_code");
     dashboardView.hidden = true;
     loginView.hidden = false;
     studentCode.value = "";
     showError("");
-    setComposerEnabled(false, "Le micro sera disponible avec un exercice actif.");
+    setComposerEnabled(false, "Connecte-toi pour utiliser Mika et le micro.");
     studentCode.focus();
   }
 
@@ -423,6 +452,19 @@
     });
   }
 
+  async function completeLogin(code) {
+    const result = await loginStudent(code);
+    state.token = result.token || "";
+    state.studentId = code;
+    state.studentName = result.eleve || "";
+    state.level = result.niveau || "";
+    state.subjects = Array.isArray(result.matieres) && result.matieres.length ? result.matieres : ["maths"];
+    if (state.token) sessionStorage.setItem("mika_token", state.token);
+    else sessionStorage.removeItem("mika_token");
+    localStorage.setItem("mika_code", code);
+    openDashboard();
+  }
+
   loginForm?.addEventListener("submit", async (event) => {
     event.preventDefault();
     showError("");
@@ -432,12 +474,7 @@
     button.disabled = true;
     button.textContent = "Connexion…";
     try {
-      const result = await loginStudent(code);
-      state.token = result.token;
-      state.studentId = code;
-      sessionStorage.setItem("mikamike_student_token", state.token);
-      sessionStorage.setItem("mikamike_student_id", state.studentId);
-      openDashboard();
+      await completeLogin(code);
     } catch (error) {
       showError(error.message);
     } finally {
@@ -452,13 +489,19 @@
   $$(".nav-card").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.panel)));
   $$("[data-go]").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.go)));
 
-  $$(".subject-card").forEach((button) => {
+  $(".subject-card").forEach((button) => {
     button.addEventListener("click", () => {
+      if (button.disabled) return;
       const subject = button.dataset.subject;
+      const apiName = subjectApiName(subject);
+      if (!state.demo && !state.subjects.includes(apiName)) return;
+      state.selectedSubject = apiName;
+      sessionStorage.setItem("mika_subject", apiName);
       catalogNotice.hidden = false;
       catalogNotice.textContent = state.demo
-        ? `${subject} sélectionné. En démonstration, ouvre Mika pour voir le parcours fictif.`
-        : `${subject} sélectionné. Mika choisit la prochaine étape validée par le serveur.`;
+        ? `${subject} sélectionné. Mode démonstration.`
+        : `${subject} sélectionné. Mika utilisera cette matière pour la conversation.`;
+      if (!state.demo) switchPanel("mika");
     });
   });
 
@@ -475,28 +518,25 @@
       return;
     }
 
-    if (!state.tutorat) {
-      appendMessage("mika", "La séance n’est pas encore prête. Recharge le prochain exercice.");
-      return;
-    }
-
-    setComposerEnabled(false, "Mika analyse ta réponse…");
+    state.history.push({ role: "user", content: value });
+    setComposerEnabled(false, "Mika réfléchit…");
     try {
-      const endpoint = state.tutorat.etat?.attend_comprehension ? "comprehension" : "answer";
-      const result = await api(`/mika/session/${endpoint}`, {
+      const result = await api("/api/chat", {
         method: "POST",
         body: JSON.stringify({
-          student_pseudo_id: state.studentId,
-          tutorat_id: state.tutorat.tutorat_id,
-          version: state.tutorat.version,
-          requete_id: requestId(endpoint),
-          reponse: value,
+          messages: state.history,
+          code: state.studentId,
+          matiere: state.selectedSubject || "maths",
+          exercice_id: null,
         }),
       });
-      renderTutor(result);
-      setComposerEnabled(!result?.etat?.termine, result?.etat?.termine ? "Exercice terminé." : voiceCapabilityText());
+      const reply = result?.reply || "Je n’ai pas reçu de réponse exploitable. Réessaie.";
+      state.history.push({ role: "assistant", content: reply });
+      appendMessage("mika", reply);
+      if (result?.indice) appendMessage("mika", `💡 Indice : ${result.indice}`);
+      setComposerEnabled(true, voiceCapabilityText());
     } catch (error) {
-      appendMessage("mika", error.message);
+      appendMessage("mika", error.message || "Oups, petit souci technique. Réessaie dans un instant.");
       setComposerEnabled(true, voiceCapabilityText());
     }
   });
@@ -513,8 +553,18 @@
   if (state.demo) {
     state.token = "demo-token";
     state.studentId = "demo-eleve";
+    state.studentName = "Alex";
+    state.level = "démo";
+    state.subjects = ["maths", "physique"];
     openDashboard();
-  } else if (state.token && state.studentId) {
-    openDashboard();
+  } else if (state.studentId) {
+    completeLogin(state.studentId).catch(() => {
+      state.token = "";
+      state.studentId = "";
+      localStorage.removeItem("mika_code");
+      sessionStorage.removeItem("mika_token");
+      dashboardView.hidden = true;
+      loginView.hidden = false;
+    });
   }
 })();
