@@ -109,3 +109,17 @@ def exercice_pour_competence(competence: str) -> Optional[str]:
 
 def toutes_les_competences() -> List[str]:
     return list(_COMPETENCE_VERS_EXO.keys())
+
+
+def exercices_disponibles(*, niveau: Optional[str] = None, matiere: Optional[str] = None) -> List[str]:
+    """Retourne les exercices publiés du catalogue qui correspondent exactement au filtre demandé."""
+    niveau_norm = (niveau or "").strip().lower()
+    matiere_norm = (matiere or "").strip().lower()
+    result: List[str] = []
+    for exercice_id, meta in EXERCICES.items():
+        if niveau_norm and str(meta.get("niveau", "")).strip().lower() != niveau_norm:
+            continue
+        if matiere_norm and str(meta.get("matiere", "")).strip().lower() != matiere_norm:
+            continue
+        result.append(exercice_id)
+    return result
