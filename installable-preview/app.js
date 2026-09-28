@@ -2,10 +2,15 @@
   "use strict";
 
   const API = window.MIKAMIKE_API_BASE || "/api/v1";
+  const params = new URLSearchParams(location.search);
   const state = {
-    token: sessionStorage.getItem("mikamike_student_token") || "",
+    accountToken: sessionStorage.getItem("mikamike_account_token") || "",
+    token: "",
     studentId: sessionStorage.getItem("mikamike_student_id") || "",
-    demo: new URLSearchParams(location.search).get("demo") === "1",
+    level: sessionStorage.getItem("mikamike_student_level") || "5e",
+    selectedSubject: sessionStorage.getItem("mikamike_selected_subject") || "maths",
+    demo: params.get("demo") === "1",
+    openPanel: params.get("open") || "",
     tutorat: null,
     nextStep: null,
     listening: false,
@@ -21,7 +26,10 @@
   const loginView = $("#loginView");
   const dashboardView = $("#dashboardView");
   const loginForm = $("#studentLoginForm");
+  const accountEmail = $("#accountEmail");
+  const accountPassword = $("#accountPassword");
   const studentCode = $("#studentCode");
+  const studentLevel = $("#studentLevel");
   const loginError = $("#loginError");
   const logoutButton = $("#logoutButton");
   const networkStatus = $("#networkStatus");
@@ -54,14 +62,22 @@
   function friendlyError(status, detail) {
     const code = typeof detail === "string" ? detail : detail?.code;
     const map = {
-      jeton_requis: "Ton code élève est nécessaire.",
-      jeton_invalide: "Ce code élève n’est pas reconnu.",
+      token_absent: "Connecte d’abord ton compte MikaMike.",
+      token_invalide: "La connexion du compte n’est plus valide.",
+      identifiants_invalides: "E-mail ou mot de passe incorrect.",
+      jeton_requis: "La session élève est nécessaire.",
+      jeton_invalide: "La session élève n’est pas reconnue.",
+      acces_refuse: "Ce compte n’est pas lié à ce code élève.",
       jeton_expire: "Ta session a expiré. Reconnecte-toi.",
       jeton_revoque: "Cette session n’est plus active. Reconnecte-toi.",
       trop_de_tentatives: "Trop de tentatives. Attends un peu avant de réessayer.",
       auth_mal_configuree: "La connexion est momentanément indisponible.",
       auth_non_configuree: "La connexion est momentanément indisponible.",
       exercice_inconnu: "Cet exercice n’est plus disponible.",
+      contenu_indisponible: "Aucun exercice validé n’est encore disponible pour ce niveau et cette matière.",
+      programme_indisponible: "Le programme de ce niveau et de cette matière n’est pas encore publié.",
+      niveau_inconnu: "Ce niveau n’est pas reconnu.",
+      matiere_inconnue: "Cette matière n’est pas encore disponible.",
       contenu_retire: "Ce contenu a été retiré du parcours.",
       version_perimee: "Mika a reçu une réponse plus récente. Recharge la séance.",
     };
@@ -73,36 +89,41 @@
   }
 
   async function api(path, options = {}) {
-    const headers = new Headers(options.headers || {});
+    const { auth = "student", ...fetchOptions } = options;
+    const headers = new Headers(fetchOptions.headers || {});
     headers.set("Content-Type", "application/json");
-    if (state.token) headers.set("Authorization", `Bearer ${state.token}`);
+    const token = auth === "account" ? state.accountToken : auth === "student" ? state.token : "";
+    if (token) headers.set("Authorization", `Bearer ${token}`);
 
     if (window.MikaNativeHttp?.request) {
       const result = await window.MikaNativeHttp.request({
         path,
-        method: options.method || "GET",
+        method: fetchOptions.method || "GET",
         headers: Object.fromEntries(headers.entries()),
-        body: options.body || null,
+        body: fetchOptions.body || null,
       });
       if (result.status < 200 || result.status >= 300) {
         const error = new Error(friendlyError(result.status, result.data?.detail));
         error.status = result.status;
         error.payload = result.data;
+        error.path = path;
         throw error;
       }
       return result.data;
     }
 
-    const response = await fetch(`${API}${path}`, { ...options, headers });
+    const response = await fetch(`${API}${path}`, { ...fetchOptions, headers });
     let payload = null;
     if (response.status !== 204) {
       const text = await response.text();
-      payload = text ? JSON.parse(text) : null;
+      try { payload = text ? JSON.parse(text) : null; }
+      catch { payload = text ? { detail: text } : null; }
     }
     if (!response.ok) {
       const error = new Error(friendlyError(response.status, payload?.detail));
       error.status = response.status;
       error.payload = payload;
+      error.path = path;
       throw error;
     }
     return payload;
@@ -113,12 +134,32 @@
     return `${prefix}-${suffix}`.slice(0, 120);
   }
 
+  async function loginAccount(email, password) {
+    return api("/comptes/connexion", {
+      auth: "none",
+      method: "POST",
+      body: JSON.stringify({ email, mot_de_passe: password }),
+    });
+  }
+
   async function loginStudent(code) {
     if (state.demo) return { token: "demo-token", token_type: "Bearer", typ: "mika-eleve", expires_in: 7200 };
+    if (!state.accountToken) throw new Error("Connecte d’abord ton compte MikaMike.");
     return api("/auth/eleve/jeton", {
+      auth: "account",
       method: "POST",
       body: JSON.stringify({ student_pseudo_id: code }),
     });
+  }
+
+  function subjectApiValue(label) {
+    const map = {
+      "Mathématiques": "maths",
+      "Physique": "physique",
+      "Chimie": "chimie",
+      "SVT": "svt",
+    };
+    return map[label] || String(label || "").toLowerCase();
   }
 
   function appendMessage(kind, text) {
@@ -153,7 +194,7 @@
   async function prepareTutor() {
     setComposerEnabled(false, "Mika prépare ton exercice…");
     try {
-      const step = await api(`/parcours/prochaine-etape?student_id=${encodeURIComponent(state.studentId)}`);
+      const step = await api(`/parcours/prochaine-etape?student_id=${encodeURIComponent(state.studentId)}&level=${encodeURIComponent(state.level)}&subject=${encodeURIComponent(state.selectedSubject)}`);
       state.nextStep = step;
       const ctx = $("#exerciseContext");
       if (ctx) ctx.hidden = false;
@@ -170,9 +211,11 @@
       });
       renderTutor(session);
       setComposerEnabled(true, voiceCapabilityText());
+      return true;
     } catch (error) {
       appendMessage("mika", `Je n’arrive pas à ouvrir le prochain exercice : ${error.message}`);
       setComposerEnabled(false, "Le micro sera disponible quand l’exercice pourra démarrer.");
+      return false;
     }
   }
 
@@ -185,18 +228,25 @@
       : "On reprend là où tu t’es arrêté.";
     if (state.demo) hydrateDemo();
     else prepareTutor();
+    if (state.openPanel === "mika") switchPanel("mika");
   }
 
   function closeDashboard() {
     stopVoice();
+    state.accountToken = "";
     state.token = "";
     state.studentId = "";
+    state.level = "5e";
+    state.selectedSubject = "maths";
     state.tutorat = null;
     state.nextStep = null;
-    sessionStorage.removeItem("mikamike_student_token");
+    sessionStorage.removeItem("mikamike_account_token");
     sessionStorage.removeItem("mikamike_student_id");
+    sessionStorage.removeItem("mikamike_student_level");
+    sessionStorage.removeItem("mikamike_selected_subject");
     dashboardView.hidden = true;
     loginView.hidden = false;
+    if (accountPassword) accountPassword.value = "";
     studentCode.value = "";
     showError("");
     setComposerEnabled(false, "Le micro sera disponible avec un exercice actif.");
@@ -426,23 +476,43 @@
   loginForm?.addEventListener("submit", async (event) => {
     event.preventDefault();
     showError("");
+    const email = accountEmail?.value.trim() || "";
+    const password = accountPassword?.value || "";
     const code = studentCode.value.trim();
-    if (!code) return showError("Entre ton code élève.");
+    const level = studentLevel?.value || "5e";
+    if (!email) return showError("Entre l’e-mail du compte MikaMike.");
+    if (!password) return showError("Entre le mot de passe.");
+    if (!code) return showError("Entre le code élève.");
+
     const button = loginForm.querySelector("button[type=submit]");
     button.disabled = true;
-    button.textContent = "Connexion…";
+    button.textContent = "Connexion sécurisée…";
     try {
+      const account = await loginAccount(email, password);
+      state.accountToken = account.token;
+      sessionStorage.setItem("mikamike_account_token", state.accountToken);
+
       const result = await loginStudent(code);
       state.token = result.token;
       state.studentId = code;
-      sessionStorage.setItem("mikamike_student_token", state.token);
+      state.level = level;
+      state.selectedSubject = "maths";
       sessionStorage.setItem("mikamike_student_id", state.studentId);
+      sessionStorage.setItem("mikamike_student_level", state.level);
+      sessionStorage.setItem("mikamike_selected_subject", state.selectedSubject);
+
+      if (accountPassword) accountPassword.value = "";
       openDashboard();
     } catch (error) {
-      showError(error.message);
+      state.token = "";
+      if (error.status === 404 && ["/comptes/connexion", "/auth/eleve/jeton"].includes(error.path)) {
+        showError("Le serveur MikaMike n’est pas raccordé à la bonne version. La connexion a été arrêtée sans ouvrir de fausse session.");
+      } else {
+        showError(error.message);
+      }
     } finally {
       button.disabled = false;
-      button.textContent = "Commencer avec Mika";
+      button.textContent = "Se connecter et commencer";
     }
   });
 
@@ -453,12 +523,24 @@
   $$("[data-go]").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.go)));
 
   $$(".subject-card").forEach((button) => {
-    button.addEventListener("click", () => {
+    button.addEventListener("click", async () => {
       const subject = button.dataset.subject;
       catalogNotice.hidden = false;
-      catalogNotice.textContent = state.demo
-        ? `${subject} sélectionné. En démonstration, ouvre Mika pour voir le parcours fictif.`
-        : `${subject} sélectionné. Mika choisit la prochaine étape validée par le serveur.`;
+      if (state.demo) {
+        catalogNotice.textContent = `${subject} sélectionné. En démonstration, ouvre Mika pour voir le parcours fictif.`;
+        return;
+      }
+
+      state.selectedSubject = subjectApiValue(subject);
+      sessionStorage.setItem("mikamike_selected_subject", state.selectedSubject);
+      catalogNotice.textContent = `${subject} : recherche du prochain exercice validé…`;
+      const ready = await prepareTutor();
+      if (ready) {
+        catalogNotice.textContent = `${subject} sélectionné. Le prochain exercice validé est prêt dans Mika.`;
+        switchPanel("mika");
+      } else {
+        catalogNotice.textContent = `${subject} : aucun exercice validé n’est disponible pour ${state.level} pour le moment.`;
+      }
     });
   });
 
@@ -513,8 +595,21 @@
   if (state.demo) {
     state.token = "demo-token";
     state.studentId = "demo-eleve";
+    state.level = "5e";
+    state.selectedSubject = "maths";
     openDashboard();
-  } else if (state.token && state.studentId) {
-    openDashboard();
+  } else if (state.accountToken && state.studentId) {
+    if (studentLevel) studentLevel.value = state.level;
+    loginStudent(state.studentId)
+      .then((result) => {
+        state.token = result.token;
+        openDashboard();
+      })
+      .catch(() => {
+        state.accountToken = "";
+        state.token = "";
+        sessionStorage.removeItem("mikamike_account_token");
+        showError("Ta session de compte a expiré. Reconnecte-toi.");
+      });
   }
 })();

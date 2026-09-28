@@ -7,7 +7,7 @@
 *{box-sizing:border-box}
 html{color-scheme:light;scroll-behavior:smooth}
 body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--navy);background:linear-gradient(135deg,#F9FFFC 0%,#F2FAFF 58%,#FFF9F1 100%);min-height:100vh}
-button,input,textarea{font:inherit}
+button,input,textarea,select{font:inherit}
 button,a{-webkit-tap-highlight-color:transparent}
 button{cursor:pointer}
 a{color:inherit}
@@ -37,9 +37,9 @@ h1,h2,h3,p{margin-top:0}h1{font-size:clamp(42px,6vw,74px);line-height:1.02;lette
 .orbit-dot{position:absolute;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-weight:900;box-shadow:0 10px 22px rgba(23,50,77,.1)}
 .dot-a{left:14%;top:18%;background:var(--cream);color:var(--orange)}.dot-b{right:12%;top:8%;background:var(--sky);color:var(--blue)}.dot-c{right:20%;bottom:4%;background:var(--mint);color:var(--green)}
 form label{display:block;font-weight:850;margin-bottom:8px}
-input,textarea{width:100%;border:1.5px solid #BCD3CC;border-radius:14px;background:#fff;color:var(--navy);padding:15px 16px;outline:none;transition:border-color .2s,box-shadow .2s}
-input:focus,textarea:focus{border-color:var(--teal);box-shadow:0 0 0 4px rgba(15,155,142,.13)}
-.form-error{color:var(--danger);font-weight:700;margin:10px 0 0}
+input,textarea,select{width:100%;border:1.5px solid #BCD3CC;border-radius:14px;background:#fff;color:var(--navy);padding:15px 16px;outline:none;transition:border-color .2s,box-shadow .2s}
+input:focus,textarea:focus,select:focus{border-color:var(--teal);box-shadow:0 0 0 4px rgba(15,155,142,.13)}
+.login-fields{display:grid;gap:14px}.login-contract-note{margin-top:12px}.form-error{color:var(--danger);font-weight:700;margin:10px 0 0}
 .primary-button{border:0;border-radius:14px;background:linear-gradient(135deg,var(--teal),var(--green));color:#fff;padding:14px 20px;font-weight:900;box-shadow:0 9px 24px rgba(11,107,79,.18);transition:transform .2s,box-shadow .2s}
 .primary-button:hover{transform:translateY(-2px);box-shadow:0 13px 30px rgba(11,107,79,.22)}
 .full-button{width:100%;margin-top:14px}.privacy-note{font-size:13px;color:var(--muted);line-height:1.45;margin:14px 0 0}
@@ -81,7 +81,7 @@ input:focus,textarea:focus{border-color:var(--teal);box-shadow:0 0 0 4px rgba(15
 .app-footer{display:flex;justify-content:space-between;align-items:center;color:var(--muted);padding:36px 4px 0}.text-button{color:var(--navy)}
 .parent-page{padding:34px 0 76px}.parent-intro{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center;padding:46px 44px;background:linear-gradient(135deg,var(--mint),var(--sky),var(--cream));border:1px solid var(--line);border-radius:var(--radius-xl)}.parent-intro h1{font-size:clamp(42px,5vw,64px)}
 .parent-visual{height:280px;display:grid;place-items:center;position:relative;font-size:88px}.parent-cat{position:absolute;right:8%;bottom:8%;font-size:65px}
-.parent-status-card{display:flex;align-items:center;justify-content:space-between;gap:24px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px 28px;margin:22px 0 44px}.parent-status-card p{color:var(--muted);margin:6px 0 0;line-height:1.5}.status-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--teal);margin-right:8px}.badge-soon{background:var(--cream);color:#B85E00}
+.parent-status-card{display:flex;align-items:center;justify-content:space-between;gap:24px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px 28px;margin:22px 0 44px}.parent-login-card{align-items:flex-start}.parent-login-copy{max-width:460px}.parent-login-form{width:min(520px,100%);display:grid;gap:12px}.parent-account-fields{display:grid;gap:10px}.parent-status-card p{color:var(--muted);margin:6px 0 0;line-height:1.5}.status-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--teal);margin-right:8px}.badge-soon{background:var(--cream);color:#B85E00}
 .parent-grid{grid-template-columns:repeat(4,1fr)}.accent-green{border-top:5px solid var(--green)}.accent-blue{border-top:5px solid var(--blue)}.accent-orange{border-top:5px solid var(--orange)}.accent-teal{border-top:5px solid var(--teal)}
 .parent-actions{margin-top:30px}.button-link{text-decoration:none;white-space:nowrap}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes rise{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}
