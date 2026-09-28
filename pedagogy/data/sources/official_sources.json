@@ -47,8 +47,8 @@
       "retrieval": "EXPECTED",
       "local_path": "",
       "sha256": "",
-      "reference_verified": false,
-      "notes": "Existence, référence et calendrier confirmés sur le Bulletin officiel : application à la classe de 6e à la rentrée 2025-2026. Le PDF officiel n'est pas encore déposé dans pedagogy/sources_local/official, donc retrieval reste EXPECTED et aucune notion n'est PROVEN_OFFICIAL."
+      "reference_verified": true,
+      "notes": "Référence, NOR, arrêté et calendrier d'application vérifiés sur le Bulletin officiel n°16 du 17 avril 2025. Application à la 6e dès la rentrée 2025-2026. Le PDF officiel est accessible à l'URL déclarée mais n'est pas encore enregistré comme fichier local versionné avec SHA-256 : retrieval reste EXPECTED et aucune notion n'est PROVEN_OFFICIAL."
     },
     {
       "source_id": "SRC-C4-2020",
