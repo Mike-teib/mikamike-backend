@@ -1,0 +1,25 @@
+name: MikaMike responsive phone tablet PC
+
+on:
+  push:
+    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927"]
+    paths:
+      - "frontend-vnext/**"
+      - ".github/workflows/ui-installable-matrix.yml"
+  pull_request:
+    paths:
+      - "frontend-vnext/**"
+
+jobs:
+  browser-matrix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Recette téléphone tablette PC
+        run: |
+          python3 -m http.server 4173 --directory frontend-vnext >/tmp/mikamike-http.log 2>&1 &
+          node frontend-vnext/tests/ui-installable-matrix.mjs

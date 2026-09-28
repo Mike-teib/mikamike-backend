@@ -1,0 +1,53 @@
+name: MikaMike store build readiness
+
+on:
+  push:
+    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927"]
+    paths:
+      - "mobile-app/**"
+      - ".github/workflows/mobile-store-readiness.yml"
+  workflow_dispatch:
+
+jobs:
+  android-aab:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - uses: actions/setup-java@v4
+        with: {distribution: temurin, java-version: "21"}
+      - working-directory: mobile-app
+        run: npm install
+      - working-directory: mobile-app
+        run: npm run prepare && npx cap add android && npx cap sync android && npm run patch:native
+      - name: Vérifier Android 16 / API 36
+        working-directory: mobile-app
+        run: |
+          cat android/variables.gradle
+          grep -E 'compileSdkVersion[[:space:]]*=[[:space:]]*36' android/variables.gradle
+          grep -E 'targetSdkVersion[[:space:]]*=[[:space:]]*36' android/variables.gradle
+      - name: Construire AAB release non publié
+        working-directory: mobile-app/android
+        run: ./gradlew bundleRelease
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mikamike-android-release-aab-unsigned
+          path: mobile-app/android/app/build/outputs/bundle/release/app-release.aab
+
+  ios-archive:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - name: Vérifier Xcode
+        run: xcodebuild -version
+      - working-directory: mobile-app
+        run: npm install
+      - working-directory: mobile-app
+        run: npm run prepare && npx cap add ios && npx cap sync ios && npm run patch:native
+      - name: Archive release sans signature
+        working-directory: mobile-app
+        run: |
+          xcodebuild archive             -project ios/App/App.xcodeproj             -scheme App             -sdk iphoneos             -configuration Release             -archivePath "$RUNNER_TEMP/MikaMike.xcarchive"             CODE_SIGNING_ALLOWED=NO
