@@ -280,10 +280,16 @@ def render_expected(expected: ExpectedAnswer) -> str:
         except maths.MathInputRejected:
             return str(v)
     if kind == AnswerKind.QUANTITY:
-        if isinstance(v, (int, float)) and not isinstance(v, bool) and expected.significant_figures:
-            num = physics.format_significant(float(v), expected.significant_figures)
-            if expected.required_form == "notation_scientifique" and "×" not in num:
-                mant, _, exp = f"{float(v):.{expected.significant_figures - 1}e}".partition("e")
+        numeric = isinstance(v, (int, float)) and not isinstance(v, bool)
+        sci = expected.required_form == "notation_scientifique"
+        if numeric and (expected.significant_figures or sci):
+            n = expected.significant_figures
+            if not n:
+                digits = re.sub(r"\D", "", maths.value_to_text(v)).strip("0")
+                n = max(len(digits), 1)
+            num = physics.format_significant(float(v), n)
+            if sci and "×" not in num:
+                mant, _, exp = f"{float(v):.{n - 1}e}".partition("e")
                 num = f"{mant.replace('.', ',')} × 10^{int(exp)}"
             return f"{num} {expected.unit}".strip() if expected.unit else num
         try:

@@ -225,7 +225,7 @@ def _difference_is_zero(a: sympy.Expr, b: sympy.Expr) -> Optional[bool]:
     """True : égales ; False : différentes ; None : indécidable (jamais d'exception)."""
     try:
         return _difference_is_zero_raw(a, b)
-    except (OverflowError, RecursionError, MemoryError, ZeroDivisionError, TypeError, ValueError):
+    except Exception:  # noqa: BLE001 — toute erreur SymPy ⇒ indécidable, jamais VALID
         return None
 
 
@@ -365,6 +365,8 @@ def check_math_answer(expected: Any, answer: str, required_form: Optional[str] =
                 gap = _form_gap(val, required_form)
             except (MathInputRejected, UndefinedExpression) as exc:
                 return review(str(exc))
+            except Exception:  # noqa: BLE001
+                return review("forme_indecidable")
             if gap:
                 return invalid(gap)
     return valid("reponse_equivalente")
