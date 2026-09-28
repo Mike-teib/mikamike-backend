@@ -319,7 +319,7 @@ def units_implied_by_text(text: str, *, ignore_single_capitals: bool = False) ->
     out: List[Tuple[str, Unit]] = []
     for m in _EN_UNIT.finditer(latex_to_plain(text or "")):
         tok = m.group("u").rstrip(".,;:!?)")
-        if not tok or tok.lower() in _STOP_WORDS:
+        if not tok or tok in _STOP_WORDS:
             continue
         if ignore_single_capitals and re.fullmatch(r"[A-Z]", tok):
             continue
@@ -334,6 +334,8 @@ def units_implied_by_text(text: str, *, ignore_single_capitals: bool = False) ->
 # Bornes physiques plausibles
 # --------------------------------------------------------------------------- #
 SPEED_OF_LIGHT = 299_792_458.0
+# Borne scolaire : c est couramment arrondie à 3,0 × 10^8 m/s ; au-delà, c'est impossible.
+SPEED_LIMIT_SCHOOL = 3.0e8
 
 
 class PhysicalBound(NamedTuple):
@@ -347,7 +349,7 @@ class PhysicalBound(NamedTuple):
 
 
 PHYSICAL_BOUNDS: Tuple[PhysicalBound, ...] = (
-    PhysicalBound("vitesse_<=_c", dim(L=1, T=-1), None, SPEED_OF_LIGHT, use_abs=True),
+    PhysicalBound("vitesse_<=_c", dim(L=1, T=-1), None, SPEED_LIMIT_SCHOOL, use_abs=True),
     PhysicalBound("temperature_absolue_>=_0K", dim(K=1), 0.0, None),
     PhysicalBound("masse_>_0", dim(M=1), 0.0, None, min_strict=True),
     PhysicalBound("concentration_molaire_>=_0", dim(L=-3, N=1), 0.0, None),

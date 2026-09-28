@@ -233,6 +233,8 @@ def _difference_is_zero_raw(a: sympy.Expr, b: sympy.Expr) -> Optional[bool]:
     d = a - b
     if d == 0:
         return True
+    if d.is_Rational:  # différence exacte non nulle (ex. x vs x + 10^-15)
+        return False
     if not d.free_symbols:
         val = complex(sympy.N(d, 30))
         if math.isnan(val.real) or math.isnan(val.imag):
