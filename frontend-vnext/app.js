@@ -489,7 +489,7 @@
   $$(".nav-card").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.panel)));
   $$("[data-go]").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.go)));
 
-  $(".subject-card").forEach((button) => {
+  $$(".subject-card").forEach((button) => {
     button.addEventListener("click", () => {
       if (button.disabled) return;
       const subject = button.dataset.subject;
