@@ -46,7 +46,11 @@ Pour chaque notion :
 
 ### Vague 1 — Mathématiques cycle 2 : CP, CE1, CE2
 
-Fichier : `pedagogy/data/drafts/PILOT_MATHS_CP_CE2.md`
+Fichiers :
+- `pedagogy/data/drafts/PILOT_MATHS_CP_CE2.md`
+- pré-relecture modèle : `PEDAGOGY_MODEL_REVIEW_WAVE1_MATHS_C2.md`
+
+La pré-relecture modèle ne remplace pas l'approbation humaine.
 
 Priorités humaines :
 
