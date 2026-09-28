@@ -130,4 +130,5 @@ fi
 
 echo "FRONTEND_MICRO_PWA_DEPLOY_OK"
 echo "backup=$BACKUP"
+echo "rollback=$BACKUP/ROLLBACK.sh"
 echo "index_sha_after=$(sha256sum "$DEST/index.html" | awk '{print $1}')"
