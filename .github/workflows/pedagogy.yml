@@ -34,3 +34,6 @@ jobs:
           diff -u PEDAGOGY_COVERAGE_MATRIX.csv "$RUNNER_TEMP/cov/PEDAGOGY_COVERAGE_MATRIX.csv"
           python prerequisite_graph_validator.py --graph-out "$RUNNER_TEMP/graph.json"
           diff -u prerequisite_graph.json "$RUNNER_TEMP/graph.json"
+          diff -u PEDAGOGY_COVERAGE_REPORT.md "$RUNNER_TEMP/cov/PEDAGOGY_COVERAGE_REPORT.md"
+          diff -u PEDAGOGY_QA_REPORT.json "$RUNNER_TEMP/qa/PEDAGOGY_QA_REPORT.json"
+          diff -u PEDAGOGY_QA_REPORT.md "$RUNNER_TEMP/qa/PEDAGOGY_QA_REPORT.md"
