@@ -5,7 +5,7 @@ import shutil
 
 import pytest
 
-from pedagogy.drafts import DRAFTS_DIR, _permute_quiz_for_bank, approve, check
+from pedagogy.drafts import DRAFTS_DIR, _permute_quiz_for_bank, approve, check, review_plan
 from pedagogy.registry import DATA_DIR, load_registry
 
 EX = DRAFTS_DIR / "exercises" / "_EXEMPLE_MATHS_CE1.json"
@@ -121,3 +121,33 @@ def test_quiz_permutation_is_deterministic_and_not_fixed_to_one_position():
         assert first["choices"][first["correct_answer"]] == "bonne"
         positions.add(first["correct_answer"])
     assert len(positions) >= 3
+
+
+def test_review_plan_is_read_only_and_counts_example(drafts):
+    before_ex = (drafts / "exercises" / EX.name).read_bytes()
+    before_qz = (drafts / "quizzes" / QZ.name).read_bytes()
+
+    rep = review_plan(load_registry(), drafts)
+
+    assert rep["notions"] == 1
+    assert rep["exercises"] == 1
+    assert rep["quizzes"] == 1
+    assert rep["items"] == 2
+    assert not rep["load_errors"]
+    row = rep["queue"][0]
+    assert row["exercises"] == 1 and row["quizzes"] == 1
+    assert row["proof_status"] == "PROVEN_OFFICIAL"
+    assert row["review_status"] == "NOT_REVIEWED"
+    assert row["ready_for_human_review"] is True
+
+    assert (drafts / "exercises" / EX.name).read_bytes() == before_ex
+    assert (drafts / "quizzes" / QZ.name).read_bytes() == before_qz
+
+
+def test_repository_review_plan_covers_all_current_drafts():
+    rep = review_plan()
+    assert rep["exercises"] >= 1815
+    assert rep["quizzes"] >= 961
+    assert rep["notions"] >= 108
+    assert rep["items"] == rep["exercises"] + rep["quizzes"]
+    assert not rep["load_errors"]
