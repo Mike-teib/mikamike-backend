@@ -49,9 +49,9 @@ jobs:
             "--expected-index-sha",
             "sudo -n bash '`$backupPath/ROLLBACK.sh'",
             "BatchMode=yes",
-            '`$savedErrorActionPreference = `$ErrorActionPreference',
-            '`$ErrorActionPreference = "Continue"',
-            '`$ErrorActionPreference = `$savedErrorActionPreference'
+            '$savedErrorActionPreference = $ErrorActionPreference',
+            '$ErrorActionPreference = "Continue"',
+            '$ErrorActionPreference = $savedErrorActionPreference'
           )) {
             if (-not $script.Contains($needle)) { throw "Garde-fou PowerShell absent: $needle" }
           }
