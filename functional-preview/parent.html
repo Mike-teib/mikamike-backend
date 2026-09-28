@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0F9B8E">
+  <title>Espace parent — MikaMike</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="./"><span class="brand-mark">🐱</span><span class="brand-copy"><strong>MikaMike</strong><small>Espace parent</small></span></a>
+      <a class="ghost-button" href="./">Espace élève</a>
+    </header>
+
+    <main id="main" class="parent-page">
+      <section class="parent-intro">
+        <div>
+          <span class="eyebrow">ESPACE PARENT</span>
+          <h1>Voir l’essentiel, sans surveiller chaque réponse.</h1>
+          <p class="lead">Connecte ton compte parent puis indique le code de l’élève déjà lié à ce compte. MikaMike affiche uniquement les indicateurs pédagogiques autorisés.</p>
+        </div>
+        <figure class="media-card parent-hero-illustration">
+          <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_14-6-1024x576.png" alt="Illustration MikaMike : accompagnement d’un élève et de sa famille" width="1024" height="576" loading="eager" decoding="async">
+        </figure>
+      </section>
+
+      <section class="parent-auth-grid" aria-label="Connexion et tableau de bord parent">
+        <article class="parent-login-card">
+          <span class="eyebrow">CONNEXION SÉCURISÉE</span>
+          <h2>Ouvrir le suivi</h2>
+          <form id="parentLoginForm" novalidate>
+            <label for="parentEmail">Adresse e-mail du compte parent</label>
+            <input id="parentEmail" type="email" autocomplete="username" required>
+            <label for="parentPassword">Mot de passe</label>
+            <input id="parentPassword" type="password" autocomplete="current-password" required>
+            <label for="parentStudentCode">Code élève lié</label>
+            <input id="parentStudentCode" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. Test26Mika" required>
+            <p id="parentError" class="form-error" role="alert" hidden></p>
+            <p id="parentStatus" class="form-help" aria-live="polite">Le compte parent doit déjà être lié à cet élève.</p>
+            <button class="primary-button full-button" type="submit">Afficher les progrès</button>
+          </form>
+        </article>
+
+        <article id="parentDashboard" class="parent-dashboard-card" hidden>
+          <span class="eyebrow">TABLEAU DE BORD</span>
+          <h2 id="parentStudentTitle">Progression</h2>
+          <div class="progress-grid">
+            <article class="metric-card accent-green"><span class="metric-icon">✅</span><strong id="parentSuccess">0 / 0</strong><p>Exercices réussis.</p></article>
+            <article class="metric-card accent-blue"><span class="metric-icon">📊</span><strong id="parentRate">0 %</strong><p>Taux de réussite.</p></article>
+            <article class="metric-card accent-orange"><span class="metric-icon">🪜</span><strong id="parentLevel">—</strong><p>Niveau actuel.</p></article>
+          </div>
+          <div>
+            <h3>Compétences suivies</h3>
+            <div id="parentCompetences" class="parent-competences"></div>
+          </div>
+          <button id="parentLogout" class="text-button" type="button">Se déconnecter</button>
+        </article>
+      </section>
+
+      <section class="parent-status-card">
+        <div>
+          <span class="status-dot"></span>
+          <strong>Accès respectueux de la vie privée</strong>
+          <p>Le tableau de bord ne reçoit ni nom, ni prénom, ni e-mail de l’élève : uniquement son identifiant pseudonyme et ses indicateurs pédagogiques agrégés.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="./parent.js" defer></script>
+</body>
+</html>
