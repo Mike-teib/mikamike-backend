@@ -1,0 +1,55 @@
+name: MikaMike production legacy contract smoke
+
+on:
+  push:
+    branches: ["fix/mikamike-prod-legacy-adapter-20260928"]
+    paths:
+      - ".github/workflows/prod-legacy-contract-smoke.yml"
+      - "frontend-vnext/**"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Health production
+        run: |
+          set -euo pipefail
+          curl -fsS --max-time 20 https://app.mikamike.fr/api/health -o /tmp/health.json
+          python3 - <<'PY'
+          import json
+          data=json.load(open("/tmp/health.json",encoding="utf-8"))
+          assert isinstance(data,dict)
+          print("PASS /api/health")
+          PY
+
+      - name: Login Test26Mika
+        run: |
+          set -euo pipefail
+          curl -fsS --max-time 20             -H 'Content-Type: application/json'             -d '{"code":"Test26Mika"}'             https://app.mikamike.fr/api/login             -o /tmp/login.json
+          python3 - <<'PY'
+          import json
+          data=json.load(open("/tmp/login.json",encoding="utf-8"))
+          assert data.get("ok") is True, data
+          assert data.get("eleve"), data
+          assert isinstance(data.get("matieres"),list), data
+          print("PASS /api/login Test26Mika")
+          print("niveau=",data.get("niveau"))
+          print("matieres=",",".join(data.get("matieres") or []))
+          print("upload=",bool(data.get("upload")))
+          PY
+
+      - name: Chat production minimal
+        run: |
+          set -euo pipefail
+          curl -fsS --max-time 45             -H 'Content-Type: application/json'             -d '{"code":"Test26Mika","matiere":"maths","messages":[{"role":"user","content":"Bonjour Mika, test technique de connexion."}],"exercice_id":null}'             https://app.mikamike.fr/api/chat             -o /tmp/chat.json
+          python3 - <<'PY'
+          import json
+          data=json.load(open("/tmp/chat.json",encoding="utf-8"))
+          reply=data.get("reply")
+          assert isinstance(reply,str) and reply.strip(), data
+          print("PASS /api/chat Test26Mika reply_non_empty")
+          PY
