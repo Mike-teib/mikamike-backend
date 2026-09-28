@@ -140,8 +140,7 @@ Généraux :
    variantes légitimes : accents, articles, pluriels, synonymes. Exemples : « crossing-over / enjambement »,
    « croisement test / test-cross », « désintégration », « quatrième proportionnelle / produit en croix »,
    « dérive génétique ». Une variante correcte absente sera comptée fausse.
-4. **Rotation des QCM.** Les choix sont permutés de façon déterministe. Il reste à vérifier que la lettre
-   citée dans la solution correspond bien au choix correct après rotation.
+4. **Rotation des QCM.** L'approbation permute désormais les choix de façon déterministe et remappe la clé de réponse ainsi que les diagnostics. La revue humaine doit seulement vérifier qu'aucun texte d'explication ne dépend explicitement d'une position (« A », « B », etc.).
 
 Sujets sensibles (traitement factuel, sans conseil médical) :
 
