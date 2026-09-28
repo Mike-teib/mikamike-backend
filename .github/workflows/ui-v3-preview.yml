@@ -1,0 +1,43 @@
+name: UI V3 Preview
+
+on:
+  push:
+    branches:
+      - "ui/mikamike-student-ux-v3-20260928"
+    paths:
+      - "frontend-react-v2/**"
+      - ".github/workflows/ui-v3-preview.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  preview:
+    name: build + preview GitHub Pages isolée
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend-react-v2/package-lock.json
+      - name: Installer
+        working-directory: frontend-react-v2
+        run: npm ci
+      - name: Tests
+        working-directory: frontend-react-v2
+        run: npm test
+      - name: Build
+        working-directory: frontend-react-v2
+        run: npm run build
+      - name: Publier la preview isolée
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./frontend-react-v2/dist
+          destination_dir: v3-preview
+          keep_files: true
+          commit_message: "preview(ui-v3): ${{ github.sha }}"
