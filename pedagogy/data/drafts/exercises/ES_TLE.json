@@ -1,0 +1,2204 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.d01",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans quel domaine de rayonnement la surface de la Terre émet-elle l'essentiel de son énergie ?\nA. L'infrarouge\nB. Le visible\nC. L'ultraviolet\nD. Les rayons X",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La surface terrestre, dont la température moyenne est d'environ 15 °C, émet un rayonnement thermique dans le domaine infrarouge. Bonne réponse : A. L'infrarouge",
+      "step_by_step_solution": [
+        "La surface émet un rayonnement qui dépend de sa température.",
+        "À environ 15 °C, ce rayonnement est invisible.",
+        "Il se situe dans l'infrarouge."
+      ],
+      "hints": [
+        "Ce rayonnement est invisible à l'œil, mais une caméra thermique le détecte."
+      ],
+      "common_errors": {
+        "B": "L'élève confond le rayonnement émis par la Terre avec le rayonnement reçu du Soleil, surtout visible."
+      },
+      "remediation": "Comparer les spectres d'émission du Soleil (surtout visible) et de la Terre (infrarouge).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [
+        "L'infrarouge",
+        "Le visible",
+        "L'ultraviolet",
+        "Les rayons X"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.d02",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le diazote (N2) et le dioxygène (O2), principaux constituants de l'air, sont des gaz à effet de serre importants. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Ce ne sont pas des GES importants : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. N2 et O2 n'absorbent pratiquement pas le rayonnement infrarouge terrestre ; les principaux GES sont la vapeur d'eau, le dioxyde de carbone, le méthane, le protoxyde d'azote et l'ozone.",
+      "step_by_step_solution": [
+        "Un GES absorbe le rayonnement infrarouge émis par la surface.",
+        "N2 et O2 n'absorbent pratiquement pas l'infrarouge.",
+        "Ce ne sont pas des GES importants : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Abondant ne veut pas dire absorbant dans l'infrarouge."
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense que les gaz les plus abondants de l'air sont forcément les plus actifs pour l'effet de serre."
+      },
+      "remediation": "Comparer les spectres d'absorption de N2, O2, H2O et CO2.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.d03",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la différence entre la puissance radiative reçue et la puissance radiative émise par le système Terre, due par exemple à l'augmentation des GES ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "forçage radiatif",
+          "le forçage radiatif",
+          "forcage radiatif",
+          "un forçage radiatif"
+        ]
+      },
+      "solution": "Le forçage radiatif mesure la perturbation du bilan radiatif ; un forçage positif conduit à un réchauffement.",
+      "step_by_step_solution": [
+        "À l'équilibre, puissances reçue et émise sont égales.",
+        "Une perturbation crée une différence entre les deux.",
+        "Cette différence est le forçage radiatif."
+      ],
+      "hints": [
+        "Le terme évoque une « force » qui pousse le système hors de son équilibre."
+      ],
+      "common_errors": {
+        "effet de serre": "L'effet de serre est un phénomène naturel ; le forçage désigne la perturbation du bilan radiatif."
+      },
+      "remediation": "Distinguer effet de serre naturel, renforcement de l'effet de serre et forçage radiatif.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.d04",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Parmi ces gaz, lequel est un gaz à effet de serre dont la concentration atmosphérique augmente du fait des activités humaines ?\nA. Le méthane (CH4)\nB. Le dioxygène (O2)\nC. Le diazote (N2)\nD. L'argon (Ar)",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le méthane (CH4), émis notamment par l'élevage, les rizières et l'exploitation des combustibles fossiles, est un GES dont la concentration augmente.",
+      "step_by_step_solution": [
+        "Un GES absorbe l'infrarouge.",
+        "Il faut un gaz dont la concentration augmente du fait des activités humaines.",
+        "C'est le méthane."
+      ],
+      "hints": [
+        "Ce gaz est le principal constituant du gaz naturel."
+      ],
+      "common_errors": {
+        "B": "L'élève pense que le dioxygène est un GES."
+      },
+      "remediation": "Lister les GES et leurs principales sources anthropiques.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [
+        "Le méthane (CH4)",
+        "Le dioxygène (O2)",
+        "Le diazote (N2)",
+        "L'argon (Ar)"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.d05",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? L'effet de serre est un phénomène naturel sans lequel la température moyenne de la surface terrestre serait bien plus basse. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Sans effet de serre, la surface serait bien plus froide : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Sans effet de serre naturel, la température moyenne de surface serait d'environ −18 °C au lieu d'environ +15 °C. Le problème actuel est le renforcement de cet effet.",
+      "step_by_step_solution": [
+        "L'atmosphère absorbe une partie de l'infrarouge émis par la surface.",
+        "Elle en réémet une partie vers la surface, qui est ainsi plus chaude.",
+        "Sans effet de serre, la surface serait bien plus froide : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Compare la température moyenne actuelle (environ 15 °C) à celle calculée sans atmosphère."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que l'effet de serre est entièrement dû aux activités humaines."
+      },
+      "remediation": "Distinguer effet de serre naturel et renforcement anthropique.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.a01",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : la concentration atmosphérique en CO2 était d'environ 280 ppm avant l'ère industrielle et d'environ 420 ppm dans les années 2020. De quel pourcentage a-t-elle augmenté ? Réponds en %.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 50,
+        "unit": "%"
+      },
+      "solution": "(420 − 280) / 280 = 140 / 280 = 0,5, soit une augmentation de 50 %.",
+      "step_by_step_solution": [
+        "Variation : 420 − 280 = 140 ppm.",
+        "Variation relative : 140 / 280 = 0,5.",
+        "Augmentation de 50 %."
+      ],
+      "hints": [
+        "Divise la variation par la valeur initiale."
+      ],
+      "common_errors": {
+        "33 %": "L'élève a divisé la variation par la valeur finale au lieu de la valeur initiale."
+      },
+      "remediation": "S'entraîner au calcul de variations relatives sur des séries de concentrations.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter des données de concentration et de bilan radiatif"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.a02",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre la chaîne de causes reliant les émissions de GES au réchauffement.\nÉléments (dans le désordre) : augmentation de la puissance rayonnée par l'atmosphère vers la surface / augmentation de la concentration des GES / absorption accrue de l'infrarouge émis par la surface / déséquilibre du bilan radiatif / hausse de la température moyenne de surface\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "augmentation de la concentration des GES",
+          "absorption accrue de l'infrarouge émis par la surface",
+          "augmentation de la puissance rayonnée par l'atmosphère vers la surface",
+          "déséquilibre du bilan radiatif",
+          "hausse de la température moyenne de surface"
+        ]
+      },
+      "solution": "Plus de GES : l'atmosphère absorbe davantage l'infrarouge terrestre et renvoie plus de puissance vers la surface ; l'équilibre radiatif est rompu et la surface se réchauffe. Ordre attendu : augmentation de la concentration des GES ; absorption accrue de l'infrarouge émis par la surface ; augmentation de la puissance rayonnée par l'atmosphère vers la surface ; déséquilibre du bilan radiatif ; hausse de la température moyenne de surface.",
+      "step_by_step_solution": [
+        "Concentration des GES en hausse.",
+        "Absorption accrue de l'infrarouge.",
+        "Puissance reçue de l'atmosphère en hausse.",
+        "Déséquilibre radiatif.",
+        "Réchauffement."
+      ],
+      "hints": [
+        "Chaque étape est la cause de la suivante."
+      ],
+      "common_errors": {
+        "augmentation de la concentration des GES ; augmentation de la puissance rayonnée par l'atmosphère vers la surface ; absorption accrue de l'infrarouge émis par la surface ; déséquilibre du bilan radiatif ; hausse de la température moyenne de surface": "L'élève inverse absorption et réémission vers la surface."
+      },
+      "remediation": "Schématiser les flux d'énergie avant et après l'augmentation des GES.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.a03",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : en moyenne, le système Terre reçoit du Soleil 240,5 W/m2 (après albédo) et émet 239,6 W/m2 vers l'espace. Quel est le déséquilibre énergétique ? Réponds en W/m2.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 0.9,
+        "unit": "W/m2",
+        "tolerance_relative": 0.02
+      },
+      "solution": "Déséquilibre = 240,5 − 239,6 = 0,9 W/m2 : le système Terre accumule de l'énergie.",
+      "step_by_step_solution": [
+        "Reçu : 240,5 W/m2.",
+        "Émis : 239,6 W/m2.",
+        "Déséquilibre : 0,9 W/m2."
+      ],
+      "hints": [
+        "Soustrais la puissance émise à la puissance reçue."
+      ],
+      "common_errors": {
+        "480,1 W/m2": "L'élève a additionné les deux puissances au lieu de les soustraire."
+      },
+      "remediation": "Interpréter le signe du déséquilibre : positif, la Terre accumule de l'énergie et se réchauffe.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Exploiter des données de concentration et de bilan radiatif"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.a04",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Où l'essentiel de l'énergie supplémentaire accumulée par le système climatique est-il stocké ?\nA. Dans la végétation\nB. Dans la haute atmosphère, puis vers l'espace\nC. Dans les océans\nD. Dans l'atmosphère",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "L'énergie supplémentaire est essentiellement stockée par les océans (environ 90 %), le reste par l'air, les sols et la fonte des glaces. Bonne réponse : C. Dans les océans",
+      "step_by_step_solution": [
+        "L'océan a une très grande capacité thermique.",
+        "Il absorbe la plus grande partie de l'énergie supplémentaire.",
+        "L'essentiel est stocké dans les océans."
+      ],
+      "hints": [
+        "Pense au réservoir qui a la plus grande masse et la plus grande capacité thermique."
+      ],
+      "common_errors": {
+        "D": "L'élève pense que l'atmosphère stocke l'essentiel de l'énergie parce qu'on y mesure la température."
+      },
+      "remediation": "Comparer les capacités thermiques de l'air et de l'eau des océans.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [
+        "Dans la végétation",
+        "Dans la haute atmosphère, puis vers l'espace",
+        "Dans les océans",
+        "Dans l'atmosphère"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.a05",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Depuis environ un siècle et demi, on mesure un réchauffement climatique global d'environ +1 °C. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les mesures montrent un réchauffement global d'environ 1 °C (un peu plus de 1,1 °C selon les évaluations récentes du GIEC) par rapport à la période préindustrielle.",
+      "step_by_step_solution": [
+        "On compare la température moyenne actuelle à celle de la fin du XIXe siècle.",
+        "L'écart est d'environ 1 °C.",
+        "L'affirmation est vraie."
+      ],
+      "hints": [
+        "Le programme donne un ordre de grandeur de ce réchauffement."
+      ],
+      "common_errors": {
+        "faux": "L'élève confond une variation de température moyenne globale avec les écarts météorologiques d'un jour à l'autre."
+      },
+      "remediation": "Distinguer météorologie (court terme) et climat (moyenne sur des décennies).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.c01",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque mécanisme au type de rétroaction qu'il exerce sur le réchauffement.\nÀ gauche : augmentation de la vapeur d'eau atmosphérique / fonte des glaces et baisse de l'albédo / absorption de CO2 par les organismes chlorophylliens (à court terme)\nÀ droite : rétroaction négative / rétroaction positive\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "augmentation de la vapeur d'eau atmosphérique": "rétroaction positive",
+          "fonte des glaces et baisse de l'albédo": "rétroaction positive",
+          "absorption de CO2 par les organismes chlorophylliens (à court terme)": "rétroaction négative"
+        }
+      },
+      "solution": "La vapeur d'eau (GES) et la baisse d'albédo amplifient le réchauffement ; le puits de CO2 des organismes chlorophylliens l'atténue à court terme. Associations : augmentation de la vapeur d'eau atmosphérique → rétroaction positive ; fonte des glaces et baisse de l'albédo → rétroaction positive ; absorption de CO2 par les organismes chlorophylliens (à court terme) → rétroaction négative.",
+      "step_by_step_solution": [
+        "Air plus chaud : plus de vapeur d'eau, qui est un GES.",
+        "Moins de glace : albédo plus faible, absorption accrue.",
+        "Photosynthèse : absorption de CO2, effet stabilisateur à court terme."
+      ],
+      "hints": [
+        "Une rétroaction positive amplifie la perturbation initiale."
+      ],
+      "common_errors": {
+        "augmentation de la vapeur d'eau atmosphérique → rétroaction positive ; fonte des glaces et baisse de l'albédo → rétroaction négative ; absorption de CO2 par les organismes chlorophylliens (à court terme) → rétroaction positive": "L'élève pense que la fonte des glaces refroidit le climat parce que la glace fondue est froide."
+      },
+      "remediation": "Représenter chaque rétroaction par une boucle fléchée avec des signes + et −.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.c02",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi la vapeur d'eau constitue-t-elle une rétroaction positive ?\nA. La vapeur d'eau n'absorbe pas l'infrarouge\nB. La vapeur d'eau augmente l'albédo des océans\nC. Le réchauffement augmente la teneur en vapeur d'eau, qui est un GES\nD. La vapeur d'eau refroidit toujours l'air",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Un air plus chaud peut contenir plus de vapeur d'eau ; or la vapeur d'eau est un GES : elle renforce l'effet de serre et donc le réchauffement. Bonne réponse : C. Le réchauffement augmente la teneur en vapeur d'eau, qui est un GES",
+      "step_by_step_solution": [
+        "Réchauffement : l'air contient plus de vapeur d'eau.",
+        "La vapeur d'eau absorbe l'infrarouge.",
+        "Elle amplifie le réchauffement initial."
+      ],
+      "hints": [
+        "La vapeur d'eau est-elle un gaz à effet de serre ?"
+      ],
+      "common_errors": {
+        "D": "L'élève pense que la vapeur d'eau refroidit le climat car elle forme de la pluie."
+      },
+      "remediation": "Relier température, teneur en vapeur d'eau et effet de serre.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [
+        "La vapeur d'eau n'absorbe pas l'infrarouge",
+        "La vapeur d'eau augmente l'albédo des océans",
+        "Le réchauffement augmente la teneur en vapeur d'eau, qui est un GES",
+        "La vapeur d'eau refroidit toujours l'air"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.c03",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Document : un modèle simplifié indique que la surface reçoit 340 W/m2 de l'atmosphère. Une hausse des GES augmente ce flux de 2 %. Quelle est la nouvelle puissance reçue de l'atmosphère ? Réponds en W/m2.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 346.8,
+        "unit": "W/m2",
+        "tolerance_relative": 0.005
+      },
+      "solution": "340 × 1,02 = 346,8 W/m2.",
+      "step_by_step_solution": [
+        "Augmenter de 2 %, c'est multiplier par 1,02.",
+        "340 × 1,02.",
+        "Nouvelle puissance : 346,8 W/m2."
+      ],
+      "hints": [
+        "Utilise le coefficient multiplicateur associé à une hausse de 2 %."
+      ],
+      "common_errors": {
+        "342 W/m2": "L'élève a ajouté 2 W/m2 au lieu de 2 %."
+      },
+      "remediation": "Réviser les coefficients multiplicateurs : hausse de t % ↔ × (1 + t/100).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.c04",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Depuis plusieurs centaines de milliers d'années, la concentration atmosphérique en CO2 n'a jamais augmenté aussi rapidement qu'actuellement. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : La hausse actuelle est bien plus rapide : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les carottes de glace montrent des variations naturelles du CO2 (environ 180 à 300 ppm lors des cycles glaciaires), mais jamais une hausse aussi rapide que celle observée depuis l'ère industrielle.",
+      "step_by_step_solution": [
+        "Les carottes de glace permettent de mesurer le CO2 ancien.",
+        "Les variations naturelles se faisaient sur des milliers d'années.",
+        "La hausse actuelle est bien plus rapide : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Compare les échelles de temps des variations passées et de la hausse actuelle."
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la hausse actuelle est comparable aux variations naturelles passées."
+      },
+      "remediation": "Analyser une courbe de CO2 issue des carottes de glace de l'Antarctique.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter des données de concentration et de bilan radiatif"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.c05",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : entre 1960 et 2020, la concentration en CO2 est passée d'environ 317 ppm à 413 ppm. Quelle est l'augmentation moyenne par an ? Réponds en ppm par an (nombre seul, arrondi au dixième).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1,6"
+      },
+      "solution": "(413 − 317) / (2020 − 1960) = 96 / 60 = 1,6 ppm par an en moyenne.",
+      "step_by_step_solution": [
+        "Variation : 413 − 317 = 96 ppm.",
+        "Durée : 60 ans.",
+        "Moyenne : 96 / 60 = 1,6 ppm par an."
+      ],
+      "hints": [
+        "Divise la variation de concentration par la durée."
+      ],
+      "common_errors": {
+        "96": "L'élève donne la variation totale sans la diviser par la durée."
+      },
+      "remediation": "Comparer ce rythme moyen avec celui de la dernière décennie (plus de 2 ppm par an).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.x01",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un gaz A absorbe fortement l'infrarouge mais sa concentration est de 0,0002 % ; un gaz B absorbe aussi fortement l'infrarouge avec une concentration de 0,04 %. Toutes choses égales par ailleurs, quel gaz contribue le plus à l'effet de serre ?\nA. Le gaz B\nB. Le gaz A\nC. Les deux contribuent autant\nD. Aucun des deux, car ils absorbent l'infrarouge",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La contribution d'un gaz dépend à la fois de sa capacité d'absorption et de son abondance : à capacités d'absorption comparables, le gaz B, 200 fois plus abondant, contribue davantage. Bonne réponse : A. Le gaz B",
+      "step_by_step_solution": [
+        "Contribution = capacité d'absorption × abondance (qualitativement).",
+        "Les deux absorbent fortement.",
+        "B est 200 fois plus abondant : il contribue le plus."
+      ],
+      "hints": [
+        "Deux facteurs comptent : le spectre d'absorption et la concentration."
+      ],
+      "common_errors": {
+        "B": "L'élève ne tient compte que de la capacité d'absorption."
+      },
+      "remediation": "Classer des GES en croisant spectre d'absorption et abondance.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [
+        "Le gaz B",
+        "Le gaz A",
+        "Les deux contribuent autant",
+        "Aucun des deux, car ils absorbent l'infrarouge"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.x02",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : le forçage radiatif dû au CO2 est estimé à 2,2 W/m2 et le forçage anthropique total à 2,7 W/m2. Quelle part (en %) du forçage total est due au CO2 ? Arrondis à l'unité.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 81,
+        "unit": "%",
+        "tolerance_relative": 0.02
+      },
+      "solution": "2,2 / 2,7 ≈ 0,81, soit environ 81 % du forçage anthropique total.",
+      "step_by_step_solution": [
+        "Part = forçage CO2 / forçage total.",
+        "2,2 / 2,7 ≈ 0,815.",
+        "Environ 81 %."
+      ],
+      "hints": [
+        "Calcule une proportion : partie divisée par total."
+      ],
+      "common_errors": {
+        "123 %": "L'élève a inversé le quotient (total / partie)."
+      },
+      "remediation": "Discuter pourquoi le forçage total inclut d'autres GES et des aérosols (qui refroidissent).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter des données de concentration et de bilan radiatif"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.effet-de-serre.x03",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes du retour vers un nouvel équilibre radiatif après une hausse brutale et durable des GES.\nÉléments (dans le désordre) : la température de surface augmente / la température se stabilise à une valeur plus élevée / la surface reçoit plus de puissance qu'elle n'en émet / la puissance émise égale de nouveau la puissance reçue / la puissance infrarouge émise par la surface augmente\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "la surface reçoit plus de puissance qu'elle n'en émet",
+          "la température de surface augmente",
+          "la puissance infrarouge émise par la surface augmente",
+          "la puissance émise égale de nouveau la puissance reçue",
+          "la température se stabilise à une valeur plus élevée"
+        ]
+      },
+      "solution": "Un excès de puissance reçue réchauffe la surface ; plus chaude, elle émet davantage ; un nouvel équilibre s'établit à une température plus élevée. Ordre attendu : la surface reçoit plus de puissance qu'elle n'en émet ; la température de surface augmente ; la puissance infrarouge émise par la surface augmente ; la puissance émise égale de nouveau la puissance reçue ; la température se stabilise à une valeur plus élevée.",
+      "step_by_step_solution": [
+        "Excès de puissance reçue.",
+        "Réchauffement.",
+        "Émission infrarouge accrue.",
+        "Retour à l'égalité reçu / émis.",
+        "Température stabilisée plus haut."
+      ],
+      "hints": [
+        "La puissance émise par la surface augmente avec sa température."
+      ],
+      "common_errors": {
+        "la surface reçoit plus de puissance qu'elle n'en émet ; la puissance infrarouge émise par la surface augmente ; la température de surface augmente ; la puissance émise égale de nouveau la puissance reçue ; la température se stabilise à une valeur plus élevée": "L'élève pense que l'émission augmente avant la température, alors qu'elle en est la conséquence."
+      },
+      "remediation": "Relier équilibre dynamique et température constante (programme de 1re).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Expliquer le renforcement de l'effet de serre par l'augmentation des GES",
+        "Exploiter des données de concentration et de bilan radiatif",
+        "Identifier des rétroactions du système climatique"
+      ],
+      "source_notions": [
+        "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.d01",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On marque 50 poissons dans un étang, puis on en recapture 40, dont 8 sont marqués. Quel est l'effectif estimé de la population ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "250"
+      },
+      "solution": "Proportion de marqués dans l'échantillon : 8/40 = 1/5. On suppose la même proportion dans la population : N = 50 × 5 = 50 × 40 / 8 = 250 poissons.",
+      "step_by_step_solution": [
+        "Proportion de marqués recapturés : 8/40 = 0,2.",
+        "Même proportion supposée dans la population : 50 / N = 0,2.",
+        "N = 50 / 0,2 = 250 poissons."
+      ],
+      "hints": [
+        "Écris l'égalité des proportions de marqués : échantillon et population."
+      ],
+      "common_errors": {
+        "10": "L'élève a calculé 50 × 8 / 40 (produit en croix mal posé)."
+      },
+      "remediation": "Poser systématiquement un tableau de proportionnalité : marqués / total.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.d02",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? La méthode de capture-marquage-recapture suppose que la proportion d'individus marqués est la même dans l'échantillon recapturé et dans la population totale. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : C'est bien l'hypothèse de la méthode : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. C'est l'hypothèse fondamentale de la méthode : elle permet d'estimer l'effectif par une quatrième proportionnelle.",
+      "step_by_step_solution": [
+        "On connaît le nombre de marqués et la proportion de marqués dans l'échantillon.",
+        "On suppose cette proportion identique dans toute la population.",
+        "C'est bien l'hypothèse de la méthode : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Sur quelle égalité repose le calcul ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la méthode donne un comptage exact sans hypothèse."
+      },
+      "remediation": "Lister les conditions de validité de la méthode.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture",
+        "Identifier les hypothèses de la méthode",
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.d03",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on le calcul qui permet d'obtenir l'effectif total à partir de trois nombres connus liés par une égalité de proportions ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "quatrième proportionnelle",
+          "une quatrième proportionnelle",
+          "la quatrième proportionnelle",
+          "4e proportionnelle",
+          "produit en croix",
+          "le produit en croix"
+        ]
+      },
+      "solution": "L'effectif total s'obtient par le calcul d'une quatrième proportionnelle (produit en croix).",
+      "step_by_step_solution": [
+        "Trois nombres sont connus : marqués, recapturés, marqués recapturés.",
+        "On cherche le quatrième.",
+        "C'est une quatrième proportionnelle."
+      ],
+      "hints": [
+        "Le programme utilise une expression avec un nombre ordinal."
+      ],
+      "common_errors": {
+        "moyenne": "Une moyenne ne permet pas de déterminer une valeur inconnue dans une égalité de proportions."
+      },
+      "remediation": "Revoir la proportionnalité : a/b = c/d permet de calculer d = b × c / a.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture",
+        "Identifier les hypothèses de la méthode",
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.d04",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi relâche-t-on les individus marqués et attend-on avant la recapture ?\nA. Pour qu'ils se reproduisent avant la recapture\nB. Pour que la population double\nC. Pour qu'ils se mélangent de façon homogène à la population\nD. Pour que leur marque disparaisse",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 2
+      },
+      "solution": "Il faut que les individus marqués se mélangent de façon homogène au reste de la population pour que la proportion de marqués soit la même partout. Bonne réponse : C. Pour qu'ils se mélangent de façon homogène à la population",
+      "step_by_step_solution": [
+        "La proportion doit être la même dans l'échantillon et dans la population.",
+        "Il faut donc que les marqués se dispersent.",
+        "L'attente permet un mélange homogène."
+      ],
+      "hints": [
+        "Que se passerait-il si on recapturait au même endroit, juste après ?"
+      ],
+      "common_errors": {
+        "D": "L'élève pense que l'attente sert à laisser la marque disparaître."
+      },
+      "remediation": "Discuter l'effet d'une recapture trop rapide sur l'estimation.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Identifier les hypothèses de la méthode"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [
+        "Pour qu'ils se reproduisent avant la recapture",
+        "Pour que la population double",
+        "Pour qu'ils se mélangent de façon homogène à la population",
+        "Pour que leur marque disparaisse"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.d05",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On marque 30 papillons. Lors de la recapture, on capture 60 papillons dont 10 sont marqués. Quel est l'effectif estimé ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "180"
+      },
+      "solution": "N = 30 × 60 / 10 = 180 papillons.",
+      "step_by_step_solution": [
+        "Proportion de marqués recapturés : 10/60 = 1/6.",
+        "30 / N = 1/6.",
+        "N = 30 × 6 = 180 papillons."
+      ],
+      "hints": [
+        "La proportion de marqués recapturés vaut 1/6."
+      ],
+      "common_errors": {
+        "5": "L'élève a calculé 30 × 10 / 60."
+      },
+      "remediation": "Vérifier la vraisemblance : l'effectif estimé doit être supérieur au nombre d'individus capturés.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.a01",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On marque 120 campagnols. Lors d'une recapture, 15 des 75 campagnols capturés sont marqués. Estime l'effectif de la population.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "600"
+      },
+      "solution": "N = 120 × 75 / 15 = 600 campagnols.",
+      "step_by_step_solution": [
+        "Proportion de marqués : 15/75 = 0,2.",
+        "120 / N = 0,2.",
+        "N = 600 campagnols."
+      ],
+      "hints": [
+        "Calcule d'abord la proportion de marqués dans l'échantillon."
+      ],
+      "common_errors": {
+        "24": "L'élève a calculé 120 × 15 / 75."
+      },
+      "remediation": "Vérifier la cohérence en recalculant la proportion 120 / N.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture",
+        "Identifier les hypothèses de la méthode",
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.a02",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Parmi ces situations, laquelle ne respecte pas une hypothèse de la méthode de capture-marquage-recapture ?\nA. Aucun individu ne quitte la zone entre les deux captures\nB. Les marqués se mélangent bien au reste de la population\nC. Les marques restent visibles jusqu'à la recapture\nD. La marque rend les individus plus visibles pour leurs prédateurs",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "Si le marquage rend les individus plus visibles pour les prédateurs, les marqués disparaissent plus vite : la proportion de marqués diminue et l'effectif est surestimé. Bonne réponse : D. La marque rend les individus plus visibles pour leurs prédateurs",
+      "step_by_step_solution": [
+        "Le marquage ne doit pas modifier la survie ni la capture.",
+        "Une marque trop visible augmente la prédation des marqués.",
+        "L'hypothèse n'est plus respectée."
+      ],
+      "hints": [
+        "Le marquage doit être neutre pour l'animal."
+      ],
+      "common_errors": {
+        "A": "L'élève pense qu'une population fermée entre les deux captures pose problème, alors que c'est une hypothèse de la méthode."
+      },
+      "remediation": "Associer chaque biais à son effet sur l'estimation (surestimation ou sous-estimation).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Identifier les hypothèses de la méthode"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [
+        "Aucun individu ne quitte la zone entre les deux captures",
+        "Les marqués se mélangent bien au reste de la population",
+        "Les marques restent visibles jusqu'à la recapture",
+        "La marque rend les individus plus visibles pour leurs prédateurs"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.a03",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Si des individus perdent leur marque entre les deux captures, l'effectif de la population sera surestimé. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : N augmente : surestimation, l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Des marques perdues diminuent le nombre de marqués recapturés ; le dénominateur du calcul diminue, donc l'estimation N = M × C / R augmente : l'effectif est surestimé.",
+      "step_by_step_solution": [
+        "N = M × C / R, avec R le nombre de marqués recapturés.",
+        "Des marques perdues diminuent R.",
+        "N augmente : surestimation, l'affirmation est vraie."
+      ],
+      "hints": [
+        "Que devient le nombre de marqués recapturés ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la perte de marques n'a aucun effet sur l'estimation."
+      },
+      "remediation": "Tester l'effet d'une variation de R sur N avec des valeurs numériques.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture",
+        "Identifier les hypothèses de la méthode",
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.a04",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque grandeur de la méthode à sa définition.\nÀ gauche : M / C / R / N\nÀ droite : nombre d'individus marqués parmi les recapturés / nombre d'individus marqués lors de la première capture / effectif estimé de la population / nombre d'individus capturés lors de la recapture\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "M": "nombre d'individus marqués lors de la première capture",
+          "C": "nombre d'individus capturés lors de la recapture",
+          "R": "nombre d'individus marqués parmi les recapturés",
+          "N": "effectif estimé de la population"
+        }
+      },
+      "solution": "Avec ces notations, l'égalité des proportions M/N = R/C donne N = M × C / R. Associations : M → nombre d'individus marqués lors de la première capture ; C → nombre d'individus capturés lors de la recapture ; R → nombre d'individus marqués parmi les recapturés ; N → effectif estimé de la population.",
+      "step_by_step_solution": [
+        "M : marqués.",
+        "C : capturés à la seconde capture.",
+        "R : recapturés marqués.",
+        "N = M × C / R."
+      ],
+      "hints": [
+        "Écris M/N = R/C."
+      ],
+      "common_errors": {
+        "M → nombre d'individus marqués lors de la première capture ; C → nombre d'individus marqués parmi les recapturés ; R → nombre d'individus capturés lors de la recapture ; N → effectif estimé de la population": "L'élève confond le nombre total de recapturés et le nombre de marqués parmi eux."
+      },
+      "remediation": "Réécrire la formule en toutes lettres avant de l'appliquer.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture",
+        "Identifier les hypothèses de la méthode",
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.a05",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Document : trois séries de recaptures (M = 100 marqués) donnent les estimations 480, 520 et 530 individus. Quelle est l'estimation moyenne ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "510"
+      },
+      "solution": "Moyenne : (480 + 520 + 530) / 3 = 1 530 / 3 = 510 individus.",
+      "step_by_step_solution": [
+        "Somme des estimations : 1 530.",
+        "Nombre de séries : 3.",
+        "Moyenne : 510 individus."
+      ],
+      "hints": [
+        "Additionne puis divise par le nombre de séries."
+      ],
+      "common_errors": {
+        "1530": "L'élève a oublié de diviser par le nombre de séries."
+      },
+      "remediation": "Discuter la fluctuation d'échantillonnage : chaque série donne une estimation différente.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture",
+        "Identifier les hypothèses de la méthode",
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.c01",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans un échantillon de 100 individus recapturés, 20 sont marqués. Avec la formule de l'intervalle de confiance au niveau 95 % [f − 1/√n ; f + 1/√n], quelle est la borne inférieure de l'intervalle pour la proportion de marqués ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,1"
+      },
+      "solution": "f = 20/100 = 0,2 ; 1/√100 = 0,1 ; intervalle [0,2 − 0,1 ; 0,2 + 0,1] = [0,1 ; 0,3]. La borne inférieure est 0,1.",
+      "step_by_step_solution": [
+        "f = 0,2 et n = 100.",
+        "1/√n = 1/10 = 0,1.",
+        "Borne inférieure : 0,2 − 0,1 = 0,1."
+      ],
+      "hints": [
+        "Calcule d'abord la fréquence observée f et 1/√n."
+      ],
+      "common_errors": {
+        "0,19": "L'élève a retiré 1/n au lieu de 1/√n."
+      },
+      "remediation": "Calculer plusieurs intervalles pour des tailles d'échantillon différentes.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.c02",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Pour un même niveau de confiance, l'estimation est d'autant plus précise que la taille de l'échantillon est grande. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : L'estimation est plus précise : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. L'amplitude de l'intervalle, 2/√n, diminue quand n augmente : l'estimation est plus précise.",
+      "step_by_step_solution": [
+        "Amplitude de l'intervalle : 2/√n.",
+        "Quand n augmente, 2/√n diminue.",
+        "L'estimation est plus précise : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Comment varie 1/√n quand n augmente ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que la taille de l'échantillon n'influence pas la précision."
+      },
+      "remediation": "Comparer les intervalles pour n = 100 et n = 400.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.c03",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour diviser par deux l'amplitude d'un intervalle de confiance de la forme [f − 1/√n ; f + 1/√n], par combien faut-il multiplier la taille n de l'échantillon ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "L'amplitude vaut 2/√n. Pour la diviser par 2, il faut multiplier √n par 2, donc n par 4.",
+      "step_by_step_solution": [
+        "Amplitude : 2/√n.",
+        "Diviser par 2 l'amplitude : multiplier √n par 2.",
+        "Donc multiplier n par 4."
+      ],
+      "hints": [
+        "Raisonne sur √n."
+      ],
+      "common_errors": {
+        "2": "L'élève raisonne comme si l'amplitude était proportionnelle à 1/n."
+      },
+      "remediation": "Vérifier numériquement avec n = 100 puis n = 400.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture",
+        "Identifier les hypothèses de la méthode",
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.c04",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Un intervalle de confiance au niveau 95 % contient à coup sûr la vraie proportion de la population. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "faux",
+        "rubric": [
+          "Justification attendue : Ce n'est donc pas certain : l'affirmation est fausse."
+        ]
+      },
+      "solution": "L'affirmation est fausse. Le niveau de confiance est strictement inférieur à 100 % : en raison de la fluctuation des échantillons, environ 5 % des intervalles ainsi construits ne contiennent pas la vraie valeur.",
+      "step_by_step_solution": [
+        "Le niveau de confiance est 95 %, pas 100 %.",
+        "Certains échantillons donnent un intervalle qui manque la vraie valeur.",
+        "Ce n'est donc pas certain : l'affirmation est fausse."
+      ],
+      "hints": [
+        "Que signifie « 95 % » ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève interprète un intervalle de confiance comme une certitude."
+      },
+      "remediation": "Simuler sur tableur 100 échantillons et compter les intervalles qui contiennent la vraie valeur.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.c05",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes d'une estimation par capture-marquage-recapture.\nÉléments (dans le désordre) : capturer et marquer des individus / relâcher les individus marqués / recapturer un échantillon et compter les marqués / attendre leur mélange avec la population / calculer l'effectif par une quatrième proportionnelle\nRéponds en séparant les éléments par « ; ».",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "capturer et marquer des individus",
+          "relâcher les individus marqués",
+          "attendre leur mélange avec la population",
+          "recapturer un échantillon et compter les marqués",
+          "calculer l'effectif par une quatrième proportionnelle"
+        ]
+      },
+      "solution": "On capture, marque, relâche, attend le mélange, recapture puis calcule N = M × C / R. Ordre attendu : capturer et marquer des individus ; relâcher les individus marqués ; attendre leur mélange avec la population ; recapturer un échantillon et compter les marqués ; calculer l'effectif par une quatrième proportionnelle.",
+      "step_by_step_solution": [
+        "Capture et marquage.",
+        "Relâcher.",
+        "Attendre le mélange.",
+        "Recapturer et compter.",
+        "Calculer."
+      ],
+      "hints": [
+        "Le calcul vient en dernier."
+      ],
+      "common_errors": {
+        "capturer et marquer des individus ; relâcher les individus marqués ; recapturer un échantillon et compter les marqués ; attendre leur mélange avec la population ; calculer l'effectif par une quatrième proportionnelle": "L'élève recapture sans attendre le mélange des individus marqués."
+      },
+      "remediation": "Réaliser une simulation en classe avec des haricots de deux couleurs.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Estimer l'effectif d'une population par capture-marquage-recapture",
+        "Identifier les hypothèses de la méthode",
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.x01",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "On a marqué 60 individus. Dans un échantillon de 100 recapturés, 20 sont marqués. L'intervalle de confiance au niveau 95 % pour la proportion p de marqués dans la population est [0,1 ; 0,3]. Quelle est la borne supérieure de l'intervalle correspondant pour l'effectif N = 60 / p ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "600"
+      },
+      "solution": "N = 60 / p est décroissant en p : la borne supérieure de N correspond à p = 0,1, soit N = 60 / 0,1 = 600 individus. L'intervalle pour N est [200 ; 600].",
+      "step_by_step_solution": [
+        "N = 60 / p diminue quand p augmente.",
+        "La borne supérieure de N correspond à la borne inférieure de p : 0,1.",
+        "N = 60 / 0,1 = 600 individus."
+      ],
+      "hints": [
+        "Quand p est petit, N est-il grand ou petit ?"
+      ],
+      "common_errors": {
+        "200": "L'élève a associé la borne supérieure de p à la borne supérieure de N."
+      },
+      "remediation": "Tracer la fonction p ↦ 60/p pour visualiser l'inversion des bornes.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.x02",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Une population de truites est estimée par CMR. Entre les deux captures, de nombreuses truites non marquées arrivent d'un affluent. Quel est l'effet sur l'estimation de l'effectif initial ?\nA. L'effectif initial est surestimé\nB. L'effectif initial est sous-estimé\nC. L'estimation n'est pas modifiée\nD. L'estimation devient impossible à calculer",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'arrivée d'individus non marqués diminue la proportion de marqués dans l'échantillon : R/C diminue, donc N = M × C / R augmente. L'effectif initial est surestimé.",
+      "step_by_step_solution": [
+        "L'immigration ajoute des individus non marqués.",
+        "La proportion de marqués recapturés diminue.",
+        "N = M × C / R augmente : l'effectif initial est surestimé."
+      ],
+      "hints": [
+        "Comment évolue la proportion de marqués dans l'échantillon ?"
+      ],
+      "common_errors": {
+        "B": "L'élève pense que l'arrivée d'individus entraîne une sous-estimation."
+      },
+      "remediation": "Analyser l'effet des naissances, décès et migrations sur l'estimation.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Identifier les hypothèses de la méthode"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [
+        "L'effectif initial est surestimé",
+        "L'effectif initial est sous-estimé",
+        "L'estimation n'est pas modifiée",
+        "L'estimation devient impossible à calculer"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.cmr.x03",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Pour estimer une proportion avec la formule [f − 1/√n ; f + 1/√n], on souhaite une amplitude totale de l'intervalle de 0,1. Quelle taille d'échantillon n faut-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "400"
+      },
+      "solution": "Amplitude : 2/√n = 0,1 donc √n = 20 et n = 400.",
+      "step_by_step_solution": [
+        "Amplitude = 2/√n.",
+        "2/√n = 0,1 donne √n = 20.",
+        "n = 20² = 400."
+      ],
+      "hints": [
+        "Commence par isoler √n."
+      ],
+      "common_errors": {
+        "100": "L'élève a utilisé une demi-amplitude de 0,1 au lieu d'une amplitude totale de 0,1."
+      },
+      "remediation": "Discuter le coût (effort d'échantillonnage) de la précision.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Exploiter un intervalle de confiance"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.d01",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans le modèle de Hardy-Weinberg pour un gène à deux allèles A et a de fréquences p et q, quelle relation lie p et q ?\nA. p + q = 1\nB. p × q = 1\nC. p = q\nD. p − q = 1",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Il n'y a que deux allèles : leurs fréquences ont pour somme 1, soit p + q = 1.",
+      "step_by_step_solution": [
+        "Chaque allèle du gène est soit A, soit a.",
+        "Les fréquences des deux allèles s'additionnent pour donner 1.",
+        "p + q = 1."
+      ],
+      "hints": [
+        "Il n'existe que deux allèles pour ce gène."
+      ],
+      "common_errors": {
+        "B": "L'élève confond la relation entre fréquences alléliques et celle entre fréquences génotypiques."
+      },
+      "remediation": "Vérifier sur un exemple : p = 0,7 donne q = 0,3.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer des fréquences alléliques et génotypiques",
+        "Appliquer le modèle de Hardy-Weinberg",
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [
+        "p + q = 1",
+        "p × q = 1",
+        "p = q",
+        "p − q = 1"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.d02",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Si la fréquence de l'allèle A est p = 0,7, quelle est la fréquence q de l'allèle a ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,3"
+      },
+      "solution": "q = 1 − p = 1 − 0,7 = 0,3.",
+      "step_by_step_solution": [
+        "p + q = 1.",
+        "q = 1 − p.",
+        "q = 0,3."
+      ],
+      "hints": [
+        "Utilise p + q = 1."
+      ],
+      "common_errors": {
+        "0,49": "L'élève a calculé p² au lieu de 1 − p."
+      },
+      "remediation": "S'entraîner avec plusieurs valeurs de p.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer des fréquences alléliques et génotypiques"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.d03",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Selon le modèle de Hardy-Weinberg, quelle est la fréquence attendue des homozygotes AA si p = 0,6 ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,36"
+      },
+      "solution": "Fréquence des AA = p² = 0,6² = 0,36.",
+      "step_by_step_solution": [
+        "Un individu AA reçoit A de chacun de ses deux parents.",
+        "Probabilité : p × p = p².",
+        "p² = 0,36."
+      ],
+      "hints": [
+        "Il faut deux allèles A, chacun de probabilité p."
+      ],
+      "common_errors": {
+        "0,6": "L'élève donne la fréquence allélique au lieu de la fréquence génotypique."
+      },
+      "remediation": "Construire le tableau de croisement des gamètes (p, q) × (p, q).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Appliquer le modèle de Hardy-Weinberg"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.d04",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Le modèle de Hardy-Weinberg suppose notamment une population de très grande taille, sans sélection, sans mutation et sans migration. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Pas de sélection, mutation ni migration : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Le modèle suppose une population de grande taille, à reproduction aléatoire (panmixie), sans sélection, mutation ni migration.",
+      "step_by_step_solution": [
+        "Grande taille : pas de dérive génétique.",
+        "Panmixie : rencontres des gamètes au hasard.",
+        "Pas de sélection, mutation ni migration : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Quels processus pourraient modifier les fréquences alléliques ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que le modèle décrit exactement toutes les populations naturelles."
+      },
+      "remediation": "Lister les hypothèses du modèle et, pour chacune, un processus réel qui la contredit.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer des fréquences alléliques et génotypiques",
+        "Appliquer le modèle de Hardy-Weinberg",
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.d05",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment appelle-t-on la variation aléatoire des fréquences alléliques d'une génération à l'autre, particulièrement marquée dans les petites populations ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "dérive génétique",
+          "la dérive génétique",
+          "derive genetique",
+          "dérive"
+        ]
+      },
+      "solution": "La dérive génétique est l'effet du hasard de l'échantillonnage des gamètes ; elle est d'autant plus forte que la population est petite.",
+      "step_by_step_solution": [
+        "Dans une petite population, le hasard de la reproduction pèse fortement.",
+        "Les fréquences alléliques fluctuent aléatoirement.",
+        "C'est la dérive génétique."
+      ],
+      "hints": [
+        "Le mot évoque un bateau qui se déplace au hasard, sans direction."
+      ],
+      "common_errors": {
+        "sélection naturelle": "La sélection naturelle n'est pas aléatoire : elle favorise certains allèles selon le milieu."
+      },
+      "remediation": "Comparer sur un logiciel de simulation l'évolution des fréquences dans une population de 20 et de 2 000 individus.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.a01",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Avec p = 0,6 et q = 0,4, quelle est la fréquence attendue des hétérozygotes Aa selon le modèle de Hardy-Weinberg ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,48"
+      },
+      "solution": "Fréquence des Aa = 2pq = 2 × 0,6 × 0,4 = 0,48.",
+      "step_by_step_solution": [
+        "Un hétérozygote peut recevoir A du père et a de la mère, ou l'inverse.",
+        "Deux cas : 2 × p × q.",
+        "2pq = 0,48."
+      ],
+      "hints": [
+        "Il y a deux façons d'obtenir un hétérozygote."
+      ],
+      "common_errors": {
+        "0,24": "L'élève a oublié le facteur 2 (un seul des deux cas)."
+      },
+      "remediation": "Vérifier que p² + 2pq + q² = 1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer le modèle de Hardy-Weinberg"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.a02",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une population de 100 individus : 36 AA, 48 Aa et 16 aa. Quelle est la fréquence de l'allèle A ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,6"
+      },
+      "solution": "Nombre d'allèles A : 2 × 36 + 48 = 120 sur 200 allèles ; p = 120 / 200 = 0,6.",
+      "step_by_step_solution": [
+        "Chaque individu porte deux allèles : 200 allèles au total.",
+        "Allèles A : 2 × 36 + 48 = 120.",
+        "p = 120 / 200 = 0,6."
+      ],
+      "hints": [
+        "Un AA porte deux allèles A, un Aa en porte un seul."
+      ],
+      "common_errors": {
+        "0,36": "L'élève a pris la fréquence des génotypes AA pour la fréquence de l'allèle A."
+      },
+      "remediation": "Toujours compter les allèles, pas les individus.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer des fréquences alléliques et génotypiques"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.a03",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque génotype à sa fréquence attendue selon le modèle de Hardy-Weinberg.\nÀ gauche : AA / Aa / aa\nÀ droite : 2pq / q² / p²\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "AA": "p²",
+          "Aa": "2pq",
+          "aa": "q²"
+        }
+      },
+      "solution": "Selon le modèle, les fréquences génotypiques sont p² (AA), 2pq (Aa) et q² (aa), de somme (p + q)² = 1. Associations : AA → p² ; Aa → 2pq ; aa → q².",
+      "step_by_step_solution": [
+        "AA : deux allèles A, p × p.",
+        "Aa : deux combinaisons possibles, 2pq.",
+        "aa : q × q."
+      ],
+      "hints": [
+        "Développe (p + q)²."
+      ],
+      "common_errors": {
+        "AA → 2pq ; Aa → p² ; aa → q²": "L'élève attribue le facteur 2 aux homozygotes."
+      },
+      "remediation": "Retrouver ces fréquences à l'aide d'un tableau de croisement des gamètes.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer le modèle de Hardy-Weinberg"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.a04",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Avec q = 0,1, quelle est la fréquence attendue des homozygotes aa selon le modèle ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,01"
+      },
+      "solution": "q² = 0,1² = 0,01, soit 1 % des individus.",
+      "step_by_step_solution": [
+        "Fréquence des aa = q².",
+        "q² = 0,1 × 0,1.",
+        "q² = 0,01."
+      ],
+      "hints": [
+        "Élève q au carré."
+      ],
+      "common_errors": {
+        "0,2": "L'élève a calculé 2q au lieu de q²."
+      },
+      "remediation": "Réviser le calcul du carré d'un nombre décimal.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer des fréquences alléliques et génotypiques",
+        "Appliquer le modèle de Hardy-Weinberg",
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.a05",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Dans le cadre du modèle de Hardy-Weinberg, les fréquences alléliques restent constantes de génération en génération. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Les fréquences alléliques restent constantes : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. En l'absence de sélection, mutation, migration et dérive (population infinie, panmixie), les fréquences alléliques ne varient pas : c'est l'équilibre de Hardy-Weinberg.",
+      "step_by_step_solution": [
+        "Aucun processus ne favorise un allèle.",
+        "La transmission est décrite par des probabilités constantes.",
+        "Les fréquences alléliques restent constantes : l'affirmation est vraie."
+      ],
+      "hints": [
+        "Quels processus pourraient modifier ces fréquences ? Sont-ils présents dans le modèle ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que l'allèle dominant devient forcément plus fréquent au fil des générations."
+      },
+      "remediation": "Simuler sur tableur plusieurs générations et observer la stabilité des fréquences.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Appliquer le modèle de Hardy-Weinberg"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.c01",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une maladie autosomique récessive touche 1 individu sur 2 500 dans une population supposée à l'équilibre de Hardy-Weinberg. Quelle est la fréquence q de l'allèle responsable ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,02"
+      },
+      "solution": "q² = 1/2 500 = 0,0004, donc q = √0,0004 = 0,02.",
+      "step_by_step_solution": [
+        "Les malades sont les homozygotes récessifs : q² = 1/2 500.",
+        "q = √(1/2 500) = 1/50.",
+        "q = 0,02."
+      ],
+      "hints": [
+        "Les individus atteints sont homozygotes pour l'allèle récessif."
+      ],
+      "common_errors": {
+        "0,0004": "L'élève a pris q² (fréquence des malades) pour q."
+      },
+      "remediation": "Distinguer fréquence des malades (q²) et fréquence de l'allèle (q).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Appliquer le modèle de Hardy-Weinberg"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.c02",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans la même population (q = 0,02, p = 0,98), quelle est la fréquence attendue des porteurs hétérozygotes ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,0392"
+      },
+      "solution": "2pq = 2 × 0,98 × 0,02 = 0,0392, soit environ 1 personne sur 25.",
+      "step_by_step_solution": [
+        "Les porteurs sont les hétérozygotes : 2pq.",
+        "2 × 0,98 × 0,02.",
+        "2pq = 0,0392."
+      ],
+      "hints": [
+        "Les porteurs sains sont hétérozygotes."
+      ],
+      "common_errors": {
+        "0,0196": "L'élève a oublié le facteur 2."
+      },
+      "remediation": "Comparer la fréquence des porteurs (environ 4 %) et celle des malades (0,04 %).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer des fréquences alléliques et génotypiques",
+        "Appliquer le modèle de Hardy-Weinberg",
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.c03",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Population observée : 50 AA, 20 Aa, 30 aa (100 individus). On a p = 0,6. Le modèle prévoit 48 hétérozygotes. Quelle est la différence entre l'effectif attendu et l'effectif observé d'hétérozygotes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "28"
+      },
+      "solution": "Attendus : 2pq × 100 = 48 ; observés : 20 ; différence : 48 − 20 = 28 hétérozygotes manquants.",
+      "step_by_step_solution": [
+        "Attendus : 48 hétérozygotes.",
+        "Observés : 20.",
+        "Différence : 28."
+      ],
+      "hints": [
+        "Compare les deux effectifs d'hétérozygotes."
+      ],
+      "common_errors": {
+        "68": "L'élève a additionné les deux effectifs au lieu de les soustraire."
+      },
+      "remediation": "Proposer des explications d'un déficit en hétérozygotes (reproduction entre apparentés, sous-populations isolées).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer des fréquences alléliques et génotypiques",
+        "Appliquer le modèle de Hardy-Weinberg",
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.c04",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Associe chaque situation au processus qui explique l'écart au modèle de Hardy-Weinberg.\nÀ gauche : un allèle confère un avantage de survie dans le milieu / une petite population isolée voit ses fréquences fluctuer au hasard / des individus d'une autre population viennent se reproduire / un nouvel allèle apparaît par modification de l'ADN\nÀ droite : migration / mutation / dérive génétique / sélection naturelle\nRéponds sous la forme « gauche → droite », les associations séparées par « ; ».",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "un allèle confère un avantage de survie dans le milieu": "sélection naturelle",
+          "une petite population isolée voit ses fréquences fluctuer au hasard": "dérive génétique",
+          "des individus d'une autre population viennent se reproduire": "migration",
+          "un nouvel allèle apparaît par modification de l'ADN": "mutation"
+        }
+      },
+      "solution": "Chaque hypothèse du modèle non respectée correspond à un processus évolutif réel : sélection, dérive, migration, mutation. Associations : un allèle confère un avantage de survie dans le milieu → sélection naturelle ; une petite population isolée voit ses fréquences fluctuer au hasard → dérive génétique ; des individus d'une autre population viennent se reproduire → migration ; un nouvel allèle apparaît par modification de l'ADN → mutation.",
+      "step_by_step_solution": [
+        "Avantage sélectif : sélection naturelle.",
+        "Hasard dans une petite population : dérive génétique.",
+        "Arrivée d'individus : migration.",
+        "Nouvel allèle : mutation."
+      ],
+      "hints": [
+        "Cherche pour chaque situation quelle hypothèse du modèle est violée."
+      ],
+      "common_errors": {
+        "un allèle confère un avantage de survie dans le milieu → dérive génétique ; une petite population isolée voit ses fréquences fluctuer au hasard → sélection naturelle ; des individus d'une autre population viennent se reproduire → migration ; un nouvel allèle apparaît par modification de l'ADN → mutation": "L'élève confond sélection naturelle (orientée) et dérive génétique (aléatoire)."
+      },
+      "remediation": "Faire un tableau : hypothèse du modèle / processus réel / effet sur les fréquences.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.c05",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "TRUE_FALSE_ARGUED",
+      "statement": "Vrai ou faux ? Si l'on observe dans une population naturelle des fréquences génotypiques très différentes de p², 2pq et q², cela peut indiquer qu'un processus évolutif est à l'œuvre. Justifie ta réponse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": "vrai",
+        "rubric": [
+          "Justification attendue : Un processus évolutif peut être en cause : l'affirmation est vraie."
+        ]
+      },
+      "solution": "L'affirmation est vraie. Les écarts au modèle s'expliquent par les processus réels non pris en compte par le modèle : sélection, dérive, migration, mutation, reproduction non aléatoire.",
+      "step_by_step_solution": [
+        "Le modèle décrit une population idéale.",
+        "Un écart signale qu'une hypothèse n'est pas respectée.",
+        "Un processus évolutif peut être en cause : l'affirmation est vraie."
+      ],
+      "hints": [
+        "À quoi sert un modèle « nul » en sciences ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense qu'un écart au modèle signifie que le modèle est « faux » et inutile."
+      },
+      "remediation": "Utiliser le modèle comme référence pour détecter l'évolution.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.x01",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Dans une population à l'équilibre de Hardy-Weinberg, 9 % des individus ont le phénotype récessif [a]. Quelle est la fréquence des individus hétérozygotes ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,42"
+      },
+      "solution": "q² = 0,09 donc q = 0,3 et p = 0,7 ; 2pq = 2 × 0,7 × 0,3 = 0,42.",
+      "step_by_step_solution": [
+        "Phénotype récessif : génotype aa, q² = 0,09.",
+        "q = 0,3 et p = 1 − 0,3 = 0,7.",
+        "2pq = 2 × 0,7 × 0,3 = 0,42."
+      ],
+      "hints": [
+        "Commence par trouver q à partir de q²."
+      ],
+      "common_errors": {
+        "0,21": "L'élève a oublié le facteur 2 dans 2pq."
+      },
+      "remediation": "Enchaîner : phénotype récessif → q² → q → p → 2pq.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Appliquer le modèle de Hardy-Weinberg"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.x02",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Une génération de parents a les fréquences génotypiques 0,5 AA, 0,2 Aa et 0,3 aa. En supposant la panmixie et les autres hypothèses du modèle, quelle sera la fréquence des génotypes AA dans la génération suivante ? Donne un nombre décimal.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0,36"
+      },
+      "solution": "p = 0,5 + 0,2/2 = 0,6 ; à la génération suivante, la fréquence de AA vaut p² = 0,36.",
+      "step_by_step_solution": [
+        "Fréquence de A chez les parents : 0,5 + 0,2 / 2 = 0,6.",
+        "Les gamètes s'associent au hasard.",
+        "Fréquence de AA : p² = 0,6² = 0,36."
+      ],
+      "hints": [
+        "Calcule d'abord la fréquence de l'allèle A chez les parents."
+      ],
+      "common_errors": {
+        "0,5": "L'élève pense que la fréquence de AA reste celle des parents."
+      },
+      "remediation": "Programmer en Python le passage d'une génération à la suivante et observer la stabilisation.",
+      "estimated_time_min": 7,
+      "skills_tested": [
+        "Calculer des fréquences alléliques et génotypiques",
+        "Appliquer le modèle de Hardy-Weinberg"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ES.TLE.hardy-weinberg.x03",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Dans une petite population de 10 individus, la fréquence d'un allèle passe de 0,5 à 0,8 en quelques générations, sans avantage sélectif connu. Quel processus explique le mieux cet écart au modèle ?\nA. La dérive génétique\nB. La sélection naturelle\nC. L'équilibre de Hardy-Weinberg\nD. L'absence totale de reproduction",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Sans avantage sélectif, dans une très petite population, les fluctuations aléatoires de la dérive génétique peuvent modifier fortement et rapidement les fréquences alléliques. Bonne réponse : A. La dérive génétique",
+      "step_by_step_solution": [
+        "Aucun avantage sélectif : ce n'est pas la sélection.",
+        "La population est très petite.",
+        "C'est la dérive génétique."
+      ],
+      "hints": [
+        "Quel processus est aléatoire et d'autant plus fort que la population est petite ?"
+      ],
+      "common_errors": {
+        "B": "L'élève attribue tout changement de fréquence à la sélection naturelle."
+      },
+      "remediation": "Comparer des simulations de dérive pour différentes tailles de population.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Expliquer un écart au modèle par un processus évolutif"
+      ],
+      "source_notions": [
+        "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab"
+      ],
+      "choices": [
+        "La dérive génétique",
+        "La sélection naturelle",
+        "L'équilibre de Hardy-Weinberg",
+        "L'absence totale de reproduction"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

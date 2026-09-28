@@ -1,0 +1,838 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q01",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "La demi-vie d'un noyau radioactif est la durée au bout de laquelle :",
+      "choices": [
+        "tous les noyaux se sont désintégrés",
+        "l'échantillon a perdu la moitié de sa masse totale",
+        "un noyau s'est désintégré à moitié",
+        "la moitié des noyaux initiaux s'est désintégrée"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "la moitié des noyaux initiaux s'est désintégrée",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Par définition, la moitié des noyaux initialement présents dans un échantillon macroscopique s'est désintégrée.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Il en reste encore la moitié.",
+        "1": "La masse de l'échantillon varie très peu : les noyaux se transforment en d'autres noyaux.",
+        "2": "Un noyau se désintègre entièrement ou pas du tout."
+      },
+      "common_error_target": {
+        "0": "désintégration totale en une demi-vie"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q02",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "La demi-vie dépend :",
+      "choices": [
+        "de la forme de l'échantillon",
+        "du type de noyau radioactif",
+        "de la masse de l'échantillon",
+        "du nombre initial de noyaux"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "du type de noyau radioactif",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La demi-vie est caractéristique du noyau radioactif considéré.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Sans rapport.",
+        "2": "Elle ne dépend pas de la masse.",
+        "3": "Elle ne dépend pas du nombre initial de noyaux."
+      },
+      "common_error_target": {
+        "2": "demi-vie liée à la quantité"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q03",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Au bout de 3 demi-vies, la fraction de noyaux restants est :",
+      "choices": [
+        "1/3",
+        "1/6",
+        "0",
+        "1/8"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "1/8",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Chaque demi-vie divise le nombre de noyaux par 2 : N = N0 / 2^3 = N0 / 8.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Division par 3 au lieu de 2^3.",
+        "1": "Division par 2 × 3.",
+        "2": "Il reste toujours des noyaux."
+      },
+      "common_error_target": {
+        "1": "multiplication au lieu de puissance"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q04",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "16 000 noyaux, 4 demi-vies : il reste :",
+      "choices": [
+        "0 noyau",
+        "1 000 noyaux",
+        "4 000 noyaux",
+        "2 000 noyaux"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "1 000 noyaux",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "N = 16 000 / 2^4 = 16 000 / 16 = 1 000 noyaux.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Il reste toujours des noyaux.",
+        "2": "Division par 4 au lieu de 2^4.",
+        "3": "Division par 2^3 : une demi-vie oubliée."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q05",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "L'iode 131 a une demi-vie de 8 jours. Au bout de 24 jours, il reste :",
+      "choices": [
+        "33 % des noyaux",
+        "25 % des noyaux",
+        "0 % des noyaux",
+        "12,5 % des noyaux"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "12,5 % des noyaux",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "24 jours = 3 demi-vies : il reste 1/8, soit 12,5 %.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Division par 3.",
+        "1": "Seulement 2 demi-vies comptées.",
+        "2": "Il reste des noyaux."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q06",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Pour dater un objet vieux de quelques milliers d'années, on choisit un noyau de demi-vie :",
+      "choices": [
+        "nulle",
+        "du même ordre de grandeur que l'âge à mesurer",
+        "de quelques secondes",
+        "de plusieurs milliards d'années"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "du même ordre de grandeur que l'âge à mesurer",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Une demi-vie du même ordre de grandeur que l'âge permet de mesurer une variation significative : c'est le cas du carbone 14.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Cela n'a pas de sens physique.",
+        "2": "Tous les noyaux auraient disparu.",
+        "3": "La variation serait trop faible pour être mesurée."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q07",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Un échantillon a une activité de 600 Bq, puis de 150 Bq 20 min plus tard. Sa demi-vie est :",
+      "choices": [
+        "20 min",
+        "5 min",
+        "40 min",
+        "10 min"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "10 min",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "600 → 300 → 150 : deux demi-vies en 20 min, donc une demi-vie de 10 min.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est la durée de deux demi-vies.",
+        "1": "Quatre demi-vies comptées au lieu de deux.",
+        "2": "Sans rapport."
+      },
+      "common_error_target": {
+        "0": "durée totale prise pour la demi-vie"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q08",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Un fossile contient 12,5 % de son carbone 14 initial (demi-vie 5 730 ans). Son âge est d'environ :",
+      "choices": [
+        "5 730 ans",
+        "17 190 ans",
+        "11 460 ans",
+        "45 840 ans"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "17 190 ans",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "12,5 % = 1/8 = 1/2^3 : 3 × 5 730 = 17 190 ans.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Une seule demi-vie.",
+        "2": "Deux demi-vies seulement.",
+        "3": "8 demi-vies : dénominateur pris pour n."
+      },
+      "common_error_target": {
+        "3": "dénominateur pris pour le nombre de demi-vies"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q09",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "La désintégration d'un noyau radioactif isolé est :",
+      "choices": [
+        "prévisible à la seconde près",
+        "déclenchée par la lumière",
+        "réversible",
+        "aléatoire"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "aléatoire",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On ne peut pas prévoir quand un noyau donné va se désintégrer ; seule la décroissance d'un grand nombre de noyaux est prévisible.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Seul un comportement statistique est prévisible.",
+        "1": "La lumière ne la déclenche pas.",
+        "2": "Un noyau désintégré ne se reforme pas."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.demi-vie.q10",
+      "notion_id": "ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Au bout de 10 demi-vies, la fraction de noyaux restants vaut environ :",
+      "choices": [
+        "1 %",
+        "0 %",
+        "0,1 %",
+        "10 %"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "0,1 %",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "1/2^10 = 1/1 024 ≈ 0,001, soit environ 0,1 %.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Erreur d'un facteur 10.",
+        "1": "Il reste toujours des noyaux.",
+        "3": "Décroissance linéaire supposée."
+      },
+      "common_error_target": {
+        "3": "décroissance supposée linéaire"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q01",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "L'albédo d'une surface est :",
+      "choices": [
+        "le rapport entre la puissance absorbée et la puissance reçue",
+        "le rapport entre la puissance diffusée et la puissance reçue",
+        "la puissance absorbée par m2",
+        "la température de la surface"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "le rapport entre la puissance diffusée et la puissance reçue",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'albédo est la fraction de la puissance reçue qui est diffusée ; il est sans unité.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est 1 − albédo.",
+        "2": "Ce n'est pas une puissance.",
+        "3": "Ce n'est pas une température."
+      },
+      "common_error_target": {
+        "0": "confusion diffusé / absorbé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q02",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "L'albédo terrestre moyen vaut environ :",
+      "choices": [
+        "3",
+        "0,3",
+        "0,03",
+        "0,9"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "0,3",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Environ 30 % de la puissance solaire reçue est diffusée vers l'espace.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Un albédo ne dépasse pas 1.",
+        "2": "Beaucoup trop faible.",
+        "3": "Ce serait une planète couverte de neige."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q03",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Quelle surface a l'albédo le plus faible ?",
+      "choices": [
+        "La glace de mer",
+        "L'océan",
+        "La neige fraîche",
+        "Le sable clair"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "L'océan",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'océan, sombre, absorbe l'essentiel du rayonnement : son albédo est inférieur à 0,1.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Albédo élevé.",
+        "2": "C'est l'albédo le plus élevé.",
+        "3": "Albédo moyen."
+      },
+      "common_error_target": {
+        "2": "inversion clair / sombre"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q04",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Une surface reçoit 400 W/m2 et a un albédo de 0,25. Elle absorbe :",
+      "choices": [
+        "1 600 W/m2",
+        "300 W/m2",
+        "100 W/m2",
+        "400 W/m2"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "300 W/m2",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "P absorbée = (1 − 0,25) × 400 = 300 W/m2.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Division par l'albédo.",
+        "2": "C'est la puissance diffusée.",
+        "3": "Tout ne peut pas être absorbé."
+      },
+      "common_error_target": {
+        "2": "puissance diffusée prise pour absorbée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q05",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Une surface reçoit 200 W et en diffuse 50 W. Son albédo vaut :",
+      "choices": [
+        "150",
+        "0,25",
+        "0,75",
+        "4"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "0,25",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Albédo = puissance diffusée / puissance reçue = 50 / 200 = 0,25.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est la puissance absorbée en W.",
+        "2": "C'est la fraction absorbée.",
+        "3": "Quotient inversé."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q06",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Si l'albédo terrestre diminuait, la puissance absorbée par la Terre :",
+      "choices": [
+        "deviendrait nulle",
+        "augmenterait",
+        "diminuerait",
+        "resterait identique"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "augmenterait",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La fraction absorbée 1 − A augmente quand A diminue.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Impossible.",
+        "2": "Sens inversé.",
+        "3": "Elle dépend de A."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q07",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "La fonte de la banquise arctique :",
+      "choices": [
+        "supprime l'effet de serre",
+        "diminue l'albédo et amplifie le réchauffement",
+        "augmente l'albédo et refroidit la région",
+        "ne modifie pas l'albédo"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "diminue l'albédo et amplifie le réchauffement",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'océan découvert est plus sombre que la glace : l'albédo baisse, l'absorption augmente, c'est une rétroaction positive.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'effet de serre ne dépend pas de l'albédo.",
+        "2": "Sens inversé.",
+        "3": "La couleur de la surface change."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q08",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Un albédo de 0,6 signifie que la surface :",
+      "choices": [
+        "est à 60 °C",
+        "diffuse 60 % de la puissance reçue",
+        "absorbe 60 % de la puissance reçue",
+        "émet 60 W/m2"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "diffuse 60 % de la puissance reçue",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'albédo est la fraction diffusée : 60 % sont diffusés, 40 % absorbés.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "L'albédo n'est pas une température.",
+        "2": "C'est la fraction diffusée, pas absorbée.",
+        "3": "L'albédo n'est pas une puissance."
+      },
+      "common_error_target": {
+        "2": "confusion diffusé / absorbé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q09",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Pour 340 W/m2 reçus et 238 W/m2 absorbés, l'albédo vaut :",
+      "choices": [
+        "1,43",
+        "0,3",
+        "0,7",
+        "102"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "0,3",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Fraction absorbée : 238 / 340 = 0,7 ; albédo : 1 − 0,7 = 0,3.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Quotient inversé.",
+        "2": "C'est la fraction absorbée.",
+        "3": "C'est la puissance diffusée en W/m2."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.albedo.q10",
+      "notion_id": "ES.1RE.SOLEIL.une-fraction-de-cette-puissance-quantifiee-par-lalbedo-terrestre-moyen",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Une région est couverte pour moitié de neige (albédo 0,8) et pour moitié de forêt (albédo 0,2). Son albédo moyen vaut :",
+      "choices": [
+        "0,5",
+        "0,8",
+        "0,16",
+        "1"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "0,5",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Moyenne pondérée : 0,5 × 0,8 + 0,5 × 0,2 = 0,4 + 0,1 = 0,5.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "Seule la neige est prise en compte.",
+        "2": "Produit des albédos.",
+        "3": "Somme des albédos."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q01",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Au-delà de quel niveau un son peut-il devenir nocif selon sa durée d'écoute ?",
+      "choices": [
+        "40 dB",
+        "200 dB",
+        "80 dB",
+        "20 dB"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "80 dB",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le programme retient 80 dB comme niveau au-delà duquel un son peut devenir nocif selon sa durée d'écoute.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Niveau d'une conversation calme.",
+        "1": "Aucun son courant n'atteint ce niveau.",
+        "3": "Niveau très faible."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q02",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Les cellules qui transforment la vibration en message nerveux sont :",
+      "choices": [
+        "les cellules ciliées",
+        "les cellules du tympan",
+        "les osselets",
+        "les neurones du cortex visuel"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "les cellules ciliées",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les cellules ciliées de la cochlée produisent le message nerveux.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Le tympan vibre mais ne produit pas de message nerveux.",
+        "2": "Les osselets sont des os qui transmettent la vibration.",
+        "3": "Le cortex visuel traite la vision."
+      },
+      "common_error_target": {
+        "2": "osselets crédités de la transduction"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q03",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Le domaine des fréquences audibles par l'être humain s'étend environ :",
+      "choices": [
+        "de 20 000 Hz à 100 000 Hz",
+        "de 1 Hz à 10 Hz",
+        "de 20 Hz à 20 000 Hz",
+        "de 0 Hz à 100 Hz"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "de 20 Hz à 20 000 Hz",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'oreille humaine perçoit environ de 20 Hz à 20 000 Hz, selon l'âge.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Ce sont des ultrasons.",
+        "1": "Ce sont des infrasons.",
+        "3": "Trop restreint."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q04",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Les dégâts causés aux cellules ciliées par un son trop intense sont :",
+      "choices": [
+        "souvent irréversibles",
+        "toujours réparés en une nuit",
+        "sans conséquence",
+        "bénéfiques pour l'audition"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "souvent irréversibles",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les cellules ciliées, en nombre limité, ne se renouvellent pas chez l'être humain.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "Elles ne se renouvellent pas.",
+        "2": "Ils peuvent causer une surdité.",
+        "3": "Faux."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q05",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Avec la règle « +3 dB divise la durée par 2 » et 80 dB pour 8 h, la durée acceptable à 86 dB est :",
+      "choices": [
+        "6 h",
+        "1 h",
+        "2 h",
+        "4 h"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "2 h",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "86 − 80 = 6 dB = 2 × 3 dB : 8 / 2^2 = 2 h.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Soustraction de 2 h.",
+        "1": "Trois paliers comptés.",
+        "3": "Un seul palier compté."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q06",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Le risque pour l'oreille dépend :",
+      "choices": [
+        "du niveau sonore et de la durée d'exposition",
+        "uniquement de la fréquence",
+        "uniquement de la durée",
+        "de la couleur de la source"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "du niveau sonore et de la durée d'exposition",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Intensité et durée d'écoute déterminent ensemble le risque.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "La fréquence seule ne suffit pas.",
+        "2": "Le niveau compte aussi.",
+        "3": "Sans rapport."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q07",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Deux sources identiques de 70 dB fonctionnant ensemble produisent environ :",
+      "choices": [
+        "70 dB",
+        "35 dB",
+        "73 dB",
+        "140 dB"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "73 dB",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Doubler l'intensité sonore ajoute environ 3 dB au niveau.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Le niveau augmente.",
+        "1": "Le niveau n'est pas divisé.",
+        "3": "Les niveaux en dB ne s'additionnent pas."
+      },
+      "common_error_target": {
+        "3": "addition des décibels"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q08",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "L'oreille moyenne contient :",
+      "choices": [
+        "les osselets",
+        "la cochlée",
+        "le pavillon",
+        "le nerf optique"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "les osselets",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'oreille moyenne contient les osselets (marteau, enclume, étrier) qui transmettent la vibration du tympan à l'oreille interne.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "La cochlée est dans l'oreille interne.",
+        "2": "Le pavillon fait partie de l'oreille externe.",
+        "3": "Le nerf optique concerne l'œil."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q09",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Pour limiter le risque lors d'un concert, il est efficace de :",
+      "choices": [
+        "rester sans pause toute la soirée",
+        "monter le volume de son casque au retour",
+        "porter des protections et s'éloigner des enceintes",
+        "se placer contre les enceintes"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "porter des protections et s'éloigner des enceintes",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les protections individuelles et l'éloignement diminuent le niveau reçu ; les pauses limitent la durée d'exposition.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "La durée d'exposition augmente.",
+        "1": "L'exposition se prolonge.",
+        "3": "Le niveau reçu est maximal."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.1RE.audition.q10",
+      "notion_id": "ES.1RE.SON.au-dela-de-80-db-un-son-peut-devenir-nocif-selon-son-intensite-et-sa-d",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "1RE",
+      "question": "Avec la même règle, un baladeur à 95 dB autorise une écoute d'environ :",
+      "choices": [
+        "8 h",
+        "15 min",
+        "4 h",
+        "1 h"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "15 min",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "95 − 80 = 15 dB = 5 × 3 dB : 8 h / 2^5 = 8 h / 32 = 0,25 h = 15 min.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Aucune division.",
+        "2": "Un seul palier compté.",
+        "3": "Trois paliers comptés."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

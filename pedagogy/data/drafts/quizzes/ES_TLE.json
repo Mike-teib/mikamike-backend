@@ -1,0 +1,840 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q01",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "La surface terrestre émet principalement un rayonnement :",
+      "choices": [
+        "visible",
+        "gamma",
+        "infrarouge",
+        "ultraviolet"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "infrarouge",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "À environ 15 °C, la surface émet un rayonnement thermique dans l'infrarouge.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est surtout le rayonnement solaire.",
+        "1": "Sans rapport.",
+        "3": "Le Soleil en émet, pas la surface terrestre."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q02",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Lequel de ces gaz n'est pas un gaz à effet de serre significatif ?",
+      "choices": [
+        "Le dioxyde de carbone (CO2)",
+        "Le méthane (CH4)",
+        "Le diazote (N2)",
+        "La vapeur d'eau (H2O)"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Le diazote (N2)",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "N2 n'absorbe pratiquement pas l'infrarouge terrestre, contrairement à H2O, CO2 et CH4.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est un GES majeur.",
+        "1": "C'est un GES puissant.",
+        "3": "C'est le premier GES naturel."
+      },
+      "common_error_target": {
+        "3": "vapeur d'eau oubliée comme GES"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q03",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Quand la concentration des GES augmente, l'atmosphère :",
+      "choices": [
+        "devient transparente à l'infrarouge",
+        "émet moins de rayonnement vers la surface",
+        "absorbe davantage l'infrarouge émis par la surface",
+        "réfléchit davantage la lumière solaire"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "absorbe davantage l'infrarouge émis par la surface",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Plus de GES : plus d'absorption de l'infrarouge terrestre et plus de puissance renvoyée vers la surface.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est l'inverse.",
+        "1": "Elle en émet davantage.",
+        "3": "Confusion avec l'albédo."
+      },
+      "common_error_target": {
+        "3": "confusion effet de serre / albédo"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q04",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "L'essentiel de l'énergie supplémentaire due au forçage est stocké :",
+      "choices": [
+        "dans les glaces",
+        "dans les sols",
+        "dans les océans",
+        "dans l'atmosphère"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "dans les océans",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Environ 90 % de l'énergie supplémentaire est stockée dans les océans.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Une faible part sert à la fonte des glaces.",
+        "1": "Une faible part.",
+        "3": "Une faible part seulement."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q05",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "CO2 : 280 ppm avant l'ère industrielle, 420 ppm aujourd'hui. L'augmentation relative est de :",
+      "choices": [
+        "33 %",
+        "150 %",
+        "50 %",
+        "140 %"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "50 %",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "(420 − 280) / 280 = 0,5, soit 50 %.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Division par la valeur finale.",
+        "1": "Rapport final / initial en %.",
+        "3": "Variation absolue écrite en %."
+      },
+      "common_error_target": {
+        "0": "division par la valeur finale"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q06",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Le forçage radiatif est :",
+      "choices": [
+        "la température moyenne de la Terre",
+        "la quantité de CO2 dans l'air",
+        "la différence entre puissance radiative reçue et émise",
+        "la puissance émise par le Soleil"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "la différence entre puissance radiative reçue et émise",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le forçage radiatif mesure la perturbation du bilan radiatif du système Terre.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ce n'est pas une température.",
+        "1": "Ce n'est pas une concentration.",
+        "3": "Ce n'est pas une puissance solaire."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q07",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Le réchauffement global mesuré depuis un siècle et demi est d'environ :",
+      "choices": [
+        "+0,01 °C",
+        "+5 °C",
+        "+1 °C",
+        "+10 °C"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "+1 °C",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le programme retient un réchauffement d'environ +1 °C.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Beaucoup trop faible.",
+        "1": "Trop élevé pour la période observée.",
+        "3": "Beaucoup trop élevé."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q08",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Laquelle de ces rétroactions est négative (stabilisatrice) à court terme ?",
+      "choices": [
+        "La fonte des glaces",
+        "Le dégel du pergélisol",
+        "L'absorption de CO2 par les organismes chlorophylliens",
+        "La hausse de la vapeur d'eau"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "L'absorption de CO2 par les organismes chlorophylliens",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le puits de CO2 des organismes chlorophylliens atténue à court terme la hausse du CO2.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Rétroaction positive (baisse d'albédo).",
+        "1": "Rétroaction positive (libération de CH4 et CO2).",
+        "3": "Rétroaction positive."
+      },
+      "common_error_target": {
+        "0": "fonte des glaces vue comme refroidissante"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q09",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Système Terre : 240,5 W/m2 reçus, 239,6 W/m2 émis. Le système :",
+      "choices": [
+        "est exactement à l'équilibre",
+        "n'échange pas d'énergie",
+        "accumule de l'énergie",
+        "perd de l'énergie"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "accumule de l'énergie",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Il reçoit plus qu'il n'émet : il accumule de l'énergie et se réchauffe.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Il y a un écart de 0,9 W/m2.",
+        "1": "Il échange en permanence.",
+        "3": "Il reçoit plus qu'il n'émet."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.effet-de-serre.q10",
+      "notion_id": "ES.TLE.CLIMAT.lorsque-la-concentration-des-ges-augmente-latmosphere-absorbe-davantag",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "La contribution d'un gaz à l'effet de serre dépend :",
+      "choices": [
+        "de sa température d'ébullition",
+        "de son spectre d'absorption et de son abondance",
+        "uniquement de sa masse molaire",
+        "uniquement de sa couleur"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "de son spectre d'absorption et de son abondance",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Un gaz contribue d'autant plus qu'il absorbe l'infrarouge et qu'il est abondant.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "Sans rapport direct.",
+        "2": "Sans rapport direct.",
+        "3": "Les GES sont incolores."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q01",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "La méthode de capture-marquage-recapture repose sur l'hypothèse que :",
+      "choices": [
+        "les individus marqués ne se mélangent pas",
+        "la population double entre les captures",
+        "la proportion de marqués est la même dans l'échantillon et dans la population",
+        "tous les individus sont capturés"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "la proportion de marqués est la même dans l'échantillon et dans la population",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "C'est l'égalité des proportions de marqués qui permet le calcul par quatrième proportionnelle.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Au contraire, ils doivent se mélanger.",
+        "1": "La population doit rester stable.",
+        "3": "On ne capture qu'un échantillon."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q02",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "50 individus marqués ; recapture : 40 individus dont 10 marqués. Effectif estimé :",
+      "choices": [
+        "80",
+        "12,5",
+        "500",
+        "200"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "200",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "N = 50 × 40 / 10 = 200 individus.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Calcul 50 + 40 − 10 : formule additive sans fondement.",
+        "1": "Calcul 50 × 10 / 40 : produit en croix mal posé.",
+        "2": "Calcul 50 × 10 : division oubliée."
+      },
+      "common_error_target": {
+        "1": "produit en croix mal posé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q03",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Avec les notations M (marqués), C (recapturés), R (marqués recapturés), l'effectif estimé est :",
+      "choices": [
+        "N = M × C / R",
+        "N = M × R / C",
+        "N = C × R / M",
+        "N = M + C − R"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "N = M × C / R",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "M/N = R/C donne N = M × C / R.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "Produit en croix inversé.",
+        "2": "Mauvaise combinaison.",
+        "3": "Formule additive incorrecte."
+      },
+      "common_error_target": {
+        "1": "produit en croix inversé"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q04",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Si des individus perdent leur marque, l'effectif est :",
+      "choices": [
+        "impossible à estimer",
+        "surestimé",
+        "sous-estimé",
+        "exactement estimé"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "surestimé",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "R diminue, donc N = M × C / R augmente.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Le calcul reste possible.",
+        "2": "Sens inverse.",
+        "3": "Le biais existe."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q05",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Pour une fréquence observée f sur un échantillon de taille n, l'intervalle de confiance au niveau 95 % utilisé en Terminale est :",
+      "choices": [
+        "[f − n ; f + n]",
+        "[0 ; f]",
+        "[f − 1/√n ; f + 1/√n]",
+        "[f − 1/n ; f + 1/n]"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "[f − 1/√n ; f + 1/√n]",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La formule du programme est [f − 1/√n ; f + 1/√n].",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Sans sens pour une proportion.",
+        "1": "Sans rapport.",
+        "3": "Racine carrée oubliée."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q06",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "n = 400, f = 0,3. L'intervalle de confiance au niveau 95 % est :",
+      "choices": [
+        "[0,2 ; 0,4]",
+        "[0,29 ; 0,31]",
+        "[0,3 ; 0,35]",
+        "[0,25 ; 0,35]"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "[0,25 ; 0,35]",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "1/√400 = 0,05 : [0,3 − 0,05 ; 0,3 + 0,05] = [0,25 ; 0,35].",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Utilise 1/√100.",
+        "1": "Utilise 1/100 environ.",
+        "2": "Borne inférieure oubliée."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q07",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Un niveau de confiance de 95 % signifie que :",
+      "choices": [
+        "environ 95 % des intervalles ainsi construits contiennent la vraie valeur",
+        "la vraie valeur est certainement dans l'intervalle",
+        "95 % de la population est marquée",
+        "l'erreur est de 95 %"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "environ 95 % des intervalles ainsi construits contiennent la vraie valeur",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le niveau de confiance est strictement inférieur à 100 % à cause de la fluctuation des échantillons.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "1": "Ce n'est pas une certitude.",
+        "2": "Sans rapport.",
+        "3": "Sans rapport."
+      },
+      "common_error_target": {
+        "1": "intervalle vu comme certitude"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q08",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Pour rendre l'estimation plus précise au même niveau de confiance, il faut :",
+      "choices": [
+        "recapturer immédiatement après le marquage",
+        "augmenter la taille de l'échantillon",
+        "diminuer la taille de l'échantillon",
+        "marquer moins d'individus"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "augmenter la taille de l'échantillon",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "L'amplitude 2/√n diminue quand n augmente.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Le mélange n'aurait pas lieu.",
+        "2": "Moins précis.",
+        "3": "Moins de marqués recapturés, estimation moins fiable."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q09",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Une marque très visible augmente la prédation des individus marqués. L'effectif est alors :",
+      "choices": [
+        "correctement estimé",
+        "divisé par deux",
+        "surestimé",
+        "sous-estimé"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "surestimé",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Moins de marqués survivent : R diminue et N = M × C / R augmente.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Le biais existe.",
+        "1": "Sans fondement.",
+        "3": "Sens inverse."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.cmr.q10",
+      "notion_id": "ES.TLE.VIVANT.si-on-suppose-que-la-proportion-dindividus-marques-est-identique-dans",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Intervalle [0,1 ; 0,3] pour la proportion p de marqués, avec 60 marqués. L'intervalle pour N = 60/p est :",
+      "choices": [
+        "[0,1 ; 0,3]",
+        "[200 ; 600]",
+        "[6 ; 18]",
+        "[600 ; 200]"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "[200 ; 600]",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "N = 60/p décroît en p : p = 0,3 donne 200 et p = 0,1 donne 600.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est l'intervalle de p.",
+        "2": "Multiplication au lieu de division.",
+        "3": "Bornes dans le mauvais ordre."
+      },
+      "common_error_target": {
+        "3": "inversion des bornes non gérée"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q01",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Pour un gène à deux allèles de fréquences p et q :",
+      "choices": [
+        "p² + q² = 1",
+        "p = 2q",
+        "p + q = 1",
+        "p × q = 1"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "p + q = 1",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les fréquences des deux seuls allèles du gène ont pour somme 1.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Il manque le terme 2pq.",
+        "1": "Sans fondement.",
+        "3": "Sans fondement."
+      },
+      "common_error_target": {
+        "0": "oubli des hétérozygotes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q02",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Selon le modèle de Hardy-Weinberg, la fréquence des hétérozygotes est :",
+      "choices": [
+        "p²",
+        "q²",
+        "2pq",
+        "pq"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "2pq",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Deux combinaisons de gamètes donnent un hétérozygote : 2pq.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Homozygotes AA.",
+        "1": "Homozygotes aa.",
+        "3": "Facteur 2 oublié."
+      },
+      "common_error_target": {
+        "3": "facteur 2 oublié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q03",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Si q = 0,2, la fréquence attendue des homozygotes aa est :",
+      "choices": [
+        "0,4",
+        "0,64",
+        "0,04",
+        "0,2"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "0,04",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Les homozygotes aa ont pour fréquence q² = 0,2² = 0,04.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "2q au lieu de q².",
+        "1": "C'est p².",
+        "3": "Fréquence allélique."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q04",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "100 individus : 64 AA, 32 Aa, 4 aa. La fréquence de l'allèle A est :",
+      "choices": [
+        "0,96",
+        "0,32",
+        "0,8",
+        "0,64"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "0,8",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Allèles A : 2 × 64 + 32 = 160 sur 200, soit 0,8.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Fréquence des phénotypes dominants.",
+        "1": "Fréquence des hétérozygotes.",
+        "3": "Fréquence des génotypes AA."
+      },
+      "common_error_target": {
+        "3": "génotypes comptés au lieu des allèles"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q05",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Laquelle n'est pas une hypothèse du modèle de Hardy-Weinberg ?",
+      "choices": [
+        "Des unions au hasard (panmixie)",
+        "L'absence de migration",
+        "Une forte sélection naturelle",
+        "Une population de très grande taille"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "Une forte sélection naturelle",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le modèle suppose au contraire l'absence de sélection.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est une hypothèse du modèle.",
+        "1": "C'est une hypothèse du modèle.",
+        "3": "C'est une hypothèse du modèle."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q06",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "p = 0,7. La fréquence attendue des hétérozygotes est :",
+      "choices": [
+        "0,49",
+        "0,09",
+        "0,42",
+        "0,21"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "0,42",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "q = 0,3 ; 2pq = 2 × 0,7 × 0,3 = 0,42.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "C'est p².",
+        "1": "C'est q².",
+        "3": "Facteur 2 oublié."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q07",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Le modèle de Hardy-Weinberg décrit la transmission des allèles comme :",
+      "choices": [
+        "un phénomène sans lien avec la reproduction",
+        "un processus de sélection",
+        "un phénomène aléatoire décrit par des probabilités",
+        "un phénomène entièrement déterminé"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "un phénomène aléatoire décrit par des probabilités",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le modèle utilise la théorie des probabilités pour décrire la transmission aléatoire des allèles.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Il décrit justement la reproduction.",
+        "1": "Le modèle exclut la sélection.",
+        "3": "Le hasard y joue un rôle central."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q08",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Une maladie récessive touche 1 personne sur 10 000 (population à l'équilibre). La fréquence de l'allèle est :",
+      "choices": [
+        "0,1",
+        "0,02",
+        "0,01",
+        "0,0001"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "0,01",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "q² = 1/10 000 donc q = 1/100 = 0,01.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Racine mal calculée.",
+        "1": "C'est environ 2q.",
+        "3": "C'est q², la fréquence des malades."
+      },
+      "common_error_target": {
+        "3": "q² pris pour q"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q09",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "Dans une petite population, les fréquences alléliques varient au hasard. Ce processus est :",
+      "choices": [
+        "la mutation",
+        "l'équilibre de Hardy-Weinberg",
+        "la dérive génétique",
+        "la sélection naturelle"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "la dérive génétique",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La dérive génétique est aléatoire et d'autant plus forte que l'effectif est faible.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Une mutation crée un allèle nouveau.",
+        "1": "C'est le modèle sans évolution.",
+        "3": "La sélection est orientée par le milieu."
+      },
+      "common_error_target": {
+        "3": "confusion dérive / sélection"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.ES.TLE.hardy-weinberg.q10",
+      "notion_id": "ES.TLE.VIVANT.le-modele-mathematique-de-hardy-weinberg-utilise-la-theorie-des-probab",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE",
+      "level": "TLE",
+      "question": "q² = 0,16 dans une population à l'équilibre. La fréquence des hétérozygotes est :",
+      "choices": [
+        "0,4",
+        "0,48",
+        "0,24",
+        "0,36"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "0,48",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "q = 0,4, p = 0,6, 2pq = 2 × 0,6 × 0,4 = 0,48.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est q.",
+        "2": "Facteur 2 oublié.",
+        "3": "C'est p²."
+      },
+      "common_error_target": {},
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}
