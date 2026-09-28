@@ -91,8 +91,7 @@ maquette lampe/globe, filtration) et ne demandent jamais de regarder le Soleil.
 
 ## Points à vérifier par l'enseignant relecteur
 
-1. **Position de la bonne réponse** : dans tous les QCM et quiz ST, la bonne réponse est au rang 0.
-   Le mélange des choix doit être assuré à l'affichage ; sinon, permuter avant publication.
+1. **Position de la bonne réponse** : les brouillons historiques peuvent encore stocker la bonne réponse au rang 0, mais la commande d'approbation permute désormais les choix de façon déterministe et remappe l'index correct ainsi que les diagnostics associés avant entrée en banque.
 2. **Programmes différents selon le niveau** : CM1 est calibré sur le cycle 3 2026, CM2/6e sur le cycle 3 2020
    (transition 2026-2027). Vérifier qu'aucun item CM2/6e ne dépasse ou ne contredit le nouveau programme lorsque
    celui-ci s'appliquera à ces niveaux.
