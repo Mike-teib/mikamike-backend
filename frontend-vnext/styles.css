@@ -117,3 +117,6 @@ input:focus,textarea:focus{border-color:var(--teal);box-shadow:0 0 0 4px rgba(15
   .dashboard-illustration{width:100%}
   .panel-illustration{margin-top:0}
 }
+
+.subject-card:disabled,.subject-disabled{cursor:not-allowed;opacity:.52;filter:saturate(.45)}
+.subject-card:disabled:hover,.subject-disabled:hover{transform:none;box-shadow:0 8px 26px rgba(23,50,77,.07)}

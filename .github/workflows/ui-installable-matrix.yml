@@ -2,7 +2,7 @@ name: MikaMike responsive phone tablet PC
 
 on:
   push:
-    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927"]
+    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927", "fix/mikamike-prod-legacy-adapter-20260928"]
     paths:
       - "frontend-vnext/**"
       - ".github/workflows/ui-installable-matrix.yml"
