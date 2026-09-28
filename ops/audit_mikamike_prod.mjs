@@ -133,7 +133,7 @@ async function demo(width,height,label) {
   const subject = page.locator(".subject-card").first();
   if (await subject.count() && await subject.isVisible()) {
     let count=0; const h=req=>{if(req.url().includes("/api/"))count++;}; page.on("request",h);
-    await subject.click(); await page.waitForTimeout(300); page.off("request",h);
+    await subject.click(); await page.waitForTimeout(700); page.off("request",h);
     const notice = await txt(page.locator("#catalogNotice"));
     if (count===0) fail(label + " sélection matière","Aucune requête/changement de parcours; seul le message change",{notice}); else pass(label + " sélection matière",count + " requête(s) API");
   }
@@ -149,11 +149,13 @@ async function demo(width,height,label) {
       subjectFilter: cs?.filter || null,
       subjectColor: cs?.color || null,
       panelDisplay: panel ? getComputedStyle(panel).display : null,
+      panelOpacity: panel ? getComputedStyle(panel).opacity : null,
+      panelAnimationPlayStates: panel ? panel.getAnimations().map(a => a.playState) : [],
       dialogOpen: !!dlg?.open
     };
   });
-  if (visualState.subjectOpacity === "1" && visualState.subjectFilter === "none" && !visualState.dialogOpen) {
-    pass(label + " cartes matières visuellement actives","opacity=1, filter=none");
+  if (visualState.subjectOpacity === "1" && visualState.subjectFilter === "none" && visualState.panelOpacity === "1" && !visualState.dialogOpen) {
+    pass(label + " cartes matières visuellement actives","opacity=1, panelOpacity=1, filter=none");
   } else {
     fail(label + " cartes matières visuellement actives","État visuel inattendu",{visualState});
   }
