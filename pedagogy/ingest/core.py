@@ -85,6 +85,9 @@ class Item:
     kind: str = "objectif"          # objectif | contenu | capacite | connaissance | attendu
     difficulty: int = 2
     optional: bool = False
+    # None : complétude déduite de la ponctuation finale ; True/False : le parseur sait
+    # (ex. lignes de tableau sans point final mais complètes) — évite les faux « partiels ».
+    complete: Optional[bool] = None
 
 
 @dataclass
@@ -126,7 +129,10 @@ class Builder:
         if not found_on_page(self.st, it.page, excerpt):
             self.rejected.append((it, "extrait_absent_de_la_page"))
             return None
-        partial = not excerpt.rstrip().endswith((".", "?", "!", ")", "»", ":", ";"))
+        if it.complete is None:
+            partial = not excerpt.rstrip().endswith((".", "?", "!", ")", "»", ":", ";"))
+        else:
+            partial = not it.complete
         title = title_from_excerpt(excerpt)
         if partial and not title.endswith("…"):
             title = title + " …"

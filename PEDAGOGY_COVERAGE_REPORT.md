@@ -4,10 +4,10 @@
 
 ## Synthèse
 
-- Notions au registre : **188**
-- PROVEN_OFFICIAL : **188** · UNPROVEN : **0** · CONFLICT : **0** · DEPRECATED : **0** · PROVEN_INTERNAL : **0**
-- Exercices en banque : **0** (cible théorique : 3384 = 188 notion(s) prouvée(s) × 18)
-- Questions de quiz : **0** (cible théorique : 1880)
+- Notions au registre : **905**
+- PROVEN_OFFICIAL : **905** · UNPROVEN : **0** · CONFLICT : **0** · DEPRECATED : **0** · PROVEN_INTERNAL : **0**
+- Exercices en banque : **0** (cible théorique : 16290 = 905 notion(s) prouvée(s) × 18)
+- Questions de quiz : **0** (cible théorique : 9050)
 - Sources officielles attendues : **22** dont récupérées : **22**
 
 Tant qu'aucune source officielle n'est récupérée, **toutes les notions sont UNPROVEN** et la banque d'exercices reste volontairement vide (règle : contenu uniquement sur notion PROVEN_OFFICIAL).
@@ -16,10 +16,10 @@ Tant qu'aucune source officielle n'est récupérée, **toutes les notions sont U
 
 | Matière | CP | CE1 | CE2 | CM1 | CM2 | 6E | 5E | 4E | 3E | 2NDE | 1RE | TLE |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| MATHS | 65 (65 prouvées) | 65 (65 prouvées) | 58 (58 prouvées) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MATHS | 65 (65 prouvées) | 65 (65 prouvées) | 58 (58 prouvées) | 129 (129 prouvées) | 115 (115 prouvées) | 95 (95 prouvées) | 105 (105 prouvées) | 34 (34 prouvées) | 37 (37 prouvées) | 0 | 0 | 0 |
 | PHYSIQUE_CHIMIE | n/a | n/a | n/a | n/a | n/a | n/a | 0 | 0 | 0 | 0 | 0 | 0 |
 | SVT | n/a | n/a | n/a | n/a | n/a | n/a | 0 | 0 | 0 | 0 | 0 | 0 |
-| SCIENCES_TECHNOLOGIE | 0 | 0 | 0 | 0 | 0 | 0 | n/a | n/a | n/a | n/a | n/a | n/a |
+| SCIENCES_TECHNOLOGIE | 18 (18 prouvées) | 29 (29 prouvées) | 30 (30 prouvées) | 38 (38 prouvées) | 24 (24 prouvées) | 63 (63 prouvées) | n/a | n/a | n/a | n/a | n/a | n/a |
 | ENSEIGNEMENT_SCIENTIFIQUE | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 0 | 0 |
 
 ## Statut QA des lignes
@@ -27,8 +27,8 @@ Tant qu'aucune source officielle n'est récupérée, **toutes les notions sont U
 | QA_STATUS | Lignes |
 |---|---|
 | NOT_APPLICABLE | 28 |
-| NO_CONTENT | 188 |
-| NO_NOTION | 29 |
+| NO_CONTENT | 905 |
+| NO_NOTION | 17 |
 
 ## Sources officielles attendues
 

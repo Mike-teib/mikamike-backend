@@ -4,7 +4,8 @@
   "disclaimer": "Correspondance indicative : les notions historiques n'ont aucune source ; aucune n'est une preuve. Aucun ancien contenu n'est modifié.",
   "counts": {
     "LEVEL_AMBIGUOUS": 5,
-    "UNMATCHED": 42
+    "MATCHED_SIMILAR": 1,
+    "UNMATCHED": 41
   },
   "entries": [
     {
@@ -113,7 +114,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.19
     },
     {
       "legacy_id": "maths_3e_03",
@@ -122,7 +123,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.27
     },
     {
       "legacy_id": "maths_3e_04",
@@ -131,7 +132,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.19
     },
     {
       "legacy_id": "maths_3e_05",
@@ -140,7 +141,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.07
     },
     {
       "legacy_id": "svt_3e_01",
@@ -185,7 +186,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.13
     },
     {
       "legacy_id": "maths_4e_02",
@@ -194,7 +195,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.07
     },
     {
       "legacy_id": "maths_4e_03",
@@ -203,7 +204,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.13
     },
     {
       "legacy_id": "maths_4e_04",
@@ -212,7 +213,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.13
     },
     {
       "legacy_id": "maths_4e_05",
@@ -221,7 +222,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.18
     },
     {
       "legacy_id": "maths_5e_01",
@@ -230,7 +231,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.5
     },
     {
       "legacy_id": "maths_5e_02",
@@ -239,7 +240,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.4
     },
     {
       "legacy_id": "maths_5e_03",
@@ -248,7 +249,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.29
     },
     {
       "legacy_id": "maths_5e_04",
@@ -257,7 +258,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.07
     },
     {
       "legacy_id": "maths_5e_05",
@@ -266,7 +267,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.25
     },
     {
       "legacy_id": "maths_5e_06",
@@ -275,7 +276,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.17
     },
     {
       "legacy_id": "phys_5e_01",
@@ -302,7 +303,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.5
     },
     {
       "legacy_id": "maths_6e_02",
@@ -318,9 +319,11 @@
       "legacy_title": "Fractions et égalités",
       "legacy_level": "6e",
       "legacy_subject": "maths",
-      "status": "UNMATCHED",
-      "candidates": [],
-      "score": 0.0
+      "status": "MATCHED_SIMILAR",
+      "candidates": [
+        "MATHS.6E.NCRP.etablir-des-egalites-de-fractions"
+      ],
+      "score": 0.67
     },
     {
       "legacy_id": "maths_6e_04",
@@ -329,7 +332,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.2
     },
     {
       "legacy_id": "maths_6e_05",
@@ -338,7 +341,7 @@
       "legacy_subject": "maths",
       "status": "UNMATCHED",
       "candidates": [],
-      "score": 0.0
+      "score": 0.2
     },
     {
       "legacy_id": "maths_prim_01",
