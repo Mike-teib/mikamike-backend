@@ -2,7 +2,7 @@ name: MikaMike frontend deploy pack
 
 on:
   push:
-    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927"]
+    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927", "ui/mikamike-installable-improvements-20260928"]
     paths:
       - "ops/deploy_frontend_micro_pwa.sh"
       - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
