@@ -300,6 +300,18 @@ def _solutions(text: str) -> List[str]:
     return [s.strip() for s in re.split(r"\s+ou\s+|;", text) if s.strip()]
 
 
+def _has_top_level_add_sub(s: str) -> bool:
+    depth = 0
+    for i, ch in enumerate(s):
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth = max(0, depth - 1)
+        elif depth == 0 and ch in "+-" and i > 0 and s[i - 1] not in "eE^*/(+-":
+            return True
+    return False
+
+
 def _form_gap(raw: str, form: str) -> Optional[str]:
     """None si la forme est respectée, sinon le code d'écart."""
     s = raw.replace(" ", "").replace("−", "-")
@@ -319,7 +331,12 @@ def _form_gap(raw: str, form: str) -> Optional[str]:
     if form == "developpee":
         return None if sympy.expand(expr) == expr and "(" not in s else "forme_non_developpee"
     if form == "factorisee":
-        return None if isinstance(expr, (sympy.Mul, sympy.Pow)) else "forme_non_factorisee"
+        if isinstance(expr, (sympy.Mul, sympy.Pow)):
+            return None
+        # SymPy peut simplifier 3(x+5) lors du parsing. On conserve donc aussi
+        # l'information syntaxique : un produit de facteurs sans +/− au niveau racine.
+        explicit_product = bool(re.search(r"(?:[0-9A-Za-z)]\s*\(|\)\s*\(|\*\s*\()", s))
+        return None if explicit_product and not _has_top_level_add_sub(s) else "forme_non_factorisee"
     raise MathInputRejected("forme_inconnue")
 
 
