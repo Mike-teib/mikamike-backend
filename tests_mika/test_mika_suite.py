@@ -107,3 +107,32 @@ def test_parcours_prochaine_etape_reelle(client):
     assert data["competence"], "la compétence visée doit être précisée"
     assert data["niveau"]
     assert data["consigne"]
+
+
+def test_parcours_prochaine_etape_filtre_niveau_matiere(client):
+    r = client.get(
+        "/api/v1/parcours/prochaine-etape",
+        params={"student_id": "anon-eleve-filtre", "level": "6e", "subject": "maths"},
+    )
+    assert r.status_code == 200, r.text
+    data = r.json()
+    assert data["niveau"] == "6e"
+    assert data["exercice_id"] in {"exo-maths-priorites-1", "exo-maths-fractions-1"}
+
+
+def test_parcours_prochaine_etape_programme_indisponible(client):
+    r = client.get(
+        "/api/v1/parcours/prochaine-etape",
+        params={"student_id": "anon-eleve-filtre", "level": "5e", "subject": "svt"},
+    )
+    assert r.status_code == 404
+    assert r.json()["detail"] == "programme_indisponible"
+
+
+def test_parcours_prochaine_etape_refuse_matiere_inconnue(client):
+    r = client.get(
+        "/api/v1/parcours/prochaine-etape",
+        params={"student_id": "anon-eleve-filtre", "level": "5e", "subject": "sciences"},
+    )
+    assert r.status_code == 422
+    assert r.json()["detail"] == "matiere_inconnue"
