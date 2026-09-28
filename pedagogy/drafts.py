@@ -56,6 +56,8 @@ def _load(kind: str, drafts_dir: Path) -> Tuple[List[Tuple[Path, object]], List[
     items: List[Tuple[Path, object]] = []
     errors: List[Tuple[str, str]] = []
     for f in sorted((drafts_dir / kind).glob("*.json")):
+        if f.name.startswith("_"):
+            continue
         try:
             raw = json.loads(f.read_text(encoding="utf-8"))
             for obj in raw[kind]:
@@ -220,6 +222,8 @@ def approve(reviewer: str, notion_ids: Sequence[str], item_ids: Sequence[str],
         bank = data_dir / "bank" / kind
         bank.mkdir(parents=True, exist_ok=True)
         for f in sorted((data_dir / "drafts" / kind).glob("*.json")):
+            if f.name.startswith("_"):
+                continue
             raw = json.loads(f.read_text(encoding="utf-8"))
             keep, moved = [], []
             for obj in raw[kind]:
