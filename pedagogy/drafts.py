@@ -197,11 +197,77 @@ def _permute_quiz_for_bank(obj: Dict[str, object]) -> Dict[str, object]:
     return out
 
 
-def approve(reviewer: str, notion_ids: Sequence[str], item_ids: Sequence[str],
-            data_dir: Path = DATA_DIR) -> Dict[str, int]:
-    """Revue humaine explicite. Ne jamais appeler depuis un pipeline automatique."""
+def _approval_preflight(
+    reviewer: str,
+    notion_ids: Sequence[str],
+    item_ids: Sequence[str],
+    data_dir: Path,
+) -> None:
+    """Valide entièrement la demande avant la première écriture."""
     if not reviewer.strip():
         raise ValueError("relecteur_obligatoire")
+
+    reg = load_registry(data_dir, strict=True)
+    wanted_notions = set(notion_ids)
+    wanted_items = set(item_ids)
+
+    missing_notions = sorted(wanted_notions - set(reg.notions))
+    if missing_notions:
+        raise ValueError("notion_inconnue:" + ",".join(missing_notions))
+    for notion_id in sorted(wanted_notions):
+        notion = reg.notions[notion_id]
+        if notion.proof_status != ProofStatus.PROVEN_OFFICIAL:
+            raise ValueError(f"approbation_refusee_notion_non_prouvee:{notion_id}")
+
+    ex, ex_err = _load("exercises", data_dir / "drafts")
+    qz, qz_err = _load("quizzes", data_dir / "drafts")
+    if ex_err or qz_err:
+        first = sorted(ex_err + qz_err)[0]
+        raise ValueError(f"brouillon_invalide:{first[0]}:{first[1]}")
+
+    index: Dict[str, object] = {}
+    duplicates: List[str] = []
+    for _, item in [*ex, *qz]:
+        oid = getattr(item, "exercise_id", None) or getattr(item, "quiz_id")
+        if oid in index:
+            duplicates.append(oid)
+        index[oid] = item
+    if duplicates:
+        raise ValueError("item_id_duplique:" + ",".join(sorted(set(duplicates))))
+
+    missing_items = sorted(wanted_items - set(index))
+    if missing_items:
+        raise ValueError("item_inconnu:" + ",".join(missing_items))
+
+    from pedagogy.validators.exercise import validate_exercise
+    from pedagogy.validators.quiz import validate_quiz
+
+    for item_id in sorted(wanted_items):
+        item = index[item_id]
+        notion = reg.notions.get(item.notion_id)
+        if notion is None:
+            raise ValueError(f"notion_inconnue_pour_item:{item_id}:{item.notion_id}")
+        if notion.proof_status != ProofStatus.PROVEN_OFFICIAL:
+            raise ValueError(f"item_sur_notion_non_prouvee:{item_id}:{item.notion_id}")
+        if notion.review_status != ReviewStatus.APPROVED and item.notion_id not in wanted_notions:
+            raise ValueError(f"item_sur_notion_non_approuvee:{item_id}:{item.notion_id}")
+
+        issues = _policy_issues(item, reg)
+        issues += list(validate_exercise(item, reg) if isinstance(item, Exercise) else validate_quiz(item, reg))
+        blocking = [
+            issue for issue in issues
+            if issue.code not in EXPECTED_UNTIL_REVIEW
+            and issue.severity in (Severity.BLOCKER, Severity.ERROR)
+        ]
+        if blocking:
+            first = sorted(blocking, key=lambda issue: (issue.code, issue.object_id))[0]
+            raise ValueError(f"item_invalide:{item_id}:{first.code}:{first.detail[:160]}")
+
+
+def approve(reviewer: str, notion_ids: Sequence[str], item_ids: Sequence[str],
+            data_dir: Path = DATA_DIR) -> Dict[str, int]:
+    """Revue humaine explicite. Préflight complet avant la première écriture."""
+    _approval_preflight(reviewer, notion_ids, item_ids, data_dir)
     done = {"notions": 0, "exercises": 0, "quizzes": 0}
     wanted = set(notion_ids)
     for f in sorted((data_dir / "notions").rglob("*.json")):
@@ -209,8 +275,6 @@ def approve(reviewer: str, notion_ids: Sequence[str], item_ids: Sequence[str],
         changed = False
         for n in raw["notions"]:
             if n["notion_id"] in wanted:
-                if n["proof_status"] != "PROVEN_OFFICIAL":
-                    raise ValueError(f"approbation_refusee_notion_non_prouvee:{n['notion_id']}")
                 n["review_status"] = "APPROVED"
                 n["provenance_note"] = (n.get("provenance_note", "") + f" Revue humaine : APPROVED par {reviewer}.")[:2000]
                 done["notions"] += 1
