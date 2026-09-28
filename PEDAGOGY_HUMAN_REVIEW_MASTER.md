@@ -182,6 +182,11 @@ python -m pedagogy.drafts approve \
 python -m pedagogy.drafts check
 ```
 
+La commande `approve` exécute désormais un **préflight complet avant la première écriture** :
+toutes les notions et tous les items demandés doivent exister, les notions doivent être prouvées,
+les items doivent être valides, et chaque item doit dépendre d'une notion déjà approuvée ou approuvée
+dans le même lot. Une demande invalide s'arrête avant toute mutation.
+
 Avant tout lot suivant :
 
 - inspecter le diff de la banque ;
