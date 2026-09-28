@@ -11,7 +11,7 @@ import MathKeyboard from '../components/core/MathKeyboard';
 describe('MIKAMIKE Multi-Level Frontend RC — UI Test Suite', () => {
   test('Renders Brand Title and Default Level (Lycée général > Première Générale)', () => {
     render(<App />);
-    expect(screen.getByRole('heading', { name: /MIKAMIKE/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1, name: /MIKAMIKE/i })).toBeInTheDocument();
     expect(screen.getAllByText(/Première Générale/i)[0]).toBeInTheDocument();
   });
 
