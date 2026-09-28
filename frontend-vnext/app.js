@@ -154,10 +154,10 @@
 
   function subjectApiValue(label) {
     const map = {
-      "Mathématiques": "maths",
-      "Physique": "physique",
-      "Chimie": "chimie",
+      "Mathématiques": "mathematiques",
+      "Physique-chimie": "physique-chimie",
       "SVT": "svt",
+      "Sciences et technologie": "sciences-et-technologie",
     };
     return map[label] || String(label || "").toLowerCase();
   }
