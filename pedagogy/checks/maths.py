@@ -88,6 +88,9 @@ def value_to_text(value: Any) -> str:
     raise MathInputRejected("type_de_valeur_non_supporte")
 
 
+_THOUSANDS_RE = re.compile(r"(?<![\d.,])\d{1,3}(?: \d{3})+(?![\d])")
+
+
 def normalize_math(text: str) -> str:
     """Écriture scolaire française → syntaxe SymPy (sans rien évaluer)."""
     t = (text or "").strip()
@@ -95,6 +98,10 @@ def normalize_math(text: str) -> str:
         raise MathInputRejected("reponse_vide")
     if len(t) > MAX_LENGTH:
         raise MathInputRejected("reponse_trop_longue")
+    # Séparateur de milliers à la française (« 1 200 », « 10 000 », espaces insécables) :
+    # un nombre groupé par trois chiffres est UN nombre, pas un produit implicite.
+    t = t.replace("\u00a0", " ").replace("\u202f", " ")
+    t = _THOUSANDS_RE.sub(lambda m: re.sub(r"\s", "", m.group(0)), t)
     if not _ALLOWED_CHARS.match(t):
         raise MathInputRejected("caractere_non_autorise")
     t = t.replace("−", "-").replace("×", "*").replace("·", "*").replace("÷", "/")

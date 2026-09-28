@@ -140,3 +140,22 @@ def test_textes_de_reponse_et_fuite():
     assert text_contains_answer("on trouve 3/2 !", "3/2")
     assert not text_contains_answer("on trouve 13/2", "3/2")
     assert not text_contains_answer("on trouve 3/25", "3/2")
+
+
+# --- Séparateur de milliers à la française -----------------------------------------
+@pytest.mark.parametrize("student", ["1 200", "1200", "1 200", "1 200"])
+def test_thousands_separator_accepted(student):
+    from pedagogy.models import AnswerKind, ExpectedAnswer
+    assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value="1200"), student) == Verdict.VALID
+
+
+@pytest.mark.parametrize("student", ["1 20", "12 00", "10 00"])
+def test_badly_grouped_numbers_not_accepted(student):
+    from pedagogy.models import AnswerKind, ExpectedAnswer
+    assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value="1200"), student) != Verdict.VALID
+
+
+def test_ten_thousand_is_not_a_product():
+    from pedagogy.models import AnswerKind, ExpectedAnswer
+    assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value="10000"), "10 000") == Verdict.VALID
+    assert check_answer(ExpectedAnswer(kind=AnswerKind.MATH_EXPR, value="0"), "10 000") != Verdict.VALID
