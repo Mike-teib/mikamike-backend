@@ -3,6 +3,9 @@ import { strict as assert } from "node:assert";
 
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:375,height:812}});
+const runtimeErrors=[];
+page.on("pageerror",e=>runtimeErrors.push(String(e)));
+page.on("console",m=>{if(m.type()==="error")runtimeErrors.push(m.text());});
 await page.addInitScript(() => {
   window.__microPermissionRequested = false;
   Object.defineProperty(navigator, "mediaDevices", {
@@ -30,6 +33,14 @@ const micCheck=page.getByRole("button",{name:/Vérifier le micro|Micro prêt/});
 await micCheck.click();
 await page.waitForFunction(()=>window.__microPermissionRequested===true);
 await page.waitForFunction(()=>document.querySelector("#micCheckButton")?.textContent.includes("Micro prêt"));
+if(!(await page.locator("#installButton").isVisible())){
+  console.error("DIAG install hidden",await page.evaluate(()=>({
+    hidden:document.querySelector("#installButton")?.hidden,
+    native:window.MIKAMIKE_NATIVE,
+    standalone:matchMedia("(display-mode: standalone)").matches,
+    dashboardHidden:document.querySelector("#dashboardView")?.hidden
+  })),runtimeErrors);
+}
 assert.equal(await page.locator("#installButton").isVisible(),true);
 await page.locator("#installButton").click();
 assert.equal(await page.locator("#installDialog").getAttribute("open")!==null,true);
