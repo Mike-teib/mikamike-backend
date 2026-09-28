@@ -1,7 +1,7 @@
 name: MikaMike installable + micro
 on:
   push:
-    branches: ["ui/mikamike-installable-micro-v1-20260928", "ui/mikamike-installable-improvements-20260928"]
+    branches: ["ui/mikamike-installable-micro-v1-20260928", "ui/mikamike-installable-improvements-20260928", "fix/mikamike-functional-app-20260928"]
     paths: ["frontend-vnext/**","mobile-app/**",".github/workflows/ui-installable-micro.yml"]
   pull_request:
     paths: ["frontend-vnext/**","mobile-app/**"]
@@ -30,6 +30,7 @@ jobs:
         run: |
           python3 -m http.server 4173 --directory frontend-vnext >/tmp/mikamike-http.log 2>&1 &
           node frontend-vnext/tests/ui-installable-browser.mjs
+          node frontend-vnext/tests/ui-functional-auth-browser.mjs
 
   android-debug:
     runs-on: ubuntu-latest
@@ -74,6 +75,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./frontend-vnext
-          destination_dir: installable-preview
+          destination_dir: functional-preview
           keep_files: true
           commit_message: "preview(installable-micro): ${{ github.sha }}"
