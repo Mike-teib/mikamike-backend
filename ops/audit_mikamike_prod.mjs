@@ -52,7 +52,8 @@ async function root() {
     await submit.click();
     const ar = await wait;
     const msg = await txt(page.locator("#loginError"));
-    if ([401,403].includes(ar.status())) fail("Connexion par simple code élève","API refuse le code seul (" + ar.status() + "). Message visible: " + (msg||"(vide)"),{status:ar.status(),message:msg});
+    if (ar.status()===404) fail("Connexion par simple code élève","Le frontend appelle /api/v1/auth/eleve/jeton mais la production répond 404 : endpoint absent.",{status:ar.status(),message:msg});
+    else if ([401,403].includes(ar.status())) fail("Connexion par simple code élève","L'API refuse le code seul (" + ar.status() + "). Message visible: " + (msg||"(vide)"),{status:ar.status(),message:msg});
     else warn("Connexion par simple code élève","Réponse " + ar.status(),{message:msg});
   } catch (e) {
     fail("Appel authentification","Aucune réponse du endpoint d'authentification",{error:String(e)});
@@ -113,8 +114,10 @@ async function demo(width,height,label) {
     await page.locator("#installDialogClose").click().catch(()=>{});
   } else fail(label + " installation","Bouton absent");
 
+  const subjectsNav = page.locator('.nav-card[data-panel="subjects"]');
+  if (await subjectsNav.count()) await subjectsNav.click();
   const subject = page.locator(".subject-card").first();
-  if (await subject.count()) {
+  if (await subject.count() && await subject.isVisible()) {
     let count=0; const h=req=>{if(req.url().includes("/api/"))count++;}; page.on("request",h);
     await subject.click(); await page.waitForTimeout(300); page.off("request",h);
     const notice = await txt(page.locator("#catalogNotice"));
@@ -176,8 +179,11 @@ const lines = ["# MikaMike production audit","",
   "WARN: " + report.summary.warn,"",
   ...report.checks.map(x=>"- " + x.status + " — " + x.name + (x.detail?": " + x.detail:"")),
   "","Console errors: " + report.summary.console_errors,
+  ...report.console_errors.map(x=>"- console[" + x.page + "]: " + x.text),
   "Page errors: " + report.summary.page_errors,
-  "Request failures: " + report.summary.request_failures
+  ...report.page_errors.map(x=>"- page[" + x.page + "]: " + x.text),
+  "Request failures: " + report.summary.request_failures,
+  ...report.request_failures.map(x=>"- request[" + x.page + "]: " + x.method + " " + x.url + " — " + x.failure)
 ];
 await fs.writeFile(path.join(OUT,"report.md"),lines.join("\n")+"\n");
 console.log(lines.join("\n"));
