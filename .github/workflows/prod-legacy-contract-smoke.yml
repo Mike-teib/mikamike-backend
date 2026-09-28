@@ -51,7 +51,7 @@ jobs:
           curl -fsS --max-time 45 \
             -H 'Content-Type: application/json' \
             -H "Authorization: Bearer $TOKEN" \
-            -d '{"code":"Test26Mika","matiere":"maths","messages":[{"role":"user","content":"Bonjour Mika, test technique de connexion."}],"exercice_id":null}' \
+            -d '{"code":"Test26Mika","matiere":"maths","messages":[{"role":"user","content":"Bonjour Mika, test technique de connexion."}],"exercice_id":0}' \
             https://app.mikamike.fr/api/chat \
             -o /tmp/chat.json
           python3 - <<'PY'
