@@ -660,7 +660,7 @@
       "choices": [
         "2 €",
         "25 €",
-        "205 €",
+        "20 €",
         "15 €"
       ],
       "correct_answer": 1,
@@ -670,7 +670,7 @@
       "difficulty": "APPLICATION",
       "distractor_rationale": {
         "0": "On a compté les billets au lieu de leur valeur.",
-        "2": "On a écrit 20 et 5 côte à côte.",
+        "2": "On a oublié le billet de 5 € et gardé seulement le billet de 20 €.",
         "3": "On a soustrait au lieu d'ajouter."
       },
       "common_error_target": {
