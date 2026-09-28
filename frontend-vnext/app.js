@@ -2,10 +2,16 @@
   "use strict";
 
   const API = window.MIKAMIKE_API_BASE || "/api/v1";
+  const params = new URLSearchParams(location.search);
   const state = {
-    token: sessionStorage.getItem("mikamike_student_token") || "",
+    accountToken: sessionStorage.getItem("mikamike_account_token") || "",
+    account: null,
+    token: "",
     studentId: sessionStorage.getItem("mikamike_student_id") || "",
-    demo: new URLSearchParams(location.search).get("demo") === "1",
+    studentLevel: sessionStorage.getItem("mikamike_student_level") || "6e",
+    selectedSubject: sessionStorage.getItem("mikamike_student_subject") || "maths",
+    demo: params.get("demo") === "1",
+    openTarget: params.get("open") || "",
     tutorat: null,
     nextStep: null,
     listening: false,
@@ -21,7 +27,11 @@
   const loginView = $("#loginView");
   const dashboardView = $("#dashboardView");
   const loginForm = $("#studentLoginForm");
+  const accountEmail = $("#accountEmail");
+  const accountPassword = $("#accountPassword");
+  const accountStatus = $("#accountStatus");
   const studentCode = $("#studentCode");
+  const studentLevel = $("#studentLevel");
   const loginError = $("#loginError");
   const logoutButton = $("#logoutButton");
   const networkStatus = $("#networkStatus");
@@ -54,13 +64,20 @@
   function friendlyError(status, detail) {
     const code = typeof detail === "string" ? detail : detail?.code;
     const map = {
-      jeton_requis: "Ton code élève est nécessaire.",
-      jeton_invalide: "Ce code élève n’est pas reconnu.",
+      jeton_requis: "La session sécurisée est absente. Reconnecte ton compte.",
+      token_absent: "La session du compte est absente. Reconnecte-toi.",
+      token_invalide: "La session du compte n’est plus valide. Reconnecte-toi.",
+      identifiants_invalides: "Adresse e-mail ou mot de passe incorrect.",
+      jeton_invalide: "La session élève n’est pas reconnue.",
       jeton_expire: "Ta session a expiré. Reconnecte-toi.",
       jeton_revoque: "Cette session n’est plus active. Reconnecte-toi.",
       trop_de_tentatives: "Trop de tentatives. Attends un peu avant de réessayer.",
       auth_mal_configuree: "La connexion est momentanément indisponible.",
       auth_non_configuree: "La connexion est momentanément indisponible.",
+      acces_refuse: "Ce compte n’est pas lié à ce code élève.",
+      programme_indisponible: "Aucun exercice validé n’est encore publié pour ce niveau et cette matière.",
+      niveau_inconnu: "Ce niveau n’est pas encore disponible.",
+      matiere_inconnue: "Cette matière n’est pas encore disponible.",
       exercice_inconnu: "Cet exercice n’est plus disponible.",
       contenu_retire: "Ce contenu a été retiré du parcours.",
       version_perimee: "Mika a reçu une réponse plus récente. Recharge la séance.",
@@ -72,10 +89,10 @@
     return "Impossible de continuer pour le moment. Réessaie dans un instant.";
   }
 
-  async function api(path, options = {}) {
+  async function api(path, options = {}, authToken = state.token) {
     const headers = new Headers(options.headers || {});
     headers.set("Content-Type", "application/json");
-    if (state.token) headers.set("Authorization", `Bearer ${state.token}`);
+    if (authToken) headers.set("Authorization", `Bearer ${authToken}`);
 
     if (window.MikaNativeHttp?.request) {
       const result = await window.MikaNativeHttp.request({
@@ -113,12 +130,20 @@
     return `${prefix}-${suffix}`.slice(0, 120);
   }
 
-  async function loginStudent(code) {
+  async function loginAccount(email, password) {
+    return api("/comptes/connexion", {
+      method: "POST",
+      body: JSON.stringify({ email, mot_de_passe: password }),
+    }, "");
+  }
+
+  async function loginStudent(code, accountToken = state.accountToken) {
     if (state.demo) return { token: "demo-token", token_type: "Bearer", typ: "mika-eleve", expires_in: 7200 };
+    if (!accountToken) throw new Error("Connecte d’abord ton compte MikaMike.");
     return api("/auth/eleve/jeton", {
       method: "POST",
       body: JSON.stringify({ student_pseudo_id: code }),
-    });
+    }, accountToken);
   }
 
   function appendMessage(kind, text) {
@@ -153,7 +178,12 @@
   async function prepareTutor() {
     setComposerEnabled(false, "Mika prépare ton exercice…");
     try {
-      const step = await api(`/parcours/prochaine-etape?student_id=${encodeURIComponent(state.studentId)}`);
+      const query = new URLSearchParams({
+        student_id: state.studentId,
+        level: state.studentLevel,
+        subject: state.selectedSubject,
+      });
+      const step = await api(`/parcours/prochaine-etape?${query.toString()}`);
       state.nextStep = step;
       const ctx = $("#exerciseContext");
       if (ctx) ctx.hidden = false;
@@ -179,28 +209,36 @@
   function openDashboard() {
     loginView.hidden = true;
     dashboardView.hidden = false;
+    if (studentLevel) studentLevel.value = state.studentLevel;
     $("#studentName").textContent = state.demo ? "Alex 👋" : "👋";
     $("#heroMessage").textContent = state.demo
       ? "Aujourd’hui : consolider les fractions, puis un mini-quiz."
       : "On reprend là où tu t’es arrêté.";
     if (state.demo) hydrateDemo();
     else prepareTutor();
+    if (state.openTarget === "mika") switchPanel("mika");
   }
 
   function closeDashboard() {
     stopVoice();
+    state.accountToken = "";
+    state.account = null;
     state.token = "";
     state.studentId = "";
     state.tutorat = null;
     state.nextStep = null;
-    sessionStorage.removeItem("mikamike_student_token");
+    sessionStorage.removeItem("mikamike_account_token");
     sessionStorage.removeItem("mikamike_student_id");
+    sessionStorage.removeItem("mikamike_student_level");
+    sessionStorage.removeItem("mikamike_student_subject");
     dashboardView.hidden = true;
     loginView.hidden = false;
+    if (accountPassword) accountPassword.value = "";
     studentCode.value = "";
     showError("");
+    if (accountStatus) accountStatus.textContent = "Le code élève seul ne suffit pas : il doit être lié à ce compte.";
     setComposerEnabled(false, "Le micro sera disponible avec un exercice actif.");
-    studentCode.focus();
+    accountEmail?.focus();
   }
 
   function switchPanel(name) {
@@ -426,23 +464,37 @@
   loginForm?.addEventListener("submit", async (event) => {
     event.preventDefault();
     showError("");
+    const email = accountEmail.value.trim();
+    const password = accountPassword.value;
     const code = studentCode.value.trim();
-    if (!code) return showError("Entre ton code élève.");
+    if (!email) return showError("Entre l’adresse e-mail du compte.");
+    if (!password) return showError("Entre le mot de passe du compte.");
+    if (!code) return showError("Entre le code élève lié à ce compte.");
+
     const button = loginForm.querySelector("button[type=submit]");
     button.disabled = true;
-    button.textContent = "Connexion…";
+    button.textContent = "Connexion sécurisée…";
     try {
-      const result = await loginStudent(code);
+      const accountResult = await loginAccount(email, password);
+      state.accountToken = accountResult.token;
+      state.account = accountResult.compte;
+      sessionStorage.setItem("mikamike_account_token", state.accountToken);
+      if (accountStatus) accountStatus.textContent = `Compte connecté : ${accountResult.compte?.prenom || accountResult.compte?.email || "MikaMike"}.`;
+
+      const result = await loginStudent(code, state.accountToken);
       state.token = result.token;
       state.studentId = code;
-      sessionStorage.setItem("mikamike_student_token", state.token);
       sessionStorage.setItem("mikamike_student_id", state.studentId);
+      sessionStorage.setItem("mikamike_student_level", state.studentLevel);
+      sessionStorage.setItem("mikamike_student_subject", state.selectedSubject);
+      accountPassword.value = "";
       openDashboard();
     } catch (error) {
+      state.token = "";
       showError(error.message);
     } finally {
       button.disabled = false;
-      button.textContent = "Commencer avec Mika";
+      button.textContent = "Se connecter et commencer";
     }
   });
 
@@ -452,14 +504,30 @@
   $$(".nav-card").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.panel)));
   $$("[data-go]").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.go)));
 
-  $$(".subject-card").forEach((button) => {
-    button.addEventListener("click", () => {
-      const subject = button.dataset.subject;
+  $(".subject-card[data-api-subject]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const subjectLabel = button.dataset.subject;
+      state.selectedSubject = button.dataset.apiSubject;
+      sessionStorage.setItem("mikamike_student_subject", state.selectedSubject);
       catalogNotice.hidden = false;
-      catalogNotice.textContent = state.demo
-        ? `${subject} sélectionné. En démonstration, ouvre Mika pour voir le parcours fictif.`
-        : `${subject} sélectionné. Mika choisit la prochaine étape validée par le serveur.`;
+      if (state.demo) {
+        catalogNotice.textContent = `${subjectLabel} sélectionné. Mode démonstration.`;
+        switchPanel("mika");
+        return;
+      }
+      catalogNotice.textContent = `${subjectLabel} sélectionné pour le niveau ${state.studentLevel}. Chargement du parcours…`;
+      await prepareTutor();
+      catalogNotice.textContent = `${subjectLabel} — niveau ${state.studentLevel} : parcours chargé depuis le serveur.`;
+      switchPanel("mika");
     });
+  });
+
+  studentLevel?.addEventListener("change", async () => {
+    state.studentLevel = studentLevel.value;
+    sessionStorage.setItem("mikamike_student_level", state.studentLevel);
+    if (!state.demo && state.token) {
+      await prepareTutor();
+    }
   });
 
   $("#chatForm")?.addEventListener("submit", async (event) => {
@@ -510,11 +578,26 @@
     navigator.serviceWorker.register("./service-worker.js").catch(() => {});
   }
 
+  async function restoreSession() {
+    if (!state.accountToken || !state.studentId) return false;
+    try {
+      const result = await loginStudent(state.studentId, state.accountToken);
+      state.token = result.token;
+      openDashboard();
+      return true;
+    } catch {
+      state.token = "";
+      sessionStorage.removeItem("mikamike_student_id");
+      if (accountStatus) accountStatus.textContent = "La session élève doit être rouverte. Reconnecte le compte si nécessaire.";
+      return false;
+    }
+  }
+
   if (state.demo) {
     state.token = "demo-token";
     state.studentId = "demo-eleve";
     openDashboard();
-  } else if (state.token && state.studentId) {
-    openDashboard();
+  } else {
+    restoreSession();
   }
 })();
