@@ -1,0 +1,32 @@
+name: UI V3 React
+
+on:
+  pull_request:
+    paths:
+      - "frontend-react-v2/**"
+      - ".github/workflows/ui-v3-react.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  react-v2:
+    name: tests + build React V2
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: frontend-react-v2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend-react-v2/package-lock.json
+      - name: Installer
+        run: npm ci
+      - name: Tests
+        run: npm test
+      - name: Build
+        run: npm run build
