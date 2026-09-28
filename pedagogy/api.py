@@ -52,6 +52,20 @@ def _content_eligible(reg: Registry, notion_id: str) -> bool:
     return bool(n and n.eligible_for_content)
 
 
+_QUIZ_PRIVATE_FIELDS = {
+    "correct_answer",
+    "reference_answer",
+    "explanation",
+    "distractor_rationale",
+    "common_error_target",
+}
+
+
+def _public_quiz_payload(item: Dict[str, Any]) -> Dict[str, Any]:
+    """Ne jamais exposer la clé de correction avant la réponse de l'élève."""
+    return {k: v for k, v in item.items() if k not in _QUIZ_PRIVATE_FIELDS}
+
+
 def build_router(registry: Optional[Registry] = None) -> APIRouter:
     reg = registry if registry is not None else load_registry()
     router = APIRouter(prefix="/pedagogy", tags=["pedagogy (lecture seule)"])
@@ -129,6 +143,7 @@ def build_router(registry: Optional[Registry] = None) -> APIRouter:
         limit: int = Query(default=50, ge=1, le=MAX_LIMIT),
         offset: int = Query(default=0, ge=0),
     ) -> Dict[str, Any]:
-        return _page(_servable(reg.quizzes.values(), subject, level, notion_id, difficulty), limit, offset)
+        items = _servable(reg.quizzes.values(), subject, level, notion_id, difficulty)
+        return _page([_public_quiz_payload(item) for item in items], limit, offset)
 
     return router
