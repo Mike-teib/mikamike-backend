@@ -48,7 +48,7 @@ assert.match(await page.locator("#chatMessages").innerText(),/3/);
 
 assert.ok(apiCalls.some(x=>x.url.includes("/comptes/connexion") && x.status===200));
 assert.ok(apiCalls.some(x=>x.url.includes("/auth/eleve/jeton") && x.status===200));
-assert.ok(apiCalls.some(x=>x.url.includes("/parcours/prochaine-etape") && x.url.includes("level=5e") && x.url.includes("subject=maths") && x.status===200));
+assert.ok(apiCalls.some(x=>x.url.includes("/parcours/prochaine-etape") && x.url.includes("level=5e") && x.url.includes("subject=mathematiques") && x.status===200));
 assert.ok(apiCalls.some(x=>x.url.includes("/mika/session/start") && [200,201].includes(x.status)));
 
 await page.goto("http://127.0.0.1:4173/parent.html",{waitUntil:"networkidle"});
