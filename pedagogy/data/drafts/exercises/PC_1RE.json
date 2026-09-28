@@ -341,23 +341,23 @@
       "level": "1RE",
       "difficulty": "APPLICATION",
       "exercise_type": "CALCULATION",
-      "statement": "On titre 10,0 mL d'une solution de diiode par une solution de thiosulfate de sodium à 1,00 × 10^-1 mol/L ; VE = 8,0 mL. Réaction : I2(aq) + 2 S2O3²⁻(aq) → 2 I⁻(aq) + S4O6²⁻(aq). Calculer la concentration en diiode de la solution titrée. Donner le résultat avec 2 chiffres significatifs.",
+      "statement": "Pour doser le diiode d'une teinture iodée diluée, un élève en prélève 25,0 mL et y verse une solution de thiosulfate de sodium à 0,100 mol/L jusqu'à décoloration : il lit VE = 14,0 mL. Réaction : I2(aq) + 2 S2O3²⁻(aq) → 2 I⁻(aq) + S4O6²⁻(aq). Déterminer la concentration en diiode de la solution dosée. Donner le résultat avec 3 chiffres significatifs.",
       "expected_answer": {
         "kind": "QUANTITY",
-        "value": "0,040",
+        "value": "0,0280",
         "unit": "mol/L",
-        "significant_figures": 2
+        "significant_figures": 3
       },
-      "solution": "n(I2) = (1,00 × 10^-1 × 8,0 × 10^-3) / 2 = 4,0 × 10^-4 mol. C(I2) = 4,0 × 10^-4 ÷ 10,0 × 10^-3 = 0,040 mol/L.",
+      "solution": "n(S2O3²⁻) = 0,100 × 14,0 × 10^-3 = 1,40 × 10^-3 mol ; n(I2) = 1,40 × 10^-3 / 2 = 7,00 × 10^-4 mol. C(I2) = 7,00 × 10^-4 ÷ 25,0 × 10^-3 = 0,0280 mol/L.",
       "step_by_step_solution": [
-        "n(I2) = (1,00 × 10^-1 × 8,0 × 10^-3) / 2 = 4,0 × 10^-4 mol.",
-        "C(I2) = 4,0 × 10^-4 ÷ 10,0 × 10^-3 = 0,040 mol/L."
+        "n(S2O3²⁻) = 0,100 × 14,0 × 10^-3 = 1,40 × 10^-3 mol ; n(I2) = 1,40 × 10^-3 / 2 = 7,00 × 10^-4 mol.",
+        "C(I2) = 7,00 × 10^-4 ÷ 25,0 × 10^-3 = 0,0280 mol/L."
       ],
       "hints": [
-        "Calcule n(I2), puis divise par le volume titré en litres."
+        "Calcule n(I2) à l'aide des coefficients, puis divise par le volume dosé en litres."
       ],
       "common_errors": {
-        "8,0 × 10^-2 mol/L": "L'élève a oublié le coefficient 2."
+        "5,60 × 10^-2 mol/L": "L'élève a oublié le coefficient 2."
       },
       "remediation": "À l'équivalence d'un titrage, le réactif titré et le réactif titrant ont été introduits dans les proportions stœchiométriques : pour la réaction a A + b B → …, n(A)initial / a = n(B)versé à l'équivalence / b. Les quantités de matière se calculent avec n = C × V (V en litres). Avant l'équivalence, le réactif titrant est limitant ; après, c'est le réactif titré. Lire attentivement les coefficients stœchiométriques et convertir les volumes (mL → L) avant de calculer.",
       "estimated_time_min": 4,

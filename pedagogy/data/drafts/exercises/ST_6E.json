@@ -1,0 +1,2214 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.ST.6E.masse.d01",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Avec quel instrument mesure-t-on la masse d'un objet ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La masse se mesure avec une balance.",
+      "step_by_step_solution": [
+        "La règle mesure des longueurs, le thermomètre des températures.",
+        "La masse se mesure avec une balance."
+      ],
+      "hints": [
+        "Quel instrument utilise-t-on pour peser la farine ?"
+      ],
+      "common_errors": {
+        "une règle": "L'élève confond masse et taille de l'objet."
+      },
+      "remediation": "Associer chaque grandeur (longueur, masse, température) à son instrument de mesure.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "une balance",
+        "une règle",
+        "un thermomètre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.d02",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle est l'unité principale de masse ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'unité principale de masse est le kilogramme (kg).",
+      "step_by_step_solution": [
+        "Le litre mesure un volume, le mètre une longueur.",
+        "L'unité de masse est le kilogramme."
+      ],
+      "hints": [
+        "On achète les pommes de terre au…"
+      ],
+      "common_errors": {
+        "le litre": "L'élève confond masse et volume."
+      },
+      "remediation": "Classer des unités (kg, g, L, mL, m, cm) selon la grandeur mesurée.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "le kilogramme",
+        "le litre",
+        "le mètre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.d03",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Combien de grammes y a-t-il dans 1 kg ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 1000,
+        "unit": "g"
+      },
+      "solution": "« Kilo » signifie « mille » : 1 kg = 1 000 g. Réponse : 1000 g.",
+      "step_by_step_solution": [
+        "Le préfixe « kilo » veut dire 1 000.",
+        "1 kg = 1 000 g."
+      ],
+      "hints": [
+        "Pense à « kilomètre » : 1 km = 1 000 m."
+      ],
+      "common_errors": {
+        "100 g": "L'élève confond le préfixe kilo avec cent."
+      },
+      "remediation": "Construire un tableau de conversion kg | hg | dag | g.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.d04",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : l'air a une masse.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : l'air est de la matière, il a donc une masse. Un ballon bien gonflé est un peu plus lourd que le même ballon vide. Réponse : vrai.",
+      "step_by_step_solution": [
+        "L'air est de la matière (un gaz).",
+        "Toute matière a une masse : c'est vrai."
+      ],
+      "hints": [
+        "Compare la masse d'un ballon vide et du même ballon gonflé sur une balance précise."
+      ],
+      "common_errors": {
+        "faux": "Erreur fréquente : croire que ce qui est invisible ne pèse rien."
+      },
+      "remediation": "Peser un ballon de basket dégonflé puis gonflé avec une balance au gramme.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.d05",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque grandeur à son unité : masse, volume, longueur.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "masse": "kilogramme",
+          "volume": "litre",
+          "longueur": "mètre"
+        }
+      },
+      "solution": "La masse s'exprime en kilogrammes, le volume en litres, la longueur en mètres. Réponse : masse → kilogramme ; volume → litre ; longueur → mètre.",
+      "step_by_step_solution": [
+        "masse → kilogramme",
+        "volume → litre ; longueur → mètre"
+      ],
+      "hints": [
+        "Le litre sert pour les liquides dans une bouteille."
+      ],
+      "common_errors": {
+        "masse → litre ; volume → kilogramme ; longueur → mètre": "L'élève confond masse et volume."
+      },
+      "remediation": "Faire une carte mentale « grandeur – instrument – unité ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "kilogramme",
+        "litre",
+        "mètre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.a01",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un paquet de farine a une masse de 2 kg. Quelle est sa masse en grammes ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 2000,
+        "unit": "g"
+      },
+      "solution": "1 kg = 1 000 g, donc 2 kg = 2 × 1 000 g = 2 000 g. Réponse : 2000 g.",
+      "step_by_step_solution": [
+        "1 kg = 1 000 g.",
+        "2 kg = 2 × 1 000 g = 2 000 g."
+      ],
+      "hints": [
+        "Combien de grammes dans un seul kilogramme ?"
+      ],
+      "common_errors": {
+        "200 g": "L'élève a multiplié par 100 au lieu de 1 000."
+      },
+      "remediation": "S'entraîner aux conversions avec le tableau kg | hg | dag | g.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.a02",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Une boule de pâte à modeler a une masse de 150 g. On la transforme en long boudin, sans rien enlever. Que devient sa masse ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Changer la forme d'un objet ne change pas sa masse : elle ne change pas (toujours 150 g).",
+      "step_by_step_solution": [
+        "On n'a ni ajouté ni enlevé de pâte.",
+        "La masse ne dépend pas de la forme : elle ne change pas."
+      ],
+      "hints": [
+        "A-t-on ajouté ou enlevé de la matière ?"
+      ],
+      "common_errors": {
+        "elle augmente": "L'élève pense qu'un objet plus long est plus lourd."
+      },
+      "remediation": "Peser une boule de pâte à modeler, l'aplatir, la peser de nouveau.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "elle ne change pas",
+        "elle augmente",
+        "elle diminue"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.a03",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un bocal vide a une masse de 200 g. Rempli de confiture, il a une masse de 650 g. Quelle est la masse de la confiture ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 450,
+        "unit": "g"
+      },
+      "solution": "Masse de la confiture = masse totale − masse du bocal = 650 g − 200 g = 450 g. Réponse : 450 g.",
+      "step_by_step_solution": [
+        "La balance pèse le bocal et la confiture ensemble.",
+        "650 g − 200 g = 450 g."
+      ],
+      "hints": [
+        "Il faut retirer la masse du bocal."
+      ],
+      "common_errors": {
+        "850 g": "L'élève a additionné au lieu de soustraire."
+      },
+      "remediation": "Utiliser la fonction « tare » d'une balance de cuisine et comparer avec le calcul.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.a04",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Range ces objets du plus léger au plus lourd : une voiture, une fourmi, une pomme, un élève de 6e.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "une fourmi",
+          "une pomme",
+          "un élève de 6e",
+          "une voiture"
+        ]
+      },
+      "solution": "Une fourmi pèse quelques milligrammes, une pomme environ 150 g, un élève de 6e environ 40 kg, une voiture environ 1 t. Réponse : une fourmi → une pomme → un élève de 6e → une voiture.",
+      "step_by_step_solution": [
+        "fourmi (quelques mg) → pomme (environ 150 g)",
+        "→ élève (environ 40 kg) → voiture (environ 1 t)"
+      ],
+      "hints": [
+        "Estime la masse de chaque objet avec une unité adaptée."
+      ],
+      "common_errors": {
+        "une pomme ; une fourmi ; un élève de 6e ; une voiture": "L'élève n'a pas d'ordre de grandeur de la masse d'une fourmi."
+      },
+      "remediation": "Associer des objets du quotidien à des ordres de grandeur de masse (mg, g, kg, t).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "une voiture",
+        "une fourmi",
+        "une pomme",
+        "un élève de 6e"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.a05",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle unité est la plus adaptée pour exprimer la masse d'un camion ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un camion pèse plusieurs milliers de kilogrammes : on utilise la tonne (1 t = 1 000 kg).",
+      "step_by_step_solution": [
+        "Le gramme et le milligramme servent pour les objets légers.",
+        "Pour un camion, la tonne est adaptée."
+      ],
+      "hints": [
+        "Combien de kilogrammes dans une tonne ?"
+      ],
+      "common_errors": {
+        "le gramme": "L'élève ne choisit pas une unité adaptée à l'ordre de grandeur."
+      },
+      "remediation": "Choisir l'unité adaptée pour une liste d'objets de tailles très différentes.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "la tonne",
+        "le gramme",
+        "le milligramme"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.c01",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un récipient fermé, on met un glaçon de 30 g. On attend qu'il fonde entièrement. Quelle est la masse de l'eau liquide obtenue ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 30,
+        "unit": "g"
+      },
+      "solution": "Lors d'un changement d'état, la masse se conserve : l'eau liquide a une masse de 30 g. Réponse : 30 g.",
+      "step_by_step_solution": [
+        "Le récipient est fermé : aucune matière ne s'échappe.",
+        "La fusion est un changement d'état : la masse se conserve, 30 g."
+      ],
+      "hints": [
+        "Est-ce que de la matière a disparu ou a été ajoutée ?"
+      ],
+      "common_errors": {
+        "moins de 30 g": "L'élève pense que l'eau liquide « prend moins de place » donc pèse moins."
+      },
+      "remediation": "Peser un glaçon dans un sachet fermé avant et après fusion.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.c02",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "On pèse 500 g d'eau et 20 g de sucre séparément. On dissout le sucre dans l'eau. Quelle est la masse de l'eau sucrée ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 520,
+        "unit": "g"
+      },
+      "solution": "Lors d'une dissolution, le sucre ne disparaît pas : les masses s'ajoutent. 500 g + 20 g = 520 g. Réponse : 520 g.",
+      "step_by_step_solution": [
+        "Le sucre dissous est toujours là, même s'il est invisible.",
+        "500 g + 20 g = 520 g."
+      ],
+      "hints": [
+        "Le sucre qu'on ne voit plus a-t-il disparu ? Goûte l'eau en pensée…"
+      ],
+      "common_errors": {
+        "500 g": "Erreur fréquente : croire que le sucre dissous disparaît et ne pèse plus rien."
+      },
+      "remediation": "Peser l'eau et le sucre avant, puis l'eau sucrée après dissolution.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.c03",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un kilogramme de plumes et un kilogramme de plomb : lequel a la plus grande masse ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les deux ont une masse de 1 kg : ils ont la même masse. Les plumes occupent seulement un volume beaucoup plus grand.",
+      "step_by_step_solution": [
+        "Les deux masses sont données : 1 kg chacune.",
+        "1 kg = 1 kg : ils ont la même masse."
+      ],
+      "hints": [
+        "Relis bien les masses indiquées."
+      ],
+      "common_errors": {
+        "le kilogramme de plomb": "L'élève confond masse et volume ou « impression de lourdeur »."
+      },
+      "remediation": "Comparer le volume occupé par 100 g de coton et 100 g de sable.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "ils ont la même masse",
+        "le kilogramme de plomb",
+        "le kilogramme de plumes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.c04",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une bouteille contient 1,5 L d'eau. Sachant que 1 L d'eau a une masse d'environ 1 kg, quelle est la masse de l'eau de la bouteille ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 1500,
+        "unit": "g"
+      },
+      "solution": "1 L d'eau a une masse d'environ 1 kg, donc 1,5 L d'eau a une masse d'environ 1,5 kg, soit 1 500 g. Réponse : 1500 g.",
+      "step_by_step_solution": [
+        "1 L d'eau ↔ environ 1 kg = 1 000 g.",
+        "1,5 L d'eau ↔ environ 1,5 kg = 1 500 g."
+      ],
+      "hints": [
+        "Utilise l'égalité donnée : 1 L d'eau ↔ 1 kg."
+      ],
+      "common_errors": {
+        "150 g": "L'élève fait une erreur avec la virgule lors de la conversion."
+      },
+      "remediation": "Peser un litre d'eau dans un récipient taré.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.c05",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Deux boîtes identiques ont le même volume. L'une est remplie de sable, l'autre de coton. Laquelle a la plus grande masse ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "À volume égal, le sable a une masse bien plus grande que le coton : la boîte de sable est la plus lourde.",
+      "step_by_step_solution": [
+        "Les volumes sont les mêmes.",
+        "Pour un même volume, le sable pèse bien plus que le coton : la boîte de sable."
+      ],
+      "hints": [
+        "Même volume ne veut pas dire même masse."
+      ],
+      "common_errors": {
+        "elles ont la même masse": "L'élève pense qu'un même volume donne toujours une même masse."
+      },
+      "remediation": "Peser le même verre rempli de différentes matières (sable, riz, coton).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "la boîte de sable",
+        "la boîte de coton",
+        "elles ont la même masse"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.x01",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Un astronaute a une masse de 80 kg sur Terre. Quelle est sa masse sur la Lune ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La masse d'un objet lui est propre : elle ne dépend pas du lieu. Sur la Lune, sa masse est toujours 80 kg (c'est seulement son poids, la force d'attraction, qui est plus faible).",
+      "step_by_step_solution": [
+        "La masse est la quantité de matière de l'objet.",
+        "Changer de lieu ne change pas la quantité de matière : 80 kg."
+      ],
+      "hints": [
+        "L'astronaute a-t-il perdu une partie de son corps en voyageant ?"
+      ],
+      "common_errors": {
+        "environ 13 kg": "Erreur fréquente : confondre la masse et le poids (attraction de la Lune plus faible)."
+      },
+      "remediation": "Distinguer « masse » (propre à l'objet) et « poids » (attraction de l'astre) sur un exemple.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [
+        "80 kg",
+        "0 kg",
+        "environ 13 kg"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.x02",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un camion vide a une masse de 3 t. On le charge de 1 500 kg de sable. Quelle est sa masse totale en kg ? Réponds en kg.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 4500,
+        "unit": "kg"
+      },
+      "solution": "3 t = 3 000 kg. Masse totale = 3 000 kg + 1 500 kg = 4 500 kg. Réponse : 4500 kg.",
+      "step_by_step_solution": [
+        "Convertir : 3 t = 3 000 kg.",
+        "3 000 kg + 1 500 kg = 4 500 kg."
+      ],
+      "hints": [
+        "Mets d'abord les deux masses dans la même unité."
+      ],
+      "common_errors": {
+        "1 503 kg": "L'élève additionne des nombres exprimés dans des unités différentes."
+      },
+      "remediation": "Toujours convertir dans une même unité avant d'additionner.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.masse.x03",
+      "notion_id": "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une balance indique 1,2 kg pour un sac contenant 3 livres identiques. Le sac vide pèse 450 g. Quelle est la masse d'un livre ? Réponds en g.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 250,
+        "unit": "g"
+      },
+      "solution": "1,2 kg = 1 200 g. Masse des livres : 1 200 g − 450 g = 750 g. Un livre : 750 g ÷ 3 = 250 g. Réponse : 250 g.",
+      "step_by_step_solution": [
+        "1,2 kg = 1 200 g.",
+        "Masse des 3 livres : 1 200 − 450 = 750 g.",
+        "Un livre : 750 ÷ 3 = 250 g."
+      ],
+      "hints": [
+        "Enlève d'abord la masse du sac.",
+        "Attention aux unités : kg et g."
+      ],
+      "common_errors": {
+        "400 g": "L'élève a divisé 1 200 g par 3 sans enlever le sac."
+      },
+      "remediation": "Découper le problème en étapes : conversion, soustraction, division.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Mesurer une masse avec une balance et utiliser les unités g, kg, t",
+        "Savoir que la masse se conserve lors d'un changement de forme, d'état ou d'une dissolution"
+      ],
+      "source_notions": [
+        "ST.6E.MAT.tout-objet-materiel-possede-une-masse-qui-lui-est-propre-et-qui-peut-e"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.d01",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "De quoi une plante verte a-t-elle besoin pour fabriquer sa matière ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Une plante verte (chlorophyllienne) fabrique sa matière à partir de lumière, d'eau, de sels minéraux et de dioxyde de carbone.",
+      "step_by_step_solution": [
+        "Une plante ne mange pas d'autres êtres vivants.",
+        "Ses besoins : lumière, eau, sels minéraux, dioxyde de carbone."
+      ],
+      "hints": [
+        "Pense à ce qu'on donne à une plante d'intérieur pour qu'elle pousse."
+      ],
+      "common_errors": {
+        "uniquement de terre": "Erreur fréquente : croire que la plante « mange » la terre."
+      },
+      "remediation": "Faire la liste des quatre besoins et de leur origine sur un schéma de plante.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "de lumière, d'eau, de sels minéraux et de dioxyde de carbone",
+        "de viande et de sucre",
+        "uniquement de terre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.d02",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Par quel organe une plante absorbe-t-elle l'eau du sol ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'eau et les sels minéraux du sol sont absorbés par les racines.",
+      "step_by_step_solution": [
+        "Les racines sont dans le sol.",
+        "Elles absorbent l'eau : ce sont les racines."
+      ],
+      "hints": [
+        "Quelle partie de la plante est dans la terre ?"
+      ],
+      "common_errors": {
+        "les fleurs": "L'élève pense que l'eau arrosée est absorbée par le haut de la plante."
+      },
+      "remediation": "Observer une plante sortie de son pot et repérer les racines.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "les racines",
+        "les fleurs",
+        "les fruits"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.d03",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel gaz de l'air les plantes vertes utilisent-elles pour fabriquer leur matière ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "dioxyde de carbone",
+          "le dioxyde de carbone",
+          "CO2",
+          "gaz carbonique",
+          "le gaz carbonique"
+        ]
+      },
+      "solution": "Les plantes vertes prélèvent le dioxyde de carbone de l'air, par leurs feuilles.",
+      "step_by_step_solution": [
+        "Ce gaz est présent dans l'air.",
+        "C'est le dioxyde de carbone."
+      ],
+      "hints": [
+        "Ce n'est pas le dioxygène."
+      ],
+      "common_errors": {
+        "dioxygène": "L'élève confond le gaz utilisé par la plante pour fabriquer sa matière et le gaz de la respiration."
+      },
+      "remediation": "Compléter un schéma : entrées de la plante (lumière, eau, sels minéraux, dioxyde de carbone).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.d04",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque besoin de la plante à son origine : lumière, eau, dioxyde de carbone.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "lumière": "Soleil",
+          "eau": "sol",
+          "dioxyde de carbone": "air"
+        }
+      },
+      "solution": "La lumière vient du Soleil, l'eau vient du sol, le dioxyde de carbone vient de l'air. Réponse : lumière → Soleil ; eau → sol ; dioxyde de carbone → air.",
+      "step_by_step_solution": [
+        "lumière → Soleil",
+        "eau → sol ; dioxyde de carbone → air"
+      ],
+      "hints": [
+        "Le dioxyde de carbone est un gaz."
+      ],
+      "common_errors": {
+        "lumière → Soleil ; eau → air ; dioxyde de carbone → sol": "L'élève inverse l'origine de l'eau et du gaz."
+      },
+      "remediation": "Placer des flèches « entrées » sur un schéma de plante.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "Soleil",
+        "sol",
+        "air"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.d05",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : une plante verte peut vivre longtemps dans l'obscurité totale.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : sans lumière, une plante verte ne peut pas fabriquer sa matière ; elle jaunit, s'affaiblit puis meurt. Réponse : faux.",
+      "step_by_step_solution": [
+        "La lumière est un besoin de la plante verte.",
+        "Dans le noir, elle ne peut pas fabriquer sa matière : c'est faux."
+      ],
+      "hints": [
+        "Que devient une plante oubliée dans un placard ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève ne connaît pas le besoin en lumière."
+      },
+      "remediation": "Observer une plante laissée une semaine dans un carton fermé et une plante témoin à la lumière.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.a01",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "On veut savoir si la lumière est nécessaire à une plante. Quelle expérience est correcte ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Pour tester un facteur, on ne change que ce facteur : deux plantes identiques, même arrosage, l'une à la lumière et l'autre dans le noir.",
+      "step_by_step_solution": [
+        "Il faut une plante témoin pour comparer.",
+        "Un seul facteur doit changer : la lumière."
+      ],
+      "hints": [
+        "Combien de choses doivent changer entre les deux plantes ?"
+      ],
+      "common_errors": {
+        "une plante à la lumière arrosée, une plante dans le noir non arrosée": "L'élève change deux facteurs à la fois : on ne peut pas conclure."
+      },
+      "remediation": "Pour chaque expérience, surligner ce qui change et vérifier qu'un seul facteur varie.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "deux plantes identiques, même arrosage, l'une à la lumière et l'autre dans le noir",
+        "une plante à la lumière arrosée, une plante dans le noir non arrosée",
+        "une seule plante placée dans le noir"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.a02",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Comment appelle-t-on la plante qui reçoit tout ce dont elle a besoin et sert de comparaison dans une expérience ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La plante qui reçoit tout ce dont elle a besoin et sert de comparaison est la plante témoin.",
+      "step_by_step_solution": [
+        "On compare toujours à une plante dans les conditions normales.",
+        "C'est la plante témoin."
+      ],
+      "hints": [
+        "Ce mot désigne aussi une personne qui a vu quelque chose."
+      ],
+      "common_errors": {
+        "la plante test": "L'élève ne connaît pas le vocabulaire de la démarche expérimentale."
+      },
+      "remediation": "Relire une expérience et entourer la plante témoin.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "la plante témoin",
+        "la plante test",
+        "la plante malade"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.a03",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi ajoute-t-on parfois de l'engrais au sol ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "L'engrais apporte au sol des sels minéraux, absorbés avec l'eau par les racines. Réponse : pour apporter des sels minéraux.",
+      "step_by_step_solution": [
+        "La lumière vient du Soleil, le dioxyde de carbone de l'air.",
+        "L'engrais apporte des sels minéraux."
+      ],
+      "hints": [
+        "Qu'est-ce que la plante prend dans le sol, en plus de l'eau ?"
+      ],
+      "common_errors": {
+        "pour apporter de la lumière": "L'élève confond les origines des besoins."
+      },
+      "remediation": "Lire l'étiquette d'un engrais pour plantes vertes (azote, phosphore, potassium : des sels minéraux).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "pour apporter des sels minéraux",
+        "pour apporter de la lumière",
+        "pour apporter du dioxyde de carbone"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.a04",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel pigment vert, présent dans les feuilles, permet à la plante d'utiliser la lumière ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "chlorophylle",
+          "la chlorophylle"
+        ]
+      },
+      "solution": "Le pigment vert des feuilles est la chlorophylle ; d'où le nom de végétaux « chlorophylliens ».",
+      "step_by_step_solution": [
+        "Le mot « chlorophyllien » contient son nom.",
+        "C'est la chlorophylle."
+      ],
+      "hints": [
+        "Il se cache dans le mot « chlorophyllien »."
+      ],
+      "common_errors": {
+        "sève": "L'élève confond le pigment et le liquide qui circule dans la plante."
+      },
+      "remediation": "Repérer la racine commune de « chlorophylle » et « chlorophyllien ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.a05",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Lequel de ces êtres vivants n'est pas chlorophyllien et ne peut donc pas fabriquer sa matière à partir de la lumière ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le champignon de Paris n'a pas de chlorophylle : il doit prélever de la matière organique pour se nourrir.",
+      "step_by_step_solution": [
+        "Le chêne et l'algue verte contiennent de la chlorophylle.",
+        "Le champignon n'en contient pas : le champignon de Paris."
+      ],
+      "hints": [
+        "Lequel n'est jamais vert ?"
+      ],
+      "common_errors": {
+        "l'algue verte": "L'élève pense que seules les plantes terrestres sont chlorophylliennes."
+      },
+      "remediation": "Classer des êtres vivants selon qu'ils sont chlorophylliens ou non.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "le champignon de Paris",
+        "le chêne",
+        "l'algue verte"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.c01",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Deux plantes identiques sont à la lumière. L'une est arrosée, l'autre non. Au bout de 10 jours, la seconde est fanée. Que peut-on conclure ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Seul l'arrosage change entre les deux plantes : on conclut que la plante a besoin d'eau.",
+      "step_by_step_solution": [
+        "Qu'est-ce qui est différent entre les deux plantes ? L'eau.",
+        "Conclusion : la plante a besoin d'eau."
+      ],
+      "hints": [
+        "La conclusion porte sur le seul facteur qui change."
+      ],
+      "common_errors": {
+        "la plante a besoin de lumière": "L'élève conclut sur un facteur qui n'a pas varié (les deux sont à la lumière)."
+      },
+      "remediation": "S'entraîner à formuler : « Seul … change, donc … ».",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "la plante a besoin d'eau",
+        "la plante a besoin de lumière",
+        "la plante a besoin de sels minéraux"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.c02",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque besoin de la plante à l'organe qui le prélève : eau, sels minéraux, dioxyde de carbone, lumière.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "eau": "racines",
+          "sels minéraux": "racines",
+          "dioxyde de carbone": "feuilles",
+          "lumière": "feuilles"
+        }
+      },
+      "solution": "Les racines prélèvent l'eau et les sels minéraux dans le sol ; les feuilles captent la lumière et le dioxyde de carbone de l'air. Réponse : eau → racines ; sels minéraux → racines ; dioxyde de carbone → feuilles ; lumière → feuilles.",
+      "step_by_step_solution": [
+        "Dans le sol : eau et sels minéraux → racines.",
+        "Dans l'air : lumière et dioxyde de carbone → feuilles."
+      ],
+      "hints": [
+        "Que trouve-t-on dans le sol ? Et dans l'air ?"
+      ],
+      "common_errors": {
+        "eau → racines ; sels minéraux → feuilles ; dioxyde de carbone → feuilles ; lumière → feuilles": "L'élève ne sait pas que les sels minéraux sont dans le sol."
+      },
+      "remediation": "Colorier sur un schéma la partie souterraine et la partie aérienne, puis y placer les besoins.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "racines",
+        "feuilles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.c03",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : les plantes vertes sont des producteurs, car elles fabriquent leur propre matière.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : les végétaux chlorophylliens fabriquent leur matière à partir de matière minérale ; ce sont les producteurs des chaînes alimentaires. Réponse : vrai.",
+      "step_by_step_solution": [
+        "Une plante verte ne mange pas d'autres êtres vivants.",
+        "Elle fabrique sa matière : c'est un producteur, vrai."
+      ],
+      "hints": [
+        "Qui est au début de toutes les chaînes alimentaires ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que les plantes se nourrissent comme les animaux."
+      },
+      "remediation": "Replacer la plante au premier maillon de plusieurs chaînes alimentaires.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.c04",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On pose une planche sur une pelouse pendant deux semaines. En la retirant, l'herbe dessous est jaune. Pourquoi ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Sous la planche, l'herbe était dans l'obscurité : elle a manqué de lumière et n'a pas pu fabriquer sa matière.",
+      "step_by_step_solution": [
+        "La planche cache l'herbe du Soleil.",
+        "L'herbe a manqué de lumière."
+      ],
+      "hints": [
+        "Qu'est-ce que la planche empêche d'arriver jusqu'à l'herbe ?"
+      ],
+      "common_errors": {
+        "la planche a coupé les racines": "L'élève invente une cause mécanique non observée."
+      },
+      "remediation": "Chercher d'autres exemples où une plante manque de lumière (sous un tapis, dans une cave).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "l'herbe a manqué de lumière",
+        "l'herbe a manqué de dioxyde de carbone uniquement",
+        "la planche a coupé les racines"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.c05",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Une plante pousse dans du sable lavé, arrosé seulement avec de l'eau pure. Une autre, identique, est arrosée avec de l'eau contenant des sels minéraux. Laquelle pousse le mieux ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Les sels minéraux sont un besoin de la plante : celle qui en reçoit pousse mieux. Réponse : celle qui reçoit des sels minéraux.",
+      "step_by_step_solution": [
+        "Le sable lavé ne contient presque pas de sels minéraux.",
+        "La plante qui reçoit des sels minéraux pousse mieux."
+      ],
+      "hints": [
+        "Qu'est-ce qui manque dans le sable lavé ?"
+      ],
+      "common_errors": {
+        "les deux poussent pareil": "L'élève pense que l'eau suffit à la plante."
+      },
+      "remediation": "Suivre la croissance de deux plantules avec et sans sels minéraux (mesures fournies).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "celle qui reçoit des sels minéraux",
+        "celle qui reçoit de l'eau pure",
+        "les deux poussent pareil"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.x01",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Au XVIIe siècle, Van Helmont plante un petit saule dans un pot de terre et l'arrose pendant 5 ans. Le saule gagne environ 74 kg, mais la terre ne perd qu'environ 60 g. D'où vient surtout la matière du saule ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La terre a presque la même masse : la matière du saule ne vient pas surtout du sol. Elle a été fabriquée à partir de l'eau et du dioxyde de carbone de l'air, grâce à la lumière.",
+      "step_by_step_solution": [
+        "La terre n'a perdu qu'environ 60 g, bien moins que les 74 kg gagnés.",
+        "La matière vient surtout de l'eau et du dioxyde de carbone de l'air."
+      ],
+      "hints": [
+        "Compare 60 g et 74 kg."
+      ],
+      "common_errors": {
+        "de la terre du pot": "Erreur fréquente : croire que la plante grandit en mangeant la terre."
+      },
+      "remediation": "Refaire le calcul : 74 kg gagnés contre 0,06 kg de terre perdue.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "de l'eau et du dioxyde de carbone de l'air",
+        "de la terre du pot",
+        "de la lumière seule"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.x02",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Une plante est placée à la lumière, arrosée, dans un sol riche, mais sous une cloche dont l'air ne contient plus de dioxyde de carbone. Que se passe-t-il ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le dioxyde de carbone est un besoin de la plante verte : sans lui, elle ne peut pas fabriquer sa matière et ne grandit pas.",
+      "step_by_step_solution": [
+        "Il manque un des quatre besoins : le dioxyde de carbone.",
+        "Sans lui, elle ne peut pas fabriquer sa matière."
+      ],
+      "hints": [
+        "Liste les quatre besoins et cherche celui qui manque."
+      ],
+      "common_errors": {
+        "elle grandit normalement": "L'élève oublie que le gaz de l'air est un besoin de la plante."
+      },
+      "remediation": "Vérifier pour chaque situation les quatre besoins un par un.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "elle ne peut pas fabriquer sa matière et ne grandit pas",
+        "elle grandit normalement",
+        "elle grandit plus vite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.besoins-vegetaux.x03",
+      "notion_id": "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "ORDERING",
+      "statement": "Remets dans l'ordre les étapes d'une expérience sur le besoin en eau : conclure, choisir deux plantes identiques, observer et comparer après 10 jours, arroser une seule des deux plantes.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "choisir deux plantes identiques",
+          "arroser une seule des deux plantes",
+          "observer et comparer après 10 jours",
+          "conclure"
+        ]
+      },
+      "solution": "On choisit deux plantes identiques, on ne fait varier qu'un facteur (l'arrosage), on observe et compare, puis on conclut. Réponse : choisir deux plantes identiques → arroser une seule des deux plantes → observer et comparer après 10 jours → conclure.",
+      "step_by_step_solution": [
+        "choisir deux plantes identiques → arroser une seule des deux plantes",
+        "→ observer et comparer après 10 jours → conclure"
+      ],
+      "hints": [
+        "On conclut toujours en dernier."
+      ],
+      "common_errors": {
+        "choisir deux plantes identiques ; observer et comparer après 10 jours ; arroser une seule des deux plantes ; conclure": "L'élève observe avant d'avoir mis en place la différence entre les deux plantes."
+      },
+      "remediation": "Écrire un protocole en étapes numérotées avant de le réaliser.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Connaître les besoins des végétaux chlorophylliens (lumière, eau, sels minéraux, dioxyde de carbone)",
+        "Interpréter une expérience ne faisant varier qu'un seul facteur"
+      ],
+      "source_notions": [
+        "ST.6E.VIV.besoins-des-organismes-chlorophylliens-lumiere-eau-sels-mineraux-dioxy"
+      ],
+      "choices": [
+        "conclure",
+        "choisir deux plantes identiques",
+        "observer et comparer après 10 jours",
+        "arroser une seule des deux plantes"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.d01",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel astre se trouve au centre du système solaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le Soleil est au centre du système solaire ; les planètes tournent autour de lui.",
+      "step_by_step_solution": [
+        "Les planètes tournent autour d'un astre central.",
+        "Cet astre est le Soleil."
+      ],
+      "hints": [
+        "Autour de quoi la Terre tourne-t-elle en un an ?"
+      ],
+      "common_errors": {
+        "la Terre": "Erreur fréquente : placer la Terre au centre (géocentrisme)."
+      },
+      "remediation": "Construire une maquette avec le Soleil au centre et les planètes autour.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "le Soleil",
+        "la Terre",
+        "la Lune"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.d02",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Combien y a-t-il de planètes dans le système solaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le système solaire compte 8 planètes. Pluton n'est plus considérée comme une planète depuis 2006 : c'est une planète naine.",
+      "step_by_step_solution": [
+        "Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune.",
+        "Cela fait 8 planètes."
+      ],
+      "hints": [
+        "Récite la liste des planètes et compte-les."
+      ],
+      "common_errors": {
+        "9": "L'élève compte Pluton, reclassée planète naine en 2006."
+      },
+      "remediation": "Réciter la phrase mnémotechnique « Me Voici Tout Mouillé, J'ai Suivi Un Nuage ».",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "8",
+        "9",
+        "12"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.d03",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle est la position de la Terre en partant du Soleil ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Dans l'ordre : Mercure, Vénus, puis la Terre : la Terre est la 3e planète.",
+      "step_by_step_solution": [
+        "1re : Mercure, 2e : Vénus.",
+        "La Terre est la 3e planète."
+      ],
+      "hints": [
+        "Quelles planètes sont plus proches du Soleil que la Terre ?"
+      ],
+      "common_errors": {
+        "la 1re planète": "L'élève pense que la Terre est la plus proche du Soleil."
+      },
+      "remediation": "Placer les planètes sur une bande de papier dans l'ordre depuis le Soleil.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "la 3e planète",
+        "la 1re planète",
+        "la 5e planète"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.d04",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Comment s'appelle le satellite naturel de la Terre ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "Lune",
+          "la Lune"
+        ]
+      },
+      "solution": "La Lune tourne autour de la Terre : c'est son satellite naturel.",
+      "step_by_step_solution": [
+        "Un satellite tourne autour d'une planète.",
+        "Celui de la Terre est la Lune."
+      ],
+      "hints": [
+        "On la voit souvent la nuit."
+      ],
+      "common_errors": {
+        "Soleil": "L'élève confond étoile et satellite."
+      },
+      "remediation": "Classer Soleil, Terre, Lune, Mars en étoile / planète / satellite.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.d05",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : le Soleil est une étoile.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": true
+      },
+      "solution": "C'est vrai : le Soleil est une étoile, un astre qui produit sa propre lumière. Réponse : vrai.",
+      "step_by_step_solution": [
+        "Une étoile produit sa propre lumière.",
+        "Le Soleil produit sa lumière : c'est vrai."
+      ],
+      "hints": [
+        "Le Soleil produit-il sa propre lumière ?"
+      ],
+      "common_errors": {
+        "faux": "L'élève pense que les étoiles sont seulement les petits points lumineux de la nuit."
+      },
+      "remediation": "Comparer le Soleil et les étoiles de la nuit : même nature, distances différentes.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.a01",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "ORDERING",
+      "statement": "Range ces planètes de la plus proche à la plus éloignée du Soleil : Terre, Mercure, Mars, Vénus.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "Mercure",
+          "Vénus",
+          "Terre",
+          "Mars"
+        ]
+      },
+      "solution": "Dans l'ordre depuis le Soleil : Mercure, Vénus, Terre, Mars. Réponse : Mercure → Vénus → Terre → Mars.",
+      "step_by_step_solution": [
+        "Mercure → Vénus",
+        "→ Terre → Mars"
+      ],
+      "hints": [
+        "Me Voici Tout Mouillé…"
+      ],
+      "common_errors": {
+        "Mercure ; Terre ; Vénus ; Mars": "L'élève inverse Vénus et la Terre."
+      },
+      "remediation": "Réciter la phrase mnémotechnique en montrant chaque planète sur un schéma.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "Terre",
+        "Mercure",
+        "Mars",
+        "Vénus"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.a02",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque astre à sa catégorie : Soleil, Mars, Lune.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "Soleil": "étoile",
+          "Mars": "planète",
+          "Lune": "satellite"
+        }
+      },
+      "solution": "Le Soleil est une étoile, Mars est une planète, la Lune est un satellite (de la Terre). Réponse : Soleil → étoile ; Mars → planète ; Lune → satellite.",
+      "step_by_step_solution": [
+        "Soleil → étoile",
+        "Mars → planète ; Lune → satellite"
+      ],
+      "hints": [
+        "Un satellite tourne autour d'une planète."
+      ],
+      "common_errors": {
+        "Soleil → planète ; Mars → étoile ; Lune → satellite": "L'élève confond étoile et planète."
+      },
+      "remediation": "Écrire une définition courte pour étoile, planète, satellite.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "étoile",
+        "planète",
+        "satellite"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.a03",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle est la plus grande planète du système solaire ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Jupiter est la plus grande planète du système solaire.",
+      "step_by_step_solution": [
+        "Mercure est la plus petite.",
+        "La plus grande est Jupiter."
+      ],
+      "hints": [
+        "C'est une planète géante gazeuse."
+      ],
+      "common_errors": {
+        "la Terre": "L'élève surestime la taille de la Terre."
+      },
+      "remediation": "Comparer les tailles des planètes sur un schéma à l'échelle.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "Jupiter",
+        "la Terre",
+        "Mercure"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.a04",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle planète est la plus proche du Soleil ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Mercure est la planète la plus proche du Soleil.",
+      "step_by_step_solution": [
+        "Neptune est la plus éloignée.",
+        "La plus proche est Mercure."
+      ],
+      "hints": [
+        "C'est la première de la liste."
+      ],
+      "common_errors": {
+        "Vénus": "L'élève retient seulement que Vénus est proche et brillante."
+      },
+      "remediation": "Réciter la liste des planètes à partir du Soleil.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "Mercure",
+        "Neptune",
+        "Vénus"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.a05",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "APPLICATION",
+      "exercise_type": "MATCHING",
+      "statement": "Relie chaque planète à son type : Mars, Jupiter, Vénus, Neptune.",
+      "expected_answer": {
+        "kind": "MATCHING",
+        "value": {
+          "Mars": "planète rocheuse",
+          "Jupiter": "planète gazeuse",
+          "Vénus": "planète rocheuse",
+          "Neptune": "planète gazeuse"
+        }
+      },
+      "solution": "Les quatre planètes proches du Soleil (Mercure, Vénus, Terre, Mars) sont rocheuses ; les quatre plus lointaines (Jupiter, Saturne, Uranus, Neptune) sont des géantes gazeuses. Réponse : Mars → planète rocheuse ; Jupiter → planète gazeuse ; Vénus → planète rocheuse ; Neptune → planète gazeuse.",
+      "step_by_step_solution": [
+        "Mars, Vénus → planète rocheuse",
+        "Jupiter, Neptune → planète gazeuse"
+      ],
+      "hints": [
+        "Les planètes rocheuses sont les quatre plus proches du Soleil."
+      ],
+      "common_errors": {
+        "Mars → planète gazeuse ; Jupiter → planète gazeuse ; Vénus → planète rocheuse ; Neptune → planète gazeuse": "L'élève pense que la « planète rouge » est gazeuse."
+      },
+      "remediation": "Colorier sur la frise des planètes les rocheuses et les gazeuses de deux couleurs différentes.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "planète rocheuse",
+        "planète gazeuse"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.c01",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "ORDERING",
+      "statement": "Range ces planètes de la plus proche à la plus éloignée du Soleil : Saturne, Jupiter, Neptune, Uranus.",
+      "expected_answer": {
+        "kind": "ORDERING",
+        "value": [
+          "Jupiter",
+          "Saturne",
+          "Uranus",
+          "Neptune"
+        ]
+      },
+      "solution": "Après Mars viennent Jupiter, Saturne, Uranus puis Neptune. Réponse : Jupiter → Saturne → Uranus → Neptune.",
+      "step_by_step_solution": [
+        "Jupiter → Saturne",
+        "→ Uranus → Neptune"
+      ],
+      "hints": [
+        "… J'ai Suivi Un Nuage."
+      ],
+      "common_errors": {
+        "Jupiter ; Saturne ; Neptune ; Uranus": "L'élève inverse les deux planètes les plus lointaines."
+      },
+      "remediation": "Réciter la phrase mnémotechnique complète.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "Saturne",
+        "Jupiter",
+        "Neptune",
+        "Uranus"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.c02",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi trouve-t-on de l'eau liquide en abondance à la surface de la Terre ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La Terre est à une distance du Soleil qui donne des températures ni trop chaudes ni trop froides : l'eau peut y être liquide (son atmosphère y contribue aussi). Réponse : sa distance au Soleil donne des températures qui permettent à l'eau d'être liquide.",
+      "step_by_step_solution": [
+        "Trop près du Soleil, l'eau s'évaporerait ; trop loin, elle gèlerait.",
+        "La distance de la Terre au Soleil permet l'eau liquide."
+      ],
+      "hints": [
+        "Que devient l'eau quand il fait très chaud ? Très froid ?"
+      ],
+      "common_errors": {
+        "c'est la planète la plus proche du Soleil": "L'élève se trompe sur la position de la Terre (c'est Mercure la plus proche)."
+      },
+      "remediation": "Comparer les températures de Vénus, de la Terre et de Mars (données fournies).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "sa distance au Soleil donne des températures qui permettent à l'eau d'être liquide",
+        "c'est la plus grande planète",
+        "c'est la planète la plus proche du Soleil"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.c03",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "La Terre se trouve à environ 150 millions de kilomètres du Soleil. Mars est…",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Mars est la 4e planète, après la Terre (3e) : elle est plus éloignée du Soleil.",
+      "step_by_step_solution": [
+        "Terre : 3e planète ; Mars : 4e planète.",
+        "Mars est plus éloignée du Soleil que la Terre."
+      ],
+      "hints": [
+        "Quelle est la position de Mars dans la liste ?"
+      ],
+      "common_errors": {
+        "plus proche du Soleil que la Terre": "L'élève inverse l'ordre Terre / Mars."
+      },
+      "remediation": "Placer la Terre et Mars sur une frise des distances au Soleil.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "plus éloignée du Soleil que la Terre",
+        "plus proche du Soleil que la Terre",
+        "à la même distance que la Terre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.c04",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Combien de planètes sont plus proches du Soleil que la Terre ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "Mercure et Vénus sont plus proches du Soleil que la Terre : il y en a 2. Réponse : 2.",
+      "step_by_step_solution": [
+        "Les planètes avant la Terre : Mercure, Vénus.",
+        "Il y en a 2."
+      ],
+      "hints": [
+        "La Terre est la 3e planète."
+      ],
+      "common_errors": {
+        "3": "L'élève compte la Terre elle-même."
+      },
+      "remediation": "Pointer sur la liste les planètes situées avant la Terre.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.c05",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Vrai ou faux : les planètes produisent leur propre lumière, comme le Soleil.",
+      "expected_answer": {
+        "kind": "BOOLEAN",
+        "value": false
+      },
+      "solution": "C'est faux : les planètes ne produisent pas de lumière ; elles renvoient la lumière du Soleil. Seules les étoiles produisent leur lumière. Réponse : faux.",
+      "step_by_step_solution": [
+        "Le Soleil est une étoile : il produit sa lumière.",
+        "Les planètes renvoient la lumière du Soleil : c'est faux."
+      ],
+      "hints": [
+        "Pourquoi voit-on Vénus briller le soir ?"
+      ],
+      "common_errors": {
+        "vrai": "L'élève pense que ce qui brille dans le ciel produit forcément sa lumière."
+      },
+      "remediation": "Éclairer une balle avec une lampe dans une pièce sombre : la balle renvoie la lumière.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.x01",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "La lumière parcourt environ 300 000 km en 1 seconde. La Terre est à environ 150 000 000 km du Soleil. Combien de secondes la lumière du Soleil met-elle pour arriver sur Terre ? Réponds en s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 500,
+        "unit": "s"
+      },
+      "solution": "150 000 000 ÷ 300 000 = 500 s, soit environ 8 minutes et 20 secondes. Réponse : 500 s.",
+      "step_by_step_solution": [
+        "Durée = distance ÷ distance parcourue en 1 s.",
+        "150 000 000 ÷ 300 000 = 500 s."
+      ],
+      "hints": [
+        "Combien de fois 300 000 km dans 150 000 000 km ?",
+        "Supprime cinq zéros aux deux nombres avant de diviser."
+      ],
+      "common_errors": {
+        "50 s": "L'élève fait une erreur sur le nombre de zéros."
+      },
+      "remediation": "Poser la division en supprimant les mêmes zéros aux deux nombres.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.x02",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Neptune est environ 30 fois plus loin du Soleil que la Terre. Comment y est la température ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Plus une planète est loin du Soleil, moins elle reçoit d'énergie : Neptune est beaucoup plus froide que la Terre. Réponse : beaucoup plus froide que sur Terre.",
+      "step_by_step_solution": [
+        "Loin du Soleil, une planète reçoit peu de lumière et de chaleur.",
+        "Neptune est beaucoup plus froide que la Terre."
+      ],
+      "hints": [
+        "Qui chauffe les planètes ?"
+      ],
+      "common_errors": {
+        "la même que sur Terre": "L'élève ne relie pas distance au Soleil et température."
+      },
+      "remediation": "Placer les températures moyennes des planètes (données fournies) en face de leur distance au Soleil.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "beaucoup plus froide que sur Terre",
+        "beaucoup plus chaude que sur Terre",
+        "la même que sur Terre"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.ST.6E.systeme-solaire.x03",
+      "notion_id": "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire",
+      "subject": "SCIENCES_TECHNOLOGIE",
+      "level": "6E",
+      "difficulty": "ADVANCED",
+      "exercise_type": "QCM",
+      "statement": "Vénus est plus proche du Soleil que la Terre et son atmosphère est très épaisse. Pourquoi n'y trouve-t-on pas d'eau liquide ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "À la surface de Vénus, la température dépasse 400 °C : l'eau ne peut pas y être liquide.",
+      "step_by_step_solution": [
+        "Vénus est proche du Soleil et son atmosphère épaisse retient la chaleur.",
+        "Il y fait beaucoup trop chaud (plus de 400 °C)."
+      ],
+      "hints": [
+        "À quelle température l'eau bout-elle ?"
+      ],
+      "common_errors": {
+        "il y fait beaucoup trop froid": "L'élève ne relie pas proximité du Soleil et chaleur."
+      },
+      "remediation": "Comparer Vénus, la Terre et Mars dans un tableau : distance, température, eau liquide.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Situer la Terre dans le système solaire (ordre des planètes, distances)",
+        "Distinguer étoile, planète et satellite ; relier la position de la Terre à la présence d'eau liquide"
+      ],
+      "source_notions": [
+        "ST.6E.TER.position-de-la-terre-dans-le-systeme-solaire"
+      ],
+      "choices": [
+        "il y fait beaucoup trop chaud (plus de 400 °C)",
+        "il y fait beaucoup trop froid",
+        "il n'y a pas de Soleil au-dessus de Vénus"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}
