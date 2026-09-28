@@ -376,28 +376,30 @@ _CHUNK_SEP = re.compile(r"[:;!?\n]|,\s|\.(?=\s|$)|≈|⇔|⟺|⇒|→|≤|≥|<|
 
 
 def math_candidates(text: str) -> List[str]:
-    """Fragments « mathématiques » d'un texte : blocs séparés par les mots français."""
+    """Fragments « mathématiques » d'un texte : blocs séparés par les mots français.
+
+    Si le texte contient des égalités, seuls les membres À DROITE du premier « = » sont
+    retenus (résultats), jamais l'expression de départ (qui vaut trivialement le résultat).
+    """
     t = latex_to_plain(text or "")
-    out: List[str] = []
 
     def keep(word_match: re.Match) -> str:
         w = word_match.group(0)
         return w if w in _FUNCTIONS else "\n"
 
     t = _SPLIT_WORDS.sub(keep, t)
+    plain: List[str] = []
+    rhs: List[str] = []
     for chunk in _CHUNK_SEP.split(t):
         chunk = chunk.strip(" .\t")
         if not chunk or not re.search(r"[0-9a-zA-Zπ√]", chunk):
             continue
         parts = [p.strip() for p in chunk.split("=")]
         if len(parts) > 1:
-            out.extend(p for p in parts if p)
-            out.append(chunk)
+            rhs.extend(p for p in parts[1:] if p)
         else:
-            out.append(chunk)
-        if len(out) >= MAX_CANDIDATES:
-            break
-    return out[:MAX_CANDIDATES]
+            plain.append(chunk)
+    return (rhs if rhs else plain)[:MAX_CANDIDATES]
 
 
 def find_equivalent_in_text(expected: Any, text: str) -> bool:
