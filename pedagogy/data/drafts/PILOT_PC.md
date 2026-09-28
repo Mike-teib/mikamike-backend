@@ -90,11 +90,10 @@ non ambigu. Les notions purement expérimentales (« mettre en œuvre », « ré
 
 ## Limites du vérificateur et contournements
 
-- **Unités inconnues du parseur** : `Bq`, `an(s)`, `jour(s)`. Les activités (Bq) et les âges (années) de Tle sont
-  demandés « en becquerels / en années (donner le nombre seul) », et la réponse est une QUANTITY sans unité. Les
-  durées en jours sont demandées en nombre seul (MATH_EXPR) ou converties en s ou en h. **À revoir** :
-  si l'élève ajoute « Bq » ou « ans », sa réponse risque d'être refusée. Il faudrait ajouter ces unités au
-  parseur `pedagogy.checks.physics`.
+- **Unités `Bq`, `an(s)`, `jour(s)`** : désormais reconnues par `pedagogy.checks.physics`. Les 5 exercices
+  de décroissance radioactive de Tle (a02, c01, c05, x02, x03) déclarent maintenant l'unité attendue
+  (`expected_answer.unit` = « Bq » ou « an ») ; l'énoncé ne demande plus « le nombre seul ». Les durées en jours restent
+  demandées en nombre seul (MATH_EXPR) ou converties en s ou en h.
 - **Lettres capitales isolées après « en »** : « sa vitesse en A » est lu comme « en ampères ». Les points de
   trajectoire s'appellent donc « point 1 » et « point 2 » (1re, énergie mécanique, c02).
 - **Réponse dans la question** (`ANSWER_IN_QUESTION`) : un distracteur ou une réponse comme « double » ne doit pas
