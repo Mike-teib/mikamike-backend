@@ -50,10 +50,10 @@
         <div class="login-copy">
           <span class="eyebrow">ESPACE ÉLÈVE</span>
           <h1 id="loginTitle">Prêt à avancer avec Mika ?</h1>
-          <p class="lead">Entre ton code élève. Mika retrouve ta progression et te propose la prochaine étape, sans te juger et sans faire l’exercice à ta place.</p>
+          <p class="lead">Connecte d’abord ton compte MikaMike, puis indique le code élève lié à ce compte. Mika ouvre ensuite ta progression réelle et ton prochain exercice disponible.</p>
 
           <div class="promise-grid" aria-label="Les points forts de MikaMike">
-            <article><span>🎯</span><div><strong>Un objectif clair</strong><small>Une notion à la fois.</small></div></article>
+            <article><span>🔐</span><div><strong>Un accès sécurisé</strong><small>Compte + élève lié.</small></div></article>
             <article><span>🧩</span><div><strong>Des indices progressifs</strong><small>Juste assez d’aide pour avancer.</small></div></article>
             <article><span>📈</span><div><strong>Des progrès visibles</strong><small>Pas seulement une note.</small></div></article>
           </div>
@@ -65,13 +65,23 @@
           </figure>
 
           <form id="studentLoginForm" novalidate>
-            <label for="studentCode">Code élève</label>
+            <label for="accountEmail">Adresse e-mail du compte</label>
+            <input id="accountEmail" name="accountEmail" type="email" autocomplete="username"
+                   inputmode="email" maxlength="254" placeholder="parent@exemple.fr" required>
+
+            <label for="accountPassword">Mot de passe</label>
+            <input id="accountPassword" name="accountPassword" type="password" autocomplete="current-password"
+                   maxlength="200" placeholder="Ton mot de passe MikaMike" required>
+
+            <label for="studentCode">Code élève lié au compte</label>
             <input id="studentCode" name="studentCode" type="text" inputmode="text" autocomplete="off"
-                   autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. MIKA-1234" required>
+                   autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. Test26Mika" required>
+
+            <p id="accountStatus" class="form-help" aria-live="polite">Le code élève seul ne suffit pas : il doit être lié à ce compte.</p>
             <p id="loginError" class="form-error" role="alert" hidden></p>
-            <button class="primary-button full-button" type="submit">Commencer avec Mika</button>
+            <button class="primary-button full-button" type="submit">Se connecter et commencer</button>
           </form>
-          <p class="privacy-note">Ton code sert uniquement à ouvrir ton espace. Ne le partage pas publiquement.</p>
+          <p class="privacy-note">Le jeton élève reste uniquement en mémoire pendant la séance. Le compte peut rester connecté dans cet onglet.</p>
         </div>
       </section>
 
@@ -81,6 +91,14 @@
             <span class="eyebrow">AUJOURD’HUI</span>
             <h1>Bonjour <span id="studentName">👋</span></h1>
             <p id="heroMessage">On reprend là où tu t’es arrêté.</p>
+            <div class="level-picker">
+              <label for="studentLevel">Niveau actuellement disponible</label>
+              <select id="studentLevel">
+                <option value="6e">6e</option>
+                <option value="5e">5e</option>
+              </select>
+              <small>Les autres niveaux seront activés après validation et publication de leurs contenus.</small>
+            </div>
           </div>
           <figure class="media-card dashboard-illustration">
             <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_05-2-1024x576.png" alt="Illustration MikaMike : progression et accompagnement d’un élève" width="1024" height="576" loading="lazy" decoding="async">
@@ -109,10 +127,10 @@
               <div><span class="eyebrow">RACCOURCIS</span><h2>Que veux-tu travailler ?</h2></div>
             </div>
             <div class="subject-grid compact">
-              <button class="subject-card maths" data-subject="Mathématiques"><span class="subject-icon">∑</span><strong>Mathématiques</strong><small>Calcul, géométrie, fonctions…</small></button>
-              <button class="subject-card physics" data-subject="Physique-chimie"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>Unités, modèles, expériences…</small></button>
-              <button class="subject-card svt" data-subject="SVT"><span class="subject-icon">🌱</span><strong>SVT</strong><small>Vivant, santé, Terre…</small></button>
-              <button class="subject-card science" data-subject="Sciences"><span class="subject-icon">🔬</span><strong>Sciences</strong><small>Observer, comprendre, tester.</small></button>
+              <button class="subject-card maths" data-subject="Mathématiques" data-api-subject="maths"><span class="subject-icon">∑</span><strong>Mathématiques</strong><small>Calcul, géométrie, fonctions…</small></button>
+              <button class="subject-card physics subject-disabled" data-subject="Physique-chimie" disabled aria-disabled="true"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>En préparation : contenus non encore publiés.</small></button>
+              <button class="subject-card svt subject-disabled" data-subject="SVT" disabled aria-disabled="true"><span class="subject-icon">🌱</span><strong>SVT</strong><small>En préparation : contenus non encore publiés.</small></button>
+              <button class="subject-card science subject-disabled" data-subject="Sciences" disabled aria-disabled="true"><span class="subject-icon">🔬</span><strong>Sciences</strong><small>En préparation : contenus non encore publiés.</small></button>
             </div>
           </section>
         </div>
@@ -126,10 +144,10 @@
             <img src="https://mikamike.fr/wp-content/uploads/2026/09/Image-ChatGPT-27-sept.-2026-13_45_07-3-1024x576.png" alt="Illustration MikaMike des matières scientifiques" width="1024" height="576" loading="lazy" decoding="async">
           </figure>
           <div class="subject-grid">
-            <button class="subject-card maths" data-subject="Mathématiques"><span class="subject-icon">∑</span><strong>Mathématiques</strong><small>Raisonner, calculer, résoudre.</small></button>
-            <button class="subject-card physics" data-subject="Physique-chimie"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>Comprendre les phénomènes.</small></button>
-            <button class="subject-card svt" data-subject="SVT"><span class="subject-icon">🌱</span><strong>SVT</strong><small>Explorer le vivant et la Terre.</small></button>
-            <button class="subject-card science" data-subject="Sciences"><span class="subject-icon">🔬</span><strong>Sciences</strong><small>Observer et expérimenter.</small></button>
+            <button class="subject-card maths" data-subject="Mathématiques" data-api-subject="maths"><span class="subject-icon">∑</span><strong>Mathématiques</strong><small>Raisonner, calculer, résoudre.</small></button>
+            <button class="subject-card physics subject-disabled" data-subject="Physique-chimie" disabled aria-disabled="true"><span class="subject-icon">⚛</span><strong>Physique-chimie</strong><small>En préparation : contenus non encore publiés.</small></button>
+            <button class="subject-card svt subject-disabled" data-subject="SVT" disabled aria-disabled="true"><span class="subject-icon">🌱</span><strong>SVT</strong><small>En préparation : contenus non encore publiés.</small></button>
+            <button class="subject-card science subject-disabled" data-subject="Sciences" disabled aria-disabled="true"><span class="subject-icon">🔬</span><strong>Sciences</strong><small>En préparation : contenus non encore publiés.</small></button>
           </div>
           <div id="catalogNotice" class="info-banner" hidden></div>
         </div>
