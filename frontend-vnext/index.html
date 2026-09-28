@@ -50,7 +50,7 @@
         <div class="login-copy">
           <span class="eyebrow">ESPACE ÉLÈVE</span>
           <h1 id="loginTitle">Prêt à avancer avec Mika ?</h1>
-          <p class="lead">Entre ton code élève. Mika retrouve ta progression et te propose la prochaine étape, sans te juger et sans faire l’exercice à ta place.</p>
+          <p class="lead">Connecte ton compte puis indique le code élève lié. Mika retrouve la progression et propose la prochaine étape, sans te juger et sans faire l’exercice à ta place.</p>
 
           <div class="promise-grid" aria-label="Les points forts de MikaMike">
             <article><span>🎯</span><div><strong>Un objectif clair</strong><small>Une notion à la fois.</small></div></article>
@@ -65,13 +65,40 @@
           </figure>
 
           <form id="studentLoginForm" novalidate>
-            <label for="studentCode">Code élève</label>
-            <input id="studentCode" name="studentCode" type="text" inputmode="text" autocomplete="off"
-                   autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. MIKA-1234" required>
+            <div class="login-fields">
+              <div>
+                <label for="accountEmail">E-mail du compte MikaMike</label>
+                <input id="accountEmail" name="accountEmail" type="email" inputmode="email" autocomplete="username"
+                       maxlength="254" placeholder="parent@exemple.fr" required>
+              </div>
+              <div>
+                <label for="accountPassword">Mot de passe</label>
+                <input id="accountPassword" name="accountPassword" type="password" autocomplete="current-password"
+                       maxlength="200" placeholder="Ton mot de passe" required>
+              </div>
+              <div>
+                <label for="studentCode">Code élève</label>
+                <input id="studentCode" name="studentCode" type="text" inputmode="text" autocomplete="off"
+                       autocapitalize="off" spellcheck="false" maxlength="120" placeholder="Ex. Test26Mika" required>
+              </div>
+              <div>
+                <label for="studentLevel">Niveau</label>
+                <select id="studentLevel" name="studentLevel" required>
+                  <option value="6e">6e</option>
+                  <option value="5e" selected>5e</option>
+                  <option value="4e">4e</option>
+                  <option value="3e">3e</option>
+                  <option value="2de">2de</option>
+                  <option value="1re">1re</option>
+                  <option value="tle">Terminale</option>
+                </select>
+              </div>
+            </div>
+            <p class="privacy-note login-contract-note">Connexion sécurisée : le compte doit être lié à ce code élève. Le mot de passe n'est jamais conservé.</p>
             <p id="loginError" class="form-error" role="alert" hidden></p>
-            <button class="primary-button full-button" type="submit">Commencer avec Mika</button>
+            <button class="primary-button full-button" type="submit">Se connecter et commencer</button>
           </form>
-          <p class="privacy-note">Ton code sert uniquement à ouvrir ton espace. Ne le partage pas publiquement.</p>
+          <p class="privacy-note">Le jeton élève reste en mémoire uniquement pendant cette page. Le compte reste actif dans cet onglet pour permettre une reconnexion sûre.</p>
         </div>
       </section>
 
