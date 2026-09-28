@@ -153,28 +153,41 @@ parcours_router = APIRouter(prefix="/parcours", tags=["mika-parcours"])
 @parcours_router.get("/prochaine-etape", response_model=ProchaineEtapeOut)
 def prochaine_etape(
     student_id: str = Query(max_length=128, pattern=ID_PATTERN),
+    level: str | None = Query(default=None, max_length=32),
+    subject: str | None = Query(default=None, max_length=32),
     db: Session = Depends(get_db), g: Garde = Depends(_garde)):
     g.exiger(student_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(student_id)
     etats = crud.get_etats(db, eleve_hmac)
 
-    # Première compétence du catalogue non encore consolidée.
+    # Première compétence du catalogue non encore consolidée, dans le niveau/matière demandé.
+    filtres_actifs = bool((level or "").strip() or (subject or "").strip())
+    candidats = catalogue.exercices_disponibles(niveau=level, matiere=subject) if filtres_actifs else list(catalogue.EXERCICES)
+    if not candidats:
+        raise HTTPException(status_code=404, detail="contenu_indisponible")
+
     cible = None
-    for comp in catalogue.toutes_les_competences():
+    exo_id = None
+    for candidat_id in candidats:
+        candidat = catalogue.get_exercice(candidat_id)
+        if candidat is None:
+            continue
+        comp = candidat["competence"]
         try:
             etat = EtatMaitrise(etats.get(comp, "INCONNU"))
         except ValueError:
-            # État corrompu/inconnu en base : on le traite comme non consolidé (pas de 500).
             etat = EtatMaitrise.INCONNU
         if etat not in ETATS_SOLIDES:
             cible = comp
+            exo_id = candidat_id
             break
 
-    if cible is None:
-        # Tout est consolidé : on propose une révision de la 1re compétence.
-        cible = catalogue.toutes_les_competences()[0]
+    if exo_id is None:
+        # Tout est consolidé pour ce filtre : révision du premier exercice disponible.
+        exo_id = candidats[0]
+        meta_revision = catalogue.get_exercice(exo_id)
+        cible = meta_revision["competence"]
 
-    exo_id = catalogue.exercice_pour_competence(cible)
     meta = catalogue.get_exercice(exo_id)
     return ProchaineEtapeOut(
         exercice_id=exo_id,
