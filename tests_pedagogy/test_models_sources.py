@@ -217,7 +217,10 @@ def test_proposition_puis_promotion_explicite(repo):
     promu = promote_notion(n, st, 2, "[FICTIF] Utiliser les puissances de 10")
     assert promu.proof_status == ProofStatus.PROVEN_OFFICIAL
     assert promu.official_wording == "[FICTIF] Utiliser les puissances de 10"  # texte de la source
-    assert promu.source_sha256 == src.sha256 and promu.eligible_for_content
+    assert promu.source_sha256 == src.sha256
+    assert promu.review_status == ReviewStatus.NOT_REVIEWED and not promu.eligible_for_content
+    approuvee = Notion.model_validate(promu.model_copy(update={"review_status": ReviewStatus.APPROVED}).model_dump())
+    assert approuvee.eligible_for_content
     assert verify_notion_against_source(promu, {src.source_id: st}).status == ProofStatus.PROVEN_OFFICIAL
 
 

@@ -8,6 +8,7 @@ autre choix ne doit l'être.
 Codes d'anomalie STABLES (code — sévérité — signification) :
   NOTION_UNKNOWN               BLOCKER  notion_id absent du registre
   NOTION_NOT_PROVEN            BLOCKER  notion.proof_status != PROVEN_OFFICIAL
+  NOTION_NOT_APPROVED          BLOCKER  notion.review_status != APPROVED
   NOTION_WITHOUT_SOURCE        BLOCKER  notion sans source_id, ou source_id absent du registre des sources
   SUBJECT_MISMATCH             ERROR    matière du quiz ≠ matière de la notion
   LEVEL_MISMATCH               ERROR    niveau du quiz ≠ niveau de la notion
@@ -39,7 +40,7 @@ from pedagogy.checks.answers import check_answer_detailed, normalize_answer_text
 from pedagogy.checks.math_notation import integrity_anomalies
 from pedagogy.checks.verdict import Verdict
 from pedagogy.issues import Issue, Severity
-from pedagogy.models import AnswerKind, ExpectedAnswer, GenerationOrigin, ProofStatus, PublicationStatus, QuizItem
+from pedagogy.models import AnswerKind, ExpectedAnswer, GenerationOrigin, ProofStatus, PublicationStatus, QuizItem, ReviewStatus
 from pedagogy.registry import Registry
 
 B, E, W = Severity.BLOCKER, Severity.ERROR, Severity.WARNING
@@ -81,6 +82,8 @@ def validate_quiz(q: QuizItem, reg: Registry) -> List[Issue]:
     else:
         if notion.proof_status != ProofStatus.PROVEN_OFFICIAL:
             add("NOTION_NOT_PROVEN", B, f"{q.notion_id}:{notion.proof_status.value}")
+        elif notion.review_status != ReviewStatus.APPROVED:
+            add("NOTION_NOT_APPROVED", B, f"{q.notion_id}:{notion.review_status.value}")
         if not notion.source_id or notion.source_id not in reg.sources:
             add("NOTION_WITHOUT_SOURCE", B, f"{q.notion_id}:{notion.source_id or '-'}")
         if notion.subject != q.subject:

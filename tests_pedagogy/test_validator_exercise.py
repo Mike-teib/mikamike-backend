@@ -41,7 +41,7 @@ def make_notion(subject: Subject, level: Level, code: str, slug: str, *, proven:
         source_type="OFFICIAL_BO", source_title="Programme fictif", source_url_or_ref="BO fictif",
     )
     if proven:
-        d.update(proof_status="PROVEN_OFFICIAL", source_id=source_id, source_page_or_section="p. 1",
+        d.update(proof_status="PROVEN_OFFICIAL", review_status="APPROVED", source_id=source_id, source_page_or_section="p. 1",
                  official_wording="[FICTIF] libellé officiel", source_sha256=SHA)
     d.update(kw)
     return Notion(**d)
@@ -55,6 +55,7 @@ N_PH = "PC.3E.CHIM.ph-fictif"
 N_ORG = "SVT.5E.CORPS.organes-fictifs"
 N_UNPROVEN = "MATHS.4E.NC.non-prouvee"
 N_NOSRC = "MATHS.4E.NC.source-absente"
+N_UNAPPROVED = "MATHS.4E.NC.non-approuvee"
 N_PUB = "MATHS.4E.NC.publiee-fictive"
 
 
@@ -73,6 +74,7 @@ def make_registry() -> Registry:
         make_notion(Subject.SVT, Level.CINQUIEME, "CORPS", "organes-fictifs"),
         make_notion(Subject.MATHS, Level.QUATRIEME, "NC", "non-prouvee", proven=False),
         make_notion(Subject.MATHS, Level.QUATRIEME, "NC", "source-absente", source_id="SRC-ABSENTE"),
+        make_notion(Subject.MATHS, Level.QUATRIEME, "NC", "non-approuvee", review_status="NOT_REVIEWED"),
         make_notion(Subject.MATHS, Level.QUATRIEME, "NC", "publiee-fictive",
                     review_status="APPROVED", publication_status="PUBLISHED"),
     ):
@@ -244,6 +246,7 @@ FICTIVE_UNKNOWN = "MATHS.4E.NC.inconnue-fictive"
 POSITIVE = {
     "NOTION_UNKNOWN": dict(notion_id=FICTIVE_UNKNOWN),
     "NOTION_NOT_PROVEN": dict(notion_id=N_UNPROVEN),
+    "NOTION_NOT_APPROVED": dict(notion_id=N_UNAPPROVED),
     "NOTION_WITHOUT_SOURCE": dict(notion_id=N_NOSRC),
     "LEVEL_MISMATCH": dict(level="3E"),
     "SUBJECT_MISMATCH": dict(subject="PHYSIQUE_CHIMIE"),
@@ -278,7 +281,7 @@ POSITIVE = {
 
 SEVERITY = {
     "NOTION_UNKNOWN": Severity.BLOCKER, "NOTION_NOT_PROVEN": Severity.BLOCKER,
-    "NOTION_WITHOUT_SOURCE": Severity.BLOCKER, "ANSWER_MISSING": Severity.BLOCKER,
+    "NOTION_NOT_APPROVED": Severity.BLOCKER, "NOTION_WITHOUT_SOURCE": Severity.BLOCKER, "ANSWER_MISSING": Severity.BLOCKER,
     "PUBLISHED_FORBIDDEN": Severity.BLOCKER, "LEVEL_MISMATCH": Severity.ERROR, "SUBJECT_MISMATCH": Severity.ERROR,
     "HINT_REVEALS_ANSWER": Severity.WARNING, "FIXTURE_IN_BANK": Severity.WARNING,
 }

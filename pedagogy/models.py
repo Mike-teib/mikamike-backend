@@ -279,8 +279,8 @@ class Notion(_Frozen):
 
     @property
     def eligible_for_content(self) -> bool:
-        """Seules les notions PROUVÉES OFFICIELLEMENT alimentent exercices et quiz."""
-        return self.proof_status == ProofStatus.PROVEN_OFFICIAL
+        """Seules les notions PROUVÉES OFFICIELLEMENT ET approuvées humainement alimentent exercices et quiz."""
+        return self.proof_status == ProofStatus.PROVEN_OFFICIAL and self.review_status == ReviewStatus.APPROVED
 
 
 # --------------------------------------------------------------------------- #
