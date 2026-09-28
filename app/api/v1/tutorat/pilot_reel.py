@@ -142,8 +142,8 @@ def catalogue_pilote_reel() -> CatalogueTutorat:
         methodes_alternatives=(
             "Souligne d’abord les produits et quotients, calcule-les, puis réécris l’expression.",
         ),
-        question_comprehension="Dans 5 + 2 × 3, quel calcul dois-tu faire en premier ?",
-        reponse_comprehension="2*3",
+        question_comprehension="Dans 5 + 2 × 3, quel résultat obtiens-tu après la première opération ?",
+        reponse_comprehension="6",
         type_verification_comprehension="maths_symbolique",
         correction_commentee=(
             "La multiplication est prioritaire : 3 × 2 = 6. "
