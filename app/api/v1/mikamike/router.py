@@ -32,6 +32,7 @@ from app.api.v1.mikamike.schemas import (
 )
 from app.api.v1.mikamike.store import get_db
 from app.core.validation import ID_PATTERN
+from app.api.v1.parcours.curriculum_dataset import ReferentielInconnu, normaliser_niveau, normaliser_matiere
 from app.core.auth import Action, Garde, garde as _garde
 
 from app.core.pseudonymisation import hmac_eleve as _hmac
@@ -153,33 +154,55 @@ parcours_router = APIRouter(prefix="/parcours", tags=["mika-parcours"])
 @parcours_router.get("/prochaine-etape", response_model=ProchaineEtapeOut)
 def prochaine_etape(
     student_id: str = Query(max_length=128, pattern=ID_PATTERN),
+    level: Optional[str] = Query(default=None, max_length=32),
+    subject: Optional[str] = Query(default=None, max_length=32),
     db: Session = Depends(get_db), g: Garde = Depends(_garde)):
     g.exiger(student_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(student_id)
     etats = crud.get_etats(db, eleve_hmac)
 
-    # Première compétence du catalogue non encore consolidée.
-    cible = None
-    for comp in catalogue.toutes_les_competences():
+    niveau_filtre = None
+    matiere_filtre = None
+    try:
+        if level:
+            niveau_filtre = normaliser_niveau(level)
+        if subject:
+            matiere_filtre = normaliser_matiere(subject)
+    except ReferentielInconnu as exc:
+        raise HTTPException(status_code=422, detail=str(exc))
+
+    candidats = []
+    for exo_id, meta in catalogue.EXERCICES.items():
+        if niveau_filtre and meta.get("niveau") != niveau_filtre:
+            continue
+        if matiere_filtre and meta.get("matiere") != matiere_filtre:
+            continue
+        candidats.append((exo_id, meta))
+
+    if not candidats:
+        raise HTTPException(status_code=404, detail="programme_indisponible")
+
+    # Première compétence du sous-catalogue choisi qui n'est pas encore consolidée.
+    choisi = None
+    for exo_id, meta in candidats:
+        comp = meta["competence"]
         try:
             etat = EtatMaitrise(etats.get(comp, "INCONNU"))
         except ValueError:
-            # État corrompu/inconnu en base : on le traite comme non consolidé (pas de 500).
             etat = EtatMaitrise.INCONNU
         if etat not in ETATS_SOLIDES:
-            cible = comp
+            choisi = (exo_id, meta)
             break
 
-    if cible is None:
-        # Tout est consolidé : on propose une révision de la 1re compétence.
-        cible = catalogue.toutes_les_competences()[0]
+    if choisi is None:
+        # Tout est consolidé pour ce filtre : on propose une révision du premier exercice.
+        choisi = candidats[0]
 
-    exo_id = catalogue.exercice_pour_competence(cible)
-    meta = catalogue.get_exercice(exo_id)
+    exo_id, meta = choisi
     return ProchaineEtapeOut(
         exercice_id=exo_id,
         niveau=meta["niveau"],
-        competence=cible,
+        competence=meta["competence"],
         consigne=meta["enonce"],
     )
 
