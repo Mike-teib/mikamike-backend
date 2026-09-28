@@ -44,10 +44,11 @@ await page.getByRole("button",{name:"Commencer avec Mika"}).click();
 await page.locator("#dashboardView").waitFor({state:"visible"});
 assert.match(await page.locator("#studentName").innerText(),/Test/);
 
-const maths=page.locator('.subject-card[data-subject="Mathématiques"]');
-const physics=page.locator('.subject-card[data-subject="Physique-chimie"]');
-const svt=page.locator('.subject-card[data-subject="SVT"]');
-const science=page.locator('.subject-card[data-subject="Sciences"]');
+const subjectsPanel=page.locator("#panel-subjects");
+const maths=subjectsPanel.locator('.subject-card[data-subject="Mathématiques"]');
+const physics=subjectsPanel.locator('.subject-card[data-subject="Physique-chimie"]');
+const svt=subjectsPanel.locator('.subject-card[data-subject="SVT"]');
+const science=subjectsPanel.locator('.subject-card[data-subject="Sciences"]');
 assert.equal(await maths.isEnabled(),true);
 assert.equal(await physics.isEnabled(),true);
 assert.equal(await svt.isDisabled(),true);
