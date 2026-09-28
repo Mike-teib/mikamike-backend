@@ -11,7 +11,7 @@ import MathKeyboard from '../components/core/MathKeyboard';
 describe('MIKAMIKE Multi-Level Frontend RC — UI Test Suite', () => {
   test('Renders Brand Title and Default Level (Lycée général > Première Générale)', () => {
     render(<App />);
-    expect(screen.getByText(/MIKAMIKE/i)).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /MIKAMIKE/i })).toBeInTheDocument();
     expect(screen.getAllByText(/Première Générale/i)[0]).toBeInTheDocument();
   });
 
@@ -84,7 +84,7 @@ describe('MIKAMIKE Multi-Level Frontend RC — UI Test Suite', () => {
     const examTab = screen.getByRole('button', { name: /Annales Examen/i });
     fireEvent.click(examTab);
 
-    expect(screen.getByText(/Mode Examen — Annales Officielles/i)).toBeInTheDocument();
+    expect(screen.getByText(/Mode Examen — Démonstration d’annales/i)).toBeInTheDocument();
     expect(screen.getAllByText(/DNB 2024 Métropole — Mathématiques/i)[0]).toBeInTheDocument();
     expect(screen.getAllByText(/Spécialité Mathématiques/i)[0]).toBeInTheDocument();
   });
@@ -94,7 +94,7 @@ describe('MIKAMIKE Multi-Level Frontend RC — UI Test Suite', () => {
     const keyboardBtn = screen.getByRole('button', { name: /Basculer le clavier mathématique/i });
     fireEvent.click(keyboardBtn);
 
-    expect(screen.getByText(/Clavier Mathématique Éléments Canoniques/i)).toBeInTheDocument();
+    expect(screen.getByText(/Clavier maths/i)).toBeInTheDocument();
 
     const deltaBtn = screen.getByRole('button', { name: /Symbole mathématique Δ/i });
     fireEvent.click(deltaBtn);
@@ -146,7 +146,7 @@ describe('MIKAMIKE Multi-Level Frontend RC — UI Test Suite', () => {
     const adminToggle = screen.getByRole('button', { name: /Toggle UI Admin Debug Panel/i });
     fireEvent.click(adminToggle);
 
-    expect(screen.getByText(/UI Admin Local \/ Métadonnées du Programme Canonique/i)).toBeInTheDocument();
+    expect(screen.getByText(/UI Admin Local \/ Métadonnées de démonstration/i)).toBeInTheDocument();
     expect(screen.getAllByText(/BO n°30 du 23 juillet 2020 \/ Mise à jour 2024-2025/i)[0]).toBeInTheDocument();
   });
 });
