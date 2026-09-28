@@ -1,0 +1,874 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q01",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Dans le nombre 6 492, quel est le chiffre des centaines ?",
+      "choices": [
+        "4",
+        "6",
+        "9",
+        "400"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "4",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "6 492 = 6 milliers, 4 centaines, 9 dizaines et 2 unités : le chiffre des centaines est 4.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "C'est le chiffre des milliers.",
+        "2": "C'est le chiffre des dizaines.",
+        "3": "C'est la valeur du chiffre des centaines, pas le chiffre."
+      },
+      "common_error_target": {
+        "1": "confusion des rangs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q02",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Combien vaut le chiffre 3 dans le nombre 3 815 ?",
+      "choices": [
+        "3",
+        "300",
+        "30",
+        "3 000"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "3 000",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le 3 est au rang des milliers : il vaut 3 milliers, soit trois mille.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "C'est le chiffre, sans sa valeur de position.",
+        "1": "Le 3 n'est pas au rang des centaines.",
+        "2": "Le 3 n'est pas au rang des dizaines."
+      },
+      "common_error_target": {
+        "0": "oubli de la position"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q03",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel nombre s'écrit avec 4 milliers, 6 centaines, 3 dizaines et 5 unités ?",
+      "choices": [
+        "5 364",
+        "18",
+        "4 635",
+        "4 365"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "4 635",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "4 milliers, 6 centaines, 3 dizaines et 5 unités : 4 000 + 600 + 30 + 5.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "Les chiffres ont été écrits à l'envers.",
+        "1": "On a additionné les chiffres.",
+        "3": "Centaines et dizaines ont été inversées."
+      },
+      "common_error_target": {
+        "0": "inversion des rangs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q04",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Deux-mille-trois s'écrit :",
+      "choices": [
+        "203",
+        "2 003",
+        "20003",
+        "2 030"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "2 003",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Deux-mille-trois : 2 milliers, 0 centaine, 0 dizaine, 3 unités.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a oublié un zéro.",
+        "2": "On a écrit 2000 puis 3.",
+        "3": "On a placé le 3 au rang des dizaines."
+      },
+      "common_error_target": {
+        "0": "oubli des zéros"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q05",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel nombre est égal à 5 000 + 70 + 2 ?",
+      "choices": [
+        "5 072",
+        "572",
+        "5 720",
+        "50702"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "5 072",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "5 milliers, 0 centaine, 7 dizaines et 2 unités : on écrit un zéro au rang des centaines.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a oublié le zéro au rang des centaines.",
+        "2": "On a décalé les chiffres d'un rang.",
+        "3": "On a écrit les nombres à la suite."
+      },
+      "common_error_target": {
+        "1": "oubli du zéro"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q06",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Dans quel nombre le chiffre 6 vaut-il 60 ?",
+      "choices": [
+        "6 124",
+        "2 601",
+        "3 256",
+        "1 462"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "1 462",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le 6 vaut 60 quand il est au rang des dizaines, comme dans 1 462.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "Ici, le 6 vaut six mille.",
+        "1": "Ici, le 6 vaut 600.",
+        "2": "Ici, le 6 vaut 6."
+      },
+      "common_error_target": {
+        "0": "confusion des rangs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q07",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Combien y a-t-il de centaines en tout dans 4 635 ?",
+      "choices": [
+        "6",
+        "463",
+        "46",
+        "4"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "46",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "4 milliers font 40 centaines ; avec les 6 centaines : 40 + 6 = 46 centaines.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "C'est seulement le chiffre des centaines.",
+        "1": "C'est le nombre de dizaines.",
+        "3": "C'est le chiffre des milliers."
+      },
+      "common_error_target": {
+        "0": "chiffre au lieu du nombre de centaines"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q08",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel nombre est formé de 3 milliers et 15 centaines ?",
+      "choices": [
+        "315",
+        "4 500",
+        "3 150",
+        "18"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "4 500",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "15 centaines = 1 millier et 5 centaines. 3 milliers + 1 millier + 5 centaines = 4 milliers et 5 centaines.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a écrit 3 et 15 à la suite.",
+        "2": "On a pris 15 centaines pour 15 dizaines.",
+        "3": "On a additionné 3 et 15."
+      },
+      "common_error_target": {
+        "0": "juxtaposition"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q09",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel nombre obtient-on en ajoutant 1 millier à 8 950 ?",
+      "choices": [
+        "9 950",
+        "8 951",
+        "9 050",
+        "8 960"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9 950",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Ajouter 1 millier, c'est ajouter mille : le chiffre des milliers passe de 8 à 9.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a ajouté 1 unité.",
+        "2": "On a ajouté 1 centaine.",
+        "3": "On a ajouté 1 dizaine."
+      },
+      "common_error_target": {
+        "1": "confusion des rangs"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.valeur-position.q10",
+      "notion_id": "MATHS.CE2.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Avec les chiffres 7, 0, 2 et 4, utilisés une fois chacun, quel est le plus grand nombre de quatre chiffres ?",
+      "choices": [
+        "2 047",
+        "7 402",
+        "4 720",
+        "7 420"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "7 420",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Pour le plus grand nombre, on range les chiffres du plus grand au plus petit : 7, 4, 2 puis 0.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "C'est le plus petit nombre possible.",
+        "1": "Les deux derniers chiffres sont mal rangés.",
+        "2": "Le plus grand chiffre n'est pas aux milliers."
+      },
+      "common_error_target": {
+        "0": "confusion plus grand / plus petit"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q01",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Combien fait 15 ÷ 5 ?",
+      "choices": [
+        "3",
+        "10",
+        "75",
+        "20"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "3",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "5 × 3 = 15, donc 15 ÷ 5 = 3.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "On a soustrait 5.",
+        "2": "On a multiplié.",
+        "3": "On a ajouté."
+      },
+      "common_error_target": {
+        "1": "soustraction au lieu de division"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q02",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "On sait que 4 × 7 = 28. Combien fait 28 ÷ 4 ?",
+      "choices": [
+        "24",
+        "112",
+        "32",
+        "7"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "La division est l'inverse de la multiplication : 4 × 7 = 28, donc 28 ÷ 4 = 7.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a soustrait 4.",
+        "1": "On a multiplié 28 par 4.",
+        "2": "On a ajouté 4."
+      },
+      "common_error_target": {
+        "0": "soustraction au lieu de division"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q03",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quatre enfants se partagent 20 cartes en parts égales. Combien de cartes a chacun ?",
+      "choices": [
+        "16",
+        "80",
+        "5",
+        "24"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "5",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "20 ÷ 4 = 5, car 4 × 5 = 20 : chaque enfant a 5 cartes.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a soustrait 4.",
+        "1": "On a multiplié.",
+        "3": "On a ajouté."
+      },
+      "common_error_target": {
+        "0": "soustraction au lieu de partage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q04",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel nombre manque ? 63 ÷ 9 = …",
+      "choices": [
+        "54",
+        "7",
+        "8",
+        "6"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "9 × 7 = 63, donc 63 ÷ 9 = 7.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a soustrait 9.",
+        "2": "Erreur dans la table de 9 : 9 × 8 = 72.",
+        "3": "Erreur dans la table de 9 : 9 × 6 = 54."
+      },
+      "common_error_target": {
+        "0": "soustraction au lieu de division"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q05",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "On range 35 livres sur des étagères, 5 livres par étagère. Combien d'étagères faut-il ?",
+      "choices": [
+        "7",
+        "30",
+        "175",
+        "6"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "7",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "On cherche combien de groupes de 5 dans 35 : 35 ÷ 5 = 7.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On a soustrait 5.",
+        "2": "On a multiplié.",
+        "3": "Erreur dans la table de 5."
+      },
+      "common_error_target": {
+        "1": "soustraction au lieu de groupement"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q06",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quelle division correspond à : « 6 amis se partagent 48 billes en parts égales » ?",
+      "choices": [
+        "6 ÷ 48",
+        "48 × 6",
+        "48 - 6",
+        "48 ÷ 6"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "48 ÷ 6",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "On partage les 48 billes entre 6 amis : 48 ÷ 6 (qui vaut 8).",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On a inversé les nombres : on partage les billes, pas les amis.",
+        "1": "Multiplier donnerait un nombre plus grand que 48.",
+        "2": "On n'enlève pas 6 billes."
+      },
+      "common_error_target": {
+        "0": "ordre des termes"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q07",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel calcul permet de vérifier que 72 ÷ 8 = 9 ?",
+      "choices": [
+        "72 - 8 = 64",
+        "72 + 8 = 80",
+        "8 × 9 = 72",
+        "9 - 8 = 1"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "8 × 9 = 72",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "La multiplication est l'inverse de la division : 8 × 9 = 72 vérifie que 72 ÷ 8 = 9.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "Une soustraction ne vérifie pas une division.",
+        "1": "Une addition ne vérifie pas une division.",
+        "3": "Ce calcul n'a pas de lien avec la division."
+      },
+      "common_error_target": {
+        "0": "mauvaise opération inverse"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q08",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Il y a 120 élèves. On forme 10 équipes identiques. Combien d'élèves y a-t-il par équipe ?",
+      "choices": [
+        "110",
+        "12",
+        "1200",
+        "130"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "12",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "120 ÷ 10 = 12, car 10 × 12 = 120.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a soustrait 10.",
+        "2": "On a multiplié par 10.",
+        "3": "On a ajouté 10."
+      },
+      "common_error_target": {
+        "0": "soustraction au lieu de partage"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q09",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Léa partage 40 perles en parts égales entre elle et ses 4 cousines. Combien de perles chacune reçoit-elle ?",
+      "choices": [
+        "8",
+        "10",
+        "36",
+        "35"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "8",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "Léa et ses 4 cousines font 5 personnes : 40 ÷ 5 = 8, car 5 × 8 = 40.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a oublié de compter Léa : 40 ÷ 4.",
+        "2": "On a soustrait 4.",
+        "3": "On a soustrait 5."
+      },
+      "common_error_target": {
+        "1": "oubli d'une part"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.sens-division.q10",
+      "notion_id": "MATHS.CE2.NCRP.comprendre-le-sens-de-la-division-et-utiliser-le-symbole",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Sam dit que 42 ÷ 7 = 5. Quel est le bon résultat ?",
+      "choices": [
+        "5",
+        "35",
+        "49",
+        "6"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "6",
+      "answer_kind": "MATH_EXPR",
+      "explanation": "7 × 6 = 42, donc 42 ÷ 7 = 6. Sam aurait dû vérifier avec une multiplication.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "7 × 5 = 35, pas 42 : Sam se trompe.",
+        "1": "C'est le produit 7 × 5.",
+        "2": "On a ajouté 7."
+      },
+      "common_error_target": {
+        "0": "résultat non vérifié"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q01",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Le périmètre d'une figure, c'est :",
+      "choices": [
+        "la longueur de son contour",
+        "la place à l'intérieur de la figure",
+        "le nombre de ses sommets",
+        "la longueur de son plus grand côté"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "la longueur de son contour",
+      "answer_kind": "EXACT_TEXT",
+      "explanation": "Le périmètre d'une figure plane est la longueur de son contour : on fait le tour de la figure.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "1": "L'intérieur de la figure n'est pas le contour.",
+        "2": "Le périmètre est une longueur, pas un nombre de sommets.",
+        "3": "Le contour comprend tous les côtés, pas un seul."
+      },
+      "common_error_target": {
+        "1": "confusion contour / intérieur"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q02",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel est le périmètre d'un triangle dont les côtés mesurent 2 cm, 5 cm et 6 cm ?",
+      "choices": [
+        "60 cm",
+        "7 cm",
+        "6 cm",
+        "13 cm"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "13 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "On ajoute les trois côtés : 2 + 5 + 6 = 13 cm.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On a multiplié les longueurs.",
+        "1": "On a oublié le côté de 6 cm.",
+        "2": "C'est seulement le plus grand côté."
+      },
+      "common_error_target": {
+        "0": "multiplication au lieu d'addition"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q03",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel est le périmètre d'un carré de 4 cm de côté ?",
+      "choices": [
+        "8 cm",
+        "4 cm",
+        "16 cm",
+        "12 cm"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "16 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "Le carré a 4 côtés de 4 cm : 4 + 4 + 4 + 4 = 16 cm.",
+      "difficulty": "DISCOVERY",
+      "distractor_rationale": {
+        "0": "On n'a compté que deux côtés.",
+        "1": "C'est la longueur d'un seul côté.",
+        "3": "On n'a compté que trois côtés."
+      },
+      "common_error_target": {
+        "0": "oubli de côtés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q04",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Quel est le périmètre d'un rectangle de 10 cm sur 5 cm ?",
+      "choices": [
+        "15 cm",
+        "30 cm",
+        "50 cm",
+        "20 cm"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "30 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "On fait le tour du rectangle : 10 + 5 + 10 + 5 = 30 cm.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On n'a compté qu'une longueur et une largeur.",
+        "2": "On a multiplié la longueur par la largeur.",
+        "3": "On a compté quatre fois la largeur et oublié les longueurs."
+      },
+      "common_error_target": {
+        "0": "oubli de deux côtés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q05",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Une cour carrée a des côtés de 20 m. Quelle distance parcourt-on en faisant un tour de la cour ?",
+      "choices": [
+        "80 m",
+        "40 m",
+        "400 m",
+        "24 m"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "80 m",
+      "answer_kind": "QUANTITY",
+      "explanation": "Un tour de la cour correspond à son périmètre : 20 + 20 + 20 + 20 = 80 m.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "1": "On n'a compté que deux côtés.",
+        "2": "On a multiplié 20 par 20.",
+        "3": "On a ajouté 20 et 4."
+      },
+      "common_error_target": {
+        "1": "oubli de côtés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q06",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Un losange a des côtés de 7 cm. Quel est son périmètre ?",
+      "choices": [
+        "14 cm",
+        "11 cm",
+        "49 cm",
+        "28 cm"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "28 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "Les 4 côtés du losange mesurent 7 cm : 7 + 7 + 7 + 7 = 28 cm.",
+      "difficulty": "APPLICATION",
+      "distractor_rationale": {
+        "0": "On n'a compté que deux côtés.",
+        "1": "On a ajouté 7 et 4.",
+        "2": "On a multiplié 7 par 7."
+      },
+      "common_error_target": {
+        "0": "oubli de côtés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q07",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Un triangle a un périmètre de 18 cm. Deux côtés mesurent 5 cm et 7 cm. Combien mesure le troisième côté ?",
+      "choices": [
+        "30 cm",
+        "12 cm",
+        "6 cm",
+        "11 cm"
+      ],
+      "correct_answer": 2,
+      "reference_answer": "6 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "5 + 7 = 12 cm ; il reste 18 − 12 = 6 cm pour le troisième côté.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a ajouté toutes les longueurs.",
+        "1": "C'est la somme des deux côtés connus.",
+        "3": "On a enlevé un seul côté au périmètre."
+      },
+      "common_error_target": {
+        "0": "addition de toutes les données"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q08",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Un rectangle mesure 2 m de long et 50 cm de large. Quel est son périmètre, en centimètres ?",
+      "choices": [
+        "104 cm",
+        "500 cm",
+        "250 cm",
+        "450 cm"
+      ],
+      "correct_answer": 1,
+      "reference_answer": "500 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "2 m = 200 cm. Périmètre : 200 + 50 + 200 + 50 = 500 cm.",
+      "difficulty": "CONSOLIDATION",
+      "distractor_rationale": {
+        "0": "On a compté les mètres comme des centimètres.",
+        "2": "On n'a compté qu'une longueur et une largeur.",
+        "3": "On a oublié une largeur."
+      },
+      "common_error_target": {
+        "0": "oubli de la conversion"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q09",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "Un carré a un périmètre de 36 cm. Combien mesure un côté ?",
+      "choices": [
+        "9 cm",
+        "18 cm",
+        "32 cm",
+        "12 cm"
+      ],
+      "correct_answer": 0,
+      "reference_answer": "9 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "Les 4 côtés égaux font 36 cm en tout : 4 × 9 = 36, donc un côté mesure 9 cm.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "1": "On a partagé le périmètre en 2 au lieu de 4.",
+        "2": "On a enlevé 4 au périmètre.",
+        "3": "On a partagé le périmètre en 3."
+      },
+      "common_error_target": {
+        "1": "mauvais nombre de côtés"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "quiz_id": "QZ.MATHS.CE2.perimetre.q10",
+      "notion_id": "MATHS.CE2.GM.savoir-ce-quest-le-perimetre-dune-figure-plane",
+      "subject": "MATHS",
+      "level": "CE2",
+      "question": "On colle deux carrés de 4 cm de côté pour former un rectangle. Quel est le périmètre du rectangle ?",
+      "choices": [
+        "32 cm",
+        "16 cm",
+        "12 cm",
+        "24 cm"
+      ],
+      "correct_answer": 3,
+      "reference_answer": "24 cm",
+      "answer_kind": "QUANTITY",
+      "explanation": "Le rectangle mesure 8 cm sur 4 cm : 8 + 4 + 8 + 4 = 24 cm. Le côté commun est à l'intérieur.",
+      "difficulty": "ADVANCED",
+      "distractor_rationale": {
+        "0": "On a ajouté les périmètres des deux carrés, en comptant le côté commun.",
+        "1": "C'est le périmètre d'un seul carré.",
+        "2": "On n'a compté qu'une longueur et une largeur."
+      },
+      "common_error_target": {
+        "0": "côté intérieur compté"
+      },
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

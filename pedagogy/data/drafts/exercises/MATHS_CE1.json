@@ -1,0 +1,2113 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.d01",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans le nombre 482, quel est le chiffre des centaines ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "482 = 4 centaines, 8 dizaines et 2 unités. Le chiffre des centaines est 4.",
+      "step_by_step_solution": [
+        "De droite à gauche : unités (2), dizaines (8), centaines.",
+        "Le troisième chiffre en partant de la droite est celui des centaines.",
+        "Le chiffre des centaines est 4."
+      ],
+      "hints": [
+        "Pars du chiffre des unités, tout à droite.",
+        "Les centaines sont deux rangs à gauche des unités."
+      ],
+      "common_errors": {
+        "2": "L'élève a donné le chiffre des unités.",
+        "8": "L'élève a donné le chiffre des dizaines."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.d02",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écris en chiffres le nombre formé de 3 centaines, 5 dizaines et 7 unités.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "357"
+      },
+      "solution": "3 centaines = 300, 5 dizaines = 50, 7 unités = 7. 300 + 50 + 7 = 357.",
+      "step_by_step_solution": [
+        "Centaines : 3 ; dizaines : 5 ; unités : 7.",
+        "On écrit les chiffres dans l'ordre centaines, dizaines, unités.",
+        "Le nombre est 357."
+      ],
+      "hints": [
+        "Place chaque chiffre dans un tableau centaines | dizaines | unités."
+      ],
+      "common_errors": {
+        "753": "L'élève a écrit les chiffres dans le mauvais ordre.",
+        "15": "L'élève a additionné les chiffres."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.d03",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Que vaut le chiffre 6 dans le nombre 609 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "600"
+      },
+      "solution": "Dans 609, le chiffre 6 est à la place des centaines : il vaut 6 centaines, c'est-à-dire 600.",
+      "step_by_step_solution": [
+        "609 : 6 centaines, 0 dizaine, 9 unités.",
+        "Le 6 est le chiffre des centaines.",
+        "Il vaut 6 centaines, soit 600."
+      ],
+      "hints": [
+        "À quelle place se trouve le chiffre 6 ?",
+        "Une centaine vaut cent unités."
+      ],
+      "common_errors": {
+        "6": "L'élève a donné le chiffre sans tenir compte de sa position.",
+        "60": "L'élève a pris le 6 pour le chiffre des dizaines."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.d04",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Sur la table, il y a 2 plaques de cent cubes, 4 barres de dix cubes et 1 petit cube. Combien de cubes y a-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "241"
+      },
+      "solution": "2 plaques = 200 cubes, 4 barres = 40 cubes, 1 cube. 200 + 40 + 1 = 241 cubes.",
+      "step_by_step_solution": [
+        "2 plaques de cent : 200.",
+        "4 barres de dix : 40.",
+        "200 + 40 + 1 = 241 cubes."
+      ],
+      "hints": [
+        "Une plaque vaut une centaine, une barre vaut une dizaine."
+      ],
+      "common_errors": {
+        "7": "L'élève a compté les objets au lieu de leur valeur.",
+        "142": "L'élève a inversé centaines et unités."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.d05",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Dans quel nombre le chiffre 5 est-il le chiffre des dizaines ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Dans 350, le chiffre 5 est au rang des dizaines (3 centaines, 5 dizaines, 0 unité). La bonne réponse est 350.",
+      "step_by_step_solution": [
+        "503 : le 5 est le chiffre des centaines.",
+        "215 : le 5 est le chiffre des unités.",
+        "350 : le 5 est le chiffre des dizaines, c'est la bonne réponse."
+      ],
+      "hints": [
+        "Le chiffre des dizaines est le deuxième en partant de la droite."
+      ],
+      "common_errors": {
+        "1": "L'élève a choisi le nombre qui commence par 5.",
+        "2": "L'élève a confondu dizaines et unités."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "choices": [
+        "350",
+        "503",
+        "215"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.a01",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Complète l'égalité : 835 = 800 + … + 5.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "30"
+      },
+      "solution": "835 = 8 centaines, 3 dizaines et 5 unités, soit 800 + 30 + 5. Le nombre manquant est 30.",
+      "step_by_step_solution": [
+        "800 correspond aux centaines, 5 aux unités.",
+        "Il manque les dizaines : 3 dizaines.",
+        "3 dizaines valent 30 : le nombre manquant est 30."
+      ],
+      "hints": [
+        "Quel est le chiffre des dizaines de 835 ?",
+        "Que vaut ce chiffre à cette place ?"
+      ],
+      "common_errors": {
+        "3": "L'élève a écrit le chiffre des dizaines au lieu de sa valeur.",
+        "35": "L'élève a regroupé dizaines et unités."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.a02",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Quel nombre est égal à (4 × 100) + (2 × 10) + (9 × 1) ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "429"
+      },
+      "solution": "4 × 100 = 400 ; 2 × 10 = 20 ; 9 × 1 = 9. 400 + 20 + 9 = 429.",
+      "step_by_step_solution": [
+        "4 centaines = 400.",
+        "2 dizaines = 20 et 9 unités = 9.",
+        "400 + 20 + 9 = 429."
+      ],
+      "hints": [
+        "Calcule chaque parenthèse, puis ajoute les résultats."
+      ],
+      "common_errors": {
+        "15": "L'élève a additionné les chiffres 4, 2 et 9.",
+        "924": "L'élève a inversé l'ordre des chiffres."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.a03",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écris en chiffres le nombre six-cent-quarante.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "640"
+      },
+      "solution": "Six-cent-quarante : 6 centaines, 4 dizaines et 0 unité. Il s'écrit 640.",
+      "step_by_step_solution": [
+        "six-cent : 6 centaines.",
+        "quarante : 4 dizaines.",
+        "Il n'y a pas d'unités : on écrit 0. Le nombre est 640."
+      ],
+      "hints": [
+        "Pense au zéro quand il n'y a rien au rang des unités."
+      ],
+      "common_errors": {
+        "6040": "L'élève a écrit 600 puis 40 à la suite.",
+        "64": "L'élève a oublié le zéro des unités."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.a04",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel nombre est formé de 9 centaines et 6 unités, sans aucune dizaine ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "906"
+      },
+      "solution": "9 centaines = 900 ; 0 dizaine ; 6 unités. 900 + 6 = 906.",
+      "step_by_step_solution": [
+        "Centaines : 9.",
+        "Dizaines : 0 (il n'y en a pas).",
+        "Unités : 6. Le nombre est 906."
+      ],
+      "hints": [
+        "Que faut-il écrire au rang des dizaines quand il n'y en a pas ?"
+      ],
+      "common_errors": {
+        "96": "L'élève a oublié le zéro au rang des dizaines.",
+        "960": "L'élève a placé les unités au rang des dizaines."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.a05",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Dans le nombre 273, que vaut le chiffre 7 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "273 = 2 centaines, 7 dizaines et 3 unités. Le chiffre 7 vaut 7 dizaines.",
+      "step_by_step_solution": [
+        "Le 3 est le chiffre des unités.",
+        "Le 7 est juste à gauche : c'est le chiffre des dizaines.",
+        "Le chiffre 7 vaut donc 7 dizaines."
+      ],
+      "hints": [
+        "Repère d'abord le chiffre des unités.",
+        "Quel rang vient juste à gauche des unités ?"
+      ],
+      "common_errors": {
+        "0": "L'élève a lu le rang des unités.",
+        "2": "L'élève a lu le rang des centaines."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "choices": [
+        "7 unités",
+        "7 dizaines",
+        "7 centaines"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.c01",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Combien y a-t-il de dizaines en tout dans le nombre 350 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "35"
+      },
+      "solution": "350 = 3 centaines et 5 dizaines. 3 centaines font 30 dizaines ; 30 + 5 = 35 dizaines.",
+      "step_by_step_solution": [
+        "Une centaine, c'est 10 dizaines.",
+        "3 centaines = 30 dizaines.",
+        "30 dizaines + 5 dizaines = 35 dizaines."
+      ],
+      "hints": [
+        "Attention : on demande le nombre total de dizaines, pas le chiffre des dizaines.",
+        "Combien de dizaines y a-t-il dans une centaine ?"
+      ],
+      "common_errors": {
+        "5": "L'élève a donné le chiffre des dizaines au lieu du nombre total de dizaines.",
+        "350": "L'élève a recopié le nombre."
+      },
+      "remediation": "Montrer avec le matériel qu'une plaque de cent se remplace par 10 barres de dix, puis compter toutes les barres.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.c02",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel nombre est formé de 4 unités, 2 centaines et 15 dizaines ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "354"
+      },
+      "solution": "2 centaines = 200 ; 15 dizaines = 150 ; 4 unités = 4. 200 + 150 + 4 = 354.",
+      "step_by_step_solution": [
+        "15 dizaines = 1 centaine et 5 dizaines = 150.",
+        "200 + 150 = 350.",
+        "350 + 4 = 354."
+      ],
+      "hints": [
+        "15 dizaines, c'est plus qu'une centaine.",
+        "Remplace 10 dizaines par 1 centaine."
+      ],
+      "common_errors": {
+        "2154": "L'élève a écrit les nombres à la suite sans échanger 10 dizaines contre 1 centaine.",
+        "21": "L'élève a additionné 4, 2 et 15."
+      },
+      "remediation": "Faire échanger 10 barres de dix contre une plaque de cent avec du matériel multibase.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.c03",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Il faut 460 timbres pour le club. Les timbres sont vendus en plaques de 100 ou en carnets de 10. On achète 3 plaques. Combien de carnets faut-il encore acheter pour avoir exactement 460 timbres ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "16"
+      },
+      "solution": "3 plaques = 300 timbres. Il manque 460 − 300 = 160 timbres. 160 timbres, c'est 16 dizaines, donc 16 carnets de 10.",
+      "step_by_step_solution": [
+        "3 plaques de 100 = 300 timbres.",
+        "Il manque 160 timbres.",
+        "160 = 16 dizaines : il faut 16 carnets."
+      ],
+      "hints": [
+        "Combien de timbres donnent les 3 plaques ?",
+        "Combien de dizaines y a-t-il dans le nombre de timbres qui manquent ?"
+      ],
+      "common_errors": {
+        "6": "L'élève a donné le chiffre des dizaines de 460 au lieu de compter les dizaines manquantes.",
+        "46": "L'élève a oublié les plaques déjà achetées."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.c04",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écris le nombre qui a 8 centaines, 0 dizaine et 3 unités.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "803"
+      },
+      "solution": "8 centaines = 800 ; 0 dizaine ; 3 unités. 800 + 3 = 803.",
+      "step_by_step_solution": [
+        "Centaines : 8.",
+        "Dizaines : 0.",
+        "Unités : 3. Le nombre est 803."
+      ],
+      "hints": [
+        "N'oublie pas d'écrire le zéro au rang des dizaines."
+      ],
+      "common_errors": {
+        "83": "L'élève a oublié le zéro des dizaines.",
+        "830": "L'élève a placé le zéro au mauvais rang."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.c05",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Combien de centaines y a-t-il dans 1 000 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "1 000 = 10 centaines (10 plaques de cent). Il y a 10 centaines dans mille.",
+      "step_by_step_solution": [
+        "Une centaine vaut 100.",
+        "On compte de cent en cent jusqu'à mille : 100, 200, …, 1 000.",
+        "Cela fait 10 centaines."
+      ],
+      "hints": [
+        "Compte de cent en cent jusqu'à mille."
+      ],
+      "common_errors": {
+        "1": "L'élève a lu le premier chiffre de 1 000.",
+        "100": "L'élève a confondu centaine et nombre de centaines."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.x01",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Devinette : je suis un nombre à trois chiffres. Mon chiffre des centaines est 3. Mon chiffre des dizaines a 4 de plus que mon chiffre des centaines. Mon chiffre des unités est 0. Qui suis-je ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "370"
+      },
+      "solution": "Centaines : 3. Dizaines : 3 + 4 = 7. Unités : 0. Le nombre est 370.",
+      "step_by_step_solution": [
+        "Chiffre des centaines : 3.",
+        "Chiffre des dizaines : 3 + 4 = 7.",
+        "Chiffre des unités : 0. Le nombre est 370."
+      ],
+      "hints": [
+        "Trouve d'abord le chiffre des dizaines.",
+        "Place ensuite chaque chiffre à son rang."
+      ],
+      "common_errors": {
+        "730": "L'élève a inversé centaines et dizaines.",
+        "307": "L'élève a placé le 7 au rang des unités."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.x02",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Avec les chiffres 5, 0 et 8, utilisés une seule fois chacun, écris le plus grand nombre de trois chiffres possible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "850"
+      },
+      "solution": "Pour obtenir le plus grand nombre, on place le plus grand chiffre aux centaines (8), puis le suivant aux dizaines (5), puis 0 aux unités : 850.",
+      "step_by_step_solution": [
+        "Le rang des centaines compte le plus : on y met 8.",
+        "Puis 5 aux dizaines.",
+        "Enfin 0 aux unités : 850."
+      ],
+      "hints": [
+        "Quel rang donne le plus de valeur à un chiffre ?"
+      ],
+      "common_errors": {
+        "805": "L'élève a mal rangé les deux derniers chiffres.",
+        "508": "L'élève a gardé l'ordre de l'énoncé."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.valeur-position.x03",
+      "notion_id": "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Lucas a 3 plaques de cent cubes, 14 barres de dix cubes et 12 cubes seuls. Combien de cubes a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "452"
+      },
+      "solution": "3 plaques = 300 ; 14 barres = 140 ; 12 cubes. 300 + 140 + 12 = 452 cubes.",
+      "step_by_step_solution": [
+        "3 plaques de cent : 300 cubes.",
+        "14 barres de dix : 140 cubes.",
+        "300 + 140 + 12 = 452 cubes."
+      ],
+      "hints": [
+        "14 barres, c'est plus de 10 barres : cela fait plus d'une centaine.",
+        "Calcule la valeur de chaque sorte de matériel avant d'ajouter."
+      ],
+      "common_errors": {
+        "29": "L'élève a compté les objets au lieu de leur valeur.",
+        "31412": "L'élève a écrit les nombres les uns à la suite des autres."
+      },
+      "remediation": "Représenter le nombre avec du matériel multibase (plaques de cent, barres de dix, cubes) et l'écrire dans un tableau centaines | dizaines | unités.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaitre la valeur d'un chiffre selon sa position (centaines, dizaines, unités)",
+        "Passer d'une écriture en unités de numération à l'écriture en chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-dans-un"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.d01",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Il y a 4 trousses. Dans chaque trousse, il y a 5 crayons. Combien y a-t-il de crayons en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "20"
+      },
+      "solution": "4 trousses de 5 crayons : 4 × 5 = 20. Il y a 20 crayons.",
+      "step_by_step_solution": [
+        "Chaque trousse contient 5 crayons.",
+        "Il y a 4 groupes de 5 : 5 + 5 + 5 + 5.",
+        "4 × 5 = 20."
+      ],
+      "hints": [
+        "Dessine les trousses et les crayons.",
+        "Combien de fois ajoute-t-on le même nombre ?"
+      ],
+      "common_errors": {
+        "9": "L'élève a ajouté les deux nombres au lieu de répéter le groupe."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.d02",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Une voiture a 4 roues. Combien de roues ont 3 voitures ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "3 voitures de 4 roues : 3 × 4 = 12. Il y a 12 roues.",
+      "step_by_step_solution": [
+        "Chaque voiture a 4 roues.",
+        "On répète 3 fois : 4 + 4 + 4.",
+        "3 × 4 = 12."
+      ],
+      "hints": [
+        "Compte de 4 en 4, une fois par voiture."
+      ],
+      "common_errors": {
+        "7": "L'élève a ajouté 3 et 4."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.d03",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Mamie prépare 6 assiettes. Sur chaque assiette, elle pose 2 crêpes. Combien de crêpes pose-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12"
+      },
+      "solution": "6 assiettes de 2 crêpes : 6 × 2 = 12. Elle pose 12 crêpes.",
+      "step_by_step_solution": [
+        "Chaque assiette a 2 crêpes.",
+        "On compte de 2 en 2 six fois.",
+        "6 × 2 = 12."
+      ],
+      "hints": [
+        "Tu peux utiliser les doubles."
+      ],
+      "common_errors": {
+        "8": "L'élève a ajouté les deux nombres.",
+        "10": "L'élève s'est arrêté trop tôt en comptant de 2 en 2."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.d04",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Trois enfants se partagent 15 billes. Chacun doit avoir le même nombre de billes. Combien de billes aura chaque enfant ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "On distribue les billes une à une aux 3 enfants jusqu'à ce qu'il n'en reste plus. Comme 3 × 5 = 15, chaque enfant aura 5 billes.",
+      "step_by_step_solution": [
+        "On distribue une bille à chaque enfant, tour après tour.",
+        "On cherche combien de billes par enfant pour que 3 parts fassent 15.",
+        "Chaque enfant a donc 5 billes."
+      ],
+      "hints": [
+        "Dessine 3 enfants et distribue les billes une par une.",
+        "Cherche dans la table de 3 le nombre qui donne 15."
+      ],
+      "common_errors": {
+        "12": "L'élève a soustrait le nombre d'enfants.",
+        "18": "L'élève a ajouté les deux nombres."
+      },
+      "remediation": "Faire distribuer réellement des jetons un à un dans trois parts, puis compter une part.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.d05",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans la classe, il y a 20 élèves. Le maître forme des équipes de 5 élèves. Combien y aura-t-il d'équipes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "On fait des groupes de 5 élèves jusqu'à avoir placé les 20 élèves : comme 4 × 5 = 20, il y aura 4 équipes.",
+      "step_by_step_solution": [
+        "Une équipe, c'est 5 élèves.",
+        "On compte de 5 en 5 jusqu'à 20 : 5, 10, 15, 20.",
+        "On a compté 4 fois : il y aura 4 équipes."
+      ],
+      "hints": [
+        "Dessine 20 croix et entoure des groupes de 5.",
+        "Compte les groupes entourés."
+      ],
+      "common_errors": {
+        "15": "L'élève a soustrait au lieu de chercher le nombre de groupes.",
+        "100": "L'élève a multiplié les deux nombres."
+      },
+      "remediation": "Dessiner les élèves par des croix et entourer des paquets de 5, puis compter les paquets.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.a01",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Nina achète 7 sachets de bonbons. Chaque sachet contient 6 bonbons. Combien de bonbons a-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "42"
+      },
+      "solution": "7 sachets de 6 bonbons : 7 × 6 = 42. Nina a 42 bonbons.",
+      "step_by_step_solution": [
+        "On cherche le tout : 7 groupes de 6.",
+        "On écrit 7 × 6.",
+        "7 × 6 = 42."
+      ],
+      "hints": [
+        "Tu peux t'aider de 6 × 6, puis ajouter encore 6."
+      ],
+      "common_errors": {
+        "13": "L'élève a ajouté les nombres.",
+        "36": "L'élève a compté un sachet de moins."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.a02",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Le cuisinier de la cantine commande 10 boîtes de 12 œufs. Combien d'œufs reçoit-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "120"
+      },
+      "solution": "10 boîtes de 12 œufs : 10 × 12 = 120. Il reçoit 120 œufs.",
+      "step_by_step_solution": [
+        "On répète 10 fois le même nombre d'œufs.",
+        "Multiplier par 10 : chaque unité devient une dizaine.",
+        "10 × 12 = 120."
+      ],
+      "hints": [
+        "Que devient un nombre quand on le multiplie par 10 ?"
+      ],
+      "common_errors": {
+        "22": "L'élève a ajouté les nombres.",
+        "102": "L'élève a écrit 10 et 2 à la suite."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.a03",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Le bibliothécaire range 40 livres en piles de 10 livres. Combien de piles fait-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "40 livres = 4 dizaines de livres. Il fait 4 piles, car 4 × 10 = 40.",
+      "step_by_step_solution": [
+        "Une pile contient 10 livres.",
+        "On cherche combien de fois 10 dans 40.",
+        "4 × 10 = 40 : il fait 4 piles."
+      ],
+      "hints": [
+        "Combien de dizaines y a-t-il dans 40 ?"
+      ],
+      "common_errors": {
+        "30": "L'élève a soustrait.",
+        "50": "L'élève a ajouté."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.a04",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "4 amis se partagent 28 cartes. Chacun reçoit le même nombre de cartes. Combien de cartes reçoit chaque ami ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "On cherche le nombre qui, répété 4 fois, donne 28 : 4 × 7 = 28. Chaque ami reçoit 7 cartes.",
+      "step_by_step_solution": [
+        "On partage 28 cartes en 4 parts égales.",
+        "Dans la table de 4 : 4 × 7 = 28.",
+        "Chaque ami reçoit 7 cartes."
+      ],
+      "hints": [
+        "Distribue les cartes une par une à chaque ami.",
+        "Cherche dans la table de 4."
+      ],
+      "common_errors": {
+        "24": "L'élève a soustrait le nombre d'amis.",
+        "8": "L'élève s'est trompé dans la table de 4."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.a05",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un immeuble a 9 étages. À chaque étage, on voit 4 fenêtres sur la façade. Combien de fenêtres voit-on sur la façade ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "36"
+      },
+      "solution": "9 étages de 4 fenêtres : 9 × 4 = 36. On voit 36 fenêtres.",
+      "step_by_step_solution": [
+        "Chaque étage a 4 fenêtres.",
+        "On répète 9 fois : 9 × 4.",
+        "9 × 4 = 36."
+      ],
+      "hints": [
+        "Tu peux utiliser 10 × 4 et enlever une fois 4."
+      ],
+      "common_errors": {
+        "13": "L'élève a ajouté les nombres.",
+        "32": "L'élève a compté un étage de moins."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.c01",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un fermier a 30 œufs. Il les range dans des boîtes de 6 œufs. Combien de boîtes remplit-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "On cherche combien de groupes de 6 on peut faire avec 30 œufs : 5 × 6 = 30. Il remplit 5 boîtes.",
+      "step_by_step_solution": [
+        "Une boîte contient 6 œufs.",
+        "On compte de 6 en 6 : 6, 12, 18, 24, 30.",
+        "On a compté 5 fois : 5 boîtes."
+      ],
+      "hints": [
+        "Compte de 6 en 6 jusqu'à trente."
+      ],
+      "common_errors": {
+        "24": "L'élève a soustrait une seule boîte.",
+        "180": "L'élève a multiplié les deux nombres."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.c02",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour le spectacle, on installe 8 rangées de 10 chaises. Combien de spectateurs peuvent s'asseoir ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "80"
+      },
+      "solution": "8 rangées de 10 chaises : 8 × 10 = 80. 80 spectateurs peuvent s'asseoir.",
+      "step_by_step_solution": [
+        "Chaque rangée a 10 chaises.",
+        "8 rangées de 10, ce sont 8 dizaines.",
+        "8 × 10 = 80."
+      ],
+      "hints": [
+        "Combien font 8 dizaines ?"
+      ],
+      "common_errors": {
+        "18": "L'élève a ajouté les nombres.",
+        "108": "L'élève a écrit 10 et 8 à la suite."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.c03",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Emma colle 45 photos dans un album. Elle met 5 photos sur chaque page. Combien de pages remplit-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "On cherche combien de fois 5 dans 45 : 9 × 5 = 45. Elle remplit 9 pages.",
+      "step_by_step_solution": [
+        "Chaque page contient 5 photos.",
+        "Dans la table de 5 : 9 × 5 = 45.",
+        "Elle remplit 9 pages."
+      ],
+      "hints": [
+        "Cherche dans la table de 5 le résultat 45."
+      ],
+      "common_errors": {
+        "40": "L'élève a soustrait.",
+        "8": "L'élève s'est trompé dans la table de 5."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.c04",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Avec 100 perles, Sofia fabrique 20 colliers identiques en utilisant toutes les perles. Combien de perles y a-t-il sur chaque collier ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5"
+      },
+      "solution": "On cherche le nombre de perles par collier : 20 × 5 = 100. Il y a donc 5 perles sur chaque collier.",
+      "step_by_step_solution": [
+        "On partage 100 perles en 20 parts égales.",
+        "On cherche le nombre qui, multiplié par 20, donne 100.",
+        "Chaque collier aura 5 perles."
+      ],
+      "hints": [
+        "Combien de fois 20 dans cent ?",
+        "Compte de 20 en 20."
+      ],
+      "common_errors": {
+        "80": "L'élève a soustrait les nombres.",
+        "2000": "L'élève a multiplié les nombres."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.c05",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans le potager de l'école, il y a 6 rangs de salades. Chaque rang compte 9 salades. Combien de salades y a-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "54"
+      },
+      "solution": "6 rangs de 9 salades : 6 × 9 = 54. Il y a 54 salades.",
+      "step_by_step_solution": [
+        "On répète 6 fois 9.",
+        "On peut calculer 6 × 10 = 60, puis enlever 6.",
+        "6 × 9 = 54."
+      ],
+      "hints": [
+        "Multiplier par 9, c'est multiplier par 10 puis enlever une fois le nombre."
+      ],
+      "common_errors": {
+        "15": "L'élève a ajouté les nombres.",
+        "45": "L'élève a compté un rang de moins."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.x01",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Léo veut ranger ses 74 cartes dans des pochettes. Chaque pochette contient au plus 10 cartes. Combien de pochettes lui faut-il pour ranger toutes ses cartes ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "74 = 7 dizaines et 4 unités. 7 pochettes contiennent 70 cartes ; il reste 4 cartes qui demandent une pochette de plus. Il faut 8 pochettes.",
+      "step_by_step_solution": [
+        "7 pochettes pleines contiennent 70 cartes.",
+        "Il reste 4 cartes à ranger.",
+        "Il faut une pochette de plus : 7 + 1 = 8 pochettes."
+      ],
+      "hints": [
+        "Combien de pochettes pleines peux-tu remplir ?",
+        "Que fais-tu des cartes qui restent ?"
+      ],
+      "common_errors": {
+        "7": "L'élève a oublié les cartes restantes qui ont aussi besoin d'une pochette.",
+        "64": "L'élève a soustrait 10."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.x02",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Une fleuriste a 50 roses. Elle fait des bouquets de 8 roses. Combien de bouquets complets peut-elle faire ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "6 × 8 = 48 et 7 × 8 = 56. 56 est plus grand que 50, donc elle fait 6 bouquets complets (il reste 2 roses).",
+      "step_by_step_solution": [
+        "On cherche combien de groupes de 8 dans 50.",
+        "6 × 8 = 48 ; 7 × 8 = 56, c'est trop.",
+        "Elle fait 6 bouquets complets."
+      ],
+      "hints": [
+        "Cherche dans la table de 8 le résultat le plus proche de 50 sans le dépasser."
+      ],
+      "common_errors": {
+        "7": "L'élève a arrondi au-dessus alors que le 7e bouquet ne serait pas complet.",
+        "42": "L'élève a soustrait 8."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.multiplicatifs.x03",
+      "notion_id": "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un car peut transporter 40 personnes. Combien de cars faut-il au minimum pour emmener 130 personnes en sortie ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "3 cars transportent 3 × 40 = 120 personnes : ce n'est pas assez pour 130. 4 cars transportent 160 personnes. Il faut donc 4 cars.",
+      "step_by_step_solution": [
+        "3 × 40 = 120 : il manque encore 10 personnes.",
+        "Il faut donc un car de plus.",
+        "Avec 4 cars, il y a de la place pour tout le monde : il faut 4 cars."
+      ],
+      "hints": [
+        "Combien de personnes transportent 3 cars ?",
+        "Tout le monde doit pouvoir partir."
+      ],
+      "common_errors": {
+        "3": "L'élève a oublié les 10 personnes qui restent.",
+        "90": "L'élève a soustrait 40 de 130."
+      },
+      "remediation": "Représenter la situation avec des croix groupées ou un schéma en barre, puis écrire la multiplication qui correspond.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Reconnaitre une situation multiplicative",
+        "Utiliser la multiplication pour trouver un tout ou un nombre de parts"
+      ],
+      "source_notions": [
+        "MATHS.CE1.NCRP.resoudre-des-problemes-multiplicatifs-en-une-etape"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.d01",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Le mètre ruban de la classe mesure exactement 1 m. Combien de centimètres cela fait-il ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 100,
+        "unit": "cm"
+      },
+      "solution": "1 m = 100 cm. Le mètre ruban mesure 100 cm.",
+      "step_by_step_solution": [
+        "Sur le mètre ruban, les graduations vont de 0 à la fin, en centimètres.",
+        "Un mètre est partagé en cent centimètres.",
+        "1 m = 100 cm."
+      ],
+      "hints": [
+        "Regarde le dernier nombre écrit sur un mètre ruban."
+      ],
+      "common_errors": {
+        "10 cm": "L'élève confond le mètre avec le décimètre (10 cm)."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.d02",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Maxime court 1 km autour du stade. Combien de mètres court-il ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 1000,
+        "unit": "m"
+      },
+      "solution": "1 km = 1 000 m. Maxime court 1 000 m.",
+      "step_by_step_solution": [
+        "« Kilo » veut dire mille.",
+        "Un kilomètre, c'est mille mètres.",
+        "1 km = 1 000 m."
+      ],
+      "hints": [
+        "Que veut dire « kilo » ?"
+      ],
+      "common_errors": {
+        "100 m": "L'élève a utilisé la relation entre mètre et centimètre au lieu de celle entre kilomètre et mètre."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.d03",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Une ficelle mesure 2 m. Quelle est sa longueur en centimètres ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 200,
+        "unit": "cm"
+      },
+      "solution": "1 m = 100 cm, donc 2 m = 100 cm + 100 cm = 200 cm.",
+      "step_by_step_solution": [
+        "Chaque mètre vaut cent centimètres.",
+        "2 m, c'est deux fois cent centimètres.",
+        "2 m = 200 cm."
+      ],
+      "hints": [
+        "Combien de centimètres dans un seul mètre ?"
+      ],
+      "common_errors": {
+        "20 cm": "L'élève a multiplié par 10 au lieu de 100.",
+        "2 cm": "L'élève a gardé le nombre sans changer d'unité."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.d04",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Le lit de Lou mesure 1 m et 25 cm de long. Quelle est sa longueur en centimètres ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 125,
+        "unit": "cm"
+      },
+      "solution": "1 m = 100 cm. 100 cm + 25 cm = 125 cm.",
+      "step_by_step_solution": [
+        "On remplace 1 m par 100 cm.",
+        "On ajoute les 25 cm.",
+        "100 cm + 25 cm = 125 cm."
+      ],
+      "hints": [
+        "Transforme d'abord le mètre en centimètres."
+      ],
+      "common_errors": {
+        "26 cm": "L'élève a ajouté 1 et 25 sans convertir le mètre.",
+        "1025 cm": "L'élève a écrit les nombres à la suite."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.d05",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle égalité est vraie ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un mètre contient cent centimètres : 1 m = 100 cm est vraie. 1 m = 10 cm et 1 km = 100 m sont fausses (1 km = 1 000 m).",
+      "step_by_step_solution": [
+        "1 m contient 100 cm.",
+        "1 km contient 1 000 m, pas 100 m.",
+        "L'égalité vraie est 1 m = 100 cm."
+      ],
+      "hints": [
+        "Pense aux graduations d'un mètre ruban.",
+        "« Kilo » veut dire mille."
+      ],
+      "common_errors": {
+        "1": "L'élève confond le mètre et le décimètre.",
+        "2": "L'élève confond « kilo » (mille) et « cent »."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "choices": [
+        "1 m = 100 cm",
+        "1 m = 10 cm",
+        "1 km = 100 m"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.a01",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Le tableau de la classe mesure 3 m de long. Combien de centimètres cela fait-il ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 300,
+        "unit": "cm"
+      },
+      "solution": "1 m = 100 cm, donc 3 m = 3 × 100 cm = 300 cm.",
+      "step_by_step_solution": [
+        "1 m = 100 cm.",
+        "3 m, c'est 3 fois 100 cm.",
+        "3 m = 300 cm."
+      ],
+      "hints": [
+        "Combien de centimètres dans un mètre ?",
+        "Répète ce nombre autant de fois qu'il y a de mètres."
+      ],
+      "common_errors": {
+        "30 cm": "L'élève a multiplié par 10 au lieu de 100.",
+        "103 cm": "L'élève a ajouté 3 à cent."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.a02",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Paul a déjà mesuré 60 cm de tissu. Combien de centimètres doit-il encore mesurer pour obtenir 1 m de tissu ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 40,
+        "unit": "cm"
+      },
+      "solution": "1 m = 100 cm. Il manque 100 cm − 60 cm = 40 cm.",
+      "step_by_step_solution": [
+        "1 m = 100 cm.",
+        "On cherche le complément de 60 à cent.",
+        "100 − 60 = 40 : il manque 40 cm."
+      ],
+      "hints": [
+        "Remplace 1 m par des centimètres.",
+        "Combien faut-il ajouter à 60 pour arriver à cent ?"
+      ],
+      "common_errors": {
+        "50 cm": "L'élève a mal calculé le complément à cent.",
+        "160 cm": "L'élève a ajouté au lieu de chercher ce qui manque."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.a03",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Une planche mesure 4 m et 30 cm. Quelle est sa longueur en centimètres ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 430,
+        "unit": "cm"
+      },
+      "solution": "4 m = 400 cm. 400 cm + 30 cm = 430 cm.",
+      "step_by_step_solution": [
+        "4 m = 4 × 100 cm = 400 cm.",
+        "On ajoute 30 cm.",
+        "400 cm + 30 cm = 430 cm."
+      ],
+      "hints": [
+        "Convertis d'abord les mètres en centimètres."
+      ],
+      "common_errors": {
+        "34 cm": "L'élève a ajouté 4 et 30 sans convertir.",
+        "4030 cm": "L'élève a écrit les nombres à la suite."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.a04",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Une corde à sauter mesure 400 cm. Quelle est sa longueur en mètres ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 4,
+        "unit": "m"
+      },
+      "solution": "100 cm = 1 m. 400 cm, c'est 4 fois 100 cm, donc 4 m.",
+      "step_by_step_solution": [
+        "100 cm font 1 m.",
+        "400 cm, ce sont 4 centaines de centimètres.",
+        "400 cm = 4 m."
+      ],
+      "hints": [
+        "Combien de fois cent dans 400 ?"
+      ],
+      "common_errors": {
+        "40 m": "L'élève a divisé par 10 au lieu de 100.",
+        "400 m": "L'élève a changé l'unité sans changer le nombre."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.a05",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Zoé veut courir 1 km. Elle a déjà couru 700 m. Combien de mètres lui reste-t-il à courir ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 300,
+        "unit": "m"
+      },
+      "solution": "1 km = 1 000 m. Il reste 1 000 m − 700 m = 300 m.",
+      "step_by_step_solution": [
+        "1 km = 1 000 m.",
+        "On cherche ce qu'il faut ajouter à 700 pour arriver à mille.",
+        "1 000 − 700 = 300 : il reste 300 m."
+      ],
+      "hints": [
+        "Convertis 1 km en mètres.",
+        "Compte de cent en cent à partir de 700."
+      ],
+      "common_errors": {
+        "699 m": "L'élève a enlevé 1 à 700 sans convertir le kilomètre.",
+        "1700 m": "L'élève a ajouté au lieu de chercher le complément."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.c01",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un ruban mesure 3 m. On en coupe un morceau de 50 cm. Quelle longueur de ruban reste-t-il, en centimètres ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 250,
+        "unit": "cm"
+      },
+      "solution": "3 m = 300 cm. 300 cm − 50 cm = 250 cm. Il reste 250 cm.",
+      "step_by_step_solution": [
+        "On convertit : 3 m = 300 cm.",
+        "On enlève 50 cm.",
+        "300 cm − 50 cm = 250 cm."
+      ],
+      "hints": [
+        "Pour soustraire, les deux longueurs doivent être dans la même unité."
+      ],
+      "common_errors": {
+        "47 cm": "L'élève a soustrait 3 à 50 sans convertir.",
+        "350 cm": "L'élève a ajouté au lieu d'enlever."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.c02",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Le serpent en papier de Léa mesure 2 m. Celui de Tom mesure 180 cm. De combien de centimètres le serpent de Léa est-il plus long ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 20,
+        "unit": "cm"
+      },
+      "solution": "2 m = 200 cm. 200 cm − 180 cm = 20 cm. Le serpent de Léa est plus long de 20 cm.",
+      "step_by_step_solution": [
+        "On convertit : 2 m = 200 cm.",
+        "On compare 200 cm et 180 cm.",
+        "200 − 180 = 20 : l'écart est de 20 cm."
+      ],
+      "hints": [
+        "Exprime les deux longueurs en centimètres.",
+        "Cherche l'écart entre les deux longueurs."
+      ],
+      "common_errors": {
+        "178 cm": "L'élève a soustrait 2 sans convertir les mètres.",
+        "182 cm": "L'élève a ajouté 2 et 180."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.c03",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un tour de la piste d'athlétisme mesure 250 m. Combien de tours faut-il faire pour parcourir exactement 1 km ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "1 km = 1 000 m. 250 + 250 + 250 + 250 = 1 000, donc quatre tours de 250 m font 1 000 m. Il faut faire 4 tours.",
+      "step_by_step_solution": [
+        "1 km = 1 000 m.",
+        "250 + 250 = 500 ; deux fois 500 font mille.",
+        "Quatre tours font 1 000 m : il faut faire 4 tours."
+      ],
+      "hints": [
+        "Convertis le kilomètre en mètres.",
+        "Combien de tours pour faire 500 m ?"
+      ],
+      "common_errors": {
+        "250": "L'élève a donné la longueur d'un tour.",
+        "750": "L'élève a soustrait 250 de 1 000."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.c04",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "La table de la cantine mesure 6 m et 8 cm. Quelle est sa longueur en centimètres ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 608,
+        "unit": "cm"
+      },
+      "solution": "6 m = 600 cm. 600 cm + 8 cm = 608 cm.",
+      "step_by_step_solution": [
+        "6 m = 600 cm.",
+        "On ajoute 8 cm.",
+        "600 cm + 8 cm = 608 cm."
+      ],
+      "hints": [
+        "Attention au rang des dizaines quand on ajoute seulement 8 cm."
+      ],
+      "common_errors": {
+        "68 cm": "L'élève a écrit 6 puis 8 sans convertir.",
+        "680 cm": "L'élève a placé les 8 cm au rang des dizaines."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.c05",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quelle longueur est la plus grande ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "On compare en mètres : 1 km = 1 000 m ; 900 m ; 990 cm, c'est moins de 10 m. La plus grande longueur est 1 km.",
+      "step_by_step_solution": [
+        "1 km = 1 000 m.",
+        "990 cm, c'est un peu moins de 10 m.",
+        "1 000 m > 900 m > 990 cm : la plus grande est 1 km."
+      ],
+      "hints": [
+        "Exprime les longueurs dans la même unité avant de comparer.",
+        "Ne compare pas seulement les nombres écrits."
+      ],
+      "common_errors": {
+        "1": "L'élève a comparé les nombres sans tenir compte des unités.",
+        "2": "L'élève a choisi le plus grand nombre écrit, sans regarder l'unité."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "choices": [
+        "1 km",
+        "900 m",
+        "990 cm"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.x01",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une corde de 4 m, on coupe 2 morceaux qui mesurent chacun 1 m et 50 cm. Quelle longueur de corde reste-t-il ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 100,
+        "unit": "cm"
+      },
+      "solution": "4 m = 400 cm. Un morceau : 1 m 50 cm = 150 cm ; deux morceaux : 300 cm. Il reste 400 cm − 300 cm = 100 cm, c'est-à-dire 1 m.",
+      "step_by_step_solution": [
+        "4 m = 400 cm ; 1 m et 50 cm = 150 cm.",
+        "Deux morceaux : 150 cm + 150 cm = 300 cm.",
+        "400 cm − 300 cm = 100 cm (1 m)."
+      ],
+      "hints": [
+        "Exprime toutes les longueurs en centimètres.",
+        "Calcule d'abord la longueur des deux morceaux ensemble."
+      ],
+      "common_errors": {
+        "250 cm": "L'élève n'a enlevé qu'un seul morceau.",
+        "2 cm": "L'élève a soustrait 1 et 1 à 4 sans tenir compte des centimètres."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.x02",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Pour aller au parc, Tim doit parcourir 1 km. Il a fait 350 m à pied, puis 400 m à vélo. Combien de mètres lui reste-t-il à parcourir ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 250,
+        "unit": "m"
+      },
+      "solution": "Déjà parcouru : 350 m + 400 m = 750 m. 1 km = 1 000 m. Il reste 1 000 m − 750 m = 250 m.",
+      "step_by_step_solution": [
+        "350 m + 400 m = 750 m.",
+        "1 km = 1 000 m.",
+        "1 000 m − 750 m = 250 m."
+      ],
+      "hints": [
+        "Calcule d'abord la distance déjà parcourue.",
+        "Convertis le kilomètre en mètres."
+      ],
+      "common_errors": {
+        "750 m": "L'élève a donné la distance déjà parcourue.",
+        "650 m": "L'élève n'a enlevé qu'une seule des deux distances."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CE1.unites-longueur.x03",
+      "notion_id": "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles",
+      "subject": "MATHS",
+      "level": "CE1",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Trois rubans mesurent 1 m, 85 cm et 120 cm. On les met bout à bout. Quelle est la longueur totale en centimètres ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 305,
+        "unit": "cm"
+      },
+      "solution": "1 m = 100 cm. 100 cm + 85 cm + 120 cm = 305 cm.",
+      "step_by_step_solution": [
+        "On convertit : 1 m = 100 cm.",
+        "100 + 85 = 185.",
+        "185 + 120 = 305 : la longueur totale est 305 cm."
+      ],
+      "hints": [
+        "Toutes les longueurs doivent être dans la même unité.",
+        "Ajoute les longueurs deux par deux."
+      ],
+      "common_errors": {
+        "206 cm": "L'élève a compté le mètre comme 1 cm.",
+        "295 cm": "L'élève a fait une erreur de retenue."
+      },
+      "remediation": "Reprendre avec un mètre ruban : montrer que 1 m contient 100 cm, puis écrire la longueur en décomposant (mètres entiers + centimètres restants).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Connaitre les relations 1 m = 100 cm et 1 km = 1 000 m",
+        "Convertir une longueur d'une unité à une autre"
+      ],
+      "source_notions": [
+        "MATHS.CE1.GM.connaitre-les-relations-entre-les-unites-de-longueur-usuelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

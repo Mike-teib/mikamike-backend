@@ -1,0 +1,2109 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.d01",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans le nombre 47, quel est le chiffre des dizaines ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Dans 47, on lit 4 dizaines et 7 unités. Le chiffre des dizaines est 4.",
+      "step_by_step_solution": [
+        "Le chiffre de droite est celui des unités : 7.",
+        "Le chiffre juste à sa gauche est celui des dizaines.",
+        "Le chiffre des dizaines est 4."
+      ],
+      "hints": [
+        "Le chiffre des unités est toujours tout à droite.",
+        "Regarde le chiffre qui est à gauche du chiffre des unités."
+      ],
+      "common_errors": {
+        "7": "L'élève a donné le chiffre des unités au lieu de celui des dizaines."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.d02",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Tom a 3 barres de dix cubes et 5 cubes tout seuls. Combien de cubes a-t-il en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "35"
+      },
+      "solution": "3 barres de dix, ce sont 3 dizaines, soit 30 cubes. Avec les 5 cubes seuls : 30 + 5 = 35. Tom a 35 cubes.",
+      "step_by_step_solution": [
+        "Chaque barre contient 10 cubes : 3 barres font 3 dizaines, c'est-à-dire 30 cubes.",
+        "On ajoute les 5 cubes seuls : 30 + 5.",
+        "30 + 5 = 35 : Tom a 35 cubes."
+      ],
+      "hints": [
+        "Compte les barres de dix en disant : dix, vingt, trente…",
+        "Ajoute ensuite les cubes tout seuls, un par un."
+      ],
+      "common_errors": {
+        "8": "L'élève a ajouté 3 et 5 sans voir que chaque barre vaut dix cubes.",
+        "53": "L'élève a inversé dizaines et unités."
+      },
+      "remediation": "Manipuler de vraies barres de dix cubes : compter de dix en dix, puis de un en un.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Dénombrer une collection organisée en dizaines",
+        "Connaitre la valeur d'une dizaine"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.d03",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Sur la porte du casier de Lili, on lit le nombre 62. Quel chiffre indique le nombre d'unités ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "62, c'est 6 dizaines et 2 unités. Le chiffre des unités est 2.",
+      "step_by_step_solution": [
+        "Le chiffre de droite donne les unités.",
+        "Dans 62, le chiffre de droite est 2.",
+        "Le chiffre des unités est 2."
+      ],
+      "hints": [
+        "Quel chiffre est écrit tout à droite ?"
+      ],
+      "common_errors": {
+        "6": "L'élève a donné le chiffre des dizaines."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.d04",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Écris en chiffres le nombre formé de 6 dizaines et 8 unités.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "68"
+      },
+      "solution": "6 dizaines, c'est 60 ; avec 8 unités : 60 + 8 = 68. Le nombre s'écrit 68.",
+      "step_by_step_solution": [
+        "Les dizaines s'écrivent à gauche : 6.",
+        "Les unités s'écrivent à droite : 8.",
+        "Le nombre est 68."
+      ],
+      "hints": [
+        "Quel chiffre va à la place des dizaines ?",
+        "Les unités se placent à droite du chiffre des dizaines."
+      ],
+      "common_errors": {
+        "86": "L'élève a placé les unités à gauche et les dizaines à droite.",
+        "14": "L'élève a additionné 6 et 8."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.d05",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Lina a dessiné 2 barres de dix et 7 petits carrés. Quel nombre a-t-elle représenté ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "2 barres de dix font 2 dizaines, soit 20 ; avec 7 unités, on obtient 27.",
+      "step_by_step_solution": [
+        "2 barres de dix = 2 dizaines = 20.",
+        "7 petits carrés = 7 unités.",
+        "20 + 7 = 27 : la bonne réponse est 27."
+      ],
+      "hints": [
+        "Chaque barre vaut une dizaine.",
+        "Écris d'abord le chiffre des dizaines, puis celui des unités."
+      ],
+      "common_errors": {
+        "1": "L'élève a écrit les unités à la place des dizaines (72).",
+        "2": "L'élève a ajouté 2 et 7 sans tenir compte de la valeur des barres (9)."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "choices": [
+        "27",
+        "72",
+        "9"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.a01",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Dans le nombre 58, combien vaut le chiffre 5 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "50"
+      },
+      "solution": "Dans 58, le chiffre 5 est à la place des dizaines : il vaut 5 dizaines, c'est-à-dire 50.",
+      "step_by_step_solution": [
+        "Le chiffre 5 est à gauche : c'est le chiffre des dizaines.",
+        "5 dizaines, c'est cinq fois dix.",
+        "Le chiffre 5 vaut 50."
+      ],
+      "hints": [
+        "À quelle place est le chiffre 5 : dizaines ou unités ?",
+        "Une dizaine vaut dix unités."
+      ],
+      "common_errors": {
+        "5": "L'élève a donné le chiffre sans tenir compte de sa position (5 dizaines et non 5 unités)."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.a02",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Complète : 74, c'est … dizaines et 4 unités. Quel nombre manque ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "74 = 70 + 4. 70, c'est 7 dizaines. Il manque le nombre 7.",
+      "step_by_step_solution": [
+        "74 se décompose en 70 + 4.",
+        "70 est formé de 7 dizaines.",
+        "Il faut écrire 7."
+      ],
+      "hints": [
+        "Décompose 74 en dizaines et unités.",
+        "Combien de fois dix y a-t-il dans soixante-dix ?"
+      ],
+      "common_errors": {
+        "70": "L'élève a donné la valeur des dizaines (70) au lieu du nombre de dizaines.",
+        "4": "L'élève a recopié le chiffre des unités."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.a03",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Combien de dizaines y a-t-il dans le nombre 90 ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "90 = 9 dizaines et 0 unité. Il y a 9 dizaines.",
+      "step_by_step_solution": [
+        "Dans 90, le chiffre des unités est 0.",
+        "Le chiffre des dizaines est 9.",
+        "Il y a 9 dizaines dans 90."
+      ],
+      "hints": [
+        "Le 0 indique qu'il n'y a pas d'unités seules.",
+        "Compte de dix en dix jusqu'à quatre-vingt-dix."
+      ],
+      "common_errors": {
+        "0": "L'élève a lu le chiffre des unités.",
+        "90": "L'élève a recopié le nombre au lieu de compter les dizaines."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.a04",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Léo a 46 crayons. Il les range dans des boîtes de 10 crayons. Combien de boîtes pleines peut-il remplir ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "46 = 4 dizaines et 6 unités. Léo remplit 4 boîtes de 10 crayons et il reste 6 crayons. Il remplit 4 boîtes.",
+      "step_by_step_solution": [
+        "Une boîte pleine contient une dizaine de crayons.",
+        "46, c'est 4 dizaines et 6 unités.",
+        "Léo peut remplir 4 boîtes pleines."
+      ],
+      "hints": [
+        "Chaque boîte pleine, c'est une dizaine.",
+        "Cherche le nombre de dizaines dans 46."
+      ],
+      "common_errors": {
+        "6": "L'élève a donné le nombre de crayons qui restent (les unités).",
+        "5": "L'élève a compté une boîte en trop pour les 6 crayons restants, qui ne remplissent pas une boîte."
+      },
+      "remediation": "Former des paquets de dix avec 46 objets et compter les paquets complets.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Lier dizaines et groupements par dix",
+        "Interpréter le chiffre des dizaines"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.a05",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Dans quel nombre le chiffre 3 vaut-il 30 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Le chiffre 3 vaut 30 quand il est à la place des dizaines. C'est le cas dans 35 (3 dizaines et 5 unités).",
+      "step_by_step_solution": [
+        "Dans 43, le 3 est le chiffre des unités : il vaut 3.",
+        "Dans 35, le 3 est le chiffre des dizaines : il vaut 30.",
+        "Dans 3, il n'y a qu'un chiffre : il vaut 3. La bonne réponse est 35."
+      ],
+      "hints": [
+        "Pour valoir 30, le chiffre 3 doit être à la place des dizaines.",
+        "Le chiffre des dizaines est à gauche du chiffre des unités."
+      ],
+      "common_errors": {
+        "0": "L'élève a choisi un nombre qui contient 3, sans regarder sa position.",
+        "2": "L'élève confond le chiffre 3 et le nombre 30."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "choices": [
+        "43",
+        "35",
+        "3"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.c01",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Maé a 4 paquets de 10 images et 13 images seules. Combien d'images a-t-elle en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "53"
+      },
+      "solution": "4 paquets de 10, c'est 40 images. 13 images seules, c'est 1 dizaine et 3 unités. 40 + 13 = 53 : Maé a 53 images.",
+      "step_by_step_solution": [
+        "4 paquets de 10 = 4 dizaines = 40.",
+        "13 = 1 dizaine et 3 unités : on peut faire un paquet de plus.",
+        "5 dizaines et 3 unités : 40 + 13 = 53."
+      ],
+      "hints": [
+        "Avec les images seules, peux-tu faire un nouveau paquet de 10 ?",
+        "Compte toutes les dizaines, puis les unités qui restent."
+      ],
+      "common_errors": {
+        "413": "L'élève a écrit côte à côte 4 et 13 sans regrouper les unités par dix.",
+        "17": "L'élève a ajouté 4 et 13 sans voir que chaque paquet vaut dix."
+      },
+      "remediation": "Faire manipuler des paquets de dix et des objets isolés, puis refaire un paquet de dix dès qu'on a dix objets isolés.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Regrouper dix unités en une dizaine",
+        "Dénombrer une collection partiellement groupée"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.c02",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Pour son code secret, Arthur note : « 8 unités et 2 dizaines ». Quel nombre doit-il taper ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "28"
+      },
+      "solution": "Attention à l'ordre des mots : 2 dizaines, c'est 20 ; 8 unités, c'est 8. 20 + 8 = 28.",
+      "step_by_step_solution": [
+        "Repère les dizaines : il y en a 2.",
+        "Repère les unités : il y en a 8.",
+        "On écrit 2 à gauche et 8 à droite : 28."
+      ],
+      "hints": [
+        "Les mots ne sont pas dans l'ordre habituel : cherche d'abord les dizaines.",
+        "Le chiffre des dizaines s'écrit à gauche."
+      ],
+      "common_errors": {
+        "82": "L'élève a écrit les chiffres dans l'ordre de la phrase, sans tenir compte de leur valeur."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Distinguer chiffre des dizaines et chiffre des unités",
+        "Associer écriture en chiffres et unités de numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.c03",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Sami dit : « 23 et 32, c'est pareil, il y a les mêmes chiffres. » Quelle phrase explique pourquoi Sami se trompe ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Dans 32, le chiffre 3 vaut 30 ; dans 23, il vaut 3. La position du chiffre change sa valeur, donc 23 et 32 sont différents.",
+      "step_by_step_solution": [
+        "Dans 23, le 3 est à la place des unités : il vaut 3.",
+        "Dans 32, le 3 est à la place des dizaines : il vaut 30.",
+        "La bonne explication : dans 32, le chiffre 3 vaut 30 ; dans 23, il vaut 3."
+      ],
+      "hints": [
+        "Regarde la place du chiffre 3 dans chacun des deux nombres.",
+        "Un chiffre à la place des dizaines vaut dix fois plus."
+      ],
+      "common_errors": {
+        "1": "L'élève pense que les nombres diffèrent par leur nombre de chiffres, alors qu'ils en ont deux chacun.",
+        "2": "L'élève pense, comme Sami, que seuls les chiffres comptent et non leur position."
+      },
+      "remediation": "Représenter 23 et 32 avec des barres et des cubes et comparer les deux collections.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Expliquer le rôle de la position d'un chiffre",
+        "Argumenter en s'appuyant sur la numération"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "choices": [
+        "Dans 32, le chiffre 3 vaut 30 ; dans 23, il vaut 3.",
+        "32 a plus de chiffres que 23.",
+        "Sami a raison : ce sont les mêmes nombres."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.c04",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Complète l'égalité : 67 = … + 7.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "60"
+      },
+      "solution": "67, c'est 6 dizaines et 7 unités. 6 dizaines valent 60 : le nombre manquant est 60.",
+      "step_by_step_solution": [
+        "Le 7 représente les unités.",
+        "Le 6 représente 6 dizaines, c'est-à-dire soixante.",
+        "Le nombre manquant est 60."
+      ],
+      "hints": [
+        "Que vaut le chiffre 6 dans 67 ?",
+        "Une dizaine vaut dix unités."
+      ],
+      "common_errors": {
+        "6": "L'élève a écrit le chiffre des dizaines au lieu de sa valeur."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Décomposer un nombre en dizaines et unités",
+        "Connaitre la valeur d'un chiffre selon sa position"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.c05",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Nina a 9 dizaines de perles et encore 10 perles seules. Combien de perles a-t-elle en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "100"
+      },
+      "solution": "9 dizaines font 90 perles. 10 perles seules forment une dizaine de plus. 90 + 10 = 100 : Nina a cent perles.",
+      "step_by_step_solution": [
+        "9 dizaines = 90.",
+        "10 perles seules = 1 dizaine.",
+        "9 dizaines + 1 dizaine = 10 dizaines : 90 + 10 = 100."
+      ],
+      "hints": [
+        "Les 10 perles seules forment-elles une dizaine ?",
+        "Compte de dix en dix à partir de quatre-vingt-dix."
+      ],
+      "common_errors": {
+        "910": "L'élève a écrit 9 puis 10 côte à côte.",
+        "19": "L'élève a ajouté 9 et 10 sans tenir compte des dizaines."
+      },
+      "remediation": "Compter de dix en dix jusqu'à cent avec des barres de dix cubes.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Regrouper dix unités en une dizaine",
+        "Connaitre le nombre cent comme dix dizaines"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.x01",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Devinette : je suis un nombre à deux chiffres. Mon chiffre des dizaines est 7. Mon chiffre des unités est 2 de moins que mon chiffre des dizaines. Qui suis-je ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "75"
+      },
+      "solution": "Chiffre des dizaines : 7. Chiffre des unités : 7 − 2 = 5. Le nombre est 75.",
+      "step_by_step_solution": [
+        "Le chiffre des dizaines est 7.",
+        "Le chiffre des unités vaut 7 − 2 = 5.",
+        "Le nombre est 75."
+      ],
+      "hints": [
+        "Calcule d'abord le chiffre des unités.",
+        "Écris ensuite le chiffre des dizaines à gauche."
+      ],
+      "common_errors": {
+        "57": "L'élève a inversé chiffre des dizaines et chiffre des unités.",
+        "79": "L'élève a ajouté 2 au lieu d'enlever 2."
+      },
+      "remediation": "Représenter le nombre avec des barres de dix cubes et des cubes isolés, puis écrire le nombre dans un tableau dizaines | unités.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Composer un nombre à partir de ses chiffres",
+        "Raisonner sur la position des chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.x02",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Avec une étiquette 4 et une étiquette 9, écris le plus grand nombre à deux chiffres possible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "94"
+      },
+      "solution": "Pour que le nombre soit le plus grand, on met le plus grand chiffre à la place des dizaines : 9 dizaines et 4 unités, c'est 94.",
+      "step_by_step_solution": [
+        "Le chiffre des dizaines compte le plus.",
+        "On place donc 9 aux dizaines et 4 aux unités.",
+        "Le plus grand nombre est 94."
+      ],
+      "hints": [
+        "Quelle place donne le plus de valeur à un chiffre ?",
+        "Compare les deux nombres possibles."
+      ],
+      "common_errors": {
+        "49": "L'élève a écrit le plus petit nombre possible.",
+        "13": "L'élève a additionné les deux chiffres."
+      },
+      "remediation": "Écrire les deux nombres possibles, les représenter avec des barres de dix et des cubes, puis les comparer.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Comparer des nombres grâce à la position des chiffres"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-position.x03",
+      "notion_id": "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Paul a 2 barres de dix cubes et 25 cubes seuls. Avec les cubes seuls, il fabrique le plus possible de nouvelles barres de dix. Combien de barres de dix a-t-il alors en tout ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4"
+      },
+      "solution": "Avec 25 cubes seuls, Paul fabrique 2 barres de dix et il reste 5 cubes. Il avait déjà 2 barres : 2 + 2 = 4. Il a 4 barres de dix (et 5 cubes seuls).",
+      "step_by_step_solution": [
+        "25 cubes = 2 dizaines et 5 unités : Paul fabrique 2 nouvelles barres.",
+        "Il avait déjà 2 barres.",
+        "2 + 2 = 4 barres de dix en tout."
+      ],
+      "hints": [
+        "Combien de dizaines y a-t-il dans 25 ?",
+        "N'oublie pas les barres que Paul avait déjà."
+      ],
+      "common_errors": {
+        "2": "L'élève a oublié les barres déjà formées.",
+        "45": "L'élève a donné le nombre total de cubes et non le nombre de barres.",
+        "5": "L'élève a donné le nombre de cubes seuls qui restent."
+      },
+      "remediation": "Faire refaire les échanges « dix cubes contre une barre » avec du matériel, en notant chaque échange.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Regrouper des unités en dizaines",
+        "Dénombrer une collection partiellement organisée"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.connaitre-la-valeur-des-chiffres-en-fonction-de-leur-position-unites-d"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.d01",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un bouquet, il y a 5 roses et 4 tulipes. Combien y a-t-il de fleurs dans le bouquet ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "Les roses et les tulipes sont les deux parties ; le bouquet est le tout : 5 + 4 = 9. Il y a 9 fleurs.",
+      "step_by_step_solution": [
+        "On cherche le tout : toutes les fleurs du bouquet.",
+        "On réunit les deux parties : 5 + 4.",
+        "5 + 4 = 9."
+      ],
+      "hints": [
+        "Cherches-tu une partie ou le tout ?",
+        "Pour trouver le tout, on réunit les parties."
+      ],
+      "common_errors": {
+        "1": "L'élève a soustrait au lieu de réunir les deux parties."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.d02",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Sur le parking, il y a 13 voitures. 6 voitures s'en vont. Combien de voitures reste-t-il sur le parking ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "Au départ, il y a 13 voitures (le tout). 6 partent : on enlève cette partie. 13 − 6 = 7. Il reste 7 voitures.",
+      "step_by_step_solution": [
+        "Le tout, ce sont les 13 voitures du début.",
+        "On enlève les 6 voitures qui partent : 13 − 6.",
+        "13 − 6 = 7."
+      ],
+      "hints": [
+        "Le nombre de voitures augmente-t-il ou diminue-t-il ?",
+        "Enlève les voitures qui partent."
+      ],
+      "common_errors": {
+        "19": "L'élève a ajouté alors que des voitures sont parties."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.d03",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Jade a 8 billes. Son grand-père lui en donne 7. Combien de billes Jade a-t-elle maintenant ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "15"
+      },
+      "solution": "On ajoute les billes données : 8 + 7 = 15. Jade a maintenant 15 billes.",
+      "step_by_step_solution": [
+        "Jade avait 8 billes.",
+        "Elle en reçoit 7 de plus : 8 + 7.",
+        "8 + 7 = 15."
+      ],
+      "hints": [
+        "Jade a-t-elle plus ou moins de billes qu'avant ?",
+        "Tu peux passer par 10 pour calculer."
+      ],
+      "common_errors": {
+        "1": "L'élève a soustrait les deux nombres.",
+        "14": "L'élève a fait une erreur de calcul en passant la dizaine."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.d04",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans la classe de Samia, il y a 20 élèves. 11 élèves sont des filles. Combien y a-t-il de garçons ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "9"
+      },
+      "solution": "La classe est le tout (20 élèves). Les filles sont une partie (11). On cherche l'autre partie : 20 − 11 = 9. Il y a 9 garçons.",
+      "step_by_step_solution": [
+        "Le tout : 20 élèves.",
+        "Une partie : 11 filles.",
+        "L'autre partie : 20 − 11 = 9 garçons."
+      ],
+      "hints": [
+        "Connais-tu le tout ou seulement les parties ?",
+        "Pour trouver une partie, on enlève l'autre partie au tout."
+      ],
+      "common_errors": {
+        "31": "L'élève a ajouté le tout et une partie."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.d05",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans l'aquarium, il y a 14 poissons rouges et 5 poissons jaunes. Combien y a-t-il de poissons dans l'aquarium ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "19"
+      },
+      "solution": "On réunit les poissons rouges et les poissons jaunes : 14 + 5 = 19. Il y a 19 poissons.",
+      "step_by_step_solution": [
+        "On cherche le nombre total de poissons.",
+        "On ajoute les deux parties : 14 + 5.",
+        "14 + 5 = 19."
+      ],
+      "hints": [
+        "Les poissons rouges et les poissons jaunes forment-ils ensemble tous les poissons ?"
+      ],
+      "common_errors": {
+        "9": "L'élève a soustrait au lieu d'ajouter.",
+        "64": "L'élève a écrit 14 puis 5 à la suite."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.a01",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Hugo avait 43 cerises. Il en a mangé 18. Combien de cerises lui reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "25"
+      },
+      "solution": "On enlève les cerises mangées : 43 − 18 = 25. Il reste 25 cerises à Hugo.",
+      "step_by_step_solution": [
+        "Hugo avait 43 cerises (le tout).",
+        "Il en a mangé 18 : on les enlève.",
+        "43 − 18 = 25."
+      ],
+      "hints": [
+        "Représente les cerises avec des barres de dix et des cubes.",
+        "Tu peux casser une barre de dix pour enlever les cerises mangées."
+      ],
+      "common_errors": {
+        "61": "L'élève a ajouté au lieu d'enlever.",
+        "35": "L'élève a soustrait chiffre à chiffre le plus petit du plus grand (8 − 3)."
+      },
+      "remediation": "Représenter les cerises par 4 barres de dix et 3 cubes, casser une barre, puis retirer les cerises mangées.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.a02",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Il y avait 38 pigeons sur le toit. Maintenant, il n'en reste plus que 24. Combien de pigeons se sont envolés ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "14"
+      },
+      "solution": "Les pigeons du début forment le tout (38). Il en reste 24. Ceux qui sont partis sont l'autre partie : 38 − 24 = 14. 14 pigeons se sont envolés.",
+      "step_by_step_solution": [
+        "Le tout : 38 pigeons.",
+        "Une partie : les 24 pigeons restés.",
+        "L'autre partie : 38 − 24 = 14."
+      ],
+      "hints": [
+        "Les pigeons restés et les pigeons envolés forment ensemble les pigeons du début.",
+        "Cherche ce qu'il faut ajouter aux pigeons restés pour retrouver ceux du début."
+      ],
+      "common_errors": {
+        "62": "L'élève a ajouté les deux nombres de l'énoncé."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.a03",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Malo a 45 euros dans sa tirelire. Il achète un jeu qui coûte 8 euros. Combien d'euros lui reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "37"
+      },
+      "solution": "On enlève le prix du jeu : 45 − 8 = 37. Il reste 37 euros à Malo.",
+      "step_by_step_solution": [
+        "Malo avait 45 euros.",
+        "Il dépense 8 euros : 45 − 8.",
+        "45 − 8 = 37 euros."
+      ],
+      "hints": [
+        "Malo a-t-il plus ou moins d'argent après son achat ?",
+        "Tu peux enlever d'abord 5, puis encore 3."
+      ],
+      "common_errors": {
+        "53": "L'élève a ajouté le prix au lieu de l'enlever.",
+        "43": "L'élève a soustrait 8 − 5 sur les unités."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.a04",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "La maîtresse a 60 cahiers neufs. Elle en distribue 25 aux élèves. Combien de cahiers neufs lui reste-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "35"
+      },
+      "solution": "60 − 25 = 35. Il reste 35 cahiers neufs.",
+      "step_by_step_solution": [
+        "Au départ : 60 cahiers.",
+        "On enlève les 25 cahiers distribués.",
+        "60 − 25 = 35."
+      ],
+      "hints": [
+        "Enlève d'abord 20, puis encore 5."
+      ],
+      "common_errors": {
+        "85": "L'élève a ajouté au lieu d'enlever.",
+        "45": "L'élève a enlevé seulement les dizaines puis s'est trompé sur les unités."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.a05",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Au goûter, Nour mange 12 fraises et sa sœur en mange 16. Combien de fraises ont-elles mangées à elles deux ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "28"
+      },
+      "solution": "On réunit les fraises des deux sœurs : 12 + 16 = 28. Elles ont mangé 28 fraises.",
+      "step_by_step_solution": [
+        "On cherche le tout : toutes les fraises mangées.",
+        "12 + 16 : on ajoute les dizaines puis les unités.",
+        "12 + 16 = 28."
+      ],
+      "hints": [
+        "Ajoute d'abord les dizaines, puis les unités."
+      ],
+      "common_errors": {
+        "4": "L'élève a soustrait les deux nombres.",
+        "18": "L'élève a oublié d'ajouter une des dizaines."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.c01",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un car, il y a 21 enfants à l'avant, 30 enfants au milieu et 16 enfants à l'arrière. Combien d'enfants y a-t-il dans le car ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "67"
+      },
+      "solution": "Le car entier est le tout ; les trois groupes sont les parties : 21 + 30 + 16 = 67. Il y a 67 enfants.",
+      "step_by_step_solution": [
+        "On cherche le tout : tous les enfants du car.",
+        "On réunit les trois parties : 21 + 30 + 16.",
+        "21 + 30 + 16 = 67."
+      ],
+      "hints": [
+        "Il y a trois parties à réunir.",
+        "Ajoute d'abord les dizaines, puis les unités."
+      ],
+      "common_errors": {
+        "51": "L'élève a oublié les enfants de l'arrière.",
+        "57": "L'élève a fait une erreur sur les dizaines."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.c02",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un sac, il y avait des noix. Ali en a pris 9. Il en reste 34 dans le sac. Combien y avait-il de noix dans le sac au début ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "43"
+      },
+      "solution": "Les noix du début forment le tout ; les parties sont les noix prises (9) et les noix restées (34). 34 + 9 = 43. Il y avait 43 noix.",
+      "step_by_step_solution": [
+        "On cherche le tout : les noix du début.",
+        "Les parties : 9 noix prises et 34 noix restées.",
+        "34 + 9 = 43."
+      ],
+      "hints": [
+        "Même si Ali a enlevé des noix, cherches-tu une partie ou le tout ?",
+        "Les noix prises et les noix restées forment ensemble toutes les noix."
+      ],
+      "common_errors": {
+        "25": "L'élève a soustrait parce que l'énoncé parle de noix enlevées."
+      },
+      "remediation": "Faire un schéma en barre : une barre pour le tout, découpée en « noix prises » et « noix restées ».",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.c03",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une ferme a 47 animaux : des poules et des lapins. Il y a 29 poules. Combien y a-t-il de lapins ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "18"
+      },
+      "solution": "Tous les animaux forment le tout (47). Les poules sont une partie (29). Les lapins : 47 − 29 = 18.",
+      "step_by_step_solution": [
+        "Le tout : 47 animaux.",
+        "Une partie : 29 poules.",
+        "L'autre partie : 47 − 29 = 18 lapins."
+      ],
+      "hints": [
+        "Que représente le nombre d'animaux : une partie ou le tout ?",
+        "Tu peux chercher ce qu'il faut ajouter aux poules pour arriver au nombre d'animaux."
+      ],
+      "common_errors": {
+        "76": "L'élève a ajouté le tout et une partie.",
+        "22": "L'élève a soustrait chiffre à chiffre (9 − 7 et 4 − 2)."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.c04",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Timéo a déjà lu 38 pages de son livre. Il lui reste 45 pages à lire pour le finir. Combien de pages compte son livre ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "83"
+      },
+      "solution": "Le livre est le tout ; les pages lues et les pages à lire sont les parties : 38 + 45 = 83. Le livre a 83 pages.",
+      "step_by_step_solution": [
+        "On cherche le tout : toutes les pages du livre.",
+        "On réunit les deux parties : 38 + 45.",
+        "38 + 45 = 83."
+      ],
+      "hints": [
+        "Les pages lues et les pages à lire forment-elles tout le livre ?",
+        "Attention à la retenue quand les unités dépassent dix."
+      ],
+      "common_errors": {
+        "7": "L'élève a soustrait au lieu de réunir les parties.",
+        "73": "L'élève a oublié la retenue."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.c05",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Chloé avait des images. À la récréation, elle en gagne 15. Maintenant, elle en a 52. Combien d'images avait-elle avant la récréation ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "37"
+      },
+      "solution": "Maintenant, Chloé a 52 images : c'est le tout. Les images gagnées (15) sont une partie. Les images du début : 52 − 15 = 37.",
+      "step_by_step_solution": [
+        "Le tout : les 52 images d'aujourd'hui.",
+        "Une partie : les 15 images gagnées.",
+        "L'autre partie : 52 − 15 = 37 images au début."
+      ],
+      "hints": [
+        "Le mot « gagne » ne veut pas forcément dire qu'il faut ajouter.",
+        "Vérifie : les images du début plus les images gagnées doivent redonner les images d'aujourd'hui."
+      ],
+      "common_errors": {
+        "67": "L'élève a ajouté à cause du mot « gagne »."
+      },
+      "remediation": "Faire un schéma en barre : le tout est le nombre d'images de maintenant, puis vérifier la réponse en refaisant l'histoire.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.x01",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Ce matin, un fleuriste a vendu 27 roses. Il lui en reste 56. Combien de roses avait-il avant de commencer à vendre ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "83"
+      },
+      "solution": "Les roses du début forment le tout : roses vendues + roses restantes = 27 + 56 = 83. Il avait 83 roses.",
+      "step_by_step_solution": [
+        "On cherche le tout : les roses du début.",
+        "Les parties : 27 roses vendues et 56 roses restantes.",
+        "27 + 56 = 83."
+      ],
+      "hints": [
+        "Le fleuriste avait-il plus ou moins de roses au début ?",
+        "Les roses vendues et les roses restantes forment toutes les roses du début."
+      ],
+      "common_errors": {
+        "29": "L'élève a soustrait à cause du mot « vendu ».",
+        "73": "L'élève a oublié la retenue."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.x02",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Mila avait 64 perles. Elle en a perdu dans la cour. Il lui en reste 39. Combien de perles Mila a-t-elle perdues ? Vérifie que ta réponse est possible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "25"
+      },
+      "solution": "Le tout : 64 perles. Une partie : les 39 perles restantes. Les perles perdues : 64 − 39 = 25. Vérification : 39 + 25 = 64.",
+      "step_by_step_solution": [
+        "Le tout : 64 perles.",
+        "Une partie : 39 perles restantes.",
+        "Perles perdues : 64 − 39 = 25 (et 39 + 25 = 64)."
+      ],
+      "hints": [
+        "Le nombre de perles perdues peut-il être plus grand que le nombre de perles du début ?",
+        "Tu peux compter de 39 jusqu'à 64 en avançant par bonds."
+      ],
+      "common_errors": {
+        "103": "L'élève a ajouté ; la réponse dépasse le nombre de perles du début, ce qui est impossible.",
+        "35": "L'élève a soustrait chiffre à chiffre (9 − 4 et 6 − 3)."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.parties-tout.x03",
+      "notion_id": "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Au zoo, les singes et les perroquets sont 100 en tout. Il y a 46 singes. Combien y a-t-il de perroquets ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "54"
+      },
+      "solution": "Le tout : 100 animaux. Une partie : 46 singes. L'autre partie : 100 − 46 = 54 perroquets. Vérification : 46 + 54 = 100.",
+      "step_by_step_solution": [
+        "Le tout : 100 animaux.",
+        "Une partie : 46 singes.",
+        "100 − 46 = 54 perroquets."
+      ],
+      "hints": [
+        "Combien faut-il ajouter à 46 pour arriver à cent ?",
+        "Avance d'abord jusqu'à la dizaine suivante."
+      ],
+      "common_errors": {
+        "146": "L'élève a ajouté le tout et une partie.",
+        "64": "L'élève a mal calculé le complément à cent."
+      },
+      "remediation": "Représenter le problème avec des cubes ou un schéma : entourer le tout et les parties, puis chercher ce qui manque.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Modéliser un problème parties-tout",
+        "Choisir entre addition et soustraction"
+      ],
+      "source_notions": [
+        "MATHS.CP.NCRP.resoudre-des-problemes-additifs-en-une-etape-du-type-parties-tout"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.d01",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Lou a 1 billet de 10 € et 3 pièces de 1 €. Combien d'euros a-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "13"
+      },
+      "solution": "10 euros + 3 euros = 13 euros. Lou a 13 euros.",
+      "step_by_step_solution": [
+        "Le billet vaut 10 euros.",
+        "Les 3 pièces de 1 € valent 3 euros.",
+        "10 + 3 = 13 euros."
+      ],
+      "hints": [
+        "Un billet de 10 € vaut autant que dix pièces de 1 €.",
+        "Pars de dix et compte les pièces."
+      ],
+      "common_errors": {
+        "4": "L'élève a compté le nombre d'objets (1 billet et 3 pièces) au lieu de leur valeur."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.d02",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans le porte-monnaie de papa, il y a 2 billets de 10 €. Combien d'euros cela fait-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "20"
+      },
+      "solution": "10 euros + 10 euros = 20 euros. Cela fait 20 euros.",
+      "step_by_step_solution": [
+        "Chaque billet vaut 10 euros.",
+        "Deux billets : 10 + 10.",
+        "10 + 10 = 20 euros."
+      ],
+      "hints": [
+        "Compte de dix en dix."
+      ],
+      "common_errors": {
+        "2": "L'élève a compté les billets au lieu de leur valeur.",
+        "12": "L'élève a ajouté 10 et 2."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.d03",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Sacha a 4 pièces de 2 €. Quelle somme a-t-il, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8"
+      },
+      "solution": "Chaque pièce vaut 2 euros : 2 + 2 + 2 + 2 = 8. Sacha a 8 euros.",
+      "step_by_step_solution": [
+        "Chaque pièce vaut 2 euros.",
+        "On compte de 2 en 2 : 2, 4, 6…",
+        "2 + 2 + 2 + 2 = 8 euros."
+      ],
+      "hints": [
+        "Compte de deux en deux, une fois pour chaque pièce."
+      ],
+      "common_errors": {
+        "4": "L'élève a compté les pièces au lieu de leur valeur.",
+        "6": "L'élève a oublié une pièce."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.d04",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "PROBLEM",
+      "statement": "Jules a 1 billet de 5 € et 2 pièces de 1 €. Combien d'euros a-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7"
+      },
+      "solution": "5 euros + 1 euro + 1 euro = 7 euros. Jules a 7 euros.",
+      "step_by_step_solution": [
+        "Le billet vaut 5 euros.",
+        "Les deux pièces valent 2 euros en tout.",
+        "5 + 2 = 7 euros."
+      ],
+      "hints": [
+        "Pars de la valeur du billet, puis ajoute les pièces."
+      ],
+      "common_errors": {
+        "3": "L'élève a compté les objets (1 billet et 2 pièces) au lieu de leur valeur."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.d05",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel ensemble de monnaie vaut 10 € ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "Un billet de 5 € et 5 pièces de 1 € : 5 + 5 = 10 euros. La bonne réponse est : un billet de 5 € et 5 pièces de 1 €.",
+      "step_by_step_solution": [
+        "Un billet de 5 € et une pièce de 2 € : 5 + 2 = 7 euros.",
+        "Un billet de 5 € et 5 pièces de 1 € : 5 + 5 = 10 euros.",
+        "3 pièces de 2 € : 2 + 2 + 2 = 6 euros. Seul l'ensemble « un billet de 5 € et 5 pièces de 1 € » vaut 10 euros."
+      ],
+      "hints": [
+        "Calcule la valeur de chaque ensemble.",
+        "Attention : c'est la valeur qui compte, pas le nombre de pièces."
+      ],
+      "common_errors": {
+        "0": "L'élève n'a pas calculé la valeur totale de l'ensemble.",
+        "2": "L'élève a confondu le nombre de pièces et leur valeur."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "choices": [
+        "un billet de 5 € et une pièce de 2 €",
+        "un billet de 5 € et 5 pièces de 1 €",
+        "3 pièces de 2 €"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.a01",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Rémi a 3 billets de 10 € et 6 pièces de 1 €. Combien d'euros a-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "36"
+      },
+      "solution": "3 billets de 10 € font 30 euros ; avec 6 euros de plus : 30 + 6 = 36 euros.",
+      "step_by_step_solution": [
+        "3 billets de 10 € : dix, vingt, trente euros.",
+        "6 pièces de 1 € : 6 euros.",
+        "30 + 6 = 36 euros."
+      ],
+      "hints": [
+        "Compte d'abord les billets de dix en dix."
+      ],
+      "common_errors": {
+        "9": "L'élève a compté le nombre de billets et de pièces.",
+        "63": "L'élève a inversé dizaines et unités."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.a02",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans sa tirelire, Inès trouve 1 billet de 20 €, 1 billet de 5 € et 1 pièce de 2 €. Combien d'euros a-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "27"
+      },
+      "solution": "20 + 5 + 2 = 27. Inès a 27 euros.",
+      "step_by_step_solution": [
+        "Le billet de 20 € vaut 20 euros.",
+        "On ajoute 5 euros : 25 euros.",
+        "On ajoute 2 euros : 27 euros."
+      ],
+      "hints": [
+        "Commence par le billet qui vaut le plus.",
+        "Ajoute ensuite les autres valeurs une par une."
+      ],
+      "common_errors": {
+        "3": "L'élève a compté les objets au lieu de leur valeur.",
+        "25": "L'élève a oublié la pièce de 2 €."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.a03",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Une maman paie avec 2 billets de 20 € et 1 billet de 10 €. Combien d'euros donne-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "50"
+      },
+      "solution": "20 + 20 + 10 = 50. Elle donne 50 euros.",
+      "step_by_step_solution": [
+        "2 billets de 20 € : 20 + 20 = 40 euros.",
+        "On ajoute le billet de 10 € : 40 + 10.",
+        "40 + 10 = 50 euros."
+      ],
+      "hints": [
+        "Un billet de 20 € vaut deux billets de 10 €."
+      ],
+      "common_errors": {
+        "3": "L'élève a compté les billets au lieu de leur valeur.",
+        "30": "L'élève a compté un seul billet de 20 €."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.a04",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Yanis a 5 pièces de 2 € et 3 pièces de 1 €. Combien d'euros a-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "13"
+      },
+      "solution": "5 pièces de 2 € font 10 euros (2, 4, 6, 8, 10). Avec 3 euros de plus : 10 + 3 = 13 euros.",
+      "step_by_step_solution": [
+        "Compte les pièces de 2 € de deux en deux : 10 euros.",
+        "Les pièces de 1 € font 3 euros.",
+        "10 + 3 = 13 euros."
+      ],
+      "hints": [
+        "Compte de deux en deux pour les pièces de 2 €."
+      ],
+      "common_errors": {
+        "8": "L'élève a compté le nombre de pièces (5 + 3).",
+        "16": "L'élève a compté aussi les pièces de 1 € comme des pièces de 2 €."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.a05",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "APPLICATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Sur la table, il y a 1 billet de 50 € et 4 pièces de 1 €. Quelle somme cela fait-il, en euros ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "54"
+      },
+      "solution": "50 + 4 = 54. Cela fait 54 euros.",
+      "step_by_step_solution": [
+        "Le billet vaut 50 euros.",
+        "Les pièces valent 4 euros.",
+        "50 + 4 = 54 euros."
+      ],
+      "hints": [
+        "Pars de cinquante et avance d'une unité pour chaque pièce."
+      ],
+      "common_errors": {
+        "5": "L'élève a compté les objets au lieu de leur valeur.",
+        "9": "L'élève a pris le billet de 50 € pour un billet de 5 €."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.c01",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Nadia a 2 billets de 20 €, 1 billet de 5 € et 3 pièces de 2 €. Combien d'euros a-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "51"
+      },
+      "solution": "20 + 20 = 40 ; 40 + 5 = 45 ; 45 + 2 + 2 + 2 = 51. Nadia a 51 euros.",
+      "step_by_step_solution": [
+        "Les billets de 20 € : 40 euros.",
+        "Le billet de 5 € : 40 + 5 = 45 euros.",
+        "Les 3 pièces de 2 € font 6 euros : 45 + 6 = 51 euros."
+      ],
+      "hints": [
+        "Range la monnaie de la plus grande valeur à la plus petite.",
+        "Compte les pièces de 2 € de deux en deux."
+      ],
+      "common_errors": {
+        "6": "L'élève a compté le nombre de billets et de pièces.",
+        "48": "L'élève a compté les pièces de 2 € comme des pièces de 1 €."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.c02",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Karim vide sa poche : 7 pièces de 1 € et 4 billets de 10 € sont mélangés. Combien d'euros a-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "47"
+      },
+      "solution": "4 billets de 10 € font 40 euros ; les 7 pièces font 7 euros. 40 + 7 = 47 euros.",
+      "step_by_step_solution": [
+        "On range : d'abord les billets de 10 €, puis les pièces.",
+        "4 billets de 10 € = 40 euros.",
+        "40 + 7 = 47 euros."
+      ],
+      "hints": [
+        "Même si la monnaie est mélangée, commence par les billets de 10 €."
+      ],
+      "common_errors": {
+        "11": "L'élève a compté les objets.",
+        "74": "L'élève a gardé l'ordre de l'énoncé et inversé dizaines et unités."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.c03",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Élise a 12 pièces de 1 € et 3 billets de 10 €. Combien d'euros a-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "42"
+      },
+      "solution": "3 billets de 10 € font 30 euros. 12 pièces de 1 € font 12 euros, c'est-à-dire une dizaine d'euros et 2 euros. 30 + 12 = 42 euros.",
+      "step_by_step_solution": [
+        "3 billets de 10 € : 30 euros.",
+        "12 pièces de 1 € : 12 euros (une dizaine et 2).",
+        "30 + 12 = 42 euros."
+      ],
+      "hints": [
+        "Avec 10 pièces de 1 €, on a autant qu'avec un billet de 10 €."
+      ],
+      "common_errors": {
+        "15": "L'élève a compté le nombre d'objets.",
+        "312": "L'élève a écrit 3 et 12 côte à côte."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.c04",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel ensemble de monnaie vaut 35 € ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "3 billets de 10 € et 1 billet de 5 € : 30 + 5 = 35 euros. La bonne réponse est : 3 billets de 10 € et 1 billet de 5 €.",
+      "step_by_step_solution": [
+        "3 billets de 10 € et 1 billet de 5 € : 30 + 5 = 35 euros.",
+        "3 billets de 5 € et 5 pièces de 1 € : 15 + 5 = 20 euros.",
+        "1 billet de 20 € et 5 pièces de 2 € : 20 + 10 = 30 euros. La bonne réponse est : 3 billets de 10 € et 1 billet de 5 €."
+      ],
+      "hints": [
+        "Calcule la valeur de chaque ensemble avant de choisir.",
+        "Attention à ne pas confondre le chiffre écrit sur un billet et le nombre de billets."
+      ],
+      "common_errors": {
+        "1": "L'élève a été attiré par les chiffres 3 et 5 de l'énoncé sans calculer.",
+        "2": "L'élève a compté les pièces de 2 € comme des pièces de 1 €, ou n'a pas terminé le calcul."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "choices": [
+        "3 billets de 10 € et 1 billet de 5 €",
+        "3 billets de 5 € et 5 pièces de 1 €",
+        "1 billet de 20 € et 5 pièces de 2 €"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.c05",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Le trésorier de la kermesse compte la caisse : 1 billet de 50 €, 2 billets de 20 € et 1 billet de 10 €. Combien d'euros y a-t-il dans la caisse ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "100"
+      },
+      "solution": "50 + 20 + 20 + 10 = 100. Il y a cent euros, c'est-à-dire 100 euros, dans la caisse.",
+      "step_by_step_solution": [
+        "Le billet de 50 € : 50 euros.",
+        "Les 2 billets de 20 € : 40 euros, donc 50 + 40 = 90 euros.",
+        "Avec le billet de 10 € : 90 + 10 = 100 euros."
+      ],
+      "hints": [
+        "Additionne les billets en commençant par le plus grand.",
+        "Deux billets de 20 € valent quatre billets de 10 €."
+      ],
+      "common_errors": {
+        "4": "L'élève a compté le nombre de billets.",
+        "80": "L'élève a compté un seul billet de 20 €."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.x01",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Ema a 1 billet de 20 €, 3 billets de 5 € et 4 pièces de 2 €. Combien d'euros a-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "43"
+      },
+      "solution": "20 euros ; 3 billets de 5 € font 15 euros ; 4 pièces de 2 € font 8 euros. 20 + 15 + 8 = 43 euros.",
+      "step_by_step_solution": [
+        "Billet de 20 € : 20 euros.",
+        "3 billets de 5 € : 5 + 5 + 5 = 15 euros ; 4 pièces de 2 € : 8 euros.",
+        "20 + 15 + 8 = 43 euros."
+      ],
+      "hints": [
+        "Calcule séparément chaque sorte de billets ou de pièces.",
+        "Ajoute ensuite les trois résultats."
+      ],
+      "common_errors": {
+        "8": "L'élève a compté le nombre d'objets.",
+        "39": "L'élève a compté les pièces de 2 € comme des pièces de 1 €."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.x02",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Tim a 2 billets de 10 € et des pièces de 1 €. En tout, il a 26 €. Combien de pièces de 1 € a-t-il ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6"
+      },
+      "solution": "Les billets valent 20 euros. Pour arriver à 26 euros, il manque 26 − 20 = 6 euros, donc 6 pièces de 1 €.",
+      "step_by_step_solution": [
+        "2 billets de 10 € = 20 euros.",
+        "Il manque 26 − 20 euros.",
+        "26 − 20 = 6 : Tim a 6 pièces de 1 €."
+      ],
+      "hints": [
+        "Combien valent les billets ?",
+        "Cherche ce qu'il faut ajouter à la valeur des billets pour arriver à la somme totale."
+      ],
+      "common_errors": {
+        "24": "L'élève a enlevé le nombre de billets (2) au lieu de leur valeur.",
+        "8": "L'élève a compté 2 billets et 6 pièces ensemble."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.CP.valeur-euros.x03",
+      "notion_id": "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi",
+      "subject": "MATHS",
+      "level": "CP",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Léna a 1 billet de 50 €, 1 billet de 10 € et 15 pièces de 2 €. Combien d'euros a-t-elle ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "90"
+      },
+      "solution": "Billets : 50 + 10 = 60 euros. Pièces : 15 pièces de 2 € valent 30 euros (10 pièces font 20 euros et 5 pièces font 10 euros). 60 + 30 = 90 euros.",
+      "step_by_step_solution": [
+        "Les billets : 60 euros.",
+        "15 pièces de 2 € : 20 + 10 = 30 euros.",
+        "60 + 30 = 90 euros."
+      ],
+      "hints": [
+        "Attention : chaque pièce vaut 2 euros.",
+        "Groupe les pièces par 5 : 5 pièces de 2 € valent un billet de 10 €."
+      ],
+      "common_errors": {
+        "75": "L'élève a compté les 15 pièces comme si elles valaient 1 € chacune.",
+        "17": "L'élève a compté le nombre d'objets."
+      },
+      "remediation": "Manipuler des pièces et des billets fictifs : grouper d'abord les billets de 10 euros, puis compter le reste en euros.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer la valeur d'un ensemble de pièces et de billets",
+        "Organiser la monnaie par groupes de dix euros"
+      ],
+      "source_notions": [
+        "MATHS.CP.GM.determiner-la-valeur-en-euro-dun-ensemble-constitue-de-pieces-et-de-bi"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

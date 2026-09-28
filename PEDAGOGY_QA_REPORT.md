@@ -10,36 +10,37 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 
 | Élément | Nombre |
 |---|---:|
-| Notions | 1756 |
-| Fichiers de notions | 27 |
+| Notions | 3188 |
+| Fichiers de notions | 35 |
 | Sources officielles déclarées | 22 |
 | Sources récupérées | 22 |
 | Exercices | 0 |
 | Quiz | 0 |
 | Erreurs de chargement | 0 |
-| Issues | 1796 (BLOCKER 0, ERROR 0, WARNING 1779, INFO 17) |
+| Issues | 3235 (BLOCKER 0, ERROR 0, WARNING 3212, INFO 23) |
 
 ### Notions par statut de preuve
 
 | Statut | Notions |
 |---|---:|
-| PROVEN_OFFICIAL | 1756 |
+| PROVEN_OFFICIAL | 3188 |
 
 ### Notions par matière
 
 | Matière | Notions |
 |---|---:|
+| ENSEIGNEMENT_SCIENTIFIQUE | 309 |
 | MATHS | 1394 |
-| PHYSIQUE_CHIMIE | 97 |
+| PHYSIQUE_CHIMIE | 712 |
 | SCIENCES_TECHNOLOGIE | 202 |
-| SVT | 63 |
+| SVT | 571 |
 
 ### Notions par niveau
 
 | Niveau | Notions |
 |---|---:|
-| 1RE | 175 |
-| 2NDE | 172 |
+| 1RE | 719 |
+| 2NDE | 487 |
 | 3E | 77 |
 | 4E | 119 |
 | 5E | 140 |
@@ -49,7 +50,7 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 | CM1 | 167 |
 | CM2 | 139 |
 | CP | 83 |
-| TLE | 344 |
+| TLE | 917 |
 
 ## Issues
 
@@ -57,32 +58,33 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 
 | Sévérité | Issues |
 |---|---:|
-| INFO | 17 |
-| WARNING | 1779 |
+| INFO | 23 |
+| WARNING | 3212 |
 
 ### Par code
 
 | Code | Issues |
 |---|---:|
-| DUPLICATE_TITLE_SAME_LEVEL | 23 |
-| EMPTY_PEDAGOGY | 1756 |
-| NEAR_DUPLICATE_TITLE | 17 |
+| DUPLICATE_TITLE_SAME_LEVEL | 24 |
+| EMPTY_PEDAGOGY | 3188 |
+| NEAR_DUPLICATE_TITLE | 23 |
 
 ### Par matière
 
 | Matière | Issues |
 |---|---:|
+| ENSEIGNEMENT_SCIENTIFIQUE | 309 |
 | MATHS | 1434 |
-| PHYSIQUE_CHIMIE | 97 |
+| PHYSIQUE_CHIMIE | 719 |
 | SCIENCES_TECHNOLOGIE | 202 |
-| SVT | 63 |
+| SVT | 571 |
 
 ### Par niveau
 
 | Niveau | Issues |
 |---|---:|
-| 1RE | 195 |
-| 2NDE | 172 |
+| 1RE | 741 |
+| 2NDE | 488 |
 | 3E | 77 |
 | 4E | 119 |
 | 5E | 140 |
@@ -92,7 +94,7 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 | CM1 | 171 |
 | CM2 | 144 |
 | CP | 83 |
-| TLE | 354 |
+| TLE | 931 |
 
 ## Principales anomalies (BLOCKER / ERROR / WARNING, 60 premières)
 
@@ -121,43 +123,43 @@ Règle : exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exi
 | WARNING | DUPLICATE_TITLE_SAME_LEVEL | `MATHS.TLE.CAN.estimer-graphiquement-ou-encadrer-une-integrale-une-valeur-moyenne` | meme_titre_que:MATHS.TLE.AN.estimer-graphiquement-ou-encadrer-une-integrale-une-valeur-moyenne(course=SPECIALITE/MATHS_COMPLEMENTAIRES) |
 | WARNING | DUPLICATE_TITLE_SAME_LEVEL | `MATHS.TLE.CAN.interpreter-une-integrale-une-valeur-moyenne-dans-un-contexte-issu-dun` | meme_titre_que:MATHS.TLE.AN.interpreter-une-integrale-une-valeur-moyenne-dans-un-contexte-issu-dun(course=SPECIALITE/MATHS_COMPLEMENTAIRES) |
 | WARNING | DUPLICATE_TITLE_SAME_LEVEL | `MATHS.TLE.CAN.point-dinflexion` | meme_titre_que:MATHS.TLE.AN.point-dinflexion(course=SPECIALITE/MATHS_COMPLEMENTAIRES) |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.calcul-de-1-2-n` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.calcul-de-1-q-qn` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.calcul-du-terme-general-dune-suite-arithmetique-dune-suite-geometrique` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.calculer-des-termes-dune-suite-definie-explicitement-par-recurrence-ou` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.choisir-une-forme-adaptee-developpee-reduite-canonique-factorisee-dune` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.conjecturer-dans-des-cas-simples-la-limite-eventuelle-dune-suite` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.dans-le-cadre-de-letude-dune-suite-utiliser-le-registre-de-la-langue-n` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.determiner-deux-nombres-reels-connaissant-leur-somme-s-et-leur-produit` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.determiner-les-fonctions-polynomes-du-second-degre-sannulant-en-deux-n` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.etudier-le-signe-dune-fonction-polynome-du-second-degre-donnee-sous-fo` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.exemples-de-modes-de-generation-dune-suite-explicite-un-n-par-une-rela` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.factorisation-de-xn-1-par-x-1-de-xn-an-par-x-a` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.factorisation-dun-polynome-du-troisieme-degre-admettant-une-racine-et` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.factoriser-une-fonction-polynome-du-second-degre-en-diversifiant-les-s` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.fonction-polynome-du-second-degre-donnee-sous-forme-factorisee-racines` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.modeliser-un-phenomene-discret-a-croissance-lineaire-par-une-suite-ari` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.notations-u-n-un-u-n-un` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.proposer-modeliser-une-situation-permettant-de-generer-une-suite-de-no` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.remboursement-dun-emprunt-par-annuites-constantes` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.resolution-de-lequation-du-second-degre` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.sens-de-variation-dune-suite` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.somme-des-n-premiers-carres-des-n-premiers-cubes` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.suites-arithmetiques-exemples-definition-calcul-du-terme-general-lien` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.suites-geometriques-exemples-definition-calcul-du-terme-general-lien-a` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.sur-des-exemples-introduction-intuitive-de-la-notion-de-limite-finie-o` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALG.tour-de-hanoi` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALGO.generer-une-liste-en-extension-par-ajouts-successifs-ou-en-comprehensi` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALGO.iterer-sur-les-elements-dune-liste` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALGO.manipuler-des-elements-dune-liste-ajouter-supprimer-etc-et-leurs-indic` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.ALGO.parcourir-une-liste` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.AN.approximation-lineaire-fonction-affine-tangente-x-a-a-x-a-et-approxima` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.AN.calculer-un-taux-de-variation-la-pente-dune-secante` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.AN.calculer-une-valeur-approchee-de-a-h` | common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.AN.cercle-trigonometrique-longueur-darc-radian` | learning_objectives,common_mistakes |
-| WARNING | EMPTY_PEDAGOGY | `MATHS.1RE.AN.cosinus-et-sinus-dun-nombre-reel-lien-avec-le-sinus-et-le-cosinus-dans` | learning_objectives,common_mistakes |
+| WARNING | DUPLICATE_TITLE_SAME_LEVEL | `PC.TLE.OS.capacite-mathematique-resoudre-une-equation-differentielle-lineaire-du` | meme_titre_que:PC.TLE.ENERGIE.capacite-mathematique-resoudre-une-equation-differentielle-lineaire-du(course=SPECIALITE/SPECIALITE) |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.ainsi-les-mineraux-se-caracterisent-par-leur-composition-chimique-et-l` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.analyser-et-interpreter-des-documents-historiques-relatifs-a-la-theori` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.calculer-le-nombre-de-noyaux-restants-au-bout-de-n-demi-vies` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.certaines-roches-volcaniques-contiennent-du-verre-issu-de-la-solidific` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.certains-noyaux-sont-instables-et-se-desintegrent-radioactivite` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.citer-quelques-precautions-inherentes-a-lutilisation-de-substances-rad` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.dans-le-cas-des-solides-amorphes-lempilement-dentites-se-fait-sans-ord` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.des-structures-cristallines-existent-aussi-dans-les-organismes-biologi` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.discuter-du-statut-des-virus-vivants-ou-non-vivants` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.distinguer-en-matiere-dechelle-et-dorganisation-spatiale-atome-ou-mole` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.expliquer-lutilisation-de-noyaux-radioactifs-dans-un-contexte-medical` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.identifier-des-structures-cristallines-chez-les-etres-vivants` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.identifier-des-structures-cristallines-sur-un-echantillon-ou-une-image` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.la-cellule-unite-fondamentale-du-vivant-est-un-milieu-reactionnel-aque` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.la-decouverte-de-lunite-cellulaire-est-liee-a-linvention-du-microscope` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.la-demi-vie-dun-noyau-radioactif-est-la-duree-necessaire-pour-que-la-m` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.la-matiere-connue-de-lunivers-est-formee-principalement-dhydrogene-et` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.le-chlorure-de-sodium-solide-present-dans-les-roches-ou-issu-de-levapo` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.le-fonctionnement-cellulaire-necessite-un-apport-en-energie-la-cellule` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.lequation-dune-reaction-nucleaire-stellaire-etant-fournie-reconnaitre` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.les-noyaux-des-atomes-de-la-centaine-delements-chimiques-stables-resul` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.linstant-de-desintegration-dun-noyau-radioactif-individuel-est-aleatoi` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.lobservation-de-structures-semblables-dans-de-tres-nombreux-organismes` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.mettre-en-evidence-des-echanges-au-travers-de-la-membrane-plasmique` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.mettre-en-relation-la-structure-amorphe-ou-cristalline-dune-roche-et-l` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.plus-generalement-la-structure-microscopique-dun-cristal-conditionne-c` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.plus-recemment-linvention-du-microscope-electronique-a-permis-lexplora` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.produire-et-analyser-differentes-representations-graphiques-de-labonda` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.relier-la-presence-de-molecules-exogenes-avec-le-bon-fonctionnement-ce` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.relier-lechelle-de-la-cellule-de-ses-organites-et-des-molecules-qui-la` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.relier-lorganisation-de-la-maille-au-niveau-microscopique-a-la-structu` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.situer-les-ordres-de-grandeur-atome-molecule-organite-cellule-organism` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.un-compose-de-formule-chimique-donnee-peut-cristalliser-sous-different` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.une-roche-est-formee-de-lassociation-de-cristaux-dun-meme-mineral-ou-d` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.utiliser-une-decroissance-radioactive-pour-une-datation` | learning_objectives,common_mistakes |
+| WARNING | EMPTY_PEDAGOGY | `ES.1RE.MATIERE.utiliser-une-representation-en-trois-dimensions-3d-informatisee-du-cri` | learning_objectives,common_mistakes |
 
 ## Ce qui n'a PAS pu être vérifié
 
