@@ -1,0 +1,6561 @@
+{
+  "bank_ready": false,
+  "counts": {
+    "by_code": {
+      "NOTIONS_UNPROVEN_SUMMARY": 1,
+      "NOTION_UNPROVEN": 404,
+      "SOURCE_NOT_RETRIEVED": 404
+    },
+    "by_level": {
+      "-": 1,
+      "1RE": 132,
+      "2NDE": 114,
+      "3E": 96,
+      "4E": 98,
+      "5E": 104,
+      "6E": 96,
+      "TLE": 168
+    },
+    "by_severity": {
+      "INFO": 809
+    },
+    "by_subject": {
+      "-": 1,
+      "ENSEIGNEMENT_SCIENTIFIQUE": 56,
+      "MATHS": 300,
+      "PHYSIQUE_CHIMIE": 224,
+      "SCIENCES_TECHNOLOGIE": 50,
+      "SVT": 178
+    }
+  },
+  "data_dir": "pedagogy/data",
+  "exit_code": 0,
+  "exit_code_rule": "exit 1 si au moins une issue BLOCKER ou ERROR (verdict FAIL), sinon exit 0 (verdict PASS). L'absence de preuve officielle (NOTION_UNPROVEN, NOTIONS_UNPROVEN_SUMMARY, SOURCE_NOT_RETRIEVED) est INFO et ne fait jamais échouer ; les WARNING non plus.",
+  "generated_by": "pedagogy.qa v0.1.0",
+  "issues": [
+    {
+      "code": "NOTIONS_UNPROVEN_SUMMARY",
+      "detail": "unproven=404/total=404",
+      "level": "-",
+      "object_id": "REGISTRY",
+      "severity": "INFO",
+      "subject": "-"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.MAT.decroissance-radioactive-et-demi-vie",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.MAT.formation-des-elements-chimiques-dans-l-univers",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.MAT.histoire-de-la-theorie-cellulaire-et-organisation-de-la-cellule",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.MAT.organisation-des-cristaux-et-modele-cristallin",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.SOL.bilan-radiatif-terrestre-albedo-et-effet-de-serre",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.SOL.bilan-thermique-du-corps-humain",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.SOL.photosynthese-conversion-de-l-energie-solaire",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.SOL.rayonnement-solaire-et-puissance-recue-par-la-terre",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.SON.entendre-la-musique-oreille-cerveau-et-risques-auditifs",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.SON.la-musique-ou-l-art-de-faire-entendre-les-nombres",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.SON.le-son-phenomene-vibratoire",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.SON.numerisation-du-son-et-compression",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.TERRE.forme-et-dimensions-de-la-terre-histoire-de-la-mesure",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.TERRE.l-age-de-la-terre-histoire-d-une-controverse",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "ES.1RE.TERRE.la-terre-dans-l-univers-du-geocentrisme-a-l-heliocentrisme",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.CLIM.energie-choix-de-developpement-et-futur-climatique",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.CLIM.l-atmosphere-terrestre-et-la-vie",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.CLIM.la-complexite-du-systeme-climatique-et-les-retroactions",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.CLIM.le-climat-du-futur-modeles-et-scenarios",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.ENER.choix-energetiques-et-impacts-sur-les-societes",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.ENER.conversions-d-energie-et-rendement",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.ENER.deux-siecles-d-energie-electrique",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.ENER.optimisation-du-transport-de-l-electricite",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.l-evolution-comme-grille-de-lecture-du-monde",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.l-evolution-humaine",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.l-intelligence-artificielle-et-l-apprentissage-automatique",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.la-biodiversite-et-son-evolution-estimation-et-modele-de-hardy-weinberg",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.les-modeles-demographiques",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.ALG.equations-du-second-degre-et-discriminant",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.ALG.fonctions-polynomes-du-second-degre",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.applications-de-la-derivation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.derivation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.fonction-exponentielle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.fonctions-trigonometriques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.nombre-derive-et-tangente",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.suites-arithmetiques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.suites-geometriques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.suites-numeriques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AP.listes-en-python",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.GEO.geometrie-reperee",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.GEO.produit-scalaire",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.PROBA.independance-d-evenements",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.PROBA.probabilites-conditionnelles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.PROBA.variables-aleatoires-reelles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.AP.fonctions-en-python",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.AP.variables-et-instructions-en-python",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.FON.fonctions-de-reference",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.FON.generalites-sur-les-fonctions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.FON.tableaux-de-signes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.FON.variations-et-extremums",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.colinearite-de-vecteurs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.coordonnees-dans-un-repere",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.equations-de-droites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.projete-orthogonal",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.systemes-de-deux-equations-lineaires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.vecteurs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.calcul-litteral-et-identites-remarquables",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.ensembles-de-nombres",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.equations-et-inequations-du-premier-degre",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.intervalles-et-valeur-absolue",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.multiples-diviseurs-et-nombres-premiers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.puissances-et-racines-carrees",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.SP.echantillonnage",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.SP.modeles-de-probabilite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.SP.proportions-et-evolutions-en-pourcentage",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.SP.statistiques-descriptives",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.AP.algorithmes-et-programmes-avances",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.reciproque-du-theoreme-de-thales",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.reperage-sur-la-sphere",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.rotations-et-homotheties",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.sections-de-solides",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.GM.agrandissement-et-reduction",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.GM.volume-de-la-boule",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.decomposition-en-produit-de-facteurs-premiers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.equations-produit-nul",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.factorisation-et-identites-remarquables",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.mise-en-equation-de-problemes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.racine-carree",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.OGD.indicateurs-statistiques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.OGD.notion-de-fonction",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "MATHS.3E.OGD.probabilites-experiences-a-deux-epreuves",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.AP.variables-et-sous-programmes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.EG.reciproque-du-theoreme-de-pythagore",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.EG.theoreme-de-pythagore",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.EG.theoreme-de-thales",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.EG.translations",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.GM.vitesse-moyenne",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.GM.volume-de-la-pyramide-et-du-cone",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.calcul-litteral",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.equations-du-premier-degre",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.multiplication-et-division-de-fractions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.multiplication-et-division-de-nombres-relatifs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.notation-scientifique",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.puissances",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.puissances-de-10",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.OGD.calcul-de-probabilites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.OGD.mediane-et-etendue",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.OGD.pourcentages-d-evolution",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "MATHS.4E.OGD.quatrieme-proportionnelle-et-produit-en-croix",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.AP.boucles-et-instructions-conditionnelles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.angles-et-parallelisme",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.inegalite-triangulaire",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.parallelogramme",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.reperage-dans-le-plan",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.somme-des-angles-d-un-triangle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.symetrie-centrale",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.GM.aire-du-disque",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.GM.volume-du-prisme-droit-et-du-cylindre",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.addition-et-soustraction-de-fractions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.addition-et-soustraction-de-nombres-relatifs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.comparaison-de-fractions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.expressions-litterales",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.nombres-premiers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.nombres-relatifs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.priorites-operatoires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.tester-une-egalite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.OGD.initiation-aux-probabilites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.OGD.proportionnalite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "MATHS.5E.OGD.statistiques-effectifs-frequences-et-moyenne",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.AP.programmation-de-deplacements",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.cercle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.droites-paralleles-et-perpendiculaires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.solides-usuels-et-patrons",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.symetrie-axiale",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.triangles-et-quadrilateres-particuliers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.aires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.angles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.conversions-d-unites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.longueur-du-cercle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.perimetres",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.volume-du-pave-droit",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.calcul-mental-et-ordre-de-grandeur",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.division-euclidienne",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.fractions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.multiples-et-diviseurs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.nombres-decimaux",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.nombres-entiers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.operations-sur-les-nombres-decimaux",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.pourcentages",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.proportionnalite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.reperage-sur-une-demi-droite-graduee",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "MATHS.6E.OGD.tableaux-et-diagrammes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.ALG.combinatoire-et-denombrement",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.calcul-integral",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.complements-sur-la-derivation-et-convexite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.continuite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.fonction-logarithme-neperien",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.fonctions-sinus-et-cosinus",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.limites-de-fonctions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.limites-de-suites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.primitives-et-equations-differentielles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.raisonnement-par-recurrence",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AP.algorithmes-de-seuil-et-de-dichotomie",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.ARITH.divisibilite-et-congruences",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.ARITH.nombres-premiers-et-petit-theoreme-de-fermat",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.ARITH.pgcd-theoremes-de-bezout-et-de-gauss",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.CPLX.equations-polynomiales-dans-c",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.CPLX.forme-trigonometrique-et-exponentielle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.CPLX.nombres-complexes-et-geometrie",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.CPLX.nombres-complexes-forme-algebrique",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GEO.orthogonalite-et-distances-dans-l-espace",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GEO.representations-parametriques-et-equations-cartesiennes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GEO.vecteurs-droites-et-plans-de-l-espace",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GRAPH.graphes-et-chaines-de-markov",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GRAPH.matrices-et-operations",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.derivation-et-convexite-en-modelisation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.equations-differentielles-en-modelisation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.integration-en-modelisation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.logarithme-et-exponentielle-en-modelisation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.modeles-d-evolution-discrets",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCPROB.lois-a-densite-uniforme-et-exponentielle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCPROB.lois-binomiale-et-geometrique",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCPROB.statistiques-a-deux-variables",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.PROBA.concentration-et-loi-des-grands-nombres",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.PROBA.loi-binomiale",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.PROBA.sommes-de-variables-aleatoires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.absorbance-et-loi-de-beer-lambert",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.cohesion-des-solides-et-solubilite-interactions-intermoleculaires",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.combustions-et-energie-liberee",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.electronegativite-et-polarite-des-molecules",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.quantite-de-matiere-masse-molaire-volume-molaire-et-concentration-en-quantite-de",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.reactions-d-oxydo-reduction",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.schema-de-lewis-et-geometrie-des-molecules",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.structure-des-molecules-organiques-groupes-caracteristiques-et-nomenclature",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.tableau-d-avancement-et-etat-final",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.titrage-avec-suivi-colorimetrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MVT.interactions-fondamentales-loi-de-coulomb-gravitation-et-notion-de-champ",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MVT.lien-entre-forces-et-variation-du-vecteur-vitesse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.MVT.pression-et-loi-fondamentale-de-la-statique-des-fluides",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.NRJ.energie-cinetique-et-theoreme-de-l-energie-cinetique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.NRJ.energie-potentielle-et-energie-mecanique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.NRJ.puissance-effet-joule-et-rendement-d-un-convertisseur-electrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.ONDE.lentille-mince-convergente-relation-de-conjugaison-et-grandissement",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.ONDE.modele-particulaire-de-la-lumiere-photon-et-energie-e-h",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.ONDE.ondes-mecaniques-progressives-celerite-et-retard",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "PC.1RE.ONDE.ondes-periodiques-periode-longueur-d-onde-et-celerite",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.composition-d-un-melange-pourcentage-massique-et-volumique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.configuration-electronique-et-tableau-periodique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.dosage-par-etalonnage",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.identification-d-une-espece-chimique-masse-volumique-temperatures-de-changement",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.le-noyau-de-l-atome-et-la-notation-symbolique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.quantite-de-matiere-la-mole",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.solution-aqueuse-et-concentration-en-masse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.stabilite-des-entites-chimiques-ions-monoatomiques-et-schema-de-lewis",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.transformation-chimique-stchiometrie-et-reactif-limitant",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.transformations-physiques-chimiques-et-nucleaires",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MVT.loi-de-la-gravitation-universelle-et-poids",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MVT.modelisation-d-une-action-par-une-force-vecteur-force",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MVT.principe-d-inertie",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MVT.vecteur-deplacement-et-vecteur-vitesse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.capteurs-electriques-et-etalonnage",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.lentille-mince-convergente-image-et-grandissement",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.lois-de-l-electricite-nuds-mailles-et-loi-d-ohm",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.lumiere-blanche-dispersion-et-spectres-d-emission",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.reflexion-et-refraction-lois-de-snell-descartes",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.signal-sonore-periodique-periode-frequence-et-niveau-d-intensite-sonore",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.composition-de-l-univers-et-formation-des-elements",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.constitution-de-l-atome-noyau-et-electrons",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.dilution-et-evolution-du-ph",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.les-ions",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.reaction-entre-un-acide-et-un-metal",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.tests-d-identification-de-quelques-ions",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MVT.forces-et-variation-de-la-vitesse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MVT.interaction-gravitationnelle",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.MVT.poids-et-pesanteur-sur-differents-astres",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.bilan-energetique-et-rendement-d-un-convertisseur",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.energie-cinetique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.energie-de-position-et-conversions-d-energie-mecanique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.energie-electrique-e-p-t",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.puissance-electrique-p-u-i",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.securite-routiere-distance-d-arret",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "PC.3E.SIG.transmettre-une-information-par-un-signal-lumineux-ou-sonore",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.atomes-et-molecules",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.combustions",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.conservation-de-la-masse-lors-d-une-transformation-chimique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.equation-de-reaction-et-conservation-des-atomes",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.masse-volumique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.solutions-acides-basiques-et-neutres-le-ph",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.transformation-chimique-reactifs-et-produits",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MVT.actions-mecaniques-de-contact-et-a-distance",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MVT.modeliser-une-action-mecanique-par-une-force",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.MVT.poids-et-masse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.NRJ.intensite-du-courant-electrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.NRJ.lois-d-additivite-des-tensions-et-des-intensites",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.NRJ.resistance-et-loi-d-ohm",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.NRJ.tension-electrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.SIG.frequence-d-un-son-sons-audibles-infrasons-et-ultrasons",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.SIG.vitesse-de-propagation-de-la-lumiere-et-annee-lumiere",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "PC.4E.SIG.vitesse-de-propagation-du-son",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.changements-d-etat-conservation-de-la-masse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.composition-de-l-air",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.les-trois-etats-de-la-matiere-et-le-modele-particulaire",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.melanges-homogenes-et-heterogenes-corps-purs",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.mesurer-une-masse-et-un-volume",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.separer-et-identifier-les-constituants-d-un-melange",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.solubilite-et-miscibilite",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.temperature-de-changement-d-etat-d-un-corps-pur",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MVT.mouvement-uniforme-accelere-ou-ralenti",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MVT.referentiel-et-trajectoire",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.MVT.vitesse-moyenne",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.NRJ.circuit-en-serie-et-circuit-en-derivation",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.NRJ.conducteurs-et-isolants-electriques",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.NRJ.sources-formes-et-conversions-d-energie",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.SIG.emission-et-propagation-d-un-son",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.SIG.propagation-rectiligne-de-la-lumiere",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "PC.5E.SIG.sources-primaires-et-objets-diffusants",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.cinetique-chimique-vitesse-volumique-et-temps-de-demi-reaction",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.decroissance-radioactive",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.loi-de-vitesse-d-ordre-1",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.piles-fonctionnement-et-capacite-electrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.quotient-de-reaction-constante-d-equilibre-et-sens-d-evolution-spontanee",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.reactions-acide-base-ph-pka-et-diagrammes-de-predominance",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.synthese-organique-optimisation-et-strategie",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.titrages-ph-metrique-et-conductimetrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.transformations-forcees-electrolyse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.deuxieme-loi-de-newton",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.ecoulement-d-un-fluide-debit-et-relation-de-bernoulli",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.mouvement-dans-un-champ-uniforme",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.mouvement-des-satellites-et-des-planetes-lois-de-kepler",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.vecteurs-vitesse-et-acceleration",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.NRJ.dipole-rc-charge-et-decharge-d-un-condensateur",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.NRJ.premier-principe-de-la-thermodynamique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.NRJ.transferts-thermiques-et-loi-phenomenologique-de-newton",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.diffraction-et-interferences",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.effet-doppler",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.effet-photoelectrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.intensite-sonore-et-niveau-d-intensite-sonore",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.lunette-astronomique-afocale",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.decrire-un-mouvement-trajectoire-et-vitesse",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.formes-et-conversions-d-energie",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.le-circuit-electrique-simple",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.les-changements-d-etat-de-l-eau",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.les-etats-solide-liquide-et-gazeux-de-la-matiere",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.masse-et-volume-mesure-et-unites",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.melanges-dissolution-et-miscibilite",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.separer-les-constituants-d-un-melange",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.signal-et-information",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.MME.sources-d-energie-renouvelables-et-non-renouvelables",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.algorithme-et-programmation-d-un-objet-simple",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.besoin-fonction-d-usage-et-fonction-technique-d-un-objet",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.chaine-d-energie-et-chaine-d-information-d-un-objet-technique",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.evolution-des-objets-techniques",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.familles-de-materiaux-et-leurs-proprietes",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TER.impact-des-activites-humaines-sur-l-environnement",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TER.la-terre-dans-le-systeme-solaire-mouvements-et-saisons",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TER.peuplement-d-un-milieu-et-conditions-de-vie",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.TER.phenomenes-geologiques-et-meteorologiques-risques-naturels",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.besoins-alimentaires-et-origine-des-aliments",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.besoins-des-vegetaux-chlorophylliens-et-production-de-matiere",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.classer-les-etres-vivants-en-groupes-emboites",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.developpement-et-reproduction-des-etres-vivants",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.la-cellule-unite-du-vivant",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.transformation-et-conservation-des-aliments",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.alterations-du-genome-et-cancerisation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.immunite-adaptative-lymphocytes-b-et-t",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.immunite-innee-et-reaction-inflammatoire",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.memoire-immunitaire-vaccination-et-immunotherapies",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.patrimoine-genetique-et-maladies-l-exemple-de-la-mucoviscidose",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.EPC.dynamique-des-ecosystemes-et-interactions",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.EPC.services-ecosystemiques-et-gestion",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.cycle-cellulaire-et-mitose",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.divergence-et-formation-de-la-lithosphere-oceanique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.expression-genetique-transcription-et-traduction",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.mutations-de-l-adn-et-systemes-de-reparation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.phenotypes-aux-differentes-echelles-et-environnement",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.replication-semi-conservative-de-l-adn",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.structure-du-globe-croutes-manteau-et-lithosphere",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.subduction-et-magmatisme-associe",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.agents-pathogenes-et-maladies-vectorielles",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.differenciation-de-l-appareil-genital",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.hormones-et-procreation-humaine",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.le-microbiote-humain-et-la-sante",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.sexualite-et-bases-biologiques-du-plaisir",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.EPC.agrosystemes-et-developpement-durable",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.EPC.erosion-processus-et-consequences",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.EPC.les-sols-un-patrimoine-durable",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.biodiversite-resultat-et-etape-de-l-evolution-notion-d-espece",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.l-adn-molecule-universelle-structure-et-composition",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.l-organisme-pluricellulaire-cellules-specialisees-tissus-et-organes",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.la-cellule-unite-structurale-et-fonctionnelle",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.les-echelles-de-la-biodiversite",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.mecanismes-de-l-evolution-selection-naturelle-et-derive-genetique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.metabolisme-cellulaire-et-enzymes",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.antiseptiques-antibiotiques-et-resistance-bacterienne",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.micro-organismes-et-contamination",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.reaction-immunitaire-rapide-et-phagocytose",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.reactions-immunitaires-adaptatives-lymphocytes-et-anticorps",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.vaccination-et-memoire-immunitaire",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.TER.changement-climatique-actuel-et-effet-de-serre",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.TER.gestion-durable-des-ecosystemes-et-de-la-biodiversite",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.TER.ressources-energetiques-fossiles-et-renouvelables",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.chromosomes-genes-et-alleles",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.division-cellulaire-et-conservation-de-l-information-genetique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.evolution-des-especes-et-selection-naturelle",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.l-adn-support-de-l-information-genetique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.mutations-et-diversite-des-alleles",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.parentes-entre-especes-et-arbres-phylogenetiques",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.reproduction-sexuee-et-diversite-genetique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.commande-nerveuse-du-mouvement",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.fecondation-grossesse-et-maitrise-de-la-procreation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.infections-sexuellement-transmissibles-et-prevention",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.perturbations-du-systeme-nerveux-sommeil-substances-et-ecrans",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.puberte-et-fonctionnement-des-appareils-reproducteurs",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.systeme-nerveux-messages-nerveux-et-centres-nerveux",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.risques-naturels-alea-enjeux-vulnerabilite-et-prevention",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.seismes-origine-et-manifestations",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.structure-interne-du-globe-terrestre",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.tectonique-des-plaques-et-mouvements-des-plaques",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.volcanisme-effusif-et-explosif",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.VIV.dynamique-des-populations-et-facteurs-du-milieu",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.VIV.interactions-entre-especes-symbiose-parasitisme-competition",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "4E",
+      "object_id": "SVT.4E.VIV.reseaux-trophiques-et-flux-de-matiere-dans-un-ecosysteme",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.alimentation-equilibree-et-sante",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.circulation-sanguine-et-approvisionnement-des-organes",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.digestion-et-absorption-des-nutriments",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.effort-physique-et-adaptations-de-l-organisme",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.role-des-micro-organismes-dans-la-digestion",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.distinguer-meteorologie-et-climat",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.ecosysteme-et-influence-de-l-action-humaine",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.erosion-transport-et-sedimentation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.exploitation-des-ressources-naturelles-par-l-etre-humain",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.formation-des-roches-sedimentaires",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.besoins-nutritifs-des-vegetaux-chlorophylliens",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.biodiversite-et-classification-du-vivant",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.la-cellule-unite-du-vivant",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.reproduction-sexuee-et-asexuee-des-etres-vivants",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.respiration-et-echanges-gazeux-chez-les-animaux",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.cerveau-et-mouvement-volontaire-plasticite-cerebrale",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.contraction-musculaire-et-apport-d-energie",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.le-stress-reponse-adaptative-et-stress-chronique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.reflexe-myotatique-et-circuit-neuronal",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.regulation-de-la-glycemie",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.EPC.changement-climatique-actuel-et-scenarios",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.EPC.reconstituer-et-comprendre-les-variations-climatiques-passees",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.brassages-genetiques-lies-a-la-meiose-et-a-la-fecondation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.collision-continentale-et-histoire-des-chaines-de-montagnes",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.datation-relative-et-datation-absolue",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.diversification-des-genomes-et-transferts-horizontaux",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.domestication-des-plantes-et-selection-par-l-etre-humain",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.frequences-alleliques-et-modele-de-hardy-weinberg",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.organisation-fonctionnelle-des-plantes-a-fleurs",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "NOTION_UNPROVEN",
+      "detail": "proof_status=UNPROVEN",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.reproduction-des-plantes-a-fleurs-et-coevolution-avec-les-pollinisateurs",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.MAT.decroissance-radioactive-et-demi-vie",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.MAT.formation-des-elements-chimiques-dans-l-univers",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.MAT.histoire-de-la-theorie-cellulaire-et-organisation-de-la-cellule",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.MAT.organisation-des-cristaux-et-modele-cristallin",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.SOL.bilan-radiatif-terrestre-albedo-et-effet-de-serre",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.SOL.bilan-thermique-du-corps-humain",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.SOL.photosynthese-conversion-de-l-energie-solaire",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.SOL.rayonnement-solaire-et-puissance-recue-par-la-terre",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.SON.entendre-la-musique-oreille-cerveau-et-risques-auditifs",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.SON.la-musique-ou-l-art-de-faire-entendre-les-nombres",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.SON.le-son-phenomene-vibratoire",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.SON.numerisation-du-son-et-compression",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.TERRE.forme-et-dimensions-de-la-terre-histoire-de-la-mesure",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.TERRE.l-age-de-la-terre-histoire-d-une-controverse",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "ES.1RE.TERRE.la-terre-dans-l-univers-du-geocentrisme-a-l-heliocentrisme",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.CLIM.energie-choix-de-developpement-et-futur-climatique",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.CLIM.l-atmosphere-terrestre-et-la-vie",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.CLIM.la-complexite-du-systeme-climatique-et-les-retroactions",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.CLIM.le-climat-du-futur-modeles-et-scenarios",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.ENER.choix-energetiques-et-impacts-sur-les-societes",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.ENER.conversions-d-energie-et-rendement",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.ENER.deux-siecles-d-energie-electrique",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.ENER.optimisation-du-transport-de-l-electricite",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.l-evolution-comme-grille-de-lecture-du-monde",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.l-evolution-humaine",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.l-intelligence-artificielle-et-l-apprentissage-automatique",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.la-biodiversite-et-son-evolution-estimation-et-modele-de-hardy-weinberg",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "ES.TLE.HVIV.les-modeles-demographiques",
+      "severity": "INFO",
+      "subject": "ENSEIGNEMENT_SCIENTIFIQUE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.ALG.equations-du-second-degre-et-discriminant",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.ALG.fonctions-polynomes-du-second-degre",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.applications-de-la-derivation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.derivation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.fonction-exponentielle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.fonctions-trigonometriques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.nombre-derive-et-tangente",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.suites-arithmetiques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.suites-geometriques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AN.suites-numeriques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.AP.listes-en-python",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.GEO.geometrie-reperee",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.GEO.produit-scalaire",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.PROBA.independance-d-evenements",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.PROBA.probabilites-conditionnelles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "MATHS.1RE.PROBA.variables-aleatoires-reelles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.AP.fonctions-en-python",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.AP.variables-et-instructions-en-python",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.FON.fonctions-de-reference",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.FON.generalites-sur-les-fonctions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.FON.tableaux-de-signes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.FON.variations-et-extremums",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.colinearite-de-vecteurs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.coordonnees-dans-un-repere",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.equations-de-droites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.projete-orthogonal",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.systemes-de-deux-equations-lineaires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.GEO.vecteurs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.calcul-litteral-et-identites-remarquables",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.ensembles-de-nombres",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.equations-et-inequations-du-premier-degre",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.intervalles-et-valeur-absolue",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.multiples-diviseurs-et-nombres-premiers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.NC.puissances-et-racines-carrees",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.SP.echantillonnage",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.SP.modeles-de-probabilite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.SP.proportions-et-evolutions-en-pourcentage",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "MATHS.2NDE.SP.statistiques-descriptives",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.AP.algorithmes-et-programmes-avances",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.reciproque-du-theoreme-de-thales",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.reperage-sur-la-sphere",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.rotations-et-homotheties",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.sections-de-solides",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.EG.trigonometrie-dans-le-triangle-rectangle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.GM.agrandissement-et-reduction",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.GM.volume-de-la-boule",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.decomposition-en-produit-de-facteurs-premiers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.equations-produit-nul",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.factorisation-et-identites-remarquables",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.mise-en-equation-de-problemes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.NC.racine-carree",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.OGD.fonctions-lineaires-et-affines",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.OGD.indicateurs-statistiques",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.OGD.notion-de-fonction",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "MATHS.3E.OGD.probabilites-experiences-a-deux-epreuves",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.AP.variables-et-sous-programmes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.EG.reciproque-du-theoreme-de-pythagore",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.EG.theoreme-de-pythagore",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.EG.theoreme-de-thales",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.EG.translations",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.GM.vitesse-moyenne",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.GM.volume-de-la-pyramide-et-du-cone",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.calcul-litteral",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.equations-du-premier-degre",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.multiplication-et-division-de-fractions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.multiplication-et-division-de-nombres-relatifs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.notation-scientifique",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.puissances",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.NC.puissances-de-10",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.OGD.calcul-de-probabilites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.OGD.mediane-et-etendue",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.OGD.pourcentages-d-evolution",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "MATHS.4E.OGD.quatrieme-proportionnelle-et-produit-en-croix",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.AP.boucles-et-instructions-conditionnelles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.angles-et-parallelisme",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.inegalite-triangulaire",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.parallelogramme",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.reperage-dans-le-plan",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.somme-des-angles-d-un-triangle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.EG.symetrie-centrale",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.GM.aire-du-disque",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.GM.volume-du-prisme-droit-et-du-cylindre",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.addition-et-soustraction-de-fractions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.addition-et-soustraction-de-nombres-relatifs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.comparaison-de-fractions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.expressions-litterales",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.nombres-premiers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.nombres-relatifs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.priorites-operatoires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.NC.tester-une-egalite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.OGD.initiation-aux-probabilites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.OGD.proportionnalite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "MATHS.5E.OGD.statistiques-effectifs-frequences-et-moyenne",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.AP.programmation-de-deplacements",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.cercle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.droites-paralleles-et-perpendiculaires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.solides-usuels-et-patrons",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.symetrie-axiale",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.EG.triangles-et-quadrilateres-particuliers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.aires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.angles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.conversions-d-unites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.longueur-du-cercle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.perimetres",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.GM.volume-du-pave-droit",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.calcul-mental-et-ordre-de-grandeur",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.division-euclidienne",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.fractions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.multiples-et-diviseurs",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.nombres-decimaux",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.nombres-entiers",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.operations-sur-les-nombres-decimaux",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.pourcentages",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.proportionnalite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.NC.reperage-sur-une-demi-droite-graduee",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "MATHS.6E.OGD.tableaux-et-diagrammes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.ALG.combinatoire-et-denombrement",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.calcul-integral",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.complements-sur-la-derivation-et-convexite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.continuite",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.fonction-logarithme-neperien",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.fonctions-sinus-et-cosinus",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.limites-de-fonctions",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.limites-de-suites",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.primitives-et-equations-differentielles",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AN.raisonnement-par-recurrence",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.AP.algorithmes-de-seuil-et-de-dichotomie",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.ARITH.divisibilite-et-congruences",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.ARITH.nombres-premiers-et-petit-theoreme-de-fermat",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.ARITH.pgcd-theoremes-de-bezout-et-de-gauss",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.CPLX.equations-polynomiales-dans-c",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.CPLX.forme-trigonometrique-et-exponentielle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.CPLX.nombres-complexes-et-geometrie",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.CPLX.nombres-complexes-forme-algebrique",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GEO.orthogonalite-et-distances-dans-l-espace",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GEO.representations-parametriques-et-equations-cartesiennes",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GEO.vecteurs-droites-et-plans-de-l-espace",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GRAPH.graphes-et-chaines-de-markov",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.GRAPH.matrices-et-operations",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.derivation-et-convexite-en-modelisation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.equations-differentielles-en-modelisation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.integration-en-modelisation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.logarithme-et-exponentielle-en-modelisation",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCAN.modeles-d-evolution-discrets",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCPROB.lois-a-densite-uniforme-et-exponentielle",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCPROB.lois-binomiale-et-geometrique",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.MCPROB.statistiques-a-deux-variables",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.PROBA.concentration-et-loi-des-grands-nombres",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.PROBA.loi-binomiale",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "MATHS.TLE.PROBA.sommes-de-variables-aleatoires",
+      "severity": "INFO",
+      "subject": "MATHS"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.absorbance-et-loi-de-beer-lambert",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.cohesion-des-solides-et-solubilite-interactions-intermoleculaires",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.combustions-et-energie-liberee",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.electronegativite-et-polarite-des-molecules",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.quantite-de-matiere-masse-molaire-volume-molaire-et-concentration-en-quantite-de",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.reactions-d-oxydo-reduction",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.schema-de-lewis-et-geometrie-des-molecules",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.structure-des-molecules-organiques-groupes-caracteristiques-et-nomenclature",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.tableau-d-avancement-et-etat-final",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MAT.titrage-avec-suivi-colorimetrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MVT.interactions-fondamentales-loi-de-coulomb-gravitation-et-notion-de-champ",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MVT.lien-entre-forces-et-variation-du-vecteur-vitesse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.MVT.pression-et-loi-fondamentale-de-la-statique-des-fluides",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.NRJ.energie-cinetique-et-theoreme-de-l-energie-cinetique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.NRJ.energie-potentielle-et-energie-mecanique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.NRJ.puissance-effet-joule-et-rendement-d-un-convertisseur-electrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.ONDE.lentille-mince-convergente-relation-de-conjugaison-et-grandissement",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.ONDE.modele-particulaire-de-la-lumiere-photon-et-energie-e-h",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.ONDE.ondes-mecaniques-progressives-celerite-et-retard",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "PC.1RE.ONDE.ondes-periodiques-periode-longueur-d-onde-et-celerite",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.composition-d-un-melange-pourcentage-massique-et-volumique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.configuration-electronique-et-tableau-periodique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.dosage-par-etalonnage",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.identification-d-une-espece-chimique-masse-volumique-temperatures-de-changement",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.le-noyau-de-l-atome-et-la-notation-symbolique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.quantite-de-matiere-la-mole",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.solution-aqueuse-et-concentration-en-masse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.stabilite-des-entites-chimiques-ions-monoatomiques-et-schema-de-lewis",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.transformation-chimique-stchiometrie-et-reactif-limitant",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MAT.transformations-physiques-chimiques-et-nucleaires",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MVT.loi-de-la-gravitation-universelle-et-poids",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MVT.modelisation-d-une-action-par-une-force-vecteur-force",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MVT.principe-d-inertie",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.MVT.vecteur-deplacement-et-vecteur-vitesse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.capteurs-electriques-et-etalonnage",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.lentille-mince-convergente-image-et-grandissement",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.lois-de-l-electricite-nuds-mailles-et-loi-d-ohm",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.lumiere-blanche-dispersion-et-spectres-d-emission",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.reflexion-et-refraction-lois-de-snell-descartes",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "PC.2NDE.ONDE.signal-sonore-periodique-periode-frequence-et-niveau-d-intensite-sonore",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.composition-de-l-univers-et-formation-des-elements",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.constitution-de-l-atome-noyau-et-electrons",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.dilution-et-evolution-du-ph",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.les-ions",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.reaction-entre-un-acide-et-un-metal",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MAT.tests-d-identification-de-quelques-ions",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MVT.forces-et-variation-de-la-vitesse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MVT.interaction-gravitationnelle",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.MVT.poids-et-pesanteur-sur-differents-astres",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.bilan-energetique-et-rendement-d-un-convertisseur",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.energie-cinetique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.energie-de-position-et-conversions-d-energie-mecanique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.energie-electrique-e-p-t",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.puissance-electrique-p-u-i",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.NRJ.securite-routiere-distance-d-arret",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "PC.3E.SIG.transmettre-une-information-par-un-signal-lumineux-ou-sonore",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.atomes-et-molecules",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.combustions",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.conservation-de-la-masse-lors-d-une-transformation-chimique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.equation-de-reaction-et-conservation-des-atomes",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.masse-volumique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.solutions-acides-basiques-et-neutres-le-ph",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MAT.transformation-chimique-reactifs-et-produits",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MVT.actions-mecaniques-de-contact-et-a-distance",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MVT.modeliser-une-action-mecanique-par-une-force",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.MVT.poids-et-masse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.NRJ.intensite-du-courant-electrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.NRJ.lois-d-additivite-des-tensions-et-des-intensites",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.NRJ.resistance-et-loi-d-ohm",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.NRJ.tension-electrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.SIG.frequence-d-un-son-sons-audibles-infrasons-et-ultrasons",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.SIG.vitesse-de-propagation-de-la-lumiere-et-annee-lumiere",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "PC.4E.SIG.vitesse-de-propagation-du-son",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.changements-d-etat-conservation-de-la-masse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.composition-de-l-air",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.les-trois-etats-de-la-matiere-et-le-modele-particulaire",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.melanges-homogenes-et-heterogenes-corps-purs",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.mesurer-une-masse-et-un-volume",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.separer-et-identifier-les-constituants-d-un-melange",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.solubilite-et-miscibilite",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MAT.temperature-de-changement-d-etat-d-un-corps-pur",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MVT.mouvement-uniforme-accelere-ou-ralenti",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MVT.referentiel-et-trajectoire",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.MVT.vitesse-moyenne",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.NRJ.circuit-en-serie-et-circuit-en-derivation",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.NRJ.conducteurs-et-isolants-electriques",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.NRJ.sources-formes-et-conversions-d-energie",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.SIG.emission-et-propagation-d-un-son",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.SIG.propagation-rectiligne-de-la-lumiere",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "PC.5E.SIG.sources-primaires-et-objets-diffusants",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.cinetique-chimique-vitesse-volumique-et-temps-de-demi-reaction",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.decroissance-radioactive",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.loi-de-vitesse-d-ordre-1",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.piles-fonctionnement-et-capacite-electrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.quotient-de-reaction-constante-d-equilibre-et-sens-d-evolution-spontanee",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.reactions-acide-base-ph-pka-et-diagrammes-de-predominance",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.synthese-organique-optimisation-et-strategie",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.titrages-ph-metrique-et-conductimetrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MAT.transformations-forcees-electrolyse",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.deuxieme-loi-de-newton",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.ecoulement-d-un-fluide-debit-et-relation-de-bernoulli",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.mouvement-dans-un-champ-uniforme",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.mouvement-des-satellites-et-des-planetes-lois-de-kepler",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.MVT.vecteurs-vitesse-et-acceleration",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.NRJ.dipole-rc-charge-et-decharge-d-un-condensateur",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.NRJ.premier-principe-de-la-thermodynamique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.NRJ.transferts-thermiques-et-loi-phenomenologique-de-newton",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.diffraction-et-interferences",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.effet-doppler",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.effet-photoelectrique",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.intensite-sonore-et-niveau-d-intensite-sonore",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "PC.TLE.ONDE.lunette-astronomique-afocale",
+      "severity": "INFO",
+      "subject": "PHYSIQUE_CHIMIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.decrire-un-mouvement-trajectoire-et-vitesse",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.formes-et-conversions-d-energie",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.le-circuit-electrique-simple",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.les-changements-d-etat-de-l-eau",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.les-etats-solide-liquide-et-gazeux-de-la-matiere",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.masse-et-volume-mesure-et-unites",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.melanges-dissolution-et-miscibilite",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.separer-les-constituants-d-un-melange",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.signal-et-information",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.MME.sources-d-energie-renouvelables-et-non-renouvelables",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.algorithme-et-programmation-d-un-objet-simple",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.besoin-fonction-d-usage-et-fonction-technique-d-un-objet",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.chaine-d-energie-et-chaine-d-information-d-un-objet-technique",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.evolution-des-objets-techniques",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TEC.familles-de-materiaux-et-leurs-proprietes",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TER.impact-des-activites-humaines-sur-l-environnement",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TER.la-terre-dans-le-systeme-solaire-mouvements-et-saisons",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TER.peuplement-d-un-milieu-et-conditions-de-vie",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.TER.phenomenes-geologiques-et-meteorologiques-risques-naturels",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.besoins-alimentaires-et-origine-des-aliments",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.besoins-des-vegetaux-chlorophylliens-et-production-de-matiere",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.classer-les-etres-vivants-en-groupes-emboites",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.developpement-et-reproduction-des-etres-vivants",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.la-cellule-unite-du-vivant",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C3-2020",
+      "level": "6E",
+      "object_id": "ST.6E.VIV.transformation-et-conservation-des-aliments",
+      "severity": "INFO",
+      "subject": "SCIENCES_TECHNOLOGIE"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.alterations-du-genome-et-cancerisation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.immunite-adaptative-lymphocytes-b-et-t",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.immunite-innee-et-reaction-inflammatoire",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.memoire-immunitaire-vaccination-et-immunotherapies",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.CHS.patrimoine-genetique-et-maladies-l-exemple-de-la-mucoviscidose",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.EPC.dynamique-des-ecosystemes-et-interactions",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.EPC.services-ecosystemiques-et-gestion",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.cycle-cellulaire-et-mitose",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.divergence-et-formation-de-la-lithosphere-oceanique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.expression-genetique-transcription-et-traduction",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.mutations-de-l-adn-et-systemes-de-reparation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.phenotypes-aux-differentes-echelles-et-environnement",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.replication-semi-conservative-de-l-adn",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.structure-du-globe-croutes-manteau-et-lithosphere",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-1RE-2019",
+      "level": "1RE",
+      "object_id": "SVT.1RE.TVO.subduction-et-magmatisme-associe",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.agents-pathogenes-et-maladies-vectorielles",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.differenciation-de-l-appareil-genital",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.hormones-et-procreation-humaine",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.le-microbiote-humain-et-la-sante",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.CHS.sexualite-et-bases-biologiques-du-plaisir",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.EPC.agrosystemes-et-developpement-durable",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.EPC.erosion-processus-et-consequences",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.EPC.les-sols-un-patrimoine-durable",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.biodiversite-resultat-et-etape-de-l-evolution-notion-d-espece",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.l-adn-molecule-universelle-structure-et-composition",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.l-organisme-pluricellulaire-cellules-specialisees-tissus-et-organes",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.la-cellule-unite-structurale-et-fonctionnelle",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.les-echelles-de-la-biodiversite",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.mecanismes-de-l-evolution-selection-naturelle-et-derive-genetique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-2NDE-2019",
+      "level": "2NDE",
+      "object_id": "SVT.2NDE.TVO.metabolisme-cellulaire-et-enzymes",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.antiseptiques-antibiotiques-et-resistance-bacterienne",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.micro-organismes-et-contamination",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.reaction-immunitaire-rapide-et-phagocytose",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.reactions-immunitaires-adaptatives-lymphocytes-et-anticorps",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.CORPS.vaccination-et-memoire-immunitaire",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.TER.changement-climatique-actuel-et-effet-de-serre",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.TER.gestion-durable-des-ecosystemes-et-de-la-biodiversite",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.TER.ressources-energetiques-fossiles-et-renouvelables",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.chromosomes-genes-et-alleles",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.division-cellulaire-et-conservation-de-l-information-genetique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.evolution-des-especes-et-selection-naturelle",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.l-adn-support-de-l-information-genetique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.mutations-et-diversite-des-alleles",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.parentes-entre-especes-et-arbres-phylogenetiques",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "3E",
+      "object_id": "SVT.3E.VIV.reproduction-sexuee-et-diversite-genetique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.commande-nerveuse-du-mouvement",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.fecondation-grossesse-et-maitrise-de-la-procreation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.infections-sexuellement-transmissibles-et-prevention",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.perturbations-du-systeme-nerveux-sommeil-substances-et-ecrans",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.puberte-et-fonctionnement-des-appareils-reproducteurs",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.CORPS.systeme-nerveux-messages-nerveux-et-centres-nerveux",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.risques-naturels-alea-enjeux-vulnerabilite-et-prevention",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.seismes-origine-et-manifestations",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.structure-interne-du-globe-terrestre",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.tectonique-des-plaques-et-mouvements-des-plaques",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.TER.volcanisme-effusif-et-explosif",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.VIV.dynamique-des-populations-et-facteurs-du-milieu",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.VIV.interactions-entre-especes-symbiose-parasitisme-competition",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "4E",
+      "object_id": "SVT.4E.VIV.reseaux-trophiques-et-flux-de-matiere-dans-un-ecosysteme",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.alimentation-equilibree-et-sante",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.circulation-sanguine-et-approvisionnement-des-organes",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.digestion-et-absorption-des-nutriments",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.effort-physique-et-adaptations-de-l-organisme",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.CORPS.role-des-micro-organismes-dans-la-digestion",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.distinguer-meteorologie-et-climat",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.ecosysteme-et-influence-de-l-action-humaine",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.erosion-transport-et-sedimentation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.exploitation-des-ressources-naturelles-par-l-etre-humain",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.TER.formation-des-roches-sedimentaires",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.besoins-nutritifs-des-vegetaux-chlorophylliens",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.biodiversite-et-classification-du-vivant",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.la-cellule-unite-du-vivant",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.reproduction-sexuee-et-asexuee-des-etres-vivants",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-C4-2020",
+      "level": "5E",
+      "object_id": "SVT.5E.VIV.respiration-et-echanges-gazeux-chez-les-animaux",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.cerveau-et-mouvement-volontaire-plasticite-cerebrale",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.contraction-musculaire-et-apport-d-energie",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.le-stress-reponse-adaptative-et-stress-chronique",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.reflexe-myotatique-et-circuit-neuronal",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.CHS.regulation-de-la-glycemie",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.EPC.changement-climatique-actuel-et-scenarios",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.EPC.reconstituer-et-comprendre-les-variations-climatiques-passees",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.brassages-genetiques-lies-a-la-meiose-et-a-la-fecondation",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.collision-continentale-et-histoire-des-chaines-de-montagnes",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.datation-relative-et-datation-absolue",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.diversification-des-genomes-et-transferts-horizontaux",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.domestication-des-plantes-et-selection-par-l-etre-humain",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.frequences-alleliques-et-modele-de-hardy-weinberg",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.organisation-fonctionnelle-des-plantes-a-fleurs",
+      "severity": "INFO",
+      "subject": "SVT"
+    },
+    {
+      "code": "SOURCE_NOT_RETRIEVED",
+      "detail": "SRC-TLE-2019",
+      "level": "TLE",
+      "object_id": "SVT.TLE.TVO.reproduction-des-plantes-a-fleurs-et-coevolution-avec-les-pollinisateurs",
+      "severity": "INFO",
+      "subject": "SVT"
+    }
+  ],
+  "not_checked": [
+    "Aucune source officielle récupérée (toutes EXPECTED) : aucune provenance officielle n'a pu être vérifiée, ni la conformité des notions, niveaux et libellés aux programmes.",
+    "Aucune notion PROVEN_OFFICIAL : la banque d'exercices/quiz ne peut pas être alimentée (bank_ready=false).",
+    "Aucun exercice dans la banque : contrôles d'exercices non exercés.",
+    "Aucune question de quiz dans la banque : contrôles de quiz non exercés.",
+    "Adéquation au niveau (TOO_ADVANCED / TOO_SIMPLE) : heuristique lexicale, revue humaine requise ; l'exactitude scientifique des contenus n'est vérifiée que par les validateurs automatiques disponibles."
+  ],
+  "schema_version": "1.0",
+  "totals": {
+    "blockers": 0,
+    "errors": 0,
+    "exercises": 0,
+    "infos": 809,
+    "issues": 809,
+    "load_errors": 0,
+    "notion_files": 24,
+    "notions": {
+      "by_level": {
+        "1RE": 66,
+        "2NDE": 57,
+        "3E": 48,
+        "4E": 49,
+        "5E": 52,
+        "6E": 48,
+        "TLE": 84
+      },
+      "by_proof_status": {
+        "UNPROVEN": 404
+      },
+      "by_publication_status": {
+        "DRAFT": 404
+      },
+      "by_subject": {
+        "ENSEIGNEMENT_SCIENTIFIQUE": 28,
+        "MATHS": 150,
+        "PHYSIQUE_CHIMIE": 112,
+        "SCIENCES_TECHNOLOGIE": 25,
+        "SVT": 89
+      },
+      "total": 404
+    },
+    "quizzes": 0,
+    "sources": {
+      "by_retrieval": {
+        "EXPECTED": 7
+      },
+      "retrieved": [],
+      "total": 7
+    },
+    "warnings": 0
+  },
+  "verdict": "PASS"
+}
