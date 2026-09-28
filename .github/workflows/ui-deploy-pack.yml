@@ -1,0 +1,29 @@
+name: MikaMike frontend deploy pack
+
+on:
+  push:
+    branches: ["ui/mikamike-react-illustrated-v2-clean-20260927"]
+    paths:
+      - "ops/deploy_frontend_micro_pwa.sh"
+      - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
+      - ".github/workflows/ui-deploy-pack.yml"
+  pull_request:
+    paths:
+      - "ops/deploy_frontend_micro_pwa.sh"
+      - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Syntaxe Bash
+        run: bash -n ops/deploy_frontend_micro_pwa.sh
+      - name: Garde-fous de portée
+        run: |
+          grep -F '/home/mike/mikamike/app/frontend' ops/deploy_frontend_micro_pwa.sh
+          grep -F -- '--expected-index-sha' ops/deploy_frontend_micro_pwa.sh
+          grep -F 'ROLLBACK.sh' ops/deploy_frontend_micro_pwa.sh
+          grep -F 'parent.html' ops/deploy_frontend_micro_pwa.sh
+          grep -F '.well-known' ops/deploy_frontend_micro_pwa.sh
+          ! grep -E 'docker compose|systemctl|caddy reload|psql|DELETE FROM|DROP TABLE' ops/deploy_frontend_micro_pwa.sh
