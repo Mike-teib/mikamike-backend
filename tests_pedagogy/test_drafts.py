@@ -5,7 +5,7 @@ import shutil
 
 import pytest
 
-from pedagogy.drafts import DRAFTS_DIR, approve, check
+from pedagogy.drafts import DRAFTS_DIR, _permute_quiz_for_bank, approve, check
 from pedagogy.registry import DATA_DIR, load_registry
 
 EX = DRAFTS_DIR / "exercises" / "_EXEMPLE_MATHS_CE1.json"
@@ -84,3 +84,40 @@ def test_approve_is_explicit_and_moves_to_bank(tmp_path):
     notions = json.loads((data / "notions" / "MATHS" / "CE1.json").read_text(encoding="utf-8"))["notions"]
     n = next(x for x in notions if x["notion_id"] == ex["notion_id"])
     assert n["review_status"] == "APPROVED" and "Mike" in n["provenance_note"]
+
+
+def test_quiz_approval_permutes_choices_without_breaking_key(tmp_path):
+    data = tmp_path / "data"
+    shutil.copytree(DATA_DIR / "notions" / "MATHS", data / "notions" / "MATHS")
+    (data / "drafts" / "exercises").mkdir(parents=True)
+    (data / "drafts" / "quizzes").mkdir(parents=True)
+    shutil.copy(QZ, data / "drafts" / "quizzes" / QZ.name)
+    q = json.loads(QZ.read_text(encoding="utf-8"))["quizzes"][0]
+
+    done = approve("Mike", [q["notion_id"]], [q["quiz_id"]], data)
+    assert done == {"notions": 1, "exercises": 0, "quizzes": 1}
+
+    bank = json.loads((data / "bank" / "quizzes" / QZ.name).read_text(encoding="utf-8"))["quizzes"][0]
+    assert set(bank["choices"]) == set(q["choices"])
+    assert bank["choices"][bank["correct_answer"]] == q["reference_answer"]
+    assert str(bank["correct_answer"]) not in bank.get("distractor_rationale", {})
+    assert bank["qa_status"] == "HUMAN_APPROVED"
+    assert bank["publication_status"] == "APPROVED"
+
+
+def test_quiz_permutation_is_deterministic_and_not_fixed_to_one_position():
+    positions = set()
+    for i in range(20):
+        obj = {
+            "quiz_id": f"QZ.TEST.demo.q{i:02d}",
+            "choices": ["bonne", "d1", "d2", "d3"],
+            "correct_answer": 0,
+            "distractor_rationale": {"1": "d1", "2": "d2", "3": "d3"},
+            "common_error_target": {},
+        }
+        first = _permute_quiz_for_bank(obj)
+        second = _permute_quiz_for_bank(obj)
+        assert first == second
+        assert first["choices"][first["correct_answer"]] == "bonne"
+        positions.add(first["correct_answer"])
+    assert len(positions) >= 3
