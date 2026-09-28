@@ -36,7 +36,9 @@ jobs:
           assert data.get("ok") is True, data
           assert data.get("eleve"), data
           assert isinstance(data.get("matieres"),list), data
-          print("PASS /api/login Test26Mika")
+          assert {"maths","physique","chimie"}.issubset(set(data.get("matieres") or [])), data
+          assert isinstance(data.get("token"),str) and data.get("token").strip(), "token absent"
+          print("PASS /api/login Test26Mika + token")
           print("niveau=",data.get("niveau"))
           print("matieres=",",".join(data.get("matieres") or []))
           print("upload=",bool(data.get("upload")))
