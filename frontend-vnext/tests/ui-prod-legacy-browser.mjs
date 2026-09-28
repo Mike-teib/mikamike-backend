@@ -21,6 +21,7 @@ await page.route("**/api/**", async route => {
   }
   if(url.pathname==="/api/chat"){
     assert.equal(req.method(),"POST");
+    assert.equal(req.headers()["authorization"],"Bearer legacy-token");
     assert.equal(body.code,"Test26Mika");
     assert.equal(body.matiere,"physique");
     assert.ok(Array.isArray(body.messages));
@@ -46,13 +47,13 @@ assert.match(await page.locator("#studentName").innerText(),/Test/);
 
 const subjectsPanel=page.locator("#panel-subjects");
 const maths=subjectsPanel.locator('.subject-card[data-subject="Mathématiques"]');
-const physics=subjectsPanel.locator('.subject-card[data-subject="Physique-chimie"]');
+const physics=subjectsPanel.locator('.subject-card[data-subject="Physique"]');
 const svt=subjectsPanel.locator('.subject-card[data-subject="SVT"]');
-const science=subjectsPanel.locator('.subject-card[data-subject="Sciences"]');
+const chemistry=subjectsPanel.locator('.subject-card[data-subject="Chimie"]');
 assert.equal(await maths.isEnabled(),true);
 assert.equal(await physics.isEnabled(),true);
 assert.equal(await svt.isDisabled(),true);
-assert.equal(await science.isDisabled(),true);
+assert.equal(await chemistry.isDisabled(),true);
 
 await page.locator('button[data-panel="subjects"]').click();
 await physics.click();
