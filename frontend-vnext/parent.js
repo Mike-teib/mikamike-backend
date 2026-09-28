@@ -11,6 +11,7 @@
   const email = $("#parentEmail");
   const password = $("#parentPassword");
   const studentCode = $("#parentStudentCode");
+  const studentLevel = $("#parentStudentLevel");
   const errorBox = $("#parentLoginError");
 
   function showError(message) {
@@ -63,6 +64,10 @@
     $("#parentLevel").textContent = stats.niveau_actuel || "À déterminer";
   }
 
+  const rememberedStudent = sessionStorage.getItem("mikamike_student_id") || "";
+  const rememberedLevel = sessionStorage.getItem("mikamike_student_level") || "5e";
+  if (rememberedStudent) studentCode.value = rememberedStudent;
+  if (studentLevel) studentLevel.value = rememberedLevel;
   if (state.accountToken && fields) {
     fields.hidden = true;
   }
@@ -78,6 +83,8 @@
     try {
       if (!state.accountToken) await loginAccount();
       const dashboard = await request(`/parents/dashboard/${encodeURIComponent(code)}`, {}, state.accountToken);
+      sessionStorage.setItem("mikamike_student_id", code);
+      sessionStorage.setItem("mikamike_student_level", studentLevel?.value || "5e");
       renderDashboard(dashboard);
       if (fields) fields.hidden = true;
     } catch (error) {
