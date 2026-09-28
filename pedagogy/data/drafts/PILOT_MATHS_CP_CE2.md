@@ -38,7 +38,7 @@ Pour chaque niveau, on a pris une notion de numération, une notion d'opération
 
 ## Points d'attention pour la relecture
 
-- **Nombres à 4 chiffres (CE2)** : le vérificateur `MATH_EXPR` refuse une réponse écrite avec une espace (« 4 635 »). Les réponses de 4 chiffres sont donc en `EXACT_TEXT` et acceptent deux formes, `["4635", "4 635"]`. Les réponses plus courtes restent en `MATH_EXPR`.
-- **Euros** : l'unité « € » est inconnue du vérificateur de grandeurs. Les réponses en euros sont donc des entiers `MATH_EXPR`, et l'énoncé demande « combien d'euros ».
+- **Nombres à 4 chiffres (CE2)** : le vérificateur accepte désormais les espaces de milliers (« 4 635 » ≡ « 4635 »). Les anciens contournements `EXACT_TEXT` restent compatibles mais ne sont plus nécessaires pour les nouveaux items.
+- **Euros** : l'unité « € » / « euro(s) » est désormais reconnue. Les anciens items numériques restent valides ; les nouveaux peuvent utiliser `QUANTITY` avec unité monétaire.
 - **Problèmes à reste (CE1)** : `multiplicatifs.x01`, `x02`, `x03` et les quiz `q09` et `q10` reprennent les exemples du programme (« combien de boîtes pleines », « combien de pages faut-il »). Le relecteur doit vérifier que la consigne est claire pour l'élève.
 - Les contrôles `TOO_SIMILAR`, `DUPLICATE_TEMPLATE` et `TOO_ADVANCED` du module `pedagogy.qa` ont aussi été lancés sur ces fichiers : aucune alerte.
