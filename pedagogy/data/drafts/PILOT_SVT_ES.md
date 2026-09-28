@@ -104,8 +104,9 @@ Ces notions voisines sont `PROVEN_OFFICIAL` et restent dans le programme.
 | ES TLE | 10 | 11 | 3 | 4 | 3 | 19 | 4 |
 
 Toutes les questions de quiz sont en `EXACT_TEXT`, avec une seule réponse de référence. Le vérificateur contrôle
-qu'aucun distracteur n'est équivalent à cette référence. Les unités non reconnues par le vérificateur (jours,
-années, dB, ppm) sont demandées sous forme de nombre seul (`MATH_EXPR`), avec l'unité précisée dans l'énoncé.
+qu'aucun distracteur n'est équivalent à cette référence. Les unités `jour(s)` et `an(s)` sont désormais reconnues.
+Les unités encore hors du parseur courant, notamment `dB` et `ppm`, restent demandées sous forme de nombre seul
+(`MATH_EXPR`), avec l'unité précisée dans l'énoncé.
 
 ## Validation automatique
 
