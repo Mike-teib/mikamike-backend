@@ -12,6 +12,7 @@
     installPrompt: null,
     recognition: null,
     voiceBaseText: "",
+    microphoneReady: false,
   };
 
   const $ = (selector) => document.querySelector(selector);
@@ -29,7 +30,12 @@
   const chatSubmit = $("#chatSubmit");
   const micButton = $("#micButton");
   const voiceStatus = $("#voiceStatus");
+  const micCheckButton = $("#micCheckButton");
+  const microCheckStatus = $("#microCheckStatus");
   const installButton = $("#installButton");
+  const installDialog = $("#installDialog");
+  const installDialogText = $("#installDialogText");
+  const installDialogClose = $("#installDialogClose");
 
   function setNetworkStatus() {
     const online = navigator.onLine;
@@ -217,12 +223,72 @@
     setComposerEnabled(true, voiceCapabilityText());
   }
 
+  function setMicroCheckState(kind, message) {
+    state.microphoneReady = kind === "ready";
+    if (micCheckButton) {
+      micCheckButton.classList.toggle("micro-ready", kind === "ready");
+      micCheckButton.classList.toggle("micro-error", kind === "error");
+      micCheckButton.textContent = kind === "checking"
+        ? "🎙️ Vérification…"
+        : kind === "ready"
+          ? "🎙️ Micro prêt"
+          : kind === "error"
+            ? "🎙️ Micro à autoriser"
+            : "🎙️ Vérifier le micro";
+      micCheckButton.disabled = kind === "checking";
+    }
+    if (microCheckStatus) microCheckStatus.textContent = message;
+    if (voiceStatus && message) voiceStatus.textContent = message;
+  }
+
   function voiceCapabilityText() {
-    if (window.MikaNativeSpeech?.available) return "Micro natif disponible.";
+    if (window.MikaNativeSpeech?.available) return state.microphoneReady
+      ? "Micro natif prêt. Appuie sur « Dicter » puis parle normalement."
+      : "Micro natif disponible. Tu peux le vérifier puis utiliser « Dicter ».";
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    return SpeechRecognition
-      ? "Micro disponible. Appuie sur « Dicter » puis parle normalement."
-      : "La dictée vocale n’est pas prise en charge par ce navigateur. L’app Android/iOS utilisera le micro natif.";
+    if (!SpeechRecognition) return "La dictée vocale n’est pas prise en charge par ce navigateur. L’app Android/iOS utilisera le micro natif.";
+    return state.microphoneReady
+      ? "Micro prêt. Appuie sur « Dicter » puis parle normalement."
+      : "Micro disponible. Appuie sur « Dicter » : MikaMike demandera l’autorisation si nécessaire.";
+  }
+
+  async function prepareMicrophone({ quiet = false } = {}) {
+    if (window.MikaNativeSpeech?.available) {
+      if (!quiet) setMicroCheckState("checking", "Vérification du micro natif…");
+      try {
+        if (window.MikaNativeSpeech.prepare) await window.MikaNativeSpeech.prepare();
+        setMicroCheckState("ready", "Micro natif autorisé et prêt.");
+        return true;
+      } catch (error) {
+        setMicroCheckState("error", error?.message || "Autorisation micro refusée.");
+        return false;
+      }
+    }
+
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!Recognition) {
+      setMicroCheckState("error", "La dictée vocale n’est pas prise en charge par ce navigateur.");
+      return false;
+    }
+
+    if (!navigator.mediaDevices?.getUserMedia) {
+      setMicroCheckState("ready", "Dictée vocale disponible. Le navigateur demandera le micro au démarrage.");
+      return true;
+    }
+
+    if (!quiet) setMicroCheckState("checking", "Autorise le micro dans la fenêtre du navigateur.");
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      stream.getTracks().forEach((track) => track.stop());
+      setMicroCheckState("ready", "Micro autorisé et prêt. Aucun son n’est conservé.");
+      return true;
+    } catch (error) {
+      const denied = error?.name === "NotAllowedError" || error?.name === "PermissionDeniedError";
+      setMicroCheckState("error", denied
+        ? "Accès au micro refusé. Autorise le micro dans les réglages du navigateur puis réessaie."
+        : "Aucun micro utilisable n’a été détecté.");
+      return false;
+    }
   }
 
   function setListening(listening, message) {
@@ -307,8 +373,15 @@
 
   async function toggleVoice() {
     if (state.listening) return stopVoice();
+    const ready = state.microphoneReady || await prepareMicrophone({ quiet: true });
+    if (!ready) return;
     if (window.MikaNativeSpeech?.available) return startNativeVoice();
     return startWebVoice();
+  }
+
+  function showInstallGuide(message) {
+    if (installDialogText) installDialogText.textContent = message;
+    if (installDialog?.showModal) installDialog.showModal();
   }
 
   function setupInstall() {
@@ -316,14 +389,14 @@
     const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true || window.MIKAMIKE_NATIVE;
     if (standalone) return;
 
+    installButton.hidden = false;
+
     window.addEventListener("beforeinstallprompt", (event) => {
       event.preventDefault();
       state.installPrompt = event;
-      installButton.hidden = false;
     });
 
     const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
-    if (isIos) installButton.hidden = false;
 
     installButton.addEventListener("click", async () => {
       if (state.installPrompt) {
@@ -333,13 +406,20 @@
         if (choice?.outcome === "accepted") installButton.hidden = true;
         return;
       }
-      if (isIos) alert("Sur iPhone/iPad : ouvre le menu Partager puis choisis « Sur l’écran d’accueil ».");
-      else alert("Utilise le menu du navigateur puis « Installer MikaMike » ou « Ajouter à l’écran d’accueil ».");
+      showInstallGuide(isIos
+        ? "Sur iPhone ou iPad : touche Partager, puis « Sur l’écran d’accueil », puis confirme « Ajouter »."
+        : "Dans le menu de ton navigateur, choisis « Installer MikaMike » ou « Ajouter à l’écran d’accueil ». Sur PC, Chrome et Edge proposent aussi l’installation dans la barre d’adresse.");
+    });
+
+    installDialogClose?.addEventListener("click", () => installDialog?.close?.());
+    installDialog?.addEventListener("click", (event) => {
+      if (event.target === installDialog) installDialog.close();
     });
 
     window.addEventListener("appinstalled", () => {
       installButton.hidden = true;
       state.installPrompt = null;
+      installDialog?.close?.();
     });
   }
 
@@ -367,6 +447,7 @@
   });
 
   logoutButton?.addEventListener("click", closeDashboard);
+  micCheckButton?.addEventListener("click", () => prepareMicrophone());
   micButton?.addEventListener("click", toggleVoice);
   $$(".nav-card").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.panel)));
   $$("[data-go]").forEach((button) => button.addEventListener("click", () => switchPanel(button.dataset.go)));

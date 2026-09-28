@@ -26,10 +26,24 @@
       </a>
       <div class="top-actions">
         <span class="status-chip" id="networkStatus">En ligne</span>
+        <button id="micCheckButton" class="ghost-button voice-check-button" type="button"
+                aria-describedby="microCheckStatus">🎙️ Vérifier le micro</button>
         <button id="installButton" class="ghost-button install-button" type="button" hidden>Installer l’app</button>
         <a class="ghost-button" href="./parent.html">Espace parent</a>
       </div>
     </header>
+
+    <p id="microCheckStatus" class="sr-only" aria-live="polite">Le micro n’a pas encore été vérifié.</p>
+
+    <dialog id="installDialog" class="install-dialog" aria-labelledby="installDialogTitle">
+      <div class="install-dialog-card">
+        <button id="installDialogClose" class="dialog-close" type="button" aria-label="Fermer">×</button>
+        <span class="eyebrow">INSTALLER MIKAMIKE</span>
+        <h2 id="installDialogTitle">MikaMike sur ton appareil</h2>
+        <p id="installDialogText">Utilise la fonction d’installation de ton navigateur.</p>
+        <p class="privacy-note">L’installation garde la même connexion sécurisée et le même professeur MikaMike.</p>
+      </div>
+    </dialog>
 
     <main id="main">
       <section id="loginView" class="login-layout" aria-labelledby="loginTitle">
