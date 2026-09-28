@@ -6,6 +6,7 @@ on:
     paths:
       - "ops/deploy_frontend_micro_pwa.sh"
       - "ops/README_FRONTEND_MICRO_PWA_DEPLOY.md"
+      - "ops/deploy_frontend_micro_pwa_windows.ps1"
       - ".github/workflows/ui-deploy-pack.yml"
   pull_request:
     paths:
@@ -27,3 +28,8 @@ jobs:
           grep -F 'parent.html' ops/deploy_frontend_micro_pwa.sh
           grep -F '.well-known' ops/deploy_frontend_micro_pwa.sh
           ! grep -E 'docker compose|systemctl|caddy reload|psql|DELETE FROM|DROP TABLE' ops/deploy_frontend_micro_pwa.sh
+      - name: Syntaxe PowerShell du lanceur Windows
+        shell: pwsh
+        run: |
+          [scriptblock]::Create((Get-Content -Raw "ops/deploy_frontend_micro_pwa_windows.ps1")) | Out-Null
+          Select-String -Path "ops/deploy_frontend_micro_pwa_windows.ps1" -SimpleMatch "79.137.79.200", "2222", "--expected-index-sha", "BatchMode=yes"
