@@ -154,8 +154,8 @@ parcours_router = APIRouter(prefix="/parcours", tags=["mika-parcours"])
 @parcours_router.get("/prochaine-etape", response_model=ProchaineEtapeOut)
 def prochaine_etape(
     student_id: str = Query(max_length=128, pattern=ID_PATTERN),
-    level: Optional[str] = Query(default=None, max_length=32),
-    subject: Optional[str] = Query(default=None, max_length=32),
+    level: str | None = Query(default=None, max_length=32),
+    subject: str | None = Query(default=None, max_length=32),
     db: Session = Depends(get_db), g: Garde = Depends(_garde)):
     g.exiger(student_id, Action.APPRENTISSAGE)
     eleve_hmac = _hmac(student_id)
