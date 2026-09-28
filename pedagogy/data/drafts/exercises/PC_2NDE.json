@@ -1,0 +1,2151 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.d01",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un échantillon contient N = 1,2 × 10^24 molécules d'eau. Calculer sa quantité de matière n. Donnée : NA = 6,02 × 10^23 mol⁻¹.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,0",
+        "unit": "mol"
+      },
+      "solution": "n = N / NA. n = 1,2 × 10^24 ÷ 6,02 × 10^23 ≈ 2,0 mol.",
+      "step_by_step_solution": [
+        "n = N / NA.",
+        "n = 1,2 × 10^24 ÷ 6,02 × 10^23 ≈ 2,0 mol."
+      ],
+      "hints": [
+        "Divise le nombre d'entités par la constante d'Avogadro."
+      ],
+      "common_errors": {
+        "7,2 × 10^47 mol": "L'élève a multiplié N par NA au lieu de diviser."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.d02",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Quelle quantité de matière représentent 3,01 × 10^23 atomes de fer ? Donnée : NA = 6,02 × 10^23 mol⁻¹.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,5",
+        "unit": "mol"
+      },
+      "solution": "n = N / NA. n = 3,01 × 10^23 ÷ 6,02 × 10^23 = 0,5 mol.",
+      "step_by_step_solution": [
+        "n = N / NA.",
+        "n = 3,01 × 10^23 ÷ 6,02 × 10^23 = 0,5 mol."
+      ],
+      "hints": [
+        "Compare 3,01 et 6,02."
+      ],
+      "common_errors": {
+        "2 mol": "L'élève a calculé NA / N.",
+        "1,81 × 10^47 mol": "L'élève a multiplié N par NA."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.d03",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Que représente une mole d'entités chimiques ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La mole est l'unité de quantité de matière. Une mole contient NA ≈ 6,02 × 10^23 entités : Un paquet de 6,02 × 10^23 entités",
+      "step_by_step_solution": [
+        "La mole est l'unité de quantité de matière.",
+        "Une mole contient NA ≈ 6,02 × 10^23 entités : Un paquet de 6,02 × 10^23 entités"
+      ],
+      "hints": [
+        "Pense à une « douzaine » : c'est aussi un paquet d'objets."
+      ],
+      "common_errors": {
+        "1": "Confusion entre quantité de matière et masse.",
+        "2": "La valeur de NA est bien plus grande.",
+        "3": "La mole ne mesure pas un volume."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "choices": [
+        "Un paquet de 6,02 × 10^23 entités",
+        "La masse d'une entité",
+        "Un paquet de 1 000 entités",
+        "Le volume d'une entité"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.d04",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Combien de molécules contient un échantillon de 2,0 mol de dioxygène ? Donnée : NA = 6,02 × 10^23 mol⁻¹.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,2 × 10^24"
+      },
+      "solution": "N = n × NA. N = 2,0 × 6,02 × 10^23 ≈ 1,2 × 10^24 molécules.",
+      "step_by_step_solution": [
+        "N = n × NA.",
+        "N = 2,0 × 6,02 × 10^23 ≈ 1,2 × 10^24 molécules."
+      ],
+      "hints": [
+        "Isole N dans n = N / NA."
+      ],
+      "common_errors": {
+        "3,3 × 10^-24": "L'élève a divisé n par NA."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.d05",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la masse d'une molécule d'eau H2O. Données : m(H) = 1,67 × 10^-27 kg ; m(O) = 2,66 × 10^-26 kg.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,99 × 10^-26",
+        "unit": "kg"
+      },
+      "solution": "Une molécule d'eau contient 2 atomes d'hydrogène et 1 atome d'oxygène. m(H2O) = 2 × 1,67 × 10^-27 + 2,66 × 10^-26 = 2,99 × 10^-26 kg.",
+      "step_by_step_solution": [
+        "Une molécule d'eau contient 2 atomes d'hydrogène et 1 atome d'oxygène.",
+        "m(H2O) = 2 × 1,67 × 10^-27 + 2,66 × 10^-26 = 2,99 × 10^-26 kg."
+      ],
+      "hints": [
+        "Combien d'atomes de chaque sorte contient la molécule ?",
+        "Écris les deux masses avec la même puissance de 10."
+      ],
+      "common_errors": {
+        "2,83 × 10^-26 kg": "L'élève n'a compté qu'un atome d'hydrogène."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.a01",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un clou en fer a une masse de 5,6 g. La masse d'un atome de fer vaut 9,27 × 10^-26 kg. Combien d'atomes de fer contient le clou ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "6,0 × 10^22"
+      },
+      "solution": "On convertit : m = 5,6 g = 5,6 × 10^-3 kg. N = m / m(Fe) = 5,6 × 10^-3 ÷ 9,27 × 10^-26 ≈ 6,0 × 10^22 atomes.",
+      "step_by_step_solution": [
+        "On convertit : m = 5,6 g = 5,6 × 10^-3 kg.",
+        "N = m / m(Fe) = 5,6 × 10^-3 ÷ 9,27 × 10^-26 ≈ 6,0 × 10^22 atomes."
+      ],
+      "hints": [
+        "Exprime les deux masses dans la même unité.",
+        "N = m / m(entité)."
+      ],
+      "common_errors": {
+        "6,0 × 10^25": "L'élève n'a pas converti les grammes en kilogrammes."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.a02",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une goutte d'eau contient environ 1,7 × 10^21 molécules. Quelle quantité de matière d'eau contient-elle ? Donnée : NA = 6,02 × 10^23 mol⁻¹.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,0028",
+        "unit": "mol"
+      },
+      "solution": "n = N / NA. n = 1,7 × 10^21 ÷ 6,02 × 10^23 ≈ 0,0028 mol.",
+      "step_by_step_solution": [
+        "n = N / NA.",
+        "n = 1,7 × 10^21 ÷ 6,02 × 10^23 ≈ 0,0028 mol."
+      ],
+      "hints": [
+        "Soustrais les exposants des puissances de 10."
+      ],
+      "common_errors": {
+        "1,0 × 10^45 mol": "L'élève a multiplié N par NA."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.a03",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la masse d'une molécule de dioxyde de carbone CO2. Données : m(C) = 1,99 × 10^-26 kg ; m(O) = 2,66 × 10^-26 kg.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "7,31 × 10^-26",
+        "unit": "kg"
+      },
+      "solution": "La molécule contient 1 atome C et 2 atomes O. m(CO2) = 1,99 × 10^-26 + 2 × 2,66 × 10^-26 = 7,31 × 10^-26 kg.",
+      "step_by_step_solution": [
+        "La molécule contient 1 atome C et 2 atomes O.",
+        "m(CO2) = 1,99 × 10^-26 + 2 × 2,66 × 10^-26 = 7,31 × 10^-26 kg."
+      ],
+      "hints": [
+        "Que signifie l'indice 2 dans CO2 ?"
+      ],
+      "common_errors": {
+        "4,65 × 10^-26 kg": "L'élève n'a compté qu'un atome d'oxygène."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.a04",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la masse d'une molécule de méthane CH4. Données : m(C) = 1,99 × 10^-26 kg ; m(H) = 1,67 × 10^-27 kg.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,66 × 10^-26",
+        "unit": "kg"
+      },
+      "solution": "La molécule contient 1 atome C et 4 atomes H. m(CH4) = 1,99 × 10^-26 + 4 × 1,67 × 10^-27 = 2,66 × 10^-26 kg.",
+      "step_by_step_solution": [
+        "La molécule contient 1 atome C et 4 atomes H.",
+        "m(CH4) = 1,99 × 10^-26 + 4 × 1,67 × 10^-27 = 2,66 × 10^-26 kg."
+      ],
+      "hints": [
+        "Attention aux puissances de 10 différentes."
+      ],
+      "common_errors": {
+        "2,16 × 10^-26 kg": "L'élève n'a compté qu'un atome d'hydrogène."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.a05",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Pourquoi les chimistes utilisent-ils la mole pour compter les entités ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Un échantillon à notre échelle contient un nombre gigantesque d'entités (de l'ordre de 10^23). La bonne réponse est : « Les échantillons usuels contiennent un nombre gigantesque d'entités. »",
+      "step_by_step_solution": [
+        "Un échantillon à notre échelle contient un nombre gigantesque d'entités (de l'ordre de 10^23).",
+        "La bonne réponse est : « Les échantillons usuels contiennent un nombre gigantesque d'entités. »"
+      ],
+      "hints": [
+        "Combien d'entités contient un gramme de matière, environ ?"
+      ],
+      "common_errors": {
+        "1": "Les entités sont au contraire extrêmement légères.",
+        "2": "Une mole n'a pas une masse fixée.",
+        "3": "Une espèce chimique est constituée d'entités identiques."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "choices": [
+        "Les échantillons usuels contiennent un nombre gigantesque d'entités.",
+        "Les entités sont trop lourdes pour être pesées.",
+        "Une mole a toujours une masse de 1 g.",
+        "Les entités d'une espèce ne sont pas identiques."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.c01",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la quantité de matière d'aluminium contenue dans une canette de 15 g. Données : m(Al) = 4,48 × 10^-26 kg ; NA = 6,02 × 10^23 mol⁻¹. Donner le résultat avec 2 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,56",
+        "unit": "mol",
+        "significant_figures": 2
+      },
+      "solution": "N = m / m(Al) = 15 × 10^-3 ÷ 4,48 × 10^-26 ≈ 3,35 × 10^23 atomes. n = N / NA = 3,35 × 10^23 ÷ 6,02 × 10^23 ≈ 0,56 mol.",
+      "step_by_step_solution": [
+        "N = m / m(Al) = 15 × 10^-3 ÷ 4,48 × 10^-26 ≈ 3,35 × 10^23 atomes.",
+        "n = N / NA = 3,35 × 10^23 ÷ 6,02 × 10^23 ≈ 0,56 mol."
+      ],
+      "hints": [
+        "Calcule d'abord le nombre d'atomes.",
+        "Puis divise par NA."
+      ],
+      "common_errors": {
+        "5,6 × 10^2 mol": "L'élève n'a pas converti les grammes en kilogrammes."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.c02",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la masse, en g, de 0,50 mol d'eau. Données : m(H2O) = 2,99 × 10^-26 kg ; NA = 6,02 × 10^23 mol⁻¹.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9,0",
+        "unit": "g"
+      },
+      "solution": "N = n × NA = 0,50 × 6,02 × 10^23 = 3,01 × 10^23 molécules. m = N × m(H2O) = 3,01 × 10^23 × 2,99 × 10^-26 ≈ 9,0 × 10^-3 kg. m = 9,0 g.",
+      "step_by_step_solution": [
+        "N = n × NA = 0,50 × 6,02 × 10^23 = 3,01 × 10^23 molécules.",
+        "m = N × m(H2O) = 3,01 × 10^23 × 2,99 × 10^-26 ≈ 9,0 × 10^-3 kg.",
+        "m = 9,0 g."
+      ],
+      "hints": [
+        "Calcule le nombre de molécules, puis leur masse totale."
+      ],
+      "common_errors": {
+        "9,0 × 10^-3 g": "L'élève a obtenu des kilogrammes et les a notés en grammes."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.c03",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Une bague en or a une masse de 3,94 g. Données : m(Au) = 3,27 × 10^-25 kg ; NA = 6,02 × 10^23 mol⁻¹. Calculer la quantité de matière d'or avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,0200",
+        "unit": "mol",
+        "significant_figures": 3
+      },
+      "solution": "N = 3,94 × 10^-3 ÷ 3,27 × 10^-25 ≈ 1,20 × 10^22 atomes. n = N / NA ≈ 0,0200 mol.",
+      "step_by_step_solution": [
+        "N = 3,94 × 10^-3 ÷ 3,27 × 10^-25 ≈ 1,20 × 10^22 atomes.",
+        "n = N / NA ≈ 0,0200 mol."
+      ],
+      "hints": [
+        "Convertis la masse en kilogrammes.",
+        "Deux étapes : N puis n."
+      ],
+      "common_errors": {
+        "20,0 mol": "L'élève n'a pas converti les grammes en kilogrammes."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.c04",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "L'échantillon A contient 1,0 mol de molécules d'eau ; l'échantillon B contient 1,0 mol d'atomes de fer. Que peut-on affirmer ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Même quantité de matière signifie même nombre d'entités : N = n × NA. La bonne réponse est : « Ils contiennent le même nombre d'entités. »",
+      "step_by_step_solution": [
+        "Même quantité de matière signifie même nombre d'entités : N = n × NA.",
+        "La bonne réponse est : « Ils contiennent le même nombre d'entités. »"
+      ],
+      "hints": [
+        "Que vaut N pour 1,0 mol, quelle que soit l'entité ?"
+      ],
+      "common_errors": {
+        "1": "Les entités n'ont pas la même masse.",
+        "2": "Même n, même N.",
+        "3": "Même n, même N."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "choices": [
+        "Ils contiennent le même nombre d'entités.",
+        "Ils ont la même masse.",
+        "A contient plus d'entités que B.",
+        "B contient plus d'entités que A."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.c05",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Combien d'atomes d'hydrogène contient un échantillon de 1,0 mol de molécules d'eau H2O ? Donnée : NA = 6,02 × 10^23 mol⁻¹.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,2 × 10^24"
+      },
+      "solution": "Nombre de molécules : 1,0 × 6,02 × 10^23. Chaque molécule contient 2 atomes H : 2 × 6,02 × 10^23 ≈ 1,2 × 10^24.",
+      "step_by_step_solution": [
+        "Nombre de molécules : 1,0 × 6,02 × 10^23.",
+        "Chaque molécule contient 2 atomes H : 2 × 6,02 × 10^23 ≈ 1,2 × 10^24."
+      ],
+      "hints": [
+        "Combien d'atomes d'hydrogène dans une molécule d'eau ?"
+      ],
+      "common_errors": {
+        "6,0 × 10^23": "L'élève n'a pas tenu compte des deux atomes H par molécule."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.x01",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un verre contient 180 g d'eau. Données : m(H2O) = 2,99 × 10^-26 kg ; NA = 6,02 × 10^23 mol⁻¹. Calculer la quantité de matière d'eau avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "10,0",
+        "unit": "mol",
+        "significant_figures": 3
+      },
+      "solution": "N = 0,180 ÷ 2,99 × 10^-26 ≈ 6,02 × 10^24 molécules. n = N / NA ≈ 10,0 mol.",
+      "step_by_step_solution": [
+        "N = 0,180 ÷ 2,99 × 10^-26 ≈ 6,02 × 10^24 molécules.",
+        "n = N / NA ≈ 10,0 mol."
+      ],
+      "hints": [
+        "Convertis 180 g en kilogrammes.",
+        "Calcule N, puis n."
+      ],
+      "common_errors": {
+        "1,00 × 10^4 mol": "L'élève n'a pas converti les grammes en kilogrammes."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.x02",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "On compare 10 g de fer et 10 g d'aluminium. Données : m(Fe) = 9,27 × 10^-26 kg ; m(Al) = 4,48 × 10^-26 kg. Combien de fois plus d'atomes l'échantillon d'aluminium contient-il ? Donner le résultat avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,07",
+        "significant_figures": 3
+      },
+      "solution": "À masse égale, N = m / m(atome) : le rapport vaut N(Al) / N(Fe) = m(Fe) / m(Al). N(Al) / N(Fe) = 9,27 ÷ 4,48 ≈ 2,07.",
+      "step_by_step_solution": [
+        "À masse égale, N = m / m(atome) : le rapport vaut N(Al) / N(Fe) = m(Fe) / m(Al).",
+        "N(Al) / N(Fe) = 9,27 ÷ 4,48 ≈ 2,07."
+      ],
+      "hints": [
+        "Écris N(Al) et N(Fe), puis leur quotient : la masse de l'échantillon se simplifie."
+      ],
+      "common_errors": {
+        "0,483": "L'élève a calculé le rapport inverse."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.quantite-matiere.x03",
+      "notion_id": "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Le chlorure de sodium est formé d'entités NaCl. Données : m(Na) = 3,82 × 10^-26 kg ; m(Cl) = 5,89 × 10^-26 kg ; NA = 6,02 × 10^23 mol⁻¹. Calculer la quantité de matière de NaCl dans 5,85 g de sel, avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,100",
+        "unit": "mol",
+        "significant_figures": 3
+      },
+      "solution": "m(NaCl) = 3,82 × 10^-26 + 5,89 × 10^-26 = 9,71 × 10^-26 kg. N = 5,85 × 10^-3 ÷ 9,71 × 10^-26 ≈ 6,02 × 10^22. n = N / NA ≈ 0,100 mol.",
+      "step_by_step_solution": [
+        "m(NaCl) = 3,82 × 10^-26 + 5,89 × 10^-26 = 9,71 × 10^-26 kg.",
+        "N = 5,85 × 10^-3 ÷ 9,71 × 10^-26 ≈ 6,02 × 10^22.",
+        "n = N / NA ≈ 0,100 mol."
+      ],
+      "hints": [
+        "Calcule d'abord la masse d'une entité NaCl.",
+        "Puis N, puis n."
+      ],
+      "common_errors": {
+        "0,153 mol": "L'élève n'a utilisé que la masse de l'atome de chlore."
+      },
+      "remediation": "Un échantillon contient un très grand nombre N d'entités identiques. Si m est la masse de l'échantillon et m(entité) la masse d'une entité, exprimées dans la même unité, alors N = m / m(entité). La quantité de matière n (en mol) compte les entités par paquets de NA = 6,02 × 10^23 : n = N / NA, donc N = n × NA. La masse d'une entité est la somme des masses des atomes qui la composent. Convertir les grammes en kilogrammes avant de diviser, et arrondir avec un nombre de chiffres significatifs cohérent avec les données.",
+      "estimated_time_min": 10,
+      "skills_tested": [
+        "Calculer un nombre d'entités N = m / m(entité)",
+        "Calculer une quantité de matière n = N / NA",
+        "Utiliser l'écriture scientifique et les puissances de 10"
+      ],
+      "source_notions": [
+        "PC.2NDE.CTM.determiner-le-nombre-dentites-et-la-quantite-de-matiere-en-mol-dune-es"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.d01",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un point passe de la position M1 à la position M2, distantes de 0,60 m, en 0,20 s. Calculer la norme de son vecteur vitesse moyenne.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3",
+        "unit": "m/s"
+      },
+      "solution": "v = M1M2 / Δt. v = 0,60 ÷ 0,20 = 3 m/s.",
+      "step_by_step_solution": [
+        "v = M1M2 / Δt.",
+        "v = 0,60 ÷ 0,20 = 3 m/s."
+      ],
+      "hints": [
+        "Divise la distance M1M2 par la durée."
+      ],
+      "common_errors": {
+        "0,12 m/s": "L'élève a multiplié la distance par la durée."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.d02",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle est la direction du vecteur vitesse moyenne d'un point entre les positions M1 et M2 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le vecteur vitesse moyenne est colinéaire au vecteur déplacement M1M2. Sa direction est celle de la droite (M1M2).",
+      "step_by_step_solution": [
+        "Le vecteur vitesse moyenne est colinéaire au vecteur déplacement M1M2.",
+        "Sa direction est celle de la droite (M1M2)."
+      ],
+      "hints": [
+        "Le vecteur vitesse moyenne est construit à partir du vecteur déplacement."
+      ],
+      "common_errors": {
+        "1": "Ce n'est vrai que si M1 et M2 sont sur une même verticale.",
+        "2": "Ce n'est vrai que dans un cas particulier.",
+        "3": "Il est parallèle au déplacement, pas perpendiculaire."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "choices": [
+        "celle de la droite (M1M2).",
+        "toujours verticale.",
+        "toujours horizontale.",
+        "perpendiculaire à la droite (M1M2)."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.d03",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Une fourmi parcourt en ligne droite 12 cm en 4,0 s. Calculer la valeur de sa vitesse moyenne en m/s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,03",
+        "unit": "m/s"
+      },
+      "solution": "On convertit : 12 cm = 0,12 m. v = 0,12 ÷ 4,0 = 0,03 m/s.",
+      "step_by_step_solution": [
+        "On convertit : 12 cm = 0,12 m.",
+        "v = 0,12 ÷ 4,0 = 0,03 m/s."
+      ],
+      "hints": [
+        "Convertis la distance en mètres."
+      ],
+      "common_errors": {
+        "3 m/s": "L'élève n'a pas converti les centimètres en mètres."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.d04",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quel est le sens du vecteur vitesse moyenne d'un point qui va de la position M1 à la position M2 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le vecteur vitesse moyenne a le sens du déplacement. La bonne réponse est : « De M1 vers M2 »",
+      "step_by_step_solution": [
+        "Le vecteur vitesse moyenne a le sens du déplacement.",
+        "La bonne réponse est : « De M1 vers M2 »"
+      ],
+      "hints": [
+        "Dans quel ordre le point occupe-t-il les positions ?"
+      ],
+      "common_errors": {
+        "1": "Sens inversé.",
+        "2": "Un vecteur non nul a toujours un sens."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "choices": [
+        "De M1 vers M2",
+        "De M2 vers M1",
+        "Il n'a pas de sens"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.d05",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un TGV parcourt 450 km en 1 h 30 min. Calculer la valeur de sa vitesse moyenne en km/h.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "300",
+        "unit": "km/h"
+      },
+      "solution": "Durée : 1 h 30 min = 1,5 h. v = 450 ÷ 1,5 = 300 km/h.",
+      "step_by_step_solution": [
+        "Durée : 1 h 30 min = 1,5 h.",
+        "v = 450 ÷ 1,5 = 300 km/h."
+      ],
+      "hints": [
+        "30 min, c'est quelle fraction d'heure ?"
+      ],
+      "common_errors": {
+        "346 km/h": "L'élève a écrit 1 h 30 min = 1,3 h."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.a01",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Sur une chronophotographie, la durée entre deux positions successives est de 40 ms. La distance réelle entre les positions M3 et M4 vaut 2,4 cm. Calculer la norme du vecteur vitesse moyenne entre M3 et M4.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,6",
+        "unit": "m/s"
+      },
+      "solution": "On convertit : 2,4 cm = 0,024 m ; 40 ms = 0,040 s. v = 0,024 ÷ 0,040 = 0,6 m/s.",
+      "step_by_step_solution": [
+        "On convertit : 2,4 cm = 0,024 m ; 40 ms = 0,040 s.",
+        "v = 0,024 ÷ 0,040 = 0,6 m/s."
+      ],
+      "hints": [
+        "Convertis les centimètres et les millisecondes."
+      ],
+      "common_errors": {
+        "60 m/s": "L'élève n'a pas converti les centimètres en mètres.",
+        "0,06 m/s": "L'élève a écrit 40 ms = 0,40 s."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.a02",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Sur un document, 1 cm représente 50 cm en réalité. Deux positions successives d'un ballon, séparées de 0,10 s, sont distantes de 1,8 cm sur le document. Calculer la norme du vecteur vitesse moyenne du ballon.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "9",
+        "unit": "m/s"
+      },
+      "solution": "Distance réelle : 1,8 × 50 = 90 cm = 0,90 m. v = 0,90 ÷ 0,10 = 9 m/s.",
+      "step_by_step_solution": [
+        "Distance réelle : 1,8 × 50 = 90 cm = 0,90 m.",
+        "v = 0,90 ÷ 0,10 = 9 m/s."
+      ],
+      "hints": [
+        "Utilise l'échelle pour obtenir la distance réelle."
+      ],
+      "common_errors": {
+        "0,18 m/s": "L'élève n'a pas utilisé l'échelle du document."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.a03",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un coureur a une vitesse moyenne de 5,0 m/s. Convertir cette vitesse en km/h.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "18",
+        "unit": "km/h",
+        "required_form": "unite_imposee"
+      },
+      "solution": "En 1 h = 3 600 s, il parcourt 5,0 × 3 600 = 18 000 m. 5,0 m/s = 5,0 × 3,6 = 18 km/h.",
+      "step_by_step_solution": [
+        "En 1 h = 3 600 s, il parcourt 5,0 × 3 600 = 18 000 m.",
+        "5,0 m/s = 5,0 × 3,6 = 18 km/h."
+      ],
+      "hints": [
+        "1 km = 1 000 m et 1 h = 3 600 s."
+      ],
+      "common_errors": {
+        "1,4 km/h": "L'élève a divisé par 3,6 au lieu de multiplier."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.a04",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Sur une chronophotographie, les positions successives d'un point sont alignées et également espacées. Quel est son mouvement ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Positions alignées : trajectoire rectiligne. Écarts égaux pour des durées égales : vitesse constante. Le mouvement est rectiligne uniforme.",
+      "step_by_step_solution": [
+        "Positions alignées : trajectoire rectiligne.",
+        "Écarts égaux pour des durées égales : vitesse constante.",
+        "Le mouvement est rectiligne uniforme."
+      ],
+      "hints": [
+        "Que signifient des écarts égaux entre positions pour la vitesse ?"
+      ],
+      "common_errors": {
+        "1": "Les écarts augmenteraient.",
+        "2": "Les positions ne seraient pas alignées.",
+        "3": "Les écarts diminueraient."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "choices": [
+        "rectiligne uniforme.",
+        "rectiligne accéléré.",
+        "circulaire uniforme.",
+        "rectiligne ralenti."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.a05",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un ballon lancé passe du point A au point B, distants de 3,5 m, en 0,25 s. Calculer la norme de son vecteur vitesse moyenne entre A et B.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "14",
+        "unit": "m/s"
+      },
+      "solution": "v = AB / Δt. v = 3,5 ÷ 0,25 = 14 m/s.",
+      "step_by_step_solution": [
+        "v = AB / Δt.",
+        "v = 3,5 ÷ 0,25 = 14 m/s."
+      ],
+      "hints": [
+        "Divise la distance AB par la durée."
+      ],
+      "common_errors": {
+        "0,875 m/s": "L'élève a multiplié la distance par la durée."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.c01",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un cycliste parcourt 12,6 km en 35 min. Calculer la valeur de sa vitesse moyenne en m/s, avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "6,00",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "On convertit : 12,6 km = 12 600 m ; 35 min = 2 100 s. v = 12 600 ÷ 2 100 = 6,00 m/s.",
+      "step_by_step_solution": [
+        "On convertit : 12,6 km = 12 600 m ; 35 min = 2 100 s.",
+        "v = 12 600 ÷ 2 100 = 6,00 m/s."
+      ],
+      "hints": [
+        "Convertis la distance en mètres et la durée en secondes."
+      ],
+      "common_errors": {
+        "0,360 m/s": "L'élève a divisé des kilomètres par des minutes sans convertir.",
+        "21,6 m/s": "L'élève a donné la valeur en km/h."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.c02",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Un point fait un tour complet d'un cercle et revient à sa position de départ en 2,0 s. Que vaut la norme de son vecteur vitesse moyenne sur ce tour ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Le point revient à sa position de départ : le vecteur déplacement est nul. Le vecteur vitesse moyenne est donc nul : Elle est nulle.",
+      "step_by_step_solution": [
+        "Le point revient à sa position de départ : le vecteur déplacement est nul.",
+        "Le vecteur vitesse moyenne est donc nul : Elle est nulle."
+      ],
+      "hints": [
+        "Quel est le vecteur déplacement entre la position de départ et celle d'arrivée ?"
+      ],
+      "common_errors": {
+        "1": "C'est la vitesse moyenne calculée sur la distance parcourue, pas le vecteur vitesse moyenne.",
+        "2": "Le rayon n'intervient pas.",
+        "3": "La durée n'est pas nulle."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "choices": [
+        "Elle est nulle.",
+        "Elle vaut la circonférence divisée par 2,0 s.",
+        "Elle vaut le rayon divisé par 2,0 s.",
+        "Elle est infinie."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.c03",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Positions successives d'un palet sur un axe, relevées toutes les 50 ms : 0 cm ; 3,0 cm ; 6,0 cm ; 9,0 cm ; 12,0 cm (positions M0 à M4). Calculer la norme du vecteur vitesse moyenne entre M0 et M4.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,6",
+        "unit": "m/s"
+      },
+      "solution": "Distance M0M4 = 12,0 cm = 0,120 m. Durée : 4 × 50 ms = 0,200 s. v = 0,120 ÷ 0,200 = 0,6 m/s.",
+      "step_by_step_solution": [
+        "Distance M0M4 = 12,0 cm = 0,120 m.",
+        "Durée : 4 × 50 ms = 0,200 s.",
+        "v = 0,120 ÷ 0,200 = 0,6 m/s."
+      ],
+      "hints": [
+        "Combien d'intervalles de 50 ms séparent M0 et M4 ?"
+      ],
+      "common_errors": {
+        "2,4 m/s": "L'élève a pris une seule durée de 50 ms.",
+        "3 m/s": "L'élève a compté 5 intervalles au lieu de 4 (0,120 ÷ 0,040 = 3)."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.c04",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un signal laser fait l'aller-retour entre la Terre et la Lune, distantes de 3,84 × 10^8 m, en 2,56 s. Calculer la valeur de la vitesse moyenne du signal, avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "3,00 × 10^8",
+        "unit": "m/s",
+        "significant_figures": 3
+      },
+      "solution": "Distance parcourue : 2 × 3,84 × 10^8 = 7,68 × 10^8 m. v = 7,68 × 10^8 ÷ 2,56 = 3,00 × 10^8 m/s.",
+      "step_by_step_solution": [
+        "Distance parcourue : 2 × 3,84 × 10^8 = 7,68 × 10^8 m.",
+        "v = 7,68 × 10^8 ÷ 2,56 = 3,00 × 10^8 m/s."
+      ],
+      "hints": [
+        "Le signal fait un aller ET un retour."
+      ],
+      "common_errors": {
+        "1,50 × 10^8 m/s": "L'élève a oublié que le signal fait l'aller-retour."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.c05",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Le vecteur vitesse moyenne d'un point entre M1 et M2 a pour norme 2,0 m/s ; la durée du parcours est 0,50 s. Calculer la distance M1M2.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1",
+        "unit": "m"
+      },
+      "solution": "M1M2 = v × Δt. M1M2 = 2,0 × 0,50 = 1 m.",
+      "step_by_step_solution": [
+        "M1M2 = v × Δt.",
+        "M1M2 = 2,0 × 0,50 = 1 m."
+      ],
+      "hints": [
+        "Isole M1M2 dans v = M1M2 / Δt."
+      ],
+      "common_errors": {
+        "4 m": "L'élève a divisé la vitesse par la durée."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.x01",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un nageur effectue un aller-retour dans un bassin de 50 m en 1 min 20 s. Calculer la valeur de sa vitesse moyenne calculée sur la distance parcourue.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "1,25",
+        "unit": "m/s"
+      },
+      "solution": "Distance parcourue : 2 × 50 = 100 m ; durée : 80 s. v = 100 ÷ 80 = 1,25 m/s.",
+      "step_by_step_solution": [
+        "Distance parcourue : 2 × 50 = 100 m ; durée : 80 s.",
+        "v = 100 ÷ 80 = 1,25 m/s."
+      ],
+      "hints": [
+        "Quelle distance le nageur parcourt-il au total ?",
+        "Convertis la durée en secondes."
+      ],
+      "common_errors": {
+        "0,625 m/s": "L'élève n'a compté qu'une longueur de bassin."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.x02",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un nageur effectue un aller-retour dans un bassin de 50 m en 1 min 20 s et revient exactement à son point de départ. Calculer la norme de son vecteur vitesse moyenne sur l'aller-retour.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0",
+        "unit": "m/s"
+      },
+      "solution": "Le nageur revient à son point de départ : le vecteur déplacement est nul. La norme du vecteur vitesse moyenne vaut donc 0 m/s.",
+      "step_by_step_solution": [
+        "Le nageur revient à son point de départ : le vecteur déplacement est nul.",
+        "La norme du vecteur vitesse moyenne vaut donc 0 m/s."
+      ],
+      "hints": [
+        "Le vecteur vitesse moyenne dépend du déplacement, pas de la distance parcourue."
+      ],
+      "common_errors": {
+        "1,25 m/s": "L'élève a calculé la vitesse sur la distance parcourue et non à partir du déplacement."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.vitesse-moyenne.x03",
+      "notion_id": "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans un repère orthonormé (unité : le mètre), un point passe de M1 (0 ; 0) à M2 (3,0 ; 4,0) en 2,0 s. Calculer la norme de son vecteur vitesse moyenne.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,5",
+        "unit": "m/s"
+      },
+      "solution": "M1M2 = √(3,0² + 4,0²) = √25 = 5,0 m. v = 5,0 ÷ 2,0 = 2,5 m/s.",
+      "step_by_step_solution": [
+        "M1M2 = √(3,0² + 4,0²) = √25 = 5,0 m.",
+        "v = 5,0 ÷ 2,0 = 2,5 m/s."
+      ],
+      "hints": [
+        "Calcule la longueur M1M2 avec le théorème de Pythagore."
+      ],
+      "common_errors": {
+        "3,5 m/s": "L'élève a additionné les coordonnées au lieu d'utiliser Pythagore."
+      },
+      "remediation": "Le vecteur vitesse moyenne d'un point entre les positions M1 et M2 est le vecteur déplacement M1M2 divisé par la durée Δt du parcours : sa direction est celle de la droite (M1M2), son sens va de M1 vers M2, et sa norme vaut M1M2 / Δt. Unités SI : m et s → m/s. Sur une chronophotographie, la durée entre deux positions successives est constante ; tenir compte de l'échelle du document et convertir (cm → m, ms → s).",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Calculer la norme du vecteur vitesse moyenne",
+        "Caractériser le vecteur vitesse moyenne (direction, sens, norme)",
+        "Exploiter une chronophotographie"
+      ],
+      "source_notions": [
+        "PC.2NDE.MI.definir-le-vecteur-vitesse-moyenne-dun-point"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.d01",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un signal sonore a une période T = 2,0 ms. Calculer sa fréquence.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "500",
+        "unit": "Hz"
+      },
+      "solution": "On convertit : T = 2,0 ms = 2,0 × 10^-3 s. f = 1 / T = 1 ÷ 0,0020 = 500 Hz.",
+      "step_by_step_solution": [
+        "On convertit : T = 2,0 ms = 2,0 × 10^-3 s.",
+        "f = 1 / T = 1 ÷ 0,0020 = 500 Hz."
+      ],
+      "hints": [
+        "Convertis la période en secondes."
+      ],
+      "common_errors": {
+        "0,5 Hz": "L'élève n'a pas converti les millisecondes en secondes."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.d02",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "La note émise par un diapason a une fréquence de 440 Hz. Calculer sa période en ms, avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2,27",
+        "unit": "ms",
+        "significant_figures": 3
+      },
+      "solution": "T = 1 / f = 1 ÷ 440 ≈ 2,27 × 10^-3 s. T ≈ 2,27 ms.",
+      "step_by_step_solution": [
+        "T = 1 / f = 1 ÷ 440 ≈ 2,27 × 10^-3 s.",
+        "T ≈ 2,27 ms."
+      ],
+      "hints": [
+        "T = 1 / f.",
+        "Convertis ensuite le résultat en millisecondes."
+      ],
+      "common_errors": {
+        "440 ms": "L'élève a confondu période et fréquence."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.d03",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Quelle relation lie la fréquence f et la période T d'un signal périodique ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "La fréquence est le nombre de périodes par seconde. Donc : f = 1 / T",
+      "step_by_step_solution": [
+        "La fréquence est le nombre de périodes par seconde.",
+        "Donc : f = 1 / T"
+      ],
+      "hints": [
+        "Si une période dure 0,5 s, combien de périodes y a-t-il en une seconde ?"
+      ],
+      "common_errors": {
+        "1": "f et T ne sont pas égales.",
+        "2": "Relation incorrecte.",
+        "3": "Relation incorrecte."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "choices": [
+        "f = 1 / T",
+        "f = T",
+        "f = 2 × T",
+        "f = T / 2"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.d04",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "SHORT_ANSWER",
+      "statement": "Quel est le nom de l'unité de fréquence du Système international ?",
+      "expected_answer": {
+        "kind": "EXACT_TEXT",
+        "value": [
+          "hertz",
+          "le hertz"
+        ]
+      },
+      "solution": "La fréquence s'exprime en hertz (Hz). 1 Hz correspond à une période par seconde : l'unité est le hertz.",
+      "step_by_step_solution": [
+        "La fréquence s'exprime en hertz (Hz).",
+        "1 Hz correspond à une période par seconde : l'unité est le hertz."
+      ],
+      "hints": [
+        "Son symbole est Hz."
+      ],
+      "common_errors": {
+        "seconde": "La seconde est l'unité de la période."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.d05",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Un signal a une période T = 0,50 s. Calculer sa fréquence.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2",
+        "unit": "Hz"
+      },
+      "solution": "f = 1 / T. f = 1 ÷ 0,50 = 2 Hz.",
+      "step_by_step_solution": [
+        "f = 1 / T.",
+        "f = 1 ÷ 0,50 = 2 Hz."
+      ],
+      "hints": [
+        "Combien de périodes de 0,50 s y a-t-il en une seconde ?"
+      ],
+      "common_errors": {
+        "0,5 Hz": "L'élève a confondu la période et la fréquence."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.a01",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Sur l'écran d'un oscilloscope, 4 périodes d'un signal occupent une durée de 10 ms. Calculer la fréquence du signal.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "400",
+        "unit": "Hz"
+      },
+      "solution": "T = 10 ms ÷ 4 = 2,5 ms = 2,5 × 10^-3 s. f = 1 / T = 400 Hz.",
+      "step_by_step_solution": [
+        "T = 10 ms ÷ 4 = 2,5 ms = 2,5 × 10^-3 s.",
+        "f = 1 / T = 400 Hz."
+      ],
+      "hints": [
+        "Commence par la durée d'une seule période."
+      ],
+      "common_errors": {
+        "100 Hz": "L'élève a pris 10 ms comme durée d'une période.",
+        "0,4 Hz": "L'élève n'a pas converti les millisecondes."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.a02",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un ultrason a une fréquence de 40 kHz. Calculer sa période en µs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "25",
+        "unit": "µs"
+      },
+      "solution": "On convertit : f = 40 kHz = 40 × 10^3 Hz. T = 1 / f = 2,5 × 10^-5 s = 25 µs.",
+      "step_by_step_solution": [
+        "On convertit : f = 40 kHz = 40 × 10^3 Hz.",
+        "T = 1 / f = 2,5 × 10^-5 s = 25 µs."
+      ],
+      "hints": [
+        "Convertis la fréquence en hertz.",
+        "1 µs = 10^-6 s."
+      ],
+      "common_errors": {
+        "0,025 µs": "L'élève n'a pas converti les kilohertz en hertz."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.a03",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un signal a une période de 5,0 ms. Calculer sa fréquence.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "200",
+        "unit": "Hz"
+      },
+      "solution": "T = 5,0 ms = 5,0 × 10^-3 s. f = 1 / T = 200 Hz.",
+      "step_by_step_solution": [
+        "T = 5,0 ms = 5,0 × 10^-3 s.",
+        "f = 1 / T = 200 Hz."
+      ],
+      "hints": [
+        "Convertis la période en secondes."
+      ],
+      "common_errors": {
+        "0,2 Hz": "L'élève n'a pas converti les millisecondes."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.a04",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "La période d'un son est divisée par 2. Que devient sa fréquence ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "f = 1 / T : f et T sont inversement proportionnelles. Si T est divisée par 2, f est multipliée par 2. La bonne réponse est : « Elle est multipliée par 2. »",
+      "step_by_step_solution": [
+        "f = 1 / T : f et T sont inversement proportionnelles.",
+        "Si T est divisée par 2, f est multipliée par 2.",
+        "La bonne réponse est : « Elle est multipliée par 2. »"
+      ],
+      "hints": [
+        "f et T varient-elles dans le même sens ?"
+      ],
+      "common_errors": {
+        "1": "L'élève pense que f et T sont proportionnelles.",
+        "2": "f dépend de T."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "choices": [
+        "Elle est multipliée par 2.",
+        "Elle est divisée par 2.",
+        "Elle ne change pas."
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.a05",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Au repos, le cœur d'un adolescent bat 72 fois par minute de façon régulière. Calculer la période des battements, en s.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,83",
+        "unit": "s"
+      },
+      "solution": "72 battements en 60 s. T = 60 ÷ 72 ≈ 0,83 s.",
+      "step_by_step_solution": [
+        "72 battements en 60 s.",
+        "T = 60 ÷ 72 ≈ 0,83 s."
+      ],
+      "hints": [
+        "Quelle durée sépare deux battements ?"
+      ],
+      "common_errors": {
+        "1,2 s": "L'élève a calculé 72 ÷ 60 (c'est la fréquence en Hz)."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.c01",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un son a une fréquence de 1,25 kHz. Calculer sa période en ms, avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "0,800",
+        "unit": "ms",
+        "significant_figures": 3
+      },
+      "solution": "f = 1,25 kHz = 1 250 Hz. T = 1 ÷ 1 250 = 8,00 × 10^-4 s = 0,800 ms.",
+      "step_by_step_solution": [
+        "f = 1,25 kHz = 1 250 Hz.",
+        "T = 1 ÷ 1 250 = 8,00 × 10^-4 s = 0,800 ms."
+      ],
+      "hints": [
+        "Convertis d'abord la fréquence en hertz."
+      ],
+      "common_errors": {
+        "800 ms": "L'élève s'est trompé dans la conversion des secondes en millisecondes."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.c02",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "DOCUMENT_READING",
+      "statement": "Sur un enregistrement, 3 périodes d'un son durent 13,5 ms. Calculer la fréquence du son, avec 3 chiffres significatifs.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "222",
+        "unit": "Hz",
+        "significant_figures": 3
+      },
+      "solution": "T = 13,5 ms ÷ 3 = 4,50 ms = 4,50 × 10^-3 s. f = 1 / T ≈ 222 Hz.",
+      "step_by_step_solution": [
+        "T = 13,5 ms ÷ 3 = 4,50 ms = 4,50 × 10^-3 s.",
+        "f = 1 / T ≈ 222 Hz."
+      ],
+      "hints": [
+        "Durée d'une seule période ?"
+      ],
+      "common_errors": {
+        "74,1 Hz": "L'élève a pris 13,5 ms comme durée d'une période."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.c03",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Le son A a une fréquence de 200 Hz ; le son B a une période de 4,0 ms. Lequel a la plus grande fréquence ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "f(B) = 1 ÷ 0,0040 = 250 Hz. 250 Hz > 200 Hz. La bonne réponse est : « Le son B »",
+      "step_by_step_solution": [
+        "f(B) = 1 ÷ 0,0040 = 250 Hz.",
+        "250 Hz > 200 Hz.",
+        "La bonne réponse est : « Le son B »"
+      ],
+      "hints": [
+        "Calcule la fréquence du son B."
+      ],
+      "common_errors": {
+        "1": "L'élève a comparé des grandeurs différentes sans calcul.",
+        "2": "Les fréquences sont différentes."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "choices": [
+        "Le son B",
+        "Le son A",
+        "Ils ont la même fréquence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.c04",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La tension du secteur a une fréquence de 50 Hz. Calculer sa période en ms.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "20",
+        "unit": "ms"
+      },
+      "solution": "T = 1 / f = 1 ÷ 50 = 0,020 s. 0,020 s = 20 ms.",
+      "step_by_step_solution": [
+        "T = 1 / f = 1 ÷ 50 = 0,020 s.",
+        "0,020 s = 20 ms."
+      ],
+      "hints": [
+        "Calcule T en secondes puis convertis."
+      ],
+      "common_errors": {
+        "0,02 ms": "L'élève a obtenu des secondes et les a notées en millisecondes."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.c05",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Un signal a une période de 125 µs. Calculer sa fréquence en kHz.",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "8",
+        "unit": "kHz"
+      },
+      "solution": "T = 125 µs = 1,25 × 10^-4 s. f = 1 / T = 8 000 Hz = 8 kHz.",
+      "step_by_step_solution": [
+        "T = 125 µs = 1,25 × 10^-4 s.",
+        "f = 1 / T = 8 000 Hz = 8 kHz."
+      ],
+      "hints": [
+        "1 µs = 10^-6 s ; 1 kHz = 1 000 Hz."
+      ],
+      "common_errors": {
+        "8000 kHz": "L'élève a calculé la fréquence en hertz et l'a notée en kilohertz."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.x01",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un signal a une fréquence de 2,5 kHz. Combien de périodes complètes contient un enregistrement de ce signal d'une durée de 20 ms ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "50"
+      },
+      "solution": "T = 1 / 2 500 = 4,0 × 10^-4 s = 0,40 ms. Nombre de périodes : 20 ÷ 0,40 = 50.",
+      "step_by_step_solution": [
+        "T = 1 / 2 500 = 4,0 × 10^-4 s = 0,40 ms.",
+        "Nombre de périodes : 20 ÷ 0,40 = 50."
+      ],
+      "hints": [
+        "Calcule d'abord la période.",
+        "Combien de fois la période est-elle contenue dans 20 ms ?"
+      ],
+      "common_errors": {
+        "8": "L'élève a divisé 20 ms par 2,5 sans calculer la période."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.x02",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "On veut afficher exactement 5 périodes d'un signal de fréquence 250 Hz sur l'écran d'un oscilloscope qui comporte 10 divisions horizontales. Quelle durée faut-il associer à chaque division, en ms ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "2",
+        "unit": "ms"
+      },
+      "solution": "T = 1 / 250 = 4,0 ms. 5 périodes : 5 × 4,0 = 20 ms. Par division : 20 ÷ 10 = 2 ms.",
+      "step_by_step_solution": [
+        "T = 1 / 250 = 4,0 ms.",
+        "5 périodes : 5 × 4,0 = 20 ms.",
+        "Par division : 20 ÷ 10 = 2 ms."
+      ],
+      "hints": [
+        "Quelle durée représentent 5 périodes ?",
+        "Répartis cette durée sur 10 divisions."
+      ],
+      "common_errors": {
+        "0,4 ms": "L'élève a oublié de multiplier par 5 périodes."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.PC.2NDE.periode-frequence.x03",
+      "notion_id": "PC.2NDE.OS.relation-entre-periode-et-frequence",
+      "subject": "PHYSIQUE_CHIMIE",
+      "level": "2NDE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Les sons audibles par l'être humain ont des fréquences comprises entre 20 Hz et 20 kHz. Quelle est la plus petite période d'un son audible, en µs ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": "50",
+        "unit": "µs"
+      },
+      "solution": "La plus petite période correspond à la plus grande fréquence : 20 kHz. T = 1 ÷ 20 000 = 5,0 × 10^-5 s = 50 µs.",
+      "step_by_step_solution": [
+        "La plus petite période correspond à la plus grande fréquence : 20 kHz.",
+        "T = 1 ÷ 20 000 = 5,0 × 10^-5 s = 50 µs."
+      ],
+      "hints": [
+        "La période est-elle plus petite pour une grande ou une petite fréquence ?"
+      ],
+      "common_errors": {
+        "50 ms": "L'élève a utilisé la plus petite fréquence (20 Hz)."
+      },
+      "remediation": "Un signal périodique se reproduit identique à lui-même à intervalles de temps égaux : cette durée est la période T (en s). La fréquence f est le nombre de périodes par seconde : f = 1 / T, en hertz (Hz), et T = 1 / f. Convertir avant de calculer : 1 ms = 10^-3 s ; 1 µs = 10^-6 s ; 1 kHz = 10^3 Hz. Sur un enregistrement, mesurer la durée de plusieurs périodes puis diviser par leur nombre pour gagner en précision.",
+      "estimated_time_min": 8,
+      "skills_tested": [
+        "Utiliser la relation f = 1 / T",
+        "Convertir des durées (ms, µs) et des fréquences (kHz)",
+        "Déterminer une période à partir de plusieurs périodes mesurées"
+      ],
+      "source_notions": [
+        "PC.2NDE.OS.relation-entre-periode-et-frequence"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}

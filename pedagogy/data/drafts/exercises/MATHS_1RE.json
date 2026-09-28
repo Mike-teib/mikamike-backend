@@ -1,0 +1,2115 @@
+{
+  "exercises": [
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.d01",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer le discriminant Δ du trinôme 2x² − 3x − 5.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "49"
+      },
+      "solution": "a = 2, b = −3, c = −5. Δ = b² − 4ac = (−3)² − 4 × 2 × (−5) = 9 + 40 = 49.",
+      "step_by_step_solution": [
+        "On identifie a = 2, b = −3 et c = −5.",
+        "Δ = (−3)² − 4 × 2 × (−5) = 9 + 40.",
+        "Δ = 49."
+      ],
+      "hints": [
+        "Commence par écrire a, b et c avec leur signe.",
+        "(−3)² est positif ; attention au produit −4 × 2 × (−5)."
+      ],
+      "common_errors": {
+        "-31": "L'élève a calculé 9 − 40 (erreur de signe sur −4ac).",
+        "31": "L'élève a calculé −3² = −9 au lieu de (−3)² = 9."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer un discriminant"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.d02",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x² − 5x + 6 = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 2 ou x = 3"
+      },
+      "solution": "Δ = 25 − 24 = 1 > 0 : deux racines x = (5 − 1)/2 = 2 et x = (5 + 1)/2 = 3.",
+      "step_by_step_solution": [
+        "Δ = (−5)² − 4 × 1 × 6 = 1.",
+        "x = (5 − 1)/2 et x = (5 + 1)/2.",
+        "Les solutions sont x = 2 ou x = 3."
+      ],
+      "hints": [
+        "Calcule d'abord Δ.",
+        "Avec b = −5, on a −b = 5."
+      ],
+      "common_errors": {
+        "x = -2 ou x = -3": "L'élève a pris −b = −5 (erreur de signe).",
+        "x = 4 ou x = 6": "L'élève a oublié de diviser par 2a."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.d03",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "Combien de racines réelles possède le trinôme x² + 2x + 5 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Δ = 2² − 4 × 1 × 5 = 4 − 20 = −16 < 0 : le trinôme n'a aucune racine réelle.",
+      "step_by_step_solution": [
+        "Δ = 4 − 20 = −16.",
+        "Δ < 0.",
+        "Le trinôme ne possède aucune racine réelle."
+      ],
+      "hints": [
+        "Le signe de Δ donne le nombre de racines.",
+        "Calcule b² − 4ac avec a = 1, b = 2, c = 5."
+      ],
+      "common_errors": {
+        "1": "Une racine unique correspond à Δ = 0.",
+        "2": "Deux racines correspondent à Δ > 0.",
+        "3": "Un trinôme du second degré a au plus deux racines."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Déterminer le nombre de racines avec Δ"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "choices": [
+        "aucune racine réelle",
+        "une racine réelle",
+        "deux racines réelles",
+        "trois racines réelles"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.d04",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "On écrit x² − 6x + 11 sous la forme canonique (x − h)² + k. Donner h et k sous la forme « h = … ; k = … ».",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "h = 3 ; k = 2"
+      },
+      "solution": "x² − 6x + 11 = (x − 3)² − 9 + 11 = (x − 3)² + 2. Donc h = 3 et k = 2.",
+      "step_by_step_solution": [
+        "x² − 6x est le début du développement de (x − 3)² = x² − 6x + 9.",
+        "x² − 6x + 11 = (x − 3)² − 9 + 11 = (x − 3)² + 2.",
+        "h = 3 et k = 2."
+      ],
+      "hints": [
+        "h = −b/(2a).",
+        "Calcule ensuite k en remplaçant x par h dans l'expression."
+      ],
+      "common_errors": {
+        "h = -3 ; k = 2": "Erreur de signe sur h.",
+        "h = 3 ; k = 20": "L'élève a ajouté 9 au lieu de le retrancher."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer une forme canonique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.d05",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer le discriminant du trinôme −x² + 4x − 4.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "0"
+      },
+      "solution": "a = −1, b = 4, c = −4. Δ = 16 − 4 × (−1) × (−4) = 16 − 16 = 0 : une racine double.",
+      "step_by_step_solution": [
+        "a = −1, b = 4, c = −4.",
+        "4ac = 4 × (−1) × (−4) = 16.",
+        "Δ = 16 − 16 = 0."
+      ],
+      "hints": [
+        "Le produit de deux nombres négatifs est positif.",
+        "Δ = b² − 4ac."
+      ],
+      "common_errors": {
+        "32": "Erreur de signe sur 4ac.",
+        "-32": "L'élève a pris b² = −16."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer un discriminant"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.a01",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 2x² + x − 6 = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 3/2 ou x = -2"
+      },
+      "solution": "Δ = 1 + 48 = 49. x = (−1 − 7)/4 = −2 et x = (−1 + 7)/4 = 3/2.",
+      "step_by_step_solution": [
+        "Δ = 1² − 4 × 2 × (−6) = 49 et √49 = 7.",
+        "x = (−1 − 7)/4 et x = (−1 + 7)/4.",
+        "Les solutions sont x = −2 ou x = 3/2."
+      ],
+      "hints": [
+        "Calcule Δ puis sa racine carrée.",
+        "Le dénominateur est 2a = 4."
+      ],
+      "common_errors": {
+        "x = -4 ou x = 3": "L'élève a divisé par 2 au lieu de 2a = 4.",
+        "x = 2 ou x = -3/2": "Erreur de signe sur −b."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.a02",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x² − 4x + 1 = 0 (valeurs exactes).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 2 + sqrt(3) ou x = 2 - sqrt(3)"
+      },
+      "solution": "Δ = 16 − 4 = 12 et √12 = 2√3. x = (4 ± 2√3)/2 = 2 ± √3.",
+      "step_by_step_solution": [
+        "Δ = (−4)² − 4 × 1 × 1 = 12.",
+        "√12 = 2√3, donc x = (4 − 2√3)/2 ou x = (4 + 2√3)/2.",
+        "Les solutions sont x = 2 − √3 ou x = 2 + √3."
+      ],
+      "hints": [
+        "Simplifie √12.",
+        "Divise chaque terme du numérateur par 2."
+      ],
+      "common_errors": {
+        "x = 4 + sqrt(12) ou x = 4 - sqrt(12)": "L'élève a oublié de diviser par 2a.",
+        "x = -2 + sqrt(3) ou x = -2 - sqrt(3)": "Erreur de signe sur −b."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une équation du second degré",
+        "Simplifier une racine carrée"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.a03",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On écrit 2x² + 8x + 3 sous la forme canonique 2(x − h)² + k. Donner h et k sous la forme « h = … ; k = … ».",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "h = -2 ; k = -5"
+      },
+      "solution": "h = −b/(2a) = −8/4 = −2 et k = f(−2) = 8 − 16 + 3 = −5. Donc 2x² + 8x + 3 = 2(x + 2)² − 5.",
+      "step_by_step_solution": [
+        "h = −b/(2a) = −8/4 = −2.",
+        "k = 2 × (−2)² + 8 × (−2) + 3 = 8 − 16 + 3 = −5.",
+        "h = −2 et k = −5."
+      ],
+      "hints": [
+        "h = −b/(2a).",
+        "k est l'image de h."
+      ],
+      "common_errors": {
+        "h = 2 ; k = -5": "Erreur de signe sur h.",
+        "h = -2 ; k = -1": "L'élève n'a pas multiplié le carré par 2 (k = 3 − 4)."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer une forme canonique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.a04",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est le signe du trinôme x² − x − 12 lorsque x appartient à ]−3 ; 4[ ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Δ = 1 + 48 = 49, racines −3 et 4. Comme a = 1 > 0, le trinôme est strictement négatif entre ses racines : sur ]−3 ; 4[, il est strictement négatif.",
+      "step_by_step_solution": [
+        "Les racines sont (1 − 7)/2 = −3 et (1 + 7)/2 = 4.",
+        "a = 1 > 0 : le trinôme est du signe de a à l'extérieur des racines, du signe contraire entre elles.",
+        "Sur ]−3 ; 4[, le trinôme est strictement négatif."
+      ],
+      "hints": [
+        "Commence par chercher les racines.",
+        "Entre les racines, le trinôme est du signe de −a."
+      ],
+      "common_errors": {
+        "1": "C'est le signe à l'extérieur des racines.",
+        "2": "Le trinôme n'est nul qu'en −3 et en 4.",
+        "3": "Le signe ne change qu'en une racine."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Étudier le signe d'un trinôme"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "choices": [
+        "strictement négatif",
+        "strictement positif",
+        "nul",
+        "positif puis négatif"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.a05",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation −x² + 2x + 8 = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = -2 ou x = 4"
+      },
+      "solution": "Δ = 4 + 32 = 36. x = (−2 − 6)/(−2) = 4 et x = (−2 + 6)/(−2) = −2.",
+      "step_by_step_solution": [
+        "a = −1, b = 2, c = 8 ; Δ = 4 − 4 × (−1) × 8 = 36.",
+        "x = (−2 − 6)/(−2) et x = (−2 + 6)/(−2).",
+        "Les solutions sont x = 4 ou x = −2."
+      ],
+      "hints": [
+        "a est négatif : 2a = −2.",
+        "Tu peux aussi multiplier l'équation par −1 avant de calculer Δ."
+      ],
+      "common_errors": {
+        "x = 2 ou x = -4": "L'élève a divisé par 2 au lieu de −2.",
+        "x = -4 ou x = 2": "Erreur de signe sur 2a."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.c01",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'ensemble des solutions dans ℝ de l'inéquation x² − 3x − 10 < 0 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Racines : Δ = 9 + 40 = 49, x = −2 et x = 5. a = 1 > 0, donc le trinôme est négatif strictement entre ses racines : S = ]−2 ; 5[.",
+      "step_by_step_solution": [
+        "Δ = 49 ; les racines sont −2 et 5.",
+        "a > 0 : le trinôme est négatif entre ses racines.",
+        "S = ]−2 ; 5["
+      ],
+      "hints": [
+        "Trouve les racines puis utilise le signe de a.",
+        "L'inégalité est stricte : les bornes sont exclues."
+      ],
+      "common_errors": {
+        "1": "C'est l'ensemble où le trinôme est positif.",
+        "2": "Erreur de signe sur les racines.",
+        "3": "Les bornes annulent le trinôme : elles sont exclues d'une inégalité stricte."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une inéquation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "choices": [
+        "]−2 ; 5[",
+        "]−∞ ; −2[ ∪ ]5 ; +∞[",
+        "]−5 ; 2[",
+        "[−2 ; 5]"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.c02",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation 4x² − 12x + 9 = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/2"
+      },
+      "solution": "Δ = 144 − 144 = 0 : une racine double x = −b/(2a) = 12/8 = 3/2.",
+      "step_by_step_solution": [
+        "Δ = (−12)² − 4 × 4 × 9 = 0.",
+        "La racine double vaut −b/(2a) = 12/8.",
+        "La seule solution est x = 3/2."
+      ],
+      "hints": [
+        "Calcule Δ.",
+        "Quand Δ = 0, il n'y a qu'une racine."
+      ],
+      "common_errors": {
+        "x = 3/2 ou x = -3/2": "Quand Δ = 0, il y a une seule racine.",
+        "3": "L'élève a divisé par a au lieu de 2a."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation du second degré (Δ = 0)"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.c03",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "REASONING",
+      "statement": "Soit m un réel. Déterminer toutes les valeurs de m pour lesquelles l'équation x² + mx + 9 = 0 admet une unique solution réelle.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "m = 6 ou m = -6"
+      },
+      "solution": "L'équation a une unique solution si et seulement si Δ = m² − 36 = 0, c'est-à-dire m = 6 ou m = −6.",
+      "step_by_step_solution": [
+        "Δ = m² − 4 × 1 × 9 = m² − 36.",
+        "Une unique solution équivaut à Δ = 0 : m² = 36.",
+        "m = 6 ou m = −6."
+      ],
+      "hints": [
+        "Exprime Δ en fonction de m.",
+        "Combien de racines a le trinôme quand Δ = 0 ?"
+      ],
+      "common_errors": {
+        "6": "Oubli de la valeur négative.",
+        "m = 3 ou m = -3": "L'élève a écrit Δ = m² − 9."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Discuter selon un paramètre le nombre de solutions"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.c04",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x² + 3x = 2x + 12.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 3 ou x = -4"
+      },
+      "solution": "On se ramène à x² + x − 12 = 0. Δ = 1 + 48 = 49 : x = (−1 + 7)/2 = 3 et x = (−1 − 7)/2 = −4.",
+      "step_by_step_solution": [
+        "On regroupe tout dans un membre : x² + x − 12 = 0.",
+        "Δ = 49, √Δ = 7.",
+        "Les solutions sont x = 3 ou x = −4."
+      ],
+      "hints": [
+        "Ramène tout dans le premier membre avant de calculer Δ.",
+        "Vérifie tes solutions dans l'équation de départ."
+      ],
+      "common_errors": {
+        "x = -3 ou x = 4": "Erreur de signe sur −b.",
+        "x = 4 ou x = -3": "Erreur de regroupement des termes."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Se ramener à une équation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.c05",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "Quel est l'ensemble des solutions dans ℝ de l'inéquation −2x² + 5x − 2 ⩾ 0 ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 0
+      },
+      "solution": "Δ = 25 − 16 = 9, racines x = (−5 + 3)/(−4) = 1/2 et x = (−5 − 3)/(−4) = 2. a = −2 < 0 : le trinôme est positif entre ses racines, bornes comprises. S = [1/2 ; 2].",
+      "step_by_step_solution": [
+        "Racines : 1/2 et 2.",
+        "a < 0 : le trinôme est positif entre ses racines.",
+        "S = [1/2 ; 2]"
+      ],
+      "hints": [
+        "Attention au signe de a.",
+        "L'inégalité est large : les racines sont solutions."
+      ],
+      "common_errors": {
+        "1": "C'est l'ensemble où le trinôme est négatif ou nul.",
+        "2": "Bornes exclues à tort (inégalité large).",
+        "3": "Erreur de signe sur les racines."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Résoudre une inéquation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "choices": [
+        "[1/2 ; 2]",
+        "]−∞ ; 1/2] ∪ [2 ; +∞[",
+        "]1/2 ; 2[",
+        "[−2 ; −1/2]"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.x01",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un rectangle a un périmètre de 26 m et une aire de 40 m². Quelle est la longueur de son plus grand côté, en m ?",
+      "expected_answer": {
+        "kind": "QUANTITY",
+        "value": 8,
+        "unit": "m"
+      },
+      "solution": "Si x est un côté, l'autre vaut 13 − x et x(13 − x) = 40, soit x² − 13x + 40 = 0. Δ = 169 − 160 = 9 : x = 5 ou x = 8. Les côtés mesurent 5 m et 8 m ; le plus grand côté mesure 8 m.",
+      "step_by_step_solution": [
+        "Demi-périmètre : 13 m, donc les côtés sont x et 13 − x.",
+        "x(13 − x) = 40 donne x² − 13x + 40 = 0, Δ = 9, racines 5 et 8.",
+        "Le plus grand côté mesure 8 m."
+      ],
+      "hints": [
+        "Exprime la largeur en fonction de la longueur grâce au périmètre.",
+        "Traduis l'aire par une équation du second degré."
+      ],
+      "common_errors": {
+        "5 m": "L'élève a donné le plus petit côté.",
+        "13 m": "L'élève a pris le demi-périmètre."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Modéliser par une équation du second degré"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.x02",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Résoudre dans ℝ l'équation x⁴ − 5x² + 4 = 0 (on pourra poser X = x²).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = -2 ou x = -1 ou x = 1 ou x = 2"
+      },
+      "solution": "Avec X = x² : X² − 5X + 4 = 0, Δ = 9, X = 1 ou X = 4. Puis x² = 1 donne x = ±1, x² = 4 donne x = ±2. Les solutions sont x = −2 ou x = −1 ou x = 1 ou x = 2.",
+      "step_by_step_solution": [
+        "X = x² vérifie X² − 5X + 4 = 0, donc X = 1 ou X = 4.",
+        "x² = 1 ou x² = 4.",
+        "x = −2 ou x = −1 ou x = 1 ou x = 2."
+      ],
+      "hints": [
+        "Pose X = x² : tu obtiens une équation du second degré en X.",
+        "N'oublie pas de revenir à x : chaque X > 0 donne deux valeurs de x."
+      ],
+      "common_errors": {
+        "x = 1 ou x = 4": "L'élève a donné les valeurs de X, pas de x.",
+        "x = 1 ou x = 2": "Oubli des solutions négatives."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Se ramener au second degré par changement de variable"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.second-degre.x03",
+      "notion_id": "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "On considère f(x) = −2x² + 12x − 7. En utilisant la forme canonique, déterminer le maximum de f sur ℝ.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "11"
+      },
+      "solution": "f(x) = −2(x² − 6x) − 7 = −2[(x − 3)² − 9] − 7 = −2(x − 3)² + 11. Comme −2(x − 3)² ⩽ 0, f(x) ⩽ 11, avec égalité pour x = 3 : le maximum vaut 11.",
+      "step_by_step_solution": [
+        "f(x) = −2(x − 3)² + 11.",
+        "−2(x − 3)² ⩽ 0 pour tout x, et vaut 0 pour x = 3.",
+        "Le maximum de f est 11."
+      ],
+      "hints": [
+        "Factorise par −2 les termes en x.",
+        "Le maximum est atteint en α = −b/(2a)."
+      ],
+      "common_errors": {
+        "3": "L'élève a donné l'abscisse du maximum au lieu de sa valeur.",
+        "-7": "L'élève a donné f(0)."
+      },
+      "remediation": "Pour ax² + bx + c (a ≠ 0) : Δ = b² − 4ac. Si Δ > 0, deux racines x = (−b − √Δ)/(2a) et x = (−b + √Δ)/(2a) ; si Δ = 0, une racine double −b/(2a) ; si Δ < 0, aucune racine réelle. Forme canonique : a(x − α)² + β avec α = −b/(2a) et β = f(α). Signe : le trinôme est du signe de a, sauf entre ses racines (lorsqu'elles existent). Toujours vérifier une racine en la remplaçant dans l'expression.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Déterminer un extremum par la forme canonique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.forme-canonique-dune-fonction-polynome-du-second-degre-discriminant-fa"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.d01",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = 4x³ sur ℝ. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "12x^2"
+      },
+      "solution": "(x³)' = 3x², donc f′(x) = 4 × 3x² = 12x².",
+      "step_by_step_solution": [
+        "(xⁿ)' = nxⁿ⁻¹ avec n = 3.",
+        "(ku)' = ku' : on garde le coefficient 4.",
+        "f′(x) = 12x²."
+      ],
+      "hints": [
+        "Dérivée de x³ ?",
+        "Le coefficient multiplicatif se conserve."
+      ],
+      "common_errors": {
+        "12x^3": "L'élève n'a pas diminué l'exposant.",
+        "3x^2": "L'élève a oublié le coefficient 4."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Dériver une fonction puissance"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.d02",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = 5x² − 3x + 7 sur ℝ. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10x - 3"
+      },
+      "solution": "f′(x) = 5 × 2x − 3 + 0 = 10x − 3.",
+      "step_by_step_solution": [
+        "(x²)' = 2x, (x)' = 1, et la dérivée d'une constante est 0.",
+        "f′(x) = 5 × 2x − 3 × 1 + 0.",
+        "f′(x) = 10x − 3."
+      ],
+      "hints": [
+        "Dérive terme à terme.",
+        "Que devient la constante 7 ?"
+      ],
+      "common_errors": {
+        "10x + 4": "L'élève a gardé la constante 7.",
+        "5x - 3": "L'élève a oublié le facteur 2."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Dériver une somme"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.d03",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = 1/x + 2x sur ]0 ; +∞[. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-1/x^2 + 2"
+      },
+      "solution": "(1/x)' = −1/x² et (2x)' = 2, donc f′(x) = −1/x² + 2.",
+      "step_by_step_solution": [
+        "(1/x)' = −1/x².",
+        "(2x)' = 2.",
+        "f′(x) = −1/x² + 2."
+      ],
+      "hints": [
+        "Connais-tu la dérivée de la fonction inverse ?",
+        "Dérive chaque terme séparément."
+      ],
+      "common_errors": {
+        "1/x^2 + 2": "Oubli du signe moins dans (1/x)'.",
+        "-1/x^2 + 2x": "L'élève n'a pas dérivé 2x."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Dériver la fonction inverse",
+        "Dériver une somme"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.d04",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = 3√x sur ]0 ; +∞[. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3/(2*sqrt(x))"
+      },
+      "solution": "(√x)' = 1/(2√x), donc f′(x) = 3 × 1/(2√x) = 3/(2√x).",
+      "step_by_step_solution": [
+        "(√x)' = 1/(2√x) sur ]0 ; +∞[.",
+        "On multiplie par 3.",
+        "f′(x) = 3/(2√x)."
+      ],
+      "hints": [
+        "Dérivée de la racine carrée ?",
+        "Le coefficient 3 se conserve."
+      ],
+      "common_errors": {
+        "3/sqrt(x)": "L'élève a oublié le 2 au dénominateur.",
+        "3*sqrt(x)/2": "L'élève a confondu √x et 1/√x."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Dériver la fonction racine carrée"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.d05",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = x³ − 2x sur ℝ. Calculer le nombre dérivé f′(2).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "10"
+      },
+      "solution": "f′(x) = 3x² − 2, donc f′(2) = 3 × 4 − 2 = 10.",
+      "step_by_step_solution": [
+        "f′(x) = 3x² − 2.",
+        "f′(2) = 3 × 2² − 2 = 12 − 2.",
+        "f′(2) = 10."
+      ],
+      "hints": [
+        "Calcule d'abord f′(x), puis remplace x par 2.",
+        "Ne confonds pas f(2) et f′(2)."
+      ],
+      "common_errors": {
+        "4": "L'élève a calculé f(2).",
+        "12": "L'élève a oublié la dérivée de −2x."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer un nombre dérivé à partir de f′"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.a01",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = (2x + 1)(x² − 3) sur ℝ. Déterminer f′(x) sous forme développée réduite.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "6x^2 + 2x - 6",
+        "required_form": "developpee"
+      },
+      "solution": "u = 2x + 1, v = x² − 3, u' = 2, v' = 2x. f′(x) = 2(x² − 3) + (2x + 1)(2x) = 2x² − 6 + 4x² + 2x = 6x² + 2x − 6.",
+      "step_by_step_solution": [
+        "u' = 2 et v' = 2x.",
+        "f′(x) = u'v + uv' = 2(x² − 3) + (2x + 1) × 2x.",
+        "f′(x) = 6x² + 2x − 6."
+      ],
+      "hints": [
+        "C'est un produit : (uv)' = u'v + uv'.",
+        "Développe et réduis à la fin."
+      ],
+      "common_errors": {
+        "4x": "L'élève a calculé u'v' (erreur classique).",
+        "6x^2 + 2x - 3": "Erreur en développant 2(x² − 3)."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Dériver un produit"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.a02",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = (3x − 1)/(x + 2) sur ]−2 ; +∞[. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "7/(x + 2)^2"
+      },
+      "solution": "u = 3x − 1, v = x + 2, u' = 3, v' = 1. f′(x) = (3(x + 2) − (3x − 1))/(x + 2)² = 7/(x + 2)².",
+      "step_by_step_solution": [
+        "u' = 3 et v' = 1.",
+        "f′(x) = (3(x + 2) − 1 × (3x − 1))/(x + 2)².",
+        "f′(x) = 7/(x + 2)²."
+      ],
+      "hints": [
+        "C'est un quotient : (u/v)' = (u'v − uv')/v².",
+        "Attention au signe devant uv'."
+      ],
+      "common_errors": {
+        "3": "L'élève a calculé u'/v'.",
+        "-7/(x + 2)^2": "L'élève a calculé uv' − u'v."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Dériver un quotient"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.a03",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = x√x sur ]0 ; +∞[. Déterminer f′(x) et l'écrire le plus simplement possible.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3*sqrt(x)/2"
+      },
+      "solution": "f′(x) = 1 × √x + x × 1/(2√x) = √x + √x/2 = (3/2)√x.",
+      "step_by_step_solution": [
+        "u = x, v = √x ; u' = 1 et v' = 1/(2√x).",
+        "f′(x) = √x + x/(2√x), et x/√x = √x.",
+        "f′(x) = 3√x/2."
+      ],
+      "hints": [
+        "Produit de x par √x.",
+        "Simplifie x/√x."
+      ],
+      "common_errors": {
+        "1/(2*sqrt(x))": "L'élève a calculé u'v'.",
+        "sqrt(x)": "L'élève a oublié le terme uv'."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Dériver un produit",
+        "Simplifier une expression avec √x"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.a04",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = 1/(x² + 1) sur ℝ. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-2x/(x^2 + 1)^2"
+      },
+      "solution": "Avec v = x² + 1 (qui ne s'annule pas), v' = 2x et (1/v)' = −v'/v², donc f′(x) = −2x/(x² + 1)².",
+      "step_by_step_solution": [
+        "v(x) = x² + 1 et v'(x) = 2x.",
+        "(1/v)' = −v'/v².",
+        "f′(x) = −2x/(x² + 1)²."
+      ],
+      "hints": [
+        "Utilise la dérivée de l'inverse d'une fonction.",
+        "N'oublie pas le facteur v'."
+      ],
+      "common_errors": {
+        "-1/(x^2 + 1)^2": "L'élève a oublié v'.",
+        "2x/(x^2 + 1)^2": "Oubli du signe moins."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Dériver l'inverse d'une fonction"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.a05",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = 2x⁴ − 3/x sur ]0 ; +∞[. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "8x^3 + 3/x^2"
+      },
+      "solution": "(2x⁴)' = 8x³ et (−3/x)' = −3 × (−1/x²) = 3/x². Donc f′(x) = 8x³ + 3/x².",
+      "step_by_step_solution": [
+        "(x⁴)' = 4x³, donc (2x⁴)' = 8x³.",
+        "(1/x)' = −1/x², donc (−3/x)' = 3/x².",
+        "f′(x) = 8x³ + 3/x²."
+      ],
+      "hints": [
+        "Dérive chaque terme.",
+        "Attention au produit de deux signes moins."
+      ],
+      "common_errors": {
+        "8x^3 - 3/x^2": "Erreur de signe sur (−3/x)'.",
+        "8x^4 + 3/x^2": "L'élève n'a pas diminué l'exposant."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Dériver une somme de fonctions de référence"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.c01",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = (x² − 1)/(x² + 1) sur ℝ. Déterminer f′(x) sous forme simplifiée.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "4x/(x^2 + 1)^2"
+      },
+      "solution": "u' = 2x, v' = 2x. f′(x) = (2x(x² + 1) − 2x(x² − 1))/(x² + 1)² = (2x³ + 2x − 2x³ + 2x)/(x² + 1)² = 4x/(x² + 1)².",
+      "step_by_step_solution": [
+        "u = x² − 1, v = x² + 1, u' = v' = 2x.",
+        "Numérateur : 2x(x² + 1) − (x² − 1)(2x) = 4x.",
+        "f′(x) = 4x/(x² + 1)²."
+      ],
+      "hints": [
+        "Formule du quotient.",
+        "Développe le numérateur avec soin."
+      ],
+      "common_errors": {
+        "1": "L'élève a calculé u'/v'.",
+        "-4x/(x^2 + 1)^2": "Erreur de signe au numérateur."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Dériver un quotient"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.c02",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = (2x − 3)√x sur ]0 ; +∞[. Déterminer f′(x) sous la forme d'un seul quotient.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "(6x - 3)/(2*sqrt(x))"
+      },
+      "solution": "f′(x) = 2√x + (2x − 3)/(2√x) = (4x + 2x − 3)/(2√x) = (6x − 3)/(2√x).",
+      "step_by_step_solution": [
+        "u = 2x − 3, u' = 2 ; v = √x, v' = 1/(2√x).",
+        "f′(x) = 2√x + (2x − 3)/(2√x), et 2√x = 4x/(2√x).",
+        "f′(x) = (6x − 3)/(2√x)."
+      ],
+      "hints": [
+        "Formule du produit.",
+        "Mets les deux termes au même dénominateur 2√x."
+      ],
+      "common_errors": {
+        "1/sqrt(x)": "L'élève a calculé u'v'.",
+        "(2x - 3)/(2*sqrt(x))": "Oubli du terme u'v."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Dériver un produit",
+        "Réduire au même dénominateur"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.c03",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = x²/(x − 1) sur ]1 ; +∞[. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "(x^2 - 2x)/(x - 1)^2"
+      },
+      "solution": "f′(x) = (2x(x − 1) − x² × 1)/(x − 1)² = (2x² − 2x − x²)/(x − 1)² = (x² − 2x)/(x − 1)².",
+      "step_by_step_solution": [
+        "u = x², u' = 2x ; v = x − 1, v' = 1.",
+        "Numérateur : 2x(x − 1) − x² = x² − 2x.",
+        "f′(x) = (x² − 2x)/(x − 1)²."
+      ],
+      "hints": [
+        "Formule du quotient.",
+        "Numérateur : u'v − uv'."
+      ],
+      "common_errors": {
+        "2x": "L'élève a calculé u'/v'.",
+        "(3x^2 - 2x)/(x - 1)^2": "L'élève a additionné u'v et uv'."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Dériver un quotient"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.c04",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = (x + 1)/(x − 2) sur ]2 ; +∞[. Calculer f′(3).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-3"
+      },
+      "solution": "f′(x) = ((x − 2) − (x + 1))/(x − 2)² = −3/(x − 2)², donc f′(3) = −3/1 = −3.",
+      "step_by_step_solution": [
+        "f′(x) = (1 × (x − 2) − (x + 1) × 1)/(x − 2)².",
+        "f′(x) = −3/(x − 2)².",
+        "f′(3) = −3."
+      ],
+      "hints": [
+        "Calcule f′(x) avec la formule du quotient.",
+        "Remplace ensuite x par 3."
+      ],
+      "common_errors": {
+        "3": "Erreur de signe dans u'v − uv'.",
+        "4": "L'élève a calculé f(3)."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Dériver un quotient",
+        "Calculer un nombre dérivé"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.c05",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = x·eˣ sur ℝ. Déterminer f′(x) sous forme factorisée (écrire exp(x) pour eˣ).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "(x + 1)*exp(x)"
+      },
+      "solution": "f′(x) = 1 × eˣ + x × eˣ = (x + 1)eˣ, soit (x + 1)exp(x).",
+      "step_by_step_solution": [
+        "u = x, u' = 1 ; v = eˣ, v' = eˣ.",
+        "f′(x) = eˣ + x eˣ.",
+        "f′(x) = (x + 1)exp(x)."
+      ],
+      "hints": [
+        "(eˣ)' = eˣ.",
+        "Utilise (uv)' = u'v + uv' puis factorise par eˣ."
+      ],
+      "common_errors": {
+        "exp(x)": "L'élève a calculé u'v'.",
+        "x*exp(x)": "L'élève a oublié le terme u'v."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Dériver un produit avec l'exponentielle"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.x01",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Soit f(x) = (x² + 3x)/(2x − 1) sur ]1/2 ; +∞[. Déterminer f′(x).",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "(2x^2 - 2x - 3)/(2x - 1)^2"
+      },
+      "solution": "u' = 2x + 3, v' = 2. Numérateur : (2x + 3)(2x − 1) − 2(x² + 3x) = 4x² + 4x − 3 − 2x² − 6x = 2x² − 2x − 3. f′(x) = (2x² − 2x − 3)/(2x − 1)².",
+      "step_by_step_solution": [
+        "u = x² + 3x, u' = 2x + 3 ; v = 2x − 1, v' = 2.",
+        "u'v − uv' = (2x + 3)(2x − 1) − 2(x² + 3x) = 2x² − 2x − 3.",
+        "f′(x) = (2x² − 2x − 3)/(2x − 1)²."
+      ],
+      "hints": [
+        "Formule du quotient.",
+        "Développe séparément (2x + 3)(2x − 1) et 2(x² + 3x)."
+      ],
+      "common_errors": {
+        "(2x + 3)/2": "L'élève a calculé u'/v'.",
+        "(6x^2 + 10x - 3)/(2x - 1)^2": "L'élève a additionné u'v et uv'."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Dériver un quotient"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.x02",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Soit a un réel et f(x) = ax² + 3x sur ℝ. Déterminer a pour que f′(1) = 7.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2"
+      },
+      "solution": "f′(x) = 2ax + 3, donc f′(1) = 2a + 3. 2a + 3 = 7 donne a = 2.",
+      "step_by_step_solution": [
+        "f′(x) = 2ax + 3.",
+        "f′(1) = 2a + 3 = 7.",
+        "a = 2."
+      ],
+      "hints": [
+        "a est une constante : (ax²)' = 2ax.",
+        "Écris l'équation f′(1) = 7."
+      ],
+      "common_errors": {
+        "4": "L'élève a résolu f(1) = 7.",
+        "5": "L'élève a écrit f′(x) = ax + 3 (sans le facteur 2)."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Utiliser une dérivée avec un paramètre"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.derivation.x03",
+      "notion_id": "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "REASONING",
+      "statement": "Soit f(x) = x³ − 6x² + 9x + 1 sur ℝ. Déterminer les réels x pour lesquels f′(x) = 0.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "x = 1 ou x = 3"
+      },
+      "solution": "f′(x) = 3x² − 12x + 9 = 3(x² − 4x + 3) = 3(x − 1)(x − 3). f′(x) = 0 pour x = 1 ou x = 3.",
+      "step_by_step_solution": [
+        "f′(x) = 3x² − 12x + 9.",
+        "x² − 4x + 3 = 0 : Δ = 4, racines 1 et 3.",
+        "f′(x) = 0 pour x = 1 ou x = 3."
+      ],
+      "hints": [
+        "Calcule f′(x) puis résous une équation du second degré.",
+        "Tu peux d'abord factoriser par 3."
+      ],
+      "common_errors": {
+        "x = -1 ou x = -3": "Erreur de signe sur les racines.",
+        "x = 0 ou x = 4": "L'élève a factorisé 3x² − 12x en oubliant le 9."
+      },
+      "remediation": "Formulaire : (xⁿ)' = nxⁿ⁻¹ ; (1/x)' = −1/x² ; (√x)' = 1/(2√x) sur ]0 ; +∞[ ; (eˣ)' = eˣ. Opérations : (u + v)' = u' + v' ; (ku)' = ku' ; (uv)' = u'v + uv' ; (1/v)' = −v'/v² ; (u/v)' = (u'v − uv')/v². Méthode : identifier la forme (somme, produit, quotient), nommer u et v, calculer u' et v', appliquer la formule puis simplifier. Erreur classique : (uv)' n'est pas u'v'. Pour saisir eˣ, écrire exp(x).",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une dérivée",
+        "Résoudre f′(x) = 0"
+      ],
+      "source_notions": [
+        "MATHS.1RE.AN.dans-des-cas-simples-calculer-une-fonction-derivee-en-utilisant-les-pr"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.d01",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "La suite (uₙ) est arithmétique, de premier terme u₀ = 5 et de raison 3. Exprimer uₙ en fonction de n.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5 + 3n"
+      },
+      "solution": "Pour une suite arithmétique, uₙ = u₀ + nr, donc uₙ = 5 + 3n.",
+      "step_by_step_solution": [
+        "Terme général : uₙ = u₀ + n × r.",
+        "u₀ = 5 et r = 3.",
+        "uₙ = 5 + 3n."
+      ],
+      "hints": [
+        "On ajoute la raison à chaque étape.",
+        "Combien de fois a-t-on ajouté r pour passer de u₀ à uₙ ?"
+      ],
+      "common_errors": {
+        "5*3^n": "Confusion avec une suite géométrique.",
+        "3 + 5n": "Premier terme et raison inversés."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Exprimer le terme général d'une suite arithmétique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.d02",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "La suite (vₙ) est géométrique, de premier terme v₀ = 2 et de raison 3. Exprimer vₙ en fonction de n.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2*3^n"
+      },
+      "solution": "Pour une suite géométrique, vₙ = v₀ × qⁿ, donc vₙ = 2 × 3ⁿ.",
+      "step_by_step_solution": [
+        "Terme général : vₙ = v₀ × qⁿ.",
+        "v₀ = 2 et q = 3.",
+        "vₙ = 2 × 3ⁿ, c'est-à-dire vₙ = 2 × 3^n."
+      ],
+      "hints": [
+        "On multiplie par la raison à chaque étape.",
+        "Combien de fois a-t-on multiplié par q pour passer de v₀ à vₙ ?"
+      ],
+      "common_errors": {
+        "6^n": "L'élève a écrit (2 × 3)ⁿ.",
+        "2 + 3n": "Confusion avec une suite arithmétique."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Exprimer le terme général d'une suite géométrique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.d03",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "La suite (uₙ)ₙ⩾₁ est arithmétique, avec u₁ = 4 et de raison −2. Calculer u₁₀.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "-14"
+      },
+      "solution": "u₁₀ = u₁ + (10 − 1) × (−2) = 4 − 18 = −14.",
+      "step_by_step_solution": [
+        "uₙ = u₁ + (n − 1)r pour une suite qui commence à u₁.",
+        "u₁₀ = 4 + 9 × (−2).",
+        "u₁₀ = −14."
+      ],
+      "hints": [
+        "Le premier terme est u₁, pas u₀.",
+        "De u₁ à u₁₀, combien de fois ajoute-t-on la raison ?"
+      ],
+      "common_errors": {
+        "-16": "L'élève a ajouté 10 fois la raison au lieu de 9.",
+        "-20": "L'élève a calculé 10 × (−2)."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer un terme d'une suite arithmétique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.d04",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "QCM",
+      "statement": "La suite (vₙ) est géométrique, de premier terme v₀ = 5 et de raison 0,5. Quel est son sens de variation ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "vₙ₊₁ − vₙ = vₙ(0,5 − 1) = −0,5vₙ < 0 car vₙ > 0 : la suite est décroissante.",
+      "step_by_step_solution": [
+        "vₙ = 5 × 0,5ⁿ > 0 pour tout n.",
+        "vₙ₊₁ − vₙ = −0,5 vₙ < 0.",
+        "La suite est décroissante."
+      ],
+      "hints": [
+        "Étudie le signe de vₙ₊₁ − vₙ.",
+        "Multiplier un nombre positif par 0,5 le diminue-t-il ?"
+      ],
+      "common_errors": {
+        "0": "Une raison positive ne suffit pas : ici 0 < q < 1.",
+        "2": "La suite n'est pas constante car q ≠ 1.",
+        "3": "Tous les termes ont le même signe : la suite est monotone."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Déterminer le sens de variation d'une suite géométrique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "choices": [
+        "croissante",
+        "décroissante",
+        "constante",
+        "ni croissante ni décroissante"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.d05",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "DISCOVERY",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la somme S = 1 + 2 + 3 + … + 100.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "5050"
+      },
+      "solution": "1 + 2 + … + n = n(n + 1)/2, donc S = 100 × 101 / 2 = 5050.",
+      "step_by_step_solution": [
+        "On utilise 1 + 2 + … + n = n(n + 1)/2 avec n = 100.",
+        "S = 100 × 101 / 2.",
+        "S = 5050."
+      ],
+      "hints": [
+        "Associe le premier et le dernier terme, le deuxième et l'avant-dernier…",
+        "Combien de paires de somme 101 obtiens-tu ?"
+      ],
+      "common_errors": {
+        "10100": "Oubli de la division par 2.",
+        "5000": "L'élève a calculé 100 × 100 / 2."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Calculer 1 + 2 + … + n"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.a01",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La suite (uₙ) est arithmétique, avec u₃ = 11 et u₇ = 23. Exprimer uₙ en fonction de n.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2 + 3n"
+      },
+      "solution": "u₇ − u₃ = 4r = 12, donc r = 3. u₀ = u₃ − 3r = 11 − 9 = 2. Donc uₙ = 2 + 3n.",
+      "step_by_step_solution": [
+        "u₇ = u₃ + 4r, donc 4r = 12 et r = 3.",
+        "u₀ = u₃ − 3 × 3 = 2.",
+        "uₙ = 2 + 3n."
+      ],
+      "hints": [
+        "Combien de fois ajoute-t-on r pour passer de u₃ à u₇ ?",
+        "Calcule ensuite u₀."
+      ],
+      "common_errors": {
+        "11 + 3n": "L'élève a pris u₃ pour premier terme.",
+        "2 + 12n": "L'élève a pris r = u₇ − u₃."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer une suite arithmétique à partir de deux termes"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.a02",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "La suite (wₙ) est géométrique de raison strictement positive, avec w₂ = 12 et w₄ = 48. Exprimer wₙ en fonction de n.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "3*2^n"
+      },
+      "solution": "w₄ = w₂ × q², donc q² = 4 et q = 2 (q > 0). w₀ = w₂/q² = 12/4 = 3. Donc wₙ = 3 × 2ⁿ.",
+      "step_by_step_solution": [
+        "w₄ = w₂ × q², donc q² = 48/12 = 4, et q = 2 car q > 0.",
+        "w₀ = w₂ / q² = 3.",
+        "wₙ = 3 × 2ⁿ, c'est-à-dire wₙ = 3 × 2^n."
+      ],
+      "hints": [
+        "De w₂ à w₄, on multiplie deux fois par q.",
+        "Divise ensuite w₂ par q² pour obtenir w₀."
+      ],
+      "common_errors": {
+        "12*2^n": "L'élève a pris w₂ pour premier terme.",
+        "3*4^n": "L'élève a pris q = 4 au lieu de q² = 4."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Déterminer une suite géométrique à partir de deux termes"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.a03",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On pose uₙ = 3 + 2n pour tout entier naturel n. Calculer S = u₀ + u₁ + … + u₂₀.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "483"
+      },
+      "solution": "(uₙ) est arithmétique de raison 2. S compte 21 termes, u₀ = 3 et u₂₀ = 43 : S = 21 × (3 + 43)/2 = 483.",
+      "step_by_step_solution": [
+        "De u₀ à u₂₀, il y a 21 termes.",
+        "u₀ = 3 et u₂₀ = 3 + 40 = 43.",
+        "S = 21 × 46 / 2 = 483."
+      ],
+      "hints": [
+        "Compte soigneusement le nombre de termes.",
+        "Somme = nombre de termes × (premier + dernier)/2."
+      ],
+      "common_errors": {
+        "460": "L'élève a compté 20 termes au lieu de 21.",
+        "966": "Oubli de la division par 2."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une somme de termes d'une suite arithmétique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.a04",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la somme S = 1 + 2 + 4 + 8 + … + 2¹⁰.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2047"
+      },
+      "solution": "Somme de termes d'une suite géométrique de raison 2 : S = (2¹¹ − 1)/(2 − 1) = 2047.",
+      "step_by_step_solution": [
+        "1 + q + … + qⁿ = (qⁿ⁺¹ − 1)/(q − 1) avec q = 2 et n = 10.",
+        "S = (2¹¹ − 1)/1.",
+        "S = 2047."
+      ],
+      "hints": [
+        "Reconnais les puissances successives de 2.",
+        "Combien de termes compte la somme ?"
+      ],
+      "common_errors": {
+        "1023": "L'élève a utilisé 2¹⁰ − 1 (un terme oublié).",
+        "2048": "Oubli du « − 1 »."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Calculer une somme de termes d'une suite géométrique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.a05",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "APPLICATION",
+      "exercise_type": "QCM",
+      "statement": "On pose uₙ = 7 − 4n pour tout entier naturel n. Quel est le sens de variation de (uₙ) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 1
+      },
+      "solution": "uₙ₊₁ − uₙ = 7 − 4(n + 1) − 7 + 4n = −4 < 0 : la suite est décroissante (arithmétique de raison −4).",
+      "step_by_step_solution": [
+        "uₙ₊₁ − uₙ = −4.",
+        "−4 < 0.",
+        "La suite est décroissante."
+      ],
+      "hints": [
+        "Calcule uₙ₊₁ − uₙ.",
+        "Quelle est la raison de cette suite arithmétique ?"
+      ],
+      "common_errors": {
+        "0": "Le premier terme positif ne donne pas le sens de variation.",
+        "2": "La raison n'est pas nulle.",
+        "3": "Une suite arithmétique est toujours monotone."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 2,
+      "skills_tested": [
+        "Déterminer le sens de variation d'une suite arithmétique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "choices": [
+        "croissante",
+        "décroissante",
+        "constante",
+        "ni croissante ni décroissante"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.c01",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Un salaire mensuel de 1 800 euros augmente de 3 % chaque année. On note sₙ le salaire après n années (s₀ = 1 800). Calculer s₅, en euros, arrondi au centime.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "2086,69"
+      },
+      "solution": "Augmenter de 3 % revient à multiplier par 1,03 : (sₙ) est géométrique de raison 1,03. s₅ = 1 800 × 1,03⁵ ≈ 2086,69 euros.",
+      "step_by_step_solution": [
+        "sₙ = 1 800 × 1,03ⁿ.",
+        "s₅ = 1 800 × 1,03⁵.",
+        "s₅ ≈ 2086,69 euros."
+      ],
+      "hints": [
+        "Par quel nombre multiplie-t-on quand on augmente de 3 % ?",
+        "La suite est géométrique : utilise sₙ = s₀ × qⁿ."
+      ],
+      "common_errors": {
+        "2070": "L'élève a ajouté 3 % du salaire initial chaque année (5 × 54).",
+        "1854": "L'élève n'a appliqué qu'une seule hausse."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Modéliser une évolution à taux constant par une suite géométrique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.c02",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer S = 3 + 6 + 12 + … + 384, somme de termes consécutifs d'une suite géométrique.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "765"
+      },
+      "solution": "Premier terme 3, raison 2, 384 = 3 × 2⁷ : il y a 8 termes. S = 3 × (2⁸ − 1)/(2 − 1) = 765.",
+      "step_by_step_solution": [
+        "384 = 3 × 128 = 3 × 2⁷ : les termes vont de 3 × 2⁰ à 3 × 2⁷, soit 8 termes.",
+        "S = 3 × (1 + 2 + … + 2⁷) = 3 × (2⁸ − 1).",
+        "S = 765."
+      ],
+      "hints": [
+        "Détermine la raison puis le nombre de termes.",
+        "Factorise par le premier terme."
+      ],
+      "common_errors": {
+        "381": "L'élève a compté 7 termes.",
+        "768": "Oubli du « − 1 » dans la formule."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 4,
+      "skills_tested": [
+        "Calculer une somme de termes d'une suite géométrique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.c03",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "PROBLEM",
+      "statement": "Dans une salle de spectacle, le premier rang compte 20 fauteuils et chaque rang compte 3 fauteuils de plus que le précédent. La salle a 15 rangs. Combien de fauteuils compte-t-elle au total ?",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "615"
+      },
+      "solution": "Le nombre de fauteuils par rang est arithmétique de raison 3 : rang 1 : 20, rang 15 : 20 + 14 × 3 = 62. Total : 15 × (20 + 62)/2 = 615.",
+      "step_by_step_solution": [
+        "Le rang k compte 20 + (k − 1) × 3 fauteuils ; le 15ᵉ rang en compte 62.",
+        "Somme de 15 termes : 15 × (20 + 62)/2.",
+        "La salle compte 615 fauteuils."
+      ],
+      "hints": [
+        "Modélise le nombre de fauteuils par rang par une suite arithmétique.",
+        "Calcule le nombre de fauteuils du dernier rang."
+      ],
+      "common_errors": {
+        "62": "L'élève a donné le nombre de fauteuils du dernier rang.",
+        "637,5": "L'élève a pris 20 + 15 × 3 pour le dernier rang."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Modéliser une croissance linéaire",
+        "Calculer une somme de termes"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.c04",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "QCM",
+      "statement": "On pose vₙ = (−2)ⁿ pour tout entier naturel n. Quel est le sens de variation de (vₙ) ?",
+      "expected_answer": {
+        "kind": "CHOICE",
+        "value": 3
+      },
+      "solution": "v₀ = 1, v₁ = −2, v₂ = 4, v₃ = −8 : les termes changent de signe, la suite n'est ni croissante ni décroissante.",
+      "step_by_step_solution": [
+        "v₀ = 1, v₁ = −2, v₂ = 4.",
+        "v₁ < v₀ mais v₂ > v₁.",
+        "La suite n'est ni croissante ni décroissante."
+      ],
+      "hints": [
+        "Calcule les premiers termes.",
+        "Une raison négative fait alterner les signes."
+      ],
+      "common_errors": {
+        "0": "v₁ < v₀ : la suite n'est pas croissante.",
+        "1": "v₂ > v₁ : la suite n'est pas décroissante.",
+        "2": "Les termes ne sont pas tous égaux."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Déterminer le sens de variation d'une suite géométrique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "choices": [
+        "croissante",
+        "décroissante",
+        "constante",
+        "ni croissante ni décroissante"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.c05",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "CONSOLIDATION",
+      "exercise_type": "CALCULATION",
+      "statement": "On pose uₙ = 2 + 5n pour tout entier naturel n. Déterminer l'entier n tel que uₙ = 152.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "30"
+      },
+      "solution": "2 + 5n = 152 donne 5n = 150, puis n = 30.",
+      "step_by_step_solution": [
+        "On résout 2 + 5n = 152.",
+        "5n = 150.",
+        "n = 30."
+      ],
+      "hints": [
+        "Écris l'équation uₙ = 152.",
+        "Isole n."
+      ],
+      "common_errors": {
+        "31": "L'élève a compté les termes au lieu de donner l'indice.",
+        "154/5": "L'élève a ajouté 2 au lieu de le soustraire."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 3,
+      "skills_tested": [
+        "Résoudre une équation portant sur l'indice"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.x01",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "On pose uₙ = 4n − 1 pour tout entier naturel n. Calculer S = u₁₀ + u₁₁ + … + u₃₀.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1659"
+      },
+      "solution": "(uₙ) est arithmétique. De u₁₀ à u₃₀ il y a 21 termes ; u₁₀ = 39 et u₃₀ = 119. S = 21 × (39 + 119)/2 = 1659.",
+      "step_by_step_solution": [
+        "Nombre de termes : 30 − 10 + 1 = 21.",
+        "u₁₀ = 39 et u₃₀ = 119.",
+        "S = 21 × 158 / 2 = 1659."
+      ],
+      "hints": [
+        "De uₚ à uₙ, il y a n − p + 1 termes.",
+        "Somme = nombre de termes × (premier + dernier)/2."
+      ],
+      "common_errors": {
+        "1580": "L'élève a compté 20 termes.",
+        "3318": "Oubli de la division par 2."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une somme de termes consécutifs"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.x02",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "PROBLEM",
+      "statement": "Un capital de 1 000 euros est placé à intérêts composés au taux annuel de 5 %. On note cₙ le capital après n années. À l'aide de la calculatrice, déterminer le plus petit entier n tel que cₙ > 2 000.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "15"
+      },
+      "solution": "cₙ = 1 000 × 1,05ⁿ. c₁₄ ≈ 1 979,93 < 2 000 et c₁₅ ≈ 2 078,93 > 2 000 : le plus petit entier est n = 15.",
+      "step_by_step_solution": [
+        "(cₙ) est géométrique de raison 1,05 : cₙ = 1 000 × 1,05ⁿ.",
+        "Tableau de valeurs : c₁₄ ≈ 1 979,93 et c₁₅ ≈ 2 078,93.",
+        "Le plus petit entier cherché est n = 15."
+      ],
+      "hints": [
+        "Exprime cₙ en fonction de n.",
+        "Utilise le tableau de valeurs de la calculatrice ou un algorithme de seuil."
+      ],
+      "common_errors": {
+        "14": "L'élève a pris la dernière valeur inférieure à 2 000.",
+        "21": "L'élève a raisonné en intérêts simples (+50 par an)."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 6,
+      "skills_tested": [
+        "Modéliser par une suite géométrique",
+        "Déterminer un seuil"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    },
+    {
+      "exercise_id": "EX.MATHS.1RE.suites.x03",
+      "notion_id": "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l",
+      "subject": "MATHS",
+      "level": "1RE",
+      "difficulty": "ADVANCED",
+      "exercise_type": "CALCULATION",
+      "statement": "Calculer la valeur exacte de S = 1 + 1/2 + 1/4 + … + 1/2⁹.",
+      "expected_answer": {
+        "kind": "MATH_EXPR",
+        "value": "1023/512"
+      },
+      "solution": "S est la somme de 10 termes d'une suite géométrique de raison 1/2 : S = (1 − (1/2)¹⁰)/(1 − 1/2) = 2(1 − 1/1024) = 1023/512.",
+      "step_by_step_solution": [
+        "Il y a 10 termes : de (1/2)⁰ à (1/2)⁹.",
+        "S = (1 − (1/2)¹⁰)/(1/2) = 2 × 1023/1024.",
+        "S = 1023/512."
+      ],
+      "hints": [
+        "Utilise 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q).",
+        "Ici q = 1/2 et n = 9."
+      ],
+      "common_errors": {
+        "2047/1024": "L'élève a compté 11 termes.",
+        "2": "L'élève a donné la limite de la somme, pas sa valeur."
+      },
+      "remediation": "Suite arithmétique de raison r : uₙ₊₁ = uₙ + r, uₙ = u₀ + nr = uₚ + (n − p)r ; elle est croissante si r > 0, décroissante si r < 0. Somme de termes consécutifs : (nombre de termes) × (premier + dernier)/2 ; 1 + 2 + … + n = n(n + 1)/2. Suite géométrique de raison q : uₙ₊₁ = q·uₙ, uₙ = u₀·qⁿ ; 1 + q + … + qⁿ = (1 − qⁿ⁺¹)/(1 − q) pour q ≠ 1. Sens de variation : étudier le signe de uₙ₊₁ − uₙ. Bien compter les termes : de u₀ à uₙ il y en a n + 1.",
+      "estimated_time_min": 5,
+      "skills_tested": [
+        "Calculer une somme de termes d'une suite géométrique"
+      ],
+      "source_notions": [
+        "MATHS.1RE.ALG.pour-une-suite-arithmetique-ou-geometrique-calculer-le-terme-general-l"
+      ],
+      "generation_origin": "MODEL_ASSISTED_DRAFT",
+      "qa_status": "NOT_CHECKED",
+      "publication_status": "READY_FOR_REVIEW"
+    }
+  ]
+}
